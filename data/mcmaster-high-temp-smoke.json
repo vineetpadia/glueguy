@@ -1,0 +1,1234 @@
+{
+  "generated_at": "2026-04-17T00:38:30.285995+00:00",
+  "root_url": "https://www.mcmaster.com/products/glue/",
+  "seed_urls": [
+    "https://www.mcmaster.com/products/glue/glue-3~/high-temperature-glue/"
+  ],
+  "stats": {
+    "pages_crawled": 1,
+    "leaf_pages": 1,
+    "offers": 15,
+    "families": 11
+  },
+  "pages": [
+    {
+      "url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "table_count": 5,
+      "child_link_count": 0
+    }
+  ],
+  "families": [
+    {
+      "family_key": "3m_glue_in_aerosol_cans_27",
+      "family_name": "3M Glue in Aerosol Cans 27",
+      "manufacturer": "3M Glue in Aerosol Cans",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 11.25,
+      "best_price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Aerosol Can",
+      "sample_mix_ratio": null,
+      "sample_consistency": null,
+      "sample_for_joining": "Fabric, Metal, Plastic, Rubber, Wood"
+    },
+    {
+      "family_key": "elmer_s_glue_is_white_but_dries_clear_7516a1",
+      "family_name": "Elmer's glue is white, but dries clear. 7516A1",
+      "manufacturer": "Elmer's glue is white, but dries clear.",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 5.0,
+      "best_price_per_ml": 0.0242,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": null,
+      "sample_consistency": null,
+      "sample_for_joining": "Cardboard, Wood"
+    },
+    {
+      "family_key": "elmer_s_glue_is_white_but_dries_clear_7516a4",
+      "family_name": "Elmer's glue is white, but dries clear. 7516A4",
+      "manufacturer": "Elmer's glue is white, but dries clear.",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 32.51,
+      "best_price_per_ml": 0.0086,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Jug",
+      "sample_mix_ratio": null,
+      "sample_consistency": null,
+      "sample_for_joining": "Cardboard, Wood"
+    },
+    {
+      "family_key": "glue_sticks_66285a74",
+      "family_name": "Glue Sticks 66285A74",
+      "manufacturer": "Glue Sticks",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 3.29,
+      "best_price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Stick",
+      "sample_mix_ratio": null,
+      "sample_consistency": null,
+      "sample_for_joining": "Cardboard, Fabric"
+    },
+    {
+      "family_key": "gorilla_glue_gorilla_glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "manufacturer": "Gorilla Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 5,
+      "lowest_price_usd": 7.38,
+      "best_price_per_ml": 0.0392,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a11",
+      "family_name": "Wood Glue 7476A11",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 4.3,
+      "best_price_per_ml": 0.0182,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a12",
+      "family_name": "Wood Glue 7476A12",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 7.38,
+      "best_price_per_ml": 0.0156,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a14",
+      "family_name": "Wood Glue 7476A14",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 31.12,
+      "best_price_per_ml": 0.0082,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Jug",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a15",
+      "family_name": "Wood Glue 7476A15",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 162.61,
+      "best_price_per_ml": 0.0086,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Pail",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a16",
+      "family_name": "Wood Glue 7476A16",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 11.72,
+      "best_price_per_ml": 0.0124,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Jug",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    },
+    {
+      "family_key": "wood_glue_7476a19",
+      "family_name": "Wood Glue 7476A19",
+      "manufacturer": "Wood Glue",
+      "category_headings": [
+        "High-Temperature Glue"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/glue-3~/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 2.95,
+      "best_price_per_ml": 0.0249,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": null,
+      "sample_consistency": "Thick Liquid",
+      "sample_for_joining": "Wood"
+    }
+  ],
+  "offers": [
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": null,
+      "manufacturer": "Gorilla Glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "family_key": "gorilla_glue_gorilla_glue",
+      "fields": {
+        "size_fl_oz": "2",
+        "type": "Bottle",
+        "begins_to_harden_min": "10",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "-40",
+        "service_max_f": "210",
+        "color": "Beige",
+        "for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood",
+        "specs_met": "ANSI/HPVA HP-1 Type I",
+        "column_12": "7454A21",
+        "price_each_usd": "$7.38",
+        "column_14": "",
+        "mcmaster_part_no": "7454A21"
+      },
+      "raw_headers": [
+        "Size, fl.oz.",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.",
+        "Color",
+        "For Joining",
+        "Specs. Met",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7454A21/",
+          "text": "7454A21"
+        }
+      ],
+      "price_usd": 7.38,
+      "size_value": 2.0,
+      "size_unit": "fl_oz",
+      "package_ml": 59.15,
+      "price_per_ml": 0.1248,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": null,
+      "manufacturer": "Gorilla Glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "family_key": "gorilla_glue_gorilla_glue",
+      "fields": {
+        "size_fl_oz": "4",
+        "type": "Bottle",
+        "begins_to_harden_min": "10",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "-40",
+        "service_max_f": "210",
+        "color": "Beige",
+        "for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood",
+        "specs_met": "ANSI/HPVA HP-1 Type I",
+        "column_12": "7454A22",
+        "price_each_usd": "10.64",
+        "column_14": "",
+        "mcmaster_part_no": "7454A22"
+      },
+      "raw_headers": [
+        "Size, fl.oz.",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.",
+        "Color",
+        "For Joining",
+        "Specs. Met",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7454A22/",
+          "text": "7454A22"
+        }
+      ],
+      "price_usd": 10.64,
+      "size_value": 4.0,
+      "size_unit": "fl_oz",
+      "package_ml": 118.29,
+      "price_per_ml": 0.0899,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": null,
+      "manufacturer": "Gorilla Glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "family_key": "gorilla_glue_gorilla_glue",
+      "fields": {
+        "size_fl_oz": "8",
+        "type": "Bottle",
+        "begins_to_harden_min": "10",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "-40",
+        "service_max_f": "210",
+        "color": "Beige",
+        "for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood",
+        "specs_met": "ANSI/HPVA HP-1 Type I",
+        "column_12": "7454A23",
+        "price_each_usd": "17.91",
+        "column_14": "",
+        "mcmaster_part_no": "7454A23"
+      },
+      "raw_headers": [
+        "Size, fl.oz.",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.",
+        "Color",
+        "For Joining",
+        "Specs. Met",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7454A23/",
+          "text": "7454A23"
+        }
+      ],
+      "price_usd": 17.91,
+      "size_value": 8.0,
+      "size_unit": "fl_oz",
+      "package_ml": 236.59,
+      "price_per_ml": 0.0757,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": null,
+      "manufacturer": "Gorilla Glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "family_key": "gorilla_glue_gorilla_glue",
+      "fields": {
+        "size_fl_oz": "18",
+        "type": "Bottle",
+        "begins_to_harden_min": "10",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "-40",
+        "service_max_f": "210",
+        "color": "Beige",
+        "for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood",
+        "specs_met": "ANSI/HPVA HP-1 Type I",
+        "column_12": "7454A24",
+        "price_each_usd": "26.89",
+        "column_14": "",
+        "mcmaster_part_no": "7454A24"
+      },
+      "raw_headers": [
+        "Size, fl.oz.",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.",
+        "Color",
+        "For Joining",
+        "Specs. Met",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7454A24/",
+          "text": "7454A24"
+        }
+      ],
+      "price_usd": 26.89,
+      "size_value": 18.0,
+      "size_unit": "fl_oz",
+      "package_ml": 532.32,
+      "price_per_ml": 0.0505,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": null,
+      "manufacturer": "Gorilla Glue",
+      "family_name": "Gorilla Glue Gorilla Glue",
+      "family_key": "gorilla_glue_gorilla_glue",
+      "fields": {
+        "size_fl_oz": "36",
+        "type": "Bottle",
+        "begins_to_harden_min": "10",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "-40",
+        "service_max_f": "210",
+        "color": "Beige",
+        "for_joining": "Ceramic, Glass, Masonry, Metal, Plastic, Rubber, Wood",
+        "specs_met": "ANSI/HPVA HP-1 Type I",
+        "column_12": "7454A25",
+        "price_each_usd": "41.70",
+        "column_14": "",
+        "mcmaster_part_no": "7454A25"
+      },
+      "raw_headers": [
+        "Size, fl.oz.",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.",
+        "Color",
+        "For Joining",
+        "Specs. Met",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7454A25/",
+          "text": "7454A25"
+        }
+      ],
+      "price_usd": 41.7,
+      "size_value": 36.0,
+      "size_unit": "fl_oz",
+      "package_ml": 1064.65,
+      "price_per_ml": 0.0392,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A19",
+      "family_key": "wood_glue_7476a19",
+      "fields": {
+        "size": "4 fl. oz.",
+        "type": "Bottle",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "140",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A19",
+        "price_each_usd": "$2.95",
+        "column_13": "",
+        "mcmaster_part_no": "7476A19"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A19/",
+          "text": "7476A19"
+        }
+      ],
+      "price_usd": 2.95,
+      "size_value": 4.0,
+      "size_unit": "fl_oz",
+      "package_ml": 118.29,
+      "price_per_ml": 0.0249,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A11",
+      "family_key": "wood_glue_7476a11",
+      "fields": {
+        "size": "8 fl. oz.",
+        "type": "Bottle",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "140",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A11",
+        "price_each_usd": "4.30",
+        "column_13": "",
+        "mcmaster_part_no": "7476A11"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A11/",
+          "text": "7476A11"
+        }
+      ],
+      "price_usd": 4.3,
+      "size_value": 8.0,
+      "size_unit": "fl_oz",
+      "package_ml": 236.59,
+      "price_per_ml": 0.0182,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A12",
+      "family_key": "wood_glue_7476a12",
+      "fields": {
+        "size": "16 fl. oz.",
+        "type": "Bottle",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "140",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A12",
+        "price_each_usd": "7.38",
+        "column_13": "",
+        "mcmaster_part_no": "7476A12"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A12/",
+          "text": "7476A12"
+        }
+      ],
+      "price_usd": 7.38,
+      "size_value": 16.0,
+      "size_unit": "fl_oz",
+      "package_ml": 473.18,
+      "price_per_ml": 0.0156,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A16",
+      "family_key": "wood_glue_7476a16",
+      "fields": {
+        "size": "32 fl. oz.",
+        "type": "Jug",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "120",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A16",
+        "price_each_usd": "11.72",
+        "column_13": "",
+        "mcmaster_part_no": "7476A16"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A16/",
+          "text": "7476A16"
+        }
+      ],
+      "price_usd": 11.72,
+      "size_value": 32.0,
+      "size_unit": "fl_oz",
+      "package_ml": 946.35,
+      "price_per_ml": 0.0124,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A14",
+      "family_key": "wood_glue_7476a14",
+      "fields": {
+        "size": "1 gal.",
+        "type": "Jug",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "140",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A14",
+        "price_each_usd": "31.12",
+        "column_13": "",
+        "mcmaster_part_no": "7476A14"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A14/",
+          "text": "7476A14"
+        }
+      ],
+      "price_usd": 31.12,
+      "size_value": 1.0,
+      "size_unit": "gal",
+      "package_ml": 3785.41,
+      "price_per_ml": 0.0082,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Wood Glue",
+      "manufacturer": "Wood Glue",
+      "family_name": "Wood Glue 7476A15",
+      "family_key": "wood_glue_7476a15",
+      "fields": {
+        "size": "5 gal.",
+        "type": "Pail",
+        "begins_to_harden_min": "5",
+        "reaches_full_strength_hr": "24",
+        "consistency": "Thick Liquid",
+        "service_min_f": "Not Rated",
+        "max_temp_f": "140",
+        "color": "Yellow",
+        "for_joining": "Wood",
+        "column_11": "7476A15",
+        "price_each_usd": "162.61",
+        "column_13": "",
+        "mcmaster_part_no": "7476A15"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, min.",
+        "Reaches FullStrength, hr.",
+        "Consistency",
+        "Min.",
+        "Max.,\u00b0 F",
+        "Color",
+        "ForJoining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7476A15/",
+          "text": "7476A15"
+        }
+      ],
+      "price_usd": 162.61,
+      "size_value": 5.0,
+      "size_unit": "gal",
+      "package_ml": 18927.05,
+      "price_per_ml": 0.0086,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Thick Liquid",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Elmer's glue is white, but dries clear.",
+      "manufacturer": "Elmer's glue is white, but dries clear.",
+      "family_name": "Elmer's glue is white, but dries clear. 7516A1",
+      "family_key": "elmer_s_glue_is_white_but_dries_clear_7516a1",
+      "fields": {
+        "size": "7 fl. oz.",
+        "type": "Bottle",
+        "begins_to_harden_sec": "30",
+        "reaches_full_strength_hr": "24",
+        "max_temp_f": "150",
+        "color": "Clear",
+        "for_joining": "Cardboard, Wood",
+        "column_8": "7516A1",
+        "price_each_usd": "$5.00",
+        "column_10": "",
+        "mcmaster_part_no": "7516A1"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, sec.",
+        "Reaches FullStrength, hr.",
+        "Max. Temp.,\u00b0 F",
+        "Color",
+        "For Joining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7516A1/",
+          "text": "7516A1"
+        }
+      ],
+      "price_usd": 5.0,
+      "size_value": 7.0,
+      "size_unit": "fl_oz",
+      "package_ml": 207.01,
+      "price_per_ml": 0.0242,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Elmer's glue is white, but dries clear.",
+      "manufacturer": "Elmer's glue is white, but dries clear.",
+      "family_name": "Elmer's glue is white, but dries clear. 7516A4",
+      "family_key": "elmer_s_glue_is_white_but_dries_clear_7516a4",
+      "fields": {
+        "size": "1 gal.",
+        "type": "Jug",
+        "begins_to_harden_sec": "10",
+        "reaches_full_strength_hr": "24",
+        "max_temp_f": "150",
+        "color": "Clear",
+        "for_joining": "Cardboard, Wood",
+        "column_8": "7516A4",
+        "price_each_usd": "32.51",
+        "column_10": "",
+        "mcmaster_part_no": "7516A4"
+      },
+      "raw_headers": [
+        "Size",
+        "Type",
+        "Begins toHarden, sec.",
+        "Reaches FullStrength, hr.",
+        "Max. Temp.,\u00b0 F",
+        "Color",
+        "For Joining",
+        "",
+        "Each",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7516A4/",
+          "text": "7516A4"
+        }
+      ],
+      "price_usd": 32.51,
+      "size_value": 1.0,
+      "size_unit": "gal",
+      "package_ml": 3785.41,
+      "price_per_ml": 0.0086,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "Glue Sticks",
+      "manufacturer": "Glue Sticks",
+      "family_name": "Glue Sticks 66285A74",
+      "family_key": "glue_sticks_66285a74",
+      "fields": {
+        "net_wt_oz": "0.77",
+        "type": "Stick",
+        "begins_to_harden_sec": "10",
+        "reaches_full_strength_hr": "12",
+        "max_temp_f": "150",
+        "color": "Clear",
+        "for_joining": "Cardboard, Fabric",
+        "column_8": "66285A74",
+        "price_each_usd": "$3.29",
+        "pkg_qty": "6",
+        "column_11": "66285A84",
+        "pkg_price_usd": "$16.68",
+        "column_13": "",
+        "mcmaster_part_no": "66285A74"
+      },
+      "raw_headers": [
+        "Net Wt.,oz.",
+        "Type",
+        "Begins toHarden, sec.",
+        "Reaches FullStrength, hr.",
+        "Max. Temp.,\u00b0 F",
+        "Color",
+        "For Joining",
+        "",
+        "Each",
+        "Pkg.Qty.",
+        "",
+        "Pkg.",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/66285A74/",
+          "text": "66285A74"
+        },
+        {
+          "href": "https://www.mcmaster.com/66285A84/",
+          "text": "66285A84"
+        }
+      ],
+      "price_usd": 3.29,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "category_heading": "High-Temperature Glue",
+      "table_heading": "3M Glue in Aerosol Cans",
+      "manufacturer": "3M Glue in Aerosol Cans",
+      "family_name": "3M Glue in Aerosol Cans 27",
+      "family_key": "3m_glue_in_aerosol_cans_27",
+      "fields": {
+        "mfr_model_no": "27",
+        "net_wt_oz": "13",
+        "type": "Aerosol Can",
+        "begins_to_harden_sec": "15",
+        "reaches_full_strength_hr": "24",
+        "max_temp_f": "140",
+        "color": "Clear",
+        "for_joining": "Fabric, Metal, Plastic, Rubber, Wood",
+        "cannot_be_sold_to": "California",
+        "column_10": "7610A253",
+        "price_each_usd": "$11.25",
+        "pkg_qty": "12",
+        "column_13": "7610A553",
+        "pkg_price_usd": "$102.86",
+        "column_15": "",
+        "mcmaster_part_no": "7610A253"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Net Wt.,oz.",
+        "Type",
+        "Begins toHarden, sec.",
+        "Reaches FullStrength, hr.",
+        "Max. Temp.,\u00b0 F",
+        "Color",
+        "For Joining",
+        "Cannot BeSold To",
+        "",
+        "Each",
+        "Pkg.Qty.",
+        "",
+        "Pkg.",
+        ""
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7610A253/",
+          "text": "7610A253"
+        },
+        {
+          "href": "https://www.mcmaster.com/7610A553/",
+          "text": "7610A553"
+        }
+      ],
+      "price_usd": 11.25,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    }
+  ]
+}

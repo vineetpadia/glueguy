@@ -1,0 +1,2265 @@
+{
+  "generated_at": "2026-04-17T00:26:18.706145+00:00",
+  "root_url": "https://www.mcmaster.com/products/glue/",
+  "seed_urls": [
+    "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+  ],
+  "stats": {
+    "pages_crawled": 1,
+    "leaf_pages": 1,
+    "offers": 38,
+    "families": 14
+  },
+  "pages": [
+    {
+      "url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "table_count": 9,
+      "child_link_count": 0
+    }
+  ],
+  "families": [
+    {
+      "family_key": "3m_scotch_weld_dp100",
+      "family_name": "3M Scotch-Weld DP100",
+      "manufacturer": "3M Scotch-Weld",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 2,
+      "lowest_price_usd": 28.36,
+      "best_price_per_ml": 0.4804,
+      "temp_min_f": -65.0,
+      "temp_max_f": 320.0,
+      "sample_type": "Cartridge",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (12,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber"
+    },
+    {
+      "family_key": "3m_scotch_weld_dp100ns",
+      "family_name": "3M Scotch-Weld DP100NS",
+      "manufacturer": "3M Scotch-Weld",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 28.36,
+      "best_price_per_ml": 0.5847,
+      "temp_min_f": -65.0,
+      "temp_max_f": 320.0,
+      "sample_type": "Cartridge",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Paste (93,750 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber"
+    },
+    {
+      "family_key": "adhesives_7508a41",
+      "family_name": "Adhesives 7508A41",
+      "manufacturer": "Adhesives",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 21.2,
+      "best_price_per_ml": 0.0896,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (40,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Glass, Masonry"
+    },
+    {
+      "family_key": "adhesives_7508a51",
+      "family_name": "Adhesives 7508A51",
+      "manufacturer": "Adhesives",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 70.88,
+      "best_price_per_ml": 0.0749,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (40,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Glass, Masonry"
+    },
+    {
+      "family_key": "adhesives_7541a82",
+      "family_name": "Adhesives 7541A82",
+      "manufacturer": "Adhesives",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 12.06,
+      "best_price_per_ml": 0.2471,
+      "temp_min_f": -45.0,
+      "temp_max_f": 250.0,
+      "sample_type": "Syringe",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (15,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber"
+    },
+    {
+      "family_key": "adhesives_7670a22",
+      "family_name": "Adhesives 7670A22",
+      "manufacturer": "Adhesives",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 15.34,
+      "best_price_per_ml": 1.1036,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "sample_type": "Syringe",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Gel (13,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber"
+    },
+    {
+      "family_key": "adhesives_with_ten_mixing_sticks_7538a11",
+      "family_name": "Adhesives with Ten Mixing Sticks 7538A11",
+      "manufacturer": "Adhesives with Ten Mixing Sticks",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": null,
+      "best_price_per_ml": null,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "sample_type": "One-Time-Use Packet",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (40,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Masonry"
+    },
+    {
+      "family_key": "adhesives_with_ten_mixing_sticks_7538a15",
+      "family_name": "Adhesives with Ten Mixing Sticks 7538A15",
+      "manufacturer": "Adhesives with Ten Mixing Sticks",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": null,
+      "best_price_per_ml": null,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "sample_type": "One-Time-Use Packet",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Paste (400,000 cP)",
+      "sample_for_joining": "Metal, Masonry, Wood"
+    },
+    {
+      "family_key": "devcon_1_minute_epoxy",
+      "family_name": "Devcon 1 Minute Epoxy",
+      "manufacturer": "Devcon",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 33.59,
+      "best_price_per_ml": 0.6721,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "sample_type": "Cartridge",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Gel (70,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Masonry, Wood"
+    },
+    {
+      "family_key": "devcon_5_minute_epoxy",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "manufacturer": "Devcon",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 5,
+      "lowest_price_usd": 11.58,
+      "best_price_per_ml": 0.1906,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "sample_type": "Bottle",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (10,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Masonry, Wood"
+    },
+    {
+      "family_key": "gorilla_7541a51",
+      "family_name": "Gorilla 7541A51",
+      "manufacturer": "Gorilla",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 6.71,
+      "best_price_per_ml": 0.2701,
+      "temp_min_f": -10.0,
+      "temp_max_f": 200.0,
+      "sample_type": "Syringe",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (10,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Glass, Wood"
+    },
+    {
+      "family_key": "j_b_weld_kwikweld",
+      "family_name": "J-B Weld KwikWeld",
+      "manufacturer": "J-B Weld",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 2,
+      "lowest_price_usd": 8.18,
+      "best_price_per_ml": 0.0717,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "sample_type": "Tube",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Paste (250,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Composites"
+    },
+    {
+      "family_key": "j_b_weld_plasticweld",
+      "family_name": "J-B Weld PlasticWeld",
+      "manufacturer": "J-B Weld",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 1,
+      "lowest_price_usd": 7.34,
+      "best_price_per_ml": 0.292,
+      "temp_min_f": -20.0,
+      "temp_max_f": 300.0,
+      "sample_type": "Syringe",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (9,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood"
+    },
+    {
+      "family_key": "loctite_hy4090",
+      "family_name": "Loctite HY4090",
+      "manufacturer": "Loctite",
+      "category_headings": [
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "source_urls": [
+        "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/"
+      ],
+      "offer_count": 3,
+      "lowest_price_usd": 29.33,
+      "best_price_per_ml": 0.3833,
+      "temp_min_f": -65.0,
+      "temp_max_f": 300.0,
+      "sample_type": "Cartridge",
+      "sample_mix_ratio": "1:1",
+      "sample_consistency": "Thick Liquid (19,000 cP)",
+      "sample_for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood"
+    }
+  ],
+  "offers": [
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "3M Scotch-Weld Adhesives",
+      "manufacturer": "3M Scotch-Weld",
+      "family_name": "3M Scotch-Weld DP100",
+      "family_key": "3m_scotch_weld_dp100",
+      "fields": {
+        "mfr_model_no": "DP100",
+        "size_fl_oz": "1.64",
+        "type": "Cartridge",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "48 hrs.",
+        "shear_psi": "750",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (12,000 cP)",
+        "temp_range_f": "-65\u00b0 to 320\u00b0",
+        "color": "Clear",
+        "for_joining": "Metal, Plastic, Rubber",
+        "mcmaster_part_no": "7467A21",
+        "price_each_usd": "$28.36"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A21",
+          "text": "7467A21"
+        }
+      ],
+      "price_usd": 28.36,
+      "size_value": 1.64,
+      "size_unit": "fl_oz",
+      "package_ml": 48.5,
+      "price_per_ml": 0.5847,
+      "temp_min_f": -65.0,
+      "temp_max_f": 320.0,
+      "consistency": "Thick Liquid (12,000 cP)",
+      "viscosity_cp": 12000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "3M Scotch-Weld Adhesives",
+      "manufacturer": "3M Scotch-Weld",
+      "family_name": "3M Scotch-Weld DP100",
+      "family_key": "3m_scotch_weld_dp100",
+      "fields": {
+        "mfr_model_no": "DP100",
+        "size_fl_oz": "6.76",
+        "type": "Cartridge",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "48 hrs.",
+        "shear_psi": "750",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (12,000 cP)",
+        "temp_range_f": "-65\u00b0 to 320\u00b0",
+        "color": "Clear",
+        "for_joining": "Metal, Plastic, Rubber",
+        "mcmaster_part_no": "7467A95",
+        "price_each_usd": "96.04"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A95",
+          "text": "7467A95"
+        }
+      ],
+      "price_usd": 96.04,
+      "size_value": 6.76,
+      "size_unit": "fl_oz",
+      "package_ml": 199.92,
+      "price_per_ml": 0.4804,
+      "temp_min_f": -65.0,
+      "temp_max_f": 320.0,
+      "consistency": "Thick Liquid (12,000 cP)",
+      "viscosity_cp": 12000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "3M Scotch-Weld Adhesives",
+      "manufacturer": "3M Scotch-Weld",
+      "family_name": "3M Scotch-Weld DP100NS",
+      "family_key": "3m_scotch_weld_dp100ns",
+      "fields": {
+        "mfr_model_no": "DP100NS",
+        "size_fl_oz": "1.64",
+        "type": "Cartridge",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "48 hrs.",
+        "shear_psi": "840",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Paste (93,750 cP)",
+        "temp_range_f": "-65\u00b0 to 320\u00b0",
+        "color": "Clear",
+        "for_joining": "Metal, Plastic, Rubber",
+        "mcmaster_part_no": "7467A16",
+        "price_each_usd": "28.36"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A16",
+          "text": "7467A16"
+        }
+      ],
+      "price_usd": 28.36,
+      "size_value": 1.64,
+      "size_unit": "fl_oz",
+      "package_ml": 48.5,
+      "price_per_ml": 0.5847,
+      "temp_min_f": -65.0,
+      "temp_max_f": 320.0,
+      "consistency": "Paste (93,750 cP)",
+      "viscosity_cp": 93750.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Loctite\u00ae Adhesives",
+      "manufacturer": "Loctite",
+      "family_name": "Loctite HY4090",
+      "family_key": "loctite_hy4090",
+      "fields": {
+        "mfr_model_no": "HY4090",
+        "size_fl_oz": "1.69",
+        "type": "Cartridge",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "7 days",
+        "shear_psi": "2,420",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (19,000 cP)",
+        "temp_range_f": "-65\u00b0 to 300\u00b0",
+        "color": "Gray",
+        "for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood",
+        "mcmaster_part_no": "6430A574",
+        "price_each_usd": "$29.33"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/6430A574",
+          "text": "6430A574"
+        }
+      ],
+      "price_usd": 29.33,
+      "size_value": 1.69,
+      "size_unit": "fl_oz",
+      "package_ml": 49.98,
+      "price_per_ml": 0.5868,
+      "temp_min_f": -65.0,
+      "temp_max_f": 300.0,
+      "consistency": "Thick Liquid (19,000 cP)",
+      "viscosity_cp": 19000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Loctite\u00ae Adhesives",
+      "manufacturer": "Loctite",
+      "family_name": "Loctite HY4090",
+      "family_key": "loctite_hy4090",
+      "fields": {
+        "mfr_model_no": "HY4090",
+        "size_fl_oz": "1.69",
+        "type": "Cartridge",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "7 days",
+        "shear_psi": "2,420",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (19,000 cP)",
+        "temp_range_f": "-65\u00b0 to 300\u00b0",
+        "color": "Off-White",
+        "for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood",
+        "mcmaster_part_no": "6430A424",
+        "price_each_usd": "30.13"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/6430A424",
+          "text": "6430A424"
+        }
+      ],
+      "price_usd": 30.13,
+      "size_value": 1.69,
+      "size_unit": "fl_oz",
+      "package_ml": 49.98,
+      "price_per_ml": 0.6028,
+      "temp_min_f": -65.0,
+      "temp_max_f": 300.0,
+      "consistency": "Thick Liquid (19,000 cP)",
+      "viscosity_cp": 19000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Loctite\u00ae Adhesives",
+      "manufacturer": "Loctite",
+      "family_name": "Loctite HY4090",
+      "family_key": "loctite_hy4090",
+      "fields": {
+        "mfr_model_no": "HY4090",
+        "size_fl_oz": "13.5",
+        "type": "Cartridge",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "7 days",
+        "shear_psi": "2,420",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (19,000 cP)",
+        "temp_range_f": "-65\u00b0 to 300\u00b0",
+        "color": "Off-White",
+        "for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood",
+        "mcmaster_part_no": "6430A52",
+        "price_each_usd": "153.04"
+      },
+      "raw_headers": [
+        "Mfr. ModelNo.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/6430A52",
+          "text": "6430A52"
+        }
+      ],
+      "price_usd": 153.04,
+      "size_value": 13.5,
+      "size_unit": "fl_oz",
+      "package_ml": 399.24,
+      "price_per_ml": 0.3833,
+      "temp_min_f": -65.0,
+      "temp_max_f": 300.0,
+      "consistency": "Thick Liquid (19,000 cP)",
+      "viscosity_cp": 19000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 1 Minute Epoxy",
+      "family_key": "devcon_1_minute_epoxy",
+      "fields": {
+        "name": "1 Minute Epoxy",
+        "no": "14277",
+        "size_fl_oz": "1.69",
+        "type": "Cartridge",
+        "begins_to_harden": "60 sec.",
+        "reaches_full_strength": "2 hrs.",
+        "shear_psi": "1,600",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Gel (70,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "66215A32",
+        "price_each_usd": "$33.59"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/66215A32",
+          "text": "66215A32"
+        }
+      ],
+      "price_usd": 33.59,
+      "size_value": 1.69,
+      "size_unit": "fl_oz",
+      "package_ml": 49.98,
+      "price_per_ml": 0.6721,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Gel (70,000 cP)",
+      "viscosity_cp": 70000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "family_key": "devcon_5_minute_epoxy",
+      "fields": {
+        "name": "5 Minute Epoxy",
+        "no": "14200",
+        "size_fl_oz": "15",
+        "type": "Bottle",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "12 hrs.",
+        "shear_psi": "1,900",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (10,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "7524A4",
+        "price_each_usd": "84.55"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7524A4",
+          "text": "7524A4"
+        }
+      ],
+      "price_usd": 84.55,
+      "size_value": 15.0,
+      "size_unit": "fl_oz",
+      "package_ml": 443.6,
+      "price_per_ml": 0.1906,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Thick Liquid (10,000 cP)",
+      "viscosity_cp": 10000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "family_key": "devcon_5_minute_epoxy",
+      "fields": {
+        "name": "5 Minute Epoxy",
+        "no": "14240",
+        "size_fl_oz": "0.84",
+        "type": "Syringe",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "48 hrs.",
+        "shear_psi": "2,500",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Gel (Not Rated)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "7592A31",
+        "price_each_usd": "14.50"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7592A31",
+          "text": "7592A31"
+        }
+      ],
+      "price_usd": 14.5,
+      "size_value": 0.84,
+      "size_unit": "fl_oz",
+      "package_ml": 24.84,
+      "price_per_ml": 0.5837,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Gel (Not Rated)",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "family_key": "devcon_5_minute_epoxy",
+      "fields": {
+        "name": "5 Minute Epoxy",
+        "no": "14250",
+        "size_fl_oz": "0.84",
+        "type": "Syringe",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "12 hrs.",
+        "shear_psi": "1,900",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (10,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "7541A76",
+        "price_each_usd": "11.58"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7541A76",
+          "text": "7541A76"
+        }
+      ],
+      "price_usd": 11.58,
+      "size_value": 0.84,
+      "size_unit": "fl_oz",
+      "package_ml": 24.84,
+      "price_per_ml": 0.4662,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Thick Liquid (10,000 cP)",
+      "viscosity_cp": 10000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "family_key": "devcon_5_minute_epoxy",
+      "fields": {
+        "name": "5 Minute Epoxy",
+        "no": "14265",
+        "size_fl_oz": "1.69",
+        "type": "Cartridge",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "48 hrs.",
+        "shear_psi": "2,500",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Gel (Not Rated)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "66215A23",
+        "price_each_usd": "28.69"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/66215A23",
+          "text": "66215A23"
+        }
+      ],
+      "price_usd": 28.69,
+      "size_value": 1.69,
+      "size_unit": "fl_oz",
+      "package_ml": 49.98,
+      "price_per_ml": 0.574,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Gel (Not Rated)",
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Devcon Adhesives",
+      "manufacturer": "Devcon",
+      "family_name": "Devcon 5 Minute Epoxy",
+      "family_key": "devcon_5_minute_epoxy",
+      "fields": {
+        "name": "5 Minute Epoxy",
+        "no": "14270",
+        "size_fl_oz": "1.69",
+        "type": "Cartridge",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "12 hrs.",
+        "shear_psi": "1,900",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (10,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Masonry, Wood",
+        "mcmaster_part_no": "66215A31",
+        "price_each_usd": "26.14"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/66215A31",
+          "text": "66215A31"
+        }
+      ],
+      "price_usd": 26.14,
+      "size_value": 1.69,
+      "size_unit": "fl_oz",
+      "package_ml": 49.98,
+      "price_per_ml": 0.523,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Thick Liquid (10,000 cP)",
+      "viscosity_cp": 10000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Gorilla Adhesives",
+      "manufacturer": "Gorilla",
+      "family_name": "Gorilla 7541A51",
+      "family_key": "gorilla_7541a51",
+      "fields": {
+        "size_fl_oz": "0.84",
+        "type": "Syringe",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "3,300",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (10,000 cP)",
+        "temp_range_f": "-10\u00b0 to 200\u00b0",
+        "color": "Clear",
+        "for_joining": "Metal, Plastic, Rubber, Glass, Wood",
+        "mcmaster_part_no": "7541A51",
+        "price_each_usd": "$6.71"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency (Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7541A51",
+          "text": "7541A51"
+        }
+      ],
+      "price_usd": 6.71,
+      "size_value": 0.84,
+      "size_unit": "fl_oz",
+      "package_ml": 24.84,
+      "price_per_ml": 0.2701,
+      "temp_min_f": -10.0,
+      "temp_max_f": 200.0,
+      "consistency": "Thick Liquid (10,000 cP)",
+      "viscosity_cp": 10000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "J-B Weld Adhesives",
+      "manufacturer": "J-B Weld",
+      "family_name": "J-B Weld KwikWeld",
+      "family_key": "j_b_weld_kwikweld",
+      "fields": {
+        "name": "KwikWeld",
+        "no": "8271",
+        "size_fl_oz": "10",
+        "type": "Tube",
+        "begins_to_harden": "6 min.",
+        "reaches_full_strength": "6 hrs.",
+        "shear_psi": "1,000",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Paste (250,000 cP)",
+        "temp_range_f": "Not Rated to 300\u00b0",
+        "color": "Gray",
+        "for_joining": "Metal, Plastic, Rubber, Composites",
+        "mcmaster_part_no": "7605A17",
+        "price_each_usd": "$21.21"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7605A17",
+          "text": "7605A17"
+        }
+      ],
+      "price_usd": 21.21,
+      "size_value": 10.0,
+      "size_unit": "fl_oz",
+      "package_ml": 295.74,
+      "price_per_ml": 0.0717,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Paste (250,000 cP)",
+      "viscosity_cp": 250000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "J-B Weld Adhesives",
+      "manufacturer": "J-B Weld",
+      "family_name": "J-B Weld KwikWeld",
+      "family_key": "j_b_weld_kwikweld",
+      "fields": {
+        "name": "KwikWeld",
+        "no": "8276",
+        "size_fl_oz": "2",
+        "type": "Tube",
+        "begins_to_harden": "6 min.",
+        "reaches_full_strength": "6 hrs.",
+        "shear_psi": "1,000",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Paste (250,000 cP)",
+        "temp_range_f": "Not Rated to 300\u00b0",
+        "color": "Gray",
+        "for_joining": "Metal, Plastic, Rubber, Composites",
+        "mcmaster_part_no": "7605A13",
+        "price_each_usd": "8.18"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7605A13",
+          "text": "7605A13"
+        }
+      ],
+      "price_usd": 8.18,
+      "size_value": 2.0,
+      "size_unit": "fl_oz",
+      "package_ml": 59.15,
+      "price_per_ml": 0.1383,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": "Paste (250,000 cP)",
+      "viscosity_cp": 250000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "J-B Weld Adhesives",
+      "manufacturer": "J-B Weld",
+      "family_name": "J-B Weld PlasticWeld",
+      "family_key": "j_b_weld_plasticweld",
+      "fields": {
+        "name": "PlasticWeld",
+        "no": "50132",
+        "size_fl_oz": "0.85",
+        "type": "Syringe",
+        "begins_to_harden": "5 min.",
+        "reaches_full_strength": "60 min.",
+        "shear_psi": "2,000",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (9,000 cP)",
+        "temp_range_f": "-20\u00b0 to 300\u00b0",
+        "color": "Yellow",
+        "for_joining": "Metal, Plastic, Rubber, Composites, Masonry, Wood",
+        "mcmaster_part_no": "7605A5",
+        "price_each_usd": "7.34"
+      },
+      "raw_headers": [
+        "Name",
+        "No.",
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7605A5",
+          "text": "7605A5"
+        }
+      ],
+      "price_usd": 7.34,
+      "size_value": 0.85,
+      "size_unit": "fl_oz",
+      "package_ml": 25.14,
+      "price_per_ml": 0.292,
+      "temp_min_f": -20.0,
+      "temp_max_f": 300.0,
+      "consistency": "Thick Liquid (9,000 cP)",
+      "viscosity_cp": 9000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives with Two Mixer Nozzles",
+      "manufacturer": "Adhesives with Two Mixer Nozzles",
+      "family_name": "Adhesives with Two Mixer Nozzles 7646A13",
+      "family_key": "adhesives_with_two_mixer_nozzles_7646a13",
+      "fields": {
+        "size_fl_oz": "6.76",
+        "type": "Cartridge",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "2,500",
+        "peel": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Gel (13,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber, Composites",
+        "mcmaster_part_no": "7646A13",
+        "price_each_usd": "$66.67"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7646A13",
+          "text": "7646A13"
+        }
+      ],
+      "price_usd": 66.67,
+      "size_value": 6.76,
+      "size_unit": "fl_oz",
+      "package_ml": 199.92,
+      "price_per_ml": 0.3335,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Gel (13,000 cP)",
+      "viscosity_cp": 13000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives",
+      "manufacturer": "Adhesives",
+      "family_name": "Adhesives 7670A22",
+      "family_key": "adhesives_7670a22",
+      "fields": {
+        "size_fl_oz": "0.47",
+        "type": "Syringe",
+        "begins_to_harden": "4 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "2,500",
+        "peel_lb_per_in": "Not Rated",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Gel (13,000 cP)",
+        "temp_range_f": "-40\u00b0 to 200\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber",
+        "mcmaster_part_no": "7670A22",
+        "price_each_usd": "$15.34"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency (Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7670A22",
+          "text": "7670A22"
+        }
+      ],
+      "price_usd": 15.34,
+      "size_value": 0.47,
+      "size_unit": "fl_oz",
+      "package_ml": 13.9,
+      "price_per_ml": 1.1036,
+      "temp_min_f": -40.0,
+      "temp_max_f": 200.0,
+      "consistency": "Gel (13,000 cP)",
+      "viscosity_cp": 13000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives",
+      "manufacturer": "Adhesives",
+      "family_name": "Adhesives 7541A82",
+      "family_key": "adhesives_7541a82",
+      "fields": {
+        "size_fl_oz": "1.65",
+        "type": "Syringe",
+        "begins_to_harden": "60 sec.",
+        "reaches_full_strength": "3 hrs.",
+        "shear_psi": "2,500",
+        "peel_lb_per_in": "12",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (15,000 cP)",
+        "temp_range_f": "-45\u00b0 to 250\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber",
+        "mcmaster_part_no": "7541A82",
+        "price_each_usd": "12.06"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency (Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7541A82",
+          "text": "7541A82"
+        }
+      ],
+      "price_usd": 12.06,
+      "size_value": 1.65,
+      "size_unit": "fl_oz",
+      "package_ml": 48.8,
+      "price_per_ml": 0.2471,
+      "temp_min_f": -45.0,
+      "temp_max_f": 250.0,
+      "consistency": "Thick Liquid (15,000 cP)",
+      "viscosity_cp": 15000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives",
+      "manufacturer": "Adhesives",
+      "family_name": "Adhesives 7508A41",
+      "family_key": "adhesives_7508a41",
+      "fields": {
+        "size_fl_oz": "8",
+        "type": "Bottle",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "3,000",
+        "peel_lb_per_in": "1",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (40,000 cP)",
+        "temp_range_f": "15\u00b0 to 180\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber, Glass, Masonry",
+        "mcmaster_part_no": "7508A41",
+        "price_each_usd": "21.20"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency (Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7508A41",
+          "text": "7508A41"
+        }
+      ],
+      "price_usd": 21.2,
+      "size_value": 8.0,
+      "size_unit": "fl_oz",
+      "package_ml": 236.59,
+      "price_per_ml": 0.0896,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "consistency": "Thick Liquid (40,000 cP)",
+      "viscosity_cp": 40000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives",
+      "manufacturer": "Adhesives",
+      "family_name": "Adhesives 7508A51",
+      "family_key": "adhesives_7508a51",
+      "fields": {
+        "size_fl_oz": "32",
+        "type": "Bottle",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "3,000",
+        "peel_lb_per_in": "1",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (40,000 cP)",
+        "temp_range_f": "15\u00b0 to 180\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber, Glass, Masonry",
+        "mcmaster_part_no": "7508A51",
+        "price_each_usd": "70.88"
+      },
+      "raw_headers": [
+        "Size,fl. oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency (Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7508A51",
+          "text": "7508A51"
+        }
+      ],
+      "price_usd": 70.88,
+      "size_value": 32.0,
+      "size_unit": "fl_oz",
+      "package_ml": 946.35,
+      "price_per_ml": 0.0749,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "consistency": "Thick Liquid (40,000 cP)",
+      "viscosity_cp": 40000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives with Ten Mixing Sticks",
+      "manufacturer": "Adhesives with Ten Mixing Sticks",
+      "family_name": "Adhesives with Ten Mixing Sticks 7538A11",
+      "family_key": "adhesives_with_ten_mixing_sticks_7538a11",
+      "fields": {
+        "net_weight_oz": "0.1",
+        "type": "One-Time-Use Packet",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "3,000",
+        "peel_lb_per_in": "1",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Thick Liquid (40,000 cP)",
+        "temp_range_f": "15\u00b0 to 180\u00b0",
+        "color": "Amber",
+        "for_joining": "Metal, Plastic, Rubber, Masonry",
+        "pkg_qty": "10",
+        "mcmaster_part_no": "7538A11",
+        "pkg": "$23.74"
+      },
+      "raw_headers": [
+        "NetWeight, oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "Pkg.Qty.",
+        "",
+        "Pkg."
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7538A11",
+          "text": "7538A11"
+        }
+      ],
+      "price_usd": null,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "consistency": "Thick Liquid (40,000 cP)",
+      "viscosity_cp": 40000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Adhesives with Ten Mixing Sticks",
+      "manufacturer": "Adhesives with Ten Mixing Sticks",
+      "family_name": "Adhesives with Ten Mixing Sticks 7538A15",
+      "family_key": "adhesives_with_ten_mixing_sticks_7538a15",
+      "fields": {
+        "net_weight_oz": "0.1",
+        "type": "One-Time-Use Packet",
+        "begins_to_harden": "3 min.",
+        "reaches_full_strength": "24 hrs.",
+        "shear_psi": "3,710",
+        "peel_lb_per_in": "2",
+        "mix_ratio": "1:1",
+        "consistency_viscosity": "Paste (400,000 cP)",
+        "temp_range_f": "15\u00b0 to 180\u00b0",
+        "color": "White",
+        "for_joining": "Metal, Masonry, Wood",
+        "pkg_qty": "10",
+        "mcmaster_part_no": "7538A15",
+        "pkg": "26.60"
+      },
+      "raw_headers": [
+        "NetWeight, oz.",
+        "Type",
+        "Begins toHarden",
+        "ReachesFull Strength",
+        "Shear,lbs./sq. in.",
+        "Peel,lbs./in. wd.",
+        "MixRatio",
+        "Consistency(Viscosity)",
+        "Temp.Range, \u00b0F",
+        "Color",
+        "For Joining",
+        "Pkg.Qty.",
+        "",
+        "Pkg."
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7538A15",
+          "text": "7538A15"
+        }
+      ],
+      "price_usd": null,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": 15.0,
+      "temp_max_f": 180.0,
+      "consistency": "Paste (400,000 cP)",
+      "viscosity_cp": 400000.0
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A12",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a12",
+      "fields": {
+        "column_1": "Mixer Nozzle for 1.64 fl. oz. 3M Cartridges (Step Tip)",
+        "mcmaster_part_no": "7467A12",
+        "price_each_usd": "$4.31"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A12",
+          "text": "7467A12"
+        }
+      ],
+      "price_usd": 4.31,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A73",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a73",
+      "fields": {
+        "column_1": "Mixer Nozzle for 1.64 fl. oz. 3M Cartridges (Taper Tip)",
+        "mcmaster_part_no": "7467A73",
+        "price_each_usd": "2.68"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A73",
+          "text": "7467A73"
+        }
+      ],
+      "price_usd": 2.68,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A93",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a93",
+      "fields": {
+        "column_1": "Mixer Nozzle for 6.76 fl. oz. 3M Cartridges",
+        "mcmaster_part_no": "7467A93",
+        "price_each_usd": "6.56"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A93",
+          "text": "7467A93"
+        }
+      ],
+      "price_usd": 6.56,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 74695A221",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_74695a221",
+      "fields": {
+        "column_1": "Mixer Nozzle for 1.69 fl. oz. Loctite\u00ae Cartridges",
+        "mcmaster_part_no": "74695A221",
+        "price_each_usd": "2.52"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/74695A221",
+          "text": "74695A221"
+        }
+      ],
+      "price_usd": 2.52,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 74695A12",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_74695a12",
+      "fields": {
+        "column_1": "Mixer Nozzle for 1.69 fl. oz. Devcon Cartridges",
+        "mcmaster_part_no": "74695A12",
+        "price_each_usd": "2.57"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/74695A12",
+          "text": "74695A12"
+        }
+      ],
+      "price_usd": 2.57,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7451A61",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7451a61",
+      "fields": {
+        "column_1": "Mixer Nozzle for 6.76 fl. oz. Cartridges",
+        "mcmaster_part_no": "7451A61",
+        "price_each_usd": "3.13"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7451A61",
+          "text": "7451A61"
+        }
+      ],
+      "price_usd": 3.13,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 74695A211",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_74695a211",
+      "fields": {
+        "column_1": "Mixer Nozzle for 6.76 fl. oz. and 13.5 fl. oz. Cartridges",
+        "mcmaster_part_no": "74695A211",
+        "price_each_usd": "3.01"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/74695A211",
+          "text": "74695A211"
+        }
+      ],
+      "price_usd": 3.01,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A48",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a48",
+      "fields": {
+        "column_1": "Replacement Plunger for 1.64 fl. oz. 3M Cartridges",
+        "mcmaster_part_no": "7467A48",
+        "price_each_usd": "17.29"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A48",
+          "text": "7467A48"
+        }
+      ],
+      "price_usd": 17.29,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A41",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a41",
+      "fields": {
+        "column_1": "Dispensing Gun for 1.64 fl. oz. 3M Cartridges",
+        "mcmaster_part_no": "7467A41",
+        "price_each_usd": "143.47"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A41",
+          "text": "7467A41"
+        }
+      ],
+      "price_usd": 143.47,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A91",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a91",
+      "fields": {
+        "column_1": "Dispensing Gun for 6.76 fl. oz. 3M Cartridges",
+        "mcmaster_part_no": "7467A91",
+        "price_each_usd": "944.95"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A91",
+          "text": "7467A91"
+        }
+      ],
+      "price_usd": 944.95,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7467A15",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7467a15",
+      "fields": {
+        "column_1": "Air-Powered Dispensing Gun for 1.64 fl. oz. 3M Cartridges",
+        "mcmaster_part_no": "7467A15",
+        "price_each_usd": "960.67"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7467A15",
+          "text": "7467A15"
+        }
+      ],
+      "price_usd": 960.67,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 74695A101",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_74695a101",
+      "fields": {
+        "column_1": "Air-Powered Dispensing Gun for 1.69 fl. oz. Loctite\u00ae Cartridges",
+        "mcmaster_part_no": "74695A101",
+        "price_each_usd": "492.60"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/74695A101",
+          "text": "74695A101"
+        }
+      ],
+      "price_usd": 492.6,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 74695A71",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_74695a71",
+      "fields": {
+        "column_1": "Dispensing Gun for 1.69 fl. oz. Cartridges",
+        "mcmaster_part_no": "74695A71",
+        "price_each_usd": "41.95"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/74695A71",
+          "text": "74695A71"
+        }
+      ],
+      "price_usd": 41.95,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 1773A34",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_1773a34",
+      "fields": {
+        "column_1": "Dispensing Gun for 13.5 fl. oz. Cartridges",
+        "mcmaster_part_no": "1773A34",
+        "price_each_usd": "430.29"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/1773A34",
+          "text": "1773A34"
+        }
+      ],
+      "price_usd": 430.29,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    },
+    {
+      "source_url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/quick-set-epoxy-structural-adhesives/",
+      "page_title": "McMaster-Carr",
+      "page_headings": [
+        "About Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives"
+      ],
+      "category_heading": "Quick-Set Epoxy Structural Adhesives",
+      "table_heading": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "manufacturer": "Mixer Nozzles, Plungers, and Dispensing Guns",
+      "family_name": "Mixer Nozzles, Plungers, and Dispensing Guns 7622T27",
+      "family_key": "mixer_nozzles_plungers_and_dispensing_guns_7622t27",
+      "fields": {
+        "column_1": "Dispensing Gun for 6.7 fl. oz Cartridges",
+        "mcmaster_part_no": "7622T27",
+        "price_each_usd": "47.78"
+      },
+      "raw_headers": [
+        "",
+        "",
+        "Each"
+      ],
+      "row_links": [
+        {
+          "href": "https://www.mcmaster.com/7622T27",
+          "text": "7622T27"
+        }
+      ],
+      "price_usd": 47.78,
+      "size_value": null,
+      "size_unit": null,
+      "package_ml": null,
+      "price_per_ml": null,
+      "temp_min_f": null,
+      "temp_max_f": null,
+      "consistency": null,
+      "viscosity_cp": null
+    }
+  ]
+}

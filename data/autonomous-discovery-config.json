@@ -1,0 +1,95 @@
+{
+  "manufacturers": [
+    {
+      "name": "Permabond",
+      "priority": "high",
+      "officialDomains": ["permabond.com"],
+      "sources": [
+        {
+          "label": "Permabond product sitemap",
+          "url": "https://permabond.com/products-sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": ["/products/permabond-"],
+          "excludeRegex": ["/fr/", "/de/", "/es/", "/pt-br/"]
+        },
+        {
+          "label": "Permabond TDS sitemap",
+          "url": "https://permabond.com/tds-sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "permabondTdsSlug",
+          "excludeRegex": ["/fr/", "/de/", "/es/", "/pt-br/", "-fr/?$", "-de/?$", "-es/?$"]
+        }
+      ]
+    },
+    {
+      "name": "Master Bond",
+      "priority": "high",
+      "officialDomains": ["masterbond.com"],
+      "sources": [
+        {
+          "label": "Master Bond sitemap",
+          "url": "https://www.masterbond.com/sitemap.xml",
+          "kind": "family",
+          "nameStrategy": "title",
+          "includeRegex": ["/products/"],
+          "excludeRegex": ["/de/", "/es/", "/fr/", "/faq", "/news", "/packaging/"]
+        }
+      ]
+    },
+    {
+      "name": "Sika",
+      "priority": "high",
+      "officialDomains": ["sika.com", "usa.sika.com"],
+      "sources": [
+        {
+          "label": "Sika brand sitemap",
+          "url": "https://www.sika.com/en/brands.sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": ["/brands/"],
+          "excludeRegex": ["/brands\\.html$", "/comfortfloor", "/healthy-environment", "/purform\\.html$"],
+          "requireRegex": ["sikaflex", "sikabond", "sikapower", "sikasil", "sikadur", "sikamelt", "sikaforce", "sikaseal"]
+        }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": ["jbweld.com"],
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 12,
+          "includeRegex": ["/product/"],
+          "excludeRegex": ["-14ml", "-7in", "-quart", "-gallon", "/product/static-mixers$", "/product/tiger-patch", "/product/high-strength-molding-tape", "/product/fuzetape", "/product/fiberglass-(cloth|mat)", "/product/cream-hardener", "/product/liquid-hardener"],
+          "nameExcludeRegex": ["kit$", "cloth", "mat", "hardener", "mixers?", "tape$", "repair cast", "molding tape", "fuzetape"]
+        }
+      ]
+    },
+    {
+      "name": "3M",
+      "priority": "high",
+      "officialDomains": ["3m.com", "multimedia.3m.com"],
+      "sources": [
+        {
+          "label": "3M adhesives category",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 15,
+          "maxUrls": 40,
+          "includeRegex": ["/3M/en_US/p/d/"],
+          "nameRequireRegex": ["adhesive", "sealant", "scotch-weld", "vhb", "jet-melt", "fastbond", "epoxy", "cyanoacrylate", "hot melt"],
+          "nameExcludeRegex": ["paper disc", "tape dispenser", "masking", "abrasive", "sandpaper"]
+        }
+      ]
+    }
+  ]
+}

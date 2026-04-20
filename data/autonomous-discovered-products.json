@@ -1,0 +1,2758 @@
+{
+  "generated_at": "2026-04-20T02:34:57.936562+00:00",
+  "stats": {
+    "manufacturersConfigured": 5,
+    "discoveredEntries": 241
+  },
+  "manufacturers": [
+    {
+      "name": "Permabond",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ],
+      "discoveredEntries": 194,
+      "sources": [
+        {
+          "label": "Permabond product sitemap",
+          "url": "https://permabond.com/products-sitemap.xml",
+          "matchedUrls": 3,
+          "discoveredEntries": 3
+        },
+        {
+          "label": "Permabond TDS sitemap",
+          "url": "https://permabond.com/tds-sitemap.xml",
+          "matchedUrls": 1284,
+          "discoveredEntries": 1284
+        }
+      ]
+    },
+    {
+      "name": "Master Bond",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ],
+      "discoveredEntries": 34,
+      "sources": [
+        {
+          "label": "Master Bond sitemap",
+          "url": "https://www.masterbond.com/sitemap.xml",
+          "matchedUrls": 36,
+          "discoveredEntries": 35
+        }
+      ]
+    },
+    {
+      "name": "Sika",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ],
+      "discoveredEntries": 7,
+      "sources": [
+        {
+          "label": "Sika brand sitemap",
+          "url": "https://www.sika.com/en/brands.sitemap.xml",
+          "matchedUrls": 7,
+          "discoveredEntries": 7
+        }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ],
+      "discoveredEntries": 6,
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        }
+      ]
+    },
+    {
+      "name": "3M",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "discoveredEntries": 0,
+      "sources": [
+        {
+          "label": "3M adhesives category",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.3m.com', port=443): Read timed out. (read timeout=15)"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "maker": "J-B Weld",
+      "name": "ClearWeld\u2122 Syringe - 25 ml",
+      "officialUrl": "https://www.jbweld.com/product/clearweld-syringe",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "J-B Weld\u2122 Professional Size 10 oz",
+      "officialUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "J-B Weld\u2122 Twin Tube - 2 oz",
+      "officialUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "KwikWeld\u2122 Professional Size 10 oz",
+      "officialUrl": "https://www.jbweld.com/product/j-b-kwik-professional-size",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "KwikWeld\u2122 Twin Tube - 2 oz",
+      "officialUrl": "https://www.jbweld.com/product/kwikweld-twin-tube",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "MarineWeld\u2122 Twin Tube - 2 oz",
+      "officialUrl": "https://www.jbweld.com/product/marineweld-twin-tube",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "B-staged epoxy in a cookie form",
+      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "B-Stage Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Common Applications and Properties of One Component Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/common-applications-and-properties-one-component-epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Cyanoacrylate Adhesive Systems",
+      "officialUrl": "https://www.masterbond.com/products/cyanoacrylate-adhesive-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Dual Curing Adhesive Systems",
+      "officialUrl": "https://www.masterbond.com/products/dual-curing-adhesive-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Elastomeric Systems",
+      "officialUrl": "https://www.masterbond.com/products/elastomeric-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Epoxies for the Liquefied Natural Gas Industry",
+      "officialUrl": "https://www.masterbond.com/products/epoxies-liquefied-natural-gas-industry",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Epoxy Adhesive Films & Preforms",
+      "officialUrl": "https://www.masterbond.com/products/epoxy-adhesive-films-preforms",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Flame Resistant Adhesives, Sealants, Coatings, Potting Compounds",
+      "officialUrl": "https://www.masterbond.com/products/flame-retardant-silicone-adhesivesealant",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Fluorosilicone Adhesive Systems",
+      "officialUrl": "https://www.masterbond.com/products/fluorosilicone-adhesive-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Instant Curing Medical Cyanoacrylate Adhesives",
+      "officialUrl": "https://www.masterbond.com/products/instant-curing-medical-cyanoacrylate-adhesives",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "LED Light Curable Adhesives",
+      "officialUrl": "https://www.masterbond.com/products/led-light-curable-adhesives",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "List of All One Component Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/list-all-one-component-epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "List of All One Component Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/list-all-one-component-silicone-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "List of All Two Component Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/list-all-two-component-epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "List of All Two Component Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/list-all-two-component-silicone-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "List of All UV Curable Polymer Compounds",
+      "officialUrl": "https://www.masterbond.com/products/list-all-uv-curable-polymer-compounds",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "MIL Spec Approved One Part Silicones",
+      "officialUrl": "https://www.masterbond.com/products/mil-spec-approved-one-part-silicones",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "One Component Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/one-component-epoxy-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "One Part Silicone Adhesives, Sealants and Coatings",
+      "officialUrl": "https://www.masterbond.com/products/one-part-silicone-adhesives-sealants-and-coatings",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Polysulfide Modified Epoxy Adhesives, Sealants and Coatings",
+      "officialUrl": "https://www.masterbond.com/products/polysulfide-adhesives-sealants-and-coatings",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Silicate Based Systems",
+      "officialUrl": "https://www.masterbond.com/products/silicate-based-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Silicone Compounds Meet NASA Low Outgassing Specifications",
+      "officialUrl": "https://www.masterbond.com/products/silicone-compounds-meet-nasa-low-outgassing-specifications",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Silicones for Medical Devices",
+      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Specialty Adhesive Systems",
+      "officialUrl": "https://www.masterbond.com/products/specialty-adhesive-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Two Component Epoxy Adhesives",
+      "officialUrl": "https://www.masterbond.com/products/two-component-epoxy-adhesives",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Two Part Silicone Adhesives, Sealants and Coatings",
+      "officialUrl": "https://www.masterbond.com/products/two-part-silicone-adhesives-sealants-and-coatings",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "Urethane Modified Epoxies for Bonding, Sealing, Coating & Potting",
+      "officialUrl": "https://www.masterbond.com/products/urethane-modified-epoxies-bonding-sealing-coating-potting",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "UV Adhesives",
+      "officialUrl": "https://www.masterbond.com/products/uv-adhesives",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "UV Curable Scratch Resistant Coatings",
+      "officialUrl": "https://www.masterbond.com/products/uv-curable-scratch-resistant-coatings",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "UV Curable Systems",
+      "officialUrl": "https://www.masterbond.com/products/uv-curable-systems",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Master Bond",
+      "name": "UV Curing Potting Compounds",
+      "officialUrl": "https://www.masterbond.com/products/uv-curing-potting-compounds",
+      "kind": "family",
+      "sourceLabel": "Master Bond sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "101",
+      "officialUrl": "https://permabond.com/tds/101_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "102",
+      "officialUrl": "https://permabond.com/tds/102_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "105",
+      "officialUrl": "https://permabond.com/tds/105_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "108",
+      "officialUrl": "https://permabond.com/tds/108_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "130UV",
+      "officialUrl": "https://permabond.com/tds/130uv_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "135UV",
+      "officialUrl": "https://permabond.com/tds/135uv_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "170",
+      "officialUrl": "https://permabond.com/tds/170_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "200",
+      "officialUrl": "https://permabond.com/tds/200_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "2010",
+      "officialUrl": "https://permabond.com/tds/2010_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "2011",
+      "officialUrl": "https://permabond.com/tds/2011_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "2050",
+      "officialUrl": "https://permabond.com/tds/2050_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "240",
+      "officialUrl": "https://permabond.com/tds/240_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "268",
+      "officialUrl": "https://permabond.com/tds/268_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "3D SERIES",
+      "officialUrl": "https://permabond.com/tds/3d_series_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "4C10",
+      "officialUrl": "https://permabond.com/tds/4c10_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "4C20",
+      "officialUrl": "https://permabond.com/tds/4c20_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "4C30",
+      "officialUrl": "https://permabond.com/tds/4c30_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "4C40",
+      "officialUrl": "https://permabond.com/tds/4c40_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "712",
+      "officialUrl": "https://permabond.com/tds/712_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "731",
+      "officialUrl": "https://permabond.com/tds/731_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "735",
+      "officialUrl": "https://permabond.com/tds/735_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "737",
+      "officialUrl": "https://permabond.com/tds/737_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "790",
+      "officialUrl": "https://permabond.com/tds/790_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "791",
+      "officialUrl": "https://permabond.com/tds/791_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "792",
+      "officialUrl": "https://permabond.com/tds/792_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "795",
+      "officialUrl": "https://permabond.com/tds/795_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "799",
+      "officialUrl": "https://permabond.com/tds/799_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "801",
+      "officialUrl": "https://permabond.com/tds/801_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "802",
+      "officialUrl": "https://permabond.com/tds/802_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "820",
+      "officialUrl": "https://permabond.com/tds/820_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "825",
+      "officialUrl": "https://permabond.com/tds/825_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "910",
+      "officialUrl": "https://permabond.com/tds/910_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "910FS",
+      "officialUrl": "https://permabond.com/tds/910fs_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "919",
+      "officialUrl": "https://permabond.com/tds/919_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "920",
+      "officialUrl": "https://permabond.com/tds/920_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "922",
+      "officialUrl": "https://permabond.com/tds/922_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "940",
+      "officialUrl": "https://permabond.com/tds/940_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "941",
+      "officialUrl": "https://permabond.com/tds/941_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "943",
+      "officialUrl": "https://permabond.com/tds/943_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "947",
+      "officialUrl": "https://permabond.com/tds/947_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A011",
+      "officialUrl": "https://permabond.com/tds/a011_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A025",
+      "officialUrl": "https://permabond.com/tds/a025_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A1042",
+      "officialUrl": "https://permabond.com/tds/a1042_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A1044",
+      "officialUrl": "https://permabond.com/tds/a1044_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A1046",
+      "officialUrl": "https://permabond.com/tds/a1046_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A1058",
+      "officialUrl": "https://permabond.com/tds/a1058_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A113",
+      "officialUrl": "https://permabond.com/tds/a113_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A118",
+      "officialUrl": "https://permabond.com/tds/a118_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A126",
+      "officialUrl": "https://permabond.com/tds/a126_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A129",
+      "officialUrl": "https://permabond.com/tds/a129_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A130",
+      "officialUrl": "https://permabond.com/tds/a130_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A131",
+      "officialUrl": "https://permabond.com/tds/a131_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A134",
+      "officialUrl": "https://permabond.com/tds/a134_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A136",
+      "officialUrl": "https://permabond.com/tds/a136_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "A905",
+      "officialUrl": "https://permabond.com/tds/a905_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ANTI SEIZE",
+      "officialUrl": "https://permabond.com/tds/anti-seize_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ASC10",
+      "officialUrl": "https://permabond.com/tds/asc10_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "CLEANERA",
+      "officialUrl": "https://permabond.com/tds/cleanera_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "CSA",
+      "officialUrl": "https://permabond.com/tds/csa_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "CSA NF",
+      "officialUrl": "https://permabond.com/tds/csa-nf_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "CSA PT BR",
+      "officialUrl": "https://permabond.com/tds/csa-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES550",
+      "officialUrl": "https://permabond.com/tds/es550_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES558",
+      "officialUrl": "https://permabond.com/tds/es558_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES562",
+      "officialUrl": "https://permabond.com/tds/es562_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES569",
+      "officialUrl": "https://permabond.com/tds/es569_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES5748",
+      "officialUrl": "https://permabond.com/tds/es5748_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES578",
+      "officialUrl": "https://permabond.com/tds/es578_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ES579",
+      "officialUrl": "https://permabond.com/tds/es579_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET500",
+      "officialUrl": "https://permabond.com/tds/et500_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5003",
+      "officialUrl": "https://permabond.com/tds/et5003_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET503",
+      "officialUrl": "https://permabond.com/tds/et503_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET505",
+      "officialUrl": "https://permabond.com/tds/et505_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET510",
+      "officialUrl": "https://permabond.com/tds/et510_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET514",
+      "officialUrl": "https://permabond.com/tds/et514_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5143",
+      "officialUrl": "https://permabond.com/tds/et5143_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5145",
+      "officialUrl": "https://permabond.com/tds/et5145_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5147",
+      "officialUrl": "https://permabond.com/tds/et5147_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET515",
+      "officialUrl": "https://permabond.com/tds/et515_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5162",
+      "officialUrl": "https://permabond.com/tds/et5162_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5164",
+      "officialUrl": "https://permabond.com/tds/et5164_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET536",
+      "officialUrl": "https://permabond.com/tds/et536_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5364",
+      "officialUrl": "https://permabond.com/tds/et5364_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5365",
+      "officialUrl": "https://permabond.com/tds/et5365_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET538",
+      "officialUrl": "https://permabond.com/tds/et538_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5392",
+      "officialUrl": "https://permabond.com/tds/et5392_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5393",
+      "officialUrl": "https://permabond.com/tds/et5393_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET540",
+      "officialUrl": "https://permabond.com/tds/et540_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5401",
+      "officialUrl": "https://permabond.com/tds/et5401_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5422",
+      "officialUrl": "https://permabond.com/tds/et5422_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5424 EN",
+      "officialUrl": "https://permabond.com/tds/et5424-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5428",
+      "officialUrl": "https://permabond.com/tds/et5428_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5428BLACK",
+      "officialUrl": "https://permabond.com/tds/et5428black_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5429",
+      "officialUrl": "https://permabond.com/tds/et5429_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5441",
+      "officialUrl": "https://permabond.com/tds/et5441_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "F201",
+      "officialUrl": "https://permabond.com/tds/f201_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "F201HV EN",
+      "officialUrl": "https://permabond.com/tds/f201hv-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "F201HV PT BR",
+      "officialUrl": "https://permabond.com/tds/f201hv-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "F202",
+      "officialUrl": "https://permabond.com/tds/f202_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH040",
+      "officialUrl": "https://permabond.com/tds/hh040_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH040PURE",
+      "officialUrl": "https://permabond.com/tds/hh040pure_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH120",
+      "officialUrl": "https://permabond.com/tds/hh120_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH131",
+      "officialUrl": "https://permabond.com/tds/hh131_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH167",
+      "officialUrl": "https://permabond.com/tds/hh167_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HH190",
+      "officialUrl": "https://permabond.com/tds/hh190_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HL126",
+      "officialUrl": "https://permabond.com/tds/hl126_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HL138",
+      "officialUrl": "https://permabond.com/tds/hl138_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM118",
+      "officialUrl": "https://permabond.com/tds/hm118_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM128",
+      "officialUrl": "https://permabond.com/tds/hm128_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM129",
+      "officialUrl": "https://permabond.com/tds/hm129_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM135",
+      "officialUrl": "https://permabond.com/tds/hm135_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM160",
+      "officialUrl": "https://permabond.com/tds/hm160_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM161",
+      "officialUrl": "https://permabond.com/tds/hm161_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM162",
+      "officialUrl": "https://permabond.com/tds/hm162_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM163",
+      "officialUrl": "https://permabond.com/tds/hm163_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "HM165",
+      "officialUrl": "https://permabond.com/tds/hm165_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH050",
+      "officialUrl": "https://permabond.com/tds/lh050_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH050PURE",
+      "officialUrl": "https://permabond.com/tds/lh050pure_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH051",
+      "officialUrl": "https://permabond.com/tds/lh051_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH056",
+      "officialUrl": "https://permabond.com/tds/lh056_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH150",
+      "officialUrl": "https://permabond.com/tds/lh150_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LH197",
+      "officialUrl": "https://permabond.com/tds/lh197_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LM012",
+      "officialUrl": "https://permabond.com/tds/lm012_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "LM113",
+      "officialUrl": "https://permabond.com/tds/lm113_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MH052",
+      "officialUrl": "https://permabond.com/tds/mh052_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MH196",
+      "officialUrl": "https://permabond.com/tds/mh196_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MH199",
+      "officialUrl": "https://permabond.com/tds/mh199_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MM115",
+      "officialUrl": "https://permabond.com/tds/mm115_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MM115PURE",
+      "officialUrl": "https://permabond.com/tds/mm115pure_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MS359AGREY",
+      "officialUrl": "https://permabond.com/tds/ms359agrey_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MS359CLEAR",
+      "officialUrl": "https://permabond.com/tds/ms359clear_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MS359GREY",
+      "officialUrl": "https://permabond.com/tds/ms359grey_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MT3809",
+      "officialUrl": "https://permabond.com/tds/mt3809_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MT382",
+      "officialUrl": "https://permabond.com/tds/mt382_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MT3821",
+      "officialUrl": "https://permabond.com/tds/mt3821_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "MT3836",
+      "officialUrl": "https://permabond.com/tds/mt3836_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 105 \u2013 Cyanoacrylate Adhesive",
+      "officialUrl": "https://permabond.com/products/permabond-105/",
+      "kind": "product",
+      "sourceLabel": "Permabond product sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "PERMABOND DEFAULT 1.JPG",
+      "officialUrl": "https://permabond.com/wp-content/uploads/2022/11/Permabond-Default-1.jpg",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond TA452",
+      "officialUrl": "https://permabond.com/products/permabond-ta452/",
+      "kind": "product",
+      "sourceLabel": "Permabond product sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond TA4610",
+      "officialUrl": "https://permabond.com/products/permabond-ta4610/",
+      "kind": "product",
+      "sourceLabel": "Permabond product sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "POP",
+      "officialUrl": "https://permabond.com/tds/pop_tds-de-2/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "PT321",
+      "officialUrl": "https://permabond.com/tds/pt321_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "PT326",
+      "officialUrl": "https://permabond.com/tds/pt326_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "PT328",
+      "officialUrl": "https://permabond.com/tds/pt328_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "QFS10",
+      "officialUrl": "https://permabond.com/tds/qfs10_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "QFS16",
+      "officialUrl": "https://permabond.com/tds/qfs16_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4200",
+      "officialUrl": "https://permabond.com/tds/ta4200_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4202",
+      "officialUrl": "https://permabond.com/tds/ta4202_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4204",
+      "officialUrl": "https://permabond.com/tds/ta4204_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4205 EN",
+      "officialUrl": "https://permabond.com/tds/ta4205-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4205 PT BR",
+      "officialUrl": "https://permabond.com/tds/ta4205-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4207",
+      "officialUrl": "https://permabond.com/tds/ta4207_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4208BLACK",
+      "officialUrl": "https://permabond.com/tds/ta4208black/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4210",
+      "officialUrl": "https://permabond.com/tds/ta4210_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4230",
+      "officialUrl": "https://permabond.com/tds/ta4230_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4246",
+      "officialUrl": "https://permabond.com/tds/ta4246_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA430",
+      "officialUrl": "https://permabond.com/tds/ta430_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA435",
+      "officialUrl": "https://permabond.com/tds/ta435_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA436",
+      "officialUrl": "https://permabond.com/tds/ta436_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA437",
+      "officialUrl": "https://permabond.com/tds/ta437_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA439",
+      "officialUrl": "https://permabond.com/tds/ta439_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA440",
+      "officialUrl": "https://permabond.com/tds/ta440_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA452",
+      "officialUrl": "https://permabond.com/tds/ta452_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4522",
+      "officialUrl": "https://permabond.com/tds/ta4522_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4550",
+      "officialUrl": "https://permabond.com/tds/ta4550_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA459",
+      "officialUrl": "https://permabond.com/tds/ta459_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4590",
+      "officialUrl": "https://permabond.com/tds/ta4590_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4592",
+      "officialUrl": "https://permabond.com/tds/ta4592_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4605",
+      "officialUrl": "https://permabond.com/tds/ta4605_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4610",
+      "officialUrl": "https://permabond.com/tds/ta4610_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4611",
+      "officialUrl": "https://permabond.com/tds/ta4611_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4631",
+      "officialUrl": "https://permabond.com/tds/ta4631_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4810",
+      "officialUrl": "https://permabond.com/tds/ta4810_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4820",
+      "officialUrl": "https://permabond.com/tds/ta4820_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV605",
+      "officialUrl": "https://permabond.com/tds/uv605_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV610",
+      "officialUrl": "https://permabond.com/tds/uv610_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV6160",
+      "officialUrl": "https://permabond.com/tds/uv6160_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV620",
+      "officialUrl": "https://permabond.com/tds/uv620_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV6231",
+      "officialUrl": "https://permabond.com/tds/uv6231_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV625",
+      "officialUrl": "https://permabond.com/tds/uv625_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV630",
+      "officialUrl": "https://permabond.com/tds/uv630_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV6302",
+      "officialUrl": "https://permabond.com/tds/uv6302_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV632",
+      "officialUrl": "https://permabond.com/tds/uv632_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV6357",
+      "officialUrl": "https://permabond.com/tds/uv6357_tds/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV6361",
+      "officialUrl": "https://permabond.com/tds/uv6361_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV639",
+      "officialUrl": "https://permabond.com/tds/uv639_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV640",
+      "officialUrl": "https://permabond.com/tds/uv640_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV643",
+      "officialUrl": "https://permabond.com/tds/uv643_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV645",
+      "officialUrl": "https://permabond.com/tds/uv645_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV648",
+      "officialUrl": "https://permabond.com/tds/uv648_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV649",
+      "officialUrl": "https://permabond.com/tds/uv649_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV670",
+      "officialUrl": "https://permabond.com/tds/uv670_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV681",
+      "officialUrl": "https://permabond.com/tds/uv681_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV683",
+      "officialUrl": "https://permabond.com/tds/uv683_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV7141",
+      "officialUrl": "https://permabond.com/tds/uv7141_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "Multipurpose Adhesive and Sealant",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-415.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "New Sikaflex\u00ae-11 FC",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "New Sikaflex\u00ae PRO-3 Purform\u00ae",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "Sealants for New Construction and Renovation of Residential Buildings",
+      "officialUrl": "https://www.sika.com/en/brands/sikaseal.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "Sikadur\u00ae Crack Repair Kit",
+      "officialUrl": "https://www.sika.com/en/brands/sikadur-crack-repair-kit.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "Sikaflex\u00ae PRO-3 Purform\u00ae PowerCure",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Sika",
+      "name": "Sikaflex\u00ae - The Leading Brand for Sealants and Adhesives",
+      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
+      "kind": "product",
+      "sourceLabel": "Sika brand sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "gorilla": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://gorillatough.com/product/gorilla-super-glue",
+    "source": "official-override",
+    "domain": "gorillatough.com"
+  },
+  "gorilla_7541a51": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://gorillatough.com/product/gorilla-epoxy",
+    "source": "official-override",
+    "domain": "gorillatough.com"
+  },
+  "gorilla_glue_gorilla_glue": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://gorillatough.com/product/original-gorilla-glue",
+    "source": "official-override",
+    "domain": "gorillatough.com"
+  },
+  "elmer_s_glue_is_white_but_dries_clear_7516a1": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.elmers.com/slime-glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+    "source": "official-override",
+    "domain": "www.elmers.com"
+  },
+  "elmer_s_glue_is_white_but_dries_clear_7516a4": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.elmers.com/slime-glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+    "source": "official-override",
+    "domain": "www.elmers.com"
+  },
+  "vibra_tite_123": {
+    "status": "found",
+    "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/123_tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.vibra-tite.com"
+  },
+  "vibra_tite_retaining_compounds_530": {
+    "status": "found",
+    "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/530_tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.vibra-tite.com"
+  },
+  "vibra_tite_vc_3": {
+    "status": "found",
+    "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.vibra-tite.com"
+  },
+  "vibra_tite_vibra_tite": {
+    "status": "found",
+    "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.vibra-tite.com"
+  },
+  "j_b_weld_original": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+    "source": "official-override",
+    "domain": "www.jbweld.com"
+  },
+  "model_number_81725_permatex_81725_is_rtv_room_temperature_vulcanizing_81725": {
+    "status": "found",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/2023/04/81724.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.permatex.com"
+  },
+  "momentive_ge_silicone_frv1106fc": {
+    "status": "found",
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-frv1106fc-adhesive-sealant-tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.momentive.com"
+  },
+  "momentive_ge_silicone_rtv5818": {
+    "status": "found",
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv5818.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.momentive.com"
+  },
+  "momentive_potting_compounds_medium_soft_rtv11": {
+    "status": "found",
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%E2%84%A2%20RTV11.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.momentive.com"
+  },
+  "plexus_it187x": {
+    "status": "found",
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Devcon-Plexus-SprayCore-Permatex-Catalog-2025.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "itwperformancepolymers.com"
+  },
+  "sika_292": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://usa.sika.com/en/industry/marine-repair-solutions/bonding-applications/deck-to-hull/sikaflex-292i.html",
+    "source": "official-override",
+    "domain": "usa.sika.com"
+  },
+  "sika_sikaflex_polyurethane_15lm": {
+    "status": "found",
+    "tdsUrl": "https://usa.sika.com/dam/dms/us01/1/pres-cpd-Sikaflex15lm-us.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "usa.sika.com"
+  },
+  "sika_sikaflex_polyurethane_1_a": {
+    "status": "found",
+    "tdsUrl": "https://usa.sika.com/dam/dms/us01/q/sikaflex_-1a.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "usa.sika.com"
+  },
+  "sika_sikaflex_polyurethane_201": {
+    "status": "found",
+    "tdsUrl": "https://usa.sika.com/content/dam/dms/us01/p/sikaflex-201-us.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "usa.sika.com"
+  },
+  "sika_sikaflex_silicone_295": {
+    "status": "found",
+    "tdsUrl": "https://usa.sika.com/dam/dms/us01/z/sikaflex_-295_uv.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "usa.sika.com"
+  },
+  "dow_corning_silicone_3145": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-3145-rtv-mil-a-46146-adhesive-sealant.01059548z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_700": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-700-industrial-grade-silicone-sealant.02026350h.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_730_fs": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/documents/en-us/catalog-selguide/80/80-81/80-8104-01-silicone-industrial-assembly-maintenance.pdf?iframe=true",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_732": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-732-multi-purpose-sealant.01890581z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_733": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-733-glass-metal-sealant.02693925h.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_734": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_736": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-736-heat-resistant-sealant.01890590z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_737": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-737-neutral-cure-sealant.04098499h",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_739": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/documents/11/11-1177-01-dowsil-739-plastic-adhesive.pdf?bypass=true",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_786": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_791": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/documents/62/62-1/62-1636-01-dowsil-791-silicone-weatherproofing-sealant.pdf?iframe=true",
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-791-weatherproofing-sealant.04082594h.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_795": {
+    "status": "found",
+    "tdsUrl": "https://www.dow.com/content/dam/dcc/documents/61/61-885-dowsil-795-silicone-building-sealant2.pdf?iframe=true",
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-795-silicone-building-sealant.01595717z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_832": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-832-multi-surface-adhesive-sealant.02468492z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_995": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-995-silicone-structural-sealant.02122197z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_999a": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-999a-silicone-glazing-sealant.02323419h.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_9_1363": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-9-1363-industrial-assembly-adhesive-sealant.04009182z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_corning_silicone_dow_corning_silicone": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-732-multi-purpose-sealant.01890581z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "dow_potting_compounds_medium_soft_738": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.dow.com/en-us/pdp.dowsil-738-electrical-sealant.01907522z.html",
+    "source": "official-override",
+    "domain": "www.dow.com"
+  },
+  "momentive_ge_silicone_rtv6708": {
+    "status": "found",
+    "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/MomentiveRTV6708_Data_Sheet.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "res.cloudinary.com"
+  },
+  "pliobond_20": {
+    "status": "found",
+    "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.aircraftspruce.com"
+  },
+  "pliobond_25": {
+    "status": "found",
+    "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.aircraftspruce.com"
+  },
+  "pliobond_35": {
+    "status": "found",
+    "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.aircraftspruce.com"
+  },
+  "scigrip_cement_4052": {
+    "status": "found",
+    "tdsUrl": "https://www.curbellplastics.com/wp-content/uploads/2022/11/SCIGRIP-4052-Data-Sheet.pdf",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "www.curbellplastics.com"
+  },
+  "scigrip_cement_4707": {
+    "status": "found",
+    "tdsUrl": "https://api-shop.spandex.com/medias/Data-Sheet-SciGrip-4707-Aug-2014-US.pdf?context=bWFzdGVyfHMzZG9jdW1lbnRzfDIxNTI2M3xhcHBsaWNhdGlvbi9wZGZ8YUdVMEwyaGpOUzh4TVRJMU16UTBNRFl4TURNek5DOUVZWFJoWDFOb1pXVjBYMU5qYVVkeWFYQmZORGN3TjE5QmRXZGZNakF4TkY5VlV5NXdaR1l8NmQ3Mzk3OTlmZDI2ZmZjYWIwMTAzMTJiM2EyYzRlYzY3ODg3NzBlZDVkNzViZTkyYjUxN2FjYjdlMGNmMjc3MQ",
+    "productUrl": null,
+    "source": "official-override",
+    "domain": "api-shop.spandex.com"
+  },
+  "3m_1099": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069407/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_1357": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366629O/3m-neoprene-high-performance-contact-adhesive-1357.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069400/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_2262": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366658O/3m-plastic-adhesive-2262.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069401/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_4475": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069415/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_4693": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40071871/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_74": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40071864/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_74ca": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2535570O/3m-foam-fast-74-ca-spray-adhesive-low-voc-25-orange-aerosol.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v000186724/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_77": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v100007170/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_77ca": {
+    "status": "product-page",
+    "tdsUrl": null,
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v000186729/",
+    "source": "official-override",
+    "domain": "www.3m.com"
+  },
+  "3m_80": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796078O/rubber-and-vinyl-80-spray-adhesive.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v000074494/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_90": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069424/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_90ca": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2535571O/3m-hi-strength-90-spray-adhesive-low-voc-25-aerosol.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v000147645/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_hybrid_polymer_4000uv": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v100011055/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_polyurethane_5200fc": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/576967O/3mtm-marine-adhesive-sealant-fast-cure-5200.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066996/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_scotch_weld_3750lm": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/1245167O/3m-hot-melt-adhesive-3750lm-3750-technical-data-sheet.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v000233876/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_scotch_weld_dp8507ns": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2607923O/3m-scotch-weld-acrylic-adhesive-8507ns.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v101827088/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_silicone_8017": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v000146771/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_silicone_8019": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v000146772/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_silicone_8027": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v000146768/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  },
+  "3m_silicone_8029": {
+    "status": "found",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+    "productUrl": "https://www.3m.com/3M/en_US/p/dc/v000146769/",
+    "source": "official-override",
+    "domain": "multimedia.3m.com"
+  }
+}

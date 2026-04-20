@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-04-17T00:25:17.641288+00:00",
+  "root_url": "https://www.mcmaster.com/products/glue/",
+  "seed_urls": [
+    "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/",
+    "https://www.mcmaster.com/products/glue/glue-3~/",
+    "https://www.mcmaster.com/products/glue/structural-adhesives-1~/",
+    "https://www.mcmaster.com/products/glue/contact-adhesives-3~/",
+    "https://www.mcmaster.com/products/glue/hot-glue-2~/",
+    "https://www.mcmaster.com/products/glue/adhesive-cement-1~/",
+    "https://www.mcmaster.com/products/glue/construction-adhesives-2~/",
+    "https://www.mcmaster.com/products/glue/threadlockers-4~/",
+    "https://www.mcmaster.com/products/glue/retaining-compounds-2~/",
+    "https://www.mcmaster.com/products/glue/sealants-3~/",
+    "https://www.mcmaster.com/products/glue/gasket-makers-2~/",
+    "https://www.mcmaster.com/products/glue/potting-compounds-2~/",
+    "https://www.mcmaster.com/products/glue/electrically-insulating-adhesives-2~/",
+    "https://www.mcmaster.com/products/glue/conductive-adhesives-2~/",
+    "https://www.mcmaster.com/products/glue/anchoring-adhesives-2~/"
+  ],
+  "stats": {
+    "pages_crawled": 6,
+    "leaf_pages": 0,
+    "offers": 0,
+    "families": 0
+  },
+  "pages": [
+    {
+      "url": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/",
+      "title": "McMaster-Carr",
+      "headings": [],
+      "table_count": 0,
+      "child_link_count": 0
+    },
+    {
+      "url": "https://www.mcmaster.com/products/glue/glue-3~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "High-Strength Glue",
+        "Wood Glue",
+        "Glue",
+        "Waterproof Wood Glue",
+        "Optically Clear Reusable Adhesive Gel",
+        "Water-Resistant Wood Glue",
+        "Temporary Positioning Spray Glue",
+        "Reusable Adhesive Putty",
+        "High-Temperature Glue"
+      ],
+      "table_count": 0,
+      "child_link_count": 0
+    },
+    {
+      "url": "https://www.mcmaster.com/products/glue/structural-adhesives-1~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "About Structural Adhesives",
+        "Epoxy Structural Adhesives",
+        "Quick-Set Epoxy Structural Adhesives",
+        "Epoxy Structural Adhesives",
+        "Optically Clear Epoxy Structural Adhesives",
+        "Waterproof Epoxy Structural Adhesives",
+        "Slow-Set Epoxy Structural Adhesives",
+        "Toughened Epoxy Structural Adhesives",
+        "Epoxy Structural Adhesive Assortments",
+        "Epoxy Structural Adhesivesfor Hard-to-Bond Materials",
+        "Epoxy Structural Adhesivesfor Harsh Environments",
+        "Metal-Reinforced Epoxy Structural Adhesives",
+        "Low-Odor Epoxy Structural Adhesives",
+        "Flame-Retardant Epoxy Structural Adhesives",
+        "Acrylic Structural Adhesives",
+        "No-Mix Acrylic Structural Adhesives",
+        "Toughened Acrylic Structural Adhesives",
+        "High-Strength Acrylic Structural Adhesives",
+        "Acrylic Structural Adhesivesfor Hard-to-Bond Materials",
+        "Acrylic Structural Adhesives",
+        "Chemical-Resistant AcrylicStructural Adhesives",
+        "Acrylic Structural Adhesiveswith Spacing Beads",
+        "Urethane Structural Adhesives",
+        "Urethane Structural Adhesives",
+        "High-Strength Urethane Structural Adhesives"
+      ],
+      "table_count": 0,
+      "child_link_count": 21
+    },
+    {
+      "url": "https://www.mcmaster.com/products/glue/contact-adhesives-3~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "Contact Adhesives",
+        "Spray Contact Adhesives",
+        "High-Strength Spray Contact Adhesives",
+        "Quick-Set Contact Adhesives",
+        "Gasketing Adhesives",
+        "Pressure-Sensitive Spray Contact Adhesives",
+        "High-Tack Spray Contact Adhesives",
+        "High-Temperature Contact Adhesives",
+        "Nonflammable Contact Adhesives",
+        "Oil-Resistant Gasketing Adhesives",
+        "Contact Adhesives for Sanding Abrasives"
+      ],
+      "table_count": 0,
+      "child_link_count": 0
+    },
+    {
+      "url": "https://www.mcmaster.com/products/glue/hot-glue-2~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "Urethane Hot Glue",
+        "Hot Glue Sticks",
+        "Flexible Hot Glue Sticks",
+        "Fast-Hardening Hot Glue Sticks"
+      ],
+      "table_count": 0,
+      "child_link_count": 0
+    },
+    {
+      "url": "https://www.mcmaster.com/products/glue/adhesive-cement-1~/",
+      "title": "McMaster-Carr",
+      "headings": [
+        "Cement for Plastic",
+        "Nonwhitening Cement for Acrylic",
+        "Pipe Cement for Plastic Pipe",
+        "Cement for Ceramic Insulation",
+        "Rubber Cement",
+        "Pipe Cement for Corrosive Waste Plastic Pipe",
+        "Cement for Abrasive Grains"
+      ],
+      "table_count": 0,
+      "child_link_count": 0
+    }
+  ],
+  "families": [],
+  "offers": []
+}

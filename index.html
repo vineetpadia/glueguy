@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Glueboy Lab helps you pick an adhesive for real materials, real environments, and real constraints."
+    />
+    <title>Glueboy Lab</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar panel">
+        <div class="topbar-main">
+          <div>
+            <p class="eyebrow">Glueboy Lab</p>
+            <h1>Adhesive selector</h1>
+            <p class="lede">
+              Direct, spreadsheet-style adhesive selection inspired by
+              <a href="https://adhesive.fyi/" target="_blank" rel="noreferrer">adhesive.fyi</a>
+              with a broader catalog and faster substrate-first lookup.
+            </p>
+          </div>
+          <div class="topbar-actions">
+            <button class="button button-ghost" id="reset-hero" type="button">
+              Reset all
+            </button>
+            <div class="stat-row" id="hero-stats" aria-label="Catalog summary"></div>
+            <div class="topbar-density">
+              <span>Catalog</span>
+              <strong id="glue-density">40 formulations loaded</strong>
+            </div>
+          </div>
+        </div>
+        <div class="preset-row">
+          <button class="preset-button" type="button" data-preset="outdoorMixed">
+            Outdoor mixed repair
+          </button>
+          <button class="preset-button" type="button" data-preset="opticalClear">
+            Optical clear
+          </button>
+          <button class="preset-button" type="button" data-preset="threadlocker">
+            Threadlocker
+          </button>
+          <button class="preset-button" type="button" data-preset="thermal">
+            Thermal
+          </button>
+        </div>
+      </section>
+
+      <section class="lab-grid" id="lab">
+        <form class="panel control-panel" id="filter-form">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Selector</p>
+              <h2>Set the joint conditions</h2>
+            </div>
+            <button class="button button-ghost" id="reset-filters" type="button">
+              Reset
+            </button>
+          </div>
+
+          <div class="control-group">
+            <label>
+              <span>This material</span>
+              <select name="substrateA" id="substrate-a"></select>
+            </label>
+            <label>
+              <span>That material</span>
+              <select name="substrateB" id="substrate-b"></select>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label>
+              <span>Coldest service (°C)</span>
+              <input name="coldest" type="number" value="-20" step="5" />
+            </label>
+            <label>
+              <span>Hottest service (°C)</span>
+              <input name="hottest" type="number" value="90" step="5" />
+            </label>
+          </div>
+
+          <div class="control-stack">
+            <span class="stack-label">Primary stress mode</span>
+            <div class="segmented" id="stress-mode">
+              <button class="segment is-active" data-value="shear" type="button">
+                Shear
+              </button>
+              <button class="segment" data-value="peel" type="button">
+                Peel
+              </button>
+              <button class="segment" data-value="impact" type="button">
+                Impact
+              </button>
+            </div>
+          </div>
+
+          <div class="control-stack">
+            <span class="stack-label">Viscosity</span>
+            <div class="chip-grid" id="viscosity-grid">
+              <label class="chip-option">
+                <input type="checkbox" name="viscosity" value="wicking" />
+                <span>Wicking</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="viscosity" value="low" />
+                <span>Low</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="viscosity" value="medium" />
+                <span>Medium</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="viscosity" value="high" />
+                <span>High</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="viscosity" value="very-high" />
+                <span>Very high</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="control-stack">
+            <span class="stack-label">Service environment</span>
+            <div class="chip-grid">
+              <label class="chip-option">
+                <input type="checkbox" name="environment" value="humidity" />
+                <span>Humid or outdoor</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="environment" value="fuel" />
+                <span>Fuel or oil splash</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="environment" value="immersion" />
+                <span>Water or coolant immersion</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="thixotropicOnly" value="yes" />
+                <span>Vertical or non-sag only</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="excludeWarnings" value="yes" />
+                <span>Hide flagged glues</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="control-group control-group-triple">
+            <label>
+              <span>Application</span>
+              <select name="application" id="application-select"></select>
+            </label>
+            <label>
+              <span>Cure family</span>
+              <select name="cure" id="cure-select"></select>
+            </label>
+            <label>
+              <span>Manufacturer</span>
+              <select name="manufacturer" id="manufacturer-select"></select>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label>
+              <span>Minimum pot life (min)</span>
+              <input name="minPotLife" type="number" value="0" min="0" step="1" />
+            </label>
+            <label>
+              <span>Maximum fixture time (min)</span>
+              <input name="maxFixtureTime" type="number" value="9999" min="1" step="1" />
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label>
+              <span>Minimum gap fill (mm)</span>
+              <input name="minGapFill" type="number" value="0" min="0" step="0.1" />
+            </label>
+            <label>
+              <span>Minimum thermal conductivity (W/m·K)</span>
+              <input
+                name="minThermalConductivity"
+                type="number"
+                value="0"
+                min="0"
+                step="0.1"
+              />
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label>
+              <span>Optical clarity</span>
+              <select name="clarity" id="clarity-select">
+                <option value="any">Any</option>
+                <option value="optically-clear">Optically clear</option>
+                <option value="transparent">Transparent</option>
+                <option value="translucent">Translucent</option>
+              </select>
+            </label>
+            <label>
+              <span>Minimum lap shear (MPa)</span>
+              <input name="minLapShear" type="number" value="0" min="0" step="1" />
+            </label>
+          </div>
+        </form>
+
+        <div class="main-column">
+          <section class="panel result-panel">
+            <div class="panel-head panel-head-stacked">
+              <div>
+                <p class="eyebrow">Matches</p>
+                <h2 id="results-title">Ranking glues for your joint</h2>
+              </div>
+              <p class="result-note">
+                Scores combine substrate fit, service window, stress mode, and your
+                process constraints. Always verify against the manufacturer TDS.
+              </p>
+            </div>
+
+            <div class="summary-row">
+              <div class="summary-copy">
+                <strong id="results-count">0 matches</strong>
+                <span id="results-context">Waiting for inputs…</span>
+              </div>
+              <div class="active-tags" id="active-tags"></div>
+            </div>
+
+            <div class="results-table-shell" aria-live="polite">
+              <table class="results-table">
+                <thead>
+                  <tr>
+                    <th>Score</th>
+                    <th id="fit-a-heading">This fit</th>
+                    <th id="fit-b-heading">That fit</th>
+                    <th>Product</th>
+                    <th>Chemistry</th>
+                    <th>Fixture</th>
+                    <th>Temp</th>
+                    <th>Viscosity</th>
+                    <th>Gap</th>
+                    <th>Cost</th>
+                    <th>Why matched</th>
+                    <th>Warnings</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="results-body"></tbody>
+              </table>
+              <div class="empty-state hidden" id="results-empty">
+                <div>
+                  <h3>Nothing survived the gauntlet.</h3>
+                  <p>
+                    Try removing the warning filter, opening the fixture window, or
+                    picking a chemistry that is less specialized.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel compare-panel">
+            <div class="panel-head panel-head-inline">
+              <div>
+                <p class="eyebrow">Compare</p>
+                <h2>Shortlist</h2>
+              </div>
+              <p class="result-note">
+                Compact side-by-side readout for up to three selected glues.
+              </p>
+            </div>
+            <div id="compare-state" class="compare-state">
+              <p>No glues selected yet.</p>
+              <p>Tap <em>Compare</em> in any row.</p>
+            </div>
+          </section>
+
+          <section class="panel reference-panel">
+            <div class="panel-head panel-head-inline">
+              <div>
+                <p class="eyebrow">Reference Library</p>
+                <h2>McMaster-derived adhesive families</h2>
+              </div>
+              <p class="result-note">
+                Raw browse table for the broader adhesive universe behind the selector.
+                Use it to scan families, categories, temperature windows, and rough cost.
+              </p>
+            </div>
+
+            <div class="reference-toolbar">
+              <div class="summary-copy">
+                <strong id="reference-count">0 reference families</strong>
+                <span id="reference-context">Catalog pipeline not loaded yet.</span>
+              </div>
+              <div class="reference-filters">
+                <label>
+                  <span>Search the library</span>
+                  <input
+                    class="inline-input"
+                    id="reference-search"
+                    type="search"
+                    placeholder="Maker, family, category, or substrate"
+                  />
+                </label>
+                <label>
+                  <span>Reference category</span>
+                  <select id="reference-category"></select>
+                </label>
+                <label>
+                  <span>Use case</span>
+                  <select id="reference-application"></select>
+                </label>
+              </div>
+            </div>
+
+            <div class="results-table-shell reference-table-shell" aria-live="polite">
+              <table class="results-table reference-table">
+                <thead>
+                  <tr>
+                    <th>Family</th>
+                    <th>Use case</th>
+                    <th>Category</th>
+                    <th>Temp</th>
+                    <th>Offers</th>
+                    <th>Cost</th>
+                    <th>Source</th>
+                  </tr>
+                </thead>
+                <tbody id="reference-body"></tbody>
+              </table>
+              <div class="empty-state hidden" id="reference-empty">
+                <div>
+                  <h3>No reference families match.</h3>
+                  <p>Relax the search or switch the category back to all families.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./data/mcmaster-site-catalog.js"></script>
+    <script src="./data/tds-manual-catalog.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

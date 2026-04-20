@@ -1,0 +1,350 @@
+{
+  "manufacturers": [
+    {
+      "name": "3M",
+      "priority": "high",
+      "officialDomains": ["3m.com", "multimedia.3m.com"],
+      "products": [
+        { "name": "Scotch-Weld DP420NS" },
+        { "name": "Scotch-Weld DP420 Black" },
+        { "name": "Scotch-Weld DP460" },
+        { "name": "Scotch-Weld DP490" },
+        { "name": "Scotch-Weld DP100 Plus" },
+        { "name": "Scotch-Weld DP8810NS" },
+        { "name": "Scotch-Weld 2216 B/A Gray" },
+        { "name": "Scotch-Weld CA5" },
+        { "name": "Scotch-Weld CA50 Gel" },
+        { "name": "Scotch-Weld PR1500" },
+        { "name": "Scotch-Weld PR100" },
+        { "name": "VHB 4950" },
+        { "name": "VHB 5952" },
+        { "name": "VHB 4945" },
+        { "name": "Fastbond 30NF" },
+        { "name": "Jet-Melt 3792" }
+      ]
+    },
+    {
+      "name": "Henkel Loctite",
+      "priority": "high",
+      "officialDomains": ["henkel-adhesives.com", "loctite.com"],
+      "products": [
+        { "name": "EA 9394" },
+        { "name": "EA E-120HP" },
+        { "name": "EA E-90FL" },
+        { "name": "EA 9460" },
+        { "name": "243" },
+        { "name": "263" },
+        { "name": "271" },
+        { "name": "290" },
+        { "name": "603" },
+        { "name": "620" },
+        { "name": "648" },
+        { "name": "401" },
+        { "name": "403" },
+        { "name": "409" },
+        { "name": "411" },
+        { "name": "414" },
+        { "name": "416" },
+        { "name": "480" },
+        { "name": "4902" },
+        { "name": "AA 326" },
+        { "name": "AA 3492" },
+        { "name": "AA H8500" },
+        { "name": "HY 4070" },
+        { "name": "SI 595" },
+        { "name": "PL Premium" },
+        { "name": "Power Grab All Purpose" }
+      ]
+    },
+    {
+      "name": "LORD / Parker",
+      "priority": "high",
+      "officialDomains": ["parker.com", "fusor.com"],
+      "products": [
+        {
+          "name": "Fusor 108B/109B",
+          "officialUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor108B--109B_DS6204.pdf"
+        },
+        {
+          "name": "Fusor 112B",
+          "officialUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf"
+        },
+        { "name": "Fusor 142" },
+        {
+          "name": "Fusor 152",
+          "officialUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf"
+        },
+        {
+          "name": "Fusor 2098",
+          "officialUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor2098_DS6206.pdf"
+        },
+        { "name": "LORD 403" },
+        { "name": "LORD 406" },
+        { "name": "LORD 7545" },
+        { "name": "CoolTherm TC-850" },
+        { "name": "CoolTherm TC-2002" }
+      ]
+    },
+    {
+      "name": "Master Bond",
+      "priority": "high",
+      "officialDomains": ["masterbond.com"],
+      "products": [
+        { "name": "EP21TDCHT-LO" },
+        { "name": "EP30LTE-LO" },
+        { "name": "Supreme 10AOHT" },
+        { "name": "UV15" },
+        { "name": "Supreme 11AOHT" },
+        { "name": "EP30DPBF" },
+        { "name": "EP42HT-2" },
+        { "name": "MasterSil 151" }
+      ]
+    },
+    {
+      "name": "Epoxy Technology (EPO-TEK)",
+      "priority": "high",
+      "officialDomains": ["epotek.com", "meridianadhesives.com"],
+      "products": [
+        { "name": "353ND" },
+        { "name": "301" },
+        { "name": "730" },
+        { "name": "H20E" },
+        { "name": "H77" },
+        { "name": "OG198-54" },
+        { "name": "OG142-87" },
+        { "name": "T7109" },
+        { "name": "377" }
+      ]
+    },
+    {
+      "name": "Permabond",
+      "priority": "high",
+      "officialDomains": ["permabond.com"],
+      "products": [
+        { "name": "105" },
+        { "name": "200" },
+        { "name": "240" },
+        { "name": "910" },
+        { "name": "MT3835" },
+        { "name": "ET5429" },
+        { "name": "TA4605" },
+        { "name": "TA4590" },
+        { "name": "HM162" },
+        { "name": "HH167" }
+      ]
+    },
+    {
+      "name": "Huntsman Araldite",
+      "priority": "high",
+      "officialDomains": ["advancedmaterials.huntsman.com", "aralditeadhesives.com", "huntsman.com"],
+      "products": [
+        { "name": "2011" },
+        { "name": "2012" },
+        { "name": "2014-2" },
+        { "name": "2015-1" },
+        { "name": "2021-1" },
+        { "name": "2022-1" },
+        { "name": "2031" },
+        { "name": "Standard (Blue/White)" },
+        { "name": "Rapid" }
+      ]
+    },
+    {
+      "name": "Dow / Dupont Silicones",
+      "priority": "high",
+      "officialDomains": ["dupont.com", "dow.com", "consumer.dow.com"],
+      "products": [
+        { "name": "Dowsil 732" },
+        { "name": "Dowsil 795" },
+        { "name": "Dowsil 995" },
+        { "name": "Dowsil 3145 RTV MIL-A-46146" },
+        { "name": "Dowsil Q3-3526" },
+        { "name": "Dowsil SE 9187L" }
+      ]
+    },
+    {
+      "name": "Sika",
+      "priority": "high",
+      "officialDomains": ["usa.sika.com", "sika.com"],
+      "products": [
+        { "name": "Sikaflex-252" },
+        { "name": "Sikaflex-1A" },
+        { "name": "Sikaflex-291" },
+        { "name": "Sikaflex-221" },
+        { "name": "SikaPower-498" },
+        { "name": "SikaForce-7010" },
+        { "name": "Sikasil-GP" },
+        { "name": "SikaBond T-21" }
+      ]
+    },
+    {
+      "name": "Dymax",
+      "priority": "high",
+      "officialDomains": ["dymax.com"],
+      "products": [
+        { "name": "Light-Weld 429" },
+        { "name": "621" },
+        { "name": "3099" },
+        { "name": "9001-E-V3.5" },
+        { "name": "20351" },
+        { "name": "6-621" },
+        { "name": "Multi-Cure 9482" }
+      ]
+    },
+    {
+      "name": "Plexus (ITW)",
+      "priority": "high",
+      "officialDomains": ["itwperformancepolymers.com", "plexus.com"],
+      "products": [
+        { "name": "MA300" },
+        { "name": "MA310" },
+        { "name": "MA425" },
+        { "name": "MA832" },
+        { "name": "MA1025" },
+        { "name": "MA560-1" }
+      ]
+    },
+    {
+      "name": "3M Thermally Conductive / Thermal Interface",
+      "priority": "medium",
+      "officialDomains": ["3m.com"],
+      "products": [
+        { "name": "TC-2810" },
+        { "name": "TC-2035" },
+        { "name": "TC-2707" }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": ["jbweld.com"],
+      "products": [
+        { "name": "Original Cold-Weld" },
+        { "name": "Kwik-Weld" },
+        { "name": "Steel-Stik" },
+        { "name": "ClearWeld" },
+        { "name": "Plastic Bonder" },
+        { "name": "HighHeat" }
+      ]
+    },
+    {
+      "name": "Devcon (ITW)",
+      "priority": "medium",
+      "officialDomains": ["itwperformancepolymers.com", "devcon.com"],
+      "products": [
+        { "name": "5 Minute Epoxy" },
+        { "name": "HP 250" },
+        { "name": "Plastic Welder II" },
+        { "name": "Flexane 80" }
+      ]
+    },
+    {
+      "name": "Gorilla Glue",
+      "priority": "medium",
+      "officialDomains": ["gorillatough.com"],
+      "products": [
+        { "name": "Original (polyurethane)" },
+        { "name": "Super Glue" },
+        { "name": "Construction Adhesive" },
+        { "name": "2-Part Epoxy" }
+      ]
+    },
+    {
+      "name": "Cotronics",
+      "priority": "medium",
+      "officialDomains": ["cotronics.com"],
+      "products": [
+        { "name": "Resbond 907GF" },
+        { "name": "Duralco 4525-IP" },
+        { "name": "Duralco 4460" },
+        { "name": "Duralco 132" }
+      ]
+    },
+    {
+      "name": "DELO",
+      "priority": "medium",
+      "officialDomains": ["delo-adhesives.com", "delo.de"],
+      "products": [
+        { "name": "MONOPOX ML5249" },
+        { "name": "MONOPOX TC2270" },
+        { "name": "PHOTOBOND 4497" },
+        { "name": "DUOPOX AD895" },
+        { "name": "PHOTOBOND AC245" }
+      ]
+    },
+    {
+      "name": "ThreeBond",
+      "priority": "medium",
+      "officialDomains": ["threebond.com", "threebond.co.jp"],
+      "products": [
+        { "name": "1305N" },
+        { "name": "1521" },
+        { "name": "1530C" },
+        { "name": "1211" },
+        { "name": "1324" }
+      ]
+    },
+    {
+      "name": "Bostik / Born2Bond (Arkema)",
+      "priority": "medium",
+      "officialDomains": ["born2bond.com", "bostik.com"],
+      "products": [
+        { "name": "Ultra K85" },
+        { "name": "MM4001" },
+        { "name": "Light Lock" }
+      ]
+    },
+    {
+      "name": "Panacol",
+      "priority": "medium",
+      "officialDomains": ["panacol.com"],
+      "products": [
+        { "name": "Vitralit 6127" },
+        { "name": "Structalit 8801" },
+        { "name": "Elecolit 325" }
+      ]
+    },
+    {
+      "name": "Oatey / IPS Weld-On",
+      "priority": "medium",
+      "officialDomains": ["oatey.com", "ipscorp.com", "weldon.com"],
+      "products": [
+        { "name": "Oatey Clear PVC Medium-Bodied" },
+        { "name": "Weld-On 4007" },
+        { "name": "Weld-On 3" },
+        { "name": "Weld-On 16" },
+        { "name": "Weld-On 40" }
+      ]
+    },
+    {
+      "name": "Aremco",
+      "priority": "medium",
+      "officialDomains": ["aremco.com"],
+      "products": [
+        { "name": "Ceramabond 503" },
+        { "name": "Ceramabond 571" },
+        { "name": "Pyro-Putty 653-CE" }
+      ]
+    },
+    {
+      "name": "Bob Smith Industries (BSI)",
+      "priority": "low",
+      "officialDomains": ["bsi-inc.com"],
+      "products": [
+        { "name": "IC-Gel" },
+        { "name": "Super-Gold" },
+        { "name": "Quik-Cure 5 Minute Epoxy" }
+      ]
+    },
+    {
+      "name": "DAP",
+      "priority": "low",
+      "officialDomains": ["dap.com"],
+      "products": [
+        { "name": "RapidFuse" },
+        { "name": "Dynaflex 230" },
+        { "name": "3.0 Advanced Sealant" }
+      ]
+    }
+  ]
+}

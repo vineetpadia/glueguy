@@ -1,0 +1,95 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB7789\n\n# ThreeBond\n\nMay 18, 2011\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\nThreeBond 7789\n\n# Gold Label Series Instant Adhesive (Ultra-fast curing gel)\n\n## 1. Product description\n\nThreeBond 7789 is an instant adhesive with ultra-fast curing and high viscosity gel. Since it is a gel, it will not flow even on walls or other vertical surfaces. Since it is a gel, it will not flow even on walls or other vertical surfaces. Excellent fast curing, therefore particularly suitable for bonding wood, paper, cloth, leather and other porous materials as well as acidic materials. Hereinafter, ThreeBond is abbreviated as TB.\n\n## 2. Features\n\n① Strong, immediate adhesion strength (within 2 seconds to 3 minutes)\n② Single component therefore easy to use\n③ Gel type therefore resists sagging so suitable for curing on vertical surfaces\n④ For fast curing, bonds quickly to various materials (porous, acidic materials)\n⑤ Reduces working hours and improves line productivity\n⑥ Strong adhesion for a wide range of materials\n\n## 3. Applications\n\n① Everyday parts that require quick bonding\n② Bonding on vertical surfaces where adhesive sagging must be prevented\n③ Bonds easy to penetrate porous materials such as wood, paper and cloth, etc. as well as acidic materials\n\nTable 1. Properties of TB7789\n\n|  Test item | Substrate | Property value |   | *  |\n| --- | --- | --- | --- | --- |\n|   |   |  TB7789 | Current products  |   |\n|  Appearance | - | Light transparent yellow | Transparent | ①  |\n|  Viscosity | - | 25 | 23 | ②  |\n|  Structural viscosity ratio | - | 6.5 | 3.5 | ③  |\n|  Specific gravity (25℃) | - | 1.09 | 1.03 | ④  |\n|  Set time | NBR | 7 | 20 | ⑤  |\n|   |  Iron | 10 | >90 |   |\n|   |  PC | 20 | 70 | ⑥  |\n|  (25℃, 50%RH) | Japanese cypress | 30 | >90 |   |\n|   |  Acidic paper | 5 | >90 | ⑦  |\n|  Lap shear strength | Iron | 21.0 | 21.9 | ⑧  |\n|  (25℃, 50%RH)+24h | Japanese cypress | 13.0(*) | 6.6 |   |\n\nUnit Viscosity Pa·s\n\nSet time sec\n\nLap shear strength MPa\n\nTest method ① 3TS-201-01 ⑤ 3TS-220-01\n\n② 3TS-210-02 ⑥ 3TS-220-04\n\n③ 3TS-211-02 ⑦ 3TS-220-10\n\n④ 3TS-213-02 ⑧ 3TS-301-11\n\nNote: Set time: In case of iron, degrease by using SPCC-SB only. Other materials were untreated. (*) in the table indicates substrate material failure.\n\n## 4.2 Adhesion to various substrates\n\nFor the lap shear strength test, sandblasted metal test pieces were used. Other test pieces were untreated. Bonded under $25^{\\circ}\\mathrm{C}$, $50\\%$ RH conditions and in the same environment, measured after curing for 24 hours at room temperature. Test method: lap shear strength (3TS-301-11).\n\nTable 2. Adhesion to various substrates\n\nED2011014",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB7789\n\n|  Substrate | Lap shear strength (MPa)  |\n| --- | --- |\n|  Iron | 21.0  |\n|  Aluminum | 15.9  |\n|  SUS | 20.9  |\n|  Brass | 9.8  |\n|  Copper | 13.0  |\n|  Magnesium | 4.5  |\n|  Nickel | 6.3  |\n|  Zinc chromate | 5.1  |\n|  Hard PVC | 3.1(*)  |\n|  PC (polycarbonate) | 8.6(*)  |\n|  Phenol | 10.4(*)  |\n|  Nylon 6 | 6.1(*)  |\n|  Nylon 6,6 | 9.2(*)  |\n|  ABS (acrylonitrile-butadiene-styrene resin) | 6.3(*)  |\n|  Glass epoxy | 18.1  |\n|  PBT (polybutylene terephthalate) | 4.5  |\n|  PET (polyethylene terephthalate) | 8.6(*)  |\n|  PPO (polyphenylene oxide) | 11.5(*)  |\n|  PPS (polyphenylene sulfide) | 2.1  |\n|  HIPS (high-impact polystyrene) | 3.9(*)  |\n|  Acryl | 6.2(*)  |\n|  Polyacetal | 2.6  |\n|  NR (natural rubber) | 0.4(*)  |\n|  CR (chloroprene rubber) | 0.6(*)  |\n|  NBR (nitrile-based rubber) | 0.8(*)  |\n|  SBR (styrene-butadiene rubber) | 1.7(*)  |\n|  EPDM (ethylene propylene diene monomer) | 0.8(*)  |\n|  Acidic paper | -(*)  |\n|  Balsa | 2.7(*)  |\n|  Philippine mahogany | 12.1(*)  |\n|  Japanese cypress | 13.0(*)  |\n\n* Substrate material failure\n\n## 4.3 Adhesive strength by humidity\n\nWith the iron test pieces held at a constant temperature (25°C), they are bonded at the specified humidity environment. After a specified time, the lap shear strength is measured at room temperature.\n\n![img-0.jpeg](img-0.jpeg)\nFigure 1. Adhesive strength by humidity for TB7789\n\n## 4.4 Cured adhesive property for TB7789\n\nTable 3. Cured adhesive property for TB7789\n\n|  Test item | Unit | Property value | Test method  |\n| --- | --- | --- | --- |\n|  Linear expansion coefficient | 0~100°C\n110~150°C | 95\n171 | 3TS-501-05  |\n|  Glass transition temperature (TMA) | °C | 104 | 3TS-501-05  |\n|  Hardness | — | D85 | 3TS-215-01  |\n|  Dielectric breakdown strength | kV/mm | 25 | 3TS-406-01  |\n|  Volume resistivity | Ω·m | 5.6×10^{13} | 3TS-401-01  |\n|  Surface resistivity | Ω | 3.4×10^{14} | 3TS-402-01  |\n|  Dielectric constant | 1kHz\n1MHz | 4.3\n3.6 | 3TS-405-01  |\n|  Dielectric dissipation factor | 1kHz\n1MHz | 0.043\n0.036  |   |\n\n## 5. Durability\n\n### 5.1 Thermal resistance\n\nTest piece was bonded in a 25°C, 50% RH environment. After curing for 24 hours under the same conditions, conducted an aging test for the prescribed time period at each prescribed temperature then allowed to return to room temperature before measuring the lap shear strength. (3TS-301-11)\n\nED2011014",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 400,
+          "top_left_y": 94,
+          "bottom_right_x": 621,
+          "bottom_right_y": 273,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB7789\n\n![img-1.jpeg](img-1.jpeg)\nFigure 2. Heat resistance for TB7789\n\n## 5.2 Moisture resistance\n\nAfter aluminum test pieces were bonded with the adhesive in an environment with a relative humidity of 50% at 25°C and the adhesive was cured in the same environment for 24 hours, they were aged at each temperature and humidity for the predetermined time. After they were cooled to room temperature, lap shear strength was measured (3TS-301-\n\n![img-2.jpeg](img-2.jpeg)\nFigure 3. Moisture resistance for TB7789\n\n## 6. Chemical resistance\n\nIron test piece for lap shear strength after immersion for 250 hours under the following conditions for each chemical, then the lap shear strength was measured at room temperature.\n\nTable 4. Resistance to various chemicals for TB7789\n\n|  Chemical | Immersion temperature | Lap shear strength (MPa)  |\n| --- | --- | --- |\n|  Before immersion | — | 21.0  |\n|  Isopropyl alcohol | 25°C | 18.1  |\n|  Toluene | 25°C | 17.6  |\n|  Gasoline | 25°C | 20.5  |\n|  Engine oil | 40°C | 19.8  |\n|  Long-life coolant (50%aq.) | 25°C | 20.6  |\n\n## 7. Usage method\n\n① With the tube facing upward, screw in white nozzle as is. Remove the yellow ring stopper. Be sure to screw in firmly to the bottom. A hole for the liquid will automatically open. Hold the tube at the shoulder (hard portion) and easily screw in.\n\n*If the gold cap is screwed off, the adhesive may squirt out therefore do not leave the cap off.\n\n② Hold the white nozzle with your fingers, hold the gold cap with the other hand and pull to remove cap.\n\n③ Carefully remove contaminants such as water, oil, rust, etc. from the substrate.\n\n④ Apply an appropriate amount of adhesive to the surface, rub together and form a uniform thin layer. Ensure that the adhesive is spread out then fix.\n\n*As a rule, bonds in approximately, 10 to 30 seconds. Porous materials such as wood have a slightly longer set time. Also, a strong adhesion can be obtained if applied thinly enough.\n\n## 8. Storage\n\nStore in a dark dry place at 5 to 10°C away from direct sunlight. May cause curing of product, therefore do not place near curing accelerator or alkaline substances such as epoxy resin hardener. After use, store with the cap sealed tightly to prevent product degradation and foreign matter contamination.\n\n## 9. Disposal method\n\nDispose of the product and its empty container as industrial waste.\n\n## 10. Directions for use\n\n- Must use suitable protective equipment, such as masks, gloves (not permeable) and goggles. Use in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n- Harmful. Do not swallow or inhale.\n- If swallowed, allow vomiting. Seek immediate medical attention.\n- Irritates eyes, skin and respiratory organs. Handle with care.\n\nED2011014",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 101,
+          "top_left_y": 95,
+          "bottom_right_x": 344,
+          "bottom_right_y": 266,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 106,
+          "top_left_y": 441,
+          "bottom_right_x": 344,
+          "bottom_right_y": 612,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB7789\n\n- If in eyes, rinse with clean water for about 15 minutes, and seek medical attention. Because eye damage may occur, avoid blinking too frequently or rub eyes. Also never use a stripper or a solvent to avoid potential damage to eyeball.\n- Caution: Bonds quickly and strongly to skin and mucous membrane. Handle carefully.\n- If on skin, wipe off with cloth, and thoroughly wash the affected area with soap\n- If fingers are bonded together, do not forcibly separate. Separate by rubbing affect area with about 40°C warm water.\n- If any bodily abnormalities occur, discontinue use and get medical attention.\n- Do not use on human body.\n- Keep out of reach of children.\n- Combustible. Keep away from fire.\n- The product may spout from the nozzle. Do not point nozzle towards people.\n- Persons with allergies or sensitive skin should avoid handling.\n- If on clothing, may generate heat so there is a risk of skin burn. Handle carefully.\n- Depending on the substrate, heat from chemical reaction may cause deformation.\n- Depending on the substrate, this product may affect the substrate.\n- Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n- If some adhesive overflows, the exposed portion may whiten due to adhesive vapor solidification.\n- To prevent condensation, unseal the container after reaching room temperature.\n- Does not adhere to polyethylene, polypropylene, fluorocarbon resin, silicone resin, PVC, glass, etc.\n- Use in combination with proper primer.\n- For other hazards, please read this product's Material Safety Data Sheet (MSDS).\n\n## 11. Precautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes)\n\nThis product was developed for general industrial use. Before using this product, the user must agree with the following conditions.\n\n- The technical data described in this report are based on our company's test method specifications. These values do not represent guaranteed values.\n\nAlso, there are no guarantees that the uses presented in this report do not infringe on any third party's intellectual property rights.\n\n- Regarding safety validation, the user bears all responsibilities and risks associated for confirming prior to use. Absolutely do not embed this product into body by injection or as residue from medical implant applications.\n- Three Bond accepts no responsibility for injuries and damages caused by improper handing of this product. If the user is uncertain about properties of this product and/or how to use it, absolutely do not use.\n- For more information about product safety information, please read this product's Material Safety Data Sheet (MSDS). To obtain the MSDS, please contact our sales office or our customer service.\n- Three Bond reserves the right to modify this report at its own discretion.\n\nED2011014",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 159292
+  },
+  "document_annotation": null
+}

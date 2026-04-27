@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® MT3809\n\nModified Two-Part Epoxy\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Adhesion to a wide variety of substrates\n- Full cure at room temperature\n- Easy to apply\n- Soft &amp; flexible\n- Self levelling\n- Low viscosity\n\n# Description\n\nPERMABOND® MT3809 is a 10:1, two-part, modified epoxy adhesive designed for potting applications. It has excellent adhesion to Nylon, ABS, Polycarbonate and other plastics. When cured, this adhesive is soft and reasonably flexible. Its low viscosity makes it suitable for potting intricate parts.\n\n## Physical Properties of Uncured Adhesive\n\n|   | MT3809A | MT3809B  |\n| --- | --- | --- |\n|  Chemical composition | Epoxy based resin | Polyamine based hardener  |\n|  Appearance | Grey | Black  |\n|  Mixed appearance | Charcoal black  |   |\n|  Viscosity @ 25°C | 20rpm: 6,000 – 10,000 mPa.s (cP)\n2rpm: 15,000 – 25,000 mPa.s (cP) | 5,000-10,000 mPa.s (cP)  |\n|  Specific gravity | 1.3 | 1.1  |\n\n## Typical Curing Properties\n\n|  Mix ratio | 10:1 by volume\n12.5:1 by weight  |\n| --- | --- |\n|  Usable / pot life @25°C | 10-12 mins  |\n|  Handling time to\n0.1 N/mm² @25°C | 25-30 mins  |\n|  Full cure @25°C | ≥72 hours  |\n\n## Typical Performance of Cured Adhesive\n\n|  Shear strength (ISO4587) | Mild steel: 6 - 8 N/mm² (900 - 1200 psi)\nABS: 4-6 N/mm² (600-900psi)\nAcrylic: 3-5 N/mm² (400-700psi)\nNylon: 3-5 N/mm² (400-700psi)\nPolycarbonate: 5-7 N/mm² (700-1000psi)\nPVC: 3-5 N/mm² (400-700psi)  |\n| --- | --- |\n|  Hardness (ISO868) | 75-85 Shore A\n20-30 Shore D  |\n|  Elongation at break (ISO37) | 150%  |\n|  Peel strength (aluminium) (ISO4578) | 60-80 N/25mm (13-18 PIW)  |\n\n*Strength results will vary depending on the level of surface preparation and gap.\n\n## Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\nGraph shows typical strength development of bonded components at 23°C. Curing at higher or lower temperatures may affect cure speed.\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond MT3809\n\nGlobal TDS Revision 5\n\n21 February 2018\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 386,
+          "top_left_y": 446,
+          "bottom_right_x": 650,
+          "bottom_right_y": 652,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Permabond MT3809\nGlobal TDS Revision 5\n21 February 2018\nPage 2/2\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\n\n![img-1.jpeg](img-1.jpeg)\nHot Strength\n\n\"Not strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature.\n\nMT3809 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -40°C (-40°F) depending on the materials being bonded.\n\n## Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials.\n\nInformation regarding the safe handling of this material may be obtained from the safety data sheet.\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n## Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Use a suitable solvent (such as acetone or isopropanol) for the degreasing of surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n## Video Link\n\nSurface preparation:\n\nhttps://youtu.be/8CMOMP7hXjU\n\n![img-2.jpeg](img-2.jpeg)\n\n## Directions for Use\n\n1. Measure volumetrically 10 parts resin to 1 part hardener. Mix thoroughly taking care not to entrap air. Adhesive can be applied and mixed by automated dispensing equipment. If using cartridges, put cartridge in dispensing gun and affix static mixing nozzle.\n2. Apply material. If potting; take care to fill component and not entrap air.\n3. If bonding a joint, assemble the parts. Parts must be joined within 10-12 minutes of mixing the two epoxy components.\n4. Large quantities and/or higher temperature will decrease the usable life or pot life.\n5. Apply pressure to the assembly by clamping for 25-30 minutes or until handling strength is obtained.\n6. Full cure will be obtained after a minimum of 72 hours at 25°C (77°F). Heat can be used to accelerate the curing process.\n\n**NB.** Exercise caution when mixing large quantities due to exothermic reaction.\n\n## Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 69,
+          "top_left_y": 140,
+          "bottom_right_x": 327,
+          "bottom_right_y": 310,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 264,
+          "top_left_y": 750,
+          "bottom_right_x": 317,
+          "bottom_right_y": 804,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 321178
+  },
+  "document_annotation": null
+}

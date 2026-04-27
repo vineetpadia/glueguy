@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "832HD\n\nMG Chemicals\n\n# Black 1:1 Epoxy, Encapsulating &amp; Potting Compound\n\n832HD is a black, rigid, 2-part epoxy that provides extreme environmental, mechanical and physical protection for printed circuit boards and electronic assemblies.\n\nDue to its low mixed viscosity, 832HD can easily penetrate small gaps and cavities. It also provides excellent electrical insulation and protects components from static discharge, vibration, abrasion, thermal shock, environmental humidity, salt water, fungus, and many harsh chemicals.\n\n# Features &amp; Benefits\n\n- Low mixed viscosity of 4 100 cP\n- Extremely high compressive and tensile strength\n- Excellent adhesion to a wide variety of substrates including metals, composites, glass, ceramics, and many plastics\n- Excellent electrical insulating characteristics\n- Extreme resistance to water and humidity\n- Solvent-free\n\n# Cure Instructions\n\nAllow to cure at room temperature for 24 hours, or cure in an oven at one of these time/temperature options:\n\n|  Temperature | 65 °C | 80 °C | 100 °C  |\n| --- | --- | --- | --- |\n|  Time | 2 h | 1 h | 20 min  |\n\n# Storage and Handling\n\nStore between 16 and 27 °C in a dry area, away from sunlight (see SDS).\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  832HD-25ML | Dual syringe | 25 mL | 26.2 g  |\n|  832HD-50ML | Dual cartridge | 46 mL | 48.3 g  |\n|  832HD-400L | Dual cartridge | 380 mL | 399 g  |\n|  832HD-7.4L | 2 Can kit | 7.4 L | 7.77 kg  |\n|  832HD-40L | 2 Pail kit | 40 L | 42.0 kg  |\n|  832HD-360L | 2 Drum kit | 358 L | 375 kg  |\n\n# Dispensing Accessories\n\n|  Part # | Dispensing Gun | Static Mixer  |\n| --- | --- | --- |\n|  832HD-25ML | N/A | 8MT-25, 8MT-50  |\n|  832HD-50ML | 8DG-50-1-1 | 8MT-25, 8MT-50  |\n|  832HD-400ML | 8DG-400-1-1 | 8MT-450  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 4.2",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 404,
+          "top_left_y": 142,
+          "bottom_right_x": 707,
+          "bottom_right_y": 438,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/electronic-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "832HD\n\nMG Chemicals\n\nLiquid Properties\n\n|  Chemistry | Epoxy | —  |\n| --- | --- | --- |\n|  Density | 1.0 g/mL (Mixed) | ASTM D1475  |\n|   |  1.1 g/mL (A)  |   |\n|   |  1.0 g/mL (B)  |   |\n|  Viscosity @ 25 °C | 4 100 cP (Mixed) | Brookfield Engineering labs Inc.  |\n|   |  5 900 cP (A)  |   |\n|   |  2 300 cP (B) | IPCTM-65- Method 2.4.24.4  |\n|  Mix Ratio | 1:1 (Volume) | —  |\n|   |  1.22:1 (Weight)  |   |\n|  Working Time a | 45 min | —  |\n|  Shrinkage | 1.5% | Calculated  |\n|  Shelf Life | 5 y | —  |\n\naBased on 100 g sample. Varies by volume and geometry.\n\nCured Properties\n\n|  Flame Retardancy | No | —  |\n| --- | --- | --- |\n|  Color | Black | —  |\n|  Density | 1.1 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range b | -40–150 °C | —  |\n|  Intermittent Temperature | -50–175 °C | —  |\n|  Thermal Conductivity @ 25 °C | 0.3 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 2.0 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.1 mm²/s |   |\n|  Glass Transition Temperature (Tg) | 41 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 73 ppm/°C (Prior Tg) | ASTM E831  |\n|   |  207 ppm/°C (After Tg) |   |\n|  Hardness | 80 D | ASTM D2240  |\n|  Tensile Strength | 32 N/mm² | ASTM D638  |\n|  Compressive Strength | 75 N/mm² | ASTM D695  |\n\nb &gt;65 °C may affect clarity.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/electronic-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "832HD\n\nMG Chemicals\n\nCured Properties Continued\n\n|  Lap Shear | 21 N/mm² (Stainless Steel)\n14 N/mm² (Aluminum)\n3.9 N/mm² (ABS)\n2.1 N/mm² (PC) | ASTM D1002  |\n| --- | --- | --- |\n|  Resistivity | 1.4 x 10¹³ Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 45 700 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 365 V/mil |   |\n|  Dielectric Constant @ 1 MHz | 2.5 | ASTM D150  |\n|  Dissipation Factor @ 1 MHz | 0.04 |   |\n|  Chemical Absorption | 7 % (IPA) | —  |\n|  Weight Gain, 30 days @ 25 °C | 0.7 % (Sulphuric Acid 3%)\n2.5 % (Sulphuric Acid 30%)\n7 % (Acetic Acid)\n0.3 % (10% NaOH)\n0.3 % (10% NaCl)\n0.3 % (Water)\n0 % (Transmission Oil)\n0 % (Transformer Oil) |   |\n|  Weight Loss @ 155 °C (600 hrs) | 6.3 % | —  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/electronic-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "832HD\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n# Mixing\n\n1. Scrape settled material free from the bottom and sides of the part A container; stir the contents until homogenous. Use a paint shaker if available.\n2. Measure 1 parts by volume of the part A and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n3. Measure 1 part by volume of the part B and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n4. Thoroughly and gently mix parts A and B together. Avoid introducing air bubbles.\n5. To de-air, let sit for 15 minutes or put in a vacuum chamber at 25 inHg for 2 minutes.\n6. If bubbles are present at the top, break them gently with the mixing paddle.\n7. Pour the mixture into a container holding the components to be protected.\n8. Close the part A and B containers tightly between uses to prevent skinning.\n\n# Syringe or Cartridge\n\n1. Twist and remove the cap from the syringe or cartridge. Do not discard cap.\n2. Dispense a small amount to ensure even flow of both parts.\n3. (Optional) Attach static mixer.\na. Dispense and discard 5 to 10 mL of the product to ensure a homogeneous mixture.\nb. After use, dispose of static mixer.\n4. Without a static mixer, dispense material on a mixing surface or container, and thoroughly mix parts A and B together.\n5. To stop the flow, pull back on the plunger.\n6. Clean nozzle to prevent contamination and material buildup. Replace the cap on the syringe or cartridge.\n\nIf crystallization/solidification occurs, reconstitute the product by warming to between 55 and 65 °C until it becomes fully re-liquified. Let the material cool to room temperature before mixing, to prevent flash cure.\n\nMixing &gt;500 g at a time decreases working time and can lead to a flash cure. Limit the size of hand-mixed batches. For large production volumes, contact MG Chemicals Technical Support for assistance.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/electronic-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 285313
+  },
+  "document_annotation": null
+}

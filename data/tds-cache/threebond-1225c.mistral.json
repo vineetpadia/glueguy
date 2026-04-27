@@ -1,0 +1,137 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1225C\n\n# ThreeBond\n\nJune 23, 2015\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1225C\n\nOne-component, moisture-curing silicone heat dissipating agent\n\n## 1. Product description\n\nThreeBond 1225C is a one-component, moisture-curing heat dissipating agent containing silicone polymer and thermally conductive filler. Before curing, it is liquid and adheres well to parts. After applied, it cures with moisture in the air. The cured material shows high heat dissipation performance and keeps excellent heat resistance for a long time.\n\nIt contains a reduced amount of low-molecular siloxane which can cause contact failure.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) One-component, moisture-curing silicone heat dissipating agent\n(2) High heat dissipation performance\n(3) High heat resistance\n(4) Reduced content of low-molecular siloxane\n(5) Not containing organotin compounds (complying with REACH regulation)\n\n## 3. Applications\n\nHeat dissipation from automotive electrical components and various electronic parts\n\n## 4. Properties\n\n### 4.1 General properties\n\nTable 1 Properties of TB1225C\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Gray | 3TS-2100-020 |   |\n|  Viscosity | Pa·s | 70 | 3TS-4200-006 | *  |\n|  Specific gravity | - | 2.90 | 3TS-2500-002 |   |\n|  Tack-free time | min | 10 | 3TS-3130-006 | 23°C  |\n|  Thermal conductivity | W/m·K | 2.5 | 3TS-4750-001 | Thin-film method (thickness: 2.0 mm)  |\n\n* Test equipment: Stress-controlled rheometer Probe: Parallel flat plate (φ25 mm)\nMeasuring temperature: 25°C Frequency: 1 Hz Distortion: 1% Gap: 1 mm\n\nED2015029",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1225C\n\n## 4.2 Moisture curing ability\n\n![img-0.jpeg](img-0.jpeg)\nFig.1 Curing ability of TB1225C depending on temperature and relative humidity\nMeasuring conditions: 3TS-3160-005\n\n## 5. Characteristics\n\n### 5.1 Characteristics of cured material\n\nTable 2 Characteristics of TB1225C after curing\n\n|  Test item |   | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Hardness |   | - | A81 | 3TS-2B00-010 |   |\n|  Tensile strength |   | MPa | 2.5 | 3TS-4190-001 | Thickness: 2 mm  |\n|  Elongation |   | % | 50 | 3TS-4190-001 | Thickness: 2 mm  |\n|  Lap shear strength | MPa | 1.1 | 3TS-4100-023 | Al/Al*1  |   |\n|   |   |  MPa | 1.0 | 3TS-4100-023 | Fe/Fe*2  |\n|  Glass transition temperature*3 |   | °C | -41 | 3TS-4730-001 |   |\n|  Moisture permeability |   | g/m²·24hr | 2.4 | JIS K 7129-C method*4 | 40°C×90%RH  |\n|  Linear expansion coefficient | (-100 to -60°C) | ppm/°C | 1.1 to 16 | 3TS-4740-001 |   |\n|   |  (50 to 150°C) |   | 86 to 97 |   |   |\n\nCuring conditions: At 23°C and 50% RH for 7 days\n*1 Al: A1050P\n*2 Fe: SPCC-SD\n*3DMA E\" peak top, frequency: 1Hz\n*4 Penetration area: 15.2 cm², thickness: 1.5 mm, n = 3\n\nED2015029",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 175,
+          "top_left_y": 128,
+          "bottom_right_x": 554,
+          "bottom_right_y": 349,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1225C\n\n## 5.2 Electrical characteristics of cured material\n\nTable 3 Electrical characteristics of TB1225C\n\n|  Test item |   | Unit | Result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 1.1×10^{11} | 3TS-5200-001  |\n|  Surface resistivity |   | Ω | 2.9×10^{13} | 3TS-5200-002  |\n|  Dielectric constant | 1kHz | - | 9.7 | 3TS-5220-001  |\n|   |  1MHz |   | 8.2  |   |\n|  Dielectric loss tangent | 1kHz | - | 0.045  |   |\n|   |  1MHz |   | 0.019  |   |\n|  Dielectric breakdown strength |   | kV/mm | 17.4 | 3TS-5230-002  |\n|  Low-molecular siloxane |   | % | 0.01 | Gas chromatography (D_{4}-D_{10})  |\n\nCuring conditions: At 23°C and 50%RH for 7 days\n\n## 6. Durability\n\n### 6.1 Heat resistance\n\n![img-1.jpeg](img-1.jpeg)\nFig.2 Heat resistance (tensile strength) of TB1225C\nCuring conditions: At 23°C and 50%RH for 7 days\nMeasuring conditions: (Thickness: 2.0 mm)\n\n![img-2.jpeg](img-2.jpeg)\nFig.4 Heat resistance (hardness) of TB1225C\nCuring conditions: At 23°C and 50%RH for 7 days\nMeasuring conditions:\n\n![img-3.jpeg](img-3.jpeg)\nFig.3 Heat resistance (elongation) of TB1225C\nCuring conditions: At 23°C and 50%RH for 7 days\nMeasuring conditions: (Thickness: 2.0 mm)\n\nED2015029",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 449,
+          "bottom_right_x": 376,
+          "bottom_right_y": 623,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 76,
+          "top_left_y": 683,
+          "bottom_right_x": 371,
+          "bottom_right_y": 856,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 389,
+          "top_left_y": 447,
+          "bottom_right_x": 680,
+          "bottom_right_y": 623,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1225C\n\n## 6.2 Moisture resistance (85°C × 85%RH)\n\n![img-4.jpeg](img-4.jpeg)\nFig.5 Moisture resistance of TB1225C (tensile strength)\n\n![img-5.jpeg](img-5.jpeg)\nFig.6 Moisture resistance of TB1225C (elongation, hardness)\n\nCuring conditions: At 23°C and 50%RH for 7 days\nMeasuring conditions: (Thickness: 2.0 mm)\nCuring conditions: At 23°C and 50%RH for 7 days\nMeasuring conditions: (Thickness: 2.0 mm)\n\n## 7. Directions for use\n\n(1) Harmful to health. Do not inhale or ingest.\n(2) Persons who have allergies or sensitive skin should avoid using it.\n(3) When using this product, wear appropriate protective equipment.\n(4) Keep out of reach of children.\n(5) For industrial use. Do not use for household purposes.\n(6) Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n(7) Pay attention to the protrusion on the cap.\n(8) For detailed hazard information of the product, see the Safety Data Sheet (SDS).\n\n## 8. Storage\n\n(1) Store with the cap tightly fitted to prevent deterioration and contamination.\n(2) Store in an indoor dark dry place at -5 to 10°C avoiding fire, heat sources and direct sunlight.\n\n## 9. Disposal\n\nAfter this product has been completely used, ask a licensed waste disposal company to dispose of the empty container as industrial waste.\n\nED2015029",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 80,
+          "top_left_y": 132,
+          "bottom_right_x": 371,
+          "bottom_right_y": 305,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 372,
+          "top_left_y": 132,
+          "bottom_right_x": 680,
+          "bottom_right_y": 301,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1225C\n\n## 10. Precautions\n\n**For Industrial Use Only** (Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods.\nWe do not guarantee that the uses described herein do not conflict with any intellectual property right.\n\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use.\nNever embed or inject into bodies nor use as a medical implant that may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\nIf the properties or usage of the product to be used are unclear, never use it.\n\n- For detailed safety information of the product, see the Safety Data Sheet (SDS).\nTo obtain the SDS, contact our sales office or customer service center.\n\n- Information in this document is subject to change at our own discretion.\n\n## 12. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Holdings Co., Ltd.\n\nED2015029",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 62482
+  },
+  "document_annotation": null
+}

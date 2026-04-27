@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "tyco\nElectronics\nTyco Electronics Corporation\n300 Constitution Drive\nMenlo Park, CA 94025 USA\nRaychem\nSpecification\nThis Issue:\nDate:\nReplaces:\nRT-1009\nIssue 6\nJuly 7, 1999\nIssue 5\n\n# THERMOFIT® ADHESIVE\n# S-1009\n# Epoxy, Flexible\n\n## 1. SCOPE\nThis specification covers the requirements for one type of adhesive for use with heat-shrinkable, plastic and rubber tubing and molded components.\n\n## 2. APPLICABLE DOCUMENTS\nThe specifications and standards listed in Table 1 under \"Test Method\" shall form a part of this specification to the extent specified herein.\n\n## 3. REQUIREMENTS\n\n### 3.1 MATERIAL\nThe adhesive shall consist of a two-part modified epoxy resin. The components are combined in a ratio of 1:1 by weight or volume.\n\n### 3.2 COLOR\nOne component shall be light amber, the other shall be purple. The components shall be properly mixed when the purple color disappears.\n\n### 3.3 PROPERTIES\nThe adhesive shall meet the requirements of Table 1.\n\n## 4. QUALITY ASSURANCE PROVISIONS\n\n### 4.1 CLASSIFICATION OF TESTS\n\n#### 4.1.1 Qualification Tests\nQualification tests are those performed on adhesive submitted for qualification as a satisfactory product and shall consist of all tests listed in this specification.\n\nIf this document is printed it becomes uncontrolled. Check for the latest revision.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "SPECIFICATION RT-1009 ISSUE 6\n\n## 4.1.2 Acceptance Tests\n\nAcceptance tests are those performed on adhesive submitted for acceptance under contract. Acceptance tests shall consist of the following: lap shear, and pot life. Other tests shall be performed as often as necessary to ensure compliance with all requirements of this specification.\n\n## 4.2 SAMPLING INSTRUCTIONS\n\n### 4.2.1 Qualification Test Samples\n\nQualification test samples shall consist of not less than 90 grams of adhesive.\n\n### 4.2.2 Acceptance Test Samples\n\nAcceptance test samples shall consist of not less than 30 grams of adhesive from each lot. A lot shall consist of all adhesive from the same product run offered for inspection at the same time.\n\n## 4.3 TEST PROCEDURES\n\nPrior to testing, each specimen shall be thoroughly mixed for 1 to 2 minutes.\n\n### 4.3.1 Peel Strength\n\nPeel Strength shall be determined in accordance with ASTM D 1876. The substrates shall be a 0.032-inch thick strip of 2024-T3 aluminum alloy and a polyethylene molded slab (Raychem part number 000A022-3). Cross-head speed shall be 2 inches per minute.\n\n### 4.3.1.1 Assembly of Specimens\n\na) Aluminum Substrate Preparation\n\nThe aluminum strips shall be pre-cut to 1-inch widths. They then shall be cleaned in a solvent or alkaline solution and subsequently etched with a solution consisting of\n\n30 parts water\n\n10 parts sulfuric acid (specific gravity 1.84)\n\n1 part sodium dichromate\n\nIf this document is printed it becomes uncontrolled. Check for the latest revision.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "SPECIFICATION RT-1009 ISSUE 6\nPage 3\n\nThe etching solution shall be made up no longer than one week prior to use. The strips shall be immersed in this solution for 10 minutes at $65 \\pm 3^{\\circ}\\mathrm{C}$ ($149 \\pm 5^{\\circ}F$), rinsed with water, air dried at room temperature for 15 minutes, and force dried for 20 minutes in a $50 \\pm 10^{\\circ}\\mathrm{C}$ ($127 \\pm 18^{\\circ}F$) mechanical convection oven in which air passes the strips at a velocity of 100 to 200 feet per minute. The strips shall then be removed from the oven, cooled to room temperature and used within 2 hours.\n\nb) Polyethylene Substrate Preparation\n\nThe polyethylene molded slab shall be lightly abraded with a number 320 emery cloth and then shall be wiped with a lint-free cloth or paper towel wet with methyl ethyl ketone.\n\nc) Assembly Procedure\n\nThe mixed adhesive shall be applied to the entire etched strip and the abraded molded slab so that the adhesive on each substrate shall be approximately 0.010 inch thick. The substrates then shall be placed together and the whole system shall be placed between two flat plates which shall be held in place with C-clamps with just enough contact pressure to ensure that the substrates do not move during the subsequent cure. This assembly shall be cured for 1 hour in a $121 \\pm 3^{\\circ}\\mathrm{C}$ ($250 \\pm 5^{\\circ}F$) mechanical convection oven in which air passes the assembly at a velocity of 100 to 200 feet per minute. After curing, the assembly shall be removed from the oven and cooled to room temperature. The C-clamps then shall be removed and the molded slab shall be cut to the size of the bonded strip.\n\n4.3.2 Dielectric Strength\n\nTwo polyethylene films, $6 \\times 6 \\times 0.002$ inches, shall be coated on one side with a suitable release agent. Three grams of mixed adhesive shall be spread on the coated side of one of the films as a disk 1 to 3 inches in diameter. The adhesive then shall be covered with the other coated film, with the coated surface in contact with the adhesive. The assembly shall be placed between two $6 \\times 6$ inch metal plates and the plates shall be pressed together until the disk of adhesive is from 0.005 to 0.025 inch thick. The assembly then shall be cured for 2 hours in a $95 \\pm 3^{\\circ}\\mathrm{C}$ ($203 \\pm 5^{\\circ}F$) mechanical convection oven in which air passes the assembly at a velocity of 100 to 200 feet per minute. After curing, the disk of adhesive shall be removed from the assembly, cooled to $23 \\pm 3^{\\circ}\\mathrm{C}$ ($73 \\pm 5^{\\circ}F$), and tested for dielectric strength in accordance with the short-time test of ASTM D 149.\n\nIf this document is printed it becomes uncontrolled. Check for the latest revision.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "SPECIFICATION RT-1009 ISSUE 6\n\n## 4.3.3 Pot Life\n\nThree grams of the mixed adhesive shall be checked for workable pot life at $23 \\pm 3^{\\circ}\\mathrm{C}$ ($73 \\pm 5^{\\circ}F$). Twenty minutes after mixing, peel strength shall be tested in accordance with 4.3.1.\n\n## 4.3.4 Solvent Resistance\n\nThree specimens, prepared in accordance with 4.3.1.1, shall be completely immersed in each of the solvents listed in Table 1 for 24 hours at $23 \\pm 3^{\\circ}\\mathrm{C}$ ($73 \\pm 5^{\\circ}F$). After immersion, the specimens shall be lightly wiped, and air dried for 30 to 60 minutes at room temperature. The specimens then shall be tested for peel strength in accordance with 4.3.1.\n\n## 4.3.5 Lap Shear Strength\n\nLap shear strength (aluminum to aluminum) shall be determined at room temperature in accordance with ASTM D 1002.\n\n### 4.3.5.1 Assembly of specimens\n\nThe aluminum shall be cleaned and etched in accordance with 4.3.1.1.a. and the adhesive shall be applied in accordance with 4.3.1.1.c. The assembled substrates shall be mounted in a jig suitable to ensure proper alignment of the bond area during the subsequent cure. The curing procedure shall be in accordance with 4.3.1.1.c.\n\n## 4.3.6 Rejection and Retest\n\nFailure of any specimen of adhesive to comply with any one of the requirements of this specification shall be cause for rejection of the lot represented. Adhesive which has been rejected may be replaced or reworked to correct the defect and the resubmitted for acceptance. Before resubmitting, full particulars concerning the rejection and the action taken to correct the defect shall be furnished the inspector.\n\n## 5. PREPARATION FOR DELIVERY\n\n### 5.1 PACKAGING\n\nUnless otherwise specified, the adhesive shall be packaged in mixer packages, or metal cans (containing a measured quantity of each adhesive part), which then shall be packed in cartons. If not specified, packaging shall be in accordance with good commercial practice.\n\n### 5.2 MARKING\n\nEach carton of adhesive shall be identified with the manufacturer's name or symbol, the product designation, the batch number, and other appropriate information.\n\nIf this document is printed it becomes uncontrolled. Check for the latest revision.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "SPECIFICATION RT-1009 ISSUE 6\nPage 5\n\n# TABLE 1\n## Requirements\n\n|  PROPERTY | UNIT | REQUIREMENT | TEST METHOD  |\n| --- | --- | --- | --- |\n|  PHYSICAL\nPeel Strength | Pounds /inch width | 10 minimum | Section 4.3.1\nASTM D 1876  |\n|  Lap Shear Strength | psi | 1000 minimum | Section 4.3.5\nASTM D 1002  |\n|  ELECTRICAL\nDielectric Strength | Volts per mil | 500 minimum | Section 4.3.2\nASTM D 149  |\n|  CHEMICAL\nPot Life | Minutes | 20 minimum | Section 4.3.3  |\n|  Peel Strength | Pounds/inch width | 10 minimum | Section 4.3.1  |\n|  Solvent Resistance\n24 hours at 23 ± 3°C (73 ± 5°F) in:\nJP-4 Fuel (MIL-T-5624)\nSkydrol* 500\nHydraulic Fluid (MIL-H-5606)\nWater\nFollowed by test for:\nPeel Strength | --- | --- | Section 4.3.4  |\n|   |  Pounds /inch width | 10 minimum | Section 4.3.1\nASTM D 1876  |\n\nNote: Unless otherwise specified, latest issue of referenced documents applies.\n\n*Trademark Monsanto Company\n\nIf this document is printed it becomes uncontrolled. Check for the latest revision.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 41452
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,9 @@
+Official Dow fallback extracted from the web-visible DOWSIL Silicone Sealants and Foams for Industrial, Appliance and Maintenance selection guide, Form No. 80-8283-01, when direct local download returned HTTP 403.
+
+Product: DOWSIL Q3-3526 Base and Catalyst Adhesive. Category: Table IV neutral, two-component and one-part oxime neutral-cure sealants. Chemistry / cure: two-component neutral silicone adhesive/sealant; VMQ sealant type. Special features: fast-curing, non-slump, two-part silicone adhesive/sealant. Primary uses/applications: assembly of automotive headlights and auxiliary lights, body panels and body components, oven door windows and other appliance components.
+
+Exact table values for Q3-3526: temperature range continuous -50 to 190 C; skin-over time 8 min; tack-free time 20 min; flow rate <2 mm; durometer Shore A 38-40; tensile strength 2 MPa; elongation 270-280%; specific gravity 1.36-1.32; listings/spec none; colors gray and black; fluid-resistance sealant type VMQ.
+
+Primerless adhesion ratings for Q3-3526: nylon 6/6 Excellent; polycarbonate Excellent; glass Excellent; aluminum mill finish Excellent; copper Excellent; galvanized steel Excellent; low carbon steel Excellent; stainless steel Excellent. Acrylic, ABS, LDPE and polypropylene are marked with an asterisk in the Dow table, meaning consult the local Dow representative for further advice on adhesion properties.
+
+Dow footnotes: most paints will not adhere to sealant; not for underwater structural or adhesive applications; requires atmospheric moisture to cure; may stress-crack some plastics, test before use. Estimated service temperatures are based on product formulation and laboratory testing; actual service temperature range depends on application environment. Provenance note: this cache entry is a controlled text fallback because the official PDF endpoint was blocked during automated fetch, but the PDF text is web-visible through Dow's document endpoint.

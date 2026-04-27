@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1747\nCYANOACRYLATE ADHESIVE\n\n## Information\nTB1747 is a high viscosity, fast curing, and single component cyanoacrylate adhesive. It cures rapidly at room temperature and demonstrates excellent adhesive efficiency.\n\n## Applications\nTB1747 can be used mostly for bonding metals, plastics and rubbers.\n\n## Typical Properties\n\n### 1. Uncured State\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear Transparent  |\n|  Viscosity | mPa • s (cP) | 1300 (1300)  |\n|  Specific gravity | - | 1.05  |\n|  Set time Steel/Steel | Second | 10  |\n|  Set time NBR/NBR |   | 5  |\n|  Set time EPDM/EPDM |   | 10  |\n|  Set time ABS/ABS |   | 10  |\n|  Set time Polycarbonate/Polycarbonate |   | 10  |\n|  Set time Nylon/Nylon |   | 25  |\n|  Set time PMMA/PMMA |   | 15  |\n\nRev: 0.2\nIssued Date: 8/27/02\nDocument Control Number: 3-TB-20-0529",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2 of 2\n\n2. Cured Material\nLap shear strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa (kgf/cm²) | 18.6(190)  |\n|  NBR/NBR |   | MF  |\n|  EPDM/EPDM |   | MF  |\n|  ABS/ABS |   | MF  |\n|  Polycarbonate/Polycarbonate |   | MF  |\n|  Nylon/Nylon |   | 4.2(43)  |\n|  PMMA/PMMA |   | MF  |\n\nMF - Material failure\n\n3. Military Specification\nMIL-A- 46050C, Type II, Class 3\n\nThese are typical results not product specifications.\n\nRev: 0.2\nIssued Date: 8/27/02\nDocument Control Number: 3-TB-20-0529",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 27755
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\nTB 1785C\n\n## Information\n\nTB1785C is an ethyl type, low viscosity, fast curing, and single component cyanoacrylate adhesive. When a thin layer of the adhesive is applied, the adhesive cures very rapidly and bonds various materials. It demonstrates excellent adhesive efficiency.\n\n## Application\n\nTB1785C can be used for a wide range of materials, especially for bonding metals, plastics and rubbers.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent liquid  |\n|  Viscosity | mPa · s {cP} | 2 {2}  |\n|  Specific gravity | - | 1.05  |\n|  Set time NBR/NBR | Seconds | 2  |\n\n### 2. Cured Material\n\nLap shear strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa {kgf/cm²} | 15.6 {159}  |\n|  NBR/NBR |   | MF  |\n|  EPDM/EPDM |   | MF  |\n|  Polycarbonate/Polycarbonate |   | MF  |\n\nMF – Material Failure\n\nThese are typical results, not product specifications.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 65442
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Shin-Etsu Shin-Etsu Silicone 1/4\n\n# KE-45\n\nOne-component Room Temperature Curing Type Liquid Silicone Rubber\n\n## 1 Features and Benefits\n\n1) One-component ready to use\n2) Room temperature curing type (Condensation reaction oxime type)\n3) Excellent adhesion to resin, glass and metal, etc.\n4) Excellent heat and cold resistance.\nContinuous usable temperature is -40°C to 180°C.\n5) Excellent electrical properties\n6) Excellent weather resistance and durability\n\n## 2 Applications\n\nGeneral industrial bonding and sealing\n\n## 3 General Properties\n\n|  Product name |   | KE-45  |\n| --- | --- | --- |\n|  Parameter |   |   |\n|  Curing method |   | One-component room temperature curing  |\n|  Reaction mechanism (by-product gas) |   | Condensation(oxime)  |\n|  Before curing  |   |   |\n|  Consistency |   | Paste  |\n|  Tack-free time | min | 6  |\n|  Recommended curing conditions |   | 23±2°C/50±5%RH×7days  |\n|  After curing  |   |   |\n|  Density | g/cm³ | 1.04  |\n|  Hardness Durometer A |   | 30  |\n|  Tensile strength | MPa | 2.0  |\n|  Elongation at break | % | 350  |\n|  Volume resistivity | TΩ·m | 5.0  |\n|  Dielectric breakdown strength* | kV/mm | 23  |\n|  Relative permittivity 50Hz |   | 3.0  |\n|  Dielectric dissipation factor 50Hz |   | 5×10⁻³  |\n|  Thermal conductivity | W/m·K | 0.21  |\n|  Tensile lap-shear strength | MPa | 1.0 (Aluminum)  |\n\n* Measured by 1mm thickness.\n(Not specified values)",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "KE-45\n2/4\nOne-component Room Temperature Curing Type Liquid silicone Rubber\n\n# 4 Packaging and Color\n\n|  Packaging | 100g (tube)  |   |   |   |   |   |\n| --- | --- | --- | --- | --- | --- | --- |\n|  Color | White | Translucent | Black | Reddish brown | Ivory  |   |\n|  Product name | KE-45-W | KE-45-T | KE-45-B | KE-45-R | KE-45-YW  |   |\n|  Packaging | 330mL (cartridge)  |   |   |   |   |   |\n| --- | --- | --- | --- | --- | --- | --- |\n|  Color | White | Translucent | Black | Gray | Reddish brown | Ivory  |\n|  Product name | KE-45-W | KE-45-T | KE-45-B | KE-45-G | KE-45-R | KE-45-YW  |\n\n# 5 Curing Properties\n\n■ KE-45 (Condensation reaction oxime type)\nRelationship between curing speed and temperature and humidity\n\n![img-0.jpeg](img-0.jpeg)",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 92,
+          "top_left_y": 475,
+          "bottom_right_x": 419,
+          "bottom_right_y": 783,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "KE-45\nOne-component Room Temperature Curing Type Liquid silicone Rubber\n\n# 6 Weather Resistance and Durability\n\n■ KE-45 (Condensation reaction oxime type) - Results of outdoor exposure testing\n\nPhysical properties of rubber\n\n|  Parameter Exposure period | Hardness Durometer A | Tensile strength MPa | Elongation at break % | Estimated luminous intensity J/m² |   |   | Estimated precipitation mm  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|   |   |   |   |  Ultraviolet rays | Visible light rays | Infrared rays  |   |\n|  Initial | 30 | 2.3 | 350 | — | — | — | —  |\n|  1 month | 35 | 2.0 | 370 | 1.60×10⁷ | 6.44×10⁷ | 9.13×10⁷ | 21  |\n|  3 months | 34 | 2.0 | 330 | 5.46×10⁷ | 2.81×10⁸ | 3.00×10⁸ | 63  |\n|  6 months | 37 | 2.0 | 360 | 1.44×10⁸ | 7.74×10⁸ | 8.80×10⁸ | 335  |\n|  1 year | 37 | 2.0 | 320 | 3.00×10⁸ | 1.63×10⁹ | 1.59×10⁹ | 1,376  |\n|  2 years | 37 | 1.8 | 310 | 5.87×10⁸ | 3.33×10⁹ | 3.32×10⁹ | 2,130  |\n\nTesting method : Complies with JIS K 6249\n(Not specified values)\n※ The PH-11M-2AT actinometer was used in the tests.\n\nAdhesion\n\n|  Parameter Exposure period | Maximum tensile stress N / mm² | Cohesion break rate % | Estimated luminous intensity J/m² |   |   | Estimated precipitation mm  |\n| --- | --- | --- | --- | --- | --- | --- |\n|   |   |   |  Ultraviolet rays | Visible light rays | Infrared rays  |   |\n|  Initial | 0.70 | 100 | — | — | — | —  |\n|  1 month | 0.67 | 100 | 1.70×10⁷ | 9.39×10⁷ | 9.03×10⁷ | 28  |\n|  3 months | 0.69 | 100 | 6.75×10⁷ | 3.98×10⁸ | 3.57×10⁸ | 123  |\n|  6 months | 0.71 | 100 | 1.72×10⁸ | 9.79×10⁸ | 9.01×10⁸ | 413  |\n|  1 year | 0.70 | 100 | 3.01×10⁸ | 1.70×10⁹ | 1.61×10⁹ | 1,361  |\n|  2 years | 0.71 | 100 | 5.82×10⁸ | 3.37×10⁹ | 3.31×10⁹ | 2,154  |\n\nSubstrate : Glass, PRIMER-C used.\n(Not specified values)\nTesting method : complies with JIS A 1439\n※ The PH-11M-2AT actinometer was used in the tests.\n\n# 7 Handling Precautions\n\n1) One-component condensation-cure liquid silicone rubbers cure by reacting with moisture in the air, and curing starts at the surface. Curing speed is affected by temperature, humidity and other conditions.\nThese products do not have particularly good deep-section cure properties, and are thus not suitable for adhesive applications in which the contact area is large. Additionally, if the product is used when humidity is above 100% and water droplets form on the rubber during the cure process, a hydrolysis reaction will proceed ahead of the crosslinking curing reaction, in which case the rubber may have reduced strength or exhibit surface tack after curing.\n\n2) Oxime type condensation-cure liquid silicone rubber may corrode copper metals under sealed conditions. Please conduct a test using a small sample to determine whether the product is suitable for the intended applications.\n\n3) Condensation-cure liquid silicone rubbers will show a temporary decline in dielectric properties during the cure process. In most cases, however, the rubber will recover and exhibit its intrinsic dielectric properties when fully cured.\n\n4) Please note that in some cases, the rubber may not cure if it comes in contact with flux or certain other materials.\n\n5) Condensation-cure liquid silicone rubber products should not be used in place where completely airtight conditions will be created.\n\n6) Condensation-cure liquid silicone rubbers may yellow over time, but their other characteristics will not be affected.",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "KE-45\n4/4\nOne-component Room Temperature Curing Type Liquid silicone Rubber\n\n# 8 Precautions when Using\n\n1) Be sure to clean the substrate to remove dirt, grime, moisture and oil from the surface.\n2) When using an air gun applicator, be sure to set the pressure at a safe and suitable level, around 0.2–0.3 MPa MAX.\n3) Please contact your sales representative if you have any questions regarding the handling and use of these products.\n\n# 9 Safety and Hygiene\n\n1) Be sure there is adequate ventilation when using condensation-cure liquid silicone rubber products. This product generates methyl ethyl keton oxime (MEKO) when cured. If you experience unpleasant symptoms when using these products, move to an area with fresh air.\n2) Uncured liquid silicone rubber products may irritate skin and mucous membranes. Take care to avoid eye contact or prolonged contact with the skin. In case of accidental eye contact, immediately flush with water for at least 15 minutes and then seek medical attention. In case of skin contact, wipe off immediately with a dry cloth and then wash thoroughly with soap and water. Contact lens wearers must take special care when using liquid silicone rubber: if uncured liquid silicone rubber enters the eye, the contact lens may become stuck to the eye.\n3) Never touch or rub the eyes while working with these products. Users should wear safety glasses and take other appropriate steps to protect their safety.\n4) If product gets on the floor, it will become slippery. Wipe the product to remove completely.\n5) Keep out of reach of children.\n6) Be sure to read the Safety Data Sheets (SDS) for these products before use. SDS are available from the Shin-Etsu Silicone website. If the SDS is not listed on the website, please contact the sales department.\n\nSDS download URL: https://www.shinetsusilicone-global.com/support/sdstds → ![img-1.jpeg](img-1.jpeg)\n\n# 10 Storage Conditions\n\nStorage Temperature: 1°C to 30°C\n\n※ Seal container tightly and store in a dark place (out of direct sunlight) with good ventilation. Keep away from heat and flame.\n\n# 11 UN Number\n\nN / A\n\n- The data and information presented in this catalog may not be relied upon to represent standard values. Shin-Etsu reserves the right to change such data and information, in whole or in part, in this catalog, including product performance standards and specifications without notice.\n- Users are solely responsible for making preliminary tests to determine the suitability of products for their intended use. Statements concerning possible or suggested uses made herein may not be relied upon, or be construed, as a guaranty of no patent infringement.\n- For detailed information regarding safety, please refer to the Safety Data Sheet (SDS). Please download the SDS from our website.\n- If the SDS is not listed on the website, please contact the sales department. SDS download URL: https://www.shinetsusilicone-global.com/support/sdstds\n- The silicone products described herein have been designed, manufactured and developed solely for general industrial use only; such silicone products are not designed for, intended for use as, or suitable for, medical, surgical or other particular purposes.\n\nUsers have the sole responsibility and obligation to determine the suitability of the silicone products described herein for any application, to make preliminary tests, and to confirm the safety of such products for their use.\n- Users must never use the silicone products described herein for the purpose of implantation into the human body and/or injection into humans.\n- Users are solely responsible for exporting or importing the silicone products described herein, and complying with all applicable laws, regulations, and rules relating to the use of such products. Shin-Etsu recommends checking each pertinent country's laws, regulations, and rules in advance, when exporting or importing, and before using the products.\n- Please contact Shin-Etsu before reproducing any part of this catalog. Copyright belongs to Shin-Etsu Chemical Co., Ltd.\n\nhttps://www.shinetsusilicone-global.com/\n\nShin-Etsu Chemical Co., Ltd.\nMarunouchi Eiraku Bldg., 4-1, Marunouchi 1-chome, Chiyoda-ku, Tokyo 100-0005, Japan\nSilicone Division Sales and Marketing Department IV\nPhone: +81-(0)3-6812-2410 Fax: +81-(0)3-6812-2415\n\n\"Shin-Etsu Silicone\" is a registered trademark of Shin-Etsu Chemical Co., Ltd.\nThis is an edited version of the product data released on Nov. 2024.\n©Shin-Etsu2024. 11 ⑤SEC. Web in Japan.",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 434,
+          "top_left_y": 498,
+          "bottom_right_x": 492,
+          "bottom_right_y": 556,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 226760
+  },
+  "document_annotation": null
+}

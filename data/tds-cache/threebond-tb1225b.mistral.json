@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1225B\n\n# ThreeBond\n\nSept. 20, 2002\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\nThreeBond 1225B\n\nHeat dissipation silicone adhesive sealant\n\n(improved to prevent electrical contact failure)\n\n## 1. Outline\n\nThreeBond 1225B is a one-part room temperature curing silicone adhesive sealant for electric and electronic components. The sealant excels in thermal conductivity.\n\n## 2. Features\n\n(1) The sealant excels in heat dissipation.\n(2) It excels in electrical insulating properties.\n(3) It has been improved to prevent electrical contact failure.\n(4) It is a de-alcohol type quick-drying sealant and does not affect metals or plastics.\n\n## 3. Uses\n\n- Heat dissipation and insulation of switching power supplies\n- Heat dissipation and insulation of power ICs and computer CPUs\n- Heat dissipation and insulation of illumination inverters\n- Heat dissipation and insulation of various electronic components\n\n## 4. Properties\n\nTable-1 Properties\n\n|  Item | Unit | Property | Test method  |\n| --- | --- | --- | --- |\n|  Appearance | - | White (fluid paste) | 3TS-201-02  |\n|  Viscosity | Pa·s | 18 | 3TS-210-02\n(Rotor No.7, number of revolutions of 10 rpm)  |\n|  Specific gravity | - | 2.6 | 3TS-213-02  |\n|  Tack-free time | min | 5 | 3TS-219-04  |\n|  Reaction type | - | De-alcohol | -  |\n\nED040701",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1225B\n\n# 5. General characteristics\n\nTable-2 General characteristics\n\n|  Item | Unit | Characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Hardness | - | A74 | 3TS-215-01  |\n|  Tensile strength | MPa | 3.9 | 3TS-320-01  |\n|  Elongation | % | 48 | 3TS-320-01  |\n|  Tensile shear bond strength | MPa | 0.9 (AL/AL) | 3TS-301-23  |\n|   |   |  1.3 (glass/glass)  |   |\n\nStandard curing conditions: For 7 days at $23 \\pm 2^{\\circ} \\mathrm{C}$ and $50 \\pm 5\\% \\mathrm{RH}$\n\n# 6. Electrical characteristics\n\nTable-3 Electrical characteristics\n\n|  Item | Unit | Characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Thermal conductivity | W/m·K | 1.59 | 3TS-501-07  |\n|  Dielectric breakdown strength | kV/mm | 20 | 3TS-406-01  |\n|  Volume resistivity | Ω·cm | 2 × 10^{14} | 3TS-401-01  |\n|  Content of low-molecular siloxane component | ppm | 10 | D_{4} - D_{20}  |\n\n# 7. Instructions for use\n\n- When the sealant is exposed to moisture in the air, it hardens. After using it, clean the opening in the tube, and tighten the cap.\n- Avoid drinking it.\n- When it enters eyes, wash the eyes with fresh water for more than 15 minutes, and make arrangements for medical treatment.\n- Before washing the eyes, remove the contact lenses.\n- Use and store it out of reach of children.\n- Do not use it near fire.\n- Before using it, sufficiently confirm whether the usage and use are appropriate.\n- While the heating element is at a high temperature, never work with it. Doing so can cause serious accidents.\n- Take care that dirt and dust do not adhere to it.\n- Never use it to medical implant products.\n- As for hazard and toxicity information not mentioned in this document, see the relevant MSDS (material safety data sheet).\n\nED040701",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1225B\n\n## 8. Storage\n\nStore it at room temperature (5-35°C) with low humidity avoiding sunlight\n\n## 9. Disposition\n\nAsk a disposal contractor having special knowledge to dispose of this product.\n\n## 10. Safety precautions\n\n**For industrial use** (It is not intended for household use.)\n\nBefore using the product, approve the following conditions of sale.\n\n(1) This technical information gives experimental values obtained by our specified test methods. We cannot thoroughly guarantee the correctness and perfectness of the data.\n\nThe user should determine whether the product is appropriate to the use and purpose before using it, and take all responsibilities for danger caused by it. The guarantee applies only to replacement of apparently defective product.\n\n(2) We are not liable to injuries and damages caused by improper handling of this product.\n\n(3) We do not take responsibility for any matter not mentioned herein unless otherwise mutually agreed in the contract.\n\nED040701",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 145053
+  },
+  "document_annotation": null
+}

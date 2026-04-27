@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3331D\n\n# ThreeBond\n\nMar. 30, 2017\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3331D\n\nEpoxy-based Heat-curing Electrically Conductive Adhesive\n\n1. Product description\n\nThreeBond 3331D is an epoxy-based heat-curing conductive adhesive. It can bond at a low temperature (80°C).\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 900 ppm each, and the sum of total chlorine content and total bromine content is less than 1500 ppm.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2. Features\n\n(1) Single component, heat-curing conductive adhesive.\n(2) Bonding at 80°C in 60 min.\n(3) Solvent-free.\n(4) Syringe type.\n\n3. Applications\n\nGrounding and conductive bonding of electronic components\n\n4. Properties\n\n4.1 Properties of liquid\n\nTable 1 Properties of TB 3331D\n\n|  Item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Silver | 3TS-2100-020 | -  |\n|  Viscosity | Pa·s | 25 | 3TS-2F00-007 | Shear rate: 10.0 [s⁻¹] (25°C)  |\n|  Structural viscosity ratio | - | 4.0 | 3TS-2F10-007 | Shear rate: 1.0 [s⁻¹] / 10.0 [s⁻¹] (25°C)  |\n\nED2017011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3331D\n\n## 4.2 Flow curve\n\n![img-0.jpeg](img-0.jpeg)\nFig.1 Flow curves of TB 3331D\nMeasuring temperature: 25°C\nMeasuring conditions: 3TS-4200-001\nMeasuring device: MARS III  Cone: C35/2\n\n## 4.3 Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB3331D\nShear rate: 10.0 [s⁻¹]\nMeasuring conditions: 3TS-4200-003\nMeasuring device: MARS III  Cone: C35/2\n\nED2017011",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 189,
+          "top_left_y": 152,
+          "bottom_right_x": 541,
+          "bottom_right_y": 399,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 188,
+          "top_left_y": 552,
+          "bottom_right_x": 508,
+          "bottom_right_y": 799,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3331D\n\n# 5. Characteristics\n\n## Characteristics of cured resin\n\nTable 2 Characteristics of TB3331D after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 0.5 × 10^{-5} | 3TS-5100-002 | -  |\n|  Chip bonding strength | MPa | 15 | 3TS-4180-002 | 2Φceramic chip/Ni plated sheet  |\n\nStandard curing conditions: 80°C × 60 min (with use of hot-air drying oven)\n\n# 6. Usage\n\n(1) Application\n\nUse an applicator. Furthermore, use a nozzle with an inner diameter greater than 0.29 mm (25G).\n\n(2) Curing\n\nApply adhesive to fix the substrate, and heat cure at 80°C for 60 minutes using a hot-air drying oven.\n\nHowever, the above curing conditions are not guaranteed values. Curing conditions may change depending on the usage environment and material.\n\n# 7. Directions for use\n\n(1) To prevent dew condensation, unseal the container after it returns to room temperature.\n\n(2) The effects on the bonding point should be confirmed in advance. If there are any problems, do not use.\n\n(3) Keep out of the reach of children.\n\n(4) Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n\n(5) Combustible. Keep away from fire.\n\n(6) Do not dilute or mix with any organic solvent or any other substance.\n\n(7) Use of this product may cause substrate degradation.\n\nThe effects of the resin on the substrates must be confirmed by the operator in advance. Refrain from using the resin if any detrimental effects are observed.\n\n(8) Use of this product may cause substrate degradation.\n\n(9) Do not burn the product. It may generate toxic gas when burnt.\n\n(10) It is harmful to the health. Do not touch it directly or inhale its vapors.\n\n(11) If in eyes, rinse with clean water for at least 15 minutes, and get medical attention.\n\n(12) If on skin, wipe away with a cloth, and wash the skin with soap.\n\n(13) Persons with allergies or sensitive skin should avoid using it.\n\n(14) If any bodily abnormalities occur, discontinue use, and get medical attention.\n\n(15) For hazard and toxicity information not mentioned herein, see the SDS (safety data sheet).\n\n# 8. Storage\n\nStore it tightly sealed in a freezer (-40°C to -20°C) avoiding direct sunlight.\n\nED2017011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3331D\n\n9. Disposal\nAsk an authorized industrial waste disposal contractor to dispose of the product as industrial waste.\n\n10. Product configuration\nMusashi Engineering, Inc., 10-cc syringe (10 g x 5 pcs.)\n\n11. Precautions\nFor Industrial Use Only\n(Do not use for household purposes.)\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Safety Data Sheets (SDS). To obtain the SDS, contact our sales office or customer service center.\n- Information in this document is subject to change at our own discretion.\n\n12. Registered trademark\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2017011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 55114
+  },
+  "document_annotation": null
+}

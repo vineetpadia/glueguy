@@ -1,0 +1,117 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M Science. Applied to Life.\nV-9 | English-US\nLast Revision Date: December, 2025\nSupersedes: April, 2025\n\n# Technical Data Sheet\n\n3M™ Scotch-Weld™ Epoxy Adhesive\nDP420NS Black\n\n![img-0.jpeg](img-0.jpeg)\nAdditional Info\n\n![img-1.jpeg](img-1.jpeg)\nRegulatory Info/SDS\n\n# Product Description\n\n3M™ Scotch-Weld™ Epoxy Adhesives are high performance, two-part epoxy adhesives offering excellent shear and peel strength.\n\n# Product Features\n\n- Excellent shear strength\n- Excellent peel strength\n- Excellent environmental resistance\n- 20 minute open time\n- Non-sag\n- Recognized as meeting UL 94 HB\n\n# Technical Information Note\n\nThe following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n## Typical Uncured Physical Properties\n\n|  Attribute Name | Temperature | Value  |\n| --- | --- | --- |\n|  Accelerator Density |  | 1.13 g/cm³ (9.4 lb/in²)  |\n|  Base Density |  | 1.14 g/cm³ (9.5 lb/in²)  |\n|  Accelerator Viscosity | 23 °C (73 °F) | 89,000 cP (89,000 mPa.s) ¹  |\n|  Base Viscosity | 23 °C (73 °F) | 211,000 cP (211,000 mPa.s) ¹  |\n|  Mix Ratio by Volume (B:A) |  | 2:1  |\n|  Mix Ratio by Weight (B:A) |  | 2:0.99  |\n|  Accelerator Resin |  | Amine  |\n|  Base Resin |  | Epoxy  |\n|  Accelerator Color |  | Amber  |\n|  Base Color |  | Black  |\n|  Color |  | Black ²  |\n\n¹ Viscosity measured using cone-and-plate viscometer; reported viscosity at 4 sec⁻¹ shear rate.\n² Colors may vary from nearly white to yellow/amber. Adhesive performance is not affected by color variation.\n\n## Typical Mixed Physical Properties\n\n|  Attribute Name | Temperature | Value  |\n| --- | --- | --- |\n|  Open Time |  | 20 min ¹  |\n|  Time to Handling Strength | 23 °C (73 °F) | 2.5 h  |\n\n¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten adhesive on a non-metallic surface.\n\n3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 605,
+          "top_left_y": 112,
+          "bottom_right_x": 657,
+          "bottom_right_y": 167,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 673,
+          "top_left_y": 112,
+          "bottom_right_x": 730,
+          "bottom_right_y": 171,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://www.3m.com/3M/en_US/p/d/B40066483/",
+        "https://www.3m.com/3M/en_US/company-us/SDS-search/results/?gsaAction=msdsSRA&msdsLocale=en_US&co=ptn&q=3M™+Scotch-Weld™+Epoxy+Adhesive+DP420NS",
+        "https://www.3m.com/3M/en_US/company-us/SDS-search/results/?gsaAction=msdsSRA&msdsLocale=en_US&co=ptn&q=3M™+Scotch-Weld™+Epoxy+Adhesive+DP420NS"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US\n2/6\n\n# Typical Physical Properties\n\n|  Attribute Name | Value  |\n| --- | --- |\n|  Cured Color | Black  |\n\n# Typical Cured Characteristics\n\nTemperature: 23 °C (73 °F)\n\n|  Attribute Name | Test Method | Value  |\n| --- | --- | --- |\n|  Shore D Hardness | ASTM D2240 | 82  |\n\n# Typical Performance Characteristics\n\nSubstrate: Aluminum\nSurface Prep: MEK,Sandblast,MEK\nTest Condition: Pendulum Impact\n\n|  Attribute Name | Test Method | Value  |\n| --- | --- | --- |\n|  Impact Shear Strength | ASTM D950 | 19 J ¹  |\n\n¹ 21.7J Hammer\n\n# Overlap Shear Strength\n\nTemperature: 23 °C (73 °F)\nTest Method: ASTM D1002, ISO 4587\n\n|  Dwell Time | Substrate | Surface Prep | Value  |\n| --- | --- | --- | --- |\n|  7 d | ABS | IPA Wipe | 0.8 MPa (110 lb/in²) ¹  |\n|  7 d | Acrylic (PMMA) | IPA Wipe | 0.8 MPa (110 lb/in²) ¹  |\n|  7 d | Aluminum | Sandblasted | 26.0 MPa (3770 lb/in²) ¹  |\n|  24 h | Aluminum | Etched | 29.4 MPa (4270 lb/in²) ¹  |\n|  7 d | CRS | Acetone/Abrade/Acetone | 18.8 MPa (2730 lb/in²) ¹  |\n|  7 d | FRP (Epoxy) | Acetone/Abrade/Acetone | 30.8 MPa (4460 lb/ft²) ¹  |\n|  7 d | FRP (Polyester) | Acetone/Abrade/Acetone | 7.9 MPa (1140 lb/in²) ¹  |\n|  7 d | Polycarbonate (PC) | IPA Wipe | 3.9 MPa (570 lb/in²) ¹  |\n|  7 d | Polyvinyl chloride (PVC) | IPA Wipe/Abrade/IPA Wipe | 1.5 MPa (220 lb/in²) ¹  |\n\n¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.13-0.20 mm (5-8 mil)\nSeparation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\nSubstrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\nCohesive Failure (CF), Adhesive Failure (AF), Mixed Failure (MF), Substrate Failure (SF)\n\n# Overlap Shear Strength\n\nSubstrate: Aluminum\nSurface Prep: Sandblasted\nTemperature: 23 °C (73 °F)\nDwell Time: 7 d\nTest Method: ASTM D1002, ISO 4587\n\n|  Test Condition | Value  |\n| --- | --- |\n|  -40 °F | 24.8 MPa (3590 lb/in²) (95%) ¹  |\n|  49 °C (120 °F) | 15.0 MPa (2170 lb/in²) (58%) ¹  |\n|  82 °C (180 °F) | 4.0 MPa (580 lb/in²) (15%) ¹  |\n|  200 °C (392°F) | 1.8 MPa (260 lb/in²) (7%) ¹  |\n\n¹ Overlap shear (OLS) strengths were measured on 25 mm wide x 13 mm overlap (1 x 0.5 in) specimens on 25 x 102 x 1.5 mm (1 x 4 x 0.06 in) substrates.\nJaw separation 2.5 mm/min (0.1 in/min). 0.25 mm (10 mil) bondline.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Test Method: ASTM D638, ISO 527\n\n|  Attribute Name | Temperature | Test Condition | Value  |\n| --- | --- | --- | --- |\n|  Elongation | 23 °C (73 °F) | 10 mm/min | 2.9 % 1  |\n|  Modulus |  |  | 1,980 MPa  |\n|  Tensile Strength |  |  | 39.6 MPa 2  |\n\n1 Type IV dogbone\n2 Type IV dogbone. Jaw separation 10 mm/min, tested at 25°C / 50%RH.\n\nSubstrate: Aluminum\n\nSurface Prep: Etched\n\nTemperature: 23 °C (73 °F)\n\nTest Condition: 23 °C\n\n|  Attribute Name | Test Method | Value  |\n| --- | --- | --- |\n|  Bell Peel | ASTM D3167 | 11.4 N/mm (65 lb/in) 1  |\n\n1 Floating roller peel; adhesives allowed to cure for 24 hours @RT; 25 mm (1 in) wide samples;\n\nSamples pulled at 15 mm/min (6 in/min)\n\nCohesive (CF), Adesive (AF) and Substrate (SF) Failure\n\n## Typical Environmental Performance\n\n## Overlap Shear Strength\n\nSubstrate: Aluminum\n\nSurface Prep: MEK,Sandblast,MEK\n\nTemperature: 23 °C (73 °F)\n\nTest Condition: 23 °C\n\nDwell Time: 7 d\n\nTest Method: ASTM D1002, ISO 4587\n\n|  Environmental Condition | Value  |\n| --- | --- |\n|  200°C / 30 minutes | 31.2 MPa (4520 lb/in²) (120%) ¹  |\n|  85 °C + 85 %RH: 500 hrs | 31.2 MPa (4520 lb/in²) (96%) ¹  |\n|  Diesel Fuel: 500 hrs | 28.9 MPa (4190 lb/in²) (111%) ¹  |\n|  Gasoline: 500 hrs | 25.0 MPa (3650 lb/in²) (97%) ¹  |\n|  Salt water (5% wt in water): 500 hrs | 21.6 MPa (3140 lb/in²) (83%) ¹  |\n|  Water: 500 hrs | 26.7 MPa (3870 lb/in²) (103%) ¹  |\n\n1 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.76-0.13 mm (3-5 mil)\n\nSeparation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\n\nSubstrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\n\nSubstrate: PVC\n\nSurface Prep: Solvent Wipe\n\nTemperature: 23 °C (73 °F)\n\nDwell Time: 7 d\n\nEnvironmental Condition: 49 °C + 80 %RH: 500h\n\n|  Attribute Name | Test Method | Value  |\n| --- | --- | --- |\n|  Overlap Shear Strength | ASTM D1002, ISO 4587 | 3.8 MPa (551 lb/in²) ¹  |\n\n1 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.25 mm (10 mil)\n\nSeparation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\n\nSubstrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\n\nCohesive Failure (CF), Adhesive Failure (AF), Mixed Failure (MF), Substrate Failure (SF)\n\n3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "Substrate: CRS\n\nSurface Prep: Acetone/Abrade/Acetone\n\nTemperature: 23 °C (73 °F)\n\nTest Condition: 23 °C\n\nDwell Time: 7 d\n\nEnvironmental Condition: 200°C / 30 minutes\n\n|  Attribute Name | Test Method | Value  |\n| --- | --- | --- |\n|  Overlap Shear Strength | ASTM D1002, ISO 4587 | 23.7 MPa (3400 lb/in²) (126%) ¹  |\n\n¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.76-0.13 mm (3-5 mil)\nSeparation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\nSubstrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\n\n## Electrical and Thermal Properties\n\n|  Attribute Name | Test Method | Test Condition | Value  |\n| --- | --- | --- | --- |\n|  Glass Transition Temperature (Tg) |  |  | 73 °C (163 °F) ¹  |\n|  Thermal Conductivity | ASTM E1530 | 50 °C, 25 psi | 0.23 W/m·K  |\n|  Coefficient of Thermal Expansion |  | Above Tg | 169 x 10⁻⁶ m/m/°C ²  |\n|  Coefficient of Thermal Expansion |  | Below Tg (5 ~ 20 °C) | 82.7 x 10⁻⁶ m/m/°C ³  |\n\n¹ Glass Transition Temperature (Tg) determined using DSC Analyzer with a heating rate of 10 °C per minute. Second heat values given.\n² CTE determined using TMA Analyzer using a heating rate of 3 °C per minute. Second heat values given.\n³ CTE determined using TMA Analyzer using a heating rate of 10 °C per minute. Second heat values given.\n\n## Handling/Application Information\n\n### Directions for Use\n\n3M™ Scotch-Weld™ Epoxy Adhesive DP420 is supplied in dual syringe plastic duo-pak cartridges as part of the 3M™ EPX™ Applicator System. The duo-pak cartridges are supplied in 50 ml, 200 ml and 400 ml configurations. To use the EPX cartridge system simply insert the duo-pak cartridge into the EPX applicator. Next, remove the duo-pak cartridge cap and expel a small amount of adhesive to be sure both sides of the duo-pak cartridge are flowing evenly and freely. If simultaneous mixing of Part A and Part B is desired, attach the EPX mixing nozzle to the duo-pak cartridge and begin dispensing the adhesive.\n\nWhen mixing Part A and Part B manually the components must be mixed in the ratio indicated in the typical uncured properties section of this data sheet. Complete mixing of the two components is required to obtain optimum properties. Two-part mixing/proportioning/dispensing equipment is available for intermittent or production line use. These systems are ideal for line uses because of their variable shot size and flow rate characteristics and are adaptable to most applications.\n\nApply adhesive to clean, dry surfaces, joint parts and secure until adhesive sets (see rate of strength build up).\n\n3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US\n5/6\n\n# Surface Preparation\n\nFor high strength structural bonds, paint, oxide films, oils, dust, mold release agents and all other surface contaminants must be completely removed. However, the amount of surface preparation directly depends on the required bond strength and the environmental aging resistance desired by user. The following cleaning methods are suggested for common surfaces:\n\n## Steel\n\n1. Wipe free of dust with oil-free solvent such as acetone, isopropyl or alcohol solvents.*\n2. Sandblast or abrade using clean fine grit abrasives.\n3. Wipe again with solvent to remove loose particles.\n4. If a primer is used, it should be applied within 4 hours after surface preparation.\n\n## Aluminum\n\n1. Alkaline Degrease: Oakite 164 solution (9-11 oz./gallon water) at 190°F ± 10°F (88°C ± 5°C) for 10-20 minutes. Rinse immediately in large quantities of cold running water.\n2. Optimized FPL Etch Solution (1 liter):\n\nDistilled Water - 700 ml plus balance of liter (see below)\n\nSodium Dichromate - 28 to 67.3 grams\n\nSulfuric Acid - 287.9 to 310.0 grams\n\nAluminum Chips - 1.5 grams/liter of mixed solution\n\nTo prepare 1 liter of this solution, dissolve sodium dichromate in 700 ml of distilled water. Add sulfuric acid and mix well. Add additional distilled water to fill to 1 liter. Heat mixed solution to 66 to 71°C (150 to 160°F). Dissolve 1.5 grams of 2024 bare aluminum chips per liter of mixed solution. Gentle agitation will help aluminum dissolve in about 24 hours.\n\nTo etch aluminum panels place them in FPL etch solution heated to 66 to 71°C (150 to 160°F). Panels should soak for 12 to 15 minutes.\n\n3. Rinse: Rinse panels in clear running tap water.\n4. Dry: Air dry 15 minutes; force dry 10 minutes at 150°F ± 10°F (66°C ± 5°C).\n5. If primer is to be used, it should be applied within 4 hours after surface preparation.\n\n## Plastics/Rubber\n\n1. Wipe with isopropyl alcohol.*\n2. Abrade using fine grit abrasives.\n3. Wipe with isopropyl alcohol.*\n\n## Glass\n\n1. Solvent wipe surface using acetone or MEK.*\n2. Apply a thin coating (0.0001 in. or less) of 3M™ Scotch-Weld™ Metal Primer EC3901 to the glass surfaces to be bonded and allow the primer to dry 60 minutes before bonding.\n\n*Note: When using solvents, extinguish all ignition sources, including pilot lights, and follow the manufacturer's precautions and directions for use.\n\n# Industry Specifications\n\nUL 94 HB\n\n# Storage and Shelf Life\n\nStore under normal conditions of 16° to 27°C (60° to 80°F) and 40 to 60% relative humidity in the original packaging, out of direct sunlight. For best performance, use this product within 24 months from date of manufacture.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "3M™ Scotch-Weld™ Epoxy Adhesive DP420NS Black | English-US\n6/6\n\n# Precautionary Information\n\nRefer to Product Label and Material Safety Data Sheet for health and safety information before using this product. For additional health and safety information, call 1-800-364-3577\n\n# Automotive Disclaimer\n\n## Select Automotive Applications:\n\nThis product is an industrial product and has not been designed or tested for use in certain automotive applications, such as automotive electric powertrain battery or high voltage applications, which may require the product to be manufactured in a IATF certified facility, meet a Ppk of 1.33 for all properties, undergo an automotive production part approval process (PPAP), or fully adhere to automotive design or quality system requirements (e.g., IATF 16949 or VDA 6.3). Customer assumes all responsibility and risk if customer chooses to use this product in these applications.\n\n# Information\n\n## Technical Information:\n\nThe technical information, guidance, and other statements contained in this document or otherwise provided by 3M are based upon records, tests, or experience that 3M believes to be reliable, but the accuracy, completeness, and representative nature of such information is not guaranteed. Such information is intended for people with knowledge and technical skills sufficient to assess and apply their own informed judgment to the information. No license under any 3M or third party intellectual property rights is granted or implied with this information.\n\n## Product Selection and Use:\n\nMany factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. As a result, customer is solely responsible for evaluating the product and determining whether it is appropriate and suitable for customer's application, including conducting a workplace hazard assessment and reviewing all applicable regulations and standards (e.g., OSHA, ANSI, etc.). Failure to properly evaluate, select, and use a 3M product and appropriate safety products, or to meet all applicable safety regulations, may result in injury, sickness, death, and/or harm to property.\n\n## Warranty, Limited Remedy, and Disclaimer:\n\nUnless a different warranty is specifically stated on the applicable 3M product packaging or product literature (in which case such warranty governs), 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR ARISING OUT OF A COURSE OF DEALING, CUSTOM, OR USAGE OF TRADE. If a 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement of the 3M product or refund of the purchase price.\n\n## Limitation of Liability:\n\nExcept for the limited remedy stated above, and except to the extent prohibited by law, 3M will not be liable for any loss or damage arising from or related to the 3M product, whether direct, indirect, special, incidental, or consequential (including, but not limited to, lost profits or business opportunity), regardless of the legal or equitable theory asserted, including, but not limited to, warranty, contract, negligence, or strict liability.\n\n## Disclaimer:\n\n3M industrial and occupational products are intended, labeled, and packaged for sale to trained industrial and occupational customers for workplace use. Unless specifically stated otherwise on the applicable product packaging or literature, these products are not intended, labeled, or packaged for sale to or use by consumers (e.g., for home, personal, primary or secondary school, recreational/sporting, or other uses not described in the applicable product packaging or literature), and must be selected and used in compliance with applicable health and safety regulations and standards (e.g., U.S. OSHA, ANSI), as well as all product literature, user instructions, warnings, and limitations, and the user must take any action required under any recall, field action or other product use notice. Misuse of 3M industrial and occupational products may result in injury, sickness, or death. For help with product selection and use, consult your on-site safety professional, industrial hygienist, or other subject matter expert. For additional product information, visit www.3M.com.\n\n# ISO Statement\n\nThis product was manufactured under a 3M quality system registered to ISO 9001 standards.\n\n3M™ Industrial Adhesives and Tapes Division\n3M Center, St. Paul, MN 55144-1000\n3M.com/iatd\n\n3M, Scotch-Weld and EPX are trademarks of 3M Company.\n©3M 2025 (12/25)",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 118204
+  },
+  "document_annotation": null
+}

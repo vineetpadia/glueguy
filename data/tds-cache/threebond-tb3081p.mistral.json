@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3081P\n\n# ThreeBond\n\nOct. 17, 2016\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3081P\n\nUltra-soft type UV curable resin\n\n## 1. Product description\n\nThreeBond 3081P is an acrylic ester based, solvent-free, UV curable resin. Within seconds of exposure to UV light, forms a heat resistant, cold resistant soft rubber material. The cured resin is so soft that it has good sealing performance in a wide range of compression ratio and can reduce sealing failures under the influence of dimensional tolerances. It is suitable for CIPG* applications that require elasticity and waterproofness.\n\n*CIPG is an abbreviation for Cured-In-Place Gasket.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) The resin can cure under irradiation with UV light (wavelength of 200 to 380 nm) only for several to several tens of seconds.\n\n(2) After curing, maintains rubber elasticity over a wide temperature range (-40 to 120°C).\n\n(3) After application, has excellent shape retention before curing.\n\n(4) The cured resin is so soft that it is applicable at a high compression ratio.\n\n(5) Low compression set ensures excellent seal.\n\n## 3. Applications\n\nCIPG for electric, electronic and other electrical parts\n\nElastic sealing application which requires heat and cold resistance\n\n## 4. Properties\n\nTable 1 Properties of TB3081P\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Light yellow | 3TS-2100-020 | -  |\n|  Viscosity | Pa·s | 400 | 3TS-2F00-007 | 25°C\nShear rate: 2.0 (s⁻¹)  |\n|  Structural viscosity ratio | - | 2.3 | 3TS-2F10-007 | 25°C\nShear rate: 1.0 (s⁻¹)/5.0 (s⁻¹)  |\n|  Specific gravity | - | 1.09 | 3TS-2500-002 | 25°C  |\n\nED2016093",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3081P\n\n# 5. Flow curves\n\n## 5.1 Flow curves\n\nFig. 1 Flow curves of TB3081P\n![img-0.jpeg](img-0.jpeg)\nMeasuring device: HAKKE RS600\nGeometry: C35/2\n\n## 5.2 Temperature-viscosity curve\n\nFig. 2 Temperature-viscosity curve of TB3081P\n![img-1.jpeg](img-1.jpeg)\nMeasuring device: HAKKE RS600\nGeometry: C35/2\nShear rate: $2.0\\ (\\mathrm{s}^{-1})$\n\nED2016093",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 185,
+          "top_left_y": 174,
+          "bottom_right_x": 547,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 185,
+          "top_left_y": 555,
+          "bottom_right_x": 511,
+          "bottom_right_y": 804,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3081P\n\n# 6. Characteristics\n\n## 6.1 Characteristics of cured material\n\nTable 2 Characteristics of TB3081P after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | E19 | 3TS-2B00-010 |   |\n|  Tensile strength | MPa | 0.7 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Elongation | % | 235 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Thick film curability | mm | 3.5 | 3TS-3160-001 |   |\n|  Cure shrinkage | % | 0.8 | 3TS-2600-001 | φ32, 1.5g  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\n## 6.2 Electrical characteristics\n\nTable 3 Electrical characteristics of TB3081P\n\n|  Test item |   | Unit | Result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 8.8 × 10⁸ | 3TS-5200-001  |\n|  Surface resistivity |   | Ω | 2.9 × 10¹³ | 3TS-5100-002  |\n|  Dielectric constant | 1kHz | - | 5.5 | 3TS-5220-001  |\n|   |  1MHz | - | 4.6  |   |\n|  Dielectric loss tangent | 1kHz | - | 0.009  |   |\n|   |  1MHz | - | 0.064  |   |\n|  Dielectric breakdown strength |   | kV/mm | 24.9 | 3TS-5230-001  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\n## 6.3 Thermomechanical analysis\n\nTable 4 Thermomechanical properties of TB3081P\n\n|  Test item |   | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Linear expansion coefficient | α₁ | × 10⁻⁶/°C | 82 | 3TS-4740-001 | -100 to -70°C  |\n|   |  α₂ |   | 315 |   | 60 to 80°C  |\n|  Glass transition temperature |   | °C | -50 | 3TS-4740-001 | TMA method  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\nED2016093",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3081P\n\n# 6.4 Dynamic viscoelastic properties\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Dynamic viscoelastic properties\n\nTable 5 Dynamic viscoelastic properties of TB3081P\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Storage modulus (E') | Pa | 8.1 × 105 | 3TS-4730-001 | 25°C  |\n|  Loss modulus (E\") | °C | -54.1 |   | Peak top value  |\n|  Loss tangent (tanδ) | °C | -41.7 |   | Peak top value  |\n\nCuring conditions: UV dose:  $45\\mathrm{kJ} / \\mathrm{m}^2$ , High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\nMeasuring conditions: 1Hz\n\nED2016093",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 107,
+          "top_left_y": 146,
+          "bottom_right_x": 614,
+          "bottom_right_y": 462,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3081P\n\n# 7. Durability\n\nTable 6 Durability of TB3081P (at 60°C for 96 hrs)\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | E20 | 3TS-2B00-010 |   |\n|  Tensile strength | MPa | 0.8 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Elongation | % | 260 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Compression set *1 | % | 7 | 3TS-4410-001 | 25% compression  |\n|   |   |  8 |   | 40% compression  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n*1 Bead shape: 3 mm in width and 2 mm in height\nMeasuring device: Three-dimensional non-contact measurement device made by Mitaka Optical\n\n# 8. Sealing properties\n\n![img-3.jpeg](img-3.jpeg)\nFig. 4 Relationship between compression ratio and pressure resistance\n\nTest conditions\n\nApplied flange: 70 mm in OD, 56 mm in ID and 7 mm in width\n\nPressurization medium: Air\n\nPressure boosting condition: 0.01 MPa/15 sec (maximum pressure: 0.4 MPa)\n\nBead shape: 3 mm in width and 2 mm in height\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\nED2016093",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 186,
+          "top_left_y": 441,
+          "bottom_right_x": 544,
+          "bottom_right_y": 699,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3081P\n\n# 9. Directions for use\n\n(1) Do not inhale or ingest. Harmful to health. Do not inhale or ingest.\n(2) Harmful to the health. Do not directly touch nor inhale vapor. Wear appropriate protective clothing, such as a mask, goggles and gloves (impervious), and use the resin in a place equipped with a local exhaust system.\n(3) If swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.\n(4) If in eyes, repeatedly and sufficiently rinse with clean water, and get medical attention.\n(5) If it adheres to the skin, it may cause inflammation. Immediately wipe with cloth or paper, and wash the affected area with soap and water.\n(6) If any bodily abnormality occurs, discontinue use, and get medical attention. People who have allergies or susceptible skin should avoid handling it.\n(7) Keep out of reach of children.\n(8) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(9) Some materials may deteriorate if TB3081P is used. The effects on the substrate should be confirmed in advance. If there are any problems, do not use.\n(10) The curing speed varies depending on the type of light source and irradiation distance. Therefore, sufficiently confirm the curing speed prior to use. Particularly, the curing speed is greatly affected by the adhesive temperature and substrate surface temperature owing to changes in temperature and humidity in the room.\n(11) Some gas can be generated during application and curing with UV light. Forcibly ventilate the working area and the UV irradiation area.\n(12) If the product is transferred to another container, confirm whether or not there is an adverse effect on the curability prior to use. Do not return the product left unused to the container.\n(13) For detailed hazard information of the product, see the Safety Data Sheet (SDS).\n\n# 10. Storage\n\nTo prevent deterioration and contamination, fit the cap tightly, and store it indoors in a dark dry place at -5 to 25°C away from sunlight, fire and heat sources.\n\n# 11. Disposal\n\nEntrust disposal of the product to a professional waste disposal company to dispose of it as industrial waste.\n\nDo not burn the product. It may generate toxic gas when burnt.\n\n# 12. Cautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nED2016093",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB3081P\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Safety Data Sheets (SDS). To obtain the SDS, contact our sales office or customer service center.\n- Information in this document is subject to change at our own discretion.\n\n## 13. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2016093",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 7,
+    "doc_size_bytes": 311949
+  },
+  "document_annotation": null
+}

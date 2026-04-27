@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3351C\n\nThreeBond\n\nMay 24, 2010\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\nThreeBond 3351C\n\nNickel-based electroconductive resin\n\n1.  Outline\n\nThreeBond 3351C is a nickel-based electroconductive resin developed as a material for various electronic devices and parts.\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 900 ppm each, and the sum of total chlorine content and total bromine content is less than 1500 ppm.\n\n(Hereinafter, ThreeBond is abbreviated to TB.)\n\n2.  Features\n\n(1) One-part and low-viscosity resin excelling in workability\n(2) It can be cured in 60 min by heating at 90°C.\n\n3.  Uses\n\n(1) Securing continuity at coating films and spot-welded joints\n(2) Grounding of electronic parts\n\n4.  Properties\n\nTable 1 Properties of TB3351C\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Gray | 3TS-201-02 |   |\n|  Viscosity | Pa·s | 3.0 | 3TS-210-10 | Shear rate: 19.2 [s⁻¹]  |\n|  Specific gravity | - | 1.5 | 3TS-213-02 |   |\n\n5.  Characteristics\n\n5.1 Physical characteristics of cured resin\n\nTable 2. Characteristics of TB3351C after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 8.0×10⁻⁵ | 3TS-401-03 |   |\n\nDrying condition: 90°C for 60 min (in hot-air drying oven)\n\nAD2010024",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3351C\n\n## 5.2 Flow curves\n\nFig. 1. Flow curves of TB3351C\n![img-0.jpeg](img-0.jpeg)\nTest method: 3TS-208-01\nTest temperature: 25°C\n\n## 5.3 Temperature-viscosity curve\n\nFig. 2. Temperature-viscosity curve of TB3351C\n![img-1.jpeg](img-1.jpeg)\nTest method: 3TS-208-03\nShear rate: 1.0 (1/s)\n\nAD2010024",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 172,
+          "top_left_y": 147,
+          "bottom_right_x": 528,
+          "bottom_right_y": 393,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 183,
+          "top_left_y": 527,
+          "bottom_right_x": 496,
+          "bottom_right_y": 769,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3351C\n\n## 6. Usage\n\n(1) Opening\n\nIf the container is opened in the refrigerated state, condensation may occur in the container. Open it after it reaches room temperature. The resin contains a volatile solvent. Do not leave it open.\n\n(2) Stirring before using\n\nThe conductive filler may have settled and separated during storage. Sufficiently stir the resin to uniformly mix the filler prior to use. Although the separated liquids vary in color, there are no problems in quality.\n\n(3) Application\n\nUse a syringe or an applicator. Use a nozzle having an inner diameter of 0.26 mm or more.\n\n(4) Curing\n\nThe curing characteristics may change depending on the substrate material and the adhesive layer thickness. Examine the curing conditions using the actual work, and cure the resin under the optimum conditions.\n\n## 7. Instructions for use\n\n(1) When using it, wear appropriate protective clothings.\n\n(2) It is harmful to the health. Do not touch it directly or inhale its vapor.\n\n(3) It is flammable. Do not use it near fire.\n\n(4) Use and store the product out of reach of children.\n\n(5) If it gets in the eyes, immediately wash them with clean water for more than 15 minutes, and get medical attention.\n\n(6) If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n\n(7) If any abnormality is found in the body, stop using the product, and get medical attention.\n\n(8) People who have allergies or susceptible skin should avoid using it.\n\n(9) Ascertain in advance whether or not it affects the parts to be applied with it. If any problem occurs, do not use it.\n\n(10) Note that the solvent will volatilize and the resin will gradually increase in viscosity and become hard to use.\n\n(11) Do not dilute or mix the product with any organic solvent or any other substance.\n\n(12) Do not pour the product into other containers. Do not return the product left unused to its container. Doing so can deteriorate its quality.\n\n(13) For hazard and toxicity information not mentioned in this document, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nTightly close the container, and store it in a refrigerator (at -5 to 10°C) avoiding direct sunlight.\n\nAD2010024",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3351C\n\n## 9. Disposal\n\nAsk a licensed industrial waste disposal company to dispose of the product as industrial waste.\n\n## 10. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nAD2010024",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 170193
+  },
+  "document_annotation": null
+}

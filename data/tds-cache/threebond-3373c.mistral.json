@@ -1,0 +1,338 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB3373C – ANISOTROPIC CONDUCTIVE ADHESIVE\n\n## Information\n\nTB3373C is a single component, solvent based, flexible, anisotropic conductive adhesive. TB3373C can be compression bonded over a wide temperature range (120-160°C). Since main component of TB3373C is synthetic rubber, this product forms flexible film. It can be used on parts that cannot be soldered. (e.g. Transparent conductive glasses and plastic substrates)\n\n## Applications\n\nThe TB3373C is a screen printable anisotropic conductive adhesive that is designed for electrical interconnects. Because TB3373C is a z-axis conductive adhesive it can make a conductive bond between matched conductive pads without electrically bridging between adjacent pads easily down to pitches of 500 µm.\n\nScreen-printing recommendation:\n\n- Print:\n1. Mesh: 80 mesh stainless steel, 100µm diameter each wires\n2. Thickness: 15 – 25 µm after drying\n\n- Dry: 100°C × 10-20 minutes, or 120°C × 5-10 minutes\n\n## Typical Properties\n\n1. Uncured Material\n\n|  Properties | Units | Value | Test Method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Main Component | - | Solvent based, Synthetic rubber | - | -  |\n|  Solvent Contents | - | Toluene, Isophorone | - | -  |\n|  Appearance | - | Light yellow-green liquid | 3TS-201-02 | -  |\n|  Viscosity | Pa · s (P) | 75 (750) | 3TS-210-02 | BH Type No.7×20rpm.  |\n|  Specific gravity | - | 1.01 | 3TS-213-02 | -  |\n|  Heating Residual | % | 35 | 3TS-217-01 | 150°C × 1 hour  |\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2 of 10\n\n# 2. Cured Material\n\n|  Properties | Units | Value |   | Test Method | Remark  |\n| --- | --- | --- | --- | --- | --- |\n|  Connection Resistance | Ω | 15 |   | 3TS-410-01 | *1  |\n|  Insulation Resistance | Ω | >10^{9} |   | 3TS-403-01 | 0.4 mm Pitch\n0.2 mm Pitch\n*2  |\n|  Peel Strength | N/m | Control | 1000h | 3TS-304-42 | 60°C × 95%RH\n1000 hours  |\n|  PET Film / PET Film |   | 670 | 610  |   |   |\n|  PET Film / ITO Glass |   | 850 | 820  |   |   |\n|  PI Film / ITO Glass |   | 650 | 715  |   |   |\n|  PI Film / Glass Epoxy |   | 750 | 700  |   |   |\n\nRecommended Dry Condition : 100°C × 10-20 minutes, 120°C × 5-10 minutes\nRecommended Bonding Condition : 3 MPa compression for 10 sec @ 140°C\n\n*1: FPC / ITO Glass\nFPC : 25μm polyimide film/35μm copper foil with gold plating; 400 μm pitch\nITO : Sodium lime glass / ITO sputtered (10Ω/☐) (10Ω/☐ : 10Ω/cm²)\nBonding conditions : 3 MPa compression for 10 sec @ 140°C.\n\n*2: Test Substrate\nFPC : 25μm polyimide film with electrodes comprised of 35μm copper with gold plating.\nGlass : Sodium lime glass\nBonding conditions : 3 MPa compression for 10 sec @ 140°C\nVoltage applied : DC 10V × 1 min.\nMeasurement equipment : Hewlett Packard Hi-resistance meter HP4339B\n\n# 2. Physical Testing\n\n## A. Connection Resistance\n\nConnection resistance is measured on flexible circuitry (FPC) bonded to ITO glass with TB 3373C.\nAged under the specified temperature and measured at room temperature after 60 minutes.\n\n### (1) Printed Circuit Board\n\nTest Substrates : 38μm thickness PET film, carbon paste (Urethane : 80Ω/☐), 600μm pitch, (L / S = 0.3mm/0.3mm), 20 conductors / sheet.\nITO glass : 60mm × 25mm × 1.1mm (10Ω/☐)\nBonding conditions : 3 MPa compression for 5 sec @ 120°C\n3 MPa compression for 10 sec @ 140°C\n3 MPa compression for 20 sec @ 160°C\nAging temperature : 80°C, 60°C × 95%RH, -20°C\nNumber of test : n=2\nMeasurement equipment : Hewlett Packard Hi-resistance meter system\n\nRev: 0.3\nIssued Date: 11/8/05\nDocument Control Number: 3-TB-20-0969",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "# (2) Polyimide Circuit Board\n\nTest Substrates :  $400\\mu \\mathrm{m}$  pitch,  $(\\mathrm{L} / \\mathrm{S} = 0.2\\mathrm{mm} / 0.2\\mathrm{mm})$ $25\\mu \\mathrm{m}$  thickness polyimide circuit board, 50 conductors / sheet.\n\nITO glass :  $60\\mathrm{mm} \\times 25\\mathrm{mm} \\times 1.1\\mathrm{mm}$  (10Ω/□)\n\nBonding conditions : 3 MPa compression for 5 sec @  $120^{\\circ}\\mathrm{C}$\n\n3 MPa compression for 10 sec @  $140^{\\circ}\\mathrm{C}$\n\n3 MPa compression for 20 sec @  $160^{\\circ}\\mathrm{C}$\n\nAging temperature :  $80^{\\circ}\\mathrm{C}, 60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}, -20^{\\circ}\\mathrm{C}$\n\nNumber of test :  $n = 2$\n\nMeasurement equipment : Hewlett Packard Hi-resistance meter system\n\n![img-0.jpeg](img-0.jpeg)\n\n# B. Insulation resistance\n\nInsulation resistance is measured between two electrodes in a comb shaped pattern with a  $200\\mu \\mathrm{m}$  separation between electrodes under 10 VDC load. Aged under the specified temperature and measured at room temperature after 60 minutes.\n\nTest Substrates :  $400\\mu \\mathrm{m}$  pitch,  $(\\mathrm{L} / \\mathrm{S} = 0.2\\mathrm{mm} / 0.2\\mathrm{mm})$\n\n$25\\mu \\mathrm{m}$  thickness Polyimide circuit board (35μm Cupper / Gold plating)\n\n20 conductors / sheet.\n\nSodium lime glass :  $60\\mathrm{mm} \\times 25\\mathrm{mm} \\times 1.1\\mathrm{mm}$\n\nBonding conditions : 3 MPa compression for 5 sec @  $120^{\\circ}\\mathrm{C}$\n\n3 MPa compression for 10 sec @  $140^{\\circ}\\mathrm{C}$\n\n3 MPa compression for 20 sec @  $160^{\\circ}\\mathrm{C}$\n\nAging temperature :  $80^{\\circ}\\mathrm{C}, 60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}, -20^{\\circ}\\mathrm{C}, 100^{\\circ}\\mathrm{C}, 85^{\\circ}\\mathrm{C} \\times 85\\% \\mathrm{RH}$\n\nNumber of test :  $n = 2$\n\nVoltage applied : DC  $10\\mathrm{V}\\times 1$  min.\n\nMeasurement equipment : Hewlett Packard Hi-resistance meter HP4339B\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 50,
+          "top_left_y": 321,
+          "bottom_right_x": 612,
+          "bottom_right_y": 510,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "Sodium Lime Glass\n\n![img-1.jpeg](img-1.jpeg)\n\n# C. Peel strength\n\nIn this test the T-peel strength is measured. Width of the test piece is  $10\\mathrm{mm}$ . Pull speed is  $50\\mathrm{mm / min}$ .\n\nTest Substrates :  $38\\mu \\mathrm{m}$  PET film /  $75\\mu \\mathrm{m}$  PET film (T-peel test)\n\n38μm PET film / ITO glass (90° peel test)\n\n50μm PI film / ITO glass (90° peel test)\n\n50μm PI film / glass-epoxy (90° peel test)\n\nBonding conditions : 3 MPa compression for 10 sec @  $140^{\\circ}\\mathrm{C}$\n\nTensile speed :  $50~\\mathrm{mm / min}$\n\nAging temperature :  $80^{\\circ}\\mathrm{C}, 60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}, -20^{\\circ}\\mathrm{C}, 100^{\\circ}\\mathrm{C}, 85^{\\circ}\\mathrm{C} \\times 85\\% \\mathrm{RH}$\n\nNumber of test :  $\\mathrm{n} = 3$\n\nMeasurement equipment : Tensile strength equipment\n\n![img-2.jpeg](img-2.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 338,
+          "top_left_y": 114,
+          "bottom_right_x": 587,
+          "bottom_right_y": 302,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 201,
+          "top_left_y": 596,
+          "bottom_right_x": 552,
+          "bottom_right_y": 787,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "# A-1 Connection Resistance (Printed Circuit Board)\n\n1)  $80^{\\circ}\\mathrm{C}$  Aging\n\n![img-3.jpeg](img-3.jpeg)\n\n2)  $60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}$  Aging\n\n![img-4.jpeg](img-4.jpeg)\n\n3)  $-20^{\\circ}\\mathrm{C}$  Aging\n\n![img-5.jpeg](img-5.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 240,
+          "top_left_y": 153,
+          "bottom_right_x": 558,
+          "bottom_right_y": 382,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 241,
+          "top_left_y": 409,
+          "bottom_right_x": 555,
+          "bottom_right_y": 634,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 240,
+          "top_left_y": 663,
+          "bottom_right_x": 552,
+          "bottom_right_y": 890,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "# A-2 Connection Resistance (Polyimide Circuit Board)\n\n1)  $80^{\\circ}\\mathrm{C}$  Aging\n\n![img-6.jpeg](img-6.jpeg)\n\n2)  $60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}$  Aging\n\n![img-7.jpeg](img-7.jpeg)\n\n3)  $-20^{\\circ}\\mathrm{C}$  Aging\n\n![img-8.jpeg](img-8.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 244,
+          "top_left_y": 132,
+          "bottom_right_x": 552,
+          "bottom_right_y": 373,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 244,
+          "top_left_y": 408,
+          "bottom_right_x": 552,
+          "bottom_right_y": 645,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-8.jpeg",
+          "top_left_x": 244,
+          "top_left_y": 680,
+          "bottom_right_x": 552,
+          "bottom_right_y": 915,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "# B. Insulating Resistance\n\n1)  $0.4 \\mathrm{~mm}$  Pitch  $120^{\\circ} \\mathrm{C} \\times 5 \\mathrm{sec}$\n\n![img-9.jpeg](img-9.jpeg)\n\n2)  $0.4 \\mathrm{~mm}$  Pitch  $140^{\\circ} \\mathrm{C} \\times 10 \\mathrm{sec}$\n\n![img-10.jpeg](img-10.jpeg)\n\n3)  $0.4 \\mathrm{~mm}$  Pitch  $160^{\\circ} \\mathrm{C} \\times 20 \\mathrm{sec}$\n\n![img-11.jpeg](img-11.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-9.jpeg",
+          "top_left_x": 263,
+          "top_left_y": 143,
+          "bottom_right_x": 541,
+          "bottom_right_y": 370,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-10.jpeg",
+          "top_left_x": 259,
+          "top_left_y": 408,
+          "bottom_right_x": 537,
+          "bottom_right_y": 639,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-11.jpeg",
+          "top_left_x": 256,
+          "top_left_y": 683,
+          "bottom_right_x": 541,
+          "bottom_right_y": 918,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "4)  $0.2 \\mathrm{~mm}$  Pitch  $140^{\\circ} \\mathrm{C} \\times 10$  sec\n\n![img-12.jpeg](img-12.jpeg)\n\n# C. Peel Strength\n\n1)  $80^{\\circ}\\mathrm{C}$  Aging\n\n![img-13.jpeg](img-13.jpeg)\n\n2)  $60^{\\circ}\\mathrm{C} \\times 95\\% \\mathrm{RH}$  Aging\n\n![img-14.jpeg](img-14.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-12.jpeg",
+          "top_left_x": 259,
+          "top_left_y": 149,
+          "bottom_right_x": 537,
+          "bottom_right_y": 378,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-13.jpeg",
+          "top_left_x": 233,
+          "top_left_y": 424,
+          "bottom_right_x": 563,
+          "bottom_right_y": 656,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-14.jpeg",
+          "top_left_x": 230,
+          "top_left_y": 693,
+          "bottom_right_x": 565,
+          "bottom_right_y": 914,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 8,
+      "markdown": "3)  $-20^{\\circ}\\mathrm{C}$  Aging\n\n![img-15.jpeg](img-15.jpeg)\n\n4)  $100^{\\circ}\\mathrm{C}$  Aging\n\n![img-16.jpeg](img-16.jpeg)\n\n5)  $85^{\\circ} \\mathrm{C} \\times 85 \\% \\mathrm{RH}$  Aging\n\n![img-17.jpeg](img-17.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-15.jpeg",
+          "top_left_x": 216,
+          "top_left_y": 121,
+          "bottom_right_x": 570,
+          "bottom_right_y": 363,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-16.jpeg",
+          "top_left_x": 220,
+          "top_left_y": 401,
+          "bottom_right_x": 570,
+          "bottom_right_y": 640,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-17.jpeg",
+          "top_left_x": 223,
+          "top_left_y": 675,
+          "bottom_right_x": 572,
+          "bottom_right_y": 918,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 9,
+      "markdown": "# D. Rheology\n\nMeasuring Equipment: REOLOGICA VAR-50\n\nMeasurement Method: Cone plate  $\\phi 25\\mathrm{mm}4^{\\circ}$\n\nMeasurement Mode: Constant Rate\n\nShear Rate: 0.01-100 (1/s)\n\n![img-18.jpeg](img-18.jpeg)\n\n![img-19.jpeg](img-19.jpeg)\n\nRev: 0.3\n\nIssued Date: 11/8/05\n\nDocument Control Number: 3-TB-20-0969",
+      "images": [
+        {
+          "id": "img-18.jpeg",
+          "top_left_x": 177,
+          "top_left_y": 285,
+          "bottom_right_x": 605,
+          "bottom_right_y": 582,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-19.jpeg",
+          "top_left_x": 177,
+          "top_left_y": 591,
+          "bottom_right_x": 570,
+          "bottom_right_y": 899,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 10,
+    "doc_size_bytes": 300796
+  },
+  "document_annotation": null
+}

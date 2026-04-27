@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "DOW\n\nTechnical Data Sheet\n\n# SYLGARD™ 577 Primerless Silicone Adhesive\n\nGray, flowable adhesive with high tensile strength and good flame resistance, MIL-PRF-23586F tested\n\n## Features &amp; Benefits\n\n- Flowable\n- Heat cure\n- High tensile strength\n- Long working time after mixing\n- UL 94 V-0 flammability rating\n- Rapid, versatile cure processing controlled by temperature\n- Able to flow, fill or self-leveling after dispensing\n- Long working time reduces need for equipment purging/clean-up\n- Can be considered for uses requiring added flame resistance\n\n## Composition\n\n- Two-part\n- 10 to 1 mix ratio\n- Polydimethylsiloxane adhesive\n\n## Applications\n\nSYLGARD™ 577 Primerless Silicone Adhesive is suitable for:\n\n- Sealing lids and housings\n- Attaching baseplates\n- Gasketing\n- Connector sealing\n\n## Typical Properties\n\nSpecification Writers: These values are not intended for use in preparing specifications.\n\n|  Property | Unit | Result  |\n| --- | --- | --- |\n|  One Part or Two Part |  | Two  |\n|  Color |  | Gray  |\n|  Viscosity (Base) | cP | 121,500  |\n|   |  Pa-sec | 121.5  |\n|  Viscosity (Curing Agent) | cP | 1300  |\n|   |  Pa-sec | 1.3  |\n|  Viscosity (Mixed) | cP | 98,000  |\n|   |  Pa-sec | 98  |\n|  Working Time at 25°C (Pot Life - Hours) | hr | 22  |\n\nUNRESTRICTED – May be shared with anyone\n\na™ The DOW Diamond and SYLGARD are trademarks of The Dow Chemical Company\n\nSYLGARD™ 577 Primerless Silicone Adhesive\n\n© 2017 The Dow Chemical Company. All rights reserved.\n\nForm No 11-3121-01 A",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Typical Properties (Cont.)\n\n|  Property | Unit | Result  |\n| --- | --- | --- |\n|  Heat Cure Time at 125°C | minutes | 60  |\n|  Specific Gravity (Cured) |  | 1.29  |\n|  Durometer Shore A |  | 60  |\n|  Tensile Strength | psi | 988  |\n|   |  MPa | 6.8  |\n|   |  kg/cm² | 68  |\n|  Elongation |  | 224  |\n|  Unprimed Adhesion - Lap Shear to Aluminum | psi | 984  |\n|   |  MPa | 6.8  |\n|   |  N/cm² | 678  |\n|  Dielectric Strength | volts/mil | 500  |\n|   |  kV/mm | 19  |\n|  Volume Resistivity | Ohm-cm | 1.3E+15  |\n|  Dielectric Constant at 100 Hz |  | 2.83  |\n|  Dielectric Constant at 100 kHz |  | 2.78  |\n|  Dissipation Factor at 100 Hz |  | 0.00065  |\n|  Dissipation Factor at 100 kHz |  | < 0.0004  |\n|  UL Flammability Classification | NA | 94 V-0  |\n|  Mil Specification | NA | PRF-23586F  |\n\n## Description\n\nDow two-part heat cure (addition-curing) adhesives cure rate is rapidly accelerated with heat (see cure schedules in table) and an optimum cure schedule will balance processing performance and costs. For thicker sections or if voiding is observed the use of a 30-minute pre-cure at 70°C (158°F) or the use of an adhesive with low-void technology may reduce voids. Addition-cure silicones are formulated with all necessary ingredients for cure and there are no by-products generated during the cure process. Deep-section or confined cures are possible as cure reactions progress evenly throughout the material. These adhesives generally have long working times so users can enjoy the greatest manufacturing flexibility and reduce waste. Dow silicone adhesives retain their original physical and electrical properties over a broad range of operating conditions which enhance the reliability of and service life of PCB system assemblies.\n\n## Mixing And De-Airing\n\nThe 10:1 mix ratio these products are supplied in gives one latitude to tune the modulus and hardness for specific application needs and production lines. In most cases de-airing is not required. When thoroughly blended, the Part A and B liquid mixture should have a uniform appearance. The presence of light colored streaks or marbling indicates inadequate mixing and will result in incomplete cure. For fast-curing adhesives automated mix and dispense equipment should be utilized. In applications sensitive to air entrapment, de-airing with 28 to 30 inches Hg vacuum is required.\n\n## Adhesion\n\nIn general, increasing the cure temperature and/or cure time will improve the ultimate adhesion. Dow silicone adhesives are specially formulated to provide unprimed adhesion to many reactive metals, ceramics and glass, as well as to selected laminates, resins and plastics. However, good adhesion cannot be expected on non-reactive metal substrates or non-reactive plastic surfaces such as Teflon®, polyethylene or polypropylene.\n\nUNRESTRICTED – May be shared with anyone\n© 2017 The Dow Chemical Company. All rights reserved.\nUNRESTRICTED – May be shared with anyone\n© 2017 The Dow Chemical Company. All rights reserved.\nForm No. 11-3121-01 A",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Page 3 of 5\n\n# Adhesion (Cont.)\n\nSpecial surface treatments such as chemical etching or plasma treatment can sometimes provide a reactive surface and promote adhesion to these types of substrates. Dow primers can be used to increase the chemical activity on difficult substrates. Poor adhesion may be experienced on plastic or rubber substrates that are highly plasticized, because the mobile plasticizers act as release agents. Small-scale laboratory evaluation of all substrates is recommended before production trials are made.\n\n# Compatibility\n\nCertain materials, chemicals, curing agents and plasticizers can inhibit the cure of addition cure adhesives. Most notable of these include: organotin and other organometallic compounds, silicone rubber containing organotin catalyst, sulfur, polysulfides, polysulfones or other sulfur containing materials, unsaturated hydrocarbon plasticizers, and some solder flux residues. If a substrate or material is questionable with respect to potentially causing inhibition of cure, it is recommended that a small scale compatibility test be run to ascertain suitability in a given application. The presence of liquid or uncured product at the interface between the questionable substrate and the cured gel indicates incompatibility and inhibition of cure.\n\n# Preparing Surfaces\n\nAll surfaces should be thoroughly cleaned and/or degreased with Dow OS fluids, naphtha, mineral spirits, methyl ethyl ketone (MEK) or other suitable solvent. Solvents such as acetone or isopropyl alcohol (IPA) do not tend to remove oils well, and any oils remaining on the surface may interfere with adhesion. Light surface abrasion is recommended whenever possible, because it promotes good cleaning and increases the surface area for bonding. A final surface wipe with acetone or IPA is also useful. Some cleaning techniques may provide better results than others; users should determine the best techniques for their particular applications.\n\n# Substrate Testing\n\nDue to the wide variety of substrate types and differences in substrate surface conditions, general statements on adhesion and bond strength are impossible. To ensure maximum bond strength on a particular substrate, cohesive failure of the product in a lap shear or similar test is needed to ensure compatibility of the adhesive with the substrate being considered. Also, this test can be used to determine minimum cure time or to detect the presence of surface contaminants such as mold release agents, oils, greases and oxide films.\n\n# Useful Temperature Ranges\n\nFor most uses, silicone adhesives should be operational over a temperature range of -45 to 200°C (-49 to 392°F) for long periods of time. However, at both the low and high temperature ends of the spectrum, behavior of the materials and performance in particular applications can become more complex and require additional considerations. For low-temperature performance, thermal cycling to conditions such as -55°C (-67°F) may be possible but performance should be verified for your parts or assemblies. Factors that may influence performance are configuration and stress sensitivity of components, cooling rates and hold times, and prior temperature history. At the high-temperature end, the durability of the cured silicone elastomer is time and temperature dependent. As expected, the higher the temperature, the shorter the time the material will remain useable.\n\n# Solvent Exposure\n\nThe silicone adhesive discussed in this literature is intended only to survive splash or intermittent exposures. It is not suited for continuous solvent or fuel exposure. Testing should be done to confirm performance of the adhesives under these conditions.\n\nUNRESTRICTED – May be shared with anyone\n\naTM The DOW Diamond and SYLGARD are trademarks of The Dow Chemical Company\n\nSYLGARD™ 577 Primerless Silicone Adhesive\n\n© 2017 The Dow Chemical Company. All rights reserved.\n\nForm No. 11-3121-01 A",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "Page 4 of 5\n\n# Packaging Information\n\nMultiple packaging sizes are available for this product.\n\n# Usable Life And Storage\n\nThe product should be stored in its original packaging with the cover tightly attached to avoid any contamination. Store in accordance with any special instructions listed on the product label. The product should be used by its Use Before date as indicated on the product label.\n\n# Handling Precautions\n\nPRODUCT SAFETY INFORMATION REQUIRED FOR SAFE USE IS NOT INCLUDED IN THIS DOCUMENT. BEFORE HANDLING, READ PRODUCT AND SAFETY DATA SHEETS AND CONTAINER LABELS FOR SAFE USE, PHYSICAL AND HEALTH HAZARD INFORMATION. THE SAFETY DATA SHEET IS AVAILABLE ON THE DOW WEBSITE AT WWW.CONSUMER.DOW.COM, OR FROM YOUR DOW SALES APPLICATION ENGINEER, OR DISTRIBUTOR, OR BY CALLING DOW CUSTOMER SERVICE.\n\n# Limitations\n\nThis product is neither tested nor represented as suitable for medical or pharmaceutical uses.\n\n# Health And Environmental Information\n\nTo support customers in their product safety needs, Dow has an extensive Product Stewardship organization and a team of product safety and regulatory compliance specialists available in each area.\n\nFor further information, please see our website, www.consumer.dow.com or consult your local Dow representative.\n\n# How Can We Help You Today?\n\nTell us about your performance, design, and manufacturing challenges. Let us put our silicon-based materials expertise, application knowledge, and processing experience to work for you.\n\nFor more information about our materials and capabilities, visit www.consumer.dow.com.\n\nTo discuss how we could work together to meet your specific needs, go to www.consumer.dow.com for a contact close to your location. Dow has customer service teams, science and technology centers, application support teams, sales offices, and manufacturing sites around the globe.\n\nUNRESTRICTED – May be shared with anyone\n\na™ The DOW Diamond and SYLGARD are trademarks of The Dow Chemical Company\n\nSYLGARD™ 577 Primerless Silicone Adhesive\n\n© 2017 The Dow Chemical Company. All rights reserved.\n\nForm No. 11-3121-01 A",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "http://www.sylgard.com\n\nTeflon is a registered trademarks of E. I. du Pont de Nemours and Company or its affiliates\n\n# LIMITED WARRANTY INFORMATION – PLEASE READ CAREFULLY\n\nThe information contained herein is offered in good faith and is believed to be accurate. However, because conditions and methods of use of our products are beyond our control, this information should not be used in substitution for customer's tests to ensure that our products are safe, effective, and fully satisfactory for the intended end use. Suggestions of use shall not be taken as inducements to infringe any patent.\n\nDow's sole warranty is that our products will meet the sales specifications in effect at the time of shipment.\n\nYour exclusive remedy for breach of such warranty is limited to refund of purchase price or replacement of any product shown to be other than as warranted.\n\nTO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, DOW SPECIFICALLY DISCLAIMS ANY OTHER EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE OR MERCHANTABILITY.\n\nDOW DISCLAIMS LIABILITY FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES.\n\nDOW\n\n© Trademark of The Dow Chemical Company\n\nForm No 11-3121-01 A",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 62743
+  },
+  "document_annotation": null
+}

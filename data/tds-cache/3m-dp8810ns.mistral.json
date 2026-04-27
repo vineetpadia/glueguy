@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M Science. Applied to Life.\nEnglish-US\nLast Revision Date: February, 2025\nSupersedes: September, 2024\n\n# Technical Data Sheet\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green\n\n![img-0.jpeg](img-0.jpeg)\nProduct Details\n\n![img-1.jpeg](img-1.jpeg)\nRegulatory Info/SDS\n\n# Product Description\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesives are high performance, two-part acrylic adhesives that offer excellent shear, peel, and impact performance. These toughened products provide improved adhesion to many plastics and metals, including those with slightly oily surfaces. These durable products feature a fast rate of strength build, providing structural strength in minutes. Their low odor and non-flammability features also make them easier to incorporate into a manufacturing process.\n\nReview UL File QOQW2. MH17478 and Sign Components Manual (SAM) File E464624 for certification of these adhesive systems in electrical equipment.\n\nDP8810NS Green has been tested for surface flammability, smoke, toxic gas generation, and caloric content per ASTM E162, ASTM E662, ASTM E1354, Bombardier SMP 800-C, and Boeing BSS 7239 test methods. DP8805NS Green and DP8825NS Green should yield similar results.\n\n# Product Features\n\n- Toughened\n- Excellent shear strength\n- High peel and impact strength\n- 10:1 mix ratio control bond line thickness\n- Variety of open times available\n- Increased cure speed with applied heat\n- Contain glass beads (0.010\" diameter) to control bond line thickness\n\nNote: Unless otherwise indicated, all properties measured at 72°F (22°C).\n\n# Technical Information Note\n\nThe following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n## Typical Uncured Physical Properties\n\n|  Attribute Name | Value  |\n| --- | --- |\n|  Mix Ratio by Volume (B:A) | 10:1  |\n|  Mix Ratio by Weight (B:A) | 10:1  |\n|  Attribute Name | Temperature | Value  |\n| --- | --- | --- |\n|  Base Color |  | Off-White  |\n|  Accelerator Color |  | Blue  |\n|  Base Density |  | 1.06 g/cm³ ¹  |\n|  Accelerator Density |  | 1.08 g/cm³ ¹  |\n|  Base Viscosity | 23 °C (73 °F) | 45,000 cP ²  |\n|  Accelerator Viscosity | 23 °C (73 °F) | 15,000 cP ²  |\n\n¹ Density measured using pycnometer.\n² Viscosity measured using cone-and-plate viscometer; reported viscosity at 3.8 sec⁻¹ shear rate.\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 552,
+          "top_left_y": 113,
+          "bottom_right_x": 607,
+          "bottom_right_y": 167,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 653,
+          "top_left_y": 110,
+          "bottom_right_x": 715,
+          "bottom_right_y": 171,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://www.3m.com/3M/en_US/p/d/B40066426/",
+        "https://www.3m.com/3M/en_US/company-us/SDS-search/results/?gsaAction=msdsSRA&msdsLocale=en_US&co=ptn&q=3M™+Scotch-Weld™+Low+Odor+Acrylic+Adhesive+DP8810NS"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Typical Mixed Physical Properties\n\n|  Attribute Name | Temperature | Value  |\n| --- | --- | --- |\n|  Density (mixed) |  | 1.06 g/cm³  |\n|  Viscosity |  | 45,000 cP  |\n|  Worklife | 23 °C (73 °F) | 8 — 12 min ¹  |\n|  Open Time |  | 10 min ²  |\n|  Set Time (min) | 23 °C (73 °F) | 16 — 20 min ³  |\n|  Time to Structural Strength |  | 19 — 23 min ⁴  |\n|  Time to Full Cure | 23 °C (73 °F) | 24 h ⁵  |\n\n¹ Maximum time that adhesive can remain in a static mixing nozzle and still be expelled without undue force on the applicator. Cure times are approximate and depend on adhesive temperature.\n² Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten adhesive on a non-metallic surface.\n³ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive temperature.\n⁴ Minimum time required to achieve 6.9 MPa (1,000 psi) of overlap shear strength. Cure times are approximate and depend on adhesive temperature.\n⁵ The cure time is defined as that time required for the adhesive to achieve a minimum of 80% of the ultimate strength as measured by aluminum-aluminum OLS.\n\nTypical Physical Properties\n\n|  Attribute Name | Value  |\n| --- | --- |\n|  Mixed Color | Blue-Green  |\n|  Cured Color | Blue-Green  |\n\nTypical Cured Characteristics\n\n|  Attribute Name | Test Method | Temperature | Value  |\n| --- | --- | --- | --- |\n|  Modulus | ASTM D638, ISO 527 | 23 °C (73 °F) | 860 MPa (125000 lb/in²) ¹  |\n|  Tensile Strain at Break |  |  | 6.5 % ²  |\n\n¹ 3 mm (1/8\") thick Type I test specimens; samples pulled at 5 mm/min (0.2 in/min). 2 week dwell at 22 °C (72 °F)\n² 3 mm (1/8 in) thick Type I test specimens; samples pulled at 5 mm/min (0.2 in/min)\n\nTypical Performance Characteristics\n\nOverlap Shear Strength\n\nSurface Prep: Light Abrasion and Solvent Clean\nTemperature: 23 °C (73 °F)\nDwell Time: 7 d\nTest Method: ASTM D1002, ISO 4587\n\n|  Substrate | Value  |\n| --- | --- |\n|  Aluminum | 23.4 MPa (3400 lb/in²) (CF) ¹  |\n|  Stainless Steel | 22.1 MPa (3200 lb/in²) (CF) ¹  |\n|  Polyvinyl chloride (PVC) | 12.4 MPa (1800 lb/in²) (SF) ¹  |\n|  ABS | 9 MPa (1300 lb/in²) (SF) ¹  |\n|  Acrylic (PMMA) | 7.6 MPa (1100 lb/in²) (SF) ¹  |\n|  Polycarbonate (PC) | 5.9 MPa (850 lb/in²) (CF) ¹  |\n|  Polystyrene (HIPS) | 3.8 MPa (550 lb/in²) (AF) ¹  |\n|  FRP (Polyester) | 5.5 MPa (800 lb/in²) (AF) ¹  |\n|  Epoxy Resin (fiber-reinforced) | 22.8 MPa (3300 lb/in²) (CF) ¹  |\n\n¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.25 mm (10 mil) Separation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Substrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\nCohesive Failure (CF), Adhesive Failure (AF), Mixed Failure (MF), Substrate Failure (SF)\n\nSubstrate: Aluminum\nTemperature: 23 °C (73 °F)\n\n|  Attribute Name | Test Method | Dwell Time | Test Condition | Surface Prep | Value  |\n| --- | --- | --- | --- | --- | --- |\n|  Overlap Shear Strength | ASTM D1002, ISO 4587 | 7 d | 82 °C (180 °F) | Light Abrasion and Solvent Clean | 5.2 MPa (750 lb/in²) (CF) ¹  |\n|  Bell Peel | ASTM D3167 |  | 23 °C | Etched | 61 N/cm (35 lb/in) (CF) ²  |\n\n¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.25 mm (10 mil)\nSeparation rate 2.5 mm/min (0.1 in/min) metal, 51 mm/min (2 in/min) plastic, 510 mm/min (20 in/min) rubber.\nSubstrate thickness: steel 1.5 mm (60 mil), other metal 1.3-1.6 mm (50-64 mil), rubber and plastic 3.2 mm (125 mil)\nCohesive Failure (CF), Adhesive Failure (AF), Mixed Failure (MF), Substrate Failure (SF)\n\n² Floating roller peel; adhesives allowed to cure for 24 hours @RT; 25 mm (1 in) wide samples;\nSamples pulled at 15 mm/min (6 in/min)\nCohesive (CF), Adesive (AF) and Substrate (SF) Failure\n\n|  Attribute Name | Value  |\n| --- | --- |\n|  Tensile Strength | 11.4 MPa (1650 lb/in²) ¹  |\n\n¹ 3 mm (1/8 in) thick Type I test specimens; samples pulled at 5 mm/min (0.2 in/min)\n\n|  Attribute Name | Value  |\n| --- | --- |\n|  Additional Test notes | Note: Environmental aging tests have shown that these adhesives may accelerate the corrosion of certain bare metals (such as cold rolled steel, copper, brass, and bronze), leading to low bond strength values and early bond failure. These adhesives also have relatively low adhesion to low surface energy plastics (such as polypropylene, polyethylene, TPO, and PTFE). Applications involving any of these materials should be carefully evaluated by the end user for suitability.\n\nNote: The presence of oxygen inhibits the cure of acrylic structural adhesives. Therefore, any exposed surfaces of the mixed adhesive will cure much more slowly than adhesive contained within the bond line. With methyl methacrylate (MMA) acrylic adhesives, any uncured adhesive on the surface flashes off immediately, leaving a surface that feels dry to the touch. With these low odor acrylic adhesives, uncured adhesive on exposed surfaces does not evaporate away quickly, leaving a wet film of partially cured material. For manufacturing processes that need a dry surface quickly, such as for subsequent sanding or painting operations, consider instead the standard acrylic adhesives (DP8405NS Green, DP8410NS Green, DP8425NS Green, and Metal Bonder DP8407NS Green).  |\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US\n3/6",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "Typical Environmental Performance\n\n# Overlap Shear Strength\n\nSubstrate: Aluminum\nDwell Time: 1,000 h\nTest Method: ASTM D1002, ISO 4587\n\n|  Temperature | Environmental Condition | Value  |\n| --- | --- | --- |\n|  -40 °C (-40 °F) |  | 95 % 1  |\n|  149 °C (300 °F) |  | 100 % 1  |\n|  49 °C (120 °F) | 80 %RH | 65 % 2  |\n|  66 °C (150 °F) | 80 %RH | 70 % 2  |\n|  85 °C (185 °F) | 85 %RH | 50 % 2  |\n|  23 °C (73 °F) | 100 %RH | 75 % 2  |\n|  32 °C (90 °F) | 100 %RH | 55 % 2  |\n|  49 °C (120 °F) | 100 %RH | 35 % 2  |\n|  23 °C (73 °F) | Salt water (5 wt% in water) | 75 % 1  |\n|  23 °C (73 °F) | Antifreeze (50 wt% in water) | 90 % 1  |\n|  23 °C (73 °F) | Oil 10W30 | 95 % 1  |\n|  23 °C (73 °F) | Bleach (10 wt% in water) | 65 % 1  |\n|  23 °C (73 °F) | Isopropyl Alcohol (IPA) | 50 % 1  |\n|  23 °C (73 °F) | Diesel Fuel | 90 % 1  |\n\n1 Performance % to control sample @RT, tested after 24hr dwell @RT.\nCured adhesives can handle short contact to most chemicals or env. cond. Avoid long exposure to:\nTemp &gt;100 °F + water\nKetone-type solvents (acetone, MEK)\nGasoline and similar liquids\n\n2 Performance % to control sample @RT, tested after 24hr dwell @RT.\nCured adhesives can handle short contact to most chemicals or env. cond. Avoid long exposure to:\nTemp &gt;100 °F + water\nKetone-type solvents (acetone, MEK)\nGasoline and similar liquids\n\n# Overlap Shear Strength\n\nSubstrate: Polyvinyl chloride (PVC)\nDwell Time: 1,000 h\nTest Method: ASTM D1002, ISO 4587\n\n|  Temperature | Environmental Condition | Value  |\n| --- | --- | --- |\n|  -40 °C (-40 °F) |  | 100 % 1  |\n|  49 °C (120 °F) |  | 95 % 1  |\n|  66 °C (150 °F) |  | 100 % 1  |\n|  85 °C (185 °F) | 85 %RH | 100 % 2  |\n|  23 °C (73 °F) | 100 %RH | 100 % 2  |\n|  23 °C (73 °F) | Hydrochloric acid (16 wt% in water) | 95 % 1  |\n|  23 °C (73 °F) | Salt water (5 wt% in water) | 100 % 1  |\n|  23 °C (73 °F) | Sodium hydroxide (10 wt% in water) | 95 % 1  |\n\n1 Performance % to control sample @RT, tested after 24hr dwell @RT.\nCured adhesives can handle short contact to most chemicals or env. cond. Avoid long exposure to:\nTemp &gt;100 °F + water\nKetone-type solvents (acetone, MEK)\nGasoline and similar liquids\n\n2 Performance % to control sample @RT, tested after 24hr dwell @RT.\nCured adhesives can handle short contact to most chemicals or env. cond. Avoid long exposure to:\nTemp &gt;100 °F + water\nKetone-type solvents (acetone, MEK)\nGasoline and similar liquids\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "Handling/Application Information\n\n# Directions for Use\n\n1. To obtain the highest strength structural bonds, paint, oxide films, oils, dust, mold release agents, and all other surface contaminants must be completely removed. The amount of surface preparation depends on the required bond strength and environmental aging resistance desired by user. For suggested surface preparations on common substrates, see the section on surface preparation.\n\n2. Mixing For Duo-Pak Cartridges\n\nStore cartridges with cap end up to allow any air bubbles to rise towards the tip. To use, simply insert the cartridge into the EPX applicator and start the plunger into the cylinders using light pressure on the trigger. Then remove the cap and expel a small amount of adhesive to ensure material flows freely from both sides of cartridge. For automatic mixing, attach an EPX mixing nozzle to the cartridge and begin dispensing the adhesive. For hand mixing, expel the desired amount of adhesive and mix thoroughly. Mix approximately 15 seconds after obtaining a uniform color.\n\nFor Bulk Containers\n\nMix thoroughly by weight or volume in the proportion specified on the product label or in the typical uncured properties section. Mix approximately 15 seconds after obtaining a uniform color.\n\n3. Apply adhesive and join surfaces within the open time listed for the specific product. Larger quantities and/or higher temperatures will reduce this working time.\n\n4. Allow adhesive to cure at 60°F (16°C) or above until completely firm. Applying heat up to 150°F (66°C) will increase cure speed.\n\n5. Keep parts from moving during cure. Apply contact pressure or fixture in place if necessary. Optimum bond line thickness ranges from 0.005 to 0.020 inch; shear strength will be maximized with thinner bond lines, while peel strength reaches a maximum with thicker bond lines.\n\n6. Excess uncured adhesive can be cleaned up with ketone-type solvents.\n\n*Note: When using solvents, extinguish all ignition sources, including pilot lights, and follow the manufacturer's precautions and directions for use.\n\n# Surface Preparation\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesives are designed to be used on painted or coated metals, most plastics, glass, and some bare metals. The following cleaning methods are suggested for common surfaces:\n\nPainted/coated metals:\n\n1. Wipe surface free of dust and dirt with clean cloth and pure isopropyl alcohol.*\n2. Sandblast or lightly abrade using clean fine grit abrasives. Do not completely remove the paint layer or coating down to bare steel.\n3. Wipe again with clean cloth and pure isopropyl alcohol to remove loose particles.*\n\nAluminum/stainless steel:\n\n1. Wipe surface free of dust and dirt with clean cloth and pure acetone.*\n2. Sandblast or lightly abrade using clean fine grit abrasives.\n3. Wipe again with clean cloth and pure acetone to remove loose particles.*\n\nPlastics:\n\n1. Wipe surface free of dust and dirt with clean cloth and pure isopropyl alcohol.*\n2. Lightly abrade using fine grit abrasives.\n3. Wipe again with clean cloth and pure isopropyl alcohol to remove loose particles.*\n\nGlass:\n\n1. Wipe surface free of dust and dirt with clean cloth and pure acetone.*\n2. Apply a thin coating of silane adhesion promoter to the glass surface and allow to dry completely before adhesive bonding.\n\n*Note: When using solvents, extinguish all ignition sources, including pilot lights, and follow the manufacturer's precautions and directions for use.\n\n# Industry Specifications\n\nReview UL File QOQW2. MH17478 and Sign Components Manual (SAM) File E464624 for certification of these adhesive systems in electrical equipment.\n\nBombardier SMP 800-C\n\nBoeing BSS 7239\n\nEN 45545 test report details (ISO 5659-2, ISO 9239-1, ISO 5660-1, ISO 5658-2)\n\nNFPA 130 test report details (ASTM E162, ASTM E662, SMP 800-C, BSS 7239)\n\n3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://multimedia.3m.com/mws/media/1731077O/summary-dp-8810ns-j387380-bd170831zbs-en-45545-2-2013a1-2015-annex-c.PDF",
+        "https://multimedia.3m.com/mws/media/1730929O/fst-dp8810ns-green.pdf"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS Green | English-US\n6/6\n\n# Storage and Shelf Life\n\nStore under normal conditions of 16° to 27°C (60° to 80°F) and 40 to 60% relative humidity in the original packaging, out of direct sunlight. Refrigeration at 4°C (40°F) will help extend shelf life. Do not freeze. Allow product to reach room temperature prior to use. For best performance, use this product within 24 months from date of manufacture.\n\n# Product Family\n\nThis product is a part of the Low Odor Acrylic Adhesive 88 Family which includes: 3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8805NS, 3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS, 3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS\n\n# Precautionary Information\n\nRefer to Product Label and Material Safety Data Sheet for health and safety information before using this product. For additional health and safety information, call 1-800-364-3577\n\n# Automotive Disclaimer\n\n## Select Automotive Applications:\n\nThis product is an industrial product and has not been designed or tested for use in certain automotive applications, such as automotive electric powertrain battery or high voltage applications, which may require the product to be manufactured in a IATF certified facility, meet a Ppk of 1.33 for all properties, undergo an automotive production part approval process (PPAP), or fully adhere to automotive design or quality system requirements (e.g., IATF 16949 or VDA 6.3). Customer assumes all responsibility and risk if customer chooses to use this product in these applications.\n\n# Information\n\n## Technical Information:\n\nThe technical information, guidance, and other statements contained in this document or otherwise provided by 3M are based upon records, tests, or experience that 3M believes to be reliable, but the accuracy, completeness, and representative nature of such information is not guaranteed. Such information is intended for people with knowledge and technical skills sufficient to assess and apply their own informed judgment to the information. No license under any 3M or third party intellectual property rights is granted or implied with this information.\n\n## Product Selection and Use:\n\nMany factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. As a result, customer is solely responsible for evaluating the product and determining whether it is appropriate and suitable for customer's application, including conducting a workplace hazard assessment and reviewing all applicable regulations and standards (e.g., OSHA, ANSI, etc.). Failure to properly evaluate, select, and use a 3M product and appropriate safety products, or to meet all applicable safety regulations, may result in injury, sickness, death, and/or harm to property.\n\n## Warranty, Limited Remedy, and Disclaimer:\n\nUnless a different warranty is specifically stated on the applicable 3M product packaging or product literature (in which case such warranty governs), 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR ARISING OUT OF A COURSE OF DEALING, CUSTOM, OR USAGE OF TRADE. If a 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement of the 3M product or refund of the purchase price. Warranty claims must be made within one (1) year from the date of 3M's shipment.\n\n## Limitation of Liability:\n\nExcept for the limited remedy stated above, and except to the extent prohibited by law, 3M will not be liable for any loss or damage arising from or related to the 3M product, whether direct, indirect, special, incidental, or consequential (including, but not limited to, lost profits or business opportunity), regardless of the legal or equitable theory asserted, including, but not limited to, warranty, contract, negligence, or strict liability.\n\n## Disclaimer:\n\n3M industrial and occupational products are intended, labeled, and packaged for sale to trained industrial and occupational customers for workplace use. Unless specifically stated otherwise on the applicable product packaging or literature, these products are not intended, labeled, or packaged for sale to or use by consumers (e.g., for home, personal, primary or secondary school, recreational/sporting, or other uses not described in the applicable product packaging or literature), and must be selected and used in compliance with applicable health and safety regulations and standards (e.g., U.S. OSHA, ANSI), as well as all product literature, user instructions, warnings, and limitations, and the user must take any action required under any recall, field action or other product use notice. Misuse of 3M industrial and occupational products may result in injury, sickness, or death. For help with product selection and use, consult your on-site safety professional, industrial hygienist, or other subject matter expert. For additional product information, visit www.3M.com.\n\n# ISO Statement\n\nThis product was manufactured under a 3M quality system registered to ISO 9001 standards.\n\n3M™ Industrial Adhesives and Tapes Division\n3M Center, St. Paul, MN 55144-1000\n3M.com/iatd\n\n3M, Scotch-Weld and EPX are trademarks of 3M Company.\n© 3M 2016. All rights reserved.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 105073
+  },
+  "document_annotation": null
+}

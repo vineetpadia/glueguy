@@ -1,0 +1,256 @@
+<!-- page: 0 -->
+
+3M Science. Applied to Life.
+English-US
+Last Revision Date: September, 2024
+Supersedes: June, 2024
+Product Details
+Regulatory Info/5D5
+
+# Technical Data Sheet
+
+3M™ VHB™ Tape - Specialty Tape 4950
+
+# Product Description
+
+Finite Element Analysis (FEA) data is available for this product at: 3m.com/FEA
+
+3M™ VHB™ Tape 4950 is a 0.045 inch (1.1 mm) thick white double-sided acrylic foam tape with paper liner. The general purpose acrylic adhesive on both sides bonds to a broad range of high surface energy substrates including metals, glass and easier to bond paints and plastics. 3M™ VHB™ Tape 4950 is part of the 4950 tape family. Each product in this family has general purpose acrylic adhesive and firm foam but varies in thickness, color and liner type.
+
+# Product Features
+
+- Fast and easy-to-use permanent bonding method provides high strength and long-term durability
+- Virtually invisible fastening keeps surfaces smooth
+- Can replace mechanical fasteners (rivets, welds, screws) or liquid adhesives
+- White, 0.045 in (1.1 mm), general purpose adhesive and firm acrylic foam core
+- Eliminate drilling, grinding, refinishing, screwing, welding and associated clean-up
+- Creates a permanent seal against water, moisture and more
+- Pressure sensitive adhesive bonds on contact to provide immediate handling strength
+- Allows the use of thinner, lighter weight and dissimilar materials
+
+# Technical Information Note
+
+The following technical information and data should be considered representative or typical only and should not be used for specification purposes.
+
+## Typical Physical Properties
+
+|  Attribute Name | Test Method | Value  |
+| --- | --- | --- |
+|  Color |  | White  |
+|  Adhesive Type |  | General Purpose Acrylic  |
+|  Foam Type |  | Firm Acrylic  |
+|  Density | ASTM D3574 | 800 kg/m³ (50 lb/ft³) ¹  |
+|  Total Tape Thickness | ASTM D3652 | 1.1 mm (0.045 in) (45 mil)  |
+|  Thickness Tolerance |  | ±10 %  |
+
+¹ Foam with adhesive
+
+|  Attribute Name | Value  |
+| --- | --- |
+|  Liner | DK Paper  |
+|  Primary Liner Color | White (printed)  |
+|  Liner Thickness | 0.08 mm (0.003 in)  |
+
+## Typical Performance Characteristics
+
+Temperature: 23 °C (73 °F)
+
+Dwell Time: 72 h
+
+|  Attribute Name | Test Method | Substrate | Backing | Value  |
+| --- | --- | --- | --- | --- |
+|  90° Peel Adhesion | ASTM D3330 | Stainless Steel | 5 mil Aluminum Foil | 44 N/cm (25 lb/in) ¹  |
+|  Normal Tensile | ASTM D897 | Aluminum |  | 970 kPa (140 lb/in²) ²  |
+|  Overlap Shear Strength | ASTM D1002, ISO 4587 | Stainless Steel |  | 550 kPa (80 lb/in²) ³  |
+
+3M™ VHB™ Tape - Specialty Tape 4950 | English-US
+
+---
+
+<!-- page: 1 -->
+
+3M™ VHB™ Tape - Specialty Tape 4950 | English-US
+2/5
+
+1 304 mm/min (12 in/min)
+2 6.45 cm² (1 in²), Jaw Speed 51 mm/min (2 in/min)
+3 6.45 cm² (1 in²), Jaw Speed 12.7 mm/min (0.5 in/min)
+
+## Static Shear
+
+Substrate: Stainless Steel
+
+Test Method: ASTM D3654
+
+|  Temperature | Value  |
+| --- | --- |
+|  23 °C (73 °F) | 1,500 g ¹  |
+|  66 °C (150 °F) | 500 g ¹  |
+|  93 °C (200 °F) | 500 g ¹  |
+
+¹ Tested at various temperatures and gram loadings. 3.23 cm² (0.5 in²). Will hold listed weight for 10,000 minutes (approximately 7 day).
+
+|  Attribute Name | Value  |
+| --- | --- |
+|  Short Term Temperature Resistance | 149 °C (300 °F) ¹  |
+|  Long Term Temperature Resistance | 93 °C (200 °F) ²  |
+
+¹ No change in room temperature dynamic shear properties following 4 hour conditioning at indicated temperature with 100 g/static load. (Represents minutes, hour in a process type temperature exposure).
+² Maximum temperature where tape supports at least 78g/cm² (500 g/in²) in static shear for 10,000 minutes. (Represents continuous exposure for day or weeks).
+
+## Converting
+
+In addition to standard and custom roll sizes available from 3M through the distribution network, 3M™ VHB™ Tapes are also available in limitless shapes and sizes through the 3M Converter network. For additional information, contact 3M Converter Markets at 1-800-223-7427 or on the web at www.3M.com/converter.
+
+## Handling/Application Information
+
+### Surface Preparation
+
+Clean: Most substrates should be cleaned with a 70/30 mixture of (IPA*)/Water prior to applying 3M™ VHB™ Tape.
+
+Exceptions that may require additional surface preparation include:
+
+- Heavy Oils: A degreaser or solvent-based cleaner may be required to remove heavy oil or grease from a surface and should be followed by cleaning with IPA/water.
+- Abrasion: Abrading a surface, followed by cleaning with IPA/water, can remove heavy dirt or oxidation and can increase surface area to improve adhesion.
+- Adhesion Promoters: Priming a surface can significantly improve initial and ultimate adhesion to many materials such as plastics and paints.
+- Porous surfaces: Most porous and fibered materials such as wood, particleboard, concrete, etc. need to be sealed to provide a unified surface.
+- Unique Materials: Special surface preparation may be needed for glass and glass-like materials, copper and copper containing metals, and plastics or rubber that contain components that migrate (e.g. plasticizers).
+
+Refer to 3M Technical Bulletin "Surface Preparation for 3M™ VHB™ Tape Applications" for additional details and suggestions. (70-0704-8701-5)
+
+*Note: Please consult with your local Air Quality District to ensure compliance. When using solvents, be sure to follow the manufacturer's precautions and directions for use.
+
+---
+
+<!-- page: 2 -->
+
+3M™ VHB™ Tape - Specialty Tape 4950 | English-US
+3/5
+
+# Application Techniques
+
+## Initial and Final Pressure Application:
+
+Bond strength is dependent upon the amount of adhesive-to-surface contact developed. Firm application pressure develops better adhesive contact and helps improve bond strength. Typically, good surface contact can be attained by applying enough pressure to ensure that the tape experiences approximately 100 kPa (15 psi) of pressure. Either roller or platen pressure can be used. When bonding two rigid parts, additional final pressure is often required to ensure that the bond line experiences 100 kPa (15 psi).
+
+## Tape Application Temperature:
+
+The ideal tape application temperature range for 3M™ VHB™ Tapes is generally 21°C to 38°C (70°F to 100°F). Pressure sensitive adhesives use viscous flow to achieve substrate contact area. The minimum suggested application temperature for most 3M™ VHB™ Tapes is 10°C to 15°C (50°F to 60°F)
+
+*Note: Initial tape application to surfaces at temperatures below these suggested minimums is not suggested because the adhesive becomes too firm to adhere readily. Ideally, all substrates and tape should be conditioned above the minimum application temperature in covered, weatherproof conditions until it is verified the substrates are at or above the minimum temperature. Once properly applied, low temperature holding is generally satisfactory.*
+
+## Bond Build Rate:
+
+After application, the bond strength will gradually increase as the adhesive flows onto to the surface (also referred to as "wet out"). The bond build rate will depend on both tape and substrate, but generally, at room temperature, approximately 50% of ultimate bond strength will be achieved after 20 minutes, 90% after 24 hours, and 100% after 72 hours. Adhesive flow is faster at higher temperatures and slower at lower temperatures. Ultimate bond strength can be accelerated (and in some cases bond strength can be increased) by exposure to elevated temperature (e.g. 66°C [150°F] for 1 hour). This can provide better adhesive wet out onto the substrates. Abrasion (~180 grit), or the use of primers/adhesion promoters can also increase both bond strength as well as the bond build rate.
+
+## Typical Bond Build vs. Time
+
+![img-0.jpeg](img-0.jpeg)
+
+*Note: Chart describes general performance of 3M™ VHB™ Tapes. Actual bond strength vs. time will depend on several factors including tape and substrate*
+
+# Design Considerations
+
+## Adhesion:
+
+Adhesion to the substrate is critical to achieving high bond strength. Adhesives must flow onto the substrate surfaces in order to achieve intimate contact area and allow the molecular force of attraction to develop. The degree of flow of the adhesive on the substrate is largely determined by the surface energy of the substrate.
+
+## Tape Usage:
+
+Use the right amount of VHB™ Tape to handle the expected stresses. Because 3M™ VHB™ Tapes are viscoelastic by nature, their strength and stiffness is a function of the rate at which they are stressed. They behave stronger when experiencing a higher rate of stress load (dynamic stresses) and will tend to show creep behavior with stress loads that act over a long period of time (static stresses). As a general rule, for static loads, approximately four square inches of tape should be used for each pound (57 cm² of tape per kg) of weight to be supported in order to prevent excessive creep. For dynamic loads a useful design factor is 12 lb/in² (85 kPa) for most dynamic stresses in general applications.
+
+## Tape Thickness:
+
+---
+
+<!-- page: 3 -->
+
+Achieving good contact is also important. The necessary thickness of tape depends on the rigidity of substrates as well as their flatness and/or irregularity. While 3M™ VHB™ Tape will conform to a certain amount of irregularity, they will not flow to fill large gaps between the materials. When bonding rigid materials with normal flatness, consider use of tapes with thickness of 45 mils (1.1 mm) or greater. As substrate flexibility increases, thinner tapes may be considered.
+
+## Thermal Expansion/Contraction:
+
+3M™ VHB™ Tapes perform well in applications where two bonded surfaces may expand and contract at different rates. Assuming good adhesion to both substrates, VHB™ Tape can typically tolerate differential movement in the shear plane up to 3 times (300%) of their thickness.
+
+## Bond Flexibility:
+
+While an advantage for many applications where allowing differential movement is a benefit, the tape bonds are typically more flexible than alternative fastening methods. Suitable design modifications or periodic use of rigid fasteners/adhesives may be necessary if additional stiffness is required.
+
+## Industry Specifications
+
+UL 746C (File MH 17478)
+
+UL 879 (File E65361)
+
+UL 746C Listings
+
+|  3M™ VHB™ Tapes UL746C Listings - File MH 17478 Category 000W2 Component - Polymeric Adhesive Systems, Electrical Equipment  |   |   |   |
+| --- | --- | --- | --- |
+|  3M™ VHB™ Tapes/ Product Families | Substrates | Temperature Rating Minimum Maximum  |   |
+|  4914, 4920, 4930, 4950 | Aluminum, Galvanized Steel, Enameled Steel, Stainless Steel, Ceramic, Glass/Epoxy | -35°C | 110°C  |
+|   |  PBT | -35°C | 90°C  |
+|   |  ABS, Polycarbonate, Rigid PVC | -35°C | 75°C  |
+|   |  Acrylic | -35°C | 90°C  |
+|  4920, 4930, 4950, 4955, 4959, 4959F | Glass / Galvanized Steel*, Glass / Glass*, Galvanized Steel / Aluminum*, Aluminum / Aluminum* | -35°C | 120°C  |
+|  4945 | Phenolic, Aluminum, Galvanized Steel, Alkyd Enamel, Enameled Steel | -35°C | 110°C  |
+|   |  ABS, Polycarbonate, Polyamide, Stainless Steel, Acrylic/Polyurethane Paint, Polyester Paint | -35°C | 90°C  |
+|   |  Unplasticized PVC | -35°C | 75°C  |
+|  4905, 4910 | Polycarbonate, Aluminum, Acrylic/Polyurethane Paint | -35°C | 90°C  |
+|  4611, 4646, 4655 | Stainless Steel, Aluminum, Galvanized Steel, Glass, Glass/Epoxy, Phenolic | -35°C | 110°C  |
+|   |  Nylon, Polycarbonate | -35°C | 90°C  |
+|   |  ABS, Rigid PVC | -35°C | 75°C  |
+
+*Substrates can be used with or without primer(s)/Coating. 3M Silane Coating, 3M Adhesion Promoter 4298UV and 3M Tape Primer 94 are used with glass substrate. 3M Primer AP111, 3M Adhesion Promoter 4298UV and 3M Tape Primer 94 are used with aluminum and galvanized steel substrates.
+
+## Storage and Shelf Life
+
+Store in original cartons at 4-38°C (40-100°F) and 0-95% relative humidity. Optimum storage conditions are 22°C (72°F) and 50% relative humidity. When stored under proper conditions, product retains its performance and properties for 24 months from date of manufacture.
+
+3M™ VHB™ Tape - Specialty Tape 4950 | English-US
+
+---
+
+<!-- page: 4 -->
+
+3M™ VHB™ Tape - Specialty Tape 4950 | English-US
+5/5
+
+# Available Sizes
+
+|  Attribute Name | Value  |
+| --- | --- |
+|  Core Size (ID) | 76.2 mm (3 in)  |
+|  Maximum Available Width | 1219 mm (48 in)  |
+|  Minimum Available Width | 6.4 mm (0.25 in)  |
+|  Normal Slitting Tolerance | ±0.79 mm (±1/32 in)  |
+|  Standard Roll Length | 32.9 m (36 yd) ¹  |
+
+¹ Longer roll lengths are available for most 3M™ VHB™ Tapes. Exact length will depend on caliper and width.
+
+# Automotive Disclaimer
+
+## Select Automotive Applications:
+
+This product is an industrial product and has not been designed or tested for use in certain automotive applications, such as automotive electric powertrain battery or high voltage applications, which may require the product to be manufactured in a IATF certified facility, meet a Ppk of 1.33 for all properties, undergo an automotive production part approval process (PPAP), or fully adhere to automotive design or quality system requirements (e.g., IATF 16949 or VDA 6.3). Customer assumes all responsibility and risk if customer chooses to use this product in these applications.
+
+# Information
+
+**Technical Information:** The technical information, guidance, and other statements contained in this document or otherwise provided by 3M are based upon records, tests, or experience that 3M believes to be reliable, but the accuracy, completeness, and representative nature of such information is not guaranteed. Such information is intended for people with knowledge and technical skills sufficient to assess and apply their own informed judgment to the information. No license under any 3M or third party intellectual property rights is granted or implied with this information.
+
+**Product Selection and Use:** Many factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. As a result, customer is solely responsible for evaluating the product and determining whether it is appropriate and suitable for customer's application, including conducting a workplace hazard assessment and reviewing all applicable regulations and standards (e.g., OSHA, ANSI, etc.). Failure to properly evaluate, select, and use a 3M product and appropriate safety products, or to meet all applicable safety regulations, may result in injury, sickness, death, and/or harm to property.
+
+**Warranty, Limited Remedy, and Disclaimer:** 3M warrants for 24 months from the date of 3M manufacture that 3M™ VHB™ Tape will be free of defects in material and manufacture. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR ARISING OUT OF A COURSE OF DEALING, CUSTOM, OR USAGE OF TRADE. This warranty does not cover damage resulting from the use or inability to use 3M™ VHB™ Tape due to misuse, workmanship in application, or application or storage not in accordance with 3M recommended procedures (except to the extent 3M approves and issues a specific application warranty, for which the customer must apply, receive 3M approval, and meet all applicable warranty and process requirements, the additional details, terms, and conditions of which are available from 3M). If a 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement of the 3M product or refund of the purchase price.
+
+**Limitation of Liability:** Except for the limited remedy stated above, and except to the extent prohibited by law, 3M will not be liable for any loss or damage arising from or related to the 3M product, whether direct, indirect, special, incidental, or consequential (including, but not limited to, lost profits or business opportunity), regardless of the legal or equitable theory asserted, including, but not limited to, warranty, contract, negligence, or strict liability.
+
+**Disclaimer:** 3M industrial and occupational products are intended, labeled, and packaged for sale to trained industrial and occupational customers for workplace use. Unless specifically stated otherwise on the applicable product packaging or literature, these products are not intended, labeled, or packaged for sale to or use by consumers (e.g., for home, personal, primary or secondary school, recreational/sporting, or other uses not described in the applicable product packaging or literature), and must be selected and used in compliance with applicable health and safety regulations and standards (e.g., U.S. OSHA, ANSI), as well as all product literature, user instructions, warnings, and limitations, and the user must take any action required under any recall, field action or other product use notice. Misuse of 3M industrial and occupational products may result in injury, sickness, or death. For help with product selection and use, consult your on-site safety professional, industrial hygienist, or other subject matter expert. For additional product information, visit www.3M.com.
+
+# ISO Statement
+
+This product was manufactured under a 3M quality system registered to ISO 9001 standards.
+
+3M™ Industrial Adhesives and Tapes Division
+3M Center, St. Paul, MN 55144-1000
+3M.com/iatd
+
+3M and VHB are trademarks of 3M Company.
+©3M 2024 (9/24)

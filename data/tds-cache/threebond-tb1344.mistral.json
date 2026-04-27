@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1344 - ANAEROBIC THREADLOCKER\n\n## Information\n\nTB1344 is a low strength, medium viscosity, and removable thread-locking agent. The TB1344 is characterized by consistent torque strength after heat and certain chemical exposure. Since TB1344 is an anaerobic adhesive, it will not cure while exposed to air, however when a tight gap is created between metallic surfaces, an anaerobic adhesive is practically sealed off from contact with the air, and polymerization occurs very rapidly.\n\n## Application\n\nUsed for threaded fastening applications that may be removed.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Blue liquid  |\n|  Viscosity | mPa • s {cP} | 650 (650)  |\n|  Specific gravity | - | 1.10  |\n\n### 2. Cured Material\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Curing time at room temperature | Set | Minutes | <60  |\n|   |  Full | Hours | 24  |\n|  Recommended Clearance |   | mm | 0.005 ~ 0.01  |\n|  Maximum Clearance |   |   | 0.13  |\n|  Breakaway Torque (Fe) |   | N•m (kgf•cm) | 6.9 (69)  |\n|  Prevailing Torque (Fe) |   |   | 8.1 (81)  |\n\nThese are typical results not product specifications.\n\nRev: 0.1\nIssued Date: 9/12/02\nDocument Control Number: 3-TB-20-0469",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 26710
+  },
+  "document_annotation": null
+}

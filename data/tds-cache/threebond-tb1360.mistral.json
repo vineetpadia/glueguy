@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB1360 – ANAEROBIC SEALANT\n\n## Information\n\nTB1360 is a high performance, single fluid, solvent less, red, anaerobic sealant. It will not set so long as it is in contact with air. Beside that TB1360 has an excellent heat resistance.\n\n## Application\n\nUsed mostly for threaded fasteners and fittings.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Red Liquid  |\n|  Viscosity | mPa • s {cP} | 1100 {1100}  |\n|  Specific gravity | - | 1.07  |\n\n### 2. Curing Process\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Curing speed at room temperature | Workable | Hours | 6  |\n|   |  Final |   | 24  |\n\nRev: 0.0\n\nIssued Date: 10/24/01\n\nDocument Control Number: 3-TB-20-0866",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3-1. Retaining Torque (M10)\n\n|  Material | Type | Units | Value  |\n| --- | --- | --- | --- |\n|  Steel | Break loose | N • m {kgf • cm} | 29 {290}  |\n|   |  Prevailing |   | 20 {200}  |\n|  Aluminum | Break loose |   | 10 {100}  |\n|   |  Prevailing |   | 11 {110}  |\n|  Brass | Break loose |   | 23 {230}  |\n|   |  Prevailing |   | 18 {180}  |\n|  Zinc-Chromate | Break loose |   | 14 {140}  |\n|   |  Prevailing |   | 18 {180}  |\n|  Nickel | Break loose |   | 15 {150}  |\n|   |  Prevailing |   | 17 {170}  |\n|  Black Plate | Break loose |   | 14 {140}  |\n|   |  Prevailing |   | 10 {100}  |\n\n3-2. Lap Shear Strength\n\n|  Material | Units | Value  |\n| --- | --- | --- |\n|  Steel Pin and Collar | MPa {kgf / cm²} | 23{230}  |\n\n4. Other Properties\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Recommended Clearance | mm | 0.01 ~ 0.05  |\n|  Maximum Clearance | mm | 0.3  |\n|  Serviceable Temperature | °C | -40 – 180  |\n\nThese are typical results not product specifications.\n\nRev: 0.0\nIssued Date: 10/24/01\nDocument Control Number: 3-TB-20-0866",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 30005
+  },
+  "document_annotation": null
+}

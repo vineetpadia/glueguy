@@ -1,0 +1,156 @@
+®
+
+EPO-TEK OG142-87
+
+Technical Data Sheet
+For Reference Only
+UV Cure Optical Epoxy
+
+Date: August 2022
+No. of Components:
+Mix Ratio by Weight:
+Specific Gravity:
+Pot Life:
+Shelf Life:
+
+Recommended Cure
+
+Rev: XII
+Single
+N/A
+1.17
+N/A
+One year refrigerated
+
+Iron-Doped Mercury Flood Lamp
+2
+
+> 30 sec.
+
+100 mW/cm @ 240-365 nm
+
+Alternative Cures*
+Iron-Doped Mercury Spot Lamp
+365nm LED Flood Lamp
+Pulsed Mercury Lamp
+
+UV Cure is complete after 24 hours from
+UV Exposure
+
+> 90 sec.
+> 90 sec.
+> 60 sec.
+
+* Contact Technical Services for applicationspecific variations
+
+NOTES:
+
+● Container(s) should be kept closed when not in use.
+● Filled systems should be stirred thoroughly before mixing and prior to use.
+● Performance properties (rheology, conductivity, others) of the Products may vary from those stated on the data sheet when bi-pak/syringe packaging or
+post-processing of any kind is performed. Epoxy’s warranties shall not apply to any products that have been reprocessed or repackaged from Epoxy’s
+delivered status/container into any other containers of any kind, including but not limited to syringes, bi-paks, cartridges, pouches, tubes, capsules, films
+or other packages..
+● Thermal post-cure beneficial - contact techserv@epotek.com for recommendations.
+
+Product Description: EPO-TEK® OG142-87 is a single component, low viscosity, UV curable epoxy for adhesive sealing
+and encapsulating fiber optic and optoelectronic packaging application. It is a replacement version of EPO-TEK® OG142-13
+with better bonding strength and moisture resistance.
+Typical Properties: Cure condition: varies as required *denotes test on lot acceptance basis Data below is not guaranteed.
+To be used as a guide only, not as a specification. Different batches, conditions & applications yield differing results.
+
+PHYSICAL PROPERTIES:
+Clear/Colorless
+* Color (before cure):
+Pourable liquid
+* Consistency:
+250 - 600 cPs
+* Viscosity (23°C) @ 100 rpm:
+N/A
+Thixotropic Index:
+≥ 100 °C (Dynamic Cure:20-200°C/ISO 25 Min; Ramp -10-200°C @ 20°C/Min)
+* Glass Transition Temp:
+Coefficient of Thermal Expansion (CTE):
+50 x 10-6 in/in°C
+Below Tg:
+162 x 10-6 in/in°C
+Above Tg:
+82
+Shore D Hardness:
+N/A
+Lap Shear @ 23°C:
+Die Shear:
+≥ 25 Kg 8,890
+psi
+UV Cure:
+UV Cure + 23°C/24 Hours
+25.1 Kg 8,925.6 psi
+25.1 Kg 8,925.6 psi
+UV Cure + 80°C/1 Hour
+384 °C
+Degradation Temp:
+0.32 %
+Weight Loss:
+@ 200°C
+0.64 %
+@ 250°C
+1.58 %
+@ 300°C
+< 300 °C (Intermittent)
+Suggested Operating Temperature:
+520,650 psi
+Storage Modulus:
+N/A
+* Particle Size:
+OPTICAL PROPERTIES @ 23°C:
+Spectral Transmission:
+Refractive Index (uncured):
+Refractive Index (cured):
+
+≥ 97% @ 580-1,660 nm
+1.4925 @ 589 nm
+1.5058 @ 589 nm
+
+Epoxies and Adhesives for Demanding Applications™
+This information is based on data and tests believed to be accurate. Epoxy Technology, Inc. makes no warranties (expressed or implied) as to its
+accuracy and assumes no liability in connection with any use of this product.
+
+EPOXY TECHNOLOGY, INC.
+14 FORTUNE DRIVE, BILLERICA, MA 01821 (978) 667-3805, FAX (978) 663-9782
+
+www.epotek.com
+A Meridian Adhesives Group Company
+
+Page 1 of 2
+
+®
+
+EPO-TEK OG142-87
+
+Technical Data Sheet
+For Reference Only
+UV Cure Optical Epoxy
+
+EPO-TEK® OG142-87 Advantages & Suggested Application Notes:
+● Semiconductor: fill for UV dam and fill encapsulation over ICs and wire bonds. Commonly potted into
+cavities, epoxy dams, or plastic rings
+● Fiber Optic: secure fibers into V-grooves; mounting glass cover over fiber arrays
+○ Adheres glass and plastic lens for fiber/lens arrays
+○ Fiber splicing, coupling, and joining. Maintains consistent alignment in active optical pathways
+● Optics: adheres glass, Lexan, polycarbonate, and many other plastics
+● Adhesive in the active beam path capable of transmitting light in the 400-2000 nm range
+● Bonds beam splitter cubes and prisms
+
+Epoxies and Adhesives for Demanding Applications™
+This information is based on data and tests believed to be accurate. Epoxy Technology, Inc. makes no warranties (expressed or implied) as to its
+accuracy and assumes no liability in connection with any use of this product.
+
+EPOXY TECHNOLOGY, INC.
+14 FORTUNE DRIVE, BILLERICA, MA 01821 (978) 667-3805, FAX (978) 663-9782
+
+www.epotek.com
+A Meridian Adhesives Group Company
+
+Page 2 of 2
+
+

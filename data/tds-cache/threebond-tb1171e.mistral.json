@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1171E\n\n# ThreeBond\n\nAugust 21, 2008\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1171E\n\nSealant for batteries\n\n## 1. Product description\n\nThreeBond 1171E is a non-aqueous electrolyte battery sealant that was developed as a volatile solvent type, single component sealant. Seals by volatile solvent which forms an excellent elastomeric coating. It also provides excellent stability for a variety of electrolytes, also features a low moisture permeability. Hereinafter, ThreeBond is abbreviated as TB.\n\n## 2. Features\n\n① Because it is a liquid, mixing and weighing operations are not required.\n② Has high stability against various electrolytes\n③ Forms a low moisture premeable film\n④ Not regulated by Japan's organic regulations excluding toluene and xylene\n⑤ Has excellent adhesion because the dried film is a flexible adhesive\n\n## 3. Applications\n\nVarious sealing applications for non-aqueous electrolyte battery application such as capacitors and lithium batteries\n\n## 4. Properties\n\nTable 1. Properties for TB1171E\n\n|  Item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Colorless transparent | 3TS-201-01 | -  |\n|  Viscosity | mPa·s | 600 | 3TS-210-01 | BL-type rotational viscometer No. 3 rotor, 60 rpm  |\n|  Specific gravity | - | 0.79 | 3TS-213-02 | -  |\n|  Heating residue | - | 6.0 | 3TS-217-93 | -  |\n\n## 5. Cured properties\n\nCured properties\n\nTable 2. Cured adhesive property for TB1171E\n\n|  Item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Moisture permeability | g/m²·24h | 4.12 | JIS Z 0208 | (40°C,95%RH)/24h\n150μm thickness  |\n|  Chemical resistance | % | PC -1.5 |  | 60°C×10 days  |\n|   |   |  γ-BL -0.2 | 3TS-620-01 | Weight change rate after immersion  |\n|   |   |  DME -3.2 |  |   |\n\nChemical resistance test's resin drying conditions: 25°C/1h + 60°C/2h\nPC: Propylene carbonate, γ-BL: Gamma-Butyrolactone, DME: Dimethoxyethyl\n\nED2008034",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1171E\n\n## 6. Usage method\n\n① Because this is a volatile solvent sealant, allow the solvent to completely volatize.\n② The drying conditions depend on the coating amount and temperature therefore please confirm before using.\n③ Ethylcyclohexane is recommended for diluting. Use after sufficient confirmation.\n\n## 7. Directions for use\n\n① Keep out of reach of children.\n② Combustible. Keep away from fire.\n③ Harmful to health. Do not touch directly nor inhale fumes.\n④ Use suitable organic solvent protective equipment, such as masks, gloves (not permeable) and goggles. Use in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n⑤ Do not inhale or swallow. Harmful to health. If swallowed, seek immediate medical attention.\n⑥ If in eyes, rinse with clean water for about 15 minutes, and get medical attention.\n⑦ If on skin, wipe off with cloth or paper, and thoroughly wash the affected area with soap and water.\n⑧ Persons with allergies or sensitive skin should avoid handling.\n⑨ Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n⑩ To avoid quality deterioration, do not transfer into other container and do not return to original container.\n⑪ Caution: Depending on the substrate, this product may affect the substrate.\n⑫ Ascertain in advance whether or not the bonding surface will be affected. If any problem occurs, discontinue use.\n⑬ For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nStore with the cap closed tightly to prevent deterioration and contamination. Store at -5 to 25°C under low humidity, away from direct sunlight.\n\n## 9. Disposal method\n\nRequest a professional organization to dispose as industrial waste.\n\nED2008034",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1171E\n\n# 10. Precautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes)\n\nThis product was developed for general industrial use. Before using this product, the user must agree with the following conditions.\n\n- The technical data described in this report are based on our company's test method specifications. These values do not represent guaranteed values.\nAlso, there are no guarantees that the uses presented in this report do not infringe on any third party's intellectual property rights.\n\n- Regarding safety validation, the user bears all responsibilities and risks associated for confirming prior to use. Absolutely do not embed this product into body by injection or as residue from medical implant applications.\n\n- Three Bond accepts no responsibility for injuries and damages caused by improper handing of this product. If the user is uncertain about properties of this product and/or how to use it, absolutely do not use.\n\n- For more information about product safety information, please read this product's Material Safety Data Sheet (MSDS). To obtain the MSDS, please contact our sales office\n\n- Three Bond reserves the right to modify this report at its own discretion.\n\nED2008034",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 136403
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,3 @@
+Official Chip Quik fallback extracted from web-visible NCS10B-20G datasheet when local automation received HTTP 403.
+
+Product: NCS10B-20G Neutral Cure Silicone Adhesive Sealant (Black) 20g squeeze tube. Neutral cure RTV silicone. Meets ASTM C920, TT-S-00230C, TT-S-001543A, MIL-46106 Type 1. Operating range -46 C to +204 C; intermittent +232 C. Cure: skin 10 min, full cure 24 h, max adhesion 7 days at 25 C / 50% RH. Viscosity 750,000-2,000,000 mPa.s. Hardness 30 Shore A. Tensile 250 psi. Tear 30 psi. Elongation 400%. Dielectric strength 460 V/mil / 18 kV/mm. Life expectancy under normal operating conditions 30+ years.

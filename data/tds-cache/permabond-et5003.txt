@@ -1,0 +1,140 @@
+                                                                                                                                         PERMABOND® ET5003
+                                                                                                                                              Two-Part Epoxy
+                                                                                                                                       Provisional Technical Datasheet
+
+Features & Benefits
+              Easy to apply                                                                             Typical Performance of Cured Adhesive
+              High shear strength                                                                                                         Mild Steel: 20-24 N/mm²
+              Fast setting                                                                                                                (2900-3480psi)
+                                                                                                       Shear strength*                    Aluminium: 16-19 N/mm²
+              Full cure at room temperature
+                                                                                                       (ISO4587)                          (2320-2760psi)
+              Sandable and paintable after a short period                                                                                 Stainless Steel: 23-26 N/mm²
+              of time                                                                                                                     (3340-3770psi)
+                                                                                                       Hardness (ISO868)                  65 Shore D
+Description                                                                                            Compressive strength
+                                                                                                                                  60 MPa
+PERMABOND® ET5003 is a two-part, fast curing,                                                          (ASTM D695)
+thixotropic adhesive. It is primarily designed for repairing                                            *Strength results will vary depending on the level of surface
+metal substrates. The controlled flow properties as well as                                             preparation and gap.
+its ease of mixing and application, enables the adhesive to
+be used where some gap filling is required.
+                                                                                                                   Strength Development
+                                                                                                                          100
+Physical Properties of Uncured Adhesive
+                                                                                                                           80
+                                                                                                        % Full Strength
+
+
+                             ET5003 A-side                  ET5003 B-side
+  Chemical                                                                                                                 60
+                             Epoxy Resin                    Mercaptan Hardener
+  composition
+  Appearance                 Silver-grey                    Black
+                                                                                                                           40
+
+                             190,000 mPa.s (cP)             54,000 mPa.s (cP)                                              20
+  Viscosity @ 25°C
+                             Thixotropic                    Thixotropic
+  Specific gravity           1.4                            1.5                                                             0
+                                                                                                                                0   5 10 15 30 45 60 120 180 300
+                                                                                                                                                 Minutes
+Typical Curing Properties
+                                                                                                                                                    23°C
+  Mix ratio                                  1:1 by volume
+
+  Maximum gap fill                           2 mm 0.08 in
+                                                                                                        Graph shows typical strength development of bonded
+  Gel time @23°C                             20g: 5 mins                                                components. An increase of 8°C in temperature will halve the
+                                                                                                        cure time. Lower temperatures will result in a slower cure time.
+  Handling Time                              23°C: 12-15 mins
+
+  Working Strengh                            23°C: 30-60 mins
+
+  Full cure                                  23°C: 24 hours
+
+
+
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no gu arantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond ET5003                                                                  Global TDS Revision 3                                 05 September 2022                        Page 1/2
+                                       FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+  Hot Strength
+                           100                                                                          Surface Preparation
+                                                                                                        Surfaces should be clean, dry and grease-free before
+    % Strength Retention
+
+
+
+
+                           80                                                                           applying the adhesive. Use a suitable solvent (such as
+                                                                                                        acetone or isopropanol) for the degreasing of surfaces.
+                           60
+                                                                                                        Some metals such as aluminium, copper and its alloys will
+                           40                                                                           benefit from light abrasion with emery cloth (or similar),
+                                                                                                        to remove the oxide layer.
+                           20
+
+                            0                                                                           Directions for Use
+                                 0        50                      100                                          1.     Surfaces must be clean, dry and grease-free prior
+                                     Temperature (°C)                                                                 to bonding. If using a cleaning solvent, allow 3-4
+                                                                                                                      minutes to fully evaporate before applying
+                                                                                                                      adhesive.
+“Hot strength” shear strength tests performed on mild steel. Fully cured specimens
+conditioned to pull temperature for 30 minutes before testing at temperature.                                  2.     Apply a thin bead of adhesive pre-mixed through
+                                                                                                                      a static mixer nozzle.
+ET5003 can withstand higher temperatures for brief periods                                                     3.     Join the parts. Parts must be joined within the
+(such as for paint baking and wave soldering processes)                                                               usable pot life of mixing the two epoxy
+providing the joint is not unduly stressed. The minimum                                                               components.
+temperature the cured adhesive can be exposed to is -40°C (-                                                   4.     Large quantities and/or higher temperature will
+40°F) depending on the materials being bonded.
+                                                                                                                      decrease the usable life or pot life.
+                                                                                                               5.     Apply pressure to the assembly by clamping until
+                                                                                                                      handling strength is obtained.
+Additional Information                                                                                         6.     Full cure will be obtained after 24h at 23°C (74°F).
+This product is not recommended for use in contact with                                                               Heat can be used to accelerate the curing
+strong oxidizing materials.                                                                                           process.
+Information regarding the safe handling of this material
+may be obtained from the safety data sheet.                                                                    NB. Exercise caution when mixing large quantities
+                                                                                                               due to exothermic reaction.
+Users are reminded that all materials, whether innocuous
+or not, should be handled in accordance with the
+principles of good industrial hygiene.                                                                     Video Links
+                                                                                                           Surface preparation:
+This Technical Datasheet (TDS) offers guideline
+                                                                                                           https://youtu.be/8CMOMP7hXjU
+information and does not constitute a specification.
+
+Storage & Handling                                                                                         Two-part epoxy directions for use:
+                                                                                                           https://youtu.be/GRX1RyknYqc
+  Storage Temperature                             5 to 25°C (41 to 77°F)
+
+
+
+
+                                                                                                                                                           www.permabond.com
+                                                                                                                                                             • UK: 0800 975 9800
+                                                                                                                                        • General Enquiries: +44 (0)1962 711661
+                                                                                                                                                              • US: 732-868-1372
+                                                                                                                                                        • Asia: + 86 21 5773 4913
+                                                                                                                                                  info.europe@permabond.com
+                                                                                                                                                   info.americas@permabond.com
+                                                                                                                                                        info.asia@permabond.com
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no gu arantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond ET5003                                                                  Global TDS Revision 3                                 05 September 2022                        Page 2/2
+                                       FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

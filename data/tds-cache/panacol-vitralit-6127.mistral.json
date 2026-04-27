@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TECHNICAL DATASHEET\n\nVITRALIT® 6127\n\nhoenle\n\n# PRODUCT DESCRIPTION\n\nModified acrylate | 1 part | solvent-free | UV curing | secondary heat cure\n\n- Bonding of static glass objects\n- Bonding of optical components\n- Good capillary action\n- Secondary cure with activator possible\n- Good adhesion to metal\n\n# CURING PROPERIES\n\n|  UV-A | LED 365nm | LED 405nm | Secondary heat cure | Chemical cure  |\n| --- | --- | --- | --- | --- |\n|  ☑ | ☑ | - | ☑ | ☑  |\n\n☑ suitable - not suitable\n\nIn cases where UV curing is applicable, heat curing may only be used as a secondary process for shadowed areas.\n\n|  Light-curing (Hoenle Discharge Lamp)  |   |   |\n| --- | --- | --- |\n|  Intensity [mW/cm²]* | Layer thickness [mm] | Time [s]  |\n|  60 | 0.05 | 15  |\n\n*measured by Hoenle UV-Meter 3.0 / UV-A FO\n\n|  LED-curing (Hoenle LED Spot 100, 365nm)  |   |   |\n| --- | --- | --- |\n|  Intensity [mW/cm²]** | Layer thickness [mm] | Time [s]  |\n|  300 | 0.05 | 10  |\n\n**measured by Hoenle UV-Meter 3.0 / LED F2\n\n|  Secondary heat cure | [min]  |\n| --- | --- |\n|  Time at 120°C | 40  |\n|  Chemical cure | [min]  |\n| --- | --- |\n|  With activator | 25  |\n\nTo obtain full cure at least one substrate must be transparent to the recommended wavelength. The curing speed depends on the wavelength spectrum of the light source, the intensity of light, the distance to the light source, the component geometry and the amount of adhesive.\n\nUpdated 15.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TECHNICAL DATASHEET\n\nVITRALIT® 6127\n\nhoenle\n\nTECHNICAL DATA\n\n|  Resin | Acrylate  |\n| --- | --- |\n|  Appearance | Transparent  |\n|  Uncured Material  |   |\n|  Viscosity [mPas] (Brookfield LVT, 25 °C, Sp. 2/60 rpm)\nTest instruction P001 | 20 – 100  |\n|  Density [g/cm³]\nTest instruction P004 | 1.1 – 1.15  |\n|  Refractive index [nD20]\nTest instruction P023 | 1.47 – 1.48  |\n|  Cured Material  |   |\n|  Hardness shore D\nTest instruction P006 | 70 – 80  |\n|  Typical operating temperature [°C] | -40 – 125  |\n|  Linear shrinkage [%]\nTest instruction P031 | <3  |\n|  Water absorption [wt%]\nTest instruction P016 | <3  |\n|  Glass transition temperature - DSC [°C]\nTest instruction P009 | 45 – 60  |\n|  Coefficient of thermal expansion [ppm/K] below Tg\nTest instruction P017 | <60  |\n|  Coefficient of thermal expansion [ppm/K] above Tg\nTest instruction P017 | 200 – 300  |\n|  Thermal conductivity [W/m*K]\nTest instruction P062 | 0.1 – 0.3  |\n|  Dielectric constant [10kHz]\nIEC 62631-2-1 | 5 – 9  |\n|  Dielectric strength [kV/mm]\nDIN EN 60243 | 17 – 21  |\n|  Young's modulus – Tensile test [MPa]\nUV-A Fe-doped hand lamp, 60mW/cm², 30s\nTest instruction P056 | 450 – 2,000  |\n|  Tensile strength [MPa]\nUV-A Fe-doped hand lamp, 60mW/cm², 30s\nTest instruction P014 | 19 – 22  |\n|  Elongation at break [%]\nUV-A Fe-doped hand lamp, 60mW/cm², 30s\nTest instruction P014 | 16 – 22  |\n|  Compression shear strength (glass/glass) [MPa]\nUV-A Fe-doped hand lamp, 60mW/cm², 30s\nTest instruction P013 | 14 – 18  |\n|  Lap shear strength (glass/Al) [MPa]\nUV-A Fe-doped hand lamp, 60mW/cm², 30s\nTest instruction P013 | 12 – 17  |\n\nUpdated 15.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TECHNICAL DATASHEET\n\nVITRALIT® 6127\n\nhoenle\n\n## TRANSPORT/STORAGE/SHELF LIFE\n\n|  Package type | Transport | Storage | Shelf life*  |\n| --- | --- | --- | --- |\n|  Syringe/Cartridge | At room temperature\nmax. 25°C | At room temperature\nmax. 25°C | At delivery\nmin. 6 months\nmax. 12 months  |\n|  Other packages  |   |   |   |\n\n*Store in original, unopened containers!\n\n## INSTRUCTIONS FOR USE\n\n### Surface preparation\n\nThe surfaces to be bonded should be free of dust, oil, grease, mold release, or other contaminants in order to obtain an optimal and reproducible bond. For cleaning we recommend the cleaner IP® from Hoenle, or a solution of Isopropyl Alcohol at 90% or higher concentration. Substrates with low surface energy (e.g. polyethylene, polypropylene) must be pretreated in order to achieve sufficient adhesion.\n\n### Application\n\nOur products are supplied ready to use. Depending on the packaging, our adhesives may be dispensed by hand directly from the package, or they can be applied using dispensing systems and automation that is compatible with light-curable adhesive chemistry. Vitralit® adhesives can begin to cure slowly in daylight and with longer term exposure under indoor lighting. We therefore recommend that adhesive exposure to ambient light must be kept to a minimum. Fluid lines and dispense tips must be 100% light blocking. For assistance with dispensing options, please contact our Application Engineering department. Adhesive and substrate should not be cold for proper bonding. They must be allowed to warm to room temperature prior to processing. After dispensing the adhesive, bonding of the parts should be done promptly. It is recommended that curing stations be equipped with air exhaust systems to evacuate vapors and heat generated during the curing process. After curing, the adhesive must be allowed to cool to ambient temperature before testing the product's performance. For safety information refer to our Material Safety Data Sheet (MSDS).\n\n### Storage\n\nThis is light sensitive material. Containers must remain covered when not in use. Minimize exposure of uncured material to daylight, artificial light, and UV light during storage and handling. Store uncured product in its original, closed container in a dry location. Any material removed from the original container must not be returned to the container as it could be contaminated. Hoenle cannot assume responsibility for products that were improperly stored, contaminated, or repackaged into other containers.\n\n### Handling and Clean-up\n\nFor safe handling information, consult this product's Material Safety Data Sheet (MSDS) prior to use. Uncured material may be wiped away from surfaces with organic solvents. Do not use solvents to remove material from eyes or skin!\n\nPage 3/4\n\nUpdated 15.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TECHNICAL DATASHEET\n\nVITRALIT® 6127\n\nhoenle\n\n# DISCLAIMER\n\nThe product is free of heavy metals, PFOS and Phthalates and is conform to the current EU-Directive RoHS.\n\n# THE VALUES NOTED IN THIS TECHNICAL DATA SHEET ARE TYPICAL PROPERTIES AND ARE NOT MEANT TO BE USED AS PRODUCT SPECIFICATIONS.\n\nThe information contained in this data sheet is believed to be accurate and is provided for information only. Hoenle makes no representation or warranties of any kind concerning this information. It is the user's responsibility to determine the suitability of this product for any intended use. Hoenle does not assume responsibility for test or performance results obtained by the user. The user assumes all risk and liability connected with the use of this product.\n\nThe user should adopt such precautions and use guidelines as may be advisable for the protection of property and persons against any hazards that may be involved in this product's handling or use. Hoenle specifically disclaims any liability for consequential or incidental damages of any kind arising from the handling or use of this product. The information contained in this Technical Data Sheet offers no assurance that the product use, application, or process will not infringe on existing patents or licenses of others. Nothing in this Technical Data Sheet transfers or grants license for the use of any patents, trade secrets, intellectual property, or confidential information that is the property of Hoenle.\n\nExcept as otherwise noted, all trademarks in this document (identified as *) are the property of Hoenle.\n\n# CONTACT\n\nHoenle Adhesives GmbH | Stierstädter Straße 4 | 61449 Steinbach | Germany\nT: +49 6171 6202-0 | adhesivesystems@hoenle.com\n\nFor regional sales and technical support, please refer to our global contact directory https://www.hoenle.com/contact.\n\nPage 4/4\n\nUpdated 15.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:adhesivesystems%40hoenle.com",
+        "https://www.hoenle.com/contact"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 189706
+  },
+  "document_annotation": null
+}

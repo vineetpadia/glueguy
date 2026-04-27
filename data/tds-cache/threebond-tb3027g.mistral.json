@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3027G\n\n# ThreeBond\n\nOct. 11, 2012\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3027G\n\nUV-curing resin\n\n## 1. Product description\n\nThreeBond 3027G is an acrylate-based one-component non-solvent UV-curing resin developed for ITO electrode molding. Improves line speed and labor savings by quickly curing by UV irradiation of 200 to 400 nm wavelength.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) Cures in seconds to several tens of seconds under irradiation with UV light\n(2) Low water absorption rate and good moisture resistance\n(3) Forms flexible and stretchy cured film having good adhesion.\n\n## 3. Applications\n\nMolding of display panel ITO electrodes\n\n## 4. Result\n\n### 4.1 Result\n\nTable 1. Properties of TB3027G\n\n|  Test items | Unit | Characteristic value | Test methods | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | — | Light transparent yellow | 3TS-2100-001 | —  |\n|  Viscosity | Pa·s | 1.8 | 3TS-2F00-007 | 76.6 (s⁻¹)  |\n|  Specific gravity | — | 1.02 | 3TS-2500-002 | 25°C  |\n\nED2012076",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3027G\n\n## 4.2 Rheogram\n\n![img-0.jpeg](img-0.jpeg)\nFigure 1. Flow curves of TB3027G\n\nEquipment: VAR-50 made by REOLOGICA\n\nGeometry: Cone plate, 25φ, 4°\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB3027G\n\nEquipment: VAR-50 made by REOLOGICA\n\nGeometry: Cone plate, 25φ, 4°\n\nED2012076",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 171,
+          "top_left_y": 156,
+          "bottom_right_x": 542,
+          "bottom_right_y": 418,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 188,
+          "top_left_y": 531,
+          "bottom_right_x": 510,
+          "bottom_right_y": 776,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3027G\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured adhesive\n\nTable 2. Characteristics of cured TB3027G\n\n|  Test items |   | Unit | Characteristic value | Test methods | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Hardness |   | — | A80 | 3TS-2B00-004 | * 25°C  |\n|  Thick film curability |   | mm | 3.0 | 3TS-3160-001 | -  |\n|  Ion concentration | Cl⁻ | ppm | 10 or less | 3TS-6100-001 | Extraction at 120°C × 20 hrs  |\n|   |  K⁺ |   | 5 or less  |   |   |\n|   |  Na⁺ |   | 5 or less  |   |   |\n|  Water absorption |   | % | 0.2 | 3TS-2530-003 | *  |\n|  Cure shrinkage |   | % | 5.9 | 3TS-2600-001 | *  |\n|  Volume resistivity |   | Ω·m | 1.3 × 10¹² | 3TS-5200-001 | —  |\n|  Surface resistivity |   | Ω | 7.4 × 10¹⁵ | 3TS-5200-002 | —  |\n|  Dielectric constant |   | — | 4.6 | 3TS-5220-001 | 1 kHz  |\n|  Dielectric loss tangent |   | — | 0.030 | 3TS-5220-001 | 1 kHz  |\n|  Dielectric breakdown strength |   | kV/mm | 25 | 3TS-5230-002 | —  |\n\nCuring conditions: 30 kJ/m², High-pressure mercury vapor lamp, Dominant wavelength: 365 nm, Irradiation distance: 15 cm\n* 30 kJ/m² × 2\n\n## 5.2 Adhesion\n\nTable 3. Bonding strength of TB3027G\n\n|  Substrate 1 | Substrate 2 | Unit | Characteristic value | Test methods | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Glass | Glass | MPa | 6.0 | 3TS-4100-013 | —  |\n|   |  Acrylic |   | 6.1 |   | VH000  |\n|   |  Polycarbonate |   | 4.3 |   | —  |\n|   |  Glass epoxy |   | 6.3 |   | —  |\n|   |  ABS |   | 3.3 |   | —  |\n|   |  LCP |   | 4.1 |   |   |\n|   |  Fe |   | 7.0 |   | SPCC-SD  |\n|   |  Al |   | 3.5 |   | A1050P  |\n|   |  SUS304 |   | 5.7 |   | —  |\n|   |  SUS430 |   | 6.3 |   | —  |\n|  Polycarbonate | Polycarbonate |   | 5.9 |   | —  |\n\nCuring conditions: Irradiation twice at 30 kJ/m², High-pressure mercury vapor lamp, Dominant wavelength: 365 nm, Irradiation distance: 15 cm\n\nED2012076",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3027G\n\n# 6. Temperature characteristics of cured adhesive\n\nTable -4 Measurement of dynamic viscoelasticity (DMA) of TB3027G\n\n|  Test items | Unit | Characteristic value | Test methods | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Storage modulus | Pa | 2.5 × 108 | 3TS-4730-001 | 1 Hz E' 25°C  |\n|  Loss modulus | °C | -9 |   | 1 Hz E\" peak value  |\n|  Loss tangent | °C | 43 |   | 1 Hz tan δ peak value  |\n\nCuring conditions: Irradiation twice at  $30\\mathrm{kJ} / \\mathrm{m}^2$ , High-pressure mercury vapor lamp, Dominant wavelength: 365 nm, Irradiation distance: 15 cm\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Dynamic Viscoelasticity characteristics of TB3027G\n\nTable 5. Thermomechanical measurement (TMA) of TB3027G\n\n|  Test items | Unit | Characteristic value | Test methods | Remarks  |\n| --- | --- | --- | --- | --- |\n|  α1 | 1/°C | 102 × 10-6 | 3TS-4740-001 | -40 ~ -20°C  |\n|  α2 |   | 227 × 10-6 |   | 120 ~ 140°C  |\n|  Glass transition temperature | °C | 12.4 |   | —  |\n\nED2012076",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 110,
+          "top_left_y": 288,
+          "bottom_right_x": 596,
+          "bottom_right_y": 573,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3027G\n\n# 7. Environmental testing of cured material\n\nTable 6. Environmental testing of cured TB3027G\n\n|  Item |   | Unit | TB3027G | Test methods | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Tensile shear bond strength Bond strength | Initial | MPa | 6.0 | 3TS-4100-013 | Glass / Glass  |\n|   |  After exposure |   | 5.9 |   | *1, Glass/Glass  |\n|   |  After exposure |   | 7.0 |   | *2, Glass/Glass  |\n|  Elongation rate | Initial | % | 210 | 3TS-4190-002 | No. 2 dumbbell  |\n|   |  After exposure |   | 180 |   | *3, No.2 dumbbell  |\n|  Tensile strength | Initial | MPa | 3.1 |   | No. 2 dumbbell  |\n|   |  After exposure |   | 4.9 |   | *3, No.2 dumbbell  |\n|  Hardness | Initial | — | A80 | 3TS-2B00-004 | —  |\n|   |  After exposure |   | A86 |   | *3  |\n\nCuring condition:  $30\\mathrm{kJ} / \\mathrm{m}^2\\times 2$  cycles\n*1: (121°C, 2 atm) × 12 hrs\n*2: (85°C, 85%RH) × 1000 hrs\n*3: (85°C, 85%RH) × 168 h\n\n# 8. Usage precautions\n\n(1) Do not inhale or swallow. Harmful to health. Do not inhale or ingest.\n(2) When handling, use protective equipment, such as masks, gloves (non-permeable) and goggles. Use a local exhaust system.\n(3) If in eyes, rinse with water for about 15 minutes, and seek medical attention.\n(4) If on skin, may cause inflammation. Immediately wipe away with cloth or paper, and wash the skin with soap and water.\n(5) If any abnormality is found in the body, stop using, and get medical attention. People who have allergies or sensitive skin should avoid use.\n(6) Keep out of reach of children.\n(7) Flammable. Do not use near fire.\n(8) To prevent condensation, unseal the container after reaching room temperature.\n(9) To prevent quality deterioration, do not transfer into other container and do not return to original container.\n(10) Some materials may deteriorate if TB3027G is used. The effects on the bonding point should be confirmed in advance. If there are any problems, do not use.\n(11) The curing speed varies depending on the type of light source and irradiation distance, etc. Therefore, sufficiently confirm the curing speed prior to use.\n(12) For hazards not mentioned in this document, please read the material safety data sheet (MSDS).\n\nED2012076",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3027G\n\n## 9. Storage\n\nStore in a sealed condition to prevent contamination and deterioration. Keep in a dark place at -5 to 25°C.\n\n## 10. Disposal\n\nWhen disposing of this product, entrust it to a disposal company with expertise.\n\n## 11. Cautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nThis product was developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Users are asked to examine whether the product is appropriate to the purpose of use and can be used safely before they use it and bear all responsibilities and hazards involved in its use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For more information on product safety, see the material safety data sheet (MSDS). To obtain the MSDS, contact our sales office or customer service center.\n- Information in this technical document is subject to change at our discretion without notice.\n\nED2012076",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 50063
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "# 2300°F ADHESIVE AND SEALANT PUTTY\n\nBonds, Seals, Fills and Protects\n\n## RESBOND™ 907GF\n\nResbond 907GF Fireproof Adhesive and Sealant is a moist, creamy putty for use from -300°F to 2350°F.\n\nIt is easily applied from standard caulking cartridges and air dries in 4-12 hours at room temperature. (Curing may be accelerated with mild heat).\n\nResbond 907GF has excellent adhesion to clean steel, stainless, iron, most metals, ceramics, ceramic cloths, tapes, gaskets, tadpoles gaskets, etc.\n\nResistant to most chemicals, solvents, oxidizing and reducing atmospheres, aging, thermal cycling, and electricity.\n\n### Applications Include:\n\n- Bonds - Ceramic tapes, metals, ceramics, glass, assemblies instruments, etc.\n- Repairs - Exhaust systems, diesel engines, gas turbines, heating plant equipment, ceramics, fire bricks, mortar etc.\n- Assembles - High temperature equipment, brazing fixtures, brazing supports, stacks, etc.\n- Seals - Exhaust systems, stacks, flues, gaskets, fills surface irregularities, etc.\n\n### Users Report:\n\n- Resbond 907GF seals exhaust ducts against corrosive chemicals and high temperatures.\n- Resbond 907GF replaces ceramic gaskets and successfully seals pipe joints for use up to 1800°F.\n- Resbond 907GF bonds over lapping layers of stainless steel to form air ducts for furnaces that operate at 1200°F continuously.\n\nPackaged in convenient dispenser tubes and standard caulking cartridges.\n\nResbond 907GF is ideal for use in any high temperature Assembly, Production, Repair or Maintenance Application.\n\n### Availability:\n\n|  Cat # | Description  |\n| --- | --- |\n|  Resbond 907GF-5 | 3-4 oz. Dispenser Tubes  |\n|  Resbond 907GF-6 | 11 oz. Caulking Cartridge  |\n|  Resbond 907GF-6CP | Case Pack. 12 - 11 oz. Cartridges  |\n|  Resbond 907GF-7 | Smooth, Fine Grade, 11 oz  |\n|  Resbond 907GF-1 | 1 lb. Container (1/2 pint)  |\n|  Resbond 907GF-2 | 3.5 lbs. Container (quart)  |\n\nQuantity Prices are Available Upon Request\n\n![img-0.jpeg](img-0.jpeg)\n907GF Seals Exhaust Ducts Carrying Corrosive Chemicals\n\n![img-1.jpeg](img-1.jpeg)\nApplying 907GF to a Flange Forming a Hi-Temp. Seal\n\n|  Physical Properties | 907GF  |\n| --- | --- |\n|  Max Use Temp. | 3000°F  |\n|  Continuous Service Temp. | 2350°F  |\n|  Density # / ft³ | 65-80  |\n|  Compressive Strength psi | 1500  |\n|  Elongation % | 5  |\n|  Specific Heat BTU/# °F | 0.25  |\n|  Dielectric Constant @ 10⁸ cps | 3.0  |\n|  Volume Resistivity ohm-cm | 10⁹  |\n|  Dielectric Strength Volts/mil. | 145  |\n|  Thermal Cond. BTU in/°F hr. ft² @ 500°F | 6.0  |\n|  Shrinkage % | 2  |\n|  Shelf Life (Months) | 6  |\n\nCOTRONICS CORP.\n\nwww.cotronics.com (718) 788-5533 Fax (718) 788-5538",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 432,
+          "top_left_y": 145,
+          "bottom_right_x": 715,
+          "bottom_right_y": 342,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 432,
+          "top_left_y": 388,
+          "bottom_right_x": 715,
+          "bottom_right_y": 587,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1023,
+        "width": 799
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 869537
+  },
+  "document_annotation": null
+}

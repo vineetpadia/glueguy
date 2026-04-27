@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n## Technical Data Sheet\n\n**TB Glue Accelerator 31**\n**(TB Activator 1791A)**\n\n## Information\n\nThree Bond Glue Accelerator 31 is a clear to yellow liquid, which speeds up the cure rate of ThreeBond 1700 series instant adhesives.\n\n## Application\n\nTB Glue Accelerator 31 speeds up the cure rate of ThreeBond 1700 series instant adhesives. It helps create a strong bond quicker than instant adhesives used alone.\n\n## Typical Properties\n\n|  Properties | TB-TS | Value  |\n| --- | --- | --- |\n|  Appearance | 201-01 | Clear to yellowish liquid  |\n|  Specific gravity (@ 25°C) | 213-02 | 0.84  |\n|  Curing Time | - | 60 Sec. Max. with TB1747  |\n|  Solid Content | 3Hrs.@105°C | 0.05%  |\n\nThese are typical results, not product specifications\n\nRev:0.1\nIssued Date: 2/7/01\nDocument Control Number: 3-TB-20-0502",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n## TB Glue Accelerator 32\n(TB Activator 1791B)\n\n## Information\nThree Bond Glue Accelerator 32 is a clear to yellow liquid which speeds up the cure rate of ThreeBond 1700 series instant adhesives.\n\n## Application\nTB Glue Accelerator 32 speeds up the cure rate of ThreeBond 1700 series instant adhesives. It helps create a strong bond quicker than instant adhesives used alone.\n\n## Typical Properties\n|  Properties | TB-TS | Value  |\n| --- | --- | --- |\n|  Appearance | 201-01 | Clear to yellowish liquid  |\n|  Specific gravity (@ 25°C) | 213-02 | 0.85  |\n|  Curing Time | - | 30 Sec. Max. with TB1747  |\n|  Solid Content | 3Hrs.@105°C | 0.05%  |\n\nThese are typical results, not product specifications\n\nRev: 0.1\nIssued Date: 2/7/02\nDocument Control Number: 3TB-20-0513",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n## TB Glue Accelerator B-9\n(TB Activator B-9)\n\n## Information\nThree Bond Glue Accelerator B-9 is a clear to yellow liquid which speeds up the cure rate of ThreeBond 1700 series instant adhesives.\n\n## Application\nTB Glue Accelerator B-9 speeds up the cure rate of ThreeBond 1700 series instant adhesives. It helps create a strong bond quicker than instant adhesives used alone.\n\n## Typical Properties\n|  Properties | TB-TS | Value  |\n| --- | --- | --- |\n|  Appearance | 201-01 | Clear to yellowish liquid  |\n|  Specific gravity (@ 25°C) | 213-02 | 0.730  |\n|  Curing Time | - | 15 Sec. Max. with TB1747  |\n|  Solid Content | 3Hrs.@105°C | 0.03%  |\n\nThese are typical results, not product specifications\n\nRev: 0.1\nIssued Date: 2/7/02\nDocument Control Number: 3TB-20-0514",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB Glue Accelerator 377\n\n## Information\nThree Bond Glue Accelerator 377 is a clear to yellow liquid which speeds up the cure rate of ThreeBond 1700 series instant adhesives.\n\n## Application\nTB Glue Accelerator 377 speeds up the cure rate of ThreeBond 1700 series instant adhesives. It helps create a strong bond quicker than instant adhesives used alone.\n\n## Typical Properties\n|  Properties | TB-TS | Value  |\n| --- | --- | --- |\n|  Appearance | 201-01 | Clear to yellowish liquid  |\n|  Specific gravity (@ 25°C) | 213-02 | 0.84  |\n|  Curing Time | - | 55 Sec. Max. with TB1747  |\n|  Solid Content | 3Hrs.@105°C | 0.05%  |\n\nThese are typical results, not product specifications\n\nRev: 0.0\nIssued Date: 8/16/2006\nDocument Control Number: 3-TB-20-1186",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 149855
+  },
+  "document_annotation": null
+}

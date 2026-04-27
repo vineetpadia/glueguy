@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3030\n\n# ThreeBond\n\nSeptember 17, 2004\nThree Bond Co., Ltd.\n\nTechnical Data\nThreeBond 3030\nUV curing adhesive\n\n## 1. Overview\n\nThreeBond 3030 is an acrylate-based, one component, solventless, UV-curing adhesive. Within seconds of exposure to UV light, forms into a soft rubber material which is suitable for various potting and bonding applications..\n\n## 2. Features\n\n① Cures by UV irradiation in seconds (200 to 400 nm wavelength)\n② Becomes a soft material after curing\n③ Adheres to glass, metal, plastics and various other substrates\n④ Good moisture and heat resistance\n⑤ Good heat cycle resistance\n⑥ Thixotropic and easy to use\n⑦ Forms into a flexible and tough film\n\n## 3. Uses\n\n① Secures PCB and components\n② Secures floppy head parts\n③ Secures lead wires\n④ Secures lens, glass, etc.\n⑤ Secures optical pick-up parts\n⑥ Secures various optical devices\n\nED2004090",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3030\n\n# 4. Properties\n\n## 4.1 Properties\n\nTable 1. Properties\n\n|  Test item | Unit | Test result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Milky white thixotropic liquid | 3TS-201-01 | -  |\n|  Viscosity | Pa·s | 16.5 | 3TS-210-02 *1 | 25°C  |\n|  Viscosity | Pa·s | 11.0 | 3TS-210-05 *2 | 25°C  |\n|  Specific gravity | - | 1.16 | 3TS-213-02 | 25°C  |\n\n*1 BH Viscometer: No. 2 Rotor 20 rpm\n*2 EHD Viscometer: R14 Rotor 20 rpm\n\n## 4.2 Flow curve (rheometer)\n\n![img-0.jpeg](img-0.jpeg)\nFigure 1. Viscosity curve / flow curve\n\nED2004090",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 163,
+          "top_left_y": 345,
+          "bottom_right_x": 582,
+          "bottom_right_y": 654,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3030\n\n![img-1.jpeg](img-1.jpeg)\nFigure 2. Temperature - viscosity curve Shear Rate 1.0 (1 / S)\n\n# 5. Cured characteristics\n\n# 5.1 Cured characteristics\n\nTable 2. Cured characteristics\n\n|  Test item | Unit | Test result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A95 | 3TS-215-01 | 25°C  |\n|  Hardness | - | D63 | 3TS-215-01 | 25°C  |\n|  Tensile strength | MPa | 200 | 3TS-320-02 |   |\n|  Young's modulus | MPa | 30.0 | 3TS-330-01 |   |\n|  Thick film curability | mm | 12 | 3TS-222-01 |   |\n|  Elongation | % | 50 | 3TS-320-02 |   |\n|  Water absorption | % | 0.8* | 3TS-233-03 | 1.0g  |\n|  Volume resistivity | Ω·m | 2.0×1014 | 3TS-401-01 |   |\n|  Surface resistivity | Ω | 7.5×1015 | 3TS-402-01 |   |\n|  Glass transition point | °C | 28.6 | 3TS-501-05 | TMA method  |\n|  α1 | ×10-6/°C | 69.3  |   |   |\n|  α2 | ×10-6/°C | 215.6  |   |   |\n\n* Boiling; 2h\nIntegrated UV light:  $30\\mathrm{kJ} / \\mathrm{m}^2 (3000\\mathrm{mJ} / \\mathrm{cm}^2)$\n\nED2004090",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 163,
+          "top_left_y": 120,
+          "bottom_right_x": 583,
+          "bottom_right_y": 451,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3030\n\n## 5.2 Cured characteristics\n\nTable 3. Viscoelastic properties\nMeasuring frequency: 1Hz\n\n|  Test item | Unit | Test result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  tanδ peak | °C | 35.1 | 3TS-501-04 | 1Hz  |\n|  Storage modulus | Pa | 2.11×10^{9} | 3TS-501-04 | 25°C  |\n\nIntegrated UV light: 30kJ/m²(3000mJ/cm²)\n\n## 6. Tensile shear strength test\n\nTable 5. Tensile shear bond strength\nTest method: 3TS-301-13\n\n|  Test method | Test material | Test results (MPa)  |\n| --- | --- | --- |\n|  Blank | SUS / Glass | 5.8 *  |\n|  Heat cycle\n-40°C ⇌70°C\n2h 2h | SUS / Glass | 6.2 *  |\n|  Moisture resistance\n-40°C x 95%RH\n72h | SUS / Glass | 5.9 *  |\n|  Low temperature resistance\n-40°C x 72h | SUS / Glass | 5.4 *  |\n|  Heat resistance\n70°C x 72h | SUS / Glass | 6.3 *  |\n\n* Material failure during measurement\nIntegrated UV light: 30kJ/m²(3000mJ/cm²)\n\n## 7. Usage method\n\n① Standard curing conditions: UV light accumulated 30kJ/m² (3000mJ/cm²)\n② Regarding how to cure resin, please contact our sales representative for details.\n\nED2004090",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3030\n\n## 8. Precautions for use\n\n① The curing speed varies depending on the type of light source and irradiation distance. Therefore, sufficiently confirm the curing speed prior to use.\n\n② In principle, curing will not occur in portions where the UV light does not reach. Also, before using, perform sufficient usage and application confirmation.\n\n③ Because some gas is generated during application and curing with UV light, use forced air ventilation in the working area and UV light irradiation area. If necessary, wear appropriate protective clothing, such as a mask, gloves (impervious) and goggles. Use the product in a place equipped with a local exhaust system.\n\n④ Do not inhale or swallow. Harmful to health. If swallowed, seek immediate medical attention.\n\n⑤ Harmful to health. Do not touch directly nor inhale fumes. If on skin, may cause inflammation. If on skin, immediately wipe off with cloth or paper, and wash the affected area with soap and water. If in eyes, rinse with clean water for about 15 minutes and seek medical attention.\n\n⑥ If any bodily abnormalities occur, discontinue use and get medical attention. Also, avoid handling for those with skin or other allergies, and for sensitive persons.\n\n⑦ Depending on the substrate, this product may cause deterioration. Confirm in advance the affects of this product on bonding surfaces. If any problem occurs, do not use.\n\n⑧ If the product is transferred to another container, confirm whether or not there is an adverse effect on the curability prior to use. For product transferred to another container do not return to the original container.\n\n⑨ After use, seal cap tightly to prevent product degradation and foreign matter contamination.\n\n⑩ Keep out of reach of infants and children.\n\n⑪ For other hazards, please read this product's Material Safety Data Sheet (MSDS).\n\n## 9. Storage\n\nAvoid direct light, and store in low humidity and at 10 to 25°C.\n\n## 10. Disposal method\n\nTo dispose this product, process by a waste disposal professional with specialized knowledge.\n\nED2004090",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3030\n\n## 11. Precautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes)\n\nThis product was developed for general industrial use. Before using this product, the user must agree with the following conditions.\n\n- The technical data described in this report are based on our company's test method specifications. These values do not represent guaranteed values.\nAlso, there are no guarantees that the uses presented in this report do not infringe on any third party's intellectual property rights.\n\n- Regarding safety validation, the user bears all responsibilities and risks associated for confirming prior to use. Absolutely do not embed this product into body by injection or as residue from medical implant applications.\n\n- Three Bond accepts no responsibility for injuries and damages caused by improper handing of this product. If the user is uncertain about properties of this product and/or how to use it, absolutely do not use.\n\n- For more information about product safety information, please read this product's Material Safety Data Sheet (MSDS). To obtain the MSDS, please contact our sales office or our customer service.\n\n- Three Bond reserves the right to modify this report at its own discretion.\n\nED2004090",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 197874
+  },
+  "document_annotation": null
+}

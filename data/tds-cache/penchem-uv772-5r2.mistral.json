@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "PENCHEM\nBONDING TECHNOLOGIES TOGETHER\nUV 772-5R2\nUV Adhesive\n\n# Description\n\nUV 772-5R2 is a low viscosity UV curable adhesive. The cured material has excellent flexibility, good toughness, low cure shrinkage and good adhesion to a variety of substrates, including metals, glass, ceramics and plastics. It is suitable for instant bonding or coating. It can be cured in seconds when exposed to ultraviolet light. It is suitable for bonding of electronic components.\n\n# Features\n\n- Low viscosity\n- Fast curing speed\n- It has a fluorescent agent for easy inspection under UV light\n\n# Applications\n\n- UV curable acrylate adhesive designed for use in electric, electronic, medical devices and automotive application.\n\n|  Uncured Properties | Typical Value | Unit | Test Method  |\n| --- | --- | --- | --- |\n|  Color | Clear transparent | - | PEN 10  |\n|  Viscosity at 25°C | 500 | cP | ASTM D4287  |\n|  Specific gravity at 25°C | 1.08 | - | PEN 14  |\n|  Cured Properties | Typical Value | Unit | Test Method  |\n|  Hardness | 70 | Shore D | ASTM D2240  |\n|  Cure Depth | <2.5 | mm | PEN 124  |\n|  Glass Transition Temperature, Tg | 73 | °C | ASTM D4065-12  |\n|  Reflective Index @ 589nm | 1.486 |  | ASTM D1218  |\n|  CTE, -1 | 78 | ppm/K | ASTM E831-03  |\n|  CTE, -2 | 171 | ppm/K | ASTM E831-03  |\n|  Lap Shear Strength @ |  |  |   |\n|  ABS to PC | 20 | kgf/cm² | PEN 43  |\n|  ABS to PVC | 8 | kgf/cm² | PEN 43  |\n|  Die Shear Strength @ |  |  |   |\n|  Ceramic chip to PC | 75 | kgf/cm² | PEN 93  |\n|  Ceramic chip to Glass | 68 | kgf/cm² | PEN 93  |\n|  Storage Modulus @ -40°C | 1162 | MPa | ASTM D4065-12  |\n|  Storage Modulus @ 30°C | 818 | MPa | ASTM D4065-12  |\n|  Storage Modulus @ 100°C | 3 | MPa | ASTM D4065-12  |\n|  Linear Shrinkage | 1.99 | % | PEN 56  |\n\n* The values above are tested based on batch to batch basis. These values are not used as a basis for preparing specifications.\n* PEN is referring to Penchem's standard test method; ASTM is for test reference only.\n* N/A is referring to not applicable.\n\n# Guideline of Use\n\n## Direction for use\n\n1) This product may be dispensed with a variety of manual and automatic applicators or other equipment as required. The user is responsible to determine the suitability of the product for all intended uses.\n\nRevision 5: 22-Apr-2022 (LH)\nPenchem Technologies Sdn Bhd (767120-A),\nAddress: 1015, Jalan Perindustrian Bukit Minyak 7, Kawasan Perindustrian Bukit Minyak, Mk.13,\n14100 Penang, Malaysia\nTel: +604-501 5976, 77, 78\nEmail: enquiry@penchem.com Website: www.penchem.com\nTÜV Rheinland CERTIFIED\nManagement System ISO 9001:2015 ISO 14001:2015 JATF 16949:2016 www.tuv.com ID 9105054143\nTechnical Data Sheet | 1",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:enquiry%40penchem.com",
+        "http://www.penchem.com/"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "PENCHEM\nBONDING TECHNOLOGIES TOGETHER\nUV 772-5R2\nUV Adhesive\n\n2) For dispensing process, placed the thawed syringe on the dispensing equipment immediately. Care must be exercised to avoid air and contaminants entrapment into the adhesive.\n3) It is recommended to use the product within work life. The work life is varies by difference environment condition and application.\n4) The substrate should be clean and free from grease, mould release, or other contaminants prior to dispensing the adhesive.\n\n## Recommended Cure\n\nCure condition:\nWavelength 320 to 380nm, 330 mW/cm² for 120s.\n\nUV curing is a function of lamp type, intensity, mass and thickness of adhesive, distance of lamp to adhesive, and type of substrate. One of the substrates must transparent to lamp wavelength applied, to minimize light loss.\n\n## Storage &amp; Shelf Life\n\nThis product has a 6 months shelf life from date of manufacturing, unless otherwise specified, when stored at cool and dark place in the original and unopened container.\n\n## Packaging\n\n- 5 ml syringe\n- 10 ml syringe\n- 30 ml syringe\n- 500ml plastic bottle\n- 1L plastic bottle\n\nOther packaging enquiry, please contact our sales department.\n\n## Environment, Health &amp; Safety\n\nThis product is intended for industrial use only. For more safety information, please refer to Product Safety Data Sheet (SDS).\n\n## General Information\n\nAll right reserved. This information in this document is subjected to change without notice.\n\nRevision 5: 22-Apr-2022 (LH)\nPenchem Technologies Sdn Bhd (767120-A),\nAddress: 1015, Jalan Perindustrian Bukit Minyak 7, Kawasan Perindustrian Bukit Minyak, Mk.13, 14100 Penang, Malaysia\nTel: +604-501 5976, 77, 78\nEmail: enquiry@penchem.com Website: www.penchem.com\nTÜV Rheinland CERTIFIED\nManagement System ISO 9001:2015 ISO 14001:2015 IATF 16049:2016 www.tuv.com ID 9105064144\nTechnical Data Sheet | 2",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:enquiry%40penchem.com",
+        "http://www.penchem.com/"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 194124
+  },
+  "document_annotation": null
+}

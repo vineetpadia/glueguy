@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1156C\n\n# ThreeBond\n\nJanuary 22, 2013\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1156C\n\nSingle-component heat curable acrylic sealant\n\n1.  Product description\n\nThreeBond 1156C is a single-component heat curable acrylic sealant. It cures quickly and after curing, it becomes a rubber-like elastic body excelling in heat resistance and chemical resistance.\n\nHereinafter, ThreeBond is abbreviated as TB.\n\n2.  Features\n\n(1) Heat curing in a short time (30 min at 150°C)\n(2) Excellent heat resistance and chemical resistance\n(3) Suitable for moderate thixotropic potting applications\n\n3.  Applications\n\nSealing and potting of parts requiring heat resistance and chemical resistance\n\n4.  Properties\n\nTable 1 Properties of TB1156C\n\n|  Test item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Black | 3TS-2100-002 | -  |\n|  Viscosity (at 25°C) | Pa·s | 380 | 3TS-2F00-007 | 2.0s⁻¹  |\n|  Specific gravity (25°C) | - | 1.24 | 3TS-2500-002 | -  |\n|  Structural viscosity ratio (25°C) | - | 1.5 | 3TS-4200-005 | 1s⁻¹/10s⁻¹  |\n\n![img-0.jpeg](img-0.jpeg)\nFigure 1. Flow curve of TB1156C (25°C)\n\nTest method: 3TS-4200-005\n\nShear rate: 10⁻² · 10² s⁻¹\n\nGeometry: C 25 4\n\nDelay time: 1 - 121s\n\nMeasuring interval: 1s\n\nIntegration time: 10s\n\nED2013001",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 202,
+          "top_left_y": 644,
+          "bottom_right_x": 514,
+          "bottom_right_y": 813,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1156C\n\n# 5. Characteristics\n\n## 5.1 After cured properties\n\nTable 2 Characteristics of TB1156C after curing\n\n|  Test item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A15 | 3TS-2B00-004 | -  |\n|  Figure 7. Heat resistance (Tensile strength of TB1533 while heated) | MPa | 1.7 | 3TS-4190-001 | -  |\n|  Elongation | % | 300 | 3TS-4190-001 | -  |\n|  Lap shear strength | MPa | 1.8 | 3TS-4100-023 | Al/Al*  |\n\nCuring conditions: 150°C × 90 min (Hardening jig heat capacity: +60 Ω)\nAdhesion thickness: 1 mm Test piece: A1050P\n\n## 5.2 Heat resistance\n\nTable 3 Heat resistance of TB1156C\n\n|  Test item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A25 | 3TS-2B00-004 | -  |\n|  Figure 7. Heat resistance (Tensile strength of TB1533 while heated) | MPa | 2.2 | 3TS-4190-001 | -  |\n|  Elongation | % | 230 | 3TS-4190-001 | -  |\n|  Lap shear strength | MPa | 2.4 | 3TS-4100-023 | Al/Al*  |\n\nCuring conditions: 150°C × 90 min (Hardening jig heat capacity: +60 Ω)\nTest conditions: 150°C for 240 hrs\n* Adhesion thickness: 1 mm Test piece: A1050P\n\n## 5.3 Chemical resistance\n\nTable 4 Chemical resistance of TB1156C\n\n|  Test item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A27 | 3TS-2B00-004 | -  |\n|  Figure 7. Heat resistance (Tensile strength of TB1533 while heated) | MPa | 2.1 | 3TS-4190-001 | -  |\n|  Elongation | % | 215 | 3TS-4190-001 | -  |\n|  Lap shear strength | MPa | 1.8 | 3TS-4100-023 | Al/Al*  |\n\nCuring conditions: 150°C × 90 min (Hardening jig heat capacity: +60 Ω)\nTest conditions: 150°C for 240 hrs Chemical used: AT oil\n* Adhesion thickness: 1 mm Test piece: A1050P\n\nED2013001",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1156C\n\n# 5.4 Electrical characteristics\n\nTable 5 Electrical characteristics of TB1156C\n\n|  Test item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Dielectric constant | - | 6.1 | 3TS-5220-001 | 1MHz  |\n|  Dielectric dissipation factor | - | 0.089 | 3TS-5220-001 | 1MHz  |\n|  Dielectric breakdown strength | kV/mm | 19 | 3TS-5230-002 | -  |\n|  Volume resistivity | Ω·m | 1.0×10^{10} | 3TS-5200-001 | -  |\n\nCuring conditions: 150°C × 90 min (Hardening jig heat capacity: +60 Ω)\n\n# 6. Curability\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Curing ability of TB1156C (150°C)\n\nTest method: 3TS-4200-007\n\nGeometry: φ25(Al) Gap: 1 mm Frequency: 1.0 Hz Distortion: 0.1%\n\n# 7. Usage\n\n(1) Application\n\nUse a cartridge gun or an automatic applicator.\n\n(2) Curing\n\nAfter applying the sealant, heat and cure it using a hot-air curing oven.\n\nDetermine the curing conditions in consideration of the heat capacity of the coated area and the heating method. (Standard curing conditions: 150°C for 30 min)\n\n# 8. Usage precautions\n\n(1) This product is harmful to the health. Do not touch it directly or inhale its vapor.\n\n(2) Persons who have allergies or sensitive skin should avoid using it.\n\n(3) Combustible. Keep away from fire.\n\n(4) Keep out of reach of children.\n\n(5) If in eyes, rinse with clean water for over 15 minutes, and get medical attention.\n\n(6) Do not use the sealant for purposes other than industrial purposes.\n\n(7) To prevent dew condensation, unseal the container after it returns to room temperature.\n\n(8) Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n\nED2013001",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 192,
+          "top_left_y": 323,
+          "bottom_right_x": 521,
+          "bottom_right_y": 504,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1156C\n\n(9) Some materials may deteriorate if this product is used. Ascertain in advance whether or not it affects the parts to be sealed with it. If any problem occurs, do not use it.\n(10) Do not dilute or mix the product with any organic solvent or any other substance.\n(11) Do not pour the product into other containers. Do not return the product left unused to its container. Doing so can deteriorate its quality.\n(12) Note that curing failure may be caused if the sealant is brought into contact or mixed with substances, such as water, sulfur, phosphorus, nitrogen compounds and organic metal salts, which may become catalytic poisons.\n(13) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 9. Storage\n\nTo prevent deterioration and contamination, seal the cap tightly. Store in a dark dry place at -5 to 10°C avoiding direct sunlight.\n\n## 10. Disposal\n\nDo not burn the product. It may generate toxic gas when burnt.\n\nAsk an authorized industrial waste disposal firm to dispose of the product as industrial waste.\n\n## 11. Cautions\n\nFor Industrial Use Only\n\n(Do not use as a household product)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms.\n\n- The technical data given herein are an example of experimental values obtained by our specified test method, and are not guaranteed values. Furthermore, we do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Users are asked to examine whether the product is appropriate to the purpose of use and can be used safely before they use it and bear all responsibilities and hazards involved in its use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties and usage of this product are unknown, do not use.\n- For detailed safety information of the product, see the Material Safety Data Sheet (MSDS). To obtain the MSDS, contact our sales department or customer service office.\n- Information in this document is subject to change at our own discretion.\n\nED2013001",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 164751
+  },
+  "document_annotation": null
+}

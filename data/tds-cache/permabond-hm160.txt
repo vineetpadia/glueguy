@@ -1,0 +1,160 @@
+                                                                                                                                               PERMABOND® HM160
+                                                                                                                                        Anaerobic Retaining Compound
+                                                                                                                                                                                                Technical Datasheet
+
+Features & Benefits                                                                                     Typical Curing Properties
+      Reduces cost by allowing the use of lighter press fits                                           Maximum gap fill                                                                         0.2 mm 0.008 in
+      Speeds production by utilizing easier to assemble tolerances                                     Maximum thread size                                                                      M30 ¾"
+      Prolongs bearing life by reducing stress caused by press fits                                    Time taken to reach handling
+      Improves alignment by filling space between bearing rings                                                                                                                                 15 minutes*
+                                                                                                       strength (M10 steel) @23°C
+      and housings
+      Keeps machinery on line by dressing worn parts                                                   Full strength (M10 steel) @23°C                                                          24 hours
+      Strengthens the joint by augmenting the press fit used to
+      assure concentricity of the shafts and bearings
+      Prevents corrosion between mated parts by excluding air
+      and moisture from the joint
+                                                                                                           Strength Development
+      Prevents loosening caused by vibration and thermal                                                                               100
+
+
+
+
+                                                                                                             % Full Strength (steel)
+      expansion
+                                                                                                                                       80
+                                                                                                                                       60
+Description
+                                                                                                                                       40
+Permabond® HM160 is a medium viscosity liquid adhesive
+                                                                                                                                       20
+that cures when confined between metal parts to form a
+tough, hard plastic. In the uncured, liquid state, the                                                                                  0
+
+
+
+
+                                                                                                                                                                                                               24h
+                                                                                                                                                                                                                     72h
+                                                                                                                                                                                                                           7 days
+                                                                                                                                             1 min
+                                                                                                                                                     5 min
+                                                                                                                                                             7 min
+                                                                                                                                                                     10 min
+                                                                                                                                                                              15 min
+                                                                                                                                                                                       30 min
+                                                                                                                                                                                                1h
+                                                                                                                                                                                                     3h
+                                                                                                                                                                                                          6h
+adhesive wets the metal surfaces, keying into all surface
+irregularities and fills the space between the mated parts.
+
+The anaerobic curing mechanism delays the cure to allow                                                                                              Brass                                      Mild Steel
+for proper assembly and alignment. Once cured, the                                                                                                   Zinc                                       Stainless steel
+anaerobic adhesive fills the space between the parts
+preventing loosening from vibration or thermal expansion.
+When cured, the HM160 seals the joint against attack by                                                 *Cure times are typical at 23°C. Copper and its alloys will follow the
+                                                                                                        faster cure while oxidised or passivated surfaces like stainless steel will
+harsh environments.                                                                                     tend towards the slower curve. Lower temperatures or large gaps will
+                                                                                                        tend to extend the cure time. To reduce the cure time the use of
+MIL-R-46082B        Type II                                                                             Permabond A905, ASC10, or heat can be considered.
+Each lot of HM160 is tested to the lot requirements of these
+specifications.
+ASTM D5363          AN 0412 Group 04 Class 1 Grade 2
+Each lot of HM160 is tested to the general requirements defined
+in paragraphs 5.1.1 and 5.1.2 and the detail requirements                                               Typical Performance of Cured Adhesive
+defined in section 5.2                                                                                 Torque strength (M10                                          Break 30 N·m 270 in.lb
+                                                                                                       steel ISO10964)                                               Prevail 50 N·m 450 in.lb
+                                                                                                       Shear strength (steel
+Physical Properties of Uncured Adhesive                                                                collar & pin ISO10123)
+                                                                                                                                                                     14 MPa 2000 psi
+
+  Chemical composition                     Methacrylates                                               Coefficient of thermal
+                                                                                                                                                                     90 x 10-6 mm/mm/°C
+                                                                                                       expansion
+  Appearance                               Green                                                       Dielectric strength                                           11 kV/mm
+  Viscosity @ 25°C                         600 mPa.s (cP)                                              Thermal conductivity                                          0.2 W/(m.K)
+  Specific gravity                         1.1
+
+  UV fluorescence                          Yes
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond HM160                                                                   Global TDS Revision        5                               18 October 2016                                                   Page 1/2
+       Hot Strength                                                                                     Surface Preparation
+                      100                                                                               Though the anaerobic adhesives will tolerate a slight
+                                                                                                        degree of surface contamination, best results are
+                                                                                                        obtained on clean, dry and grease free surfaces. The use
+% Strength Retained
+
+
+
+
+                      80
+                                                                                                        of a suitable solvent-based cleaner (such as acetone or
+                      60                                                                                isopropanol) is recommended.
+                                                                                                        In general, roughened surfaces (~25μm) give higher bond
+                      40                                                                                strengths than polished or ground surfaces.
+                                                                                                        To reduce the curing time, especially on inactive surfaces
+                      20                                                                                (such as zinc, aluminium and stainless steel), the use of
+                                                                                                        Permabond A905 or ASC10 can be considered.
+                       0
+                            0         50     100       150         200            250                   Directions for Use
+                                           Temperature (°C)                                                      1.   On slip fitted assemblies, apply adhesive on the
+                                                                                                                      leading edge of the pin and on the inside of the
+                                High Temperature Grades              HM160                                            collar.
+                                                                                                                 2.   Assemble with twisting action.
+ “Hot strength” Breakaway strength on M10 Zinc plated bolts according                                            3.   On press fitting assemblies, apply the adhesive
+to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes                                              on the pin and collar. Assemble using a press.
+at testing temperature.
+                                                                                                                 4.   On shrink fitted assemblies, apply the adhesive to
+HM160 can withstand higher temperatures for brief
+                                                                                                                      the pin, heat the collar to create enough
+periods (such as for paint baking and wave soldering
+                                                                                                                      clearance and assemble.
+processes) providing the joint is not unduly stressed. The
+                                                                                                                 5.   Allow the parts to fixture before disturbing them.
+minimum temperature the cured adhesive can be exposed
+to is -55°C (-65°F) depending on the materials being
+bonded.                                                                                                 Video Link
+                                                                                                        Retaining compound directions for use:
+                                                                                                        https://youtu.be/MUODE5ZfrZ8
+
+Chemical Resistance
+          340 Hour immersion                Temperature, °C       % Strength
+                                            (°F)                  retained                              Storage & Handling
+          Water                             75 (168)              100
+          Butyl alcohol                     75 (168)              100                                  Storage Temperature                              5 to 25°C (41 to 77°F)
+          Toluene                           75 (168)              99
+          Motor oil                         75 (168)              99                                   Users are reminded that all materials, whether innocuous or not, should
+          Hydrocarbon test                  75 (168)              100                                  be handled in accordance with the principles of good industrial hygiene.
+                                                                                                       Full information can be obtained from the Safety Data Sheet.
+          fluid
+          JP4-Jet fuel                      75 (168)              93
+          JP5-Jet fuel                      75 (168)              100                                   This Technical Datasheet (TDS) offers guideline
+          Ethylene glycol                   75 (168)              99                                    information and does not constitute a specification.
+                                                                                                                                                            www.permabond.com
+This product is not recommended for use in contact with oxygen,                                                                                               • UK: 0800 975 9800
+oxygen rich systems and other strong oxidizing materials. This product                                                                   • General Enquiries: +44 (0)1962 711661
+may adversely affect some thermoplastics and users must check                                                                                                  • US: 732-868-1372
+compatibility of the product with such substrates before using.                                                                                          • Asia: + 86 21 5773 4913
+                                                                                                                                                   info.europe@permabond.com
+                                                                                                                                                    info.americas@permabond.com
+                                                                                                                                                         info.asia@permabond.com
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond HM160                                                                   Global TDS Revision        5             18 October 2016                                       Page 2/2
+

@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB1303 – ANAEROBIC SEALANT\n\n## Information\n\nTB1303 is a quick setting anaerobic at room temperatures. Its performance features include excellent sealing, chemical and oil resistance, and anti-corrosiveness.\n\n## Application\n\nGeneral use for anaerobic adhesive designed for bonding and sealing threaded fasteners and fittings or for retaining applications. Since this is an anaerobic, it will not cure while exposed to air. When a tight gap is created between metallic surfaces, an anaerobic adhesive is practically sealed off from contact with the air, and polymerization (curing) occurs very rapidly.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | 3-TS | Units | Value  |\n| --- | --- | --- | --- |\n|  Appearance | 201-01 | - | Green  |\n|  Viscosity | 210-01 | mPa·s (cP) | 150 (150)  |\n|  Specific gravity | 213-02 | - | 1.11  |\n|  Service Temperature |  | °C | -40 ~120  |\n\n### 2. Cured Material Adhesive Properties\n\n|  Property |   | 3-TS | Units | Value  |\n| --- | --- | --- | --- | --- |\n|  Recommended Clearance |   | - | mm | 0.005 – 0.1  |\n|  Curing speed at room temperature | Workable | 220-02 | Hours | 2  |\n|   |  Final |   |   | 24  |\n|  Curing times for different temperatures | 80 °C | 220-02 | Minutes | 30  |\n|   |  100 °C |   |   | 20  |\n|   |  120 °C |   |   | 10  |\n\nRev: 0.1\n\nIssued Date: 8/29/02\n\nDocument Control Number: 3-TB-20-0791",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "2. Cured Material Adhesive Properties (Cont'd.)\n\n|  Property |   |   | 3-TS | Units | Value  |\n| --- | --- | --- | --- | --- | --- |\n|  Retaining Torque M10 | Fe | Break Loose | 340-01 | N·m (kgf·cm) | 33.0 (340)  |\n|   |   |  Prevailing | 341-01 |   | 35.0 (360)  |\n|   |  SUS | Break Loose | 340-01 |   | 18.0 (190)  |\n|   |  Al |   | 340-01 |   | 22.0 (230)  |\n|   |  Brass |   | 340-01 |   | 15.0 (150)  |\n|   |  Zn-Cr |   | 340-01 |   | 15.0 (150)  |\n|  Shear Strength | Compression | 301-21 | MPa (kgf/cm²) | 35.0 (360)  |   |\n|   |   |   |   |  Twist | 21.0 (220)  |\n\nThese are typical properties and not product specifications.\n\nRev: 0.1\nIssued Date: 8/29/02\nDocument Control Number: 3-TB-20-0791",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 31452
+  },
+  "document_annotation": null
+}

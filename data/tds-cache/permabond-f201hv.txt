@@ -1,0 +1,167 @@
+                                                                                                                                                              PERMABOND® F201HV
+                                                                                                                                                             Anaerobic Threadsealant
+                                                                                                                                                                                                Technical Datasheet
+
+Features & Benefits                                                                                     Typical Curing Properties
+             Toughened                                                                                    Maximum gap fill                                                                      0.3 mm 0.012 in
+             Very high strength                                                                           Maximum thread size                                                                   M50 1 ½”
+             Ideal when bonding or sealing dissimilar                                                     Time taken to reach handling
+                                                                                                                                                                                                15 minutes*
+                                                                                                          strength (M10 steel) @23°C
+             materials
+                                                                                                          Time taken to reach working
+             Improved fatigue life                                                                                                                                                              1 hour
+                                                                                                          strength (M10 steel) @23°C
+             WRAS listed for contact with wholesome
+                                                                                                          Full strength (M10 steel) @23°C                                                       24 hours
+             (potable) water
+             KIWA approved for hydrogen (KE214) and
+             Gastec QA (EN751-1 compliant)                                                                 Strength Development
+                                                                                                                                       100
+Description
+
+
+                                                                                                             % Full Strength (steel)
+                                                                                                                                       80
+Permabond® F201HV is an anaerobic adhesive which
+                                                                                                                                       60
+has been developed to give excellent resistance to
+peel and impact forces. It is capable of resisting the                                                                                 40
+thermal stresses that may be generated when                                                                                            20
+bonding dissimilar metals where differential thermal                                                                                    0
+expansion and contraction could be an issue. F201HV
+
+                                                                                                                                                             7 min
+
+
+
+
+                                                                                                                                                                                                                24h
+                                                                                                                                                                                                                      72h
+                                                                                                                                                                                                                            7 days
+                                                                                                                                             1 min
+                                                                                                                                                     5 min
+
+
+                                                                                                                                                                     10 min
+                                                                                                                                                                              15 min
+                                                                                                                                                                                       30 min
+                                                                                                                                                                                                1h
+                                                                                                                                                                                                     3h
+                                                                                                                                                                                                           6h
+is certified for use with hydrogen, making it ideal for
+sealing hydrogen pipelines, valves, couplings and
+other coaxial and threaded fixtures.                                                                                                                 Brass                                      Mild Steel
+                                                                                                                                                     Zinc                                       Stainless steel
+Physical Properties of Uncured Adhesive
+                                                                                                        *Handling time at 23°C / 73°F. Copper and its alloys will make the
+  Chemical composition                     Methacrylate ester                                           adhesive cure more quickly, while oxidised or passivated surfaces (like
+                                                                                                        stainless steel) will reduce cure speed. To reduce curing time, use
+  Appearance                               Brown                                                        Permabond activator A905 or ASC10. Alternatively, increasing the curing
+                                                                                                        temperature will reduce curing time.
+                                           2 rpm: 35,000mPa.s (cP)                                      *Cure times are typical at 23°C. Copper and its alloys will follow the
+  Viscosity @ 25°C
+                                           20 rpm: 5,000mPa.s (cP)                                      faster cure while oxidised or passivated surfaces like stainless steel will
+                                                                                                        tend towards the slower curve. Lower temperatures or large gaps will
+  Specific Gravity                         1.0                                                          tend to extend the cure time. To reduce the cure time the use of
+                                                                                                        Permabond A905, ASC10, or heat can be considered.
+  UV fluorescence                          No
+
+                                                                                                        Typical Performance of Cured Adhesive
+                                                                                                       Torque strength (M10                                          Break 28 N·m 250 in.lb
+                                                                                                       steel ISO10964)                                               Prevail 30 N·m 260 in.lb
+                                                                                                       Shear strength (steel
+                                                                                                                                                                     30 MPa 4400 psi
+                                                                                                       collar & pin ISO10123)
+                                                                                                       Coefficient of thermal
+                                                                                                                                                                     90 x 10-6 mm/mm/°C
+                                                                                                       expansion
+                                                                                                       Dielectric strength                                           11 kV/mm
+
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond F201HV                                                     Global TDS Revision 7        21 March 2025                                                                                                 Page 1/2
+                                             FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+ Hot Strength
+Thermal conductivity                                0.19 W/(m.K)                                        Surface Preparation
+                              100                                                                       Though the anaerobic adhesives will tolerate a slight degree of
+                                                                                                        surface contamination, best results are obtained on clean, dry
+% Strength Retained
+
+
+
+
+                              80                                                                        and grease free surfaces. The use of a suitable solvent-based
+                                                                                                        cleaner (such as acetone or isopropanol) is recommended.
+                              60                                                                        In general, roughened surfaces (~25μm) give higher bond
+                              40                                                                        strengths than polished or ground surfaces.
+                                                                                                        To reduce the curing time, especially on inactive surfaces (such
+                              20                                                                        as zinc, aluminium and stainless steel), the use of Permabond
+                               0                                                                        A905 or ASC10 can be considered.
+                                    0          50        100          150          200        250
+                                                        Temperature (°C)                                Directions for Use
+                                                                                                        1)     Using a generous quantity of adhesive, apply a continuous bead
+                                                                                                               around the circumference of the male thread (normally 2-3
+                                           High temperature grades                                             threads back from the leading edge) to maximise contact.
+                                           High-strength non-toughened grades                           2)     For taper/parallel threads ensure adhesive is positioned where
+                                                                                                               the threads will engage fully. Gaps and cure times may be
+                                           F201HV                                                              greater than expected with this joint configuration.
+                                                                                                        3)     Ensure sufficient adhesive is applied to give a complete seal.
+“Hot strength” Breakaway strength on M10 Zinc plated bolts according                                    4)     Tighten the components with suitable tools. Do not adjust.
+to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes                                       Allow the product to fully cure before using the part (Lower
+at testing temperature.                                                                                        temperatures or large gaps will extend the cure time or may
+                                                                                                               result in an incomplete cure).
+F201HV can withstand higher temperatures for brief periods
+(such as for paint baking and wave soldering processes)                                                 NB: Adhesive outside of a closed joint (i.e., excess material) will
+providing the joint is not unduly stressed. The minimum                                                 remain uncured due to air contact. Adhesive inside the joint will cure
+temperature the cured adhesive can be exposed to is -55°C (-                                            solid. Ensure the adhesive viscosity is suitable for your thread size.
+65°F) depending on the materials being bonded.
+                                                                                                        Time to cure for use with wholesome (potable) water:
+                                                                                                            •    Brass, Copper and Cast Iron: 24 hrs @21.1°C
+                                                                            Steel M8 nuts & bolts           •    Stainless Steel and Aluminium: 7 days @21.1°C
+       Chemical Resistance                                                  7 days immersion
+
+                              120                                                                       Video Link
+% Torque Strength Retention
+
+
+
+
+                              100                                                                       Threadsealant directions for use:
+                                                                                                        https://youtu.be/6Db9pLS7WCA
+                              80
+
+                              60                                                                        Storage & Handling
+                              40                                                                       Storage Temperature                              5 to 25°C (41 to 77°F)
+
+                              20                                                                       Users are reminded that all materials, whether innocuous or not, should
+                                                                                                       be handled in accordance with the principles of good industrial hygiene.
+                               0                                                                       Full information can be obtained from the Safety Data Sheet.
+                                        Boiling Water       Boiling           Boiling                   This Technical Datasheet (TDS) offers guideline information and
+                                                           Toluene           Antifreeze                 does not constitute a specification.
+                                                                                                                                                   www.permabond.com
+                                                                                                                                                     • UK: 0800 975 9800
+This product is not recommended for use in contact with oxygen,                                                                • General Enquiries: +44 (0)1962 711661
+oxygen rich systems and other strong oxidizing materials. This product                                                                                • US: 732-868-1372
+may adversely affect some thermoplastics and users must check                                                                                   • Asia: + 86 21 5773 4913
+compatibility of the product with such substrates before using.                                                                           info.europe@permabond.com
+                                                                                                                                           info.americas@permabond.com
+                                                                                                                                                info.asia@permabond.com
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond F201HV                                                                    Global TDS Revision 7        21 March 2025                                                   Page 2/2
+                                                            FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

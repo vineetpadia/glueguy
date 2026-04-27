@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1281 – SILICONE SEALANT\n\n## Information\n\nTB1281 is a high performance, room temperature vulcanized (RTV) silicone commonly used as a formed in place gasket (FIPG). TB1281 is characterized by good elasticity, temperature resistance and chemical resistance after curing.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Appearance |   | - | Red-Brown Paste  |\n|  Viscosity | SOD | Pa·s (P) | 100 (1000)  |\n|  Sag |   | - | Non-Sag  |\n|  Specific gravity |   | - | 1.39  |\n|  Heating Residue |   | % | 99  |\n|  Main Component |   | - | Silicone  |\n|  Reaction Mechanism |   | - | De-oxime  |\n|  Tack Free Time |   | Minute | 10  |\n|  Curing Speed |   | mm / day | 2.8  |\n\nRev: 0.1\nIssued Date: 8/29/02\nDocument Control Number: 3-TB-20-0449",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "2. Cured Material\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Hardness |   | JIS A | 60  |\n|  Tensile Strength |   | MPa (kgf/cm²) | 3.1 (31)  |\n|  Elongation |   | % | 190  |\n|  Lap Shear | Steel/Steel | MPa (kgf/cm²) | 1.5 (15)  |\n|   |  Aluminum/Aluminum |   | 1.3 (13)  |\n|  Pressure Resistance | RT | MPa (kgf/cm²) | Over 10 (100)  |\n|   |  80°C  |   |   |\n|   |  150°C  |   |   |\n|   |  -40°C × 2 hr & 100°C × 3 hr  |   |   |\n|  Blow Out Test (Clearance) | 0.10 mm | MPa (kgf/cm²) | 0.39(3.9)  |\n|   |  0.20 mm |   | 0.17(1.7)  |\n|   |  0.50 mm |   | 0.10(1.0)  |\n|  Service Temperature |   | °C | -60 ~ 200  |\n\nThese are typical results and are not specification.\n\nRev: 0.1\nIssued Date: 8/29/02\nDocument Control Number: 3-TB-20-0449",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 30437
+  },
+  "document_annotation": null
+}

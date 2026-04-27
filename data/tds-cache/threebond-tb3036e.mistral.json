@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3036E\n\n# ThreeBond\n\nJune 5, 2007\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3036E\n\nUV-curing resin\n\n1.  Outline\n\nThreeBond 3036E is an acrylic resin-based one-part, non-solvent UV-curing resin that can cure quickly under irradiation with UV light having a wavelength of 200 to 400 nm.\n\nThis product is designed to secure optical pickup bases, and, after curing, it has flexibility to improve the impact resistance.\n\nSince the resin has low cure shrinkage, displacement during curing can be prevented.\n\nAlso, it shows a sufficient adhesion not only to metallic substrates, such as zinc die-cast parts widely used for pickup frames, but also to plastic substrates.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2.  Features\n\n(1) Curing in seconds to several tens of seconds under irradiation with UV light\n(2) The cured resin has flexibility and high glass transition point.\n(3) High adhesion to zinc die-cast and PPS parts\n(4) Low cure shrinkage\n\n3.  Uses\n\n(1) Securing of optical pickup bases\n(2) Bonding of metallic and plastic parts\n\n4.  Properties\n\nTable 1 Properties of TB3036E\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Light orange | 3TS-201-01 |   |\n|  Viscosity | Pa·s | 10.5 | 3TS-210-05 | 3°, R14 cone, 10 rpm  |\n|  Specific gravity | - | 1.54 | 3TS-213-02 |   |\n\nED2007036",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3036E\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured resin\n\nTable 2 Characteristics of TB3036E after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | D58 | 3TS-215-01 |   |\n|  Cure shrinkage | % | 3.9 | 3TS-228-01 |   |\n|  Water absorption | % | 2.5 | 3TS-233-03 | Boiling for 2 hrs  |\n|  Thick film curability | mm | 2.9 | 3TS-222-01 |   |\n|  Tensile shear bond strength | MPa | 7.8 | 3TS-301-13 | ZnDC/glass  |\n|   |   |  5.6 |   | PPS/glass  |\n\nCuring conditions:  $30\\mathrm{kJ} / \\mathrm{m}^2\\times 2$  cycles, 1 cycle of irradiation only for thick film curability test\nDevice used: Conveyor irradiator UVL-4001-N made by Ushio Inc. (high-pressure mercury vapor lamp)\n\n## 5.2 Thermophysical properties of cured resin\n\n![img-0.jpeg](img-0.jpeg)\nFig.1 DMA properties\n\nTable 3 DMA properties of TB3036E\n\n|  Item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  E' | Pa | 1.0E+09 | 3TS-501-04 | 25°C  |\n|  tanδ | °C | 90.0 |   | Peak value  |\n\nED2007036",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 131,
+          "top_left_y": 421,
+          "bottom_right_x": 602,
+          "bottom_right_y": 702,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3036E\n\n![img-1.jpeg](img-1.jpeg)\nFig.2 TMA properties\n\nTable 4 TMA properties of TB3036E\n\n|  Item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  α1 | ×10-6/°C | 74 | 3TS-501-05 | -50→0°C  |\n|  α2 |   | 147 |   | 100→150°C  |\n\n# 6. Usage\n\n(1) The standard curing condition is  $30\\mathrm{kJ} / \\mathrm{m}^2$\n(2) If there are contaminants on the areas to be bonded, remove the contaminants before applying the resin.\n(3) After applying the resin, immediately expose the resin to UV light to cure.\n\n# 7. Instructions for use\n\n(1) The filler may have settled. Stir the resin sufficiently prior to use.\n(2) The curing speed and the physical characteristics of the cured resin vary depending on the curing conditions. Sufficiently confirm the conditions prior to use.\n(3) The resin in areas not exposed to UV light or in shadow does not cure in principle. Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(4) A little gas can occur during application and curing with UV light. Forcibly ventilate the working area and the UV irradiation area. Wear appropriate protective clothing, such as a mask, gloves (impervious) and goggles.\n(5) Do not inhale or drink it. It is harmful to the health. If it is swallowed, immediately get medical attention.\n\nED2007036",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 133,
+          "top_left_y": 101,
+          "bottom_right_x": 596,
+          "bottom_right_y": 400,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3036E\n\n(6) It is harmful to the health. Do not touch it directly or inhale its vapor. Adhesion of the resin to the skin may cause an inflammation. If it adheres to the skin, immediately wipe it away with a cloth or paper, and wash the skin with soap and water. If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention.\n\n(7) If any abnormality is found in the body, stop using the product, and get medical attention. People who have allergies or susceptible skin should avoid handling it.\n\n(8) Some materials may deteriorate if TB3036E is used. Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n\n(9) Do not pour TB3036E into other containers. Do not return the resin left unused to its container.\n\n(10) After using the resin, store it with the cap tightly fitted to prevent deterioration and entry of foreign matter.\n\n(11) Use and store the product out of reach of children.\n\n(12) For hazard and toxicity information not mentioned in this document, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nStore the product in a dry place at -5 to 25°C away from light.\n\n## 9. Disposal\n\nAsk specialized waste disposal services to dispose of the product.\n\nDo not burn the product. It may generate toxic gas when burnt.\n\n## 10. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED2007036",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 183124
+  },
+  "document_annotation": null
+}

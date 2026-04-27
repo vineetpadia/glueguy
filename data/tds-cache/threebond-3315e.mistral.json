@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3315E\n\n# ThreeBond\n\nNov. 19, 1998\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\nThreeBond 3315E\n\nOne-part carbon-based electroconductive adhesive\n\n1. Product outline\n\nThreeBond 3315E is a one-part solvent volatilization type carbon-based electroconductive adhesive. The solvent in the adhesive applied to a substrate volatilizes, and the adhesive forms an electroconductive film excelling in flexibility.\n\nThe formed dry film develops adhesion through heat bonding. It can be used as an electroconductive hot-melt adhesive.\n\n2. Features\n\n(1) The one-part solvent volatilization type adhesive does not require weighing and mixing operations necessary for two-part adhesives and, therefore, excels in workability and mass productivity.\n\n(2) Since it contains synthetic rubber as a main component, it forms a flexible electroconductive film.\n\n(3) It is possible to bond parts by hot-melt method after the solvent volatilizes and a dry film is formed.\n\n3. Uses\n\n(1) Electroconductive bonding of paper feed anti-static rollers and core bars of copying machines, etc.\n\n(2) Grounding of electronic components\n\n4. Properties\n\n|  Item | Unit | Properties | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Main component | - | Styrene-based elastomer |  |   |\n|  Appearance | - | Black liquid | 3TS-201-01 |   |\n|  Viscosity | mPa·s\n{ cP } | 600\n{600} | 3TS-210-01 | 25°C  |\n|  Specific gravity | - | 0.87 | 3TS-213-02 | 25°C  |\n|  Heating residue | % | 20 | 3TS-217-01 | 150°C for 30 min  |\n\nED20090703",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3315E\n\n|  Item | Unit | Result (cured adhesive) | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m\n{Ω·cm} | 4.3 × 10^{-2}\n{4.3 × 10^{0}} | 3TS-401-03 | Drying at 80°C for 30 min  |\n|  Shear bond strength | MPa\n{kgf/cm^{2}} | 0.92\n{ 9.3 } | 3TS-301-11 | Drying at 80°C for 30 min (Note 1)  |\n|  Item | Unit | ThreeBond 3315E | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Peel strength | N/m\n{gf/cm width } | .1180\n{ 1200 } | 3TS-304-11 | (Note 2)  |\n\n(Note 1) Shear bond strength measuring conditions:\nSubstrates Fe / Fe(25×100×1.6mm)\nDrying conditions: 80°C × 30 min\n\n(Note 2) Peel strength measuring conditions:\nSubstrates Fe(25×100×1.6mm) / EPDM(25×100×2.0mm)\nDrying conditions: 80°C × 30 min\nUse of heat-bonding equipment 200°C×10 sec ×0.49MPa\nFilm thickness: 20 μm\n\n# 6. Instructions for use\n\n(1) Use and store the adhesive out of reach of children.\n(2) It is a combustible substance. Do not use it near fire.\n(3) It is harmful to the health. Do not touch it directly or inhale its vapor.\n(4) When using it, wear appropriate protective clothing, such as a mask, gloves (impervious) and goggles. Use it in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n(5) If it gets in the eyes, wash them with clean water for 15 minutes or more, and get medical attention.\n(6) If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n(7) If any abnormality is found in the body, stop using it, and get medical attention.\n(8) People who have allergies or sensitive skin should avoid using it.\n(9) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(10) Do not dilute or mix the adhesive with organic solvents or any other substance.\n(11) Do not pour the product into other containers. Do not return the product left unused to its container. Doing so can deteriorate its quality.\n(12) Some material may deteriorate if this product is used.\n\nED20090703",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3315E\n\n(13) Its components may separate during storage. Be sure to stir the adhesive prior to use. Use it after it returns to a uniform state.\n(14) Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n(15) After using it, store it with the cap tightly fitted to prevent deterioration and entry of foreign matter.\n(16) Store it in a dark dry place away from direct sunlight.\n(17) To dilute it with a solvent, use toluene or xylene. Do not dilute or mix the adhesive with any other organic solvent or substance.\n(18) It is an adhesive for industrial use. Do not use it for household products.\n* For handling, see the material safety data sheet (MSDS).\n\n7. Storage\n- Store the product in a dark dry place avoiding direct sunlight. Use it up within the shelf life of six months.\n\n8. Disposal\n- Ask a waste disposer to dispose of the product.\n\n9. Cautions\n\nFor industrial use only\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product.\nIf the properties and use of the relevant product are unknown, never use it.\n- For detailed information on product safety, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact our sales department or customer service office.\n- This document is subject to change at our discretion.\n\nED20090703",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 139808
+  },
+  "document_annotation": null
+}

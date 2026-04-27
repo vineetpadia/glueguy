@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M\n\nScotch-Weld™\n\nPlastic and Rubber Instant Adhesives\n\nPR40 • PR100 • PR600 • PR1500 • PR Gel\n\nTechnical Data\n\nFebruary, 2016\n\nProduct Description\n\n3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesives are designed to give exceptional performance on difficult-to-bond plastic and rubber substrates. These adhesives may be bonded to like substrates or in combination with metal or composite substrates. Superior performance is achieved on materials such as heavily plasticized PVC, EPDM, ABS, and Nylon.\n\nSpecific Features\n\n- 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive PR40 is a low viscosity cyanoacrylate adhesive which bonds close-fitting plastic or rubber parts quickly and with high strength.\n- 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive PR100 is a general purpose, low viscosity bonder for rubber or plastic surfaces.\n- 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive PR600 is a medium viscosity cyanoacrylate with some gap-filling capability. It will bond many common substrates including plastics and rubbers.\n- 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive PR1500 is a high viscosity cyanoacrylate that can be used on plastic or rubber parts that do not fit well together. It has excellent gap-filling characteristics and will not wick into unwanted areas.\n- 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive PR Gel is a fast curing, very high viscosity, gap-filling cyanoacrylate. Its gel formulation is suitable for bonding poorly mating components and for porous substrates and can be used on vertical surfaces as it will not drip or slump.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3M™ Scotch-Weld™\n\nPlastic and Rubber Instant Adhesives\n\nPR40 • PR100 • PR600 • PR1500 • PR Gel\n\n## Typical Uncured Physical Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|   | 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesives  |   |   |   |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  PR40 | PR100 | PR600 | PR1500 | PR Gel  |\n|  Colour | Clear | Clear | Clear | Clear | Clear  |\n|  Base | Ethyl Hybrid | Ethyl Hybrid | Ethyl Hybrid | Ethyl Hybrid | Ethyl Hybrid  |\n|  Appearance | Liquid | Liquid | Liquid | Liquid | Liquid  |\n|  Specific Gravity (g/ml) | 1.06 | 1.06 | 1.07 | 1.08 | 1.10  |\n|  Viscosity (cps) | 24 - 40¹ | 71 – 95¹ | 500 – 700² | 1,200 - 1,650³ | 100,000 – 150,000⁴  |\n|  Time to Handling Strength (sec)* | 11 - 13 | 6 - 18 | 6 - 36 | 33 - 42 | 8 - 20  |\n|  Full Cure time (hr) | 24 | 24 | 24 | 24 | 24  |\n\n¹ Cone-Plate viscosity, CP75 at 3000/s shear rate; ² Cone-Plate viscosity, CP75 at 100/s shear rate, ³ Cone-Plate viscosity, CP50 at 100/s shear rate, ⁴ Brookfield viscosity, Spindle TC @ 2.5 rpm; * On EPDM. Time to handling is substrate dependent.\n\n## Typical Cured Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|   | 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesives  |   |   |   |   |\n| --- | --- | --- | --- | --- | --- |\n|   | PR40 | PR100 | PR600 | PR1500 | PR Gel  |\n|  Temperature Range (°C) | -45 to 82 | -45 to 82 | -45 to 82 | -45 to 82 | -45 to 82  |\n|  Gap Fill (in) | 0.004 | 0.006 | 0.006 | 0.008 | 0.020  |\n|   | Overlap Shear Strength¹ (psi)  |   |   |   |   |\n| --- | --- | --- | --- | --- | --- |\n|   | PR40 | PR100 | PR600 | PR1500 | PR Gel  |\n|  Steel² | 2124 | 1563 | 2424 | 2416 | 2510  |\n|  Stainless Steel² | - | 2698 | 2796 | 2951 | 3122  |\n|  Aluminum² | - | 2223 | 2326 | 2387 | 2404  |\n|  ABS | 892³ | 961³ | 1220³ | 1438³ | 1066³  |\n|  Polycarbonate | 670³ | 766³ | 762³ | 724³ | 916³  |\n|  PVC | - | 1760³ | 1757³ | 1017³ | 1764³  |\n|  Nylon | - | 877 | 897 | 607 | 956  |\n|  Polypropylene⁴ | - | 1095³ | 1048³ | 598³ | 1109³  |\n|  Silicone Elastomer⁵ | - | 105³ | 105³ | 105³ | 100³  |\n\n¹ ASTM D-1002 ² Grit blasted ³ Substrate failure ⁴ Primed with AC77 ⁵ Primed with AC79",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "3M™ Scotch-Weld™\nPlastic and Rubber Instant Adhesives\nPR40 • PR100 • PR600 • PR1500 • PR Gel\n\nHot Strength\n\n|   | Percent of Initial Strength  |   |   |   |   |\n| --- | --- | --- | --- | --- | --- |\n|  Temp(°C) | PR40 | PR100 | PR600 | PR1500 | PR Gel  |\n|  22 | 100 | 100 | 100 | 100 | 100  |\n|  75 | 81 | 89 | 83 | 76 | 84  |\n|  100 | 80 | 54 | 52 | 64 | 41  |\n|  125 | 53 | 16 | 14 | 15 | 13  |\n\n## Handling Information\n\n### Surface Preparation\n\nFor optimum strength structural bonds, paint, oxide films, oils, dust, mold release agents, and all other surface contaminants must be completely removed. However, the amount of surface preparation depends on the required bond strength and the environmental aging resistance desired by the user. Typical quick surface preparation would include wiping with a clean solvent (such as isopropyl alcohol*), abrading the surface with a clean fine abrasive, and then wiping again with a clean solvent to remove loose particles.\n\n### Directions for Use\n\n1. Ensure that parts are clean, dry, and free from oil and grease.\n2. An instant adhesive activator may be required if there are bonding gaps or porous substrate surfaces, if substrates are low surface energy plastics (e.g., polyethylene, polypropylene) or if substrates have acidic surfaces (e.g., paper, leather).\n3. Bond speed is typically very fast so ensure that parts are properly aligned before dispensing.\n4. Product is normally hand applied from the bottle. Apply sparingly to one surface and press parts firmly together until handling strength is achieved. As a general rule, as little cyanoacrylate as possible should be used. Over application will result in slower cure speed and lower bond strength.\n\n### Cured Bond Characteristics\n\n1. Full bond strength will typically be achieved within a 24 hour cure time.\n2. Low humidity or low temperature conditions will slow down the cure rate.\n3. After curing, 3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesive bonds are suitable for use up to about 82°C (180°F).\n4. Cyanoacrylate bond resistance to most oils and solvents is excellent. Long term humidity, moisture, or water immersion may affect the strength of a cured cyanoacrylate bond depending on the substrates and the bond gap. Testing is recommended to evaluate the effect.\n\n*Note: When using solvents, extinguish all ignition sources, including pilot lights, and follow the manufacturer's precautions and directions for use.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesives PR40 • PR100 • PR600 • PR1500 • PR Gel\n\nStorage\nFor short term storage (&lt;30 days), keep adhesive in a cool (16°C to 27°C [60°F to 80°F]), dry place out of direct sunlight. Keep containers tightly covered and free of moisture. Refrigeration (4°C [40°F]) gives optimum long term storage stability.\n\nShelf Life\n3M™ Scotch-Weld™ Plastic and Rubber Instant Adhesives can be expected to have a shelf life of 12 months from the date of shipment from 3M when stored under refrigerated conditions.\n\nPrecautionary Information\nRefer to Product Label and Material Safety Data Sheet for health and safety information before using this product. For additional health and safety information, call 1-800-364-3577 or (651)737-6501.\n\nTechnical Information\nThe technical information, recommendations and other statements contained in this document are based upon tests or experience that 3M believes are reliable, but the accuracy or completeness of such information is not guaranteed.\n\nProduct Use\nMany factors beyond 3M’s control and uniquely within user’s knowledge and control can affect the use and performance of a 3M product in a particular application. Given the variety of factors that can affect the use and performance of a 3M product, user is solely responsible for evaluating the 3M product and determining whether it is fit for a particular purpose and suitable for user’s method of application.\n\nWarranty, Limited Remedy, and Disclaimer\nUnless an additional warranty is specifically stated on the applicable 3M product packaging or product literature, 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY IMPLIED WARRANTY OR CONDITION ARISING OUT OF A COURSE OF DEALING, CUSTOM OR USAGE OF TRADE. If the 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M’s option, replacement of the 3M product or refund of the purchase price.\n\nLimitation of Liability\nExcept where prohibited by law, 3M will not be liable for any loss or damage arising from the 3M product, whether direct, indirect, special, incidental or consequential, (including lost profits) regardless of the legal theory asserted, including warranty, contract, negligence or strict liability.\n\nThis Industrial Adhesives and Tapes Division product was manufactured under a 3M quality system registered to ISO 9001:2000 standards.\n\n3M\n3M Industrial Adhesives and Tapes Division\n3M Canada\nLondon, ON N6A 4T1\n1-800 3M-HELPS\nwww.3M.ca\n\n3M and Scotch-Weld are trademarks of 3M. Used under license in Canada.\n© 2016, 3M. All rights reserved. BA-16-21007 160104562 E",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 332349
+  },
+  "document_annotation": null
+}

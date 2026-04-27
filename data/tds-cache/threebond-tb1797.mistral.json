@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n## Technical Data Sheet\n\n### TB 1797 (PP/PE Primer)\n\n#### Information\nThree Bond 1797 is a clear yellow liquid used exclusively as a primer for ThreeBond 1700 series instant adhesives.\n\n#### Application\nTB 1797 is used for bonding polypropylene, polyethylene polyacetal and EP rubber. It is also effective in applications to polyurethane and soft PVC.\n\n#### Typical Properties\n|  Properties | Unit | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear yellowish liquid  |\n|  Specific gravity (@ 25°C) | - | 0.80  |\n|  Solid Content | % | 0.01 ~ 1.0  |\n\n- Setting Time (Tested with TB1741)\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Polyethylene | Second | 10  |\n|  Polypropylene |   | 10  |\n|  Polyacetal |   | 15  |\n|  EPDM |   | 10  |\n|  Polyurethane |   | 10  |\n|  Soft PVC |   | 10  |\n\nThese are typical results, not product specifications\n\nRev: 0.1\nIssued Date: 4/29/02\nDocument Control Number: 3-TB-20-0512",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 27253
+  },
+  "document_annotation": null
+}

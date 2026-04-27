@@ -1,29 +1,48 @@
 {
-  "generated_at": "2026-04-20T02:34:57.936562+00:00",
+  "generated_at": "2026-04-27T01:29:48.838258+00:00",
   "stats": {
-    "manufacturersConfigured": 5,
-    "discoveredEntries": 241
+    "manufacturersConfigured": 10,
+    "discoveredEntries": 481
   },
   "manufacturers": [
     {
-      "name": "Permabond",
+      "name": "3M",
       "priority": "high",
       "officialDomains": [
-        "permabond.com"
+        "3m.com",
+        "multimedia.3m.com"
       ],
-      "discoveredEntries": 194,
+      "discoveredEntries": 42,
       "sources": [
         {
-          "label": "Permabond product sitemap",
-          "url": "https://permabond.com/products-sitemap.xml",
-          "matchedUrls": 3,
-          "discoveredEntries": 3
+          "label": "3M Scotch-Weld category",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/b/scotch-weld/",
+          "matchedUrls": 40,
+          "discoveredEntries": 40
         },
         {
-          "label": "Permabond TDS sitemap",
-          "url": "https://permabond.com/tds-sitemap.xml",
-          "matchedUrls": 1284,
-          "discoveredEntries": 1284
+          "label": "3M tapes category",
+          "url": "https://www.3m.com/3M/en_US/p/c/tapes/",
+          "matchedUrls": 2,
+          "discoveredEntries": 2
+        }
+      ]
+    },
+    {
+      "name": "Henkel Loctite",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ],
+      "discoveredEntries": 10,
+      "sources": [
+        {
+          "label": "Loctite consumer products index",
+          "url": "https://www.loctiteproducts.com/products.html",
+          "matchedUrls": 12,
+          "discoveredEntries": 10
         }
       ]
     },
@@ -40,6 +59,28 @@
           "url": "https://www.masterbond.com/sitemap.xml",
           "matchedUrls": 36,
           "discoveredEntries": 35
+        }
+      ]
+    },
+    {
+      "name": "Permabond",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ],
+      "discoveredEntries": 195,
+      "sources": [
+        {
+          "label": "Permabond product sitemap",
+          "url": "https://permabond.com/products-sitemap.xml",
+          "matchedUrls": 3,
+          "discoveredEntries": 3
+        },
+        {
+          "label": "Permabond TDS sitemap",
+          "url": "https://permabond.com/tds-sitemap.xml",
+          "matchedUrls": 1288,
+          "discoveredEntries": 1288
         }
       ]
     },
@@ -61,6 +102,38 @@
       ]
     },
     {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ],
+      "discoveredEntries": 4,
+      "sources": [
+        {
+          "label": "CEMEDINE global sitemap",
+          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
+          "matchedUrls": 10,
+          "discoveredEntries": 4
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 7,
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
+          "matchedUrls": 18,
+          "discoveredEntries": 7
+        }
+      ]
+    },
+    {
       "name": "J-B Weld",
       "priority": "medium",
       "officialDomains": [
@@ -77,25 +150,795 @@
       ]
     },
     {
-      "name": "3M",
-      "priority": "high",
+      "name": "ThreeBond",
+      "priority": "medium",
       "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
+        "threebond.com",
+        "threebond.co.jp"
       ],
-      "discoveredEntries": 0,
+      "discoveredEntries": 144,
       "sources": [
         {
-          "label": "3M adhesives category",
-          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/",
-          "matchedUrls": 0,
-          "discoveredEntries": 0,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.3m.com', port=443): Read timed out. (read timeout=15)"
+          "label": "ThreeBond technical data sheets",
+          "url": "https://threebond.com/document-library/technical-data-sheets/",
+          "matchedUrls": 145,
+          "discoveredEntries": 144
+        }
+      ]
+    },
+    {
+      "name": "Titebond",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ],
+      "discoveredEntries": 32,
+      "sources": [
+        {
+          "label": "Titebond glues catalog",
+          "url": "https://www.titebond.com/all/glues",
+          "matchedUrls": 60,
+          "discoveredEntries": 40
         }
       ]
     }
   ],
   "entries": [
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Composite Urethane Adhesive 6301NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000300196/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147517/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147516/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2216 Gray",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100LH",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100LH Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100 Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP125 Gray",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-2615 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-2792 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-3542 B/A FR",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-9370 B/A FST",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Flexible Acrylic Adhesive DP8610NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Instant Adhesive CA8",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP810 Black",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP8725NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP8825NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Polyurethane Adhesive DP6605NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 PUR Adhesive TS230 Off-White",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 PUR Easy Adhesive EZ250150",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Structural Adhesive EC-7236 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Structural Adhesive EW2060HF",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 Black",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Super Fast Instant Adhesive SF100",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Void Filling Compound EC-3515 B/A FR",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 VHB\u2122 Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000198088/",
+      "kind": "product",
+      "sourceLabel": "3M tapes category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u2122 VHB\u2122 Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
+      "kind": "product",
+      "sourceLabel": "3M tapes category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "CEMEDINE",
+      "name": "3000 Series",
+      "officialUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
+      "kind": "product",
+      "sourceLabel": "CEMEDINE global sitemap",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ]
+    },
+    {
+      "maker": "CEMEDINE",
+      "name": "Hotmelt",
+      "officialUrl": "https://www.cemedine.co.jp/global/en/technology/other/hotmelt/index.html",
+      "kind": "product",
+      "sourceLabel": "CEMEDINE global sitemap",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ]
+    },
+    {
+      "maker": "CEMEDINE",
+      "name": "Super X series",
+      "officialUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/superx/index.html",
+      "kind": "product",
+      "sourceLabel": "CEMEDINE global sitemap",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ]
+    },
+    {
+      "maker": "CEMEDINE",
+      "name": "SX For PP",
+      "officialUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/sxppk/index.html",
+      "kind": "product",
+      "sourceLabel": "CEMEDINE global sitemap",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Fabri-Fuse",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Fray Lock",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fray-lock/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-jewelry-bead/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Spray Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 with Precision Tips",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-precision-tip-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "Extreme Tack",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-extreme-tack/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Ceramic Repair",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Clear Epoxy",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Clear Silicone",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-silicone/SAP_0201XCL02WYJ.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Instant Mix 1MIN",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-1min/SAP_0201OAL029U5.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Instant Mix 5MIN",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Marine",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Metal Concrete",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Plastic",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Putty",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-putty/SAP_0201OGL029V2.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
+    {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Quick Set",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products index",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ]
+    },
     {
       "maker": "J-B Weld",
       "name": "ClearWeld\u2122 Syringe - 25 ml",
@@ -539,7 +1382,7 @@
     {
       "maker": "Permabond",
       "name": "101",
-      "officialUrl": "https://permabond.com/tds/101_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/101_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -550,7 +1393,7 @@
     {
       "maker": "Permabond",
       "name": "102",
-      "officialUrl": "https://permabond.com/tds/102_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/102_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -561,7 +1404,7 @@
     {
       "maker": "Permabond",
       "name": "105",
-      "officialUrl": "https://permabond.com/tds/105_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/105_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -572,7 +1415,7 @@
     {
       "maker": "Permabond",
       "name": "108",
-      "officialUrl": "https://permabond.com/tds/108_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/108_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -583,7 +1426,7 @@
     {
       "maker": "Permabond",
       "name": "130UV",
-      "officialUrl": "https://permabond.com/tds/130uv_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/130uv_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -627,7 +1470,7 @@
     {
       "maker": "Permabond",
       "name": "2010",
-      "officialUrl": "https://permabond.com/tds/2010_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/2010_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -638,7 +1481,7 @@
     {
       "maker": "Permabond",
       "name": "2011",
-      "officialUrl": "https://permabond.com/tds/2011_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/2011_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -649,7 +1492,7 @@
     {
       "maker": "Permabond",
       "name": "2050",
-      "officialUrl": "https://permabond.com/tds/2050_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/2050_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -660,7 +1503,7 @@
     {
       "maker": "Permabond",
       "name": "240",
-      "officialUrl": "https://permabond.com/tds/240_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/240_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -671,7 +1514,7 @@
     {
       "maker": "Permabond",
       "name": "268",
-      "officialUrl": "https://permabond.com/tds/268_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/268_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -693,7 +1536,7 @@
     {
       "maker": "Permabond",
       "name": "4C10",
-      "officialUrl": "https://permabond.com/tds/4c10_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/4c10_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -704,7 +1547,7 @@
     {
       "maker": "Permabond",
       "name": "4C20",
-      "officialUrl": "https://permabond.com/tds/4c20_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/4c20_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -715,7 +1558,7 @@
     {
       "maker": "Permabond",
       "name": "4C30",
-      "officialUrl": "https://permabond.com/tds/4c30_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/4c30_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -726,7 +1569,7 @@
     {
       "maker": "Permabond",
       "name": "4C40",
-      "officialUrl": "https://permabond.com/tds/4c40_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/4c40_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -748,7 +1591,7 @@
     {
       "maker": "Permabond",
       "name": "731",
-      "officialUrl": "https://permabond.com/tds/731_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/731_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -759,7 +1602,7 @@
     {
       "maker": "Permabond",
       "name": "735",
-      "officialUrl": "https://permabond.com/tds/735_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/735_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -770,7 +1613,18 @@
     {
       "maker": "Permabond",
       "name": "737",
-      "officialUrl": "https://permabond.com/tds/737_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/737_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "751",
+      "officialUrl": "https://permabond.com/tds/751_tds_ptbr/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -781,7 +1635,7 @@
     {
       "maker": "Permabond",
       "name": "790",
-      "officialUrl": "https://permabond.com/tds/790_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/790_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -792,7 +1646,7 @@
     {
       "maker": "Permabond",
       "name": "791",
-      "officialUrl": "https://permabond.com/tds/791_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/791_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -803,7 +1657,7 @@
     {
       "maker": "Permabond",
       "name": "792",
-      "officialUrl": "https://permabond.com/tds/792_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/792_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -814,7 +1668,7 @@
     {
       "maker": "Permabond",
       "name": "795",
-      "officialUrl": "https://permabond.com/tds/795_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/795_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -825,7 +1679,7 @@
     {
       "maker": "Permabond",
       "name": "799",
-      "officialUrl": "https://permabond.com/tds/799_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/799_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -836,7 +1690,7 @@
     {
       "maker": "Permabond",
       "name": "801",
-      "officialUrl": "https://permabond.com/tds/801_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/801_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -847,7 +1701,7 @@
     {
       "maker": "Permabond",
       "name": "802",
-      "officialUrl": "https://permabond.com/tds/802_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/802_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -858,7 +1712,7 @@
     {
       "maker": "Permabond",
       "name": "820",
-      "officialUrl": "https://permabond.com/tds/820_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/820_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -869,7 +1723,7 @@
     {
       "maker": "Permabond",
       "name": "825",
-      "officialUrl": "https://permabond.com/tds/825_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/825_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -880,7 +1734,7 @@
     {
       "maker": "Permabond",
       "name": "910",
-      "officialUrl": "https://permabond.com/tds/910_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/910_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -891,7 +1745,7 @@
     {
       "maker": "Permabond",
       "name": "910FS",
-      "officialUrl": "https://permabond.com/tds/910fs_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/910fs_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -902,7 +1756,7 @@
     {
       "maker": "Permabond",
       "name": "919",
-      "officialUrl": "https://permabond.com/tds/919_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/919_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -913,7 +1767,7 @@
     {
       "maker": "Permabond",
       "name": "920",
-      "officialUrl": "https://permabond.com/tds/920_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/920_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -924,7 +1778,7 @@
     {
       "maker": "Permabond",
       "name": "922",
-      "officialUrl": "https://permabond.com/tds/922_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/922_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -935,7 +1789,7 @@
     {
       "maker": "Permabond",
       "name": "940",
-      "officialUrl": "https://permabond.com/tds/940_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/940_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -946,7 +1800,7 @@
     {
       "maker": "Permabond",
       "name": "941",
-      "officialUrl": "https://permabond.com/tds/941_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/941_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -957,7 +1811,7 @@
     {
       "maker": "Permabond",
       "name": "943",
-      "officialUrl": "https://permabond.com/tds/943_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/943_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -968,7 +1822,7 @@
     {
       "maker": "Permabond",
       "name": "947",
-      "officialUrl": "https://permabond.com/tds/947_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/947_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -1177,7 +2031,7 @@
     {
       "maker": "Permabond",
       "name": "CSA",
-      "officialUrl": "https://permabond.com/tds/csa_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/csa_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -1947,7 +2801,7 @@
     {
       "maker": "Permabond",
       "name": "MS359AGREY",
-      "officialUrl": "https://permabond.com/tds/ms359agrey_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/ms359agrey_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -1958,7 +2812,7 @@
     {
       "maker": "Permabond",
       "name": "MS359CLEAR",
-      "officialUrl": "https://permabond.com/tds/ms359clear_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/ms359clear_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -1969,7 +2823,7 @@
     {
       "maker": "Permabond",
       "name": "MS359GREY",
-      "officialUrl": "https://permabond.com/tds/ms359grey_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/ms359grey_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2079,7 +2933,7 @@
     {
       "maker": "Permabond",
       "name": "PT321",
-      "officialUrl": "https://permabond.com/tds/pt321_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/pt321_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2090,7 +2944,7 @@
     {
       "maker": "Permabond",
       "name": "PT326",
-      "officialUrl": "https://permabond.com/tds/pt326_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/pt326_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2101,7 +2955,7 @@
     {
       "maker": "Permabond",
       "name": "PT328",
-      "officialUrl": "https://permabond.com/tds/pt328_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/pt328_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2112,7 +2966,7 @@
     {
       "maker": "Permabond",
       "name": "QFS10",
-      "officialUrl": "https://permabond.com/tds/qfs10_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/qfs10_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2123,7 +2977,7 @@
     {
       "maker": "Permabond",
       "name": "QFS16",
-      "officialUrl": "https://permabond.com/tds/qfs16_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/qfs16_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2442,7 +3296,7 @@
     {
       "maker": "Permabond",
       "name": "UV605",
-      "officialUrl": "https://permabond.com/tds/uv605_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv605_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2453,7 +3307,7 @@
     {
       "maker": "Permabond",
       "name": "UV610",
-      "officialUrl": "https://permabond.com/tds/uv610_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv610_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2464,7 +3318,7 @@
     {
       "maker": "Permabond",
       "name": "UV6160",
-      "officialUrl": "https://permabond.com/tds/uv6160_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv6160_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2475,7 +3329,7 @@
     {
       "maker": "Permabond",
       "name": "UV620",
-      "officialUrl": "https://permabond.com/tds/uv620_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv620_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2486,7 +3340,7 @@
     {
       "maker": "Permabond",
       "name": "UV6231",
-      "officialUrl": "https://permabond.com/tds/uv6231_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv6231_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2497,7 +3351,7 @@
     {
       "maker": "Permabond",
       "name": "UV625",
-      "officialUrl": "https://permabond.com/tds/uv625_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv625_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2508,7 +3362,7 @@
     {
       "maker": "Permabond",
       "name": "UV630",
-      "officialUrl": "https://permabond.com/tds/uv630_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv630_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2530,7 +3384,7 @@
     {
       "maker": "Permabond",
       "name": "UV632",
-      "officialUrl": "https://permabond.com/tds/uv632_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv632_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2563,7 +3417,7 @@
     {
       "maker": "Permabond",
       "name": "UV639",
-      "officialUrl": "https://permabond.com/tds/uv639_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv639_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2574,7 +3428,7 @@
     {
       "maker": "Permabond",
       "name": "UV640",
-      "officialUrl": "https://permabond.com/tds/uv640_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv640_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2585,7 +3439,7 @@
     {
       "maker": "Permabond",
       "name": "UV643",
-      "officialUrl": "https://permabond.com/tds/uv643_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv643_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2596,7 +3450,7 @@
     {
       "maker": "Permabond",
       "name": "UV645",
-      "officialUrl": "https://permabond.com/tds/uv645_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv645_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2607,7 +3461,7 @@
     {
       "maker": "Permabond",
       "name": "UV648",
-      "officialUrl": "https://permabond.com/tds/uv648_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv648_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2618,7 +3472,7 @@
     {
       "maker": "Permabond",
       "name": "UV649",
-      "officialUrl": "https://permabond.com/tds/uv649_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv649_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2629,7 +3483,7 @@
     {
       "maker": "Permabond",
       "name": "UV670",
-      "officialUrl": "https://permabond.com/tds/uv670_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv670_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2640,7 +3494,7 @@
     {
       "maker": "Permabond",
       "name": "UV681",
-      "officialUrl": "https://permabond.com/tds/uv681_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv681_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2651,7 +3505,7 @@
     {
       "maker": "Permabond",
       "name": "UV683",
-      "officialUrl": "https://permabond.com/tds/uv683_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv683_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2662,7 +3516,7 @@
     {
       "maker": "Permabond",
       "name": "UV7141",
-      "officialUrl": "https://permabond.com/tds/uv7141_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/uv7141_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2752,6 +3606,2086 @@
       "officialDomains": [
         "sika.com",
         "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1101",
+      "officialUrl": "https://threebond.com/download/threebond-1102-solvent-based-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1110F",
+      "officialUrl": "https://threebond.com/download/threebond-1110F-anaerobic-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1121",
+      "officialUrl": "https://threebond.com/download/threebond-1121-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1141G",
+      "officialUrl": "https://threebond.com/download/threebond-1141G-aqueous-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1152C",
+      "officialUrl": "https://threebond.com/download/threebond-1152C-olefin-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1153C",
+      "officialUrl": "https://threebond.com/download/threebond-1153C-olefin-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1156C",
+      "officialUrl": "https://threebond.com/download/threebond-1156C-heat-curable-acrylic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1158",
+      "officialUrl": "https://threebond.com/download/threebond-1158-arcylic-based-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1171E",
+      "officialUrl": "https://threebond.com/download/threebond-1171E-battery-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1184",
+      "officialUrl": "https://threebond.com/download/threebond-1184-liquid-gasket",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1207B",
+      "officialUrl": "https://threebond.com/download/threebond-1207B-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1211",
+      "officialUrl": "https://threebond.com/download/threebond-1211-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1215",
+      "officialUrl": "https://threebond.com/download/threebond-1215-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1216E",
+      "officialUrl": "https://threebond.com/download/threebond-1216E-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1217F",
+      "officialUrl": "https://threebond.com/download/threebond-1217F-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1217H",
+      "officialUrl": "https://threebond.com/download/threebond-1217H-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1217M",
+      "officialUrl": "https://threebond.com/download/threebond-1217M-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1225B",
+      "officialUrl": "https://threebond.com/download/threebond-1225B-silicone-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1225C",
+      "officialUrl": "https://threebond.com/download/threebond-1225C-heat-dissipating-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1227D",
+      "officialUrl": "https://threebond.com/download/threebond-1227D-silicone-based-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1281",
+      "officialUrl": "https://threebond.com/download/threebond-1281-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1281B",
+      "officialUrl": "https://threebond.com/download/threebond-1281B-silicone-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1303",
+      "officialUrl": "https://threebond.com/download/threebond-1303-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1305N",
+      "officialUrl": "https://threebond.com/download/threebond-1305N-anaerobic-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1322",
+      "officialUrl": "https://threebond.com/download/threebond-1322-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1324",
+      "officialUrl": "https://threebond.com/download/threebond-1324-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1342",
+      "officialUrl": "https://threebond.com/download/threebond-1342-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1344",
+      "officialUrl": "https://threebond.com/download/threebond-1344-anaerobic-threadlocker",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1359K",
+      "officialUrl": "https://threebond.com/download/threebond-1359K-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1360",
+      "officialUrl": "https://threebond.com/download/threebond-1360-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1372D",
+      "officialUrl": "https://threebond.com/download/threebond-1372d-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1386H",
+      "officialUrl": "https://threebond.com/download/threebond-1386H-anaerobic-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1390R",
+      "officialUrl": "https://threebond.com/download/threebond-1390R-sealant-curing-accelerator",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1401",
+      "officialUrl": "https://threebond.com/download/threebond-1401-threadlock",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1401B",
+      "officialUrl": "https://threebond.com/download/threebond-1401b-threadlock",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1401C",
+      "officialUrl": "https://threebond.com/download/threebond-1401c-threadlock",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1530",
+      "officialUrl": "https://threebond.com/download/threebond-1530-moisture-curing-elasomeric-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1530B",
+      "officialUrl": "https://threebond.com/download/threebond-1530b-moisture-curing-elasomeric-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1530C",
+      "officialUrl": "https://threebond.com/download/threebond-1530C-moisture-curing-elasomeric-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1530D",
+      "officialUrl": "https://threebond.com/download/threebond-1530D-moisture-curing-elasomeric-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1533",
+      "officialUrl": "https://threebond.com/download/threebond-1533-moisture-curing-elastic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1533C",
+      "officialUrl": "https://threebond.com/download/threebond-1533C-elastic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1533D",
+      "officialUrl": "https://threebond.com/download/threebond-1533D-elastic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1533F",
+      "officialUrl": "https://threebond.com/download/threebond-1533f-elastic-adhesive/",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1537",
+      "officialUrl": "https://threebond.com/download/threebond-1537-moisture-curing-elasomeric-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1539A",
+      "officialUrl": "https://threebond.com/download/threebond-1539A-elastic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1630",
+      "officialUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1655D(20t)",
+      "officialUrl": "https://threebond.com/download/threebond-1655D(20t)-heat-curing-sheet-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1703",
+      "officialUrl": "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1731",
+      "officialUrl": "https://threebond.com/download/threebond-1731-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1741",
+      "officialUrl": "https://threebond.com/download/threebond-1741-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1741F",
+      "officialUrl": "https://threebond.com/download/threebond-1741F-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1742B",
+      "officialUrl": "https://threebond.com/download/threebond-1742B-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1742Z",
+      "officialUrl": "https://threebond.com/download/threebond-1742Z-very-fast-curing-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1745Z",
+      "officialUrl": "https://threebond.com/download/threebond-1745Z-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1747",
+      "officialUrl": "https://threebond.com/download/threebond-1747-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1747B",
+      "officialUrl": "https://threebond.com/download/threebond-1747B-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1747C",
+      "officialUrl": "https://threebond.com/download/threebond-1747C-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1771E",
+      "officialUrl": "https://threebond.com/download/threebond-1771E-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1772M",
+      "officialUrl": "https://threebond.com/download/threebond-1771M-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1773E",
+      "officialUrl": "https://threebond.com/download/threebond-1773E-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1783",
+      "officialUrl": "https://threebond.com/download/threebond-1783-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1785C",
+      "officialUrl": "https://threebond.com/download/threebond-1785C-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1786",
+      "officialUrl": "https://threebond.com/download/threebond-1786-cryanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1796",
+      "officialUrl": "https://threebond.com/download/threebond-1796-glue-accelerator",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1797",
+      "officialUrl": "https://threebond.com/download/threebond-1797-pp-pe-primer",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB17N-019",
+      "officialUrl": "https://threebond.com/download/threebond-17N-019-cryanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB17N-020",
+      "officialUrl": "https://threebond.com/download/threebond-17N-020-cryanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB17N040",
+      "officialUrl": "https://threebond.com/download/threebond-17N040-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB17N065",
+      "officialUrl": "https://threebond.com/download/threebond-17N065-cyanoacrylate-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2027G",
+      "officialUrl": "https://threebond.com/download/threebond-3027G-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2202",
+      "officialUrl": "https://threebond.com/download/threebond-2202-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2204",
+      "officialUrl": "https://threebond.com/download/threebond-2204-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2206",
+      "officialUrl": "https://threebond.com/download/threebond-2206S-expoy-compound-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2206B",
+      "officialUrl": "https://threebond.com/download/threebond-2206B-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2206S",
+      "officialUrl": "https://threebond.com/download/threebond-2206S-one-part-epoxy-compound-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2222P",
+      "officialUrl": "https://threebond.com/download/threebond-2222p-one-component-epoxy",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2235L",
+      "officialUrl": "https://threebond.com/download/threebond-2235L-epoxy-compound-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2237J",
+      "officialUrl": "https://threebond.com/download/threebond-2237J-heat-curable-expoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2249G",
+      "officialUrl": "https://threebond.com/download/threebond-2249G-heat-curing-epoxy-compound-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2270J",
+      "officialUrl": "https://threebond.com/download/threebond-2270J-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2272F",
+      "officialUrl": "https://threebond.com/download/threebond-2272F-epoxy-compound-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2273E",
+      "officialUrl": "https://threebond.com/download/threebond-2273E-one-component-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2274",
+      "officialUrl": "https://threebond.com/download/threebond-2274-underfilling-agent",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2274C",
+      "officialUrl": "https://threebond.com/download/threebond-2274C-underfill-for-mounting",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2285",
+      "officialUrl": "https://threebond.com/download/threebond-2285-high-glass-transition-epoxy",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2418",
+      "officialUrl": "https://threebond.com/download/threebond-2418A-acrylic-based-sealing-agent",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2448",
+      "officialUrl": "https://threebond.com/download/threebond-2448A-high-strength-epoxy-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2448B",
+      "officialUrl": "https://threebond.com/download/threebond-2448B-high-strength-epoxy-sealant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2458",
+      "officialUrl": "https://threebond.com/download/threebond-2458-low-strength-arcylic-sealing-agent",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2458B",
+      "officialUrl": "https://threebond.com/download/threebond-2458B-pre-coated-bolts",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2468",
+      "officialUrl": "https://threebond.com/download/threebond-2468-water-based-acrylic",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2478",
+      "officialUrl": "https://threebond.com/download/threebond-2478-high-strength-acrylic-sealing-agent",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2488",
+      "officialUrl": "https://threebond.com/download/threebond-2488A-arcylic-based-locking-agent",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2706",
+      "officialUrl": "https://threebond.com/download/threebond-2706-machine-parts-degreasing-cleaner",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2720C",
+      "officialUrl": "https://threebond.com/download/threebond-2720c-water-based-lubricant",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3012D",
+      "officialUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3013Q",
+      "officialUrl": "https://threebond.com/download/threebond-3013Q-uv-curable-arcylic-elastic-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3015B",
+      "officialUrl": "https://threebond.com/download/threebond-3015b-uv-curable-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3017D",
+      "officialUrl": "https://threebond.com/download/threebond-3017D-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3017E",
+      "officialUrl": "https://threebond.com/download/threebond-3017E-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3020B",
+      "officialUrl": "https://threebond.com/download/threebond-3020B-uv-curable-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3030",
+      "officialUrl": "https://threebond.com/download/threebond-3030-uv-curing-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3036E",
+      "officialUrl": "https://threebond.com/download/threebond-3036E-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3062U",
+      "officialUrl": "https://threebond.com/download/threebond-3062U-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3081J",
+      "officialUrl": "https://threebond.com/download/threebond-3081J-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3081P",
+      "officialUrl": "https://threebond.com/download/threebond-3081P-uv-curable-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3124",
+      "officialUrl": "https://threebond.com/download/threebond-3124-uv-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3124L",
+      "officialUrl": "https://threebond.com/download/threebond-3124L-uv-curing-epoxy-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3164D",
+      "officialUrl": "https://threebond.com/download/threebond-3164D-uv-curing-silicone-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3164F",
+      "officialUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3164H",
+      "officialUrl": "https://threebond.com/download/threebond-3164H-uv-curing-silicone-rtv",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3166",
+      "officialUrl": "https://threebond.com/download/threebond-3166-uv-curable-silicone-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3168J",
+      "officialUrl": "https://threebond.com/download/threebond-3168J-uv-curable-silicone-gel",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3170B",
+      "officialUrl": "https://threebond.com/download/threebond-3170B-visible-light-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3170D",
+      "officialUrl": "https://threebond.com/download/threebond-3170D-visible-light-curing-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3303M",
+      "officialUrl": "https://threebond.com/download/threebond-3303M-silicone-based-conductive-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3303N",
+      "officialUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3315E",
+      "officialUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3331D",
+      "officialUrl": "https://threebond.com/download/threebond-3331D-electrically-conductive-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3350C",
+      "officialUrl": "https://threebond.com/download/threebond-3350C-cold-drying-electroconductive-paint",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3351C",
+      "officialUrl": "https://threebond.com/download/threebond-3351C-electroconductive-resin",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3373C",
+      "officialUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3732",
+      "officialUrl": "https://threebond.com/download/threebond-3732-heat-resistant-inorganic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3923/28",
+      "officialUrl": "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB3955",
+      "officialUrl": "https://threebond.com/download/threebond-3955A-elastic-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6154D",
+      "officialUrl": "https://threebond.com/download/threebond-6154D-three-ruster",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6155D",
+      "officialUrl": "https://threebond.com/download/threebond-6155D-three-luster",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6602P",
+      "officialUrl": "https://threebond.com/download/threebond-6602P-brake-parts-cleaner",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6630",
+      "officialUrl": "https://threebond.com/download/threebond-6630-iron-powder-removal-cleaner",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6658",
+      "officialUrl": "https://threebond.com/download/threebond-6658-strong-alkaline-electrolitic-water",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB6658C",
+      "officialUrl": "https://threebond.com/download/threebond-6658C-strong-acid-electrolytic-water",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7721A",
+      "officialUrl": "https://threebond.com/download/threebond-7721A-gold-label-instant-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7737",
+      "officialUrl": "https://threebond.com/download/threebond-7737-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7738",
+      "officialUrl": "https://threebond.com/download/threebond-7738-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7741",
+      "officialUrl": "https://threebond.com/download/threebond-7741-gold-label-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7781",
+      "officialUrl": "https://threebond.com/download/threebond-7781-gold-label-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7782",
+      "officialUrl": "https://threebond.com/download/threebond-7782-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7784",
+      "officialUrl": "https://threebond.com/download/threebond-7784-gold-label-instant-adhseive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7785",
+      "officialUrl": "https://threebond.com/download/threebond-7785-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7786",
+      "officialUrl": "https://threebond.com/download/threebond-7786-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7789A",
+      "officialUrl": "https://threebond.com/download/threebond-7789A-gold-label-instant-adhesive",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7796A",
+      "officialUrl": "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB7797",
+      "officialUrl": "https://threebond.com/download/threebond-7797-gold-label-adhesive-primer",
+      "kind": "product",
+      "sourceLabel": "ThreeBond technical data sheets",
+      "priority": "medium",
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Adhesive Gel",
+      "officialUrl": "https://www.titebond.com/product/glues/9059d175-2198-4bbe-90d1-f2406dd7049a",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Adhesive Medium",
+      "officialUrl": "https://www.titebond.com/product/glues/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Adhesive Medium - Jet Black",
+      "officialUrl": "https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Adhesive Thick",
+      "officialUrl": "https://www.titebond.com/product/glues/35c28e98-b180-4028-a7f8-c83a567bed1b",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Adhesive Thin",
+      "officialUrl": "https://www.titebond.com/product/glues/59d79143-2116-4229-bd02-a47678325f21",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Gel",
+      "officialUrl": "https://www.titebond.com/product/glues/9059d175-2198-4bbe-90d1-f2406dd7049a",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Medium",
+      "officialUrl": "https://www.titebond.com/product/glues/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Medium - Jet Black",
+      "officialUrl": "https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Thick",
+      "officialUrl": "https://www.titebond.com/product/glues/35c28e98-b180-4028-a7f8-c83a567bed1b",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Instant Bond Thin",
+      "officialUrl": "https://www.titebond.com/product/glues/59d79143-2116-4229-bd02-a47678325f21",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Super Titebond",
+      "officialUrl": "https://www.titebond.com/product/glues/0c432f73-dd8c-40de-8734-68eaf96f8e71",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Super Titebond Glue",
+      "officialUrl": "https://www.titebond.com/product/glues/0c432f73-dd8c-40de-8734-68eaf96f8e71",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond All Purpose",
+      "officialUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond All Purpose White Glue",
+      "officialUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Cold Press HPL",
+      "officialUrl": "https://www.titebond.com/product/glues/956e0030-cd56-406e-9873-ec9e5af5fca4",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Cold Press Veneer",
+      "officialUrl": "https://www.titebond.com/product/glues/fdb9c5cb-15b3-49b3-b709-5794cc3ae102",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Doweling",
+      "officialUrl": "https://www.titebond.com/product/glues/cd34dfc4-2241-4e5c-962e-af426a169bec",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Doweling Glue",
+      "officialUrl": "https://www.titebond.com/product/glues/cd34dfc4-2241-4e5c-962e-af426a169bec",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Doweling LV",
+      "officialUrl": "https://www.titebond.com/product/glues/3262a6f9-50bd-4214-8a22-29886a6fe105",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Extend",
+      "officialUrl": "https://www.titebond.com/product/glues/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Genuine Hide",
+      "officialUrl": "https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond II Dark",
+      "officialUrl": "https://www.titebond.com/product/glues/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond II Extend",
+      "officialUrl": "https://www.titebond.com/product/glues/21051713-5cce-4925-a653-3bff0a0f71ab",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond II Fluorescent",
+      "officialUrl": "https://www.titebond.com/product/glues/fbd42020-a590-4228-844a-0ef245db4dc7",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond III Ultimate",
+      "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond II Premium",
+      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Melamine",
+      "officialUrl": "https://www.titebond.com/product/glues/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Original",
+      "officialUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Quick & Thick",
+      "officialUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Speed Set",
+      "officialUrl": "https://www.titebond.com/product/glues/1f1dafb3-eec8-4f9a-87fe-06f40d4c47df",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Translucent",
+      "officialUrl": "https://www.titebond.com/product/glues/e06720fc-44f9-42b2-8c5c-77e7d85cf624",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond White",
+      "officialUrl": "https://www.titebond.com/product/glues/c944de78-f0a8-4180-b75e-026994aba708",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
       ]
     }
   ]

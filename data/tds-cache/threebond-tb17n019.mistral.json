@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB17N-019 CYANOACRYLATE ADHESIVE\n\n## Information\n\nTB17N-019 is a low viscosity, single component cyanoacrylate adhesive. It demonstrates excellent adhesive efficiency, and can be used mostly for bonding metals, plastics and rubbers.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear Transparent Liquid  |\n|  Viscosity | mPa • s (cP) | 40 (40)  |\n|  Specific gravity | - | 1.05  |\n\n### 2. Set time\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel / Steel | Second | 45  |\n|  Aluminum / Aluminum |   | 25  |\n|  EPDM / EPDM |   | 10  |\n|  ABS / ABS |   | 5  |\n|  PC / PC |   | 12  |\n|  NBR/NBR |   | 12  |\n|  Nylon 66 / Nylon 66 |   | 12  |\n\nRev: 0.0\nIssued Date: 5/13/04\nDocument Control Number: 3-TB-20-1089",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3. Lap Shear Strength (24 hours)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel / Steel | MPa (kgf/cm²) | 19.4 (198)  |\n|  Aluminum / Aluminum |   | 12.9 (131)  |\n|  EPDM / EPDM |   | 0.2 (2)  |\n|  ABS / ABS |   | 5.9 (60) MF  |\n|  PC / PC |   | 5.8 (59) MF  |\n|  NBR/NBR |   | 0.3 (3)  |\n|  Nylon 66 / Nylon 66 |   | 3.0 (30)  |\n\nMF - Material failure\n\nThese are typical results not product specifications.\n\nRev: 0.0\nIssued Date: 5/13/04\nDocument Control Number: 3-TB-20-1089",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 96112
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,13 @@
+Official WACKER ELASTOSIL E 951 technical data sheet fallback extracted from the WACKER PDF indexed text because local automation receives an Incapsula HTML block page from wacker.com.
+
+Product: ELASTOSIL E 951, Moisture Curing Silicone Rubber (RTV-1). Most recent change: 21.05.2025. Description: high strength one-component adhesive sealant designed for bonding silicone rubber to silicone rubber or substrates; may be used for high strength bonds between metal and glass; adheres tenaciously to most substrates without primer. Properties: one component, ready-to-use; excellent adhesion; high strength.
+
+Uncured properties: dynamic viscosity 400000 cP at 25 C by WSTM-2103; appearance clear paste by WSTM-2119; skin over time 20 min at 25 C / 50% RH.
+
+Cured properties after 7 days / 25 C: releases acetic acid while curing; fully cured product is free of acetic acid odor. Density 1.08 g/cm3 at 25 C; specific gravity 1.08 g/cm3; hardness Shore A 30 by WSTM-2225; tensile strength 4.5 MPa / 650 psi; elongation 400%; tear strength 70 psi / 12.3 kN/m by ASTM D 624 Die B.
+
+Applications: adhesives, industrial adhesives, medical silicone adhesives. Application details: cures at room temperature when exposed to humidity in the air; forms a skin in less than 30 min, is tack free in an hour and normally cures overnight; cure rate depends on open exposure. Acetic acid is liberated during cure and disappears when cure is complete. Adheres well to metals, glass and vulcanized silicone rubber; substrates should be clean; primers are available for special adhesion problems.
+
+Processing cautions: RTV-1 silicones require free access of air moisture. Raising relative humidity can greatly reduce vulcanization time. Total cure rate is limited by moisture diffusion through silicone rubber. Raising curing temperature has only minor effect on skin formation and cure speed; heat curing is recommended only below 0.5 mm film thickness because otherwise blistering can occur from rapid acetic acid release.
+
+Durability and removal: after vulcanization, the silicone elastomer may continuously be exposed to changing climatic conditions, UV radiation and high temperature without damage. The cured product usually has good primerless adhesion to glass, ceramics, metals, plastics and powder coatings. White spirit or similar nonpolar solvents are recommended for cleaning machines or dispensing equipment before full vulcanization; cured silicone needs mechanical removal, optionally with a swelling agent or chemical silicone remover. Storage: best-use-before date is shown on the certificate of analysis; storage beyond that date requires property checks for quality assurance.

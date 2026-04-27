@@ -1,0 +1,23 @@
+Official ThreeBond TB1141G OCR fallback extracted from the official scanned PDF because pdftotext returns a blank text layer.
+
+Product: ThreeBond 1141G Aqueous type liquid gasket. Technical Data, January 21, 2008, Three Bond Co., Ltd., document ED080401.
+
+Outline: aqueous type liquid gasket whose main component is aqueous acrylic resin. Not subject to Industrial Safety and Health Law, Ordinance on Prevention of Organic Solvent Poisoning or Fire Defense Law. Can be diluted with water.
+
+Features: aqueous gasket sealant not harmful to working environment; does not affect almost all rubbers or plastics; excellent chemical resistance; can be used together with solid gaskets.
+
+Use: sealing of various flange surfaces.
+
+Properties: appearance gray; viscosity 15 Pa.s by 3TS-210-02, BH type No.5 20 rpm; specific gravity 1.26 at 25 C; heating residue 68.0%; pH 9.0.
+
+Pressure resistance, conforming to JIS K 6820: room temperature 10 MPa or more; 80 C 10 MPa or more; 150 C 9.0 MPa; resistance to high and low temperatures 10 MPa or more. Test conditions include flange 90 mm OD, 60 mm ID, 15 mm surface width, 6S surface finish, 1/2W bolt x6, turbine oil No.1, average surface pressure 16 MPa, pressure rate 0.5 MPa/min.
+
+Low surface pressure and surface pressure/roughness pressure-resistance curves are graph-only. Low-surface-pressure test conditions: flange surface widths 3, 5, 8 and 15 mm; surface finish 6S; average surface pressure 4 MPa; room temperature and 130 C; drying time 5 min; pressure rate 0.2 MPa/10 to 20 sec. Surface-pressure graph conditions: 8 mm flange surface width; 6S finish; average surface pressure 4, 8 and 12 MPa; drying time 5 min. Surface roughness graph conditions: 8 mm flange surface width; 6S, 12S and 25S; average surface pressure 4 MPa; drying time 5 min.
+
+Chemical resistance, conforming to JIS K 6820, rate of mass change: water 95 C for 24 h -2.3%; engine oil 95 C for 24 h +5.7%; gear oil 95 C for 24 h +6.2%; gasoline 45 C for 24 h -7.5%; anti-freeze 95 C for 24 h +3.3% long-life coolant 99%; ATF 95 C for 24 h +4.4%; ASTM No.2 95 C for 24 h +6.2%. Curing conditions: left at 23 C for 24 h, dried at 100 C for 3 h and cooled in a desiccator; after immersion, rinsed with petroleum ether and dried at 65 C for 24 h before mass measurement.
+
+Corrosiveness, conforming to JIS K 6820: after drying at room temperature 20 C for 7 days, iron no change, SUS no change, aluminum no change, zinc chromate no change, copper discolored, brass slightly discolored. After 40 C for 24 h after room-temperature drying, same result. Loaded undried at 40 C for 24 h: iron no change, SUS no change, zinc chromate no change, copper discolored, brass discolored, aluminum slightly discolored.
+
+Usage: stir prior to use; remove moisture, oil and contaminants; apply as thin and uniformly as possible; laminate surfaces 5 to 10 min after applying; working temperature range -40 to 140 C. If brought into contact with water before drying, it dissolves; for water sealing, sufficiently dry after assembly.
+
+Storage: seal containers tightly and store dry/cool away from direct sunlight; do not store where it may freeze. Cautions: do not use for drinking water or hot water supply piping; can discolor or corrode some materials; if skinning occurs in the container remove skin and stir; dilution with water can change uncured characteristics.

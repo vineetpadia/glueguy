@@ -1,0 +1,11 @@
+Official WACKER ELASTOSIL A 95 GREY technical data sheet fallback extracted from the WACKER PDF because local Python automation receives an Incapsula HTML block page from wacker.com.
+
+Product: ELASTOSIL A 95 GREY, Moisture Curing Silicone Rubber (RTV-1). Most recent change: 03.10.2024. Description: one-part thixotropic sealant for soft, high-elongation adhesive joints subjected to relatively large movements in service. Properties: tenacious adhesion to most metals, plastics, synthetic rubbers, glass and concrete; resistant to hot lubricating oils; low modulus for superior sealant joint movement capability; low compressive modulus for compression gaskets on covers and closures with low clamping pressure; flexible between -54 C and +204 C; impervious to weathering and ultraviolet degradation; non-corrosive to ferrous metals.
+
+General and uncured properties: skin time 15 min at 25 C / 50% RH; appearance thixotropic paste by ASTM D 746; extrusion rate / mass flow 175 g/min through 0.125 inch nozzle at 90 psi; tack-free time 45 min at 25 C / 50% RH.
+
+Cured properties after 7 days at 25 C and 50% RH: specific gravity 1.4 g/cm3; hardness 18 Shore A by ASTM D 2240; tensile strength 200 psi; elongation at break 850% by ASTM D 412; modulus at 100% elongation 30 psi; continuous service temperature 175 C; intermittent service temperature 200 C; peel strength 14 ppi; volume swell 10.5%.
+
+Oil resistance: SAE motor oil exposure 336 h at 150 C gives hardness 10 Shore A, tensile strength 248 psi and elongation at break 665%.
+
+Application details: bulk dispense to hand or robot applicators with conventional drum and pail extruder pumps using high-pressure flexible fluid hoses. Hose pressure rating must exceed maximum pump output and hoses must be moisture impermeable. Surfaces must be clean and free of oil, grease, soaps and dust. Rubbers and plastics must be free of die lubricants and mold-release agents. Certain plastics such as polypropylene require flame treatment for maximum adhesion. Storage: best-use-before date is shown on certificate of analysis; storage beyond date requires checking properties. Values are guide figures and should not be used for preparing specifications.

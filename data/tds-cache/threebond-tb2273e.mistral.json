@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TECHNICAL BULLETIN\n\nThree Bond 2273E\n(One-Component Epoxy Resin for Induction bonding)\n\nThree Bond 2273E is a heat curing, one-component epoxy resin without solvent. This resin is specially developed for the instant induction curing with HF-coils and can be excellently used for bonding and fixing materials such as ferrite and steel.\n\n1. Features\n- Extremely simple application by means of automatic dispensing systems as the product is one-component and free from solvents (no weighing, stirring or mixing required).\n- The fast curing of the resin allows considerable energy savings and facilitates the automation of assembly works thus enabling an integration of On-Line manufacturing processes without requiring manual works.\n- As the resin contains more than 99 % of nonvolatile matters, there is only a minimal shrinkage and outgassing while curing.\n- The cured resin excels in excellent electric properties as well as in a great solidity and very good chemical resistance.\n\n2. Typical characteristics:\n\na. Table 1: Properties\n\n|  Test Item | Result | Unit  |\n| --- | --- | --- |\n|  Colour | White |   |\n|  Viscosity at 25°C | 70 | Pa·s  |\n|  Density at 25°C | 1.16 | g/cm³  |\n|  Curing time at 150°C (in oven) | 30 | Min.  |\n|  Shore-Hardness | 84 D |   |\n|  Shear strength Fe/Fe | 40 | MPa  |\n|  Glass transition temperature (DMA, E°) | 120 | °C  |\n|  Coefficient of thermal expansion α₁ | 67 x 10⁻⁶ | °C⁻¹  |\n|   |  194 x 10⁻⁶ | °C⁻¹  |\n|  Water absorption (100°C x 1 h) | + 1.8 | %  |\n|  Volume resistivity | 6.7 x 10¹³ | Ω·m  |\n|  Surface resistivity | 7.8 x 10¹⁵ | Ω  |\n|  Dielectric constant at 1 MHz | 3.12 |   |\n|  Dielectric dissipation factor at 1 MHz | 0.025 |   |\n|  Breakdown voltage | 31 | kV / mm  |\n|  Shelf life at 5°C | 7 | months  |",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TECHNICAL BULLETIN\n\nb. Table 2: Lap shear strength after Heat Aging\n\n|  Heat aging at 150°C | 2273E Lap shear (MPa)  |   |   |\n| --- | --- | --- | --- |\n|  Condition | AL/AL | Fe/Fe | Fe/ magnet  |\n|  Initial | 41.36 | 49.18 | 15.24  |\n|  1 week | 46.66 | 46.66 | 13.09  |\n|  2 week | 37.30 | 48.60 | 12.36  |\n|  3 week | 36.60 | 43.02 | 21.13  |\n|  4 week | 31.30 | 43.64 | 17.90  |\n|  6 week | 31.86 | 41.02 | 17.87  |\n\nNote: Magnet broke during the testing. Lap shear strength of Fe/ magnet would have resulted in higher values.\n\nc. Table 3: Lap shear strength after Thermal Shock\n\n|  Thermal Shock\n1 cycle: 120°C to -40°C for 1hour | 2273E Lap shear (MPa)  |   |   |\n| --- | --- | --- | --- |\n|  Condition | AL/AL | Fe/Fe | Fe/ magnet  |\n|  Initial | 41.36 | 49.18 | 15.24  |\n|  4 cycle | 42.77 | 42.53 | 11.80  |\n|  12 cycle | 45.37 | 45.87 | 15.10  |\n|  16 cycle | 41.37 | 49.00 | 12.95  |\n|  20 cycle | 44.63 | 45.27 | 9.100  |\n\nNote: Magnet broke during the testing. Lap shear strength of Fe/ magnet would have resulted in higher values.\n\nd. Table 4: Impact Strength Properties\n\n|  Condition | Substrate | Impact Toughness (kgf.cm/cm²)  |\n| --- | --- | --- |\n|  Initial | Fe /Fe | 45.54  |\n|  6 week Heat Aging at 150°C |   | 60.27  |\n|  20 cycles Thermal Shock\n(1 cycle: 120°C to -40°C for 1hour) |   | 68.47  |\n|  |   |   |\n|  Initial | Fe /Magnet | 12.86  |\n|  6 Week Heat Aging at 150°C |   | 9.82  |\n|  20 cycles Thermal Shock\n(1 cycle: 120°C to -40°C for 1hour) |   | 18.39  |\n\nNote: The magnets split and broke during testing, absorbing shock that would have resulted in higher values.\n\nThree Bond 2273E",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TECHNICAL BULLETIN\n\n## 3. Handling\n\n- Keep the epoxy resin tightly closed in the original container and store it in a dark, dry, sufficiently ventilated and cool place.\n- Before opening the container let the product reach room temperature as otherwise the formation of dew would be resulting.\n- In order to obtain optimal results remove humidity, fat and other impurities from the fitting surface.\n- According to the nature of the joints (width, surface roughness, and unevennesses) apply an appropriate quantity of epoxy resin uniformly on one of the fitting surfaces and join the parts immediately, position them correctly and fix them.\n- The degree of curing varies depending on the thickness of the coating, the ambient temperature and the duration of the process.\n- When a precision resin is used, changes in viscosity versus the ambient temperature are to be verified.\n- Resin once transferred into another container should not be returned to the original container. Excess sealant can be easily wiped off with a cloth.\n\n## 4. Size Packaging\n\n310 ml cartridges and 20 kg pail cans\n\nAll data given here were compiled to the best of our knowledge and are based on experiments and tests of our Company. We cannot guarantee the results obtained through the use of our products, and all products are sold and samples given without any warranty, expressed or implied, of fitness for any particular purpose or otherwise and upon condition that the user shall make his own tests to determine the suitability of the product for his purpose.\n\nThree Bond 2273E",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 86713
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,23 @@
+SEMICOSIL 9720 TC
+WACKER official TDS extract
+Source: https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf
+
+SEMICOSIL 9720 TC is a non-slump, thermally curable, addition-curing, one part silicone adhesive with excellent thermal conductivity.
+
+Property Condition Value Method
+Color - White
+Density 23 C 2.74 g/cm3 DIN EN ISO 1183-1 A
+Hardness Shore A 85 ASTM 2240
+Dielectric strength 25 C 10 kV/mm IEC 60243
+Thermal conductivity 1.9 W/m.K ASTM D 5470-12
+
+Applications
+- Bonding of electronic parts with heat sinks
+- Fixing electronic parts to circuit boards
+- Heat transmission glue for PCU modules
+
+Storage
+SEMICOSIL 9720 TC has a shelf life of at least 3 months when stored cool and dry in the originally sealed container.
+
+Most recent change: 07.01.2025
+

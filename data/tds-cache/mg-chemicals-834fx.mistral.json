@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "834FX\n\nMG Chemicals\n\n# Black Flexible Epoxy, Encapsulating &amp; Potting Compound\n\n834FX is a 2-part, flame-retardant, thermally conductive, flexible epoxy resin that provides extreme environmental, mechanical and physical protection for printed circuit boards and electronic assemblies.\n\nThis product is designed for applications where minimizing the physical stress on components is critical. It is good in low temperature and arctic environments, and in applications that involve temperature cycling or rapid temperature changes. It provides the functionality of silicone, but with the durability and cost-effectiveness of epoxy.\n\n# Features &amp; Benefits\n\n- Flexible and low modulus\n- Flame-retardant—meets UL 94V-0\n- Convenient 1A:1B volume mix ratio\n- Low exotherm\n- Good adhesion to a wide variety of substrates including metals, composites, glass, ceramics, and many plastics\n- Excellent electrical insulating characteristics\n- Non-halogenated flame-retardant fillers\n- Solvent-free\n\n# Cure Instructions\n\nAllow to cure at room temperature for 48 hours, or cure in an oven at one of these time/temperature options:\n\n|  Temperature | 65 °C | 80 °C | 100 °C  |\n| --- | --- | --- | --- |\n|  Time | 2 h | 1 h | 30 min  |\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  834FX-1.7L | 2 Can kit | 1.7 L | 2.75 kg  |\n|  834FX-40L | 2 Pail kit | 40 L | 64.7 kg  |\n\n# Storage and Handling\n\nStore between 16 and 27 °C in a dry area, away from sunlight (see SDS). Storage below 16 °C can result in crystallization.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 6.2",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 427,
+          "top_left_y": 140,
+          "bottom_right_x": 707,
+          "bottom_right_y": 430,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-epoxy-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "834FX\n\nMG Chemicals\n\n# Liquid Properties\n\n|  Chemistry | Epoxy | —  |\n| --- | --- | --- |\n|  Density | 1.6 g/mL (Mixed) | ASTM D1475  |\n|   |  1.6 g/mL (A)  |   |\n|   |  1.6 g/mL (B)  |   |\n|  Viscosity @ 25 °C | 15 000 cP (Mixed) | Brookfield Engineering labs Inc.  |\n|   |  8 000 cP (A) | IPCTM-65- Method 2.4.24.4  |\n|   |  16 000 cP (B)  |   |\n|  Mix Ratio | 1:1 (Volume) | —  |\n|   |  1:1 (Weight)  |   |\n|  Working Time a | 2.5 h | —  |\n|  Shrinkage | 1.6% | Calculated  |\n|  Shelf Life | 5 y | —  |\n\naBased on 100 g sample. Varies by volume and geometry.\n\n# Cured Properties\n\n|  Flame Retardancy | Meets UL 94V-0 | —  |\n| --- | --- | --- |\n|  Color | Black | —  |\n|  Density | 1.6 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range | -50–125 °C | —  |\n|  Intermittent Temperature | -55–165 °C | —  |\n|  Thermal Conductivity @ 25 °C | 0.6 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 1.4 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.3 mm²/s |   |\n|  Glass Transition Temperature (Tg) | 0.7 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 71 ppm/°C (Prior Tg) | ASTM E831  |\n|   |  137 ppm/°C (After Tg) |   |\n|  Hardness | 88 A | ASTM D2240  |\n|  Tensile Strength | 5.3 N/mm² | ASTM D638  |\n|  Compressive Strength | 21 N/mm² | ASTM D695  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 6.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-epoxy-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "834FX\n\nMG Chemicals\n\nCured Properties Continued\n\n|  Lap Shear | 3.7 N/mm² (Stainless Steel) | ASTM D1002  |\n| --- | --- | --- |\n|   |  2.7 N/mm² (Aluminum) |   |\n|   |  1.2 N/mm² (ABS) |   |\n|   |  1.6 N/mm² (PC) |   |\n|  Resistivity | 7.5 x 10¹¹ Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 41 400 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 330 V/mil |   |\n|  Dielectric Constant @ 1 MHz | 4.5 | ASTM D150  |\n|  Dissipation Factor @ 1 MHz | 0.04 |   |\n|  Chemical Absorption | 18 % (Acetone) | —  |\n|  Weight Gain, 30 days @ 25 °C | 25 % (Ethyl Acetate) |   |\n|   |  9 % (IPA) |   |\n|   |  6 % (Sulphuric Acid 3%) |   |\n|   |  3 % (10% NaOH) |   |\n|   |  6 % (10% NaCl) |   |\n|   |  3 % (Water) |   |\n|   |  0 % (Transmission Oil) |   |\n|   |  0.2 % (Transformer Oil) |   |\n|   |  21 % (Gasoline) |   |\n|  Weight Loss @ 155 °C (600 hrs) | 4.8 % | —  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 6.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-epoxy-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "834FX\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n# Mixing\n\n1. Scrape settled material free from the bottom and sides of the part A container; stir the contents until homogenous. Use a paint shaker if available.\n2. Measure 1 parts by volume of the part A and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n3. Measure 1 part by volume of the part B and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n4. Thoroughly and gently mix parts A and B together. Avoid introducing air bubbles.\n5. To de-air, let sit for 15 minutes or put in a vacuum chamber at 25 inHg for 2 minutes.\n6. If bubbles are present at the top, break them gently with the mixing paddle.\n7. Pour the mixture into a container holding the components to be protected.\n8. Close the part A and B containers tightly between uses to prevent skinning.\n\nIf crystallization/solidification occurs, reconstitute the product by warming to between 55 and 65 °C until it becomes fully re-liquified. Let the material cool to room temperature before mixing, to prevent flash cure.\n\nMixing &gt;1 kg at a time decreases working time and can lead to a flash cure. Limit the size of hand-mixed batches. For large production volumes, contact MG Chemicals Technical Support for assistance.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 6.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-epoxy-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 250847
+  },
+  "document_annotation": null
+}

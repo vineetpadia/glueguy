@@ -1,0 +1,92 @@
+{
+  "retailers": [
+    {
+      "name": "Home Depot",
+      "domain": "homedepot.com",
+      "siteQuery": "site:homedepot.com/p/"
+    },
+    {
+      "name": "Lowe's",
+      "domain": "lowes.com",
+      "siteQuery": "site:lowes.com/pd/"
+    }
+  ],
+  "makerQueries": [
+    {
+      "maker": "Henkel Loctite",
+      "terms": [
+        "Loctite PL Premium",
+        "Loctite Power Grab",
+        "Loctite Super Glue"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "terms": [
+        "DAP Weldwood contact cement",
+        "DAP RapidFuse",
+        "DAP Dynagrip"
+      ]
+    },
+    {
+      "maker": "Gorilla Glue",
+      "terms": [
+        "Gorilla wood glue",
+        "Gorilla construction adhesive",
+        "Gorilla super glue"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "terms": [
+        "J-B Weld epoxy",
+        "J-B Weld plastic bonder",
+        "J-B Weld clearweld"
+      ]
+    },
+    {
+      "maker": "3M",
+      "terms": [
+        "3M super 77 adhesive",
+        "3M Hi-Strength 90 adhesive"
+      ]
+    },
+    {
+      "maker": "Oatey / IPS Weld-On",
+      "terms": [
+        "Weld-On PVC cement",
+        "Oatey PVC cement"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "terms": [
+        "Titebond III Ultimate",
+        "Titebond II Premium",
+        "Titebond original wood glue"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "terms": [
+        "Liquid Nails Fuze It Max",
+        "Liquid Nails Heavy Duty",
+        "Liquid Nails Landscape Block"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "terms": [
+        "Elmer's carpenter's wood glue",
+        "Elmer's glue-all"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "terms": [
+        "E6000 craft adhesive",
+        "E6000 premium"
+      ]
+    }
+  ]
+}

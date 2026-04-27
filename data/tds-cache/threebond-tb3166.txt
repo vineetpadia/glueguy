@@ -1,0 +1,272 @@
+<!-- page: 0 -->
+
+TB3166
+
+# ThreeBond
+
+Nov. 17, 2017
+
+ThreeBond Co., Ltd.
+
+Technical Data
+
+ThreeBond 3166
+
+Ultra-soft type UV-curable silicone resin
+
+## 1. Product description
+
+ThreeBond 3166 is a silicone-based, solvent-free UV-curable resin. It cures by polymerization under irradiation of UV light within a short time and forms gel-like soft cured material having heat resistance and cold resistance. The cured resin is so soft that it has good sealing performance in a wide range of compression ratio and can reduce sealing failures under the influence of dimensional tolerances. It is suitable for CIPG* applications requiring dust and waterproofness.
+
+*CIPG is an abbreviation for Cured-In-Place Gasket.
+
+Hereinafter, ThreeBond is abbreviated to TB.
+
+## 2. Features
+
+(1) The resin can cure under irradiation with UV light (wavelength of 200 to 380 nm) for a short time.
+
+(2) After curing, maintains rubber elasticity over a wide temperature range (-40 to 120°C).
+
+(3) After application, has excellent shape retention before curing.
+
+(4) The cured resin is so soft that it is applicable at a high compression ratio.
+
+(5) Excelling in heat resistance, moisture resistance and sealability.
+
+## 3. Applications
+
+Case sealing of electrical and electronic parts and electrical components
+
+Elastic sealing application which requires heat and cold resistance
+
+## 4. Properties
+
+### 4.1 Properties
+
+Table 1 Properties of TB3166
+
+|  Test item | Unit | Result | Test method | Remarks  |
+| --- | --- | --- | --- | --- |
+|  Appearance | - | Blue | 3TS-2100-020 | -  |
+|  Viscosity | Pa·s | 330 | 3TS-2F00-007 | 25°C
+Shear rate: 2.0(s⁻¹)  |
+|  Structural viscosity ratio | - | 3.7 | 3TS-2F10-007 | 25°C
+Shear rate: 1.0(s⁻¹)/5.0(s⁻¹)  |
+|  Specific gravity | - | 1.01 | 3TS-2500-002 | 25°C  |
+
+ED2017045
+
+---
+
+<!-- page: 1 -->
+
+TB3166
+
+## 4.2 Flow curves
+
+Fig. 1 Flow curves of TB3166
+![img-0.jpeg](img-0.jpeg)
+Measuring device: HAKKE MARS III
+Geometry: C20/1
+Measuring conditions: Measured at $25^{\circ}\mathrm{C}$ after pre-shearing (shear rate $1.0(\mathrm{s}^{-1})\times 5\mathrm{min}$)
+
+## 4.3 Temperature-viscosity curve
+
+Fig. 2 Temperature-viscosity curve of TB3166
+![img-1.jpeg](img-1.jpeg)
+Measuring device: HAKKE MARS III
+Geometry: C20/1
+Shear rate: $2.0(\mathrm{s}^{-1})\times 5\mathrm{min}$
+Measuring conditions: Measured at each temperature after pre-shearing (shear rate $1.0(\mathrm{s}^{-1})\times 5\mathrm{min}$)
+
+ED2017045
+
+---
+
+<!-- page: 2 -->
+
+TB3166
+
+# 5. Characteristics
+
+## 5.1 Characteristics of cured sealant
+
+Table 2 Characteristics of TB3166 after curing
+
+|  Test item | Unit | Result | Test method | Remarks  |
+| --- | --- | --- | --- | --- |
+|  Hardness | – | E15 | 3TS-2B00-010 |   |
+|  Tensile strength | MPa | 0.8 | 3TS-4190-001 | No. 3 dumbbell  |
+|  Elongation | % | 500 | 3TS-4190-001 | No. 3 dumbbell  |
+|  Thick film curability | mm | 6.0 | 3TS-3160-001 |   |
+|  Cure shrinkage | % | 0.7 | 3TS-2600-001 | φ32, 1.5g  |
+|  Content of low molecular weight siloxane | ppm | 760 | Gas chromatography | D_{3} to D_{10}  |
+|  Compression set *1 (120°C×72h) | % | 34 | 3TS-4410-001 | 20% compression  |
+|   |   |  54 |   | 50% compression  |
+|   |   |  60 |   | 80% compression  |
+
+Curing conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm
+*1 Bead shape: 2 mm wide, 1.5 mm high, Measurement device: Three-dimensional non-contact measurement device made by Mitaka Optical
+
+## 5.2 Electrical characteristics
+
+Table 3 Electrical characteristics of TB3166
+
+|  Test item |   | Unit | Result | Test method  |
+| --- | --- | --- | --- | --- |
+|  Volume resistivity |   | Ω·m | 5.5×10^{11} | 3TS-5200-001  |
+|  Surface resistivity |   | Ω | 2.7×10^{12} | 3TS-5100-002  |
+|  Dielectric constant | 1kHz | – | 3.1 | 3TS-5220-001  |
+|   |  1MHz | – | 2.9  |   |
+|  Dielectric loss tangent | 1kHz | – | 0.008  |   |
+|   |  1MHz | – | 0.006  |   |
+|  Dielectric breakdown strength |   | kV/mm | 15.1 | 3TS-5230-001  |
+
+Curing conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm
+
+ED2017045
+
+---
+
+<!-- page: 3 -->
+
+TB3166
+
+# 5.3 Thermomechanical analysis
+
+Table 4 Thermomechanical properties of TB3166
+
+|  Test item |   | Unit | Result | Test method | Remarks  |
+| --- | --- | --- | --- | --- | --- |
+|  Linear expansion coefficient | α1 | ×10-6/°C | 226 | 3TS-4740-001 | -100 to -70°C  |
+|   |  α2 |   | 407 |   | 70 to 100°C  |
+
+Curing conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm
+
+# 5.4 Dynamic viscoelastic properties
+
+![img-2.jpeg](img-2.jpeg)
+Fig.3 Dynamic viscoelastic properties
+
+Table 5 Dynamic viscoelastic properties of TB3166
+
+|  Test item | Unit | Result | Test method | Remarks  |
+| --- | --- | --- | --- | --- |
+|  Storage modulus (E') | Pa | 5.6×10^5 | 3TS-4730-001 | 25°C  |
+|  Loss modulus (E") | °C | -51.7 |   | Peak value  |
+|  Loss tangent (tanδ) | °C | -39.6 |   | Peak value  |
+
+Curing conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm
+Measuring conditions: 1Hz
+
+ED2017045
+
+---
+
+<!-- page: 4 -->
+
+TB3166
+
+# 6. Durability
+
+![img-3.jpeg](img-3.jpeg)
+Fig. 4 Tensile strength after endurance test
+Curing conditions: UV dose 45kJ/m²
+Measurement conditions: 3TS-4190-001
+
+![img-4.jpeg](img-4.jpeg)
+Fig. 5 Elongation after endurance test
+Curing conditions: UV dose 45kJ/m²
+Measurement conditions: 3TS-4190-001
+
+![img-5.jpeg](img-5.jpeg)
+Fig. 6 Hardness after endurance test
+Curing condition: UV dose 45 kJ/m²
+Measurement conditions: 3TS-2B00-010
+
+ED2017045
+
+---
+
+<!-- page: 5 -->
+
+TB3166
+
+# 7. Sealing properties
+
+![img-6.jpeg](img-6.jpeg)
+Fig. 7 Pressure resistance at each compression ratio after endurance test at  $120^{\circ}\mathrm{C}$
+
+![img-7.jpeg](img-7.jpeg)
+Fig. 8 Shape of flange for endurance test
+
+Test conditions
+
+Flange used: Single-wall flange (Fig. 8)
+
+Pressurization medium: Air
+
+Pressure boosting condition:  $0.01\mathrm{MPa} / 15$  sec (maximum pressure:  $0.4\mathrm{MPa}$ )
+
+Bead shape:  $2\mathrm{mm}$  in width and  $1.5\mathrm{mm}$  in height
+
+Curing conditions: UV dose:  $45\mathrm{kJ} / \mathrm{m}^2$ , High-pressure mercury lamp, Main wavelength:  $365~\mathrm{nm}$ , Irradiation distance:  $15\mathrm{cm}$
+
+# 8. Directions for use
+
+(1) Do not inhale or ingest. Harmful to health. Do not inhale or ingest.
+(2) Harmful to the health. Do not directly touch nor inhale vapor. Wear appropriate protective clothing, such as a mask, goggles and gloves (impervious), and use the resin in a place equipped with a local exhaust system.
+(3) If swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.
+(4) If in eyes, repeatedly and sufficiently rinse with clean water, and get medical attention.
+(5) If it adheres to the skin, it may cause inflammation. Immediately wipe with cloth or paper, and wash the affected area with soap and water.
+(6) If any bodily abnormality occurs, discontinue use, and get medical attention. People who have allergies or susceptible skin should avoid handling it.
+(7) Keep out of reach of children.
+(8) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.
+(9) Some materials may deteriorate if TB3166 is used. The effects on the substrate should be confirmed in advance. If there are any problems, do not use.
+
+ED2017045
+
+---
+
+<!-- page: 6 -->
+
+TB3166
+
+(10) The curing speed varies depending on the type of light source and irradiation distance. Therefore, sufficiently confirm the curing speed prior to use. Particularly, the curing speed is greatly affected by the adhesive temperature and substrate surface temperature owing to changes in temperature and humidity in the room.
+
+(11) Some gas can be generated during application and curing with UV light. Forcibly ventilate the working area and the UV irradiation area.
+
+(12) If the product is transferred to another container, confirm whether or not there is an adverse effect on the curability prior to use. Do not return the product left unused to the container.
+
+(13) For detailed hazard information of the product, see the Safety Data Sheet (SDS).
+
+## 9. Storage
+
+To prevent deterioration and contamination, fit the cap tightly, and store it indoors in a dark dry place at -5 to 25°C away from sunlight, fire and heat sources.
+
+## 10. Disposal
+
+Entrust disposal of the product to a professional waste disposal company to dispose of it as industrial waste.
+
+Do not burn the product. It may generate toxic gas when burnt.
+
+## 11. Precautions
+
+For Industrial Use Only
+
+(Do not use for household purposes.)
+
+This product is developed for general industrial use. Before using this product, the user must accept the following terms:
+
+- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.
+- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.
+- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.
+- For detailed safety information of the product, see the Safety Data Sheets (SDS). To obtain the SDS, contact our sales office or customer service center.
+- Information in this document is subject to change at our own discretion.
+
+## 12. Registered trademark
+
+ThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.
+
+ED2017045

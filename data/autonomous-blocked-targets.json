@@ -1,0 +1,344 @@
+{
+  "entries": [
+    {
+      "maker": "Master Bond",
+      "name": "EP30DPBF",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-name-official-absent",
+      "checkedAt": "2026-04-22",
+      "evidence": [
+        {
+          "type": "official-search",
+          "url": "https://www.masterbond.com/search/node/EP30DPBF",
+          "result": "404"
+        },
+        {
+          "type": "canonical-tds",
+          "url": "https://www.masterbond.com/tds/ep30dpbf",
+          "result": "404"
+        },
+        {
+          "type": "nearest-official-match",
+          "url": "https://www.masterbond.com/tds/ep30dpbfmed",
+          "result": "Different official product; page states it is a new version of EP30DPMed."
+        }
+      ],
+      "note": "No current exact official Master Bond page was found for EP30DPBF. Do not treat EP30DPBFMed as the same SKU."
+    },
+    {
+      "maker": "Permabond",
+      "name": "MT3835",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-name-official-absent",
+      "checkedAt": "2026-04-22",
+      "evidence": [
+        {
+          "type": "official-search",
+          "url": "https://permabond.com/?s=MT3835",
+          "result": "No exact official Permabond product result"
+        },
+        {
+          "type": "canonical-tds",
+          "url": "https://permabond.com/tds/mt3835_tds-en/",
+          "result": "404"
+        },
+        {
+          "type": "nearest-official-match",
+          "url": "https://permabond.com/permabond-mt3836-flexible-fire-retardant-thermally-conductive-adhesive/",
+          "result": "Different official product: MT3836"
+        }
+      ],
+      "note": "No current exact official Permabond page was found for MT3835. Do not treat MT3836 as the same SKU."
+    },
+    {
+      "maker": "Permabond",
+      "name": "A905",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "ancillary-not-adhesive",
+      "checkedAt": "2026-04-23",
+      "evidence": [
+        {
+          "type": "official-tds",
+          "url": "https://permabond.com/tds/a905_tds-pt-br/?pdf",
+          "result": "Official TDS identifies A905 as an Anaerobic Surface Activator used with Permabond anaerobic adhesives and sealants."
+        }
+      ],
+      "note": "A905 is a surface activator/accelerator, not an adhesive product; exclude from the glue product backlog while retaining evidence."
+    },
+    {
+      "maker": "Permabond",
+      "name": "ASC10",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "ancillary-not-adhesive",
+      "checkedAt": "2026-04-23",
+      "evidence": [
+        {
+          "type": "official-tds",
+          "url": "https://permabond.com/tds/asc10_tds-pt-br/?pdf",
+          "result": "Official TDS identifies ASC10 as an Anaerobic Surface Conditioner / accelerator for Permabond anaerobic adhesives and sealants."
+        }
+      ],
+      "note": "ASC10 is a surface conditioner/accelerator, not an adhesive product; exclude from the glue product backlog while retaining evidence."
+    },
+    {
+      "maker": "Permabond",
+      "name": "QFS10",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "ancillary-not-adhesive",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-tds",
+          "url": "https://permabond.com/tds/qfs10_tds-en/?pdf",
+          "result": "Official TDS identifies QFS10 as a cyanoacrylate activator used to accelerate Permabond cyanoacrylate adhesive cure."
+        }
+      ],
+      "note": "QFS10 is an activator/accelerator, not an adhesive product; exclude from the glue product backlog while retaining evidence."
+    },
+    {
+      "maker": "Permabond",
+      "name": "QFS16",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "ancillary-not-adhesive",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-tds",
+          "url": "https://permabond.com/tds/qfs16_tds-en/?pdf",
+          "result": "Official TDS identifies QFS16 as a cyanoacrylate activator used to accelerate Permabond cyanoacrylate adhesive cure."
+        }
+      ],
+      "note": "QFS16 is an activator/accelerator, not an adhesive product; exclude from the glue product backlog while retaining evidence."
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA452",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "tds-unavailable-page-only",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-product-page",
+          "url": "https://permabond.com/products/permabond-ta452/",
+          "result": "Official page identifies TA452 as a low-odor 1:1 two-part toughened acrylic adhesive, but no official TDS/PDF or numeric technical data was exposed on the checked page."
+        }
+      ],
+      "note": "TA452 is adhesive-relevant, but page-only marketing claims are insufficient for the high-fidelity manual TDS catalog; keep blocked until an official TDS is found."
+    },
+    {
+      "maker": "3M Thermally Conductive / Thermal Interface",
+      "name": "TC-2035",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "nearest-3m-official-match-is-non-adhesive",
+      "checkedAt": "2026-04-26",
+      "evidence": [
+        {
+          "type": "official-product-page",
+          "url": "https://www.3m.com/3M/en_US/p/d/b5005035139/",
+          "result": "Official 3M page identifies the product as 3M Thermally Conductive Grease TCG-2035, under Lubricants > Thermally Conductive Greases, with 3M ID B5005035139. The page describes it as a thermal interface material for transferring heat to a heat sink/spreader, not as an adhesive."
+        },
+        {
+          "type": "nearest-3m-official-match",
+          "url": "https://multimedia.3m.com/mws/media/1439237O/3m-thermally-conductive-grease-2035.pdf?fn=TCG-2035-3M-Grease-TDS.pdf",
+          "result": "Official 3M TDS is for TCG-2035 Thermally Conductive Grease, not TC-2035 adhesive. Extracted non-adhesive TDS fields: gray color; inorganic thermally conductive filler; non-silicone polymer base; max particle diameter <40 micron; shear modulus G' = 3150 Pa at 25 C; density 2.92 g/cm3; dielectric constant 5.4 at 1 kHz; volume resistivity 1.36 x 10^9 ohm-cm; dielectric strength 4700 V/mm; thermal impedance 0.012 C-in2/W / 0.081 C-cm2/W by modified ASTM D5470; thermal conductivity 4.1 W/m-K by modified ASTM D5470; shelf life 9 months from manufacture at 21 C and 50% RH; application pressure about 1-25 psi; optional 40-50 C heat to lower viscosity for flow/gap thickness."
+        },
+        {
+          "type": "different-maker-exact-tds",
+          "url": "https://www.dow.com/documents/11/11-3367-01-dowsil-tc-2035-adhesive-tds.pdf?iframe=true",
+          "result": "Exact TC-2035 adhesive TDS found for DOWSIL TC-2035, a Dow product, and encoded separately as dow-dowsil-tc2035."
+        }
+      ],
+      "absentAdhesiveFields": [
+        "cureFamily",
+        "cureDetail",
+        "mixRatio",
+        "potLife",
+        "fixtureTime",
+        "lapShear",
+        "peelStrengthNPerM",
+        "tensileStrengthMPa",
+        "elongationPct",
+        "hardnessValue",
+        "bondStrength",
+        "adhesiveSubstrates"
+      ],
+      "note": "Do not satisfy the 3M TC-2035 seed with either non-adhesive 3M TCG-2035 grease or a different-maker Dow adhesive. The official 3M source is a grease/TIM, so it remains excluded from the adhesive catalog despite extractable thermal-interface fields."
+    },
+    {
+      "maker": "Aremco",
+      "name": "Pyro-Putty 653-CE",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "nearest-official-match-only",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "nearest-official-tds",
+          "url": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
+          "result": "Official Aremco bulletin lists Pyro-Putty 653; exact 653-CE suffix was not found on official Aremco sources checked."
+        }
+      ],
+      "note": "Nearest official Pyro-Putty 653 data is encoded as aremco-pyro-putty-653 with an explicit caution; keep exact 653-CE blocked until official suffix-specific TDS is found."
+    },
+    {
+      "maker": "Bostik / Born2Bond (Arkema)",
+      "name": "MM4001",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-official-tds-not-found",
+      "checkedAt": "2026-04-26",
+      "evidence": [
+        {
+          "type": "official-product-index",
+          "url": "https://born2bond.bostik.com/en/products/search",
+          "result": "Official Born2Bond product index lists Ultra K85, Ultra Gel, Light Lock, Flex, Repair, Structural, MP515, Ultra, Aquafast, Instant Tough, anaerobic families, HMPUR HHD Series, UV-CIPG AU Series, UV EE, LC 2100 Gel, LC 177, and service products, but no MM4001/MM-4001/MM 4001."
+        },
+        {
+          "type": "official-downloads",
+          "url": "https://born2bond.bostik.com/en/resources/downloads",
+          "result": "Official downloads page exposes technical data sheets for named Born2Bond products including XMA 5005, MP515, Structural, Flex, Repair, Ultra variants, HMPUR, anaerobics, UV-CIPG, UV EE and LC products, but contains no MM4001/MM-4001/MM 4001 entry."
+        },
+        {
+          "type": "official-catalog",
+          "url": "https://born2bond.bostik.com/storage/bostik-engineering-adhesives-product-catalogue-2025.pdf",
+          "result": "Official 2025 catalogue describes Born2Bond XMA methylmethacrylate adhesives and lists 2K MMA products as XMA 5005, XMA 3015 and XMA 5010; text search found no MM4001/MM-4001/MM 4001."
+        }
+      ],
+      "note": "Do not substitute XMA 5005, MP515 or Structural for MM4001 without an official mapping."
+    },
+    {
+      "maker": "DELO",
+      "name": "DUOPOX AD895",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-official-tds-not-found",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-family-page",
+          "url": "https://www.delo-adhesives.com/products/detail/delo-duopox",
+          "result": "Official family page describes DELO DUOPOX as 2-component epoxy resin adhesives, but does not expose exact AD895 numeric TDS data."
+        },
+        {
+          "type": "official-download-center",
+          "url": "https://www.delo-adhesives.com/service/download-center/",
+          "result": "DELO states current adhesive TDS files have moved to a portal and require registration."
+        }
+      ],
+      "note": "Family-level DELO DUOPOX claims are insufficient for the high-fidelity manual catalog; keep blocked until exact AD895 TDS is available."
+    },
+    {
+      "maker": "DELO",
+      "name": "PHOTOBOND 4497",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-official-tds-not-found",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-family-page",
+          "url": "https://www.delo-adhesives.com/products/adhesives/detail/delo-photobond/",
+          "result": "Official PHOTOBOND family page describes acrylate light-curing adhesives, but no exact public 4497 TDS values were verified."
+        },
+        {
+          "type": "official-download-center",
+          "url": "https://www.delo-adhesives.com/service/download-center/",
+          "result": "DELO states current adhesive TDS files have moved to a portal and require registration."
+        }
+      ],
+      "note": "Do not encode PHOTOBOND 4497 from family-level UV-cure descriptions or unverified snippets; exact TDS is required."
+    },
+    {
+      "maker": "DELO",
+      "name": "PHOTOBOND AC245",
+      "targetSource": "curated",
+      "targetKind": "product",
+      "status": "exact-official-tds-not-found",
+      "checkedAt": "2026-04-24",
+      "evidence": [
+        {
+          "type": "official-family-check",
+          "url": "https://www.delo-adhesives.com/products/adhesives/detail/delo-photobond/",
+          "result": "Official PHOTOBOND page shows public PHOTOBOND subfamilies but no exact AC245 page or TDS."
+        },
+        {
+          "type": "classification-conflict",
+          "url": "https://www.delo-adhesives.com/us/products/detail/delo-monopox",
+          "result": "Official DELO pages use AC for MONOPOX anisotropic conductive adhesive family, not verified as PHOTOBOND AC245."
+        }
+      ],
+      "note": "Treat PHOTOBOND AC245 as an unresolved/exact-name target; do not fill it with MONOPOX AC family data without official SKU mapping."
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1101",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "lead-product-mismatch",
+      "checkedAt": "2026-04-26",
+      "evidence": [
+        {
+          "type": "official-search",
+          "url": "https://threebond.com/download/tb1101",
+          "result": "301 → /tb1101 → 404"
+        },
+        {
+          "type": "nearest-official-match",
+          "url": "https://threebond.com/download/threebond-1102-solvent-based-liquid-gasket",
+          "result": "TB1102 TDS exists but is a different product (TB1101 has no dedicated page)"
+        }
+      ],
+      "note": "TB1101 has no dedicated product page or TDS on threebond.com; the discovery lead points to TB1102 which is a different product. Do not substitute TB1102 data for TB1101."
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB1772M",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "lead-product-mismatch",
+      "checkedAt": "2026-04-26",
+      "evidence": [
+        {
+          "type": "official-search",
+          "url": "https://threebond.com/download/tb1772m",
+          "result": "301 → /tb1772m → 404"
+        },
+        {
+          "type": "nearest-official-match",
+          "url": "https://threebond.com/download/threebond-1771m-instant-adhesive",
+          "result": "TB1771M TDS exists but is a different product"
+        }
+      ],
+      "note": "TB1772M has no dedicated product page or TDS on threebond.com; the discovery lead points to TB1771M (different SKU). Do not substitute TB1771M data for TB1772M."
+    },
+    {
+      "maker": "ThreeBond",
+      "name": "TB2027G",
+      "targetSource": "discovered",
+      "targetKind": "product",
+      "status": "lead-product-mismatch",
+      "checkedAt": "2026-04-26",
+      "evidence": [
+        {
+          "type": "official-search",
+          "url": "https://threebond.com/download/tb2027g",
+          "result": "301 → /tb2027g → 404"
+        },
+        {
+          "type": "nearest-official-match",
+          "url": "https://threebond.com/download/threebond-3027g-uv-curing-resin",
+          "result": "TB3027G TDS exists but is a different product"
+        }
+      ],
+      "note": "TB2027G has no dedicated product page or TDS on threebond.com; the discovery lead points to TB3027G (different product series). Do not substitute TB3027G data for TB2027G."
+    }
+  ]
+}

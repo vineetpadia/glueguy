@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3303N\n\n# ThreeBond\n\n# Technical Data\n\nOctober. 6, 2005\n\nThree Bond Co., Ltd.\n\n# ThreeBond 3303N\n\n# Silicone-based conductive adhesive for SMD quartz crystals\n\n## 1. Outline\n\nThreeBond 3303N is a heat-curing one-part silicone-based conductive adhesive. The adhesive has been developed particularly for support-less SMD quartz crystals. (Hereinafter, ThreeBond is abbreviated to TB.)\n\n## 2. Features\n\n(1) One-part silicone-based conductive adhesive. It can cure at 180°C in 60 min.\n(2) After curing, it shows relatively stable characteristics in a wide temperature range because its base material is a silicone resin.\n(3) Since it causes less skinning after applied, it is suitable for application in a minute quantity.\n\n## 3. Uses\n\n(1) Connection of piezoelectric elements and electrodes particularly of small quartz crystals, crystal oscillators and surface wave elastic filters\n(2) Spot bonding of various other parts and fixing of chip components\n\n## 4. Properties\n\nTable 1 Properties\n\n|  Item | Unit | Property | Test method  |\n| --- | --- | --- | --- |\n|  Appearance | - | Light yellow | 3TS-201-02  |\n|  Viscosity | Pa·s | 41 | 3TS-210-05 (*)  |\n\n*: EHD-type viscometer Number of revolutions: 0.5 rpm, Rotor: 1°34' for 24 hrs\n\nED070403",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3303N\n\n# 5. Characteristics\n\n## 5.1 Characteristics\n\nTable 2 Characteristics (after curing at 180°C for 60 min (in hot-air drying chamber))\n\n|  Item | Unit | Property | Test method  |\n| --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 2.3 × 10^{-6} | 3TS-401-03  |\n|  Chip bonding strength | MPa | 3.1 | 3TS-310-02\n(2∅ ceramic chip/glass sheet)  |\n|  Pencil scratch hardness | - | Softer than 6B | 3TS-215-05  |\n\n## 5.2 Dependence of viscosity and shear stress on shear rate\n\n![img-0.jpeg](img-0.jpeg)\n\nFig. 1 Dependence of viscosity and shear stress on shear rate\n\nTest method: 3TS-208-01\nTest temperature: 25°C\nRheometer system: VAR-50 made by REOLOGICA\nCone plate: 25 ∅, 4°\nMeasurement mode: The shear rate was swept from 0.1 to 100 (l/s) at a constant rate.\n\nED070403",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 92,
+          "top_left_y": 330,
+          "bottom_right_x": 620,
+          "bottom_right_y": 679,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3303N\n\n## 5.3 Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\n\nFig. 2 Temperature dependence of viscosity\n\nTest method: 3TS-208-03\nTest temperature: 10 to 30°C\nRheometer system: VAR-50 made by REOLOGICA\nCone plate: 25 Ø, 4°\nShear rate: 1.0 (l/s)\n\n## 6. Usage\n\n(1) Application\n\nTo apply the adhesive, use a syringe or an applicator having a nozzle inner diameter of 0.21 mm (27G) or more.\n\n(2) Curing\n\nAfter applying the adhesive and bonding the adherend, cure the adhesive heating at 180°C for 60 minutes in a hot-air drying chamber. After the heating, the adhesive finishes curing. For degassing and stress relieving, it is recommended to further age the adhesive at 200°C or more.\n\nED070403",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 122,
+          "top_left_y": 145,
+          "bottom_right_x": 597,
+          "bottom_right_y": 456,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3303N\n\n## 7. Instructions for use\n\n(1) Stirring prior to use: The conductive filler may have settled during storage. Sufficiently stir the adhesive to uniformly mix the filler prior to use.\n\n(2) Opening: If the container is opened in the refrigerated state, condensation may occur in the container. Open the container after it reaches room temperature.\n\n(3) Curing failure: Note that curing failure may be caused if the adhesive is brought into contact or mixed with substances, such as water, sulfur, phosphorus, nitrogen compounds and organic metal salt, which may become catalytic poisons.\n\n(4) For the details of safety, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nBefore and after using this product, store it in a refrigerator (-20 to 5°C) with the cap tightly closed.\n\n## 9. Disposal\n\nHave the product disposed of as industrial waste by authorized industrial waste disposal services.\n\n## 10. Cautions\n\nThe data given herein are not guaranteed values, but actual measurements obtained by us. Sufficiently examine the applicability of the product prior to use.\n\n**For industrial use only** (Do not use it for household products.)\n\nBefore using this product, you must accept the following sales terms.\n\n(1) The technical data given herein are experimental values obtained by our specified test methods. We do not absolutely guarantee the correctness and integrity of the data. Users are asked to examine by themselves whether the product is appropriate to the purpose of use before they use it and bear all responsibilities and hazards involved in its use. The scope of guarantee includes only replacement of clearly defective items.\n\n(2) We are not liable for personal injury or property damage caused by improper handling of this product.\n\n(3) We are not liable for any matter not mentioned herein unless otherwise specified in the contract.\n\nED070403",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 207841
+  },
+  "document_annotation": null
+}

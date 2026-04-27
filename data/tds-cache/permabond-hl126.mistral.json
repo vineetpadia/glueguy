@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® HL126\n\nAnaerobic Threadlocker\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Prevents vibration loosening\n- Controlled off-torque\n- Full cure at room temperature\n- Can be applied post assembly\n- Ideal for sealing weld porosity\n- Superior environmental resistance\n- Environmentally friendly – 100% solids\n\n# Description\n\nPERMABOND® HL126 Threadlocker is a water thin product for locking pre-assembled parts through wicking action.\n\nPERMABOND® HL126 Threadlocker prevents vibration loosening. Because of the low viscosity an additional use is the sealing of weld porosity; the uncured material penetrates the micro pores before curing. PERMABOND® HL126 Threadlocker cures reliably and fast on most metallic surfaces.\n\nMIL-S-22473E Grade AA\n\nMIL-S-46163A Type III Grade R\n\nEach lot of HL126 is tested to the lot requirements of these specifications.\n\nASTM D5363 AN 0261 Group 02 Class 6 Grade 1\n\nASTM D5363 AN 0111 Group 01 Class 1 Grade 1\n\nEach lot of HL126 is tested to the general requirements defined in paragraphs 5.1.1 and 5.1.2 and the detail requirements defined in section 5.2\n\n# Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Methacrylate esters  |\n| --- | --- |\n|  Appearance | Green  |\n|  Viscosity @ 25°C | 10 - 30 mPa.s (cP)  |\n|  Specific Gravity | 1.0  |\n\n# Typical Curing Properties\n\n|  Maximum gap fill\nMaximum thread size | 0.05 mm 0.001 in\nM10 ½\"  |\n| --- | --- |\n|  Time taken to reach handling\nstrength (M10 steel) @23°C | 15 minutes*  |\n|  Full strength (M10 steel) @23°C | 24 hours  |\n\n*Handling time at 23°C / 73°F. Copper and its alloys will make the adhesive cure more quickly, while oxidised or passivated surfaces (like stainless steel) will reduce\n\n# Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\nCure times are typical at 23°C. Copper and its alloys will follow the faster cure while oxidised or passivated surfaces like stainless steel will tend towards the slower curve. Lower temperatures or large gaps will tend to extend the cure time. To reduce the cure time the use of Permabond A905, ASC10, or heat can be considered.\n\n# Typical Performance of Cured Adhesive\n\n|  Torque strength (M10 steel\nISO10964) | Break 14 N·m 125 in.lb\nPrevail 34 N·m 300 in.lb  |\n| --- | --- |\n|  Shear strength (steel collar &\npin ISO10123) | 10-20 MPa (1450- 2900 psi)  |\n|  Coefficient of thermal\nexpansion | 90 x 10⁻⁶ mm/mm/°C  |\n|  Dielectric strength | 11 kV/mm  |\n|  Thermal conductivity | 0.19 W/(m.K)  |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HL126\n\nGlobal TDS Revision 4\n\n17 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 426,
+          "top_left_y": 224,
+          "bottom_right_x": 714,
+          "bottom_right_y": 444,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Hot Strength\n![img-1.jpeg](img-1.jpeg)\n\"Hot strength\" Breakaway strength on M10 Zinc plated bolts according to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes at testing temperature.\nHL126 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -55°C (-65°F) depending on the materials being bonded.\n\nChemical Resistance\n\n|  340 Hour immersion | Temperature, °C (°F) | % Strength retained  |\n| --- | --- | --- |\n|  Water | 75 (168) | 100  |\n|  Butyl alcohol | 75 (168) | 100  |\n|  Toluene | 75 (168) | 99  |\n|  Motor oil | 75 (168) | 99  |\n|  Hydrocarbon test fluid | 75 (168) | 100  |\n|  JP4-Jet fuel | 75 (168) | 93  |\n|  JP5-Jet fuel | 75 (168) | 100  |\n|  Ethylene glycol | 75 (168) | 99  |\n\nThis product is not recommended for use in contact with oxygen, oxygen rich systems and other strong oxidizing materials. This product may adversely affect some thermoplastics and users must check compatibility of the product with such substrates before using.\n\n# Surface Preparation\n\nThough the anaerobic adhesives will tolerate a slight degree of surface contamination, best results are obtained on clean, dry and grease free surfaces. The use of a suitable solvent-based cleaner (such as acetone or isopropanol) is recommended.\n\nIn general, roughened surfaces (~25μm) give higher bond strengths than polished or ground surfaces.\n\nTo reduce the curing time, especially on inactive surfaces (such as zinc, aluminium and stainless steel), the use of Permabond A905 or ASC10 can be considered.\n\n# Directions for Use for Threadlocking\n\n1) Prevent the tip from touching metal surfaces during application.\n2) When working with through holes, dispense a bead of material across the contact length of the threads.\n3) When working with blind holes, apply several drops down the threads to the bottom of the hole.\n4) Assemble and torque the parts as necessary.\n5) Replace lid to bottle to avoid contamination of remaining liquid adhesive.\n\n# Directions for Use for Threadlocking Post Assembly\n\n1) Assemble and torque the parts as necessary.\n2) Prevent the tip from touching metal surfaces during application.\n3) Dispense HL126 over fastener. The HL126 will wick into the joint to lock set screws against vibration loosening or to act as a tamper-proof agent.\n\n# Directions for Use for Weld Sealing\n\n1) Expose the weld. Remove dirt, rust, scale, and/or paint from the weld area to expose the metal surface.\n2) Bleed the system of all water and pressure to allow the HL126 to wick into the porosities.\n3) Heat the area to 50°C – 100°C (120°F-300°F). Using heat will expand and activate the metal as well as evaporate any water. HEAT SHOULD NOT BE USED WITH A CHEMICAL SYSTEM. Consult the MSDS for information on the flash point, flammability and heat stability of the chemicals involved.\n4) Apply HL126 to the warm welds with a brush, swab or clean rag. Wet the area thoroughly with the product so that it can wick into all the open areas within the metal and form a new seal.\n5) If the porosity is large or there are several pin-holes in the same area, several applications may be necessary\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HL126\nGlobal TDS Revision 4\n17 October 2016\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 49,
+          "top_left_y": 119,
+          "bottom_right_x": 369,
+          "bottom_right_y": 337,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "to maximize the amount of HL126 that wicks into the voids to assure a permanent seal.\n\n6) Within five to ten minutes the product should cure with the capability of handling a low pressure. Within an hour it should be able to handle 200psi to 500psi of pressure. Recharging of a sprinkler system can be done after that period.\n7) After an hour wipe away any surface residue.\n\n## Video Link\n\nThreadlocker directions for use: https://youtu.be/-Ueg0QO10pQ\n\n![img-2.jpeg](img-2.jpeg)\n\n## Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n|  Users are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene. Full information can be obtained from the Safety Data Sheet.  |   |\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n## Other Products Available\n\n### Anaerobics\n\n- Thread lockers\n- Thread sealants\n- Gasket makers\n- Sealants / retainers\n\n### Cyanoacrylates\n\n- Instant adhesives\n- For rapid bonding of metals, plastics, rubber and many other materials\n\n### Epoxies\n\n- Two-part room temperature cure adhesives\n- Single-part heat cure adhesives\n- Modified Technology (MT) flexible grades available\n\n### MS-Polymers\n\n- Single-part, moisture-curing, flexible sealants\n\n### Polyurethanes\n\n- Two-part room temperature curing adhesives\n\n### Toughened Acrylics\n\n- Rapid curing, high strength structural adhesives\n\n### UV Light Cured Adhesives\n\n- Glass / plastic bonding\n- Optically clear\n- Non-yellowing\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HL126\n\nGlobal TDS Revision 4\n\n17 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 282,
+          "top_left_y": 249,
+          "bottom_right_x": 339,
+          "bottom_right_y": 306,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/-Ueg0QO10pQ"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 291536
+  },
+  "document_annotation": null
+}

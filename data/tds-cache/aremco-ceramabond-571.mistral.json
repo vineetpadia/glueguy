@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "AREMCO\n\nHIGH TEMPERATURE CERAMIC ADHESIVES\n\nTechnical Bulletin A2-S1\n\n![img-0.jpeg](img-0.jpeg)\nCeramabond™ 569 bonds flex heater to quartz vessel.\n\n![img-1.jpeg](img-1.jpeg)\nCeramabond™ 835-M bonds halogen lamp.\n\n![img-2.jpeg](img-2.jpeg)\nCeramabond™ 503 coats heater used to 1700 °C.\n\n![img-3.jpeg](img-3.jpeg)\nCeramabond™ 503 coats spiral cantilevered sensor.\n\n![img-4.jpeg](img-4.jpeg)\nUltra-Temp™ 516 seals heater assembly.\n\nAremco's high temperature ceramic adhesives are formulated using a broad range of ceramics fillers and inorganic binders, and are ideal for bonding, potting and sealing ceramics, composites, graphite, refractory metals, quartz, and semiconductors for applications to 3200 °F (1760 °C).\n\n|  Part No. | Filler | Bonding* | Principal Use  |\n| --- | --- | --- | --- |\n|  503 | Al₂O₃ | C-C | Dense Ceramics; Alumina-to-Alumina  |\n|  520 |   | C-C | High Purity Alumina Fiberboard & Refractories  |\n|  552 |   | C-C, C-M | Solid Oxide Fuel Cells; Low CTE Metals  |\n|  569 |   | C-C, C-M, Quartz | Probes, Sensors, Resistors, Igniters, Heaters  |\n|  670 |   | C-C, C-M | Ceramic Textiles, Thread-Locking  |\n|  671 |   | C-C, C-M, M-M | Ceramic Textiles, Thread-Locking  |\n|  835-M |   | C-C, C-M, Quartz | Halogen Lamps  |\n|  865 | AlN | C-C, C-M | Probes & Sensors; Thermal Conductivity  |\n|  600-N | Al₂O₃ – SiO₂ | C-C, C-M | Refractory Repair  |\n|  571 | MgO | C-M, M-M | Heaters, Induction Coils, Sensors  |\n|  618-N | SiO₂ | C-C, Quartz | Porous Ceramics, Quartz Tubes & Vessels  |\n|  516 | ZrO₂ – ZrSiO₄ | C-C, C-M | Thermocouples, Semiconductor Wafers  |\n|  835 |   | C-C, C-M | Halogen Lamps  |\n|  885 | ZrO₂ | C-C | Zirconia, Solid Oxide Fuel Cells  |\n|  885-K |   | C-M |   |\n|  890 | SiC | C-C | Crucibles, Heaters, Sagger Plates  |\n|  890-K |   | C-M | Probes, Sensors, Infrared Heaters  |\n\n*C-C = Ceramic-to-Ceramic  C-M = Ceramic-to-Metal  M-M = Metal-to-Metal\n\n## TYPICAL APPLICATIONS\n\n### Electrical\n- Halogen Lamps\n- Heaters\n- Igniters\n- Fiberoptics\n- Resistors\n- Solid Oxide Fuel Cells\n\n### Instruments &amp; Sensors\n- Gas Chromatographs\n- High Vacuum Components\n- Liquid Metal Inclusion Counters\n- Mass Spectrometers\n- Oxygen Analyzers\n- Strain Gauges\n- Semiconductors\n- Temperature Probes\n\n### Mechanical\n- Ceramic Honeycombs\n- Ceramic Textiles\n- Graphite Blocks\n- Refractory Insulation\n- Sagger Plates\n- Thread-Locking\n\nAremco Products, Inc., 707-B Executive Boulevard, Valley Cottage, NY 10989 T (845) 268-0039 E aremco@aremco.com W aremco.com\n\nRev. 8/25",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 137,
+          "bottom_right_x": 455,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 463,
+          "top_left_y": 137,
+          "bottom_right_x": 587,
+          "bottom_right_y": 260,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 597,
+          "top_left_y": 137,
+          "bottom_right_x": 719,
+          "bottom_right_y": 260,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 463,
+          "top_left_y": 304,
+          "bottom_right_x": 587,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 597,
+          "top_left_y": 304,
+          "bottom_right_x": 719,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "# CERAMABOND™ — HIGH TEMPERATURE CERAMIC ADHESIVES PROPERTIES\n\n|  Part Number |   | 503 | 520 | 552 | 569 | 570 | 571 | 835-M | 600-N | 865  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  Major Constituent |   | Al₂O₃ |   |   |   |   |   |   | Al₂O₃ – SiO₂ | AlN  |\n|  Color |   | White | White | White | White | White | White | White | Tan | Gray  |\n|  Temperature Limit, °F (°C) |   | 3000 (1650) | 3000 (1650) | 3000 (1650) | 3000 (1650) | 3000 (1650) | 3200 (1760) | 3000 (1650) | 3000 (1650) | 3000 (1650)  |\n|  No. Components |   | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1  |\n|  Viscosity, cP |   | 50,000–90,000 | 1,000–3,000 | 53,000–73,000 | Paste | 2,500–5,000 | 40,000–80,000 | 30,000–40,000 | 5,000–15,000 | Paste  |\n|  Specific Gravity, g/cc |   | 2.35–2.55 | 2.60–2.65 | 1.90–2.20 | 2.15–2.30 | 1.80–1.95 | 2.05–2.15 | 2.35–2.45 | 2.00–2.05 | 1.95–2.15  |\n|  CTE, in/in/°F × 10⁻⁹ (°C) |   | 4.0 (7.2) | 4.0 (7.2) | 4.3 (7.7) | 4.2 (7.6) | 4.3 (7.7) | 4.3 (7.7) | 4.0 (7.2) | 3.0 (5.4) | 1.5 (2.7)  |\n|  Pressure | Mix Ratio, powder:liquid | NA | NA | NA | NA | NA | NA | NA | NA | NA  |\n|   |  Thinner | 503-T | 520-T | 552-T | 569-T | 670-T | 671-T | 835-M-T | 600-T | 865-T  |\n|   |  Solvent | Water | Water | Water | Water | Water | Water | Water | Water | Water  |\n|   |  Application Temperature, °F | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90  |\n|   |  Storage Temperature, °F | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90  |\n|   |  Shelf Life, months | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6  |\n|  Coke | Air Set, hrs | ≤1 | 1–2 | 1–4 | 1–4 | 1–4 | 1–4 | 1–4 | 1–4 | 1–4  |\n|   |  Heat Cure, °F, hrs | 200, 2\n+ 500, 2\n+ 700, 2 | 200, 2\n+ 800, 1 | 200, 2\n+ 500, 2 | 200, 2 | 200, 2 | 200, 2 | 200, 2 | 200, 2\n+ 350, 1 | 200, 2\n+ 350, 2\n+ 500, 2  |\n|   |  Dielectric Strength, volts/mil @ RT | 171 | 171 | 173 | 138 | 142 | 182 | 163 | 203 | 187  |\n|  Torque Strength, ft-lbs¹ |   | 60 | 10 | 52 | 38 | 60 | 57 | 63 | 14 | 27  |\n|  Moisture Resistance² |   | Good | Good | Excellent | Excellent | Excellent | Excellent | Good | Excellent | Excellent  |\n|  Alkali Resistance³ |   | Fair | Good | Good | Good | Good | Excellent | Excellent | Good | Good  |\n|  Acid Resistance³ |   | Excellent | Good | Good | Excellent | Good | Good | Good | Good | Good  |\n\nFootnotes\n¹ Tested using a torque wrench after bonding a pre-oxidized ½\"–13 nut and bolt and final curing at 1000 °F.\n² Properties were evaluated after curing at 700 °F for 2 hours.\n\nGeneral Notes\n1. Ceramabond adhesives do not contain volatile organic compounds (VOCs).\n2. Special pigments available upon request.\n3. Many adhesives including 503, 516, 552, 569, 571, 618-N, 671, 835-M, and 890 can be formulated using 1-5 micron ceramic powders. Add \"-VFG\" to the part number (eg. 503-VFG).\n\nAbbreviations\nNA Not Applicable\nNM Not Measured",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 791,
+        "width": 1023
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "# CERAMABOND™ — HIGH TEMPERATURE CERAMIC ADHESIVES PROPERTIES\n\n|  Part Number |   | 571 | 618-N | 890 | 890-K | 516 | 835 | 885 | 885-K  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  Major Constituent |   | MgO | SiO₂ | SiC |   | ZrO₂ – ZrSiO₄ |   | ZrO₂  |   |\n|  Color |   | Off-White | Off-White | Blue-Gray | Blue-Gray | Tan | Tan | Tan | Tan  |\n|  Temperature Limit, °F (°C) |   | 3200 (1760) | 3000 (1650) | 3000 (1650) | 3000 (1650) | 3200 (1760) | 3000 (1650) | 3200 (1760) | 3200 (1760)  |\n|  No. Components |   | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1  |\n|  Viscosity, cP |   | 20,000–90,000³ | 40,000–60,000 | 35,000–55,000 | 10,000–40,000 | 40,000–70,000 | 20,000–40,000 | 10,000–20,000 | 10,000–30,000  |\n|  Specific Gravity, g/cc |   | 1.90–2.20 | 1.80–1.90 | 1.70–1.75 | 2.35–2.45 | 2.15–2.30 | 2.25–2.35 | 2.65–2.70 | 2.65–2.70  |\n|  CTE, in/in/°F × 10⁻⁹ (°C) |   | 7.0 (12.6) | 3.3 (5.9) | 2.4 (4.4) | 3.0 (5.4) | 4.1 (7.4) | 4.0 (7.2) | 4.0 (7.2) | 4.2 (7.6)  |\n|  Pressure | Mix Ratio, powder:liquid | 1.0:1.0, 1.5:1.0 | NA | NA | NA | NA | NA | NA | NA  |\n|   |  Thinner | 571-T | 618-N-T | 890-T | 890-K-T | 516-T | 835-T | 885-T | 885-K-T  |\n|   |  Solvent | Water | Water | Water | Water | Water | Water | Water | Water  |\n|   |  Application Temperature, °F | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90 | 50–90  |\n|   |  Storage Temperature, °F | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90 | 40–90  |\n|   |  Shelf Life, months | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6  |\n|  Coke | Air Set, hrs | 1–4 | 1–4 | ≤1 | 1–4 | 1–4 | ≤1 | ≤1 | 1–4  |\n|   |  Heat Cure, °F, hrs | 200, 2 | 200, 2\n+ 500, 2\n+ 700, 2 | 200, 2\n+ 500, 2\n+ 700, 2 | 200, 2\n+ 500, 2 | 200, 2\n+ 500, 2\n+ 700, 2 | 200, 2 | 200, 2\n+ 500, 2\n+ 700, 2 | 200, 2\n+ 500, 2  |\n|   |  Dielectric Strength, volts/mil @ RT | 91 | 156 | 73 | 95 | 188 | 111 | 105 | 88  |\n|  Torque Strength, ft-lbs¹ |   | 22 | 77 | 40 | 50 | 50 | 50 | 40 | 20  |\n|  Moisture Resistance³ |   | Excellent | Excellent | Good | Good | Good | Good | Good | Good  |\n|  Alkali Resistance³ |   | Good | Good | Good | Good | Excellent | Good | Good | Good  |\n|  Acid Resistance³ |   | Fair | Good | Good | Good | Good | Good | Good | Good  |\n\nFootnotes\n¹ Tested using a torque wrench after bonding a pre-oxidized ½\"–13 nut and bolt and final curing at 1000 °F.\n² Properties were evaluated after curing at 700 °F for 2 hours.\n³ Ceramabond™ 571 ranges for viscosity and specific gravity reflect a powder-to-liquid mix ratio that ranges from 1-to-1 to 1.5-to-1.\n\nGeneral Notes\n1. Ceramabond adhesives do not contain volatile organic compounds (VOCs).\n2. Special pigments available upon request.\n3. Many adhesives including 503, 516, 552, 569, 571, 618-N, 671, 835-M, and 890 can be formulated using 1-5 micron ceramic powders. Add \"-VFG\" to the part number (eg. 503-VFG).\n\nAbbreviations\nNA Not Applicable\nNM Not Measured",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 791,
+        "width": 1023
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "# DESIGN GUIDELINES\n\nGeneral design criteria for bonding with ceramic adhesives are similar to those for epoxy adhesives. Main considerations include the coefficient of thermal expansion, joint design, glue line thickness, and operating environment.\n\n## Coefficient of Thermal Expansion\n\n![img-5.jpeg](img-5.jpeg)\nCERAMIC-TO-METAL RECOMMENDED DESIGN\n\nDue to the high thermal loading implicit in most ceramic adhesive applications, the joint design should account for the difference in the coefficient of thermal expansion between the adhesive and the components that are being joined. In the illustration above, note that the \"poor\" design loads the adhesive in tension since the metal expands faster than the ceramic. The \"good\" design allows for this thermal mismatch and loads the adhesion in compression, offering higher reliability.\n\n## Joint Design\n\nMost adhesives offer relatively poor tensile-shear strength, so it is important to design a joint that will distribute the mechanical stress by maximizing the length of the glue line as shown in this illustration.\n\n![img-6.jpeg](img-6.jpeg)\nCERAMIC-TO-CERAMIC RECOMMENDED JOINT DESIGN\n\n## Glue Line Thickness\n\nThe clearance between mating parts at operating temperature should be 2–8 mils (50–200 microns). Less than 2 mils will prevent uniform adhesion; greater than 8 mils will often result in cohesive shear failure within the adhesive. A maximum depth of 0.25\" is recommended when using a ceramic adhesive for a small potting application.\n\n## Operating Environment\n\nThese adhesives offer excellent chemical, electrical and ultra high thermal resistance, and do not outgas under high vacuum. The main limitations are (a) relatively low mechanical strength and (b) slight porosity after curing. Contact Aremco for suggestions about how to reduce porosity and produce gas-tight seals.\n\n# APPLICATION PROCEDURES\n\n## Surface Preparation\n\nSmooth surfaces are difficult to bond and should be etched, abrasive blasted or oxidized, then cleaned thoroughly prior to application. Aremco's Corr-Prep™ CPR2000 is recommended for etching metals. Porous substrates should be pre-coated with a binder (thinner) to prevent separation and absorption of the adhesive binder. Add a \"-T\" to the part number (eg. 503-T) to designate the product thinner.\n\n## Mixing\n\nOne-part adhesives tend to settle and should be mixed thoroughly prior to use. Refer to Tech Bulletin A12 for information about Aremco's Model 7000 Pneumatic Mixer. Mix ratios for two-part adhesives are shown in the Property Chart. Viscosity may be adjusted by thinning up to 20% by weight.\n\n## Application\n\nApply a thin coat of adhesive to each surface using a brush, spatula or dispenser. Using a clamp or similar tool, maintain a uniform glue line of 2–8 mils (50–200 microns) by applying even pressure across the assembly. Wipe away excess material prior to drying. Refer to Tech Bulletin A12 for optional dispensing tools.\n\n![img-7.jpeg](img-7.jpeg)\nModel 7000 Mixer\n\n## Curing\n\nRefer to the Property Chart for specific curing instructions for each product. A ramp rate of ~5 °F per minutes is recommended. If any blistering occurs, repeat curing process by slowing down the ramp rate. Blistering may be caused by an excessively quick release of water vapor from the adhesive.\n\nNote that Ceramabond adhesives cure by dehydration. Although the primary outgassing by-product is water vapor, small amounts of inorganic binder and ceramic filler may also attach to the water vapor during the curing cycle. Although most of the dehydration occurs at 200–350 °F, chemically absorbed water may remain until the adhesive is exposed to temperatures in excess of 700–800 °F.\n\n## Cleanup\n\nUncured material can be cleaned with warm water and soap. Cured material can often be removed using warm water and ultrasonics. Cured material that has been cycled to ultra-high temperatures is more difficult to remove; it can be softened sometimes with warm water and ultrasonics, but a strong acid such as HCl may be required for removal. Mechanical abrasion may also be necessary.",
+      "images": [
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 106,
+          "top_left_y": 235,
+          "bottom_right_x": 363,
+          "bottom_right_y": 356,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 118,
+          "top_left_y": 591,
+          "bottom_right_x": 320,
+          "bottom_right_y": 726,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 570,
+          "top_left_y": 353,
+          "bottom_right_x": 713,
+          "bottom_right_y": 507,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "![img-8.jpeg](img-8.jpeg)\nCeramabond™ 571 coats copper induction heater.\n\n![img-9.jpeg](img-9.jpeg)\nCeramabond™ 571 coats oxygen sensor.\n\n![img-10.jpeg](img-10.jpeg)\nCeramabond™ 571 bonds thermocouple to glass.\n\n![img-11.jpeg](img-11.jpeg)\nCeramabond™ 618-N bonds porous ceramic filter elements.\n\n![img-12.jpeg](img-12.jpeg)\nCeramabond™ 671 used as a high temp threadlocker.\n\n![img-13.jpeg](img-13.jpeg)\nCeramabond™ 503 repairs furnace saggar plate.\n\n![img-14.jpeg](img-14.jpeg)\nCeramabond™ 835-M bonds heat sink to halogen lamp.\n\n![img-15.jpeg](img-15.jpeg)\nUltra-Temp™ 516 bonds thermocouple to quartz tube.\n\n![img-16.jpeg](img-16.jpeg)\nCeramabond™ 835 bonds halogen lamp.\n\n![img-17.jpeg](img-17.jpeg)\nCeramabond™ 552 seals thermocouple in metal housing.\n\n![img-18.jpeg](img-18.jpeg)\nCeramabond™ 835-M bonds cover to halogen lamp.\n\n![img-19.jpeg](img-19.jpeg)\nCeramabond™ 835-M bonds halogen lamp.",
+      "images": [
+        {
+          "id": "img-8.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 90,
+          "bottom_right_x": 279,
+          "bottom_right_y": 250,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-9.jpeg",
+          "top_left_x": 287,
+          "top_left_y": 90,
+          "bottom_right_x": 501,
+          "bottom_right_y": 250,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-10.jpeg",
+          "top_left_x": 509,
+          "top_left_y": 90,
+          "bottom_right_x": 721,
+          "bottom_right_y": 250,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-11.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 300,
+          "bottom_right_x": 279,
+          "bottom_right_y": 459,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-12.jpeg",
+          "top_left_x": 287,
+          "top_left_y": 300,
+          "bottom_right_x": 501,
+          "bottom_right_y": 459,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-13.jpeg",
+          "top_left_x": 509,
+          "top_left_y": 300,
+          "bottom_right_x": 721,
+          "bottom_right_y": 459,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-14.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 511,
+          "bottom_right_x": 279,
+          "bottom_right_y": 670,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-15.jpeg",
+          "top_left_x": 287,
+          "top_left_y": 511,
+          "bottom_right_x": 501,
+          "bottom_right_y": 670,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-16.jpeg",
+          "top_left_x": 509,
+          "top_left_y": 511,
+          "bottom_right_x": 721,
+          "bottom_right_y": 670,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-17.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 721,
+          "bottom_right_x": 279,
+          "bottom_right_y": 880,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-18.jpeg",
+          "top_left_x": 287,
+          "top_left_y": 721,
+          "bottom_right_x": 501,
+          "bottom_right_y": 880,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-19.jpeg",
+          "top_left_x": 509,
+          "top_left_y": 721,
+          "bottom_right_x": 721,
+          "bottom_right_y": 880,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "CERAMIC ADHESIVE SELECTOR CHART\n\n|   | Material | CTE °F (°C) | S03 | S20 | S52 | S69 | 670 | 671 | 835-M | 600-N | 865 | S71 | 618-N | 890 | 890-K | 516 | 825 | 885 | 885-K  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|   |   |  | Al₂O₃ |   |   |   |   |   |   | Al₂O₃ – SiO₂ | AIN | MgO | SiO₂ | SiC |   | ZrO₂ – ZrSiO₄ |   | ZrO₂  |   |\n|  CERAMIC | Alumina | 4.4 (7.9) | • | • | • | • | • | • | • |  |  | x |  |  |  |  |  |  |   |\n|   |  Alumina-Silica | 1.8 (3.2) |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |   |\n|   |  Aluminum Nitride | 1.5 (2.7) |  |  |  |  |  |  |  |  | • |  | x |  |  |  |  |  |   |\n|   |  Beryllia | 4.1 (7.4) | • |  | x | x | x | x | x |  |  |  |  |  |  | x | x | x |   |\n|   |  Boron Carbide | 2.6 (4.7) | x |  |  |  |  |  |  |  |  |  |  | x |  |  |  |  |   |\n|   |  Boron Nitride | 4.2 (7.6) | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |\n|   |  Borosilicate Glass | 1.8 (3.2) | x |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |   |\n|   |  Calcium Silicate | 3.0 (5.4) |  |  |  |  | • |  |  |  |  |  |  |  |  |  |  |  |   |\n|   |  Ceramic Textile | – |  |  |  |  | • | x |  |  |  |  |  |  |  |  |  |  |   |\n|   |  Cordierite | 1.1 (2.0) |  |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |   |\n|   |  Graphite | 4.3 (7.7) | x |  |  |  |  |  |  |  |  |  |  | x |  |  |  |  |   |\n|   |  Macor | 5.2 (9.4) |  |  | x | • | x | x | x |  |  | x |  |  |  |  |  |  |   |\n|   |  Mica | 4.7 (8.5) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |\n|   |  Mullite | 3.0 (5.4) | x |  | x | x | x |  |  |  |  |  |  |  |  | x | x |  |   |\n|   |  Quartz | 0.30 (0.54) | x |  |  | x |  |  | x |  |  |  | • |  |  |  | x |  |   |\n|   |  Refractory, Dense | – | • | • |  |  |  |  |  |  |  |  |  | • | • |  |  | x |   |\n|   |  Refractory, Porous | – |  | • |  |  |  |  |  | • |  |  |  |  |  |  |  |  |   |\n|   |  Sapphire | 4.2 (7.6) | • |  |  | x | x |  | x |  |  |  |  |  |  |  |  |  |   |\n|   |  Silica | 0.31 (0.56) |  |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |   |\n|   |  Silicon Carbide | 2.9 (5.2) | x |  |  |  |  |  |  |  |  |  |  | • | • |  |  |  |   |\n|   |  Silicon Nitride | 1.8 (3.2) | x |  |  |  |  |  |  |  | x |  | x | x |  |  |  |  |   |\n|   |  Steatite | 4.0 (7.2) |  |  | x | • |  | x | x |  |  |  |  |  |  |  | • |  |   |\n|   |  Zirconia | 5.7 (10.3) |  |  |  |  |  |  |  |  |  |  |  |  |  | x | x | • | •  |\n|   |  Zirconia Silicate | 4.0 (7.2) |  |  |  |  |  |  |  |  |  |  |  |  |  | • | • | x |   |\n|   |  Aluminum | 15.0 (27.0) |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |  |   |\n|   |  Brass | 10.2 (18.4) |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |  |   |\n|   |  Cast Iron | 5.9 (10.6) |  |  | x | x | x | x | x |  |  | • |  |  |  |  |  |  |   |\n|   |  Copper | 9.3 (16.7) |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |  |   |\n|   |  Inconel | 6.4 (11.5) |  |  | x | x | x | x | x |  |  | • |  |  |  |  |  |  |   |\n|   |  Molybdenum | 2.9 (5.2) |  |  | x | • | x | x | x |  |  |  |  |  |  | x | x |  |   |\n|  Nickel | 7.2 (13.0) |  |  |  |  |  |  |  |  |  | • |  |  |  |  |  |  |   |   |\n|  Nickel-Iron | 2.6 (4.7) |  |  | x | • | x | x | x |  |  |  |  |  |  | x | x |  |   |   |\n|  Platinum | 4.9 (8.8) | • |  | x | x | x |  |  |  |  |  |  |  |  |  |  |  |   |   |\n|  Silicon | 1.6 (2.9) |  |  |  |  |  |  |  |  | x |  |  |  |  | x | x |  |   |   |\n|  Silver | 10.6 (19.1) |  |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |   |   |\n|  Stainless (300 Series) | 9.6 (17.3) |  |  |  |  |  |  |  |  |  | x |  |  | x |  |  |  | x  |   |\n|  Stainless (400 Series) | 6.2 (11.2) |  |  | x | x | x | x | x |  |  | • |  |  | x | x | x |  | x  |   |\n|  Steel (1010) | 6.5 (11.7) |  |  | x | x | x | x | x |  |  | • |  |  | x | x | x |  | x  |   |\n|  Tantalum | 3.9 (7.0) |  |  | x | x | x | x | x |  |  | x |  |  | x | x | x |  |   |   |\n|  Titanium | 5.8 (10.4) |  |  | x | x | x | x | x |  |  | • |  |  | x | x | x |  | x  |   |\n|  Tungsten | 2.5 (4.5) |  |  | x | • | x | x | x |  |  |  |  |  |  | x | x |  |   |   |\n\n• = Preferred, x = Applicable\n\nRefer to Price List for availability of sample kits and complete order information.\n\nAremco Products makes no warranty express or implied concerning the use of this product.\n\nThe user assumes all risk of use or handling whether or not in accordance with directions or suggestions, or used singly or in combination with other products.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 791,
+        "width": 1023
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 566111
+  },
+  "document_annotation": null
+}

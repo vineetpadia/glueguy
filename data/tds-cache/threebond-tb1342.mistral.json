@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1342 – ANAEROBIC SEALANT\n\n## Information\n\nTB1342 is a low strength, removable type thread locking adhesive. Since the TB1342 is an anaerobic adhesive, it will not set so long as it is in contact with air. TB1342 is characterized by consistent torque strength after heat and certain chemical exposure. It also hardens without shrinkage at normal temperatures.\n\n## Application\n\nUsed for various adhesive-fastening applications where non-permanent bonding required.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Blue Liquid  |\n|  Viscosity | mPa • s (cP) | 140 (140)  |\n|  Specific gravity | - | 1.06  |\n\n### 2. Cured Material\n\n|  Material | Units | Value  |\n| --- | --- | --- |\n|  Recommended Clearance | mm | 0.005 ~ 0.01  |\n|  Maximum Clearance | mm | 0.13  |\n|  Breakloose Torque (Steel)\nAfter 6 hrs | N • m (kgf • cm) | 6.9 (69)  |\n|  Breakloose Torque (Steel)\nAfter 24 hrs | N • m (kgf • cm) | 8.1 (81)  |\n|  Set time (Steel bolts) | Minutes | <60  |\n|  Servicable Temperature | °C | -40 ~ 150  |\n\nThese are typical properties and not product specifications.\n\nRev: 0.1\nIssued Date: 5/8/02\nDocument Control Number: 3-TB-20-0467",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 86533
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,21 @@
+Official ThreeBond TB2488 OCR fallback extracted from the official scanned PDF because pdftotext returns a blank text layer.
+
+Product: ThreeBond 2488 pre-coated bolts MEC process, water-based acrylic type for nut. Technical Data, August 25, 2010, Three Bond Co., Ltd., document ED2010061.
+
+Product description: acrylic-based locking agent for pre-coated nuts. Water-based microencapsulated threadlocking agent; microcapsules break when the fastener is screwed and acrylic resin reacts with curing agent to prevent threaded-joint loosening.
+
+Features: medium fixing strength; heat resistance locking 130 C at 50% projection rate; minimum nut diameter M3; standard drying 25 C for 24 h. Projection rate = nut thread protrusion / bolt diameter x100. Applications: nut locking. Properties: primary component acrylic resin; color blue.
+
+Curing-rate average fixing strength / breaking torque in N.m, M10 x P1.5 zinc chromate bolt/nut, 30 N.m tightening torque, 50% projection rate: -5 C: 0.5h 34.4, 3h 37.8, 6h 38.4, 12h 39.7, 24h 40.6, 48h 41.4, 72h 42.3. 5 C: 34.9, 38.3, 38.4, 40.4, 42.9, 43.4, 43.8. 10 C: 36.7, 39.8, 40.0, 41.1, 42.0, 43.7, 45.2. 25 C: 37.8, 40.6, 41.7, 42.4, 44.9, 45.0. 40 C: 38.6, 41.7, 42.2, 43.1, 44.3, 45.1.
+
+Projection-rate average fixing strength in N.m: 0% 41.7, 25% 43.8, 50% 44.9, 75% 43.5, 100% 43.0, 125% 43.3, 150% 41.0.
+
+Average fixing strength by nut size in N.m after 25 C x24 h at 50% projection rate: M3 P0.35 1.0, M4 P0.7 2.1, M6 P1.0 9.9, M8 P1.25 18.9, M10 P1.25 44.5, M10 P1.5 44.9, M12 P1.25 65.6, M12 P1.5 63.2, M12 P1.75 63.0, M14 P2.0 110.8.
+
+Average fixing strength by material in N.m, M10 P1.5, 50% projection rate: plain steel 43.1, zinc plating chromate 44.9, chromium plating 42.5, nickel plating 40.8, unichrome plating 41.5, black oxide 40.8, SUS304 41.1, brass 36.5, aluminum 22.4.
+
+Chemical resistance average fixing strength in N.m: blank 44.9, NaOH 10% aq 25 C x7d 40.3, gas oil 40 C x7d 41.2, gasoline 40 C x7d 43.5, n-hexane 40 C x7d 41.9, methanol 40 C x7d 44.2, water 100 C x7d 42.0, ethylene glycol 100 C x7d 42.3, ethylene glycol 50% aq 100 C x7d 40.3, engine oil 100 C x7d 40.2, turbine oil 100 C x7d 41.2, AT oil 100 C x7d 41.3, gear oil 100 C x7d 39.5.
+
+Heat deterioration average fixing strength in N.m after 25 C x24 h cure, 50% projection rate: 100 C initial 44.9, 7d 42.3, 14d 41.2, 21d 40.0, 28d 39.9; 120 C initial 44.9, 7d 40.5, 14d 40.4, 21d 39.4, 28d 38.3; 150 C initial 44.9, 7d 38.6, 14d 37.7, 21d 37.4, 28d 36.8.
+
+Average fixing strength by 2 h test temperature in N.m: 25 C 44.9, 60 C 37.5, 80 C 36.4, 100 C 34.7, 120 C 33.4, 130 C 31.4, 150 C 27.4, 180 C 21.1. Typical values only, not product specifications.

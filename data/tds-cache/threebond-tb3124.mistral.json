@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3124\n\nThreeBond\n\nMay 18, 2004\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 3124\n\n# UV-curing resin for organic EL panels\n\n## 1. Outline\n\nThreeBond 3124 is a UV-curing epoxy resin that cures at a wavelength of 200 to 400 nm. Since it can cure in several seconds under irradiation with UV light, it is helpful in increasing the speed of production line, and, since it excels in moisture absorption resistance and moisture permeation resistance, it contributes toward improvement of panel reliability.\n\nAlthough it can cure under irradiation only with UV light, it develops more stable adhesion when it is annealed.\n\nSince it was developed as a sealant for organic EL panels, it has low moisture absorption and low moisture permeability. It is suitable for glass-to-glass and glass-to-SUS bonding and sealing.\n\n## 2. Features\n\n1. Grade developed as a sealant for organic EL panels\n2. One-part non-solvent UV-curing epoxy resin\n3. Curing in several seconds under irradiation with UV light\n4. Low moisture permeability helpful in improvement of display reliability\n5. No cobwebbing and excellent dispensing performance\n6. 20-µm glass fiber contained as a gap material\n\n## 3. Use\n\nFor sealing organic EL panels\n\n## 4. Properties\n\n### 4.1 Properties\n\nTable 1 Properties\n\n|  Test item | Unit | Property | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Pinkish white | 3TS-201-01 | -  |\n|  Viscosity | Pa·s | 270 | 3TS-210-05 | EHD-type rotary viscometer *1)  |\n|  Specific gravity | - | 1.41 | 3TS-213-02 | Specific gravity cup  |\n\n*1) Use of 3\" R14 cone rotor Number of rotations: 1\n\nED080506",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3124\n\n## 4.2 Flow curves (rheometer)\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Viscosity curve and flow curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve\n\nED080506",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 142,
+          "top_left_y": 136,
+          "bottom_right_x": 575,
+          "bottom_right_y": 441,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 158,
+          "top_left_y": 511,
+          "bottom_right_x": 536,
+          "bottom_right_y": 810,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3124\n\n## 4.3 Physical characteristics of cured resin\n\nTable 2 Characteristics of cured resin\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness |  | D78 | 3TS-215-01 | 25°C  |\n|  Moisture absorption | % | 0.6 | 3TS-233-03 |   |\n|  Cure shrinkage | % | 3.5 | 3TS-228-01 |   |\n|  Tensile shear bond strength | MPa | 9.5 | 3TS-301-13 | Glass/glass *1)  |\n|   |   |  8.6 | 3TS-301-13 | SUS/glass *1)  |\n|  Moisture permeability | g/m²·24h | 80 | JIS K 7129 | 80°C × 95%RH  |\n|   |   |  30 |   | 60°C × 95%RH *2)  |\n|  Glass transition point | °C | 134 | 3TS-501-04 | DMA method, 1 Hz, E” peak  |\n|   |   |  153 | 3TS-501-04 | DMA method, 1 Hz, tanδ peak  |\n|  Linear expansion coefficient | 1/K | 35 × 10⁻⁶ | 3TS-501-05 | TMA method  |\n|  Dynamic viscoelasticity | GPa | 5.3 (25°C) | 3TS-501-04 | DMA method, elastic modulus (E’)  |\n|   |   |  3.7 (100°C)  |   |   |\n|  Electrical characteristics |  |  | 3TS-401-01 | Conforming to JIS K 6911  |\n|  Volume resistivity | Ω·m | 4.7 × 10¹⁴ | 3TS-402-01 |   |\n|  Surface resistivity | Ω | 1.0× 10¹⁵( | 3TS-405-01 |   |\n|  Dielectric constant | 50 Hz | 3.85 | 3TS-405-01 |   |\n|   |  1 kHz | 3.81 | 3TS-405-01 |   |\n|  Dielectric loss tangent | 50 Hz | 0.0047 | 3TS-405-01 |   |\n|   |  1 kHz | 0.0043 | 3TS-405-01 |   |\n\nIrradiation conditions: High-pressure mercury vapor lamp (HMW-244-11CM), 4 kW\nDominant wavelength: 365 nm\nIrradiation distance: 15 cm\nIntegrated light intensity: 60 kJ/m²\nIlluminance: 100 mW/cm²\n\nHeating conditions after irradiation with UV light: Heating for 1 hr at 80°C\nHeating conditions after irradiation with UV light: Heating for 20 hrs at 150°C (moisture permeability, glass transition point and linear expansion coefficient)\n\nRemarks:\n*1) Glass material failure\n*2) Specimen thickness: 150 μm\n\n## 5. Instructions for use\n\n(1) The curing speed varies depending on the type of light source and irradiation distance. Check the curing speed prior to use.\n(2) The resin is harmful to the health. Do not touch it directly or inhale its vapor. Adhesion of the resin to the skin may cause an inflammation. If it adheres to the skin, immediately wipe it away with a cloth or paper, and wash the skin with soap and water. If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention.\n\nED080506",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3124\n\n(3) When using it, wear appropriate protective clothings, such as a mask, gloves (impervious) and goggles. Use it in a place equipped with a local exhaust system.\n\n(4) If any abnormality is found in the body, stop using it, and get medical attention. People who have allergies or sensitive skin should avoid using it.\n\n(5) Since it contains harmful components, it must not be used for drinking water or hot water supply piping. Before using it, sufficiently confirm whether the method and purpose of use are appropriate.\n\n(6) Do not remove the product into other containers. Do not return the product left unused to its container.\n\n(7) Some materials may deteriorate if this product is used. Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n\n(8) To prevent deterioration or entry of foreign matter, fit the cap tightly after using it.\n\n(9) Store the product at -5 to 10°C away from light.\n\n(10) It is refrigerated. Use it after it reaches room temperature.\n\n(11) Use and store it out of reach of children.\n\n(12) It is designated as a non-pharmaceutical deleterious substance. Be sure to store it in a locked cabinet.\n\n(13) Although its flash point is low, it should be carefully stored and handled.\n\n## 6. Applicable laws\n\nPoisons and Deleterious Substances Control Law: Non-pharmaceutical deleterious substance, antimony compound, 0.7%\n\nFire Defense Law: Flammable, fourth class, third type petroleum product, epoxy adhesive, hazard class III\n\n## 7. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nED080506",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3124\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact our sales department or customer service office.\n- This document is subject to change at our discretion.\n\nED080506",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 165377
+  },
+  "document_annotation": null
+}

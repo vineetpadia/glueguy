@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® LM113\n\nAnaerobic Threadlocker\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Prevents vibration loosening\n- Controlled off-torque\n- Full cure at room temperature\n- Low strength for easy disassembly\n- Lubricates threads for easier assembly\n- Provides corrosion protection\n- Superior environmental resistance\n- Environmentally friendly – 100% solids\n\n# Description\n\nPermabond® LM113 Threadlocker is a medium viscosity product for locking small threaded fasteners, such as screws and bolts or hydraulic fittings that might require disassembly. Due to its thixotropic viscosity, the liquid adhesive will not run away from the area of application. PERMABOND's LM113 Threadlocker cures reliably and fast on steel, cadmium, zinc and other plated fasteners.\n\nMil -S-46163A Type II Grade M\n\nEach lot of LM113 is tested to the lot requirements of these specifications.\n\nASTM D5363 AN 0311 Group 03 Class 1 Grade 1\n\nEach lot of LM113 is tested to the general requirements defined in paragraphs 5.1.1 and 5.1.2 and the detail requirements defined in section 5.2\n\n## Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Methacrylate esters  |\n| --- | --- |\n|  Appearance | Purple  |\n|  Viscosity @ 25°C | 1,200 mPa.s (cP)\nThixotropic  |\n|  Specific gravity | 1.1  |\n\n## Typical Curing Properties\n\n|  Maximum gap fill\nMaximum thread size | 0.15 mm 0.006 in\nM20 ¾\"  |\n| --- | --- |\n|  Time taken to reach handling\nstrength (M10 steel) @23°C | 15 minutes*  |\n|  Full strength (M10 steel) @23°C | 24 hours  |\n\n*Handling time at 23°C / 73°F. Copper and its alloys will make the adhesive cure more quickly, while oxidised or passivated surfaces (like stainless steel) will reduce cure speed. To reduce curing time, use Permabond activator A905 or ASC10 alternatively, increasing the curing temperature will reduce curing time.\n\n# Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\n* Cure times are typical at 23°C. Copper and its alloys will follow the faster cure while oxidized or passivated surfaces like stainless steel will tend towards the slower curve. Lower temperatures or large gaps will tend to extend the cure time. To reduce the cure time the use of Permabond A905, ASC10, or heat can be considered.\n\n## Typical Performance of Cured Adhesive\n\n|  Torque strength (M10 steel ISO10964) | Break 9 N·m\nPrevail 5 N·m | 80 in.lb\n40 in.lb  |\n| --- | --- | --- |\n|  Shear strength (steel collar & pin ISO10123) | 5 MPa 750 psi  |   |\n|  Coefficient of thermal expansion | 90 x 10⁻⁶ mm/mm/°C  |   |\n|  Dielectric strength | 11 kV/mm  |   |\n|  Thermal conductivity | 0.19 W/(m.K)  |   |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond LM113\n\nGlobal TDS Revision 4\n\n18 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 426,
+          "top_left_y": 191,
+          "bottom_right_x": 714,
+          "bottom_right_y": 392,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Hot Strength\n![img-1.jpeg](img-1.jpeg)\nLM113\nHigh Temperature Grades\nHigh Strength Grades\n\n\"Hot strength\" Breakaway strength on M10 Zinc plated bolts according to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes at testing temperature.\n\nLM113 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -55°C (-65°F) depending on the materials being bonded.\n\n## Chemical Resistance\n\n|  Immersion (340 hours) | Temperature °C (°F) | Strength Retention (%)  |\n| --- | --- | --- |\n|  Water | 75 (168) | 100  |\n|  Butyl alcohol | 75 (168) | 100  |\n|  Toluene | 75 (168) | 99  |\n|  Motor oil | 75 (168) | 99  |\n|  Hydrocarbon test fluid | 75 (168) | 100  |\n|  JP4-Jet fuel | 75 (168) | 93  |\n|  JP5-Jet fuel | 75 (168) | 100  |\n|  Ethylene glycol | 75 (168) | 99  |\n\nThis product is not recommended for use in contact with oxygen, oxygen rich systems and other strong oxidizing materials. This product may adversely affect some thermoplastics and users must check compatibility of the product with such substrates before using.\n\n## Surface Preparation\n\nThough anaerobic adhesives will tolerate a slight degree of surface contamination, best results are obtained on clean, dry and grease free surfaces. The use of a suitable solvent-based cleaner (such as acetone or isopropanol) is recommended. To reduce the curing time, especially on inactive surfaces (such as zinc, aluminium and stainless steel), the use of Permabond® A905 or ASC10 can be considered.\n\n## Directions for Use\n\n1) Prevent the tip from touching metal surfaces during application.\n2) When working with through holes, dispense a bead of material across the contact length of the threads.\n3) When working with blind holes, apply several drops down the threads to the bottom of the hole.\n4) Assemble and torque the parts as necessary.\n5) Replace lid to bottle to avoid contamination of remaining liquid adhesive.\n\n## Video Link\n\nThreadlocker directions for use: https://youtu.be/-Ueg0QO10pQ\n\n![img-2.jpeg](img-2.jpeg)\n\n## Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n|  Users are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene. Full information can be obtained from the Safety Data Sheet.  |   |\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond LM113\n\nGlobal TDS Revision 4\n\n18 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 73,
+          "top_left_y": 131,
+          "bottom_right_x": 363,
+          "bottom_right_y": 284,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 635,
+          "top_left_y": 474,
+          "bottom_right_x": 694,
+          "bottom_right_y": 531,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/-Ueg0QO10pQ"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 347693
+  },
+  "document_annotation": null
+}

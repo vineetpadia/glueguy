@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "DYMAX\n\n# Dual-Cure 9482\n\n# Light + Moisture-Cure Conformal Coating\n\n## APPLICATIONS\n\n- Conformal Coating\n\n## FEATURES\n\n- UV/Visible Light Cure\n- Secondary Moisture Cure\n- Superior Reworkability\n- Thermal Shock Resistance\n- Low VOC\n\n## OTHER FEATURES\n\n- Bright Blue Fluorescence\n- Chemical Resistance\n- MIL-I-46058C Listed\n- Meets IPC-CC-830B\n- UL 94V-0 Flammability\n- UL 746-E\n\nDymax dual-cure 9482 is a light- and moisture-cure reworkable conformal coating, especially formulated to ensure complete cure for coating that flows underneath components on printed circuit boards. Coating in shadow areas cures over time with ambient moisture. This conformal coating fluoresces a vivid blue when exposed to UV light (365 nm) for easy inspection of coating coverage. Dymax 9482 is engineered for coating thicknesses up to 0.254 mm (0.010 in). Dymax dual-cure materials contain no nonreactive solvents. Their ability to UV cure in seconds enables faster processing, greater output, and lower processing costs. When cured with Dymax light-curing spot lamps, focused-beam lamps, or flood lamps, they deliver ideal speed and performance for conformal coating applications. Dymax lamps offer the optimum balance of UV and visible light for the fastest, deepest cures. This product is in full compliance with RoHS directives 2015/863/EU.\n\n## UNCURED PROPERTIES *\n\n|  Property | Value | Test Method  |\n| --- | --- | --- |\n|  Solvent Content | No Nonreactive Solvents | N/A  |\n|  Chemical Class | Acrylated Urethane | N/A  |\n|  Appearance | Clear/Light Yellow Liquid | N/A  |\n|  Soluble in | Organic Solvents | N/A  |\n|  Density, g/ml | 1.09 | ASTM D1875  |\n|  Viscosity, cP | 1,100 (nominal) | ASTM D2556  |\n|  Shelf Life at Recommended Conditions from Date of Manufacture | 12 months | N/A  |\n\n## CURED MECHANICAL PROPERTIES *\n\n|  Property | Value | Test Method  |\n| --- | --- | --- |\n|  Durometer Hardness (UV Only) | A60 | ASTM D2240  |\n|  Durometer Hardness | D70 | ASTM D2240  |\n|  Tensile at Break, MPa [psi] | 15.8 [2,300] | ASTM D638  |\n|  Elongation at Break, % | 26 | ASTM D638  |\n|  Modulus of Elasticity, MPa [psi] | 275 [40,000] | ASTM D638  |\n|  Glass Transition Tg, °C | 71 | ASTM D5418  |\n|  CTEα1, μm/m/°C | 100 | ASTM E831  |\n|  CTEα2, μm/m/°C | 148 | ASTM E831  |\n\n## OTHER CURED PROPERTIES *\n\n|  Property | Value | Test Method  |\n| --- | --- | --- |\n|  Refractive Index (20°C) | 1.51 | ASTM D542  |\n|  Boiling Water Absorption, % (2 h) | 1.3 | ASTM D570  |\n|  Water Absorption, % (25°C, 24 h) | 0.4 | ASTM D570  |\n|  Linear Shrinkage, % | 2.0 | ASTM D2566  |\n|  Thermal Shock, -65°C to 125°C | 50 cycles | MIL-I-46058C  |\n|  Flammability | V0 | UL 94  |\n|  Dielectric Withstand Voltage | >1500 volts | MIL-I-46058C  |\n|  Moisture Resistance | Passes | MIL-I-46058C  |\n|  Fungus Resistance (ASTM G21-13) | Passes | MIL-I-46058C  |\n\n## ELECTRICAL PROPERTIES *\n\n|  Property | Value | Test Method  |\n| --- | --- | --- |\n|  Dielectric Constant (1 MHz) | 4.09 | ASTM D150  |\n|  Dissipation Factor (1 MHz) | 0.06 | ASTM D150  |\n|  Volume Resistivity, ohm-cm | 1.63E+14 | ASTM D257  |\n|  Surface Resistivity, ohm | 2.06E+13 | ASTM D257  |\n|  Dielectric Breakdown Voltage, kV/mm [V/mil] | 43 [1,100] | ASTM D149  |\n\n* Not Specifications\n\nN/A Not Applicable\n\nMeasured after UV cure followed by 15 days at 25°C/50% RH\n\n© 2023 Dymax Corporation. All rights reserved.\n\nAll trademarks in this guide, except where noted, are the property of, or used under license by Dymax Corporation, U.S.A.\n\nTechnical Data Collected PRIOR TO 2012 Rev.02/15/2023\n\nREACH\n\nRoHS",
+      "images": [],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1019,
+        "width": 758
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "DYMAX\n\nELECTRONIC CIRCUIT BOARD MATERIALS\n\n9482 Product Data Sheet\n\n|  ADHESION  |   |\n| --- | --- |\n|  Substrate | Recommendation  |\n|  Lead Frame | ☑  |\n|  Ceramic | ○  |\n|  PCB | ☑  |\n|  Flex | ☑  |\n|  Silicon | ☑  |\n\n☑ Recommended\n○ Limited Applications\n○ Requires Surface Treatment (e.g. plasma, corona treatment, etc.)\n\n# CURING GUIDELINES\n\nUV-curing guidelines for 9482 at 0.003 in (0.076 mm)\n\n|  Dymax Curing System (Intensity) | Fixture Time or Belt Speed  |\n| --- | --- |\n|  5000-EC (225 mW/cm²)ᴬ | 50 s  |\n|  BlueWave® 200 (10 W/cm²)ᴬ | 5 s  |\n|  UVCS Conveyor with Fusion D lamp (2.5 W/cm²)ᴮ | 1.5 m/min [5 ft/min]  |\n|  UVCS Conveyor with one 5000-EC (250 mW/cm²)ᴮ | 0.3 m/min [1 ft/min]  |\n\nᴬ Intensity was measured over the UVA range (320-395 nm) using a Dymax ACCU-CAL™ 50 Radiometer.\nᴮ Intensity was measured over the UVA range (320-395 nm) using a Dymax ACCU-CAL™ 160 Radiometer.\n\n# SECONDARY MOISTURE CURE\n\nA combination of light and moisture cure is required to achieve full cured mechanical properties. Moisture is also used as a secondary cure mechanism for shadow areas that cannot be cured with light. While moisture cure time in shadow areas is typically 2-3 days at 25°C [77°F], 50% RH, actual moisture cure time is application specific and may vary. For material that has been light cured, typical full property development is after 7 days at 25°C [77°F], 50% RH.\n\nCure time for both light cured and shadow areas depends on humidity level, amount of material in shadow areas, and its proximity to humidity. Material entrapped under large components may have a prolonged cure time. Exposure to heat (typically 40°C-60°C) and higher relative humidity will accelerate cure.\n\nFull cure is best determined empirically by curing at different times and intensities, and measuring the corresponding change in cured properties such as tackiness, adhesion, hardness, etc. Full cure is defined as the point at which more light exposure no longer improves cured properties.\n\nDymax recommends that customers employ a safety factor by curing longer and/or at higher intensities than required for full cure. Although Dymax Application Engineering can provide technical support and assist with process development, each customer must ultimately determine and qualify the appropriate curing parameters required for their unique application.",
+      "images": [],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1019,
+        "width": 758
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "DYMAX\n\nELECTRONIC CIRCUIT BOARD MATERIALS\n\n9482 Product Data Sheet\n\n# DEPTH OF CURE\n\nThe graphs below show the increase in depth of cure as a function of exposure time with two different lamps at different intensities. A 9.5 mm [0.37 in] diameter specimen was cured in a polypropylene mold and cooled to room temperature. It was then released from the mold and the cure depth was measured.\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n\n# OPTIMIZING PERFORMANCE AND HANDLING\n\n1. This product cures with exposure to UV light, visible light, and moisture. Exposure to ambient light and ambient moisture should be kept to a minimum before curing. Dispensing components including needles and fluid lines should be 100% light blocking, not just UV blocking.\n2. All surfaces in contact with the material should be clean and free from flux residue, grease, mold release, or other contaminants prior to dispensing the material.\n3. Cure speed is dependent upon many variables, including lamp intensity, distance from the light source, required depth of cure, thickness, and percent light transmission of components between the material and light source.\n4. Oxygen in the atmosphere may inhibit surface cure. Surfaces exposed to air may require high-intensity (&gt;100 mW/cm²) UV light to produce a dry surface cure. Flooding the curing area with an inert gas, such as nitrogen, can also reduce the effects of oxygen inhibition.\n5. Parts should be allowed to cool after cure before testing and subjecting to any loads or electrical testing.\n6. Light curing generally produces some heat. If necessary, cooling fans can be placed in the curing area to reduce the heating effect on components.\n7. At the point of light curing, an air exhaust system is recommended to dissipate any heat and vapors formed during the curing process.\n8. Resealing opened containers under a dry, inert gas, such as nitrogen, extends shelf life.\n9. Light cure is recommended prior to moisture cure. Full cure develops after light and moisture cure.\n\n# DISPENSING SUPPORT\n\nThe Dymax Application Engineering team is ready to discuss your application requirements to provide the most appropriate dispensing and/or spraying solution. Visit our current dispensing equipment portfolio here or consult our global contact phone numbers and online chat feature (available in North America only) during normal business hours for instant support.\n\n# STORAGE AND SHELF LIFE\n\nStore the material in a low humidity, cool, and dark place when not in use. This product may polymerize upon prolonged exposure to ambient and artificial light as well as moisture. This material shelf life noted on page 1 of this document, when stored between 10°C (50°F) and 32°C (90°F) in the original, unopened container.\n\nResealing large containers under dry inert gas, such as nitrogen, can help maintain the shelf life. Smaller syringes and cartridges should be kept in moisture barrier bags with desiccant when not in use.\n\n# CLEAN UP\n\nUncured Dymax dual-cure materials may be removed from dispensing components and parts with non-alcoholic solvents. Alcoholic solvents (such as IPA or ethanol) that contain moisture activate the curing process. Therefore, it is recommended that non-alcohols such as Butyl Acetate Acetone, or MEK be used to clean up uncured material and purge wetted dispensing lines.\n\nCured material will be impervious to many solvents and difficult to remove. Cleanup of cured material may require mechanical methods such as ultrasonic bath, water jet, vacuum tweezers, air knife and/or warming to aid in the removal.",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 26,
+          "top_left_y": 198,
+          "bottom_right_x": 264,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 373,
+          "top_left_y": 198,
+          "bottom_right_x": 613,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1019,
+        "width": 758
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://dymax.com/products/equipment/dispensing-equipment",
+        "https://dymax.com/sales-support/contact-us/global-contacts"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "DYMAX\n\nELECTRONIC CIRCUIT BOARD MATERIALS\n\n9482 Product Data Sheet\n\n# GENERAL INFORMATION\n\nThis product is intended for industrial use only. Keep out of the reach of children. Avoid breathing vapors. Avoid contact with skin, eyes, and clothing. Wear impervious gloves. Repeated or continuous skin contact with uncured material may cause irritation. Remove material from skin with soap and water. Never use organic solvents to remove material from skin and eyes. For more information on the safe handling of this material, please refer to the Safety Data Sheet before use.\n\nThe data provided in this document are based on historical testing that Dymax performed under laboratory conditions as they existed at that time and are for informational purposes only. The data are neither specifications nor guarantees of future performance in a particular application. Dymax does not guarantee that this product's properties are suitable for the user's intended purpose.\n\nNumerous factors—including, without limitation, transport, storage, processing, the material with which the product is used, and the ultimate function or purpose for which the product was obtained—may affect the product's performance and/or may cause the product's actual behavior to deviate from its behavior in the laboratory. None of these factors are within Dymax's control. Conclusions about the behavior of the product under the user's particular conditions, and the product's suitability for a specific purpose, cannot be drawn from the information contained in this document.\n\nIt is the user's responsibility to determine (i) whether a product is suitable for the user's particular purpose or application and (ii) whether it is compatible with the user's intended manufacturing process, equipment, and methods. Under no circumstances will Dymax be liable for determining such suitability or compatibility. Before the user sells any item that incorporates Dymax's product, the user shall adequately and repetitively test the item in accordance with the user's procedures and protocols. Unless specifically agreed to in writing, Dymax will have no involvement in, and shall under no circumstances be liable for, such testing.\n\nDymax makes no warranties, whether express or implied, concerning the merchantability of this product or its fitness for a particular purpose. Nothing in this document should be interpreted as a warranty of any kind. Under no circumstances will Dymax be liable for any injury, loss, expense or incidental or consequential damage of any kind allegedly arising in connection with the user's handling, processing, or use of the product. It is the user's responsibility to adopt appropriate precautions and safeguards to protect persons and property from any risk arising from such handling, processing, or use.\n\nThe specific conditions of sale for this product are set forth in Dymax's General Terms &amp; Conditions of Sale. Nothing contained herein shall act as a representation that the product use or application is free from patents owned by Dymax or any others. Nothing contained herein shall act as a grant of license under any Dymax Corporation Patent.\n\nExcept as otherwise noted, all trademarks used herein are trademarks of Dymax. The “©” symbol denotes a trademark that is registered in the U.S. Patent and Trademark Office.\n\nThe contents of this document are subject to change. Unless specifically agreed to in writing, Dymax shall have no obligation to notify the user about any change to its content.\n\n# CONTACT DYMAX\n\nwww.dymax.com\n\nAmericas\n\nUSA | +1.860.482.1010 | info@dymax.com\n\nAria\n\nSingapore | +65.67522887 | info_ap@dymax.com\n\nShenzhen | +86.755.83485759 | dymaxasia@dymax.com\n\nHong Kong | +852.2460.7038 | dymaxasia@dymax.com\n\nKorea | +82.31.608.3434 | info_kr@dymax.com\n\nEurope\n\nGermany | +49 611.962.7900 | info_de@dymax.com\n\nIreland | +353 21.237.3016 | info_ie@dymax.com",
+      "images": [],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1019,
+        "width": 758
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://dymax.com/resources/resource-library/corporate-legal-hr/general-terms-conditions-of-sale"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 347314
+  },
+  "document_annotation": null
+}

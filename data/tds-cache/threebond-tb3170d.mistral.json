@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB 3170D\n\nThreeBond\n\nJune 15, 1999\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3170D\n\nVisible-light-curing resin\n\n1. Product description\n\nThreeBond 3170D is a one-component non-solvent visible-light-curing resin whose main component is urethane acrylate. Since it is a one-component resin, the tasks of measuring, mixing, de-aerating, etc., are not necessary, and the resin will cure quickly when it is irradiated with light. In addition, by using visible light which has a longer wavelength than ultraviolet [UV] light to cure the resin, it can also be used to bond adherends that absorb UV light.\n\n2. Features\n\n(1) Cures under irradiation with light for seconds to tens of seconds.\n(2) Can be used to surface-bond plastics containing UV absorbing agents.\n(3) Has thixotropic properties.\n\n3. Applications\n\nFixing of adherends that do not transmit UV light\n\nFixing of camera LCD windows (UV protection), etc.\n\n4. Characteristics\n\n4.1 Properties\n\n|  Test item | Unit | Properties | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Light yellow | 3TS-201-01 | -  |\n|  Viscosity | Pa·s (P) | 37 (370) | 3TS-210-02 | -  |\n|  Specific gravity | - | 1.06 | 3TS-213-02 | -  |\n|  Structural viscosity ratio | - | 2.0 | 3TS-211-02 | -  |\n\nNote: The values in parentheses are for reference.\n\nED11043",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB 3170D\n\n## 4.2 Physical properties of cured resin\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | D54 | 3TS-215-01 | -  |\n|  Water absorption | % | 2.6 | 3TS-233-03 | -  |\n|  Cure shrinkage | % | 6.5 | 3TS-228-01 | -  |\n\nIrradiation conditions\n\nHigh-pressure mercury vapor lamp (Model HMW-244-11CM), 4 kw, 80 W/cm\nIrradiation distance: 15cm\n\nUV dose:  $0\\mathrm{kJ} / \\mathrm{m}^2$  (3000 mJ/cm²)\n\n## 5 Adhesion\n\nShear bond strength\n\n|  Test material | Unit |  | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Acryl/SUS | MPa (kgf/cm²) | 8.0 (80) | 3TS-301-13 | -  |\n|  Acryl/Al |   | 7.5 (75) |   | -  |\n|  Acryl/PC |   | 3.0 (30) |   | -  |\n\nNote: The values in parentheses are for reference.\n* Acryl: ACRYLITE L#001 (for cutting off UV light below 360 nm) made by Mitsubishi Rayon Co., Ltd.\n\n## 6. Instructions for use\n\n(1) The curing speed varies depending on the type of light source and irradiation distance. Check the curing speed prior to use.\n(2) Harmful to health. Do not touch directly nor inhale fumes.\n(3) If on skin, may cause inflammation. If on skin, immediately wipe it away with cloth or paper, and wash the skin with soap and water.\n(4) If in eyes, wash them with running water for about 15 minutes, and get medical attention.\n(5) When handling, wear appropriate protective gears, such as a mask, gloves (impervious) and goggles. Use it in a place equipped with a local exhaust system.\n(6) If any abnormality is found in the body, stop using, and get medical attention.\n(7) People who have allergies or sensitive skin should avoid use.\n(8) This product was not developed for medical use. If used for medical treatment, please conduct appropriate tests to the application and verify sufficiently that there will be no safety problems before using this product.\n(9) Do not burn this product. May generate toxic gas when burnt.\n\nED11043",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB 3170D\n\n(10) Entrust disposal of this product to a professional disposal company with specialized knowledge.\n(11) Do not transfer the product into another container. Once dispensed, do not return the leftover to the original container.\n(12) Some materials may deteriorate if this product is used. The effects of the resin on the substrates should be confirmed in advance. If there are any problems, do not use.\n(13) In order to prevent deterioration and contamination, store with the cap closed tightly.\n(14) Store it in a dark dry place at 10 to 25°C avoiding direct sunlight.\n(15) Keep out of reach of infants and children.\n(16) Combustible. Keep away from fire.\n(17) Due to the properties of the resin, slight discoloration may occur.\n\n7. Product form\n\n1-kg brown polyethylene bottle with wide mouth\n\n8.\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nBefore using this product, you must accept the following sales terms:\n\n(1) The technical data given herein are experimental values obtained by our specified test methods. We do not absolutely guarantee the correctness and integrity of the data. Users are asked to examine by themselves whether the product is appropriate to the purpose of use before they use it and bear all responsibilities and hazards involved in its use. Warranty only covers replacement of clearly defective product.\n(2) We are not liable for personal injury or property damage caused by improper handling of this product.\n(3) We are not liable for any matter not mentioned herein unless otherwise specified in the contract.\n\nED11043",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 19790
+  },
+  "document_annotation": null
+}

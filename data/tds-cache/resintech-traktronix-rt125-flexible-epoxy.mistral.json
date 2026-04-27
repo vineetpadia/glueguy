@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Resintech Limited\nUnit 1-2, Horcott Industrial Estate\nFairford, Gloucestershire, GL7 4BX, UK\n\n# Technical Data\n\n# RT125\n## Flexible High Performance Epoxy Adhesive\n\n## Description\nRT125 is the industry standard adhesive for high performance cable harness assemblies.\n\n## Benefits\n- Excellent flexibility giving high shear and peel strengths\n- Outstanding chemical and fluid resistance\n- Will operate up to 150°C\n- Will also bond metals, glass, wood, rubbers and many plastics\n- Supplied in DuoSyringe for easy application\n- Standard size is 50ml, with associated mixing nozzles and dispenser guns\n- 18 month shelf life from the date of manufacture\n\n## Typical Properties\n\n### Curing\nWork life at 23°C: 90 minutes\nTime to handling at 23°C: 24 hours\nTime to full cure at 23°C: 7 days\nTime to full cure at 85°C: 2 hours\n\n### Typical Performance (measurements at 23°C)\nLap Shear (Al / Al): 20 MPa\nPeel Strength (XLPE/XLPE): 370 N / 25mm\nPeel Strength after Thermal Shock (4hrs@215°C): 370 N / 25mm\nDynamic Shear (Backshell/boot/cable. Shell size 22): 520 N\nExcellent Solvent resistance to:\n- De-icing fluid, Petrol, Lubricating oil, Hydraulic fluid\n-75°C to +150°C\n\n### Operating Temperature:\n\n## Colour\nBlack\n\n## Related products\n- The ShieldFast® Range\n- RT183 electrically conductive epoxy adhesive\n\nResintech Limited warrants only that it's products meet the specifications stated herein. Typical properties where stated are to be considered as representative of the current production and should not be treated as specifications. While the information presented is believed to be true and reliable, users are advised to conduct sufficient investigations to ensure the suitability of any product for its intended use. Resintech Limited cannot accept any responsibility for loss or damage that may result from the use of this information.\n\nw: resintech.co.uk\ne: info@resintech.co.uk\nt: +44 (0)1285 712755\nf: +44 (0)1285 712999\nIssue:09\nDate: Oct 2021",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 136090
+  },
+  "document_annotation": null
+}

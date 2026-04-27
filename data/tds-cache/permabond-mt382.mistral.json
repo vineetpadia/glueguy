@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® MT382\n\nModified Two-Part Epoxy\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Adhesion to a wide variety of substrates\n- Full cure at room temperature\n- Easy to apply\n- Self-levelling\n- Ideal for electronic potting &amp; encapsulation applications\n\n# Description\n\nPERMABOND® MT382 two-part, modified epoxy adhesive designed for sealing/bonding and potting applications. It has excellent adhesion to Nylon, ABS, Polycarbonate and other plastics as well as a variety of different metals. The product can be cured in different mix ratios depending on the flexibility required in the final cured product. MT382 is self-levelling.\n\n## Physical Properties of Uncured Adhesive\n\n|   | MT382A | MT382B  |\n| --- | --- | --- |\n|  Chemical composition | Epoxy Resin | Polyamine based Hardener  |\n|  Appearance | Black | Yellow  |\n|  Mixed appearance | Charcoal black  |   |\n|  Viscosity @ 25°C | 32,000 mPa.s (cP) | 300 mPa.s (cP)  |\n|  Specific gravity | 1.3 | 1.0  |\n\n## Typical Curing Properties\n\n|  Mix ratio | 2:1 by volume\n130:50 by weight  |\n| --- | --- |\n|  Maximum gap fill | 0.5 mm 0.02 in  |\n|  Usable / pot life @25°C | 20-50 mins  |\n|  Handling time to\n0.1 N/mm² @25°C | 105-120 mins  |\n|  Full cure @25°C | ≥72 hours  |\n\n## Electrical Properties*\n\n|  Dielectric Constant | 6  |\n| --- | --- |\n|  Dielectric Strength | 20 - 30 kV/ mm  |\n|  Volume Resistivity | 1 - 3 x 10¹¹ Ohm-cm  |\n\n*Asterisk denotes values considered typical to associated resin systems or extrapolated from other test results.\n\n## Typical Performance of Cured Adhesive\n\n|  Shear strength\nISO4587 | Mild steel: 4-7 N/mm² (600 - 1000psi)\nAluminium: 6-8 N/mm² (900-1200psi)\nABS: 4-6 N/mm² (600-900psi)\nAcrylic: 2-5 N/mm² (300-700psi)\nNylon: 2-4 N/mm² (300-600psi)\nPolycarbonate: 4-6 N/mm² (600-900psi)\nPVC: 3-5 N/mm² (400-700psi)\nFRP Glass Epoxy: 5-7 N/mm² (700-1000psi)\nFRP Glass Polyester: 5-7 N/mm² (700-1000psi)\nCarbon Fibre: 6-8 N/mm² (600-1200psi)  |\n| --- | --- |\n|  Hardness\n(ISO868) | 55-85 Shore A\n20-30 Shore D  |\n|  Elongation at break (ISO37) | 150 -200%  |\n|  Peel strength\n(aluminium)\n(ISO4578) | 140-160 N/25mm (31-36 PIW)  |\n|  Thermal conductivity | 0.47 W/(m.K)  |\n|  Linear Coefficient of Thermal Expansion | 112 x 10 -6 m/m C (below Tg)\n170 x 10 -6 m/m C (above Tg)  |\n|  Tg | -35°C (-31°F)  |\n\n*Strength results will vary depending on the level of surface preparation and gap.\n\n## Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\nGraph shows typical strength development of bonded components at 23°C. Curing at higher or lower temperatures may affect cure speed.\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond MT382\n\nGlobal TDS Revision 19\n\n16 November 2021\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 393,
+          "top_left_y": 597,
+          "bottom_right_x": 656,
+          "bottom_right_y": 802,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Permabond MT382\nGlobal TDS Revision 19\n16 November 2021\nPage 2/2\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\n\n![img-1.jpeg](img-1.jpeg)\nHot Strength\n\n\"Hot strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature.\n\nMT382 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -40°C (-40°F) depending on the materials being bonded.\n\n## Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials.\n\nInformation regarding the safe handling of this material may be obtained from the safety data sheet.\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n## Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Use a suitable solvent (such as acetone or isopropanol) for the degreasing of surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n## Directions for Use\n\n1. Measure volumetrically 2 parts resin to 1 part hardener. Mix thoroughly taking care not to entrap air. Adhesive can be applied and mixed by automated dispensing equipment. If using cartridges, put cartridge in dispensing gun and affix static mixing nozzle.\n2. Apply material. If potting; take care to fill component and not entrap air.\n3. If bonding a joint, assemble the parts. Parts must be joined within 20-50 minutes of mixing the two epoxy components.\n4. Large quantities and/or higher temperature will decrease the usable life or pot life.\n5. Apply pressure to the assembly by clamping for 105-120 minutes or until handling strength is obtained.\n6. Full cure will be obtained after a minimum of 72 hours at 25°C (77°F). Heat can be used to accelerate the curing process.\n\n**NB. Exercise caution when mixing large quantities due to exothermic reaction.**\n\n## Video Links\n\nSurface preparation:\nhttps://youtu.be/8CMOMP7hXjU\n\n![img-2.jpeg](img-2.jpeg)\n\nTwo-part epoxy directions for use:\nhttps://youtu.be/GRX1RyknYqc\n\n![img-3.jpeg](img-3.jpeg)\n\n## Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n\nwww.permabond.com\n• UK: 0800 975 9800\n• General Enquiries: +44 (0)1962 711661\n• US: 732-868-1372\n• Asia: +86 21 5773 4913\ninfo.europe@permabond.com\ninfo.americas@permabond.com\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 69,
+          "top_left_y": 111,
+          "bottom_right_x": 327,
+          "bottom_right_y": 286,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 605,
+          "top_left_y": 476,
+          "bottom_right_x": 658,
+          "bottom_right_y": 530,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 605,
+          "top_left_y": 542,
+          "bottom_right_x": 658,
+          "bottom_right_y": 595,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU",
+        "https://youtu.be/GRX1RyknYqc"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 324583
+  },
+  "document_annotation": null
+}

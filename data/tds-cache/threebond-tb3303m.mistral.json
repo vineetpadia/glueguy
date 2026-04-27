@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3303M\n\n# ThreeBond\n\nNov. 29, 2005\nThree Bond Co., Ltd.\n\n# Technical Data\n\nThreeBond 3303M\n\n# Silicone-based conductive adhesive for SMD crystal oscillators\n\n1.  Outline\n\nThreeBond 3303M is a heat-curing one-part silicone-based conductive adhesive. The adhesive is developed particularly for supportless SMD crystal oscillators. (Hereinafter, ThreeBond is abbreviated to TB.)\n\n2.  Features\n\n(1) One-part silicone-based conductive adhesive. It can be cured by heating at 180°C for 60 minutes.\n\n(2) Since the adhesive is based on silicone resin, it shows relatively stable characteristics at low to high temperatures after curing.\n\n(3) Less skinning after application. It is suitable for application in a small quantity.\n\n(4) It can be used as a substitute for the existing silicone-based conductive adhesive TB3303F.\n\n3.  Uses\n\n(1) Applicable to connection of piezoelectric elements and electrodes on small-sized crystal oscillators, crystal oscillators and surface-wave elastic filters\n\n(2) Applicable to spot-bonding of various parts and fixing of chip components\n\n4.  Properties\n\nTable -1 Properties\n\n|  Test item | Unit | Property | Test method  |\n| --- | --- | --- | --- |\n|  Appearance | - | Light yellow | 3TS-201-02  |\n|  Viscosity (25°C) | Pa·s | 40 | 3TS-210-05 (*)  |\n\n*: E-type viscometer  Number of revolutions: 0.5 rpm  Rotor: 1° 34' for 24 hrs.\n\nED20090905",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3303M\n\n# 5. Characteristics\n\n## 5.1 Characteristics\n\n(after curing at 180°C for 60 min (in hot-air drying oven))\n\nTable -2 Characteristics\n\n|  Test item | Unit | Characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 1.9 × 10^{-6} | 3TS-401-03  |\n|  Chip bonding strength | MPa | 3.6 | 3TS-310-02\n(2-diam ceramic chip/glass sheet)  |\n|  Pencil hardness | – | Softer than 6B | 3TS-215-05  |\n\n## 5.2 Dependence of viscosity and shear stress on shear rate\n\n![img-0.jpeg](img-0.jpeg)\n\nFig. 1 Dependence of viscosity and shear stress on shear rate\n\nTest method: 3TS-208-01\n\nTest temperature: 25°C\n\nRheometer system: VAR-50 made by REOLOGICA\n\nCone plate: 25 Ø, 4°\n\nMeasurement mode: The shear rate was swept from 0.1 to 100 (l/s) at a constant rate.\n\nED20090905",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 166,
+          "top_left_y": 349,
+          "bottom_right_x": 600,
+          "bottom_right_y": 651,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3303M\n\n## 5.3 Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature dependence of viscosity\n\nTest method: 3TS-208-03\nTest temperature: 10 to 30°C\nRheometer system: VAR-50 made by REOLOGICA\nCone plate: 25 Ø, 4°\nShear rate: 1.0 (l/s)\n\n## 6. Usage\n\n(1) Application\nTo apply the adhesive, use a syringe or an applicator having a nozzle inner diameter of 0.21 mm (27G) or more.\n\n(2) Curing\nAfter applying the adhesive and bonding the adherend, cure the adhesive heating at 180°C for 60 minutes in a hot-air drying chamber. After the heating, the adhesive finishes curing. For degassing and stress relieving, it is recommended to further age the adhesive at 200°C or more.\n\nED20090905",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 131,
+          "top_left_y": 154,
+          "bottom_right_x": 496,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3303M\n\n# 7. Instructions for use\n\n(1) Opening: If the container is opened in the refrigerated state, condensation may occur in the container. Open the container after it reaches room temperature.\n\n(2) Stirring prior to use: The conductive filler may have settled during storage. Sufficiently stir the adhesive to uniformly mix the filler prior to use. The dispersion occurs in the color tone, but there is no problem with respect to quality.\n\n(3) Curing failure: Note that curing failure may be caused if the adhesive is brought into contact or mixed with substances, such as water, sulfur, phosphorus, nitrogen compounds and organic metal salt, which may become catalytic poisons.\n\n(4) For the details of safety, see the material safety data sheet (MSDS).\n\n# 8. Storage\n\nBefore and after using this product, store it in a refrigerator (-20 to 5°C) with the cap tightly closed.\n\n# 9. Disposal\n\nHave the product disposed of as industrial waste by authorized industrial waste disposal services.\n\n# 10. Cautions\n\nFor industrial use only\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED20090905",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 153435
+  },
+  "document_annotation": null
+}

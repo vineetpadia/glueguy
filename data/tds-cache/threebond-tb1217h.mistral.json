@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1217H – SILICONE SEALANT\n\n## Information\n\nTB1217H is a high performance, room temperature vulcanized (RTV) silicone commonly used as a formed in place gasket (FIPG). TB1217H has high elongation, low modulus, good elasticity, engine oil resistance (against SJ oil) and blowout resistance after curing.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Result | Test Method  |\n| --- | --- | --- | --- |\n|  Appearance | - | Gray | 3TS-201-02  |\n|  Viscosity | Pa s (P) | 330 (3300) | 3TS-210-08  |\n|  Specific gravity | - | 1.36 | 3TS-213-02  |\n|  Tack Free Time | Minutes | 5 | 3TS-219-05  |\n|  Curing Speed | mm/day | 3.0 | 3TS-222-94  |\n\n### 2. Cured Material\n\n|  Property |   | Units | Value | Test Method  |\n| --- | --- | --- | --- | --- |\n|  Hardness |   | JIS A | 51 | 3TS-215-01  |\n|  Tensile Strength |   | MPa (kgf/cm²) | 2.55 (26.0) | 3TS-320-01  |\n|  Elongation |   | % | 550 | 3TS-320-01  |\n|  Lap Shear | Steel/Steel | MPa (kgf/cm²) | 2.32 (23.6) | 3TS-301-23  |\n|   |  Aluminum/Aluminum |   | 2.34 (23.9)  |   |\n\nRev: 0.1\nIssued Date: 7/22/03\nDocument Control Number: 3-TB-20-0972",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2 of 2\n\n3. Engine Oil Resistance\n\n|  Property |   | Units | Value | Test Method  |\n| --- | --- | --- | --- | --- |\n|  Hardness |   | JIS A | 25 | 3TS-215-01  |\n|  Tensile Strength |   | MPa (kgf/cm²) | 2.77 (28.2) | 3TS-320-01  |\n|  Elongation |   | % | 573 | 3TS-320-01  |\n|  Lap Shear | Aluminum/Aluminum | MPa (kgf/cm²) | 1.45 (14.8) | 3TS-301-23  |\n\nEngine Oil Immersion Condition: 150°C 100 hr\nEngine Oil Grade: Gasoline Engine Oil FF 0W-20 SJ\n\n4. Heat Resistance\n\n|  Property |   | Units | Value | Test Method  |\n| --- | --- | --- | --- | --- |\n|  Hardness |   | JIS A | 51 | 3TS-215-01  |\n|  Tensile Strength |   | MPa (kgf/cm²) | 3.20 (32.6) | 3TS-320-01  |\n|  Elongation |   | % | 450 | 3TS-320-01  |\n|  Lap Shear | Aluminum/Aluminum | MPa (kgf/cm²) | 3.07 (31.3) | 3TS-301-23  |\n\nHeat Condition: 150°C 100 hr\n\n5. Blow out Resistance\n\n|  Clearance Gap | Units | Leaking Pressure | Test Time  |\n| --- | --- | --- | --- |\n|  0.5 mm | kPa | 150 | Immediately test after assemble  |\n|  1.0 mm | kPa | 100 | After 10 minutes Curing  |\n\nFlange size: JIS Aluminum Flange, Width: 10 mm, Inside Diameter: 50mm\nGap: 0.5 mm, 1.0 mm\nPressurized Speed: 10 kPa / 15 seconds\nTest Condition: 25°C 25%RH\n\nThese are typical results and not specifications.\n\nRev: 0.1\nIssued Date: 7/22/03\nDocument Control Number: 3-TB-20-0972",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 92627
+  },
+  "document_annotation": null
+}

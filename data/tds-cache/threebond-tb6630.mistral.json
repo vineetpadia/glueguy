@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB6630\n\n# ThreeBond\n\n# Technical Data\n\nApril 6, 2000\n\nThree Bond Co., Ltd.\n\n# ThreeBond 6630\n\n# Iron powder removal/Aluminum wheel and body cleaner\n\n## 1. Outline\n\nThreeBond 6630 (hereinafter, referred to as TB6630) removes oil and grease from aluminum wheels and bodies of cars. In addition, it can turn iron powders on aluminum wheels and bodies purple and remove them.\n\n## 2. Features\n\n(1) Since the cleaner is a neutral agent, it has little influence on paint layers.\n(2) It reacts with iron powders on car bodies and aluminum wheels to turn the powders purple and remove them.\n\n## 3. Uses\n\n(1) Cleaning of car bodies and wheels\n(2) Rust prevention of mechanical parts\n\n## 4. General properties and characteristics\n\n|  Item | Unit | Property/characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Appearance |  | Colorless to pale purple clear | Visual inspection  |\n|  pH |  | 6.8 (25°C) | 3TS-531-01  |\n|  Viscosity | mPa | 10 (25°C) | 3TS-210-01  |\n|  Specific gravity |  | 1.038 (25°C) | 3TS-213-02  |\n|  Degree of discoloration |  | Acceptable | Visual inspection  |\n\n* Degree of discoloration\nTB6630 is dropped onto an iron plate, and it is ensured that the area covered with TB6630 turns purple within 2 min.\n\nED070304",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB6630\n\n# 5. Warning\n\n- The cleaner is harmful to the health. Do not drink it.\n- It can irritate the eyes and skin. Wear protective goggles and gloves.\n- Keep it out of reach of children.\n\n# 6. First aid\n\n- If it is swallowed, do not induce vomiting. Immediately get medical attention.\n- If it gets in the eyes, wash them with clean water for more than 15 minutes. If any abnormality is found, get medical attention.\n- If it adheres to the skin, wipe it away with a cloth, and wash well the skin with soap.\n- If you feel bad while using it, stop using it, and keep quiet in a well-ventilated place. If you don't feel restored, get medical attention.\n\n# 7. Usage\n\n(1) Pour water over the area to be cleaned, and spray the stock solution over the area.\n(2) Leave the solution until it turns purple.\n(3) After it turns purple, rinse it away with a soft sponge (for 2 to 3 minutes).\n\n# 8. Instructions for use\n\n(1) Do not use the cleaner for any purpose other than the specified application.\n(2) It reacts with iron and turns it purple. To move it to another container, use a plastic container.\n(3) Avoid applying the cleaner to bodies or aluminum wheels while they are hot.\n(4) Do not use it on iron surfaces that are not plated or painted.\n(5) If it is left on a surface for a long time, it may cause spots.\n(6) Use it in a well-ventilated place.\n(7) For hazard and toxicity information not mentioned herein, see the MSDS (material safety data sheet).\n\n# 9. Storage and disposal\n\n- Store the product in a dark cold place avoiding direct sunlight.\n- After the cleaner has all been used, dispose of the container.\n\nED070304",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB6630\n\n## 10. Cautions\n\nThe data given herein are not guaranteed values, but actual measurements obtained by us. Sufficiently examine the applicability of the product prior to use.\n\n**For industrial use only** (Do not use it for household products.)\n\nBefore using this product, you must accept the following sales terms.\n\n(1) The technical data given herein are experimental values obtained by our specified test methods. We do not absolutely guarantee the correctness and integrity of the data. Users are asked to examine by themselves whether the product is appropriate to the purpose of use before they use it and bear all responsibilities and hazards involved in its use. The scope of guarantee includes only replacement of clearly defective items.\n\n(2) We are not liable for personal injury or property damage caused by improper handling of this product.\n\n(3) We are not liable for any matter not mentioned herein unless otherwise specified in the contract.\n\nED070304",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 142297
+  },
+  "document_annotation": null
+}

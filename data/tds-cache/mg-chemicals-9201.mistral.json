@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "9201\n\nMG Chemicals\n\n# Structural Epoxy Adhesive\n\n9201 is a 2-component epoxy structural epoxy adhesive that forms bonds capable of withstanding heavy shocks. The adhesive has high impact resistance and high strength, helping replace a wide range of mechanical techniques like welding. By avoiding joining parts with metal fasteners, the glue can help lightweight modular devices during assembly.\n\n9201 epoxy structural adhesive bonds strongly to a variety of surfaces like metals, glass, composite and most plastics. The glue also bonds many engineered thermoplastics such as sheet molded compounds and glass reinforced plastics. The epoxy is useful for bonding dissimilar materials and cures at room temperature.\n\n# Features &amp; Benefits\n\n1:1 mix ratio\n\nExcellent bond strength to a wide array of substrates\n\nNon-sag consistency\n\nHigh tensile and compressive strength\n\nExcellent chemical resistance\n\n# Cure Instructions\n\nAllow to cure at room temperature for 48 hours, or cure in an oven at one of these time/temperature options:\n\nTemperature 65 °C 80 °C 100 °C\n\nTime 30 min 15 min 10 min\n\n# Storage and Handling\n\nStore between -10 and 27 °C in a dry area, away from sunlight (see SDS). To maximize shelf life, recap product firmly when not in use.\n\n![img-0.jpeg](img-0.jpeg)\n\nAvailable Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  9201-25ML | Dual syringe | 25 mL | 32.7 g  |\n|  9201-50ML | Dual cartridge | 45 mL | 58.9 g  |\n|  9201-40L | Dual Pail kit | 40 L | 52.3 kg  |\n\n# Dispensing Accessories\n\nConsult the table below for accessory selection. See the Dispensing Accessories Application Guide for usage instructions. 8MT-50-FT should only be used with a pneumatic dispenser.\n\n|  Part # | Dispensing Gun | Static Mixer  |\n| --- | --- | --- |\n|  9201-25ML | N/A | N/A  |\n|  9201-50ML | 8DG-50-1-1 | 8MT-50  |\n|  9201-40L | N/A | N/A  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 17 December 2025 / Ver. 1.2",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 440,
+          "top_left_y": 112,
+          "bottom_right_x": 707,
+          "bottom_right_y": 441,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "9201\n\nMG Chemicals\n\n# Liquid Properties\n\n|  Chemistry | Epoxy | —  |\n| --- | --- | --- |\n|  Density | 1.3 g/mL (Mixed) | ASTM D1475  |\n|   |  1.4 g/mL (A)  |   |\n|   |  1.2 g/mL (B)  |   |\n|  Viscosity @ 25 °C | TBD (Mixed) | Brookfield Engineering labs Inc.\nIPCTM-65- Method 2.4.24.4  |\n|   |  89 250 cP (A)  |   |\n|   |  36 025 cP (B)  |   |\n|  Mix Ratio | 1:1 (Volume) | —  |\n|   |  1:1.17 (Weight)  |   |\n|  Working Time a | 50 min | —  |\n|  Peak Exotherm b | 33 °C | —  |\n|  Shrinkage | 4.1% | Calculated  |\n|  Shelf Life | 3 y | —  |\n\na Based on 100 g sample. Varies by volume and geometry.\nb Based on a 250 g sample in a fixed container geometry.\n\n# Cured Properties\n\n|  Flame Retardancy | No | —  |\n| --- | --- | --- |\n|  Color | Beige | —  |\n|  Density | 1.4 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range | -40–150 °C | —  |\n|  Intermittent Temperature | TBD | —  |\n|  Thermal Conductivity @ 25 °C | 0.4 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 1.1 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.3 mm²/s |   |\n|  Glass Transition Temperature (Tg) | 42 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 86 ppm/°C (Prior Tg) | ASTM E831  |\n|   |  216 ppm/°C (After Tg) |   |\n|  Hardness | 79 D | ASTM D2240  |\n|  Tensile Strength | 23 N/mm² | ASTM D638  |\n|  Compressive Strength | 110 N/mm² | ASTM D695  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 17 December 2025 / Ver. 1.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "9201\n\nMG Chemicals\n\n# Cured Properties Continued\n\n|  Lap Shear | 20 N/mm² (Stainless Steel)\n26 N/mm² (Aluminum)\n3.6 N/mm² (ABS)\n2.0 N/mm² (PC) | ASTM D1002  |\n| --- | --- | --- |\n|  Resistivity | 1.4 x 10¹³ Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 49 270 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 394 V/mil |   |\n\n# Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n# Syringe and Cartridge\n\n1. Twist and remove the cap from the cartridge or syringe. Do not discard cap.\n2. If nozzle is blocked, clean any hardened material on both the inside and outside using a needle and paper towel.\n3. (Optional) Attach static mixer to the 9201-50ML.\na. Dispense and discard 3 to 5 mL of the product to ensure a homogeneous mixture.\nb. After use, dispose of static mixer.\n4. Without a static mixer, dispense material on a mixing surface or container, and thoroughly mix parts A and B together.\n5. To stop the flow, pull back on the plunger.\n6. Clean nozzle to prevent contamination and material buildup. Replace the cap on the cartridge.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 17 December 2025 / Ver. 1.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 246130
+  },
+  "document_annotation": null
+}

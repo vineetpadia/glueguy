@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3081J\n\n# ThreeBond\n\nAugust 31, 2010\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3081J\n\nSoft type UV-curing resin\n\n## 1. Overview\n\nThreeBond 3081J is an acrylic ester based, solventless, UV curing resin. Within seconds of exposure to UV light, forms a heat resistant, cold resistant soft rubber material. Suitable for CIPG* applications that require elasticity and durability.\n\n*CIPG is an abbreviation for Cured-In-Place Gasket\n\nHereinafter, ThreeBond is abbreviated as TB.\n\n## 2. Features\n\n① Cures by UV irradiation in seconds (200 to 400 nm wavelength)\n② After curing, maintains rubber elasticity over a wide temperature range (-40 to 120°C).\n③ After application, has excellent shape retention before curing\n④ Low compression set ensures excellent seal\n\n## 3. Uses\n\n① CIPG for electric, electronic and other electrical parts\n② Elastic sealing application which requires heat and cold resistance\n\n## 4. Properties\n\n### 4.1 Properties\n\nTable 1. Properties for TB3081J\n\n|  Test item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Light transparent yellow | 3TS-201-01 | -  |\n|  Viscosity | Pa·s | 95 | 3TS-210-10 | 35°C, Shear rate: 2s⁻¹  |\n|  Structural viscosity ratio | - | 2.3 | 3TS-211-19 | 35°C, Shear rate: 2s⁻¹/10s⁻¹  |\n|  Specific gravity | - | 1.11 | 3TS-213-02 | 25°C  |\n|  Thick film curability | mm | 3.6 | 3TS-222-01 | *1  |\n\n*1 Integrated UV light: 45kJ/m²\nCuring conditions: 80mW/cm² Used high pressure mercury lamp cold mirror, cold filter\nIrradiation distance: 150mm\n\nED2010065",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3081J\n\n## 4.2 Flow curve (rheometer)\n\n![img-0.jpeg](img-0.jpeg)\nFigure 1. Flow curve for TB3081J\n\n![img-1.jpeg](img-1.jpeg)\nFigure 2. Viscosity temperature curve for TB3081J\n\n## 5. Cured material general properties\n\nTable 2. Cured resin property for TB3081J\n\n|  Test item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A27 | 3TS-215-01 | -  |\n|  Elongation | % | 180 | 3TS-320-01 | No. 3 Dumbbell  |\n|  Tensile strength | MPa | 1.8 | 3TS-320-01 | No. 3 Dumbbell  |\n|  Cure shrinkage | % | 3.1 | 3TS-228-01 | 20φ  |\n\nIntegrated UV light: 45kJ/m²\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\nIrradiation distance: 150mm\n\nED2010065",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 207,
+          "top_left_y": 145,
+          "bottom_right_x": 521,
+          "bottom_right_y": 360,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 207,
+          "top_left_y": 443,
+          "bottom_right_x": 487,
+          "bottom_right_y": 656,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3081J\n\n# 6. Electrical properties\n\nTable 3. Electrical properties for TB3081J\n\n|  Test item | Unit | Cured properties | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 1.2×10^{10} | 3TS-401-01 | -  |\n|  Surface resistance | Ω | 1.4×10^{14} | 3TS-402-01 | -  |\n|  Dielectric breakdown strength | kV/mm | 19 | 3TS-406-02 | -  |\n|  Dielectric constant | - | 5.4 | 3TS-405-01 | 1kHz  |\n|   |   |  4.6 |   | 1MHz  |\n|  Dielectric dissipation factor | - | 0.013 | 3TS-405-01 | 1kHz  |\n|   |   |  0.077 |   | 1MHz  |\n\nIntegrated UV light: 45kJ/m²\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\nIrradiation distance: 150mm\n\n# 7. Viscoelastic properties\n\nTable 4. Viscoelastic properties for TB3081J\n\n|  Test item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Storage modulus (E') | Pa | 2.1×10^{6} | 3TS-501-04 | 25°C  |\n|  Loss tangent (tan δ) peak | °C | -29 | 3TS-501-04 | -  |\n|  Loss modulus (E\") peak | °C | -47 | 3TS-501-04  |   |\n\nIntegrated UV light: 45kJ/m² Measuring device: DMS made by Seiko Instruments\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\nIrradiation distance: 150mm Frequency 1Hz\n\n# 8. Linear expansion coefficient\n\nTable 5. Linear expansion coefficient for TB3081J\n\n|  Test item |   | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- | --- |\n|  Linear expansion coefficient | α1 | ppm/°C | 97 | 3TS-501-05 | -120~ -70°C  |\n|   |  α2 |   | 205 |   | 100~150°C  |\n|  Glass transition temperature |   | °C | -55 | 3TS-501-05 | TMA method  |\n\nIntegrated UV light: 45kJ/m² Measuring device TMA made by Rigaku\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\nIrradiation distance: 150mm\n\nED2010065",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3081J\n\n# 9. Sealing properties\n\n![img-2.jpeg](img-2.jpeg)\nFigure 3. Relationship between compression ratio and pressure resistance\n\nFlange used: Flange outer diameter 70mm, inner diameter 56mm, width 7mm\n\nPressurization Air medium:\n\nPressure booster 0.01MPa/15sec (maximum pressure: 0.4MPa) condition:\n\nBead shape: Width: 3mm, Height: 2mm\n\nIntegrated UV light: 45kJ/m²\n\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\n\nIrradiation distance: 150mm\n\n# 10. Durability properties\n\nTable 6. Durability properties (120°C×240h)\n\n|  Item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A30 | 3TS-215-01 | -  |\n|  Elongation | % | 190 | 3TS-320-01 | No. 3 Dumbbell  |\n|  Tensile strength | MPa | 2.0 | 3TS-320-01 | No. 3 Dumbbell  |\n|  Compression set | % | 23 | 3TS-332-01 | *2  |\n\nIntegrated UV light: 45kJ/m²\n\nCuring conditions: 120mW/cm² Used high pressure mercury lamp cold mirror, cold filter\n\nIrradiation distance: 150mm\n\n*2 Compression ratio: 25% Bead shape: Width: 3mm, Height: 2mm\n\nMeasuring device: Three-dimensional non-contact measurement device made by Mitaka Optical\n\nED2010065",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 186,
+          "top_left_y": 150,
+          "bottom_right_x": 494,
+          "bottom_right_y": 380,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3081J\n\n## 11. Usage method\n\n① Remove oil, moisture and other contaminants completely from the bonding surface.\n② Cure by UV light irradiation. If the curing method is not clear, please contact our sales engineer.\n\n## 12. Usage precautions\n\n① Harmful to health. Do not touch directly nor inhale fumes.\n② Persons with allergies or sensitive skin should avoid using.\n③ Do not use near fire.\n④ Keep out of reach of infants and children.\n⑤ The curing speed varies depending on the type of light source and irradiation distance. Sufficiently confirm the curing speed prior to use.\n⑥ Before using, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n⑦ While handling, use suitable protective equipment (respirator, safety glasses, protective gloves, protective clothing, etc.). And use local exhaust system.\n⑧ Because quality deterioration is likely, if the content is transferred to another container, confirm the effects before using. Do not return the unused portion into the original container.\n⑨ Harmful to health. Do not inhale or swallow. If swallowed, get medical aid\n⑩ If on skin, may cause inflammation.\n\nIf on skin, immediately wipe off with cloth or paper, and wash the affected area with soap and water. If in eyes, rinse with clean water for at least 15 minutes and seek medical attention.\n\n⑪ If any bodily abnormalities occur, discontinue use and get medical attention.\n⑫ For hazards not mentioned in this document, please read the material safety data sheet (MSDS).\n\n## 13. Storage\n\nStore with the cap closed tightly to prevent deterioration and contamination. Store at -5 to 25°C under low humidity, away from direct sunlight.\n\n## 14. Disposal method\n\nDispose as industrial waste.\n\nED2010065",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3081J\n\n## 15. Precautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes)\n\nThis product was developed for general industrial use. Before using this product, the user must agree with the following conditions.\n\n- The technical data described in this report are based on our company's test method specifications. These values do not represent guaranteed values.\n\nAlso, there are no guarantees that the uses presented in this report do not infringe on any third party's intellectual property rights.\n\n- Regarding safety validation, the user bears all responsibilities and risks associated for confirming prior to use. Absolutely do not embed this product into body by injection or as residue from medical implant applications.\n\n- Three Bond accepts no responsibility for injuries and damages caused by improper handing of this product. If the user is uncertain about properties of this product and/or how to use it, absolutely do not use.\n\n- For more information about product safety information, please read this product's Material Safety Data Sheet (MSDS). To obtain the MSDS, please contact our sales office or our customer service.\n\n- Three Bond reserves the right to modify this report at its own discretion.\n\nED2010065",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 180731
+  },
+  "document_annotation": null
+}

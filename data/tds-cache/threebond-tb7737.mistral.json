@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB7737\n\nThreeBond\n\nMarch 25, 2008\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 7737\n\n# Instant adhesive of Gold Label Series (ultrahigh peel strength and impact resistance type)\n\n## 1. Outline\n\nThreeBond 7737 is an ultrahigh peel strength, high thixotropic and impact resistance type instant adhesive whose main components are ethyl-α-cyanoacrylate and elastomer. The adhesive excels in peel strength and impact resistance and shows high adhesion even at high temperature and humidity.\n\n(Hereinafter, ThreeBond is abbreviated to TB.)\n\n## 2. Features\n\n(1) One-part and easy-to-use adhesive\n(2) Half gel adhesive excelling in fluidity and hard to sag\n(3) Quickly separating from applicator with no cobwebbing\n(4) Excellent peel strength and impact resistance\n(5) Good thermal resistance and moisture resistance\n(6) High bonding strength to wide range of materials\n\n## 3. Uses\n\n(1) Bonding of general parts requiring high strength and impact resistance\n(2) Bonding on vertical surfaces where sagging of adhesive must be prevented\n(3) Bonding of components, such as IC chips and capacitors, on PC boards\n(4) Bonding of loudspeaker parts, such as loudspeaker cones and magnets\n(5) Bonding of car window frame members (weather strips)\n\n## 4. Properties and characteristics\n\n### 4.1 Liquid properties and set time\n\nTable 1 Liquid properties and set time\n\n|  Test item | Substrate | Unit | TB7737 | Test method  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | - | Clear light yellow | 3TS-201-01  |\n|  Viscosity | - | mPa·s | 2000 | 3TS-210-01  |\n|  Structural viscosity ratio | - | - | 4.8 | 3TS-211-02  |\n|  Specific gravity (at 25°C) | - | - | 1.07 | 3TS-213-02  |\n|  Set time (at 25°C, 50%RH) | NBR | sec | 90 | 3TS-220-04  |\n|   |  Iron |   | 90  |   |\n|   |  ABS |   | 25  |   |\n|  Set time With the use of cure accelerator (at 25°C, 50%RH) | NBR |   | 25  |   |\n|   |  Iron |   | 7  |   |\n\nNote: As iron substrates for set time test, SPCC-SD sheets with sandblasted surfaces were used. For the set time test with the use of a cure accelerator, TB1796 was applied to one of the sandblasted iron surfaces, and, after a lapse of 30 seconds, the adhesive was applied to the other iron surface. Then, the surfaces were bonded, and the set time was measured.\n\n### 4.2 Tensile shear bond strength to various materials\n\nFor the tensile shear bond strength test, sandblasted metal test pieces were used. Other test pieces were used without treatment. The substrates were bonded with the adhesive in an environment with 50%RH at 25 °C. After the adhesive was cured for 24 hours in the same environment, the bond strength was measured at room temperature.\n\nTest method: Tensile shear bond strength (3TS-301-11)\n\nTable 2 Tensile shear bond strength to various materials\n\n|  Material of substrate | Tensile shear bond strength (MPa)  |\n| --- | --- |\n|   |  TB7737  |\n|  Iron | 25.7  |\n|  Aluminum | 20.4  |\n|  SUS | 18.2  |\n|  Brass | 24.1  |\n|  Copper | 20.3  |\n|  Nickel | 26.8  |\n|  Zinc chromate | 9.3  |\n|  Hard PVC | 1.5  |\n|  PC (polycarbonate) | 6.2(*)  |\n|  Phenol | 9.2(*)  |\n|  Nylon 6 | 7.8(*)  |\n|  Nylon 6,6 | 11.9  |\n|  ABS (acrylonitrile-butadiene-styrene resin) | 7.2(*)  |\n|  Glass epoxy | 16.0  |\n|  PBT (polybutylene terephthalate) | 2.4  |\n|  PET (polyethylene terephthalate) | 8.8(*)  |\n|  PPO (polyphenylene oxide) | 4.0  |\n|  PPS (polyphenylene sulfide) | 3.2  |\n|  HIPS (high-impact polystyrene) | 4.0(*)  |\n|  Acrylic | 6.6(*)  |\n|  Polyacetal | 0.4  |\n|  NR (natural rubber) | 0.4(*)  |\n|  CR (chloroprene rubber) | 0.6(*)  |\n|  NBR (nitrile-based rubber) | 0.7(*)  |\n|  SBR (styrene-butadiene rubber) | 1.5(*)  |\n|  EPDM (ethylene propylene diene monomer) | 0.7(*)  |\n\nNote: (*) in the table indicates material failure of the substrate.\n\nED080304",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB7737\n\n## 4.3 Peel strength and impact strength\n\nPeel strength: Two 0.5-mm-thick L-shaped metal sheets were bonded with the adhesive with a bonding area of $25 \\times 100 \\, \\mathrm{mm}^2$ in an environment with $50\\% \\mathrm{RH}$ at $25^{\\circ}\\mathrm{C}$, and the adhesive was cured for 24 hours in the same environment. Then, the peel strength in the 25-mm-wide area was measured at a rate of $50 \\, \\mathrm{mm/min}$ at room temperature. Degreased iron sheets and aluminum sheets annealed at $120^{\\circ}\\mathrm{C}$ for 3 hours after degreasing were used.\n\nImpact strength: Two degreased iron blocks were bonded with the adhesive with a bonding area of 3 $\\mathrm{cm}^2$ in an environment with $50\\% \\mathrm{RH}$ at $25^{\\circ}\\mathrm{C}$, and the adhesive was cured for 24 hours in the same environment. Then, the impact strength was measured by hitting one of the blocks with a Charpy impact tester while the other is secured.\n\nTest method: T-peel strength (3TS-304-21)\n\nImpact bond strength (3TS-324-01)\n\nTable 3 Peel strength and impact bond strength\n\n|  Test item | Substrates | Unit | TB7737 | Test method  |\n| --- | --- | --- | --- | --- |\n|  Peel strength | Fe/Fe | kN/m | 3.4 | 3TS-304-21  |\n|   |  Al/Al |   | 3.4  |   |\n|  Impact bond strength | Fe/Fe | kJ/m² | 28 | 3TS-324-01  |\n\n## 5. Durability\n\n### 5.1 Thermal resistance\n\nSteel sheet test pieces were bonded with the adhesive in an environment with $50\\% \\mathrm{RH}$ at $25^{\\circ}\\mathrm{C}$, and the adhesive was cured for 24 hours in the same environment. Then, the test pieces were aged at various temperatures for the specified time, and the tensile shear bond strength was measured after they were cooled to room temperature (3TS-301-11).\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Thermal resistance\n\n### 5.2 Thermal resistance during heating\n\nSteel sheet test pieces were bonded with the adhesive in an environment with $50\\% \\mathrm{RH}$ at $25^{\\circ}\\mathrm{C}$, and the adhesive was cured for 24 hours in the same environment. Then, the test pieces were exposed to various temperatures for two hours, and the tensile shear bond strength was measured at the temperatures (3TS-301-11).\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Thermal resistance during heating\n\n### 5.3 Thermal resistance (strength during heating after aging)\n\nSteel sheets were bonded with the adhesive in an environment with $50\\% \\mathrm{RH}$ at $25^{\\circ}\\mathrm{C}$, and the adhesive was cured for 24 hours in the same environment. Then, the sheets were exposed to $120^{\\circ}\\mathrm{C}$ for the specified time, and the tensile shear bond strength was measured in an environment at $120^{\\circ}\\mathrm{C}$ (3TS-301-11).\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Thermal resistance (strength during heating after aging)\n\nED080304",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 77,
+          "top_left_y": 600,
+          "bottom_right_x": 334,
+          "bottom_right_y": 837,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 381,
+          "top_left_y": 225,
+          "bottom_right_x": 637,
+          "bottom_right_y": 449,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 381,
+          "top_left_y": 672,
+          "bottom_right_x": 637,
+          "bottom_right_y": 903,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB7737\n\n# 5.4 Heat cycle resistance\n\nSteel sheet test pieces were bonded with the adhesive in an environment with 50%RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, the test pieces were exposed to the specified number of heat cycles (one cycle: at -40°C for 1 hr and at 120°C for 1 hr). After they were cooled to room temperature, the tensile shear bond strength was measured (3TS-301-11).\n\n![img-3.jpeg](img-3.jpeg)\nFig. 4 Heat cycle resistance\n\n# 5.5 Moisture resistance\n\nAluminum test pieces were bonded with the adhesive in an environment with 50%RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, the test pieces were aged at 85°C and 85%RH for the specified time. After they were cooled to room temperature, the tensile shear bond strength was measured (3TS-301-11).\n\n![img-4.jpeg](img-4.jpeg)\nFig. 5 Moisture resistance\n\n# 5.6 Water resistance\n\nAluminum test pieces were bonded with the adhesive in an environment with 50%RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, the test pieces were immersed in water at various temperatures for the specified time. After a lapse of the specified time, they were taken from water and dried, and the tensile shear bond strength was measured (3TS-301-11).\n\n![img-5.jpeg](img-5.jpeg)\nFig. 6 Water resistance\n\n# 6. Chemical resistance\n\nSteel sheet test pieces were bonded with the adhesive in an environment with 50%RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, they were immersed in various chemicals for 250 hours under the following conditions. After they were taken from the chemicals and dried, the tensile shear bond strength was measured at room temperature (3TS-301-11).\n\nTable 4 Resistance to various chemicals\n\n|  Chemical | Immersion temperature | Tensile shear bond strength (MPa)  |\n| --- | --- | --- |\n|   |   |  TB7737  |\n|  Before immersion | - | 25.7  |\n|  Isopropyl alcohol | 25°C | 25.4  |\n|  Toluene | 25°C | 26.3  |\n|  Gasoline | 25°C | 21.4  |\n|  Engine oil | 40°C | 25.9  |\n|  Long-life coolant (50%aq.) | 25°C | 24.6  |\n\n# 7. Usage\n\n(1) Completely remove moisture, oil, rust and other contaminants from the surface to be bonded and the fitting area.\n(2) Apply the adhesive to the surface to be bonded and the fitting area. The thinner the adhesive layer, the higher the adhesion.\n\nED080304",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 78,
+          "top_left_y": 229,
+          "bottom_right_x": 340,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 78,
+          "top_left_y": 639,
+          "bottom_right_x": 332,
+          "bottom_right_y": 854,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 375,
+          "top_left_y": 210,
+          "bottom_right_x": 641,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB7737\n\n(3) Rub the surfaces to spread the adhesive liquid thin and uniformly, and fix them in the specified position.\n(4) The adhesion time slightly varies depending on the kind of substrate and the surface condition. The adhesive interlocks in approx. 10 seconds to 5 minutes and shows the practical strength in approx. 30 minutes to 1 hour.\n(5) The use of a cure accelerator (TB1796 Series) can reduce the adhesion time. Application of the cure accelerator to adhesive overflow after bonding is effective in reinforcement and prevention of blushing.\n\n## 8. Storage\n\nThe adhesive deteriorates when it is exposed to heat, moisture and UV light.\n\nAfter using, fit the cap tightly, and store it in a dark dry place at 5 to 10°C (in a refrigerator) away from direct sunlight.\n\n## 9. Disposal\n\nAfter the adhesive has all been used, ask authorized waste disposal services to dispose of it as industrial waste.\n\n## 10. Applicable laws\n\n(1) Fire Defense Law: Fourth class, third type petroleum product. Hazard class III. Cyanoacrylate adhesive. Flammable\n(2) Labor Safety and Sanitation Law: Not applicable\n\n## 11. Instructions for use\n\n- Use and store the adhesive out of reach of children.\n- It is flammable. Do not use it near fire.\n- It can irritate the eyes, skin and respiratory organs. When using it, wear appropriate protective clothings, such as a mask, gloves (not permeable) and goggles. Use it in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n- If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention. While washing the eyes, take care not to blink too frequently or rub the eyes. Never use a stripper or a solvent, as doing so may damage the eyeballs.\n- If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n- If any abnormality is found in the body, stop using the adhesive, and get medical attention.\n- Do not use it on the human body.\n- People who have allergies or sensitive skin should avoid using it.\n- The adhesive may spout from the nozzle. Do not open the cap with the nozzle pointing towards someone.\n- It strongly and quickly bonds the skin and mucous membranes. Handle it carefully.\n\n- If fingers are bonded with it and cannot be separated, do not separate the fingers forcibly. Separate them by rubbing them in warm water at 40°C or so.\n- If it adheres to clothing, the skin may be scalded with the heat generated by chemical reaction. Handle it carefully.\n- It may generate a large amount of heat and foams depending on the curing conditions. Sufficiently check the conditions prior to use.\n- Do not put it near alkaline substances, such as cure accelerators and epoxy resin cure agents.\n- To prevent condensation, unseal the container after it reaches room temperature.\n- Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n- Some materials may be deformed by the heat of chemical reaction.\n- Some materials may deteriorate if this product is used.\n- If some adhesive overflow remains, the periphery of the bonded part becomes whitish with the solidified vapor of the adhesive.\n- The adhesive does not adhere to polyethylene, polypropylene, fluoroplastics, silicone resin, soft PVC or glass.\n- For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 12. Cautions\n\nFor industrial use only (Do not use it for household products.)\n\nThis product was developed for general industrial use.\n\nBefore using the product, accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but actual measurements obtained by our specified test methods.\nWe do not assure that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to examine prior to use whether the product is appropriate to the purpose of use and safe to use for the purpose and bear all responsibilities and hazards involved in its use.\nNever use the product for medical implant products that will be implanted or infused or may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of the product.\nIf the properties and usage of the product are unknown, never use it.\n- For the detailed safety information on the product, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact one of our offices or customer service centers.\n- The contents of this document are subject to change at our own discretion.\n\nED080304",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 204255
+  },
+  "document_annotation": null
+}

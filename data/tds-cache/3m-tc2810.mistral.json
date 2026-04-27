@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M Science. Applied to Life.™\nTechnical Data | Aug 2023\n\n# 3M™ Thermally Conductive Epoxy Adhesive TC-2810\n\n## Product Description\n\n3M™ Thermally Conductive Epoxy Adhesive TC-2810 is a thermally conductive, 2-part epoxy using high performance filler for good thermal conductivity with high adhesion.\n\n## Key Features\n\n- High adhesive strength\n- Slight tack allows pre-assembly\n- Good surface wet-out\n- Low viscosity for potting applications\n- Good gap filling\n- Thin bonding line\n- Good thermal conductivity (0.8-1.4 W/m-K)\n- Low chloride (Cl) ion content and outgassing\n\n## Typical Uncured Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2810  |   |   |\n| --- | --- | --- |\n|  Property |  | Value  |\n|  *Viscosity | Base | 40,000-90,000 cps  |\n|   |  Accelerator | 11,000-21,000 cps  |\n|   |  Mixed | 40,000-80,000 cps  |\n|  Base Resin | Base | Epoxy  |\n|   |  Accelerator | Amine  |\n|  Filler | Ceramic | 24 % by weight  |\n|  Mix Ratio (B:A) | Volume | 2:1  |\n|  Worklife |  | 100-120 minutes at 23 °C (72 °F)  |\n|  New Weight (lb/gal) | Base | 10.58  |\n|   |  Accelerator | 10.28  |\n|   |  Mixed | 10.37  |\n\n*Viscosity is measured using 40 mm, 2° cone, at 10 S⁻¹.\n\n## Typical Applications\n\n- LED Assembly\n- Potting applications\n- General gap filling\n\n## Application Techniques and Product Use\n\nFor bonding rigid to rigid parts, it is suggested that the bond line thickness and edge fill be designed to optimize:\n\n1. Bond Strength\n2. Thermal Resistance\n\nA typical suggested bond line is in the 3-7 mil (0.076- 0.018 mm) thickness range.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "# 3M™ Thermally Conductive Epoxy Adhesive TC-2810\n\nFor improved thermal performance (lower thermal resistance), a thinner bond line is suggested. A thinner bond line can reduce the bond strength, so each application needs to be tested to find the correct balance between thermal and mechanical properties.\n\n## Bond Line Thickness vs Thermal Resistance vs Bond Strength\n\nA \"fillet\" at the edge of a bond line is suggested to increase bond strength. The fillets are formed as the epoxy squeezes out past the side edges. Fillets can add strength to the assembly.\n\n3M™ Thermal Conductive Epoxy TC-2810 is supplied in dual syringe plastic duo-pak cartridges as part of the 3M™ Scotch-Weld™ EPX™ Plus II Applicator. The duo-pak cartridges are supplied in 37 ml or 50 ml configuration. To use the cartridge simply insert the duo-pak cartridge into the EPX™ Plus II Applicator and start the plunger into the cylinders using light pressure on the trigger. Next, remove the duo-pak cartridge cap and expel and discard a small amount of adhesive to be sure both sides of the duo-pak cartridge are flowing evenly and freely (ie: no voids, \"plugs of adhesive\", dis-continuity in flow, etc). Once even side to side and uniform flow from both sides of the duo-pak is confirmed, attach the 3M™ Scotch-Weld™ EPX™ Mixing Nozzle to the duo-pak cartridge to ensure proper and uniform mixing of the Part A and Part B and begin dispensing the adhesive.\n\nPartially used cartridges must follow the above use instructions to ensure consistent product performance.\n\nComplete and uniform mixing as noted above of the two components is required to obtain consistent product performance.\n\n## 3M™ Scotch-Weld™ EPX™ Plus II Applicator and 3M™ Scotch-Weld™ EPX™ Mixing Nozzle\n\nUse only 3M™ EPX™ Plus II Applicator and Mix Nozzles to ensure optimum product performance.\n\n## Typical Cured Physical Properties and Performance Characteristics\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes. Final product specifications and testing methods will be outlined in the products Certificate of Analysis (COA) that is shipped with the commercialized product.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2810  |   |   |\n| --- | --- | --- |\n|  Property | Method* | Value  |\n|  Color |  | Cream  |\n|  Glass Transition Temperature | ASTM 1356 | See Chart on page 3  |\n|  Thermal Coefficient of Expansion | ASTM E831 | 85 X 10⁻⁶/K (below Tg)\n240 X 10⁻⁶/K (above Tg)  |\n|  Thermal Conductivity | ASTM D5470 | 0.80-1.4 W/m-K  |\n|  Volume Resistivity | ASTM D257 | 1.5 x 10¹⁴ ohm-cm  |\n|  Dielectric Breakdown Voltage | ASTM D149 | 44.0 kV/mm (1119 Volts/mil)  |\n|  Dielectric Constant | ASTM 150 | 4.1  |\n|  Total Outgassing | ASTM 5116 | <1000 μg/g (GC/MS, 85 °C/3 hours)  |\n|  Siloxane Outgassing | ASTM 5116 | <5 μg/g (GC/MS, 85 °C/3 hours)  |\n|  Extractable Chloride | ASTM D7994 | <30 μg/g (hexane extraction)  |\n\n*Methods listed as ASTM are tested in accordance with the ASTM method noted\n\nCuring",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "# 3M™ Thermally Conductive Epoxy Adhesive TC-2810\n\nCure Schedule: 23 °C/24 hours\n50 °C/270 minutes\n70 °C/90 minutes\n90 °C/30 minutes\n120 °C/10 minutes\n\nPlease contact 3M Application Engineers for more data on curing conditions.\n\nNote: If the adhesive has become grainy or lumpy in appearance when dispensed, this may be due to crystallization of the adhesive. This can be corrected by heating the adhesive in the cartridge to 120°F (50°C) for 30 minutes with the cartridge oriented nozzle up. Allow the adhesive to cool before dispensing.\n\n## Typical Shear Strength, Peel Strength, Tg vs Cure Temperature/Time\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes. Final product specifications and testing methods will be outlined in the products Certificate of Analysis (COA) that is shipped with the commercialized product.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2810  |   |   |   |\n| --- | --- | --- | --- |\n|   | 23 °C (72 °F) 24 hours | 90 °C (194 °F) 30 minutes | 120 °C (248 °F) 10 minutes  |\n|  Overlap Shear N/mm² (psi) (ASTM D-1002)* | 18.62 (2700) | 18.62 (2700) | 18.62 (2700)  |\n|  T-Peel (piw) (ASTM D-1876) | 7 | 7 | 7  |\n|  Shore D Hardness (ASTM D2240) | 75 | 80 | 80  |\n|  Tg (°C) (ASTM E-1356) | 60 | 73 | 64  |\n\n*Methods listed as ASTM are tested in accordance with the ASTM method noted\n\n## Storage and Shelf Life\n\nThe shelf life of 3M™ Thermally Conductive Epoxy Adhesive TC-2810 is 12 months from the date of manufacture when stored in original cartons at 21 °C (70 °F) and 50 % relative humidity.\n\n## Certificate of Analysis (COA)\n\nThe 3M Certificate of Analysis (COA) for this product is established when the product is manufactured and deemed commercially available from 3M. The COA contains the 3M test methods, specifications limits and test results for the product's performance attributes that the product will be supplied against. Contact your local 3M representative for this product's COA.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "# 3M™ Thermally Conductive Epoxy Adhesive TC-2810\n\nSafety Data Sheet: Consult Safety Data Sheet before use.\n\nRegulatory: For regulatory information about this product, contact your 3M representative.\n\nTechnical Information: The technical information, guidance, and other statements contained in this document or otherwise provided by 3M are based upon records, tests, or experience that 3M believes to be reliable, but the accuracy, completeness, and representative nature of such information is not guaranteed. Such information is intended for people with knowledge and technical skills sufficient to assess and apply their own informed judgment to the information. No license under any 3M or third-party intellectual property rights is granted or implied with this information.\n\nProduct Use: Many factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. As a result, customer is solely responsible for evaluating the product and determining whether it is appropriate and suitable for customer's application, including conducting a workplace hazard assessment and reviewing all applicable regulations and standards (e.g., OSHA, ANSI, etc.). Failure to properly evaluate, select, and use a 3M product in accordance with all applicable instructions and with appropriate safety equipment, or to meet all applicable safety regulations, may result in injury, sickness, death, and/or harm to property.\n\nWarranty, Limited Remedy, and Disclaimer: Unless a different warranty is specifically stated on the applicable 3M product packaging or product literature (in which case such warranty governs), 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR ANY IMPLIED WARRANTY OR CONDITION ARISING OUT OF A COURSE OF DEALING, CUSTOM, OR USAGE OF TRADE. If a 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement or repair of the 3M product or refund of the purchase price.\n\nLimitation of Liability: Except for the limited remedy stated above, and except to the extent prohibited by applicable law, 3M will not be liable for any loss or damage arising from or related to the 3M product, whether direct, indirect, special, incidental, or consequential (including, but not limited to, lost profits or business opportunity), regardless of the legal or equitable theory asserted, including, but not limited to, warranty, contract, negligence, or strict liability.\n\nDisclaimer: For industrial use only. Not intended, labeled, or packaged for consumer sale or use.\n\n3M\nElectronics Materials Solutions Division\n3M Center, Building 223-3S-32\nSt. Paul, MN 55144-1000\n1-800-251-8634 phone\n651-778-4244 fax\nwww.3M.com/electronics\n3M, EPX and Scotch-Weld are trademarks of\n3M Company.\nPlease recycle.\n©3M 2023. All rights reserved.\n60-5005-0125-3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "http://www.3m.com/electronics"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 227086
+  },
+  "document_annotation": null
+}

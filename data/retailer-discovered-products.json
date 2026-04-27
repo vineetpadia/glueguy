@@ -1,0 +1,744 @@
+{
+  "generated_at": "2026-04-27T01:30:35.282580+00:00",
+  "stats": {
+    "retailersConfigured": 2,
+    "searchQueries": 120,
+    "discoveredEntries": 11
+  },
+  "retailers": [
+    {
+      "name": "Home Depot",
+      "domain": "homedepot.com",
+      "queries": 60,
+      "discoveredEntries": 7,
+      "makers": [
+        {
+          "maker": "Henkel Loctite",
+          "discoveredEntries": 3
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "discoveredEntries": 3
+        },
+        {
+          "maker": "E6000",
+          "discoveredEntries": 1
+        }
+      ],
+      "queryLog": [
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"Loctite PL Premium\"",
+          "hits": 1
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"Loctite Power Grab\"",
+          "hits": 2
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"Loctite Super Glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"EA 9394\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"EA E-120HP\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"EA E-90FL\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"EA 9460\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"243\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"263\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"271\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:homedepot.com/p/ \"290\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"DAP Weldwood contact cement\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"DAP RapidFuse\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"DAP Dynagrip\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"RapidFuse\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"Dynaflex 230\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:homedepot.com/p/ \"3.0 Advanced Sealant\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Gorilla wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Gorilla construction adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Gorilla super glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Original (polyurethane)\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Super Glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"Construction Adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:homedepot.com/p/ \"2-Part Epoxy\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"J-B Weld epoxy\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"J-B Weld plastic bonder\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"J-B Weld clearweld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"Original Cold-Weld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"Kwik-Weld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"Steel-Stik\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"ClearWeld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"Plastic Bonder\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:homedepot.com/p/ \"HighHeat\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"3M super 77 adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"3M Hi-Strength 90 adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP420NS\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP420 Black\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP460\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP490\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP100 Plus\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld DP8810NS\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld 2216 B/A Gray\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:homedepot.com/p/ \"Scotch-Weld CA5\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Weld-On PVC cement\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Oatey PVC cement\"",
+          "hits": 3
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Oatey Clear PVC Medium-Bodied\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Weld-On 4007\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Weld-On 3\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Weld-On 16\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:homedepot.com/p/ \"Weld-On 40\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:homedepot.com/p/ \"Titebond III Ultimate\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:homedepot.com/p/ \"Titebond II Premium\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:homedepot.com/p/ \"Titebond original wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:homedepot.com/p/ \"Liquid Nails Fuze It Max\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:homedepot.com/p/ \"Liquid Nails Heavy Duty\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:homedepot.com/p/ \"Liquid Nails Landscape Block\"",
+          "hits": 0
+        },
+        {
+          "maker": "Elmer's",
+          "query": "site:homedepot.com/p/ \"Elmer's carpenter's wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Elmer's",
+          "query": "site:homedepot.com/p/ \"Elmer's glue-all\"",
+          "hits": 0
+        },
+        {
+          "maker": "E6000",
+          "query": "site:homedepot.com/p/ \"E6000 craft adhesive\"",
+          "hits": 1
+        },
+        {
+          "maker": "E6000",
+          "query": "site:homedepot.com/p/ \"E6000 premium\"",
+          "hits": 0
+        }
+      ]
+    },
+    {
+      "name": "Lowe's",
+      "domain": "lowes.com",
+      "queries": 60,
+      "discoveredEntries": 4,
+      "makers": [
+        {
+          "maker": "Henkel Loctite",
+          "discoveredEntries": 2
+        },
+        {
+          "maker": "Elmer's",
+          "discoveredEntries": 1
+        },
+        {
+          "maker": "Gorilla Glue",
+          "discoveredEntries": 1
+        }
+      ],
+      "queryLog": [
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"Loctite PL Premium\"",
+          "hits": 1
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"Loctite Power Grab\"",
+          "hits": 1
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"Loctite Super Glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"EA 9394\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"EA E-120HP\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"EA E-90FL\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"EA 9460\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"243\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"263\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"271\"",
+          "hits": 0
+        },
+        {
+          "maker": "Henkel Loctite",
+          "query": "site:lowes.com/pd/ \"290\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"DAP Weldwood contact cement\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"DAP RapidFuse\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"DAP Dynagrip\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"RapidFuse\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"Dynaflex 230\"",
+          "hits": 0
+        },
+        {
+          "maker": "DAP",
+          "query": "site:lowes.com/pd/ \"3.0 Advanced Sealant\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Gorilla wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Gorilla construction adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Gorilla super glue\"",
+          "hits": 1
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Original (polyurethane)\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Super Glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"Construction Adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "Gorilla Glue",
+          "query": "site:lowes.com/pd/ \"2-Part Epoxy\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"J-B Weld epoxy\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"J-B Weld plastic bonder\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"J-B Weld clearweld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"Original Cold-Weld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"Kwik-Weld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"Steel-Stik\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"ClearWeld\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"Plastic Bonder\"",
+          "hits": 0
+        },
+        {
+          "maker": "J-B Weld",
+          "query": "site:lowes.com/pd/ \"HighHeat\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"3M super 77 adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"3M Hi-Strength 90 adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP420NS\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP420 Black\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP460\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP490\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP100 Plus\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld DP8810NS\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld 2216 B/A Gray\"",
+          "hits": 0
+        },
+        {
+          "maker": "3M",
+          "query": "site:lowes.com/pd/ \"Scotch-Weld CA5\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Weld-On PVC cement\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Oatey PVC cement\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Oatey Clear PVC Medium-Bodied\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Weld-On 4007\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Weld-On 3\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Weld-On 16\"",
+          "hits": 0
+        },
+        {
+          "maker": "Oatey / IPS Weld-On",
+          "query": "site:lowes.com/pd/ \"Weld-On 40\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:lowes.com/pd/ \"Titebond III Ultimate\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:lowes.com/pd/ \"Titebond II Premium\"",
+          "hits": 0
+        },
+        {
+          "maker": "Titebond",
+          "query": "site:lowes.com/pd/ \"Titebond original wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:lowes.com/pd/ \"Liquid Nails Fuze It Max\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:lowes.com/pd/ \"Liquid Nails Heavy Duty\"",
+          "hits": 0
+        },
+        {
+          "maker": "Liquid Nails",
+          "query": "site:lowes.com/pd/ \"Liquid Nails Landscape Block\"",
+          "hits": 0
+        },
+        {
+          "maker": "Elmer's",
+          "query": "site:lowes.com/pd/ \"Elmer's carpenter's wood glue\"",
+          "hits": 0
+        },
+        {
+          "maker": "Elmer's",
+          "query": "site:lowes.com/pd/ \"Elmer's glue-all\"",
+          "hits": 1
+        },
+        {
+          "maker": "E6000",
+          "query": "site:lowes.com/pd/ \"E6000 craft adhesive\"",
+          "hits": 0
+        },
+        {
+          "maker": "E6000",
+          "query": "site:lowes.com/pd/ \"E6000 premium\"",
+          "hits": 0
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "retailer": "Home Depot",
+      "maker": "E6000",
+      "name": "E6000 2 oz. Clear Adhesive 237032",
+      "retailerUrl": "https://www.homedepot.com/p/E6000-2-oz-Clear-Adhesive-237032/203279322",
+      "sourceQuery": "site:homedepot.com/p/ \"E6000 craft adhesive\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Henkel Loctite",
+      "name": "Loctite PL Premium 10 oz. Polyurethane Construction Adhesive Tan ...",
+      "retailerUrl": "https://www.homedepot.com/p/Loctite-PL-Premium-10-oz-Polyurethane-Construction-Adhesive-Tan-Cartridge-each-1390595/202020473",
+      "sourceQuery": "site:homedepot.com/p/ \"Loctite PL Premium\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Power Grab All Purpose Instant Grab 9 oz. Latex Construction ...",
+      "retailerUrl": "https://www.homedepot.com/p/Loctite-Power-Grab-All-Purpose-Instant-Grab-9-oz-Latex-Construction-Adhesive-White-Cartridge-2022554/206432092",
+      "sourceQuery": "site:homedepot.com/p/ \"Loctite Power Grab\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Power Grab Ultimate Instant Grab 9 oz. SMP Construction ...",
+      "retailerUrl": "https://www.homedepot.com/p/Loctite-Power-Grab-Ultimate-Instant-Grab-9-oz-SMP-Construction-Adhesive-White-Cartridge-1989550/206210490",
+      "sourceQuery": "site:homedepot.com/p/ \"Loctite Power Grab\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Oatey 32 oz. Heavy-Duty Clear PVC Cement and 32 oz. Purple CPVC PVC ...",
+      "retailerUrl": "https://www.homedepot.com/p/sets/Oatey-32-oz-Heavy-Duty-Clear-PVC-Cement-and-32-oz-Purple-CPVC-PVC-Primer-Combo/339178979",
+      "sourceQuery": "site:homedepot.com/p/ \"Oatey PVC cement\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Oatey 32 oz. Regular Clear PVC Cement and 32 oz. Purple CPVC and PVC ...",
+      "retailerUrl": "https://www.homedepot.com/p/sets/Oatey-32-oz-Regular-Clear-PVC-Cement-and-32-oz-Purple-CPVC-and-PVC-Primer-Combo/339178970",
+      "sourceQuery": "site:homedepot.com/p/ \"Oatey PVC cement\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Home Depot",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Oatey 8 oz. Regular Clear PVC Cement 310133",
+      "retailerUrl": "https://www.homedepot.com/p/Oatey-8-oz-Regular-Clear-PVC-Cement-310133/100345577",
+      "sourceQuery": "site:homedepot.com/p/ \"Oatey PVC cement\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Lowe's",
+      "maker": "Elmer's",
+      "name": "ELMER'S Multi-Purpose Glue-All 128 -fl oz All purpose Paste ...",
+      "retailerUrl": "https://www.lowes.com/pd/ELMER-S-Multi-Purpose-Glue-All-128-fl-oz-Liquid-All-Purpose-Multipurpose-Adhesive/5014207953",
+      "sourceQuery": "site:lowes.com/pd/ \"Elmer's glue-all\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Lowe's",
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Super Glue Gel, Clear, 20g Bottle - Shock Resistant ...",
+      "retailerUrl": "https://www.lowes.com/pd/Gorilla-Super-Glue-Gel-20-gram-Super-Glue-Clear-Multipurpose-Adhesive/50149300",
+      "sourceQuery": "site:lowes.com/pd/ \"Gorilla super glue\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Lowe's",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE PL Premium Polyurethane Construction Adhesive 10 fl oz ...",
+      "retailerUrl": "https://www.lowes.com/pd/LOCTITE-PL-Premium-Polyurethane-Construction-Adhesive-10-fl-oz-Cartridge-6-Pack/8913622",
+      "sourceQuery": "site:lowes.com/pd/ \"Loctite PL Premium\"",
+      "sourceType": "search-engine-assisted-retailer"
+    },
+    {
+      "retailer": "Lowe's",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE Power Grab Latex White Multi-use Interior Construction Adhesive ...",
+      "retailerUrl": "https://www.lowes.com/pd/LOCTITE-Power-Grab-All-Purpose-White-Latex-Interior-Construction-Adhesive-9-fl-oz/1001059982",
+      "sourceQuery": "site:lowes.com/pd/ \"Loctite Power Grab\"",
+      "sourceType": "search-engine-assisted-retailer"
+    }
+  ]
+}

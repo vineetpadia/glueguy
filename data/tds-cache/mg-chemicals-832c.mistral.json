@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "832C\n\nMG Chemicals\n\n# Translucent Epoxy, Encapsulating &amp; Potting Compound\n\n832C is a rigid, amber clear epoxy that offers extreme environmental, mechanical and physical protection for printed circuit boards and electronic assemblies.\n\nDue to its low mixed viscosity, it can easily penetrate small gaps and cavities. It also provides excellent electrical insulation and protects components from static discharge, vibration, abrasion, thermal shock, environmental humidity, salt water, fungus, and many harsh chemicals.\n\n# Features &amp; Benefits\n\n- Color allows for visual inspection\n- Low mixed viscosity of 2 700 cP\n- Extremely high compressive and tensile strength\n- Excellent adhesion to a wide variety of substrates, including metals, composites, glass, ceramics, and many plastics\n- Excellent electrical insulating characteristics\n- Extreme resistance to water and humidity\n- Solvent-free\n\n# Cure Instructions\n\nAllow to cure at room temperature for 24 hours, or cure in an oven at one of these time/temperature options:\n\n|  Temperature | 65 °C | 80 °C | 100 °C  |\n| --- | --- | --- | --- |\n|  Time | 1 h | 30 min | 15 min  |\n\n# Storage and Handling\n\nStore between 16 and 27 °C in a dry area, away from sunlight (see SDS). Storage below 16 °C can result in crystallization.\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  832C-375ML | 2 Bottle kit | 375 mL | 402 g  |\n|  832C-450ML | Dual cartridge | 450 mL | 483 g  |\n|  832C-3L | 3 Can kit | 2.55 L | 2.74 kg  |\n|  832C-60L | 3 Pail kit | 60 L | 64.6 kg  |\n\n# Dispensing Accessories\n\n|  Part # | Dispensing Gun | Static Mixer  |\n| --- | --- | --- |\n|  832C-450ML | 8DG-450-2-1 | 8MT-450  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 20 February 2026 / Ver. 4.2",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 420,
+          "top_left_y": 122,
+          "bottom_right_x": 756,
+          "bottom_right_y": 438,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "832C\n\nMG Chemicals\n\n# Liquid Properties\n\n|  Chemistry | Epoxy | —  |\n| --- | --- | --- |\n|  Density | 1.1 g/mL (Mixed) | ASTM D1475  |\n|   |  1.1 g/mL (A)  |   |\n|   |  1.0 g/mL (B)  |   |\n|  Viscosity @ 25 °C | 2 700 cP (Mixed) | Brookfield Engineering labs Inc.\nIPCTM-65- Method 2.4.24.4  |\n|   |  1 900 cP (A)  |   |\n|   |  6 600 cP (B)  |   |\n|  Mix Ratio | 2:1 (Volume) | —  |\n|   |  2.3:1 (Weight)  |   |\n|  Working Time a | 3 h 15 min | —  |\n|  Shrinkage | 1.6% | Calculated  |\n|  Peak Exotherm b | 107 °C | ASTM D2471  |\n|  Shelf Life | 5 y | —  |\n\na Based on 100 g sample. Varies by volume and geometry.\nb Based on a 250 g sample in a fixed container geometry.\n\n# Cured Properties\n\n|  Flame Retardancy | No | —  |\n| --- | --- | --- |\n|  Color | Clear amber | —  |\n|  Density | 1.1 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range | -40–140 °C | —  |\n|  Intermittent Temperature | 175 °C | —  |\n|  Thermal Conductivity @ 25 °C | 0.3 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 2.1 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.2 mm²/s |   |\n|  Glass Transition Temperature (T_{g}) | 53 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 150 ppm/°C (Prior T_{g}) | ASTM E831  |\n|   |  161 ppm/°C (After T_{g}) |   |\n|  Hardness | 84 D | ASTM D2240  |\n|  Tensile Strength | 45 N/mm² | ASTM D638  |\n|  Compressive Strength | 164 N/mm² | ASTM D695  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 20 February 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "832C\n\nMG Chemicals\n\nCured Properties Continued\n\n|  Lap Shear | 17 N/mm² (Stainless Steel) | ASTM D1002  |\n| --- | --- | --- |\n|   |  18 N/mm² (Aluminum) |   |\n|   |  3.8 N/mm² (ABS) |   |\n|   |  2.6 N/mm² (PC) |   |\n|  Resistivity | 6.7 x 10¹² Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 60 400 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 483 V/mil |   |\n|  Dielectric Constant @ 1 MHz | 2.8 | ASTM D150  |\n|  Dissipation Factor @ 1 MHz | 0.02 |   |\n|  Chemical Absorption | 14 % (Acetone) | —  |\n|  Weight Gain, 30 days @ 25 °C | 10 % (Ethyl Acetate) |   |\n|   |  0.6 % (IPA) |   |\n|   |  17 % (Toluene) |   |\n|   |  0.9 % (Sulphuric Acid 3%) |   |\n|   |  2.5 % (Sulphuric Acid 30%) |   |\n|   |  0.7 % (Acetic Acid) |   |\n|   |  0.2 % (10% NaOH) |   |\n|   |  0.2 % (10% NaCl) |   |\n|   |  0.2 % (Water) |   |\n|   |  0 % (Transmission Oil) |   |\n|   |  0 % (Transformer Oil) |   |\n|   |  0.7 % (Gasoline) |   |\n|  Weight Loss @ 155 °C (600 h) | 1.5 % | —  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 20 February 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "832C\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n# Mixing\n\n1. Scrape settled material free from the bottom and sides of the part A container; stir the contents until homogenous. Use a paint shaker if available.\n2. Measure 2 parts by volume of the part A and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n3. Measure 1 part by volume of the part B and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n4. Thoroughly and gently mix parts A and B together. Avoid introducing air bubbles.\n5. To de-air, let sit for 15 minutes or put in a vacuum chamber at 25 inHg for 2 minutes.\n6. If bubbles are present at the top, break them gently with the mixing paddle.\n7. Pour the mixture into a container holding the components to be protected.\n8. Close the part A and B containers tightly between uses to prevent skinning.\n\n# Cartridge\n\n1. Twist and remove the cap from the cartridge. Do not discard cap.\n2. Dispense a small amount to ensure even flow of both parts.\n3. (Optional) Attach static mixer.\na. Dispense and discard 5 to 10 mL of the product to ensure a homogeneous mixture.\nb. After use, dispose of static mixer.\n4. Without a static mixer, dispense material on a mixing surface or container, and thoroughly mix parts A and B together.\n5. To stop the flow, pull back on the plunger.\n6. Clean nozzle to prevent contamination and material buildup. Replace the cap on the cartridge.\n\nIf crystallization/solidification occurs, reconstitute the product by warming to between 55 and 65 °C until it becomes fully re-liquified. Let the material cool to room temperature before mixing, to prevent flash cure.\n\nMixing &gt;500 g at a time decreases working time and can lead to a flash cure. Limit the size of hand-mixed batches. For large production volumes, contact MG Chemicals Technical Support for assistance.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 20 February 2026 / Ver. 4.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 307407
+  },
+  "document_annotation": null
+}

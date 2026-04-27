@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Devcon.\nTechnical Data Sheet\n10/11/2012\n\n# 2 Ton® Epoxy\n\nDescription: Extremely strong, medium-cure, water-resistant clear adhesive that will self-level after application.\n\nIntended Use: Bonding parts in a structural environment or potting electronic components and assemblies\n\nProduct features: Cures without shrinking\nCures at room temperature\nGood impact resistance\nProduces strong, rigid bond on metal, ceramics, wood, concrete, glass, or combinations\n\nLimitations: Store between 55° and 75° F for optimum results. Keep from freezing.\n\nTypical Physical Properties: Technical data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Cured 7 days @ 75°F |   | TESTS CONDUCTED  |\n| --- | --- | --- |\n|  Adhesive Tensile Lap Shear[GBS] | 2,250 psi @ 0.010\" bondline | Thermal Conductivity ASTM C 177  |\n|  Color (Mixed) | Clear | Dielectric Strength, volts/mil ASTM D 149  |\n|  Compression Strength | 11,000 psi | Compressive Strength ASTM D 695  |\n|  Dielectric Strength | 600 volts/mil | Cured Hardness Shore D ASTM D 2240  |\n|  Gap Fill | Good | Adhesive Tensile Shear ASTM D 1002  |\n|  Impact Resistance | 6.5 ft.-lb./in.(2) |   |\n|  Service Temperature | Dry, -40°F to 200°F |   |\n|  Shore Hardness | 83 Shore D |   |\n|  Solids by Volume | 100 |   |\n|  Specific Volume | 25.2 in.(3)/lb. |   |\n|  Tensile Elongation | 1% |   |\n|  Tpeel | 2-3 pli |   |\n|  Uncured  |   |\n| --- | --- |\n|  Fixture Time | 30-35 min. @ 72°F  |\n|  Full Cure | 16 hrs.  |\n|  Functional Cure | 2 hrs. @ 72°F  |\n|  Mix Ratio by Volume | 1:1 Resin/Hardener  |\n|  Mix Ratio by Weight | 1.2:1 Resin/Hardener  |\n|  Mixed Density | 9.17 lbs/gal.: 1.10 gm/cc  |\n|  Mixed Viscosity | 8,000 cps  |\n|  Working Time | 8-12 min. (28 gm @ 72°F)  |\n\nSurface Preparation: Clean surface by solvent-wiping any deposits of heavy grease, oil, dirt, or other contaminants. Surface can also be cleaned with industrial cleaning equipment such as vapor phase degreasers or hot aqueous baths. If working with metal, abrade or roughen the surface to significantly increase the microscopic bond area and increase the bond strength.\n\nMixing Instructions: --- Proper homogenous mixing of resin and hardener is essential for the curing and development of stated strengths. ---\n\n25 ML DEV-TUBE\n1. Squeeze material into a small container the size of an ashtray.\n2. Using mixing stick included on Dev-tube handle, vigorously mix components for one (1) minute.\n3. Immediately apply to substrate.\n\n50 ML/400ML/490 ML CARTRIDGES\n1. Attach cartridge to Mark V™ [50ml] 400ml manual or pneumatic dispensing systems.\n2. Open tip.\n3. Burp cartridge by squeezing out some material until both sides are uniform (ensures no air bubbles are present during mixing).\n4. Attach mix nozzle to end of cartridge.\n5. Apply to substrate.\n\nApplication\nInstructions: 3TW Devcon, 30 Endicott Street, Danvers, MA 01923 Tel:(978) 777-1100 Fax:(978) 774-0516 www.devcon.com",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "ITW Devcon, 30 Endicott Street, Danvers, MA 01923 Tel:(978) 777-1100 Fax:(978) 774-0516 www.devcon.com\n\n# Application Instructions:\n\n1. Apply mixed epoxy directly to one surface in an even film or as a bead.\n2. Assemble with mating part within recommended working time.\n3. Apply firm pressure between mating parts to minimize any gap and ensure good contact (a small fillet of epoxy should flow out the edges to display adequate gap fill.)\n\nFor very large gaps:\n\n1. Apply epoxy to both surfaces\n2. Spread to cover entire area OR make a bead pattern to allow flow throughout the joint\n\nLet bonded assemblies stand for recommended functional cure time prior to handling.\n\n# CAPABILITIES:\n\nCan withstand processing forces\n\nDo not drop, shock load, or heavily load\n\nFull bond strength is reached in 16 hours.\n\n# Storage:\n\nStore in a cool, dry place.\n\n# Compliances:\n\nNone\n\n# Chemical Resistance:\n\nChemical resistance is calculated with a 7 day, room temp. cure (30 days immersion) @ 75°F\n\n|  Acetic (Dilute) 10% | Poor  |\n| --- | --- |\n|  Acetone | Fair  |\n|  Ammonia | Very good  |\n|  Corn Oil | Excellent  |\n|  Cutting Oil | Excellent  |\n|  Ethanol | Poor  |\n|  Gasoline (Unleaded) | Excellent  |\n|  Glycols/Antifreeze | Excellent  |\n|  Hydrochloric 10% | Poor  |\n| --- | --- |\n|  Isopropanol | Poor  |\n|  Kerosene | Excellent  |\n|  Methyl Ethyl Ketone | Poor  |\n|  Mineral Spirits | Excellent  |\n|  Motor Oil | Excellent  |\n|  Sodium Hydroxide 10% | Very good  |\n|  Sulfuric 10% | Poor  |\n\n# Precautions:\n\nPlease refer to the appropriate material safety data sheet (MSDS) prior to using this product.\n\nFor technical assistance, please call 1-800-933-8266\n\nFOR INDUSTRIAL USE ONLY\n\n# Warranty:\n\nDevcon will replace any material found to be defective. Because the storage, handling and application of this material is beyond our control, we can accept no liability for the results obtained.\n\n# Disclaimer:\n\nAll information on this data sheet is based on laboratory testing and is not intended for design purposes. ITW Devcon makes no representations or warranties of any kind concerning this data.\n\n# Order Information:\n\n14355 400 ml cartridge\n14310 25 ml Dev-Tube™\n14360 9 lb.\n14260 50 ml cartridge",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 44796
+  },
+  "document_annotation": null
+}

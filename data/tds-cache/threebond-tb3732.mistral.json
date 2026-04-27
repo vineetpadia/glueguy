@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB3732 – HEAT RESISTANT INORGANIC ADHESIVE\n\n## Information\n\nTB3732 is an entirely new type of heat resistant inorganic adhesive using a metallic alkoxide binder. This single component can cure at low temperature with minimal foaming. The hardener in TB3732 offers superior water resistance, electric insulation, and air tightness. TB3732 also has excellent resistance to chemicals, oil, and organic solutions.\n\n## Application\n\nTB3732 can be used mainly for filling, fixes and bonding of ceramic, glass, metal, electronic components, and heat resistant molding material. It has wide applicability covering paint through putty using binder system.\n\n## Typical Properties\n\n### 1. Uncured state\n\n|  Property | Unit | Value  |\n| --- | --- | --- |\n|  Appearance | - | White Paste  |\n|  Base Composition | - | Alumina  |\n|  Viscosity | Pa · s (P) | 10 (100)  |\n|  Specific Gravity | - | 2.6  |\n\nRev: 0.3\nIssued Date: 9/3/04\nDocument Control Number: 3-TB-20-0760",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "2. Cured material\n\n|  Property | Unit | Value  |\n| --- | --- | --- |\n|  Heat resistance (Seger Cone Method) | °C | 1400  |\n|  Coefficient of Thermal Expansion | / °C | 7.5 × 10^{-6}  |\n|  Thermal Conductivity | cal/cm·sec · °C | 6.1 × 10^{-3}  |\n|  Vickers Hardness (0.2 kgf) | Hv | 200  |\n|  Lap Shear Strength | MPa (kgf / cm^{2}) | 2.8 (28.7)  |\n|  Bending Strength | MPa (kgf / cm^{2}) | 9.8 (100)  |\n|  Volume Resistivity | Ω / cm | 1 × 10^{12}  |\n|  Dielectric constant (1kHz) | - | 6.0  |\n|  Dielectric loss tangent (1kHz) | - | 4.1 × 10^{-3}  |\n\nFigure 1: Shear Strength versus Curing Condition\n![img-0.jpeg](img-0.jpeg)\nR.T. = Room Temperature\n\nRev: 0.3\n\nIssued Date: 9/3/04\n\nDocument Control Number: 3-TB-20-0760",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 145,
+          "top_left_y": 422,
+          "bottom_right_x": 642,
+          "bottom_right_y": 746,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Page 3 of 4\n\n# How to Use TB3732\n\nPreparation: TB3732 is a slurry which tends to settle. Mix the contents by rubbing well in the vinyl bag laminated with aluminum before unsealing. Note, mixing by hand can also complete agitation.\n\nClean the surface of parts to be bonded. This surface should be free of oil and other contaminates. To improve adhesion use sandpaper or sand blast before cleaning the surface. If dilution of TB3732 in necessary, use alcohol (methanol, ethanol, isopropyl alcohol, etc...) following conditions:\n\n- Avoid adding over 5% alcohol\n- Do not use solvents containing too much water because it will gel and become unusable.\n\n# How to Use for Painting\n\nApply an appropriate amount of TB3732 based on the application such as adhesion, filling, coating, etc. Long exposure to air may thicken coat due to volatilization of solvent. We recommend using a dispenser. Consult your Three Bond sales engineer to select the proper dispenser.\n\n# Curing Method\n\nTB3732 can be cured at room temperature but to improve its physical properties we recommend thermal curing. In this case, pre-heat to less than 50°C.\n\nCuring method is various as list in the table below. Please use the appropriate curing method for your application (base on thickness of adhesion layer, adhered material and shape, etc...) In particular, if cured layer is thick, increase the solvent volatilization time and/or temperature in order to prevent cracking and bubbles. TB3732 tends to foam with short exposure. It may cause delustering and cracking with long exposure, especially if the cured layer is thick.\n\n|  For Adhesion | For Filling Adhesion | For Coating  |\n| --- | --- | --- |\n|  1hr × R.T.\nor 30 minutes × 50 ~ 100°C | 2hrs × R.T.\nor 4hrs × 50°C\nor 30 minutes × 100°C | 30 minutes × R.T.\nor 30 minutes × 100°C  |\n\n# Post Treatment\n\nFor the unused portion, immediately put in an airtight container such as a glass bottle then seal. If it has excessive exposure to the atmosphere, it may change composition due to moisture absorption or solvent volatilization.\n\nRev: 0.3\nIssued Date: 9/3/04\nDocument Control Number: 3-TB-20-0760",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "# Handling and Storage\n\n- Store in a cool and dark place. After using, thoroughly seal the container for storage.\n- Read Material Safety Data Sheet before work with this material.\n- If TB3732 contacts skin, immediately rinse with clean water. If TB3732 gets in eye, rinse with clean water and seek medical attention.\n\n# Packaging\n\n- 1 kg Aluminum laminated vinyl bag.\n- 200 grams Aluminum laminated vinyl bag.\n\nThese are typical properties not product specifications.\n\nRev: 0.3\nIssued Date: 9/3/04\nDocument Control Number: 3-TB-20-0760",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 129834
+  },
+  "document_annotation": null
+}

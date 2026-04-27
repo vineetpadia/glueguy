@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\nTB 17N-040\nHQ FREE 17A-078E\n\n## Information\n\nTB17N-040 is the HQ free version of 17A-078E. It is a high viscosity; single component cyanoacrylate adhesive. It cures rapidly at room temperature and demonstrates excellent adhesive efficiency.\n\n## Application\n\nAlthough TB17N-040 can be used for a wide range of materials, main application area is in cosmetics.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent liquid  |\n|  Viscosity | Pa · s {P} | 1.7 {17}  |\n|  Specific gravity | - | 1.05  |\n|  Set time NBR / NBR | Seconds | 5  |\n|  Set time NAIL TIP / NAIL TIP |   | 10  |\n\n### 2. Cured Material\n\nLap shear strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa {kgf/cm²} | 23 {230}  |\n|  NBR/NBR |   | MF  |\n|  EPDM/EPDM |   | MF  |\n|  ABS/ABS |   | MF  |\n\nMF – Material Failure\n\nThese are typical results, not product specifications.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 68735
+  },
+  "document_annotation": null
+}

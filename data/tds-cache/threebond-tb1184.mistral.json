@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1184\n\nThreeBond\n\nOct. 26, 2010\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1184\n\nLiquid gasket (gray)\n\n1. Outline\n\nThreeBond 1184 is a semidrying liquid gasket whose main component is special synthetic rubber.\n\nAfter it is applied and dried, it forms a rubber-like elastic body. Since it excels in padding property, it shows a high sealing effect even on bonded surfaces with poor flatness and large clearance. In addition, it has excellent resistance to water, oil and gasoline.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2. Features\n\n(1) Good padding property\n\nIt shows an excellent sealing effect even on bonded surfaces with poor flatness and large clearance.\n\n(2) Excellent resistance to vibration and impact\n\nAfter applied and dried, it forms a rubber-like elastic body and exhibit excellent resistance to vibration and impact.\n\n(3) Excellent resistance to high and low temperatures\n\nIt keeps stable rubber elasticity in a wide temperature range from -40°C to 150°C.\n\n(4) Excellent resistance to water and oil\n\n(5) Effective in preventing leak from threaded portions\n\n3. Uses\n\n(1) Sealing of flange surfaces and threaded portions\n\n(2) Applicable to sealing of flange surfaces with large clearance\n\n4. Properties\n\nTable 1 Properties of TB1184\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Gray | 3TS-201-02 | -  |\n|  Viscosity | Pa·s | 9.5 | 3TS-210-02 | 25°C/BH-type, No.5-20 rpm  |\n|  Specific gravity | - | 1.26 | 3TS-213-02 | 25°C  |\n|  Heating residue | % | 57.5 | 3TS-217-93 | -  |\n|  Tack-free time | min | 12 | 3TS-219-04 | -  |\n\nED2010080",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1184\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured material\n\nTable 2 Characteristics of TB1184 after curing\n\n|  Test item | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Tensile strength | MPa | 0.17 | 3TS-320-01  |\n|  Elongation | % | 1720 | 3TS-320-01  |\n|  Hardness | A | 23 | 3TS-215-01  |\n\nNote) Curing conditions: 25°C for 14 days\n\n## 5.2 Influence on rubber (change in mass)\n\nTable 3 Influence of TB1184 on rubber\n\n|  Kind | Unit | Mass change | Test method  |\n| --- | --- | --- | --- |\n|  NR | wt% | + 38 | 3TS-229-01\n(immersion at 25°C for 24 hrs.)  |\n|  CR | wt% | + 45  |   |\n|  SBR | wt% | + 55  |   |\n|  NBR | wt% | + 44  |   |\n|  EPDM | wt% | + 67  |   |\n\n## 5.3 Pressure resistance\n\nTable 4 Pressure resistance of TB1184\n\n|  Condition | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Room temperature | MPa | 10.0 | 3TS-350-02  |\n|  80°C | MPa | 8.5  |   |\n|  150°C | MPa | 8.5  |   |\n\nTest conditions\n* Surface finish: 6.3 S\n* Flange used: OD 90 mm, ID 60 mm, width across flats 15 mm\n* Surface pressure: 15.7 MPa\n* Tightening: 27.5 N.m\n* Clamp bolt: JIS B 1180, M12 bolt, Class 2, 6 pcs.\n* Flange material: JIS G 3101, Type 2 SS41\n* Pressure medium: Turbine oil No.1\n* Rate of application of pressure: Increase of 0.5 MPa per minute\n\n## 5.4 Resistance to high and low temperatures\n\nTable 5 Resistance of TB1184 to high and low temperatures\n\n|  Item | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Resistance to high and low temperatures | MPa | 10.0 | JIS K 6820  |\n\nTest conditions\n* The specimen is applied to the flange for pressure resistance test, and the flange is tightened under the same conditions as the pressure resistance test conditions. The flange is cooled at -40°C ± 5°C for 2 hours and heated at 100°C ± 5°C for 3 hours. After it is left to cool at room temperature, the resistance is measured.\n\nED2010080",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1184\n\n# 5.5 Chemical resistance\n\nTable 6 Chemical resistance of TB1184\n\n|  Item | Mass change (%) | Immersion temperature | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Water | -1.9 | 90 to 95°C | JIS K 6820 | Tap water  |\n|  Saline solution | -2.1 |   |   | 10% saline solution  |\n|  Anti-freeze | -1.9 |   |   | 50% ethylene glycol  |\n|  10% H2SO4 aq. | -1.6 | 25°C |   | -  |\n|  10% NaOH aq. | -2.0 |   |   | -  |\n|  10% KOH aq. | -1.4 |   |   | -  |\n|  Test lube oil No.1 | -4.5 | 95 to 100°C |   | -  |\n|  Test lube oil No.2 | -3.6 |   |   | -  |\n|  Test lube oil No.3 | +0.9 |   |   | -  |\n|  Engine oil | -1.6 |   |   | -  |\n|  Turbine oil | -3.8 |   |   | -  |\n|  Gasoline | -2.8 | 45 to 50°C |   | -  |\n|  Fuel oil B | -3.1 |   |   | Isooctane/toluene 70/30(Vol)  |\n|  Kerosine | -1.3 |   |   | -  |\n\nTest conditions\n* The concavities in a glass or aluminum plate specified in JIS are filled with the liquid specimen. After the liquid is left at room temperature for 24 hours, it is dried at 100 ± 5°C for 3 hours, and the mass of the dried specimen in each concavity is measured. These obtained test pieces for immersion test are immersed in the above liquids for 24 hours. Then, the immersed test pieces are taken out of the liquids and dried at 65 ± 5°C for 24 hours. The mass of each test piece is measured at room temperature, and the rate of change of mass is determined from the values obtained before and after immersion.\n\n# 5.6 Tensile shear bond strength\n\nTable 7 Tensile shear bond strength of TB1184\n\n|  Bonded materials | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Fe/Fe | MPa | 1.9 | 3TS-301-11\n(25°C for 7 days)  |\n|  Al/Al | MPa | 0.2  |   |\n|  Fe/Fe | MPa | 3.3 | 3TS-301-11\n(130°C for 5 hrs)  |\n|  Al/Al | MPa | 2.7  |   |\n\n# 5.7 Corrosion resistance\n\nTable 8 Corrosion resistance of TB1184\n\n|   | Result | Test method  |\n| --- | --- | --- |\n|  Corrosion resistance | No change\n(no significant color change, pitting nor etching) | JIS K 6820\nCu plate, 25°C for 7 days  |\n\nED2010080",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1184\n\n6. Usage\n(1) Stir the product prior to use.\n(2) Remove moisture, oil and other contaminants completely from the surfaces to be bonded.\n(3) Apply the product as thin and uniformly as possible.\n(4) Laminate the surfaces approx. 1 minute after applying it.\n\n7. Instructions for use\n(1) This product is harmful to the health. Do not inhale or drink it.\n(2) When using it, wear protective clothings.\n(3) If it is swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.\n(4) If it gets in the eyes, immediately wash them with clean water for more than 15 minutes, and immediately get medical attention.\n(5) If it adheres to the skin, wash the skin with water or soap and water.\n(6) If any abnormality is found in the body, stop using the product, and get medical attention.\n(7) It is flammable. Do not put it close to fire.\n(8) Keep it out of the reach of children.\n(9) Stir the product prior to use.\n(10) It is a product for industrial use. Do not use it for household products.\n(11) Before using the product, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(12) People who have allergies or sensitive skin should avoid using it.\n(13) Provide the working area with a local exhaust system.\n(14) This product is an insulating material. Take care that it does not adhere to electric contacts.\n(15) Ascertain in advance whether or not it affects the parts to be treated with it. If any problem occurs, do not use it.\n(16) It contains harmful components. Do not use it for drinking water or hot water supply piping.\n(17) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n8. Storage\n(1) Store it with the cap tightly fitted to prevent deterioration and entry of foreign matter.\n(2) Store it in a dry, cool and dark place avoiding direct sunlight.\n\n9. Disposal\nWhen disposing of the product and its empty container, treat them as industrial wastes.\n\nED2010080",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1184\n\n## 10. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED2010080",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 50063
+  },
+  "document_annotation": null
+}

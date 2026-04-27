@@ -159,7 +159,7 @@
         { "name": "Dowsil 995" },
         { "name": "Dowsil 3145 RTV MIL-A-46146" },
         { "name": "Dowsil Q3-3526" },
-        { "name": "Dowsil SE 9187L" }
+        { "name": "Dowsil EA-9187L" }
       ]
     },
     {
@@ -273,6 +273,167 @@
       ]
     },
     {
+      "name": "GC Electronics",
+      "priority": "medium",
+      "officialDomains": ["gcelectronics.com"],
+      "products": [
+        { "name": "10-114 Quik Stik" },
+        { "name": "10-120 Super Glue" },
+        { "name": "10-150" },
+        { "name": "10-347 Epoxy Glue" },
+        { "name": "19-155" }
+      ]
+    },
+    {
+      "name": "Limitless Shielding Limited",
+      "priority": "medium",
+      "officialDomains": ["limitlessshielding.com", "limitlessshld.com"],
+      "products": [
+        { "name": "CA-SA-170" },
+        { "name": "CA-SC-10" },
+        { "name": "CA-SC-310" },
+        { "name": "CA-SC-55" }
+      ]
+    },
+    {
+      "name": "Penchem Technologies",
+      "priority": "medium",
+      "officialDomains": ["penchem.com"],
+      "products": [
+        { "name": "GL163" },
+        { "name": "GL311-1" },
+        { "name": "UV772-5R2" },
+        { "name": "UV784-14" }
+      ]
+    },
+    {
+      "name": "DOW",
+      "priority": "medium",
+      "officialDomains": ["dow.com"],
+      "products": [
+        { "name": "DOWSIL 748" },
+        { "name": "DOWSIL TC-2035" },
+        { "name": "SYLGARD 577" }
+      ]
+    },
+    {
+      "name": "Chemtronics",
+      "priority": "low",
+      "officialDomains": ["chemtronics.com"],
+      "products": [
+        { "name": "CircuitWorks CW2400" }
+      ]
+    },
+    {
+      "name": "Atom Adhesives",
+      "priority": "low",
+      "officialDomains": [],
+      "products": [
+        { "name": "14265 5 Minute Epoxy Gel" },
+        { "name": "AA-DUCT 902" }
+      ]
+    },
+    {
+      "name": "ITW Performance Polymers",
+      "priority": "low",
+      "officialDomains": ["itwperformancepolymers.com", "devcon.com"],
+      "products": [
+        { "name": "Devcon 14265 5 Minute Epoxy Gel" },
+        { "name": "Devcon 2 Ton Epoxy" }
+      ]
+    },
+    {
+      "name": "Momentive Performance Materials",
+      "priority": "low",
+      "officialDomains": ["momentive.com"],
+      "products": [
+        { "name": "INVISISIL RTV615" },
+        { "name": "SILTRUST RTV630" },
+        { "name": "SNAPSIL RTV162" },
+        { "name": "SNAPSIL RTV167" }
+      ]
+    },
+    {
+      "name": "TE Connectivity Raychem",
+      "priority": "low",
+      "officialDomains": ["raychem.com", "te.com"],
+      "products": [
+        { "name": "S1006-KIT-1" },
+        { "name": "S1006-KIT-A" },
+        { "name": "S1009-KIT-A" },
+        { "name": "S1125-KIT-5" }
+      ]
+    },
+    {
+      "name": "Digiwave",
+      "priority": "low",
+      "officialDomains": ["digiwave.com"],
+      "products": [
+        { "name": "DGA6129" }
+      ]
+    },
+    {
+      "name": "Omega",
+      "priority": "low",
+      "officialDomains": ["omegaeng.com"],
+      "products": [
+        { "name": "OB-102" }
+      ]
+    },
+    {
+      "name": "Panduit Corp",
+      "priority": "low",
+      "officialDomains": ["panduit.com"],
+      "products": [
+        { "name": "EMA-X" }
+      ]
+    },
+    {
+      "name": "Micro-Measurements (Division of Vishay Precision Group)",
+      "priority": "low",
+      "officialDomains": ["vishayprecision.com"],
+      "products": [
+        { "name": "M-Bond 200" }
+      ]
+    },
+    {
+      "name": "ResinTech / Traktronix",
+      "priority": "low",
+      "officialDomains": ["resintech.com", "raktronix.com"],
+      "products": [
+        { "name": "RT125" },
+        { "name": "RT125LOOMKIT" },
+        { "name": "RT125-5PAK" }
+      ]
+    },
+    {
+      "name": "Gardner Bender",
+      "priority": "low",
+      "officialDomains": ["gardnerbender.com"],
+      "products": [
+        { "name": "LTG-400" },
+        { "name": "LTS-400" }
+      ]
+    },
+    {
+      "name": "ABB Installation Products / Carlon",
+      "priority": "low",
+      "officialDomains": ["carlon.com", "abb.com"],
+      "products": [
+        { "name": "VC9982" },
+        { "name": "VC9983" }
+      ]
+    },
+    {
+      "name": "Glue Dots / GDI Adhesives",
+      "priority": "low",
+      "officialDomains": ["gdiaffix.com"],
+      "products": [
+        { "name": "DSP31-401" },
+        { "name": "XD41-404" }
+      ]
+    },
+    {
       "name": "ThreeBond",
       "priority": "medium",
       "officialDomains": ["threebond.com", "threebond.co.jp"],
@@ -302,6 +463,133 @@
         { "name": "Vitralit 6127" },
         { "name": "Structalit 8801" },
         { "name": "Elecolit 325" }
+      ]
+    },
+    {
+      "name": "Chip Quik Inc.",
+      "priority": "medium",
+      "officialDomains": ["chipquik.com"],
+      "products": [
+        { "name": "AD1-10S" },
+        { "name": "AD7-5S" },
+        { "name": "AD7-10S" },
+        { "name": "AD7-30S" },
+        { "name": "AD7-200S" },
+        { "name": "CQ511" },
+        { "name": "CQ512" },
+        { "name": "EGS10B" },
+        { "name": "EGS10C" },
+        { "name": "EGS10W" },
+        { "name": "HPS10C" },
+        { "name": "NCS10B" },
+        { "name": "NCS10C" },
+        { "name": "NCS10G" },
+        { "name": "NCS10W" },
+        { "name": "SG1-0.5" },
+        { "name": "SG1-1.0" },
+        { "name": "SG2-0.5" },
+        { "name": "SG2-1.0" },
+        { "name": "SG3-0.5" },
+        { "name": "SG3-1.0" },
+        { "name": "SG4-1.0" }
+      ]
+    },
+    {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": ["cemedine.co.jp"],
+      "products": [
+        { "name": "EP330" },
+        { "name": "EP008" },
+        { "name": "SX720" },
+        { "name": "SX1008" },
+        { "name": "3000RX" }
+      ]
+    },
+    {
+      "name": "Shin-Etsu Silicone",
+      "priority": "medium",
+      "officialDomains": ["shinetsusilicone-global.com"],
+      "products": [
+        { "name": "KE-45" },
+        { "name": "KE-3411" },
+        { "name": "KE-8100" },
+        { "name": "X-32-2020" },
+        { "name": "X-32-3894-A/B" }
+      ]
+    },
+    {
+      "name": "WACKER / SEMICOSIL",
+      "priority": "medium",
+      "officialDomains": ["wacker.com"],
+      "products": [
+        { "name": "ELASTOSIL A 95 GREY" },
+        { "name": "ELASTOSIL E 951" },
+        { "name": "SEMICOSIL 267 BLACK" },
+        { "name": "SEMICOSIL 811" },
+        { "name": "SEMICOSIL 9720 TC" }
+      ]
+    },
+    {
+      "name": "WEICON",
+      "priority": "medium",
+      "officialDomains": ["weicon.com"],
+      "products": [
+        { "name": "Easy-Mix PE-PP 50" },
+        { "name": "Easy-Mix HT 250" },
+        { "name": "Flex 310 M Hybrid" },
+        { "name": "Flex 310 M HT 220+" },
+        { "name": "VA 2407" }
+      ]
+    },
+    {
+      "name": "MG Chemicals",
+      "priority": "medium",
+      "officialDomains": ["mgchemicals.com"],
+      "products": [
+        { "name": "8329TCM" },
+        { "name": "832HT" }
+      ]
+    },
+    {
+      "name": "Momentive",
+      "priority": "medium",
+      "officialDomains": ["momentive.com"],
+      "products": [
+        { "name": "RTV162" }
+      ]
+    },
+    {
+      "name": "Titebond",
+      "priority": "medium",
+      "officialDomains": ["titebond.com"],
+      "products": [
+        { "name": "Titebond Original" },
+        { "name": "Titebond II Premium" },
+        { "name": "Titebond III Ultimate" },
+        { "name": "Titebond Quick & Thick" }
+      ]
+    },
+    {
+      "name": "Liquid Nails",
+      "priority": "medium",
+      "officialDomains": ["liquid-nails.com", "buyat.ppg.com"],
+      "products": [
+        { "name": "Heavy Duty LN-901" },
+        { "name": "Extreme Heavy Duty LN-907" },
+        { "name": "Landscape Block & Stone LN-905" },
+        { "name": "Fuze*It Max LN-3000" }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": ["eclecticproducts.com"],
+      "products": [
+        { "name": "E6000" },
+        { "name": "E6000 Fabri-Fuse" },
+        { "name": "E6000 Spray Adhesive" },
+        { "name": "E6000 Premium" }
       ]
     },
     {

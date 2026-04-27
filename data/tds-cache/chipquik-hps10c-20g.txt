@@ -1,0 +1,3 @@
+Official Chip Quik fallback extracted from web-visible HPS10C-20G datasheet when local automation received HTTP 403.
+
+Product: HPS10C-20G High Performance Silicone 100% RTV Silicone (Clear) 20g squeeze tube. One-component moisture cure. Operating range -46 C to +204 C. Application temperature range -37 C to +65 C. Cure at 21 C / 50% RH: 10 min skin, 24 h full cure, 7 days max adhesion. Viscosity 582,000 mPa.s. Hardness 25 Shore A. Tensile 264 psi. Elongation 500%. Size 20 g. Standards: ASTM C920, TT-S-00230C, TT-S-001543A, MIL-46106 Type 1. Bonds glass, metal, ceramic, most paints and most plastics.

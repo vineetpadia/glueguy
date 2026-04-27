@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "9410\n\nMG Chemicals\n\n# 1-Part Epoxy, Electrically Conductive Adhesive, High Tg\n\n9410 is a 1-part, silver electrically conductive epoxy adhesive that can be stored at room temperature. It bonds well to a wide variety of substrates, and offers strong chemical resistance.\n\n9410 is designed for semi-conductor flip chip packaging as well as die attach for small chips, LEDs and diodes. It provides excellent EMI/RFI shielding and is very effective at filling in seams between metal plates. It can be readily used in manual, pneumatic and robotic dispensing processes.\n\n# Features and Benefits\n\n- Creates strong permanent electrical connections\n- No mixing required\n- Low cure temperature of 90 °C\n- Room temperature storage (≤22 °C)\n- Suitable for automated dispensing\n\nAvailable Packaging\n\n|  Cat. No. | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  9410-3ML | Syringe | 3 mL | 7.00 g  |\n|  9410-30ML | Cartridge | 30 mL | 70.0 g  |\n|  9410-180ML | Cartridge | 180 mL | 378 g  |\n\n# Contact Information\n\nMG Chemicals, 1210 Corporate Drive\nBurlington, Ontario, Canada L7L 5R6\n\nEmail: support@mgchemicals.com\n\nPhone: North America: +(1)800-340-0772\nInternational: +(1) 905-331-1396\nEurope: +(44)1663 362888\n\n![img-0.jpeg](img-0.jpeg)\n\n# Cured Properties\n\n|  Resistivity | 1.8 x 10⁻³ Ω·cm  |\n| --- | --- |\n|  Hardness | 70 D  |\n|  Compressive Strength | 26 N/mm²  |\n|  Lap Shear (stainless steel) | 2.6 N/mm²  |\n|  (aluminum) | 2.8 N/mm²  |\n|  Glass Transition Temperature (Tg) | 96 °C  |\n|  CTE Prior Tg | 42 ppm/°C  |\n|  CTE After Tg | 150 ppm/°C  |\n|  Thermal Conductivity @ 25 °C | 1.1 W/(m·K)  |\n|  Service Temperature Range | -65–145 °C  |\n|  Weight Loss @ 155 °C (600 hrs) | 1.9 %  |\n\n# Uncured Properties\n\n|  Viscosity @ 25 °C | Thixotropic paste  |\n| --- | --- |\n|  Thixotropic Index @ 25 °C | 3  |\n|  Density | 2.3 g/mL  |\n\nISO 9001:2015 Quality Management System. Burlington, Ontario, Canada SAI Global File: 004008\n\n23 January 2026 / Ver. 5.5",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 450,
+          "top_left_y": 121,
+          "bottom_right_x": 707,
+          "bottom_right_y": 462,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/adhesives/electrically-conductive-adhesives/conductive-adhesive/",
+        "http://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "9410\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS before using this product (downloadable at www.mgchemicals.com).\n\n# Recommended Preparation\n\nClean the substrate with Isopropyl Alcohol, MG #824, so the surface is free of oils, dust, and other residues.\n\n# Syringe or Cartridge\n\n1. Twist and remove the cap from the cartridge or syringe. Do not discard cap.\n2. If nozzle is blocked, clean any hardened material on both the inside and outside using a needle and paper towel.\n3. Dispense the adhesive evenly to both surfaces.\na. For 30 mL size, insert the cartridge in the 8DG-30-1 dispensing gun (see Dispensing Accessories Application Guide).\n4. To stop the flow, pull back on the plunger.\n5. Clean nozzle to prevent contamination and material buildup.\n6. Replace the cap on the cartridge or syringe.\n\n# Dispensing Accessories\n\nConsult the table below for accessory selection. See the Dispensing Accessories Application Guide for usage instructions.\n\n|  Cat. No. | Dispensing Gun | Static Mixer  |\n| --- | --- | --- |\n|  9410-3ML | N/A | N/A  |\n|  9410-30ML | 8DG-30-1 | N/A  |\n\n# Cure Instructions\n\nThe working time is not applicable. Higher cure temperatures may affect resistivity. The product will not cure at room temperature. Cure the adhesive in an oven at one of these time/temperature options:\n\n- 3 h @ 80 °C\n- 1 h @ 90 °C\n- 30 min @ 100 °C\n- 7 min @ 150 °C\n\nThe cure conditions above are recommendations and may vary based on customers' requirements, application, and equipment.\n\n# Storage and Handling\n\nStore in a dry area, away from sunlight (see SDS). To maximize shelf life, recap product firmly when not in use and keep frozen. If exposed to freezing temperatures, keep product at room temperature for 2 hours prior to use.\n\nShelf Life @ 22 °C 4 months\n\nShelf Life @ -10 °C 12 months\n\nThe shelf life applies to unopened product.\n\n# Disclaimer\n\nThis information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nISO 9001:2015 Quality Management System. Burlington, Ontario, Canada SAI Global File: 004008\n\n23 January 2026 / Ver. 5.5",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/adhesives/electrically-conductive-adhesives/conductive-adhesive/",
+        "http://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 333815
+  },
+  "document_annotation": null
+}

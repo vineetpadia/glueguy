@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "LOCTITE\n\nTechnical Data Sheet\n\nLOCTITE® HY 4070™\n\nJuly 2017\n\n# PRODUCT DESCRIPTION\n\nLOCTITE® HY 4070™ provides the following product characteristics:\n\n|  Technology | Cyanoacrylate / Acrylic Hybrid  |\n| --- | --- |\n|  Chemical Type (Part A) | Cyanoacrylate  |\n|  Chemical Type (Part B) | Methacrylate  |\n|  Appearance - Part A | Transparent, cloudy, colorless to pale yellowLMS  |\n|  Appearance - Part B | Clear colorless to slightly yellow liquidLMS  |\n|  Components | Two components - requires mixing  |\n|  Viscosity | Non-sag  |\n|  Mix Ratio by volume: Part A: Part B | 10 : 1  |\n|  Cure | Two component cure after mixing  |\n|  Application | Bonding  |\n\nLOCTITE® HY 4070™ is a two component, hybrid adhesive that provides a fast fixture at room temperature in bond gaps up to 5 mm (0.2 in). This product has excellent bonding characteristics to a variety of substrates including some plastics, rubbers, and metals. LOCTITE® HY 4070™ is designed for applications where complete cure of excess adhesive is required, as well as temperature and moisture resistance. The gel consistency prevents adhesive flow even on vertical surfaces.\n\n# TYPICAL PROPERTIES OF UNCURED MATERIAL\n\n## Part A:\n\nSpecific Gravity @ 25 °C 1.05 to 1.1\n\nCasson Viscosity @ 25 °C, mPa·s (cP):\n\nCone &amp; Plate Rheometer 200 to 1,300LMS\n\n## Part B:\n\nViscosity, Cone &amp; Plate, mPa·s (cP):\n\nTemperature: 25 °C, Shear Rate: 1,000 s⁻¹ 1 to 30LMS\n\n# TYPICAL CURING PERFORMANCE\n\nCuring is initiated on mixing the Part A and Part B components. Handling strength is achieved rapidly; full strength is achieved over time.\n\n## Nozzle Life\n\nGel Time in Mixer Nozzle, minutes 4 to 5\n\n# Fixture Time\n\nFixture time is defined as the time to develop a shear strength of 0.1 N/mm².\n\nFixture Time @ 25°C, :\n\nAluminium:\n\n0.05 mm gap (seconds) &lt;60\n\n2.0 mm gap (minutes) 4 to 6\n\n# Cure Speed vs. Substrate\n\nThe rate of cure will depend on the substrate used. The graph below shows the shear strength developed with time on grit blasted mild steel lap shears compared to different materials and tested according to ISO 4587.\n\n![img-0.jpeg](img-0.jpeg)\n\n# Cure Speed vs. Bond Gap\n\nThe rate of cure will depend on the bondline gap. The following graph shows the shear strength developed with time on grit blasted mild steel lap shears at different controlled gaps and tested according to ISO 4587.\n\nHenkel",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 411,
+          "top_left_y": 451,
+          "bottom_right_x": 749,
+          "bottom_right_y": 646,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TDS LOCTITE® HY 4070™, July 2017\n\n![img-1.jpeg](img-1.jpeg)\n\n## Cure Speed vs. Temperature\n\nThe rate of cure will depend on the ambient temperature. The graph below shows the shear strength developed with time at different temperatures on grit blasted mild steel lap shears and tested according to ISO 4587.\n\n![img-2.jpeg](img-2.jpeg)\n\n## TYPICAL PROPERTIES OF CURED MATERIAL\n\nCured for 1 week @ 22 °C\n\nPhysical Properties:\n\nGlass Transition Temperature ISO 11359-2, °C 110\n\nShore Hardness, ISO 868, Durometer D 65\n\nCoefficient of Thermal Expansion, ISO 11359-2 K⁻¹:\n\nBelow Tg (110°C) 129×10⁻⁶\n\nLinear Shrinkage, ASTM D 792 % 4.3\n\nTensile Strength, at break, ISO 527-3 N/mm² 14.6\n\n(psi) (2,117)\n\nTensile Modulus, ISO 527-3 N/mm² 960\n\n(psi) (139,200)\n\nElongation, at break, ISO 527-3, % 4.9\n\n## TYPICAL PERFORMANCE OF CURED MATERIAL\n\nAdhesive Properties\n\nCured for 1 week @ 22 °C\n\nImpact Strength, ISO 9653, kJ/m²:\n\nSteel (grit blasted) 4.2\n\n\"T\" Peel Strength, ISO 11339:\n\nSteel\n\nAluminum\n\nN/mm 0.4\n\n(lb/in) (2.9)\n\nAluminum\n\nN/mm 0.5\n\n(lb/in) (2.9)\n\nLap Shear Strength, ISO 4587:\n\nMild steel (grit blasted)\n\nAluminum (etched)\n\nPolycarbonate\n\nPVC\n\nZinc dichromate\n\nMild steel (abraded)\n\nAluminum (abraded)\n\nABS\n\nPhenolic\n\nNitrile\n\nEpoxy FR-10\n\nWood (Oak)\n\n* substrate failure\n\nN/mm² 0.4\n\n(lb/in) (2.9)\n\nN/mm² 15\n\n(psi) (2,175)\n\nN/mm² 20\n\n(psi) (2,900)\n\nN/mm² 12\n\n* (psi) (1,740)\n\n* N/mm² 7\n\n* (psi) (1,015)\n\nN/mm² 22\n\n(psi) (3,190)\n\nN/mm² 28\n\n(psi) (3,190)\n\nN/mm² 20\n\n(psi) (2,900)\n\n* N/mm² 8\n\n* (psi) (1,160)\n\nN/mm² 8\n\n(psi) (1,160)\n\n* N/mm² 1\n\n* (psi) (145)\n\nN/mm² 20\n\n(psi) (2,900)\n\n* N/mm² 11\n\n* (psi) (1,595)\n\n## TYPICAL ENVIRONMENTAL RESISTANCE\n\nCured for 1 week @ 22 °C\n\nLap Shear Strength, ISO 4587:\n\nSteel (grit blasted)\n\n![img-3.jpeg](img-3.jpeg)\n\nHot Strength\n\nTested at temperature\n\nHenkel Americas\n\n+860.571.5100\n\nHenkel Europe\n\n+49.89.320800.1800\n\nHenkel Asia Pacific\n\n+86.21.2891.8859\n\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 48,
+          "top_left_y": 52,
+          "bottom_right_x": 388,
+          "bottom_right_y": 247,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 48,
+          "top_left_y": 359,
+          "bottom_right_x": 388,
+          "bottom_right_y": 555,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 409,
+          "top_left_y": 676,
+          "bottom_right_x": 748,
+          "bottom_right_y": 870,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TDS LOCTITE® HY 4070™, July 2017\n\n# Heat Aging\n\nAged at temperature indicated and tested @ 22 °C\n\n![img-4.jpeg](img-4.jpeg)\n\n# Chemical/Solvent Resistance\n\nAged under conditions indicated and tested @ 22 °C.\n\n|   |  | % of initial strength  |   |   |\n| --- | --- | --- | --- | --- |\n|  Environment | °C | 100 h | 500 h | 1000 h  |\n|  Motor oil | 22 | 111 | 113 | 107  |\n|  Unleaded gasoline | 22 | 93 | 83 | 58  |\n|  Ethanol | 22 | 96 | 92 | 73  |\n|  Isopropanol | 22 | 108 | 107 | 100  |\n|  Water | 22 | 92 | 83 | 81  |\n|  Water | 60 | 85 | 54 | 58  |\n|  Water/glycol 50/50 | 87 | 33 | 0 | 0  |\n|  Water/glycol 50/50 | 22 | 103 | 105 | 100  |\n|  98% RH | 40 | 104 | 86 | 84  |\n|  95% RH | 65 | 72 | 63 | 47  |\n\nLap Shear Strength, ISO 4587: Aluminum\n\n|   |  | % of initial strength  |   |   |\n| --- | --- | --- | --- | --- |\n|  Environment | °C | 100 h | 500 h | 1000 h  |\n|  98% RH | 40 | 42 | 18 | 24  |\n|  95% RH | 65 | 22 | 24 | 24  |\n\nLap Shear Strength, ISO 4587: Polycarbonate\n\n|   |  | % of initial strength  |   |   |\n| --- | --- | --- | --- | --- |\n|  Environment | °C | 100 h | 500 h | 1000 h  |\n|  98% RH | 40 | 98 | 101 | 102  |\n\n# GENERAL INFORMATION\n\nThis product is not recommended for use in pure oxygen and/or oxygen rich systems and should not be selected as a sealant for chlorine or other strong oxidizing materials.\n\nFor safe handling information on this product, consult the Safety Data Sheet (SDS).\n\n# Directions for use:\n\n1. Bond areas should be clean and free from grease. Clean all surfaces with a Loctite® cleaning solvent and allow to dry.\n2. To use, Part A and Part B must be blended. Product can be applied directly from the cartridge by using the plunger supplied and dispensing through the recommended mixing nozzle.\n3. Hold the cartridge upright and insert the plunger.\n4. While keeping the cartridge in an upright position, remove cap, attached the mixing nozzle, and begin dispensing the adhesive upward until any bubbles present in the smaller component have been removed.\n5. Dispense and discard a bead as long and as wide as the mixing nozzle, to ensure sufficient mixing.\n6. Apply the mixed adhesive to one of the bond surfaces to be joined. Parts should be assembled immediately after the mixed adhesive has been applied.\n7. Bonds should be held fixed or clamped until adhesive has fixtured.\n8. Keep assembled parts from moving during cure. The bond should be allowed to develop full strength before subjecting to any service load (typically 24 hours).\n\n# Loctite Material Specification$^{LMS}$\n\nLMS dated April 20, 2016 (Part A) and LMS dated April 20, 2016 (Part B). Test reports for each batch are available for the indicated properties. LMS test reports include selected QC test parameters considered appropriate to specifications for customer use. Additionally, comprehensive controls are in place to assure product quality and consistency. Special customer specification requirements may be coordinated through Henkel Loctite Quality.\n\n# Storage\n\nStore product in the unopened container in a dry location. Storage information may be indicated on the product container labeling.\n\nOptimal Storage: 2°C to 21°C. Storage below 2°C or greater than 21°C can adversely affect product properties. Material removed from containers may be contaminated during use. Do not return product to the original container. Henkel Corporation cannot assume responsibility for product which has been contaminated or stored under conditions other than those previously indicated. If additional information is required, please contact your local Technical Service Center or Customer Service Representative.\n\n# Note:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. The product can have a variety of different applications as well as differing application and working conditions in your environment that are beyond our control. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product.\n\nAny liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Belgium NV, Henkel Electronic Materials NV, Henkel Nederland BV, Henkel Technologies France SAS and Henkel France SA please additionally note the following:\n\nIn case Henkel would be nevertheless held liable, on whatever legal ground, Henkel's liability will in no event exceed the amount of the concerned delivery.\n\nHenkel Americas\n\n+860.571.5100\n\nHenkel Europe\n\n+49.89.320800.1800\n\nHenkel Asia Pacific\n\n+86.21.2891.8859\n\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 48,
+          "top_left_y": 83,
+          "bottom_right_x": 387,
+          "bottom_right_y": 276,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TDS LOCTITE® HY 4070™, July 2017\n\nIn case products are delivered by Henkel Colombiana, S.A.S. the following disclaimer is applicable:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product.\n\nAny liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Corporation, Resin Technology Group, Inc., or Henkel Canada Corporation, the following disclaimer is applicable:\n\nThe data contained herein are furnished for information only and are believed to be reliable. We cannot assume responsibility for the results obtained by others over whose methods we have no control. It is the user's responsibility to determine suitability for the user's purpose of any production methods mentioned herein and to adopt such precautions as may be advisable for the protection of property and of persons against any hazards that may be involved in the handling and use thereof. In light of the foregoing, Henkel Corporation specifically disclaims all warranties expressed or implied, including warranties of merchantability or fitness for a particular purpose, arising from sale or use of Henkel Corporation's products. Henkel Corporation specifically disclaims any liability for consequential or incidental damages of any kind, including lost profits. The discussion herein of various processes or compositions is not to be interpreted as representation that they are free from domination of patents owned by others or as a license under any Henkel Corporation patents that may cover such processes or compositions. We recommend that each prospective user test his proposed application before repetitive use, using this data as a guide. This product may be covered by one or more United States or foreign patents or patent applications.\n\nTrademark usage: [Except as otherwise noted] All trademarks in this document are trademarks and/or registered trademarks of Henkel and its affiliates in the U.S. and elsewhere.\n\nConversions\n\n(°C × 1.8) + 32 = °F\nkV/mm × 25.4 = V/mil\nmm / 25.4 = inches\nμm / 25.4 = mil\nN × 0.225 = lb\nN/mm × 5.71 = lb/in\nN/mm² × 145 = psi\nMPa × 145 = psi\nN·m × 8.851 = lb·in\nN·m × 0.738 = lb·ft\nN·mm × 0.142 = oz·in\nmPa·s = cP\n\nReference 0.1\n\nHenkel Americas\n+860.571.5100\nHenkel Europe\n+49.89.320800.1800\nHenkel Asia Pacific\n+86.21.2891.8859\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 98894
+  },
+  "document_annotation": null
+}

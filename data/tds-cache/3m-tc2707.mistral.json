@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M Science. Applied to Life.\nTechnical Data | September 2018\n\n# 3M™ Thermally Conductive Epoxy Adhesive TC-2707\n\n## Product Description\n\n3M™ Thermally Conductive Epoxy Adhesive TC-2707 is a thermally conductive 2-part epoxy using aluminum metal filler for good thermal conductivity with high adhesion.\n\n## Key Features\n\n- High adhesive strength\n- Slight tack allows pre-assembly\n- Good surface wet out\n- Low viscosity for potting applications\n- Good gap filling\n- Thin bonding line\n- Good thermal conductivity (0.72 W/m-K)\n- Low Cl ion content and outgassing\n- Thermally and electrically conductive\n\n## Typical Uncured Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2707  |   |   |\n| --- | --- | --- |\n|  Property |   | Value  |\n|  *Viscosity | Base | 95,00 cps  |\n|   |  Accelerator | 25,000 cps  |\n|   |  Mixed | 60,000 cps  |\n|  Base Resin | Base | Epoxy  |\n|   |  Accelerator | Amine  |\n|  Filler | Aluminum | 50% by weight  |\n|  Mix Ratio (B:A) | Volume | 2:1  |\n|   |  Weight | 2.00:0.96  |\n|  Worklife |  | 60 minutes at 23°C (72°F)  |\n\n*Viscosity it measured 40mm, 2°cone at 10 1/sec.\n\n## Applications\n\n- LED Assembly\n- Thermal fixing battery cell and thermal management for EV/HEV battery\n- Potting applications\n- General gap filling\n\n## Application Techniques and Product Use\n\nFor bonding rigid to rigid parts, it is suggested that the bond line thickness and edge fill be designed to optimize:",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "# 3M™ Thermally Conductive Epoxy TC-2707\n\n1. Bond Strength\n2. Thermal Resistance\n\nA typical suggested bond line is in the 3-7 mil (0.076- 0.018mm) thickness range,\n\nFor improved thermal performance (lower Thermal Resistance), a thinner bond line is suggested. A thinner bond line can reduce the bond strength, so each application needs to be tested to find correct balance\n\nBond Line Thickness vs Thermal Resistance vs Bond Strength\n\nA \"fillet\" at the edge of a bond line is suggested to increase bond strength. The fillets are formed as the epoxy squeezes out past the side edges. Fillets can add strength to the assembly.\n\n3™ Thermal Conductive Epoxy TC-2707 is supplied in dual syringe plastic duo-pak cartridges as part of the 3™ EPX™ Plus II Applicator System. The duo-pak cartridges are supplied in a 37 or 50 ml configuration. To use the cartridge simply insert the duo-pak cartridge into the EPX applicator and start the plunger into the cylinders using light pressure on the trigger. Next, remove the duo-pak cartridge cap and expel and discard a small amount of adhesive to be sure both sides of the duo-pak cartridge are flowing evenly and freely (i.e.: no voids, \"plugs of adhesive\", dis-continuity in flow, etc.) Once even side to side and uniform flow from both sides of the duo-pak is confirmed, attach the 3M EPX mixing nozzle to the duo-pak cartridge to ensure proper and uniform mixing of the Part A and Part B and begin dispensing the adhesive.\n\nPartially used cartridges must follow the above use instructions to ensure consistent product performance.\n\nComplete and uniform mixing as noted above of the two components is required to obtain consistent product performance.\n\n# 3M™ EPX™ Plus II Applicator Mix Nozzles\n\nUse only 3M™ EPX™ Plus II Applicator and Mix Nozzles to ensure optimum product performance.\n\n![img-0.jpeg](img-0.jpeg)\n\n# Typical Cured Physical Properties and Performance Characteristics\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes. Final product specifications and testing methods will be outlined in the products Certificate of Analysis (COA) that is shipped with the commercialized product once it is approved by 3M for general commercialization and development work is completed.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2707  |   |   |\n| --- | --- | --- |\n|  Property | Method* | Value  |\n|  Color |  | Gray  |\n|  Shore D Hardness | ASTM D2240 | 80  |\n|  Glass Transition Temperature | ASTM 1356 | See Chart on page 3  |\n|  Thermal Coefficient of Expansion | ASTM E831 | 75 X 10⁻⁶C (below Tag)\n160 X 10⁻⁶/C (above Tg)  |\n|  Thermal Conductivity | ASTM D5470 | 0.72 W/m-K  |\n|  Thermal Impedance | ASTM D5470 | 3.51X 10⁻⁵ m²K/W (1 mil)  |",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 47,
+          "top_left_y": 503,
+          "bottom_right_x": 389,
+          "bottom_right_y": 714,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "# 3M™ Thermally Conductive Epoxy TC-2707\n\n|  Volume Resistivity¹ | ASTM D257 | 1.6 x 10¹⁵ohm-cm  |\n| --- | --- | --- |\n|  Total Outgassing | ASTM 5116 | <1000 ug/g (GC/MS, 85 C/3 hours)  |\n|  Siloxane Outgassing | ASTM 5516 | <5 ug/g (GC/MS, 85C/3 hours)  |\n|  Extractable Chloride | ASTM D7994 | <30 ug/g (hexane extraction)  |\n\n*Methods listed as ASTM are tested in accordance with the ASTM method noted\n*Disclaimer if applicable to chart above\n\n¹) As the 3M™ Thermally Conductive Epoxy Adhesive TC-2707 uses aluminum metal fillers, under certain end use application conditions the effective resistivity and/or effective dielectric strength could be significantly lower than noted. If the metal filler is “trapped” or “pinched” between two surfaces, an electrical bridge path via the aluminum fillers could occur between these surfaces. Epoxy Adhesive TC-2707 is not suggested for application where a powered electrical circuit is used or where a reliable volume resistivity and/or dielectric strength is desired. 3M™ Thermally Conductive Epoxy Adhesive TC-2810 uses ceramic filler and is a suggested product to test for these types of application performances needs.\n\n## Curing\n\nCure Schedule: 23°C/24 hours\n50°C/270 minutes\n70°C/90 minutes\n90°C/30 minutes\n120°C/10 minutes\n\n## Typical Shear Strength, Peel Strength, Tg vs Cure Temperature/Time\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes. Final product specifications and testing methods will be outlined in the products Certificate of Analysis (COA) that is shipped with the commercialized product once it is approved by 3M for general commercialization and development work is completed.\n\n|  3M™ Thermally Conductive Epoxy Adhesive TC-2707  |   |   |   |\n| --- | --- | --- | --- |\n|   | 23 °C\n(72 °F)\n24 hours | 90 °C\n(194 °F)\n30 minutes | 120 °C\n(248 °F)\n10 minutes  |\n|  Overlap Shears N/mm² (psi)\n(ASTM D-1002) | >18.62 (2700) | >18.62 (2700) | >18.62 (2700)  |\n|  T-Peel (piw)\n(ASTM D-1876) | >7 | >7 | >7  |\n|  Tg (°C)\n(ASTM E-1356) | 60 | 66 | 66  |\n\n*Methods listed as ASTM are tested in accordance with the ASTM method noted\n*Disclaimer if applicable to chart above\n\n## Storage and Shelf Life\n\nThe shelf life of 3M™ Thermally Conductive Epoxy Adhesive TC-2707 is 12 months from the date of manufacture when stored in original cartons at 21C (70F) and 50% relative humidity\n\n## Certificate of Analysis (COA)\n\nThe COA contains the 3M specifications and test methods for the products performance limits that the product will be supplied against. The 3M product is supplied to 3M COA test specifications and the COA test methods. Contact your local 3M representative for this product's COA.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "# 3M™ Thermally Conductive Epoxy TC-2707\n\nSafety Data Sheet: Consult Safety Data Sheet before use.\n\nTechnical Information: The technical information, recommendations and other statements contained in this document are based upon tests or experience that 3M believes are reliable, but the accuracy or completeness of such information is not guaranteed.\n\nProduct Use: Many factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. Given the variety of factors that can affect the use and performance of a 3M product, user is solely responsible for evaluating the 3M product and determining whether it is fit for a particular purpose and suitable for user's method of application.\n\n## Warranty, Limited Remedy, and Disclaimer:\n\nUnless an additional warranty is specifically stated on the applicable 3M product packaging or product literature, 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY IMPLIED WARRANTY OR CONDITION ARISING OUT OF A COURSE OF DEALING, CUSTOM OR USAGE OF TRADE. If the 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement of the 3M product or refund of the purchase price. Safety\n\nLimitation of Liability: Except where prohibited by law, 3M will not be liable for any loss or damage arising from the 3M product, whether direct, indirect, special, incidental or consequential, regardless of the legal theory asserted, including warranty, contract, negligence or strict liability.\n\n# 3M\n\nElectronics Materials Solutions Division\n\n3M Center, Building 224-3N-11\n\nSt. Paul, MN 55144-1000\n\n1-800-251-8634 phone\n\n651-778-4244 fax\n\nwww.3M.com/electronics\n\n3M is a trademark of 3M Company.\n\nPlease recycle.\n\n©3M 2018. All rights reserved.\n\n60-5005-0111-3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 235044
+  },
+  "document_annotation": null
+}

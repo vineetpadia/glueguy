@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1359K\n\n# ThreeBond\n\nSep. 14, 2017\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1359K\n\nAnaerobic Sealant For Surface Bonding\n\n1. Product description\n\nThreeBond 1359K is an anaerobic sealant for surface bonding. ThreeBond 1359K that is an anaerobic sealant will cure and bond quickly when used with the primer for anaerobic sealant, ThreeBond 1390J.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2. Features\n\n(1) Suitable for surface bonding with the aid of peel strength.\n(2) It has a thixotropic property to prevent sagging and is easy to use.\n(3) Use of the special primer TB1390J enables quick curing.\n\n3. Applications\n\nBonding and fixing of metallic parts\n\n4. Properties\n\n4.1 Property values\n\nTable 1 Properties of TB1359K\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance (color) | - | Blue | 3TS-2100-020 | Visual inspection  |\n|  Viscosity | Pa·s | 2.5 | 3TS-2F00-007 | 25°C, shear rate: 200s^{-1}  |\n|  TI value (structural viscosity ratio) | - | 2.2 | 3TS-2F10-006 | 25°C  |\n|  Specific gravity | - | 1.10 | 3TS-2500-002 | 25°C  |\n\nED2017037",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1359K\n\n## 4.2 Flow curves\n\nFig. 1 Flow curves of TB1359K (at 25°C)\n![img-0.jpeg](img-0.jpeg)\nTest method: 3TS-4200-001 (flow curves), Measuring device: HAAKE MARS-60, Geometry: C35/2, Temperature: 25°C\n\n## 4.3 Temperature-viscosity curve\n\nFig. 2 Temperature-viscosity curve of TB1359K\n![img-1.jpeg](img-1.jpeg)\nTest method: 3TS-4200-003 (temperature-viscosity curve - Rheometer method (by steady flow viscosity measurement)), Test equipment: HAAKE MARS-60, Geometry: C35/2, Shear rate: 20 s⁻¹, 200 s⁻¹\n\nED2017037",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 201,
+          "top_left_y": 145,
+          "bottom_right_x": 523,
+          "bottom_right_y": 389,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 199,
+          "top_left_y": 502,
+          "bottom_right_x": 497,
+          "bottom_right_y": 748,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1359K\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured sealant\n\nTable 2 Characteristics of TB1359K\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Setting time | min | 2 | 3TS-3140-006 | Fe *1  |\n|   |  s | 5 |   | Fe, used with TB1390J *1  |\n|  After 24 hrs\nFitted bonding strength | MPa | 38.2 | 3TS-4140-001 | Fe *1 *2  |\n|   |   |  36.2 |   | Fe, used with TB1390J *1 *2  |\n|   |   |  29.9 |   | SUS304 *1 *2  |\n|   |   |  23.7 |   | SUS304, used with TB1390J *1 *2  |\n|  After 24 hrs\nLap shear strength |   | 26.6 | 3TS-4100-013 | SPCC-SD *2  |\n|   |   |  25.4 |   | SPCC-SD, used with TB1390J *2  |\n|   |   |  27.3 |   | SUS304 *2  |\n|   |   |  24.2 |   | SUS304, used with TB1390J *2  |\n|  After 24 hrs\nT-peel strength | kN/m | 3.1 | 3TS-4130-021 | SPCC-SD *2  |\n|   |   |  2.6 |   | SPCC-SD, used with TB1390J *2  |\n\n*1 Test piece for fitting: Pin/collar, Φ6 × 15 mm, clearance 1/100 mm\n*2 Curing conditions: 25°C for 24 hrs\n\n## 5.2 Initial curing ability (used with primer)\n\nFig. 3 Dependence of initial curing ability of TB1359K/TB1390J on rise in lap shear strength (SPCC-SD)\n![img-2.jpeg](img-2.jpeg)\nTest method: 3TS-3TS-4100-013, Curing method: 25°C for 24 hrs\nPrimer application condition: TB1390J is applied once to one side.\n\nED2017037",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 138,
+          "top_left_y": 529,
+          "bottom_right_x": 547,
+          "bottom_right_y": 752,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1359K\n\n## 5.3 Bonding strength when heated\n\nFig. 4 Fitted bonding strength of TB1359K when heated (Fe)\n![img-3.jpeg](img-3.jpeg)\nTest method: TB1359K is applied to Fe test pieces for fitting, and the test pieces are assembled. After curing at $25^{\\circ}\\mathrm{C}$ for 24 hrs, the sealant is cured at each temperature for 1 hr, and the bonding strength is measured.\n\n## 5.4 Reliability test (used with primer)\n\nFig. 5 Results of various reliability tests of TB1359K/TB1390J (SUS304)\n![img-4.jpeg](img-4.jpeg)\nTest method: 3TS-3TS-4100-013, Curing method: $25^{\\circ}\\mathrm{C}$ for 24 hrs\nPrimer application condition: TB1390J is applied once to one side.\n\n## 6. Usage\n\n(1) Use a solvent to remove moisture, oil and contaminants from the surface to be sealed.\n(2) For other information regarding application and curing of the resin, consult our sales engineers.\n\nED2017037",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 150,
+          "top_left_y": 127,
+          "bottom_right_x": 570,
+          "bottom_right_y": 356,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 95,
+          "top_left_y": 461,
+          "bottom_right_x": 615,
+          "bottom_right_y": 691,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1359K\n\n# 7. Directions for use\n\n(1) Harmful to health. Do not directly touch nor inhale fumes. If in eyes, rinse with clean water, and get medical attention. If it adheres to the skin, it may cause inflammation. If it adheres to the skin, immediately wipe it away with cloth or paper, and wash the skin with soap and water.\n\n(2) If any abnormality is found in the body, stop using it, and seek medical attention. People who have allergies or sensitive skin should avoid handling it.\n\n(3) Contains harmful materials. Do not use for drinking water or hot water supply piping.\n\n(4) Do not transfer the product into another container. Once dispensed, do not return the leftover to the original container.\n\n(5) Some materials may be affected (cracked, corroded or melted) by this product. The effects on the application part and surrounding area should be confirmed in advance. If there are any problems, do not use.\n\n(6) The product solidifies on metallic parts. Do not use metallic nozzle or other metallic parts.\n\n(7) For detailed hazard information of the product, see the Safety Data Sheet (SDS).\n\n# 8. Storage\n\nTo prevent deterioration and contamination, seal the container tightly, and store it in an indoor dark, dry place at -5 to 25°C away from flame, heat sources and sunlight.\n\n# 9. Disposal\n\nDo not burn the product. It may generate harmful gas when burnt.\n\nAsk specialized waste disposal services to dispose of the product.\n\n# 10. Precautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods.\n\nWe do not guarantee that the uses described herein do not conflict with any intellectual property right.\n\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use.\n\nNever embed or inject into bodies nor use as a medical implant that may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties or usage of the product to be used are unclear, never use it.\n\n- For detailed safety information of the product, see the Safety Data Sheets (SDS).\n\nTo obtain the SDS, contact our sales office or customer service center.\n\n- Information in this document is subject to change at our own discretion.\n\nED2017037",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB1359K\n\n## 11. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2017037",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 580551
+  },
+  "document_annotation": null
+}

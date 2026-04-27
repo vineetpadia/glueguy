@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "UVLED82\n\nMG Chemicals\n\n# UV LED Adhesive\n\nUVLED82 is a 1-part, low-viscosity, UV-curable adhesive formulated for rapid cure upon exposure to UV light. The adhesive is specially formulated to cure using both broadband and LED light sources such as 365, 385, 395 and 405 nm.\n\nThis product is ideal for edge bonding chips and other circuit components when high throughput is needed. The low viscosity coupled with depth of cure enables encapsulation of parts up to a thickness of 5 mm (1/5\"). The adhesive contains a secondary cure mechanism that allows for curing in shadowed areas.\n\n# Features &amp; Benefits\n\n- Bonds strongly to metal, glass and many plastics\n- Cures with LED exposure (365–405 nm)\n- Can cure up to 5 mm thick, ideal for encapsulation\n- Secondary moisture cure\n- Low viscosity, easily wets out horizontal surfaces\n\n# Cure Instructions\n\nThe product only cures upon UV exposure. Cure the adhesive at one of these options:\n\n|  Light Source | Irradiance (W/cm²) | Dosage (J/cm²) | Exposure Time (s)  |\n| --- | --- | --- | --- |\n|  Broadband, 320–500 nm | 5 | 25 | 5  |\n|  LED, 365 nm | 2 | 50 | 25  |\n|  LED, 395 nm | 2 | 50 | 25  |\n|  LED, 405 nm | 5 | 50 | 10  |\n\n# Storage and Handling\n\nStore between 4 and 40 °C in a dry area, away from sunlight (see SDS). To maximize shelf life, recap product firmly when not in use.\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  UVLED82-30ML | Cartridge | 30 mL | 3.2 g  |\n|  UVLED82-300ML | Cartridge | 300 mL | 32.1 g  |\n|  UVLED82-1L | Can | 945 mL | 1.01 kg  |\n|  UVLED82-3.78L | Can | 3.78 L | 4.05 kg  |\n\n# Dispensing Accessories\n\nThe cartridges are compatible with caulking guns that are readily available for purchase at local hardware stores.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 2.2",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 431,
+          "top_left_y": 142,
+          "bottom_right_x": 715,
+          "bottom_right_y": 427,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/adhesives/uv-led-adhesives/uv-light-adhesive/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "UVLED82\n\nMG Chemicals\n\nLiquid Properties\n\n|  Density | 1.1 g/mL | ASTM D1475  |\n| --- | --- | --- |\n|  Viscosity @ 25 °C | 1 180 cP | Brookfield Engineering labs Inc.\nIPCTM-65- Method 2.4.24.4  |\n|  Shelf Life | 1 y | —  |\n\nCured Properties\n\n|  Color | Clear, yellow green | —  |\n| --- | --- | --- |\n|  Density | 1.1 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range | -80–135 °C | —  |\n|  Intermittent Temperature | 155 °C | —  |\n|  Breakdown Voltage @ 3.175 mm | 44 900 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 360 V/mil |   |\n|  Resistivity | 3.0 x 10^{11} Ω·cm | ASTM D257  |\n|  Hardness | 77 D | ASTM D2240  |\n|  Tensile Strength | 30 N/mm² | ASTM D638  |\n|  Lap Shear | 6.2 N/mm² (Polycarbonate) | ASTM D1002  |\n|  Glass Transition Temperature (T_{g}) | 42 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 74 ppm/°C (Prior T_{g}) | ASTM E831  |\n|   |  191 ppm/°C (After T_{g}) |   |\n|  Thermal Conductivity @ 25 °C | 0.2 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 1.9 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.1 mm²/s |   |\n|  Weight Loss @ 155 °C (600 hrs) | 9.2 % | —  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 2.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/adhesives/uv-led-adhesives/uv-light-adhesive/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "UVLED82\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with Isopropyl Alcohol, MG #824, so the surface is free of oils, dust, and other residues.\n\n# Cartridge\n\n1. Cut the end of the cartridge tip and screw the tip on the cartridge.\n2. Insert the cartridge in a caulking gun.\n3. Dispense the adhesive evenly to both surfaces.\n4. To stop the flow, pull back on the plunger.\n5. Clean nozzle to prevent contamination and material buildup.\n6. Replace the cap on the cartridge.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 2.2",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/adhesives/uv-led-adhesives/uv-light-adhesive/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 317152
+  },
+  "document_annotation": null
+}

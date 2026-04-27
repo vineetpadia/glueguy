@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB2235L\n\n# ThreeBond\n\nApr. 15, 2016\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 2235L\n\nHeat-curable, one-component epoxy-compound resin\n\n1. Product description\n\nThreeBond 2235L is a heat-curable, one-component, epoxy-compound resin. It has a high glass transition temperature and can keep a high storage modulus even in a high-temperature environment. It is suitable for applications where thermal resistance is required.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2. Features\n\n(1) One-component heat-curing adhesive\n(2) With high glass transition temperature\n(3) With low linear expansion coefficient\n\n3. Applications\n\nBonding and filling where thermal resistance is required\n\n4. Properties\n\n4.1. Properties\n\nTable 1 Properties of TB2235L\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Black | 3TS-2100-020 | -  |\n|  Viscosity | Pa·s | 80 | 3TS-2F00-007 | Shear rate:10.0[s⁻¹]  |\n|  Specific gravity | - | 1.69 | 3TS-2500-002 | 25°C  |\n\nED2016072",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2235L\n\n## 4.2. Rheogram\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Flow curves of TB2235L\nMeasuring temperature: 25°C\nMeasuring conditions: 3TS-4200-001\nMeasuring device: HAAKE MARS-III\nProbe: C35/2\n\n## 4.3. Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB2235L\nShear rate: 5.0 [s⁻¹]\nMeasuring conditions: 3TS-4200-003\nMeasuring device: HAAKE MARS-III\nProbe: C35/2\n\nED2016072",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 170,
+          "top_left_y": 128,
+          "bottom_right_x": 581,
+          "bottom_right_y": 378,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 161,
+          "top_left_y": 537,
+          "bottom_right_x": 536,
+          "bottom_right_y": 792,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2235L\n\n# 5. Result\n\n## 5.1. Characteristics of cured resin\n\nTable 2 Characteristics of TB2235L after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | D92 | 3TS-2B00-010 | 10-g circular (40 in diam.) cured material  |\n|  Cure shrinkage | % | 1.7 | 3TS-2600-001 | -  |\n|  Lap shear strength | MPa | 23 | 3TS-4100-011 | Fe/Fe(SPCC-SD)  |\n|   |   |  20 |   | SUS/SUS(SUS304)  |\n|   |   |  3.2 |   | PPS/PPS (TOSOH SUSTEEL®)  |\n|  T-peel strength | kN/m | 2.0 | 3TS-4130-021 | Fe/Fe(SPCC-SD)  |\n|  Water absorption | % | 0.7 | 3TS-2530-003 | Boiling for 2 hrs 10-g circular (40 in diam.) cured material  |\n|  Storage modulus (E') | GPa | 10 | 3TS-4730-001 | 25°C  |\n|   |   |  8.2 |   | 100°C  |\n|   |   |  3.3 |   | 150°C  |\n|   |   |  0.9 |   | 180°C  |\n|  Loss modulus (E\") peak | °C | 154 |   | DMA method, 1 Hz  |\n|  Loss tangent (tan δ) peak | °C | 170 |   | DMA method, 1 Hz  |\n|  Linear expansion coefficient (α₁) | ×10⁻⁶/°C | 16 | 3TS-4740-001 | 20-40°C  |\n|  Linear expansion coefficient (α₂) |   | 24 |   | 160-200°C  |\n\nCuring conditions: 140°C for 30 min\n\n## 5.2. Electrical characteristics of cured resin\n\nTable 3 Electrical characteristics of TB2235L after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 4.9×10¹⁵ | 3TS-5200-001 | -  |\n|  Surface resistivity | Ω | 1.1×10¹⁶ | 3TS-5200-002 | -  |\n|  Dielectric breakdown strength | kV/mm | 23 | 3TS-5230-002 | -  |\n|  Dielectric constant | - | 5.9 | 3TS-5220-001 | 1kHz  |\n|   |  - | 5.6 |   | 1MHz  |\n|  Dielectric loss tangent | - | 0.008 |   | 1kHz  |\n|   |  - | 0.017 |   | 1MHz  |\n\nCuring conditions: 140°C for 30 min\n\nED2016072",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB2235L\n\n## 5.3. Curing behavior\n\nFig. 3 Curing behavior of TB2235L\n![img-2.jpeg](img-2.jpeg)\nTemperature conditions: 25°C → (10°C/min) → 140°\nFrequency: 1.0 Hz Distortion: 1.0%\nSample thickness (gap): 1.0 mm\nMeasuring device: Visco Analyser VAR50\nProbe: P25\nG' effective measurement range: 10⁶ Pa or less\n\n## 5.4. Lap shear strength while heated\n\nFig. 4 Lap shear strength of TB2235L when heated\n![img-3.jpeg](img-3.jpeg)\nCuring conditions: 140°C for 30 min\nMeasuring conditions: 3TS-4100-011 Material: SUS/SUS (SUS304)\n\nED2016072",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 160,
+          "top_left_y": 134,
+          "bottom_right_x": 558,
+          "bottom_right_y": 400,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 167,
+          "top_left_y": 612,
+          "bottom_right_x": 550,
+          "bottom_right_y": 834,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB2235L\n\n# 6. Durability\n\n## 6.1. Thermal resistance\n\n![img-4.jpeg](img-4.jpeg)\nFig. 5 Heat resistance (lap shear strength) of TB2235L\nCuring conditions: 140°C for 30 min Environmental conditions: 125°C/150°C\nMeasuring conditions: 3TS-4100-011 Material: SUS/SUS (SUS304)\n\n## 6.2. Moisture resistance\n\n![img-5.jpeg](img-5.jpeg)\nFig. 6 Moisture resistance (lap shear strength) of TB2235L\nCuring conditions: 140°C for 30 min Environmental conditions: 85°C, 85%RH\nMeasuring conditions: 3TS-4100-011 Material: SUS/SUS (SUS304)\n\nED2016072",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 114,
+          "top_left_y": 152,
+          "bottom_right_x": 511,
+          "bottom_right_y": 338,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 158,
+          "top_left_y": 462,
+          "bottom_right_x": 556,
+          "bottom_right_y": 631,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB2235L\n\n## 6.3. Heat cycle\n\nFig. 7 Heat cycle resistance (lap shear strength) of TB2235L\n![img-6.jpeg](img-6.jpeg)\nCuring conditions: 140°C for 30 min\n1 cycle: (-40°C × 30 min + 125°C × 30 min)\n(-40°C × 30 min + 150°C × 30 min)\nMeasuring conditions: 3TS-4100-011 Material: SUS/SUS (SUS304)\n\n## 7. Usage\n\n(1) To prevent dew condensation, unseal and use the resin after it has reached room temperature.\n(2) Completely remove dust, oil and other contaminants from the surfaces to be coated with the resin.\n(3) The curing conditions vary depending on the thermal capacities of the substrate and peripheral components and the applying method.\nCheck the conditions with actual parts, and determine the optimum curing conditions.\n\n## 8. Directions for use\n\n(1) Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n(2) Settlement of the filler or increase in resin viscosity may be caused if it is stored at a high temperature or for a long time. Therefore, store it in a refrigerator (-5 to 10°C), and return it to room temperature prior to use. (If it is unsealed before it reaches room temperature, dew condensation can occur, and nonconformity, such as gelation, may be caused when the resin gets into contact with the dew.) After unsealing, use entire contents as soon as possible.\n(3) Some materials may deteriorate if this product is used. The effects of the adhesive on the substrates must be confirmed by the operator in advance. Refrain from using the adhesive if any detrimental effects are observed.\n(4) When heated, it generates heat through curing reaction. Take care not to burn yourself.\n(5) Due to the properties of the resin, slight discoloration may occur.\n\nED2016072",
+      "images": [
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 161,
+          "top_left_y": 125,
+          "bottom_right_x": 560,
+          "bottom_right_y": 289,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB2235L\n\n(6) It is harmful to the health. Do not touch it directly or inhale its vapor.\n(7) Use suitable protective equipment, such as a mask, goggles and gloves (impervious). Use in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n(8) If swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.\n(9) If in eyes, repeatedly and sufficiently rinse with clean water, and get medical attention.\n(10) If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n(11) If any bodily abnormalities occur, discontinue use, and get medical attention.\n(12) Persons with allergies or sensitive skin should avoid using it.\n(13) This product is not designated as a hazardous material under the Fire Service Act. However, as with general adhesives, take precautions against fires.\n(14) Keep out of reach of children.\n(15) For detailed hazard information of the product, see the Safety Data Sheet (SDS).\n\n## 9. Storage\n\n(1) Store it with the cap tightly fitted to prevent deterioration and contamination.\n(2) Store in an indoor dark dry place at -5 to 10°C avoiding fire, heat sources and direct sunlight.\n\n## 10. Disposal\n\nAsk an industrial waste disposal firm authorized by the governor to dispose of the product and its empty container as industrial waste.\n\n## 11. Cautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Safety Data Sheets (SDS).\n\nED2016072",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "TB2235L\n\nTo obtain the SDS, contact our sales office or customer service center.\n- Information in this document is subject to change at our own discretion.\n\n13. Registered trademark\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2016072",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 8,
+    "doc_size_bytes": 151934
+  },
+  "document_annotation": null
+}

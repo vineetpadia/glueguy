@@ -1,0 +1,146 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1110F\n\n# ThreeBond\n\nMay 24, 2011\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1110F\n\nLiquid gasket of anaerobic type\n\n1. Outline\n\nThreeBond 1110F is a non-solvent liquid gasket of anaerobic type. It does not cure while it is in contact with air. When it enters a gap between metallic parts and is separated from air, it starts curing and develops the powerful sealing effect. Since it contains fluorine powder, it has lubricity and prevents dragging of pipes.\n\n(Hereinafter, ThreeBond is abbreviated to TB.)\n\n2. Features\n\n(1) Quick sealing\n(2) High strength type\n(3) Since the non-solvent liquid gasket does not require open time, parts can be tightened immediately after it is applied.\n(4) Clean finish without dripping after application\n\n3. Use\n\nSealing and prevention of looseness of threaded connections of metallic pipes, such as cold and hot water pipes, cooling pipes, oil pipes, air pipes and drainpipes\n\n* It contains harmful components. Do not use it for drinking water or hot water supply piping.\n\n4. Properties\n\nTable 1 Properties of TB1110F\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | — | White *1 | 3TS-201-01 | Visual check  |\n|  Viscosity | Pa·s | 50.0 | 3TS-210-02 | Rotor No.6, 10 rpm  |\n|  Specific gravity | — | 1.08 | 3TS-213-02 |   |\n\n*1 Although the liquid may change in color from white to light yellow with time, its quality will not be affected.\n\nED2011018",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1110F\n\n# 5. Flow curves\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Flow curves of TB1110F\n\n# 6. Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB1110F (shear rate: 10 (l/s))\n\nED2011018",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 184,
+          "top_left_y": 146,
+          "bottom_right_x": 530,
+          "bottom_right_y": 382,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 197,
+          "top_left_y": 488,
+          "bottom_right_x": 504,
+          "bottom_right_y": 717,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1110F\n\n# 7. Curing speed\n\n## 7.1 Curing speed at room temperature\n\nFig. 3 Curing speed at room temperature\n![img-2.jpeg](img-2.jpeg)\nTest piece: 3/4-in galvanized steel pipe\nCuring temperature: 25°C\n\n## 7.2 Curing speed at low temperature\n\nFig. 4 Curing speed at low temperature\n![img-3.jpeg](img-3.jpeg)\nTest piece: 3/4-in galvanized steel pipe\nCuring temperature: 5°C\n- With use of primer (TB1390K)\n▲ Without use of primer (TB1390K)\n\nED2011018",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 149,
+          "top_left_y": 146,
+          "bottom_right_x": 575,
+          "bottom_right_y": 359,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 153,
+          "top_left_y": 481,
+          "bottom_right_x": 578,
+          "bottom_right_y": 715,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1110F\n\n# 8. Sealing properties\n\n## 8.1 Immediate sealing ability test\n\nTable 2 Immediate sealing ability of TB1110F\n\n|  Hydraulic medium | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Water | MPa | No leak, no abnormalities | 3TS-350-91 | *1  |\n|  Air |   | No leak, no abnormalities  |   |   |\n|  Anti-freeze |   | No leak, no abnormalities  |   |   |\n\nTested pipe: 3/4-in galvanized steel pipe\nTightening torque: 60.0 N·m\nMeasurement started 5 min after tightening\n*1 The pressure was increased to up to 3.4 MPa and was not maintained.\n\n## 8.2 Sealing test after 24 hrs\n\nTable 3 Sealing ability of TB1110F (after 24 hrs)\n\n|  Hydraulic medium | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Water | — | No leak, no abnormalities | 3TS-350-92 | *2  |\n|  Air |   | No leak, no abnormalities  |   |   |\n|  Anti-freeze |   | No leak, no abnormalities  |   |   |\n|  Turbine oil |   | No leak, no abnormalities |   | *3  |\n\nTested pipe: 3/4-in galvanized steel pipe\nTightening torque: 60.0 N·m\nCuring conditions: At 25°C for 24 hrs\n*2 Pressure increasing rate: 0.5 MPa/min The pipe was held at the maximum pressure of 3.4 MPa for 1 hr.\n*3 Pressure increasing rate: 1.0 MPa/min The pipe was held at the maximum pressure of 9.8 MPa for 1 hr.\n\n## 8.3 Sealing test after 24 hrs (with treatment with primer)\n\nTable 4 Sealing ability of TB1110F (after 24 hrs, with treatment with primer)\n\n|  Hydraulic medium | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Water | — | No leak, no abnormalities | 3TS-350-92 | *2  |\n|  Air |   | No leak, no abnormalities  |   |   |\n|  Anti-freeze |   | No leak, no abnormalities  |   |   |\n|  Turbine oil |   | No leak, no abnormalities |   | *3  |\n\nTested pipe: 3/4-in galvanized steel pipe\nTightening torque: 60.0 N·m\nCuring conditions: At 25°C for 24 hrs\nPrimer: TB1390K\n\nED2011018",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1110F\n\n## 8.4 Sealing test at each diameter\n\nTable 5 Sealing ability of TB1110F at each diameter\n\n|  Diameter | Tightening torque | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  3/4 in | 60.0N·m | No leak, no abnormalities | 3TS-350-92 | *2  |\n|  3 in | 300.0N·m | No leak, no abnormalities  |   |   |\n\nMaterial: Galvanized steel pipe\nCuring conditions: At 25°C for 24 hrs\nHydraulic medium: Air\n\n## 8.5 Sealing test at each diameter (with treatment with primer)\n\nTable 6 Sealing ability of TB1110F at each diameter (with treatment with primer)\n\n|  Diameter | Tightening torque | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  3/4 in | 60.0N·m | No leak, no abnormalities | 3TS-350-92 | *2  |\n|  3 in | 300 N·m | No leak, no abnormalities  |   |   |\n\nMaterial: Galvanized steel pipe\nCuring conditions: At 25°C for 24 hrs\nHydraulic medium: Air\nPrimer: TB1390K\n\n## 8.6 Chemical resistance test\n\nTable 7 Chemical resistance of TB1110F\n\n|  Immersion chemical | Hydraulic medium | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Water | Air | No leak, no abnormalities | 3TS-350-92 | *2  |\n|  Anti-freeze |   | No leak, no abnormalities  |   |   |\n|  Cutting oil |   | No leak, no abnormalities  |   |   |\n|  Turbine oil |   | No leak, no abnormalities  |   |   |\n\nImmersion conditions: Immersion in each chemical at 25°C for 168 hrs after curing at 25°C for 24 hrs\nTested pipe: 3/4-in galvanized steel pipe\nTightening torque: 60.0 N·m\n\nED2011018",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB1110F\n\n## 8.7 Stainless steel pipe\n\nTable 8 Sealing ability of TB1110F (stainless steel pipe)\n\n|  Hydraulic medium | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Air | — | No leak, no abnormalities | 3TS-350-92 | *2  |\n\nTested pipe: 3/4-in stainless steel pipe\nTightening torque: 60.0 N·m\nCuring conditions: At 25°C for 24 hrs\n\n## 9. Usage\n\n(1) Before applying the liquid, degrease the surface to remove dirt.\n(2) If the liquid adheres to any unintended part, immediately wipe it away with waste cloth.\n(3) The curing conditions vary depending on the material and clearance. Determine the curing temperature and time after checking the actual curing state.\n\n## 10. Instructions for use\n\n(1) This product is harmful to the health. Do not touch it directly or inhale its vapor. If it gets in the eyes, wash them with clean water, and get medical attention. Adhesion of the liquid to the skin may cause inflammation. If it adheres to the skin, immediately wipe it away with cloth or paper, and wash the skin with soap and water.\n(2) If any abnormality is found in the body, stop using it, and get medical attention. People who have allergies or sensitive skin should avoid using it.\n(3) It contains harmful components. Do not use it for drinking water or hot water supply piping.\n(4) Do not remove the product into other containers, nor return the product left unused to its container.\n(5) Some materials may be affected (cracked, corroded or dissolved) by the product. Ascertain in advance whether or not it affects the part to be treated with it and peripheral parts. If any problem occurs, do not use it.\n(6) The product will be solidified on metallic parts. Do not use metallic parts, such as a metallic nozzle.\n(7) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 11. Storage\n\nTo prevent deterioration and entry of foreign matter, fit the cap tightly, and store it in a dark dry place at -5 to 25°C away from light.\n\n## 12. Disposal\n\nAfter the liquid has all been used, ask an authorized disposal firm to dispose of the container as industrial waste.\n\nED2011018",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB1110F\n\n## 13. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED2011018",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 7,
+    "doc_size_bytes": 168024
+  },
+  "document_annotation": null
+}

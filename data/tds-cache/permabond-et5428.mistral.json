@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® ET5428\n\nTwo-Part Epoxy\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Ideal for bonding composite materials\n- Easy to apply\n- High shear and peel strength\n- Rapid cure speed\n- High temperature resistance\n- Colour matched for FRP bonding\n\n# Description\n\nPERMABOND® ET5428 is a thixotropic two-part adhesive with excellent resistance to impact and vibration. The controlled flow properties as well as its ease of mixing and application, enables the adhesive to be used where gap filling is required. Permabond® ET5428 has been found to provide exceptional performance even at elevated temperatures.\n\nPermabond® ET5428 has been specifically formulated for use in applications requiring toughness and high strength and shows special benefits in the construction of composite assemblies.\n\n## Physical Properties of Uncured Adhesive\n\n|   | ET5428 A side | ET5428 B side  |\n| --- | --- | --- |\n|  Chemical composition | Epoxy Resin | Polyamine Hardener  |\n|  Appearance | White | Cream  |\n|  Mixed appearance | Cream  |   |\n|  Viscosity @ 25°C | 20rpm: 115,000 mPa.s (cP)\n2rpm: 300,000 mPa.s (cP) | 20rpm: 200,000 mPa.s (cP)\n2rpm: 1,100,000 mPa.s (cP)  |\n|  Specific gravity | 1.1 | 1.1  |\n\n## Typical Curing Properties\n\n|  Mix ratio | 2:1 by volume\n2:1 by weight  |\n| --- | --- |\n|  Maximum gap fill | 5 mm 0.2 in  |\n|  Usable / pot life @23°C 10g mixed | 10-20 mins  |\n|  Handling time | 23°C: 30-45 mins  |\n|  Working strength | 23°C: 1 hour\n60°C: 15 minutes  |\n|  Full cure | 23°C: 24-48 hours\n60°C: 1 hour  |\n\n## Typical Performance of Cured Adhesive\n\n|  Shear strength* (ISO4587) | Mild steel: 28-34 N/mm²\n(4060-4930psi)\nAluminium: 22-28 N/mm²\n(3190-4060psi)\nStainless Steel: 29-35 N/mm²\n(4205-5075psi)\nCarbon Fibre: >25 N/mm² ** SF\n(>3625psi)\nFRP Glass/Polyester: >9 N/mm²** SF\n(>1305psi)\nFRP Glass/Epoxy: 24-28 N/mm²\n(3480-4060psi)\nPEEK: 4-5 N/mm²\n(580-725psi)\nPA6 30% filled: 3-4 N/mm²\n(435-580psi)  |\n| --- | --- |\n|  Peel strength (aluminium) (ISO4578) | 150-250 N/25mm (33-55 PIW)  |\n|  Impact strength (ASTM D-950) | 30-40 KJ/m²  |\n|  Hardness (ISO868) | 65-75 Shore D  |\n|  Elongation at break (ISO37) | <5%  |\n|  Glass transition temperature Tg | 50-60°C (122-140°F)  |\n|  Dielectric strength | 15-25 kV/ mm  |\n\n*Strength results will vary depending on the level of surface preparation and gap.<br/>\n**SF Denotes substrate failure\n\n## Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\nGraph shows typical strength development of bonded components. An increase of 8°C in temperature will halve the cure time. Lower temperatures will result in a slower cure time.\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond ET5428\n\nGlobal TDS Revision 8\n\n12 May 2022\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 390,
+          "top_left_y": 639,
+          "bottom_right_x": 642,
+          "bottom_right_y": 826,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Hot Strength\n![img-1.jpeg](img-1.jpeg)\n\"Hot strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature.\n\nET5428 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is $-40^{\\circ}\\mathrm{C}$ ($-40^{\\circ}\\mathrm{F}$) depending on the materials being bonded.\n\n## Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials.\n\nInformation regarding the safe handling of this material may be obtained from the safety data sheet.\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n## Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n\n## Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Use a suitable solvent (such as acetone or isopropanol) for the degreasing of surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n## Directions for Use\n\n1. Dual cartridges:\na) Insert the cartridge into the application gun and guide the plunger into the cartridge.\nb) Remove the cartridge cap and dispense material until both sides are flowing.\nc) Attach the static mixer to the end of the cartridge and begin dispensing the material.\n2. Apply material to one of the substrates.\n3. Join the parts. Parts must be joined within the usable pot life of mixing the two epoxy components.\n4. Large quantities and/or higher temperature will decrease the usable life or pot life.\n5. Apply pressure to the assembly by clamping until handling strength is obtained.\n6. Full cure will be obtained after 24-48 hours at $23^{\\circ}\\mathrm{C}$ (73°F). Heat can be used to accelerate the curing process.\n\nNB. Exercise caution when mixing large quantities due to exothermic reaction.\n\n## Video Links\n\nSurface preparation: https://youtu.be/8CMOMP7hXjU\n\n![img-2.jpeg](img-2.jpeg)\n\nTwo-part epoxy directions for use: https://youtu.be/GRX1RyknYqc\n\n![img-3.jpeg](img-3.jpeg)\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond ET5428\n\nGlobal TDS Revision 8\n\n12 May 2022\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 65,
+          "top_left_y": 141,
+          "bottom_right_x": 328,
+          "bottom_right_y": 314,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 599,
+          "top_left_y": 595,
+          "bottom_right_x": 650,
+          "bottom_right_y": 649,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 599,
+          "top_left_y": 675,
+          "bottom_right_x": 651,
+          "bottom_right_y": 728,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU",
+        "https://youtu.be/GRX1RyknYqc"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 335426
+  },
+  "document_annotation": null
+}

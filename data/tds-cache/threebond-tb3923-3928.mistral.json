@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n## Technical Data Sheet\n\n### TB 3923 &amp; TB 3928 – STRUCTURAL ACRYLIC ADHESIVE\n\n## Information\n\nTB 3923/TB 3928 has an excellent bonding strength, high tensile strength, peel resistance and impact bonding is higher than general epoxy adhesive. It is easy to use, hardens by coating one surface with TB3923 and another surface with TB3928 then press together. No pre-mixing required although it is possible. In either case the pot life is short. TB3923/TB3928 is quick hardening, and has excellent heat resistance, it can maintain adhesive strength even for 30 days at 120°C.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | TB 3923 | TB 3928  |\n| --- | --- | --- | --- |\n|  Appearance | - | Light White | Dark Green  |\n|  Viscosity | mPa s (cP) | 3000 (3000) | 3000 (3000)  |\n|  Specific gravity | - | 1.0 | 1.0  |\n|  Non-Volatile | % | 100 | 100  |\n|  Set Time (25°C) | Minute | 10  |   |\n|  Handling Time (25°C) |   | 30  |   |\n\n### 2. Hardening Characteristics\n\n|  Hardening Time (Minute) | Lap Shear Strength (N/cm² (kgf/cm²))  |\n| --- | --- |\n|  15 | 220(22)  |\n|  20 | 640 (65)  |\n|  30 | 1370 (140)  |\n|  60 | 1760 (180)  |\n|  120 | 2250 (230)  |\n|  180 | 2350 (240)  |\n\nSetting Duration(Steel/Steel): 10 ~ 12 minutes (Gel time 3 ~ 5 minutes)\nThe relationship between adhesive strength and hardening time (25°C, Steel/Steel)\n\nRev: 0.0\nIssued Date: 2/4/03\nDocument Control Number: 3-TB-20-1026",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3. Cured Material\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Impact Strength | Steel/ Steel | J/m² (kgf·cm/cm²) | 147 (15)  |\n|  Tensile Strength | Steel/ Steel | MPa (kgf/cm²) | 26.5 (270)  |\n|  T-Peel Strength | Aluminum/Aluminum | kN/m (kgf/25mm) | 3.1 (8.0)  |\n|   |  Steel/Steel |   | 2.7 (7.0)  |\n|  Thermal Shear Strength | -30°C | N/cm² (kgf/cm²) | 2840 (290)  |\n|   |  25°C |   | 2650 (270)  |\n|   |  60°C |   | 1570 (160)  |\n|   |  80°C |   | 880 (90)  |\n|   |  120°C |   | 196 (20)  |\n|   |  150°C |   | 98 (10)  |\n|  Lap Shear Strength | Steel/ Steel | N/cm² (kgf/cm²) | 2650 (270)  |\n|   |  Sus/Sus |   | 2350 (240)  |\n|   |  Aluminum/Aluminum |   | 1670 (170)  |\n|   |  Nickel/ Nickel |   | 1860 (190)  |\n|   |  Brass/ Brass |   | 1860 (190)  |\n|   |  Steel/ Sus |   | 2160 (220)  |\n|   |  Steel/ Aluminum |   | 2060 (210)  |\n|   |  Steel/ Ni |   | 2250 (230)  |\n|   |  Sus/ ABS |   | 1960 (200)*  |\n|   |  ABS/ ABS |   | 290 (30)  |\n|   |  Hard PVC/ Hard PVC |   | 980 (100)*  |\n|   |  Nylon/ Nylon |   | 98 (10)  |\n|   |  PC/ PC |   | 1470 (150)*  |\n|   |  Acryl/Acryl |   | 290 (30)  |\n\n* = Material Failure\n\nRev: 0.0\nIssued Date: 2/4/03\nDocument Control Number: 3-TB-20-1026",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "4. General Properties\n\n|  Property |   | Units | TB3923 | TB3928  |\n| --- | --- | --- | --- | --- |\n|  Effect on Plastic | PC | - | Hairline crack | Hairline crack  |\n|   |  Hardened PVC |   | No damage | No damage  |\n|   |  Acrylic |   | Hairline crack | Hairline crack  |\n|   |  Nylon 6-6 |   | No damage | No damage  |\n|   |  PBT |   | No damage | No damage  |\n|   |  ABS |   | No damage | No damage  |\n|   |  Polyacetal |   | No damage | No damage  |\n|  Thermal Strength Steel / Steel | 80 °C × 30 days | N/cm² (kgf/cm²) | 3230 (330)  |   |\n|   |  120 °C × 30 days |   | 3820 (390)  |   |\n|   |  150 °C × 30 days |   | 3430 (350)  |   |\n|  Water Resistance Tensile Strength** | Steel/Steel | N/cm² (kgf/cm²) | 1080 (110)  |   |\n|   |  Aluminum/ Aluminum |   | 1670 (170)  |   |\n|  Humidity Resistance Tensile Strength*** | Steel/Steel | N/cm² (kgf/cm²) | 2060 (210)  |   |\n|   |  Aluminum/ Aluminum |   | 1670 (170)  |   |\n\n** = Immersed in water at 40 °C × 30 days\n*** = 40°C/95%RH × 7 days\n\nThese are typical results and not specifications.\n\nRev: 0.0\nIssued Date: 2/4/03\nDocument Control Number: 3-TB-20-1026",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 97532
+  },
+  "document_annotation": null
+}

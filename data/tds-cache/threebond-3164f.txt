@@ -1,0 +1,133 @@
+<!-- page: 0 -->
+
+ThreeBond
+
+# Three Bond International, Inc.
+## Technical Data Sheet
+
+## Three Bond 3164F - UV CURABLE SILICONE ADHESIVE/SEALANT
+
+## Information
+
+Three Bond 3164F is an UV curing silicone with secondary moisture cure, combining the quick curing speed of UV adhesives with the excellent temperature resistance of silicone sealants. The adhesive has two curing mechanisms: portions of this product directly exposed to UV rays cure in seconds; other portions in the shadow regions can cure with atmospheric moisture.
+
+Compared with acrylic UV adhesives, TB3164F has improved high and low temperature resistance and improved elasticity. Compared with RTV silicone, TB3164F has a faster cure rate due to UV curing, shortening the processing time. TB3164F does not produce corrosive byproducts from the UV cure nor the moisture cure mechanisms, making the adhesive an excellent choice for situations where metal is exposed to the curing byproducts.
+
+After curing, TB3164F becomes an elastic rubber which can be used for sealing, coating, potting, bonding, especially for electric/electronic components. TB3164F has good adhesion to many different substrates including metals and plastics.
+
+TB3164F maintains flexibility, tensile strength and good adhesion to substrates during rapid heating and cooling cycles as well as long term heat and cold conditions. TB3164F is resistant to automatic transmission fluid; it maintains exemplary flexibility and does not experience complete loss of strength.
+
+## Features
+
+- Excellent UV curing properties
+- 1-component, solvent-free
+- Rapid surface cure with UV radiation
+- The portion of this product not directly exposed to UV rays can cure by moisture in the air (alcohol by-product).
+- Excellent for deep curing or shadowed applications
+- Excellent high and low temperature resistance
+- Excellent automatic transmission fluid resistance (ATF)
+- Excellent bonding to many substrates
+
+## Applications
+
+TB 3164F is best for potting or bonding, especially for electric/electronic components needing a deep cure or shadow area cure and good adhesion to metal and plastic. TB 3164F can also be used for sealing, coating, and end sealing applications where good adhesion and rapid cure is needed.
+
+Rev: 0.5
+Issued Date: 07/01/2015
+Document Control Number: 3-TB-20-1352
+
+---
+
+<!-- page: 1 -->
+
+# Typical Properties
+
+## 1. Uncured State:
+
+|  Property | Units | Value | Test Method | Remarks  |
+| --- | --- | --- | --- | --- |
+|  Appearance | - | White | 3TS-2100-001 | -  |
+|  Viscosity | Pa·s (P) | 4.0 (40) | 3TS-2F00-007 | DV-III Ultra; CPE51, 20 rpm  |
+|  Specific gravity | - | 1.01 | 3TS-2500-002 | 25°C  |
+|  Flash Point | °C | 112 | ASTM D93-11 | Pensky Martens Test Method  |
+
+## 2. Characteristics of Cured Product:
+
+UV Light Source: High pressure mercury lamp ('D' Type Bulb or 'H' Type Bulb)
+
+UV Exposure: 4000 mJ/cm²,
+
+Projection distance: 15 cm
+
+Peak Irradiance: 4.7 W/cm²
+
+Moisture cured: 25°C × 55% RH × 7 days
+
+## 2.1. UV + Moisture cured Properties:
+
+Cured Condition: 4000 mJ/cm² + (25°C, 55% RH) × 7 days
+
+|  Property | Units | Value | Test Method  |
+| --- | --- | --- | --- |
+|  Hardness (Shore A) | - | 10 | 3TS-2B00-004  |
+|  Hardness (Shore C) | - | 30 | 3TS-2B00-004  |
+|  Tensile strength | MPa | 0.2 | 3TS-4190-05  |
+|  Elongation | % | 150 | 3TS-4190-05  |
+|  Heat Shock Stability | -40°C to 130°C | 144 x 1 hour cycles | 3TS-9400-007  |
+
+## 2.2. Heat Aging at 150°C × 168 Hours in forced air oven :
+
+Cured Condition: 4000 mJ/cm² + (25°C, 55% RH) × 7 days
+
+|  Property | Unit | Initial | 150°C | Test Method  |
+| --- | --- | --- | --- | --- |
+|  Hardness (Shore C) | --- | 27 | 34 | 3TS-2B00-004  |
+|  Tensile strength | MPa | 0.25 | 0.25 | 3TS-4190-05  |
+|  Elongation | % | 192 | 120 | 3TS-4190-05  |
+
+Rev: 0.5
+Issued Date: 07/01/2015
+Document Control Number: 3-TB-20-1352
+
+---
+
+<!-- page: 2 -->
+
+Page 3 of 4
+Rev: 0.5
+Issued Date: 07/01/2015
+Document Control Number: 3-TB-20-1352
+
+## 2.3 ATF Resistance $\{(150^{\circ}\mathrm{C}) \times (0, 168)$ Hours in pressure pot with ATF $\}$ Cured Condition: $4000\ \mathrm{mJ/cm}^2 + (25^{\circ}\mathrm{C}, 55\%\ \mathrm{RH}) \times 7$ days
+
+|  Property | Unit | Initial | 168 h | Test Method  |
+| --- | --- | --- | --- | --- |
+|  Hardness (Shore C) | --- | 27 | 10 | 3TS-2B00-004  |
+|  Tensile strength | MPa | 0.25 | 0.05* | 3TS-4190-05  |
+|  Elongation | % | 192 | 400* | 3TS-4190-05  |
+
+*Testing machine reached max extension before sample failure occurred.
+
+These are typical results and not specifications.
+
+## General Use Application Instructions for Adhesive
+
+A) For industrial use only.
+B) Use localized ventilation to maintain exposure of byproduct to below the allowable concentration limits.
+C) Clean the surface of parts to be bonded. This surface should be free of water, oil and other contaminates.
+D) Apply the specific amount of adhesive for the application without air bubble.
+E) Use appropriate worker safety equipment to shield against stray UV damage to skin or eyes.
+F) Full-Cure Schedule: $3000\ \mathrm{mJ/cm}^2$ of UV Exposure by Mercury type 'D' or Mercury type 'H' Bulb followed by 7 days at $25^{\circ}\mathrm{C}$ and $55\%\ \mathrm{RH}$
+G) In case of skin exposure or eye contact, please read the (M)SDS ((Material) Safety Data Sheet) for this product
+
+## Storing Instructions
+
+After receipt, resin should be stored with the lid closed, in the original container, in the following conditions: $5-10^{\circ}\mathrm{C}$ to maintain product stability in a dark or UV free area to prevent exposure to UV radiation. Samples will be very stable if the above listed storage conditions are followed.
+
+## Disposal method
+
+Handle uncured adhesive in accordance with local hazardous waste provisions.
+
+## Disclaimer
+
+Data included in this technical data sheet are typical when the UV-moisture cured sealant is used according to its use instructions. Product properties for specific applications should be confirmed in lab testing and from actual trial run results.

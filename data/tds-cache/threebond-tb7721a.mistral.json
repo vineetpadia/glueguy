@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB7721\n\nThreeBond\n\nJune 11, 2013\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 7721\n\n# Instant adhesive Gold Label Series (non-blooming type)\n\n## 1. Product description\n\nThreeBond 7721 is a quick curing instant adhesive whose main component is ethoxyethyl-α-cyanoacrylate. The adhesive has almost no irritating instant adhesive odor and causes minimal blooming. In addition, cures quickly and is particularly suitable for bonding wood, paper, cloth, leather and other porous materials as well as acidic materials. (Hereinafter, ThreeBond is abbreviated to TB.)\n\n## 2. Features\n\n(1) Immediate adhesion strength (within 2 seconds to 3 minutes)\n(2) Single-component and easy-to-use adhesive\n(3) No peculiar irritating odor or blooming\n(4) For fast curing. Bonds quickly to various materials (porous, acidic materials)\n(5) Useful for reducing working hours and improving working efficiency\n(6) High bonding strength on a wide range of materials\n\n## 3. Applications\n\n(1) General parts that must be bonded quickly\n(2) Electric, electronic, optical and general parts that must be free from blooming\n(3) Porous materials, such as wood, paper, cloth and leather, and acidic materials into which adhesives easily penetrate\n\n## 4. Properties and characteristics\n\n### 4.1 Properties and general characteristics of TB7721\n\n|  Test item | Substrate | Unit | Result |   | Test method  |\n| --- | --- | --- | --- | --- | --- |\n|   |   |   |  TB7721 | Existing product (TB1721D)  |   |\n|  Appearance | - | - | Colorless to light transparent yellow | Colorless and transparent | 3TS-2100-001  |\n|  Viscosity | - | mPa·s | 5 | 5 | 3TS-2F00-001  |\n|  Specific gravity (at 25°C) | - | - | 1.07 | 1.07 | 3TS-2500-002  |\n|  Set time (at 25°C, 50%RH) | NBR | sec | 2 | 2 | 3TS-3140-001  |\n|   |  Iron |   | 15 | 40 | 3TS-3140-004  |\n|   |  PC |   | 20 | 40  |   |\n|   |  Japanese cypress |   | 30 | >120  |   |\n|   |  Acid paper |   | 10 | >120  |   |\n|  Lap shear strength (25°C, 50%RH, for 24 hrs.) | Iron | MPa | 18.4 | 14.4 | 3TS-4100-011  |\n|   |  PPS |   | 1.9 | 1.3  |   |\n\nTable 1 Properties and general characteristics of TB7721\n(Note) Set time: For iron, SPCC-SD sandblasted after degreased was used. Other materials were untreated.\n\n### 4.2 Adhesion to various substrates\n\nMetal test pieces were sandblasted after degreased. Other test pieces were untreated. The substrates were bonded with the adhesive in an environment with a relative humidity of 50% at 25 °C. After the adhesive was cured for 24 hours in the same environment, the adhesive strength was measured at room temperature.\n\nTest method: Lap shear strength (3TS-4100-011).\n\nTable 2 Adhesive strength to various substrates (MPa)\n\n|  Substrate | TB7721 | TB7721/TB7797 (With use of primer)  |\n| --- | --- | --- |\n|  Iron (SPCC-SD) | 18.4 | 14.5  |\n|  Aluminum (A1050P) | 12.9 | 12.2  |\n|  SUS304 | 7.7 | 14.3  |\n|  Brass | 10.8 | 9.2  |\n|  Copper | 12.4 | 7.1  |\n|  Nickel | 7.5 | 13.0  |\n|  Zinc chromate | 7.1 | 5.7  |\n|  Hard PVC | 2.7 | 2.8(*)  |\n|  PC (polycarbonate) | 7.6(*) | 9.3(*)  |\n|  Phenol | 11.0(*) | 10.6(*)  |\n|  Nylon 6 | 2.9 | 4.1  |\n|  Nylon 6,6 | 8.1 | 7.1  |\n|  Noryl | 5.1 | 5.8  |\n|  ABS (acrylonitrile-butadiene-styrene resin) | 4.1(*) | 5.7(*)  |\n|  Glass epoxy | 11.1 | 9.9  |\n|  PBT (polybutylene terephthalate) | 1.8 | 2.1  |\n|  PET (polyethylene terephthalate) | 7.3 | 9.8(*)  |\n|  PPO (polyphenylene oxide) | 5.1 | 4.1  |\n|  PPS (polyphenylene sulfide) | 1.9 | 1.8  |\n|  HIPS (high-impact polystyrene) | 3.9(*) | 4.4(*)  |\n|  Acryl | 6.4(*) | 5.2(*)  |\n|  Polyacetal | 0.8 | 5.0(*)  |\n|  NR (natural rubber) | 0.4(*) | 0.3(*)  |\n|  CR (chloroprene rubber) | 0.6(*) | 0.4(*)  |\n|  NBR (nitrile rubber) | 0.8(*) | 0.7(*)  |\n|  SBR (styrene-butadiene rubber) | 1.6(*) | 1.2(*)  |\n|  EPDM (ethylene propylene diene monomer) | 0.8(*) | 0.7(*)  |\n|  Acid paper | (*) | (*)  |\n|  Balsa | 1.7(*) | 1.8(*)  |\n|  Philippine mahogany (veneer) | 9.1(*) | 9.1(*)  |\n|  Japanese cypress | 6.6(*) | 9.5(*)  |\n\nNote: (*) indicates material failure of the substrate.\n\nED2012029",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB7721\n\n# 4.3 Initial adhesion of TB7721\n\nAfter iron test pieces were bonded with the adhesive in an environment with a relative humidity of 50% at 25°C and the adhesive was cured for the predetermined time, the lap shear strength was measured in the same environment.\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Initial adhesion of TB7721\n\n# 4.4 Characteristics of TB7721 after curing\n\nTable 3 Characteristics of TB7721 after curing\n\n|  Test item |   | Unit | Result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Linear expansion coefficient | 0 to 50°C | ×10⁻⁶/°C | 161 | 3TS-4740-001  |\n|  Glass transition point (DMA) |   | °C | 68 | 3TS-4730-001  |\n|  Hardness |   | — | D73 | 3TS-2B00-004  |\n|  Dielectric breakdown strength |   | kV/mm | 27 | 3TS-5230-001  |\n|  Volume resistivity |   | Ω·m | 1.5×10¹² | 3TS-5200-001  |\n|  Surface resistivity |   | Ω | 5.7×10¹⁰ | 3TS-5200-002  |\n|  Dielectric constant | 1 kHz | — | 5.6 | 3TS-5220-001  |\n|   |  1 MHz | — | 4.7  |   |\n|  Dielectric loss tangent | 1 kHz | — | 0.055  |   |\n|   |  1 MHz | — | 0.031  |   |\n\n(Note) Curing conditions: 30 kJ/cm² (high pressure mercury lamp) after addition of photopolymerization initiator\n\n# 5. Durability\n\n## 5.1 Heat resistance\n\nSteel test pieces were bonded in an environment with 50% RH at 25°C. After curing for 24 hours in the same environment, the test pieces were aged for the predetermined time at each temperature and returned to room temperature, and the lap shear strength was measured. (3TS-4100-011)\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Heat resistance of TB7721\n\n## 5.2 Moisture resistance\n\nAluminum test pieces were bonded in an environment with 50% RH at 25°C. After curing for 24 hours in the same environment, the test pieces were aged at each temperature and humidity for the predetermined time and returned to room temperature, and the lap shear strength was measured. (3TS-4100-011)\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Moisture resistance of TB7721\n\n## 6. Chemical resistance\n\nAfter test pieces for measurement of lap shear strength (Fe/Fe) were immersed in each chemical under the following conditions for 250 hours, the lap shear strength was measured at room temperature. (3TS-4100-011)\n\nTable 4 Resistance of TB7721 to various chemicals\n\n|  Chemical | Immersion temperature | Lap shear strength (MPa)  |\n| --- | --- | --- |\n|  Before immersion | — | 18.4  |\n|  Isopropyl alcohol | 25°C | 17.5  |\n|  Toluene | 25°C | 12.2  |\n|  Gasoline | 25°C | 17.8  |\n|  Engine oil | 40°C | 18.6  |\n|  Long-life coolant (50%aq.) | 25°C | 15.1  |\n\n## 7. Usage\n\n(1) Carefully remove contaminants, such as water, oil and rust, etc. from the surfaces.\n(2) Apply an appropriate amount of adhesive to one of the surfaces, rub them together to spread the adhesive thin and uniformly. Then, secure the part in the specified position.\n\n* The primer will start the curing reaction immediately after the part is secured to bond the part. Porous materials such as wood have a slightly longer set time. Also, a strong adhesion can be obtained if applied thinly enough.\n\n## 8. Storage\n\nStore in a dark dry place at 5 to 10°C away from direct sunlight. May cause curing of product, therefore do not place near curing accelerator or alkaline substances such as epoxy resin hardener. Store with the cap tightly fitted to prevent deterioration and contamination.\n\nED2012029",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 93,
+          "top_left_y": 138,
+          "bottom_right_x": 323,
+          "bottom_right_y": 329,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 93,
+          "top_left_y": 734,
+          "bottom_right_x": 326,
+          "bottom_right_y": 908,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 399,
+          "top_left_y": 165,
+          "bottom_right_x": 640,
+          "bottom_right_y": 348,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB7721\n\n# 9. Disposal\n\nDispose of the product and its empty container as industrial waste.\n\n# 10. Directions for use\n\n- When using, wear appropriate protective equipment, such as a mask, goggles and gloves (impervious). Use in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n- Harmful. Do not ingest or inhale.\n- If swallowed, induce vomiting, and immediately get medical attention.\n- Irritates eyes, skin and respiratory organs. Handle carefully.\n- If in eyes, wash with clean water for about 15 minutes, and get medical attention. While washing the eyes, take care not to blink too frequently or rub the eyes. Never use a stripper or a solvent, as doing so may damage the eyeballs.\n- Strongly and quickly bonds the skin and mucous membranes. Handle it carefully.\n- If adheres to skin, wipe away with a cloth, and wash skin with soap.\n- If fingers are bonded together, do not forcibly separate. Separate by rubbing them in warm water at about 40°C.\n- If any bodily abnormalities occur, discontinue use, and get medical attention.\n- Do not use on the human body.\n- Keep out of reach of children.\n- Combustible. Keep away from fire.\n- The product may spout from the nozzle. Do not open the cap with the nozzle pointing towards someone.\n- Persons who have allergies or sensitive skin should avoid use.\n- If on clothing, may generate heat so there is a risk of skin burn. Handle carefully.\n- Some materials may be deformed by the heat of chemical reaction.\n- Some substrates may deteriorate if this product is used.\n- Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n- If some adhesive overflow remains, the periphery of the bonded part may become whitish with the solidified vapor of the adhesive.\n- To prevent condensation, unseal the container after reaching room temperature.\n- Does not adhere to polyethylene, polypropylene, fluoroplastics, silicone resin, soft vinyl chloride or glass. Use in combination with proper primer.\n- For other hazard and toxicity information, see the material safety data sheet (MSDS).\n\n# 11. Disclaimer\n\n**For Industrial Use Only**\n\n(Do not use for household purposes.)\n\nThis product was developed for general industrial use. Before using this product, the user must accept the following terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods.\n\nFurthermore, we do not guarantee that the uses described herein do not conflict with any intellectual property right.\n\n- Users are asked to examine whether the product is appropriate to the purpose of use and can be used safely before they use it and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implant applications that may be embedded, injected or left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties or usage of the product to be used are unclear, never use it.\n\n- For detailed safety information of the product, see the Material Safety Data Sheet (MSDS).\n\nTo obtain the MSDS, contact our sales office or customer service center.\n\n- Information in this technical document is subject to change at our discretion without notice.\n\nED2012029",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 97799
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3170B\n\n# ThreeBond\n\nMarch 6, 2002\nThree Bond Co., Ltd.\n\n# Technical Data\n\nThreeBond 3170B\nVisible-light-curing resin\n\n1. Outline\n\nThreeBond 3170B is a one-part non-solvent visible-light-curing resin whose main component is acrylate. Since the resin can cure quickly under irradiation of ultraviolet or visible light at a wavelength of 200 to 500 nm, it reduces the time and labor required on manufacturing lines.\n\nThreeBond 3170B which cures under visible light is suitable for bonding materials that do not transmit ultraviolet light. It forms a thicker film as compared with ultraviolet-curing resins.\n\nThreeBond 3170B has excellent adhesion to plastics, glass and metals.\n\n2. Features\n\n(1) It cures under irradiation of visible or ultraviolet light in a few seconds to several tens of seconds.\n(2) It cures on materials that do not transmit ultraviolet light but transmit visible light.\n(3) It excels in curability in thick films.\n(4) It has high adhesion to plastics, glass and metals.\n\n3. Uses\n\n(1) Bonding of electric and optical parts\n(2) Bonding of transparent materials that do not transmit ultraviolet light\n(3) Bonding of parts requiring curing in thick films\n\nED050803",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3170B\n\n# 4. Properties\n\n## 4.1 Properties\n\nTable 1 Properties\n\n|  Test item | Unit | Measurement | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Transparent light yellow | 3TS-201-01 |   |\n|  Viscosity | Pa·s | 1.8 | 3TS-210-01 | 25°C\nRotor No.3 30 rpm  |\n|  Specific Gravity | - | 1.04 | 3TS-213-02 | 25°C  |\n\n## 4.2 Rheograms (rheometer)\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Viscosity curve and rheogram\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve Shear Rate 1.0 (1/5)\n\nED050803",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 128,
+          "top_left_y": 362,
+          "bottom_right_x": 455,
+          "bottom_right_y": 603,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 128,
+          "top_left_y": 625,
+          "bottom_right_x": 457,
+          "bottom_right_y": 882,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3170B\n\n# 5. Characteristics\n\nTable 2 Characteristics\n\n|  Test item | Unit | Test result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | D70 | 3TS-215-01 | 25°C  |\n|  Cure Shrinkage | % | 7.7 | 3TS-228-01 | φ30 1.5 g  |\n|  Water Absorption | % | 2.4 | 3TS-233-03 | Boiling for 2 hrs. φ30 1.5 g  |\n|  Depth Curability | mm | 3.0 (30 kJ/m²)\n7.9 (60 kJ/m²)\n18 (90 kJ/m²) | 3TS-222-01 |   |\n\nIrradiation conditions: 80-W/cm high-pressure mercury vapor lamp, dominant wavelength of 365 nm, and irradiation distance of 15 cm\nIntegrated volume of light: 30 kJ/m² for measurement of cure shrinkage and water absorption<br/>For measurement of hardness, one time of irradiation at 30 kJ/m² on each of front and rear surfaces of film about 4 mm thick<br/>In all cases of measurement, the integrated volume of light was measured at 350 nm or so.\n\n# 6. Temperature characteristics\n\nTable 3 Temperature characteristics\n\n|  Test item |   | Unit | Test result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Dynamic Mechanical Analysis (DMA) (1Hz) | Storage elastic modulus | Pa | 4.0 ×10⁹ (-40°C)\n3.5 ×10⁹ (-20°C)\n2.9 ×10⁹ ( 0°C)\n2.1 ×10⁹ ( 20°C)\n9.7 ×10⁸ ( 40°C)\n1.4 ×10⁸ ( 60°C)\n3.2 ×10⁸ ( 80°C) | 3TS-501-04  |\n|   |  Loss elastic modulus (E”) peak | °C | 38  |   |\n|   |  Loss tangent (tanδ) peak | °C | 62  |   |\n|  Linear Expansion Coefficient | -40 - 0°C\n40 - 80°C | /°C | 93 × 10⁻⁶\n210 × 10⁻⁶ | 3TS-501-05  |\n|  Glass Transition Temperature |   | °C | 32 (TMA method) |   |\n\nED050803",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3170B\n\n# 7. Lap shear Strength test\n\nTable 4 Lap shear strength\n\n|  Test material | Test result (MPa) | Remarks  |\n| --- | --- | --- |\n|  Acrylic /Acrylic * | 3.0 | Curing conditions: 80-W/cm high-pressure mercury vapor lamp\n30 kJ/m² × 2 times\nMeasurement after leaving at normal temperature for 24 hours\nAcrylic (containing UV light absorber)\nACRYPET VH001 (Mitsubishi Rayon Co., Ltd.)\nPolycarbonate (containing UV light absorber)\nIupilon NF2000\n(Mitsubishi Engineering-Plastics Corporation)\nPPS\nSusteel GS-40 (Tosoh Corporation)\nLCP\nVectra E130 (Polyplastics Co., Ltd.)  |\n|  Polycarbonate/\nPolycarbonate* | 5.0  |   |\n|  Glass/Glass | 8 or more*  |   |\n|  Glass/Stainless steel 304 | 6 or more*  |   |\n|  Glass/\nAluminum A1050P | 8 or more* | PPS\nSusteel GS-40 (Tosoh Corporation)\nLCP\nVectra E130 (Polyplastics Co., Ltd.)  |\n|  Glass/PPS | 4.9  |   |\n|  Glass/LCP | 3.2  |   |\n\n* Material failure Test method: 3TS-301-13\n\n# 8. Usage\n\nFor the procedures for applying and curing the resin, consult one of our sales engineers.\n\n# 9. Instructions for use\n\n(1) The curing speed varies depending on the kind of light source and irradiation distance. Sufficiently check the conditions prior to use.\n\n(2) Parts of the resin not exposed to visible or ultraviolet light or in the shadows do not cure in principle. Before using the resin, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n\n(3) A little gas is generated during application and curing with light. Forcibly ventilate the working area and the irradiation area. Wear appropriate protective means, such as a mask, gloves (not permeable) and goggles, as necessary, and use the resin in a place provided with a local exhaust system.\n\n(4) It is forbidden to inhale or drink the resin. It is harmful to the health. Never inhale or drink it. If it is drunk, immediately put the sufferer under medical treatment.\n\n(5) The resin is toxic. Do not touch it directly or inhale its vapor. Adhesion of the resin to the skin may cause an inflammation of the skin. If it adheres to the skin, immediately wipe it off with cloth or paper, and wash the skin with soap and water. If it enters the eyes, wash the eyes with fresh water for about 15 minutes, and get medical attention.\n\nED050803",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3170B\n\n(6) If any abnormality is found in the body, quit handling it, and get medical attention. Persons who have allergies or sensitive skin should avoid handling it.\n\n(7) Some materials may be deteriorated by the use of ThreeBond 3170B. Ascertain in advance whether it does not affect the materials to be bonded. If any problem occurs, do not use the resin.\n\n(8) Do not pour ThreeBond 3170B into other containers. Do not return the resin left unused to its container.\n\n(9) After using it, store it with the cap tightly fitted to prevent deterioration or entry of foreign matter.\n\n(10) Use and store it out of reach of children.\n\n## 10. Storage\n\nStore the resin in a dark and dry place at 10 to 25°C.\n\n## 11. Disposition\n\nHave the product disposed of by a waste disposer that has special knowledge.\n\nDo not burn it. When burnt, it may generate toxic gas.\n\n## 12. Safety precautions\n\n**For industrial use only**\n\n(It is not intended for household use)\n\nBefore using the product, approve the following conditions of sale.\n\n(1) This technical information gives experimental values obtained by our specified test methods. We cannot thoroughly guarantee the correctness and perfectness of the data.\n\nThe user should determine whether the product is appropriate to the use and purpose before using it, and take all responsibilities for danger caused by it. The guarantee applies only to replacement of apparently defective product.\n\n(2) We are not liable to injuries and damages caused by improper handling of this product.\n\n(3) We do not take responsibility for any matter not mentioned herein unless otherwise mutually agreed in the contract.\n\nED050803",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 143789
+  },
+  "document_annotation": null
+}

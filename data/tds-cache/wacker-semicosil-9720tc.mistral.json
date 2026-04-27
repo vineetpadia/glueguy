@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "WACKER\nCREATING TOMORROW'S SOLUTIONS\n\n# SEMICOSIL® 9720 TC\n\nSEMICOSIL®\n\n## Thermally Curing Silicone Rubber (RTV-2)\n\nSEMICOSIL® 9720 TC is a non-slump, thermally curable, addition-curing, one part silicone adhesive with excellent thermal conductivity.\n\n## Properties\n\n- Ready-to-use, one-part system\n- Thixotropic\n- High thermal conductivity\n- Rapid heat cure\n- Primerless adhesion to many substrates\n- Controlled volatility\n- Almost constant properties between -50°C and +180°C\n\n## Technical data\n\n### General Characteristics\n\n|  Property | Condition | Value | Method  |\n| --- | --- | --- | --- |\n|  Curing time | 125 °C | 60 min | -  |\n|  Curing time | 150 °C | 30 min | -  |\n\nThese figures are only intended as a guide and should not be used in preparing specifications.\n\nSEMICOSIL® 9720 TC | Most recent change: 07.01.2025\n1/3",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "SEMIcOSIL® 9720 TC | Most recent change: 07.01.2025\n\n# Properties Uncured\n\n| Property | Condition | Value | Method |\n| --- | --- | --- | --- |\n| Viscosity, dynamic | 25 °C | 10 1/s | 110000 mPa·s | DIN 53019 |\n\nThese figures are only intended as a guide and should not be used in preparing specifications.\n\n# Properties Cured\n\nCuring condition: 10 min / 165°C\n\n|  Property | Condition | Value | Method  |\n| --- | --- | --- | --- |\n|  Color | - | White | -  |\n|  Density | 23 °C | 2.74 g/cm³ | DIN EN ISO 1183-1 A  |\n|  Hardness Shore A | - | 85 | ASTM 2240  |\n|  Dielectric strength | 25 °C | 10 kV/mm | IEC 60243  |\n|  Thermal conductivity | - | 1.9 W/m.K | ASTM D 5470-12  |\n\nThese figures are only intended as a guide and should not be used in preparing specifications.\n\nAll the information provided is in accordance with the present state of our knowledge. Nonetheless, we disclaim any warranty or liability whatsoever and reserve the right, at any time, to effect technical alterations. The information provided, as well as the product's fitness for an intended application, should be checked by the buyer in preliminary trials. Contractual terms and conditions always take precedence. This disclaimer of warranty and liability also applies particularly in foreign countries with respect to third parties' rights.\n\nSEMIcOSIL® electronics applications\n\n# Application details\n\n- Bonding of electronic parts with heat sinks\n- Fixing electronic parts to circuit boards\n- Heat transmission glue for PCU modules\n\n# Packaging and storage\n\n## Storage\n\nSEMIcOSIL® 9720 TC has a shelf life of at least 3 months when stored cool and dry in the originally sealed container. The 'Best use before end' date of each batch appears on the product label.\n\nStorage beyond the date specified on the label does not necessarily mean that the product is no longer usable. In this case however, the properties required for the intended use must be checked for quality assurance reasons.\n\n## Safety notes\n\nAccording to the latest findings, addition curing SEMIcOSIL® 9720 TC silicone rubber, contains neither toxic nor corrosive substances which might require special handling precautions. General hygiene regulations should be observed.\n\nComprehensive instructions are given in the corresponding Material Safety Data Sheets. They are available on request from Wacker subsidiaries.\n\n2/3",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "QR Code SEMICOSIL® 9720 TC\n\n![img-0.jpeg](img-0.jpeg)\n\nFor technical, quality or product safety questions, please contact:\n\nWacker Chemie AG, Gisela-Stein-Strasse 1, 81671 Munich, Germany\nproductinformation@wacker.com, www.wacker.com\n\nThe data presented in this medium are in accordance with the present state of our knowledge but do not absolve the user from carefully checking all supplies immediately on receipt. We reserve the right to alter product constants within the scope of technical progress or new developments. The recommendations made in this medium should be checked by preliminary trials because of conditions during processing over which we have no control, especially where other companies' raw materials are also being used. The information provided by us does not absolve the user from the obligation of investigating the possibility of infringement of third parties' rights and, if necessary, clarifying the position. Recommendations for use do not constitute a warranty, either express or implied, of the fitness or suitability of the product for a particular purpose.\n\nSEMICOSIL® 9720 TC | Most recent change: 07.01.2025\n3/3",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 97,
+          "bottom_right_x": 169,
+          "bottom_right_y": 201,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 44768
+  },
+  "document_annotation": null
+}

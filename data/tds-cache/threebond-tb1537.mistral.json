@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1537 Series\n\nThreeBond\n\nApr. 7, 2009\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\nThreeBond 1537 Series\n\n[TB1537, TB1537B, TB1537D]\n\nOne-part moisture-curing elastic adhesive meeting UL94V-0 flammability standard\n\n## 1. Outline\n\nThreeBond 1537 Series is a non-solvent one-part moisture curing elastic adhesive, whose main component is a silyl-based special polymer. The adhesive reacts with a trace amount of moisture in the air to cure. Since the adhesive meets UL94V-0 flammability standard (vertical burning test), it is suitable for securing parts around potential heat sources.\n\nSince it does not contain low-molecular cyclic siloxane, it will not cause electric contact fault.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) Product meeting UL94V-0 flammability standard (vertical burning test)\n(2) Non-solvent adhesive (not affecting plastics)\n(3) One-part adhesive which reacts with moisture in the air to cure (heating or UV equipment is not required)\n(4) Excellent adhesion to metals, plastics, rubber and inorganic materials\n(5) Low cure shrinkage\n\n## 3. Uses\n\nBonding, sealing and potting of parts\n\n## 4. Properties\n\n### 4.1 General properties\n\nTable 1 Properties of TB1537 Series\n\n|  Test item | Unit | TB1537 | TB1537 B | TB1537 D | Test method  |\n| --- | --- | --- | --- | --- | --- |\n|  Main component | - | Special polymer containing silyl group |   |   |   |\n|  Appearance | - | White | Black | Gray | 3TS-201-02  |\n|  Viscosity | Pa·s | 55* |   |   | 3TS-210-10  |\n|  Specific gravity | - | 1.67 |   |   | 3TS-213-02  |\n|  Tack-free time | min | 4 |   |   | 3TS-219-06  |\n\n* Measuring condition: Shear rate: 5 (s⁻¹)\n\n![img-0.jpeg](img-0.jpeg)\n4.2 Flow curves\nFig. 1 Viscosity curve and flow curve of TB1537D\n\nMeasuring condition: Temperature: 25°C\n\n![img-1.jpeg](img-1.jpeg)\n4.3 Temperature-viscosity curve\nFig. 2 Temperature-viscosity curve of TB1537D\n\nMeasuring conditions: Shear rate: 1.0 (s⁻¹)\n\nTemperature range: 5 to 50°C (by 5°C)\n\nAD2009027",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 290,
+          "bottom_right_x": 647,
+          "bottom_right_y": 450,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 388,
+          "top_left_y": 521,
+          "bottom_right_x": 632,
+          "bottom_right_y": 686,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1537 Series\n\n4.4 Moisture curability\nFig. 3 Curability of TB1537, TB1537B and TB1537D depending on temperature and relative humidity (The three kinds of adhesives show the same results.)\n![img-2.jpeg](img-2.jpeg)\nMeasuring conditions: 3TS-222-94\n\n# 5. Characteristics of cured adhesive\n\n## 5.1 Characteristics of cured adhesive\n\nTable 2 Characteristics of TB1537 Series after curing\n\n|  Test item |   | Unit | TB1537 | TB1537B | TB1537D | Test method  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  Hardness |   | - | A72 | A74 | A71 | 3TS-215-01  |\n|  Cure shrinkage |   | % | 2.0 | 2.2 | 2.3 | 3TS-228-01  |\n|  Water absorption | % | 1.7 | 1.6 | 2.3 | 3TS-233-01*1  |   |\n|   |   |  1.4 | 1.8 | 2.3 | 3TS-233-02*2  |   |\n|   |   |  5.6 | 3.4 | 5.4 | 3TS-233-03*3  |   |\n|  Tensile strength |   | MPa | 5.0 | 3.9 | 4.3 | 3TS-320-01  |\n|  T-peel strength |   | kN/m | 1.2 | 1.1 | 1.2 | 3TS-301-03  |\n|  Elongation |   | % | 29 | 33 | 29 | 3TS-320-01  |\n|  Glass transition point*4 |   | °C | -64 | -65 | -62 | 3TS-501-04  |\n|  Thermal conductivity |   | W/m/k | 0.8 | 0.8 | 0.9 | 3TS-501-06  |\n|  Linear expansion coefficient | -100 -70°C | ppm/°C | 29 - 34 | 27 - 34 | 26 - 36 | 3TS-501-05*5  |\n|   |  0 - 150°C | ppm/°C | 140 - 198 | 144 - 196 | 143 - 199  |   |\n\nCuring conditions: At 25°C and 55%RH for 7 days\n*1 25°C for 24 hrs\n*2 Boiling water for 0.5hr\n*3 95°C for 2 hrs (*1,2,3 Test pieces: 200 mm in diam. and 2 mm thick)\n*4 DMA E° peak top, frequency: 1 Hz\n*5 Frequency: 1 Hz\n\n## 5.2 Flame retardancy of cured adhesive\n\nTable 3 UL certificate of TB1537 Series\n\n|  Test item | Obtained certificate | Remarks:  |\n| --- | --- | --- |\n|  UL94 Vertical burning test | V-0 | UL File No, E148575  |\n\n* The series is listed as Three Bond 1537(#) by UL organizations. (#): A symbol from A to Z may be entered.\n* The series has been listed in QMFZ2 (US) and QMFZ8 (Canada).\n\n## 5.3 Electrical characteristics of cured adhesive\n\nTable 4 Electrical characteristics of TB1537 Series\n\n|  Test item |   | Unit | TB1537 | TB1537B | TB1537D | Test method  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 1.86 × 10^{10} | 2.30 × 10^{18} | 2.74 × 10^{18} | 3TS-401-01  |\n|  Surface resistivity |   | Ω | 6.41 × 10^{11} | 1.38 × 10^{11} | 5.72 × 10^{10} | 3TS-402-01  |\n|  Dielectric constant | 1kHz | - | 4.79 | 6.20 | 6.76 | 3TS-405-01  |\n|   |  1MHz |  | 4.21 | 5.45 | 5.73  |   |\n|  Dielectric loss tangent | 1kHz | - | 0.035 | 0.038 | 0.056  |   |\n|   |  1MHz |  | 0.029 | 0.029 | 0.133  |   |\n|  Dielectric breakdown strength |   | kV/mm | 25 | 24 | 26 | 3TS-406-02  |\n\n# 6. Bond strength\n\n## 6.1 Tensile shear bond strength\n\nTable 5 Tensile shear bond strength of TB1537 Series\nUnit: MPa\n\n|  Test item |   | TB1537 | TB1537B | TB1537D | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Metals | Aluminum | 4.3 | 4.3 | 4.3 | CF  |\n|   |  Iron (SPCC-SB) | 4.0 | 4.2 | 4.4 | CF  |\n|   |  Stainless steel (SUS) | 3.5 | 3.3 | 3.5 | CF  |\n|   |  Copper | 3.2 | 3.2 | 3.7 | CF  |\n|   |  Iron (SPCC-SD) | 4.8 | 4.6 | 4.7 | CF  |\n|   |  Magnesium | 3.6 | 3.7 | 3.7 | CF  |\n|   |  Zinc (Zn) | 4.0 | 4.2 | 4.2 | CF  |\n|   |  Brass | 4.3 | 4.5 | 4.4 | CF  |\n|   |  Zinc plating | 4.5 | 4.6 | 4.7 | CF  |\n|   |  Nickel plating | 4.0 | 3.9 | 3.8 | CF  |\n|   |  Acrylic | 1.7 | 1.6 | 1.8 | AF  |\n|  Plastics | PPO | 3.1 | 3.3 | 2.9 | CF  |\n|   |  ABS | 0.8 | 1.0 | 0.9 | AF  |\n|   |  Nylon 6 | 2.5 | 2.5 | 2.5 | CF  |\n|   |  Nylon 66 (1022B) | 1.6 | 2.1 | 1.8 | AF  |\n|   |  PC (polycarbonate) | 3.7 | 3.6 | 3.6 | CF  |\n|   |  Polystyrol | 1.1 | 1.1 | 1.0 | AF  |\n|   |  POM | 0.7 | 0.7 | 0.7 | AF  |\n|   |  Hard PVC | 3.0 | 2.8 | 2.6 | CF  |\n|   |  FRP (polyester) | 3.5 | 3.7 | 3.7 | AF  |\n|   |  PET (polyethylene terephthalate) | 1.2 | 1.1 | 1.2 | AF  |\n|   |  Phenol | 3.8 | 3.9 | 4.0 | CF  |\n|   |  PPS (polyphenylene sulfite) | 1.0 | 1.1 | 1.0 | AF  |\n|   |  PBT (polybutylene terephthalate) | 0.9 | 0.8 | 0.9 | AF  |\n|   |  HIPS (high-impact polystyrene) | 1.5 | 1.4 | 1.4 | AF  |\n|   |  Glass epoxy | 4.7 | 4.5 | 4.5 | CF  |\n|  Other | Lanan plywood | 4.1 | 4.2 | 4.2 | CF  |\n|   |  Japanese cypress | 4.6 | 4.8 | 4.6 | CF  |\n|   |  Glass | 4.3 | 3.5 | 3.6 | CF  |\n\nAF: Interface failure CF: Cohesion failure\nCuring conditions: At 25°C and 55%RH for 7 days\nTest method: 3TS-301-13, bonding of test pieces of each material, application to both surfaces\nOpen time (time after application to bonding): 5 min\n\n## 6.2 Peel strength\n\nTable 6 Peel strength of TB1537 Series\nUnit: kN/m\n\n|  Test item |   | TB1537 | TB1537B | TB1537D | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Aluminum |   | 1.00 | 1.40 | 1.20 | AF  |\n|  Canvas |   | 0.61 | 0.64 | 0.70 | AF  |\n|  Rubber materials | NBR | 0.10 | 0.11 | 0.09 | AF  |\n|   |  Chloroprene | 0.06 | 0.05 | 0.06 | AF  |\n|   |  SBR | 0.11 | 0.14 | 0.11 | AF  |\n|   |  NR | 0.13 | 0.12 | 0.12 | AF  |\n|   |  EPDM | 0.08 | 0.07 | 0.09 | AF  |\n|   |  Silicone | 0.13 | 0.13 | 0.12 | AF  |\n|   |  Soft PVC | 0.32 | 0.48 | 0.30 | CF  |\n\nAF: Interface failure CF: Cohesion failure\nCuring conditions: At 25°C and 55%RH for 7 days\nTest method: 3TS-304-23, bonding of test pieces of each material, application to both surfaces\nOpen time: 5 min\nNote: The test pieces used in the tests in 6.1 and 6.2 were surface-treated as shown below.\n\nTable -7 Surface treatment of test pieces\n\n|  Metals | Degreasing with methylene chloride  |\n| --- | --- |\n|  Plastics and rubber | Wiping with ethanol  |\n\nED20090402",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 83,
+          "bottom_right_x": 356,
+          "bottom_right_y": 251,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1537 Series\n\n![img-3.jpeg](img-3.jpeg)\n6.3 Tensile shear bond strength under heat\nFig. 4 Tensile shear bond strength of TB1537D under heat\n\nCuring conditions: At 25°C and 55%RH for 7 days\nTest method: 3TS-301-13, bonding of test pieces of each material, application to both surfaces\nOpen time: 5 min\n\n![img-4.jpeg](img-4.jpeg)\n6.4 Open time and tensile shear bond strength\nFig. 5 Dependence of tensile shear bond strength of TB1537D on open time and application condition (one or both surfaces)\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-301-13, bonding of test pieces of each material\n\n![img-5.jpeg](img-5.jpeg)\n6.5 Open time and peel strength\nFig. 6 Dependence of peel strength of TB1537D on open time and application condition (one or both surfaces)\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-304-23, bonding of aluminum test pieces\n\n![img-6.jpeg](img-6.jpeg)\n6.6 Curing time and peel strength\nFig. 7 Dependence of peel strength of TB1537D on curing time\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-304-23, bonding of aluminum test pieces, application to both surfaces\nOpen time: 5 min\n\n![img-7.jpeg](img-7.jpeg)\n6.7 Curing time and tensile shear bond strength\nFig. 8 Dependence of tensile shear bond strength of TB1537D on curing time\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-301-13, bonding of test pieces of each material, application to both surfaces\nOpen time: 5 min\n\n![img-8.jpeg](img-8.jpeg)\n7. Durability\n7.1 Heat cycle\nFig. 9 Dependence of bonding strength of TB1537D on number of heat cycles\n\nCuring conditions: At 25°C and 55%RH for 7 days\n1 cycle: (-40°C × 1h + 120°C × 1h)\n\nED20090402",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 83,
+          "bottom_right_x": 343,
+          "bottom_right_y": 235,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 353,
+          "bottom_right_x": 347,
+          "bottom_right_y": 505,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 625,
+          "bottom_right_x": 353,
+          "bottom_right_y": 792,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 377,
+          "top_left_y": 87,
+          "bottom_right_x": 644,
+          "bottom_right_y": 247,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 392,
+          "bottom_right_x": 649,
+          "bottom_right_y": 559,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-8.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 696,
+          "bottom_right_x": 649,
+          "bottom_right_y": 875,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1537 Series\n\nMeasuring conditions: 3TS-301-13 and 3TS-320-01, bonding of iron test pieces, application to both surfaces Open time: 5 min\n\n![img-9.jpeg](img-9.jpeg)\n7.2 Heat resistance\nFig. 10 Heat resistance of TB1537D (tensile shear bond strength, iron)\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-301-13, bonding of iron test pieces, application to both surfaces\nOpen time: 5 min\nConditions during measurement: 25°C and 55%RH\n\n![img-10.jpeg](img-10.jpeg)\nFig. 11 Heat resistance of TB1537D (tensile shear bond strength, aluminum)\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-301-13, bonding of aluminum test pieces, application to both surfaces\nOpen time: 5 min\nConditions during measurement: 25°C and 55%RH\n\n![img-11.jpeg](img-11.jpeg)\nFig. 12 Heat resistance of TB1537D (tensile strength)\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-320-01\n\n![img-12.jpeg](img-12.jpeg)\n7.3 Moisture resistance\nFig. 13 Tensile shear bond strength of TB1537D on various materials exposed to 85°C and 85%RH\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-301-13, bonding of test pieces of each material\nConditions during measurement: 25°C and 55%RH\n\n![img-13.jpeg](img-13.jpeg)\nFig. 14 Tensile strength and elongation of TB1537D under exposure to 85°C and 85% RH\n\nCuring conditions: At 25°C and 55%RH for 7 days\nMeasuring conditions: 3TS-320-01\nConditions during measurement: 25°C and 55%RH\n\n7.4 Chemical strength\nTable -8 Chemical strength of TB1537\n\n|   | Volume change (%) | Tensile strength (%) | Elongation (%) | Hardness  |\n| --- | --- | --- | --- | --- |\n|  KOH,10%aq. | -6.8 | 0.7 | 290 | A18  |\n|  H2SO4,10%aq. | -7.7 | 0.8 | 85 | A41  |\n\nTable -9 Chemical strength of TB1537B\n\n|   | Volume change (%) | Tensile strength (%) | Elongation (%) | Hardness  |\n| --- | --- | --- | --- | --- |\n|  KOH,10%aq. | -5.1 | 0.7 | 245 | A21  |\n|  H2SO4,10%aq. | -4.2 | 1.0 | 60 | A48  |\n\nTable -10 Chemical strength of TB1537D\n\n|   | Volume change (%) | Tensile strength (%) | Elongation (%) | Hardness  |\n| --- | --- | --- | --- | --- |\n|  KOH,10%aq. | -3.0 | 0.7 | 253 | A20  |\n|  H2SO4,10%aq. | -2.9 | 0.8 | 80 | A52  |\n\nCuring conditions in tests shown in Tables 8, 9 and 10: 25°C and 55%RH for 7 days\nMeasuring conditions in tests shown in Tables 8, 9 and 10: 3TS-620-01\nTest pieces used in tests shown in Tables 8, 9 and 10: No.3 dumbbells 2 mm thick\nImmersion temperature and time in tests shown in Tables 8, 9 and 10: 40°C, 1 week\n\nED20090402",
+      "images": [
+        {
+          "id": "img-9.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 147,
+          "bottom_right_x": 344,
+          "bottom_right_y": 312,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-10.jpeg",
+          "top_left_x": 75,
+          "top_left_y": 433,
+          "bottom_right_x": 353,
+          "bottom_right_y": 583,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-11.jpeg",
+          "top_left_x": 74,
+          "top_left_y": 696,
+          "bottom_right_x": 353,
+          "bottom_right_y": 857,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-12.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 84,
+          "bottom_right_x": 644,
+          "bottom_right_y": 244,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-13.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 350,
+          "bottom_right_x": 647,
+          "bottom_right_y": 526,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1537 Series\n\n# 8. Usage\n\n(1) Before applying the adhesive, cleanly remove moisture, oil, rust and other contaminants from the surfaces to be bonded.\n(2) Apply an appropriate quantity of the adhesive to the part to be bonded.\n(3) Secure the part so that it does not move until the adhesive cures.\n\n* Curing speed\n\nSince the adhesive cures through reaction with moisture in the air, the curing speed depends on the adhesive thickness and temperature and relative humidity during curing.\n\n# 9. Storage\n\nThe adhesive deteriorates when it is exposed to heat, moisture and UV light. After using it, fit the cap tightly, and store it in a dark dry place at -5 to 25°C avoiding direct sunlight.\n\n# 10. Disposal\n\nAfter the adhesive has all been used, ask an authorized disposal firm to dispose of the container as industrial waste.\n\n# 11. Applicable law\n\nFire Defense Law: Non-hazardous material\n\n# 12. Instructions for use\n\n- This product is harmful to the health. Do not inhale or drink it.\n- When using it, wear protectors.\n- Use and store the product out of reach of children.\n- If it gets in the eyes, wash them with clean water for more than 15 minutes, and get medical attention.\n- If it adheres to the skin, wipe it away with a cloth, and wash the skin with water or soap and water.\n- If any abnormality is found in the body, stop using the adhesive, and get medical attention.\n- It is a product for industrial use. Do not use it for household products.\n- Do not use it on the human body.\n- To prevent dew condensation, unseal the container after it returns to room temperature.\n- Before using it, sufficiently confirm whether the method and purpose of use are appropriate.\n- Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n- For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n# 13. Cautions\n\n## For industrial use\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of actual measurements obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose in advance and bear all responsibilities and hazards involved in its use. Never use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties and use of the relevant product are unknown, never use it.\n- For detailed information on safety of the product, see the material safety data sheet (MSDS). To obtain the MSDS, contact our sales department or customer service office.\n- Information in this document is subject to change at our discretion.\n\nED20090402",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 290544
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,26 @@
+id	maker	product	electronics	behavior	core_cov	decision_cov	electronics_cov	candidates	verified_absent	not_applicable	missing_core	missing_decision	missing_electronics	candidate_fields	text_path
+plexus-ma425	Plexus (ITW)	MA425	False		0	0.636	1.0	3	0	19		serviceMin,fixtureTime,thermalConductivity,stress		serviceMin,tensileStrengthPsi	data/tds-cache/plexus-ma425.txt
+plexus-ma832	Plexus (ITW)	MA832	False		0	0.636	1.0	3	0	17		serviceMin,fixtureTime,thermalConductivity,stress		serviceMin,tensileStrengthPsi	data/tds-cache/plexus-ma832.txt
+threebond-tb1217h	ThreeBond	TB1217H	False		0	0.636	1.0	3	0	13		serviceMin,serviceMax,potLife,thermalConductivity		chipBondStrengthRaw	data/tds-cache/threebond-tb1217h.txt
+threebond-tb7797	ThreeBond	TB7797	False		0	0.636	1.0	3	0	20		serviceMin,serviceMax,potLife,thermalConductivity		chipBondStrengthRaw,serviceMax,serviceMin	data/tds-cache/threebond-tb7797.txt
+3m-scotch-grip-847	3M	Scotch-Grip 847 Nitrile High Performance Rubber and Gasket Adhesive	False		0	0.636	1.0	2	0	16		serviceMin,serviceMax,fixtureTime,thermalConductivity		serviceMax,serviceMin	data/tds-cache/3m-scotch-grip-847.txt
+3m-scotch-weld-pur-2710p-black	3M	Scotch-Weld PUR Adhesive 2710P / 2710p / 7100200889	False		0	0.636	1.0	2	0	18		serviceMin,serviceMax,lapShear,thermalConductivity		serviceMax,serviceMin	data/tds-cache/3m-scotch-weld-pur-2710p-black.txt
+loctite-aa3492	Henkel Loctite	AA 3492	False		0	0.636	1.0	2	0	12		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax,serviceMin	data/tds-cache/loctite-aa3492.txt
+permabond-130uv	Permabond	130UV	False		0	0.636	1.0	2	0	14		potLife,lapShear,thermalConductivity,stress		lapShearRaw,potLife	data/tds-cache/permabond-130uv.txt
+permabond-135uv	Permabond	135UV	False		0	0.636	1.0	2	0	14		potLife,lapShear,thermalConductivity,stress		lapShearRaw,potLife	data/tds-cache/permabond-135uv.txt
+threebond-tb3017d	ThreeBond	TB3017D	False		0	0.636	1.0	2	0	14		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax,serviceMin	data/tds-cache/threebond-tb3017d.txt
+threebond-tb3017e	ThreeBond	TB3017E	False		0	0.636	1.0	2	0	14		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax,serviceMin	data/tds-cache/threebond-tb3017e.txt
+aremco-pyro-putty-653	Aremco	Pyro-Putty 653	False		0	0.636	1.0	1	0	17		serviceMin,potLife,lapShear,thermalConductivity		serviceMin	data/tds-cache/aremco-pyro-putty-653.txt
+bsi-quik-cure-5-minute-epoxy	Bob Smith Industries (BSI)	Quik-Cure 5 Minute Epoxy	False		0	0.636	1.0	1	0	19		serviceMin,serviceMax,lapShear,thermalConductivity		serviceMax	data/tds-cache/bsi-quik-cure-5-minute-epoxy.txt
+lord-fusor-112b	LORD / Parker	Fusor 112B	False		0	0.636	1.0	1	0	20		serviceMin,serviceMax,viscosityClass,thermalConductivity		serviceMax	data/tds-cache/lord-fusor-112b.txt
+permabond-es5748	Permabond	ES5748	False		0	0.636	1.0	1	0	15		serviceMax,potLife,fixtureTime,thermalConductivity		chipBondStrengthRaw	data/tds-cache/permabond-es5748.txt
+permabond-ms359-clear	Permabond	MS359 Clear	False		0	0.636	1.0	1	0	13		serviceMax,potLife,fixtureTime,thermalConductivity		chipBondStrengthRaw	data/tds-cache/permabond-ms359-clear.txt
+permabond-ms359-grey	Permabond	MS359 Grey	False		0	0.636	1.0	1	0	13		serviceMax,potLife,fixtureTime,thermalConductivity		chipBondStrengthRaw	data/tds-cache/permabond-ms359-grey.txt
+threebond-tb1372d	ThreeBond	TB1372D	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		chipBondStrengthRaw	data/tds-cache/threebond-tb1372d.txt
+threebond-tb7737	ThreeBond	TB7737	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		chipBondStrengthRaw	data/tds-cache/threebond-tb7737.txt
+threebond-tb7738	ThreeBond	TB7738	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		chipBondStrengthRaw	data/tds-cache/threebond-tb7738.txt
+titebond-ii-premium	Titebond	Titebond II Premium	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax	data/tds-cache/titebond-ii-premium.txt
+titebond-iii-ultimate	Titebond	Titebond III Ultimate	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax	data/tds-cache/titebond-iii-ultimate.txt
+titebond-original	Titebond	Titebond Original	False		0	0.636	1.0	1	0	18		serviceMin,serviceMax,potLife,thermalConductivity		serviceMax	data/tds-cache/titebond-original.txt
+3m-bondo-fiberglass-resin-0401	3M	Bondo Fiberglass Resin 0401 / 00401 / Liquid Resin for Fiberglass	False		0	0.636	1.0	0	0	19		serviceMin,serviceMax,lapShear,thermalConductivity			data/tds-cache/3m-bondo-fiberglass-resin-0401.txt
+3m-hot-melt-3797tc	3M	Scotch-Weld Hot Melt Adhesive 3797TC	False		0	0.636	1.0	0	0	18		serviceMin,serviceMax,potLife,thermalConductivity			data/tds-cache/3m-hot-melt-3797tc.txt

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "# 500°F ELECTRICALLY RESISTANT EPOXY\nCures at Room Temp. to Bond, Pot, Seal and Protect\n\n## 500°F - DURALCO™ 4525 &amp; 4525IP\n\nEasy to use. Just mix and apply.\n\nNo volatiles. No solvents. No out-gassing.\n\nDuralco™ 4525 cures at room temp. (or in 5 minutes at 250°F) to provide high bond strength, high temp. stability, low shrinkage, excellent chemical, electrical and radiation resistance and low moisture absorption.\n\nIt maintains its high electrical resistance over long periods of time and has the lowest moisture absorption available when compared to 23 commercially available epoxies. (This application has been approved by UL).\n\nDuralco™ 4525 is ideal for high performance bonding, potting, sealing, repairs, castings and jigs. Forms protective coatings. Commonly found in electronics, appliances, instrumentation, motors, equipment, etc.\n\n## Users Report:\n\n### High Resistance Even in High Humidity\n\nUsed to seal thermocouples, electric heaters and critical electronic components for use in high humidity environments. Tests show less than 10% of the moisture transmission of silicones or competitive epoxies.\n\n### Proven in Instrumentation Applications\n\nUsed for fabrication of end seals and installation of thermocouples, pressure, strain gauges and flow measuring instruments.\n\n### Excellent Corrosion Resistance\n\nUsed to repair glass lined tanks for use in 36% Hydrochloric, 29% Phosphoric, 65% Sulfuric and 70% Nitric Acids, 25% Caustic, 30% Chrome Oxide solutions. Competitive epoxies disintegrated in less than 24 hours.\n\n### Bonds Carbon to Steel and Remains in use for 5 years\n\nUsed to bond carbon blocks to steel for bearings in a rotating kiln at 300°F. Bonds brake pads.\n\n### Fast Cures\n\nIndependent tests have shown 95% cure in 15 minutes at 200°F and 100% cure in 5 minutes at 250°F, enabling high speed production applications.\n\n## Availability:\n\n|  Cat. No. | Description | Temp.  |\n| --- | --- | --- |\n|  Duralco 4525-1 | Pint Kit | 500°F  |\n|  Duralco 4525-2 | Gallon Kit | 500°F  |\n|  Duralco 4525IP-1 | Pint Kit | 500°F  |\n|  Duralco 4525IP-2 | Gallon Kit | 500°F  |\n\n## Pre-Measured Kits\n\n**Each Unit Contains:** 1 jar of resin, 1 syringe of hardener and 1\n\n- EE4525-10... 10 Epox-Eez 10gm units/box\n- EE4525-25... 10 Epox-Eez 25gm units/box\n- EE4525IP-10... 10 Epox-Eez 10gm units/box\n- EE4525IP-25... 10 Epox-Eez 25gm units/box\n\nAlso Available in Epox-Eez Twin Pack Cartridges\n\nQuantity Prices &amp; Custom Formulations\n\nAvailable on Request\n\n![img-0.jpeg](img-0.jpeg)\n4525 Bonds a 316 S.S. Shaft to a Ceramic Piston Repairing a High Temperature Acid Pump\n\n![img-1.jpeg](img-1.jpeg)\nDuralco™ 4525 Insulates, Seals and Moisture-Proofs a Hi-Temp Instrument\n\n![img-2.jpeg](img-2.jpeg)\nDuralco 4525™ Bonds a Hi-Temp. Brake Assembly\n\n|  Duralco™\nMaximum Temperature | 4525\n500°F | 4525IP\n500°F  |\n| --- | --- | --- |\n|  Components - Color | 2-Black | 2-Black  |\n|  Mixed Density (gms/cc) | 1.7 | 1.9  |\n|  Mixed Viscosity (cps) | 12,400 | 24,000  |\n|  Hardness (Shore D) | 90 | 90  |\n|  Tensile Strength (psi) | 10,000 | 10,000  |\n|  Thermal Cond. (BTU-in/Hr. F)²·F) | 13 | 13  |\n|  Thermal Expansion (10⁻⁶/°C) | 3.3 | 3.1  |\n|  Dielectric Strength (volts/mil.) | 450 | 425  |\n|  Volume Resistivity (ohm-cm) | 10¹⁵ | 10¹⁵  |\n|  Heat Distortion (°C) | 210 | 213  |\n|  Elongation (%) | 2 | 2  |\n|  Thermal Stability (% 1000 hr @ 200°C) | 0.05 | 0.05  |\n|  Shrinkage (% max.) | 0.2 | 0.2  |\n|  Moisture Absorption (% 30 days) | 0.1 | 0.2  |\n|  Mix Ratio (R/H) | 100:8 | 100:8-12  |\n|  Cure (Hr. @ R.T.) | 16-24* | 16-24*  |\n|  Optimum properties post cure hrs. @ 250°F | 1 | 1  |\n|  and hrs. @ 350°F | 1 | 1  |\n\n* Cures can be accelerated with mild heat.\n\nwww.cotronics.com | Phone: 718-788-5533 | Facsimile: 718-788-5538\n\nCOTRONICS CORP. | 5",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 464,
+          "top_left_y": 99,
+          "bottom_right_x": 739,
+          "bottom_right_y": 255,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 464,
+          "top_left_y": 287,
+          "bottom_right_x": 739,
+          "bottom_right_y": 442,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 464,
+          "top_left_y": 473,
+          "bottom_right_x": 739,
+          "bottom_right_y": 629,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 94,
+        "height": 1023,
+        "width": 799
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 847344
+  },
+  "document_annotation": null
+}

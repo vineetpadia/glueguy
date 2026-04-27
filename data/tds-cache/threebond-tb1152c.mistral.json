@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1152C\n\nThreeBond\n\nDec. 4, 2009\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\nThreeBond 1152C\n\nOne-part heat-curing olefin-based sealant\n\n## 1. Outline\n\nThreeBond 1152C is a one-part heat-curing olefin-based sealant developed for the purpose of gas sealing of fuel batteries. It is flexible and excels in gas barrier property and chemical resistance.\n\nIt is suitable particularly for use as FIPG (Formed In Place Gasket).\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) Heat-curing olefin-based resin having excellent gas barrier property and low moisture permeability. Its hydrogen gas barrier property is approx. 20 times higher than that of general silicone-based sealants, and its moisture permeability is approx. 1/100 of that of the said sealants.\n\n(2) Excellent resistance to moisture, acids, coolants and methanol\n\n## 3. Uses\n\n(1) Usable for gas sealing of fuel batteries\n\n(2) Usable for sealing from water, coolants and methanol\n\n## 4. Properties\n\nTable 1 Properties of TB1152C\n\n|   | Item | Unit | Results | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Properties | Appearance | - | Milky white | 3TS-201-02 | -  |\n|   |  Viscosity | Pa·s | 650 | 3TS-210-10 | 25°C, Shear rate 1.0 (1/s)  |\n|   |  Specific gravity | - | 0.97 | 3TS-213-02 | 25°C  |\n\nAD2009078",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1152C\n\n# 5. Characteristics of cured sealant\n\n## 5.1 Characteristics of cured sealant\n\nTable 2 Characteristics of TB1152C after curing\n\n|   | Item | Unit | Results | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Characteristics | Hardness | - | A30 | 3TS-215-01 | -  |\n|   |  Tensile strength | MPa | 2.6 | 3TS-320-01 | -  |\n|   |  Elongation | % | 280 | 3TS-320-01 | -  |\n|   |  H_{2} gas permeability constant | Mol·m/m^{2}·s·Pa | 7.6×10^{-15} | JIS K 7126 | -  |\n|   |  Moisture permeability (1 mm thick) | g/m^{2}·24h | 5.56 | JIS Z 0208 (Dish Method) | (40°C,95%RH) for 24hrs  |\n|   |  Glass transition point | °C | -77 | 3TS-501-04 | DMA method, 1 Hz, E\" peak  |\n|   |  Linear expansion coefficient | /°C | 202×10^{-6} | 3TS-501-05 | 0°C -100°C  |\n\n* The sealant was cured in a hot-air drying oven at 100°C for 90 minutes.\n\n## 5.2 Electrical characteristics of cured resin\n\nTable-3 Electrical characteristics of TB1152C after curing\n\n|  Item |   | Unit | Results | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 4.3×10^{12} | 3TS-401-01 | *  |\n|  Surface resistivity |   | Ω | 4.0×10^{14} | 3TS-402-01 | *  |\n|  Dielectric constant | 1 KHz | - | 2.7 | 3TS-405-01 | *  |\n|   |  1 MHz | - | 2.7 | 3TS-405-01 | *  |\n|  Dielectric loss tangent | 1 KHz | - | 0.004 | 3TS-405-01 | *  |\n|   |  1 MHz | - | 0.004 | 3TS-405-01 | *  |\n|  Dielectric breakdown strength |   | kV/mm | 9 | 3TS-406-02 | *  |\n\n* Curing conditions: Test pieces for measurement of electrical characteristics, hot-air drying oven at 100°C for 90 minutes\n\nAD2009078",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1152C\n\n# 6. Durability\n\nTable 4 Durability of TB1152C\n\n|   | Item | Unit | Results | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Durability characteristics | Moisture resistance  |   |   |   |   |\n|   |  Hardness | - | A32 | 3TS-215-01 | Exposure conditions: (85°C,85%RH) for 500hrs  |\n|   |  Tensile strength | MPa | 3.0 | 3TS-320-01  |   |\n|   |  Elongation | % | 340 | 3TS-320-01  |   |\n|   |  Acid resistance  |   |   |   |   |\n|   |  Hardness | - | A34 | 3TS-215-01 | Immersion conditions; pH=1, aqueous solution of H₂SO₄ 100°C for 500 hrs  |\n|   |  Tensile strength | MPa | 3.0 | 3TS-320-01  |   |\n|   |  Elongation | % | 285 | 3TS-320-01  |   |\n|   |  Coolant resistance  |   |   |   |   |\n|   |  Hardness | - | A33 | 3TS-215-01 | Immersion conditions; 50% aqueous solution of ethylene glycol 100°C for 500 hrs  |\n|   |  Tensile strength | MPa | 2.6 | 3TS-320-01  |   |\n|   |  Elongation | % | 295 | 3TS-320-01  |   |\n|   |  Methanol resistance  |   |   |   |   |\n|   |  Hardness | - | A31 | 3TS-215-01 | Immersion conditions; 50% aqueous solution of methanol 50°C for 500 hrs  |\n|   |  Tensile strength | MPa | 2.6 | 3TS-320-01  |   |\n|   |  Elongation | % | 325 | 3TS-320-01  |   |\n\n*The sealant was cured in a hot-air drying oven at 100°C for 90 minutes.\n\n# 7. Usage\n\n(1) Application\nFor application, use a cartridge gun or an automatic applicator.\n\n(2) Curing\nAfter applying the sealant, heat cure it using a hot-air drying oven.\nDetermine the heating conditions in consideration of the heat capacity of the coated part and the heating method.\n(Standard drying conditions: 100°C for 30 min)\n\n# 8. Instructions for use\n\n(1) The sealant is harmful to the health. Do not touch it directly or inhale its vapor.\n(2) Persons who have allergies or sensitive skin should avoid using it.\n(3) The product is flammable. Do not use it near fire.\n(4) Use and store it out of reach of children.\n(5) If it gets in the eyes, wash them with clean water for 15 minutes or more, and get medical attention.\n(6) Do not use it for any purpose other than industrial uses.\n(7) To prevent condensation, unseal the container after it reaches room temperature.\n(8) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n\nAD2009078",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1152C\n\n(9) Some materials may deteriorate if this product is used. Ascertain in advance whether or not it affects the parts to be sealed with it. If any problem occurs, do not use it.\n(10) Do not dilute or mix the sealant with organic solvents or any other substance.\n(11) Do not pour the product into other containers. Do not return the product left unused to its container. Doing so can deteriorate its quality.\n(12) Note that curing failure may be caused if the sealant is brought into contact or mixed with substances, such as water, sulfur, phosphorus, nitrogen compounds and organic metal salt, which may become catalytic poisons.\n(13) For hazard and toxicity information not mentioned in this document, see the material safety data sheet (MSDS).\n\n## 9. Storage\n\nBefore and after using the product, store it with the cap tightly fitted in a dry refrigerator (-5 to 10°C) avoiding direct sunlight.\n\n## 10. Disposal\n\nWhen burnt, it may generate toxic gas. Do not burn it.\n\nAsk an authorized industrial waste disposal firm to dispose of the product as industrial waste.\n\n## 11. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nAD2009078",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 152596
+  },
+  "document_annotation": null
+}

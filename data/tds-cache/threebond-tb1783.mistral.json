@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1783 CYANOACRYLATE ADHESIVE\n\n## Information\nTB1783 is an ethyl, high viscosity, and high impact resistant cyanoacrylate adhesive. It bonds well at high temperatures.\n\n## Application\nTB1783 can be used for bonding speaker frames and magnets, coil terminals, insulators, plastics, and metals parts.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent liquid  |\n|  Viscosity | mPa • s (cP) | 800(800)  |\n|  Specific gravity | - | 1.05  |\n|  Set time Steel/Steel | Second | 10  |\n|  Set time NBR/NBR |   | 5  |\n\nRev: 0.1\nIssued Date: 4/28/03\nDocument Control Number: 3-TB-20-0536",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2 of 2\n\n# 2. Cured Material\n\n## 2-1. Lap shear strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa(kgf/cm²) | 25.0 (255)  |\n|  Aluminum/Aluminum |   | 18.0 (184)  |\n|  Stainless Steel/ Stainless Steel |   | 17.6 (179)  |\n|  Copper/Copper |   | 12.9 (132)  |\n|  Brass/Brass |   | 16.1 (164)  |\n|  Hard PVC/ Hard PVC |   | MF  |\n|  PVC/PVC |   | MF  |\n|  Phenol Resin/Phenol Resin |   | MF  |\n|  Nylon 6/Nylon 6 |   | 5.0 (51)  |\n|  ABS/ABS |   | MF  |\n|  Glass Epoxy/Glass Epoxy |   | 12.1 (123)  |\n|  PBT/PBT |   | 1.8 (18)  |\n|  PPO/PPO |   | 5.9 (60)  |\n|  PPS/PPS |   | 3.4 (34)  |\n|  HIPS/HIPS |   | MF  |\n|  Acryl/Acryl |   | MF  |\n|  Polyacetal/Polyacetal |   | 1.7 (17)  |\n|  Polystylene/Polystylene |   | MF  |\n\nMF - Material failure\n\n## 2-2. Impact strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | kJ/m² (kgf cm/cm²) | 11 (11)  |\n\n# 3. Military Specification\n\nMIL-A- 46050C, Type II, Class 3\n\nThese are typical results not product specifications.\n\nRev: 0.1\n\nIssued Date: 4/28/03\n\nDocument Control Number: 3-TB-20-0536",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 89517
+  },
+  "document_annotation": null
+}

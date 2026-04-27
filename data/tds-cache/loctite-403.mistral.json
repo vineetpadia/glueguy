@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "LOCTITE\n\nTechnical Data Sheet\n\n# LOCTITE® 403™\n\n(TDS for new formulation of Loctite® 403™) August 2012\n\n## PRODUCT DESCRIPTION\n\nLOCTITE® 403™ provides the following product characteristics:\n\n|  Technology | Cyanoacrylate  |\n| --- | --- |\n|  Chemical Type | Alkoxyethyl cyanoacrylate  |\n|  Appearance (uncured) | Transparent, colorless to pale yellow liquid^{LMS}  |\n|  Components | One part - requires no mixing  |\n|  Viscosity | High  |\n|  Cure | Humidity  |\n|  Application | Bonding  |\n|  Key Substrates | Metals, Plastics and Elastomers  |\n\nThis Technical Data Sheet is valid for LOCTITE® 403™ manufactured from the dates outlined in the \"Manufacturing Date Reference\" section.\n\nLOCTITE® 403™ has low odor and low blooming properties and is particularly suitable for applications where vapor control is difficult. The product provides rapid bonding of a wide range of materials, including metals, plastics and elastomers. LOCTITE® 403™ is particularly suited for bonding porous or absorbent materials such as wood, paper, leather and fabric.\n\n## TYPICAL PROPERTIES OF UNCURED MATERIAL\n\nSpecific Gravity @ 25 °C 1.1\n\nViscosity, Cone &amp; Plate, mPa·s (cP):\n\nTemperature: 25 °C, Shear Rate: 100 s⁻¹ 900 to 1,500\n\nViscosity, Brookfield - LVF, 25 °C, mPa·s (cP):\n\nSpindle 2, speed 12 rpm 1,100 to 1,650\n\nFlash Point - See SDS\n\nRubber, nitrile 5 to 10\n\nABS 5 to 10\n\nPVC 45 to 75\n\nPolycarbonate 10 to 20\n\nPhenolic 5 to 10\n\nLeather 10 to 20\n\nWood (pine) 20 to 30\n\nPaper &lt;5\n\n## Cure Speed vs. Bond Gap\n\nThe rate of cure will depend on the bondline gap. Thin bond lines result in high cure speeds, increasing the bond gap will decrease the rate of cure.\n\n## Cure Speed vs. Humidity\n\nThe rate of cure will depend on the ambient relative humidity. The best results are achieved when the relative humidity in the working environment is 40% to 60% at 22°C. Lower humidity leads to slower cure. Higher humidity accelerates it, but may impair the final strength of the bond.\n\n## Cure Speed vs. Activator\n\nWhere cure speed is unacceptably long due to large gaps, applying activator to the surface will improve cure speed. However, this can reduce ultimate strength of the bond and therefore testing is recommended to confirm effect.\n\n## TYPICAL PERFORMANCE OF CURED MATERIAL\n\n### Adhesive Properties\n\nCured for 10 seconds @ 22°C\n\nTensile Strength, ISO 6922:\n\nBuna-N\n\nN/mm² ≥4.5 (psi) (≥652)\n\nCured for 24 hours @ 22°C\n\nTensile Strength, ISO 6922:\n\nSteel pin to steel pin\n\nN/mm² 30 (psi) (4,340)\n\nCured for 72 hours @ 22°C\n\nShear Strength\n\n## TYPICAL CURING PERFORMANCE\n\nUnder normal conditions, the atmospheric moisture initiates the curing process. Although full functional strength is developed in a relatively short time, curing continues for at least 24 hours before full chemical/solvent resistance is developed.\n\n## Cure Speed vs. Substrate\n\nThe rate of cure will depend on the substrate used. The table below shows the fixture time achieved on different materials at 22 °C / 50 % relative humidity. This is defined as the time to develop a shear strength of 0.1 N/mm².\n\nFixture Time, seconds:\n\nSteel 20 to 45\n\nAluminum 5 to 20\n\nZinc dichromate 30 to 60\n\nNeoprene 20 to 40\n\nHenkel\n\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [],
+      "dimensions": {
+        "dpi": 90,
+        "height": 1014,
+        "width": 707
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TDS LOCTITE® 403™, August 2012\n\nLap Shear Strength :\nSteel (grit blasted)\nN/mm² 20.3\n(psi) (2,940)\nAluminum (etched)\nN/mm² 14.1\n(psi) (2,050)\nZinc dichromate\nN/mm² 2.2\n(psi) (320)\nABS\nN/mm² 8.6\n(psi) (1,250)\nPVC\nN/mm² 2.7\n(psi) (400)\nPhenolic\nN/mm² 1.3\n(psi) (195)\nPolycarbonate\nN/mm² 6\n(psi) (870)\nNitrile\n* N/mm² 0.5\n* (psi) (75)\nNeoprene\n* N/mm² 0.7\n* (psi) (100)\n\n* substrate failure\n\nBlock Shear Strength, ISO 13445:\nPolycarbonate\nN/mm² 16.1\n(psi) (2,340)\nPVC\nN/mm² 2.2\n(psi) (320)\n\n# TYPICAL ENVIRONMENTAL RESISTANCE\n\nCured for 1 week @ 22°C\n\nLap Shear Strength :\nSteel (grit blasted):\n\nHot Strength\nTested at temperature\n![img-0.jpeg](img-0.jpeg)\n\nHeat Aging\nAged at temperature indicated and tested @ 22 °C\n![img-1.jpeg](img-1.jpeg)\n\nChemical/Solvent Resistance\nAged under conditions indicated and tested @ °C\n% of initial strength\n|  Environment | °C | 100 h | 500 h | 1000 h  |\n| --- | --- | --- | --- | --- |\n|  Motor oil | 40 | 105 | 50 | 105  |\n|  Unleaded gasoline | 22 | 115 | 90 | 85  |\n|  Ethanol | 22 | 105 | 105 | 100  |\n|  Isopropanol | 22 | 110 | 110 | 125  |\n|  Water | 22 | 90 | 45 | 50  |\n|  98% RH | 40 | 60 | 45 | 75  |\n|  Water/glycol | 22 | 100 | 90 | 95  |\n\nLap Shear Strength :\nPolycarbonate\n% of initial strength\n|  Environment | °C | 100 h | 500 h | 1000 h  |\n| --- | --- | --- | --- | --- |\n|  Air | 22 | 85 | 130 | 155  |\n|  98% RH | 40 | 75 | 75 | 75  |\n\n# GENERAL INFORMATION\n\nThis product is not recommended for use in pure oxygen and/or oxygen rich systems and should not be selected as a sealant for chlorine or other strong oxidizing materials.\n\nFor safe handling information on this product, consult the Safety Data Sheet (SDS).\n\n# Directions for use\n\n1. Bond areas should be clean and free from grease. Clean all surfaces with a Loctite® cleaning solvent and allow to dry.\n2. To improve bonding on low energy plastic surfaces, Loctite® Primer may be applied to the bond area. Avoid applying excess Primer. Allow the Primer to dry.\n3. LOCTITE® Activator may be used if necessary. Apply it to one bond surface (do not apply activator to the primed surface where Primer is also used). Allow the Activator to dry.\n4. Apply adhesive to one of the bond surfaces (do not apply the adhesive to the activated surface). Do not use items like tissue or a brush to spread the adhesive. Assemble the parts within a few seconds. The parts should be accurately located, as the short fixture time leaves little\n\nHenkel\n\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 24,
+          "top_left_y": 577,
+          "bottom_right_x": 340,
+          "bottom_right_y": 759,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 364,
+          "top_left_y": 59,
+          "bottom_right_x": 680,
+          "bottom_right_y": 240,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 90,
+        "height": 1014,
+        "width": 707
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TDS LOCTITE® 403™, August 2012\n\nopportunity for adjustment.\n\n5. LOCTITE® Activator can be used to cure fillets of product outside the bond area. Spray or drop the activator on the excess product.\n6. Bonds should be held fixed or clamped until adhesive has fixtured.\n7. Product should be allowed to develop full strength before subjecting to any service loads (typically 24 to 72 hours after assembly, depending on bond gap, materials and ambient conditions).\n\n## Loctite Material Specification$^{LMS}$\n\nLMS dated December 22, 2011. Test reports for each batch are available for the indicated properties. LMS test reports include selected QC test parameters considered appropriate to specifications for customer use. Additionally, comprehensive controls are in place to assure product quality and consistency. Special customer specification requirements may be coordinated through Henkel Quality.\n\n## Storage\n\nStore product in the unopened container in a dry location. Storage information may be indicated on the product container labeling.\n\n**Optimal Storage: 2 °C to 8 °C. Storage below 2 °C or greater than 8 °C can adversely affect product properties.**\n\nMaterial removed from containers may be contaminated during use. Do not return product to the original container. Henkel Corporation cannot assume responsibility for product which has been contaminated or stored under conditions other than those previously indicated. If additional information is required, please contact your local Henkel representative.\n\n## Conversions\n\n$(^{\\circ}\\mathrm{C}\\times 1.8) + 32 = ^{\\circ}\\mathrm{F}$\n\nkV/mm x 25.4 = V/mil\n\nmm / 25.4 = inches\n\n$\\mu \\mathrm{m} / 25.4 = \\mathrm{mil}$\n\nN x 0.225 = lb\n\nN/mm x 5.71 = lb/in\n\nN/mm² x 145 = psi\n\nMPa x 145 = psi\n\nN·m x 8.851 = lb·in\n\nN·m x 0.738 = lb·ft\n\nN·mm x 0.142 = oz·in\n\nmPa·s = cP\n\n## Manufacturing Date Reference\n\nThis Technical Data Sheet is valid for LOCTITE® 403™ manufactured from the dates below:\n\n|  Made in: | First manufacturing date:  |\n| --- | --- |\n|  EU | Pending  |\n|  China | April 2012  |\n|  U.S.A. | February 2012  |\n\n## Disclaimer\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. The product can have a variety of different applications as well as differing application and working conditions in your environment that are beyond our control. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product. Any liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Belgium NV, Henkel Electronic Materials NV, Henkel Nederland BV, Henkel Technologies France SAS and Henkel France SA please additionally note the following:\n\nIn case Henkel would be nevertheless held liable, on whatever legal ground, Henkel's liability will in no event exceed the amount of the concerned delivery.\n\nIn case products are delivered by Henkel Colombiana, S.A.S. the following disclaimer is applicable:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product.\n\nAny liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Corporation, or Henkel Canada Corporation, the following disclaimer is applicable:\n\nThe data contained herein are furnished for information only and are believed to be reliable. We cannot assume responsibility for the results obtained by others over whose methods we have no control. It is the user's responsibility to determine suitability for the user's purpose of any production methods mentioned herein and to adopt such precautions as may be advisable for the protection of property and of persons against any hazards that may be involved in the handling and use thereof. In light of the foregoing, Henkel Corporation specifically disclaims all warranties expressed or implied, including warranties of merchantability or fitness for a particular purpose, arising from sale or use of Henkel Corporation's products. Henkel Corporation specifically disclaims any liability for consequential or incidental damages of any kind, including lost profits. The discussion herein of various processes or compositions is not to be interpreted as representation that they are free from domination of patents owned by others or as a license under any Henkel Corporation patents that may cover such processes or compositions. We recommend that each prospective user test his proposed application before repetitive use, using this data as a guide. This product may be covered by one or more United States or foreign patents or patent applications.\n\n## Trademark usage\n\nExcept as otherwise noted, all trademarks in this document are trademarks of Henkel Corporation in the U.S. and elsewhere. © denotes a trademark registered in the U.S. Patent and Trademark Office.\n\nReference 2.6\n\nHenkel\n\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [],
+      "dimensions": {
+        "dpi": 90,
+        "height": 1014,
+        "width": 707
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 96052
+  },
+  "document_annotation": null
+}

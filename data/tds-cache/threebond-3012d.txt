@@ -1,0 +1,71 @@
+<!-- page: 0 -->
+
+ThreeBond
+
+# Three Bond International, Inc.
+Technical Data Sheet
+
+# TB 3012D – UV CURABLE ADHESIVE
+
+## Information
+
+TB 3012D is a flexible, medium viscosity UV curable adhesive. Although the major cure mechanism is by UV, it has been designed to employ a secondary thermal cure mechanism for deeper and shadow curing applications. This material is designed for potting and encapsulating applications requiring flexibility and heat resistance.
+
+## Typical Properties
+
+### 1. Uncured State
+
+|  Properties | TB-TS | Value | Units  |
+| --- | --- | --- | --- |
+|  Appearance | - | Blue Liquid | -  |
+|  Viscosity | 210-04 | 9600 | cP  |
+|  Specific gravity | 213-02 | 1.1 | -  |
+
+### 2. Cured Material
+
+|  Properties | TB-TS | Value | Units  |
+| --- | --- | --- | --- |
+|  Standard Curing Condition
+(Fusion “D” bulb, Doped Mercury) | 533-01 | 3000 | mJ/cm²  |
+|  Curing Thickness (UV)
+(UV + 10 min @ 150°C) | 222-01
+mod 222-01 | 1.05
+> 5 | mm
+mm  |
+|  Hardness | 215-01 | 45 | Shore A  |
+|  Lap-shear Strength | Steel/Glass | >7.0
+Glass failure | MPa  |
+
+Rev: 0.0
+Issued Date: 05/20/2011
+Document Control Number: 3-TB-20-1252
+
+---
+
+<!-- page: 1 -->
+
+Page 2 of 2
+
+# General Use Application Instructions for Adhesive
+
+A) Clean the surface of parts to be bonded. This surface should be free of water, oil and other contaminates.
+B) Apply the specific amount of sealant for the application without air bubble.
+C) Please use appropriate worker safety equipment to shield against stray UV light damage to skin or eyes.
+
+# Application Notes
+
+1) If resin is to be stored in separate container, store in a clean container made of opaque, UV blocking polyethylene or polypropylene plastic (metal or glass containers are not recommended). Transfer work should be carried out in shaded, non-direct light exposure areas, with UV filtered, light if possible. Once resin is transferred to another container, the transferred material should not be returned to the original container. Keep storage container closed when not in use.
+2) The resin can start the polymerization process when exposed to UV radiation in wavelength UV-A/B region of the spectrum. Typically, an UV source using a high pressure mercury or mercury metal halide bulb will produce a suitable UV spectrum for good UV curing. The power output for a suitable UV cure unit should be adequate to effect UV curing in a reasonable time frame (usually &lt;10 seconds). The radiated power of the UV source should be of the order 500-1,000 mW/cm² for the UV-A/B region. Curing speed results can be dependent on the spatial arrangement of the part and the UV source. UV power intensity (i.e. mW/cm²) and UV dose (i.e. mJ/cm²) measurements vary greatly depending on the distance between part and UV source. Please use UV radiometer to check UV dose for all cure conditions. TB 3012D will respond correctly when exposed to the prescribed UV dose range listed for this product. Please refer to UV dose information listed on the front page of this Technical Data Sheet for this product.
+3) This product will also start polymerizing when exposed to temperatures above 60°C. The higher the temperature of exposure the faster the polymerization reaction. The product will respond correctly when exposed for the stated time and temperature.
+
+# Storing Instruction.
+
+Resin should be stored, sealed lid closed in the original container at room temperature conditions. Do NOT freeze samples. Samples will be very stable if the above listed storage conditions are followed.
+
+# Disclaimer
+
+Information included in this technical data sheet are typical results when the UV sealant is used according to its use instructions. Product properties should be confirmed in lab and from actual trial run results.
+
+Rev: 0.0
+Issued Date: 05/20/2011
+Document Control Number: 3-TB-20-1252

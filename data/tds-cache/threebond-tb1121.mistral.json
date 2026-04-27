@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1121 – LIQUID GASKET\n\n## Information\n\nTB1121 is a non-solvent, non-dry, gray liquid gasket, which is developed for sealing of machine joints.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Gray Paste  |\n|  Viscosity | Pa·s (P) | 300 (3000)  |\n|  Specific gravity | - | 1.45  |\n|  Heating Residue | % | 100  |\n\n### 2. Cured Material\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Pressure Resistance | 25°C | MPa (kgf/cm²) | 9.0 (90)  |\n|   |  80°C |   | 7.0 (70)  |\n|   |  150°C |   | 6.5 (65)  |\n|  Oil Resistance | Water (95°C) | % | -5.5  |\n|   |  Gasoline (45-50°C) |   | -4.4  |\n|   |  Engine oil (100°C) |   | +1.7  |\n|   |  Gear oil (100°C) |   | -1.4  |\n|  Serviceable Temperature |   | °C | -40 ~ 130  |\n\nThese are typical results and not specifications\n\nRev: 0.0\nIssued Date: 10/4/02\nDocument Control Number: 3-TB-20-01003",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 25584
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB2706 – MACHINE PARTS DEGREASING CLEANER\n\n## Information\nTB2706 is an aerosol-type powerful degreasing cleaner which quickly and easily removes build up of rust-preventive oil and grease by gas pressure and a chemical cleaner. Moreover, it has no corrosiveness on metals.\n\n## Application\nUsed for degreasing cleaning of machine parts.\n\n## Typical Properties\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent  |\n|  Non-Volatile | % | 0  |\n|  Drying Time | Second | 30  |\n|  Specific gravity | - | 0.67  |\n\nThese are typical properties and not product specification\n\nRev: 0.0\nIssued Date: 11/2/01\nDocument Control Number: 3-TB-20-0868",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 23323
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB17N-065 CYANOACRYLATE ADHESIVE\n\n## Information\n\nTB17N-065 is a low viscosity, fast curing, single component cyanoacrylate adhesive. It cures rapidly at room temperature and demonstrates excellent adhesive efficiency. TB17N-021 can be used mostly for bonding metals, plastics and rubbers.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Pink transparent  |\n|  Viscosity | mPa • s (cP) | 45 (45)  |\n|  Specific gravity | - | 1.05  |\n|  Set time Steel/Steel | Second | 8  |\n|  Set time NBR/NBR |   | 5  |\n|  Set time EPDM/EPDM |   | 7  |\n|  Set time EPDM/Soft PVC |   | 8  |\n|  Set time ABS/ABS |   | 5  |\n|  Set time Balsa wood/Balsa wood |   | 10  |\n\n### 2. Lap Shear Strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa(kgf/cm²) | 16.1(165)  |\n|  NBR/NBR |   | MF  |\n|  EPDM/EPDM |   | MF  |\n|  EPDM/Soft PVC |   | MF  |\n|  ABS/ABS |   | MF  |\n|  Balsa wood/Balsa wood |   | MF  |\n\nMF - Material failure\n\nThese are typical results not product specifications.\n\nRev: 0.0\n\nIssued Date: 6/6/06\n\nDocument Control Number: 3-TB-20-1181",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 93919
+  },
+  "document_annotation": null
+}

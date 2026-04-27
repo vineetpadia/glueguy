@@ -1,0 +1,155 @@
+                                                                                                                                              PERMABOND® ET5401
+                                                                                                                                                   Two-Part Epoxy
+                                                                                                                                                                 Technical Datasheet
+
+Features & Benefits
+             Adhesion to a wide variety of substrates                                                   Typical Performance of Cured Adhesive
+             Full cure at room temperature                                                             Shear strength (grit blasted
+                                                                                                       mild steel)* ISO 4587 Cured                        10-15 N/mm² (1450-2200 psi)
+             Easy to apply                                                                             25°C for 7 days
+             High shear and peel strength                                                                                                                 Mild steel 20-30 N/mm²
+             Good impact strength                                                                                                                                   (2900-4400 psi)
+                                                                                                                                                          Aluminium 20-25 N/mm²
+             High temperature resistance                                                                                                                            (2900-3600 psi)
+             Non-drip rheology                                                                         Shear strength ISO 4587                            FRP Glass Polyester: 6-8 N/mm²
+                                                                                                       Cured 80°C for 1 hour                                        (900-1200psi)
+Description                                                                                                                                               FRP Glass Epoxy: 19-23 N/mm²
+                                                                                                                                                                    (2800-3300psi)
+PERMABOND® ET5401 is a two-part, 2:1 mixable, semi-                                                                                                       Carbon Fibre: 22-24 N/mm²
+flexible toughened no slump epoxy adhesive with good                                                                                                                (3200-3500psi)
+adhesion to a variety of substrates such as wood, metal,                                               Peel Strength (aluminium)*
+                                                                                                                                                          140-160 N/25mm (31-35 PIW)
+ceramics and some plastics and composites. Permabond                                                   Cured 80°C for 1 hour
+ET5401 forms tough bonds providing high peel resistance                                                Peel Strength (aluminium)*
+                                                                                                                                                          250-300 N/25mm (55-66 PIW)
+                                                                                                       Cured 200°C for 15 mins
+and high shear strength coupled with excellent resistance
+                                                                                                                                                          65-75 Shore D (cured at 25°C)
+to high temperatures.
+                                                                                                       Hardness (ISO868)                                  75-85 Shore D (cured for 1hr at
+ET5401 performance is enhanced by curing at high                                                                                                          80°C)
+temperature or being exposed to high temperature (such
+as during paint-stoving).                                                                              Elongation at break (ISO37)                        4-8%
+                                                                                                       Glass transition temperature                       Heat cured: 110°C (230°F)
+                                                                                                       Tg                                                 Room temp. cure: 50°C (122°F)
+Physical Properties of Uncured Adhesive
+                                                                                                       Dielectric strength                                15-25 kV/ mm
+                          ET5401A                           ET5401B
+                                                                                                        *Strength results will vary depending on the level of surface
+  Chemical                                                  Polyamine                                   preparation and gap.
+                          Epoxy Resin
+  composition                                               Hardener
+  Appearance              White                             Black
+                          20rpm: 60,000-                    20rpm: 50,000-                                             Strength Development
+  Viscosity @             120,000 mPa.s (cP)                100,000 mPa.s (cP)
+  25°C                    2.5rpm: 250,000-                  2.5rpm: 150,000-                                                  100
+                          450,000 mPa.s (cP)                250,000 mPa.s (cP)
+                                                                                                                              80
+                                                                                                            % Full Strength
+
+
+
+
+  Specific
+                          1.2                               1.1
+  gravity                                                                                                                     60
+
+Typical Curing Properties                                                                                                     40
+
+  Mix ratio by volume                                         2:1
+                                                                                                                              20
+
+  Maximum gap fill                                            5 mm 0.2 in
+                                                                                                                               0
+                                                                                                                                     0    1      2    4      8     16 24 48 72
+  Usable / pot life @23°C                                     10-12 mins                                                                                  Hours
+  Handling time @23°C (to 1 N/mm²)                            60-90 mins                                                                  15°C            23°C           31°C
+                                                                                                        Graph shows typical strength development of bonded
+  Working strength @23°C                                      24-48 hours                               components. An increase of 8°C in temperature will halve the
+                                                                                                        cure time. Lower temperatures will result in a slower cure time.
+  Full cure @23°C                                             4-7 days
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond ET5401                                                                  Global TDS Revision 11                            8 November 2016                              Page 1/2
+                                       FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+                                                                                                        Surface Preparation
+                                                                                                        Surfaces should be clean, dry and grease-free before
+   Hot Strength                                                                                         applying the adhesive. Use a suitable solvent (such as
+                           100                                                                          acetone or isopropanol) for the degreasing of surfaces.
+                                                                                                        Some metals such as aluminium, copper and its alloys will
+    % Strength Retention
+
+
+
+
+                            80                                                                          benefit from light abrasion with emery cloth (or similar),
+                                                                                                        to remove the oxide layer.
+                            60
+
+                            40                                                                          Directions for Use
+                            20                                                                                 1.     Dual cartridges:
+                                                                                                                      a) Insert the cartridge into the application gun
+                             0                                                                                        and guide the plunger into the cartridge.
+                                 0   50         100             150             200                                   b) Remove the cartridge cap and dispense
+                                          Temperature (°C)                                                            material until both sides are flowing.
+                                                                                                                      c) Attach the static mixer to the end of the
+                                                                                                                      cartridge and begin dispensing the material.
+“Hot strength” shear strength tests performed on mild steel. Fully cured specimens
+conditioned to pull temperature for 30 minutes before testing at temperature.                                  2.     Apply material to one of the substrates.
+                                                                                                               3.     Join the parts. Parts must be joined within 10-12
+ET5401 can withstand higher temperatures for brief periods                                                            minutes of mixing the two epoxy components.
+(such as for paint baking and wave soldering processes)                                                        4.     Large quantities and/or higher temperature will
+providing the joint is not unduly stressed. The minimum                                                               decrease the usable life or pot life.
+temperature the cured adhesive can be exposed to is -40°C
+                                                                                                               5.     Apply pressure to the assembly by clamping for
+(-40°F) depending on the materials being bonded.
+                                                                                                                      90 minutes or until handling strength is obtained.
+                                                                                                               6.     Full cure will be obtained after 4-7 days at 25°C
+Additional Information                                                                                                (77°F). Heat can be used to accelerate the curing
+This product is not recommended for use in contact with                                                               process.
+strong oxidizing materials.
+Information regarding the safe handling of this material
+may be obtained from the safety data sheet.
+                                                                                                              Video Links
+Users are reminded that all materials, whether innocuous                                                      Surface preparation:
+or not, should be handled in accordance with the                                                              https://youtu.be/8CMOMP7hXjU
+principles of good industrial hygiene.
+
+This Technical Datasheet (TDS) offers guideline
+                                                                                                              Two-part epoxy directions for use:
+information and does not constitute a specification.
+                                                                                                              https://youtu.be/-sG85TtNlF4
+
+
+Storage & Handling
+  Storage Temperature                           5 to 25°C (41 to 77°F)
+
+
+
+
+                                                                                                                                                           www.permabond.com
+                                                                                                                                                             • UK: 0800 975 9800
+                                                                                                                                        • General Enquiries: +44 (0)1962 711661
+                                                                                                                                                              • US: 732-868-1372
+                                                                                                                                                        • Asia: + 86 21 5773 4913
+                                                                                                                                                  info.europe@permabond.com
+                                                                                                                                                   info.americas@permabond.com
+                                                                                                                                                        info.asia@permabond.com
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond ET5401                                                                  Global TDS Revision 11                   8 November 2016                                       Page 2/2
+                                           FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

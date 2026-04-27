@@ -92,6 +92,13 @@ select {
   min-width: 21rem;
 }
 
+.topbar-links {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .eyebrow {
   margin: 0 0 0.25rem;
   font-size: 0.7rem;

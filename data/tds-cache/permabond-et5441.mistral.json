@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® ET5441\n\nTwo-Part Epoxy\n\nProvisional Technical Datasheet\n\n# Features &amp; Benefits\n\n- Full cure at room temperature\n- Adhesion to a variety of substrates\n- Thermally conductive\n- High temperature resistance\n- Excellent chemical resistance\n\n# Description\n\nPERMABOND® ET5441 is a thixotropic, thermally conductive two-component adhesive based on epoxy resin. It is specifically designed to bond metal substrates when excellent resistance to high temperature is required. The full cure is achieved in 7 days at room temperature, but it can be obtained in 24 hours at room temperature followed by 30 minutes at +80°C (176°F). Permabond ET5441 provides excellent resistance to motor oil, glycol and hot and cold water.\n\nPermabond ET5441 has been specifically formulated to meet the requirements of:\n\n- Flammability rating UL94 HB\n- Thermal vacuum outgassing test for the screening of space material ECSS-Q-ST-70-02C\n\n## Physical Properties of Uncured Adhesive\n\n|   | ET5441 A part | ET5441 B part  |\n| --- | --- | --- |\n|  Chemical composition | Epoxy Resin | Amine Hardener  |\n|  Appearance | White | Dark Grey  |\n|  Viscosity @ 23°C* | 250,000 mPa.s (cP)\nThixo | 200,000 mPa.s (cP)\nThixo  |\n|  Specific gravity | 2.1 | 2.1  |\n\n* Due to its viscosity this product may be difficult to dispense from 50ml cartridges when cold. Please warm cartridges before attempting to dispense via mixing nozzle.\n\n## Typical Curing Properties\n\n|  Mix ratio | 2:1 by weight\n2:1 by volume  |\n| --- | --- |\n|  Maximum gap fill | 2 mm 0.08 in  |\n|  Usable / pot life @23°C (77°F) | 150 minutes  |\n|  Working strength @23°C (77°F) | 8 hours  |\n|  Full cure | 23°C (77°F): 7 days\n80°C (176°F): 2 hours  |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond ET5441\n\nGlobal TDS Revision 6\n\n11 March 2025\n\nPage 1/2\n\n# Typical Performance of Cured Adhesive\n\n|  Shear strength* (ISO4587) | Steel: 20-25 N/mm²\n(2900-3625 psi)\nAluminium: 17-21 N/mm²\n(2465-3045 psi)\nStainless Steel: 20-25 N/mm²\n(2900-3625 psi)\nCarbon Fibre: 25-30 N/mm²\n(3625-4350 psi)\nGRP (Glass/Polyester): >10 N/mm² ** (>1450 psi)\nFRP (Glass/Epoxy): >19 N/mm² ** (>2755 psi)\nABS: >6 N/mm² ** (>870 psi)\nPolycarbonate: 2-4 N/mm²\n(290-580 psi)\nPBT 50% Glass filled: 4-6 N/mm²\n(580-870 psi)  |\n| --- | --- |\n|  Tensile strength at break (DIN 53504) | 50 N/mm² (7250 psi)  |\n|  Elongation at Break | 2.9%  |\n|  Hardness (ISO868) | 85-95 Shore D  |\n|  Tg (DSC) 7d @ 23°C | 65°C (149°F)  |\n|  Tg (DSC) 24h@ 23°C + 30min @80°C | 113°C (235°F)  |\n|  Coefficient of thermal expansion | Below Tg: 23 x 10⁻⁶ /K\nAbove Tg: 111 x 10⁻⁶ /K  |\n|  Thermal Conductivity (ISO 8302) | 1.1 W/(m.K)  |\n\n*Strength results will vary depending on the level of surface preparation and gap.\n** Substrate failure was observed\n\nPERMABOND ETS441\n\nGlobal TDS Revision 6\n\n11 March 2025",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Permabond ET5441\nGlobal TDS Revision 6\n11 March 2025\nPage 2/2\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\n\n# Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\nGraph shows typical strength development of bonded components. An increase of 8°C (46°F) in temperature will halve the cure time. Lower temperatures will result in a slower cure time.\n\n# Hot Strength\n\n|  Test Temperature | Curing Conditions  |   |   |\n| --- | --- | --- | --- |\n|   |  7 days 23°C (73°F) | 24h 23°C (73°F) + 1h 60°C (140°F) | 2h 80°C (176°F)  |\n|  23°C (73°F) | 100% | 100% | 100%  |\n|  80°C (176°F) | 117% | 126% | 108%  |\n|  150°C (302°F) | 41% | 44% | 43%  |\n|  200°C (392°F) | 30% | 30% | 31%  |\n\n\"Hot strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature. Results show % strength retained compared with room temperature control.\n\nET5441 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -40°C (-40°F) depending on the materials being bonded.\n\n# Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials.\n\nInformation regarding the safe handling of this material may be obtained from the safety data sheet (SDS).\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n# Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n\n# Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Use a suitable solvent (such as acetone or isopropanol) for the degreasing of surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n# Directions for Use\n\n1. Dual cartridges:\na) Insert the cartridge into the application gun and guide the plunger into the cartridge.\nb) Remove the cartridge cap and dispense material until both sides are flowing.\nc) Attach the static mixer to the end of the cartridge and begin dispensing the material.\n2. Apply material to one of the substrates.\n3. Join the parts. Parts must be joined within the usable pot life of mixing the two epoxy components.\n4. Large quantities and/or higher temperature will decrease the usable life or pot life.\n5. Apply pressure to the assembly by clamping until handling strength is obtained.\n6. Full cure will be obtained after 7 days at 23°C (73°F). Heat can be used to accelerate the curing process.\n\nNB. Exercise caution when mixing large quantities due to exothermic reaction.\n\n# Video Links\n\nSurface preparation:\nhttps://youtu.be/8CMOMP7hXjU\n\n![img-1.jpeg](img-1.jpeg)\n\n![img-2.jpeg](img-2.jpeg)\n\nTwo-part epoxy directions for use:\nhttps://youtu.be/GRX1RyknYqc\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy or the accuracy of the results. We urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLUDED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 59,
+          "top_left_y": 125,
+          "bottom_right_x": 324,
+          "bottom_right_y": 334,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 601,
+          "top_left_y": 632,
+          "bottom_right_x": 653,
+          "bottom_right_y": 685,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 601,
+          "top_left_y": 694,
+          "bottom_right_x": 653,
+          "bottom_right_y": 746,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU",
+        "https://youtu.be/GRX1RyknYqc"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 368686
+  },
+  "document_annotation": null
+}

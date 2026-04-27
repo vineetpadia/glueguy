@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB 1703 - CYANOACRYLATE ADHESIVE\n\n## Information\n\nTB1703 is a fast curing, high temperature resistant, high room temperature bond strength, methyl cyanoacrylate adhesive. It has a very large temperature range, -60°C ~ 150°C. TB1703 is recommended for metal-to-metal bonding applications and metal-to-rubber when higher temperature resistance is needed.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Transparent liquid  |\n|  Viscosity (@ 25°C) | mPa·s {cP} | 100 {100}  |\n|  Specific gravity (@ 25°C) | - | 1.10  |\n|  Solubility | - | Acetone, MEK, Nitromethane  |\n\n### 2. Cured Material\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Set Time NBR/NBR | Second | 5  |\n|  Shear Strength (Steel/Steel) | mPa {kgf/cm²} | 24.1 {246}  |\n|  Temperature range | °C | -60 ~ 150  |\n|   |  °F | -76 ~ 302  |\n\nThese are typical results, not product specifications\n\nRev: 0.1\n\nDate Issued: 3/12/02\n\nControl Document Number:3-TB-20-0501",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 26066
+  },
+  "document_annotation": null
+}

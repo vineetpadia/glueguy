@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "8820\n\nMG Chemicals\n\n# High Temperature Rigid Urethane\n\n8820 is a black, tough, high temperature, two-part polyurethane potting compound. It has a low mixed viscosity and properties similar to epoxy compounds, but with exceptional low temperature stability. As well, it adheres strongly to a wide variety of substrates, including metals, composites, glass, ceramics, and many plastics.\n\n8820 offers exceptional physical protection, a high continuous operating temperature, and superior protection from acids, bases, and many organic solvents.\n\n# Features &amp; Benefits\n\n- 2:1 mix ratio\n- 15 minute working time\n- 48 hour cure at room temperature\n- Constant service temperature of -50 to 150 °C\n- Low exotherm\n- Excellent dielectric properties\n\n# Cure Instructions\n\nAllow to cure at room temperature for 48 hours, or cure in an oven at one of these time/temperature options:\n\n- Temperature: 65 °C, 80 °C\n- Time: 2 h, 1.5 h\n\nMoisture contamination can create large bubbles and a lumpy appearance. For consistent curing results, ensure that part A is dry before use and the mixture is kept dry during cure. If moisture contamination of part A is suspected, follow the steps below:\n\n1. Pre-heat part A at 65 °C for 2 hours. Mix the heated resin with the appropriate amount of hardener (do not allow the resin to cool as this may create condensation that wets the resin).\n2. Mix the 2 components together and cure in an enclosure that has a constant stream of nitrogen gas flowing through to keep the environment dry.\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  8820-2.55L | 3 Can kit | 2.55 L | 3 kg  |\n|  8820-60L | 3 Pail kit | 60 L | 70.6 kg  |\n\n# Storage and Handling\n\nStore between 16 and 27 °C in a dry area, away from sunlight (see SDS). Minimize the time that the container is kept opened and purge with nitrogen before closing if the material is not used up at once.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 5.3",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 423,
+          "top_left_y": 142,
+          "bottom_right_x": 710,
+          "bottom_right_y": 413,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/polyurethane-resins/black-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "8820\n\nMG Chemicals\n\n# Liquid Properties\n\n|  Chemistry | Polyurethane | —  |\n| --- | --- | --- |\n|  Density | 1.2 g/mL (Mixed) | ASTM D1475  |\n|   |  1.2 g/mL (A)  |   |\n|   |  1.2 g/mL (B)  |   |\n|  Viscosity @ 25 °C | 3 820 cP (Mixed) | Brookfield Engineering labs Inc.\nIPCTM-65- Method 2.4.24.4  |\n|   |  10 700 cP (A)  |   |\n|   |  250 cP (B)  |   |\n|  Mix Ratio | 2:1 (Volume) | —  |\n|   |  1.85:1 (Weight)  |   |\n|  Working Time a | 15 min | —  |\n|  Shrinkage | 5.7% | Calculated  |\n|  Shelf Life | 2 y | —  |\n\n${}^{a}$ Based on 100 g sample. Varies by volume and geometry.\n\n# Cured Properties\n\n|  Flame Retardancy | No | —  |\n| --- | --- | --- |\n|  Color | Black | —  |\n|  Density | 1.2 g/mL | Hydrostatic Weighing  |\n|  Service Temperature Range | -50–150 °C | —  |\n|  Intermittent Temperature | 175 °C | —  |\n|  Thermal Conductivity @ 25 °C | 0.3 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 1.4 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.2 mm²/s |   |\n|  Glass Transition Temperature (T_{g}) | 44 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 94 ppm/°C (Prior T_{g}) | ASTM E831  |\n|   |  195 ppm/°C (After T_{g}) |   |\n|  Hardness | 73 D | ASTM D2240  |\n|  Tensile Strength | 38 N/mm² | ASTM D638  |\n|  Compressive Strength | 295 N/mm² | ASTM D695  |\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 5.3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/polyurethane-resins/black-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "8820\n\nMG Chemicals\n\nCured Properties Continued\n\n|  Lap Shear | 13 N/mm² (Stainless Steel) | ASTM D1002  |\n| --- | --- | --- |\n|   |  12 N/mm² (Aluminum) |   |\n|   |  3.7 N/mm² (ABS) |   |\n|   |  4.9 N/mm² (PC) |   |\n|  Resistivity | 1.4 x 10¹³ Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 47 300 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 480 V/mil |   |\n|  Dielectric Constant @ 1 MHz | 3.1 | ASTM D150  |\n|  Dissipation Factor @ 1 MHz | 0.1 |   |\n|  Chemical Absorption | 1 % (IPA) | —  |\n|  Weight Gain, 30 days @ 25 °C | 12 % (Toluene) |   |\n|   |  0.7 % (Sulphuric Acid 3%) |   |\n|   |  0.5 % (Acetic Acid) |   |\n|   |  0.3 % (10% NaOH) |   |\n|   |  0.3 % (10% NaCl) |   |\n|   |  0.4 % (Water) |   |\n|   |  0 % (Transmission Oil) |   |\n|   |  0 % (Transformer Oil) |   |\n|   |  0.4 % (Gasoline) |   |\n|  Weight Loss @ 155 °C (600 hrs) | 39.8 % | —  |\n|  Water Absorptionᵇ @ 1 week | 0.1% (water), 0.05% (10% salt water) | —  |\n|  @ 2 weeks | 0.4% (water), 0.2% (10% salt water) |   |\n|  @ 4 weeks | 0.7% (water), 0.5% (10% salt water) |   |\n\nᵃSample size: 12.8 mm width, 12.5 mm thickness, and 4.8 g. Cured 1 hour @ 65 °C.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 5.3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/polyurethane-resins/black-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "8820\n\nMG Chemicals\n\n# Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n# Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n# Mixing\n\n1. (Optional) Pre-heat part A to improve surface quality.\n2. Scrape settled material free from the bottom and sides of the part A container; stir the contents until homogenous.\n3. Measure 2 parts by volume of the pre-stirred part A, and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n4. Measure 1 part by volume of the part B, and pour into the mixing container. Ensure all contents are transferred by scraping the container\n5. Thoroughly mix parts A and B together.\n6. (Optional) Put in a vacuum chamber at 25 inHg.\n7. Pour the mixture into a container holding the components to be protected.\n8. Blanket both parts with nitrogen if the material is not used up to prevent moisture.\n9. Close the part A and B containers tightly between uses.\n\nMixing &gt;500 g at a time decreases working time and can lead to a flash cure. Limit the size of hand-mixed batches. For large production volumes, contact MG Chemicals Technical Support for assistance.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 January 2026 / Ver. 5.3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/polyurethane-resins/black-potting-compound/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 242943
+  },
+  "document_annotation": null
+}

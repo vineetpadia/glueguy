@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Technical data sheet - Page: 1/2\n\nDate of issue:18.02.2026\n\nWEICON\n\n# WEICON Easy-Mix HT 250 Epoxy Adhesive\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n\nVery high temperature resistance up to +200 °C (+392 °F), briefly up to +250 °C (+482 °F) |high adhesion to metals | high thermal conductivity and high resistance to aggressive media and powder coatings\n\nWEICON Easy-Mix HT 250 is a 2-component adhesive based on epoxy resin with a high temperature resistance up to +200 °C; briefly up to +250 °C. The 2-C epoxy resin system shows particularly high adhesion to metals and fibreglass. Its excellent suitability for special applications is demonstrated by the high thermal conductivity combined with the high temperature resistance. The adhesive keeps over 80 % of its strength even at constantly high temperatures. This enables the bonding of components, which are thermo-coated (powder-coated) after curing. The epoxy resin adhesive has a high resistance to aggressive substances, such as hot and cold water, motor oil and glycol. For the application of the Easy-Mix product, the Dispenser Easy-Mix D 50 is required.\n\nCharacteristics\n\n|  Base |  | epoxy resin  |\n| --- | --- | --- |\n|  Texture |  | viscous  |\n|  Colour |  | light grey  |\n|  Minimum shelf life | at room temperature | 18 mon.  |\n|  Processing |  |   |\n|  Processing temperature |  | +10 °C to +40 °C  |\n|  Curing temperature |  | +10 °C - +50 °C  |\n|  Mixing ratio by volume |  | 2:1  |\n|  Viscosity of the mixture | at +20 °C | 38.000 mPa·s  |\n|  Density of the mixture |  | 2,1 g/cm³  |\n|  Gap bridging up to max. |  | 4 mm  |\n\n# Epoxy Resin Systems\n\n# Epoxy adhesives\n\nCuring\n\n| Pot life | at 20 °C, 10 ml batch | 150 min. |\n| --- | --- | --- |\n| Working strength after | (50 % strength) | 8 h |\n| Final strength | (100 % strength) | 24 (30 min. | 80°C) h |\n\nMechanical properties after curing\n\n|  Tensile strength | DIN EN ISO 527-2 | 50 MPa  |\n| --- | --- | --- |\n|  Elongation at break (tensile) | DIN EN ISO 527-2 | 2.9 %  |\n|  Hardness (Shore D) | DIN ISO 7619 | >90  |\n|  Lap shear strength material thickn. 1,5mm DIN EN 1465  |   |   |\n|  Steel 1.0338 sandblasted |   | 20 N/mm²  |\n|  Aluminium sandblasted |   | 15 N/mm²  |\n|  ABS |   | 6 N/mm²  |\n|  PC (polycarbonate) |   | 4 N/mm²  |\n|  GFRP |   | 10 N/mm²  |\n\nThermal parameters\n\n|  Temperature resistance | -50 bis 200, briefly up to +250 °C  |\n| --- | --- |\n|  Tg after curing at room temperature | (DSC) ~ +65 °C  |\n|  Tg after tempering (at 80°C) | (DSC) +130 °C  |\n|  Thermal expansion coefficient | ISO 11359 5·10^-5K^-1 1/m·K  |\n|  Thermal conductivity | 1,4 W/m·K  |\n\nElectrical parameters\n\n|  Dielectric strength | DIN EN 60243-1 (20°C) | >24 kV/mm  |\n| --- | --- | --- |\n\n# Instructions for use\n\nWhen using WEICON products, the physical, safety-related, toxicological and ecological data and regulations in our EC safety data sheets (www.weicon.com) must be observed.\n\n![img-2.jpeg](img-2.jpeg)\nTensile strength after storage\n\n# Surface Pre-Treatment\n\nFor a flawless adhesive bond, surfaces must be clean and dry (e.g. cleaning and degreasing with WEICON Surface Cleaner).\n\nNote\n\nThe specifications and recommendations given in this technical data sheet must not be seen as guaranteed product characteristics. They are based on our laboratory tests and on practical experience. Since individual application conditions are beyond our knowledge, control and responsibility, this information is provided without any obligation. We do guarantee the continuously high quality of our products. However, own adequate laboratory and practical tests to find out if the product in question meets the requested properties are recommended. A claim cannot be derived from them. The user bears the only responsibility for non-appropriate or other than specified applications.\n\nWEICON Middle East L.L.C.\nUnited Arab Emirates\nphone +971 4 890 25 05\ninfo@weicon.se\n\nWEICON Czech Republic s.r.o.\nCzech Republic\nphone +42 05 417 533 013\ninfo@weicon.cz\n\nWEICON Israel &amp; Co. KG\nPawdquaterly Germany\nphone +49 (0) 251 9322 0\ninfo@weicon.de\n\nWEICON India S.r.L.\nItaly\nphone +34 (0) 914 7997 34\ninfo@weicon.in\n\nWEICON Romania SRL\nRomania\nphone +40 (0) 3 60 730 763\noffice@weicon.com\n\nWEICON San.Puzi Ltd\nSouth Africa\nphone +27 (0) 21 709 0088\ninfo@weicon.co.za\n\nWEICON South East Asia Pte Ltd\nSingapore\nPhone (+65) 6710 7671\ninfo@weicon.com.sg\n\nWEICON Kenya Sanayi Tiv. Ltd. Sh.\nTunisia\nphone +96 (0) 212 465 33 85\ninfo@weicon.com.tr",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 151,
+          "top_left_y": 153,
+          "bottom_right_x": 224,
+          "bottom_right_y": 346,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 216,
+          "top_left_y": 364,
+          "bottom_right_x": 327,
+          "bottom_right_y": 408,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 375,
+          "top_left_y": 522,
+          "bottom_right_x": 683,
+          "bottom_right_y": 784,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Technical data sheet – Page: 2/2\n\nDate of issue:18.02.2026\n\nWEICON\n\nEpoxy Resin Systems\n\nEpoxy adhesives\n\n# WEICON Easy-Mix HT 250 Epoxy Adhesive\n\n## Application\n\nWEICON Easy-Mix products can be processed straight from the double cartridge by means of the included static mixer. Dismiss the first 5 cm of the adhesive bead. The adhesive is applied to just one side. The specified pot life refers to a material batch of 10 ml at room temperature. Larger batch quantities will result in faster curing. Higher temperatures also reduce the pot life and curing time. (General rule: every increase by +10 °C above room temperature results in a decrease of the pot life and curing time by half). Temperatures below +16 °C increase the pot life and curing time significantly. From approx. +5 °C and below, no reaction takes place.\n\n## Curing\n\nIn order to obtain a permanently high temperature resistance, it should be annealed by heating at 80 °C for 30 minutes after 24 hours.\n\n## Storage\n\nWEICON epoxy adhesives should be stored in a dry place at room temperature. Unopened containers can be stored at temperatures from +18 °C to +25 °C. Protect from direct sunlight. Failure to observe these storage instructions will reduce the shelf life to 6 months. Epoxy resins generally tend to crystallise at temperatures below +5 °C. This effect is increased by large temperature fluctuations, e.g. during transport especially in the winter months. This has a negative impact on processing, curing and technical data, can, however, be reversed by heating the product (up to max. +50 °C, no open flame). In WEICON epoxy adhesives, crystallisation is reduced by the careful choice and combination of base resins (bisphenol A and F).\n\n## Scope of delivery\n\nAdhesive\n\n## Accessories\n\n10005237 Dispenser Easy-Mix D 50, 1 PCE\n10030395 Helix Mixing Nozzle B, 1 PCE, white\n10101999 WEICON Manual Dispenser, 1 x 1:1 | 2:1\n\n## Conversion table\n\n(°C x 1.8) + 32 = °F\nmm/25.4 = inch\nµm/25.4 = mil\nN x 0.225 = lb\nN/mm² x 145 = psi\nMPa x 145 = psi\n\nNm x 8.851 = lb·in\nNm x 0.738 = lb·ft\nNm x 141.62 = oz·in\nmPa·s = cP\nN/cm x 0.571 = lb/in\nkV/mm x 25.4 = V/mil\n\n## Available sizes\n\n10056568 WEICON Easy-Mix HT 250 Epoxy Adhesive, 50 ml, light grey\n\n![img-3.jpeg](img-3.jpeg)\nTo the product detail page\n\nNote\nThe specifications and recommendations given in this technical data sheet must not be seen as guaranteed product characteristics. They are based on our laboratory tests and on practical experience. Since individual application conditions are beyond our knowledge, control and responsibility, this information is provided without any obligation. We do guarantee the continuously high quality of our products. However, own adequate laboratory and practical tests to find out if the product in question meets the requested properties are recommended. A claim cannot be derived from them. The user bears the only responsibility for non-appropriate or other than specified applications.\n\nWEICON Middle East L.L.C.\nUnited Arab Emirates\nphone +971 4 880 25 05\ninfo@weicon.se\n\nWEICON Czech Republic s.r.o.\nCzech Republic\nphone +42 (0) 417 533 013\ninfo@weicon.cz\n\nWEICON France S.L.\nSpain\nphone +34 (0) 914 7997 34\ninfo@weicon.es\n\nWEICON GmbH &amp; Co. KG\nPraedysatregi Germany\nphone +49 (0) 251 8322 0\ninfo@weicon.de\n\nWEICON Italia S.r.L.\nItaly\nphone +39 (0) 810 2924 871\ninfo@weicon.it\n\nWEICON Romania SRL\nRomania\nphone +40 (0) 3 60 730 760\noffice@weicon.com\n\nWEICON Swiss S.A. (Pty) Ltd\nSouth Africa\nphone +27 (0) 21 709 0088\ninfo@weicon.co.za\n\nWEICON South East Asia Pte Ltd\nSingapore\nPhone (+65) 8710 7871\ninfo@weicon.com.sg\n\nWEICON Kenya Sanayi Tiv. Ltd. Sh.\nTunisia\nphone +96 (0) 212 465 33 85\ninfo@weicon.com.tr",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 616,
+          "top_left_y": 798,
+          "bottom_right_x": 692,
+          "bottom_right_y": 874,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 336586
+  },
+  "document_annotation": null
+}

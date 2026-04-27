@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB2720C – WATER BASE LUBRICANT\n\n## Information\n\nTB2720C is a clear color water base lubricant. It is a low odor and less hazardous lubricant. Rubber parts such as O-ring and bush can be easily assembled by using TB2720C.\n\n## Typical Properties\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear  |\n|  Viscosity | mPa • s {cP} | 500 {500}  |\n|  Non-Volatile | % | Over 5  |\n|  pH | - | 8.5  |\n|  Specific gravity | - | 1.03  |\n\nThese are typical properties and not product specification\n\nRev: 0.1\nIssued Date: 1/29/02\nDocument Control Number: 3-TB-20-0882",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 1,
+    "doc_size_bytes": 23399
+  },
+  "document_annotation": null
+}

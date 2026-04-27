@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3062U\n\n# ThreeBond\n\nMar. 3, 2009\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3062U\n\nUV-curing Resin\n\n1. Product description\n\nThreeBond 3062U is a UV-curing resin. This resin cures quickly by exposure to UV irradiation of 200 to 400 nm. In addition, it has anaerobic curability and can cure on metallic surfaces which cannot be exposed to UV light or are in shade.\n\n2. Features\n\n(1) Cures quickly by exposure to UV irradiation. (Standard curing conditions: 30 kJ/m² (3000 mJ/cm²))\n\n(2) Has flexibility and is suitable for bonding of different materials.\n\n(3) Has anaerobic curability and is applicable to bonding of metal parts.\n\n* Anaerobic curability: The resin enters a fine gap between metal parts and cures when sealed off from the air.\n\n3. Applications\n\nBonding of different materials, and bonding of motor magnet cases\n\n4. Properties (in the liquid state)\n\n|  Test item | Unit | ThreeBond3062U | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Main component |  | Modified (meth) acrylate | - |   |\n|  Appearance | - | Transparent light yellow to brown liquid | 3TS-201-01 | Visual inspection  |\n|  Viscosity | Pa·s (cP) | 1.0 (1000) | 3TS-210-02 | Rotor No. 3, 20 rpm  |\n|  Specific gravity | - | 1.07 | 3TS-213-02 |   |\n\nED2009063",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3062U\n\n# 5. Characteristics of cured resin\n\n|  Test item | Unit | ThreeBond3062U | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Main component | - | Poly (meth) acrylate |  |   |\n|  Hardness | - | 70 | 3TS-215-01 | 60kJ/m² (6000mJ/cm²)  |\n|  Elongation | % | 250 | 3TS-320-02 |   |\n|  Young's modulus | MPa (kgf/cm²) | 38.2 (390) | 3TS-330-01 |   |\n|  Tensile strength | MPa (kgf/cm²) | 14.7 (150) | 3TS-320-02 |   |\n|  Glass transition temperature | °C | 74 | 3TS-501-04 |   |\n|  Water absorption | % | 12.8 | 3TS-233-01 | 60kJ/m² (6000mJ/cm²)  |\n|  Cure shrinkage | % | 9.9 | 3TS-228-01 |   |\n\nCuring conditions: 4-kw high-pressure mercury lamp (HMW-244-11CM made by Orc)\nUV dose: 30kJ/m² (3000mJ/cm²)\n\n# 6. UV curability\n\n|  Test item | Unit | ThreeBond3062U | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Thick film curability | mm | 1 or more | 3TS-222-01 |   |\n\n# 7. Shear bond strength\n\n|  Test item | Unit | ThreeBond3062U | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Glass / Glass | MPa (kgf/cm²) | 9.8 (100) | 3TS-301-13 | Material failure  |\n|  Glass / Fe | MPa (kgf/cm²) | 12.7 (130) | 3TS-301-13 | Glass material failure  |\n|  Glass / Glass epoxy | MPa (kgf/cm²) | 8.8 (90) | 3TS-301-13 |   |\n|  Acryl / Fe | MPa (kgf/cm²) | 9.8 (100) | 3TS-301-13 | Acrylic material failure  |\n\nCuring conditions: 4-kw high-pressure mercury lamp (HMW-244-11CM made by Orc)\nUV dose: 30kJ/m² (3000mJ/cm²)\n\nED2009063",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3062U\n\n# 8. Anaerobic curability\n\n|  Test item | Unit | ThreeBond3062U | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Setting time | min | Within 10 | 3TS-220-05 | Fe/Fe, clearance of 0.01 mm  |\n|  Shear bond strength | MPa (kgf/cm²) | 12.7 (130) | 3TS-301-13 | Fe/Fe  |\n|  Fitted bonding strength | MPa (kgf/cm²) | 26.5 (270) | 3TS-305-01 | Fe/Fe, clearance of 0.01 mm  |\n\nCuring conditions: 25°C for 24 hrs\n\n# 9. Instructions for use\n\n(1) The curing speed varies depending on the type of light source and irradiation distance. Check the curing speed prior to use.\n\n(2) In principle, curing will not occur in portions where the UV light does not reach.\n\n(3) Because some gas is generated during application and curing with UV light, use forced air ventilation in the working area and UV light irradiation area. Also, if necessary, wear appropriate protective clothing, such as a mask, gloves (impervious) and goggles. Use the product in a place equipped with a local exhaust system.\n\n(4) Do not inhale or ingest. Harmful to health. Do not inhale or ingest. If ingested, get immediate medical attention.\n\n(5) Harmful to health. Do not directly touch nor inhale vapor. If it adheres to the skin, it may cause inflammation. If it adheres to the skin, immediately wipe it away with cloth or paper, and wash the skin with soap and water. If it gets in the eyes, wash them with running water for about 15 minutes, and get medical attention.\n\n(6) If any abnormality is found in the body, stop using it, and get medical attention. People who have allergies or susceptible skin should avoid handling it.\n\n(7) Some materials may deteriorate if this product is used. The effects on the substrate should be confirmed in advance. If there are any problems, do not use.\n\n(8) Do not transfer product into another container nor return unused product to the original container.\n\n(9) The product solidifies on metallic parts. Do not use metallic nozzle or other metallic parts.\n\n(10) After use, store with the cap tightly fitted to prevent deterioration and contamination.\n\n(11) Store the product in a dry place at 5 to 10°C away from light.\n\n(12) Keep out of reach of children.\n\n(13) It may generate toxic gas. Entrust disposal to a waste disposal company.\n\n(14) Due to the properties of the resin, slight discoloration may occur.\n\nED2009063",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3062U\n\n## 10. Laws and regulations\n\nFire Service Act: Category 4 hazardous material, class 3 petroleums. Hazard class III. Acrylate adhesive. Flammable.\n\n## 11. Product configuration\n\n250 g, dark blue plastic container\n\n**For Industrial Use Only**\n\n(Do not use for household purposes.)\n\nBefore using this product, you must accept the following sales terms:\n\n(1) The technical data given herein are experimental values obtained by our specified test methods. We do not absolutely guarantee the correctness and integrity of the data.\n\nUsers are asked to examine by themselves whether the product is appropriate to the purpose of use before they use it and bear all responsibilities and hazards involved in its use. The scope of guarantee includes only replacement of clearly defective items.\n\n(2) We are not liable for personal injury or property damage caused by improper handling of this product.\n\n(3) We are not liable for any matter not mentioned herein unless otherwise specified in the contract.\n\nED2009063",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 34098
+  },
+  "document_annotation": null
+}

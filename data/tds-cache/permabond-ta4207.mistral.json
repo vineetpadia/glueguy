@@ -1,0 +1,121 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® TA4207\n\nToughened Acrylic Adhesive\n\nProvisional Technical Datasheet\n\n# Features &amp; Benefits\n\n- Adhesion to a wide variety of substrates\n- Fast cure at room temperature\n- High shear and peel strength\n- Good impact strength\n- Good chemical &amp; environmental resistance\n- Bonds well to unprepared aluminium\n\n# Description\n\nPERMABOND® TA4207 is a 2-part, 1:1 toughened acrylic adhesive. It can be used to bond a wide variety of materials including metals, plastics, composites, ceramics, wood and other substrates. The adhesive can provide excellent shear strength on many substrates with little surface preparation.\n\n## Physical Properties of Uncured Adhesive\n\n|   | TA4207 A | TA4207 B  |\n| --- | --- | --- |\n|  Chemical composition | Methyl methacrylate | Methyl methacrylate  |\n|  Colour | Straw | Yellow  |\n|  Mixed colour | Straw  |   |\n|  Viscosity @ 25°C | 3000 mPa.s (cP) | 1000 mPa.s (cP)  |\n|  Specific gravity | 1.05 | 1.0  |\n\n## Typical Curing Properties\n\n|  Ratio of use | 1 : 1  |\n| --- | --- |\n|  Maximum gap fill | 0.5 mm (0.02 in)  |\n|  Fixture time @23°C | 8 - 10 minutes  |\n|  Handling time (0.3 N/mm² shear strength is achieved) @23°C | 12 - 15 minutes  |\n|  Working strength @23°C | 25 - 30 minutes  |\n|  Full cure @23°C | 1 hour  |\n\n## Typical Performance of Cured Adhesive\n\n|  Shear strength* (ISO4587) | PMMA: >4 N/mm² (>580 psi) SF*\nAluminium: >25 N/mm² (>3600 psi)\nSteel: >26 N/mm² (>3800 psi)\nCarbon fibre: >16 N/mm² (>2300 psi)\nTin: >5 N/mm² (>725 psi) SF*\nPolycarbonate: >4 N/mm² (>580 psi) SF*\nEpoxy FRP: >7 N/mm² (>1000 psi) SF*\nPVC: >3 N/mm² (>435 psi) SF*\nHot dip galv steel: >19 N/mm² (>2800 psi)\nElectro-plated zinc: >19 N/mm² (>2800 psi)\nStainless steel: >32 N/mm² (>4600 psi)  |\n| --- | --- |\n|  Peel strength (ISO4578) | 100-200 N/25mm (23-46 PIW)  |\n|  Hardness (ISO868) | 60-65 Shore D  |\n|  Glass transition temperature (Tg – DSC) | 105°C (220°F)  |\n\n*Strength results will vary depending on the level of surface preparation and gap. If using a cleaning solvent, allow 3-4 minutes to fully evaporate before applying adhesive. Figures above were on degreased-only substrates.\n\nSF* = Substrate failure\n\n## Hot Strength\n\n![img-0.jpeg](img-0.jpeg)\n\n\"Hot strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature.\n\nTA4207 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -40°C (-40°F) depending on the materials being bonded.\n\n|   | 24Hr Shear Strength | 1000Hr @60°C  |\n| --- | --- | --- |\n|  Stainless Steel (Acetone degreased) | >32 MPa | >31MPa  |\n|  Aluminium (Acetone degreased) | >25 MPa | >29MPa  |\n|  Carbon Fibre (IPA degreased) | >16 MPa | >16MPa  |\n|  Polycarbonate (IPA degreased) | >4MPa (Substrate failure | >3 MPa  |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond TA4207\n\nGlobal TDS Revision 4\n\n22 October 2021\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 393,
+          "top_left_y": 465,
+          "bottom_right_x": 664,
+          "bottom_right_y": 612,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2/3\n\n![img-1.jpeg](img-1.jpeg)\n'Aged adhesive' shear strengths on degreased substrates\n\n![img-2.jpeg](img-2.jpeg)\nSalt solution shear strengths on degreased substrates\n\n![img-3.jpeg](img-3.jpeg)\n&gt;95% Humidity shear strengths on degreased substrates\n\n![img-4.jpeg](img-4.jpeg)\nHeat aged shear strengths on degreased substrates\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond TA4207\n\nGlobal TDS Revision 4\n\n22 October 2021\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 54,
+          "top_left_y": 137,
+          "bottom_right_x": 333,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 384,
+          "top_left_y": 137,
+          "bottom_right_x": 664,
+          "bottom_right_y": 433,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 54,
+          "top_left_y": 511,
+          "bottom_right_x": 333,
+          "bottom_right_y": 805,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 384,
+          "top_left_y": 511,
+          "bottom_right_x": 664,
+          "bottom_right_y": 805,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Permabond TA4207\nGlobal TDS Revision 4\n22 October 2021\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\nPage 3/3\n\n# Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials. This product may affect some thermoplastics and users must check compatibility of the product with such substrates.\n\nInformation regarding the safe handling of this material may be obtained from the safety data sheet (SDS).\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n# Storage &amp; Handling\n\n|  Storage Temperature | 2 to 25°C (35 to 77°F)*  |\n| --- | --- |\n\n*Room temperature storage may increase the cure time of the adhesive. For best results on zinc alloys, store at 2 to 7°C.\n\n# Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Permabond Cleaner A is recommended for the degreasing of most surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n# Directions for Use\n\n1) Surfaces must be clean, dry and grease-free. If using a cleaning solvent, allow 3-4 minutes to fully evaporate before applying adhesive.\n2) Apply a thin bead of adhesive pre-mixed through a static mixer nozzle.\n3) Alternatively apply a thin layer of resin on one component and hardener on the other.\n4) Assemble components and clamp.\n5) Maintain pressure until handling strength is achieved. The time required will vary according to the joint design and surfaces being bonded.\n6) Allow 24 hours for adhesive to fully cure. Accelerated cure times may be achieved by heating.\n\n# Video Links\n\nSurface preparation:\nhttps://youtu.be/8CMOMP7hXjU\n\nStructural acrylic directions for use:\nhttps://youtu.be/edvBe4iYNCY\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\nwww.permabond.co.uk\nwww.permabond.com\n• UK: 0800 975 9800\n• General Enquiries: +44 (0)1962 711661\n• US: 732-868-1372\n• Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\ninfo.americas@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy. We urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 591,
+          "top_left_y": 473,
+          "bottom_right_x": 642,
+          "bottom_right_y": 525,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 591,
+          "top_left_y": 534,
+          "bottom_right_x": 642,
+          "bottom_right_y": 587,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU",
+        "https://youtu.be/edvBe4iYNCY"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 426147
+  },
+  "document_annotation": null
+}

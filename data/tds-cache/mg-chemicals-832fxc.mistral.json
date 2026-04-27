@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "832FXC\n\nMG Chemicals\n\n# Clear Flexible Epoxy, Encapsulating &amp; Potting Compound\n\n832FXC is a 2-part, clear, flexible epoxy potting compound with a low mixed viscosity that ensures sufficient wetting of intricate components. 832FXC offers protection from extreme environments such as high humidity and chemical exposure while also providing PCBs protection against physical stresses such as shocks and vibration.\n\nThis product was designed for applications involving delicate surface mount devices (SMDs) in mind. Unlike most epoxies, the 832FXC cures to a semi-rigid consistency, exerting little stress on board components. Its low modulus makes the 832FXC an ideal material for applications with aggressive thermal cycling or rapid changes in temperature.\n\n# Features &amp; Benefits\n\n- Low mixed viscosity\n- Low modulus epoxy\n- Clear—allows for inspection\n- Strong adhesion to many substrates including metals, plastics, glass, composites, ceramics and wood\n- Extreme resistance to water and humidity\n\n# Cure Instructions\n\nAllow to cure at room temperature for 48 hours, or cure in an oven at one of these time/temperature options:\n\n|  Temperature | 65 °C | 80 °C | 100 °C  |\n| --- | --- | --- | --- |\n|  Time | 2 h | 1 h | 30 min  |\n\n![img-0.jpeg](img-0.jpeg)\n\n# Available Packaging\n\n|  Part # | Packaging | Net Vol. | Net Wt.  |\n| --- | --- | --- | --- |\n|  832FXC-450ML | 2 Bottle kit | 450 mL | 468 g  |\n|  832FXC-1.7L | 2 Can kit | 1.7 L | 1.77 kg  |\n|  832FXC-7.4L | 2 Can kit | 7.4 L | 7.71 kg  |\n|  832FXC-40L | 2 Pail kit | 40 L | 41.6 kg  |\n\n# Storage and Handling\n\nStore between 16 and 27 °C in a dry area, away from sunlight (see SDS).\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 September 2025 / Ver. 1.3",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 400,
+          "top_left_y": 132,
+          "bottom_right_x": 734,
+          "bottom_right_y": 428,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "832FXC\n\nMG Chemicals\n\n# Liquid Properties\n\n|  Chemistry | Epoxy | —  |\n| --- | --- | --- |\n|  Density | 1.1 g/mL (Mixed) | ASTM D1475  |\n|   |  1.0 g/mL (A)  |   |\n|   |  1.0 g/mL (B)  |   |\n|  Viscosity @ 25 °C | 410 cP (Mixed) | Brookfield Engineering labs Inc.\nIPCTM-65- Method 2.4.24.4  |\n|   |  485 cP (A)  |   |\n|   |  192 cP (B)  |   |\n|  Mix Ratio | 1:1 (Volume) | —  |\n|   |  1.1:1 (Weight)  |   |\n|  Working Time a | 170 min | —  |\n|  Peak Exotherm b | 32 °C | —  |\n|  Shrinkage | 2.3% | Calculated  |\n|  Shelf Life | 5 y | —  |\n\na Based on 100 g sample. Varies by volume and geometry.\nb Based on a 250 g sample in a fixed container geometry.\n\n# Cured Properties\n\n|  Flame Retardancy | No | —  |\n| --- | --- | --- |\n|  Color | Pale yellow | —  |\n|  Density | 1.1 g/mL | Hydrostatic Weighing  |\n|  % Transmittance | 86% | ISO 13468-1  |\n|  Service Temperature Range c | -80–110 °C | —  |\n|  Intermittent Temperature | 140 °C | —  |\n|  Thermal Conductivity @ 25 °C | 0.2 W/(m·K) | ASTM E1461  |\n|  Specific Heat Capacity @ 25 °C | 1.9 J/(g·K) |   |\n|  Thermal Diffusivity @ 25 °C | 0.09 mm²/s |   |\n|  Glass Transition Temperature (Tg) | 12 °C | ASTM E1545  |\n|  Coefficient of Thermal Expansion (CTE) | 212 ppm/°C (Prior Tg) | ASTM E831  |\n|   |  260 ppm/°C (After Tg) |   |\n|  Hardness | 60 A | ASTM D2240  |\n|  Tensile Strength | 2.0 N/mm² | ASTM D638  |\n\nc &gt;65 °C may affect clarity\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008\n\nsupport@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 September 2025 / Ver. 1.3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-resin/",
+        "https://mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "832FXC\n\nMG Chemicals\n\nCured Properties Continued\n\n|  Lap Shear | 3.4 N/mm² (Stainless Steel) | ASTM D1002  |\n| --- | --- | --- |\n|   |  2.6 N/mm² (Aluminum)  |   |\n|   |  1.9 N/mm² (ABS)  |   |\n|   |  1.7 N/mm² (PC)  |   |\n|  Resistivity | 1.0 x 10¹³ Ω·cm | ASTM D257  |\n|  Breakdown Voltage @ 3.175 mm | 58 900 V | ASTM D149  |\n|  Dielectric Strength @ 3.175 mm | 472 V/mil  |   |\n|  Chemical Absorption | 30 % (IPA) | —  |\n|  Weight Gain, 30 days @ 25 °C | 9 % (Sulphuric Acid 3%) |   |\n|   |  17 % (Acetic Acid) |   |\n|   |  0.4 % (10% NaOH) |   |\n|   |  0.2 % (10% NaCl) |   |\n|   |  0.4 % (Water) |   |\n|   |  0.1 % (Transmission Oil) |   |\n|   |  0.1 % (Transformer Oil) |   |\n\n## Application Instructions\n\nRead the product SDS and Application Guide for more detailed instructions before using this product.\n\n## Recommended Preparation\n\nClean the substrate with 824 99.9% Isopropyl Alcohol, so the surface is free of oils, dust, and other residues.\n\n## Mixing\n\n1. Scrape settled material free from the bottom and sides of the part A container; stir the contents until homogenous. Use a paint shaker if available.\n2. Measure 1 part by volume of the part A and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n\n3. Measure 1 part by volume of the part B and pour into the mixing container. Ensure all contents are transferred by scraping the container.\n4. Thoroughly and gently mix parts A and B together. Avoid introducing air bubbles.\n5. To de-air, let sit for 15 minutes or put in a vacuum chamber at 25 inHg for 2 minutes. Click here for a video tutorial on vacuum de-airing.\n6. If bubbles are present at the top, break them gently with the mixing paddle.\n7. Pour the mixture into a container holding the components to be protected.\n8. Close the part A and B containers tightly between uses to prevent skinning.\n\nMixing &gt;500 g at a time decreases working time and can lead to a flash cure. Limit the size of hand-mixed batches. For large production volumes, contact MG Chemicals Technical Support for assistance.\n\nDisclaimer: This information is believed to be accurate. It is intended for professional end-users who have the skills required to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nMG Chemicals 1210 Corporate Drive Burlington, Ontario, Canada L7L 5R6 ISO 9001:2015 Quality Management System SAI Global File: 004008 support@mgchemicals.com North America +(1) 800-340-0772 International +(1) 905-331-1396 Europe +44 1663 362888 23 September 2025 / Ver. 1.3",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://mgchemicals.com/products/potting-compounds/epoxy-potting/flexible-resin/",
+        "https://mgchemicals.com",
+        "http://www.youtube.com/watch?v=ZADQbeYvPGs"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 271356
+  },
+  "document_annotation": null
+}

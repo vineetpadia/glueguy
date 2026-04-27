@@ -1,0 +1,86 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "LOCTITE\n\nTechnical Data Sheet\n\n# LOCTITE® AA 3492™\n\nKnown as LOCTITE® 3492™\n\nNovember 2014\n\n## PRODUCT DESCRIPTION\n\nLOCTITE® AA 3492™ provides the following product characteristics:\n\n|  Technology | Acrylic  |\n| --- | --- |\n|  Chemical Type | Modified acrylate  |\n|  Appearance (uncured) | Transparent liquid^{LM5}  |\n|  Components | One component - requires no mixing  |\n|  Viscosity | Low  |\n|  Cure | Ultraviolet (UV) light  |\n|  Cure Benefit | Production - high speed curing  |\n|  Application | Bonding, Potting or Sealing  |\n\nLOCTITE® AA 3492™ cures in seconds upon exposure to ultraviolet radiation of 365nm to form an impact resistant bond which exhibits excellent resistance to prolonged humidity or water immersion. Typical applications include bonding and sealing or potting applications of glass to itself or other materials, such as rough surface decorative glass, molded glass tableware items or automotive lighting components. The products low viscosity makes it ideal for applications where a self leveling adhesive is desired.\n\n## TYPICAL PROPERTIES OF UNCURED MATERIAL\n\nSpecific Gravity @ 25 °C 1.03\n\nRefractive Index 1.48\n\nFlash Point - See SDS\n\nViscosity, Brookfield - RVT, 25 °C, mPa·s (cP):\n\nSpindle 2, speed 20 rpm 350 to 600<lms>485\n\n## TYPICAL CURING PERFORMANCE\n\nCure can be effected with both low and high intensity ultraviolet light sources. A low UV intensity of 30 mW/cm² will cure highly transmitting substrates with &lt;.25mm gap in 5 seconds or 1.77 to 2.28mm gaps in 10 to 20 seconds. A high UV intensity of 100 mW/cm² will cure highly transmitting substrates with .25mm gap in 2 seconds or 2.54 to 5.08mm gaps in 10 to 20 seconds. The table below represents typical fixture times for glass substrates with no induced gap. Full cure is estimated to be 6X the fixture time upon continued exposure to UV radiation.\n\n## Fixture Time\n\nFixture time is defined as the time to develop a shear strength of 0.1 N/mm².\n\nUV Fixture Time, Glass microscope slides, seconds:\n\n6 mW/cm², measured @ 365 nm 5 to 20\n\n30 mW/cm², measured @ 365 nm 4\n\n100 mW/cm², measured @ 365 nm 1\n\n## Depth of Cure\n\nThe following graphs show the effect of light source, light intensity and exposure time on depth of cure for LOCTITE® AA 3492™\n\n![img-0.jpeg](img-0.jpeg)\n\nHenkel",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 410,
+          "top_left_y": 614,
+          "bottom_right_x": 749,
+          "bottom_right_y": 808,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TDS LOCTITE® AA 3492™, November 2014\n\n![img-1.jpeg](img-1.jpeg)\n\n## TYPICAL PROPERTIES OF CURED MATERIAL\n\n### Physical Properties\n\n|  Shore Hardness, ISO 868, Durometer D | 79  |\n| --- | --- |\n|  Elongation, at yield, ISO 527-2, % | 4  |\n|  Elongation, at break, ISO 527-2, % | 5  |\n|  Tensile Strength, at yield, ISO 527-3 | N/mm² (psi) 38.6 (5,600)  |\n|  Tensile Strength, at break, ISO 527-3 | N/mm² (psi) 36.6 (5,300)  |\n|  Tensile Modulus, ISO 527-3 | N/mm² (psi) 1,384 (200,800)  |\n\n## TYPICAL PERFORMANCE OF CURED MATERIAL\n\n### Adhesive Properties\n\n|  Lap Shear Strength, ISO 4587:  |   |   |\n| --- | --- | --- |\n|  Glass to Glass | N/mm² (psi) | 4.1 (600)  |\n|  Block Shear Strength, ISO 13445:  |   |   |\n|  Steel to Glass | N/mm² (psi) | 8.3 (1,200)  |\n|  Aluminum to Glass | N/mm² (psi) | 4.1 (600)  |\n|  Stainless steel to Glass | N/mm² (psi) | 2.6 (370)  |\n|  G-10 Epoxyglass to Glass | N/mm² (psi) | 3.4 (490)  |\n|  PVC to Glass | N/mm² (psi) | 2.8 (410)  |\n|  ABS to Glass | N/mm² (psi) | 1 (145)  |\n|  Polycarbonate to Glass | N/mm² (psi) | 1.2 (180)  |\n|  Acrylic to Glass | N/mm² (psi) | 1 (145)  |\n|  135° Peel Strength:  |   |   |\n|  Glass | N/mm (lb/in) | 8.8 (50)  |\n\nCured @ 6 mW/cm², measured @ 365 nm, for 30 seconds\nTorsional Shear Strength, ASTM D 3658:\nAluminum hex button to Glass N·m ≥47.5(LBS) (lb·ft) (≥35)\n\n## TYPICAL ENVIRONMENTAL RESISTANCE\n\n## Heat Aging\n\nAged at temperature indicated and tested @ 22 °C\n\nLap Shear Strength, ISO 4587, % of initial strength:\nGlass to Glass:\nAged @ 121 °C for 500 hours 100\nAged @ 121 °C for 1,000 hours 100\nAged @ 149 °C for 500 hours 100\nAged @ 149 °C for 1,000 hours 100\n\nTorsional Shear Strength, ASTM D 3658, % of initial strength:\nAluminum hex button to Glass:\nAged @ 121 °C for 500 hours 100\nAged @ 121 °C for 1,000 hours 100\nAged @ 149 °C for 500 hours 95\nAged @ 149 °C for 1,000 hours 55\n\n## Humidity Resistance\n\nAged @ 49°C / condensing humidity and tested @ 22 °C\n\nTorsional Shear Strength, ASTM D 3658, % of initial strength:\nAluminum hex button to Glass:\nAged 2 weeks 100\nAged 4 weeks 100\n\nLap Shear Strength, ISO 4587, % of initial strength:\nGlass to Glass:\nAged 2 weeks 100\nAged 4 weeks 100\n\nBlock Shear Strength, ISO 13445, % of initial strength:\nAluminum to Glass:\nAged 2 weeks 100\nAged 4 weeks 100\n\nStainless steel to Glass:\nAged 2 weeks 100\nAged 4 weeks 100\n\nG-10 Epoxyglass to Glass:\nAged 2 weeks 100\nAged 4 weeks 100\n\nPVC to Glass:\nAged 2 weeks 70\nAged 4 weeks 60\n\nABS to Glass:\nAged 2 weeks 100\nAged 4 weeks 70\n\nPolycarbonate to Glass:\nAged 2 weeks 100\nAged 4 weeks 90\n\nAcrylic to Glass:\nAged 2 weeks 95\nAged 4 weeks 75\n\n## Dishwasher Cycle Resistance\n\nAged at continuous dishwasher cycling and tested at 22°C:\nTorsional Shear Strength, ASTM D 3658, % of initial strength:\nAluminum hex button to Glass:\n\nHenkel Americas\n+860.571.5100\nHenkel Europe\n+49.89.320800.1800\nHenkel Asia Pacific\n+86.21.2891.8859\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 48,
+          "top_left_y": 52,
+          "bottom_right_x": 388,
+          "bottom_right_y": 247,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TDS LOCTITE® AA 3492™, November 2014\n\nAged 25 Cycles 100\n\nLap Shear Strength, ISO 4587, % of initial strength:\nGlass to Glass:\nAged 25 Cycles 100\n\nBlock Shear Strength, ISO 13445, % of initial strength:\nAluminum to Glass:\nAged 25 Cycles 100\n\nStainless steel to Glass:\nAged 25 Cycles 100\n\nG-10 Epoxyglass to Glass:\nAged 25 Cycles 100\n\nPVC to Glass:\nAged 25 Cycles 50\n\nABS to Glass:\nAged 25 Cycles 65\n\nPolycarbonate to Glass:\nAged 25 Cycles 60\n\nAcrylic to Glass:\nAged 25 Cycles 90\n\n## GENERAL INFORMATION\n\nThis product is not recommended for use in pure oxygen and/or oxygen rich systems and should not be selected as a sealant for chlorine or other strong oxidizing materials.\n\nFor safe handling information on this product, consult the Safety Data Sheet (SDS).\n\n## Directions for use:\n\n1. This product is light sensitive; exposure to daylight, UV light and artificial lighting should be kept to a minimum during storage and handling.\n2. The product should be dispensed from applicators with black feedlines.\n3. For best performance bond surfaces should be clean and free from grease.\n4. Cure rate is dependent on lamp intensity, distance from light source, depth of cure needed or bondline gap and light transmittance of the substrate through which the radiation must pass.\n5. Recommended intensity for cure in an adhesive application (between substrates) is 40mW/cm² minimum (measured at the bondline) with an exposure time of 5-6 times the fixture time at this same intensity.\n6. For tack free surface cure, as necessary in coating, potting or tacking applications, higher intensity UV is required (100mW/cm² minimum).\n7. Cooling should be provided for temperature sensitive substrates such as thermoplastics.\n8. Plastic grades should be checked for risk of stress cracking when exposed to liquid adhesive.\n9. Excess uncured adhesive can be wiped away with organic solvent (e.g. Acetone).\n10. Bonds should be allowed to cool before subjecting to any service loads.\n\n## Loctite Material SpecificationLMS\n\nLMS dated September 1, 1995. Test reports for each batch are available for the indicated properties. LMS test reports include selected QC test parameters considered appropriate to specifications for customer use. Additionally, comprehensive controls are in place to assure product quality and consistency. Special customer specification requirements may be coordinated through Henkel Quality.\n\n## Storage\n\nStore product in the unopened container in a dry location. Storage information may be indicated on the product container labeling.\n\n**Optimal Storage: 8 °C to 21 °C. Storage below 8 °C or greater than 28 °C can adversely affect product properties.**\n\nMaterial removed from containers may be contaminated during use. Do not return product to the original container. Henkel Corporation cannot assume responsibility for product which has been contaminated or stored under conditions other than those previously indicated. If additional information is required, please contact your local Technical Service Center or Customer Service Representative.\n\n## Conversions\n\n(°C × 1.8) + 32 = °F\nkV/mm × 25.4 = V/mil\nmm / 25.4 = inches\nμm / 25.4 = mil\nN × 0.225 = lb\nN/mm × 5.71 = lb/in\nN/mm² × 145 = psi\nMPa × 145 = psi\nN·m × 8.851 = lb·in\nN·m × 0.738 = lb·ft\nN·mm × 0.142 = oz·in\nmPa·s = cP\n\n## Note:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. The product can have a variety of different applications as well as differing application and working conditions in your environment that are beyond our control. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product.\n\nAny liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Belgium NV, Henkel Electronic Materials NV, Henkel Nederland BV, Henkel Technologies France SAS and Henkel France SA please additionally note the following:\n\nIn case Henkel would be nevertheless held liable, on whatever legal ground, Henkel's liability will in no event exceed the amount of the concerned delivery.\n\nIn case products are delivered by Henkel Colombiana, S.A.S. the following disclaimer is applicable:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product.\n\nAny liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Corporation, Resin Technology Group, Inc., or Henkel Canada Corporation, the following disclaimer is applicable:\n\nThe data contained herein are furnished for information only and are believed to\n\nHenkel Americas\n+860.571.5100\nHenkel Europe\n+49.89.320800.1800\nHenkel Asia Pacific\n+86.21.2891.8859\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TDS LOCTITE® AA 3492™, November 2014\n\nbe reliable. We cannot assume responsibility for the results obtained by others over whose methods we have no control. It is the user's responsibility to determine suitability for the user's purpose of any production methods mentioned herein and to adopt such precautions as may be advisable for the protection of property and of persons against any hazards that may be involved in the handling and use thereof. In light of the foregoing, Henkel Corporation specifically disclaims all warranties expressed or implied, including warranties of merchantability or fitness for a particular purpose, arising from sale or use of Henkel Corporation's products. Henkel Corporation specifically disclaims any liability for consequential or incidental damages of any kind, including lost profits. The discussion herein of various processes or compositions is not to be interpreted as representation that they are free from domination of patents owned by others or as a license under any Henkel Corporation patents that may cover such processes or compositions. We recommend that each prospective user test his proposed application before repetitive use, using this data as a guide. This product may be covered by one or more United States or foreign patents or patent applications.\n\nTrademark usage: [Except as otherwise noted] All trademarks in this document are trademarks and/or registered trademarks of Henkel and its affiliates in the U.S. and elsewhere.\n\nReference 1.2\n\nHenkel Americas\n+860.571.5100\nHenkel Europe\n+49.89.320800.1800\nHenkel Asia Pacific\n+86.21.2891.8859\nFor the most direct access to local sales and technical support visit: www.henkel.com/industrial",
+      "images": [],
+      "dimensions": {
+        "dpi": 96,
+        "height": 1016,
+        "width": 776
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 93802
+  },
+  "document_annotation": null
+}

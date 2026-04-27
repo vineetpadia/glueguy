@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB7784\n\nThreeBond\n\nJune 23, 2006\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 7784\n\n# Instant adhesive Gold Label Series (ultra-rapid curing type)\n\n## 1. Outline\n\nThreeBond 7784 is a ultra-rapid curing type instant adhesive whose main component is ethyl-α-cyanoacrylate. When a thin layer of the adhesive is applied to one of substrates and the substrates are laminated, the adhesive causes a chemical reaction in several seconds to a few minutes with the aid of a trace amount of water on the bonded surfaces and becomes a rigid cured substance. It can bond various materials remarkably quickly.\n\n(Hereinafter, ThreeBond is abbreviated to TB.)\n\n## 2. Features\n\n(1) The adhesive exhibits high adhesion instantaneously (within 2 seconds to 3 minutes).\n(2) It is a one-part adhesive, which can be used readily.\n(3) It excels in quick-curing properties and bonds various materials (porous and acid materials) in a short time.\n(4) It is useful in reducing the working hours and improving the working efficiency.\n(5) It firmly bonds a wide range of materials.\n\n## 3. Uses\n\n(1) General parts that must be bonded quickly\n(2) Bonding requiring permeability\n(3) Temporary fixing for bonding with adhesives, such as epoxy resins and acrylic adhesives, that require time or fixing jig to cure\n\n## 4. Properties and characteristics\n\n### 4.1 Properties and set time of TB7784 liquid\n\nTable 1 Properties and set time of TB7784 liquid\n\n|  Test item | Substrate | Unit | TB7784 | Existing product (quick-curing) | Test method  |\n| --- | --- | --- | --- | --- | --- |\n|  Appearance | - | - | Colorless to clear light yellow | Colorless to clear light yellow | 3TS-201-01  |\n|  Viscosity | - | mPa·s | 160 | 150 | 3TS-210-01  |\n|  Specific gravity (25°C) | - | - | 1.05 | 1.06 | 3TS-213-02  |\n|  Set time (25°C, 50%RH) | NBR | sec | 2 | 3 | 3TS-220-01  |\n|   |  Iron |   | 3 | 5 | 3TS-220-04  |\n|   |  PC |   | 10 | 15  |   |\n|   |  PBT |   | 7 | 15  |   |\n|   |  Japanese cypress |   | 15 | 45  |   |\n|   |  Acid paper |   | 7 | 15 | -  |\n|  Tensile shear bond strength (25°C, 50%RH, for 24 hrs.) | Iron | MPa | 15.3 | 18.0 | 3TS-301-11  |\n|   |  PBT |   | 4.5 | 4.5  |   |\n\nNote: Set time: As iron test pieces, SPCC-SB substrates that had been degreased only were used. The test pieces of other materials were used without treatment.\n\n### 4.2 Adhesion to various substrates\n\nFor the test of tensile shear bond strength, the metallic test pieces were sandblasted. The test pieces of other materials were used without treatment. The test pieces were bonded with the adhesive in an environment with a relative humidity of 50% at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, the adhesion was measured at room temperature.\n\nTest method: Tensile shear bond strength (3TS-301-11)\n\nTable 2 Adhesion of TB7784 to various substrates\n\n|  Substrate | Tensile shear bond strength (MPa)  |\n| --- | --- |\n|  Iron | 15.3  |\n|  Aluminum | 16.1  |\n|  SUS | 15.4  |\n|  Brass | 11.5  |\n|  Copper | 13.3  |\n|  Nickel | 15.7  |\n|  Zinc chromate | 8.0  |\n|  Hard PVC | 4.4 (*)  |\n|  PC (polycarbonate) | 6.9 (*)  |\n|  Phenol | 10.8 (*)  |\n|  Nylon 6 | 7.5 (*)  |\n|  Nylon 6,6 | 12.0 (*)  |\n|  Noryl | 9.8 (*)  |\n|  ABS (acrylonitrile-butadiene-styrene resin) | 6.3 (*)  |\n|  Glass epoxy | 18.8  |\n|  PBT (polybutylene terephthalate) | 4.5  |\n|  PET (polyethylene terephthalate) | 10.6 (*)  |\n|  PPO (polyphenylene oxide) | 6.8  |\n|  PPS (polyphenylene sulfide) | 2.5  |\n|  HIPS (high-impact polystyrene) | 4.4 (*)  |\n|  Acrylic | 8.7 (*)  |\n|  Polyacetal | 1.3  |\n|  NR (natural rubber) | 0.4 (*)  |\n|  CR (chloroprene rubber) | 0.6 (*)  |\n|  NBR (nitrile-based rubber) | 0.8 (*)  |\n|  SBR (styrene-butadiene rubber) | 1.7 (*)  |\n|  EPDM (ethylene propylene diene monomer) | 0.8 (*)  |\n|  Acid paper | - (*)  |\n|  Balsa | 1.8 (*)  |\n|  Lauan (veneer) | 8.3 (*)  |\n|  Japanese cypress | 10.5 (*)  |\n\nNote: * indicates material failure of the substrate.\n\nED061004",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB7784\n\n## 4.3 Adhesion under various humidity conditions\n\nTest pieces were bonded with the adhesive under various humidity conditions at a constant temperature (25°C), and the adhesive was cured in the same environment for the predetermined time. Then, the tensile shear bond strength was measured at room temperature.\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Adhesion of TB7784 under various humidity conditions\n\n## 4.4 Characteristics of cured TB7784\n\nTable 3 Characteristics of cured TB7784\n\n|  Test item | Unit | Characteristic value | Test method  |\n| --- | --- | --- | --- |\n|  Linear expansion coefficient (0 to 100°C) | /°C | 83 - 135 | 3TS-501-05  |\n|  Glass transition point (DMA E° peak) | °C | 118 | 3TS-501-04  |\n|  Hardness | - | D82 | 3TS-215-01  |\n|  Dielectric breakdown voltage | kV/mm | 26 | 3TS-406-01  |\n|  Volume resistivity | Ω·m | 1.46 × 10^{14} | 3TS-401-01  |\n|  Surface resistivity | Ω | 1.82 × 10^{15} | 3TS-402-01  |\n|  Dielectric constant | 1kHz | - | 6.08  |\n|   |  1MHz | - | 5.29  |\n|  Dielectric loss tangent | 1kHz | - | 0.037  |\n|   |  1MHz | - | 0.028  |\n\n## 5. Durability\n\n### 5.1 Thermal resistance\n\nSteel sheet test pieces were bonded with the adhesive in an environment with 50% RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, after aging at various temperatures for the predetermined time, the test pieces were cooled to room temperature, and the tensile shear bond strength was measured (3TS-301-11).\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Thermal resistance of TB7784\n\n### 5.2 Moisture resistance\n\nAluminum test pieces were bonded with the adhesive in an environment with 50% RH at 25°C, and the adhesive was cured for 24 hours in the same environment. Then, after aging at various temperatures and amount of moistures for the predetermined time, the test pieces were cooled to room temperature, and the tensile shear bond strength was measured (3TS-301-11).\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Moisture resistance of TB7784\n\n## 6. Chemical resistance\n\nAfter test pieces for measurement of tensile shear bond strength (Fe/Fe) were immersed in each chemical under the following conditions for 250 hours, the tensile shear bond strength was measured at room temperature.\n\nTable 4 Resistance of TB7784 to various chemicals\n\n|  Chemical | Immersion temp. | Tensile shear bond strength (MPa)  |\n| --- | --- | --- |\n|  Before immersion | - | 15.3  |\n|  Isopropyl alcohol | 25°C | 17.9  |\n|  Toluene | 25°C | 16.0  |\n|  Gasoline | 25°C | 15.7  |\n|  Engine oil | 40°C | 17.1  |\n|  Long-life coolant (50% aq.) | 25°C | 15.0  |\n\n## 7. Usage\n\n(1) Remove moisture, oil, rust and other contaminants from the surface to be bonded and the fitting area.\n(2) Apply the adhesive to the surface to be bonded and the fitting area. The thinner the adhesive is applied, the higher the adhesion can be obtained.\n(3) Rub the surfaces to spread the adhesive liquid thin and uniformly, and fix them in the specified position.\n(4) The time to bond slightly varies depending on the kind and surface conditions of the substrate. The adhesive solidifies within 2 seconds to 3 minutes and exhibits practical strength in 30 minutes to 2 hours.\n\n## 8. Storage\n\nThe adhesive deteriorates in quality under the influence of high temperature, high humidity and ultraviolet light. After using it, fit the cap tightly, and store it in a dark dry place at 5 to 10°C (in a refrigerator) avoiding direct sunlight.\n\nED061004",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 66,
+          "top_left_y": 170,
+          "bottom_right_x": 320,
+          "bottom_right_y": 361,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 70,
+          "top_left_y": 732,
+          "bottom_right_x": 337,
+          "bottom_right_y": 910,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 367,
+          "top_left_y": 203,
+          "bottom_right_x": 644,
+          "bottom_right_y": 389,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB7784\n\n## 9. Disposal\n\nAfter the adhesive has all been used, have the container disposed of as industrial waste by authorized industrial waste disposal services.\n\n## 10. Applicable laws\n\n(1) Fire Defense Law: Fourth class, third type petroleum product. Hazard class III. Cyanoacrylate adhesive. Flammable.\n(2) Labor Safety and Sanitation Law: Not applicable\n\n## 11. Instructions for use\n\n- Use and store the adhesive out of reach of children.\n- It is flammable. Do not use it near fire.\n- It can irritate the eyes, skin and respiratory organs. When using it, wear appropriate protective clothings, such as a mask, gloves (not permeable) and goggles. Use it in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n- If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention. While washing the eyes, take care not to blink too frequently or rub the eyes. Never use a stripper or an agent, as doing so may damage the eyeballs.\n- If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n- If any abnormality is found in the body, stop using the adhesive, and get medical attention.\n- Do not use it on the human body.\n- Persons who have allergies or sensitive skin should avoid using it.\n- The adhesive may spout from the nozzle. Do not open the cap with the nozzle pointing towards someone.\n- It strongly and quickly bonds the skin and mucous membranes. Handle it carefully.\n- If fingers are bonded with it and cannot be separated, do not separate the fingers forcibly. Separate them by rubbing them in warm water at 40°C or so.\n- If it adheres to clothing, the skin may be scalded with the heat generated by chemical reaction. Carefully handle it.\n- It may generate a large amount of heat and foams depending on the curing conditions. Sufficiently check the conditions prior to use.\n- Do not put it near alkaline substances, such as cure accelerators and epoxy resin cure agents.\n- To prevent condensation, unseal the container after it reaches room temperature.\n- Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n- Some materials may be deformed by the heat of chemical reaction.\n- Some materials may deteriorate if this product is used.\n- If some adhesive overflow remains, the periphery of the bonded part becomes whitish with the solidified vapor of the adhesive.\n- It does not adhere to polyethylene, polypropylene, fluoroplastics, silicone resin, soft vinyl chloride or glass.\n- For hazard and toxicity information not mentioned herein, see the MSDS (material safety data sheet).\n\n## 12. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product was developed for general industrial use. Before using the product, accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but actual measurements obtained by our specified test methods. We do not assure that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to examine prior to use whether the product is appropriate to the purpose of use and safe to use for the purpose and bear all responsibilities and hazards involved in its use. Never use the product for medical implant products that will be implanted or infused or may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of the product. If the properties and usage of the product are unknown, never use it.\n- For the detailed safety information on the product, see the material safety data sheet (MSDS). To obtain the MSDS, contact one of our offices or customer service centers.\n- The contents of this document are subject to change at our own discretion.\n\nED061004",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 153968
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,21 @@
+Official ThreeBond TB2418 OCR fallback extracted from the official scanned PDF because pdftotext returns a blank text layer.
+
+Product: ThreeBond 2418 pre-coated bolts MEC process, water-based acrylic heat-resistance type. Technical Data, January 13, 2011, Three Bond Co., Ltd., document ED2011003.
+
+Product description: acrylic-based sealing and locking agent for pre-coated bolts. Water-based microencapsulated threadlocking agent; microcapsules break when the processed bolt is screwed and acrylic resin reacts with curing agent to prevent leakage and loosening.
+
+Features: medium fixing strength; heat resistance locking 150 C and sealing 170 C; minimum screw diameter M3; standard drying 25 C for 24 h. Applications: locking and sealing of bolts and screws. Properties: primary component acrylic resin; color yellow.
+
+Curing-rate average fixing strength / breaking torque in N.m, M10 x P1.5 zinc chromate bolt/nut, 30 N.m tightening torque: -5 C: 0.5h 39.6, 3h 41.7, 6h 42.6, 12h 44.1, 24h 45.2, 48h 49.4, 72h 49.3. 5 C: 40.0, 43.1, 44.1, 45.1, 47.9, 49.8, 50.0. 10 C: 40.3, 44.0, 45.4, 46.2, 48.0, 49.5, 50.4. 25 C: 40.8, 45.1, 48.0, 48.7, 49.1, 50.4. 40 C: 41.0, 46.9, 48.5, 48.3, 49.3, 50.0.
+
+Average fixing strength by size in N.m after 25 C x24 h: M3 P0.35 1.1, M4 P0.7 2.2, M6 P1.0 10.2, M8 P1.25 19.5, M10 P1.25 49.4, M10 P1.5 49.1, M12 P1.25 81.4, M12 P1.5 80.7, M12 P1.75 77.1, M14 P2.0 128.8.
+
+Average fixing strength by material in N.m, M10 P1.5: plain steel 49.8, zinc plating chromate 49.1, chromium plating 50.3, nickel plating 50.4, unichrome plating 50.2, black oxide 46.1, SUS304 47.8, brass 26.2, aluminum 26.8.
+
+Chemical resistance average fixing strength in N.m: blank 49.1, NaOH 10% aq 25 C x7d 50.5, gas oil 40 C x7d 44.1, gasoline 40 C x7d 46.0, n-hexane 40 C x7d 45.6, methanol 40 C x7d 49.2, water 100 C x7d 48.9, ethylene glycol 100 C x7d 45.5, ethylene glycol 50% aq 100 C x7d 44.0, engine oil 100 C x7d 42.7, turbine oil 100 C x7d 42.7, ATF 100 C x7d 42.1, gear oil 100 C x7d 44.1.
+
+Heat deterioration average fixing strength in N.m after 25 C x24 h cure: 100 C initial 49.1, 7d 48.3, 14d 48.7, 21d 47.9, 28d 48.2; 120 C initial 49.1, 7d 48.7, 14d 46.6, 21d 46.1, 28d 45.3; 150 C initial 49.1, 7d 46.3, 14d 45.0, 21d 43.7, 28d 42.7.
+
+Average fixing strength by 2 h test temperature in N.m: 25 C 49.1, 60 C 45.6, 80 C 42.9, 100 C 40.5, 130 C 38.3, 150 C 33.2, 180 C 26.2, 200 C 19.0.
+
+Axial force average in kN by tightening torque: 20 N.m 5.4, 30 N.m 7.9, 40 N.m 10.9, 50 N.m 13.6, 60 N.m 16.0. Sealability test uses nitrogen gas; pressure increased from 0.5 MPa to 2.0 MPa, n=10, measurement 3TS-350-01.

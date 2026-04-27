@@ -1,0 +1,172 @@
+                                                                                                                                                                     PERMABOND® HH040
+                                                                                                        Permabond activator A905 or ASC10. Alternatively, increasing the curing
+                                                                                                        temperature will reduce curing time.                            Anaerobic Retainer
+                                                                                                                                                                                                Technical Datasheet
+
+Features & Benefits
+             Simple one-part system                                                                        Strength Development
+             Shaft-hub assemblies can be made with slip fits
+                                                                                                                                       100
+             Expensive press fits can be eliminated
+
+
+
+
+                                                                                                             % Full Strength (steel)
+             High viscosity for maximum gap filling ability                                                                            80
+             Excellent shear strength                                                                                                  60
+             Superior environmental resistance                                                                                         40
+             Thixotropic viscosity allows easy dispensing
+                                                                                                                                       20
+                                                                                                                                        0
+Description
+
+
+
+
+                                                                                                                                                                                                                24h
+                                                                                                                                             1 min
+                                                                                                                                                     5 min
+                                                                                                                                                             7 min
+
+
+
+
+                                                                                                                                                                                                                      72h
+                                                                                                                                                                                                                            7 days
+                                                                                                                                                                     10 min
+                                                                                                                                                                              15 min
+                                                                                                                                                                                       30 min
+                                                                                                                                                                                                1h
+                                                                                                                                                                                                     3h
+                                                                                                                                                                                                          6h
+Permabond® HH040 is a single component liquid that
+cures only when in contact with metal parts and oxygen is
+excluded. The liquid adhesive fills the “air space” between                                                                                          Brass                                      Mild Steel
+parts and upon cure unitizes and retains male and female
+                                                                                                                                                     Zinc                                       Stainless steel
+parts. Thus it prevents their movement relative to each
+other, eliminating wear, erosion, and pitting. HH040 cures
+to a tough cross-linked plastic that will prevent the                                                   *Cure times are typical at 23°C. Copper and its alloys will follow the
+corrosion of mated parts and provides excellent                                                         faster cure while oxidised or passivated surfaces like stainless steel will
+environmental and temperature resistance.                                                               tend towards the slower curve. Lower temperatures or large gaps will
+                                                                                                        tend to extend the cure time. To reduce the cure time the use of
+                                                                                                        Permabond A905, ASC10, or heat can be considered.
+Physical Properties of Uncured Adhesive
+  Chemical composition                     Acrylic
+                                                                                                        Typical Performance of Cured Adhesive
+  Appearance                               Green                                                       Torque strength (M10
+                                                                                                                                                                     Break 25 N·m 220 in.lb
+                                                                                                       steel
+  Viscosity @ 25°C                         5,000 mPa.s (cP) Thixotropic                                                                                              Prevail 37 N·m 330 in.lb
+                                                                                                       ISO10964)
+                                                                                                       Shear strength (steel
+  Specific Gravity                         1.1                                                                                                                       14 MPa 2000 psi
+                                                                                                       collar & pin ISO10123)
+  UV fluorescence                          Yes                                                         Coefficient of thermal
+                                                                                                                                                                     90 x 10-6 mm/mm/°C
+                                                                                                       expansion
+                                                                                                       Dielectric strength                                           11 kV/mm
+Typical Curing Properties
+  Maximum gap fill                                   0.25 mm 0.01 in                                   Thermal conductivity                                          0.2 W/(m.K)
+  Maximum thread size                                M30 ¾"
+  Time taken to reach handling
+                                                     15 minutes*                                        Effect of Anaerobic Retaining Compound on
+  strength (M10 steel) @23°C
+  Time taken to reach working                                                                           Push-Off Forceᶧ
+                                                     1 hour
+  strength (M10 steel) @23°C                                                                                                   Clearance                                               Finish (micro-        Push-Off force
+                                                                                                                               (inches)                                                inches)               (psi)
+  Full strength (M10 steel) @23°C                    24 hours                                             Interference fit -0.0005                                                     6                     2100
+*Handling time at 23°C / 73°F. Copper and its alloys will make the                                        Slip fit HH040       +0.002                                                  6                     2350
+adhesive cure more quickly, while oxidised or passivated surfaces (like                                   Slip fit HH040       +0.002                                                  63                    3400
+stainless steel) will reduce cure speed. To reduce curing time, use                                     ᶧ1/2 inch steel collar & pin.
+
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guaran tee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond HH040                                                                   Global TDS Revision 3                                      17 October 2016                                         Page 1/2
+                                  FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+        Hot Strength                                                                                    Surface Preparation
+                      100                                                                               Though the anaerobic adhesives will tolerate a slight degree of
+                                                                                                        surface contamination, best results are obtained on clean, dry
+                                                                                                        and grease free surfaces. The use of a suitable solvent-based
+% Strength Retained
+
+
+
+
+                      80
+                                                                                                        cleaner (such as acetone or isopropanol) is recommended.
+                                                                                                        In general, roughened surfaces (~25μm) give higher bond
+                      60                                                                                strengths than polished or ground surfaces.
+                                                                                                        To reduce the curing time, especially on inactive surfaces (such
+                      40                                                                                as zinc, aluminium and stainless steel), the use of Permabond
+                                                                                                        A905 or ASC10 can be considered.
+                      20
+                                                                                                        Directions for Use
+                       0
+                                                                                                               1.     On slip fitted assemblies, apply adhesive on the leading
+                            0        50       100       150            200            250                             edge of the pin and on the inside of the collar.
+                                            Temperature (°C)                                                   2.     Assemble with twisting action.
+                                                                                                               3.     On press fitting assemblies, apply the adhesive on the
+                                                                                                                      pin and collar. Assemble using a press.
+                                High Temperature Grades                 HH040
+                                                                                                               4.     On shrink fitted assemblies, apply the adhesive to the
+ “Hot strength” Breakaway strength on M10 Zinc plated bolts according                                                 pin, heat the collar to create enough clearance and
+to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes                                              assemble.
+at testing temperature.                                                                                        5.     Allow the parts to fixture before disturbing them.
+HH040 can withstand higher temperatures for brief periods
+(such as for paint baking and wave soldering processes)
+providing the joint is not unduly stressed. The minimum
+                                                                                                        Video Link
+temperature the cured adhesive can be exposed to is -55°C (-                                            Retaining compound directions for use:
+65°F) depending on the materials being bonded.                                                          https://youtu.be/MUODE5ZfrZ8
+
+                                                                                                        This product is not recommended for use in contact with oxygen,
+                                                                                                        oxygen rich systems and other strong oxidizing materials. This product
+                                                                                                        may adversely affect some thermoplastics and users must check
+Joint Strength                                                                                          compatibility of the product with such substrates before using.
+
+The amount of bonded area, the bondline thickness and
+the surface finish of the cylindrical parts determine the                                               Storage & Handling
+strength of a joint.
+The bond area and bondline thickness (clearance) depend                                                Storage Temperature                                5 to 25°C (41 to 77°F)
+on the design of the joint. As the gap (clearance) between
+                                                                                                       Users are reminded that all materials, whether innocuous or not, should
+parts increases, some loss of strength is experienced.                                                 be handled in accordance with the principles of good industrial hygiene.
+Maximum strength is obtained when the diametrical                                                      Full information can be obtained from the Safety Data Sheet.
+clearance does not exceed 0.005 inches.
+  Clearance    % Strength                           Surface Finish          % Strength
+  (inches)     Retained                             (micro-inches)*         Retained                    This Technical Datasheet (TDS) offers guideline
+  0.0025       93%                                  8                       45%                         information and does not constitute a specification.
+  0.0050       91%                                  32                      57%
+  0.0075       85%                                  64                      70%
+  0.0100       62%                                  70                      100%
+                                                                                                                                                           www.permabond.com
+* Micro-inches = 1 x 10-6 in.
+                                                                                                                                                             • UK: 0800 975 9800
+A machine finish will usually yield a surface roughness of
+                                                                                                                                        • General Enquiries: +44 (0)1962 711661
+60 to 80 micro-inches that will typically give optimum                                                                                                        • US: 732-868-1372
+strength when using HH040.                                                                                                                              • Asia: + 86 21 5773 4913
+                                                                                                                                                  info.europe@permabond.com
+                                                                                                                                                   info.americas@permabond.com
+                                                                                                                                                        info.asia@permabond.com
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guaran tee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond HH040                                                                   Global TDS Revision 3                    17 October 2016                          Page 2/2
+                                          FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

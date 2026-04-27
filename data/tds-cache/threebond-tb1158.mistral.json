@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1158\n\nThreeBond\n\nTechnical Data\n\nJune 22, 2005\n\nThree Bond Co., Ltd.\n\n# ThreeBond 1158\n\n# Acrylic-based liquid gasket\n\n## 1. Outline\n\nThreeBond 1158 is a one-part room temperature curing (RTV) acrylic-based sealant. After curing, the sealant becomes a rubber-like elastic body excelling in heat resistance, cold resistance and oil resistance. Since it is a paintable type of sealant, it is suitable for sealing areas of parts to be painted after the parts are assembled.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n1. Excellent heat resistance and cold resistance ensuring satisfactory rubber-like elasticity in a wide range of -30 to 150°C\n2. Excellent oil resistance\n3. Dealcoholized type of sealant having no corrosiveness to metals or unpleasant odor\n4. Paintable type\n5. Non-sag type\n\n## 3. Uses\n\n1. Sealing of parts requiring oil resistance\n2. Sealing of parts to be painted\n3. Sealing of various parts\n\n## 4. Properties\n\nTable 1 Properties of TB1158\n\n|  Test item | Unit | Property | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Black | 3TS-201-01 |   |\n|  Viscosity | Pa·s | 200 | 3TS-210-08 | At 25°C, SOD viscosity  |\n|  Specific gravity | - | 1.35 | 3TS-213-02 |   |\n|  Tack-free time | min | 15 | 3TS-219-05 | *  |\n|  Thick film curability | mm | 2.1 | 3TS-222-94 | *After 24 hrs  |\n\n* Curing conditions: At 23°C and 55%RH\n\nED071006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1158\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured sealant\n\nTable 2 Characteristics of TB1158 after curing\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | 20 | 3TS-215-01 | Type A durometer  |\n|  Elongation | % | 300 | 3TS-320-05 |   |\n|  Tensile strength | MPa | 1.8 | 3TS-320-05 |   |\n|  Tensile shear bond strength | MPa | 1.8 | 3TS-301-23 | Fe/Fe  |\n|  Tensile shear bond strength | MPa | 1.8 | 3TS-301-23 | Al/Al  |\n\nCuring conditions: At 23°C and 55%RH for 7 days\n\n## 5.2 Gear oil resistance\n\nTable 3 Gear oil resistance of TB1158\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | 38 | 3TS-215-01 | Type A durometer  |\n|  Elongation | % | 220 | 3TS-320-05 |   |\n|  Tensile strength | MPa | 2.4 | 3TS-320-05 |   |\n|  Tensile shear bond strength | MPa | 3.0 | 3TS-301-23 | Fe/Fe  |\n|  Tensile shear bond strength | MPa | 3.0 | 3TS-301-23 | Al/Al  |\n\nCuring conditions: At 23°C and 55%RH for 7 days\nImmersion conditions: GL-3, 75W-90, at 120°C for 10 days\n\n## 5.3 Initial pressure resistance\n\nTable 4 Initial pressure resistance of TB1158\n\n|  Clearance | Unit | Characteristic  |\n| --- | --- | --- |\n|  0.5 mm | MPa | 0.04  |\n|  1.0 mm | MPa | 0.02  |\n\n* Test method: Apply the material to a part, assemble the part, and measure the leakage pressure after 30 minutes.\n\nFlange: Aluminum circular flange having width across flats of 4 mm and inner diameter of 72 mm\n\nClearance: 0.5 mm and 1.0 mm\n\nPressure increasing condition: Stepwise increase by 10 kPa every 15 seconds\n\nEnvironmental conditions: 23°C, 55%RH\n\n# 6. Usage\n\n(1) Cleanly wipe moisture, oil and other contaminants from the surfaces to be jointed.\n(2) After applying the sealant, assemble the part as soon as possible.\n\nED071006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1158\n\n# 7. Instructions for use\n\n(1) The sealant is harmful to the health. Do not touch it directly or inhale its vapor.\n(2) If it gets in the eyes, wash them with clean water for more than 15 minutes, and get medical attention.\n(3) Before washing the eyes, remove the contact lenses.\n(4) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(5) Ascertain in advance whether or not it affects the parts to be sealed with it. If any problem occurs, do not use it.\n(6) This product is an insulating material. Take care that it does not adhere to electric contacts.\n(7) It is flammable. Do not use it near fire.\n(8) It contains harmful components. Do not use it for drinking water or hot water supply piping.\n(9) Use it in a well-ventilated place.\n(10) Use and store it out of reach of children.\n(11) When using it, wear appropriate protectors (respiratory protective devices, protective goggles, protective gloves and protective clothing).\n(12) If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n(13) If any abnormality is found in the body, stop using the sealant, and get medical attention.\n(14) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n# 8. Storage\n\nTo prevent deterioration or entry of foreign matter, fit the cap tightly, and store it in a dry, cool and dark place avoiding direct sunlight.\n\n# 9. Disposal\n\nDispose of the product as industrial waste.\n\n# 10. Caution\n\nThe data given herein are not guaranteed values, but actual measurements obtained by us.\n\nGive a sufficient consideration of the use of this product in advance.\n\nFor industrial use only\n(Do not use it for household products.)\n\nBefore using this product, you must accept the following sales terms.\n\n(1) The technical data given herein are experimental values obtained by our\n\nED071006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1158\n\nspecified test methods. We do not absolutely guarantee the correctness and safety. Users are asked to examine by themselves whether the product is appropriate to the purpose of use before they use it and bear all responsibilities and hazards involved in its use.\n\nThe scope of guarantee includes only replacement of clearly defective items.\n\n(2) We are not liable for personal injury or property damage caused by improper handling of this product.\n\n(3) We are not liable for any matter not mentioned herein unless otherwise specified in the contract.\n\n* This technical document is subject to change without notice.\n\nED071006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 144578
+  },
+  "document_annotation": null
+}

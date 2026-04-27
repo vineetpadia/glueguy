@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® HH167\n\nAnaerobic Retainer\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Prevents corrosion\n- Very high strength\n- Solvent free\n- Room temperature cure\n- Metallic appearance\n\n# Description\n\nPermabond® HH167 is a high viscosity gap filling silver paste, which can be used for repairing metal machinery parts. It is ideal for repairing worn shafts, broken threads, damaged keyways and splines. Permabond HH167 has excellent chemical and temperature resistance. NB. This adhesive is only suitable for gaps &lt;0.5 mm and will not cure on the outside of a joint.\n\n## Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Acrylic  |\n| --- | --- |\n|  Appearance | Silver  |\n|  Viscosity @ 25°C | 2rpm: 500,000 mPa.s (cP)\n20rpm: 90,000 mPa.s (cP)  |\n|  Specific Gravity | 1.1  |\n|  UV fluorescence | No  |\n\n## Typical Curing Properties\n\n|  Maximum gap fill | 0.5 mm 0.02\"  |\n| --- | --- |\n|  Time taken to reach handling strength (M10 steel) @23°C | 15 minutes*  |\n|  Time taken to reach working strength (M10 steel) @23°C | 3-6 hours  |\n|  Full strength (M10 steel) @23°C | 24 hours  |\n\n*Handling time at 23°C / 73°F. Copper and its alloys will make the adhesive cure more quickly, while oxidised or passivated surfaces (like stainless steel) will reduce cure speed. To reduce curing time, use Permabond activator A905 or ASC10 alternatively, increasing the curing temperature will reduce curing time.\n\n## Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\n* Cure times are typical at 23°C. Copper and its alloys will follow the faster cure while oxidised or passivated surfaces like stainless steel will tend towards the slower curve. Lower temperatures or large gaps will tend to extend the cure time. To reduce the cure time the use of Permabond A905, ASC10, or heat can be considered.\n\n## Typical Performance of Cured Adhesive\n\n|  Torque strength (M10 steel ISO10964) | Break 45 N·m 400 in.lb\nPrevail 32 N·m 280 in.lb  |\n| --- | --- |\n|  Shear strength (steel collar & pin ISO10123) | 32 MPa 4700 psi  |\n|  Coefficient of thermal expansion | 90 x 10⁻⁶ mm/mm/°C  |\n|  Dielectric strength | 11 kV/mm  |\n|  Thermal conductivity | 0.19 W/(m.K)  |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HH167\n\nGlobal TDS Revision 7\n\n17 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 426,
+          "top_left_y": 237,
+          "bottom_right_x": 714,
+          "bottom_right_y": 437,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Hot Strength\n![img-1.jpeg](img-1.jpeg)\n\"Hot strength\" Breakaway strength on M10 Zinc plated bolts according to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes at testing temperature.\n\nHH167 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -55°C (-65°F) depending on the materials being bonded.\n\n# Chemical Resistance\n\n|  Immersion (1000 hours) | Temperature (°C) | Strength Retention (%)  |\n| --- | --- | --- |\n|  Engine Oil | 125 | 100  |\n|  Water/Glycol | 85 | 80  |\n|  Unleaded Petrol | 23 | 100  |\n|  Brake Fluid | 23 | 75  |\n|  99% IMS | 23 | 95  |\n|  Acetone | 23 | 80  |\n\nThis product is not recommended for use in contact with oxygen, oxygen rich systems and other strong oxidizing materials. This product may adversely affect some thermoplastics and users must check compatibility of the product with such substrates before using.\n\n# Surface Preparation\n\nThough the anaerobic adhesives will tolerate a slight degree of surface contamination, best results are obtained on clean, dry and grease free surfaces. The use of a suitable solvent-based cleaner (such as acetone or isopropanol) is recommended. In general, roughened surfaces (~25μm) give higher bond strengths than polished or ground surfaces.\n\nTo reduce the curing time, especially on inactive surfaces (such as zinc, aluminium and stainless steel), the use of Permabond A905 or ASC10 can be considered.\n\n# Directions for Use\n\n1) On slip fitted assemblies, apply adhesive on the leading edge of the pin and on the inside of the collar. Assemble with twisting action.\n2) On press fitting assemblies, apply the adhesive on the pin and collar. Assemble using a press.\n3) On shrink fitted assemblies, apply the adhesive to the pin, heat the collar to create enough clearance and assemble.\n4) Allow the parts to fixture before disturbing them.\n\n# Video Link\n\nRetaining compound directions for use: https://youtu.be/MUODE5ZfrZ8\n\n![img-2.jpeg](img-2.jpeg)\n\nStorage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n|  Users are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene. Full information can be obtained from the Safety Data Sheet.  |   |\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HH167\n\nGlobal TDS Revision 7\n\n17 October 2016\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 61,
+          "top_left_y": 134,
+          "bottom_right_x": 365,
+          "bottom_right_y": 382,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 635,
+          "top_left_y": 440,
+          "bottom_right_x": 694,
+          "bottom_right_y": 498,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/MUODE5ZfrZ8"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 336670
+  },
+  "document_annotation": null
+}

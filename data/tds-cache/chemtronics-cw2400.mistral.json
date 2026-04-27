@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Chemtronics®\nTechnical Data Sheet\nRev. L (8/18) Page 1 of 2\n\n# CircuitWorks® Conductive Epoxy\n\nProduct# CW2400\n\n## Product Description\n\nCircuitWorks Conductive Epoxy is a two part, silver epoxy used in prototype, repair and general conductive bonding applications. CW2400 features strong mechanical bonds, excellent electrical conductivity, and quick room temperature curing. CircuitWorks Conductive Epoxy bonds aggressively to a wide variety of materials.\n\n- Two-component product\n- Simple mixing ratios\n- Excellent electrical conductivity\n- Fast curing\n- High strength bond\n- Bonds dissimilar surfaces\n- Operating temperature range from\n- -131°F (-91°C) to 212°F (100°C)\n\n## Typical Applications\n\nCircuitWorks Conductive Epoxy may be used for electronics applications including:\n\n- Conductive bonds between heat sensitive components\n- Solderless surface mount connections\n- Circuit board trace repair\n- Static discharge and grounding\n- Solder repair\n- Conductive structural adhesions\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n\n## Typical Product Data and Physical Properties\n\n|  COMPOSITION:  |   |\n| --- | --- |\n|  Material: | Part A: Epoxy\nPart B: Hardener  |\n|  Specific Gravity:\n(Parts A & B mixed2) | 4.0  |\n|  CURED COMPOUND:  |   |\n|  Volume Resistivity: | <0.001 ohm-cm  |\n|  Thermal Conductivity:\nCal-cm/sec-cm² -°C | 3.8 x 10⁻³  |\n|  BTU-in/hr-ft² -°F | 11.0  |\n|  W/m·°K | 1.6  |\n|  Operating Temperature Range | -131 to 212°F\n(-91 to 100°C)  |\n|  Lap Shear:\n(ASTM D-1002) | >1200 lbs/in  |\n|  Shore Hardness: | >70  |\n|  Dropping Point:\n(ASTM D-2266) | None @ 650°F (343°C)  |\n|  Adhesion: | Excellent  |\n|  Cured Flexibility: | Excellent  |\n|  Chemical Resistance: | Excellent  |\n|  Moisture Resistance: | Good  |\n|  Typical Thickness: | 5 mil  |\n|  Shelflife\n(Conditions: Store at temperatures below 77°F (25°C) | 9 months  |\n|  RoHS Compliant | Yes  |\n\n1-770-424-4888 • www.chemtronics.com",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 52,
+          "top_left_y": 709,
+          "bottom_right_x": 392,
+          "bottom_right_y": 939,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 420,
+          "top_left_y": 159,
+          "bottom_right_x": 724,
+          "bottom_right_y": 454,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Technical Data Sheet\n\nRev. L (8/18) Page 2 of 2\n\n# CircuitWorks® Conductive Epoxy\n\nProduct# CW2400\n\n## Compatibility\n\nCircuitWorks Conductive Epoxy is generally compatible with most materials used in printed circuit board fabrication. As with any adhesive/sealant, compatibility with substrate should be determined on a non-critical area prior to use\n\n## Usage Instructions\n\nFor industrial use only. Read SDS carefully prior to use.\n\n**Cleaning:** For best results, clean the board with one of Chemtronics Electro-Wash or Pow-R-Wash cleaners in order to remove any surface contamination which may prevent adequate material contact.\n\n**Mixing:** Mix equal amounts (1:1) by weight or volume of Part A and Part B. Mix thoroughly for 2 minutes and apply within 8 minutes.\n\n**Thinning:** **Thinning:** Do not attempt to thin.\n\n**Curing:** Curing times and electrical conductivity depend primarily on temperature. For fastest curing times, maximum conductivity and adhesion, cure the bond between 150-250°F (65-121°C) for 5-10 minutes. CircuitWorks Conductive Epoxy can be room temperature cured at or above 75°F (25°C), for 4 hours. Maximum conductivity and bond strength are achieved in 24 hours. Curing at temperatures below 75°F (25°C) will result in a loss of conductivity and adhesion.\n\n**Pot Life:** 8-10 Minutes at 75°F (25°C) after mixing.\n\n## Availability\n\nCW2400\n7g/ 0.25 oz. Adhesive &amp;\n7g/ 0.25 oz. Hardener\n\n## Technical and Application Assistance\n\nChemtronics provides a technical hotline to answer your technical and application related questions.\n\nThe toll free number is: 1-800-TECH-401.\n\n## Note:\n\nThis information is believed to be accurate. It is intended for professional end users having the skills to evaluate and use the data properly. CHEMTRONICS does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nChemtronics®, Electro-Wash®, Pow-R-Wash® and CircuitWorks® are registered trademarks of Chemtronics. All rights reserved.\n\n8125 Cobb Center Drive, Kennesaw, GA 30152 • 1-770-424-4888 • www.chemtronics.com",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 564212
+  },
+  "document_annotation": null
+}

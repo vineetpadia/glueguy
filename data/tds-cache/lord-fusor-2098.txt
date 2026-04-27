@@ -1,0 +1,9 @@
+Official Parker LORD fallback extracted from web-visible technical data snippets when direct PDF download returned HTTP 403.
+
+Product: FUSOR 2098 Crash Durable Structural Adhesive (Slow).
+Technical data sheet positioning: two-component, epoxy-based structural metal bonding adhesive providing OEM-strength and crash-durable repairs.
+Applications called out in official snippet: weld bonding, rivet bonding, and bonding of replacement structural and non-structural auto body panels.
+Official benefit language in snippet: durable, higher impact strength performance, restores OEM NVH and crash durability.
+Handling guidance from official snippet: pre-fit new panel, plan mechanical fastening and clamp locations, drill rivet holes as needed, clean bonding surfaces with solvent before adhesive application.
+Interpretation for Glueboy: collision-repair structural epoxy for replacement body panel workflows; not a general consumer adhesive.
+Provenance note: this cache entry is a controlled text fallback because Parker blocks direct automated access to the PDF endpoint.

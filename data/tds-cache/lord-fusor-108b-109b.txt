@@ -1,0 +1,9 @@
+Official Parker LORD fallback extracted from web-visible technical data snippets when local automation encountered HTTP 403.
+
+Product: Fusor 108B/109B Metal Bonding Adhesive (Medium).
+Chemistry: two-component acrylic-based metal bonding adhesive.
+Applications: panel bonding, weld bonding and rivet bonding of properly prepared quarter panels, rear body panels, roof panels, door skins, van side panels and outer truck bed panels.
+Features and benefits: fast room-temperature snap cure, reduced cycle times, bonds bare metal / steel / aluminum, can be riveted and resistance welded, acrylic chemistry provides strong environmental resistance.
+Typical properties from official TDS snippet: appearance green paste; base chemistry acrylic; work time 40 minutes at 70 F / 21 C; clamp time 2 hours; cure time 4 hours.
+Bond performance values shown in official TDS snippet include room-temperature lap shear up to 2067 psi on ground CRS and 2029 psi on ground aluminum, plus elevated-temperature and low-temperature shear data and T-peel data on common automotive metals.
+Provenance note: this cache entry preserves the official TDS content in text form for reliable autonomous runs.

@@ -78,16 +78,128 @@
       "officialDomains": ["3m.com", "multimedia.3m.com"],
       "sources": [
         {
-          "label": "3M adhesives category",
-          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/",
+          "label": "3M Scotch-Weld category",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/b/scotch-weld/",
+          "extractor": "3m_adhesives_category",
+          "kind": "product",
+          "requestTimeout": 20,
+          "headers": {
+            "Accept-Encoding": "identity"
+          },
+          "maxUrls": 60,
+          "includeRegex": ["/3M/en_US/p/d(?:c)?/"],
+          "nameRequireRegex": ["adhesive", "sealant", "scotch-weld", "vhb", "jet-melt", "fastbond", "epoxy", "cyanoacrylate", "hot melt"],
+          "nameExcludeRegex": ["paper disc", "tape dispenser", "masking", "abrasive", "sandpaper", "primer", "activator", "repair paste", "film", "material", "pipe sealant"]
+        },
+        {
+          "label": "3M tapes category",
+          "url": "https://www.3m.com/3M/en_US/p/c/tapes/",
+          "extractor": "3m_adhesives_category",
+          "kind": "product",
+          "requestTimeout": 20,
+          "headers": {
+            "Accept-Encoding": "identity"
+          },
+          "maxUrls": 40,
+          "includeRegex": ["/3M/en_US/p/d(?:c)?/"],
+          "nameRequireRegex": ["vhb"],
+          "nameExcludeRegex": ["window", "dispenser", "protective film", "insulator kit", "mounting tape", "patch tape", "extrudable"]
+        }
+      ]
+    },
+    {
+      "name": "Henkel Loctite",
+      "priority": "high",
+      "officialDomains": ["loctite.com", "loctiteproducts.com", "henkel-adhesives.com"],
+      "sources": [
+        {
+          "label": "Loctite consumer products index",
+          "url": "https://www.loctiteproducts.com/products.html",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "loctiteCentralPdpSlug",
+          "requestTimeout": 8,
+          "maxUrls": 20,
+          "includeRegex": ["/products/central-pdp\\.html/"],
+          "requireRegex": ["loctite-"],
+          "nameRequireRegex": ["Loctite", "Epoxy", "Glue", "Threadlocker", "Sealant", "Repair", "Putty", "Silicone"],
+          "nameExcludeRegex": ["Glue Remover", "Mounting Putty"]
+        }
+      ]
+    },
+    {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": ["cemedine.co.jp"],
+      "sources": [
+        {
+          "label": "CEMEDINE global sitemap",
+          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
           "sourceType": "html",
           "kind": "product",
           "nameStrategy": "linkText",
           "requestTimeout": 15,
-          "maxUrls": 40,
-          "includeRegex": ["/3M/en_US/p/d/"],
-          "nameRequireRegex": ["adhesive", "sealant", "scotch-weld", "vhb", "jet-melt", "fastbond", "epoxy", "cyanoacrylate", "hot melt"],
-          "nameExcludeRegex": ["paper disc", "tape dispenser", "masking", "abrasive", "sandpaper"]
+          "maxUrls": 24,
+          "includeRegex": ["/global/en/technology/"],
+          "requireRegex": ["epoxy|elastic|cyanoacrylates|hotmelt"],
+          "nameRequireRegex": ["Super X|SX|EP|3000|Metal Lock|Hotmelt"],
+          "nameExcludeRegex": ["Emulsion|Repairable|Automobiles|Rubber Type"]
+        }
+      ]
+    },
+    {
+      "name": "ThreeBond",
+      "priority": "medium",
+      "officialDomains": ["threebond.com", "threebond.co.jp"],
+      "sources": [
+        {
+          "label": "ThreeBond technical data sheets",
+          "url": "https://threebond.com/document-library/technical-data-sheets/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 180,
+          "includeRegex": ["/download/threebond-"],
+          "nameRequireRegex": ["TB\\d+"]
+        }
+      ]
+    },
+    {
+      "name": "Titebond",
+      "priority": "medium",
+      "officialDomains": ["titebond.com"],
+      "sources": [
+        {
+          "label": "Titebond glues catalog",
+          "url": "https://www.titebond.com/all/glues",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 60,
+          "includeRegex": ["/product/glues/"],
+          "nameRequireRegex": ["Titebond|Instant Bond"],
+          "nameExcludeRegex": ["Read more|Accelerator|Activator|Titebrush|Pump"]
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": ["eclecticproducts.com"],
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 24,
+          "includeRegex": ["/product/e[0-9]+|/product/e6000-"],
+          "nameRequireRegex": ["E6000|Extreme Tack"],
+          "nameExcludeRegex": ["Read more|E6100|E6800"]
         }
       ]
     }

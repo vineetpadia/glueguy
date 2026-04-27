@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® UV605\n\nUV-Curable Adhesive\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Low viscosity\n- High shear strength\n- Fast curing with low power lamps\n- 100% solids, no solvents\n- Excellent adhesion to metal and glass\n\n# Description\n\nPERMABOND® UV605 is a very low viscosity, high strength adhesive which cures on exposure to UV light. Its excellent optical clarity and resistance to yellowing make it ideal for bonding glass and crystal for a high quality finish. The low viscosity results in excellent capillary action making it suitable for application after the components have been assembled.\n\n## Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Methacrylate ester  |\n| --- | --- |\n|  Appearance | Colourless  |\n|  Viscosity @ 25°C | 20 rpm: 75 mPa.s (cP)  |\n|  Specific gravity | 1.0  |\n\n## Typical Curing Properties\n\n|  Typical fixture time* | Low power 4mW/cm² lamp: 15 secs\nLED 100mW/cm² lamp: 4 secs\nHigh Intensity UV light guide: 3 secs  |\n| --- | --- |\n|  Cure wavelength | 365 - 400 nm**  |\n\n*The cure time depends on the power of the UV lamp, its spectral output, the distance between the lamp and the components, and the transmission characteristics of the substrates. The cure time quoted here was determined using a low power, hand held lamp. Most industrial UV lamps would give faster cure rate.\n\n**LED UV lamps have a narrow range of spectral output. It is important to check suitability with Permabond in order to match the LED lamp's peak wavelength with that of the adhesive's photoinitiator to ensure optimal adhesive cure.\n\n## Typical Performance of Cured Adhesive\n\n|  Tensile strength (ASTM D-2095-69) steel to glass* | 10-14 N/mm² (1450 psi – 2000 psi)  |\n| --- | --- |\n|  Tensile strength (ISO37) | 14 N/mm² (2000 psi)  |\n|  Refractive index (cured) | >1.490  |\n|  Elongation (ISO37) | 90%  |\n|  Hardness (ISO868) | 65-75 Shore D  |\n|  Dielectric strength | 12 KV/mm  |\n|  Dielectric constant 1MHz@25°C | 4  |\n|  Water absorption (ISO62) 2 hours in boiling water | 2%  |\n\n*Strength results will vary depending on the level of surface preparation and gap.\n\n## Hot Strength\n\n![img-0.jpeg](img-0.jpeg)\n\n\"Hot strength\" shear strength tests performed on glass to mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature.\n\nUV605 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is $-55^{\\circ}\\mathrm{C}$ ($-67^{\\circ}\\mathrm{F}$) depending on the materials being bonded.\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond UV605\n\nGlobal TDS Revision 4\n\n16 June 2022\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 395,
+          "top_left_y": 464,
+          "bottom_right_x": 662,
+          "bottom_right_y": 654,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Formabond UV605\nGlobal TDS Revision 4\n16 June 2022\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\n\n# Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials.\n\nInformation regarding the safe handling of this material may be obtained from the Safety Data Sheet.\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n# Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Particular care should be taken to remove silicone based cleaning agents which may have been used previously to clean glass.\n\nSome metals such as aluminium, copper and its alloys, will benefit from light abrasion with emery cloth (or similar) to remove the oxide layer.\n\nIsopropanol can be used to degrease most surfaces.\n\nWhere thermoplastic surfaces are involved we recommend tests are done to ensure compatibility, mold release agents may affect bond strength.\n\n# Directions for Use\n\n1) Adhesive can either be applied directly from the bottle or dispensed via automated dispensing equipment for more accurate dosing. Minimise exposure of product to ambient light.\n2) It is important to try to prevent air entrapment within the joint as this could be detrimental to the finished appearance of the adhesive.\n3) Parts should be firmly held and not disturbed during cure. Expose the joint to ultra-violet light for the appropriate time to ensure full cure. Cure time depends on the power of the UV lamp, its spectral output, the distance between the lamp and the components, and the transmission characteristics of the substrates.\n4) For help selecting a suitable lamp and/or dispensing equipment, please contact the Permabond technical helpline.\n\n# Video Link\n\nUV adhesive directions for use: https://youtu.be/hPUoSOcmEW4\n\n![img-1.jpeg](img-1.jpeg)\n\n# Other Products Available\n\n## Anaerobics\n\n- Thread lockers\n- Thread sealants\n- Gasket makers\n- Sealants / retainers\n\n## Cyanoacrylates\n\n- Instant adhesives\n- For rapid bonding of metals, plastics, rubber and many other materials\n\n## Epoxies\n\n- Two-part room temperature cure adhesives\n- Single-part heat cure adhesives\n- Modified Technology (MT) flexible grades available\n\n## MS-Polymers\n\n- Single-part, moisture-curing, flexible sealants\n\n## Polyurethanes\n\n- Two-part room temperature curing adhesives\n\n## Toughened Acrylics\n\n- Rapid curing, high strength structural adhesives\n\n## UV Light Cured Adhesives\n\n- Glass / plastic bonding\n- Optically clear\n- Non-yellowing\n\n# Storage &amp; Handling\n\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n|  Protect liquid adhesive from room lighting.  |   |\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 249,
+          "top_left_y": 777,
+          "bottom_right_x": 303,
+          "bottom_right_y": 832,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/hPUoSOcmEW4"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 326340
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,146 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "LOCTITE®\n\nTechnical Data Sheet\n\nLOCTITE® 243™\n\nApril 2025\n\n# PRODUCT DESCRIPTION\n\nLOCTITE® 243™ provides the following product characteristics:\n\n|  Technology | Acrylic  |\n| --- | --- |\n|  Chemical Type | Dimethacrylate ester  |\n|  Appearance (uncured) | Blue  |\n|  Fluorescence | Positive under UV light  |\n|  Components | One component- requires no mixing  |\n|  Viscosity | Medium, thixotropic  |\n|  Cure | Anaerobic  |\n|  Secondary Cure | Activator  |\n|  Application | Threadlocking  |\n|  Strength | Medium  |\n\nLOCTITE® 243™ is designed for the locking and sealing of threaded fasteners which require normal disassembly with standard hand tools. The product cures when confined in the absence of air between close fitting metal surfaces and prevents loosening and leakage from shock and vibration. The thixotropic nature of LOCTITE® 243™ reduces the migration of liquid product after application to the substrate. LOCTITE® 243™ provides robust curing performance. It not only works on active metals (e.g. brass, copper) but also on passive substrates such as stainless steel and plated surfaces. The product offers high temperature performance and oil tolerance. It tolerates minor surface contaminations from various oils, such as cutting, lubrication, anti-corrosion and protection fluids. LOCTITE® 243™ is particularly suited for locking threaded fasteners of various equipment such as pumps, gearboxes, motors and vehicles.\n\n# TYPICAL PROPERTIES OF UNCURED MATERIAL\n\nSpecific Gravity @ 25 °C 1.08\n\nFlash point - see SDS\n\nViscosity, Brookfield - RVT, 25°C, mPa·s (cP):\n\nSpindle 3, Speed 20 rpm 1,300 to 3,000\n\nViscosity, Cone &amp; Plate, 25 °C, mPa·s (cP):\n\nCone 35/2 @ 129 s⁻¹ 350\n\n# TYPICAL CURING PERFORMANCE\n\n## Cure Speed vs. Substrate\n\nThe rate of cure will depend on the substrate used. The graph below shows the breakaway strength developed with time @ 23°C on M10 steel nuts and bolts compared to different materials and tested according to ISO 10964.\n\n![img-0.jpeg](img-0.jpeg)\n\n## Cure Speed vs. Bond Gap\n\nThe rate of cure will depend on the bondline gap. Gaps in threaded fasteners depend on thread type, quality and size. The following graph shows shear strength developed with time @ 23°C on steel pins and collars at different controlled gaps and tested according to ISO 10123.\n\n![img-1.jpeg](img-1.jpeg)\n\n## Cure Speed vs. Temperature\n\nThe rate of cure will depend on the temperature. The graph below shows the breakaway strength developed with time at different temperatures vs @ 23°C on M10 steel nuts and bolts and tested according to ISO 10964.\n\nHenkel",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 364,
+          "top_left_y": 186,
+          "bottom_right_x": 681,
+          "bottom_right_y": 370,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 364,
+          "top_left_y": 466,
+          "bottom_right_x": 681,
+          "bottom_right_y": 649,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1015,
+        "width": 717
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TDS LOCTITE® 243™, April 2025\n\n![img-2.jpeg](img-2.jpeg)\n\n## Cure Speed vs. Activator\n\nWhere cure speed is unacceptably long, or large gaps are present, applying activator to the surface will improve cure speed. The graph below shows the breakaway strength developed with time @ 23°C on M10 zinc dichromate steel nuts and bolts using Activator 7471™, 7649™, 7088™ and 7091™ and tested according to ISO 10964.\n\n![img-3.jpeg](img-3.jpeg)\n\n## TYPICAL PERFORMANCE OF CURED MATERIAL\n\n### Physical Properties:\n\nCured for 24 hours @ 23 °C:\nGlass Transition Temperature, ISO 11359-2, °C 100\nCoefficient of thermal expansion, ISO 11359-2, K⁻¹:\nBelow Tg 80x10⁻⁶\nAbove Tg 90x10⁻⁶\nCoefficient of Thermal Conductivity, ISO 8302, W/(m·K) 0.1\nSpecific Heat, kJ/(kg·K) 0.3\n\n### Adhesive Properties\n\nCured for 24 hours @ 23°C\nBreakaway torque, ISO 10964, Unseated:\nM10 black oxide bolts and mild steel nuts N·m 22 (lb·in) (200)\nM6 black oxide bolts and mild steel nuts N·m 9 (lb·in) (80)\nM16 black oxide bolts and mild steel nuts N·m 50 (lb·in) (440)\n3/8 x 16 steel nuts and bolts N·m 12 (lb·in) (110)\n\n### Prevail Torque @ 180°, ISO 10964, Unseated:\n\n|  M10 black oxide bolts and mild steel nuts | N·m | 9  |\n| --- | --- | --- |\n|   | (lb·in) | (80)  |\n|  M6 black oxide bolts and mild steel nuts | N·m | 1  |\n|   | (lb·in) | (9)  |\n|  M16 black oxide bolts and mild steel nuts | N·m | 20  |\n|   | (lb·in) | (180)  |\n|  3/8 x 16 steel nuts and bolts | N·m | 8  |\n|   | (lb·in) | (70)  |\n\n### Breakloose Torque, ISO 10964, Pre-torqued to 5 N·m:\n\n|  M10 black oxide bolts and mild steel nuts | N·m | 22  |\n| --- | --- | --- |\n|   | (lb·in) | (200)  |\n|  3/8 x 16 steel nuts and bolts | N·m | 15  |\n|   | (lb·in) | (130)  |\n\n### Prevail Torque @ 180°, ISO 10964, Pre-torqued to 5 N·m:\n\n|  M10 black oxide bolts and mild steel nuts | N·m | 9  |\n| --- | --- | --- |\n|   | (lb.in) | (80)  |\n|  3/8 x 16 steel nuts and bolts | N·m | 6  |\n|   | (lb·in) | (50)  |\n\n### Compressive Shear Strength, ISO 10123:\n\n|  Steel pins and collars | N/mm² (psi) | >7.6 (1,100)  |\n| --- | --- | --- |\n\nCured for 1 week @ 23 °C\nBreakloose Torque, ISO 10964, Pre-torqued to 5 N·m:\nM10 zinc phosphate nuts and bolts N·m 30 (lb·in) (270)\nM10 stainless steel bolts and nuts N·m 14 (lb·in) (120)\n\n## TYPICAL ENVIRONMENTAL RESISTANCE\n\nCured for 1 week @ 23 °C\nBreakloose torque, ISO 10964, Pre-torqued to 5 N·m:\nM10 zinc phosphate nuts and bolts\n\n### Hot Strength\n\nTested at temperature\n\n![img-4.jpeg](img-4.jpeg)\n\nHenkel",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 34,
+          "top_left_y": 58,
+          "bottom_right_x": 352,
+          "bottom_right_y": 241,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 34,
+          "top_left_y": 337,
+          "bottom_right_x": 352,
+          "bottom_right_y": 519,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 363,
+          "top_left_y": 652,
+          "bottom_right_x": 681,
+          "bottom_right_y": 836,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1015,
+        "width": 717
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TDS LOCTITE® 243™, April 2025\n\n# Cold Strength\n\nThis product has been tested to -75 °C (-100 °F). This product may work below this temperature, but has not been tested.\n\n# Heat Aging\n\nAged at temperature indicated and tested @ 23 °C.\n\n![img-5.jpeg](img-5.jpeg)\n\n# Heat Aging/Hot Strength\n\nAged under conditions indicated and tested at temperature.\n\n![img-6.jpeg](img-6.jpeg)\n\n# Chemical/Solvent Resistance\n\nAged under conditions indicated and tested @ 23°C.\n\n|   |  | % of initial strength  |   |   |\n| --- | --- | --- | --- | --- |\n|  Environment | °C | 500 h | 1000 h | 5000 h  |\n|  Motor oil | 125 | 110 | 115 | 115  |\n|  Unleaded gasoline | 23 | 100 | 95 | 100  |\n|  Brake fluid | 23 | 105 | 110 | 125  |\n|  Water/glycol 50/50 | 87 | 120 | 125 | 130  |\n|  Acetone | 23 | 85 | 85 | 80  |\n|  Ethanol | 23 | 95 | 90 | 90  |\n|  E85 Ethanol fuel | 23 | 95 | 100 | 95  |\n|  B100 Bio-Diesel | 23 | 110 | 110 | 125  |\n|  DEF (AdBlue®) | 23 | 61 | 59 | 70  |\n\nBreakloose Torque, ISO 10964, Pre-torqued to 5 N·m: M10 stainless steel bolts and nuts\n\n|   |  | % of initial strength  |   |   |\n| --- | --- | --- | --- | --- |\n|  Environment | °C | 500 h | 1000 h | 5000 h  |\n|  Sodium Hydroxide, 20% | 23 | 105 | 105 | 95  |\n|  Phosphoric Acid, 10% | 23 | 110 | 105 | 110  |\n\n# GENERAL INFORMATION\n\nThis product is not recommended for use in pure oxygen and/or oxygen rich systems and should not be selected as a sealant for chlorine or other strong oxidizing materials.\n\nFor safe handling information on this product, consult the Safety Data Sheet (SDS).\n\nWhere aqueous washing systems are used to clean the surfaces before bonding, it is important to check for compatibility of the washing solution with the adhesive. In some cases these aqueous washes can affect the cure and performance of the adhesive.\n\nThis product is not normally recommended for use on plastics (particularly thermoplastic materials where stress cracking of the plastic could result). Users are recommended to confirm compatibility of the product with such substrates.\n\n# Directions for Use:\n\n## For Assembly\n\n1. For best results, clean all surfaces (external and internal) with a LOCTITE® cleaning solvent and allow to dry.\n2. If the cure speed is too slow, use appropriate activator. Please see the Cure Speed vs. Activator graph for reference. Allow the activator to dry when needed.\n3. Shake the product thoroughly before use.\n4. To prevent the product from clogging in the nozzle, do not allow the tip to touch metal surfaces during application.\n5. For Thru Holes, apply several drops of the product onto the bolt at the nut engagement area.\n6. For Blind Holes, apply several drops of the product to the lower third of the internal threads in the blind hole, or the bottom of the blind hole.\n7. For Sealing Applications, apply a 360° bead of product to the leading threads of the male fitting, leaving the first thread free. Force the material into the threads to thoroughly fill the voids. For bigger threads and voids, adjust product amount accordingly and apply a 360° bead of product on the female threads also.\n8. Assemble and tighten as required.\n\nHenkel",
+      "images": [
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 32,
+          "top_left_y": 139,
+          "bottom_right_x": 352,
+          "bottom_right_y": 323,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 32,
+          "top_left_y": 369,
+          "bottom_right_x": 352,
+          "bottom_right_y": 553,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1015,
+        "width": 717
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TDS LOCTITE® 243™, April 2025\n\nFor Disassembly\n\n1. Remove with standard hand tools.\n2. In rare instances where hand tools do not work because of excessive engagement length, apply localized heat, approximately 250°C to nut or bolt. Disassemble while hot.\n\nClean-up\n\n1. Cured product can be removed with a combination of soaking in a LOCTITE® solvent and mechanical abrasion such as a wire brush.\n\nStorage\n\nStore product in the unopened container in a dry location. Storage information may be indicated on the product container labeling.\n\nOptimal Storage: 8°C to 21°C. Storage below 8°C or greater than 28°C can adversely affect product properties.\n\nMaterial removed from containers may be contaminated during use. Do not return product to the original container. Henkel Corporation cannot assume responsibility for product which has been contaminated or stored under conditions other than those previously indicated. If additional information is required, please contact your local Henkel representative.\n\nProduct Specification\n\nThe technical data contained herein are intended as reference only and are not considered specifications for the product. Product specifications are located on the Certificate of Analysis or please contact Henkel representative.\n\nApproval and Certificate\n\nPlease contact a Henkel representative for related approval or certificate of this product.\n\nData ranges\n\nThe data contained herein may be reported as a typical value. Values are based on actual test data and are verified on a periodic basis.\n\nTemperature/Humidity Ranges: 23°C / 50% RH = 23±2°C / 50±5% RH\n\nConversions\n\n(°C × 1.8) + 32 = °F\nkV/mm × 25.4 = V/mil\nmm / 25.4 = inches\nμm / 25.4 = mil\nN × 0.225 = lb\nN/mm × 5.71 = lb/in\nN/mm² × 145 = psi\nMPa × 145 = psi\nN·m × 8.851 = lb·in\nN·m × 0.738 = lb·ft\nN·mm × 0.142 = oz·in\nmPa·s = cP\n\nDisclaimer\n\nThe information provided in this Technical data sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. The product can have a variety of different applications as well as differing application and working conditions in your environment that are beyond our control. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product. Any liability in respect of the information in the Technical data sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nIn case products are delivered by Henkel Belgium NV, Henkel Electronic Materials NV, Henkel Nederland BV, Henkel Technologies France SAS and Henkel France SA please additionally note the following:\n\nIn case Henkel would be nevertheless held liable, on whatever legal ground, Henkel's liability will in no event exceed the amount of the concerned delivery.\n\nIn case products are delivered by Henkel Colombiana, S.A.S. the following disclaimer is applicable:\n\nThe information provided in this Technical Data Sheet (TDS) including the recommendations for use and application of the product are based on our knowledge and experience of the product as at the date of this TDS. Henkel is, therefore, not liable for the suitability of our product for the production processes and conditions in respect of which you use them, as well as the intended applications and results. We strongly recommend that you carry out your own prior trials to confirm such suitability of our product. Any liability in respect of the information in the Technical Data Sheet or any other written or oral recommendation(s) regarding the concerned product is excluded, except if otherwise explicitly agreed and except in relation to death or personal injury caused by our negligence and any liability under any applicable mandatory product liability law.\n\nHenkel",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1015,
+        "width": 717
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TDS LOCTITE® 243™, April 2025\n\nIn case products are delivered by Henkel Corporation, or Henkel Canada Corporation, the following disclaimer is applicable:\n\nThe data contained herein are furnished for information only and are believed to be reliable. We cannot assume responsibility for the results obtained by others over whose methods we have no control. It is the user's responsibility to determine suitability for the user's purpose of any production methods mentioned herein and to adopt such precautions as may be advisable for the protection of property and of persons against any hazards that may be involved in the handling and use thereof. In light of the foregoing, Henkel Corporation specifically disclaims all warranties expressed or implied, including warranties of merchantability or fitness for a particular purpose, arising from sale or use of Henkel Corporation's products. Henkel Corporation specifically disclaims any liability for consequential or incidental damages of any kind, including lost profits. The discussion herein of various processes or compositions is not to be interpreted as representation that they are free from domination of patents owned by others or as a license under any Henkel Corporation patents that may cover such processes or compositions. We recommend that each prospective user test his proposed application before repetitive use, using this data as a guide. This product may be covered by one or more United States or foreign patents or patent applications.\n\n## Trademark usage\n\nExcept as otherwise noted, all trademarks in this document are trademarks of Henkel Corporation in the U.S. and elsewhere. ® denotes a trademark registered in the U.S. Patent and Trademark Office.\n\nReference 0.7\n\nFor the most direct access to local sales and technical support visit: https://www.henkel-adhesives.com",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1015,
+        "width": 717
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 895678
+  },
+  "document_annotation": null
+}

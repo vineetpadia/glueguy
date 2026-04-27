@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TECHNICAL DATASHEET\n\nELECOLIT® 325\n\nhoenle\n\n# PRODUCT DESCRIPTION\n\nModified epoxy | 2 part | solvent-free | thermal-curing | thermally conductive | electrically conductive\n\n- Electrical contacting\n- ESD protection / discharge\n- Good conductivity at room temperature curing\n- Silver-filled\n\n# CURING PROPERIES\n\nThis product is a two-component adhesive. The adhesive can be applied after mixing the two components in their appropriate ratios. All two-component adhesives have a determined pot life. Consideration should be given to the amount of adhesive that is mixed, as it must be applied within the noted pot life for optimal dispensing and assembly.\n\n|  Mixing ratio | Pot life  |\n| --- | --- |\n|  1:1 | 2 h  |\n\nThis adhesive can be cured at room temperature or more rapidly with heat. Typical curing temperatures are listed in the table below.\n\n|  Temperatures | Time  |\n| --- | --- |\n|  25°C | 16 h  |\n|  50°C | 2 h  |\n|  100°C | 30 min  |\n|  120°C | 15 min  |\n|  150°C | 5 min  |\n\nThe heat cure times are only provided as a guideline. They are derived from curing a 2g adhesive sample without affixed substrates in a laboratory environment. Actual cure times can vary based on part size, configuration, adhesive volume, temperature control, and the time required for the component substrates to attain oven temperature.\n\nThe final bond strength of the adhesive is achieved no sooner than 24 h after the bonded components are removed from the oven.\n\nUpdated 11.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TECHNICAL DATASHEET\n\nELECOLIT® 325\n\nhoenle\n\nTECHNICAL DATA\n\n|  Resin | Epoxy  |\n| --- | --- |\n|  Appearance | Grey  |\n|  Filler | Silver  |\n|  Filler - weight [%] | 71  |\n|  Particle size D90 [μm] | 26  |\n|  Uncured Material |   |\n|  Viscosity [mPas] mix | Paste-like  |\n|  Density [g/cm³]\nTest instruction P004 | 2.5 – 2.7  |\n|  Cured Material |   |\n|  Hardness shore D\nTest instruction P006 | 70 – 85  |\n|  Typical operating temperature [°C] | -40 – 150  |\n|  Linear shrinkage [%]\nTest instruction P031 | <3  |\n|  Water absorption [wt%]\nTest instruction P016 | <1  |\n|  Glass transition temperature - DSC [°C]\nTest instruction P009 | 25 – 45  |\n|  Coefficient of thermal expansion [ppm/K] below Tg\nTest instruction P017 | 30 – 70  |\n|  Coefficient of thermal expansion [ppm/K] above Tg\nTest instruction P017 | 200 – 300  |\n|  Thermal conductivity [W/m*K]\nTest instruction P062 | 3.8 – 4.2  |\n|  Volume resistivity [Ohm*cm]\nTest instruction P040 | 1 x 10⁻⁴ – 5 x 10⁻⁴  |\n|  Lap shear strength (steel/steel) [MPa]\nRoom temperature, 24h\nTest instruction P013 | 5 – 10  |\n|  Lap shear strength (steel/steel) [MPa]\n120°C, 15min\nTest instruction P013 | 15 – 20  |\n\nPage 2/4\n\nUpdated 11.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TECHNICAL DATASHEET\n\nELECOLIT® 325\n\nhoenle\n\n## TRANSPORT/STORAGE/SHELF LIFE\n\n|  Package type | Transport | Storage | Shelf life*  |\n| --- | --- | --- | --- |\n|  Syringe/Cartridge | –20°C | –20°C | At delivery\nmin. 6 months\nmax. 12 months  |\n|  Other packages | At room temperature\nmax. 25°C | 0°C – 10°C  |   |\n\n*Store in original, unopened containers!\n\n## INSTRUCTIONS FOR USE\n\nThe thawing time before use is approx. 1 hour for 30cc and 50cc syringes. Condensation should be avoided during the thawing process. After thawing once, Elecolit® 325 should not be frozen again.\n\nAfter storing the container at 0°C – 10°C, Elecolit® 325 must be homogenized because of possible sedimentation of silver.\n\n## Surface preparation\n\nThe surfaces to be bonded should be free of dust, oil, grease, mold release, or other contaminants in order to obtain an optimal and reproducible bond. For cleaning we recommend the cleaner IP® from Hoenle, or a solution of Isopropyl Alcohol at 90% or higher concentration. Substrates with low surface energy (e.g. polyethylene, polypropylene) must be pretreated in order to achieve sufficient adhesion.\n\n## Application\n\nOur products are supplied ready to use. Depending on the packaging, our adhesives may be dispensed by hand directly from the package, or they can be applied using dispensing systems and automation. Many commercially available valve and controller options are available to ensure accurate and consistent adhesive dispensing. For assistance with dispensing and curing questions, please contact our Applications Engineering department. Adhesive and substrate should not be cold for proper bonding. They must be allowed to warm to room temperature prior to processing. After curing, the adhesive must be allowed to cool to ambient temperature before testing the product's performance. For safety information refer to our Material Safety Data Sheet (MSDS).\n\n## Storage\n\nStore uncured product in its original, closed container in a dry location. Any material removed from the original container must not be returned to the container as it could be contaminated. Hoenle cannot assume responsibility for products that were improperly stored, contaminated, or repackaged into other containers.\n\n## Handling and Clean-up\n\nFor safe handling information, consult this product's Material Safety Data Sheet (MSDS) prior to use. Uncured material may be wiped away from surfaces with organic solvents. Do not use solvents to remove material from eyes or skin!\n\nPage 3/4\n\nUpdated 11.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TECHNICAL DATASHEET\n\nELECOLIT® 325\n\nhoenle\n\n# DISCLAIMER\n\nThe product is free of heavy metals, PFOS and Phthalates and is conform to the current EU-Directive RoHS.\n\n# THE VALUES NOTED IN THIS TECHNICAL DATA SHEET ARE TYPICAL PROPERTIES AND ARE NOT MEANT TO BE USED AS PRODUCT SPECIFICATIONS.\n\nThe information contained in this data sheet is believed to be accurate and is provided for information only. Hoenle makes no representation or warranties of any kind concerning this information. It is the user's responsibility to determine the suitability of this product for any intended use. Hoenle does not assume responsibility for test or performance results obtained by the user. The user assumes all risk and liability connected with the use of this product.\n\nThe user should adopt such precautions and use guidelines as may be advisable for the protection of property and persons against any hazards that may be involved in this product's handling or use. Hoenle specifically disclaims any liability for consequential or incidental damages of any kind arising from the handling or use of this product. The information contained in this Technical Data Sheet offers no assurance that the product use, application, or process will not infringe on existing patents or licenses of others. Nothing in this Technical Data Sheet transfers or grants license for the use of any patents, trade secrets, intellectual property, or confidential information that is the property of Hoenle.\n\nExcept as otherwise noted, all trademarks in this document (identified as *) are the property of Hoenle.\n\n# CONTACT\n\nHoenle Adhesives GmbH | Stierstädter Straße 4 | 61449 Steinbach | Germany\nT: +49 6171 6202-0 | adhesivesystems@hoenle.com\n\nFor regional sales and technical support, please refer to our global contact directory https://www.hoenle.com/contact.\n\nUpdated 11.09.2025\n\nRevision: 6\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:adhesivesystems%40hoenle.com",
+        "https://www.hoenle.com/contact"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 103826
+  },
+  "document_annotation": null
+}

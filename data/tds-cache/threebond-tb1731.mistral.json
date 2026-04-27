@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB1731 HIGH PEEL STRENGTH, IMPACT RESISTANT CYANOACRYLATE ADHESIVE\n\n## Information\n\nTB1731 is a high peel strength, impact resistant cyanoacrylate adhesive. It bonds well to rubber substrates and also bonds well at low temperatures. It is moisture resistant and is suitable for a large bonding area. The main components are an -cyanoacrylate and an elastomer.\n\n## Application\n\nTB1731 can be used for bonding speaker frames and magnets, coil terminals, insulators, O-rings and rubber parts.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Light yellow  |\n|  Viscosity | mPa • s (cP) | 20 (20)  |\n|  Set time NBR/NBR | Second | 60  |\n|  Set time Steel/Steel | Second | 30  |\n\n### 2. Cured Material\n\n#### 2-1. Lap shear strength (metal substrate)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa(kgf/cm²) | 20.0(200)  |\n|  Aluminum/Aluminum |   | 11.0(110)  |\n|  Stainless Steel/Stainless Steel |   | 17.0(170)  |\n|  Cupper/Cupper |   | 14.0(140)  |\n|  Brass/Brass |   | 9.0(90)  |\n\nRev: 0.2\n\nIssued Date: 3/24/03\n\nDocument Control Number: 3-TB-20-0517",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "2-2. Lap shear strength (Plastic substrate)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Hard type PVC/ Hard type PVC | MPa(kgf/cm²) | 1.0(10)  |\n|  Polycarbonate/ Polycarbonate |   | MF  |\n|  Phenol resin/ Phenol resin |   | MF  |\n|  6-nylon/6-nylon |   | 3.8(39)  |\n|  6,6-nylon/6,6-nylon |   | Material Failure  |\n|  ABS/ ABS |   | Material Failure  |\n|  Glass epoxy/ Glass epoxy |   | 10(100)  |\n|  PBT/PBT |   | 0.8(8)  |\n|  PPO/PPO |   | 2.9(30)  |\n|  Polyethylene/ Polyethylene |   | 0.4(4.0)  |\n|  Polypropylene/ Polypropylene |   | 0.2(2.0)  |\n|  Acryl/ Acryl |   | MF  |\n|  Polyacetal/ Polyacetal |   | 0.9(9)  |\n|  Polystyrol/ Polystyrol |   | 2.4(24)  |\n\n2-3. Lap shear strength (Rubber substrate)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  NR/NR | MPa(kgf/cm²) | Material Failure  |\n|  CR/CR |   | Material Failure  |\n|  NBR/NBR |   | Material Failure  |\n|  SBR/SBR |   | Material Failure  |\n|  EPDM/EPDM |   | Material Failure  |\n\n2-4. Lap shear strength (Fe/rubber substrate)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/NBR | MPa(kgf/cm²) | Material Failure  |\n|  Steel/SBR |   | Material Failure  |\n|  Steel/NR |   | Material Failure  |\n|  Steel/CR |   | Material Failure  |\n|  Steel/EPDM |   | Material Failure  |\n\nRev: 0.2\nIssued Date: 3/24/03\nDocument Control Number: 3-TB-20-0517",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "2-5. Peel strength (90, T-peel)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | kN/m (kgf/25mm) | 3.0(8.0)  |\n|  Aluminum/Aluminum |   | 2.0(5.0)  |\n|  Copper/Cupper |   | 0.4(1.0)  |\n|  Stainless Steel/Stainless Steel |   | 1.4(3.5)  |\n|  Brass/Brass |   | 0.1(0.3)  |\n|  NBR/NBR |   | Material Failure  |\n|  SBR/SBR |   | Material Failure  |\n|  NR/NR |   | Material Failure  |\n|  CR/CR |   | Material Failure  |\n|  EPDM/EPDM |   | Material Failure  |\n\n2-6. Peel strength (180)\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/NBR | kN/m (kgf/25mm) | Material Failure  |\n|  Steel/SBR |   | Material Failure  |\n|  Steel/NR |   | Material Failure  |\n|  Steel/CR |   | Material Failure  |\n|  Steel/EPDM |   | Material Failure  |\n\n2-7. Impact strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | kJ/m² (kgf cm/cm²) | 34(35)  |\n\nThese are typical results not product specifications.\n\nRev: 0.2\nIssued Date: 3/24/03\nDocument Control Number: 3-TB-20-0517",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 96211
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB2272F\n\n# ThreeBond\n\nSeptember 27, 2012\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 2272F\n\n(UL94 V-0 Listed Single Component, Heat Curable, Epoxy Compound Resin)\n\n1. Product description\n\nThreeBond 2272F is a single component, heat curable, epoxy compound resin. This product is certified to UL94 (vertical burning test) V-0 flammability standard and suitable for bonding and sealing parts around potential heat sources.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2. Features\n\n(1) Single component, heat curable adhesive\n(2) Certified to UL94 (vertical burning test) V-0\n\n3. Applications\n\nBonding and sealing of parts around potential heat sources\n\n4. Properties\n\nTable 1 Properties of TB2272F\n\n|  Test item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Black | 3TS-2100-002 | -  |\n|  Viscosity | Pa·s | 75.0 | 3TS-2F00-007 | Shear rate: 5.0[s⁻¹]  |\n|  Specific gravity | - | 1.64 | 3TS-2500-002 | 25°C  |\n\nED2012073",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2272F\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured resin\n\nTable-2 Characteristics of TB2272F after curing\n\n|  Test item | Unit | Result | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | D92 | 3TS-2B00-004 | -  |\n|  Lap shear strength | MPa | 21.0 | 3TS-4100-011 | Fe/Fe (SPCC-SD)  |\n|   |   |  20.2 |   | SUS/SUS (SUS304)  |\n|  Water absorption rate | % | 0.36 | 3TS-2530-003 | Boiling for 2 hrs\n20-g circular (50 in diam)\ncured material  |\n|  Volume resistivity | Ω·m | 2.0 × 10^{13} | 3TS-5200-001 | -  |\n|  Surface resistivity | Ω | 2.8 × 10^{16} | 3TS-5200-002 | -  |\n|  Dielectric breakdown strength | kV/mm | 24 | 3TS-5230-002 | -  |\n|  Dielectric constant | - | 5.2 | 3TS-5220-001 | 1kHz  |\n|   |   |  5.0 |   | 1MHz  |\n|  Dielectric loss tangent | - | 0.009 |   | 1kHz  |\n|   |   |  0.014 |   | 1MHz  |\n|  Glass transition temperature | °C | 117 | 3TS-4740-001 | TMA method  |\n|  Linear expansion coefficient (α_{1}) | ×10^{-6}/°C | 29 |   | 0 to 40°C  |\n|  Ditto (α_{2}) | ×10^{-6}/°C | 119 |   | 160 to 200°C  |\n|  Storage modulus (E') | GPa | 12 | 3TS-4730-001 | DMA method 1Hz 25°C  |\n|   |   |  10 |   | DMA method 1Hz 80°C  |\n|   |   |  3.6 |   | DMA method 1Hz 120°C  |\n|  Loss modulus (E\") Peak | °C | 118 |   | DMA method 1Hz  |\n|  Loss tangent (tanδ) Peak | °C | 147 |   | DMA method 1Hz  |\n\nCuring conditions: 100°C × 60 min\n\nED2012073",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2272F\n\n## 5.2 Flow curves\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Flow curves of TB2272F\n\nEquipment used: REOLOGICA Instruments AB\nGeometry: C25/4\nMeasuring temperature: $25^{\\circ}\\mathrm{C}$\n\n## 5.3 Temperature - viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB2272F\n\nEquipment used: REOLOGICA Instruments AB\nTemperature - viscosity curve: Rheometer method\nGeometry: C25/4\nShear rate: $1.0\\ \\mathrm{[s^{-1}]}$\n\nED2012073",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 125,
+          "top_left_y": 120,
+          "bottom_right_x": 582,
+          "bottom_right_y": 409,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 154,
+          "top_left_y": 530,
+          "bottom_right_x": 556,
+          "bottom_right_y": 799,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB2272F\n\n## 5.4 Curing behavior\n\n![img-2.jpeg](img-2.jpeg)\n\nFig. 3 Curing behavior of TB2272F\n\nEquipment used: REOLOGICA Instruments AB\nGeometry: P25\nTemperature conditions: $25^{\\circ}\\mathrm{C} \\rightarrow 100^{\\circ}\\mathrm{C}$\nRate of temperature rise: $10^{\\circ}\\mathrm{C/min}$\nFrequency: $1.0\\mathrm{Hz}$\nDistortion: $1.0\\%$\nSample thickness (gap): $1.0\\mathrm{mm}$\n\n## 5.5 Vertical burning test\n\nTest conditions\n\n- Test method and judging method: Conforming to 3TS-2700-002\n- Environmental conditions: Temperature $25^{\\circ}\\mathrm{C}$, relative humidity $50\\%$\n- Flame size: 20-mm blue flame\n- Sample conditioning: Leaving under atmosphere at temperature of $23^{\\circ}\\mathrm{C}$ and relative humidity of $50\\%$ for 48 hours or more\n- Sample size: $125\\mathrm{mm} \\times 13\\mathrm{mm} \\times 3.0\\mathrm{mm}$\n\nED2012073",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 127,
+          "top_left_y": 128,
+          "bottom_right_x": 593,
+          "bottom_right_y": 399,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB2272F\n\nTable 3 Criteria for UL94 (vertical burning test) V-0 flammability standard\n\n|  Item | Criterion of V-0 | Measurement of TB2272F  |\n| --- | --- | --- |\n|  t1 or t2 of each sample | ≤ 10 sec | ≤ 4  |\n|  Total combustion time after 5 times of flame removal (including second flame application) | ≤ 50 sec | ≤ 10  |\n|  Sum of t2 and t3 | ≤ 30 sec | ≤ 8  |\n|  Combustion or afterflame up to clamp | None | None  |\n|  Ignition of absorbent cotton caused by falling objects | None | None  |\n|  t1: Duration of combustion after the first flame removal, t2: Duration of combustion after the second flame removal, t3: Duration of afterflame after the second flame removal  |   |   |\n\n6. Usage\n\n(1) Unseal the container after reaching room temperature.\n(2) Completely remove dust, oil and other contaminants from the surfaces to be coated with the resin.\n(3) Examine the curing conditions using the actual work. Cure the resin under suitable curing conditions.\n\n7. Directions for use\n\n(1) Before using, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(2) Settlement of the filler or increase in resin viscosity may be caused if it is stored at a high temperature or for a long time. Therefore, store it in a refrigerator (-5 to 10°C), and use it after it has reached room temperature. (If it is unsealed before it reaches room temperature, dew condensation may occur, and nonconformities, such as gelation, may be caused when the dew gets into contact with the resin.) After unsealing, use it up as soon as possible.\n(3) Stir the resin to restore it to the uniform state prior to use. When stirring, take care not to generate air bubbles.\n(4) Some materials may deteriorate if this product is used. The effects on the substrates should be confirmed in advance. If there are any problems, do not use.\n(5) The curing conditions depend on the thermal capacities of the substrate and peripheral parts and the application method. It is recommended to check the curing state on the actual parts and determine the optimum curing conditions.\n(6) When heated, it generates heat through curing reaction. Take care not to burn yourself.\n(7) Due to the properties of the resin, slight discoloration may occur.\n(8) Use suitable protective equipment, such as a mask, goggles and gloves (impervious). Use in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n(9) Harmful to the health. Do not directly touch nor inhale vapor.\n\nED2012073",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB2272F\n\n(10) If swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.\n(11) If in eyes, rinse with clean water for at least 15 minutes, and get medical attention.\n(12) If on skin, immediately wipe with cloth or paper, and wash the affected area with soap and water.\n(13) If any bodily abnormality occurs, discontinue use, and get medical attention.\n(14) People who have allergies or sensitive skin should avoid using it.\n(15) This product is not designated as a hazardous material under the Fire Service Act. However, as with general adhesives, take precautions against fires.\n(16) Keep out of reach of children.\n(17) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\n(1) Store with the cap tightly fitted to prevent deterioration and contamination.\n(2) Store in a dark dry place at -5 to 10°C away from direct sunlight.\n\n## 9. Disposal\n\nAsk an authorized industrial waste disposal firm to dispose of the product and its empty container as industrial waste.\n\n## 10. Cautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nBefore using this product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Users are asked to examine whether the product is appropriate to the purpose of use and can be used safely before they use it and bear all responsibilities and hazards involved in its use. Never use the product for medical implant applications that may be embedded, injected or left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Material Safety Data Sheet (MSDS). To obtain the MSDS, contact our sales office or customer service center.\n- Information in this technical document is subject to change at our discretion without notice.\n\nED2012073",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 80822
+  },
+  "document_annotation": null
+}

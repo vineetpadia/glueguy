@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB1745Z VERY FAST CURING CYANOACRYLATE ADHESIVE\n\n## Information\n\nTB1745Z is a medium high viscosity, very fast curing, single component cyanoacrylate adhesive. It cures rapidly at room temperature and demonstrates excellent adhesive efficiency.\n\n## Applications\n\nTB1745Z can be used mostly for bonding metals, plastics and rubbers.\n\n## Typical Properties\n\n1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent liquid  |\n|  Viscosity | mPa • s {cP} | 500 {500}  |\n|  Specific gravity | - | 1.05  |\n|  Set time Steel/Steel | Second | 3  |\n|  Set time NBR/NBR |   | 3  |\n|  Set time EPDM/EPDM |   | 8  |\n|  Set time EPDM/Soft PVC |   | 15  |\n|  Set time ABS/ABS |   | 10  |\n|  Set time Balsa wood/Balsa wood |   | 3  |\n\nRev: 0.1\n\nIssued Date: 9/24/01\n\nDocument Control Number: 3-TB-20-0527",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Page 2 of 2\n\n2. Cured Material\nLap shear strength\n\n|  Substrate | Units | Value  |\n| --- | --- | --- |\n|  Steel/Steel | MPa{kgf/cm²} | 14.7{150}  |\n|  NBR/NBR |   | MF  |\n|  EPDM/EPDM |   | MF  |\n|  EPDM/Soft PVC |   | MF  |\n|  ABS/ABS |   | MF  |\n|  Balsa wood/Balsa wood |   | MF  |\n\nMF - Material failure\n\n3. Military Specification\nMIL-A- 46050C, Type II, Class 3\n\nThese are typical results not product specifications.\n\nRev: 0.1\nIssued Date: 9/24/01\nDocument Control Number: 3-TB-20-0527",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 27445
+  },
+  "document_annotation": null
+}

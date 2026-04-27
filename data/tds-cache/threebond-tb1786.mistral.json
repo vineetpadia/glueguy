@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1786 – CYANOACRYLATE ADHESIVE\n\n## Information\nTB1786 is an ethyl, medium viscosity type instant adhesive which provides a fast cure for wood substrates.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Properties | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Clear transparent liquid  |\n|  Viscosity | mPa • s (cP) | 150 (150)  |\n|  Specific gravity | - | 1.05  |\n|  Set time Steel/Steel | Second | 5  |\n|  Set time NBR/NBR |   | 3  |\n\nRev:0.1\nIssued Date: 4/28/03\nDocument Control Number: 3-TB-20-0539",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "2. Cured Material\n\n|  Properties |   |   | Units | Value  |\n| --- | --- | --- | --- | --- |\n|  Shear Strength | Steel/Steel |   | MPa (kgf/cm²) | 18.0 (184)  |\n|   |  Al/Al |   |   | 13.0 (133)  |\n|   |  Stainless/Stainless |   |   | 12.9 (132)  |\n|   |  Cu/Cu |   |   | 9.1 (93)  |\n|   |  Brass/Brass |   |   | 10.1 (103)  |\n|   |  Hard PVC |   |   | Material Failure  |\n|   |  6-Nylon |   |   | 5.9 (60)  |\n|   |  ABS |   |   | Material Failure  |\n|   |  PPS |   |   | 4.0 (41)  |\n|  Break Down Voltage |   |   | MV/m (kV/mm) | 30 (30)  |\n|  Volume Resistivity |   |   | Ω • m | 6.0 × 10¹¹  |\n|  Surface Resistivity |   |   | — | 5.0 × 10¹⁴  |\n|  Flash point |   |   | °C | 90  |\n|  Dielectric Loss Tangent | 1MHz | — | 0.027  |   |\n|   |   |   |  1kHz | 0.01050  |\n|   |   |   |  50HZ | 0.1211  |\n|  Dielectric Constant | 1 MHz | — | 2.873  |   |\n|   |   |   |  1 kHz | 3.345  |\n|   |   |   |  50 HZ | 3.592  |\n\nThese are typical results not product specifications.\n\nRev:0.1\nIssued Date: 4/28/03\nDocument Control Number: 3-TB-20-0539",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 88194
+  },
+  "document_annotation": null
+}

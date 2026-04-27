@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "PENCHEM\nBONDING TECHNOLOGIES TOGETHER\nUV784-14\nFlexible UV Epoxy\n\n# Description\n\nUV784-14 is a UV only or UV heat curable epoxy acrylate system. The low intensity cured material has low storage modulus and hardness. It has excellent moisture resistance with no oxygen inhibition.\n\n# Features\n\n- High flexibility\n- Low hardness\n- Passed PCT without delamination up to 168 hours\n- Flowable adhesive\n\n# Applications\n\n- UV heat curable adhesive for glass and metal substrates which is suitable for low internal stress applications.\n\n|  Uncured Properties | Typical Value | Unit | Test Method  |\n| --- | --- | --- | --- |\n|  Color | Clear liquid | - | PEN 10  |\n|  Viscosity CP25-1, 133s⁻¹ at 25°C | 3,600 | cP | PEN 144  |\n|  Refractive index | 1.493 | - | PEN 28  |\n|  Pot life at 25°C | 6 ** | month | PEN 57  |\n|  Cured Properties | Typical Value | Unit | Test Method  |\n| --- | --- | --- | --- |\n|  Optical transmittance |  |  |   |\n|  a) 400nm | >80 | % | PEN 40  |\n|  b) 450nm | >85 | % | PEN 40  |\n|  c) 1000nm | >90 | % | PEN 40  |\n|  Hardness, Shore A | 21 | - | PEN 29  |\n|  Hardness, Shore OO | 54 | - | PEN 29  |\n|  Tensile strength | 5.2 | MPa | PEN 41  |\n|  Elongation at break | 45 | % | PEN 41  |\n|  Linear shrinkage | 1.43 | % | PEN 56  |\n|  Decomposition temperature | 393 | °C | PEN 92  |\n|  Weight loss @ 30-150°C | 0.40 | % | PEN 92  |\n|  Weight loss @ 30-200°C | 1.19 | % | PEN 92  |\n|  Temperature at 5% weight loss | 303 | °C | PEN 92  |\n|  Glass transition temperature | 34 | °C | ASTM D7028  |\n|  Storage modulus @ -40°C | 803 | MPa | ASTM D4440  |\n|  Storage modulus @ -10°C | 308 | MPa | ASTM D4440  |\n|  Storage modulus @ -5°C | 204 | MPa | ASTM D4440  |\n|  Storage modulus @ 30°C | 8 | MPa | ASTM D4440  |\n|  Storage modulus @ 120°C | 1 | MPa | ASTM D4440  |\n|  CTE before Tg | 66 | ppm/°C | ASTM E831  |\n|  CTE after Tg | 220 | ppm/°C | ASTM E831  |\n|  Die shear strength_UV |  |  |   |\n|  a) Ceramic chip to glass | 45 | kgf/cm² | PEN 93  |\n|  b) Metal chip to glass | 40 | kgf/cm² | PEN 93  |\n|  c) Nickel to glass | 52 | kgf/cm² | PEN 93  |\n|  d) Kovar to glass | 57 | kgf/cm² | PEN 93  |\n|  e) Ultem to glass | 17 | kgf/cm² | PEN 93  |\n\nRevision 13: 29-FEB-2024 (JT)\nPencheM Technologies Sdn Bhd (767120-A),\nAddress: 1015, Jalan Perindustrian Bukit Minyak 7, Kawasan Perindustrian Bukit Minyak, Mk.13,\n14100 Penang, Malaysia.\nTel: +604-501 5976, 77, 78\nEmail: enquiry@penchem.com Website: www.penchem.com\n^{}[]\nTÜV Rheinland CERTIFIED\nManagement System ISO 9001:2015 ISO 14001:2015 JAST 18046:2016 www.tuv.com ID 9105004144\nTechnical Data Sheet | 1",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:enquiry%40penchem.com",
+        "http://www.penchem.com/"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "PENCHEM\nBONDING TECHNOLOGIES TOGETHER\nUV784-14\nFlexible UV Epoxy\n\n|  f) | Glass to glass | 32 | kgf/cm² | PEN 93  |\n| --- | --- | --- | --- | --- |\n|  g) | Aluminium to glass | 64 | kgf/cm² | PEN 93  |\n|  h) | Bare FR4 to glass | 49 | kgf/cm² | PEN 93  |\n|  i) | Gold to glass | 107 | kgf/cm² | PEN 93  |\n|  j) | Alumina to glass | 39 | kgf/cm² | PEN 93  |\n|  Die shear strength_UV+Heat  |   |   |   |   |\n|  a) | Ceramic chip to glass | 124 | kgf/cm² | PEN 93  |\n|  b) | Metal chip to glass | 70 | kgf/cm² | PEN 93  |\n|  c) | Nickel to glass | 201 | kgf/cm² | PEN 93  |\n|  d) | Kovar to glass | 117 | kgf/cm² | PEN 93  |\n|  e) | Ultem to glass | 23 | kgf/cm² | PEN 93  |\n|  f) | Glass to glass | 70 | kgf/cm² | PEN 93  |\n|  g) | Aluminium to glass | 127 | kgf/cm² | PEN 93  |\n|  h) | Bare FR4 to glass | 110 | kgf/cm² | PEN 93  |\n|  i) | Gold to glass | 95 | kgf/cm² | PEN 93  |\n|  j) | Alumina to glass | 155 | kgf/cm² | PEN 93  |\n|  Die shear strength_PCT 121°C, 100%RH, 2atm_Ceramic chip to glass  |   |   |   |   |\n|  a) | 24 hours | 18 | kgf/cm² | PEN 93  |\n|  b) | 48 hours | 13 | kgf/cm² | PEN 93  |\n|  c) | 72 hours | 20 | kgf/cm² | PEN 93  |\n|  d) | 96 hours | 22 | kgf/cm² | PEN 93  |\n|  e) | 168 hours | 24 | kgf/cm² | PEN 93  |\n|  Die shear strength_Glass to glass  |   |   |   |   |\n|  a) | After cure | 32 | kgf/cm² | PEN 93  |\n|  b) | After reflow 3X | 94 | kgf/cm² | PEN 93  |\n\n* PEN is refer to Penchem test method\n* The technical data contained herein are intended as reference only and are not considered specifications for the product. Product specifications are located on certificate of conformance or please contact Penchem representative.\n** Refer the details in Storage &amp; shelf life section information below\n\n## Guideline of Use\n\n### Direction for use\n\n1) This product may be dispensed with a variety of manual and automatic applicators or other equipment as required. The user is responsible to determine the suitability of the product for all intended uses.\n2) For dispensing process, placed the syringe on the dispensing equipment. Care must be exercised to avoid air and contaminants entrapment into the adhesive.\n3) Purge material through the system until an unbroken flow of material is extruded.\n4) The substrate should be clean and free from grease, mold release, or other contaminants prior to dispensing the adhesive. Dispense the adhesive by using a syringe with a recommended needle size of GA 27 or ID more than 0.203 mm.\n5) It is recommended to use the product within work life. The work life is varies by difference environment condition and application.\n\n## Recommended Cure\n\n### Pre-curing condition\n\nRevision 13: 29-FEB-2024 (JT)\nPenchem Technologies Sdn Bhd (767120-A),\nAddress: 1015, Jalan Perindustrian Bukit Minyak 7, Kawasan Perindustrian Bukit Minyak, Mk.13,\n14100 Penang, Malaysia.\nTel: +604-501 5976, 77, 78\nEmail: enquiry@penchem.com Website: www.penchem.com\n\nTÜV Rheinland CERTIFIED\nManagement System ISO 9001:2015 ISO 14001:2015 JAST 16946:2016 www.tuv.com ID 9105054164\nTechnical Data Sheet | 2",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:enquiry%40penchem.com",
+        "http://www.penchem.com/"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "PENCHEM\nBONDING TECHNOLOGIES TOGETHER\nUV784-14\nFlexible UV Epoxy\n\nWavelength: 365 nm\n\n|   | Intensity (mW/cm²) | Time (sec)  |\n| --- | --- | --- |\n|  Optimum | 2000 | 15  |\n|  Minimum | 180 | 60  |\n\n## Post curing condition\n\n100°C or above for 1 hour\n\nUV curing is a function of lamp type, intensity, mass and thickness of adhesive, distance of lamp to adhesive, and type of substrate. One of the substrates must be transparent to lamp wavelength applied, to minimize light loss. Heat curing time will be varying at different cure temperature.\n\n## Storage &amp; Shelf Life\n\nThe viscosity versus number of days graph below shows that the viscosity of UV784-14 will increase at room temperature over period of 6 months.\n\n![img-0.jpeg](img-0.jpeg)\n\nThis product has 6 months shelf life from date of manufacturing, unless otherwise specified, when stored at 25±3°C in the original and unopened container.\n\n## Packaging\n\n- 3 ml amber syringe\n- 10 ml amber syringe\n\nOther packaging enquiry, please contact our sales department.\n\n## Environment, Health &amp; Safety\n\nThis product is intended for industrial use only. For more safety information, please refer to Product Safety Data Sheet (SDS).\n\n## General Information\n\nAll right reserved. This information in this document is subjected to change without notice.\n\nRevision 13: 29-FEB-2024 (JT)\nPenchem Technologies Sdn Bhd (767120-A),\nAddress: 1015, Jalan Perindustrian Bukit Minyak 7, Kawasan Perindustrian Bukit Minyak, Mk.13,\n14100 Penang, Malaysia.\nTel: +604-501 5976, 77, 78\nEmail: enquiry@penchem.com Website: www.penchem.com\nManagement\nSystem\nISO 9001:2015\nISO 14001:2015\nJATF 16946:2016\nwww.uvs.com\nID 0105064144\nTechnical Data Sheet | 3",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 121,
+          "top_left_y": 359,
+          "bottom_right_x": 604,
+          "bottom_right_y": 626,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:enquiry%40penchem.com",
+        "http://www.penchem.com/"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 168928
+  },
+  "document_annotation": null
+}

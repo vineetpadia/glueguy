@@ -1,0 +1,149 @@
+                                                                                                                                                          PERMABOND® 919
+                                                                                                                                                              Cyanoacrylate
+                                                                                                                                                                  Technical Datasheet
+
+Features & Benefits
+             Rapid development of high strength                                                         Typical Performance of Cured Adhesive
+             Ease of use – no mixing or heat cure                                                                                                Steel      20-22 N/mm² (2900-3200 psi)
+             Bonds most materials                                                                                                                Aluminium 16-18 N/mm² (2300-2600 psi)
+             100% reactive, no solvents                                                                                                          ABS         4 N/mm² (600psi)
+                                                                                                       Shear strength*                           Polystyrene 3.5 N/mm² (500psi)
+  Approved to MIL-A-46050C Type V Class 1 (existing designs)                                           (ISO4587)                                 PC          7 N/mm² (1000psi)
+                                                                                                                                                 Phenolic    14N/mm² (2000psi)
+Description                                                                                                                                      Gum rubber 2N/mm² (300psi)
+                                                                                                                                                 Valox       4N/mm² (600psi)
+PERMABOND® 919 is the original allyl cyanoacrylate adhesive.                                           Impact Strength
+It is a single part, low viscosity liquid that will cure rapidly at                                                                              3-5 kJ/m² (1.4-2.4 ft-lb/in²)
+                                                                                                       (ASTM D-950)
+room temperature when pressed into a thin film between parts.
+PERMABOND 919 will cure to fixture strength in 10 seconds on                                           Hardness (ISO868)                         85 Shore D
+most surfaces, and rapidly develops high strength with full cure                                       Coefficient of thermal
+obtained in 24 hours. The adhesive was specifically designed to                                                                  90 x 10-6 mm/mm/°C
+                                                                                                       expansion
+meet the high temperature resistance required by certain                                               Coefficient of thermal
+applications. It provides excellent bond strength to steel,                                                                      0.1 W/(m.K)
+                                                                                                       conductivity
+aluminum, and most metal surfaces. The cyanoacrylate will also                                         *Strength results will vary depending on the level of surface
+adhere well to a wide variety of other materials including most                                        preparation and gap.
+types of plastic and rubber.                                                                           **SF = Substrate failure
+In order to withstand high temperature environments,
+PERMABOND 919 was designed with a secondary curing
+mechanism that is activated at temperatures higher than 150°C
+(302°F). The procedure to activate this mechanism is as follows:
+1) Parts are bonded and clamped at room temperature for four hours.
+2) The clamped parts are then heated at 150°C (302°F) for two hours.
+3) After the two hours, the bond will be thermally resistant up to 250°C
+                                                                                                            Hot Strength
+(482°).                                                                                                                             100
+                                                                                                             % Strength Retention
+
+
+
+
+Physical Properties of Uncured Adhesive                                                                                              80
+
+  Chemical composition                     Allyl cyanoacrylate                                                                       60
+
+  Appearance                               Colourless                                                                                40
+
+  Viscosity @ 25°C                         2-6 mPa.s (cP)                                                                            20
+  Specific gravity                         1.1                                                                                        0
+                                                                                                                                          -50        50              150                    250
+Typical Curing Properties                                                                                                                           Temperature (°C)
+
+  Maximum gap fill                         0.05 mm 0.002 in                                             “Hot strength” shear strength tests performed on mild steel. 24hr cure at
+                                           <20 seconds (Steel)                                          room temperature and conditioned to pull temperature for 30 minutes
+  Fixture / handling time*                                                                              before testing.
+                                           <15 seconds (NBR Rubber)
+  (0.3 N/mm² shear strength
+                                           <20 seconds (Buna N Rubber)
+  is achieved)                                                                                          919 can withstand higher temperatures for brief periods (such as
+                                           <20 seconds (Phenolic)
+                                                                                                        for paint baking and wave soldering processes) providing the
+  Full strength                            24 hours
+                                                                                                        joint is not unduly stressed. The minimum temperature the
+*Handling times can be affected by temperature, humidity and                                            cured adhesive can be exposed to is -55°C (-65°F) depending on
+specific surfaces being bonded. Larger gaps or acidic surfaces will                                     the materials being bonded.
+also reduce cure speed but this can be overcome by the use of
+Permabond C Surface Activator (CSA) or Permabond QFS 16.
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond 919                                                                     Global TDS Revision 2                                         8 November 2016                  Page 1/2
+                                       FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+       Chemical Resistance                                                                              Surface Preparation
+                          120                                                                           Surfaces should be clean, dry and grease-free before
+                                                                                                        applying the adhesive. Use a suitable solvent (such as
+                          100                                                                           acetone or isopropanol) for the degreasing of surfaces.
+   % Strength Retention
+
+
+
+
+                                                                                                        Some metals such as aluminium, copper and its alloys will
+                           80
+                                                                                                        benefit from light abrasion with emery cloth (or similar),
+                           60                                                                           to remove the oxide layer.
+
+                           40                                                                           Directions for Use
+                           20                                                                                  1) Apply the adhesive sparingly to one surface.
+                                                                                                               2) Bring the components together quickly and
+                            0                                                                                       correctly aligned.
+                                                                                                               3) Apply sufficient pressure to ensure the adhesive
+                                                                                                                    spreads into a thin film.
+                                                                                                               4) Do not disturb or re-align until curing is achieved,
+                                                                                                                    normally in a few seconds.
+                                                                                                               5) Any surplus adhesive can be removed with
+                                                                                                                    Permabond CA solvent, nitromethane or acetone.
+                                                                                                               6) To enhance high temperature performance, the
+                                                                                                                    post-curing schedule on page 1 should be
+Specimens were immersed for 1000 hours at 22°C (unless                                                              followed.
+otherwise stated)                                                                                              NB:
+                                                                                                               For difficult or porous surfaces using a Permabond
+                                                                                                               activator is recommended. If bonding polypropylene,
+Additional Information                                                                                         polyethylene, PTFE or silicone, prime first with
+                                                                                                               Permabond Polyolefin Primer (POP).
+This product is not recommended for use in contact with
+strong oxidizing materials and polar solvents although will
+withstand a solvent wash without any bond strength
+deterioration. Users are reminded that all materials,                                                         Video Links
+whether innocuous or not, should be handled in                                                                Surface preparation:
+accordance with the principles of good industrial hygiene.                                                    https://youtu.be/8CMOMP7hXjU
+Full information can be obtained from the Safety Data
+Sheet.
+This Technical Datasheet (TDS) offers guideline
+information and does not constitute a specification.                                                          Cyanoacrylate directions for use:
+                                                                                                              https://youtu.be/hWLMmsifmyw
+
+
+Storage & Handling
+  Storage Temperature                                      2 to 7°C (35 to 45°F)
+
+Allow adhesive to reach room temperature before                                                                                                            www.permabond.com
+opening bottle to prevent condensation inside the bottle                                                                                                     • UK: 0800 975 9800
+which can reduce shelf life.                                                                                                            • General Enquiries: +44 (0)1962 711661
+                                                                                                                                                              • US: 732-868-1372
+                                                                                                                                                        • Asia: + 86 21 5773 4913
+                                                                                                                                                  info.europe@permabond.com
+                                                                                                                                                   info.americas@permabond.com
+                                                                                                                                                        info.asia@permabond.com
+
+
+
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond 919                                                                     Global TDS Revision 2                                 8 November 2016                          Page 2/2
+                                       FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

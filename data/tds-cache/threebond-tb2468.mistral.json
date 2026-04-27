@@ -1,0 +1,290 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB2468\n\nThreeBond\n\nJanuary 15, 2010\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond2468\n\nMEC process to pre-coated bolts\n\n(water-based acrylic medium-strength type)\n\n1. Outline\n\nThreeBond 2468 is an acrylic medium-strength sealing and locking agent for pre-coated bolts. The agent, which is an water-based agent not containing organic solvents, is an environmentally-friendly microencapsulated thread locking agent.\n\nWhen a bolt processed with ThreeBond 2468 is screwed, the microcapsules are broken, and the acrylic resin reacts with the curing agent to prevent leaking and loosening of the threaded portion.\n\nHereinafter, ThreeBond is abbreviated to TB\n\n2. Features\n\n(1) Medium level of breakloose torque\n(2) Excellent heat resistance (locking: 100°C, sealing: 170°C)\n(3) Applicable to minimum screw diameter of M3\n(4) Standard drying conditions: 25°C for 24 hours\n\n3. Uses\n\nLocking and sealing of bolts and screws\n\n4. Properties\n\nTable-1 Properties\n\n|  Product name | TB2468  |\n| --- | --- |\n|  Main component | Acrylic resin  |\n|  Color | Red  |\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2468\n\n# 5. Characteristics\n\n## 5.1 Curing rate\n\nAfter bolts processed with TB2468 are tightened at each temperature, the breakloose torque is measured after a lapse of the specified time.\n\n- Bolts and nuts\nJIS class 2, M10 × P1.5, zinc plating chromate treatment\n- Number of test pieces: n = 5\n- Tightening torque: 30 N·m\n- Curing temperature conditions: -5°C, 5°C, 10°C, 25°C, 40°C\n- Measuring conditions: 3TS-306-05\n\n1) Curing rate at -5°C\n\nTable-2 Curing rate at -5°C\n\n|  Lapsed time (h) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  0.5 | 34.4 to 38.0 | 36.0  |\n|  3 | 39.0 to 40.5 | 39.7  |\n|  6 | 39.0 to 41.9 | 40.0  |\n|  12 | 39.9 to 43.5 | 42.0  |\n|  24 | 40.8 to 45.1 | 43.1  |\n|  48 | 41.2 to 49.4 | 44.1  |\n|  72 | 41.9 to 49.5 | 45.0  |\n\n2) Curing rate at 5°C\n\nTable-3 Curing rate at 5°C\n\n|  Lapsed time (h) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  0.5 | 34.8 to 38.9 | 36.0  |\n|  3 | 38.9 to 42.1 | 40.3  |\n|  6 | 39.2 to 42.9 | 41.4  |\n|  12 | 40.9 to 45.9 | 43.1  |\n|  24 | 41.7 to 47.0 | 44.6  |\n|  48 | 42.3 to 48.1 | 45.2  |\n|  72 | 43.0 to 48.3 | 45.1  |\n\n3) Curing rate at 10°C\n\nTable-4 Curing rate at 10°C\n\n|  Lapsed time (h) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  0.5 | 34.5 to 38.1 | 36.3  |\n|  3 | 39.2 to 42.3 | 40.4  |\n|  6 | 40.9 to 43.8 | 42.2  |\n|  12 | 42.3 to 46.1 | 43.8  |\n|  24 | 42.7 to 47.7 | 44.6  |\n|  48 | 43.5 to 48.8 | 46.3  |\n|  72 | 43.7 to 48.9 | 46.5  |\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2468\n\n4) Curing rate at 25°C\n\nTable-5 Curing rate at 25°C\n\n|  Lapsed time (h) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  0.5 | 35.2 to 39.1 | 37.3  |\n|  3 | 39.9 to 44.8 | 42.0  |\n|  6 | 42.8 to 47.3 | 44.6  |\n|  12 | 43.4 to 47.7 | 44.7  |\n|  24 | 43.6 to 49.0 | 44.9  |\n|  48 | 45.2 to 49.1 | 46.7  |\n\n5) Curing rate at 40°C\n\nTable-6 Curing rate at 40°C\n\n|  Lapsed time (h) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  0.5 | 35.9 to 40.6 | 37.6  |\n|  3 | 39.7 to 45.9 | 43.9  |\n|  6 | 41.5 to 46.3 | 45.2  |\n|  12 | 42.4 to 46.8 | 45.4  |\n|  24 | 43.8 to 47.1 | 45.5  |\n|  48 | 45.1 to 49.7 | 47.6  |\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Curing rate\n\nED2010005",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 98,
+          "top_left_y": 462,
+          "bottom_right_x": 612,
+          "bottom_right_y": 864,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB2468\n\n## 5.2 Breakloose torque at each size\n\nBolts of each size processed with TB2468 are tightened, and the breakloose torque is measured after the agent is cured at 25°C for 24 hours.\n\n- Bolts and nuts: Zinc plating chromate treatment, Sizes shown in the following table\n- Number of test pieces: n = 5\n- Measuring conditions: 3TS-306-05 (bolt M10), 3TS-306-02 (other than bolt M10)\n\nFig. 7 Breakloose torque at each size\n\n|  Bolt Size | Pitch | Tightening torque (N·m) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- | --- | --- |\n|  M3 | P0.35 | 1.0 | 1.0 to 1.1 | 1.1  |\n|  M4 | P0.7 | 2.0 | 2.0 to 2.3 | 2.2  |\n|  M6 | P1.0 | 8.0 | 9.2 to 10.0 | 9.6  |\n|  M8 | P1.25 | 15 | 18.5 to 21.5 | 20.0  |\n|  M10 | P1.25 | 30 | 40.0 to 50.0 | 45.3  |\n|  M10 | P1.5 | 30 | 40.0 to 49.0 | 44.9  |\n|  M12 | P1.25 | 50 | 74.0 to 77.0 | 75.0  |\n|  M12 | P1.5 | 50 | 69.0 to 73.0 | 71.0  |\n|  M12 | P1.75 | 50 | 60.0 to 67.0 | 63.0  |\n|  M14 | P2.0 | 90 | 106.0 to 110.0 | 108.0  |\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB2468\n\n# 5.3 Breakloose torque to each material\n\nAfter bolts processed with TB2468 are tightened and the agent is cured at $25^{\\circ}\\mathrm{C}$ for 24 hours, the breakloose torque is measured.\n\n- Bolts and nuts JIS, class 2, M10 × P1.5,\n- Number of test pieces: n = 5\n- Tightening torque 30N·m (Brass and aluminum bolts: 15N·m)\n- Measuring conditions 3TS-306-05\n\nFig. 8 Breakloose torque to each material\n\n|  Material of bolt and nut | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  Plain steel | 40.6 to 49.5 | 45.4  |\n|  Zinc plating chromate treatment | 40.0 to 49.0 | 44.9  |\n|  Chromium plating | 40.3 to 47.8 | 43.4  |\n|  Nickel plating | 41.5 to 43.3 | 42.2  |\n|  Unichrome plating | 42.5 to 47.9 | 45.8  |\n|  Black oxide | 42.9 to 45.5 | 43.8  |\n|  SUS304 | 39.9 to 45.4 | 42.6  |\n|  Brass | 24.7 to 33.0 | 28.8  |\n|  Aluminum | 24.3 to 25.2 | 24.8  |\n\n![img-1.jpeg](img-1.jpeg)\n\nFig. 2 Breakloose torque to each material\n\nED2010005",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 98,
+          "top_left_y": 480,
+          "bottom_right_x": 612,
+          "bottom_right_y": 881,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB2468\n\n# 5.4 Chemical resistance test\n\nAfter bolts processed with TB2468 are tightened and the agent is cured at  $25^{\\circ}\\mathrm{C}$  for 24 hours, the bolts are immersed in each immersion liquid. After a lapse of the specified time, the bolts are taken out from the immersion liquid, and the breakloose torque is measured.\n\n- Bolts and nuts JIS, class 2, M10 × P1.5, zinc plating chromate treatment\nNumber of test pieces  $\\mathrm{n} = 5$\n- Tightening torque  ${30}\\mathrm{\\;N} \\cdot  \\mathrm{m}$\nMeasuring conditions 3TS-306-05\n\nFig. 9 Chemical resistance test\n\n|  Test medium | Immersion conditions | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- | --- |\n|  Blank |  | 40.0 to 49.0 | 44.9  |\n|  NaOH 10%aq. | 25°C × 7 days | 44.2 to 45.7 | 45.0  |\n|  Gas oil | 40°C × 7 days | 47.4 to 53.4 | 50.7  |\n|  Gasoline | 40°C × 7 days | 49.3 to 52.9 | 50.9  |\n|  n-hexane | 40°C × 7 days | 46.7 to 50.4 | 48.3  |\n|  Methanol | 40°C × 7 days | 48.6 to 51.5 | 50.1  |\n|  Water | 100°C × 7 days | 45.4 to 49.2 | 46.9  |\n|  Ethylene glycol | 100°C × 7 days | 41.8 to 48.4 | 45.1  |\n|  Ethylene glycol 50%aq. | 100°C × 7 days | 45.5 to 48.5 | 46.4  |\n|  Engine oil | 100°C × 7 days | 43.3 to 47.7 | 45.5  |\n|  Turbine oil | 100°C × 7 days | 42.9 to 47.2 | 43.8  |\n|  ATF | 100°C × 7 days | 42.6 to 48.5 | 45.4  |\n|  Gear oil | 100°C × 7 days | 44.4 to 52.6 | 47.8  |\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Chemical resistance test\n\nED2010005",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 98,
+          "top_left_y": 561,
+          "bottom_right_x": 611,
+          "bottom_right_y": 891,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB2468\n\n## 5.5 Heat deterioration test\n\nBolts processed with TB2468 are tightened, and they are exposed to each temperature after the agent is cured at 25°C for 24 hours. The bolts are taken out after a lapse of the specified time and cooled to room temperature, and the breakloose torque is measured.\n\n- Bolts and nuts\nJIS, class 2, M10 × P1.5, zinc plating chromate treatment\n- Number of test pieces\nn = 5\n- Tightening torque\n30 N·m\n- Temperature conditions\n100°C, 120°C and 150°C\n- Measuring conditions\n3TS-306-05\n\n1) 100°C\n\nTable -10 Heat deterioration test at 100°C\n\n|  Time of exposure to temperature | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  Initial | 40.0 to 49.0 | 44.9  |\n|  7 days | 42.2 to 47.5 | 44.4  |\n|  14 days | 40.7 to 46.1 | 44.1  |\n|  21 days | 43.4 to 47.7 | 44.8  |\n|  28 days | 41.2 to 48.3 | 44.1  |\n\n2) 120°C\n\nTable -11 Heat deterioration test at 120°C\n\n|  Time of exposure to temperature | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  Initial | 40.0 to 49.0 | 44.9  |\n|  7 days | 41.3 to 48.1 | 43.8  |\n|  14 days | 40.4 to 46.2 | 43.4  |\n|  21 days | 39.4 to 46.2 | 43.0  |\n|  28 days | 37.1 to 42.6 | 40.7  |\n\n3) 150°C\n\nTable -12 Heat deterioration test at 150°C\n\n|  Time of exposure to temperature | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  Initial | 40.0 to 49.0 | 44.9  |\n|  7 days | 39.5 to 46.5 | 41.7  |\n|  14 days | 35.8 to 44.1 | 38.7  |\n|  21 days | 36.0 to 39.3 | 37.9  |\n|  28 days | 35.5 to 39.6 | 37.1  |\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "TB2468\n\n![img-3.jpeg](img-3.jpeg)\n\nFig. 4 Heat deterioration test\n\nED2010005",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 99,
+          "top_left_y": 103,
+          "bottom_right_x": 616,
+          "bottom_right_y": 523,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 8,
+      "markdown": "TB2468\n\n# 5.6 Breakloose torque test at each temperature\n\nAfter bolts processed with TB2468 are tightened and the agent is cured at $25^{\\circ}\\mathrm{C}$ for 24 hours, the bolts are kept at each temperature for 2 hours, and the breakloose torque is measured at the temperature.\n\n- Bolts and nuts JIS, class 2, M10 × P1.5, zinc plating chromate treatment\n- Number of test pieces n = 5\n- Tightening torque 30 N·m\n- Measuring conditions 3TS-306-02\n\nTable -13 Breakloose torque at each temperature\n\n|  Test temperature (°C) | Breakloose torque range (N·m) | Average (N·m)  |\n| --- | --- | --- |\n|  25 | 40.0 to 49.0 | 44.9  |\n|  60 | 35.0 to 39.0 | 36.4  |\n|  80 | 33.0 to 34.5 | 33.5  |\n|  90 | 29.5 to 32.5 | 31.6  |\n|  100 | 29.5 to 30.5 | 30.1  |\n|  120 | 25.0 to 29.5 | 26.9  |\n|  150 | 21.0 to 27.0 | 22.9  |\n|  180 | 17.0 to 20.0 | 18.4  |\n\n![img-4.jpeg](img-4.jpeg)\n\nFig. 5 Breakloose torque at each temperature\n\nED2010005",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 479,
+          "bottom_right_x": 618,
+          "bottom_right_y": 875,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 9,
+      "markdown": "TB2468\n\n# 5.7 Axial tension at each tightening torque\n\nBolts processed with TB2468 are set on tightening testing equipment, and the axial tension at each tightening torque is measured.\n\n- Bolts JIS class 2, M10 × 1.5, zinc plating chromate treatment, hexagon headed bolts, property class 10.9\n- Nuts ISO class 1, zinc plating chromate treatment, hexagon nuts\n- Number of test pieces n = 5\n- Testing equipment: Tightening testing equipment NST-500NM made by Japan Instrumentation System Co., Ltd.\n\nTable -14 Axial tension at each tightening torque\n\n|  Tightening torque (N·m) | Axial tension (kN)  |   |   |   |\n| --- | --- | --- | --- | --- |\n|   |  TB2468 |   | Non coating  |   |\n|   |  Range | Average | Range | Average  |\n|  20 | 7.7 to 9.2 | 8.2 | 3.5 to 4.5 | 4.1  |\n|  30 | 10.3 to 12.5 | 11.9 | 5.5 to 7.3 | 6.5  |\n|  40 | 12.6 to 14.8 | 14.2 | 7.5 to 10.0 | 9.0  |\n|  50 | 15.8 to 19.9 | 18.1 | 9.6 to 12.9 | 11.7  |\n|  60 | 20.3 to 24.4 | 22.7 | 12.0 to 15.6 | 14.2  |\n\n![img-5.jpeg](img-5.jpeg)\nFig. 6 Axial tension at each tightening torque\n\nED2010005",
+      "images": [
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 101,
+          "top_left_y": 464,
+          "bottom_right_x": 614,
+          "bottom_right_y": 885,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 10,
+      "markdown": "TB2468\n\n## 5.8 Sealing test (air tightness)\n\nBolts processed with TB2468 are tightened on a sealing test block at each tightening torque, and the agent is cured at 25°C for 24 hours. Then, the block is mounted on sealing testing equipment. Immediately the nitrogen gas pressure is increased to 0.5 MPa, and the block is kept at the pressure for 5 minutes, for which the bolts are checked for leak. Then, the pressure is increased by 0.5 MPa up to 2 MPa. The block is kept at each pressure for 2 minutes. The bolts are checked for leak at each pressure under water.\n\n- Bolts: JIS class 2, M10 × 1.5, zinc plating chromate treatment\n- Sealing test block: Iron, aluminum\n- Tightening torque: 30 N·m\n- Test temperature: 25°C\n- Test medium: Nitrogen gas\n- Number of test pieces: n = 10\n- Measuring conditions: 3TS-350-01\n\nTable -15 Sealing test (air tightness)\n\n|  Sealing test block material | Test temperature (°C) | Pressure (MPa)  |   |   |   |\n| --- | --- | --- | --- | --- | --- |\n|   |   |  0.5 | 1.0 | 1.5 | 2.0  |\n|  Iron | 25 | 0/10 | 0/10 | 0/10 | 0/10  |\n|  Aluminum | 25 | 0/10 | 0/10 | 0/10 | 0/10  |\n\n* “0/10” indicates that none of the ten bolts showed any leak.\n\n## 5.9 Sealing test (oil tightness)\n\nBolts processed with TB2468 are tightened on a sealing test block at each tightening torque, and the agent is cured at 25°C for 24 hours. Then, the block is mounted on sealing testing equipment. Immediately the hydraulic pressure is increased to 2.0 MPa, and the block is kept at the pressure for 5 minutes, for which the bolts are checked for leak. Then, the pressure is increased by 2.0 MPa up to 10 MPa. The block is kept at each pressure for 2 minutes. The bolts are visually checked for leak at each pressure using a developer.\n\n- Bolts: JIS class 2, M10 × 1.5, zinc plating chromate treatment\n- Sealing test block: Iron, aluminum\n- Tightening torque: 30 N·m\n- Test temperature: 25°C, 170°C\n- Test medium: Turbine oil\n- Number of test pieces: n = 10\n- Measuring conditions: 3TS-350-01\n\nTable -16 Sealing test (oil tightness)\n\n|  Sealing test block material | Test temperature (°C) | Pressure (MPa)  |   |   |   |   |\n| --- | --- | --- | --- | --- | --- | --- |\n|   |   |  2.0 | 4.0 | 6.0 | 8.0 | 10.0  |\n|  Iron | 25 | 0/10 | 0/10 | 0/10 | 0/10 | 0/10  |\n|   |  170 | 0/10 | 0/10 | 0/10 | 0/10 | 0/10  |\n|  Aluminum | 25 | 0/10 | 0/10 | 0/10 | 0/10 | 0/10  |\n|   |  170 | 0/10 | 0/10 | 0/10 | 0/10 | 0/10  |\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 11,
+      "markdown": "TB2468\n\n![img-6.jpeg](img-6.jpeg)\nFig. 7 Sealing testing equipment\n\n## 6. Instructions for handling and storage\n\n## 6.1 Influence on human body and safety precautions\n\n- Pre-coated bolts are delivered to customers after the pre-coating agent is applied to the threads and dried. Therefore, it is rare that the pre-coating agent adheres to the fingers or hands or gets in the eyes or mouth. However, flakes of the pre-coating agent generated during tightening may cause irritation.\n- The irritation is a medical physiological phenomenon, and the degree of irritation greatly varies between individuals. It is difficult to completely prevent the irritation. It is important to examine how to handle pre-coated bolts to avoid irritation. The skin may be irritated after you handle them several times. When handling them, observe the following instructions.\n\n(1) People who have sensitive skin should not handle them.\n(2) Wear impervious gloves to prevent direct contact of the hands with treated portions and adhesion of flakes of the agent to the hands.\n(3) If any abnormality is found, immediately stop using the product, and get medical attention.\n(4) If flakes of the pre-coating agent adhere to fingers or hands, thoroughly wash them with soap. If the flakes cannot be removed, it is effective to wipe them off with a solvent (thinner). However, take care not to chap the hands.\n(5) If flakes get in the eyes, wash them sufficiently with clean water, and get medical attention.\n(6) If flakes get in the mouth, spit them out immediately, and get medical attention.\n\nED2010005",
+      "images": [
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 187,
+          "top_left_y": 102,
+          "bottom_right_x": 518,
+          "bottom_right_y": 351,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 12,
+      "markdown": "TB2468\n\n## 6.2 Instructions for use\n\n1) Use of product to special purposes, such as medical and food manufacturing purposes\n\n- This product has been developed for general industrial use. We do not confirm the safety of the use of the product in medical devices or food-related equipment. If it is used for such a purpose, conduct the preliminary verification test appropriate to the purpose of use, and sufficiently confirm the safety prior to use. Never use it for medical implant products.\n\n2) Improper conditions of use\n\n- In the following cases, the product will not exhibit sufficient locking or sealing ability.\n\n(1) Foreign substances (water, oil, solvents, dust, etc.) have adhered to the threaded portions.\n(2) Improper tightening (excessive or insufficient tightening)\n(3) Too large clearance\n(4) Out of working temperature range during and after tightening\n(5) Reuse of used pre-coated bolts\n\n3) Material of mating part\n\n- The material may be cracked or deformed by screwing the pre-coated bolt depending on the strength of the internal threads. Check the strength in advance.\n\n4) Adhesion and removal of flakes\n\n- The flakes on clothes can be removed by a gloved hand or an air blower.\n- To remove the pre-coating agent on work, it is effective to blow air or wipe with a solvent (thinner). If the pre-coating agent cannot be removed by wiping, it must be physically peeled off because it has cured.\n\n5) Use of parts feeder\n\n- In a parts feeder, pre-coated bolts get into contact with one another, and flakes of the pre-coating agent can be generated. The flakes stick to the parts feeder, and it may not operate normally. To prevent this, clean the parts feeder on a daily basis to remove the flakes.\n\n## 6.3 Instructions for storage and transportation\n\n- Note that the MEC process bolt pre-coating agent does not exhibit its original performance if appropriate storage conditions are not met.\n\n1) Prevention of adhesion of foreign substances\n\n- Keep the bolts away from water, oil, solvents, dust, etc.\n- Store the product in a sealed state in a non-dusty place, or lid or cover the pre-coated bolt container.\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 13,
+      "markdown": "TB2468\n\n2) Prevention of collision\n\n- Take care that the coating of the pre-coated bolts is not removed by hard collision of bolts during transportation. Take special care when handling heavy bolts.\n\n3) Storage and conditions of use\n\n- The quality of the MEC process bolt pre-coating agent deteriorates under the influence of high temperature, moisture and UV light. To prevent deterioration due to these factors and entry of foreign substances, observe the following instructions.\n\n(1) Store the product, if possible, in a sealed state in an indoor dark place with as low humidity as possible at 0 to 25°C away from direct sunlight and rain. (Use of a desiccant is effective in prevention of deterioration due to humidity.)\n\n(2) Take care that condensation does not occur in the container.\n\n(3) Use the bolts on a first-in, first-out basis.\n\n(4) In a season with high temperature and humidity, use the bolts as soon as possible.\n\n7. Applicable laws\n\nSee the material safety data sheet (MSDS).\n\n8. Treatment and delivery system\n\nWe have established a system for treating the bolts and plugs supplied by customers at our plant and delivering them after treatment. For the details, contact one of our sales offices.\n\n9. Cautions\n\nFor industrial use only\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\nED2010005",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 14,
+      "markdown": "TB2468\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact our sales department or customer service office.\n- This document is subject to change at our discretion.\n\nED2010005\n-15/15-",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 15,
+    "doc_size_bytes": 98332
+  },
+  "document_annotation": null
+}

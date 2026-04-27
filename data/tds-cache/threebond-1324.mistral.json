@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\n\n# Technical Data Sheet\n\n# TB1324 – ANAEROBIC SEALANT\n\n## Information\n\nTB1324 is a medium strength type anaerobic sealant. The performance characteristics of TB1324 include quick curing at room temperature, durability, sealing, and anti-corrosion.\n\n## Application\n\nUsed for threaded fasteners with a small diameter that may be removed.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Red Liquid  |\n|  Viscosity | mPa • s (cP) | 650 (650)  |\n|  Specific gravity | - | 1.13  |\n\n### 2. Cured Material\n\n|  Properties |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Curing Speed | Workable | Hours | 2  |\n|   |  Final |   | 24  |\n|  Curing Time | 80°C | Minutes | 30  |\n|   |  100°C |   | 20  |\n|   |  120°C |   | 10  |\n|  Recommended Clearance |   | mm | 0.01 ~ 0.02  |\n|  Maximum Clearance |   |   | 0.3  |\n|  Shear Strength | Fixing | MPa(kgf/cm²) | 28.0 (290)  |\n|   |  Screw |   | 16.0 (160)  |\n\nRev: 0.1\n\nIssued Date: 6/17/03\n\nDocument Control Number: 3-TB-20-0862",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3. Retaining Torque M 10\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Steel | Breakaway Torque | N·m (kgf·cm) | 22.0 (220)  |\n|   |  Prevailing Torque |   | 30.0 (310)  |\n|  Stainless Steel | Breakaway Torque |   | 12.0 (120)  |\n|  Aluminum | Breakaway Torque |   | 13.0 (130)  |\n|  Brass | Breakaway Torque |   | 11.0 (110)  |\n|  Zn-Cr | Breakaway Torque |   | 9.0 (92)  |\n|  Ni | Prevailing Torque |   | 15.0 (150)  |\n|  Black Steel Oxide | Breakaway Torque |   | 21.0 (210)  |\n\nThese are typical properties and not product specification\n\nRev: 0.1\nIssued Date: 6/17/03\nDocument Control Number: 3-TB-20-0862",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 91342
+  },
+  "document_annotation": null
+}

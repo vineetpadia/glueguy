@@ -1,0 +1,12 @@
+Official Dow fallback extracted from the DOWSIL TC-2035 Adhesive technical data sheet when direct automation returned HTTP 403.
+
+Product: DOWSIL TC-2035 Adhesive.
+Description: two-part heat-cure silicone thermally conductive adhesive with low bond-line thickness.
+Chemistry and cure: addition-cure silicone; heat cure; no cure by-products; cures in deep sections and confined assemblies. Mix ratio 1:1 by weight or volume. Cure guidance: 100 C or above; 30 min at 125 C; 10 min at 150 C; thick-section pre-cure starting point 30 min at 70 C.
+Handling: working time at 25 C 4 h by viscosity after 4 h; open time at 25 C 2 h by lap shear adhesion. Viscosity CTM 1094 at 10 1/s: Part A 130,000 cP, Part B 118,000 cP, mixed 125,000 cP. Mixed thixotropy 2.8.
+Thermal: thermal conductivity CTM 1163A transient method 3.3 W/m.K. Thermal resistance ASTM D5470: 0.25 C/W at 50 um and 0.44 C/W at 100 um. Linear CTE ASTM E831 -50 to 200 C: 92 ppm/K. Heat capacity DIN 51007: 0.83 J/g.C at 25 C, 0.98 at 100 C, 1.09 at 150 C.
+Electrical: dielectric strength CTM 0114A at 1 mm is 533 V/mil / 21 kV/mm. Dielectric constant CTM 0112: 6 at 100 Hz and 5.9 at 100 kHz. Volume resistivity CTM 0249A: 5.5E+15 ohm.cm. Dissipation factor: 7E-03 at 100 Hz and 4E-03 at 100 kHz.
+Mechanical: tensile strength CTM 0137 522 psi / 3.6 MPa. Elongation 43%. Lap shear CTM 0243A: aluminum 381 psi / 2.63 MPa; copper 416 psi / 2.87 MPa. Hardness: 95 Shore A JIS Type A / CTM 0099M; 45 Shore D CTM 0793D / ASTM D2240. Wet density 3.0 g/cm3.
+Applications: bonding organic and ceramic substrates such as PCB, HDI and DBC to heat sinks for transmission modules, power modules and conversion modules.
+Cautions: good adhesion is not expected on non-reactive metal substrates or non-reactive plastics such as Teflon, polyethylene or polypropylene without treatment/primer; avoid solvent exposure where possible; not tested or represented for medical or pharmaceutical uses.
+Provenance note: this cache entry is a controlled text fallback because the official Dow PDF endpoint returned HTTP 403 to local automation.

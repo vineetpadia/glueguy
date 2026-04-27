@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3168J\n\nThreeBond\n\nOctober 10, 2012\n\nThree Bond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3168J\n\nUV Curable Silicone Gel\n\n1. Product description\n\nThreeBond 3168J is a one-part non-solvent UV-curing silicone gel. It can cure in a short time under irradiation with UV light. After curing, the gel has excellent vibration absorbing properties.\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 700 ppm each, and the sum of total chlorine content and total bromine content is less than 1000 ppm.\n\n2. Features\n\n① One-part non-solvent silicone resin\n② Excellent UV-curing properties\n③ A soft gel is formed after curing\n④ Reduced content of low-molecular siloxane\n\n3. Applications\n\nDamping agent for optical pickups (CD, DVD and BD)\n\n4. Properties\n\nTable 1 Properties of ThreeBond 3168J\n\n|  Item | Unit | Properties | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Blue | 3TS-2100-001 |   |\n|  Viscosity | Pa·s | 17 | 3TS-2F00-007 | Shear rate: 20.0 s⁻¹  |\n|  Specific gravity | - | 1.02 | 3TS-2500-002 |   |\n\nED2012079",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3168J\n\nFig. 1 Rheograms of ThreeBond 3168J\n![img-0.jpeg](img-0.jpeg)\nFlow curve measuring conditions : VAR·DAR Rheometer manufactured by REOLOGICA\nCone plate:  $4^{\\circ}\\varphi 25\\mathrm{mm}$\n\nFig. 2 Temperature-viscosity curve of ThreeBond 3168J\n![img-1.jpeg](img-1.jpeg)\nTemperature-viscosity curve measuring conditions : Manufactured by REOLOGICA VAR·DAR Rheometer\nCone plate:  $4^{\\circ}\\varphi 25\\mathrm{mm}$\n\nED2012079",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 197,
+          "top_left_y": 102,
+          "bottom_right_x": 583,
+          "bottom_right_y": 373,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 206,
+          "top_left_y": 511,
+          "bottom_right_x": 581,
+          "bottom_right_y": 795,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3168J\n\n# 5. Characteristics\n\n## 5.1 After-cure property\n\nTable 2 After curing properties of ThreeBond 3168J\n\n|  Item | Unit | Property value | Test method | Remark  |\n| --- | --- | --- | --- | --- |\n|  Penetration | - | 88 | 3TS-2B00-003 | 1/4 cone, 9.38 g  |\n|  Thick film curability | mm | 3 | 3TS-3160-001 |   |\n|  Low molecular weight cyclic siloxane ratio | ppm | 300 | Gas chromatograph mass spectrometer | D_{3}~D_{10}  |\n\nCuring conditions (UV irradiation): High-pressure mercury vapor spot lamp SP9-250DB made by Ushio Inc. With heat ray cut filter, Direct-Radiation Optical Unit\nIlluminance 300mW/cm², Exposure time 20s, Integrated light intensity 60kJ/m²\n\n![img-2.jpeg](img-2.jpeg)\nFig.3 Dynamic viscoelasticity(frequency sweep) of ThreeBond 3168J\nConditions of measurement of dynamic viscoelasticity:\nModel VAR.DAR rheometer (UV cell type) made by REOLOGICA\nImposed strain 0.7%, Parallel plate φ10mm, Gap1.0mm, 25°C\n\n《Curing conditions》\nLC8 Spot mercury lamp made by Hamamatsu Photonics\nIlluminance 300mW/cm², Exposure time 20s, Integrated light intensity 60kJ/m²\n\nED2012079",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 203,
+          "top_left_y": 412,
+          "bottom_right_x": 591,
+          "bottom_right_y": 687,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3168J\n\n# 5.2 Change in viscoelasticity with UV irradiation time (curing property)\n\n![img-3.jpeg](img-3.jpeg)\nFig. 4 Change in viscoelasticity of ThreeBond B3168J with UV irradiation time (curing property)\n\nConditions of measurement of dynamic viscoelasticity:\n\nModel VAR.DAR rheometer (UV cell type) made by REOLOGICA\n\nFrequency1H, Parallel plate  $\\varphi 10\\mathrm{mm}$ , Gap1.0mm, stress 50Pa\n\n《UV irradiation conditions:》\n\nLC8 Spot mercury lamp made by Hamamatsu Photonics\n\nIlluminance  $300\\mathrm{mW / cm2}$ $25^{\\circ}\\mathrm{C}$\n\nIn Fig. 4 UV irradiation was started 5 seconds after application.\n\n# 5.3 Durability of cured resin (Penetration)\n\n![img-4.jpeg](img-4.jpeg)\nFig. 5 Durability of cured resin (Penetration) of ThreeBond 3168J\n\nED2012079",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 127,
+          "top_left_y": 135,
+          "bottom_right_x": 565,
+          "bottom_right_y": 398,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 180,
+          "top_left_y": 603,
+          "bottom_right_x": 615,
+          "bottom_right_y": 835,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3168J\n\n## 6. Usage\n\n① Before applying the resin, clean the areas to be filled with it.\n② Irradiate the resin directly with UV light to cure it.\n\n## 7. Directions for use\n\n① The curing speed and the characteristics of the cured resin vary depending on the type, illuminance and integrated light intensity of light source. Check the conditions prior to use.\n② Parts of the applied resin not exposed to UV light or in shadow do not cure. Also, before using, perform sufficient usage and application confirmation.\n③ Because some gas is generated during application and curing with UV light, use forced air ventilation in the working area and UV light irradiation area. Wear appropriate protective clothings, such as a mask, goggles and gloves (impervious), as necessary, and use the resin in a place equipped with a local exhaust system.\n④ Some materials may deteriorate if this product is used. The affects on the substrates should be confirmed in advance. If there are any problems, do not use.\n⑤ Do not transfer product into another container nor return unused product to the original container.\n⑥ Do not burn it. When burnt, it may generate toxic gas.\n⑦ Do not inhale or swallow. Harmful to health. Do not inhale or ingest.\n⑧ It is harmful to the health. Do not touch it directly or inhale its vapor.\n⑨ If it is swallowed, immediately get medical attention.\n⑩ If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention.\n⑪ If on skin, may cause inflammation. If it adheres to the skin, immediately wipe it away with a cloth or paper, and wash the skin with soap and water.\n⑫ If any bodily abnormalities occur, discontinue use and seek medical attention. Also, persons with allergies or sensitive skin should avoid handling.\n⑬ Keep out of reach of children.\n⑭ For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nTo prevent deterioration and contamination, seal the cap tightly. Store in a dark dry place at -5 to 10°C avoiding direct sunlight.\n\n## 9. Disposal\n\nHave the product disposed of by a professional waste disposal company.\n\nED2012079",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3168J\n\n# 10. Cautions\n\n**For Industrial Use Only** (Do not use as a household product)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms.\n\n- The technical data given herein are an example of experimental values obtained by our specified test method, and are not guaranteed values. Furthermore, we do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Users are asked to examine whether the product is appropriate to the purpose of use and can be used safely before they use it and bear all responsibilities and hazards involved in its use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties and usage of this product are unknown, do not use.\n- For detailed safety information of the product, see the Material Safety Data Sheet (MSDS). To obtain the MSDS, contact our sales department or customer service office.\n- Information in this document is subject to change at our own discretion.\n\nED2012079",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 414478
+  },
+  "document_annotation": null
+}

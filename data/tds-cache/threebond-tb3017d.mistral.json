@@ -1,0 +1,113 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3017D\n\n# ThreeBond\n\nJul. 22, 2009\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3017D\n\nUV-curing resin\n\n1.  Outline\n\nThreeBond 3017D is a one-part nonsolvent light-curing resin whose main component is urethane acrylate. It cures quickly under irradiation with UV light having a wavelength of 200 to 380 nm. The cured resin has flexibility and excels surface curability.\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 900 ppm each, and the sum of total chlorine content and total bromine content is less than 1500 ppm.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2.  Features\n\n(1) The resin cures under irradiation with UV light for several to several tens of seconds.\n(2) Excellent surface curability.\n(3) The resin cures under irradiation with LED lamp.\n(4) It has high adhesive property to the hard to bond materials of polyolefin.\n\n3.  Use\n\nFixing of optical parts\n\n4.  Properties\n\nTable 1 Properties of TB3017D\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | White | 3TS-201-01 |   |\n|  Viscosity | Pa·s | 13.0 | 3TS-210-10 | Shear rate : 20s⁻¹  |\n|  Specific gravity | - | 0.93 | 3TS-213-02 |   |\n\nED20091101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3017D\n\n# 5. Flow curves\n\n## 5.1 Viscosity curve\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Viscosity curve of TB3017D\n\n## 5.2 Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve of TB3017D\n\nED20091101",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 122,
+          "top_left_y": 154,
+          "bottom_right_x": 582,
+          "bottom_right_y": 394,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 124,
+          "top_left_y": 492,
+          "bottom_right_x": 582,
+          "bottom_right_y": 730,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3017D\n\n# 6. Characteristics\n\n## 6.1 Characteristics of cured resin\n\nTable 2 Characteristics of cured TB3017D\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A41 | 3TS-215-01 | 25°C  |\n|  Cure shrinkage | % | 6.4 | 3TS-228-01 | φ 32, 1.5g  |\n|  Thick film curability | mm | 2.5 | 3TS-222-01 | 30 kJ/m²  |\n\nCuring conditions: 30 kJ/m² × 2, High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\n\n## 6.2 Tensile shear bond strength\n\nTable 3 Tensile shear bond strength of TB3017D\n\n|  Substrate 1 | Substrate 2 | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  ZeDc | Glass | MPa | 4.3 | 3TS-301-13 |   |\n|  ZEONEX® | ZEONEX® |   | 2.6 |   |   |\n|   |  ZeDc |   | 3.0 |   |   |\n|   |  PPS |   | 1.2 |   | GS-40®  |\n|   |  LCP |   | 1.0 |   | Vectra E130®  |\n\nCuring conditions: 30 kJ/m², High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\n\nTable 4 Tensile shear bond strength of TB3017D\n\n|  Substrate 1 | Substrate 2 | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  ZeDc | Glass | MPa | 3.8 | 3TS-301-13 |   |\n|  ZEONEX® | ZEONEX® |   | 2.6 |   |   |\n|   |  ZeDc |   | 2.7 |   |   |\n|   |  PPS |   | 1.0 |   | GS-40®  |\n|   |  LCP |   | 0.9 |   | Vectra E130®  |\n\nCuring conditions: 30 kJ/m², LED lamp\nDominant wavelength: 365 nm\n\nED20091101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3017D\n\n## 6.3 The amount exception of irradiation, tensile shear bond strength\n\nTable 5 Tensile shear bond strength of TB3017D\n\n|  Substrate 1 | Substrate 2 | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  ZEONEX® | ZEONEX® | MPa | 2.5 | 3TS-301-13 | 10 kJ/m²  |\n|   |   |   |  2.6 |   | 20 kJ/m²  |\n|   |   |   |  2.6 |   | 30 kJ/m²  |\n\nCuring conditions: High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\n\nTable 6 Tensile shear bond strength of TB3017D\n\n|  Substrate 1 | Substrate 2 | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  ZEONEX® | ZEONEX® | MPa | 2.6 | 3TS-301-13 | 10 kJ/m²  |\n|   |   |   |  2.6 |   | 20 kJ/m²  |\n|   |   |   |  2.6 |   | 30 kJ/m²  |\n\nCuring conditions: LED lamp, Dominant wavelength: 365 nm\n\n## 6.4 Dynamic viscoelastic characteristics\n\nTable 7 Dynamic viscoelastic characteristics of TB3017D\n\n|  Item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Storage modulus (E') | Pa | 7.0×10⁶ : 25°C | 3TS-501-04 |   |\n|  Loss modulus, (E\") peak | °C | -54  |   |   |\n|  Loss tangent (tan δ) peak | °C | -18  |   |   |\n\nCuring conditions: 30 kJ/m² × 2, High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\nMeasuring condition: 1Hz\n\n## 6.5 Linear expansion coefficient\n\nTable 8 Linear expansion coefficient of TB3017D\n\n|  Item | Unit | Result | Temperature range | Test method  |\n| --- | --- | --- | --- | --- |\n|  α₁ | ppm | 89 | -80 to -30 | 3TS-501-05  |\n|  α₂ |   | 249 | 0 to 80  |   |\n|  Tg | °C | -22 | —  |   |\n\nCuring conditions: 30 kJ/m² × 2, High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\n\nED20091101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3017D\n\n## 6.6 Thermal mass change\n\nTable 9 Thermal mass change of TB3017D\n\n|  Item | Unit | Result | Test conditions | Test method  |\n| --- | --- | --- | --- | --- |\n|  Thermal mass change | % | -0.9 | 80°C ×2 h | —  |\n\nCuring conditions: 30 kJ/m², High-pressure mercury vapor lamp\nDominant wavelength: 365 nm, Irradiation distance: 15 cm\n\n## 7. Instructions for use\n\n(1) It is harmful to the health. Do not inhale or drink it. If it is swallowed, immediately get medical attention.\n\n(2) It is harmful to the health. Do not touch it directly or inhale its vapor. If it gets in the eyes, wash them with clean water for more than 15 minutes, and get medical attention. Adhesion of the resin to the skin may cause inflammations. If it adheres to the skin, immediately wipe it away with a cloth or paper, and wash the skin with soap with water.\n\n(3) Use and store it out of reach of children.\n\n(4) If any abnormality is found in the body, stop using the resin, and get medical attention. People who have allergies or sensitive skin should avoid using it.\n\n(5) The curing speed varies depending on the type of light source and irradiation distance. Sufficiently check the curing speed prior to use. Particularly, the curing speed is greatly affected by the adhesive temperature and substrate surface temperature owing to changes in temperature and humidity in the room.\n\n(6) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n\n(7) Some gas is generated during application and curing with UV light. Forcibly ventilate the working area and the place of irradiation with UV light. Wear appropriate protective clothings, such as a mask, goggles and gloves (impervious), as necessary, and use the resin in a place equipped with a local exhaust system.\n\n(8) Some materials may deteriorate if TB3017D is used. Ascertain in advance whether or not it affects the parts to be sealed with it. If any problem occurs, do not use it.\n\n(9) Because fluidity of this product is very low in the state of keeping in refrigerator or freezer, please fully return to room temperature (15-25°C) before using it.\n\n(10) When using it after pouring it into another container, check for influence on its curability prior to use. Do not return the product left unused to the container.\n\nED20091101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3017D\n\n(11) To prevent deterioration and entry of foreign matter, fit the cap tightly after using.\n(12) For hazard and toxicity information not mentioned in this document, see the material safety data sheet (MSDS).\n\n## 9. Storage\n\nTo prevent deterioration and entry of foreign matter, fit the cap tightly, and store it in a dark dry place at -5 to 25°C away from light.\n\n## 10. Disposal\n\nAsk disposal services having specialized knowledge to dispose of the product. When burnt, it may generate toxic gas. Do not burn it.\n\n## 11. Cautions\n\nFor industrial use only\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product.\nIf the properties and use of the relevant product are unknown, never use it.\n- For detailed information on product safety, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact our sales department or customer service office.\n- This document is subject to change at our discretion.\n\nED20091101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 6,
+    "doc_size_bytes": 201410
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,166 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1630 (30t)\n\nThreeBond\n\nMarch 26, 2010\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 1630 (30t)\n\n# UV-curing sheet adhesive\n\n1. Outline\n\nThreeBond 1630 (30t) is a UV-curing sheet adhesive. It is transferred and pre-bonded by heat and pressure and then polymerize and cure by irradiating ultraviolet rays.\n\nAfter cure, it becomes transparent and flexible, and since it has superior light resistance, it is suitable for bonding parts requiring light resistance. (ThreeBond is hereinafter referred to as TB)\n\n2. Features\n\n1) Superior uniform thickness\n2) Superior flexibility\n3) Superior transparency\n4) Superior light resistance\n\n3. Application\n\nFace-bonding of transparent parts\n\nFace-bonding of parts requiring light resistance\n\n4. Properties\n\nTable 1 Properties\n\n|  Test item | Unit | Characteristic value | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | — | Colorless, transparent | 3TS-201-92 | -  |\n|  Film thickness | μm | 27 - 33 | 3TS-261-01 | -  |\n|  Loss on heating | % | 3.0 or less | 3TS-216-01 | 120°C x 30min  |\n\nTable 2 Product Composition\n\n|  Product composition | Material | Thickness | Surface treatment | Back treatment  |\n| --- | --- | --- | --- | --- |\n|  Separator film | PET | 25μm | Silicon releasing | No treatment  |\n|  Adhesive layer | — | 27 - 33μm | — | —  |\n|  Base film | PET | 38μm | Silicon releasing | No treatment  |\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Product Structure\n\nAD2005049",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 214,
+          "top_left_y": 803,
+          "bottom_right_x": 483,
+          "bottom_right_y": 938,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1630 (30t)\n\n# 5. Characteristic values\n\n## 5.1 Characteristic values of cured resin\n\nTable 3 Characteristic Values of Cured Resin\n\n|  Test item | Unit | Characteristic value | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Specific gravity | — | 1.18 | 3TS-213-03 |   |\n|  Hardness | Shore A | 35 | 3TS-215-01 |   |\n|  Water absorption | % | 1.9 | 3TS-233-03 | Boiling 2h  |\n|  Elastic modulus | Pa | 1.9 x 10^{6} | 3TS-501-04 | Elastic modulus at 25°C  |\n\nCuring conditions\n\nCumulative amount of light: 30kJ/m² (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm²\n\n## 5.2 Adhesive strength\n\nTable 4 Adhesive Strength by Material\n\n|  Test item |   | Unit | Characteristic value | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Tensile shear strength | Glass/Glass | MPa | 5.1 | 3TS-301-13 | -  |\n|   |  Acrylic/Glass | MPa | 4.0  |   |   |\n|   |  Polycarbonate/Glass | MPa | 3.5  |   |   |\n|  T-type peel strength | Easy-bonding PET/Easy-bonding PET | kN/m | 0.56 | 3TS-304-21 | -  |\n|   |  No-treatment PET/No-treatment PET | kN/m | 0.23  |   |   |\n\n1) Test material\n\nGlass: Soda glass 5.0 x 25 x 100mm\n\nAcrylic: Acrypet® VH-000 2.0mm x 25mm x 100mm\n\nPolycarbonate: Panlite® L-1225Y 2.0mm×25mm×100mm\n\nEasy-bonding PET: Cosmoshine® A4300 125μm×25mm×150mm\n\nNo-treatment PET: Lumirror® S-56 100μm×25mm×150mm\n\n2) Testpiece fabrication conditions\n\n(1) Transfer condition\n\nTransfer equipment: Roll laminator (made by MCK: MRS-500JK)\n\nRoll temperature: 80°C\n\nRoll pressure: 0.1MPa\n\nSpeed: 0.3m/min\n\n(2) Laminating conditions\n\nLaminating equipment: vacuum laminator\n\nLaminating temperature: 80°C\n\nVacuum: 300Pa\n\nVacuumizing time: 2min\n\nPress pressure: 95kPa\n\nPress bonding time: 3min\n\n*The above-mentioned transfer and laminating conditions are hereinafter represented as The standard fabrication condition.\n\n3) Curing conditions\n\nCumulative amount of light: 30kJ/m² (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm²\n\nAD2005049",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1630 (30t)\n\n# 5.3 Refraction index\n\nTable 5 Refraction index\n\n|  Temperature | D line (589nm) | F line (486nm) | C line (656nm) | Remarks  |\n| --- | --- | --- | --- | --- |\n|  20°C | 1.520 | 1.511 | 1.509 | —  |\n|  25°C | 1.519 | 1.510 | 1.507 | —  |\n\n1) Measuring equipment\n\nMulti-wavelength Abbe Refractometers DR-M2 (made by ATAGO)\n\n2) Curing conditions\n\nCumulative amount of light: 30kJ/m² (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm²\n\n# 5.4 Total luminous transmittance/haze\n\nTable 6 Total Luminous Transmittance/Haze\n\n|  Test item | Unit | Characteristic value | Measuring method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Total light transmittance | % | 99.9 | 3TS-538-01 | —  |\n|  Haze | % | 0.01 | 3TS-538-02 | —  |\n\n1) Measuring equipment\n\nHaze meter NDH2000 (made by Nippon Denshoku Industries)\n\n2) Test method\n\n2 pieces of alkali-free glass(0.7t) was laminated with TB1630 (30t) and then UV-cured and measured. The measurement results are those when one piece of alkali-free glass(0.7t) was used as the reference.\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Testpiece\n\n3) Test material\n\nalkali-free glass : Corning Eagle 2000® (0.7t)\n\n4) Testpiece fabrication conditions\n\nThe standard fabrication condition\n\n5) Curing conditions\n\nCumulative amount of light: 30kJ/m² (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm\n\nAD2005049",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 255,
+          "top_left_y": 504,
+          "bottom_right_x": 478,
+          "bottom_right_y": 594,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1630 (30t)\n\n# 5.5 Spectral transmittance characteristics\n\n![img-2.jpeg](img-2.jpeg)\nFig. 3 Spectral Transmittance of TB1630 (30t)\n\n1) Measuring equipment\n\nUV-VIS spectrometer UV-1600 (made by Shimadzu Corporation)\n\n2) Test method\n\n2 pieces of alkali-free glass(0.7t) was laminated with TB1630 (30t) and then UV-cured and measured.\n\nThe measurement results are those when one piece of alkali-free glass(0.7t) was used as the reference.\n\n![img-3.jpeg](img-3.jpeg)\nFig. 4 Testpiece\n\n3) Test material\n\nAlkali-free glass : Corning Eagle 2000® (0.7t)\n\n4) Testpiece fabrication conditions\n\nThe standard fabrication condition\n\n5) Curing conditions\n\nCumulative amount of light:  $30\\mathrm{kJ} / \\mathrm{m}^2$  (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm\n\n# 5.6 Electrical characteristics\n\nTable 7 Electrical Characteristics of TB1630 (30t)\n\n|  Test item | Unit | Characteristic value | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 3.72×1012 | 3TS-401-01 | —  |\n|  Dielectric constant | - | 3.8 | 3TS-405-01 | Frequency 1MHz  |\n|  Dielectric loss tangent |  | 0.059 | 3TS-405-01 | Frequency 1MHz  |\n\nCuring conditions\n\nCumulative amount of light:  $30\\mathrm{kJ} / \\mathrm{m}^2$  (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (made by Ushio Inc.) metal halide lamp 160W/cm\n\nAD2005049",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 147,
+          "top_left_y": 85,
+          "bottom_right_x": 582,
+          "bottom_right_y": 357,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 268,
+          "top_left_y": 499,
+          "bottom_right_x": 491,
+          "bottom_right_y": 589,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1630 (30t)\n\n# 5.7 Light resistance\n\n![img-4.jpeg](img-4.jpeg)\nFig. 5 Spectral Transmittance Before/After Weather Meter\n\n1) Measuring equipment\n\nUV-VIS spectrometer UV-1600 (made by Shimadzu Corporation)\n\n2) Test method\n\n2 pieces of soda glass(0.7t) was laminated with TB1630 (30t) and then UV-cured and measured.\n\nThe measurement results are those when air was used as the reference.\n\n![img-5.jpeg](img-5.jpeg)\nFig. 6 Testpiece\n\n3) Testpiece fabrication conditions\n\nThe standard fabrication condition\n\n4) Curing conditions\n\nCumulative amount of light: $30\\mathrm{kJ} / \\mathrm{m}^2$ (365nm wavelength measuring)\n\nUltraviolet irradiator: UVC-2539 (Ushio Inc.) metal halide lamp 160W/cm\n\n# 6. Usage\n\n## 6.1 Usage\n\n(1) Cut TB1630 (30t) to the size of the target surface to be bonded.\n\n(2) Peel off separator film and transfer to the adherend by heat and pressure.\n\nFor transferring, we recommend the use of a roll laminator.\n\n(3) After transferring, return the temperature of the adherend to room temperature and then peel off substrate film.\n\n(4) Thermal compression bond the TB1630 (30t) transferred adherend to the desired adherend. To obtain a bubble-free adhesive layer when laminating, we recommend the use of the vacuum laminator.\n\n(5) Irradiate with an ultraviolet irradiator to complete curing.\n\nAD2005049",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 135,
+          "top_left_y": 85,
+          "bottom_right_x": 611,
+          "bottom_right_y": 364,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 256,
+          "top_left_y": 498,
+          "bottom_right_x": 480,
+          "bottom_right_y": 588,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB1630 (30t)\n\n## 6.2 Recommended processing conditions\n\n1) Transfer conditions\n80°C x 0.1Mpa x 0.3m/min (roll laminator)\n\n2) Laminating conditions (vacuum laminator)\nLaminating temperature: 80°C\nVacuum: 150Pa\nPress pressure: 95kPa\nPress holding time: 3min\n\n3) Curing conditions\nCumulative amount of light: 30kJ/m² (365nm measuring) or more\n\n## 7. Handling Cautions\n\n(1) Inhaling or drinking the adhesive is strictly prohibited. Do not inhale or drink the adhesive because it is harmful to the human body. Should it be mistakenly drunk, immediately seek medical treatment.\n\n(2) Do not directly touch the adhesive or inhale it because it is harmful. If it sticks to your skin, it may cause inflammation. If this happens, immediately remove the adhesive with a cloth or paper and wash the exposed area with soap and water. If it enters the eyes, flush the eyes with fresh water for about 15 minutes and seek medical treatment. Those who are allergic or have sensitive skin should avoid handling the adhesive.\n\n(3) The adhesive should be stored and used in locations not accessible to infants and children.\n\n(4) If you feel any abnormality, stop using the adhesive immediately and seek medical treatment.\n\n(5) To prevent dew condensation, the adhesive should be returned to room temperature before opening the packaging.\n\n(6) Since the curing speed differs depending on the type of light source and irradiating distance, carefully check the application conditions before use.\n\n(7) The areas not exposed to ultraviolet rays and shaded areas will not cure as a rule. Carefully check if the application method is suitable before use.\n\n(8) Some products may deteriorate depending on their composition. The adhesive’s effect on products should be investigated in advance, and if there is any problem, do not use it.\n\n(9) Since there is a possibility that gas will be generated during the work as well as during ultraviolet curing, forced ventilation should be provided at the work site and ultraviolet irradiating site. Use only in a location equipped with local ventilation and wear a mask, goggles and gloves (impervious).\n\n(10) Once the separator is removed, it should not be put back on or other separator should not be laminated because there is the possibility of foreign material entering it.\n\n(11) For the adhesive’s harmfulness and hazardousness, refer to the Material Safety Data Sheet (MSDS).\n\n## 8. Storage conditions\n\nSince this product has ultraviolet curing properties, it should be stored in a cool, dark place at a temperature of -5 to 10°C.\n\n## 9. Disposal condition\n\nPlease consign the disposal of this commodity to the industrial waste disposer who has the exclusive knowledge.\n\nAD2005049",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB1630 (30t)\n\n10. Precautions\n\n**Industrial Use** (Do not use for home applications)\n\nThis product was developed for normal industrial applications. When using this product, pay close attention to the following points.\n\n- The technical data described in this document are examples of measured values using test methods specified by our company and are not guaranteed values.\nThe applications introduced in this document do not guarantee that no intellectual property rights have been violated.\n\n- When using this product, check the suitability and safety of the application before use, as the user assumes all responsibilities and risks during use.\nNever use it for imbedding and/or injection into a human body or for medical implant applications where there is a possibility that it could remain in the body.\n\n- Our company assumes no responsibility for any injury or damage due to wrongful handling of this product.\nIf the characteristics of the target surface or use methods are unknown, do not use it.\n\n- For detailed safety information on the product, please refer to the Material Safety Data Sheet (MSDS).\nTo acquire the MSDS, please contact our sales office or customer service desk.\n\n- The contents of this document are subject to change without notice as we deem necessary.\n\nAD2005049",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 7,
+    "doc_size_bytes": 230787
+  },
+  "document_annotation": null
+}

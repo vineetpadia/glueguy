@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® HM161\n\nAnaerobic Retaining Compound\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Speeds up production\n- Improves alignment\n- Strengthens joint\n- Simple one-part system\n- Excellent shear strength\n- Good environmental resistance\n\n# Description\n\nPermabond® HM161 is a single component liquid that cures only when in contact with metal parts and oxygen is excluded. The liquid adhesive fills the \"air space\" between parts and upon cure unitizes and retains the mated parts. Thus it prevents their movement relative to each other, eliminating wear, erosion and pitting. HM161 cures to a tough cross-linked plastic that will prevent the corrosion of mated parts and provides excellent environmental and temperature resistance.\n\nMIL-R-46082B Type III\n\nEach lot of HM161 is tested to the lot requirements of these specifications.\n\nASTM D5363 AN 0421 Group 04 Class 2 Grade 1\n\nEach lot of HM161 is tested to the general requirements defined in paragraphs 5.1.1 and 5.1.2 and the detail requirements defined in section 5.2\n\n## Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Methacrylates  |\n| --- | --- |\n|  Appearance | Green  |\n|  Viscosity @ 25°C | 2000 mPa.s (cP)  |\n|  Specific gravity | 1.1  |\n|  UV fluorescence | Yes  |\n\n## Typical Curing Properties\n\n|  Maximum gap fill\nMaximum thread size | 0.25 mm 0.01 in\nM30 ¾\"  |\n| --- | --- |\n|  Time taken to reach handling\nstrength (M10 steel) @23°C | 10 minutes*  |\n|  Full strength (M10 steel) @23°C | 24 hours  |\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HM161\n\nGlobal TDS Revision 4\n\n18 October 2016\n\n# PERMABOND® HM161\n\nAnaerobic Retaining Compound\n\nTechnical Datasheet\n\n## Strength Development\n\n![img-0.jpeg](img-0.jpeg)\n\n* Cure times are typical at 23°C. Copper and its alloys will follow the faster cure while oxidised or passivated surfaces like stainless steel will tend towards the slower curve. Lower temperatures or large gaps will tend to extend the cure time. To reduce the cure time the use of Permabond A905, ASC10, or heat can be considered.\n\n## Typical Performance of Cured Adhesive\n\n|  Torque strength (M10 steel ISO10964) | Break 31 N·m 275 in.lb\nPrevail 45 N·m 400 in.lb  |\n| --- | --- |\n|  Shear strength (steel collar & pin ISO10123) | 24 MPa 3500 psi  |\n|  Coefficient of thermal expansion | 90 x 10⁻⁶ mm/mm/°C  |\n|  Dielectric strength | 11 kV/mm  |\n|  Thermal conductivity | 0.2 W/(m.K)  |\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 427,
+          "top_left_y": 237,
+          "bottom_right_x": 712,
+          "bottom_right_y": 437,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Hot Strength\n![img-1.jpeg](img-1.jpeg)\n\"Hot strength\" Breakaway strength on M10 Zinc plated bolts according to ISO 10964. Cured at 23°C for 24 hours then conditioned for 30 minutes at testing temperature.\n\nHM161 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is -55°C (-65°F) depending on the materials being bonded.\n\nChemical Resistance\n|  340 Hour immersion | Temperature, °C (°F) | % Strength retained  |\n| --- | --- | --- |\n|  Water | 75 (168) | 100  |\n|  Butyl alcohol | 75 (168) | 100  |\n|  Toluene | 75 (168) | 99  |\n|  Motor oil | 75 (168) | 99  |\n|  Hydrocarbon test fluid | 75 (168) | 100  |\n|  JP4-Jet fuel | 75 (168) | 94  |\n|  JP5-Jet fuel | 75 (168) | 100  |\n|  Ethylene glycol | 75 (168) | 99  |\n\nThis product is not recommended for use in contact with oxygen, oxygen rich systems and other strong oxidizing materials. This product may adversely affect some thermoplastics and users must check compatibility of the product with such substrates before using.\n\nSurface Preparation\nThough the anaerobic adhesives will tolerate a slight degree of surface contamination, best results are obtained on clean, dry and grease free surfaces. The use of a suitable solvent-based cleaner (such as acetone or isopropanol) is recommended. In general, roughened surfaces (~25μm) give higher bond strengths than polished or ground surfaces.\n\nTo reduce the curing time, especially on inactive surfaces (such as zinc, aluminium and stainless steel), the use of Permabond A90S or ASC10 can be considered.\n\nDirections for Use\n1. On slip fitted assemblies, apply adhesive on the leading edge of the pin and on the inside of the collar.\n2. Assemble with twisting action.\n3. On press fitting assemblies, apply the adhesive on the pin and collar. Assemble using a press.\n4. On shrink fitted assemblies, apply the adhesive to the pin, heat the collar to create enough clearance and assemble.\n5. Allow the parts to fixture before disturbing them.\n\nVideo Link\nRetaining compound directions for use:\nhttps://youtu.be/MUODE5ZfrZ8\n\n![img-2.jpeg](img-2.jpeg)\n\nStorage &amp; Handling\n|  Storage Temperature | 5 to 25°C (41 to 77°F)  |\n| --- | --- |\n|  Users are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene. Full information can be obtained from the Safety Data Sheet.  |   |\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\nwww.permabond.com\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\ninfo.americas@permabond.com\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond HM161\nGlobal TDS Revision 4\n18 October 2016\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 53,
+          "top_left_y": 119,
+          "bottom_right_x": 357,
+          "bottom_right_y": 366,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 635,
+          "top_left_y": 491,
+          "bottom_right_x": 694,
+          "bottom_right_y": 547,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1022,
+        "width": 769
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/MUODE5ZfrZ8"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 346448
+  },
+  "document_annotation": null
+}

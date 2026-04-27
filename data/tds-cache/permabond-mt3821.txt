@@ -1,0 +1,155 @@
+                                                                                                                                           PERMABOND® MT3821
+                                                                                                                                          Modified Two-Part Epoxy
+                                                                                                                                                            Technical Datasheet
+
+Features & Benefits                                                                                     Typical Performance of Cured Adhesive
+             Adhesion to a wide variety of substrates                                                                                     Mild steel: 4-7 N/mm² (600 - 1000psi)
+                                                                                                                                          Aluminium: 6-8 N/mm² (900-1200psi)
+             Full cure at room temperature                                                                                                ABS: 4-6 N/mm² (600-900psi)
+             Easy to apply                                                                                                                Acrylic: 2-5 N/mm² (300-700psi)
+             Soft & flexible                                                                           Shear strength
+                                                                                                                                          Nylon: 2-4 N/mm² (300-600psi)
+                                                                                                                                          Polycarbonate: 4-6 N/mm² (600-900psi)
+                                                                                                       ISO4587
+                                                                                                                                          PVC: 3-5 N/mm² (400-700psi)
+Description                                                                                                                               FRP Glass Epoxy: 5-7 N/mm² (700-1000psi)
+PERMABOND® MT3821 is a 2:1, two-part, modified                                                                                            FRP Glass Polyester: 5-7 N/mm² (700-
+                                                                                                                                          1000psi)
+epoxy adhesive designed for sealing and bonding. It                                                                                       Carbon Fibre: 6-8 N/mm² (600-1200psi)
+has excellent adhesion to Nylon, ABS, Polycarbonate                                                                                       55-85 Shore A
+                                                                                                       Hardness
+and other plastics as well as a variety of different                                                                                      20-30 Shore D
+metals. When cured, this adhesive is soft and                                                          Elongation at
+                                                                                                                            100-150%
+flexible.                                                                                              break
+                                                                                                       Peel strength
+                                                                                                                            140-160 N/25mm (31-36 PIW)
+                                                                                                       (aluminium)
+                                                                                                        *Strength results will vary depending on the level of surface
+Physical Properties of Uncured Adhesive                                                                 preparation and gap.
+
+                                MT3821A                        MT3821B
+  Chemical                                                     Polyamine based
+                                Epoxy Resin
+  composition                                                  Hardener                                                Strength Development
+  Appearance                    Black                          Charcoal Black
+                                                                                                                              100
+  Mixed appearance              Black
+                                                                                                                              80
+                                                                                                            % Full Strength
+
+
+
+
+                                                               100,000 mPa.s
+                                200,000 mPa.s (cP)
+  Viscosity @ 25°C                                             (cP)                                                           60
+                                Thixo paste
+                                                               Thixo paste
+  Specific gravity              1.3                            1.7                                                            40
+
+                                                                                                                              20
+Typical Curing Properties
+                                                                                                                               0
+                                                              2:1 by volume
+  Mix ratio                                                                                                                          0     1       2   4      8       24      48      72
+                                                              130:85 by weight
+                                                                                                                                                       Hours
+  Maximum gap fill                                            5 mm 0.2 in
+                                                                                                                                                       23°C
+  Usable / pot life @25°C                                     10-20 mins
+  Handling time to
+                                                              60-90 mins
+  0.1 N/mm²@25°C                                                                                        Graph shows typical strength development of bonded
+  Full cure @25°C                                             ≥72 hours                                 components at 23°C. Curing at higher or lower temperatures
+                                                                                                        may affect cure speed.
+
+
+
+
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond MT3821                                                                  Global TDS Revision 12                            09 June 2020                                 Page 1/2
+                                                    FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+                                                                                                        Directions for Use
+                                                                                                               1.     Measure volumetrically 2 parts resin to 1 part
+    Hot Strength                                                                                                      hardener. Mix thoroughly taking care not to
+                             100                                                                                      entrap air. Adhesive can be applied and mixed by
+      % Strength Retention
+
+
+
+
+                                                                                                                      automated dispensing equipment. If using
+                             80                                                                                       cartridges, put cartridge in dispensing gun and
+                             60                                                                                       affix static mixing nozzle.
+                                                                                                               2.     Apply material. If potting; take care to fill
+                             40                                                                                       component and not entrap air.
+                                                                                                               3.     If bonding a joint, assemble the parts. Parts must
+                             20
+                                                                                                                      be joined within 10-20 minutes of mixing the two
+                              0                                                                                       epoxy components.
+                                   0   50                  100                  150                            4.     Large quantities and/or higher temperature will
+                                                                                                                      decrease the usable life or pot life.
+                                       Temperature (°C)
+                                                                                                               5.     Apply pressure to the assembly by clamping for
+                                                                                                                      60-90 minutes or until handling strength is
+“Hot strength” shear strength tests performed on mild steel. Fully cured specimens
+conditioned to pull temperature for 30 minutes before testing at temperature.
+                                                                                                                      obtained.
+                                                                                                               6.     Full cure will be obtained after a minimum of 72
+MT3821 can withstand higher temperatures for brief periods (such as for                                               hours at 25°C (77°F). Heat can be used to
+paint baking and wave soldering processes) providing the joint is not                                                 accelerate the curing process.
+unduly stressed. The minimum temperature the cured adhesive can be
+exposed to is -40°C (-40°F) depending on the materials being bonded.
+                                                                                                        NB. Exercise caution when mixing large quantities due to
+                                                                                                        exothermic reaction.
+
+
+Additional Information
+This product is not recommended for use in contact with
+strong oxidizing materials.
+                                                                                                           Video Links
+Information regarding the safe handling of this material                                                   Surface preparation:
+may be obtained from the safety data sheet.                                                                https://youtu.be/8CMOMP7hXjU
+Users are reminded that all materials, whether innocuous
+or not, should be handled in accordance with the
+principles of good industrial hygiene.                                                                     Two-part epoxy directions for use:
+This Technical Datasheet (TDS) offers guideline                                                            https://youtu.be/GRX1RyknYqc
+information and does not constitute a specification.
+
+Surface Preparation
+Surfaces should be clean, dry and grease-free before
+applying the adhesive. Use a suitable solvent (such as                                                  Storage & Handling
+acetone or isopropanol) for the degreasing of surfaces.
+Some metals such as aluminium, copper and its alloys will                                                 Storage Temperature                             5 to 25°C (41 to 77°F)
+benefit from light abrasion with emery cloth (or similar),
+to remove the oxide layer.
+
+
+
+                                                                                                                                                            www.permabond.com
+                                                                                                                                                              • UK: 0800 975 9800
+                                                                                                                                         • General Enquiries: +44 (0)1962 711661
+                                                                                                                                                               • US: 732-868-1372
+                                                                                                                                                         • Asia: + 86 21 5773 4913
+                                                                                                                                                   info.europe@permabond.com
+                                                                                                                                                    info.americas@permabond.com
+                                                                                                                                                         info.asia@permabond.com
+The information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case
+we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of
+acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY
+AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.
+No representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products
+to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission,
+inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with
+the guiding principles of the Chemical Manufacturers Association’s Responsible Care® program.
+Permabond MT3821                                                                  Global TDS Revision 12                   09 June 2020                                          Page 2/2
+                                                    FOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN
+

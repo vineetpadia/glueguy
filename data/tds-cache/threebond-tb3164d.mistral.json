@@ -1,0 +1,331 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3164D\n\nThreeBond\n\nTechnical Data\n\nApril 3, 2007\n\nThree Bond Co., Ltd.\n\n# ThreeBond 3164D\n\n# UV-curing silicone resin\n\n## 1. Outline\n\nThreeBond 3164D is a UV-curing silicone resin having moisture curability. It can cure in a short time under irradiation with UV light, and, on areas not exposed to UV light, it can cure with moisture. Therefore, oil bleeding can be prevented on uncured parts of the resin.\n\nCompared to existing acrylic UV-curing resins, this UV-curing silicone resin excels in heat resistance, cold resistance, heat cycle resistance and flexibility. Since the resin cures more quickly under irradiation with UV light than conventional RTV silicone resins and heat-curing silicone resins, the use of the resin can diminish the process time. In addition, it has excellent adhesion to engineering plastics and improves the reliability after curing.\n\nAfter curing, it becomes a rubber-like elastic body. It has a reduced content of low-molecular siloxane and is designed to prevent contact failures. Therefore, it is suitable for potting, sealing, bonding and fixing electric and electronic parts.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n1. Excellent UV curability\n2. One-part non-solvent silicone resin\n3. On areas not exposed to UV light, the resin cures with moisture in the air.\n4. Excellent heat resistance, cold resistance and heat cycle resistance\n5. Excellent adhesion particularly to engineering plastics\n6. Reduced content of low-molecular siloxane\n\n## 3. Uses\n\nPotting, sealing, bonding and fixing of electric and electronic parts\n\n## 4. Properties\n\nTable 1 Properties of TB3164D\n\n|  Test item | Unit | Property | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Translucent white | 3TS-201-01 |   |\n|  Viscosity | Pa·s | 10 | 3TS-210-02 | BH-type, rotor No.5, 20 rpm  |\n|  Specific gravity | - | 1.00 | 3TS-213-02 |   |\n\nED071101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3164D\n\nFig. 1 Temperature-viscosity curve of TB3164D obtained by rheometer\n![img-0.jpeg](img-0.jpeg)\nMeasuring conditions:\nWith pre-shear (shear rate of 15 l/sec, pre-shear time of 60 sec, equilibrium time of 600 sec)\nShear rate sweep, geometry  $4^{\\circ}$ , 25-mm cone plate\n\n# 5. Characteristics\n\n# 5.1 Characteristics of cured resin\n\n* Curing method (Unless otherwise specified, the resin was cured under the following conditions.)\n\nUV irradiation conditions: High-pressure mercury vapor lamp, illuminance of  $100\\mathrm{mW/cm}^2$ , integrated light intensity of  $30\\mathrm{kJ/m}^2$\n\nMoisture curing conditions:  $25^{\\circ}\\mathrm{C}, 55\\% \\mathrm{RH}$ , for 7 days\n\nTable 2 Characteristics of TB3164D after curing (with UV light irradiation and moisture)\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A32 | 3TS-215-01 |   |\n|  Tensile strength | MPa | 1.0 | 3TS-320-01 |   |\n|  Elongation | % | 140 | 3TS-320-01 |   |\n|  Linear expansion coefficient | 1°C | 3.3 × 10-4 | 3TS-501-05 | TMA method  |\n|  Content of low-molecular siloxane | ppm | 100 | Gas chromatography | D3 - D10  |\n\nED071101",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 136,
+          "top_left_y": 155,
+          "bottom_right_x": 581,
+          "bottom_right_y": 375,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3164D\n\nFig. 2 Adhesion of TB3164D to various materials (curing with UV light and moisture)\n![img-1.jpeg](img-1.jpeg)\nTest method: 3TS-301-13\n\nFig. 3 Change in adhesion of TB3164D just after irradiation with UV light\n![img-2.jpeg](img-2.jpeg)\nTest method: 3TS-301-13\nCuring conditions: 25°C, 55%RH\n\nED071101",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 103,
+          "bottom_right_x": 608,
+          "bottom_right_y": 403,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 496,
+          "bottom_right_x": 613,
+          "bottom_right_y": 807,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3164D\n\n![img-3.jpeg](img-3.jpeg)\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\nFig. 4 Physical characteristics of TB3164D after curing at each integrated light intensity\n\n![img-6.jpeg](img-6.jpeg)\n\nTable 3 Electrical characteristics of TB3164D after curing (with UV light and moisture)\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 8.8 × 10^{12} | 3TS-401-01 |   |\n|  Surface resistivity | Ω | 1.5 × 10^{15} | 3TS-402-01 |   |\n|  Dielectric breakdown strength | kV/m | 30 | 3TS-406-01 |   |\n|  Dielectric constant | - | 3.0 | 3TS-405-01 | 1 MHz  |\n|  Dielectric loss tangent | - | 0.007 | 3TS-405-01 | 1 MHz  |\n\nED071101",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 130,
+          "bottom_right_x": 348,
+          "bottom_right_y": 304,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 365,
+          "top_left_y": 130,
+          "bottom_right_x": 618,
+          "bottom_right_y": 304,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 314,
+          "bottom_right_x": 348,
+          "bottom_right_y": 485,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 365,
+          "top_left_y": 314,
+          "bottom_right_x": 618,
+          "bottom_right_y": 485,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3164D\n\n## 5.2 Curing characteristics\n\n![img-7.jpeg](img-7.jpeg)\n\n![img-8.jpeg](img-8.jpeg)\n\nFig. 5 Thick film curability of TB3164D\n\nTest method: 3TS-222-01\n\nTable 4 Moisture curability of surface of TB3164D\n\n|  Test item | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Tack-free time | h | 20 | 3TS-219-04 | 25°C, 55%RH  |\n\nED071101",
+      "images": [
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 169,
+          "top_left_y": 130,
+          "bottom_right_x": 547,
+          "bottom_right_y": 415,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-8.jpeg",
+          "top_left_x": 169,
+          "top_left_y": 430,
+          "bottom_right_x": 547,
+          "bottom_right_y": 714,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3164D\n\n# 5.3 Durability of cured resin\n\n|  Test method | Hardness | 3TS-215-01  |\n| --- | --- | --- |\n|   | Tensile strength | 3TS-320-01  |\n|   | Elongation | 3TS-320-01  |\n|   | Tensile shear bond strength | 3TS-301-13  |\n\n![img-9.jpeg](img-9.jpeg)\n\n![img-10.jpeg](img-10.jpeg)\n\n![img-11.jpeg](img-11.jpeg)\n\nFig. 6 Heat resistance of TB3164D (150°C) (Curing with UV light and moisture)\n\n![img-12.jpeg](img-12.jpeg)\n\nED071101",
+      "images": [
+        {
+          "id": "img-9.jpeg",
+          "top_left_x": 102,
+          "top_left_y": 234,
+          "bottom_right_x": 342,
+          "bottom_right_y": 420,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-10.jpeg",
+          "top_left_x": 368,
+          "top_left_y": 234,
+          "bottom_right_x": 615,
+          "bottom_right_y": 420,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-11.jpeg",
+          "top_left_x": 102,
+          "top_left_y": 429,
+          "bottom_right_x": 342,
+          "bottom_right_y": 615,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-12.jpeg",
+          "top_left_x": 371,
+          "top_left_y": 429,
+          "bottom_right_x": 613,
+          "bottom_right_y": 615,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB3164D\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\n\n![img-15.jpeg](img-15.jpeg)\n\nFig. 7 Moisture resistance of TB3164D (60°C, 95%RH) (Curing with UV light and moisture)\n\n![img-16.jpeg](img-16.jpeg)\n\n![img-17.jpeg](img-17.jpeg)\n\n![img-18.jpeg](img-18.jpeg)\n\nFig. 8 Heat cycle resistance of TB3164D\n![img-19.jpeg](img-19.jpeg)\nHeat cycle conditions:  $\\{(-40^{\\circ}\\mathrm{C}$  for  $1\\mathrm{hr})\\longleftrightarrow (85^{\\circ}\\mathrm{C}$  for  $1\\mathrm{hr})\\} \\times 500$  cycles\n\n![img-20.jpeg](img-20.jpeg)\n\nED071101",
+      "images": [
+        {
+          "id": "img-13.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 107,
+          "bottom_right_x": 344,
+          "bottom_right_y": 244,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-14.jpeg",
+          "top_left_x": 365,
+          "top_left_y": 107,
+          "bottom_right_x": 614,
+          "bottom_right_y": 244,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-15.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 251,
+          "bottom_right_x": 344,
+          "bottom_right_y": 387,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-16.jpeg",
+          "top_left_x": 367,
+          "top_left_y": 251,
+          "bottom_right_x": 612,
+          "bottom_right_y": 387,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-17.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 457,
+          "bottom_right_x": 347,
+          "bottom_right_y": 628,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-18.jpeg",
+          "top_left_x": 367,
+          "top_left_y": 457,
+          "bottom_right_x": 616,
+          "bottom_right_y": 628,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-19.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 638,
+          "bottom_right_x": 347,
+          "bottom_right_y": 812,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-20.jpeg",
+          "top_left_x": 367,
+          "top_left_y": 638,
+          "bottom_right_x": 618,
+          "bottom_right_y": 807,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "TB3164D\n\n## 6. Usage\n\n(1) Before applying the resin, clean the areas to be filled with it.\n(2) Irradiate the resin with UV light to cure it immediately after applying it.\n(3) If necessary, cure the resin with moisture.\n{Standard curing conditions: 30 kJ/m² + (25°C, 55%RH) for 7 days}\n\n## 7. Instructions for use\n\n(1) The curing speed and the characteristics of the cured resin vary depending on the type, illuminance and integrated light intensity of light source. Check the conditions prior to use.\n(2) The resin has moisture curability. To obtain sufficient characteristics of the cured resin, irradiate the resin with UV light to cure it as soon as possible after applying it.\n(3) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(4) During application or curing with UV light, the resin can generate some gas. Forcibly ventilate the working area and UV irradiation area. If necessary, wear appropriate protective clothings, such as a mask, gloves (not permeable) and goggles, and use the resin in a place equipped with a local exhaust system.\n(5) This product is harmful to the health. Do not inhale or drink it. If it is swallowed, immediately get medical attention.\n(6) It is harmful to the health. Do not touch it directly or inhale its vapor. Adhesion of the resin to the skin may cause an inflammation. If it adheres to the skin, immediately wipe it away with a cloth or paper, and wash the skin with soap and water. If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention.\n(7) If any abnormality is found in the body, stop using it, and get medical attention. People who have allergies or sensitive skin should avoid using it.\n(8) Some materials may deteriorate if this product is used. Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n(9) Do not pour the product into other containers. Do not return the product left unused to its container.\n(10) Use and store it out of reach of children.\n(11) Do not burn it. When burnt, it may generate toxic gas.\n(12) For hazard and toxicity information not mentioned herein, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nStore the product in a dark place at -5 to 10°C avoiding direct sunlight.\n\n## 9. Disposal\n\nHave the product disposed of by a waste disposer with specialized knowledge.\n\nED071101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 8,
+      "markdown": "TB3164D\n\n## 10. Safety precautions\n\nFor industrial use (It is not intended for household use.)\n\nBefore using the product, approve the following conditions of sale.\n\n(1) This technical information gives experimental values obtained by our specified test methods. We cannot thoroughly guarantee the correctness and perfectness of the data.\n\nThe user should determine whether the product is appropriate to the use and purpose before using it, and take all responsibilities for danger caused by it. The guarantee applies only to replacement of apparently defective product.\n\n(2) We are not liable to injuries and damages caused by improper handling of this product.\n\n(3) We do not take responsibility for any matter not mentioned herein unless otherwise mutually agreed in the contract.\n\nED071101",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 9,
+    "doc_size_bytes": 178359
+  },
+  "document_annotation": null
+}

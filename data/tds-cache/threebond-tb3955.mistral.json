@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3955\n\n# ThreeBond\n\nMarch 24, 2011\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3955\n\nQuick curing, two-part, room temperature-curing, elastic adhesive\n\n1. Outline\n\nThreeBond 3955 is an acrylic-based, two-part, room temperature setting, elastic adhesive. Upon mixing the two-part liquid together, this product can cure quickly without using special equipment. After curing, the adhesive has a rubber-like elastic body with excellent thermal and moisture resistance.\n\n(Hereinafter, ThreeBond is abbreviated to TB.)\n\n2. Features\n\n(1) No need for special curing equipment and easy to use.\n(2) Fast-curing\n(3) After curing, has a rubber-like elastic body with excellent thermal and moisture resistance.\n\n3. Uses\n\nBonding and fixing of various car electrical components, sensors and motors.\n\n4. Properties\n\nTable 1 Properties of TB3955\n\n|  Item | Unit | Agent A | Agent B | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Appearance | - | Light transparent blue | Light transparent yellow | 3TS-201-01 |   |\n|  Viscosity (at 25°C) | Pa·s | 2.4 | 2.4 | 3TS-210-10 | Shear rate: 38.3 1/s  |\n|  Specific gravity (at 25°C) | - | 1.04 | 1.04 | 3TS-213-02 |   |\n|  Mixing ratio | - | 100 | 100 | - | Capacity ratio  |\n\nED2012011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3955\n\n# 5. Cured properties\n\n## 5.1 Cured adhesive properties\n\nTable 2 Characteristics of TB3955 after curing\n\n|  Test item |   | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Hardness |   | - | A65 | 3TS-215-01 | Durometer A  |\n|  Elongation |   | % | 130 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile strength |   | MPa | 5.2 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile shear bond strength | MPa | 6.6 | 3TS-301-13 | Fe / Fe (SPCC,SD)  |   |\n|   |   |  6.2 |   | SUS/ SUS (SUS-304)  |   |\n|  Cure shrinkage |   | % | 0.9 | 3TS-228-01 | 20φ  |\n|  Glass transition point |   | °C | -45 | 3TS-501-04 | DMA method, 1 Hz, E” peak  |\n|  Linear expansion coefficient | α₁ | ppm/°C | 66.0 | 3TS-501-05 | -100- -70  |\n|   |  α₂ |   | 221.5 |   | 0-50  |\n\nCuring conditions: 25°C for 24hrs\n\n## 5.2 Dependence of tensile shear bond strength on curing time\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Curing time &lt;0 to 120 min&gt;\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Curing time &lt;0 to 24 hrs&gt;\n\nCuring conditions: 25°C for 24hrs\nSubstrate: Fe/Fe SPCC, SD\n\n## 5.3 Thermal resistance\n\nTable 3 Thermal resistance of TB3955\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A72 | 3TS-215-01 | Durometer A  |\n|  Elongation | % | 120 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile strength | MPa | 5.8 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile shear bond strength | MPa | 8.8 | 3TS-301-13 | Fe / Fe (SPCC,SD)  |\n|   |   |  8.1 |   | SUS / SUS (SUS-304)  |\n\nCuring conditions: 25°C for 24hrs\nTest conditions: 120°C for 168 hrs\n\nED2012011",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 118,
+          "top_left_y": 440,
+          "bottom_right_x": 373,
+          "bottom_right_y": 607,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 384,
+          "top_left_y": 440,
+          "bottom_right_x": 630,
+          "bottom_right_y": 607,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3955\n\n## 5.4 Moisture resistance\n\nTable 4 Moisture resistance of TB3955\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | - | A68 | 3TS-215-01 | Durometer A  |\n|  Elongation | % | 125 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile strength | MPa | 5.4 | 3TS-320-01 | Dumbbell No.3  |\n|  Tensile shear bond strength | MPa | 7.4 | 3TS-301-13 | Fe / Fe (SPCC,SD)  |\n|   |   |  6.8 |   | SUS/ SUS (SUS-304)  |\n\nCuring conditions: 25°C for 24hrs\nTest conditions: 85°C, 85%RH, for 168 hrs\n\n## 6. Usage method\n\n(1) Remove oil, moisture and other contaminants completely from the surfaces to be bonded.\n(2) Mix the agents A and B at a ratio of 1:1 (capacity ratio). Chemical reaction will start just after they are mixed. Mix the agents in amounts to be used within the pot life (5 minutes).\n(3) After mixing, apply the adhesive uniformly. Then, immediately bond the parts, and secure them with a jig.\n(4) At room temperature (25°C), the adhesive will reach the practical strength (50% of the final strength) after 3 to 4 hours.\n\n## 7. Usage precautions\n\n(1) Harmful to health. Do not touch directly nor inhale fumes.\n(2) If any abnormality to body is found, stop using and get medical attention. Persons with allergies or sensitive skin should avoid using it.\n(3) Do not use near fire.\n(4) Contains harmful components. Do not use for drinking water or supply water pipes.\n(5) Use and store this product out of reach of children.\n(6) Before using, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(7) When handing, wear suitable protective equipment (respirator, safety glasses, protective gloves and protective clothing). And use a local exhaust system.\n(8) Harmful to health. Do not inhale or swallow. If swallowed, get medical aid immediately.\n(9) If in eyes, immediately rinse with clean water for at least 15 minutes and seek medical attention. If on skin, may cause inflammation. If on skin, immediately wipe away with cloth or paper, and wash the skin with soap and water.\n(10) Do not return unused product to the container. The unused product should be disposed.\n(11) The product solidifies on metallic parts. Do not use with metallic nozzle or other metallic parts.\n(12) For hazard and toxicity information not mentioned in this document, read the Material Safety Data Sheet (MSDS).\n\nED2012011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3955\n\n## 8. Storage\n\nTo prevent deterioration and contamination, seal the cap tightly on each container, and store the product in a dark dry place at -5 to 25°C and avoid direct sunlight.\n\n## 9. Disposal\n\nDispose product as industrial waste.\n\n## 10. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, the user must accept the following conditions.\n\n- The technical data described in this report are based on our company’s test method specifications. These values do not represent guaranteed values. Also, there are no guarantees that the uses presented in this report do not infringe on any third party’s intellectual property rights.\n- Regarding safety validation, the user bears all responsibilities and risks associated for confirming prior to use. Absolutely do not embed this product into body by injection or as residue from medical implant applications.\n- ThreeBond accepts no responsibility for injuries and damages caused by improper handling of this product. If the user is uncertain about the properties of this product and/or how to use it, absolutely do not use.\n- For more information about product safety information, read this product’s Material Safety Data Sheet (MSDS).\n\nTo obtain the MSDS, contact our sales office or our customer service.\n\n- Three Bond reserves the right to modify this report at our own discretion.\n\nED2012011",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 160844
+  },
+  "document_annotation": null
+}

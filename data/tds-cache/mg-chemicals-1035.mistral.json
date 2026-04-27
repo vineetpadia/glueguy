@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "MG Chemicals\n\nPremium RTV Silicone Adhesive Sealant 1035 Technical Data Sheet\n\nISO 9001:2008 Registered Quality System. Burlington, Ontario, CANADA SAI Global File: 004008\n\n1035\n\n# Description\n\nThe 1035 Premium RTV Silicone Adhesive Sealant is a one-part, spreadable, non-corrosive, translucent paste. It is a fast curing and designed to provide quick initial adhesion build. The adhesive sealant retains elastomeric properties for long periods at temperatures from -60 to 204 °C (-76 to 399 °F).\n\nThe 1035 is excellent for the sealing and bonding of electronic components onto printed circuit boards and protecting copper connections on electronic part assemblies. It also provides excellent weather proofing where power cords enter motors. It can be used as a gasket for leak resistant sealing and insulating.\n\n# Benefits and Features\n\n- UL HB Recognition (File # E36952)\n- Fast cure—modified alkoxy (neutral) cure\n- Primerless adhesion to many plastics, metals, wood, glass, and ceramics\n- Provides electrical insulation\n- Excellent chemical and weather resistance\n- High strength\n- Suited for marine applications\n\n## Usage Parameters\n\n|  Properties | Value  |\n| --- | --- |\n|  Tack Free | 15 min  |\n|  Full Cure @22 °C [72 °F] | 24 h  |\n|  Shelf Life | 2 y  |\n|  Application Rate | 360 gm/min  |\n\n## Temperature Ranges\n\n|  Properties | Value  |\n| --- | --- |\n|  Storage Temperature | 16 to 27 °C\n[60 to 80 °F]  |\n\n## Cured 1035 Properties\n\n|  Physical Properties | Value  |   |\n| --- | --- | --- |\n|  Color | Translucent  |   |\n|  Flexibility | Excellent  |   |\n|  Flammability | HB  |   |\n|  Mechanical Properties a) | Value  |   |\n|  Hardness, Shore A | 24A  |   |\n|  Tensile Strength | 21 kg/cm² | [300 lb/in²]  |\n|  Elongation | 435%  |   |\n|  Tear Strength | 7.1 kg/cm | [40 lb/in]  |\n|  Peel Strength |  |   |\n|  Glass | 7.5 kg/cm | [42 lb/in]  |\n|  Aluminum | 8.6 kg/cm | [48 lb/in]  |\n|  Lexan Polycarbonate | 7.1 kg/cm | [40 lb/in]  |\n|  PVC | 8.0 kg/cm | [45 lb/in]  |\n\na) Cured at 25 °C [77 °F] and 50% relative humidity for 7 days\n\nDate: 23 May 2023 / Ver. 1.03",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "http://database.ul.com/cgi-bin/XYV/template/LISEXT/1FRAME/showpage.html?name=QMFZ2.E36952&ccnshorttitle=Plastics+-+Component&objid=1073828711&cfgid=1073741824&version=versionless&parent_id=1073827222&sequence=1"
+      ],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "MG Chemicals\n\nPremium RTV Silicone Adhesive Sealant 1035 Technical Data Sheet\n\nISO 9001:2008 Registered Quality System. Burlington, Ontario, CANADA SAI Global File: 004008\n\n1035\n\nCured 1035 Properties\n\n|  Electrical Properties b) | Value  |\n| --- | --- |\n|  Volume Resistivity | 2 x 10^{15} Ω·cm  |\n|  Dielectric Strength | 17 kV/mm [425 V/mil]  |\n|  Dielectric Constant @100 Hz | 2.8  |\n|  Dissipation Factor @100 Hz | 0.002  |\n|  Thermal Properties b) | Value  |\n|  Coefficient of Thermal Expansion | 300 ppm/°C  |\n|  Thermal Conductivity | 0.06 W/(m·K) [0.10 Btu·ft/ft^{2}·h·°F]  |\n|  Brittle Point | -60 °C [-75 °F]  |\n\nb) Information is provided for customer convenience. The properties are not tested on a routine basis.\n\nUncured 1035 Properties\n\n|  Physical Properties | Value  |\n| --- | --- |\n|  Odor | Ammonia-like  |\n|  Viscosity | Paste  |\n|  Specific Gravity | 1.04 g/mL  |\n|  Flash Point | 100 °C [230 °F]  |\n\nCompatibility\n\nA primer is not required; however, for difficult to bond substrates, a primer is recommended.\n\nNOTE: Not recommended for use on polycarbonates and acrylics. Will discolor sensitive metals (copper and brass) only when in direct contact.\n\nThe 1035 is compatible with most materials found on printed circuit assemblies; however, in an uncured state it is not compatible with contaminants like water, oil, and greasy flux residues. Therefore, it is extremely important to clean the printed circuit assembly thoroughly with a suitable electronic cleaner before applying the coating (see recommended cleaners on page 4).\n\nATTENTION! Perform a compatibility test in a representative environment prior to use to determine if other incompatibilities may be present.\n\nStorage\n\nStore between 16 and 27 °C [60 and 80 °F] in dry area away from sunlight.\n\nDate: 23 May 2023 / Ver. 1.03",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "MG Chemicals\n\nPremium RTV Silicone Adhesive Sealant 1035 Technical Data Sheet\n\nISO 9001:2008 Registered Quality System. Burlington, Ontario, CANADA SAI Global File: 004008\n\n1035\n\n# Application Instructions\n\nThe 1035 can be dispensed via caulking cartridges by manual caulking or air operated guns. The adhesive sealant should be applied in a less than 6 mm (1/4 in) diameter bead or ribbon around the edge of the surface to be bonded.\n\n# To apply the adhesive sealant\n\n1. Clean and dry the surface of the substrate to remove oil, dust, water, solvents, and other contaminants.\n2. Apply the adhesive sealant, ensuring adequate coverage and desired thickness.\n3. Allow a full cure at room temperature for at least 24 hours.\n\n**ATTENTION!** Exact cure time will vary depending on temperature, humidity, and thickness.\n\n**NOTE:** Adequate bond strength will develop in 4-6 hours to permit handling of parts.\n\n# Packaging and Supporting Products\n\n|  Cat. No. | Packaging | Net Weight | Net Volume  |\n| --- | --- | --- | --- |\n|  1035-85ML | Tube | 88.1 g | 85 mL  |\n\n# Technical Support\n\nContact us regarding any questions, improvement suggestions, or problems with this product. Application notes, instructions, and FAQs are located at www.mgchemicals.com.\n\nEmail: support@mgchemicals.com\n\nPhone: +(1) 800-340-0772 (Canada, Mexico &amp; USA)\n+(1) 905-331-1396 (International)\n+(44) 1663 362888 (UK &amp; Europe)\n\nFax: +(1) 905-331-2862 or +(1) 800-340-0773\n\nMailing address:\n\nManufacturing &amp; Support\n1210 Corporate Drive\nBurlington, Ontario, Canada\nL7L 5R6\n\nHead Office\n9347-193rd Street\nSurrey, British Columbia, Canada\nV4N 4E7\n\n# Disclaimer\n\nThis information is believed to be accurate. It is intended for professional end users having the skills to evaluate and use the data properly. M.G. Chemicals Ltd. does not guarantee the accuracy of the data and assumes no liability in connection with damages incurred while using it.\n\nDate: 23 May 2023 / Ver. 1.03",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [
+        "http://www.mgchemicals.com/",
+        "mailto:support%40mgchemicals.com"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 196297
+  },
+  "document_annotation": null
+}

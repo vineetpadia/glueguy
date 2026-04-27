@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB2249G\n\nThreeBond\n\nMay 30, 2005\n\nThree Bond Co., Ltd.\n\n# Technical Data\n\n## ThreeBond 2249G\n\n## One-part heat-curing epoxy-compound resin\n\n1.  Outline\n\nThreeBond 2249G (hereinafter, ThreeBond is abbreviated to TB) is a one-part heat-curing epoxy resin having well-balanced shear bond strength and peel strength.\n\n2.  Features\n\n(1) One-part heat-curing adhesive\n(2) High adhesive strength\n\n3.  Uses\n\nBonding of magnets\n\nBonding of various metallic materials\n\nBonding of other general materials\n\n4.  Properties\n\nTable 1. Properties of TB2249G\n\n|  Test item | Unit | Property | Test method  |\n| --- | --- | --- | --- |\n|  Appearance | – | Black | 3TS-201-02 (visual inspection)  |\n|  Specific gravity | – | 1.59 | 3TS-213-02 (specific gravity cup)  |\n|  Viscosity | Pa·s | 75 | 3TS-210-02 (BH-type rotational viscometer, No.7 rotor, 20 rpm)  |\n\nThe values are given for your reference.\n\n5.  Characteristics\n\nTable 2. Characteristics of TB2249G\n\n|  Test item | Unit | Characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Hardness | – | D90 | 3TS-215-01 (JISD)  |\n|  Glass transition temperature | °C | 104 | 3TS-501-05 (TMA method)\nThermal dilatometer, 10°C/min  |\n|  Linear expansion coefficient | × 10⁻⁵/°C | 42  |   |\n|  Storage modulus | Pa | 5.4 × 10⁹ (-40°C) | 3TS-501-04 (DMA method)\n1 Hz, 3°C/min  |\n|   |   |  4.4 × 10⁹ (25°C)  |   |\n|   |   |  1.8 × 10⁷ (200°C)  |   |\n\n* Standard curing conditions: 160°C × 30 min\nThe values are given for your reference.\n\n* The above characteristic values are not guaranteed or specified values, but experimental values.\n* The curing conditions depend on the thermal capacities of the substrate and peripheral parts and applying method. Check the curing state on the actual parts in advance, and determine the optimum curing conditions.\n\nED061006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2249G\n\n# 6. Electrical characteristics\n\nTable 3. Electrical characteristics of TB2249G\n\n|  Test item | Unit | Characteristic | Test method  |\n| --- | --- | --- | --- |\n|  Volume resistivity | Ω·m | 1.02 × 10^{13} | 3TS-401-01  |\n|  Surface resistivity | Ω | 2.56 × 10^{13} | 3TS-402-01  |\n|  Dielectric breakdown voltage | kV/mm | 33.0 | 3TS-406-01  |\n\n* Standard curing conditions: 160°C × 30 min\nThe values are given for your reference.\n\n* The above characteristic values are not guaranteed or specified values, but experimental values.\n* The curing conditions depend on the thermal capacities of the substrate and peripheral parts and applying method. Check the curing state on the actual parts in advance, and determine the optimum curing conditions.\n\n# 7. Tensile shear bond strength to various materials\n\nTable 4. Tensile shear bond strength to various materials\n\n|  Material | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Iron | MPa | 39.0 | 3TS-301-11 | SPCC-SD: 1.6 × 25 × 100 mm  |\n|  Stainless steel |   | 36.0 |   | SUS430: 1.5 × 25 × 100 mm  |\n|  Nickel plating |   | 35.3 |   | SPCC-SB: 2.0 × 25 × 100 mm  |\n|  Trivalent chrome plating |   | 31.2 |   | SPCC-SB: 1.6 × 25 × 100 mm  |\n|  Hexavalent chrome plating |   | 38.3 |   | SPCC-SB: 1.6 × 25 × 100 mm  |\n|  Aluminum |   | 22.0 |   | A1050P: 2.0 × 25 × 100 mm  |\n\n* Standard curing conditions: 160°C × 30 min\nThe values are given for your reference.\n\n* The above characteristic values are not guaranteed or specified values, but experimental values.\n* The curing conditions depend on the thermal capacities of the substrate and peripheral parts and applying method. Check the curing state on the actual parts in advance, and determine the optimum curing conditions.\n\n# 8. T-peel strength to various materials\n\nTable 5. T-peel strength to various materials\n\n|  Material | Unit | Characteristic | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Iron | kN/m | 8.0 | 3TS-304-21 | SPCC-SD: 0.5 × 25 × 100 mm  |\n|  Stainless steel |   | 3.6 |   | SUS430: 0.5 × 25 × 150 mm  |\n|  Nickel plating |   | 4.0 |   | SPCC-SB: 0.5 × 25 × 150 mm  |\n|  Trivalent chrome plating |   | 2.7 |   | SPCC-SB: 0.5 × 25 × 150 mm  |\n|  Hexavalent chrome plating |   | 5.0 |   | SPCC-SB: 0.5 × 25 × 150 mm  |\n|  Aluminum |   | 4.5 |   | A1050P: 0.5 × 25 × 150 mm  |\n\n* Standard curing conditions: 160°C × 30 min\nThe values are given for your reference.\n\n* The above characteristic values are not guaranteed or specified values, but experimental values.\n* The curing conditions depend on the thermal capacities of the substrate and peripheral parts and applying method. Check the curing state on the actual parts in advance, and determine the optimum curing conditions.\n\nED061006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2249G\n\n# 9. Reference\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Rheometer curing behavior\n\n# 10. Instructions for use\n\n(1) The curing conditions depend on the thermal capacities of the substrate and peripheral parts and applying method. When the resin is applied in a large quantity (cures in a state of a thick film) or it is applied in a certain shape, it may foam or burn owing to heat generated during curing.\nThe resin components may be separated or the resin may not cure depending on the shape of work or applying conditions.\nIt is recommended to check the curing state on the actual parts in advance and determine the optimum curing conditions.\n(2) Remove moisture, dust, rust, oil, parting agent and other contaminants from the surfaces to be bonded.\n(3) Open the container after the adhesive reaches room temperature to prevent condensation.\n(4) Direct adhesion of the resin to the skin may cause inflammation. If it adheres to the skin, wipe it away with paper or cloth, and wash the skin with soap and water. If it gets in the eyes, wash them with clean water for more than 15 minutes, and get medical attention.\n(5) TB2249G is not designated as a hazardous material under the Fire Defense Law. Watch out for fire when using it in the same manner as when using general adhesives.\n(6) For the details of safety, see the attached material safety data sheet (MSDS).\n\n# 11. Storage\n\nStore the resin in a refrigerator (at  $-5$  to  $10^{\\circ}\\mathrm{C}$ ). After unsealing it, use it up as soon as possible.\n\n# 12. Disposal\n\nHave the product disposed of as industrial waste by authorized industrial waste disposal services. Treat the used container and waste cloth in the same manner.\n\nWhen burnt, this adhesive can generate harmful substances, such as carbon monoxide, ammonia, chlorine and cyanogen gas.\n\nED061006",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 133,
+          "top_left_y": 120,
+          "bottom_right_x": 583,
+          "bottom_right_y": 403,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB2249G\n\n13. Safety precautions\n\nFor industrial use only\n(It is not intended for household use)\n\nBefore using the product, approve the following conditions of sale.\n\n(1) This technical information gives experimental values obtained by our specified test methods. We cannot thoroughly guarantee the correctness and perfectness of the data.\n\nThe user should determine whether the product is appropriate to the use and purpose before using it, and take all responsibilities for danger caused by it. The guarantee applies only to replacement of apparently defective product.\n\n(2) We are not liable to injuries and damages caused by improper handling of this product.\n\n(3) We do not take responsibility for any matter not mentioned herein unless otherwise mutually agreed in the contract.\n\nED061006",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 187976
+  },
+  "document_annotation": null
+}

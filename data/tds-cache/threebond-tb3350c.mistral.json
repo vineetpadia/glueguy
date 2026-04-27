@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3350C\n\n# ThreeBond\n\nJuly 29, 2003\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3350C\n\nCold drying electroconductive paint\n\n1.  Outline\n\nThreeBond 3350C is a cold drying electroconductive silver paint developed for various electronic devices and components.\n\n2.  Features\n\nThe paint has good adhesion to various materials and can form electroconductive coating films when dried at room temperature.\n\n3.  Uses\n\n- Securing and fixing of terminals\n- Repair of circuits\n\n4.  Properties\n\nTable 1 Properties\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Silver | 3TS-102 | Visual inspection  |\n|  Viscosity | Pa·s | 1 | 3TS-201 | BL type, No.2, 12 rpm, for 30 sec  |\n|  Specific gravity | - | 2.2 | 3TS-211 | Specific gravity cup  |\n|  Storage stability | - | 12 |  | Preservation in refrigerator (at 5 to 10°C)  |\n\n* The property data shown above are not guaranteed or specified values, but experimental values.\n\nED2003045",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3350C\n\n# 5. Characteristics\n\nTable 2. Characteristics\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Standard drying conditions | - | 25°C ×24 hrs or 60°C ×1hr |  | Note 1  |\n|  Electrical conductivity | Ω | 0.6 or less | Note 2 |   |\n\nNote 1: The drying conditions depend on the substrate, environment (temperature, humidity, etc.) and amount of coating.\nIt is recommended to check the conditions with actual parts and determine the optimum drying conditions.\n\nNote 2: Test method: On a glass plate, the sample is applied in a thickness of approx. 40 µm (one sheet of scotch tape), a width of 10 mm and a length of 70 mm or more and dried at room temperature (25°C) for 24 hours. Then, the areal resistance is measured with a digital multimeter in accordance with the following procedures.\n\n![img-0.jpeg](img-0.jpeg)\n* The characteristic data shown above are not guaranteed or specified values, but experimental values.\n\nED2003045",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 153,
+          "top_left_y": 466,
+          "bottom_right_x": 615,
+          "bottom_right_y": 756,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3350C\n\n## 6. Instructions for use\n\n(1) The drying conditions depend on the substrate, environment (temperature, humidity, etc.) and amount of coating. It is recommended to check the conditions with actual parts and determine the optimum drying conditions.\n\n(2) Remove moisture, dust, rust, oil, grease and other contaminants from the surfaces to be bonded.\n\n(3) The silver powder may have settled during storage. Store the product in a refrigerator (at 5 to 10°C), and use it up, as a rule, within 12 months after the day of manufacture. When using, open the container after it reaches room temperature (if it is opened in a refrigerated state, dew condensation occurs in the container).\n\n(4) Direct adhesion of the paint to the skin may cause an inflammation. If it adheres to the skin, wipe it off with a cloth, and wash the skin sufficiently with soap. If it gets in the eyes, wash them with clean water for more than 15 minutes, and immediately get medical attention.\n\n(5) This material falls under the category of Hazardous Material Type 4, 1st Petroleum Class in Japan's Fire Defense Law. Prevent from fire when using it. (Contained solvents: Toluene; 29%, n-butyl alcohol; 5% or less)\n\n(6) For the details of safety, see the separate material safety data sheet (MSDS).\n\n## 7. Cautions\n\n**For industrial use only** (Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\n\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\n\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED2003045",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 190662
+  },
+  "document_annotation": null
+}

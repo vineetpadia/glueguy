@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\n\n# Three Bond International, Inc.\nTechnical Data Sheet\n\n# TB1322 - ANAEROBIC SEALANT\n\n## Information\n\nTB1322 is a high performance, red, and high strength anaerobic adhesive. It will not set so long as it is in contact with air. It cures rapidly once contacts to metal and in absence of air. Used mostly for locking bolts permanently.\n\n## Typical Properties\n\n### 1. Uncured State\n\n|  Property | Units | Value  |\n| --- | --- | --- |\n|  Appearance | - | Red  |\n|  Viscosity | mPa·s (cP) | 150 (150)  |\n|  Specific gravity | - | 1.11  |\n\n### 2. Cured Material\n\n|  Property |   | Units | Value  |\n| --- | --- | --- | --- |\n|  Recommended Clearance |   | mm | 0.005 ~ 0.01  |\n|  Max Clearance |   |   | 0.15  |\n|  Curing Speed (20-25°C) | Workable | Hour | 2  |\n|   |  Final |   | 24  |\n|  Shear Strength | Fixing | MPa (kgf/cm²) | 23.0 (240)  |\n|   |  Screw |   | 14.0 (140)  |\n|  Curing Time | 80°C | Minutes | 30  |\n|   |  100°C |   | 20  |\n|   |  120°C |   | 10  |\n|  Service Temperature |   | °C | -40 ~ 150  |\n\nRev: 0.1\nIssued Date: 06/17/02\nDocument Control Number: 3-TB-20-0922",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "|  Property |   |   | Units | Value  |\n| --- | --- | --- | --- | --- |\n|  Retaining Torque M 10 | Break Loose Torque | Fe | N·m (kgf·cm) | 22.0 (230)  |\n|   |  Prevailing Torque |   |   | 38.0 (380)  |\n|   |  Break Loose Torque | SUS |   | 11.0 (110)  |\n|   |  Break Loose Torque | Al |   | 11.0 (110)  |\n|   |  Break Loose Torque | Brass |   | 11.0 (110)  |\n|   |  Break Loose Torque | Zn-Cr |   | 5.5 (56)  |\n|   |  Break Loose Torque | Ni |   | 19.0 (200)  |\n\nThese are typical results and not specifications.\n\nRev: 0.1\n\nIssued Date: 06/17/03\n\nDocument Control Number: 3-TB-20-0922",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 97217
+  },
+  "document_annotation": null
+}

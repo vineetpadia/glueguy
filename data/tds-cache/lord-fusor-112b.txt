@@ -1,0 +1,8 @@
+Official Parker LORD fallback extracted from web-visible technical data snippets when direct PDF download returned HTTP 403.
+
+Product: Fusor 112B Metal Bonding Adhesive (Slow).
+Chemistry: two-component acrylic-based metal bonding adhesive with extended open time for larger panel repairs and warmer shop conditions.
+Handling guidance from official snippet: apply 3/8 to 1/2 inch bead to prepared mating surfaces; maintain contact during cure; use screws or rivets in hard-to-clamp areas; if bond-only, clamps or temporary fasteners may be removed after 3 hours at 70 F / 21 C; full room-temperature cure requires 8 hours.
+Shelf life / storage: 12 months at 75 F / 24 C in original unopened container.
+Bond performance from official TDS snippet: lap shear strength ASTM D1002 on cold rolled steel 2100 psi (14.5 MPa), cohesive failure; on aluminum 2700 psi (18.6 MPa), cohesive failure. Torsional impact resistance GM 9751P on both cold rolled steel and aluminum is listed as greater than 106 in-lb with no adhesive failure.
+Provenance note: this cache entry is a controlled text fallback because Parker blocks direct automated access to the PDF endpoint.

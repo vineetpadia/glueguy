@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1655D(20t)\n\n# ThreeBond\n\nOct. 3, 2016\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1655D(20t)\n\nHeat Curable Sheet Adhesive\n\n## 1. Product description\n\nThreeBond 1655D(20t) is an epoxy-based heat curable sheet adhesive. The sheet adhesive is transferred by thermocompression bonding for temporary bonding. Then, it reacts and cures by continuous heating. Before curing, the sheet is a thin and flexible film. After the adhesive completely cures, it will form a hard adhesive layer and ensure highly reliable bonding.\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 900 ppm each, and the sum of total chlorine content and total bromine content is less than 1500 ppm.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) The sheet adhesive does not cause overflow during bonding.\n(2) Good adhesion to glass and metal.\n(3) Low halogen content.\n\n## 3. Applications\n\n(1) Surface bonding of metallic and glass plates.\n(2) Bonding of electrical and electronic parts.\n\n## 4. Product structure\n\nTable 1 Product composition of TB1655D(20t)\n\n|  Composition | Material | Thickness  |\n| --- | --- | --- |\n|  Heavy release liner | PET | 100μm  |\n|  Adhesive | - | 20μm  |\n|  Light release liner | PET | 25μm  |\n\nED2016094",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1655D(20t)\n\n![img-0.jpeg](img-0.jpeg)\nFig. 1 Product composition\n\n# 5. Properties (uncured)\n\nTable 2 Properties of TB1655D(20t)\n\n|  Test item | Unit | Result | Measuring method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | White | 3TS-2100-007 | -  |\n|  Film thickness | μm | 20 | 3TS-2J10-001 | Adhesive layer  |\n|  Flow starting temperature | °C | 63 | 3TS-2F00-008 | Temperature increase: 3°C/min.  |\n\n# 6. Result\n\n# 6-1. Characteristics of cured material\n\nTable 3 Characteristics of TB1655D(20t) after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Glass transition temperature | °C | 128 | 3TS-4730-001 | DMA, tanδ peak temperature  |\n|  Elastic modulus | Pa | 1.2×1010 | 3TS-4730-001 | DMA 25°C  |\n|  Water absorption | % | 2.1 | 3TS-2530-003 | Boiling for 2 hours  |\n|  Lap shear strength | MPa | 4.9 (material failure) | 3TS-4100-011 | Glass/glass t2.0 × 25 × 100 mm  |\n|   |   |  16.8 |   | Iron/iron t1.6 × 25 × 100 mm  |\n|  Dielectric constant | - | 3.7 | 3TS-5220-001 | 1kHz  |\n|   |   |  3.7 |   | 1MHz  |\n|  Dielectric loss tangent | - | 0.011 | 3TS-5220-001 | 1kHz  |\n|   |   |  0.022 |   | 1MHz  |\n\n* Curing conditions:  ${110}^{ \\circ  }\\mathrm{C}$  for  ${30}\\mathrm{\\;{min}}$\n\nED2016094",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 171,
+          "top_left_y": 128,
+          "bottom_right_x": 520,
+          "bottom_right_y": 255,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1655D(20t)\n\n# 7. Usage\n\n(1) Cut TB1655D(20t) along the contour of the part to be bonded.\n(2) Peel off the light release liner*1, and transfer the adhesive*2 to the substrate by thermocompression bonding.\n(3) After transferring, return the substrate to normal temperature, and peel off the heavy release liner.\n(4) Bond the substrate coated with TB1655D(20t) and the mating substrate under vacuum thermocompression*3.\n(5) Continuously heat the adhesive with a heater until completely cured.\n\n*1: If the adhesive layer is heated to 25°C or more, the adhesive layer will adhere to the release liner, and it may be difficult to peel off the release liner. Do not to heat the adhesive layer to 25°C or more.\n*2, *3: For the details of the machines used, contact one of our sales engineers.\n\n# 8. Recommended working conditions\n\n(1) Transfer conditions (roll laminator): 80°C × 0.1 MPa × 0.3 m/min\n(2) Bonding conditions (vacuum laminator): Bonding temperature: 80°C\nDegree of vacuum: -95 kPa or less, vacuum holding time: 2 min\nPress pressure: 95 kPa or more, press holding time: 3 min\n(3) Curing conditions: 110°C for 30 min or more\n\n# 9. Directions for use\n\n(1) Do not inhale or swallow. Harmful to health. Do not inhale or ingest. If swallowed, immediately get medical attention.\n(2) Harmful to the health. Do not directly touch nor inhale vapor. If it adheres to the skin, it may cause inflammation. If on skin, immediately wipe away with cloth or paper, and wash the skin with soap and water. If it gets in the eyes, wash them with clean water for about 15 minutes, and get medical attention.\n(3) If any bodily abnormality occurs, discontinue use, and get medical attention. People who have allergies or susceptible skin should avoid handling it.\n(4) Keep out of reach of children.\n(5) Some gas may be generated during operation and curing. Forcibly ventilate the working area and curing area. Wear appropriate protective clothing, such as a mask, goggles and gloves (impervious), as necessary, and use the adhesive in a place equipped with a local exhaust system.\n(6) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(7) Use of this product may cause substrate degradation. The effects of the adhesive on the substrates must be confirmed by the operator in advance. Refrain from using the adhesive if any detrimental effects are observed.\n(8) The transfer, bonding and curing conditions may considerably vary depending on the substrate material and size. Sufficiently confirm the conditions prior to use.\n\nED2016094",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1655D(20t)\n\n(9) Once the release liner is removed, do not put it back on the sheet nor laminate any other release liner. Doing so may cause contamination.\n\n(10) For other hazard and toxicity information, see the safety data sheet (SDS).\n\n## 10. Storage\n\nStore in a dry place in a refrigerator at -5 to 10°C avoiding direct sunlight.\n\nTo prevent dew condensation, unseal the container after it returns to room temperature.\n\n## 11. Disposal\n\nTreat the used release liners, cores and product as industrial waste.\n\n## 12. Cautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods.\n\nWe do not guarantee that the uses described herein do not conflict with any intellectual property right.\n\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use.\n\nNever embed or inject into bodies nor use as a medical implant that may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\n\nIf the properties or usage of the product to be used are unclear, never use it.\n\n- For detailed safety information of the product, see the Safety Data Sheets (SDS).\n\nTo obtain the SDS, contact our sales office or customer service center.\n\n- Information in this document is subject to change at our own discretion.\n\n## 13. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2016094",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 4,
+    "doc_size_bytes": 57819
+  },
+  "document_annotation": null
+}

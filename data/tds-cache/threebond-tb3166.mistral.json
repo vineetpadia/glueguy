@@ -1,0 +1,184 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB3166\n\n# ThreeBond\n\nNov. 17, 2017\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 3166\n\nUltra-soft type UV-curable silicone resin\n\n## 1. Product description\n\nThreeBond 3166 is a silicone-based, solvent-free UV-curable resin. It cures by polymerization under irradiation of UV light within a short time and forms gel-like soft cured material having heat resistance and cold resistance. The cured resin is so soft that it has good sealing performance in a wide range of compression ratio and can reduce sealing failures under the influence of dimensional tolerances. It is suitable for CIPG* applications requiring dust and waterproofness.\n\n*CIPG is an abbreviation for Cured-In-Place Gasket.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) The resin can cure under irradiation with UV light (wavelength of 200 to 380 nm) for a short time.\n\n(2) After curing, maintains rubber elasticity over a wide temperature range (-40 to 120°C).\n\n(3) After application, has excellent shape retention before curing.\n\n(4) The cured resin is so soft that it is applicable at a high compression ratio.\n\n(5) Excelling in heat resistance, moisture resistance and sealability.\n\n## 3. Applications\n\nCase sealing of electrical and electronic parts and electrical components\n\nElastic sealing application which requires heat and cold resistance\n\n## 4. Properties\n\n### 4.1 Properties\n\nTable 1 Properties of TB3166\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Blue | 3TS-2100-020 | -  |\n|  Viscosity | Pa·s | 330 | 3TS-2F00-007 | 25°C\nShear rate: 2.0(s⁻¹)  |\n|  Structural viscosity ratio | - | 3.7 | 3TS-2F10-007 | 25°C\nShear rate: 1.0(s⁻¹)/5.0(s⁻¹)  |\n|  Specific gravity | - | 1.01 | 3TS-2500-002 | 25°C  |\n\nED2017045",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB3166\n\n## 4.2 Flow curves\n\nFig. 1 Flow curves of TB3166\n![img-0.jpeg](img-0.jpeg)\nMeasuring device: HAKKE MARS III\nGeometry: C20/1\nMeasuring conditions: Measured at $25^{\\circ}\\mathrm{C}$ after pre-shearing (shear rate $1.0(\\mathrm{s}^{-1})\\times 5\\mathrm{min}$)\n\n## 4.3 Temperature-viscosity curve\n\nFig. 2 Temperature-viscosity curve of TB3166\n![img-1.jpeg](img-1.jpeg)\nMeasuring device: HAKKE MARS III\nGeometry: C20/1\nShear rate: $2.0(\\mathrm{s}^{-1})\\times 5\\mathrm{min}$\nMeasuring conditions: Measured at each temperature after pre-shearing (shear rate $1.0(\\mathrm{s}^{-1})\\times 5\\mathrm{min}$)\n\nED2017045",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 179,
+          "top_left_y": 152,
+          "bottom_right_x": 550,
+          "bottom_right_y": 411,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 188,
+          "top_left_y": 549,
+          "bottom_right_x": 510,
+          "bottom_right_y": 799,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB3166\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured sealant\n\nTable 2 Characteristics of TB3166 after curing\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Hardness | – | E15 | 3TS-2B00-010 |   |\n|  Tensile strength | MPa | 0.8 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Elongation | % | 500 | 3TS-4190-001 | No. 3 dumbbell  |\n|  Thick film curability | mm | 6.0 | 3TS-3160-001 |   |\n|  Cure shrinkage | % | 0.7 | 3TS-2600-001 | φ32, 1.5g  |\n|  Content of low molecular weight siloxane | ppm | 760 | Gas chromatography | D_{3} to D_{10}  |\n|  Compression set *1 (120°C×72h) | % | 34 | 3TS-4410-001 | 20% compression  |\n|   |   |  54 |   | 50% compression  |\n|   |   |  60 |   | 80% compression  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n*1 Bead shape: 2 mm wide, 1.5 mm high, Measurement device: Three-dimensional non-contact measurement device made by Mitaka Optical\n\n## 5.2 Electrical characteristics\n\nTable 3 Electrical characteristics of TB3166\n\n|  Test item |   | Unit | Result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 5.5×10^{11} | 3TS-5200-001  |\n|  Surface resistivity |   | Ω | 2.7×10^{12} | 3TS-5100-002  |\n|  Dielectric constant | 1kHz | – | 3.1 | 3TS-5220-001  |\n|   |  1MHz | – | 2.9  |   |\n|  Dielectric loss tangent | 1kHz | – | 0.008  |   |\n|   |  1MHz | – | 0.006  |   |\n|  Dielectric breakdown strength |   | kV/mm | 15.1 | 3TS-5230-001  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\nED2017045",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB3166\n\n# 5.3 Thermomechanical analysis\n\nTable 4 Thermomechanical properties of TB3166\n\n|  Test item |   | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- | --- |\n|  Linear expansion coefficient | α1 | ×10-6/°C | 226 | 3TS-4740-001 | -100 to -70°C  |\n|   |  α2 |   | 407 |   | 70 to 100°C  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\n\n# 5.4 Dynamic viscoelastic properties\n\n![img-2.jpeg](img-2.jpeg)\nFig.3 Dynamic viscoelastic properties\n\nTable 5 Dynamic viscoelastic properties of TB3166\n\n|  Test item | Unit | Result | Test method | Remarks  |\n| --- | --- | --- | --- | --- |\n|  Storage modulus (E') | Pa | 5.6×10^5 | 3TS-4730-001 | 25°C  |\n|  Loss modulus (E\") | °C | -51.7 |   | Peak value  |\n|  Loss tangent (tanδ) | °C | -39.6 |   | Peak value  |\n\nCuring conditions: UV dose: 45 kJ/m², High-pressure mercury lamp, Main wavelength: 365 nm, Irradiation distance: 15 cm\nMeasuring conditions: 1Hz\n\nED2017045",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 98,
+          "top_left_y": 327,
+          "bottom_right_x": 618,
+          "bottom_right_y": 640,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB3166\n\n# 6. Durability\n\n![img-3.jpeg](img-3.jpeg)\nFig. 4 Tensile strength after endurance test\nCuring conditions: UV dose 45kJ/m²\nMeasurement conditions: 3TS-4190-001\n\n![img-4.jpeg](img-4.jpeg)\nFig. 5 Elongation after endurance test\nCuring conditions: UV dose 45kJ/m²\nMeasurement conditions: 3TS-4190-001\n\n![img-5.jpeg](img-5.jpeg)\nFig. 6 Hardness after endurance test\nCuring condition: UV dose 45 kJ/m²\nMeasurement conditions: 3TS-2B00-010\n\nED2017045",
+      "images": [
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 97,
+          "top_left_y": 126,
+          "bottom_right_x": 361,
+          "bottom_right_y": 286,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 364,
+          "top_left_y": 126,
+          "bottom_right_x": 631,
+          "bottom_right_y": 286,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 99,
+          "top_left_y": 383,
+          "bottom_right_x": 364,
+          "bottom_right_y": 544,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB3166\n\n# 7. Sealing properties\n\n![img-6.jpeg](img-6.jpeg)\nFig. 7 Pressure resistance at each compression ratio after endurance test at  $120^{\\circ}\\mathrm{C}$\n\n![img-7.jpeg](img-7.jpeg)\nFig. 8 Shape of flange for endurance test\n\nTest conditions\n\nFlange used: Single-wall flange (Fig. 8)\n\nPressurization medium: Air\n\nPressure boosting condition:  $0.01\\mathrm{MPa} / 15$  sec (maximum pressure:  $0.4\\mathrm{MPa}$ )\n\nBead shape:  $2\\mathrm{mm}$  in width and  $1.5\\mathrm{mm}$  in height\n\nCuring conditions: UV dose:  $45\\mathrm{kJ} / \\mathrm{m}^2$ , High-pressure mercury lamp, Main wavelength:  $365~\\mathrm{nm}$ , Irradiation distance:  $15\\mathrm{cm}$\n\n# 8. Directions for use\n\n(1) Do not inhale or ingest. Harmful to health. Do not inhale or ingest.\n(2) Harmful to the health. Do not directly touch nor inhale vapor. Wear appropriate protective clothing, such as a mask, goggles and gloves (impervious), and use the resin in a place equipped with a local exhaust system.\n(3) If swallowed, do not induce vomiting. Immediately rinse the mouth, and get medical attention.\n(4) If in eyes, repeatedly and sufficiently rinse with clean water, and get medical attention.\n(5) If it adheres to the skin, it may cause inflammation. Immediately wipe with cloth or paper, and wash the affected area with soap and water.\n(6) If any bodily abnormality occurs, discontinue use, and get medical attention. People who have allergies or susceptible skin should avoid handling it.\n(7) Keep out of reach of children.\n(8) Before using it, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n(9) Some materials may deteriorate if TB3166 is used. The effects on the substrate should be confirmed in advance. If there are any problems, do not use.\n\nED2017045",
+      "images": [
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 103,
+          "top_left_y": 130,
+          "bottom_right_x": 365,
+          "bottom_right_y": 289,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 419,
+          "top_left_y": 179,
+          "bottom_right_x": 575,
+          "bottom_right_y": 283,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB3166\n\n(10) The curing speed varies depending on the type of light source and irradiation distance. Therefore, sufficiently confirm the curing speed prior to use. Particularly, the curing speed is greatly affected by the adhesive temperature and substrate surface temperature owing to changes in temperature and humidity in the room.\n\n(11) Some gas can be generated during application and curing with UV light. Forcibly ventilate the working area and the UV irradiation area.\n\n(12) If the product is transferred to another container, confirm whether or not there is an adverse effect on the curability prior to use. Do not return the product left unused to the container.\n\n(13) For detailed hazard information of the product, see the Safety Data Sheet (SDS).\n\n## 9. Storage\n\nTo prevent deterioration and contamination, fit the cap tightly, and store it indoors in a dark dry place at -5 to 25°C away from sunlight, fire and heat sources.\n\n## 10. Disposal\n\nEntrust disposal of the product to a professional waste disposal company to dispose of it as industrial waste.\n\nDo not burn the product. It may generate toxic gas when burnt.\n\n## 11. Precautions\n\nFor Industrial Use Only\n\n(Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Safety Data Sheets (SDS). To obtain the SDS, contact our sales office or customer service center.\n- Information in this document is subject to change at our own discretion.\n\n## 12. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2017045",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 7,
+    "doc_size_bytes": 189405
+  },
+  "document_annotation": null
+}

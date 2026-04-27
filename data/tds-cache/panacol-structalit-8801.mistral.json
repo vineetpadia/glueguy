@@ -1,0 +1,83 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TECHNICAL DATASHEET\n\nSTRUCTALIT® 8801\n\nhoenle\n\n# PRODUCT DESCRIPTION\n\nModified epoxy | 1 part | solvent-free | heat-curing\n\n- Potting\n- Automotive\n- Medical devices\n\n- Short curing times at low temperatures\n- Very good oil- and media resistance\n- Low ion content, electronic grade (&lt;900ppm)\n- certified according to ISO 10993-5\n\n# CURING PROPERTIES\n\nThis adhesive must be cured with heat. Typical curing temperatures are listed in the table below.\n\n|  Temperatures | Time  |\n| --- | --- |\n|  80°C | 3 h  |\n|  100°C | 15 min  |\n|  130°C | 5 min  |\n|  150°C | 2 min  |\n|  180°C | 1 min  |\n\nThe heat cure times are only provided as a guideline. They are derived from curing a 2g adhesive sample without affixed substrates in a laboratory environment. Actual cure times can vary based on part size, configuration, adhesive volume, temperature control, and the time required for the component substrates to attain oven temperature.\n\nThe final bond strength of the adhesive is achieved no sooner than 24 h after the bonded components are removed from the oven.\n\nUpdated 21.10.2025\n\nRevision: 9\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TECHNICAL DATASHEET\n\nSTRUCTALIT® 8801\n\nhoenle\n\nTECHNICAL DATA\n\n|  Resin | Epoxy  |\n| --- | --- |\n|  Appearance | Beige  |\n|  Filler | Chalk  |\n|  Filler - weight [%] | 30  |\n|  Particle size D95 [μm] | 12.5  |\n|  Uncured Material |   |\n|  Viscosity [mPas] (Brookfield LVT, 25 °C, Sp. 4/6 rpm)\nTest instruction P001 | 30,000 – 45,000  |\n|  Density [g/cm³]\nTest instruction P004 | 1.2 – 1.5  |\n|  Working life [days]\n@ room temperature | 7  |\n|  Cured Material |   |\n|  Hardness shore D\nTest instruction P006 | 80 – 90  |\n|  Typical operating temperature [°C] | -40 – 200  |\n|  Linear shrinkage [%]\nTest instruction P031 | <1  |\n|  Water absorption [wt%]\nTest instruction P016 | <1  |\n|  Glass transition temperature - DSC [°C]\nTest instruction P009 | 125 – 140  |\n|  Coefficient of thermal expansion [ppm/K] below Tg\n150°C, 30min\nTest instruction P017 | 30 – 50  |\n|  Coefficient of thermal expansion [ppm/K] above Tg\n150°C, 30min\nTest instruction P017 | 140 – 180  |\n|  Thermal conductivity [W/m*K]\nTest instruction P062 | 0.5 – 0.7  |\n|  Surface resistance [Ohm]\nIEC 60093-1980 | 5 x 10¹² – 8 x 10¹²  |\n|  Surface insulation resistance [Ohm]\nGB/T 10064-2006 | 1 x 10¹⁴ – 2 x 10¹⁴  |\n|  Volume resistivity [Ohm*cm]\nIEC 60093-1980 | 1 x 10¹⁴ – 2 x 10¹⁴  |\n|  Young's modulus – Tensile test [MPa]\n150°C, 30min\nTest instruction P056 | 4,200 – 6,300  |\n|  Tensile strength [MPa]\n150°C, 30min\nTest instruction P014 | 30 – 45  |\n\nUpdated 21.10.2025\n\nRevision: 9\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TECHNICAL DATASHEET\n\nSTRUCTALIT® 8801\n\nhoenle\n\n|  Elongation at break [%]\n150°C, 30min\nTest instruction P014 | <1.5  |\n| --- | --- |\n|  Lap shear strength (ABS/ABS) [MPa]\n120°C, 15min\nTest instruction P013 | 3 – 5  |\n|  Lap shear strength (steel/steel) [MPa]\n100°C, 60min\nTest instruction P013 | 15 – 20  |\n|  Lap shear strength (stainless steel/stainless steel) [MPa]\n120°C, 45min\nTest instruction P013 | 18 – 25  |\n|  Lap shear strength (AlMg1/AlMg1) [MPa]\n120°C, 45min\nTest instruction P013 | 8 – 15  |\n\nTRANSPORT/STORAGE/SHELF LIFE\n\n|  Package type | Transport | Storage | Shelf life*  |\n| --- | --- | --- | --- |\n|  Syringe/Cartridge | 0°C – 10°C | 0°C – 10°C | At delivery\nmin. 3 months\nmax. 6 months  |\n|  Other packages  |   |   |   |\n\n*Store in original, unopened containers!\n\nPage 3/5\nUpdated 21.10.2025\nRevision: 9\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TECHNICAL DATASHEET STRUCTALIT® 8801\n\nhoenle\n\n# INSTRUCTIONS FOR USE\n\n## Surface preparation\n\nThe surfaces to be bonded should be free of dust, oil, grease, mold release, or other contaminants in order to obtain an optimal and reproducible bond. For cleaning we recommend the cleaner IP® from Hoenle, or a solution of Isopropyl Alcohol at 90% or higher concentration. Substrates with low surface energy (e.g. polyethylene, polypropylene) must be pretreated in order to achieve sufficient adhesion.\n\n## Application\n\nOur products are supplied ready to use. Depending on packaging they can be applied by hand directly from the container or by using compatible dispensing systems and automation. Many commercially available valve and controller options are available to ensure accurate and consistent adhesive dispensing. For assistance with dispensing and curing questions, please contact our Applications Engineering department. To obtain best results, the adhesive and substrates to be bonded may not be cold and should be allowed to warm to room temperature prior to processing. For safety information refer to our Material Safety Data Sheet (MSDS).\n\n## Storage\n\nStore uncured product in its original, closed container in a dry location. Any material removed from the original container must not be returned to the container as it could be contaminated. Hoenle cannot assume responsibility for products that were improperly stored, contaminated, or repackaged into other containers.\n\n## Handling and Clean-up\n\nFor safe handling information, consult this product's Material Safety Data Sheet (MSDS) prior to use. Uncured material may be wiped away from surfaces with organic solvents. Do not use solvents to remove material from eyes or skin!\n\nUpdated 21.10.2025\n\nRevision: 9\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TECHNICAL DATASHEET\n\nSTRUCTALIT® 8801\n\nhoenle\n\n# DISCLAIMER\n\nThe product is free of heavy metals, PFOS and Phthalates and is conform to the current EU-Directive RoHS.\n\n# THE VALUES NOTED IN THIS TECHNICAL DATA SHEET ARE TYPICAL PROPERTIES AND ARE NOT MEANT TO BE USED AS PRODUCT SPECIFICATIONS.\n\nThe information contained in this data sheet is believed to be accurate and is provided for information only. Hoenle makes no representation or warranties of any kind concerning this information. It is the user's responsibility to determine the suitability of this product for any intended use. Hoenle does not assume responsibility for test or performance results obtained by the user. The user assumes all risk and liability connected with the use of this product.\n\nThe user should adopt such precautions and use guidelines as may be advisable for the protection of property and persons against any hazards that may be involved in this product's handling or use. Hoenle specifically disclaims any liability for consequential or incidental damages of any kind arising from the handling or use of this product. The information contained in this Technical Data Sheet offers no assurance that the product use, application, or process will not infringe on existing patents or licenses of others. Nothing in this Technical Data Sheet transfers or grants license for the use of any patents, trade secrets, intellectual property, or confidential information that is the property of Hoenle.\n\nExcept as otherwise noted, all trademarks in this document (identified as *) are the property of Hoenle.\n\n# CONTACT\n\nHoenle Adhesives GmbH | Stierstädter Straße 4 | 61449 Steinbach | Germany\nT: +49 6171 6202-0 | adhesivesystems@hoenle.com\n\nFor regional sales and technical support, please refer to our global contact directory https://www.hoenle.com/contact.\n\nUpdated 21.10.2025\n\nRevision: 9\n\nDIN ISO 9001 certified",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [
+        "mailto:adhesivesystems%40hoenle.com",
+        "https://www.hoenle.com/contact"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 113545
+  },
+  "document_annotation": null
+}

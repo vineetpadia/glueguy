@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Permabond\n\nEngineering Adhesives\n\nPERMABOND® TA436\n\nToughened Acrylic Adhesive\n\nTechnical Datasheet\n\n# Features &amp; Benefits\n\n- Adhesion to a wide variety of substrates\n- Fast cure at room temperature\n- No mix application\n- High shear and peel strength\n- Good impact strength\n- High temperature resistance\n\n# Description\n\nPERMABOND® TA436 is a structural acrylic adhesive designed primarily for bonding metals, ferrites, ceramics and some thermoplastics. Permabond TA436 is a no-mix system which obtains handling strength 1-3 minutes when the adhesive and the Initiator 43 come in contact.\n\nPermabond TA436 offers high shear and impact resistant bonds and improved high temperature resistance.\n\n## Physical Properties of Uncured Adhesive\n\n|  Chemical composition | Modified acrylic – solvent free  |\n| --- | --- |\n|  Appearance | Transparent amber liquid  |\n|  Viscosity @ 25°C | 20rpm: 15,000 – 30,000 mPa.s (cP)\n2.5rpm: 45,000 – 70,000 mPa.s (cP)  |\n|  Specific gravity (resin) | 1.1  |\n\n## Typical Curing Properties (with Initiator 43)\n\n|  Ratio of use | 10:1.5 approximately  |\n| --- | --- |\n|  Maximum gap fill | 0.5 mm (0.02 in)  |\n|  Fixture time (zinc) @23°C | No gap: 20-30 secs  |\n|  Handling time (zinc)\n(0.3 N/mm² shear strength is achieved) @23°C | No gap: 1-3 mins  |\n|  Working strength (zinc) @23°C | No gap: 30-60 mins  |\n|  Full cure @23°C | 24 hours  |\n\n## Typical Performance of Cured Adhesive\n\n|  Shear strength (ISO4587)* | Mild steel: 15-25 N/mm²\n(2200-3600 psi)\nZinc: 10-15 N/mm²\n(1450-2200 psi)  |\n| --- | --- |\n|  Peel strength (aluminium) (ISO 4578) | 45-65 N/25mm (10-14 PIW)  |\n|  Tensile strength (ISO37) | 25N/mm² (3600 psi)  |\n|  Impact strength (ASTM D-950) | 10-15 kJ/m²  |\n|  Coefficient of thermal expansion (ASTM D-696) | 80 x 10⁻⁶ 1/K  |\n|  Thermal conductivity (ASTM C-177) | 0.1 W/(m.K)  |\n|  Dielectric constant (ASTM D-150) | 4.6  |\n|  Dielectric strength (ASTM D-149) | 30-50 kV/mm  |\n|  Volume resistivity (ASTM D-257) | 2 x 10¹³ Ohm.cm  |\n\n*Strength results will vary depending on the level of surface preparation and gap.\n\n## Strength Development\n![img-0.jpeg](img-0.jpeg)\n\nGraph shows typical strength development of bonded components at 23°C. Curing at higher or lower temperatures may affect cure speed.\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.\n\nPermabond TA436\n\nGlobal TDS Revision 5\n\n23 February 2018\n\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 386,
+          "top_left_y": 578,
+          "bottom_right_x": 658,
+          "bottom_right_y": 783,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "Permabond TA436\nGlobal TDS Revision 5\n23 February 2018\nFOR PROFESSIONAL OR INDUSTRIAL USE ONLY. KEEP OUT OF REACH OF CHILDREN\n\n# Hot Strength\n\n![img-1.jpeg](img-1.jpeg)\n\n\"Hot strength\" shear strength tests performed on mild steel. Fully cured specimens conditioned to pull temperature for 30 minutes before testing at temperature. TA436 can withstand higher temperatures for brief periods (such as for paint baking and wave soldering processes) providing the joint is not unduly stressed. The minimum temperature the cured adhesive can be exposed to is $-55^{\\circ}\\mathrm{C}$ (-65°F) depending on the materials being bonded.\n\n# Environmental Resistance\n\nAll values were generated on a received steel lap shears as described in ISO4587. Adhesive was cured at room temperature for 48 hours prior to environmental exposure. Test pieces were assembled with no induced gap and subjected to continuous exposure for 1000 hours at the testing temperature and then the shear strength was tested at room temperature.\n\n|  1000 hours @ | % strength retention  |\n| --- | --- |\n|  95°C | 110% *  |\n|  120°C | 118% *  |\n|  150°C | 132% *  |\n|  175°C | 127% *  |\n|  205°C | 87%  |\n\n*The shear strength is higher than the room temperature control because heating the adhesive causes it to become more rigid, resulting in a higher strength.\n\n# Chemical Resistance\n\n![img-2.jpeg](img-2.jpeg)\n\nSpecimens were immersed for 30 days at $85^{\\circ}C$ and tested at room temperature.\n\n# Additional Information\n\nThis product is not recommended for use in contact with strong oxidizing materials. This product may affect some thermoplastics and users must check compatibility of the product with such substrates. Information regarding the safe handling of this material may be obtained from the Safety Data Sheet.\n\nUsers are reminded that all materials, whether innocuous or not, should be handled in accordance with the principles of good industrial hygiene.\n\nThis Technical Datasheet (TDS) offers guideline information and does not constitute a specification.\n\n# Surface Preparation\n\nSurfaces should be clean, dry and grease-free before applying the adhesive. Permabond Cleaner A is recommended for the degreasing of most surfaces. Some metals such as aluminium, copper and its alloys will benefit from light abrasion with emery cloth (or similar), to remove the oxide layer.\n\n# Directions for Use\n\n1) Surfaces must be clean, dry and grease-free. Apply Initiator 43 to one surface.\n2) Apply adhesive to the other surface.\n3) Assemble the components using sufficient force to spread the adhesive thinly. Parts should be bonded immediately and within a maximum of two hours of applying the Initiator.\n4) Maintain pressure until handling strength is achieved. The time required will vary according to the joint design, gap and surfaces being bonded.\n5) Allow 24 hours for adhesive to fully cure. Accelerated cure times may be achieved by heating.\n\n# Video Links\n\nSurface preparation: https://youtu.be/8CMOMP7hXjU\n\nStructural acrylic directions for use: https://youtu.be/gyp27IwgnUg\n\n![img-3.jpeg](img-3.jpeg)\n\n![img-4.jpeg](img-4.jpeg)\n\n# Storage &amp; Handling\n\nStorage Temperature\n\n5 to $25^{\\circ}C$ (41 to $77^{\\circ}F$)\n\nwww.permabond.com\n\n- UK: 0800 975 9800\n- General Enquiries: +44 (0)1962 711661\n- US: 732-868-1372\n- Asia: +86 21 5773 4913\n\ninfo.europe@permabond.com\n\ninfo.americas@permabond.com\n\ninfo.asia@permabond.com\n\nThe information given and the recommendations made herein are based on our research and are believed to be accurate but no guarantee of their accuracy is made. In every case we urge and recommend that purchasers before using any product in full-scale production make their own tests to determine to their own satisfaction whether the product is of acceptable quality and is suitable for their particular purpose under their own operating conditions. THE PRODUCTS DISCLOSED HEREIN ARE SOLD WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTY, EXPRESS OR IMPLIED.\n\nNo representative of ours has any authority to waive or change the foregoing provisions but, subject to such provisions, our engineers are available to assist purchasers in adapting our products to their needs and to the circumstances prevailing in their business. Nothing contained herein shall be construed to imply the non-existence of any relevant patents or to constitute a permission, inducement or recommendation to practice any invention covered by any patent, without authority from the owner of this patent. We also expect purchasers to use our products in accordance with the guiding principles of the Chemical Manufacturers Association's Responsible Care® program.",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 67,
+          "top_left_y": 122,
+          "bottom_right_x": 328,
+          "bottom_right_y": 275,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 61,
+          "top_left_y": 639,
+          "bottom_right_x": 324,
+          "bottom_right_y": 846,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 586,
+          "top_left_y": 549,
+          "bottom_right_x": 639,
+          "bottom_right_y": 603,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 586,
+          "top_left_y": 612,
+          "bottom_right_x": 639,
+          "bottom_right_y": 665,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [
+        "https://youtu.be/8CMOMP7hXjU",
+        "https://youtu.be/gyp27IwgnUg"
+      ],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 2,
+    "doc_size_bytes": 402342
+  },
+  "document_annotation": null
+}

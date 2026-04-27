@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Technical Product Bulletin\n\n5 Minute Adhesive Epoxy Gel, 50mL Cartridge\n\n## PRODUCT DESCRIPTION\n\nAtom Adhesives 5 Minute Epoxy Gel – Fix It Fast. Fix It Strong.\n\nWhen time is critical and reliability matters, this fast-setting epoxy gel is your powerhouse solution. From sealing leaks to bonding metal, wood, concrete, and more, Atom Adhesives delivers unmatched strength with zero hassle.\n\n## Why It's a Game-Changer:\n\n- Rapid Cure: Achieve a rock-solid bond in just 1 hour after applying—no waiting, no downtime.\n- All-Purpose Performance: Bonds metal, wood, concrete, plastic, and beyond.\n- Gap-Filling Power: Handles uneven surfaces and imperfections with ease.\n- Unyielding Strength: 2,800 psi tensile strength for repairs that last.\n- Chemical Resistance: Defies gas, oil, and harsh solvents for ultimate durability.\n- Non-Sag Formula: Perfect for vertical applications—no drips, no mess.\n\n## Key Features\n\n- High tensile strength (2,800 psi)\n- Excellent resistance to gas, oil, and solvents\n- Non-sag for vertical surfaces\n- Superior gap-filling without shrinkage\n- Fast cure for machinery and equipment repairs\n\n## Specifications\n\n- Open time: 4–7 minutes\n- Fixture time: 10–15 minutes",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "- Gap fill: 0.01\"–0.05\"\n\n## GENERAL PROPERTIES\n\n|  Appearance | Slight haze/ slight straw  |\n| --- | --- |\n|  Cure Type | Room temperature or Heat cure  |\n|  Benefits | Resistant to many organic/inorganics\nStrong bond strength\nGreat electrical insulator\nDurable  |\n|  Mix Ratio by weight | 100:100 / Resin:Hardener  |\n|  Substrates | metals, plastics, concrete, sheetrock, tile, marble, stone, rock, plaster, cement, glass fabrics, wood, leather and rigid plastics  |\n|  Operating Temperature | -76 °F to 230 °F / -60 to 110 °C  |\n|  Typical Application(s) | Anything requiring the unique properties this adhesive offers  |\n|  Pot Life | 5 minutes  |\n\n## UNCURED PROPERTIES\n\n|  Viscosity @ 25 °C, mPa·s (cP) Thixotropic  |   |\n| --- | --- |\n|  Solids Content | 100%  |\n|  Specific Gravity, mixed | 1.2 g/cc  |\n\n## CURE SCHEDULE\n\n30 minutes @ 65°C\n\n2 hours @ 25°C / Room Temp\n\n## MISC PROPERTIES\n\nVolume Resistivity 5.00e+11 ohm-cm",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "Dielectric Constant 4.8\n\nDielectric Strength 410kV/in\n\nCTE, linear 33.3 µin/in-°F @ RT\n\nHardness, Shore D 70\n\nGlass Transition Temp, Tg 25.0 °C, 77.0 °F\n\n## GENERAL INFORMATION\n\nFor safe handling information on this product, consult the Material Safety Data Sheet, (MSDS).\n\n## HOW TO USE\n\n1. Carefully clean and dry all surfaces to be bonded.\n2. 5 Minute Epoxy 14265 completely mixed adhesive to the prepared surfaces, and gently press these surfaces together. Contact pressure is adequate for strong, reliable bonds; however, maintain contact until adhesive is completely cured.\n3. Some separation of components is common during shipping and storage. For this reason, it is recommended that the contents of the shipping container be thoroughly mixed prior to use.\n4. Some ingredients in this formulation provided may crystallize when subjected to low temperature storage. A gentle warming cycle of 52°C for 30 minutes prior to mixing components may be necessary. Crystallized epoxy components do not react as well as liquid components and should be re-dissolved prior to use for best results.\n\n## AVAILABILITY\n\nThis epoxy can be supplied in various different packages.\n\nData Sheets: TDS | MSDS available upon request.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 92871
+  },
+  "document_annotation": null
+}

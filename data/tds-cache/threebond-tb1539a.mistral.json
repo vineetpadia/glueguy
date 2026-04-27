@@ -1,0 +1,302 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB1539\n\n# ThreeBond\n\nSep. 6, 2016\n\nThreeBond Co., Ltd.\n\nTechnical Data\n\nThreeBond 1539\n\nOne-component Low Temperature Fast Curing Elastic Adhesive\n\n## 1. Product description\n\nThreeBond 1539 is a one-component low temperature fast curing elastic adhesive. The adhesive can be cured by heating at a relatively low temperature (approx. 60°C) for a short time and does not require a long-time curing process. It uses a plant-derived polymer as the main component taking into consideration the environmental aspects*. The cured material is an elastic body, which is resistant to vibration and impact and excels in relaxation of stress caused by expansion and contraction of parts. In addition, it has excellent adhesion to various materials.\n\n* Environmental aspects: Factors affecting the environment\n\n(Example: Emission of exhaust gas (carbon dioxide))\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n## 2. Features\n\n(1) One-component low temperature fast curing (in 1 min or more at approx. 60°C) type.\n\n* The curing conditions and curing time vary depending on the heat capacity of the parts used.\n\n(2) Use of plant-derived polymer as main component.\n\n(3) Elastic in wide temperature range (-35°C to 100°C).\n\n(4) Excellent adhesion to various materials.\n\n## 3. Applications\n\nBonding, sealing and potting of various materials.\n\n## 4. Properties\n\nTable 1 Properties of TB1539\n\n|  Test item | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Main component | - | Urethane prepolymer | -  |\n|  Appearance | - | Black | 3TS-2100-002  |\n|  Viscosity | Pa·s | 100* | 3TS-2F00-007  |\n|  Specific gravity | - | 1.34 | 3TS-2500-002  |\n\n* Measuring conditions: Shear rate 5 (s⁻¹)\n\nED2016084",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB1539\n\n# 5. Curing ability\n\n## 5.1 Curing behavior (example)\n\n* The curing conditions and curing time vary depending on the heat capacity of the parts used.\n\n![img-0.jpeg](img-0.jpeg)\nFig.1 Curing ability of TB1539\n\nTest method: 3TS-4200-007 Oscillation strain control\n\nRotor: 25φ4° cone, Rate of temperature rise: 5°C/min\n\nDistortion: 1%, Frequency: 1 Hz\n\n## 5.2 Curing properties\n\n![img-1.jpeg](img-1.jpeg)\nFig.2 Curing time and lap shear strength of TB1539\n\nCuring conditions: 60°C for 1.5 hrs\n\nCuring conditions: 23°C, 50%RH\n\nTest method: 3TS-4100-013 Lamination of aluminum (A1050P)\n\ntest pieces after application to both surfaces\n\nED2016084",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 167,
+          "top_left_y": 182,
+          "bottom_right_x": 533,
+          "bottom_right_y": 413,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 176,
+          "top_left_y": 573,
+          "bottom_right_x": 519,
+          "bottom_right_y": 777,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB1539\n\n![img-2.jpeg](img-2.jpeg)\nFig.3 Curing time, tensile strength and elongation of TB1539\n\nCuring conditions: 60°C for 1.5 hrs\n\nCuring conditions: 23°C 50%RH\n\nTest method: 3TS-4190-001\n\n![img-3.jpeg](img-3.jpeg)\nFig.4 Curing time and hardness of TB1539\n\nCuring conditions: 60°C for 1.5 hrs\n\nCuring conditions: 23°C, 50%RH\n\nTest method: 3TS-2B00-004\n\nNote: The curing conditions are 1.5 hrs at 60°C to make a reference cured material for the test by using jigs*. Such curing conditions are used because the heating temperature and time are required to warm up the jigs.\n\n* Dimensions of jigs and supplementary explanation\n\nTwo aluminum plates (Teflon-treated surfaces) having a length of 200 mm, a width of 230 mm and a thickness of 8 mm and spacers are used to make a cured material 2 mm in thickness. After the adhesive is applied to one of the aluminum plates, the other plate is put on the adhesive, and pressure is applied to the plate to uniform the thickness of the adhesive during heating.\n\nED2016084",
+      "images": [
+        {
+          "id": "img-2.jpeg",
+          "top_left_x": 175,
+          "top_left_y": 114,
+          "bottom_right_x": 550,
+          "bottom_right_y": 328,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-3.jpeg",
+          "top_left_x": 182,
+          "top_left_y": 439,
+          "bottom_right_x": 521,
+          "bottom_right_y": 658,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB1539\n\n# 6. Characteristics of cured material\n\n## 6.1 Characteristics of cured material\n\nTable 2 Characteristics of TB1539 after curing\n\n|  Test item | Unit | Result | Test method  |\n| --- | --- | --- | --- |\n|  Hardness | - | A70 | 3TS-2B00-004  |\n|  Tensile strength | MPa | 3.5 | 3TS-4190-001  |\n|  Elongation | % | 120 | 3TS-4190-001  |\n|  Cure shrinkage | % | 0.02 | 3TS-2600-001®1  |\n\n*1 Dimensions of cured adhesive: φ20mm×2mm\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\n\n## 6.2 Electrical characteristics of cured material\n\nTable 3 Electrical characteristics of TB1539\n\n|  Test item |   | Unit | Result | Test method  |\n| --- | --- | --- | --- | --- |\n|  Volume resistivity |   | Ω·m | 2.4×10^{11} | 3TS-5200-001  |\n|  Surface resistivity |   | Ω | 7.8×10^{14} | 3TS-5200-002  |\n|  Dielectric constant | 1kHz | - | 6.1 | 3TS-5220-001  |\n|   |  1MHz |   | 4.9  |   |\n|  Dielectric loss tangent | 1kHz | - | 0.035  |   |\n|   |  1MHz |   | 0.057  |   |\n|  Dielectric breakdown strength |   | kV/mm | 19 | 3TS-5230-002  |\n\nED2016084",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB1539\n\n# 7. Adhesive strength\n\n## 7.1 Lap shear strength\n\nTable 4 Lap shear strength of TB1539\n\n|  Test material |   | Unit | Result | Failure type  |\n| --- | --- | --- | --- | --- |\n|  Metals | Aluminum (A1050P) | MPa | 4.3 | CF  |\n|   |  Steel (SPCC-SD) |   | 3.8 | CF  |\n|   |  Stainless steel (SUS304) |   | 2.7 | CF  |\n|   |  Copper (C1100P) |   | 3.3 | CF  |\n|  Plastics | Phenolic resin | MPa | 4.3 | CF  |\n|   |  Glass epoxy |   | 4.2 | CF  |\n|   |  Acryl |   | 0.7 | AF  |\n|   |  ABS |   | 0.8 | AF  |\n|   |  PC (polycarbonate) |   | 1.5 | AF  |\n|   |  Nylon 6,6 |   | 0.7 | AF  |\n|   |  PET (polyethylene terephthalate) |   | 4.0 | CF  |\n|   |  PBT (polybutylene terephthalate) |   | 2.4 | CF  |\n|   |  PPS (polyphenylene sulfide) |   | 1.9 | AF  |\n|   |  Hard PVC |   | 2.6 | CF  |\n|  Others | Glass | MPa | 3.5 | CF  |\n|   |  Lauan |   | 3.4 | CF  |\n\nAF: Adhesive failure  CF: Cohesive failure\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\nTest method: 3TS-4100-013 Lamination of plates of the same material after application of adhesive to both surfaces\n* Surface treatment of test pieces used in tests\nMetallic test pieces: Degreasing with methylene chloride, Plastic and rubber test pieces: Wiping with ethanol\n\nED2016084",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TB1539\n\n## 7.2 Peel strength\n\nTable 5 Peel strength of TB1539\n\n|  Test material | Unit | Result | Failure type  |\n| --- | --- | --- | --- |\n|  Steel (SPCC-SD) | kN/m | 1.1 | AF  |\n|  Aluminum (A1050P) |   | 1.5 | CF  |\n|  Cotton canvas |   | 2.5 | CF  |\n\nAF: Adhesive failure  CF: Cohesive failure\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\nTest method: 3TS-4130-023 Lamination of plates of the same material after application of adhesive to both surfaces\n* Surface treatment of test pieces used in tests\nMetallic test pieces: Degreasing with methylene chloride, Plastic and rubber test pieces: Wiping with ethanol\n\n## 7.3 Lap shear strength while heated\n\n![img-4.jpeg](img-4.jpeg)\n\nFig.5 Lap shear strength of TB1539 while heated\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\nTest method: 3TS-4100-013 Lamination of aluminum (A1050P) test pieces after application to both surfaces\n\nED2016084",
+      "images": [
+        {
+          "id": "img-4.jpeg",
+          "top_left_x": 179,
+          "top_left_y": 461,
+          "bottom_right_x": 505,
+          "bottom_right_y": 656,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TB1539\n\n![img-5.jpeg](img-5.jpeg)\nFig.6 Heat resistance (lap shear strength) of TB1539\n\nCuring conditions:  $(60^{\\circ}\\mathrm{C} \\times 1.5\\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\% \\mathrm{RH}) \\times 3$  days\n\nTest method: 3TS-4100-013 Lamination of aluminum (A1050P)\n\ntest pieces after application to both surfaces\n\n# 8. Durability\n\n# 8.1 Thermal resistance\n\n![img-6.jpeg](img-6.jpeg)\nFig.7 Heat resistance (tensile strength) of TB1539\n\nCuring conditions:  $(60^{\\circ}\\mathrm{C} \\times 1.5\\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\% \\mathrm{RH}) \\times 3$  days\n\nTest method: 3TS-4190-001\n\nED2016084",
+      "images": [
+        {
+          "id": "img-5.jpeg",
+          "top_left_x": 199,
+          "top_left_y": 128,
+          "bottom_right_x": 511,
+          "bottom_right_y": 329,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-6.jpeg",
+          "top_left_x": 194,
+          "top_left_y": 533,
+          "bottom_right_x": 506,
+          "bottom_right_y": 722,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "TB1539\n\nFig.8 Heat resistance (elongation) of TB1539\n![img-7.jpeg](img-7.jpeg)\nCuring conditions:  $(60^{\\circ}\\mathrm{C} \\times 1.5\\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\% \\mathrm{RH}) \\times 3$  days\nTest method: 3TS-4190-001\n\nFig.9 Heat resistance (hardness) of TB1539\n![img-8.jpeg](img-8.jpeg)\nCuring conditions:  $(60^{\\circ}\\mathrm{C} \\times 1.5\\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\% \\mathrm{RH}) \\times 3$  days\nTest method: 3TS-2B00-004\n\nED2016084",
+      "images": [
+        {
+          "id": "img-7.jpeg",
+          "top_left_x": 198,
+          "top_left_y": 110,
+          "bottom_right_x": 505,
+          "bottom_right_y": 307,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-8.jpeg",
+          "top_left_x": 204,
+          "top_left_y": 437,
+          "bottom_right_x": 509,
+          "bottom_right_y": 632,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 8,
+      "markdown": "TB1539\n\n## 8.2 Water resistance and moisture resistance\n\n![img-9.jpeg](img-9.jpeg)\nFig.10 Lap shear strength of TB1539 immersed in water at 40°C and exposed to environment at 85°C, 85%RH\n\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\n\nTest method: 3TS-4100-013 Lamination of aluminum (A1050P) test pieces after application to both surfaces\n\n![img-10.jpeg](img-10.jpeg)\nFig.11 Tensile strength of TB1539 immersed in water at 40°C and exposed to environment at 85°C, 85%RH\n\nCuring conditions: (60°C × 1.5 hrs) + (23°C, 50%RH) × 3 days\n\nTest method: 3TS-4190-001\n\nED2016084",
+      "images": [
+        {
+          "id": "img-9.jpeg",
+          "top_left_x": 197,
+          "top_left_y": 154,
+          "bottom_right_x": 522,
+          "bottom_right_y": 362,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-10.jpeg",
+          "top_left_x": 188,
+          "top_left_y": 544,
+          "bottom_right_x": 532,
+          "bottom_right_y": 750,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 9,
+      "markdown": "TB1539\n\nFig.12 Elongation of TB1539 immersed in water at $40^{\\circ}\\mathrm{C}$ and exposed to environment at $85^{\\circ}\\mathrm{C}$, $85\\%$ RH\n![img-11.jpeg](img-11.jpeg)\nCuring conditions: $(60^{\\circ}\\mathrm{C} \\times 1.5\\ \\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\%\\mathrm{RH}) \\times 3\\ \\mathrm{days}$\nTest method: 3TS-4190-001\n\nFig.13 Hardness of TB1539 immersed in water at $40^{\\circ}\\mathrm{C}$ and exposed to environment at $85^{\\circ}\\mathrm{C}$, $85\\%$ RH\n![img-12.jpeg](img-12.jpeg)\nCuring conditions: $(60^{\\circ}\\mathrm{C} \\times 1.5\\ \\mathrm{hrs}) + (23^{\\circ}\\mathrm{C}, 50\\%\\mathrm{RH}) \\times 3\\ \\mathrm{days}$\nTest method: 3TS-2B00-004\n\nED2016084",
+      "images": [
+        {
+          "id": "img-11.jpeg",
+          "top_left_x": 182,
+          "top_left_y": 110,
+          "bottom_right_x": 527,
+          "bottom_right_y": 344,
+          "image_base64": null,
+          "image_annotation": null
+        },
+        {
+          "id": "img-12.jpeg",
+          "top_left_x": 188,
+          "top_left_y": 522,
+          "bottom_right_x": 505,
+          "bottom_right_y": 727,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 10,
+      "markdown": "TB1539\n\n# 9. Usage\n\n(1) Before applying the adhesive, completely remove moisture, oil, rust and other contaminants from the surfaces to be bonded.\n\n(2) Apply the appropriate amount to the bonding area.\n\n(3) Do not move until the adhesive cures.\n\n* Cautions when curing\n\nThe curing conditions vary depending on the heat capacity of the parts used. Carefully check the curing temperature and curing time prior to use.\n\n# 10. Storage\n\nThe adhesive quality is affected by high temperature, high humidity and UV light. After using it, fit the cap tightly, and store it in a dark dry place at -5 to 10°C avoiding direct sunlight.\n\n# 11. Disposal\n\nAfter the adhesive has all been used, ask a licensed disposal company to dispose of the container as industrial waste.\n\n# 12. Directions for use\n\n- Do not inhale or ingest the product. It is harmful to the health.\n- When using it, wear protective equipment.\n- Keep out of reach of children.\n- If in eyes, rinse with clean water for at least 15 minutes, and get medical attention.\n- If on skin, wipe it away with a cloth, and wash the skin thoroughly with water or soap and water.\n- If any bodily abnormality occurs, discontinue use, and get medical attention.\n- For industrial use. Do not use for household purposes.\n- Do not use on human body.\n- To prevent condensation, unseal the container after it reaches room temperature.\n- Before using, sufficiently confirm whether the method of application and the purpose are appropriate.\n- The effects on the bonding point should be confirmed in advance. If there are any problems, do not use.\n- For hazard and toxicity information not mentioned herein, see the safety data sheet (SDS).\n\nED2016084",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 11,
+      "markdown": "TB1539\n\n## 13. Cautions\n\nFor Industrial Use Only\n(Do not use for household purposes.)\n\nThis product is developed for general industrial use. Before using this product, the user must accept the following terms:\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses described herein do not conflict with any intellectual property right.\n- Before using this product, confirm the appropriateness and safety of the use for the application in question, and bear all responsibilities and risks involved in the use. Never embed or inject into bodies nor use as a medical implant that may be left in the body.\n- We are not liable for personal injury or property damage caused by improper handling of this product. If the properties or usage of the product to be used are unclear, never use it.\n- For detailed safety information of the product, see the Safety Data Sheet (SDS). To obtain the SDS, contact our sales office or customer service center.\n- Information in this document is subject to change at our own discretion.\n\n## 145. Registered trademark\n\nThreeBond is a trademark or a registered trademark of ThreeBond Co., Ltd.\n\nED2016084",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 719
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 12,
+    "doc_size_bytes": 141452
+  },
+  "document_annotation": null
+}

@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "RE\n\nRaychem S1125 Adhesive Quality Assurance Specification\n\nRK-6619\n\nJune 2022 – Rev. 14\n\nClass I\n\n# S1125 ADHESIVE QUALITY ASSURANCE SPECIFICATION\n\nRK-6619\n\n# Raychem S1125 Adhesive\n\nELECTRONIC APPROVAL, NO SIGNATURES WILL APPEAR.\n\nIF PRINTED THIS DOCUMENT BECOMES UNCONTROLLED.\n\n© 2022 TE Connectivity Corporation.\n\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TE\nRK-6619\nRev. 14\n\n# 1. SCOPE\n\nThis Quality Assurance Specification establishes the quality standard for a two-part epoxy adhesive for bonding TE Connectivity's heat-shrinkable polymeric and elastomeric tubing, moulded components, and other suitable substrates.\n\n## Table of Contents\n\n1. SCOPE ... 2\n2. REQUIREMENTS ... 3\n2.1. Composition, Appearance and Colour ... 3\n2.2. Test Requirements ... 3\n2.3. Shelf Life ... 3\n3. TEST METHODS ... 3\n3.1. Lap Shear Strength ... 3\n3.2. Peel Strength ... 4\n3.3. Temperature Resistance ... 5\n3.4. Fluid Resistance ... 5\n4. RELATED STANDARDS ... 6\n5. SAMPLING ... 7\n6. PACKAGING ... 7\n7. TEST REQUIREMENTS ... 8\n8. REVISION HISTORY ... 9\n\n## Table of Tables\n\nTable 1 – Related Standards ... 6\nTable 2 – Test Requirements ... 8\n\n© 2022 TE Connectivity Corporation.\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\nPage 2 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TE\nRK-6619\nRev. 14\n\n# 2. REQUIREMENTS\n\n## 2.1. Composition, Appearance and Colour\n\nThe two components shall be homogeneous and free from large particles. One component shall be a grey viscous paste, the other a black viscous paste.\n\n## 2.2. Test Requirements\n\nThe adhesive shall meet all the requirements in Table 2.\n\n## 2.3. Shelf Life\n\nWhen stored in the original unopened containers at temperatures not exceeding 23°C, the adhesive shall continue to comply with the requirements of Table 2 for a period of up to 18 months.\n\n# 3. TEST METHODS\n\n## 3.1. Lap Shear Strength\n\n### 3.1.1 Aluminium to Aluminium Using Abraded Strips (Method A)\n\nMethod A features abraded strips and can be used for tests at ambient temperature only.\n\nTen test strips 1.5 ± 0.15 mm x 25 ± 1 mm x 115 ± 3 mm of a 2000-series aluminium alloy clad with 1000-series (min. 99% aluminium) Alclad to any of the specifications listed in Table 1 shall be degreased with Isopropanol or Acetone.\n\nAt least 25 mm length of one surface of one end of each strip shall be abraded with P320 grit silicon carbide abrasive paper, then wiped with a clean dry tissue to remove dust particles. Within 2 hours of this preparation, adhesive from the bi-packs contained in Kit 1 shall be thoroughly mixed in an uncontaminated dish and applied evenly to one surface of each of the treated end of the strips.\n\nWithin 60 ± 5 minutes of mixing, the strips shall be assembled, coated ends together, into five test joints, each separated by silicone paper (to prevent test specimens sticking together), with an overlap of between 12.5 and 14.3 mm. Where metal jigs are used the jigs and weights shall be preheated at the curing temperature for a minimum of 4 hours before the strips are placed in the jigs. The joints shall be cured for 60 ± 5 minutes at 85 ± 2°C under pressure of 35 kPa using a 1.1 kg weight, allowed to cool in the jig, then stored for a minimum of 72 hours at 23 ± 2°C and tested on a suitable tensile testing machine. Initial grip separation shall be 100 mm. Rate of grip separation shall be 50 mm/minute. The lap shear strength shall be reported as the mean value of the five breaking loads. The test shall be carried out at a temperature of 23 ± 2°C.\n\n### 3.1.2 Aluminium to Aluminium Using Etched Strips (Method B)\n\nMethod B features acid-etched strips and can be used for tests at any temperature.\n\nDegrease ten test strips 1.5 ± 0.15 mm x 25 ± 1 mm x 115 ± 3 mm of a 2000-series aluminium alloy clad with 1000-series (min. 99% aluminium) Alclad to any of the specifications listed in\n\n© 2022 TE Connectivity Corporation.\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\n\nPage 3 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TE\nRK-6619\nRev. 14\n\nTable 1 in a solution of MacDermid Oxidite C-8 (10 g in 250 ml water) at 50°C for 15 minutes. Remove and allow to air dry. Prepare an etching solution comprising 50g sodium dichromate, 300ml sulphuric acid (specific gravity 1.84) and 700ml water. Heat the etching solution to 65 ± 3°C (149 ±5°F) and immerse the test strips in the solution for 15 minutes. Rinse the strips in running water for 15 minutes and then final rinse in distilled water. Air dry at room temperature for 10 minutes then force dry for 15 minutes at 60 ± 10°C (140 ±18°F) in a convection oven. Remove the test strips from the oven, cool to room temperature and use within 2 hours.\n\nAdhesive from the bi-packs contained in Kit 1 shall be thoroughly mixed in an uncontaminated dish and applied evenly to one surface of each of the treated end of the strips. Within 60 ± 5 minutes of mixing, the strips shall be assembled, coated ends together, into five test joints, each separated by silicone paper (to prevent test specimens sticking together), with an overlap of between 12.5 and 14.3 mm. Where metal jigs are used the jigs and weights shall be preheated at the curing temperature for a minimum of 4 hours before the strips are placed in the jigs. The joints shall be cured for 60 ± 5 minutes at 85 ± 2°C under pressure of 35 kPa using a 1.1 kg weight, allowed to cool in the jig, then stored for a minimum of 72 hours at 23 ± 2°C and tested on a suitable tensile testing machine. Initial grip separation shall be 100 mm. Rate of grip separation shall be 50 mm/minute. The lap shear strength shall be reported as the mean value of the five breaking loads. The test shall be carried out at a temperature of 23 ± 2°C.\n\n## 3.1.3 DR-25 to DR-25\n\nTen test strips 25 ± 1 mm x 100 mm approximately shall be cut from TE's Raychem tubing DR-25-2-0 which has been fully recovered. At least 25 mm length of one surface of one end of each strip shall be degreased with Isopropanol or Acetone, abraded with P100 grit emery cloth, and then wiped with a dry tissue to remove abrasion dust and debris. Within 2 hours of this preparation, adhesive from bi-packs contained in Kit 1 shall be thoroughly mixed in an uncontaminated dish, and applied evenly to one surface of each of the treated end of the strips. Within 60 ± 5 minutes of mixing, the strips shall be assembled, coated ends together, into five test joints each separated by silicone paper (to prevent test specimens sticking together), with an overlap of between 25 and 28 mm. Where metal jigs are used the jigs and weights shall be preheated at the curing temperature for a minimum of 4 hours before the strips are placed in the jigs. The joints shall be cured for 60 ± 5 minutes at 85 ± 2°C under a pressure of 35 kPa using a 2.2 kg weight, allowed to cool in the jig, stored for at least 72 hours at 23 ± 2°C and tested on a suitable tensile testing machine. Initial grip separation shall be 100 mm. Rate of grip separation shall be 50 mm/min. The lap shear strength shall be reported as the mean value of the five breaking loads. The test shall be carried out at a temperature of 23 ± 2°C.\n\n## 3.1.4 -25 to -25\n\nTest plaques approximately 2 mm thick shall be moulded using -25 moulding compound. Ten test strips 100 mm x 25 mm shall be cut from these plaques and shall be prepared and tested as described in Clause 3.1.3.\n\n## 3.2. Peel Strength\n\n© 2022 TE Connectivity Corporation.\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\n\nPage 4 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TE\nRK-6619\nRev. 14\n\nFive cylindrical aluminium rolling drum peel strength mandrels 25 mm x 25 mm diameter shall be abraded with P100 grit emery cloth and degreased with Isopropanol or Acetone. A 15 mm wide strip of masking tape shall be placed axially along the surface of the aluminium mandrel.\n\nThe inside surface of 5 pieces of DR-25-1-1/2-0 expanded tubing approximately 40 mm in length shall be degrease with Isopropanol or Acetone, abraded with P320 grit silicon carbide abrasive paper, and wiped with a dry tissue to remove any dust created by abrasion. These pieces of prepared tubing shall be used within 2 hours of preparation.\n\nWithin 60 ± 5 minutes of mixing, a layer of adhesive shall be evenly applied to the outer surface of the prepared aluminium mandrels. The pieces of prepared DR-25 tubing shall be recovered onto the aluminium mandrels with a validated hot air gun then conditioned in an air circulating oven at 150 ± 3°C for 20 minutes (refer to Code of Practice ELE-3COP-551 for installation and recovery of heat shrinkable tubing). The tubing should be positioned in relation to the aluminium mandrel so that the tubing recovers over each side of the mandrel. The test specimens shall be stored for at least 72 hours at 23 ± 2°C before testing. The specimens shall then be trimmed so that the tubing which has recovered over the end of the aluminium mandrel is removed. The tubing on the test specimen shall then be slit axially at the edge of the masking tape and the flap of tubing over the tape peeled back. The test specimen shall be mounted onto a rolling drum peel strength jig in a suitable tensile testing machine and the flap gripped in the upper jaws. The sample shall be peeled at a rate of 50 mm/minute. The test shall be carried out at 23 ± 2°C. The mean peel force for each specimen shall be recorded and the mean value of the five recorded measurements reported as the peel strength.\n\n## 3.3. Temperature Resistance\n\nTest specimens shall be prepared using the etching process, Method B, described in Clause 3.1.2. Five aluminium lap shear strength test specimens shall be prepared for each temperature described in Table 2. In all cases, each sample shall be stabilised in the test chamber for a period of 30 minutes minimum and tested for lap shear strength as specified in Clause 3.1.2.\n\n## 3.4. Fluid Resistance\n\nLap shear strength specimens shall be prepared using the etching process, Method B, described in Clause 3.1.2. Five strips shall be prepared for each of the fluids listed in Table 2. These will be immersed in the fluid for the time and at the temperature specified in Table 2. The lap shear strength specimens shall then be removed, lightly wiped, air dried at 23 ± 2°C for 18 to 24 hours and tested for lap shear strength as specified in Clause 3.1.2.\n\n© 2022 TE Connectivity Corporation.\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\nPage 5 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "TE\n\nRK-6619\n\nRev. 14\n\n# 4. RELATED STANDARDS\n\n|  Title | Description  |\n| --- | --- |\n|  AMS4040 | Aluminum Alloy, Sheet and Plate, Alclad 4.4Cu - 1.5Mg - 0.60Mn (2024-O with 1 ½% Alclad); Annealed\nCladding: 1230  |\n|  AMS4041 | Aluminum Alloy, Sheet and Plate, Alclad 4.4Cu - 1.5Mg - 0.60Mn (2024, -T3 Sheet/-T351 Plate with 1-1/2% Alclad) Solution Heat Treated, Cold Worked and Naturally Aged\nCladding: 1230  |\n|  QQA250/5 T3 | Aluminum Alloy Alclad 2024, Plate and Sheet\nCladding: 1230  |\n|  EN 2090 | Aerospace series - Aluminium alloy AL-P2024-T3 - Clad sheet and strip 0,3 mm <a <6 mm\nCladding: 1050A / 1145  |\n|  EN 2703 | Aerospace series - Aluminium alloy AL-P2024-T4 or T42 - Clad sheet and strip - 0,3 mm ≤a ≤6 mm\nCladding: 1050A / 1145  |\n|  BS L163*\n*By extension (different tempers) - BS L164, BS L165, BS L166, BS L167 | Specification for Sheet and Strip of Aluminium-Coated Aluminium Copper-Magnesium-Silicon-Manganese Alloy (Solution Treated, Cold Worked for Flattening and Aged at Room Temperature) (Cu 4.4, Mg 0.5, Si 0.8, Mn 0.8)\nCladding: 1050A  |\n|  EN 2087 | Aerospace series - Aluminium alloy AL-P2014A - T6 or T62 - Clad sheet and strip - 0,4 mm <or= a <or= 6 mm\nCladding: 1050A / 1145  |\n|  EN 2088 | Aerospace series - Aluminium alloy AL-P2014A - T4 or T42 - Clad sheet and strip - 0,4 mm <or= a <or= 6 mm\nCladding: 1050A / 1145  |\n|  VG95343 Part 15*\n*RK-6619 is comparable to VG95343 Part 15. | Specification for the testing of 2-part adhesives  |\n\nTable 1 – Related Standards\n\nSubsequent amendments to, or revisions of, any of the above publications apply to this standard only when incorporated in it by updating or revision.\n\n© 2022 TE Connectivity Corporation.\n\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\n\nPage 6 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "TE\nRK-6619\nRev. 14\n\n# 5. SAMPLING\n\nProduction routine tests consisting of Visual Examination, Peel Strength and Aluminium to Aluminium Lap Shear shall be carried out on every batch of resin and activating agent. Qualification test samples shall consist of not less than 60 grams of adhesive (6 bi-packs). Qualification tests shall be carried out to the requirements of the Design Authority.\n\n# 6. PACKAGING\n\nPackaging shall be in accordance with PS5142. Each package shall bear an identification label showing material quantity, description, batch number and \"use before\" date. Additional information shall be supplied as specified in the contract or order.\n\n© 2022 TE Connectivity Corporation.\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\nPage 7 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "TE\n\nRK-6619\n\nRev. 14\n\n# 7. TEST REQUIREMENTS\n\n|  Test | Test Method | Test Requirements  |\n| --- | --- | --- |\n|  Visual Examination | - | As per Clause 2.1  |\n|  Lap Shear Strength\nAluminium to Aluminium\nDR-25 to DR-25\n-25 to -25 | Clause 3.1\nClause 3.1.1 (Method A)\nClause 3.1.3\nClause 3.1.4 | 5.0 kN minimum\n300 N minimum\n300 N minimum  |\n|  Peel Strength\nDR-25 to Aluminium | Clause 3.2 | 80 N/25mm minimum  |\n|  Temperature Resistance\nLap Shear Strength at:\n-40°C\n50°C\n70°C\n100°C\n120°C\n150°C | Clause 3.1.2 (Method B) | 5.0 kN minimum\n3.5 kN minimum\n2.5 kN minimum\n1.5 kN minimum\n1.3 kN minimum\n1.0 kN minimum  |\n|  Fluid Resistance\n24 ± 2h immersion at 24 ± 2°C\n• ISO 1817 Test Liquid 103\n• Water\n24 ± 2h immersion at 70 ± 3°C\n• ISO 1817 Test Liquid F\n• ISO 1817 Test Liquid B\n• Hydraulic Fluid H-520\n24 ± 2h immersion at 100 ± 4°C\n• ISO 1817 Test Liquid 101\nLap Shear Strength\nAluminium to Aluminium | Clause 3.4 | 5.0 kN minimum  |\n\nTable 2 – Test Requirements\n\n© 2022 TE Connectivity Corporation.\n\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 8,
+      "markdown": "TE\n\nRK-6619\n\nRev. 14\n\n# 8. REVISION HISTORY\n\n|  Author | Date | Rev | Comments  |\n| --- | --- | --- | --- |\n|  Paul Dixon | May 2005 | 7 | CR-05-DM-052  |\n|  Paul Dixon | Jun 2010 | 8 | CR-10-DM-008  |\n|  Paul Dixon | 3 Aug 2010 | 9 | CR10-DM-009  |\n|  Paul Dixon | 6 Jun 2013 | 10 | See DMTEC  |\n|  Paul Dixon | Sep 2014 | 11 | -  |\n|  Pedro Vu | 22 Aug 2017 | 12 | RTS - 1332842\nStandardised to match current test procedures  |\n|  Phil Hammond | 30 Apr 2019 | 13 | RTS - 1448882\nAdded method B (Etching) for aluminium lap shear  |\n|  Justin Chow | 4 Jul 2022 | 14 | Updated aluminium grades for lap shear plates  |\n\nIn line with a policy of continual product development, TE Connectivity reserves the right to make changes in construction, materials, and dimensions without further notice. You are advised, therefore, to contact TE Connectivity, should it be necessary to ensure that this document is the latest issue.\n\n© 2022 TE Connectivity Corporation.\n\nAll Rights Reserved.\n\nTE Connectivity, Raychem, TE connectivity (logo) and TE are trademarks. Other logos, product and/or company names mentioned herein may be trademarks of their respective owners.\n\nPage 9 of 9",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 9,
+    "doc_size_bytes": 162482
+  },
+  "document_annotation": null
+}

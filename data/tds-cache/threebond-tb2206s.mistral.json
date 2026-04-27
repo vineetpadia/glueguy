@@ -1,0 +1,100 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "TB2206S\n\nThreeBond\n\nDec. 22, 2008\n\nThreeBond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 2206S\n\n# One-part epoxy-compound resin\n\n1.  Outline\n\nThreeBond2206S is a one-part epoxy compound resin.\n\nThis product is a low halogen content material. The total chlorine content and total bromine content are less than 900 ppm each, and the sum of total chlorine content and total bromine content is less than 1500 ppm.\n\nHereinafter, ThreeBond is abbreviated to TB.\n\n2.  Features\n\n(1) One-part heat-curing adhesive\n(2) Low halogen content\n\n3.  Uses\n\n(1) Sealing, potting and bonding of electric parts\n(2) General bonding of other parts\n\n4.  Properties\n\nTable-1 Properties of TB2206S\n\n|  Test item | Unit | Result | Test method | Remarks:  |\n| --- | --- | --- | --- | --- |\n|  Appearance | - | Black | 3TS-201-02 |   |\n|  Viscosity | Pa·s | 15.0 | 3TS-210-10 | Shear rate: 20.0 (s⁻¹)  |\n\nED20090403",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2206S\n\n# 5. Characteristics\n\n## 5.1 Characteristics of cured resin\n\nTable -2 Characteristics of TB2206S after curing\n\n|  Test item | Unit | Result | Test method | Remarks:  |\n| --- | --- | --- | --- | --- |\n|  Specific gravity | - | 1.37 | 3TS-213-03 | Specific gravity of cured resin  |\n|  Hardness | - | D87 | 3TS-215-01 | Durometer D  |\n|  Tensile shear bond strength | MPa | 12.0 | 3TS-301-11 | Fe/Fe  |\n|  Cure shrinkage | % | 2.2 | 3TS-228-01 | 1.0g  |\n|  Volume resistivity | Ω·m | 4.78×10^{13} | 3TS-401-01 |   |\n|  Surface resistivity | Ω | 4.84×10^{15} | 3TS-402-01 |   |\n|  Dielectric breakdown strength | kV/mm | 31 | 3TS-406-02 |   |\n|  Dielectric constant | - | 4.41 | 3TS-405-01 | 1kHz  |\n|   |   |  4.26 |   | 1MHz  |\n|  Dielectric loss tangent | - | 0.004 |   | 1kHz  |\n|   |   |  0.014 |   | 1MHz  |\n|  Glass transition point | °C | 106 | 3TS-501-05 | TMA method  |\n|  Linear expansion coefficient | ×10^{-6}/°C | 52 | 3TS-501-05 | TMA method at 0 to 40°C  |\n|  Storage modulus (25°C) | GPa | 3.9 | 3TS-501-04 | DMA method 1Hz 3°C /min  |\n|  E” peak top | °C | 88  |   |   |\n|  tan δ peak top | °C | 108  |   |   |\n\nCuring conditions: 80°C × 30min\n\n## 5.2 Flow curves\n\nFig. 1 Viscosity curve/flow curve\n![img-0.jpeg](img-0.jpeg)\nShear rate: 0.5 to 100 [1/s]\nTemperature: 25°C\n\nED20090403",
+      "images": [
+        {
+          "id": "img-0.jpeg",
+          "top_left_x": 199,
+          "top_left_y": 594,
+          "bottom_right_x": 556,
+          "bottom_right_y": 837,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2206S\n\n## 5.3 Temperature-viscosity curve\n\n![img-1.jpeg](img-1.jpeg)\nFig. 2 Temperature-viscosity curve Shear rate: 1.0 [l/s]\n\n## 6. Usage\n\n(1) Surface treatment\n\nRemove moisture, oil, rust and other contaminants completely from the surface to be bonded.\n\nTo remove rust, use sandpaper or the like. To remove oil, use thinner or the like.\n\n(2) Curing\n\nExamine the curing conditions through actual work, and cure the resin under appropriate curing conditions.\n\nThe appropriate curing conditions vary depending on the heat capacity of the work.\n\n## 7. Instructions for use\n\n(1) Before using this resin, sufficiently confirm whether the method of application and the purpose of use are appropriate.\n\n(2) Some materials may deteriorate if this product is used. Ascertain in advance whether or not it affects the parts to be bonded with it. If any problem occurs, do not use it.\n\n(3) The product may slightly discolor owing to its nature.\n\n(4) When heated, the resin generates heat. Take care not to scald yourself.\n\n(5) The filler may settle or the resin may increase in viscosity if it is stored at high temperature or for a long time. Therefore, it should be stored in a refrigerator (at -5 to 10°C) and returned to normal temperature prior to use. (If it is unsealed before it reaches normal temperature, dew condensation may occur, and nonconformities, such as gelation, may be\n\nED20090403",
+      "images": [
+        {
+          "id": "img-1.jpeg",
+          "top_left_x": 197,
+          "top_left_y": 124,
+          "bottom_right_x": 518,
+          "bottom_right_y": 363,
+          "image_base64": null,
+          "image_annotation": null
+        }
+      ],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "TB2206S\n\ncaused when the dew gets into contact with the resin.) After unsealing, use it up as soon as possible.\n\n(6) If the resin components separate, stir the resin, and use it after it returns to the uniform state.\n(7) To prevent deterioration and entry of foreign matter, fit the cap tightly after using.\n(8) Use and store the product out of reach of children and infants.\n(9) It is harmful to the health. Do not touch it directly or inhale its vapor.\n(10) When using it, wear appropriate protective clothings, such as a mask, gloves (impervious) and goggles. Use it in a well-ventilated outdoor area or in a place equipped with a local exhaust system.\n(11) If it gets in the eyes, wash them with clean water for more than 15 minutes, and get medical attention.\n(12) If it adheres to the skin, wipe it away with a cloth, and wash the skin with soap.\n(13) If any abnormality is found in the body, stop using it, and get medical attention.\n(14) People who have allergies or sensitive skin should avoid using it.\n(15) For hazard and toxicity information not mentioned in this document, see the material safety data sheet (MSDS).\n\n## 8. Storage\n\nClose the cap tightly, and store the product in a refrigerator (-5°C to 10°C).\n\n## 9. Disposal\n\nAsk an authorized industrial waste disposer to dispose of the product.\n\n## 10. Applicable law\n\nFire Defense Law: Non-hazardous material\n\n## 11. Cautions\n\n**For industrial use only**\n(Do not use it for household products.)\n\nThis product has been developed for general industrial use. Before using the product, you must accept the following sales terms.\n\n- The technical data given herein are not guaranteed values, but examples of experimental values obtained by our specified test methods. We do not guarantee that the uses introduced herein do not conflict with any intellectual property right.\n\nED20090403",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "TB2206S\n\n- Users are asked to evaluate the validity and safety of the use of the product for the relevant purpose prior to use and bear all responsibilities and hazards involved in its use.\nNever use the product for medical implants that will be implanted or injected into the body or may be left in the body.\n\n- We are not liable for personal injury or property damage caused by improper handling of this product.\nIf the properties and use of the relevant product are unknown, never use it.\n\n- For detailed information on product safety, see the material safety data sheet (MSDS).\nTo obtain the MSDS, contact our sales department or customer service office.\n\n- This document is subject to change at our discretion.\n\nED20090403",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 5,
+    "doc_size_bytes": 154232
+  },
+  "document_annotation": null
+}

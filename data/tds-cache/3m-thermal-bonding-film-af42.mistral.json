@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "3M Science. Applied to Life.™\nTechnical Data | August 2015\n\n# 3M™ Thermal Bonding Film AF42\n\n## Product Description\n\n3M™ Thermal Bonding Film AF42 is an epoxy, thermoset film adhesive developed for structural bonding of metal, glass and other engineering grade substances for electronics applications.\n\n3M film AF42 must be stored at or below 4°C (40°F) before use.\n\n## Key Features\n\n- 177°C (350°F) cure\n- 4°C (40°F) storage required\n- Cures clear\n- Tough, high peel strength\n- No tack, low flow\n\n## Physical Properties Before Cure\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Product | 3M™ Thermal Bonding Film AF42  |\n| --- | --- |\n|  Base Resin | Epoxy  |\n|  Adhesive Thickness | 3 mil (0.08 mm)  |\n|  Liner Thickness | 6.5 mil (0.17 mm)  |\n|  Tack | None  |\n|  Color | Translucent  |\n|  Construction |   |\n|   | 3 mil non-tacky adhesive  |\n|   | 6.5 mil brown paper liner  |",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\n# Physical Properties After Cure\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Product | 3M™ Thermal Bonding Film AF42  |\n| --- | --- |\n|  Tensile (psi) | 4800  |\n|  Elongation (%) | 250  |\n|  Modulus (psi) | 65,000  |\n|  Color After Cure | Clear  |\n\n# Suggested Use Procedure\n\nRoom Temperature Work Life – 3M™ Thermal Bonding Film AF42 has a work life of 4 weeks. Work life is defined as the time at room temperature that the product will still yield the performance data summarized in this data sheet if bonds are made and tested per instructions.\n\nShelf Life – (usable life) of Bonding Film AF42 is:\n4 weeks @ 21°C (70°F)\n15 months @ 4°C (40°F)\n\nCure Conditions – The suggested curing condition for 3M film AF42 is 60 minutes at 177°C (350°F). The adhesive may be cured either under pressure or in a vacuum bag. Alternate suggested cure cycles are shown below.\n\n|  Bondline Temperature | Time (in minutes)  |\n| --- | --- |\n|  177°C (350°F) | 60  |\n|  204°C (400°F) | 15  |\n|  232°C (450°F) | 10  |\n\nDuring cure, pressure is required to keep parts in alignment and in intimate contact. A minimum of 20 psi is suggested, but higher psi is acceptable if resultant flow during cure is not excessive.\n\nBondline Thickness – Unless otherwise specified, the bondline thickness used to generate the data in this data sheet was 3 mils. Since 3M film AF42 will flow when heated to its curing temperature (... and the higher the cure temperature, the more the flow...), it may be necessary to insert mechanical spacers (i.e., beads, wires, stops, etc.) in the bondline to maintain this thickness.\n\nCold Storage Removal – Important: During storage, 3M film AF42 should be wrapped/sealed in a polyethylene (or similar) wrap/bag. When removing the wrapped roll or sheets from cold storage, especially if stored below 0°C (32°F), ample time should be given before handling or overwrap removal to allow for the roll/sheets to acclimate to room temperature for two reasons:\n1) to prevent moisture from condensing on the adhesive surface; and\n2) to prevent cracking of the adhesive as it is brittle when cold.\n\nSurface Preparation Prior to Bonding – A thoroughly cleaned, dry, grease-free surface is essential for maximum performance. Cleaning methods which will produce a break-free water film on metal surfaces are generally satisfactory.\n\n(2)",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\n## Suggested Use Procedure (continued)\n\n### Application of Film to Substrate:\n\nA. Cut a portion of film sufficient for the assembly from the stock roll with protective liner(s) in place. Note earlier comment to bring adhesive to room temperature before use.\nB. Place the adhesive against the substrate using the liner as a protective cover.\nC. Position film and remove liner.\nD. Complete assembly and cure, be careful to avoid trapping air.\n\n## Typical Overlap Shear (OLS) Adhesions to Various Substrates\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Substrate | 3M™ Thermal Bonding Film AF42 OLS  |\n| --- | --- |\n|  Al (etched) | 4600 psi  |\n|  Al (sanded, solvent wiped) | 3700 psi  |\n|  Al (scour pad abraded, solvent wiped) | 3750 psi  |\n|  Al (solvent wiped) | 500 psi  |\n|  CRS (scour pad abraded, solvent wiped) | 1350 psi  |\n|  Stainless Steel (solvent wiped) | 600 psi  |\n|  FR-4 (solvent wiped) | 2500 psi  |\n|  LCP (solvent wiped) | 400 psi  |\n|  Polyimide Film | 650 psi  |\n|  Polyester Film | 350 psi  |\n|  Black E-coat | 350 psi  |\n|  Phenolic Board | 1000 psi  |\n|  Ultem™ Resin 1000 | 1500 psi  |\n|  PEN Plastic | 250 psi  |\n\n- OLS values given in psi (pounds per square inch). ASTM D1002.\n- Al (aluminum), CRS (cold rolled steel), FR-4 (printed circuit board substrate), LCP (liquid crystal polymer), and PEN (polyethylene naphthalate).\n- Solvent wiped (Methyl ethyl ketone [MEK], alcoho)*; 3M™ Scotch-Brite™ Scour Pad (green) abraded; sanded (600 grit sandpaper).\n- OLS bonds were 1\" x 0.5\" and tested at 0.2\"/minute.\n- Bonds were cured 60 minutes (+ 7 minutes ramp time) at 121°C (250°F).\n- The polyimide and polyester films were overbonded to CRS using 3M™ Scotch-Weld™ Epoxy Adhesive DP-190.\n\n*Note: When using solvents, extinguish all ignition sources and follow the manufacturer's precautions and directions for use.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 3,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\n# Typical Peel Adhesion to Various Substrates\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Substrate | 3M™ Thermal Bonding Film AF42 Peel  |\n| --- | --- |\n|  Al (etched) | 55 piw  |\n|  Al (sanded, solvent wiped) | 48 piw  |\n|  Al (scour pad abraded, solvent wiped) | 45 piw  |\n|  Al (solvent wiped) | 52 piw  |\n|  CRS (scour pad abraded, solvent wiped) | 58 piw  |\n|  Stainless Steel (solvent wiped) | 11 piw  |\n|  FR-4 (solvent wiped) | 58 piw  |\n|  LCP (solvent wiped) | 1 piw  |\n|  Polyimide Film | 8 piw  |\n|  Polyester Film | 2.5 piw  |\n|  Black E-coat | 49 piw  |\n|  Phenolic Board | 36 piw  |\n|  Ultem™ Resin 1000 | 50 piw  |\n|  PEN Plastic | 14 piw  |\n|  Borosilicate Glass | 60 piw  |\n\n- 90° peel test of 1/2\" wide, 4 mil thick etched aluminum foil bonded to each test substrate.\n- Peel rate 2\"/minute.\n- Peel values given in piw (pounds per inch width). ASTM D1876.\n- Al (aluminum), CRS (cold rolled steel), FR-4 (printed circuit board substrate), LCP (liquid crystal polymer), and PEN (polyethylene naphthalate).\n- Solvent wiped (Methyl ethyl ketone [MEK], alcoho)*; 3M™ Scotch-Brite™ Scour Pad (green) abraded; sanded (600 grit sandpaper).\n- Bonds were cured 60 minutes (+7 minutes ramp time) at 250°F (121°C).\n- The polyimide and polyester films were overbonded to CRS using 3M™ Scotch-Weld™ Epoxy Adhesive DP-190.\n\n*Note: When using solvents, extinguish all ignition sources and follow the manufacturer's precautions and directions for use.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 4,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\n# Adhesion Retention Values After Environmental Aging\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Aging Parameters | 3M™ Thermal Bonding Film AF42 Peel*  |\n| --- | --- |\n|  30 days at room temperature (control) | 63 piw  |\n|  30 days at 71°C (160°F) oven | 68 piw  |\n|  30 days at 49°C (120°F)/100% RH | 58 piw  |\n|  30 days immersion in distilled water | 55 piw  |\n|  Hot/cold cycling | 63 piw  |\n\n* Peel bonds consisted of 10 mil etched aluminum strips bonded to 0.047\" FR-4. Panels were cured 60 minutes + 7 minutes (ramp time) at 121°C (250°F) and peeled at 2\"/minute speed.\n- Hot/cold cycle was 17 hours at 49°C (120°F) and 5 hours at -21°C (-5°F) with one hour at room temperature between temperature changes.\n\n|  Aging Parameters | 3M™ Thermal Bonding Film AF42 OLS*  |\n| --- | --- |\n|  30 days at room temperature (control) | 1200 psi  |\n|  30 days at 71°C (160°F) oven | 1450 psi  |\n|  30 days at 49°C (120°F)/100% RH | 200 psi  |\n|  30 days immersion in distilled water | 300 psi  |\n|  Hot/cold cycling | 900 psi  |\n\n* OLS (overlap shear) bonds consisted of 3M™ Scotch-Brite™ Scour Pad (green) abraded CRS to CRS, cured 60 minutes + 7 minutes (ramp time) at 121°C (250°F) and tested at 0.2\"/minute speed.\n- Hot/cold cycle was 17 hours at 49°C (120°F) and 5 hours at -21°C (-5°F) with one hour at room temperature between temperature changes.\n\n# Solvent Resistance of Cured Films After 60 Days Immersion at RT\n\n|  Aging Parameters | 3M™ Thermal Bonding Film AF42  |\n| --- | --- |\n|  Isopropyl Alcohol | No Attack  |\n|  Methyl Ethyl Ketone | No Attack  |\n|  Heptane | No Attack  |\n|  3M™ Citrus Base Cleaner | No Attack  |\n\n- Samples were cured according to data sheet instructions [60 minutes at 121°C (250°F)] and immersed in test solvents.\n- After 60 days, samples were removed, dried, and examined for swelling and surface attack.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 5,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\nOverlap Shear and Peel Adhesion Tested at Various Temperatures\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Test Temperature | 3M™ Thermal Bonding Film AF42 OLS  |\n| --- | --- |\n|  -55°C (-67°F) | 1500 psi  |\n|  24°C (75°F) | 1300 psi  |\n|  82°C (180°F) | 350 psi  |\n|  121°C (250°F) | 175 psi  |\n|  Test Temperature | 3M™ Thermal Bonding Film AF42 Peel  |\n| --- | --- |\n|  -55°C (-67°F) | 66 piw  |\n|  24°C (75°F) | 56 piw  |\n|  82°C (180°F) | 54 piw  |\n|  121°C (250°F) | 36 piw  |\n\n- OLS bonds were 0.5\" x 1\" (CRS, 3M™ Scotch-Brite™ Scour Pad [green] abraded, solvent wiped).\n- Peel bonds were 0.5\" wide, 10 mil etched aluminum strips bonded to 0.047\" FR-4 board.\n- Both OLS and peel bonds were made and tested in similar fashion described in previous sections.\n\n(6)",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 6,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\n## Electrical Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Test | Method¹ | 3M™ Thermal Bonding Film AF42  |\n| --- | --- | --- |\n|  Dielectric Constant | ASTM D-150 | 4.6 @ 1 kilohertz\n4.2 @ 10 kilohertz\n3.8 @ 100 kilohertz  |\n|  Dissipation Factor | ASTM D-150 | .004 @ 1 kilohertz\n.006 @ 10 kilohertz\n.008 @ 100 kilohertz  |\n|  Dielectric Breakdown Strength | ASTM D-149 | 900 volts/mil (7 mil)  |\n|  Volume Resistivity | ASTM D-257 | 1.2 × 10¹⁵ ohm-cm (3 mil)  |\n\n¹ Tested in accordance with ASTM test method.\n\n## Thermal Properties\n\nNote: The following technical information and data should be considered representative or typical only and should not be used for specification purposes.\n\n|  Test | 3M™ Thermal Bonding Film AF42  |\n| --- | --- |\n|  Weight Loss\nby TGA (Thermal gravametric analysis) @ 10°C/min. | 1% wt loss @ 68°C\n5% wt loss @ 320°C\n10% wt loss @ 357°C  |\n|  Coefficient of Thermal Expansion\nby TMA (units/unit/°C @ 10°C/min.) | 63 × 10⁻⁵ (-60 to 40°C)*\n13 × 10⁻⁵ (-60 to 40°C)**\n266 × 10⁻⁵ (+65 to 125°C)**  |\n|  Tg (glass transition temperature)\nby TMA @ 10°C/min. | onset @ 55°C**  |\n|  Tg by DSC @ 5°C/min. | midpoint @ 50°C*\nmidpoint @ 45°C**  |\n|  Thermal Conductivity\n(Tested in accordance with ASTM C177) | 0.124 BTU-FT/FT² - hr °F\n(0.21 Watt/M - °K)  |\n\n* 1st heat values\n** 2nd heat values\n\n## Storage Requirements\n\nThe shelf life of 3M™ Thermal Bonding Film AF42 is 15 months from the date of manufacture when stored in the original packaging materials and stored at 4°C (44°F) and 50% relative humidity.\n\n## Cleanup\n\nUncured 3M™ Thermal Bonding Film AF42 can be removed using acetone, MEK or 3M™ Citrus Base Cleaner.*\n\n*Note: When using solvents, extinguish all ignition sources and follow the manufacturer's precautions and directions for use.",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 7,
+      "markdown": "3M™ Thermal Bonding Film AF42\n\nSafety Data Sheet: Consult Safety Data Sheet before use.\n\nRegulatory: For regulatory information about this product, contact your 3M representative.\n\nTechnical Information: The technical information, recommendations and other statements contained in this document are based upon tests or experience that 3M believes are reliable, but the accuracy or completeness of such information is not guaranteed.\n\nProduct Use: Many factors beyond 3M's control and uniquely within user's knowledge and control can affect the use and performance of a 3M product in a particular application. Given the variety of factors that can affect the use and performance of a 3M product, user is solely responsible for evaluating the 3M product and determining whether it is fit for a particular purpose and suitable for user's method of application.\n\nWarranty, Limited Remedy, and Disclaimer: Unless an additional warranty is specifically stated on the applicable 3M product packaging or product literature, 3M warrants that each 3M product meets the applicable 3M product specification at the time 3M ships the product. 3M MAKES NO OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY IMPLIED WARRANTY OR CONDITION ARISING OUT OF A COURSE OF DEALING, CUSTOM OR USAGE OF TRADE. If the 3M product does not conform to this warranty, then the sole and exclusive remedy is, at 3M's option, replacement of the 3M product or refund of the purchase price.\n\nLimitation of Liability: Except where prohibited by law, 3M will not be liable for any loss or damage arising from the 3M product, whether direct, indirect, special, incidental or consequential, regardless of the legal theory asserted, including warranty, contract, negligence or strict liability.\n\n3M\n\nElectronics Materials Solutions Division\n\n3M Center, Building 224-3N-11\n\nSt. Paul, MN 55144-1000\n\n1-800-251-8634 phone\n\n651-778-4244 fax\n\nwww.3M.com/electronics\n\n3M, Scotch-Brite and Scotch-Weld are trademarks of 3M Company.\n\nUltem is a trademark of SABIC Innovative Plastics.\n\n©3M 2015. All rights reserved.\n\n78-6900-9997-9\n\n3M",
+      "images": [],
+      "dimensions": {
+        "dpi": 93,
+        "height": 1023,
+        "width": 791
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 8,
+    "doc_size_bytes": 153440
+  },
+  "document_annotation": null
+}

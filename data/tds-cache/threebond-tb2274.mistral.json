@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "ThreeBond\nTB2274\nMarch 9, 1999\nThree Bond Co., Ltd.\n\n# Technical Data\n\n# ThreeBond 2274\n\n# Under-filling agent for mounting CSP and BGA\n\n## 1. Outline\n\nThreeBond 2274 (hereinafter, ThreeBond is abbreviated to TB) is a low-temperature curing one-part epoxy resin developed as an under-filling agent for mounting CSP and BGA. The resin is cured by heating at 70°C. The cured resin has reparability although it has been difficult to provide conventional resins with reparability.\n\n## 2. Features\n\n(1) Curing at low temperatures : Curing at 70°C.\n(2) Relatively low viscosity : Excellent coating properties and flow properties.\n(3) Reparability : It is possible to detach CSP and BGA components after the resin is cured and remove the cured resin.\n\n## 3. Uses\n\nSealing and reinforcement (under-filling) of CSP and BGA\n\n## 4. Description\n\n|  Test item | Unit | Description | Test method  |\n| --- | --- | --- | --- |\n|  Appearance | — | Black | 3TS-201-01 (visual check)  |\n|  Viscosity | Pa·s (P) | 12 (120) | 3TS-210-02\n(No.5 rotor, 20 rpm × 1 min)  |\n|  Specific gravity | — | 1.14 | 3TS-213-02 (specific gravity cup)  |\n|  Standard curing conditions | — | 70°C × 50 min | —  |\n\n* The curing conditions depend on the heat capacities of the substrate and surrounding parts, usage and amount of coating. Check the curing state with actual components in advance, and determine the optimum curing conditions.\n* The description values shown above are not guaranteed values or specifications, but experimental values.\n\nED030705",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 1,
+      "markdown": "TB2274\n\n# 5. Properties\n\n|  Test item | Unit | Description | Test method  |\n| --- | --- | --- | --- |\n|  Tensile shear bond strength | MPa (kgf/cm²) | 11 (110) | 3TS-301-11 (Fe/Fe:SPCC-SD)  |\n|  Hardness | — | 86 | 3TS-215-01 (JIS-D)  |\n|  Glass transition point | °C | 65 | 3TS-501-05 (3°C/min)  |\n|  Thermal expansion coefficient | /°C | 9.3 × 10⁻⁵ | 3TS-501-05 (room temperature to Tg)  |\n|  Water absorption | % | +1.03 | 3TS-233-02 (boiling for 1 hr.)  |\n\nCuring conditions: Leaving at a normal temperature (25°C) for 60 min after curing at 70°C for 50 min\n* The curing conditions depend on the heat capacities of the substrate and surrounding parts, usage and amount of coating. It is recommended to check the curing state with actual components in advance to determine the optimum curing conditions.\n* The property values shown above are not guaranteed values or specifications, but experimental values.\n\n# 6. Examples of repairing\n\n(1) Blow hot air at approx. 260°C over a CSP or BGA component fixed on a wiring board for 30 seconds to 1 minute using a hot-air generating device (heat gun or the like) to soften the cured resin.\n(2) Insert a scraper between the CSP or BGA component and the wiring board, and remove the component.\n(3) Remove the resin and solder left on the wiring board using a hot knife heated to approx. 280°C.\n(4) If the solder cannot be removed completely from the wiring board in Step (3), remove the remaining solder with a solder absorbing braided wire.\n(5) Clean the wiring board surface with alcohol.\n\n* The reparability depends on the curing conditions. It is recommended to check the curing state with actual components to determine the optimum curing conditions.\n\n# 7. Instructions for use\n\n(1) The curing conditions of TB2274 depend on the heat capacities of the substrate and surrounding parts, usage and amount of coating. It is recommended to check the curing state with actual components in advance to determine the optimum curing conditions.\n(2) Remove moisture, dust, rust, oil, grease and parting agent from the substrate surface.\n(3) TB2274 is a one-part epoxy-compounded resin. Storage at high temperatures or long-term storage may increase the viscosity of the resin. Therefore, store the resin in a refrigerator (5 to 10°C), and use it up as soon as possible after unsealing it.\n(4) Like general epoxy resins, TB2274 may cause inflammation when it adheres to the skin. If it adheres to the skin, wipe it off with cloth or paper, and wash the skin well with soap and water. If it enters the eyes, consult a doctor immediately after washing the eyes with clean water.\n(5) TB2274 does not correspond to any material designated as a hazardous material under the Fire Defense Law. However, when handling it, take special care to flammable substances as when handling general adhesives.\n(6) As for the details of the safety of TB2274, see the attached material safety data sheet (MSDS).\n\nED030705",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    },
+    {
+      "index": 2,
+      "markdown": "TB2274\n\n## 8. Disposition\n\nAsk a disposal contractor having special knowledge to dispose of this product. It can generate toxic gas. Do not incinerate it.\n\n## 9. Safety precautions\n\n**For industrial use** (It is not intended for household use.)\n\nBefore using the product, approve the following conditions of sale.\n\n(1) This technical information gives experimental values obtained by our specified test methods. We cannot thoroughly guarantee the correctness and perfectness of the data.\n\nThe user should determine whether the product is appropriate to the use and purpose before using it, and take all responsibilities for danger caused by it. The guarantee applies only to replacement of apparently defective product.\n\n(2) We are not liable to injuries and damages caused by improper handling of this product.\n\n(3) We do not take responsibility for any matter not mentioned herein unless otherwise mutually agreed in the contract.\n\nED030705",
+      "images": [],
+      "dimensions": {
+        "dpi": 87,
+        "height": 1018,
+        "width": 720
+      },
+      "tables": [],
+      "hyperlinks": [],
+      "header": null,
+      "footer": null
+    }
+  ],
+  "model": "mistral-ocr-latest",
+  "usage_info": {
+    "pages_processed": 3,
+    "doc_size_bytes": 141525
+  },
+  "document_annotation": null
+}

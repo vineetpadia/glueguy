@@ -6,5 +6,5 @@ Applications from the official technical data sheet record: structural and cosme
 Appearance / form: black paste in cartridge format.
 Handling properties from official TDS record: work time 1 minute at 70 F / 21 C; clamp time 10 minutes; sand time 20 minutes; paint time 30 minutes; full cure 24 hours.
 Repair-procedure cautions from official TDS record: structural plastic repairs require a backer patch or reinforcing mesh; surface preparation requires Fusor 703 adhesion prep/cleaner and a light coat of Fusor 602EZ surface modifier before adhesive application.
-Interpretation for Glueboy: fast automotive plastic repair urethane, not a general panel-bonding adhesive and not an electronics adhesive.
+Interpretation for Glueguy: fast automotive plastic repair urethane, not a general panel-bonding adhesive and not an electronics adhesive.
 Provenance note: this cache entry is a controlled text fallback because Parker blocks direct automated access to the PDF endpoint.

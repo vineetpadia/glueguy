@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build site-ready Glueboy catalog artifacts from the raw McMaster crawl."""
+"""Build site-ready Glueguy catalog artifacts from the raw McMaster crawl."""
 
 from __future__ import annotations
 

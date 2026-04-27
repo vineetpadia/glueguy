@@ -5,5 +5,5 @@ Chemistry: two-component urethane-based plastic repair adhesive.
 Applications from official snippet: structural and cosmetic repair of bumper covers, bumper tabs and other interior or exterior plastic components; also used with SMC and fiberglass repair contexts in Parker literature.
 Key handling note in official snippet: structural plastic repairs require a backer patch to provide strength.
 Official positioning from snippet: medium-speed plastic repair adhesive for collision-repair workflows, suitable where a sandable feather edge and longer repair window are useful.
-Interpretation for Glueboy: repair adhesive for plastic automotive parts rather than a metal structural bonder or electronics adhesive.
+Interpretation for Glueguy: repair adhesive for plastic automotive parts rather than a metal structural bonder or electronics adhesive.
 Provenance note: this cache entry is a controlled text fallback because Parker blocks direct automated access to the PDF endpoint.

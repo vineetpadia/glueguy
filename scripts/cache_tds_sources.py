@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and extract local text copies of Glueboy reference sources."""
+"""Download and extract local text copies of Glueguy reference sources."""
 
 from __future__ import annotations
 

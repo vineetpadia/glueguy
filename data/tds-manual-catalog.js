@@ -5410,7 +5410,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "precisionEquipment": 7
     },
     "cautions": [
-      "The prior Glueboy EP008 row pointed to CEMEDINE EP001K; this entry now uses the official CEMEDINE two-component epoxy EP007/EP008 product data page.",
+      "The prior Glueguy EP008 row pointed to CEMEDINE EP001K; this entry now uses the official CEMEDINE two-component epoxy EP007/EP008 product data page.",
       "CEMEDINE's page gives EP008 scalar property data but does not publish a separate downloadable TDS PDF in the crawled English page.",
       "The product page does not publish continuous service-temperature limits, dielectric breakdown, thermal conductivity, detailed chemical-resistance tables for EP008, shelf life or storage conditions.",
       "Use EP008 where a flexible/antisagging epoxy is desired; the CEMEDINE table separates EP008 from EP007 and from rigid standard/fast-cure grades."

@@ -1,4 +1,4 @@
-# Glueboy Autoresearch Program
+# Glueguy Autoresearch Program
 
 This repo uses an autoresearch-style loop for expanding an engineering adhesive database.
 
@@ -20,7 +20,7 @@ The goal is not to maximize raw entry count at any cost. The goal is to increase
 - `scripts/discover_official_glue_products.py`
   Expands the official-source target universe beyond the hand-curated seed list.
 - `scripts/run_glue_autoresearch.py`
-  Runs one Glueboy research iteration and logs the result as a measurable experiment row.
+  Runs one Glueguy research iteration and logs the result as a measurable experiment row.
 - `scripts/autonomous_glue_research.py`
   Coverage audit that turns curated seeds plus discovered official leads into a ranked backlog report.
 - `scripts/build_tds_manual_catalog.py`

@@ -1,4 +1,4 @@
-# Glueboy Lab
+# Glueguy Lab
 
 Spreadsheet-style adhesive selector plus a larger McMaster-derived engineering reference library.
 

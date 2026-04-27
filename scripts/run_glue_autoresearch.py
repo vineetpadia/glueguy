@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run Glueboy autoresearch cycles and append measurable result rows."""
+"""Run Glueguy autoresearch cycles and append measurable result rows."""
 
 from __future__ import annotations
 

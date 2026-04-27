@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import a Mistral OCR MCP result into Glueboy TDS cache sidecars."""
+"""Import a Mistral OCR MCP result into Glueguy TDS cache sidecars."""
 
 from __future__ import annotations
 

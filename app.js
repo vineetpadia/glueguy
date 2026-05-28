@@ -4902,10 +4902,11 @@ const resetFiltersButton = document.querySelector("#reset-filters");
 const resetHeroButton = document.querySelector("#reset-hero");
 const presetButtons = document.querySelectorAll("[data-preset]");
 const stressButtons = document.querySelectorAll("#stress-mode .segment");
+const SAVED_GLUES_COOKIE = "glueguySavedGlues";
 
 const appState = {
   stress: "shear",
-  compareIds: [],
+  savedIds: readSavedGlueIds(),
   renderFrame: 0,
 };
 
@@ -4918,6 +4919,26 @@ const usdFormatter = new Intl.NumberFormat("en-US", {
 
 const formatUsd = (value) => usdFormatter.format(value);
 const formatTemperature = (value) => `${value}°C`;
+
+function readSavedGlueIds() {
+  const cookie = document.cookie
+    .split("; ")
+    .find((entry) => entry.startsWith(`${SAVED_GLUES_COOKIE}=`));
+  if (!cookie) return [];
+
+  try {
+    const value = decodeURIComponent(cookie.slice(SAVED_GLUES_COOKIE.length + 1));
+    const ids = JSON.parse(value);
+    return Array.isArray(ids) ? ids.filter((id) => typeof id === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSavedGlueIds() {
+  const value = encodeURIComponent(JSON.stringify(appState.savedIds));
+  document.cookie = `${SAVED_GLUES_COOKIE}=${value}; max-age=31536000; path=/; samesite=lax`;
+}
 const formatTemperatureRange = (min, max) => {
   if (Number.isFinite(min) && Number.isFinite(max)) {
     return `${formatTemperature(min)} to ${formatTemperature(max)}`;
@@ -5077,6 +5098,7 @@ function collectFilters() {
     excludeWarnings: formData.get("excludeWarnings") === "yes",
     excludeHazardousSolvents: formData.get("excludeHazardousSolvents") === "yes",
     excludePipeCodeWarnings: formData.get("excludePipeCodeWarnings") === "yes",
+    savedOnly: formData.get("savedOnly") === "yes",
     cure: formData.get("cure") || "any",
     manufacturer: formData.get("manufacturer") || "any",
     minPotLife: Number(formData.get("minPotLife") || 0),
@@ -5114,6 +5136,7 @@ function setFormValues(preset) {
   filterForm.elements.excludeWarnings.checked = preset.excludeWarnings;
   filterForm.elements.excludeHazardousSolvents.checked = preset.excludeHazardousSolvents;
   filterForm.elements.excludePipeCodeWarnings.checked = preset.excludePipeCodeWarnings;
+  filterForm.elements.savedOnly.checked = false;
   cureSelect.value = preset.cure;
   manufacturerSelect.value = preset.manufacturer;
   filterForm.elements.minPotLife.value = preset.minPotLife;
@@ -5141,6 +5164,7 @@ function resetAllFilters() {
   filterForm.elements.clarity.value = "any";
   filterForm.elements.excludeHazardousSolvents.checked = false;
   filterForm.elements.excludePipeCodeWarnings.checked = false;
+  filterForm.elements.savedOnly.checked = false;
   setStressMode("shear");
 }
 
@@ -5330,6 +5354,7 @@ function buildActiveTags(filters) {
   if (filters.clarity !== "any") tags.push(filters.clarity.replace("-", " "));
   if (filters.excludeHazardousSolvents) tags.push("no raw/chlorinated solvents");
   if (filters.excludePipeCodeWarnings) tags.push("no code-limited pipe cements");
+  if (filters.savedOnly) tags.push("my glues only");
   if (filters.minThermalConductivity > 0) {
     tags.push(`>= ${formatThermal(filters.minThermalConductivity)}`);
   }
@@ -5521,7 +5546,11 @@ function renderReferenceLibrary() {
 function renderResults() {
   appState.renderFrame = 0;
   const filters = collectFilters();
-  const matches = GLUES.map((glue) => scoreProduct(glue, filters))
+  const candidates = filters.savedOnly
+    ? GLUES.filter((glue) => appState.savedIds.includes(glue.id))
+    : GLUES;
+  const matches = candidates
+    .map((glue) => scoreProduct(glue, filters))
     .filter(Boolean)
     .sort(
       (left, right) =>
@@ -5547,7 +5576,9 @@ function renderResults() {
   resultsCount.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"}`;
   resultsContext.textContent = matches.length
     ? `Showing ${visibleMatches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
-    : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
+    : filters.savedOnly && !appState.savedIds.length
+      ? "No saved glues yet. Star rows to build your inventory."
+      : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
 
   activeTags.replaceChildren(
     ...buildActiveTags(filters).map((tag) => {
@@ -5563,14 +5594,14 @@ function renderResults() {
 
   if (!matches.length) {
     resultsEmpty.classList.remove("hidden");
-    renderCompare(matches, filters);
+    renderSavedGlues(matches, filters);
     return;
   }
 
   const fragment = document.createDocumentFragment();
   visibleMatches.forEach((match) => {
     const scoreTone = scoreColor(match.score);
-    const compareSelected = appState.compareIds.includes(match.product.id);
+    const saved = appState.savedIds.includes(match.product.id);
     const row = document.createElement("tr");
     const mcmasterSummary = formatMcMasterSummary(match.product.mcmaster);
     const mcmasterChemistry = formatMcMasterChemistry(match.product.mcmaster);
@@ -5670,19 +5701,20 @@ function renderResults() {
     const actionCell = document.createElement("td");
     const actionWrap = document.createElement("div");
     actionWrap.className = "row-actions";
-    const compareButton = document.createElement("button");
-    compareButton.type = "button";
-    compareButton.className = "button button-secondary button-table compare-toggle";
-    compareButton.classList.toggle("is-selected", compareSelected);
-    compareButton.textContent = compareSelected ? "Selected" : "Compare";
-    compareButton.addEventListener("click", () => toggleCompare(match.product.id));
+    const saveButton = document.createElement("button");
+    saveButton.type = "button";
+    saveButton.className = "button button-secondary button-table compare-toggle";
+    saveButton.classList.toggle("is-selected", saved);
+    saveButton.setAttribute("aria-pressed", String(saved));
+    saveButton.textContent = saved ? "Saved" : "Star";
+    saveButton.addEventListener("click", () => toggleSavedGlue(match.product.id));
     const referenceLink = document.createElement("a");
     referenceLink.className = "button button-ghost button-table";
     referenceLink.href = match.product.referenceUrl;
     referenceLink.target = "_blank";
     referenceLink.rel = "noreferrer";
     referenceLink.textContent = primaryActionLabel;
-    actionWrap.append(compareButton, referenceLink);
+    actionWrap.append(saveButton, referenceLink);
     if (
       match.product.tdsUrl &&
       match.product.specUrl &&
@@ -5718,7 +5750,7 @@ function renderResults() {
   });
 
   resultsBody.append(fragment);
-  renderCompare(matches, filters);
+  renderSavedGlues(matches, filters);
 }
 
 function scheduleRenderResults() {
@@ -5726,17 +5758,18 @@ function scheduleRenderResults() {
   appState.renderFrame = requestAnimationFrame(renderResults);
 }
 
-function toggleCompare(productId) {
-  if (appState.compareIds.includes(productId)) {
-    appState.compareIds = appState.compareIds.filter((id) => id !== productId);
+function toggleSavedGlue(productId) {
+  if (appState.savedIds.includes(productId)) {
+    appState.savedIds = appState.savedIds.filter((id) => id !== productId);
   } else {
-    appState.compareIds = [...appState.compareIds, productId].slice(-3);
+    appState.savedIds = [...appState.savedIds, productId];
   }
+  writeSavedGlueIds();
   scheduleRenderResults();
 }
 
-function renderCompare(matches, filters) {
-  const selected = appState.compareIds
+function renderSavedGlues(matches, filters) {
+  const selected = appState.savedIds
     .map((id) => {
       const visibleMatch = matches.find((match) => match.product.id === id);
       if (visibleMatch) return { ...visibleMatch, outsideFilters: false };
@@ -5758,7 +5791,7 @@ function renderCompare(matches, filters) {
   compareState.replaceChildren();
 
   if (!selected.length) {
-    compareState.innerHTML = "<p>No glues selected yet.</p><p>Tap <em>Compare</em> in any row.</p>";
+    compareState.innerHTML = "<p>No glues saved yet.</p><p>Star a row to keep it here.</p>";
     return;
   }
   const shell = document.createElement("div");
@@ -5773,12 +5806,7 @@ function renderCompare(matches, filters) {
         <th>Fit score</th>
         <th>Temperature</th>
         <th>Fixture</th>
-        <th>Pot life</th>
-        <th>Gap fill</th>
-        <th>Lap shear</th>
         <th>Cost</th>
-        <th>Thermal</th>
-        <th>Clarity</th>
         <th>Remove</th>
       </tr>
     </thead>
@@ -5793,7 +5821,7 @@ function renderCompare(matches, filters) {
     remove.type = "button";
     remove.className = "button button-ghost button-table";
     remove.textContent = "Remove";
-    remove.addEventListener("click", () => toggleCompare(match.product.id));
+    remove.addEventListener("click", () => toggleSavedGlue(match.product.id));
 
     row.innerHTML = `
       <td>
@@ -5803,12 +5831,7 @@ function renderCompare(matches, filters) {
       <td>${match.outsideFilters ? "Outside filters" : `${match.score}%`}</td>
       <td>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}</td>
       <td>${formatMinutes(match.product.fixtureTime)}</td>
-      <td>${formatMinutes(match.product.potLife)}</td>
-      <td>${formatGap(match.product.gapFill)}</td>
-      <td>${formatLapShear(match.product.lapShear)}</td>
       <td>${formatPricing(match.product.pricing)}</td>
-      <td>${formatThermal(match.product.thermalConductivity)}</td>
-      <td>${match.product.clarity.replace("-", " ")}</td>
       <td></td>
     `;
     row.lastElementChild.append(remove);

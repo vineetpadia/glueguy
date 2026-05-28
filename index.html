@@ -160,6 +160,10 @@
                 <input type="checkbox" name="excludePipeCodeWarnings" value="yes" />
                 <span>No code-limited pipe cements</span>
               </label>
+              <label class="chip-option">
+                <input type="checkbox" name="savedOnly" value="yes" />
+                <span>My glues only</span>
+              </label>
             </div>
           </div>
 
@@ -224,6 +228,19 @@
         </form>
 
         <div class="main-column">
+          <section class="panel compare-panel">
+            <div class="panel-head panel-head-inline">
+              <div>
+                <p class="eyebrow">Inventory</p>
+                <h2>My glues</h2>
+              </div>
+            </div>
+            <div id="compare-state" class="compare-state">
+              <p>No glues saved yet.</p>
+              <p>Star a row to keep it here.</p>
+            </div>
+          </section>
+
           <section class="panel result-panel">
             <div class="panel-head panel-head-stacked">
               <div>
@@ -270,19 +287,6 @@
                   <p>Try removing a warning filter or widening the fixture window.</p>
                 </div>
               </div>
-            </div>
-          </section>
-
-          <section class="panel compare-panel">
-            <div class="panel-head panel-head-inline">
-              <div>
-                <p class="eyebrow">Compare</p>
-                <h2>Shortlist</h2>
-              </div>
-            </div>
-            <div id="compare-state" class="compare-state">
-              <p>No glues selected yet.</p>
-              <p>Tap <em>Compare</em> in any row.</p>
             </div>
           </section>
 

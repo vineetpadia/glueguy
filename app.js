@@ -5354,7 +5354,7 @@ function buildActiveTags(filters) {
   if (filters.clarity !== "any") tags.push(filters.clarity.replace("-", " "));
   if (filters.excludeHazardousSolvents) tags.push("no raw/chlorinated solvents");
   if (filters.excludePipeCodeWarnings) tags.push("no code-limited pipe cements");
-  if (filters.savedOnly) tags.push("my glues only");
+  if (filters.savedOnly) tags.push("inventory only");
   if (filters.minThermalConductivity > 0) {
     tags.push(`>= ${formatThermal(filters.minThermalConductivity)}`);
   }
@@ -5577,7 +5577,7 @@ function renderResults() {
   resultsContext.textContent = matches.length
     ? `Showing ${visibleMatches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
     : filters.savedOnly && !appState.savedIds.length
-      ? "No saved glues yet. Star rows to build your inventory."
+      ? "No inventory yet. Star rows to add products."
       : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
 
   activeTags.replaceChildren(
@@ -5791,7 +5791,7 @@ function renderSavedGlues(matches, filters) {
   compareState.replaceChildren();
 
   if (!selected.length) {
-    compareState.innerHTML = "<p>No glues saved yet.</p><p>Star a row to keep it here.</p>";
+    compareState.innerHTML = "<p>No inventory yet.</p><p>Star a row to add it.</p>";
     return;
   }
   const shell = document.createElement("div");

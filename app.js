@@ -12,9 +12,11 @@ const MATERIALS = [
   { value: "leather", label: "Leather" },
   { value: "abs", label: "ABS" },
   { value: "pvc", label: "PVC" },
+  { value: "cpvc", label: "CPVC" },
   { value: "acrylic", label: "Acrylic / PMMA" },
   { value: "polycarbonate", label: "Polycarbonate" },
   { value: "petg", label: "PETG" },
+  { value: "polystyrene", label: "Polystyrene / HIPS" },
   { value: "rubber", label: "Rubber / EPDM" },
   { value: "siliconeRubber", label: "Silicone Rubber" },
   { value: "hdpe", label: "HDPE / Polyethylene" },
@@ -74,6 +76,8 @@ const APPLICATION_LABELS = Object.fromEntries(
   APPLICATION_OPTIONS.map((option) => [option.value, option.label]),
 );
 
+const MAX_RENDERED_MATCHES = 80;
+
 const PROFILE_APPLICATION_TAGS = {
   toughenedEpoxy: ["structural-bonding"],
   flexibleEpoxy: ["structural-bonding"],
@@ -100,6 +104,10 @@ const PROFILE_APPLICATION_TAGS = {
   thermalEpoxy: ["potting-thermal"],
   solventAcrylic: ["solvent-welding"],
   solventPVC: ["solvent-welding"],
+  solventCPVC: ["solvent-welding"],
+  solventABSStyrene: ["solvent-welding"],
+  solventPolycarbonate: ["solvent-welding"],
+  solventMultiPlastic: ["solvent-welding"],
   constructionAdhesive: ["construction"],
   industrialClear: ["general-repair"],
   fabricAdhesive: ["wood-paper-fabric"],
@@ -768,6 +776,15 @@ const OBSERVED_TDS_FIELDS = [
   "solventResistant",
   "sourceRevisionDate",
   "tdsDownload",
+  "professionalUseOnly",
+  "rawSolventMethod",
+  "flammable",
+  "chlorinatedSolvent",
+  "containsMethyleneChloride",
+  "containsChloroform",
+  "containsMek",
+  "vocFree",
+  "pipeCodeWarning",
 ];
 
 const PROFILE_LIBRARY = {
@@ -1730,6 +1747,123 @@ const PROFILE_LIBRARY = {
       "Plumbing-style solvent weld for rigid PVC joints where the bond is really a localized melt-and-fuse process.",
     cautions: ["Wrong for most other plastics and for decorative visible bond lines."],
   },
+  solventCPVC: {
+    chemistry: "CPVC solvent cement",
+    cureFamily: "Solvent cement",
+    cureDetail: "Solvent weld",
+    serviceMin: -10,
+    serviceMax: 82,
+    viscosityClass: "high",
+    thixotropic: false,
+    gapFill: 0.5,
+    thermalConductivity: 0.08,
+    clarity: "opaque",
+    potLife: 3,
+    fixtureTime: 15,
+    lapShear: 8,
+    stress: buildStress({ shear: 5.8, peel: 2.4, impact: 2.5 }),
+    environment: buildEnvironment({ humidity: 0.75, fuel: 0.25, immersion: 0.58 }),
+    substrates: buildRatings(
+      {
+        cpvc: 10,
+        pvc: 6,
+      },
+      0,
+    ),
+    summary:
+      "CPVC pipe-and-fitting solvent cement for hot-water and industrial piping where CPVC compatibility is the point.",
+    cautions: ["Use the pipe-system instructions, primers, cure tables, and code listings for pressure service."],
+  },
+  solventABSStyrene: {
+    chemistry: "ABS/styrene solvent cement",
+    cureFamily: "Solvent cement",
+    cureDetail: "Solvent weld",
+    serviceMin: -20,
+    serviceMax: 70,
+    viscosityClass: "wicking",
+    thixotropic: false,
+    gapFill: 0.08,
+    thermalConductivity: 0.08,
+    clarity: "transparent",
+    potLife: 3,
+    fixtureTime: 5,
+    lapShear: 8,
+    stress: buildStress({ shear: 5, peel: 2.4, impact: 2.6 }),
+    environment: buildEnvironment({ humidity: 0.55, fuel: 0.18, immersion: 0.25 }),
+    substrates: buildRatings(
+      {
+        abs: 10,
+        polystyrene: 10,
+        acrylic: 6,
+        polycarbonate: 6,
+      },
+      0,
+    ),
+    summary:
+      "Water-thin solvent cement family for ABS, styrene/HIPS, and model-style same-plastic fabrication.",
+    cautions: ["Many ABS/styrene solvent cements are same-material only; do not infer dissimilar-plastic compatibility."],
+  },
+  solventPolycarbonate: {
+    chemistry: "Polycarbonate solvent cement",
+    cureFamily: "Solvent cement",
+    cureDetail: "Solvent weld",
+    serviceMin: -20,
+    serviceMax: 80,
+    viscosityClass: "wicking",
+    thixotropic: false,
+    gapFill: 0.05,
+    thermalConductivity: 0.08,
+    clarity: "transparent",
+    potLife: 2,
+    fixtureTime: 5,
+    lapShear: 9,
+    stress: buildStress({ shear: 5.2, peel: 2, impact: 1.8 }),
+    environment: buildEnvironment({ humidity: 0.55, fuel: 0.12, immersion: 0.22 }),
+    substrates: buildRatings(
+      {
+        polycarbonate: 10,
+        acrylic: 6,
+        pvc: 5,
+      },
+      0,
+    ),
+    summary:
+      "Solvent bonding route for close-fitting polycarbonate joints when a fast, clear fused edge matters more than retained impact strength.",
+    cautions: [
+      "Solvent bonding can significantly reduce polycarbonate strength and trigger crazing in stressed parts.",
+    ],
+  },
+  solventMultiPlastic: {
+    chemistry: "Multi-plastic solvent cement",
+    cureFamily: "Solvent cement",
+    cureDetail: "Solvent weld",
+    serviceMin: -20,
+    serviceMax: 70,
+    viscosityClass: "low",
+    thixotropic: false,
+    gapFill: 0.1,
+    thermalConductivity: 0.08,
+    clarity: "transparent",
+    potLife: 8,
+    fixtureTime: 12,
+    lapShear: 6,
+    stress: buildStress({ shear: 4.8, peel: 2.3, impact: 2.4 }),
+    environment: buildEnvironment({ humidity: 0.6, fuel: 0.18, immersion: 0.32 }),
+    substrates: buildRatings(
+      {
+        acrylic: 8,
+        abs: 8,
+        pvc: 8,
+        polystyrene: 8,
+        polycarbonate: 4,
+        petg: 4,
+      },
+      0,
+    ),
+    summary:
+      "Mixed-plastic solvent cement for selected thermoplastics where the specific product data sheet names both sides of the joint.",
+    cautions: ["Material-pair coverage is product-specific; test before treating it as a universal plastic solvent."],
+  },
   constructionAdhesive: {
     chemistry: "Construction adhesive",
     cureFamily: "Construction adhesive",
@@ -2027,6 +2161,12 @@ const PROFILE_ALIASES = {
   polyesterResin: "clearEpoxy",
 };
 
+const materialPairKey = ([left, right]) => [left, right].sort().join("::");
+const materialPairListHas = (pairs, selectedMaterials) => {
+  const selectedKey = materialPairKey(selectedMaterials);
+  return (pairs ?? []).some((pair) => materialPairKey(pair) === selectedKey);
+};
+
 const makeProduct = (id, profileName, overrides) => {
   const libraryProfileName = hasOwn(PROFILE_LIBRARY, profileName)
     ? profileName
@@ -2058,6 +2198,8 @@ const makeProduct = (id, profileName, overrides) => {
     stress: { ...profile.stress },
     environment: { ...profile.environment },
     substrates: { ...profile.substrates },
+    compatibleMaterialPairs: (profile.compatibleMaterialPairs ?? []).map((pair) => [...pair]),
+    incompatibleMaterialPairs: (profile.incompatibleMaterialPairs ?? []).map((pair) => [...pair]),
     summary: profile.summary,
     cautions: [...(profile.cautions ?? [])],
   };
@@ -2084,6 +2226,12 @@ const makeProduct = (id, profileName, overrides) => {
   }
   if (overrides.substrates) {
     product.substrates = { ...product.substrates, ...overrides.substrates };
+  }
+  if (overrides.compatibleMaterialPairs) {
+    product.compatibleMaterialPairs = overrides.compatibleMaterialPairs.map((pair) => [...pair]);
+  }
+  if (overrides.incompatibleMaterialPairs) {
+    product.incompatibleMaterialPairs = overrides.incompatibleMaterialPairs.map((pair) => [...pair]);
   }
   if (overrides.cautions) {
     product.cautions = [...product.cautions, ...overrides.cautions];
@@ -2733,12 +2881,20 @@ const GLUES = [
     maker: "SCIGRIP",
     name: "4 / Weld-On 4",
     fixtureTime: 2,
+    substrates: { acrylic: 10, polycarbonate: 7, petg: 7, polystyrene: 7 },
+    compatibleMaterialPairs: [
+      ["acrylic", "acrylic"],
+      ["polycarbonate", "polycarbonate"],
+      ["petg", "petg"],
+      ["polystyrene", "polystyrene"],
+    ],
     summary:
       "Capillary acrylic solvent cement that can disappear visually in tight, polished acrylic joints.",
   }),
   makeProduct("oatey-pvc-cement", "solventPVC", {
     maker: "Oatey",
     name: "Medium Clear PVC Cement",
+    compatibleMaterialPairs: [["pvc", "pvc"]],
     summary:
       "Purpose-built PVC solvent weld for plumbing-style joints and rigid PVC assemblies.",
   }),
@@ -2967,14 +3123,22 @@ const GLUES = [
     viscosityClass: "medium",
     gapFill: 0.4,
     fixtureTime: 6,
-    substrates: { acrylic: 10, polycarbonate: 6, petg: 5 },
+    substrates: { acrylic: 10, polycarbonate: 6, petg: 5, abs: 6, polystyrene: 6 },
+    compatibleMaterialPairs: [
+      ["acrylic", "acrylic"],
+      ["polycarbonate", "polycarbonate"],
+      ["petg", "petg"],
+      ["abs", "abs"],
+      ["polystyrene", "polystyrene"],
+    ],
     summary:
       "Thicker acrylic cement for edge fill, small gaps, and less-than-perfect capillary joints in PMMA work.",
   }),
-  makeProduct("oatey-abs-cement", "solventPVC", {
+  makeProduct("oatey-abs-cement", "solventABSStyrene", {
     maker: "Oatey",
     name: "ABS Cement",
-    substrates: { abs: 10, pvc: 3 },
+    substrates: { abs: 10, pvc: 2, polystyrene: 4 },
+    compatibleMaterialPairs: [["abs", "abs"]],
     summary:
       "Purpose-built ABS solvent cement for rigid ABS piping and fabricated ABS assemblies.",
   }),
@@ -4167,7 +4331,50 @@ const ENGINEERING_GLUE_EXPANSION = [
     maker: "IPS Weld-On",
     name: "#3",
     fixtureTime: 1,
+    substrates: { acrylic: 10, polystyrene: 7, polycarbonate: 7 },
+    compatibleMaterialPairs: [
+      ["acrylic", "acrylic"],
+      ["polystyrene", "polystyrene"],
+      ["polycarbonate", "polycarbonate"],
+    ],
     summary: "Very thin solvent cement for capillary acrylic bonding and clean PMMA edges.",
+  },
+  {
+    id: "tamiya-extra-thin-cement",
+    profile: "solventABSStyrene",
+    maker: "Tamiya",
+    name: "Extra Thin Cement",
+    fixtureTime: 0.7,
+    substrates: { polystyrene: 10, abs: 6 },
+    compatibleMaterialPairs: [
+      ["polystyrene", "polystyrene"],
+      ["abs", "abs"],
+    ],
+    summary: "Water-thin hobby solvent cement for close-fitting polystyrene model parts and some ABS parts.",
+    cautions: ["Use CA or epoxy for resin, metal, rubbery elastomers, or unknown plastics."],
+    referenceUrl: "https://www.tamiyausa.com/shop/finishing/extra-thin-cement-2/",
+  },
+  {
+    id: "pc-dcm-chloroform-solvent-weld",
+    profile: "solventPolycarbonate",
+    maker: "Lab solvent method",
+    name: "DCM / chloroform PC solvent weld",
+    fixtureTime: 1,
+    lapShear: null,
+    substrates: { polycarbonate: 10 },
+    compatibleMaterialPairs: [["polycarbonate", "polycarbonate"]],
+    summary:
+      "Raw-solvent route for polycarbonate-to-polycarbonate capillary or edge-dip welding when a commercial PC cement is not the right fit.",
+    professionalUseOnly: true,
+    rawSolventMethod: true,
+    chlorinatedSolvent: true,
+    containsMethyleneChloride: true,
+    containsChloroform: true,
+    cautions: [
+      "Treat this as industrial lab work, not a consumer glue recommendation; methylene chloride and chloroform require strict ventilation, PPE, and SDS controls.",
+      "Solvent-welded polycarbonate loses impact strength at the joint and can craze if stressed.",
+    ],
+    referenceUrl: "https://www.eplastics.com/pdf/polycarbonate-fabrication-manual.pdf",
   },
 ];
 
@@ -4180,24 +4387,14 @@ GLUES.push(
   ),
 );
 
-const GENERATED_SELECTOR_PRODUCTS = Array.isArray(globalThis.MCMASTER_SITE_PRODUCTS)
-  ? globalThis.MCMASTER_SITE_PRODUCTS
-  : [];
 const REFERENCE_LIBRARY = Array.isArray(globalThis.MCMASTER_REFERENCE_FAMILIES)
   ? globalThis.MCMASTER_REFERENCE_FAMILIES
   : [];
-const MCMASTER_PIPELINE_STATS = globalThis.MCMASTER_PIPELINE_STATS ?? {};
-const TDS_MANUAL_PRODUCTS = Array.isArray(globalThis.TDS_MANUAL_PRODUCTS)
-  ? globalThis.TDS_MANUAL_PRODUCTS
-  : [];
+let MCMASTER_PIPELINE_STATS = globalThis.MCMASTER_PIPELINE_STATS ?? {};
 const TDS_MANUAL_REFERENCE_FAMILIES = Array.isArray(globalThis.TDS_MANUAL_REFERENCE_FAMILIES)
   ? globalThis.TDS_MANUAL_REFERENCE_FAMILIES
   : [];
-const TDS_MANUAL_STATS = globalThis.TDS_MANUAL_STATS ?? {};
-
-GLUES.push(
-  ...TDS_MANUAL_PRODUCTS.map(({ id, profile, ...overrides }) => makeProduct(id, profile, overrides)),
-);
+let TDS_MANUAL_STATS = globalThis.TDS_MANUAL_STATS ?? {};
 
 const normalizeCatalogString = (value) =>
   (value ?? "")
@@ -4308,6 +4505,26 @@ const mergeObservedCatalogData = (existing, generated) => {
       existing.substrates[material] = Math.max(existing.substrates[material] ?? 0, score);
     });
   }
+  if (generated.compatibleMaterialPairs?.length) {
+    const pairKeys = new Set((existing.compatibleMaterialPairs ?? []).map(materialPairKey));
+    existing.compatibleMaterialPairs = [...(existing.compatibleMaterialPairs ?? [])];
+    generated.compatibleMaterialPairs.forEach((pair) => {
+      const key = materialPairKey(pair);
+      if (pairKeys.has(key)) return;
+      pairKeys.add(key);
+      existing.compatibleMaterialPairs.push(pair);
+    });
+  }
+  if (generated.incompatibleMaterialPairs?.length) {
+    const pairKeys = new Set((existing.incompatibleMaterialPairs ?? []).map(materialPairKey));
+    existing.incompatibleMaterialPairs = [...(existing.incompatibleMaterialPairs ?? [])];
+    generated.incompatibleMaterialPairs.forEach((pair) => {
+      const key = materialPairKey(pair);
+      if (pairKeys.has(key)) return;
+      pairKeys.add(key);
+      existing.incompatibleMaterialPairs.push(pair);
+    });
+  }
   if (generated.mcmaster) {
     existing.mcmaster = {
       ...(existing.mcmaster ?? {}),
@@ -4346,19 +4563,24 @@ const mergeObservedCatalogData = (existing, generated) => {
 };
 
 const catalogKeys = new Map(GLUES.map((glue) => [buildCatalogKey(glue), glue]));
-GENERATED_SELECTOR_PRODUCTS.forEach(({ id, profile, ...overrides }) => {
-  const generated = makeProduct(id, profile, overrides);
-  const key = buildCatalogKey(generated);
-  const existing = catalogKeys.get(key);
 
-  if (existing) {
-    mergeObservedCatalogData(existing, generated);
-    return;
-  }
+function ingestSelectorProducts(products) {
+  products.forEach(({ id, profile, ...overrides }) => {
+    const generated = makeProduct(id, profile, overrides);
+    const key = buildCatalogKey(generated);
+    const existing = catalogKeys.get(key);
 
-  catalogKeys.set(key, generated);
-  GLUES.push(generated);
-});
+    if (existing) {
+      mergeObservedCatalogData(existing, generated);
+      existing.pricing = existing.pricing ?? assignPricing(existing);
+      return;
+    }
+
+    generated.pricing = generated.pricing ?? assignPricing(generated);
+    catalogKeys.set(key, generated);
+    GLUES.push(generated);
+  });
+}
 
 const referenceFamilyKeys = new Set(REFERENCE_LIBRARY.map((family) => buildReferenceFamilyKey(family)));
 TDS_MANUAL_REFERENCE_FAMILIES.forEach((family) => {
@@ -4413,6 +4635,10 @@ const PRICE_DEFAULTS = {
   thermalEpoxy: estimatedUnitPrice(1.2, "mL"),
   solventAcrylic: estimatedUnitPrice(0.08, "mL"),
   solventPVC: estimatedUnitPrice(0.035, "mL"),
+  solventCPVC: estimatedUnitPrice(0.04, "mL"),
+  solventABSStyrene: estimatedUnitPrice(0.045, "mL"),
+  solventPolycarbonate: estimatedUnitPrice(0.08, "mL"),
+  solventMultiPlastic: estimatedUnitPrice(0.06, "mL"),
   constructionAdhesive: estimatedUnitPrice(0.026, "mL"),
   industrialClear: estimatedUnitPrice(0.2, "mL"),
   fabricAdhesive: estimatedUnitPrice(0.16, "mL"),
@@ -4568,6 +4794,8 @@ const PRESETS = {
     environment: ["humidity"],
     thixotropicOnly: true,
     excludeWarnings: false,
+    excludeHazardousSolvents: false,
+    excludePipeCodeWarnings: false,
     application: "any",
     cure: "any",
     manufacturer: "any",
@@ -4588,6 +4816,8 @@ const PRESETS = {
     environment: [],
     thixotropicOnly: false,
     excludeWarnings: false,
+    excludeHazardousSolvents: false,
+    excludePipeCodeWarnings: false,
     application: "optical-bonding",
     cure: "any",
     manufacturer: "any",
@@ -4608,6 +4838,8 @@ const PRESETS = {
     environment: ["fuel"],
     thixotropicOnly: false,
     excludeWarnings: false,
+    excludeHazardousSolvents: false,
+    excludePipeCodeWarnings: false,
     application: "threadlocking",
     cure: "Anaerobic",
     manufacturer: "Loctite",
@@ -4628,6 +4860,8 @@ const PRESETS = {
     environment: [],
     thixotropicOnly: false,
     excludeWarnings: false,
+    excludeHazardousSolvents: false,
+    excludePipeCodeWarnings: false,
     application: "potting-thermal",
     cure: "any",
     manufacturer: "any",
@@ -4672,6 +4906,7 @@ const stressButtons = document.querySelectorAll("#stress-mode .segment");
 const appState = {
   stress: "shear",
   compareIds: [],
+  renderFrame: 0,
 };
 
 const usdFormatter = new Intl.NumberFormat("en-US", {
@@ -4763,6 +4998,28 @@ function populateFilters() {
   ]);
 }
 
+function repopulateCatalogFilters() {
+  const values = {
+    substrateA: substrateASelect.value,
+    substrateB: substrateBSelect.value,
+    application: applicationSelect.value,
+    cure: cureSelect.value,
+    manufacturer: manufacturerSelect.value,
+  };
+  populateFilters();
+  substrateASelect.value = values.substrateA;
+  substrateBSelect.value = values.substrateB;
+  applicationSelect.value = values.application;
+  cureSelect.value = Array.from(cureSelect.options).some((option) => option.value === values.cure)
+    ? values.cure
+    : "any";
+  manufacturerSelect.value = Array.from(manufacturerSelect.options).some(
+    (option) => option.value === values.manufacturer,
+  )
+    ? values.manufacturer
+    : "any";
+}
+
 function populateReferenceFilters() {
   if (!referenceCategorySelect || !referenceApplicationSelect) return;
   const categories = Array.from(
@@ -4788,8 +5045,7 @@ function renderHeroStats() {
   const chemistries = new Set(GLUES.map((glue) => glue.chemistry)).size;
   const makers = new Set(GLUES.map((glue) => glue.maker)).size;
   const statItems = [
-    { label: "Selector products", value: GLUES.length },
-    { label: "Reference families", value: REFERENCE_LIBRARY.length },
+    { label: "Products", value: GLUES.length },
     { label: "Chemistries", value: chemistries },
     { label: "Makers", value: makers },
   ];
@@ -4803,9 +5059,7 @@ function renderHeroStats() {
     }),
   );
 
-  glueDensity.textContent = REFERENCE_LIBRARY.length
-    ? `${GLUES.length} selector products + ${REFERENCE_LIBRARY.length} reference families`
-    : `${GLUES.length} selector products loaded`;
+  glueDensity.textContent = `${GLUES.length} products`;
 }
 
 function collectFilters() {
@@ -4821,6 +5075,8 @@ function collectFilters() {
     environment: formData.getAll("environment"),
     thixotropicOnly: formData.get("thixotropicOnly") === "yes",
     excludeWarnings: formData.get("excludeWarnings") === "yes",
+    excludeHazardousSolvents: formData.get("excludeHazardousSolvents") === "yes",
+    excludePipeCodeWarnings: formData.get("excludePipeCodeWarnings") === "yes",
     cure: formData.get("cure") || "any",
     manufacturer: formData.get("manufacturer") || "any",
     minPotLife: Number(formData.get("minPotLife") || 0),
@@ -4856,6 +5112,8 @@ function setFormValues(preset) {
   setCheckedValues("environment", preset.environment);
   filterForm.elements.thixotropicOnly.checked = preset.thixotropicOnly;
   filterForm.elements.excludeWarnings.checked = preset.excludeWarnings;
+  filterForm.elements.excludeHazardousSolvents.checked = preset.excludeHazardousSolvents;
+  filterForm.elements.excludePipeCodeWarnings.checked = preset.excludePipeCodeWarnings;
   cureSelect.value = preset.cure;
   manufacturerSelect.value = preset.manufacturer;
   filterForm.elements.minPotLife.value = preset.minPotLife;
@@ -4881,6 +5139,8 @@ function resetAllFilters() {
   filterForm.elements.minThermalConductivity.value = 0;
   filterForm.elements.minLapShear.value = 0;
   filterForm.elements.clarity.value = "any";
+  filterForm.elements.excludeHazardousSolvents.checked = false;
+  filterForm.elements.excludePipeCodeWarnings.checked = false;
   setStressMode("shear");
 }
 
@@ -4911,6 +5171,13 @@ function scoreProduct(product, filters) {
   }
   if (filters.thixotropicOnly && !product.thixotropic) return null;
   if (filters.viscosity.length && !filters.viscosity.includes(product.viscosityClass)) return null;
+  if (
+    filters.excludeHazardousSolvents &&
+    (product.rawSolventMethod || product.chlorinatedSolvent || product.containsMethyleneChloride || product.containsChloroform)
+  ) {
+    return null;
+  }
+  if (filters.excludePipeCodeWarnings && product.pipeCodeWarning) return null;
 
   const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
     (material) => material && material !== "any",
@@ -4918,6 +5185,20 @@ function scoreProduct(product, filters) {
   const substrateScores = selectedMaterials.map((material) => product.substrates[material] ?? 0);
 
   if (selectedMaterials.length && substrateScores.some((value) => value < 3)) return null;
+  if (
+    selectedMaterials.length === 2 &&
+    product.incompatibleMaterialPairs?.length &&
+    materialPairListHas(product.incompatibleMaterialPairs, selectedMaterials)
+  ) {
+    return null;
+  }
+  if (
+    selectedMaterials.length === 2 &&
+    product.compatibleMaterialPairs?.length &&
+    !materialPairListHas(product.compatibleMaterialPairs, selectedMaterials)
+  ) {
+    return null;
+  }
 
   const averageSubstrate = selectedMaterials.length
     ? substrateScores.reduce((sum, value) => sum + value, 0) / selectedMaterials.length
@@ -4952,6 +5233,12 @@ function scoreProduct(product, filters) {
     reasons.push(`High affinity for ${materialLabel(selectedMaterials[0])}.`);
   }
 
+  if (selectedMaterials.length === 2 && product.compatibleMaterialPairs?.length) {
+    reasons.push(
+      `Listed for ${materialLabel(selectedMaterials[0])} to ${materialLabel(selectedMaterials[1])}.`,
+    );
+  }
+
   if (temperaturePenalty === 0) {
     reasons.push(`Covers ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} service.`);
   } else {
@@ -4971,6 +5258,14 @@ function scoreProduct(product, filters) {
 
   if (filters.environment.some((name) => (product.environment[name] ?? 0) < 0.6)) {
     warnings.push("Selected environment is tougher than this glue prefers.");
+  }
+  if (product.rawSolventMethod || product.chlorinatedSolvent) {
+    warnings.push("Raw or chlorinated solvent method; use industrial controls and SDS procedures.");
+  } else if (product.flammable || product.containsMek) {
+    warnings.push("Flammable solvent cement; ventilation, PPE, and ignition control matter.");
+  }
+  if (product.pipeCodeWarning) {
+    warnings.push("Pipe-code-limited product; verify local approval before using it for plumbing transitions.");
   }
 
   if (filters.thixotropicOnly && product.thixotropic) {
@@ -5011,8 +5306,8 @@ function scoreProduct(product, filters) {
     substrateFit: averageSubstrate,
     minimumSubstrate,
     materialFits: Object.fromEntries(selectedMaterials.map((material) => [material, product.substrates[material] ?? 0])),
-    reasons: reasons.slice(0, 4),
-    warnings: dedupedWarnings.slice(0, 3),
+    reasons: reasons.slice(0, 2),
+    warnings: dedupedWarnings.slice(0, 2),
   };
 }
 
@@ -5033,6 +5328,8 @@ function buildActiveTags(filters) {
   }
   if (filters.cure !== "any") tags.push(filters.cure);
   if (filters.clarity !== "any") tags.push(filters.clarity.replace("-", " "));
+  if (filters.excludeHazardousSolvents) tags.push("no raw/chlorinated solvents");
+  if (filters.excludePipeCodeWarnings) tags.push("no code-limited pipe cements");
   if (filters.minThermalConductivity > 0) {
     tags.push(`>= ${formatThermal(filters.minThermalConductivity)}`);
   }
@@ -5222,6 +5519,7 @@ function renderReferenceLibrary() {
 }
 
 function renderResults() {
+  appState.renderFrame = 0;
   const filters = collectFilters();
   const matches = GLUES.map((glue) => scoreProduct(glue, filters))
     .filter(Boolean)
@@ -5238,17 +5536,18 @@ function renderResults() {
   if (selectedMaterials.length === 2) {
     resultsTitle.textContent = `This to That: ${materialLabel(selectedMaterials[0])} -> ${materialLabel(selectedMaterials[1])}`;
   } else if (selectedMaterials.length === 1) {
-    resultsTitle.textContent = `Best glues around ${materialLabel(selectedMaterials[0])}`;
+    resultsTitle.textContent = `${materialLabel(selectedMaterials[0])}`;
   } else {
-    resultsTitle.textContent = "Ranking glues for your joint";
+    resultsTitle.textContent = "Matches";
   }
   fitAHeading.textContent = filters.substrateA === "any" ? "This fit" : `${materialLabel(filters.substrateA)} fit`;
   fitBHeading.textContent = filters.substrateB === "any" ? "That fit" : `${materialLabel(filters.substrateB)} fit`;
 
+  const visibleMatches = matches.slice(0, MAX_RENDERED_MATCHES);
   resultsCount.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"}`;
   resultsContext.textContent = matches.length
-    ? `Scored for ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} service with ${STRESS_LABELS[filters.stress].toLowerCase()} as the dominant load.`
-    : "No glue clears every hard filter right now. Relax fixture time, clarity, or the material pair.";
+    ? `Showing ${visibleMatches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
+    : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
 
   activeTags.replaceChildren(
     ...buildActiveTags(filters).map((tag) => {
@@ -5269,7 +5568,7 @@ function renderResults() {
   }
 
   const fragment = document.createDocumentFragment();
-  matches.forEach((match) => {
+  visibleMatches.forEach((match) => {
     const scoreTone = scoreColor(match.score);
     const compareSelected = appState.compareIds.includes(match.product.id);
     const row = document.createElement("tr");
@@ -5306,7 +5605,6 @@ function renderResults() {
     productCell.innerHTML = `
       <p class="maker">${match.product.maker}</p>
       <p class="product-name">${match.product.name}</p>
-      <p class="product-summary">${match.product.summary}</p>
       ${mcmasterSummary ? `<p class="table-note">${mcmasterSummary}</p>` : ""}
     `;
 
@@ -5314,7 +5612,6 @@ function renderResults() {
     const applicationText = formatApplicationTags(match.product.applicationTags, 2);
     chemistryCell.innerHTML = `
       <div class="product-chemistry">${match.product.chemistry}</div>
-      <div class="product-summary">${match.product.cureDetail}</div>
       ${mcmasterChemistry ? `<div class="table-note">${mcmasterChemistry}</div>` : ""}
       ${applicationText ? `<div class="table-note">${applicationText}</div>` : ""}
     `;
@@ -5424,13 +5721,18 @@ function renderResults() {
   renderCompare(matches, filters);
 }
 
+function scheduleRenderResults() {
+  if (appState.renderFrame) return;
+  appState.renderFrame = requestAnimationFrame(renderResults);
+}
+
 function toggleCompare(productId) {
   if (appState.compareIds.includes(productId)) {
     appState.compareIds = appState.compareIds.filter((id) => id !== productId);
   } else {
     appState.compareIds = [...appState.compareIds, productId].slice(-3);
   }
-  renderResults();
+  scheduleRenderResults();
 }
 
 function renderCompare(matches, filters) {
@@ -5518,24 +5820,24 @@ function renderCompare(matches, filters) {
 }
 
 function attachEvents() {
-  filterForm.addEventListener("input", renderResults);
-  filterForm.addEventListener("change", renderResults);
+  filterForm.addEventListener("input", scheduleRenderResults);
+  filterForm.addEventListener("change", scheduleRenderResults);
 
   stressButtons.forEach((button) => {
     button.addEventListener("click", () => {
       setStressMode(button.dataset.value);
-      renderResults();
+      scheduleRenderResults();
     });
   });
 
   resetFiltersButton.addEventListener("click", () => {
     resetAllFilters();
-    renderResults();
+    scheduleRenderResults();
   });
 
   resetHeroButton.addEventListener("click", () => {
     resetAllFilters();
-    renderResults();
+    scheduleRenderResults();
   });
 
   presetButtons.forEach((button) => {
@@ -5543,7 +5845,7 @@ function attachEvents() {
       const preset = PRESETS[button.dataset.preset];
       if (!preset) return;
       setFormValues(preset);
-      renderResults();
+      scheduleRenderResults();
       document.querySelector("#lab").scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
@@ -5553,14 +5855,51 @@ function attachEvents() {
   referenceApplicationSelect?.addEventListener("change", renderReferenceLibrary);
 }
 
+async function loadSelectorCatalog() {
+  try {
+    const response = await fetch("./data/selector-catalog.json", { cache: "force-cache" });
+    if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
+    const catalog = await response.json();
+    ingestSelectorProducts(catalog.tdsProducts ?? []);
+    ingestSelectorProducts(catalog.mcmasterProducts ?? []);
+    MCMASTER_PIPELINE_STATS = catalog.mcmasterStats ?? MCMASTER_PIPELINE_STATS;
+    TDS_MANUAL_STATS = catalog.tdsStats ?? TDS_MANUAL_STATS;
+    repopulateCatalogFilters();
+    renderHeroStats();
+    scheduleRenderResults();
+  } catch (error) {
+    console.warn(error);
+    glueDensity.textContent = `${GLUES.length} products`;
+  }
+}
+
+function scheduleCatalogLoad() {
+  const load = () => loadSelectorCatalog();
+  const loadAfterFirstPaint = () => {
+    window.setTimeout(() => {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(load, { timeout: 1200 });
+        return;
+      }
+      load();
+    }, 250);
+  };
+
+  if (document.readyState === "complete") {
+    loadAfterFirstPaint();
+    return;
+  }
+  window.addEventListener("load", loadAfterFirstPaint, { once: true });
+}
+
 function init() {
   populateFilters();
   populateReferenceFilters();
   resetAllFilters();
   attachEvents();
   renderHeroStats();
-  renderResults();
-  renderReferenceLibrary();
+  scheduleRenderResults();
+  scheduleCatalogLoad();
 }
 
-init();
+window.setTimeout(init, 0);

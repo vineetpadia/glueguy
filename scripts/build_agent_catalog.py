@@ -217,6 +217,17 @@ def compact_specs(entry: dict) -> dict:
         "cureDepthMm",
         "tackFreeTime",
         "cureProfiles",
+        "compatibleMaterialPairs",
+        "incompatibleMaterialPairs",
+        "professionalUseOnly",
+        "rawSolventMethod",
+        "flammable",
+        "chlorinatedSolvent",
+        "containsMethyleneChloride",
+        "containsChloroform",
+        "containsMek",
+        "vocFree",
+        "pipeCodeWarning",
     ]
     return {key: value for key in keys if has_value(value := field_value(entry, key))}
 

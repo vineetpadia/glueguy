@@ -600,8 +600,25 @@
         { "name": "Oatey Clear PVC Medium-Bodied" },
         { "name": "Weld-On 4007" },
         { "name": "Weld-On 3" },
+        { "name": "Weld-On 4SC" },
         { "name": "Weld-On 16" },
-        { "name": "Weld-On 40" }
+        { "name": "Weld-On 40" },
+        { "name": "Weld-On 1802" },
+        { "name": "Weld-On 2354" },
+        { "name": "Weld-On 4052 PETG" },
+        { "name": "Weld-On 55 Polycarbonate" },
+        { "name": "Weld-On 714 CPVC" },
+        { "name": "Weld-On 724 CPVC" },
+        { "name": "Oatey All Purpose Cement" },
+        { "name": "Oatey ABS to PVC Transition Cement" }
+      ]
+    },
+    {
+      "name": "Caseway",
+      "priority": "low",
+      "officialDomains": ["casewayproducts.com"],
+      "products": [
+        { "name": "SC-325 Polycarbonate Solvent Cement" }
       ]
     },
     {

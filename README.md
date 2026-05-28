@@ -41,7 +41,19 @@ python scripts/build_mcmaster_site_catalog.py
 python scripts/build_tds_manual_catalog.py
 ```
 
-5. Build the machine-readable catalog intended for LLM/tool agents.
+5. Build the compact first-load selector catalog.
+
+```bash
+python scripts/build_selector_catalog.py
+```
+
+6. Build the minified browser runtime used by `index.html`.
+
+```bash
+npx --yes terser app.js -c -m -o app.min.js
+```
+
+7. Build the machine-readable catalog intended for LLM/tool agents.
 
 ```bash
 python scripts/build_agent_catalog.py
@@ -52,13 +64,13 @@ URLs, cached TDS text paths, exact specs, missing-field lists, and agent notes.
 Agents should treat missing fields as unavailable, not infer them from profile
 defaults.
 
-6. Normalize any Digi-Key electronics adhesive export into distributor/TDS leads.
+8. Normalize any Digi-Key electronics adhesive export into distributor/TDS leads.
 
 ```bash
 python scripts/import_digikey_adhesive_applicators.py
 ```
 
-7. Run the autonomous coverage audit and backlog report.
+9. Run the autonomous coverage audit and backlog report.
 
 ```bash
 python scripts/run_glue_autoresearch.py
@@ -71,6 +83,9 @@ This writes:
 - `data/mcmaster-site-summary.json`
 - `data/mcmaster-site-catalog.js`
 - `data/tds-manual-catalog.js`
+- `data/selector-catalog.json`
+- `data/selector-catalog.js`
+- `app.min.js`
 - `data/agent-catalog.json`
 - `data/autonomous-discovered-products.json`
 - `data/digikey-electronics-adhesives.json`
@@ -80,7 +95,7 @@ This writes:
 - `data/tds-extraction-suggestions.md`
 - `data/autonomous-results.tsv`
 
-8. Mine cached TDS text for reviewable field candidates when working the manual backlog.
+10. Mine cached TDS text for reviewable field candidates when working the manual backlog.
 
 ```bash
 python scripts/extract_tds_field_candidates.py
@@ -122,9 +137,10 @@ python scripts/tds_gap_queue.py --electronics-only --limit 25
 ## Verification
 
 ```bash
-python -m py_compile scripts/enrich_mcmaster_product_details.py scripts/build_mcmaster_site_catalog.py scripts/build_tds_manual_catalog.py scripts/build_agent_catalog.py scripts/discover_official_glue_products.py scripts/autonomous_glue_research.py scripts/mcmaster_glue_pipeline.py
+python -m py_compile scripts/enrich_mcmaster_product_details.py scripts/build_mcmaster_site_catalog.py scripts/build_tds_manual_catalog.py scripts/build_selector_catalog.py scripts/build_agent_catalog.py scripts/discover_official_glue_products.py scripts/autonomous_glue_research.py scripts/mcmaster_glue_pipeline.py
 python -m py_compile scripts/cache_tds_sources.py scripts/extract_tds_field_candidates.py scripts/import_mistral_ocr_result.py scripts/ocr_tds_with_mistral.py scripts/tds_gap_queue.py
 node --check app.js
+node --check app.min.js
 ```
 
 ## Autonomous loop

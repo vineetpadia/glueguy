@@ -9,7 +9,7 @@ window.MCMASTER_SITE_PRODUCTS = [
       "contact-lamination",
       "wood-paper-fabric"
     ],
-    "referenceUrl": "https://multimedia.3m.com/mws/media/2522931O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099.pdf",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
     "specUrl": "https://www.mcmaster.com/75285A68/",
     "serviceMin": -23,
     "serviceMax": 110,
@@ -33,15 +33,17 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Opaque",
       "sourceLabel": "McMaster 75285A68"
     },
-    "tdsUrl": "https://multimedia.3m.com/mws/media/2522931O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
     "sourceLabel": "TDS",
     "substrates": {
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -201,9 +203,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -223,7 +227,7 @@ window.MCMASTER_SITE_PRODUCTS = [
     "applicationTags": [
       "sealing-gasketing"
     ],
-    "referenceUrl": "https://multimedia.3m.com/mws/media/158851O/fast-cure-4000-uv-tech-data.pdf",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
     "specUrl": "https://www.mcmaster.com/67015A63",
     "serviceMin": -40,
     "serviceMax": 88,
@@ -243,7 +247,7 @@ window.MCMASTER_SITE_PRODUCTS = [
       "reach": "REACH (EC 1907/2006) (01/21/2025, 247 SVHC) Compliant",
       "sourceLabel": "McMaster 67015A63"
     },
-    "tdsUrl": "https://multimedia.3m.com/mws/media/158851O/fast-cure-4000-uv-tech-data.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
     "sourceLabel": "TDS",
     "substrates": {
       "aluminum": 10.0,
@@ -306,9 +310,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
     },
@@ -334,7 +340,7 @@ window.MCMASTER_SITE_PRODUCTS = [
       "contact-lamination",
       "wood-paper-fabric"
     ],
-    "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40069415/",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
     "specUrl": "https://www.mcmaster.com/75285A65/",
     "serviceMin": -23,
     "serviceMax": 110,
@@ -358,16 +364,19 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Clear",
       "sourceLabel": "McMaster 75285A65"
     },
-    "sourceLabel": "McMaster 75285A65",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
+    "sourceLabel": "TDS",
     "substrates": {
       "glass": 10.0,
       "ceramic": 10.0,
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -387,7 +396,7 @@ window.MCMASTER_SITE_PRODUCTS = [
     "applicationTags": [
       "contact-lamination"
     ],
-    "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40071871/",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
     "specUrl": "https://www.mcmaster.com/75285A69/",
     "serviceMin": -23,
     "serviceMax": 110,
@@ -412,13 +421,16 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Opaque",
       "sourceLabel": "McMaster 75285A69"
     },
-    "sourceLabel": "McMaster 75285A69",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
+    "sourceLabel": "TDS",
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "hdpe": 9.0
     },
@@ -586,9 +598,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "concrete": 10.0
     },
     "pricing": {
@@ -638,9 +652,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -696,9 +712,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -753,9 +771,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -867,9 +887,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
     },
@@ -892,7 +914,7 @@ window.MCMASTER_SITE_PRODUCTS = [
       "contact-lamination",
       "wood-paper-fabric"
     ],
-    "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40071864/",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610A36/",
     "serviceMin": -18,
     "serviceMax": 93,
@@ -914,7 +936,8 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Clear",
       "sourceLabel": "McMaster 7610A36"
     },
-    "sourceLabel": "McMaster 7610A36",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
+    "sourceLabel": "TDS",
     "substrates": {
       "fabric": 10.0,
       "leather": 10.0
@@ -1020,9 +1043,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -1049,7 +1074,7 @@ window.MCMASTER_SITE_PRODUCTS = [
       "contact-lamination",
       "wood-paper-fabric"
     ],
-    "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v100007170/",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610A37/",
     "serviceMin": -18,
     "serviceMax": 66,
@@ -1071,7 +1096,8 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Clear",
       "sourceLabel": "McMaster 7610A37"
     },
-    "sourceLabel": "McMaster 7610A37",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
+    "sourceLabel": "TDS",
     "substrates": {
       "aluminum": 10.0,
       "steel": 10.0,
@@ -1085,9 +1111,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -1150,9 +1178,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -1200,9 +1230,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -1256,9 +1288,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -1311,9 +1345,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -1367,9 +1403,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -1423,9 +1461,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -1447,7 +1487,7 @@ window.MCMASTER_SITE_PRODUCTS = [
     "applicationTags": [
       "contact-lamination"
     ],
-    "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40069424/",
+    "referenceUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610a39/",
     "potLife": 1.0,
     "fixtureTime": 1.0,
@@ -1465,7 +1505,8 @@ window.MCMASTER_SITE_PRODUCTS = [
       "clarity": "Clear",
       "sourceLabel": "McMaster 7610A39"
     },
-    "sourceLabel": "McMaster 7610A39",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
+    "sourceLabel": "TDS",
     "substrates": {
       "aluminum": 10.0,
       "steel": 10.0,
@@ -1474,9 +1515,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -1529,9 +1572,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -1588,9 +1633,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
     },
@@ -1643,9 +1690,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -1697,9 +1746,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -1765,9 +1816,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -1833,9 +1886,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 9.5
@@ -1902,9 +1957,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 9.5
@@ -2148,9 +2205,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "paper": 9.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -2202,9 +2261,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -2261,9 +2322,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -2319,9 +2382,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -2377,9 +2442,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -2433,9 +2500,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -2496,9 +2565,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2561,9 +2632,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2622,9 +2695,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2685,9 +2760,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2750,9 +2827,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2813,9 +2892,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2877,9 +2958,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -2941,9 +3024,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 9.5
     },
@@ -3006,9 +3091,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -3072,9 +3159,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3139,9 +3228,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3205,9 +3296,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3272,9 +3365,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3343,9 +3438,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5
     },
     "stress": {
@@ -3410,9 +3507,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5
     },
     "stress": {
@@ -3478,9 +3577,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3548,9 +3649,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -3611,9 +3714,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "hdpe": 9.0
     },
     "stress": {
@@ -3673,9 +3778,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "hdpe": 9.0
     },
     "stress": {
@@ -3738,9 +3845,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3808,9 +3917,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3876,9 +3987,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -3944,9 +4057,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -4008,9 +4123,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -4071,9 +4188,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5
     },
     "stress": {
@@ -4128,9 +4247,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -4185,9 +4306,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "hdpe": 9.0
     },
@@ -4242,9 +4365,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -4299,9 +4424,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -4356,9 +4483,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -4414,9 +4543,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "hdpe": 9.0
     },
@@ -4802,9 +4933,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -4861,9 +4994,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 8.0,
@@ -4928,9 +5063,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 8.0,
@@ -4995,9 +5132,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 8.0,
@@ -5064,9 +5203,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -5131,9 +5272,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -5318,9 +5461,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -5675,9 +5820,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -5728,9 +5875,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -5786,9 +5935,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 7.0,
       "petg": 10.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -6120,9 +6271,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5,
       "concrete": 10.0
     },
@@ -6188,9 +6341,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "concrete": 10.0
     },
     "stress": {
@@ -6255,9 +6410,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "concrete": 10.0
     },
     "stress": {
@@ -6317,9 +6474,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5
     },
     "environment": {
@@ -6390,9 +6549,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -6459,9 +6620,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "concrete": 10.0
     },
     "stress": {
@@ -6524,9 +6687,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
       "fr4": 8.0
@@ -6593,9 +6758,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
       "fr4": 8.0
@@ -6664,9 +6831,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
       "fr4": 8.0
@@ -6721,9 +6890,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 7.5
@@ -6770,9 +6941,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5
     },
     "pricing": {
@@ -6818,9 +6991,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5
     },
     "pricing": {
@@ -6873,9 +7048,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -6931,9 +7108,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5
     },
     "pricing": {
@@ -6979,9 +7158,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5,
       "hdpe": 9.0
     },
@@ -7028,9 +7209,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -7079,9 +7262,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5
     },
     "pricing": {
@@ -7129,9 +7314,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -7182,9 +7369,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -7236,9 +7425,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -7381,9 +7572,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
     },
@@ -7567,9 +7760,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 7.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5
@@ -7627,9 +7822,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -7681,9 +7878,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
     },
@@ -7840,9 +8039,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -7908,9 +8109,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -7976,9 +8179,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -8038,9 +8243,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "hdpe": 9.0
     },
     "stress": {
@@ -8098,9 +8305,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "hdpe": 9.0
     },
     "stress": {
@@ -8159,9 +8368,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
@@ -8372,9 +8583,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 9.5
     },
@@ -8672,9 +8885,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -8738,9 +8953,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -8876,9 +9093,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -8936,9 +9155,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -8996,9 +9217,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -9056,9 +9279,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -9115,9 +9340,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -9170,9 +9397,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -9225,9 +9454,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 9.5
@@ -9378,9 +9609,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 10.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -9447,9 +9680,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -9514,9 +9749,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -9582,9 +9819,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -9650,9 +9889,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -9786,9 +10027,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -9847,9 +10090,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 10.0
+      "petg": 10.0,
+      "polystyrene": 10.0
     },
     "stress": {
       "shear": 8.8
@@ -9914,9 +10159,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -9976,9 +10223,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10049,9 +10298,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10110,9 +10361,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10174,9 +10427,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10238,9 +10493,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -10308,9 +10565,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10374,9 +10633,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -10440,9 +10701,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -10495,9 +10758,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "concrete": 10.0
     },
     "pricing": {
@@ -10547,9 +10812,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 10.0
     },
@@ -10700,9 +10967,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -10862,9 +11131,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -10970,9 +11241,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -11033,9 +11306,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -11093,9 +11368,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12004,9 +12281,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "hdpe": 9.0
     },
@@ -12068,9 +12347,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -12125,9 +12406,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "peel": 9.0,
@@ -12185,9 +12468,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -12242,9 +12527,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -12299,9 +12586,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12358,9 +12647,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "peel": 9.0,
@@ -12417,9 +12708,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "peel": 9.0,
@@ -12477,9 +12770,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12538,9 +12833,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12598,9 +12895,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12661,9 +12960,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12721,9 +13022,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -12777,9 +13080,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12837,9 +13142,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -12894,9 +13201,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -12954,9 +13263,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -13015,9 +13326,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -13074,9 +13387,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -13233,9 +13548,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -13289,9 +13606,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "environment": {
@@ -13401,9 +13720,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -13456,9 +13777,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -13519,9 +13842,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -13579,9 +13904,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -13692,9 +14019,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -13756,9 +14085,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -13812,9 +14143,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -13868,9 +14201,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -13929,9 +14264,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -13987,9 +14324,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -14043,9 +14382,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14105,9 +14446,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14163,9 +14506,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -14220,9 +14565,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14278,9 +14625,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -14335,9 +14684,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14392,9 +14743,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14453,9 +14806,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14515,9 +14870,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14572,9 +14929,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14629,9 +14988,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14686,9 +15047,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -14742,9 +15105,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14800,9 +15165,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14861,9 +15228,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14923,9 +15292,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -14984,9 +15355,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15046,9 +15419,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0,
@@ -15099,9 +15474,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "hdpe": 9.0
     },
     "pricing": {
@@ -15155,9 +15532,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15217,9 +15596,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15275,9 +15656,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15338,9 +15721,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -15401,9 +15786,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15469,9 +15856,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15537,9 +15926,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15599,9 +15990,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15663,9 +16056,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0,
@@ -15729,9 +16124,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "hdpe": 9.0
     },
@@ -15786,9 +16183,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15850,9 +16249,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "leather": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -15909,9 +16310,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -15965,9 +16368,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16029,9 +16434,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16092,9 +16499,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16158,9 +16567,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5
     },
@@ -16219,9 +16630,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16277,9 +16690,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16335,9 +16750,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16393,9 +16810,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16455,9 +16874,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "environment": {
@@ -16515,9 +16936,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -16613,9 +17036,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -16682,9 +17107,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -16876,9 +17303,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -16988,9 +17417,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17405,9 +17836,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17466,9 +17899,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17529,9 +17964,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17595,9 +18032,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17658,9 +18097,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17722,9 +18163,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17786,9 +18229,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17849,9 +18294,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17912,9 +18359,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -17977,9 +18426,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "shear": 8.8
@@ -18044,9 +18495,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 9.5
     },
@@ -18110,9 +18563,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -18175,9 +18630,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -18245,9 +18702,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 9.5
     },
@@ -18309,9 +18768,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -18372,9 +18833,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "shear": 8.8
@@ -18435,9 +18898,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "carbonFiber": 8.5,
       "hdpe": 9.0
     },
@@ -18504,9 +18969,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -18591,9 +19058,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -18656,9 +19125,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -18715,9 +19186,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -18776,9 +19249,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -18886,9 +19361,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -19226,9 +19703,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 10.0
+      "petg": 10.0,
+      "polystyrene": 10.0
     },
     "stress": {
       "shear": 8.8
@@ -19290,9 +19769,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "shear": 8.8
@@ -19355,9 +19836,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "stress": {
       "shear": 8.8
@@ -19416,9 +19899,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "environment": {
@@ -19482,9 +19967,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -19537,9 +20024,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -19596,9 +20085,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -19696,9 +20187,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -19746,9 +20239,11 @@ window.MCMASTER_SITE_PRODUCTS = [
     "substrates": {
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
-      "petg": 7.0
+      "petg": 7.0,
+      "polystyrene": 7.0
     },
     "pricing": {
       "basis": "observed",
@@ -19800,9 +20295,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -19861,9 +20358,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -19922,9 +20421,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -19979,9 +20480,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20034,9 +20537,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20091,9 +20596,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20149,9 +20656,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20253,9 +20762,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -20309,9 +20820,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20362,9 +20875,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -20417,9 +20932,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -20474,9 +20991,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5,
@@ -20533,9 +21052,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "concrete": 9.5
@@ -20636,9 +21157,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5
     },
@@ -20696,9 +21219,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -20944,9 +21469,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -20996,9 +21523,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21048,9 +21577,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21100,9 +21631,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21155,9 +21688,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21210,9 +21745,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21265,9 +21802,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -21558,9 +22097,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21616,9 +22157,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21674,9 +22217,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21732,9 +22277,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21790,9 +22337,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21848,9 +22397,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21906,9 +22457,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -21963,9 +22516,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -22086,9 +22641,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -22191,9 +22748,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -22246,9 +22805,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -22311,9 +22872,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
@@ -22380,9 +22943,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
       "fr4": 8.0
@@ -22450,9 +23015,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0,
       "hdpe": 9.0,
@@ -22515,9 +23082,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -22571,9 +23140,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -22675,9 +23246,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -22738,9 +23311,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -22797,9 +23372,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 10.0,
       "polycarbonate": 7.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 8.5,
@@ -22856,9 +23433,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -22947,9 +23526,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "siliconeRubber": 9.5,
       "carbonFiber": 7.5,
@@ -23010,9 +23591,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "stress": {
@@ -23068,9 +23651,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -23128,9 +23713,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -23190,9 +23777,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -23293,9 +23882,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "ceramic": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "concrete": 9.5
     },
@@ -23344,9 +23935,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "copper": 7.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -23491,9 +24084,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "glass": 10.0,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 7.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -23546,9 +24141,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 10.0,
       "polycarbonate": 10.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 9.5
@@ -23603,9 +24200,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 7.0,
       "pvc": 10.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "concrete": 10.0
@@ -23754,9 +24353,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "fabric": 10.0,
       "abs": 7.0,
       "pvc": 7.0,
+      "cpvc": 7.0,
       "acrylic": 7.0,
       "polycarbonate": 7.0,
       "petg": 7.0,
+      "polystyrene": 7.0,
       "rubber": 10.0
     },
     "pricing": {
@@ -24054,9 +24655,11 @@ window.MCMASTER_SITE_PRODUCTS = [
       "mdf": 8.5,
       "abs": 10.0,
       "pvc": 10.0,
+      "cpvc": 10.0,
       "acrylic": 7.0,
       "polycarbonate": 10.0,
       "petg": 10.0,
+      "polystyrene": 10.0,
       "rubber": 10.0,
       "carbonFiber": 8.5,
       "fr4": 8.0
@@ -24162,9 +24765,9 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleForJoining": "Fabric, Foam, Plastic, Rubber",
     "sampleForUseOn": "ABS, CPVC, PETG, Polycarbonate, Polyimide, Polystyrene, PVC, PVDF, Vinyl Plastic, Foam, Polyurethane Rubber, Fabric",
     "sourceLabel": "TDS",
-    "sourceUrl": "https://multimedia.3m.com/mws/media/2522931O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099.pdf",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
     "specUrl": "https://www.mcmaster.com/75285A68/",
-    "tdsUrl": "https://multimedia.3m.com/mws/media/2522931O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099.pdf"
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf"
   },
   {
     "id": "3m_1357",
@@ -24319,9 +24922,9 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleForJoining": "MetalMetal to Composites Composites Wood",
     "sampleForUseOn": "Aluminum, Brass, Bronze, Copper, Stainless Steel, Steel, Titanium, Cast Iron, Fiberglass, Wood",
     "sourceLabel": "TDS",
-    "sourceUrl": "https://multimedia.3m.com/mws/media/158851O/fast-cure-4000-uv-tech-data.pdf",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
     "specUrl": "https://www.mcmaster.com/67015A63",
-    "tdsUrl": "https://multimedia.3m.com/mws/media/158851O/fast-cure-4000-uv-tech-data.pdf"
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf"
   },
   {
     "id": "3m_polyurethane_4200_fc",
@@ -24381,10 +24984,10 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleConsistency": "Thick Liquid",
     "sampleForJoining": "Ceramic, Fabric, Glass, Plastic, Rubber",
     "sampleForUseOn": "ABS, CPVC, PETG, Polycarbonate, Polyimide, Polystyrene, PVC, PVDF, Vinyl Plastic, Polyurethane Rubber, Ceramic, Glass, Fabric",
-    "sourceLabel": "McMaster 75285A65",
-    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40069415/",
+    "sourceLabel": "TDS",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
     "specUrl": "https://www.mcmaster.com/75285A65/",
-    "tdsUrl": ""
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf"
   },
   {
     "id": "3m_4693",
@@ -24412,10 +25015,10 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleConsistency": "Thin Liquid",
     "sampleForJoining": "Plastic, Rubber",
     "sampleForUseOn": "ABS, CPVC, PETG, Polycarbonate, Polyethylene, Polyimide, Polypropylene, Polystyrene, PVC, PVDF, Polyurethane Rubber",
-    "sourceLabel": "McMaster 75285A69",
-    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071871/",
+    "sourceLabel": "TDS",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
     "specUrl": "https://www.mcmaster.com/75285A69/",
-    "tdsUrl": ""
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf"
   },
   {
     "id": "3m_polyurethane_5200",
@@ -24726,10 +25329,10 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleConsistency": null,
     "sampleForJoining": "Fabric, Foam",
     "sampleForUseOn": "Foam, Fabric, Leather",
-    "sourceLabel": "McMaster 7610A36",
-    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071864/",
+    "sourceLabel": "TDS",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610A36/",
-    "tdsUrl": ""
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf"
   },
   {
     "id": "3m_74ca",
@@ -24823,10 +25426,10 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleConsistency": null,
     "sampleForJoining": "Cardboard, Ceramic, Composite, Fabric, Foam, Glass, Metal, Plastic, Rubber, Wood",
     "sampleForUseOn": "ABS, Acrylic Plastic, CPVC, HDPE, LDPE, Nylon, PEEK, PETG, Polycarbonate, Polyimide, Polystyrene, PVC, PVDF, UHMW Polyethylene, Aluminum, Brass, Bronze, Cast Iron, Copper, Iron, Stainless Steel, Steel, Titanium, Foam, Polyurethane Rubber, Composite, Fiberglass, Laminate, Ceramic, Glass, Wood, Cork, Fabric, Leather, Cardboard",
-    "sourceLabel": "McMaster 7610A37",
-    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/v100007170/",
+    "sourceLabel": "TDS",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610A37/",
-    "tdsUrl": ""
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf"
   },
   {
     "id": "3m_77ca",
@@ -25042,10 +25645,10 @@ window.MCMASTER_REFERENCE_FAMILIES = [
     "sampleConsistency": null,
     "sampleForJoining": "Ceramic, Composite, Glass, Metal, Plastic, Rubber",
     "sampleForUseOn": "ABS, Acrylic Plastic, CPVC, HDPE, LDPE, Nylon, PEEK, PETG, Polycarbonate, Polyethylene, Polyimide, Polypropylene, Polystyrene, PTFE, PVC, PVDF, UHMW Polyethylene, Aluminum, Brass, Bronze, Cast Iron, Copper, Iron, Stainless Steel, Steel, Titanium, SBR, Composite, Fiberglass, Laminate, Ceramic, Glass",
-    "sourceLabel": "McMaster 7610A39",
-    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40069424/",
+    "sourceLabel": "TDS",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
     "specUrl": "https://www.mcmaster.com/7610a39/",
-    "tdsUrl": ""
+    "tdsUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf"
   },
   {
     "id": "3m_90ca",
@@ -39905,5 +40508,5 @@ window.MCMASTER_PIPELINE_STATS = {
   "pagesCrawled": 130,
   "leafPages": 125,
   "detailPages": 873,
-  "tdsFamilies": 293
+  "tdsFamilies": 298
 };

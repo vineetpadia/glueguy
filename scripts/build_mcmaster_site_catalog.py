@@ -53,6 +53,8 @@ SELECTOR_CATEGORY_HINTS = (
     "conductive adhesive",
     "electrically insulating adhesive",
     "anchoring adhesive",
+    "solvent cement",
+    "plastic cement",
 )
 
 SKIP_SELECTOR_HINTS = (
@@ -78,6 +80,11 @@ PROFILE_CATEGORY_KEYWORDS = {
     "rtvSilicone": ("gasket maker", "silicone sealant"),
     "polyurethaneSealant": ("structural sealant", "sealants", "roof joint sealant", "concrete joint sealant", "hvac sealant"),
     "thermalEpoxy": ("potting compound", "conductive adhesive", "electrically insulating adhesive"),
+    "solventPolycarbonate": ("polycarbonate solvent cement", "polycarbonate cement"),
+    "solventCPVC": ("cpvc solvent cement", "cpvc cement"),
+    "solventABSStyrene": ("abs solvent cement", "abs cement", "styrene cement"),
+    "solventAcrylic": ("acrylic solvent cement", "acrylic plastic cement"),
+    "solventPVC": ("pvc solvent cement", "pvc cement"),
 }
 
 PROFILE_APPLICATION_TAGS = {
@@ -105,6 +112,10 @@ PROFILE_APPLICATION_TAGS = {
     "thermalEpoxy": ["potting-thermal"],
     "solventAcrylic": ["solvent-welding"],
     "solventPVC": ["solvent-welding"],
+    "solventCPVC": ["solvent-welding"],
+    "solventABSStyrene": ["solvent-welding"],
+    "solventPolycarbonate": ["solvent-welding"],
+    "solventMultiPlastic": ["solvent-welding"],
     "constructionAdhesive": ["construction"],
     "industrialClear": ["general-repair"],
     "fabricAdhesive": ["wood-paper-fabric"],
@@ -127,15 +138,21 @@ MATERIAL_TOKEN_MAP = {
     "plastic": {
         "abs": 7.0,
         "pvc": 7.0,
+        "cpvc": 7.0,
         "acrylic": 7.0,
         "polycarbonate": 7.0,
         "petg": 7.0,
+        "polystyrene": 7.0,
     },
     "abs": {"abs": 10.0},
     "pvc": {"pvc": 10.0},
+    "cpvc": {"cpvc": 10.0},
     "acrylic": {"acrylic": 10.0},
     "polycarbonate": {"polycarbonate": 10.0},
     "petg": {"petg": 10.0},
+    "polystyrene": {"polystyrene": 10.0},
+    "styrene": {"polystyrene": 10.0},
+    "hips": {"polystyrene": 9.5},
     "rubber": {"rubber": 10.0},
     "silicone": {"siliconeRubber": 9.5},
     "composite": {"carbonFiber": 8.5},

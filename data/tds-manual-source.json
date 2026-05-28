@@ -55039,6 +55039,12 @@
         "sewerPipe": 9,
         "conduit": 8
       },
+      "compatibleMaterialPairs": [
+        [
+          "pvc",
+          "pvc"
+        ]
+      ],
       "cautions": [
         "Not for systems using or being tested by compressed air or gases.",
         "At temperatures outside 40-110 F, special care is required to make good joints.",
@@ -55082,7 +55088,7 @@
       "fixtureTime": 25,
       "workingTimeMinutes": 20,
       "ultimateBondStrengthHours": 72,
-      "viscosityClass": "medium syrup",
+      "viscosityClass": "medium",
       "viscosityValue": 800,
       "viscosityUnit": "cps +/- 200 at 73 F",
       "specificGravity": 0.934,
@@ -55163,6 +55169,16 @@
         "vinyl": 10,
         "electricalAssemblies": 7
       },
+      "compatibleMaterialPairs": [
+        [
+          "pvc",
+          "pvc"
+        ],
+        [
+          "abs",
+          "abs"
+        ]
+      ],
       "cautions": [
         "Use only with adequate ventilation; product is flammable and solvent vapors are hazardous.",
         "Some molded and extruded parts may require special priming; verify by test.",
@@ -55177,6 +55193,858 @@
       "referenceSampleType": "Clear medium-bodied syrupy solvent cement",
       "referenceSampleConsistency": "800 +/- 200 cps; SG 0.934 +/- 0.01; working time 20 min; fixture time 25 min; ultimate bond strength 72 h; 3 year shelf life",
       "referenceForJoining": "Rigid PVC and foamed PVC display, sign, lighting, houseware, container, toy, electrical/electronic assembly and decorator-item fabrication"
+    },
+    {
+      "id": "weldon-4052",
+      "profile": "solventMultiPlastic",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Weld-On 4052",
+      "summary": "Clear medium-bodied fast-set low-VOC multi-purpose solvent cement for PVC, CPVC, foamed PVC, ABS, acrylic, styrene, polycarbonate and Noryl to themselves and to each other, with 15 min working time and 20-25 min fixture time.",
+      "sourceRevisionDate": "IPS Adhesives Weld-On 4052 Technical Data Sheet, 01/20",
+      "chemistry": "Low-VOC multi-purpose solvent cement",
+      "cureFamily": "Multi-plastic solvent cement / solvent weld",
+      "cureDetail": "Apply to clean well-fitting parts with brush, polyethylene squeeze bottle or other suitable applicator. Assemble while wet; if applied to one surface, bring surfaces together briefly to soften the dry surface before final assembly.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.2,
+      "potLife": 15,
+      "fixtureTime": 25,
+      "workingTimeMinutes": 15,
+      "ultimateBondStrengthHours": 72,
+      "viscosityClass": "medium",
+      "viscosityValue": 500,
+      "viscosityUnit": "cps +/- 100 at 73 F",
+      "specificGravity": 0.955,
+      "shelfLifeMonths": 24,
+      "thermalConductivity": null,
+      "lapShear": 4.14,
+      "lapShearSubstrate": "PVC and ABS aged bond strength at 24 h from IPS Weld-On 4052 TDS, 600 psi converted to 4.14 MPa.",
+      "shearStrengthsPsi": {
+        "pvc2h": 260,
+        "pvc24h": 600,
+        "pvc1week": 1200,
+        "abs2h": 200,
+        "abs24h": 600,
+        "abs1week": 1200
+      },
+      "clarity": "transparent",
+      "dryColor": "Clear, slight amber in container",
+      "applicationTags": [
+        "multi-plastic-solvent-cement",
+        "petg-solvent-cement",
+        "pvc-solvent-cement",
+        "cpvc-solvent-cement",
+        "abs-solvent-cement",
+        "acrylic-solvent-cement",
+        "styrene-solvent-cement",
+        "polycarbonate-solvent-cement",
+        "medium-body",
+        "fast-set",
+        "low-voc",
+        "clear",
+        "sign-fabrication",
+        "display-assembly"
+      ],
+      "stress": {
+        "shear": 4.8,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.6,
+        "fuel": 0.15,
+        "immersion": 0.35
+      },
+      "substrates": {
+        "pvc": 8,
+        "cpvc": 8,
+        "abs": 8,
+        "acrylic": 8,
+        "polystyrene": 8,
+        "polycarbonate": 8,
+        "petg": 8,
+        "foamedPvc": 8,
+        "noryl": 7
+      },
+      "compatibleMaterialPairs": [
+        [
+          "pvc",
+          "pvc"
+        ],
+        [
+          "cpvc",
+          "cpvc"
+        ],
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "polystyrene",
+          "polystyrene"
+        ],
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ],
+        [
+          "petg",
+          "petg"
+        ],
+        [
+          "abs",
+          "petg"
+        ],
+        [
+          "polycarbonate",
+          "petg"
+        ],
+        [
+          "pvc",
+          "cpvc"
+        ]
+      ],
+      "flammable": true,
+      "containsMek": true,
+      "cautions": [
+        "The TDS states 4052 bonds many listed plastics to themselves and each other, but actual dissimilar-pair performance should still be tested.",
+        "Flammable fast-evaporating hazardous solvent cement; use only with adequate ventilation and PPE per TDS/SDS.",
+        "Keep away from heat, sparks, open flame and direct sunlight; store at 40-110 F / 5-43 C.",
+        "Evaporation thickens the cement and reduces effectiveness."
+      ],
+      "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/vinyls-pvc-cpvc/ips_weld-on_4052_TDS_0120.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/product-literature/product-data-sheets/",
+        "https://plastic-craft.com/content/TDS/Weld-On/ips_weld-on_4052_TDS_0120.pdf"
+      ],
+      "referenceCategory": "Multi-Plastic Fabrication Solvent Cements",
+      "referenceSampleType": "Clear medium-bodied fast-set low-VOC multi-purpose solvent cement",
+      "referenceSampleConsistency": "500 +/- 100 cps; 15 min working time; 20-25 min fixture time; SG 0.955 +/- 0.01; 72 h ultimate bond strength",
+      "referenceForJoining": "PVC, CPVC, foamed PVC, ABS, acrylic, styrene, polycarbonate, Noryl and other listed plastics to themselves and each other in sign, display and plastic fabrication",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "weldon-55-polycarbonate-petg",
+      "profile": "structuralPolyurethane",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Weld-On 55",
+      "summary": "Clear VOC-free two-component reactive polyurethane adhesive for polycarbonate, PETG, ABS, PVC, buffed acrylic, butyrate, polyurethane and foam board, with 5-6 min working time and 1-2 h fixture time.",
+      "sourceRevisionDate": "IPS Adhesives Weld-On 55 Technical Data Sheet, 01/20",
+      "chemistry": "VOC-free two-component reactive polyurethane adhesive",
+      "cureFamily": "Two-part reactive polyurethane",
+      "cureDetail": "Twin-syringe 1:1 mix-ratio adhesive dispensed through a static mixer. Mixed adhesive polymerizes at room temperature to form high-strength bonds within a few hours; gel time is 10 min for a 50 g mass.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.5,
+      "potLife": 6,
+      "fixtureTime": 120,
+      "workingTimeMinutes": 6,
+      "tackFreeTimeMinutes": 60,
+      "timeTo80PctStrengthHours": 72,
+      "viscosityClass": "medium",
+      "viscosityValue": 3000,
+      "viscosityUnit": "cps +/- 1000 at 73 F",
+      "mixRatio": "1:1",
+      "vocFree": true,
+      "thermalConductivity": null,
+      "lapShear": 18.27,
+      "lapShearSubstrate": "Polycarbonate aged bond strength at 72 h from IPS Weld-On 55 TDS, 2650 psi converted to 18.27 MPa; PETG 72 h is 2350 psi and ABS 72 h is 2300 psi.",
+      "shearStrengthsPsi": {
+        "abs24h": 2150,
+        "abs72h": 2300,
+        "abs1week": 2500,
+        "petg24h": 1600,
+        "petg72h": 2350,
+        "petg1week": 2400,
+        "polycarbonate24h": 1950,
+        "polycarbonate72h": 2650,
+        "polycarbonate1week": 2900
+      },
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "applicationTags": [
+        "structural-bonding",
+        "plastic-fabrication",
+        "polycarbonate-bonding",
+        "petg-bonding",
+        "abs-to-petg",
+        "voc-free",
+        "clear",
+        "two-component",
+        "sign-assembly",
+        "channel-letters"
+      ],
+      "stress": {
+        "shear": 7.5,
+        "peel": 5.5,
+        "impact": 7
+      },
+      "environment": {
+        "humidity": 0.75,
+        "fuel": 0.25,
+        "immersion": 0.45
+      },
+      "substrates": {
+        "polycarbonate": 10,
+        "petg": 10,
+        "abs": 9,
+        "pvc": 8,
+        "acrylic": 7,
+        "butyrate": 8,
+        "polyurethane": 8,
+        "foamBoard": 8
+      },
+      "compatibleMaterialPairs": [
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ],
+        [
+          "petg",
+          "petg"
+        ],
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "abs",
+          "petg"
+        ],
+        [
+          "polycarbonate",
+          "petg"
+        ],
+        [
+          "polycarbonate",
+          "acrylic"
+        ],
+        [
+          "polycarbonate",
+          "pvc"
+        ]
+      ],
+      "cautions": [
+        "This is a reactive two-part polyurethane adhesive, not a solvent-welding cement.",
+        "Prepare cartridge, gun and mixing tip before dispensing; keep away from heat, flame, sparks, sunlight and moisture.",
+        "Short working time: 5-6 minutes at 73 F."
+      ],
+      "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/polycarbonate/ips_weld-on_55_TDS_0120.pdf",
+      "supportingReferenceUrls": [
+        "https://assemblyadhesives.com/products/polycarbonate/weld-on-55/"
+      ],
+      "referenceCategory": "Polycarbonate and PETG Reactive Plastic Fabrication Adhesives",
+      "referenceSampleType": "Clear two-component VOC-free reactive polyurethane adhesive",
+      "referenceSampleConsistency": "3000 +/- 1000 cps; 5-6 min working time; 1-2 h fixture time; 1 h tack-free at 0.05 in film; 1:1 twin-syringe cartridge",
+      "referenceForJoining": "Polycarbonate, cellulose acetate butyrate, PETG, buffed acrylic, ABS, PVC, polyurethane and foam board to themselves and one another, especially sign/channel-letter fabrication",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "weldon-714-cpvc",
+      "profile": "solventCPVC",
+      "maker": "Weld-On",
+      "name": "Weld-On 714 CPVC",
+      "summary": "Heavy-bodied medium-setting low-VOC CPVC solvent cement for all classes and schedules of CPVC pipe and fittings through 12 in interference fit, for cold and hot water systems up to 180 F / 82 C.",
+      "sourceRevisionDate": "Weld-On 714 Product Data Sheet, 08/2018",
+      "chemistry": "Low-VOC CPVC solvent cement with CPVC resin",
+      "cureFamily": "CPVC solvent cement / solvent weld",
+      "cureDetail": "Heavy-bodied, medium-setting CPVC solvent cement for interference-fit CPVC pipe and fittings. Follow pipe/fitting manufacturer instructions, primer requirements and Weld-On container label cure directions.",
+      "serviceMin": null,
+      "serviceMax": 82,
+      "gapFill": 0.5,
+      "potLife": 3,
+      "fixtureTime": 15,
+      "viscosityClass": "high",
+      "viscosityValue": 1600,
+      "viscosityUnit": "minimum cps Brookfield",
+      "specificGravity": 0.995,
+      "shelfLifeMonths": 42,
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The 714 PDS does not publish lap-shear or bond-strength values; it publishes pipe/fitting scope, standards, viscosity, specific gravity and 180 F service application.",
+      "clarity": "opaque",
+      "dryColor": "Orange or gray",
+      "applicationTags": [
+        "cpvc-solvent-cement",
+        "heavy-body",
+        "medium-set",
+        "low-voc",
+        "hot-water",
+        "industrial-piping",
+        "potable-water",
+        "pressure-pipe",
+        "dwv",
+        "sewer",
+        "schedule-80",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 5.8,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.75,
+        "fuel": 0.2,
+        "immersion": 0.58
+      },
+      "substrates": {
+        "cpvc": 10,
+        "cpvcPipe": 10,
+        "cpvcFittings": 10,
+        "schedule80Cpvc": 10
+      },
+      "compatibleMaterialPairs": [
+        [
+          "cpvc",
+          "cpvc"
+        ]
+      ],
+      "cautions": [
+        "Never use Weld-On solvent cements in PVC piping systems using or being tested by compressed air or gases, including air-over-water boosters.",
+        "Do not use in conjunction with flue gas ventilation systems.",
+        "Do not add solvents; adding solvents is not recommended and may significantly change cement properties.",
+        "Review the instructions supplied by the pipe and fitting manufacturer."
+      ],
+      "referenceUrl": "https://weldon.com/wp-content/uploads/2018/09/714-PDS-08-2018.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/products/714-cpvc/"
+      ],
+      "referenceCategory": "CPVC Pipe Solvent Cements",
+      "referenceSampleType": "Orange or gray heavy-bodied medium-setting low-VOC CPVC solvent cement",
+      "referenceSampleConsistency": "Minimum 1600 cps Brookfield; SG 0.995 +/- 0.04; orange 3.5 year shelf life, gray 2 year shelf life; CPVC pipe and fittings through 12 in interference fit",
+      "referenceForJoining": "All classes and schedules of CPVC pipe and fittings through 12 in interference fit, including Schedule 80, for cold and hot water systems up to 180 F / 82 C",
+      "unpublishedFields": [
+        "serviceMin",
+        "lapShear",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "weldon-724-cpvc-industrial",
+      "profile": "solventCPVC",
+      "maker": "Weld-On",
+      "name": "Weld-On 724 CPVC Industrial",
+      "summary": "Industrial-grade heavy-bodied medium-setting low-VOC CPVC solvent cement for CPVC pipe and fittings through 12 in interference fit, also recommended for PVC industrial chemical piping systems.",
+      "sourceRevisionDate": "Weld-On 724 Product Data Sheet, 10/2016",
+      "chemistry": "Industrial-grade low-VOC CPVC solvent cement with CPVC resin",
+      "cureFamily": "Industrial CPVC solvent cement / solvent weld",
+      "cureDetail": "Heavy-bodied, medium-setting solvent cement for interference-fit CPVC pipe/fittings and selected PVC industrial piping systems. Follow pipe/fitting manufacturer instructions, primer requirements and Weld-On container label cure directions.",
+      "serviceMin": null,
+      "serviceMax": 82,
+      "gapFill": 0.5,
+      "potLife": 3,
+      "fixtureTime": 15,
+      "viscosityClass": "high",
+      "viscosityValue": 1600,
+      "viscosityUnit": "minimum cps Brookfield at 73 F",
+      "specificGravity": 0.984,
+      "shelfLifeMonths": 24,
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The 724 PDS does not publish lap-shear or bond-strength values; it publishes pipe/fitting scope, chemical-service positioning, viscosity and specific gravity.",
+      "clarity": "opaque",
+      "dryColor": "Orange or gray",
+      "applicationTags": [
+        "cpvc-solvent-cement",
+        "industrial-grade",
+        "heavy-body",
+        "medium-set",
+        "low-voc",
+        "chemical-resistant",
+        "hypochlorite",
+        "mineral-acids",
+        "aggressive-water",
+        "aqueous-salts",
+        "corzan",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 5.8,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.8,
+        "fuel": 0.25,
+        "immersion": 0.65
+      },
+      "substrates": {
+        "cpvc": 10,
+        "cpvcPipe": 10,
+        "cpvcFittings": 10,
+        "pvc": 8,
+        "industrialPvcPipe": 8,
+        "schedule80Cpvc": 10
+      },
+      "compatibleMaterialPairs": [
+        [
+          "cpvc",
+          "cpvc"
+        ],
+        [
+          "pvc",
+          "pvc"
+        ]
+      ],
+      "cautions": [
+        "Never use Weld-On solvent cements in PVC or CPVC piping systems using or being tested by compressed air or gases, including air-over-water boosters.",
+        "Do not use in conjunction with flue gas ventilation systems.",
+        "Do not add solvents; adding solvents is not recommended and may significantly change cement properties.",
+        "The PDS positions 724 for industrial chemical piping; validate pipe-system compatibility and approval before specifying."
+      ],
+      "referenceUrl": "https://weldon.com/wp-content/uploads/2015/03/724-PDS-10-2016-1.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/products/724-cpvc/"
+      ],
+      "referenceCategory": "Industrial CPVC Pipe Solvent Cements",
+      "referenceSampleType": "Orange or gray industrial-grade heavy-bodied medium-setting low-VOC CPVC solvent cement",
+      "referenceSampleConsistency": "Minimum 1600 cps Brookfield at 73 F; SG 0.984 +/- 0.04; 2 year shelf life; CPVC pipe and fittings through 12 in interference fit",
+      "referenceForJoining": "Industrial CPVC pipe and fittings through 12 in interference fit for chemical-resistant piping, plus PVC industrial piping systems for chemical applications",
+      "unpublishedFields": [
+        "serviceMin",
+        "lapShear",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "oatey-all-purpose-abs-pvc-cpvc",
+      "profile": "solventCPVC",
+      "maker": "Oatey",
+      "name": "All-Purpose ABS, PVC and CPVC Cement",
+      "summary": "Medium-bodied fast-set clear all-purpose solvent cement for ABS, PVC and CPVC pipe and fittings up to 6 in interference fit, including potable water, pressure pipe, conduit and DWV applications.",
+      "sourceRevisionDate": "Oatey official product page accessed 2026-05-27",
+      "chemistry": "All-purpose ABS/PVC/CPVC solvent cement",
+      "cureFamily": "All-purpose pipe solvent cement / solvent weld",
+      "cureDetail": "Use on compatible ABS, PVC or CPVC pipe and fittings with interference fit per Oatey instructions and applicable code/primer requirements. Product page lists recommended application temperature of 40-110 F / 4-43 C.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.35,
+      "potLife": 3,
+      "fixtureTime": 5,
+      "viscosityClass": "medium",
+      "thermalConductivity": null,
+      "lapShearSubstrate": "Official Oatey product page does not publish lap-shear or bond-strength values; it publishes pipe/fitting scope and application temperature.",
+      "clarity": "transparent",
+      "dryColor": "Milky clear in can; dries clear in a thin film",
+      "applicationTags": [
+        "all-purpose-solvent-cement",
+        "abs-solvent-cement",
+        "pvc-solvent-cement",
+        "cpvc-solvent-cement",
+        "medium-body",
+        "fast-set",
+        "clear",
+        "potable-water",
+        "pressure-pipe",
+        "conduit",
+        "dwv",
+        "irrigation",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 5.5,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.75,
+        "fuel": 0.2,
+        "immersion": 0.55
+      },
+      "substrates": {
+        "abs": 9,
+        "pvc": 9,
+        "cpvc": 9,
+        "absPipe": 9,
+        "pvcPipe": 9,
+        "cpvcPipe": 9
+      },
+      "compatibleMaterialPairs": [
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "pvc",
+          "pvc"
+        ],
+        [
+          "cpvc",
+          "cpvc"
+        ]
+      ],
+      "cautions": [
+        "All-purpose pipe cement is not the same as transition cement; do not assume it is approved for ABS-to-PVC transition joints.",
+        "Use only within code-listed pipe systems and follow Oatey instructions, primer requirements and cure schedules.",
+        "Product page lists 40-110 F / 4-43 C recommended application temperature."
+      ],
+      "referenceUrl": "https://www.oatey.com/products/P_038753315782/oatey-all-purpose-cement?upc=038753308180",
+      "referenceCategory": "All-Purpose Pipe Solvent Cements",
+      "referenceSampleType": "Medium-bodied fast-set clear all-purpose ABS/PVC/CPVC solvent cement",
+      "referenceSampleConsistency": "Medium viscosity; recommended application temperature 40-110 F / 4-43 C; dries clear in a thin film; pipe/fittings up to 6 in interference fit",
+      "referenceForJoining": "All schedules and classes of ABS, PVC and CPVC pipe and fittings up to 6 in diameter with interference fit for potable water, pressure pipe, conduit, DWV and irrigation applications",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "oatey-abs-pvc-transition-green",
+      "profile": "solventMultiPlastic",
+      "maker": "Oatey",
+      "name": "ABS to PVC Transition Green Cement",
+      "summary": "Medium-bodied fast-set green transition solvent cement for joining non-pressure ABS to non-pressure PVC pipe and fittings up to 6 in diameter in DWV, sewer and drain systems.",
+      "sourceRevisionDate": "Oatey Commercial Catalog LCS1146, 01/24/2020",
+      "chemistry": "ABS-to-PVC transition solvent cement",
+      "cureFamily": "ABS/PVC transition solvent cement / solvent weld",
+      "cureDetail": "Use only for permitted non-pressure ABS-to-PVC transition joints in sewer, drain, waste and vent systems. Verify local plumbing code approval before chemically joining dissimilar ABS/PVC materials.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.35,
+      "potLife": 3,
+      "fixtureTime": 5,
+      "viscosityClass": "medium",
+      "vocContentGPerL": 510,
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The Oatey catalog/submittal data does not publish lap-shear or bond-strength values for transition cement; it publishes scope, standards and VOC.",
+      "clarity": "translucent",
+      "dryColor": "Green",
+      "standards": [
+        "ASTM D3138",
+        "NSF Standard 61 for DWV and Sewer Waste",
+        "IAPMO Listed",
+        "SCAQMD Rule 1168",
+        "OTC VOC regulations"
+      ],
+      "applicationTags": [
+        "abs-pvc-transition-cement",
+        "transition-solvent-cement",
+        "abs-solvent-cement",
+        "pvc-solvent-cement",
+        "medium-body",
+        "fast-set",
+        "green",
+        "dwv",
+        "sewer",
+        "drain",
+        "non-pressure",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 4.5,
+        "peel": 1,
+        "impact": 1
+      },
+      "environment": {
+        "humidity": 0.65,
+        "fuel": 0.15,
+        "immersion": 0.45
+      },
+      "substrates": {
+        "abs": 9,
+        "pvc": 9,
+        "absPipe": 9,
+        "pvcPipe": 9
+      },
+      "compatibleMaterialPairs": [
+        [
+          "abs",
+          "pvc"
+        ]
+      ],
+      "pipeCodeWarning": true,
+      "flammable": true,
+      "cautions": [
+        "Some plumbing codes prohibit chemically joining ABS and PVC; verify with local building officials that transition cement is permitted.",
+        "Recommended only for solvent welding non-pressure ABS to non-pressure PVC pipe and fittings up to 6 in diameter.",
+        "Not for systems using or being tested by compressed air or gases.",
+        "This is transition cement, not a general all-purpose plastic fabrication cement."
+      ],
+      "referenceUrl": "https://www.oatey.com/sites/default/files/LCS1146_CommercialCatalog_012420.pdf",
+      "supportingReferenceUrls": [
+        "https://www.ussupply.com/4-oz-abs-to-pvc-transition-cement-1943342.html"
+      ],
+      "referenceCategory": "ABS-to-PVC Transition Pipe Solvent Cements",
+      "referenceSampleType": "Green medium-bodied fast-set ABS-to-PVC transition solvent cement",
+      "referenceSampleConsistency": "Medium body, fast cement; green; maximum VOC 510 g/L; product numbers include 30900 4 oz and 30925 16 oz",
+      "referenceForJoining": "Non-pressure ABS pipe/fittings to non-pressure PVC pipe/fittings up to 6 in diameter for sewer, drain, waste and vent systems where local code permits chemical transition cement",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity",
+        "viscosityValue"
+      ]
+    },
+    {
+      "id": "oatey-abs-medium-black",
+      "profile": "solventABSStyrene",
+      "maker": "Oatey",
+      "name": "ABS Medium Black Cement",
+      "summary": "Medium-bodied black ABS solvent cement for all schedules and classes of ABS pipe and fittings up to 8 in diameter with interference fit, intended for non-pressure applications.",
+      "sourceRevisionDate": "Oatey Product Catalog LCS911I, 04/06/2020",
+      "chemistry": "ABS solvent cement with ABS resin and solvent carrier",
+      "cureFamily": "ABS solvent cement / solvent weld",
+      "cureDetail": "Apply to ABS pipe and fittings with interference fit according to Oatey solvent-welding instructions. Product catalog positions this cement for all non-pressure ABS applications.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.35,
+      "potLife": 5,
+      "fixtureTime": 6,
+      "viscosityClass": "medium",
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The Oatey catalog does not publish lap-shear or bond-strength values for ABS Medium Black Cement; it publishes pipe/fitting scope and standards.",
+      "clarity": "opaque",
+      "dryColor": "Black",
+      "standards": [
+        "ASTM D2235",
+        "California SCAQMD 1168/316A"
+      ],
+      "applicationTags": [
+        "abs-solvent-cement",
+        "abs-pipe-cement",
+        "medium-body",
+        "black",
+        "non-pressure",
+        "dwv",
+        "sewer",
+        "drain",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 4.5,
+        "peel": 1,
+        "impact": 1
+      },
+      "environment": {
+        "humidity": 0.6,
+        "fuel": 0.15,
+        "immersion": 0.4
+      },
+      "substrates": {
+        "abs": 10,
+        "absPipe": 10,
+        "absFittings": 10
+      },
+      "compatibleMaterialPairs": [
+        [
+          "abs",
+          "abs"
+        ]
+      ],
+      "pipeCodeWarning": true,
+      "flammable": true,
+      "containsMek": true,
+      "cautions": [
+        "For all non-pressure ABS applications; do not treat it as PVC or ABS-to-PVC transition cement.",
+        "Recommended application temperature is 40-110 F / 4-43 C.",
+        "Use only where ABS pipe cement is code-appropriate and follow pipe/fitting manufacturer instructions.",
+        "Flammable solvent cement; follow SDS ventilation/PPE and ignition-control requirements."
+      ],
+      "referenceUrl": "https://www.oatey.com/sites/default/files/2020-04/Oatey2020Catalog_LCS911I_LR_040620_WEB.pdf",
+      "referenceCategory": "ABS Pipe Solvent Cements",
+      "referenceSampleType": "Medium-bodied black ABS solvent cement",
+      "referenceSampleConsistency": "Medium-bodied black cement; ABS pipe/fittings up to 8 in diameter with interference fit; recommended application temperature 40-110 F / 4-43 C",
+      "referenceForJoining": "All schedules and classes of ABS pipe and fittings up to 8 in diameter with interference fit for non-pressure ABS applications",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity",
+        "viscosityValue"
+      ]
+    },
+    {
+      "id": "weldon-771-abs",
+      "profile": "solventABSStyrene",
+      "maker": "Weld-On",
+      "name": "Weld-On 771 ABS",
+      "summary": "Milky or yellow low-VOC medium-bodied fast-setting high-strength ABS solvent cement for all classes and schedules of ABS pipe and fittings through 8 in diameter.",
+      "sourceRevisionDate": "IPS Weld-On 771 Product Bulletin, April 2009",
+      "chemistry": "Low-VOC ABS solvent cement",
+      "cureFamily": "ABS solvent cement / solvent weld",
+      "cureDetail": "Medium-bodied fast-setting ABS solvent cement for interference-fit ABS pipe and fittings. The product bulletin says no primer is needed unless required by local code.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.35,
+      "potLife": 5,
+      "fixtureTime": 5,
+      "viscosityClass": "medium",
+      "vocContentGPerL": 325,
+      "specificGravity": 0.87,
+      "shelfLifeMonths": 24,
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The Weld-On 771 product bulletin does not publish lap-shear or bond-strength values; it publishes ABS pipe/fitting scope, standards and physical properties.",
+      "clarity": "opaque",
+      "dryColor": "Milky or yellow",
+      "standards": [
+        "ASTM D2235",
+        "SCAQMD Rule 1168",
+        "BAAQMD Method 40",
+        "NSF Standard 14"
+      ],
+      "applicationTags": [
+        "abs-solvent-cement",
+        "abs-pipe-cement",
+        "low-voc",
+        "medium-body",
+        "fast-set",
+        "dwv",
+        "sewer",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 4.5,
+        "peel": 1,
+        "impact": 1
+      },
+      "environment": {
+        "humidity": 0.6,
+        "fuel": 0.15,
+        "immersion": 0.4
+      },
+      "substrates": {
+        "abs": 10,
+        "absPipe": 10,
+        "absFittings": 10
+      },
+      "compatibleMaterialPairs": [
+        [
+          "abs",
+          "abs"
+        ]
+      ],
+      "pipeCodeWarning": true,
+      "flammable": true,
+      "cautions": [
+        "For ABS pipe and fittings; use Weld-On transition cement when the joint is ABS-to-PVC and local code permits it.",
+        "No primer is needed unless required by local code.",
+        "Keep away from heat, sparks, open flame and direct sunlight.",
+        "Follow pipe/fitting manufacturer instructions and the cement container label."
+      ],
+      "referenceUrl": "https://weldon.com/wp-content/uploads/2015/03/WeldOn_Low_771_pb_Apr09.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/products/771-abs/"
+      ],
+      "referenceCategory": "ABS Pipe Solvent Cements",
+      "referenceSampleType": "Milky or yellow low-VOC medium-bodied fast-setting ABS solvent cement",
+      "referenceSampleConsistency": "Medium bodied; SG 0.870 +/- 0.040; max VOC 325 g/L; 2 year shelf life; ABS pipe and fittings through 8 in",
+      "referenceForJoining": "All classes and schedules of ABS pipe and fittings through 8 in diameter with interference fit",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity",
+        "viscosityValue"
+      ]
+    },
+    {
+      "id": "christys-red-hot-blue-glue-low-voc",
+      "profile": "solventPVC",
+      "maker": "Christy's",
+      "name": "Red Hot Blue Glue Low VOC",
+      "summary": "Aggressive deep-blue medium-bodied very-fast-setting low-VOC PVC solvent cement for rigid and flexible PVC pipe, including pressure and non-pressure potable/non-potable water, turf, ag, conduit, foam core, sewer and DWV.",
+      "sourceRevisionDate": "T. Christy Red Hot Blue Glue Low VOC Product Information & Specifications, 2025-era public spec sheet",
+      "chemistry": "Low-VOC PVC solvent cement",
+      "cureFamily": "PVC solvent cement / solvent weld",
+      "cureDetail": "Very fast-setting PVC pipe cement designed for quick pressurization and demanding wet or cold-weather conditions. Primer is not required unless specified by local code, but primer is recommended for high-pressure, large-diameter or demanding applications.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.35,
+      "potLife": 3,
+      "fixtureTime": 5,
+      "viscosityClass": "medium",
+      "viscosityValue": 800,
+      "viscosityUnit": "cP upper bound; spec gives 500-800 cP",
+      "specificGravity": 0.955,
+      "vocContentGPerL": 425,
+      "shelfLifeMonths": 36,
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The Christy's Red Hot Blue Glue Low VOC spec sheet does not publish lap-shear or bond-strength values; it publishes PVC pipe scope, standards and physical properties.",
+      "clarity": "opaque",
+      "dryColor": "Deep blue",
+      "standards": [
+        "ASTM D2564",
+        "NSF/ANSI 14",
+        "NSF/ANSI/CAN 61",
+        "UPC",
+        "IAPMO",
+        "SCAQMD Rule 1168/316A"
+      ],
+      "applicationTags": [
+        "pvc-solvent-cement",
+        "medium-body",
+        "very-fast-set",
+        "blue",
+        "low-voc",
+        "wet-weather",
+        "cold-weather",
+        "pressure-pipe",
+        "dwv",
+        "sewer",
+        "conduit",
+        "irrigation",
+        "pipe-fittings"
+      ],
+      "stress": {
+        "shear": 4.8,
+        "peel": 1,
+        "impact": 1
+      },
+      "environment": {
+        "humidity": 0.75,
+        "fuel": 0.15,
+        "immersion": 0.65
+      },
+      "substrates": {
+        "pvc": 10,
+        "flexiblePvc": 9,
+        "rigidPvc": 10,
+        "foamCorePvc": 9
+      },
+      "compatibleMaterialPairs": [
+        [
+          "pvc",
+          "pvc"
+        ]
+      ],
+      "pipeCodeWarning": true,
+      "flammable": true,
+      "cautions": [
+        "Use only for PVC pipe/fitting systems covered by the product listing and local code.",
+        "Primer is not required unless specified by local code, but is recommended in high-pressure, large-diameter or demanding applications.",
+        "Flammable solvent cement; control ignition sources and follow SDS requirements.",
+        "Follow Christy's solvent-welding guide for cold-weather, wet-weather and quick-pressurization practices."
+      ],
+      "referenceUrl": "https://tchristy.com/wp-content/pdf/specsheets/RedHotBlueGlueLowVocSpecSheet.pdf",
+      "supportingReferenceUrls": [
+        "https://tchristy.com/products/red-hot-blue-glue-low-voc/"
+      ],
+      "referenceCategory": "PVC Pipe Solvent Cements",
+      "referenceSampleType": "Deep-blue medium-bodied very-fast-setting low-VOC PVC solvent cement",
+      "referenceSampleConsistency": "500-800 cP; SG 0.955; max VOC 425 g/L; three-year shelf life; rigid/flexible PVC pipe through 6 in and Schedule 80 through 4 in",
+      "referenceForJoining": "Rigid and flexible PVC pipe and fittings for pressure/non-pressure, potable/non-potable water, turf, ag, conduit, foam core, sewer and DWV applications",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity"
+      ]
     },
     {
       "id": "weldon-3-dcm-tce-free",
@@ -55195,7 +56063,7 @@
       "fixtureTime": 2,
       "workingTimeMinutes": 1,
       "timeTo65To80PctStrengthHours": 24,
-      "viscosityClass": "water thin",
+      "viscosityClass": "wicking",
       "viscosityValue": null,
       "viscosityUnit": "Water thin at 73 F",
       "specificGravity": 1.218,
@@ -55247,6 +56115,12 @@
         "extrudedAcrylic": 10,
         "butyrate": 7
       },
+      "compatibleMaterialPairs": [
+        [
+          "acrylic",
+          "acrylic"
+        ]
+      ],
       "cautions": [
         "Industrial and professional use only; not for consumer use.",
         "Not recommended for cross-linked acrylic.",
@@ -55268,6 +56142,491 @@
         "thermalConductivity",
         "viscosityValue",
         "viscosityUnit"
+      ]
+    },
+    {
+      "id": "weldon-4sc",
+      "profile": "solventAcrylic",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Weld-On 4SC",
+      "summary": "Water-thin low-VOC blush-resistant acrylic solvent cement for PMMA-to-PMMA capillary and soak-method welding, with 1-2 min working time, 3 min fixture time and 2000 psi acrylic bond strength at 24 h.",
+      "sourceRevisionDate": "IPS Adhesives Weld-On 4SC Technical Data Sheet, 01/20",
+      "chemistry": "Low-VOC acrylic plastic solvent cement",
+      "cureFamily": "Acrylic solvent cement / solvent weld",
+      "cureDetail": "Apply by syringe, eyedropper or brush to clean, dry, intimate-fit parts and assemble while wet. Capillary method flows about 0.25 in between lightly placed surfaces; soak method softens surfaces for about 2-5 min before joining.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.08,
+      "potLife": 2,
+      "fixtureTime": 3,
+      "workingTimeMinutes": 2,
+      "ultimateBondStrengthHours": 72,
+      "viscosityClass": "wicking",
+      "viscosityValue": null,
+      "viscosityUnit": "Water thin at 73 F",
+      "specificGravity": 1.12,
+      "shelfLifeMonths": 24,
+      "vocContentGPerL": 250,
+      "thermalConductivity": null,
+      "lapShear": 13.79,
+      "lapShearSubstrate": "Acrylic aged bond strength at 24 h from IPS Weld-On 4SC TDS, 2000 psi converted to 13.79 MPa.",
+      "shearStrengthsPsi": {
+        "acrylic2h": 800,
+        "acrylic24h": 2000,
+        "acrylic1week": 2500,
+        "polycarbonate2h": 750,
+        "polycarbonate24h": 1600,
+        "polycarbonate1week": 2400,
+        "polystyrene2h": 400,
+        "polystyrene24h": 1300,
+        "polystyrene1week": 2000
+      },
+      "bondStrengthsPsi": {
+        "acrylic": {
+          "2h": 800,
+          "24h": 2000,
+          "1week": 2500
+        },
+        "polycarbonate": {
+          "2h": 750,
+          "24h": 1600,
+          "1week": 2400
+        },
+        "polystyrene": {
+          "2h": 400,
+          "24h": 1300,
+          "1week": 2000
+        }
+      },
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "applicationTags": [
+        "acrylic-solvent-cement",
+        "pmma",
+        "blush-resistant",
+        "low-voc",
+        "water-thin",
+        "capillary",
+        "soak-method",
+        "clear",
+        "sign-fabrication",
+        "display-cases",
+        "industrial-professional-only"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 1,
+        "impact": 1
+      },
+      "environment": {
+        "humidity": 0.55,
+        "fuel": 0.15,
+        "immersion": 0.3
+      },
+      "substrates": {
+        "acrylic": 10,
+        "pmma": 10,
+        "castAcrylic": 10,
+        "extrudedAcrylic": 10,
+        "polystyrene": 8,
+        "polycarbonate": 8,
+        "butyrate": 7
+      },
+      "compatibleMaterialPairs": [
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "polystyrene",
+          "polystyrene"
+        ],
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ]
+      ],
+      "cautions": [
+        "Industrial/professional solvent cement; use ventilation and PPE per TDS/SDS.",
+        "Not recommended for cross-linked acrylic.",
+        "If crazing is a problem, consider annealing before cementing.",
+        "Contains methylene chloride; follow OSHA workplace monitoring and protection requirements."
+      ],
+      "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_4SC_TDS_0120.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/product-literature/product-data-sheets/",
+        "https://assemblyadhesives.com/products/acrylics/weld-on-4sc/"
+      ],
+      "referenceCategory": "Acrylic Fabrication Solvent Cements",
+      "referenceSampleType": "Clear water-thin low-VOC blush-resistant acrylic solvent cement",
+      "referenceSampleConsistency": "Water thin; 1-2 min working time; 3 min fixture time; SG 1.120 +/- 0.01; 800/2000/2500 psi acrylic strength at 2 h/24 h/1 week",
+      "referenceForJoining": "Blush-resistant capillary and soak-method bonding of acrylic/PMMA to itself, plus polystyrene, cellulose acetate butyrate and polycarbonate to themselves",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity",
+        "viscosityValue"
+      ]
+    },
+    {
+      "id": "weldon-1802",
+      "profile": "solventMultiPlastic",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Weld-On 1802",
+      "summary": "Clear thin-bodied medium-set multi-purpose solvent cement for acrylic, ABS, rigid PVC and polystyrene to themselves or to each other, with 8 min working time, 10-15 min fixture time and water/weather-resistant clear joints.",
+      "sourceRevisionDate": "IPS Adhesives Weld-On 1802 Technical Data Sheet, 01/20",
+      "chemistry": "Multi-purpose acrylic plastic solvent cement",
+      "cureFamily": "Multi-plastic solvent cement / solvent weld",
+      "cureDetail": "Apply by syringe, polyethylene squeeze bottle, eyedropper or brush to clean, dry, intimate-fit parts and assemble while wet. Initial bonds form quickly; 65-80% of ultimate strength is obtained within 24-72 h and strength continues to increase for weeks.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.1,
+      "potLife": 8,
+      "fixtureTime": 15,
+      "workingTimeMinutes": 8,
+      "ultimateBondStrengthHours": 72,
+      "viscosityClass": "low",
+      "viscosityValue": 350,
+      "viscosityUnit": "cps +/- 100 at 73 F",
+      "specificGravity": 0.88,
+      "shelfLifeMonths": 36,
+      "vocContentGPerL": 350,
+      "thermalConductivity": null,
+      "lapShear": 6.07,
+      "lapShearSubstrate": "Acrylic aged bond strength at 24 h from IPS Weld-On 1802 TDS, 880 psi converted to 6.07 MPa; lower 24 h values are published for rigid PVC and polystyrene.",
+      "shearStrengthsPsi": {
+        "acrylic24h": 880,
+        "acrylic1week": 1600,
+        "rigidPvc24h": 600,
+        "rigidPvc1week": 1600,
+        "abs24h": 900,
+        "abs1week": 1380,
+        "polystyrene24h": 400,
+        "polystyrene1week": 1450
+      },
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "applicationTags": [
+        "multi-plastic-solvent-cement",
+        "acrylic-solvent-cement",
+        "abs-solvent-cement",
+        "pvc-solvent-cement",
+        "polystyrene-solvent-cement",
+        "thin-body",
+        "medium-set",
+        "clear",
+        "water-resistant",
+        "weather-resistant",
+        "sign-fabrication",
+        "display-items"
+      ],
+      "stress": {
+        "shear": 4.8,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.6,
+        "fuel": 0.15,
+        "immersion": 0.35
+      },
+      "substrates": {
+        "acrylic": 8,
+        "pmma": 8,
+        "abs": 8,
+        "pvc": 8,
+        "rigidPvc": 8,
+        "polystyrene": 8,
+        "butyrate": 7
+      },
+      "compatibleMaterialPairs": [
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "pvc",
+          "pvc"
+        ],
+        [
+          "polystyrene",
+          "polystyrene"
+        ],
+        [
+          "acrylic",
+          "abs"
+        ],
+        [
+          "acrylic",
+          "pvc"
+        ],
+        [
+          "acrylic",
+          "polystyrene"
+        ],
+        [
+          "abs",
+          "pvc"
+        ],
+        [
+          "abs",
+          "polystyrene"
+        ],
+        [
+          "pvc",
+          "polystyrene"
+        ]
+      ],
+      "cautions": [
+        "Does not bond to metal or glass.",
+        "Adding thinners to change viscosity is not recommended and may significantly change cement properties.",
+        "Flammable fast-evaporating solvent cement; use ventilation and PPE per TDS/SDS.",
+        "Contains methyl ethyl ketone."
+      ],
+      "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_1802_TDS_0120.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/product-literature/product-data-sheets/",
+        "https://assemblyadhesives.com/products/acrylics/weld-on-1802/"
+      ],
+      "referenceCategory": "Multi-Plastic Fabrication Solvent Cements",
+      "referenceSampleType": "Clear thin-bodied medium-set multi-purpose solvent cement",
+      "referenceSampleConsistency": "350 +/- 100 cps; 8 min working time; 10-15 min fixture time; SG 0.880 +/- 0.01; 72 h ultimate bond strength",
+      "referenceForJoining": "Acrylic/PMMA, ABS, cellulose acetate butyrate, rigid PVC and polystyrene to themselves and to each other in signs, housings, plastic letters, industrial fabrications, lenses and models",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "weldon-2354",
+      "profile": "solventABSStyrene",
+      "maker": "Oatey / IPS Weld-On",
+      "name": "Weld-On 2354",
+      "summary": "Clear water-thin fast-drying solvent cement for same-material ABS, styrene/HIPS, acrylic and polycarbonate assemblies, with 3 min working time, 5 min fixture time and explicit TDS warnings against several dissimilar plastic pairs.",
+      "sourceRevisionDate": "IPS Adhesives Weld-On 2354 Technical Data Sheet, 01/20",
+      "chemistry": "ABS/styrene water-thin solvent cement",
+      "cureFamily": "ABS/styrene solvent cement / solvent weld",
+      "cureDetail": "Apply by brush, syringe, spray, pump-type oil can, eyedropper, saturated felt pad or similar device. Assemble while wet and press parts into firm contact; 2-10 psi pressure can materially increase bond strength.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.08,
+      "potLife": 3,
+      "fixtureTime": 5,
+      "workingTimeMinutes": 3,
+      "ultimateBondStrengthHours": 72,
+      "viscosityClass": "wicking",
+      "viscosityValue": null,
+      "viscosityUnit": "Water thin at 73 F",
+      "specificGravity": 0.805,
+      "shelfLifeMonths": 36,
+      "thermalConductivity": null,
+      "lapShear": 8.96,
+      "lapShearSubstrate": "Styrene aged bond strength at 24 h from IPS Weld-On 2354 TDS, 1300 psi converted to 8.96 MPa; ABS 24 h is 1000 psi and polycarbonate 24 h is 1800 psi.",
+      "shearStrengthsPsi": {
+        "abs2h": 500,
+        "abs24h": 1000,
+        "abs1week": 1230,
+        "polycarbonate2h": 1000,
+        "polycarbonate24h": 1800,
+        "polycarbonate1week": 2200,
+        "styrene2h": 500,
+        "styrene24h": 1300,
+        "styrene1week": 1800
+      },
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "applicationTags": [
+        "abs-solvent-cement",
+        "styrene-solvent-cement",
+        "hips",
+        "water-thin",
+        "fast-drying",
+        "capillary",
+        "same-material-only",
+        "clear",
+        "signage",
+        "displays",
+        "lighting-fixtures",
+        "electrical-assemblies",
+        "decorator-items"
+      ],
+      "stress": {
+        "shear": 5.2,
+        "peel": 2,
+        "impact": 2
+      },
+      "environment": {
+        "humidity": 0.55,
+        "fuel": 0.15,
+        "immersion": 0.25
+      },
+      "substrates": {
+        "abs": 10,
+        "polystyrene": 10,
+        "styrene": 10,
+        "hips": 10,
+        "acrylic": 7,
+        "polycarbonate": 8
+      },
+      "compatibleMaterialPairs": [
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "polystyrene",
+          "polystyrene"
+        ],
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ]
+      ],
+      "incompatibleMaterialPairs": [
+        [
+          "abs",
+          "polystyrene"
+        ],
+        [
+          "abs",
+          "acrylic"
+        ],
+        [
+          "abs",
+          "pvc"
+        ],
+        [
+          "pvc",
+          "polystyrene"
+        ]
+      ],
+      "cautions": [
+        "The TDS says not to use it for dissimilar materials such as ABS-to-styrene, ABS-to-acrylic, ABS-to-PVC or PVC-to-styrene.",
+        "Flammable fast-evaporating solvent cement; use ventilation and PPE per TDS/SDS.",
+        "Contains methyl ethyl ketone.",
+        "Clamp or jig pressure time varies from minutes for good fits to hours for difficult joints."
+      ],
+      "referenceUrl": "https://www.tapplastics.com/image/catalog/pdf/Weld-On-2354-TDS.pdf",
+      "supportingReferenceUrls": [
+        "https://weldon.com/product-literature/product-data-sheets/",
+        "https://assemblyadhesives.com/products/abs/weld-on-2354/"
+      ],
+      "referenceCategory": "ABS and Styrene Fabrication Solvent Cements",
+      "referenceSampleType": "Clear water-thin fast-drying ABS/styrene solvent cement",
+      "referenceSampleConsistency": "Water thin; 3 min working time; 5 min fixture time; SG 0.805 +/- 0.01; ABS/styrene/polycarbonate aged bond strength table",
+      "referenceForJoining": "Same-material ABS, general-purpose high-impact styrene/HIPS, acrylic and polycarbonate assemblies where a water-thin cement is desired",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity",
+        "viscosityValue"
+      ]
+    },
+    {
+      "id": "caseway-sc-325-polycarbonate",
+      "profile": "solventPolycarbonate",
+      "maker": "Caseway",
+      "name": "SC-325 Polycarbonate Solvent Cement",
+      "summary": "Water-thin fast-setting polycarbonate solvent cement for PC-to-PC and PC-to-acrylic/PVC/vinyl/CAB bonding, with 2-5 min typical setting time and capillary, soak/dip or mortar-joint methods.",
+      "sourceRevisionDate": "Caseway SC-325 Polycarbonate Solvent Cement TDS Version 3.0, 03/2022",
+      "chemistry": "Polycarbonate solvent cement",
+      "cureFamily": "Polycarbonate solvent cement / solvent weld",
+      "cureDetail": "Apply with syringe, dropper or brush using capillary, soak/dip or mortar-joint methods. Press parts firmly together with approximately 1-10 psi pressure; typical joints reach 50-80% strength within 24 h and continue to increase over time.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "gapFill": 0.05,
+      "potLife": 2,
+      "fixtureTime": 5,
+      "setTimeRangeMinutes": [
+        2,
+        5
+      ],
+      "workingStrengthHours": 24,
+      "viscosityClass": "wicking",
+      "viscosityValue": null,
+      "viscosityUnit": "Water thin",
+      "thermalConductivity": null,
+      "lapShearSubstrate": "The SC-325 TDS does not publish lap-shear or bond-strength values; it publishes setting time and method guidance.",
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "applicationTags": [
+        "polycarbonate-solvent-cement",
+        "pc-solvent-welding",
+        "water-thin",
+        "fast-setting",
+        "capillary",
+        "soak-method",
+        "mortar-joint",
+        "dissimilar-plastic-bonding",
+        "signs",
+        "displays",
+        "models",
+        "industrial-use"
+      ],
+      "stress": {
+        "shear": 5.2,
+        "peel": 1.5,
+        "impact": 1.5
+      },
+      "environment": {
+        "humidity": 0.55,
+        "fuel": 0.1,
+        "immersion": 0.22
+      },
+      "substrates": {
+        "polycarbonate": 10,
+        "acrylic": 6,
+        "pvc": 6,
+        "vinyl": 6,
+        "butyrate": 6
+      },
+      "compatibleMaterialPairs": [
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ],
+        [
+          "polycarbonate",
+          "acrylic"
+        ],
+        [
+          "polycarbonate",
+          "pvc"
+        ]
+      ],
+      "cautions": [
+        "The TDS warns that improper sanding, scraping or machining may cause stress/crazing and that solvent exposure increases crazing risk.",
+        "Edges to be cemented should not be polished because polishing can round corners and create crazing.",
+        "Large areas are more difficult to bond without bubbles and may require 8 or more hours to dry.",
+        "Flammable hazardous material; never use in a poorly ventilated/confined area without suitable respiratory protection."
+      ],
+      "referenceUrl": "https://casewayproducts.com/content/TDS/SC-325%20TDS.pdf",
+      "supportingReferenceUrls": [
+        "https://casewayproducts.com/sc-325-polycarbonate-solvent-cement/"
+      ],
+      "referenceCategory": "Polycarbonate Fabrication Solvent Cements",
+      "referenceSampleType": "Water-thin fast-setting polycarbonate solvent cement",
+      "referenceSampleConsistency": "Water thin; typical 2-5 min setting time; 50-80% strength within 24 h; capillary, soak/dip and mortar-joint methods",
+      "referenceForJoining": "Polycarbonate to itself and selected dissimilar plastics such as acrylic, PVC, vinyl and cellulose acetate butyrate in signs, displays, models and molded parts",
+      "serviceTemperatureNote": "No service temperature range stated in TDS.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "lapShear",
+        "thermalConductivity",
+        "viscosityValue"
       ]
     },
     {
@@ -55346,6 +56705,20 @@
         "polycarbonate": 7,
         "porousSurfaces": 5
       },
+      "compatibleMaterialPairs": [
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "abs",
+          "abs"
+        ],
+        [
+          "polycarbonate",
+          "polycarbonate"
+        ]
+      ],
       "cautions": [
         "Industrial and professional use only; not for consumer use.",
         "Can be thinned with Weld-On 3 DCM TCE FREE by approximately 10%, but changing viscosity can change properties.",
@@ -55393,7 +56766,7 @@
       "handlingTimeMinutes": 240,
       "machinableAfterHours": 24,
       "ultimateBondStrengthHours": 72,
-      "viscosityClass": "medium syrup",
+      "viscosityClass": "medium",
       "viscosityValue": 2900,
       "viscosityUnit": "cps +/- 150 at 73 F",
       "componentDensitiesGPerMl": {
@@ -55469,6 +56842,28 @@
         "abs": 7,
         "petg": 8
       },
+      "compatibleMaterialPairs": [
+        [
+          "acrylic",
+          "acrylic"
+        ],
+        [
+          "acrylic",
+          "polycarbonate"
+        ],
+        [
+          "acrylic",
+          "pvc"
+        ],
+        [
+          "acrylic",
+          "abs"
+        ],
+        [
+          "acrylic",
+          "petg"
+        ]
+      ],
       "cautions": [
         "Sand surfaces with 240-400 grit before bonding and do not flame-polish bonding surfaces.",
         "Anneal acrylic after machining/forming to reduce crazing risk.",

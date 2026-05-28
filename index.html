@@ -19,9 +19,9 @@
             <p class="eyebrow">Glueguy Lab</p>
             <h1>Adhesive selector</h1>
             <p class="lede">
-              Direct, spreadsheet-style adhesive selection inspired by
+              Spreadsheet-style adhesive selection inspired by
               <a href="https://adhesive.fyi/" target="_blank" rel="noreferrer">adhesive.fyi</a>
-              with a broader catalog and faster substrate-first lookup.
+              with substrate-first lookup.
             </p>
           </div>
           <div class="topbar-actions">
@@ -152,6 +152,14 @@
                 <input type="checkbox" name="excludeWarnings" value="yes" />
                 <span>Hide flagged glues</span>
               </label>
+              <label class="chip-option">
+                <input type="checkbox" name="excludeHazardousSolvents" value="yes" />
+                <span>No raw/chlorinated solvents</span>
+              </label>
+              <label class="chip-option">
+                <input type="checkbox" name="excludePipeCodeWarnings" value="yes" />
+                <span>No code-limited pipe cements</span>
+              </label>
             </div>
           </div>
 
@@ -223,8 +231,7 @@
                 <h2 id="results-title">Ranking glues for your joint</h2>
               </div>
               <p class="result-note">
-                Scores combine substrate fit, service window, stress mode, and your
-                process constraints. Always verify against the manufacturer TDS.
+                Verify against the manufacturer TDS.
               </p>
             </div>
 
@@ -259,11 +266,8 @@
               </table>
               <div class="empty-state hidden" id="results-empty">
                 <div>
-                  <h3>Nothing survived the gauntlet.</h3>
-                  <p>
-                    Try removing the warning filter, opening the fixture window, or
-                    picking a chemistry that is less specialized.
-                  </p>
+                  <h3>No matches.</h3>
+                  <p>Try removing a warning filter or widening the fixture window.</p>
                 </div>
               </div>
             </div>
@@ -275,9 +279,6 @@
                 <p class="eyebrow">Compare</p>
                 <h2>Shortlist</h2>
               </div>
-              <p class="result-note">
-                Compact side-by-side readout for up to three selected glues.
-              </p>
             </div>
             <div id="compare-state" class="compare-state">
               <p>No glues selected yet.</p>
@@ -285,73 +286,10 @@
             </div>
           </section>
 
-          <section class="panel reference-panel">
-            <div class="panel-head panel-head-inline">
-              <div>
-                <p class="eyebrow">Reference Library</p>
-                <h2>McMaster-derived adhesive families</h2>
-              </div>
-              <p class="result-note">
-                Raw browse table for the broader adhesive universe behind the selector.
-                Use it to scan families, categories, temperature windows, and rough cost.
-              </p>
-            </div>
-
-            <div class="reference-toolbar">
-              <div class="summary-copy">
-                <strong id="reference-count">0 reference families</strong>
-                <span id="reference-context">Catalog pipeline not loaded yet.</span>
-              </div>
-              <div class="reference-filters">
-                <label>
-                  <span>Search the library</span>
-                  <input
-                    class="inline-input"
-                    id="reference-search"
-                    type="search"
-                    placeholder="Maker, family, category, or substrate"
-                  />
-                </label>
-                <label>
-                  <span>Reference category</span>
-                  <select id="reference-category"></select>
-                </label>
-                <label>
-                  <span>Use case</span>
-                  <select id="reference-application"></select>
-                </label>
-              </div>
-            </div>
-
-            <div class="results-table-shell reference-table-shell" aria-live="polite">
-              <table class="results-table reference-table">
-                <thead>
-                  <tr>
-                    <th>Family</th>
-                    <th>Use case</th>
-                    <th>Category</th>
-                    <th>Temp</th>
-                    <th>Offers</th>
-                    <th>Cost</th>
-                    <th>Source</th>
-                  </tr>
-                </thead>
-                <tbody id="reference-body"></tbody>
-              </table>
-              <div class="empty-state hidden" id="reference-empty">
-                <div>
-                  <h3>No reference families match.</h3>
-                  <p>Relax the search or switch the category back to all families.</p>
-                </div>
-              </div>
-            </div>
-          </section>
         </div>
       </section>
     </main>
 
-    <script src="./data/mcmaster-site-catalog.js"></script>
-    <script src="./data/tds-manual-catalog.js"></script>
-    <script src="./app.js"></script>
+    <script async src="./app.min.js"></script>
   </body>
 </html>

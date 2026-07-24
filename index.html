@@ -13,34 +13,36 @@
   </head>
   <body>
     <main class="shell">
-      <section class="topbar panel">
+      <header class="topbar">
         <div class="topbar-main">
-          <div>
-            <p class="eyebrow">Glueguy Lab</p>
-            <h1>Adhesive selector</h1>
-            <p class="lede">
-              Spreadsheet-style adhesive selection inspired by
-              <a href="https://adhesive.fyi/" target="_blank" rel="noreferrer">adhesive.fyi</a>
-              with substrate-first lookup.
-            </p>
+          <div class="brand-lockup">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <div>
+              <p class="eyebrow">Glueguy Lab</p>
+              <h1>Adhesive selector</h1>
+            </div>
           </div>
           <div class="topbar-actions">
             <div class="topbar-links">
-              <a class="button button-secondary" href="./data/agent-catalog.json">Agent JSON</a>
+              <a class="button button-ghost" href="./data/agent-catalog.json">Catalog API</a>
               <button class="button button-ghost" id="reset-hero" type="button">
-                Reset all
+                Reset
               </button>
-            </div>
-            <div class="stat-row" id="hero-stats" aria-label="Catalog summary"></div>
-            <div class="topbar-density">
-              <span>Catalog</span>
-              <strong id="glue-density">40 formulations loaded</strong>
             </div>
           </div>
         </div>
-        <div class="preset-row">
+        <div class="topbar-meta">
+          <p class="lede">Choose the joint. Review the evidence. Verify the TDS.</p>
+          <div class="catalog-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <strong id="glue-density">Loading catalog</strong>
+            <div class="stat-row" id="hero-stats" aria-label="Catalog summary"></div>
+          </div>
+        </div>
+        <nav class="preset-row" aria-label="Common joint presets">
+          <span class="preset-label">Quick starts</span>
           <button class="preset-button" type="button" data-preset="outdoorMixed">
-            Outdoor mixed repair
+            Outdoor repair
           </button>
           <button class="preset-button" type="button" data-preset="opticalClear">
             Optical clear
@@ -51,46 +53,43 @@
           <button class="preset-button" type="button" data-preset="thermal">
             Thermal
           </button>
-        </div>
-      </section>
+        </nav>
+      </header>
 
       <section class="lab-grid" id="lab">
-        <form class="panel control-panel" id="filter-form">
+        <form class="control-panel" id="filter-form">
           <div class="panel-head">
             <div>
-              <p class="eyebrow">Selector</p>
-              <h2>Set the joint conditions</h2>
+              <p class="section-index">01</p>
+              <h2>Joint conditions</h2>
             </div>
-            <button class="button button-ghost" id="reset-filters" type="button">
-              Reset
-            </button>
           </div>
 
-          <div class="control-group">
+          <div class="control-group primary-materials">
             <label>
-              <span>This material</span>
+              <span>Material A</span>
               <select name="substrateA" id="substrate-a"></select>
             </label>
             <label>
-              <span>That material</span>
+              <span>Material B</span>
               <select name="substrateB" id="substrate-b"></select>
             </label>
           </div>
 
           <div class="control-group">
             <label>
-              <span>Coldest service (°C)</span>
+              <span>Minimum °C</span>
               <input name="coldest" type="number" value="-20" step="5" />
             </label>
             <label>
-              <span>Hottest service (°C)</span>
+              <span>Maximum °C</span>
               <input name="hottest" type="number" value="90" step="5" />
             </label>
           </div>
 
           <div class="control-stack">
-            <span class="stack-label">Primary stress mode</span>
-            <div class="segmented" id="stress-mode">
+            <span class="stack-label">Primary load</span>
+            <div class="segmented" id="stress-mode" role="group" aria-label="Primary load">
               <button class="segment is-active" data-value="shear" type="button">
                 Shear
               </button>
@@ -103,9 +102,15 @@
             </div>
           </div>
 
-          <div class="control-stack">
-            <span class="stack-label">Viscosity</span>
-            <div class="chip-grid" id="viscosity-grid">
+          <details class="advanced-filters">
+            <summary>
+              <span>Advanced filters</span>
+              <span class="disclosure-hint">Application, cure, handling, safety</span>
+            </summary>
+            <div class="advanced-content">
+              <div class="control-stack">
+                <span class="stack-label">Viscosity</span>
+                <div class="chip-grid" id="viscosity-grid">
               <label class="chip-option">
                 <input type="checkbox" name="viscosity" value="wicking" />
                 <span>Wicking</span>
@@ -126,12 +131,12 @@
                 <input type="checkbox" name="viscosity" value="very-high" />
                 <span>Very high</span>
               </label>
-            </div>
-          </div>
+                </div>
+              </div>
 
-          <div class="control-stack">
-            <span class="stack-label">Service environment</span>
-            <div class="chip-grid">
+              <div class="control-stack">
+                <span class="stack-label">Environment & exclusions</span>
+                <div class="chip-grid">
               <label class="chip-option">
                 <input type="checkbox" name="environment" value="humidity" />
                 <span>Humid or outdoor</span>
@@ -164,10 +169,10 @@
                 <input type="checkbox" name="savedOnly" value="yes" />
                 <span>Inventory only</span>
               </label>
-            </div>
-          </div>
+                </div>
+              </div>
 
-          <div class="control-group control-group-triple">
+              <div class="control-group control-group-triple">
             <label>
               <span>Application</span>
               <select name="application" id="application-select"></select>
@@ -180,9 +185,9 @@
               <span>Manufacturer</span>
               <select name="manufacturer" id="manufacturer-select"></select>
             </label>
-          </div>
+              </div>
 
-          <div class="control-group">
+              <div class="control-group">
             <label>
               <span>Minimum pot life (min)</span>
               <input name="minPotLife" type="number" value="0" min="0" step="1" />
@@ -191,9 +196,9 @@
               <span>Maximum fixture time (min)</span>
               <input name="maxFixtureTime" type="number" value="9999" min="1" step="1" />
             </label>
-          </div>
+              </div>
 
-          <div class="control-group">
+              <div class="control-group">
             <label>
               <span>Minimum gap fill (mm)</span>
               <input name="minGapFill" type="number" value="0" min="0" step="0.1" />
@@ -208,9 +213,9 @@
                 step="0.1"
               />
             </label>
-          </div>
+              </div>
 
-          <div class="control-group">
+              <div class="control-group">
             <label>
               <span>Optical clarity</span>
               <select name="clarity" id="clarity-select">
@@ -224,40 +229,31 @@
               <span>Minimum lap shear (MPa)</span>
               <input name="minLapShear" type="number" value="0" min="0" step="1" />
             </label>
-          </div>
+              </div>
+            </div>
+          </details>
+
+          <button class="button button-ghost filter-reset" id="reset-filters" type="button">
+            Clear filters
+          </button>
         </form>
 
         <div class="main-column">
-          <section class="panel compare-panel">
-            <div class="panel-head panel-head-inline">
+          <section class="result-panel">
+            <div class="results-header">
               <div>
-                <p class="eyebrow">Inventory</p>
-                <h2>Inventory</h2>
-              </div>
-            </div>
-            <div id="compare-state" class="compare-state">
-              <p>No inventory yet.</p>
-              <p>Star a row to add it.</p>
-            </div>
-          </section>
-
-          <section class="panel result-panel">
-            <div class="panel-head panel-head-stacked">
-              <div>
-                <p class="eyebrow">Matches</p>
+                <p class="section-index">02</p>
                 <h2 id="results-title">Ranking glues for your joint</h2>
               </div>
-              <p class="result-note">
-                Verify against the manufacturer TDS.
-              </p>
-            </div>
-
-            <div class="summary-row">
               <div class="summary-copy">
                 <strong id="results-count">0 matches</strong>
                 <span id="results-context">Waiting for inputs…</span>
               </div>
+            </div>
+
+            <div class="summary-row">
               <div class="active-tags" id="active-tags"></div>
+              <p class="result-note">Ranked guidance only. Verify against the manufacturer TDS.</p>
             </div>
 
             <div class="results-table-shell" aria-live="polite">
@@ -265,17 +261,13 @@
                 <thead>
                   <tr>
                     <th>Score</th>
-                    <th id="fit-a-heading">This fit</th>
-                    <th id="fit-b-heading">That fit</th>
                     <th>Product</th>
-                    <th>Chemistry</th>
-                    <th>Fixture</th>
-                    <th>Temp</th>
-                    <th>Viscosity</th>
-                    <th>Gap</th>
+                    <th id="fit-a-heading">Material fit</th>
+                    <th class="visually-hidden" id="fit-b-heading">Secondary fit</th>
+                    <th>Handling</th>
+                    <th>Range</th>
                     <th>Cost</th>
-                    <th>Why matched</th>
-                    <th>Warnings</th>
+                    <th>Assessment</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
@@ -289,6 +281,16 @@
               </div>
             </div>
           </section>
+
+          <details class="compare-panel">
+            <summary>
+              <span>Inventory</span>
+              <span class="disclosure-hint">Star products to keep a shortlist</span>
+            </summary>
+            <div id="compare-state" class="compare-state">
+              <p>No inventory yet. Star a result to add it.</p>
+            </div>
+          </details>
 
         </div>
       </section>

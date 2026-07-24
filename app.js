@@ -76,7 +76,7 @@ const APPLICATION_LABELS = Object.fromEntries(
   APPLICATION_OPTIONS.map((option) => [option.value, option.label]),
 );
 
-const MAX_RENDERED_MATCHES = 80;
+const MAX_RENDERED_MATCHES = 50;
 
 const PROFILE_APPLICATION_TAGS = {
   toughenedEpoxy: ["structural-bonding"],
@@ -4903,6 +4903,7 @@ const resetHeroButton = document.querySelector("#reset-hero");
 const presetButtons = document.querySelectorAll("[data-preset]");
 const stressButtons = document.querySelectorAll("#stress-mode .segment");
 const SAVED_GLUES_COOKIE = "glueguySavedGlues";
+const SAVED_GLUES_STORAGE_KEY = "glueguy.savedGlueIds";
 
 const appState = {
   stress: "shear",
@@ -4921,6 +4922,15 @@ const formatUsd = (value) => usdFormatter.format(value);
 const formatTemperature = (value) => `${value}°C`;
 
 function readSavedGlueIds() {
+  try {
+    const storedIds = JSON.parse(localStorage.getItem(SAVED_GLUES_STORAGE_KEY) ?? "null");
+    if (Array.isArray(storedIds)) {
+      return storedIds.filter((id) => typeof id === "string");
+    }
+  } catch {
+    // Fall through to the legacy cookie for a seamless migration.
+  }
+
   const cookie = document.cookie
     .split("; ")
     .find((entry) => entry.startsWith(`${SAVED_GLUES_COOKIE}=`));
@@ -4936,8 +4946,12 @@ function readSavedGlueIds() {
 }
 
 function writeSavedGlueIds() {
-  const value = encodeURIComponent(JSON.stringify(appState.savedIds));
-  document.cookie = `${SAVED_GLUES_COOKIE}=${value}; max-age=31536000; path=/; samesite=lax`;
+  try {
+    localStorage.setItem(SAVED_GLUES_STORAGE_KEY, JSON.stringify(appState.savedIds));
+  } catch {
+    const value = encodeURIComponent(JSON.stringify(appState.savedIds));
+    document.cookie = `${SAVED_GLUES_COOKIE}=${value}; max-age=31536000; path=/; samesite=lax`;
+  }
 }
 const formatTemperatureRange = (min, max) => {
   if (Number.isFinite(min) && Number.isFinite(max)) {
@@ -5066,7 +5080,6 @@ function renderHeroStats() {
   const chemistries = new Set(GLUES.map((glue) => glue.chemistry)).size;
   const makers = new Set(GLUES.map((glue) => glue.maker)).size;
   const statItems = [
-    { label: "Products", value: GLUES.length },
     { label: "Chemistries", value: chemistries },
     { label: "Makers", value: makers },
   ];
@@ -5114,6 +5127,7 @@ function setStressMode(value) {
   appState.stress = value;
   stressButtons.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.value === value);
+    button.setAttribute("aria-pressed", String(button.dataset.value === value));
   });
 }
 
@@ -5345,7 +5359,6 @@ function buildActiveTags(filters) {
   const tags = [];
   if (filters.substrateA !== "any") tags.push(`This: ${materialLabel(filters.substrateA)}`);
   if (filters.substrateB !== "any") tags.push(`That: ${materialLabel(filters.substrateB)}`);
-  tags.push(`${STRESS_LABELS[filters.stress]} load`);
   if (filters.application !== "any") tags.push(applicationLabel(filters.application));
   if (filters.environment.length) {
     filters.environment.forEach((name) => tags.push(ENVIRONMENT_LABELS[name]));
@@ -5569,8 +5582,8 @@ function renderResults() {
   } else {
     resultsTitle.textContent = "Matches";
   }
-  fitAHeading.textContent = filters.substrateA === "any" ? "This fit" : `${materialLabel(filters.substrateA)} fit`;
-  fitBHeading.textContent = filters.substrateB === "any" ? "That fit" : `${materialLabel(filters.substrateB)} fit`;
+  fitAHeading.textContent = "Material fit";
+  fitBHeading.textContent = "Secondary fit";
 
   const visibleMatches = matches.slice(0, MAX_RENDERED_MATCHES);
   resultsCount.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"}`;
@@ -5620,16 +5633,24 @@ function renderResults() {
     scoreCell.append(scorePill);
 
     const fitACell = document.createElement("td");
-    fitACell.innerHTML =
-      filters.substrateA === "any"
-        ? '<span class="empty-text">any</span>'
-        : `<span class="fit-score">${formatFit(match.materialFits[filters.substrateA] ?? match.product.substrates[filters.substrateA] ?? 0)}</span>`;
+    fitACell.className = "fit-cell";
+    const fitLines = [];
+    if (filters.substrateA !== "any") {
+      fitLines.push(
+        `<span><small>${materialLabel(filters.substrateA)}</small><strong>${formatFit(match.materialFits[filters.substrateA] ?? match.product.substrates[filters.substrateA] ?? 0)}</strong></span>`,
+      );
+    }
+    if (filters.substrateB !== "any") {
+      fitLines.push(
+        `<span><small>${materialLabel(filters.substrateB)}</small><strong>${formatFit(match.materialFits[filters.substrateB] ?? match.product.substrates[filters.substrateB] ?? 0)}</strong></span>`,
+      );
+    }
+    fitACell.innerHTML = fitLines.length
+      ? fitLines.join("")
+      : '<span class="empty-text">Any material</span>';
 
     const fitBCell = document.createElement("td");
-    fitBCell.innerHTML =
-      filters.substrateB === "any"
-        ? '<span class="empty-text">any</span>'
-        : `<span class="fit-score">${formatFit(match.materialFits[filters.substrateB] ?? match.product.substrates[filters.substrateB] ?? 0)}</span>`;
+    fitBCell.className = "visually-hidden";
 
     const productCell = document.createElement("td");
     productCell.className = "product-cell";
@@ -5645,10 +5666,14 @@ function renderResults() {
       <div class="product-chemistry">${match.product.chemistry}</div>
       ${mcmasterChemistry ? `<div class="table-note">${mcmasterChemistry}</div>` : ""}
       ${applicationText ? `<div class="table-note">${applicationText}</div>` : ""}
+      <div class="table-note">${VISCOSITY_LABELS[match.product.viscosityClass]} • fixtures ${formatMinutes(match.product.fixtureTime)}</div>
     `;
 
     const fixtureCell = document.createElement("td");
-    fixtureCell.textContent = formatMinutes(match.product.fixtureTime);
+    fixtureCell.innerHTML = `
+      <div>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}</div>
+      <div class="table-note">${formatGap(match.product.gapFill)} gap • ${formatLapShear(match.product.lapShear)} lap</div>
+    `;
 
     const tempCell = document.createElement("td");
     tempCell.textContent = formatTemperatureRange(
@@ -5697,6 +5722,16 @@ function renderResults() {
     } else {
       warningCell.innerHTML = '<span class="empty-text">None</span>';
     }
+    if (match.warnings.length) {
+      const warningList = document.createElement("div");
+      warningList.className = "warning-list";
+      match.warnings.forEach((warning) => {
+        const item = document.createElement("span");
+        item.textContent = warning;
+        warningList.append(item);
+      });
+      reasonCell.append(warningList);
+    }
 
     const actionCell = document.createElement("td");
     const actionWrap = document.createElement("div");
@@ -5732,17 +5767,13 @@ function renderResults() {
 
     row.append(
       scoreCell,
+      productCell,
       fitACell,
       fitBCell,
-      productCell,
       chemistryCell,
       fixtureCell,
-      tempCell,
-      viscosityCell,
-      gapCell,
       costCell,
       reasonCell,
-      warningCell,
       actionCell,
     );
 
@@ -5925,4 +5956,4 @@ function init() {
   scheduleCatalogLoad();
 }
 
-window.setTimeout(init, 0);
+init();

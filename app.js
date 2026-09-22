@@ -5701,8 +5701,7 @@ function productSourceLinks(product) {
     referenceText.includes("datasheet") ||
     referenceText.includes("data-sheet") ||
     referenceText.includes("technical-data") ||
-    referenceText.includes("tech-data") ||
-    referenceText.endsWith(".pdf");
+    referenceText.includes("tech-data");
   const referenceIsSearch = isSearchSourceUrl(product.referenceUrl);
   let hasManufacturerTds = Boolean(safeSourceUrl(product.tdsUrl));
 
@@ -5714,10 +5713,15 @@ function productSourceLinks(product) {
       add(referenceUrl, "TDS", "Manufacturer technical data sheet", "tds");
       hasManufacturerTds = true;
     } else {
+      const isPdf = referenceText.endsWith(".pdf");
       add(
         referenceUrl,
-        isDistributor ? "Distributor" : "Reference",
-        isDistributor ? "Distributor listing" : "Reference page",
+        isDistributor ? "Distributor" : isPdf ? "PDF" : "Reference",
+        isDistributor
+          ? "Distributor listing"
+          : isPdf
+            ? "PDF reference document"
+            : "Reference page",
         isDistributor ? "distributor" : "reference",
       );
     }

@@ -571,6 +571,8 @@ summary::-webkit-details-marker {
   padding: 4px 7px;
   border-radius: 980px;
   font-weight: 650;
+  color: var(--secondary);
+  background: rgba(0, 0, 0, 0.045);
 }
 
 .fit-cell {

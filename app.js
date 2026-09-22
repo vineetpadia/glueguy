@@ -5632,6 +5632,79 @@ function renderReferenceLibrary() {
   referenceBody.append(fragment);
 }
 
+function safeSourceUrl(value) {
+  if (typeof value !== "string" || !value.trim()) return null;
+  try {
+    const url = new URL(value, window.location.href);
+    return url.protocol === "https:" || url.protocol === "http:" ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
+function isSearchSourceUrl(value) {
+  const safeUrl = safeSourceUrl(value);
+  if (!safeUrl) return false;
+  try {
+    const url = new URL(safeUrl);
+    return /(^|\\.)(google|bing|duckduckgo)\\./i.test(url.hostname) &&
+      (url.pathname === "/search" || url.searchParams.has("q"));
+  } catch {
+    return false;
+  }
+}
+
+function productSourceLinks(product) {
+  const links = [];
+  const seen = new Set();
+  const add = (value, label, ariaLabel, kind) => {
+    const url = safeSourceUrl(value);
+    if (!url || seen.has(url)) return;
+    seen.add(url);
+    links.push({ url, label, ariaLabel, kind });
+  };
+
+  add(product.tdsUrl, "TDS", "Manufacturer technical data sheet", "tds");
+  add(
+    product.productUrl,
+    "Product",
+    "Product page",
+    "product",
+  );
+  add(
+    product.specUrl,
+    product.sourceLabel?.startsWith("McMaster") ? "Distributor" : "Spec",
+    product.sourceLabel?.startsWith("McMaster") ? "Distributor product specification" : "Product specification",
+    "spec",
+  );
+  add(product.sdsUrl, "SDS", "Safety data sheet", "sds");
+  add(
+    product.catalogUrl,
+    product.sourceLabel?.startsWith("McMaster") ? "Distributor" : "Catalog",
+    product.sourceLabel?.startsWith("McMaster") ? "Distributor catalog listing" : "Catalog listing",
+    "catalog",
+  );
+
+  if (product.referenceUrl && !isSearchSourceUrl(product.referenceUrl)) {
+    const isDistributor = product.sourceLabel?.startsWith("McMaster");
+    add(
+      product.referenceUrl,
+      isDistributor ? "Distributor" : "Reference",
+      isDistributor ? "Distributor listing" : "Reference page",
+      isDistributor ? "distributor" : "reference",
+    );
+  }
+
+  if (!product.tdsUrl) {
+    const fallback = isSearchSourceUrl(product.referenceUrl)
+      ? product.referenceUrl
+      : `https://www.google.com/search?q=${encodeURIComponent(`${product.name} ${product.maker} TDS`)}`;
+    add(fallback, "Search TDS", "Search the web for this product's technical data sheet", "search");
+  }
+
+  return links;
+}
+
 function renderResults() {
   appState.renderFrame = 0;
   const filters = collectFilters();
@@ -5703,11 +5776,7 @@ function renderResults() {
     const row = document.createElement("tr");
     const mcmasterSummary = formatMcMasterSummary(match.product.mcmaster);
     const mcmasterChemistry = formatMcMasterChemistry(match.product.mcmaster);
-    const primaryActionLabel = match.product.tdsUrl
-      ? "TDS"
-      : match.product.sourceLabel?.startsWith("McMaster")
-        ? "Spec"
-        : "Source";
+    const productLinks = productSourceLinks(match.product);
 
     const scoreCell = document.createElement("td");
     const scorePill = document.createElement("span");
@@ -5826,26 +5895,18 @@ function renderResults() {
     saveButton.setAttribute("aria-pressed", String(saved));
     saveButton.textContent = saved ? "Saved" : "Star";
     saveButton.addEventListener("click", () => toggleSavedGlue(match.product.id));
-    const referenceLink = document.createElement("a");
-    referenceLink.className = "button button-ghost button-table";
-    referenceLink.href = match.product.referenceUrl;
-    referenceLink.target = "_blank";
-    referenceLink.rel = "noreferrer";
-    referenceLink.textContent = primaryActionLabel;
-    actionWrap.append(saveButton, referenceLink);
-    if (
-      match.product.tdsUrl &&
-      match.product.specUrl &&
-      match.product.specUrl !== match.product.referenceUrl
-    ) {
-      const specLink = document.createElement("a");
-      specLink.className = "action-secondary-link";
-      specLink.href = match.product.specUrl;
-      specLink.target = "_blank";
-      specLink.rel = "noreferrer";
-      specLink.textContent = "McMaster";
-      actionWrap.append(specLink);
-    }
+    actionWrap.append(saveButton);
+    productLinks.forEach(({ url, label, ariaLabel, kind }) => {
+      const sourceLink = document.createElement("a");
+      sourceLink.className = `action-secondary-link source-link source-link-${kind}`;
+      sourceLink.href = url;
+      sourceLink.target = "_blank";
+      sourceLink.rel = "noreferrer";
+      sourceLink.textContent = label;
+      sourceLink.setAttribute("aria-label", ariaLabel);
+      sourceLink.title = ariaLabel;
+      actionWrap.append(sourceLink);
+    });
     actionCell.append(actionWrap);
 
     row.append(

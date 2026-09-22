@@ -5287,6 +5287,7 @@ function scoreProduct(product, filters) {
   if (selectedMaterials.length && explicitWeakSubstrate) return null;
   if (
     selectedMaterials.length === 2 &&
+    !product.profileDerivedIncompatibleMaterialPairs &&
     product.incompatibleMaterialPairs?.length &&
     materialPairListHas(product.incompatibleMaterialPairs, selectedMaterials)
   ) {
@@ -5294,6 +5295,7 @@ function scoreProduct(product, filters) {
   }
   if (
     selectedMaterials.length === 2 &&
+    !product.profileDerivedCompatibleMaterialPairs &&
     product.compatibleMaterialPairs?.length &&
     !materialPairListHas(product.compatibleMaterialPairs, selectedMaterials)
   ) {
@@ -5333,7 +5335,11 @@ function scoreProduct(product, filters) {
     reasons.push(`High affinity for ${materialLabel(selectedMaterials[0])}.`);
   }
 
-  if (selectedMaterials.length === 2 && product.compatibleMaterialPairs?.length) {
+  if (
+    selectedMaterials.length === 2 &&
+    !product.profileDerivedCompatibleMaterialPairs &&
+    product.compatibleMaterialPairs?.length
+  ) {
     reasons.push(
       `Listed for ${materialLabel(selectedMaterials[0])} to ${materialLabel(selectedMaterials[1])}.`,
     );

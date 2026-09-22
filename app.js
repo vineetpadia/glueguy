@@ -5647,7 +5647,7 @@ function isSearchSourceUrl(value) {
   if (!safeUrl) return false;
   try {
     const url = new URL(safeUrl);
-    return /(^|\\.)(google|bing|duckduckgo)\\./i.test(url.hostname) &&
+    return /(^|\.)(google|bing|duckduckgo)\./i.test(url.hostname) &&
       (url.pathname === "/search" || url.searchParams.has("q"));
   } catch {
     return false;
@@ -5685,18 +5685,46 @@ function productSourceLinks(product) {
     "catalog",
   );
 
-  if (product.referenceUrl && !isSearchSourceUrl(product.referenceUrl)) {
+  const referenceUrl = safeSourceUrl(product.referenceUrl);
+  const referenceText = referenceUrl
+    ? (() => {
+        const parsed = new URL(referenceUrl);
+        return `${parsed.hostname}${parsed.pathname}`.toLowerCase();
+      })()
+    : "";
+  const referenceIsSds =
+    referenceText.includes("sds") || referenceText.includes("safety-data");
+  const referenceIsTds =
+    referenceText.includes("/tds") ||
+    referenceText.includes("-tds") ||
+    referenceText.includes("_tds") ||
+    referenceText.includes("datasheet") ||
+    referenceText.includes("data-sheet") ||
+    referenceText.includes("technical-data") ||
+    referenceText.includes("tech-data") ||
+    referenceText.endsWith(".pdf");
+  const referenceIsSearch = isSearchSourceUrl(product.referenceUrl);
+  let hasManufacturerTds = Boolean(safeSourceUrl(product.tdsUrl));
+
+  if (referenceUrl && !referenceIsSearch) {
     const isDistributor = product.sourceLabel?.startsWith("McMaster");
-    add(
-      product.referenceUrl,
-      isDistributor ? "Distributor" : "Reference",
-      isDistributor ? "Distributor listing" : "Reference page",
-      isDistributor ? "distributor" : "reference",
-    );
+    if (referenceIsSds) {
+      add(referenceUrl, "SDS", "Safety data sheet", "sds");
+    } else if (referenceIsTds) {
+      add(referenceUrl, "TDS", "Manufacturer technical data sheet", "tds");
+      hasManufacturerTds = true;
+    } else {
+      add(
+        referenceUrl,
+        isDistributor ? "Distributor" : "Reference",
+        isDistributor ? "Distributor listing" : "Reference page",
+        isDistributor ? "distributor" : "reference",
+      );
+    }
   }
 
-  if (!product.tdsUrl) {
-    const fallback = isSearchSourceUrl(product.referenceUrl)
+  if (!hasManufacturerTds) {
+    const fallback = referenceIsSearch
       ? product.referenceUrl
       : `https://www.google.com/search?q=${encodeURIComponent(`${product.name} ${product.maker} TDS`)}`;
     add(fallback, "Search TDS", "Search the web for this product's technical data sheet", "search");

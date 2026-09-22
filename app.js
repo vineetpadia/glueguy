@@ -5931,7 +5931,7 @@ function renderSavedGlues(matches, filters) {
     <thead>
       <tr>
         <th>Product</th>
-        <th>Fit score</th>
+        <th>Current filter status</th>
         <th>Temperature</th>
         <th>Fixture</th>
         <th>Cost</th>
@@ -5956,7 +5956,7 @@ function renderSavedGlues(matches, filters) {
         <div class="maker">${match.product.maker}</div>
         <div class="product-name">${match.product.name}</div>
       </td>
-      <td>${match.outsideFilters ? "Outside filters" : `${match.score}%`}</td>
+      <td>${match.outsideFilters ? "Outside current filters" : "Not excluded by current filters"}</td>
       <td>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}</td>
       <td>${formatMinutes(match.product.fixtureTime)}</td>
       <td>${formatPricing(match.product.pricing)}</td>

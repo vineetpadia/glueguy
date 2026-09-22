@@ -5800,6 +5800,9 @@ function createDetailSection(title, description = "") {
     note.textContent = description;
     section.append(note);
   }
+  const facts = document.createElement("dl");
+  facts.className = "product-detail-facts";
+  section.append(facts);
   return section;
 }
 
@@ -5822,7 +5825,8 @@ function appendDetailFact(section, label, value, profileDerived = false) {
   provenance.setAttribute("aria-label", provenance.title);
   definition.append(provenance);
   fact.append(term, definition);
-  section.append(fact);
+  const facts = section.querySelector(".product-detail-facts");
+  (facts ?? section).append(fact);
 }
 
 function openProductDetail(product, match) {

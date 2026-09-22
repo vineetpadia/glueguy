@@ -4939,6 +4939,11 @@ const resultsTitle = document.querySelector("#results-title");
 const resultsSearch = document.querySelector("#results-search");
 const resultsSort = document.querySelector("#results-sort");
 const resultsPagination = document.querySelector("#results-pagination");
+const productDetailDialog = document.querySelector("#product-detail-dialog");
+const productDetailTitle = document.querySelector("#product-detail-title");
+const productDetailMaker = document.querySelector("#product-detail-maker");
+const productDetailContent = document.querySelector("#product-detail-content");
+const productDetailClose = document.querySelector("#product-detail-close");
 const activeTags = document.querySelector("#active-tags");
 const compareState = document.querySelector("#compare-state");
 const fitAHeading = document.querySelector("#fit-a-heading");
@@ -5678,6 +5683,7 @@ function productSourceLinks(product) {
     "spec",
   );
   add(product.sdsUrl, "SDS", "Safety data sheet", "sds");
+  add(product.pricing?.sourceUrl, "Price", "Price source listing", "price");
   add(
     product.catalogUrl,
     product.sourceLabel?.startsWith("McMaster") ? "Distributor" : "Catalog",
@@ -5738,6 +5744,272 @@ function productSourceLinks(product) {
 }
 
 function renderResults() {
+const DETAIL_EVIDENCE_FIELDS = [
+  ["Mix ratio", "mixRatio"],
+  ["Electrical behavior", "electricalBehavior"],
+  ["Volume resistivity", "volumeResistivity"],
+  ["Volume resistivity (Ω·m)", "volumeResistivityOhmM"],
+  ["Surface resistivity", "surfaceResistivity"],
+  ["Surface resistivity (Ω)", "surfaceResistivityOhm"],
+  ["Dielectric constant", "dielectricConstant"],
+  ["Dielectric breakdown", "dielectricBreakdown"],
+  ["Tensile strength", "tensileStrength"],
+  ["Tensile strength (MPa)", "tensileStrengthMPa"],
+  ["Tensile modulus (MPa)", "tensileModulusMPa"],
+  ["Elongation (%)", "elongationPct"],
+  ["Hardness", "hardnessValue"],
+  ["Peel strength (N/25 mm)", "peelStrengthNPer25Mm"],
+  ["Cure depth", "cureDepth"],
+  ["Cure rate (mm/24 h)", "cureRateMmPer24h"],
+  ["Working life (days)", "workingLifeDays"],
+  ["Storage condition", "storageCondition"],
+  ["TDS revision date", "sourceRevisionDate"],
+  ["Product code", "productSku"],
+];
+
+function formatDetailValue(value) {
+  if (value === null || value === undefined || value === "") return "";
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    return String(value);
+  }
+  if (Array.isArray(value)) {
+    return value.map(formatDetailValue).filter(Boolean).join(" • ");
+  }
+  if (typeof value === "object") {
+    return Object.entries(value)
+      .map(([key, entry]) => {
+        const label = key.replace(/([a-z0-9])([A-Z])/g, "$1 $2").replace(/^./, (char) => char.toUpperCase());
+        const formatted = formatDetailValue(entry);
+        return formatted ? `${label}: ${formatted}` : "";
+      })
+      .filter(Boolean)
+      .join(" • ");
+  }
+  return "";
+}
+
+function createDetailSection(title, description = "") {
+  const section = document.createElement("section");
+  section.className = "product-detail-section";
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  section.append(heading);
+  if (description) {
+    const note = document.createElement("p");
+    note.className = "product-detail-note";
+    note.textContent = description;
+    section.append(note);
+  }
+  return section;
+}
+
+function appendDetailFact(section, label, value, profileDerived = false) {
+  if (value === null || value === undefined || value === "") return;
+  const fact = document.createElement("div");
+  fact.className = "product-detail-fact";
+  const term = document.createElement("dt");
+  term.textContent = label;
+  const definition = document.createElement("dd");
+  const text = document.createElement("span");
+  text.textContent = value;
+  definition.append(text);
+  const provenance = document.createElement("span");
+  provenance.className = profileDerived ? "field-evidence" : "detail-provenance";
+  provenance.textContent = profileDerived ? "Profile guide" : "Product record";
+  provenance.title = profileDerived
+    ? "This value is inherited from a chemistry profile, not this product’s technical data sheet."
+    : "Product-specific catalog value; verify conditions and limits in the linked manufacturer documentation.";
+  provenance.setAttribute("aria-label", provenance.title);
+  definition.append(provenance);
+  fact.append(term, definition);
+  section.append(fact);
+}
+
+function openProductDetail(product, match) {
+  if (!productDetailDialog || !productDetailContent) return;
+  productDetailTitle.textContent = product.name || "Product details";
+  productDetailMaker.textContent = product.maker || "Manufacturer not reported";
+  productDetailContent.replaceChildren();
+
+  const overview = createDetailSection("Overview");
+  const summary = document.createElement("p");
+  summary.className = "product-detail-summary";
+  summary.textContent = product.summary || "No product-specific summary is recorded.";
+  overview.append(summary);
+  const identity = document.createElement("div");
+  identity.className = "product-detail-tags";
+  [product.chemistry, product.cureFamily, product.cureDetail]
+    .filter(Boolean)
+    .forEach((value) => {
+      const tag = document.createElement("span");
+      tag.className = "application-pill";
+      tag.textContent = value;
+      identity.append(tag);
+    });
+  if (identity.childElementCount) overview.append(identity);
+  const applications = dedupeList(product.applicationTags ?? []).map(applicationLabel);
+  if (applications.length) {
+    const applicationNote = document.createElement("p");
+    applicationNote.className = "product-detail-note";
+    applicationNote.textContent = `Applications: ${applications.join(" • ")}`;
+    overview.append(applicationNote);
+  }
+  if (product.mcmaster) {
+    const packageSummary = [formatMcMasterSummary(product.mcmaster), formatMcMasterChemistry(product.mcmaster)]
+      .filter(Boolean)
+      .join(" • ");
+    if (packageSummary) {
+      const packageNote = document.createElement("p");
+      packageNote.className = "product-detail-note";
+      packageNote.textContent = packageSummary;
+      overview.append(packageNote);
+    }
+  }
+  productDetailContent.append(overview);
+
+  if (match) {
+    const assessment = createDetailSection(
+      "Current joint assessment",
+      "This is screening guidance. Confirm suitability, surface preparation, test conditions, and service limits in the manufacturer’s documentation."
+    );
+    const selectedMaterials = [match.filters?.substrateA, match.filters?.substrateB].filter(
+      (material) => material && material !== "any",
+    );
+    if (selectedMaterials.length) {
+      selectedMaterials.forEach((material) => {
+        const isProfileDerived = product.profileDerivedSubstrates?.includes(material);
+        appendDetailFact(
+          assessment,
+          `${materialLabel(material)} material affinity`,
+          formatFit(match.materialFits?.[material] ?? product.substrates?.[material] ?? 0),
+          isProfileDerived,
+        );
+      });
+    } else {
+      const anyMaterial = document.createElement("p");
+      anyMaterial.className = "product-detail-note";
+      anyMaterial.textContent = "No material pair is selected.";
+      assessment.append(anyMaterial);
+    }
+    const assessmentText = [...(match.reasons ?? []), ...(match.warnings ?? [])];
+    const uniqueAssessment = dedupeList(assessmentText);
+    if (uniqueAssessment.length) {
+      const list = document.createElement("ul");
+      list.className = "product-detail-list";
+      uniqueAssessment.forEach((text) => {
+        const item = document.createElement("li");
+        item.textContent = text;
+        list.append(item);
+      });
+      assessment.append(list);
+    }
+    productDetailContent.append(assessment);
+  }
+
+  const specifications = createDetailSection(
+    "Core specifications",
+    "Values tagged “Profile guide” are chemistry-family defaults. Other values are product-specific catalog entries; the linked source and its test conditions remain authoritative."
+  );
+  const coreFields = [
+    ["Service temperature", formatTemperatureRange(product.serviceMin, product.serviceMax), ["serviceMin", "serviceMax"]],
+    ["Fixture time", formatMinutes(product.fixtureTime), ["fixtureTime"]],
+    ["Pot life", formatMinutes(product.potLife), ["potLife"]],
+    ["Gap fill", formatGap(product.gapFill), ["gapFill"]],
+    ["Lap shear", formatLapShear(product.lapShear), ["lapShear"]],
+    ["Viscosity", VISCOSITY_LABELS[product.viscosityClass] ?? "Not reported", ["viscosityClass"]],
+    ["Thermal conductivity", Number.isFinite(product.thermalConductivity) ? formatThermal(product.thermalConductivity) : "Not reported", ["thermalConductivity"]],
+    ["Clarity", product.clarity ? product.clarity.replaceAll("-", " ") : "Not reported", ["clarity"]],
+    ["Mix ratio", product.mixRatio ? formatDetailValue(product.mixRatio) : "Not reported", []],
+    ["Primary load guidance", Number.isFinite(product.stress?.[match?.filters?.stress ?? appState.stress]) ? `${product.stress[match?.filters?.stress ?? appState.stress]}/10` : "Not reported", []],
+  ];
+  coreFields.forEach(([label, value, fields]) => {
+    const profileDerived = fields.some((field) => product.profileDerivedFields?.includes(field));
+    appendDetailFact(specifications, label, value, profileDerived);
+  });
+  appendDetailFact(
+    specifications,
+    "Non-sag",
+    product.thixotropic ? "Yes" : "No",
+    product.profileDerivedFields?.includes("thixotropic"),
+  );
+  productDetailContent.append(specifications);
+
+  const otherValues = DETAIL_EVIDENCE_FIELDS
+    .map(([label, field]) => [label, formatDetailValue(product[field])])
+    .filter(([, value]) => value);
+  if (otherValues.length) {
+    const evidence = createDetailSection(
+      "Additional cataloged technical values",
+      "These fields are present in the catalog when listed; missing values are not assumed."
+    );
+    otherValues.forEach(([label, value]) => appendDetailFact(evidence, label, value, false));
+    productDetailContent.append(evidence);
+  }
+
+  const commerce = createDetailSection("Price and package");
+  appendDetailFact(commerce, "Unit price", formatPricing(product.pricing), false);
+  if (product.pricing?.example) appendDetailFact(commerce, "Package", product.pricing.example, false);
+  if (product.pricing?.basis) {
+    const basis = document.createElement("p");
+    basis.className = "product-detail-note";
+    basis.textContent =
+      product.pricing.basis === "estimated"
+        ? "Price is an estimate, not a current supplier quote."
+        : "Observed package price; availability and price can change.";
+    commerce.append(basis);
+  }
+  productDetailContent.append(commerce);
+
+  const cautions = dedupeList([...(product.cautions ?? []), ...(match?.warnings ?? [])]);
+  if (cautions.length) {
+    const cautionSection = createDetailSection("Cautions and limitations");
+    const list = document.createElement("ul");
+    list.className = "product-detail-list product-detail-cautions";
+    cautions.forEach((warning) => {
+      const item = document.createElement("li");
+      item.textContent = warning;
+      list.append(item);
+    });
+    cautionSection.append(list);
+    productDetailContent.append(cautionSection);
+  }
+
+  const sources = createDetailSection(
+    "Sources",
+    "Use manufacturer documentation for final design decisions. Search results are discovery links, not evidence."
+  );
+  const sourceLinks = productSourceLinks(product);
+  if (sourceLinks.length) {
+    const linkList = document.createElement("div");
+    linkList.className = "product-detail-sources";
+    sourceLinks.forEach(({ url, label, ariaLabel }) => {
+      const link = document.createElement("a");
+      link.className = "action-secondary-link";
+      link.href = url;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = label;
+      link.setAttribute("aria-label", ariaLabel);
+      link.title = ariaLabel;
+      linkList.append(link);
+    });
+    sources.append(linkList);
+  } else {
+    const noSources = document.createElement("p");
+    noSources.className = "product-detail-note";
+    noSources.textContent = "No source links are recorded.";
+    sources.append(noSources);
+  }
+  productDetailContent.append(sources);
+
+  if (typeof productDetailDialog.showModal === "function") {
+    productDetailDialog.showModal();
+  } else {
+    productDetailDialog.setAttribute("open", "");
+  }
+}
+
+
   appState.renderFrame = 0;
   const filters = collectFilters();
   const candidates = filters.savedOnly
@@ -5838,11 +6110,29 @@ function renderResults() {
 
     const productCell = document.createElement("td");
     productCell.className = "product-cell";
-    productCell.innerHTML = `
-      <p class="maker">${match.product.maker}</p>
-      <p class="product-name">${match.product.name}</p>
-      ${mcmasterSummary ? `<p class="table-note">${mcmasterSummary}</p>` : ""}
-    `;
+    const makerLabel = document.createElement("p");
+    makerLabel.className = "maker";
+    makerLabel.textContent = match.product.maker;
+    const detailTrigger = document.createElement("button");
+    detailTrigger.type = "button";
+    detailTrigger.className = "product-name product-detail-trigger";
+    detailTrigger.textContent = match.product.name;
+    detailTrigger.setAttribute("aria-haspopup", "dialog");
+    detailTrigger.setAttribute("aria-controls", "product-detail-dialog");
+    detailTrigger.setAttribute(
+      "aria-label",
+      `Open details for ${match.product.maker} ${match.product.name}`,
+    );
+    detailTrigger.addEventListener("click", () =>
+      openProductDetail(match.product, { ...match, filters }),
+    );
+    productCell.append(makerLabel, detailTrigger);
+    if (mcmasterSummary) {
+      const packageNote = document.createElement("p");
+      packageNote.className = "table-note";
+      packageNote.textContent = mcmasterSummary;
+      productCell.append(packageNote);
+    }
 
     const chemistryCell = document.createElement("td");
     const applicationText = formatApplicationTags(match.product.applicationTags, 2);
@@ -6064,6 +6354,16 @@ function renderSavedGlues(matches, filters) {
 }
 
 function attachEvents() {
+  productDetailClose?.addEventListener("click", () => {
+    if (typeof productDetailDialog.close === "function") productDetailDialog.close();
+    else productDetailDialog.removeAttribute("open");
+  });
+  productDetailDialog?.addEventListener("click", (event) => {
+    if (event.target === productDetailDialog) {
+      if (typeof productDetailDialog.close === "function") productDetailDialog.close();
+      else productDetailDialog.removeAttribute("open");
+    }
+  });
   filterForm.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });
   filterForm.addEventListener("change", () => { appState.resultPage = 1; scheduleRenderResults(); });
   resultsSearch?.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });

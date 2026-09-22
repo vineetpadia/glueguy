@@ -2180,6 +2180,27 @@ const makeProduct = (id, profileName, overrides) => {
   const product = {
     id,
     profileKey: profileName,
+    profileDerivedFields: [
+      "serviceMin",
+      "serviceMax",
+      "viscosityClass",
+      "thixotropic",
+      "gapFill",
+      "thermalConductivity",
+      "clarity",
+      "potLife",
+      "fixtureTime",
+      "lapShear",
+    ].filter((field) => !hasOwn(overrides, field)),
+    profileDerivedStress: Object.keys(profile.stress ?? {}).filter(
+      (field) => !hasOwn(overrides.stress ?? {}, field),
+    ),
+    profileDerivedEnvironment: Object.keys(profile.environment ?? {}).filter(
+      (field) => !hasOwn(overrides.environment ?? {}, field),
+    ),
+    profileDerivedSubstrates: MATERIAL_KEYS.filter(
+      (material) => !hasOwn(overrides.substrates ?? {}, material),
+    ),
     maker: overrides.maker,
     name: overrides.name,
     chemistry: profile.chemistry,
@@ -5227,8 +5248,13 @@ function scoreProduct(product, filters) {
     (material) => material && material !== "any",
   );
   const substrateScores = selectedMaterials.map((material) => product.substrates[material] ?? 0);
+  const explicitWeakSubstrate = selectedMaterials.some(
+    (material) =>
+      !product.profileDerivedSubstrates?.includes(material) &&
+      (product.substrates[material] ?? 0) < 3,
+  );
 
-  if (selectedMaterials.length && substrateScores.some((value) => value < 3)) return null;
+  if (selectedMaterials.length && explicitWeakSubstrate) return null;
   if (
     selectedMaterials.length === 2 &&
     product.incompatibleMaterialPairs?.length &&
@@ -5283,10 +5309,15 @@ function scoreProduct(product, filters) {
     );
   }
 
-  if (temperaturePenalty === 0) {
-    reasons.push(`Covers ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} service.`);
+  const temperatureIsProfileDerived =
+    product.profileDerivedFields?.includes("serviceMin") ||
+    product.profileDerivedFields?.includes("serviceMax");
+  if (temperatureIsProfileDerived) {
+    warnings.push("Temperature range is a chemistry-profile guide; verify this product's TDS.");
+  } else if (temperaturePenalty === 0) {
+    reasons.push(`Product record lists ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} service coverage.`);
   } else {
-    warnings.push("Temperature window is outside its ideal operating range.");
+    warnings.push("Product-record temperature range does not cover the full requested window.");
   }
 
   if (filters.hottest <= product.serviceMax && product.serviceMax - filters.hottest < 10) {
@@ -5350,6 +5381,9 @@ function scoreProduct(product, filters) {
     substrateFit: averageSubstrate,
     minimumSubstrate,
     materialFits: Object.fromEntries(selectedMaterials.map((material) => [material, product.substrates[material] ?? 0])),
+    materialFitIsProfileDerived: selectedMaterials.filter((material) =>
+      product.profileDerivedSubstrates?.includes(material),
+    ),
     reasons: reasons.slice(0, 2),
     warnings: dedupedWarnings.slice(0, 2),
   };
@@ -5650,12 +5684,12 @@ function renderResults() {
     const fitLines = [];
     if (filters.substrateA !== "any") {
       fitLines.push(
-        `<span><small>${materialLabel(filters.substrateA)}</small><strong>${formatFit(match.materialFits[filters.substrateA] ?? match.product.substrates[filters.substrateA] ?? 0)}</strong></span>`,
+        `<span><small>${materialLabel(filters.substrateA)}${match.materialFitIsProfileDerived.includes(filters.substrateA) ? ' <em class="field-evidence">Profile guide</em>' : ""}</small><strong>${formatFit(match.materialFits[filters.substrateA] ?? match.product.substrates[filters.substrateA] ?? 0)}</strong></span>`,
       );
     }
     if (filters.substrateB !== "any") {
       fitLines.push(
-        `<span><small>${materialLabel(filters.substrateB)}</small><strong>${formatFit(match.materialFits[filters.substrateB] ?? match.product.substrates[filters.substrateB] ?? 0)}</strong></span>`,
+        `<span><small>${materialLabel(filters.substrateB)}${match.materialFitIsProfileDerived.includes(filters.substrateB) ? ' <em class="field-evidence">Profile guide</em>' : ""}</small><strong>${formatFit(match.materialFits[filters.substrateB] ?? match.product.substrates[filters.substrateB] ?? 0)}</strong></span>`,
       );
     }
     fitACell.innerHTML = fitLines.length
@@ -5679,13 +5713,13 @@ function renderResults() {
       <div class="product-chemistry">${match.product.chemistry}</div>
       ${mcmasterChemistry ? `<div class="table-note">${mcmasterChemistry}</div>` : ""}
       ${applicationText ? `<div class="table-note">${applicationText}</div>` : ""}
-      <div class="table-note">${VISCOSITY_LABELS[match.product.viscosityClass] ?? "Not reported"} • fixtures ${formatMinutes(match.product.fixtureTime)}</div>
+      <div class="table-note">${VISCOSITY_LABELS[match.product.viscosityClass] ?? "Not reported"}${match.product.profileDerivedFields.includes("viscosityClass") ? ' <em class="field-evidence">Profile guide</em>' : ""} • fixtures ${formatMinutes(match.product.fixtureTime)}${match.product.profileDerivedFields.includes("fixtureTime") ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
     `;
 
     const fixtureCell = document.createElement("td");
     fixtureCell.innerHTML = `
-      <div>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}</div>
-      <div class="table-note">${formatGap(match.product.gapFill)} gap • ${formatLapShear(match.product.lapShear)} lap</div>
+      <div>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}${match.product.profileDerivedFields.some((field) => ["serviceMin", "serviceMax"].includes(field)) ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
+      <div class="table-note">${formatGap(match.product.gapFill)} gap${match.product.profileDerivedFields.includes("gapFill") ? ' <em class="field-evidence">Profile guide</em>' : ""} • ${formatLapShear(match.product.lapShear)} lap${match.product.profileDerivedFields.includes("lapShear") ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
     `;
 
     const tempCell = document.createElement("td");

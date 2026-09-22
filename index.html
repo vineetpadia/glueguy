@@ -251,6 +251,12 @@
               </div>
             </div>
 
+            <div class="results-tools" role="search">
+              <label class="results-search-label" for="results-search">Search products</label>
+              <input id="results-search" type="search" placeholder="Name, maker, chemistry…" autocomplete="off" />
+              <label class="results-sort-label" for="results-sort">Sort</label>
+              <select id="results-sort" aria-label="Sort results"><option value="fit">Best fit</option><option value="name">Name</option><option value="price">Lowest listed price</option></select>
+            </div>
             <div class="summary-row">
               <div class="active-tags" id="active-tags"></div>
               <p class="result-note">Ranked guidance only. Verify against the manufacturer TDS.</p>
@@ -260,7 +266,7 @@
               <table class="results-table">
                 <thead>
                   <tr>
-                    <th>Score</th>
+                    <th>Rank</th>
                     <th>Product</th>
                     <th id="fit-a-heading">Material fit</th>
                     <th class="visually-hidden" id="fit-b-heading">Secondary fit</th>
@@ -273,6 +279,7 @@
                 </thead>
                 <tbody id="results-body"></tbody>
               </table>
+              <nav id="results-pagination" class="results-pagination" aria-label="Results pages"></nav>
               <div class="empty-state hidden" id="results-empty">
                 <div>
                   <h3>No matches.</h3>
@@ -296,6 +303,6 @@
       </section>
     </main>
 
-    <script async src="./app.min.js"></script>
+    <script defer src="./app.js"></script>
   </body>
 </html>

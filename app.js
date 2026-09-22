@@ -5629,7 +5629,6 @@ function renderResults() {
 
   const fragment = document.createDocumentFragment();
   visibleMatches.forEach((match, index) => {
-    const scoreTone = scoreColor(match.score);
     const saved = appState.savedIds.includes(match.product.id);
     const row = document.createElement("tr");
     const mcmasterSummary = formatMcMasterSummary(match.product.mcmaster);
@@ -5642,10 +5641,8 @@ function renderResults() {
 
     const scoreCell = document.createElement("td");
     const scorePill = document.createElement("span");
-    scorePill.className = "score-pill";
+    scorePill.className = "score-pill rank-pill";
     scorePill.textContent = `#${(appState.resultPage - 1) * PAGE_SIZE + index + 1}`;
-    scorePill.style.backgroundColor = scoreTone.bg;
-    scorePill.style.color = scoreTone.text;
     scoreCell.append(scorePill);
 
     const fitACell = document.createElement("td");

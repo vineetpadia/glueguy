@@ -596,6 +596,16 @@ summary::-webkit-details-marker {
   font-size: 11px;
 }
 
+.field-evidence {
+  display: inline-block;
+  margin-left: 3px;
+  color: #8a6418;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
 .compact-list,
 .warning-list {
   display: grid;

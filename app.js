@@ -2221,6 +2221,8 @@ const makeProduct = (id, profileName, overrides) => {
     substrates: { ...profile.substrates },
     compatibleMaterialPairs: (profile.compatibleMaterialPairs ?? []).map((pair) => [...pair]),
     incompatibleMaterialPairs: (profile.incompatibleMaterialPairs ?? []).map((pair) => [...pair]),
+    profileDerivedCompatibleMaterialPairs: !hasOwn(overrides, "compatibleMaterialPairs"),
+    profileDerivedIncompatibleMaterialPairs: !hasOwn(overrides, "incompatibleMaterialPairs"),
     summary: profile.summary,
     cautions: [...(profile.cautions ?? [])],
   };
@@ -4502,12 +4504,54 @@ const mergeObservedCatalogData = (existing, generated) => {
     "viscosityClass",
     ...OBSERVED_TDS_FIELDS,
   ].forEach((field) => {
-    if (hasCatalogValue(generated[field])) {
+    if (
+      hasCatalogValue(generated[field]) &&
+      !generated.profileDerivedFields?.includes(field)
+    ) {
       existing[field] = generated[field];
+      existing.profileDerivedFields = (existing.profileDerivedFields ?? []).filter(
+        (derivedField) => derivedField !== field,
+      );
     }
   });
-  if (generated.thixotropic !== undefined) {
+  if (
+    generated.thixotropic !== undefined &&
+    !generated.profileDerivedFields?.includes("thixotropic")
+  ) {
     existing.thixotropic = generated.thixotropic;
+    existing.profileDerivedFields = (existing.profileDerivedFields ?? []).filter(
+      (field) => field !== "thixotropic",
+    );
+  }
+  if (generated.stress) {
+    existing.stress = { ...(existing.stress ?? {}) };
+    Object.entries(generated.stress).forEach(([load, value]) => {
+      if (generated.profileDerivedStress?.includes(load)) return;
+      existing.stress[load] = value;
+      existing.profileDerivedStress = (existing.profileDerivedStress ?? []).filter(
+        (field) => field !== load,
+      );
+    });
+  }
+  if (generated.environment) {
+    existing.environment = { ...(existing.environment ?? {}) };
+    Object.entries(generated.environment).forEach(([environment, value]) => {
+      if (generated.profileDerivedEnvironment?.includes(environment)) return;
+      existing.environment[environment] = value;
+      existing.profileDerivedEnvironment = (existing.profileDerivedEnvironment ?? []).filter(
+        (field) => field !== environment,
+      );
+    });
+  }
+  if (generated.substrates) {
+    existing.substrates = { ...(existing.substrates ?? {}) };
+    Object.entries(generated.substrates).forEach(([material, score]) => {
+      if (generated.profileDerivedSubstrates?.includes(material)) return;
+      existing.substrates[material] = score;
+      existing.profileDerivedSubstrates = (existing.profileDerivedSubstrates ?? []).filter(
+        (field) => field !== material,
+      );
+    });
   }
   if (generated.pricing && (!existing.pricing || existing.pricing.basis !== "observed")) {
     existing.pricing = generated.pricing;
@@ -4518,33 +4562,19 @@ const mergeObservedCatalogData = (existing, generated) => {
       ...generated.applicationTags,
     ]);
   }
-  if (generated.substrates) {
-    existing.substrates = {
-      ...(existing.substrates ?? {}),
-    };
-    Object.entries(generated.substrates).forEach(([material, score]) => {
-      existing.substrates[material] = Math.max(existing.substrates[material] ?? 0, score);
-    });
+  if (
+    !generated.profileDerivedCompatibleMaterialPairs &&
+    generated.compatibleMaterialPairs
+  ) {
+    existing.compatibleMaterialPairs = generated.compatibleMaterialPairs.map((pair) => [...pair]);
+    existing.profileDerivedCompatibleMaterialPairs = false;
   }
-  if (generated.compatibleMaterialPairs?.length) {
-    const pairKeys = new Set((existing.compatibleMaterialPairs ?? []).map(materialPairKey));
-    existing.compatibleMaterialPairs = [...(existing.compatibleMaterialPairs ?? [])];
-    generated.compatibleMaterialPairs.forEach((pair) => {
-      const key = materialPairKey(pair);
-      if (pairKeys.has(key)) return;
-      pairKeys.add(key);
-      existing.compatibleMaterialPairs.push(pair);
-    });
-  }
-  if (generated.incompatibleMaterialPairs?.length) {
-    const pairKeys = new Set((existing.incompatibleMaterialPairs ?? []).map(materialPairKey));
-    existing.incompatibleMaterialPairs = [...(existing.incompatibleMaterialPairs ?? [])];
-    generated.incompatibleMaterialPairs.forEach((pair) => {
-      const key = materialPairKey(pair);
-      if (pairKeys.has(key)) return;
-      pairKeys.add(key);
-      existing.incompatibleMaterialPairs.push(pair);
-    });
+  if (
+    !generated.profileDerivedIncompatibleMaterialPairs &&
+    generated.incompatibleMaterialPairs
+  ) {
+    existing.incompatibleMaterialPairs = generated.incompatibleMaterialPairs.map((pair) => [...pair]);
+    existing.profileDerivedIncompatibleMaterialPairs = false;
   }
   if (generated.mcmaster) {
     existing.mcmaster = {

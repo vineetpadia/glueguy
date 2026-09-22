@@ -632,8 +632,15 @@ summary::-webkit-details-marker {
 }
 
 .row-actions {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 5px;
+  min-width: 88px;
+}
+
+.row-actions .compare-toggle {
+  flex: 1 0 100%;
 }
 
 .button-table {
@@ -648,10 +655,29 @@ summary::-webkit-details-marker {
 }
 
 .action-secondary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 24px;
+  padding: 3px 6px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
   color: var(--blue);
+  background: var(--surface);
   font-size: 10px;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.source-link-tds,
+.source-link-sds {
+  font-weight: 650;
+}
+
+.source-link-search {
+  border-style: dashed;
+  color: var(--secondary);
 }
 
 .compare-panel {

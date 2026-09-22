@@ -76,7 +76,7 @@ const APPLICATION_LABELS = Object.fromEntries(
   APPLICATION_OPTIONS.map((option) => [option.value, option.label]),
 );
 
-const MAX_RENDERED_MATCHES = 50;
+const PAGE_SIZE = 25;
 
 const PROFILE_APPLICATION_TAGS = {
   toughenedEpoxy: ["structural-bonding"],
@@ -4774,7 +4774,7 @@ function assignPricing(product) {
     PRICE_DEFAULTS[product.profileKey] ?? {
       basis: "estimated",
       unit: "mL",
-      unitPrice: 0,
+      unitPrice: null,
     }
   );
 }
@@ -4885,6 +4885,9 @@ const resultsEmpty = document.querySelector("#results-empty");
 const resultsCount = document.querySelector("#results-count");
 const resultsContext = document.querySelector("#results-context");
 const resultsTitle = document.querySelector("#results-title");
+const resultsSearch = document.querySelector("#results-search");
+const resultsSort = document.querySelector("#results-sort");
+const resultsPagination = document.querySelector("#results-pagination");
 const activeTags = document.querySelector("#active-tags");
 const compareState = document.querySelector("#compare-state");
 const fitAHeading = document.querySelector("#fit-a-heading");
@@ -4909,6 +4912,7 @@ const appState = {
   stress: "shear",
   savedIds: readSavedGlueIds(),
   renderFrame: 0,
+  resultPage: 1,
 };
 
 const usdFormatter = new Intl.NumberFormat("en-US", {
@@ -4978,7 +4982,9 @@ const materialLabel = (value) => MATERIAL_LABELS[value] ?? value;
 const applicationLabel = (value) => APPLICATION_LABELS[value] ?? value;
 const formatFit = (value) => `${value.toFixed(1)}/10`;
 const formatPricing = (pricing) =>
-  pricing ? `${pricing.basis === "estimated" ? "Est. " : ""}${formatUsd(pricing.unitPrice)}/${pricing.unit}` : "n/a";
+  pricing && Number.isFinite(pricing.unitPrice) && pricing.unitPrice > 0
+    ? `${pricing.basis === "estimated" ? "Est. " : ""}${formatUsd(pricing.unitPrice)}/${pricing.unit}`
+    : "Price unavailable";
 const formatPricingDetail = (pricing) => pricing?.example ?? "";
 const formatMcMasterPackage = (meta) =>
   [meta?.packageSize, meta?.packageType].filter(Boolean).join(" ") || "";
@@ -5562,15 +5568,21 @@ function renderResults() {
   const candidates = filters.savedOnly
     ? GLUES.filter((glue) => appState.savedIds.includes(glue.id))
     : GLUES;
+  const query = resultsSearch?.value.trim().toLocaleLowerCase() ?? "";
   const matches = candidates
     .map((glue) => scoreProduct(glue, filters))
     .filter(Boolean)
-    .sort(
-      (left, right) =>
-        right.score - left.score ||
-        (Number.isFinite(right.product.lapShear) ? right.product.lapShear : 0) -
-          (Number.isFinite(left.product.lapShear) ? left.product.lapShear : 0),
-    );
+    .filter((match) => !query || [match.product.name, match.product.maker, match.product.chemistry, match.product.cureFamily, ...(match.product.applicationTags ?? [])].filter(Boolean).join(" ").toLocaleLowerCase().includes(query))
+    .sort((left, right) => {
+      if (resultsSort?.value === "name") return left.product.name.localeCompare(right.product.name);
+      if (resultsSort?.value === "price") {
+        const a = left.product.pricing?.unitPrice, b = right.product.pricing?.unitPrice;
+        if (Number.isFinite(a) && a > 0 && (!Number.isFinite(b) || b <= 0)) return -1;
+        if (Number.isFinite(b) && b > 0 && (!Number.isFinite(a) || a <= 0)) return 1;
+        return (a || Infinity) - (b || Infinity);
+      }
+      return right.score - left.score || (Number.isFinite(right.product.lapShear) ? right.product.lapShear : 0) - (Number.isFinite(left.product.lapShear) ? left.product.lapShear : 0);
+    });
 
   const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
     (material) => material && material !== "any",
@@ -5585,10 +5597,13 @@ function renderResults() {
   fitAHeading.textContent = "Material fit";
   fitBHeading.textContent = "Secondary fit";
 
-  const visibleMatches = matches.slice(0, MAX_RENDERED_MATCHES);
+  const pageCount = Math.max(1, Math.ceil(matches.length / PAGE_SIZE));
+  appState.resultPage = Math.min(appState.resultPage, pageCount);
+  const pageStart = (appState.resultPage - 1) * PAGE_SIZE;
+  const visibleMatches = matches.slice(pageStart, pageStart + PAGE_SIZE);
   resultsCount.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"}`;
   resultsContext.textContent = matches.length
-    ? `Showing ${visibleMatches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + PAGE_SIZE, matches.length)} of ${matches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
     : filters.savedOnly && !appState.savedIds.length
       ? "No inventory yet. Star rows to add products."
       : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
@@ -5607,13 +5622,13 @@ function renderResults() {
 
   if (!matches.length) {
     resultsEmpty.classList.remove("hidden");
+    renderResultsPagination(0, 1);
     renderSavedGlues(matches, filters);
     return;
   }
 
   const fragment = document.createDocumentFragment();
-  visibleMatches.forEach((match) => {
-    const scoreTone = scoreColor(match.score);
+  visibleMatches.forEach((match, index) => {
     const saved = appState.savedIds.includes(match.product.id);
     const row = document.createElement("tr");
     const mcmasterSummary = formatMcMasterSummary(match.product.mcmaster);
@@ -5626,10 +5641,8 @@ function renderResults() {
 
     const scoreCell = document.createElement("td");
     const scorePill = document.createElement("span");
-    scorePill.className = "score-pill";
-    scorePill.textContent = `${match.score}%`;
-    scorePill.style.backgroundColor = scoreTone.bg;
-    scorePill.style.color = scoreTone.text;
+    scorePill.className = "score-pill rank-pill";
+    scorePill.textContent = `#${(appState.resultPage - 1) * PAGE_SIZE + index + 1}`;
     scoreCell.append(scorePill);
 
     const fitACell = document.createElement("td");
@@ -5666,7 +5679,7 @@ function renderResults() {
       <div class="product-chemistry">${match.product.chemistry}</div>
       ${mcmasterChemistry ? `<div class="table-note">${mcmasterChemistry}</div>` : ""}
       ${applicationText ? `<div class="table-note">${applicationText}</div>` : ""}
-      <div class="table-note">${VISCOSITY_LABELS[match.product.viscosityClass]} • fixtures ${formatMinutes(match.product.fixtureTime)}</div>
+      <div class="table-note">${VISCOSITY_LABELS[match.product.viscosityClass] ?? "Not reported"} • fixtures ${formatMinutes(match.product.fixtureTime)}</div>
     `;
 
     const fixtureCell = document.createElement("td");
@@ -5781,7 +5794,21 @@ function renderResults() {
   });
 
   resultsBody.append(fragment);
+  renderResultsPagination(matches.length, pageCount);
   renderSavedGlues(matches, filters);
+}
+
+function renderResultsPagination(total, pageCount) {
+  if (!resultsPagination) return;
+  if (total <= PAGE_SIZE) { resultsPagination.replaceChildren(); return; }
+  const button = (label, page, disabled = false, current = false) => {
+    const item = document.createElement("button"); item.type = "button"; item.textContent = label; item.dataset.page = String(page);
+    item.disabled = disabled; item.setAttribute("aria-current", current ? "page" : "false"); item.className = "page-button"; return item;
+  };
+  const pages = new Set([1, pageCount, appState.resultPage - 1, appState.resultPage, appState.resultPage + 1].filter((n) => n >= 1 && n <= pageCount));
+  const nodes = [button("Previous", Math.max(1, appState.resultPage - 1), appState.resultPage === 1)]; let previous = 0;
+  [...pages].sort((a,b) => a-b).forEach((page) => { if (page > previous + 1) { const dots = document.createElement("span"); dots.textContent = "…"; dots.className = "page-ellipsis"; nodes.push(dots); } nodes.push(button(String(page), page, false, page === appState.resultPage)); previous = page; });
+  nodes.push(button("Next", Math.min(pageCount, appState.resultPage + 1), appState.resultPage === pageCount)); resultsPagination.replaceChildren(...nodes);
 }
 
 function scheduleRenderResults() {
@@ -5874,8 +5901,17 @@ function renderSavedGlues(matches, filters) {
 }
 
 function attachEvents() {
-  filterForm.addEventListener("input", scheduleRenderResults);
-  filterForm.addEventListener("change", scheduleRenderResults);
+  filterForm.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });
+  filterForm.addEventListener("change", () => { appState.resultPage = 1; scheduleRenderResults(); });
+  resultsSearch?.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });
+  resultsSort?.addEventListener("change", () => { appState.resultPage = 1; scheduleRenderResults(); });
+  resultsPagination?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-page]");
+    if (!button) return;
+    appState.resultPage = Number(button.dataset.page);
+    renderResults();
+    document.querySelector("#results-title")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 
   stressButtons.forEach((button) => {
     button.addEventListener("click", () => {

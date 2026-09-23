@@ -261,7 +261,7 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
         for word in words:
             if re.fullmatch(r"[a-z]{1,4}", word) and word not in {"glue", "bond", "tack", "fast", "foam"}:
                 titled.append(word.upper())
-            elif re.fullmatch(r"\\d+[a-z]*", word):
+            elif re.fullmatch(r"\d+[a-z]*", word):
                 titled.append(word.upper())
             else:
                 titled.append(word.capitalize())

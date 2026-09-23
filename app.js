@@ -5369,13 +5369,13 @@ function serviceTemperatureEvidenceStatus(product) {
     product.serviceTemperatureNote,
     ...(product.cautions ?? []),
   ].filter(Boolean).join(" ").toLocaleLowerCase();
+  if (/intermittent/.test(sourceText) && /no continuous|not continuous|only intermittent|intermittent.*not/i.test(sourceText)) {
+    return "intermittent";
+  }
   if (
     /not a continuous service-temperature|not a continuous temperature|not continuous service|no continuous service|not a continuous service limit|not published.*continuous|does not publish.*continuous/i.test(sourceText) ||
     /service min\/max scalars?.*tested|service min\/service max scalars?.*tested|tested .*bounds, not a continuous/i.test(sourceText)
   ) return "test-only";
-  if (/intermittent/.test(sourceText) && /no continuous|not continuous|only intermittent|intermittent.*not/i.test(sourceText)) {
-    return "intermittent";
-  }
   if (!Number.isFinite(bounds.min) || !Number.isFinite(bounds.max)) return "unknown";
   return "reported";
 }

@@ -252,6 +252,14 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
             else:
                 titled.append(word.capitalize())
         return normalize_space(" ".join(titled))
+    if strategy == "pidiliteBrandSlug":
+        slug = url.rstrip("/").split("/")[-1].lower()
+        names = {
+            "fevikwik": "Fevikwik",
+            "araldite": "Araldite",
+            "fevistik-and-fevicolmr": "Fevistik & Fevicol MR",
+        }
+        return names.get(slug)
     if strategy == "slugTitleCase":
         slug = url.rstrip("/").split("/")[-1].lower()
         words = [word for word in re.split(r"[-_]+", slug) if word]

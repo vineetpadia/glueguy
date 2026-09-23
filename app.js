@@ -6758,11 +6758,13 @@ function attachEvents() {
 
   resetFiltersButton.addEventListener("click", () => {
     resetAllFilters();
+    syncSharedSearchUrl();
     scheduleRenderResults();
   });
 
   resetHeroButton.addEventListener("click", () => {
     resetAllFilters();
+    syncSharedSearchUrl();
     scheduleRenderResults();
   });
 
@@ -6771,6 +6773,7 @@ function attachEvents() {
       const preset = PRESETS[button.dataset.preset];
       if (!preset) return;
       setFormValues(preset);
+      syncSharedSearchUrl();
       scheduleRenderResults();
       document.querySelector("#lab").scrollIntoView({ behavior: "smooth", block: "start" });
     });

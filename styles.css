@@ -942,3 +942,37 @@ summary::-webkit-details-marker {
   .product-detail-header { padding: 18px; }
   .product-detail-facts { grid-template-columns: 1fr; }
 }
+
+/* Browse catalog view */
+.reference-library-panel {
+  min-width: 0;
+  margin: 0 auto 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.reference-intro { max-width: 900px; margin: 12px 0; color: var(--secondary); font-size: 13px; line-height: 1.55; }
+.reference-tools { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(170px, .65fr) minmax(170px, .65fr); gap: 10px; margin: 16px 0 10px; }
+.reference-tools input { min-width: 0; min-height: 38px; padding: 8px 11px; border: 1px solid var(--line); border-radius: var(--radius-small); background: rgba(255,255,255,.9); }
+.reference-tools select { width: 100%; }
+.reference-summary { display:flex; flex-wrap:wrap; justify-content:space-between; gap: 8px 18px; margin: 10px 0; color: var(--secondary); font-size: 12px; }
+.reference-summary strong { color: var(--text); }
+.reference-table-shell { max-height: min(70vh, 900px); overflow: auto; border: 1px solid var(--line); border-radius: var(--radius-small); }
+.reference-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.reference-table th { position: sticky; top: 0; z-index: 1; padding: 11px 12px; background: #f7f7f8; text-align: left; white-space: nowrap; }
+.reference-table td { min-width: 110px; padding: 11px 12px; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.45; }
+.reference-table td:first-child { min-width: 260px; }
+.reference-table td:nth-child(2) { min-width: 180px; }
+.reference-table td:nth-child(3) { min-width: 200px; }
+.reference-table .maker, .reference-table .product-name, .reference-table .product-summary { margin: 0 0 4px; }
+.reference-table .product-name { font-size: 14px; font-weight: 600; }
+.reference-table .product-summary { color: var(--secondary); font-size: 12px; }
+.reference-table .application-list { display:flex; flex-wrap:wrap; gap:5px; }
+@media(max-width:720px) {
+  .reference-library-panel { margin: 0 -4px 20px; padding: 16px; border-radius: 14px; }
+  .reference-tools { grid-template-columns: 1fr; }
+  .reference-tools input, .reference-tools select { width: 100%; }
+  .reference-table-shell { max-height: 68dvh; margin: 0 -10px; border-radius: 0; }
+}

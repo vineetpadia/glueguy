@@ -1028,6 +1028,38 @@
       ]
     },
     {
+      "name": "Ponal",
+      "priority": "medium",
+      "officialDomains": [
+        "ponal.de",
+        "henkel.com",
+        "datasheets.tdx.henkel.com",
+        "api.henkeldx.com"
+      ],
+      "sources": [
+        {
+          "label": "Ponal official wood adhesive catalog",
+          "url": "https://www.ponal.de/products.html",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Ponal|PONAL"
+          ],
+          "nameExcludeRegex": [
+            "Härter$|D4-Härter|Fügenfüller|Spachtel"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 80
+        }
+      ]
+    },
+    {
       "name": "Pritt",
       "priority": "medium",
       "officialDomains": [
@@ -1085,6 +1117,35 @@
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 1
+        }
+      ]
+    },
+    {
+      "name": "ZAP",
+      "priority": "medium",
+      "officialDomains": [
+        "zapglue.com"
+      ],
+      "sources": [
+        {
+          "label": "ZAP Glue official adhesive catalog",
+          "url": "https://zapglue.com/collections/frontpage",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Zap|Poly-Zap|Plasti-Zap|MR-3000"
+          ],
+          "nameExcludeRegex": [
+            "Kicker|Debonder|Thread Locker|After Run|Tip|Accelerator"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100
         }
       ]
     },

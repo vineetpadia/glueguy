@@ -5304,7 +5304,24 @@ async function copySharedSearchLink() {
     }
     if (status) status.textContent = "Search link copied. Anyone with it can open these conditions.";
   } catch {
-    if (status) status.textContent = "Copy was unavailable. The address bar now contains your shareable search link.";
+    const fallback = document.createElement("textarea");
+    fallback.value = url.href;
+    fallback.setAttribute("aria-hidden", "true");
+    fallback.style.position = "fixed";
+    fallback.style.opacity = "0";
+    document.body.append(fallback);
+    fallback.select();
+    const copied = document.execCommand("copy");
+    fallback.remove();
+    if (copied) {
+      if (button) {
+        button.textContent = "Copied";
+        window.setTimeout(() => { button.textContent = "Copy search link"; }, 1800);
+      }
+      if (status) status.textContent = "Search link copied. Anyone with it can open these conditions.";
+    } else if (status) {
+      status.textContent = "Copy was unavailable. The address bar now contains your shareable search link.";
+    }
   }
 }
 
@@ -6752,6 +6769,7 @@ function attachEvents() {
   stressButtons.forEach((button) => {
     button.addEventListener("click", () => {
       setStressMode(button.dataset.value);
+      syncSharedSearchUrl();
       scheduleRenderResults();
     });
   });

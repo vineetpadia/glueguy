@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 import urllib.request
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from typing import Iterable
 
 import requests
@@ -134,7 +134,7 @@ def collect_html_link_records_from_text(base_url: str, page: str) -> list[dict]:
     return records
 
 
-def extract_tds_links(product_url: str, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
+def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
     """Find official TDS/document PDF links exposed by a product detail page."""
     page = fetch_text(product_url, timeout=timeout, transport=transport)
     results = []
@@ -142,6 +142,10 @@ def extract_tds_links(product_url: str, timeout: int = TIMEOUT, transport: str =
     for record in collect_html_link_records_from_text(product_url, page):
         label = normalize_space(record.get("label", ""))
         url = record["url"].split("#", 1)[0]
+        host = (urlparse(url).hostname or "").lower()
+        domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
+        if domains and not any(host == domain or host.endswith("." + domain) for domain in domains):
+            continue
         searchable = f"{label} {url}".lower()
         if not re.search(r"technical data|technical documentation|\btds\b", searchable):
             continue
@@ -548,6 +552,7 @@ def discover() -> dict:
                 try:
                     entry["tdsDocuments"] = extract_tds_links(
                         entry["officialUrl"],
+                        allowed_domains=manufacturer.get("officialDomains", []),
                         timeout=tds_source.get("requestTimeout", TIMEOUT),
                         transport=tds_source.get("transport", "requests"),
                     )

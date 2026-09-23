@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T03:45:46.417Z",
+  "generated_at": "2026-09-23T03:52:22.150Z",
   "stats": {
     "manufacturersConfigured": 10,
-    "discoveredEntries": 506,
-    "curatedOfficialLeadsAdded": 26
+    "discoveredEntries": 512,
+    "curatedOfficialLeadsAdded": 32
   },
   "manufacturers": [
     {
@@ -277,6 +277,39 @@
           "url": "https://gorillatough.com/products",
           "matchedUrls": 11,
           "discoveredEntries": 11
+        }
+      ]
+    },
+    {
+      "name": "Mod Podge",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ],
+      "discoveredEntries": 2,
+      "sources": [
+        {
+          "label": "Mod Podge official product pages",
+          "url": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
+          "matchedUrls": 2,
+          "discoveredEntries": 2
+        }
+      ]
+    },
+    {
+      "name": "Starbond",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ],
+      "discoveredEntries": 4,
+      "sources": [
+        {
+          "label": "Starbond official product pages",
+          "url": "https://starbond.com/collections/ca-glue",
+          "matchedUrls": 4,
+          "discoveredEntries": 4
         }
       ]
     }
@@ -6071,6 +6104,72 @@
         "gorillatough.com"
       ],
       "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Matte",
+      "officialUrl": "https://plaidonline.com/mod-podge-matte",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Gloss",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-gloss-355553",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Super Fast Thin CA Glue",
+      "officialUrl": "https://starbond.com/products/super-fast-thin-ca-glue",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Medium CA Glue",
+      "officialUrl": "https://starbond.com/products/medium-ca-glue-em-150",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Thick CA Glue",
+      "officialUrl": "https://starbond.com/products/thick-ca-glue-em-2000",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Flexible Toughened CA Glue",
+      "officialUrl": "https://starbond.com/products/flexible-heavymedium-ca-glue-keg-500",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
     }
   ]
 }

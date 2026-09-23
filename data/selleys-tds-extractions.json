@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-24T01:30:00+00:00",
+  "generatedAt": "2026-09-24T02:00:00+00:00",
   "source": "Official Selleys product-page Technical Data Sheets; PDFs individually reviewed and product facts transcribed into the catalog.",
-  "pdfCount": 10,
-  "pdfsResolved": 10,
-  "documentsWithText": 10,
+  "pdfCount": 12,
+  "pdfsResolved": 12,
+  "documentsWithText": 12,
   "documents": [
     {
       "maker": "Selleys",
@@ -285,6 +285,70 @@
           "code": "Liquid Nails Rapid Cure",
           "name": "Liquid Nails Rapid Cure",
           "officialProductUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-rapid-cure/"
+        }
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "productCodes": [
+        "Liquid Nails Exterior"
+      ],
+      "sourceUrl": "https://www.selleys.com.au/media/y1jfub4f/liquid-nails-exterior-tds.pdf",
+      "pdfUrl": "https://www.selleys.com.au/media/y1jfub4f/liquid-nails-exterior-tds.pdf",
+      "httpStatus": 200,
+      "pageCount": 3,
+      "title": "Selleys Liquid Nails Exterior Technical Data Sheet",
+      "revisionDate": "Version 1.0 (2023; exact update date not printed)",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Self-crosslinking acrylic; solvent-free construction adhesive.",
+        "appearance": "White; 350 g cartridge.",
+        "density": "1.20 kg/L.",
+        "applicationTemperature": "5–40 °C (TDS technical table).",
+        "VOC": "33 g/L.",
+        "handlingStrength": "On timber, 3 tonnes/m² after 4 hours; mechanical fasteners may then be removed.",
+        "cureTime": "TDS reports strong bond at 24 hours; product page describes full bond strength at 7 days.",
+        "lapShear": "Initial tensile shear exceeds 1 MPa at 24 hours; tensile shear 3.5 MPa after 3 days; both values from the TDS.",
+        "staticLoad": "Exceeds 24 hours sustaining 40 N at 40 °C (AS 2329-1999 Appendix G).",
+        "repositionTime": "Up to 25 minutes.",
+        "skinTime": "20 minutes, weather dependent.",
+        "gapFill": "Bridges gaps up to 5 mm.",
+        "serviceTemperature": "Up to 70 °C (TDS)."
+      },
+      "targets": [
+        {
+          "code": "Liquid Nails Exterior",
+          "name": "Liquid Nails Exterior",
+          "officialProductUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-exterior/"
+        }
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "productCodes": [
+        "Liquid Nails Mirror & Metal"
+      ],
+      "sourceUrl": "https://www.selleys.com.au/media/ejkekucg/selleys-liquid-nails-mirror-metal-glass-tds.pdf",
+      "pdfUrl": "https://www.selleys.com.au/media/ejkekucg/selleys-liquid-nails-mirror-metal-glass-tds.pdf",
+      "httpStatus": 200,
+      "pageCount": 2,
+      "title": "Selleys Liquid Nails Mirror & Metal Technical Data Sheet",
+      "revisionDate": "November 16, 2020",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Neutral-cure silicone construction adhesive.",
+        "appearance": "Translucent.",
+        "skinTime": "10–15 minutes weather dependent.",
+        "tackFreeTime": "45 minutes.",
+        "cureRate": "2 mm/day.",
+        "serviceTemperature": "The TDS describes high-temperature resistance from 60 to 150 °C; verify conditions against the full sheet before design use.",
+        "applicationGuidance": "Support mirror bonds until sufficient cure, normally 72 hours; allow air circulation and do not seal mirror edges for at least one week."
+      },
+      "targets": [
+        {
+          "code": "Liquid Nails Mirror & Metal",
+          "name": "Liquid Nails Mirror & Metal",
+          "officialProductUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-mirror-metal/"
         }
       ]
     }

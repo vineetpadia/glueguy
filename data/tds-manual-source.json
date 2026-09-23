@@ -57269,7 +57269,7 @@
     },
     {
       "id": "3m-scotch-weld-dp100-lh",
-      "profile": "twoPartEpoxy",
+      "profile": "flexibleEpoxy",
       "maker": "3M",
       "name": "Scotch-Weld DP100 LH",
       "summary": "Fast-setting 1:1 two-part epoxy for structural bonding where quick handling and a slightly flexible cured bond are useful.",
@@ -57307,7 +57307,7 @@
     },
     {
       "id": "3m-scotch-weld-dp100-plus-clear",
-      "profile": "twoPartEpoxy",
+      "profile": "flexibleEpoxy",
       "maker": "3M",
       "name": "Scotch-Weld DP100 Plus Clear",
       "summary": "Fast-setting, flexible two-part clear epoxy with strong overlap-shear and peel performance.",
@@ -57447,7 +57447,7 @@
     },
     {
       "id": "3m-scotch-weld-dp490",
-      "profile": "twoPartEpoxy",
+      "profile": "toughenedEpoxy",
       "maker": "3M",
       "name": "Scotch-Weld DP490 Black",
       "summary": "Black, non-sag two-part structural epoxy for tough bonds and environmental resistance.",
@@ -57508,7 +57508,7 @@
     },
     {
       "id": "3m-scotch-weld-ca8",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "maker": "3M",
       "name": "Scotch-Weld Instant Adhesive CA8",
       "summary": "Clear, rapid-setting cyanoacrylate for metals, plastics and rubbers, with better shock resistance than many typical CAs.",
@@ -57550,7 +57550,7 @@
     },
     {
       "id": "3m-scotch-weld-sf100",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "maker": "3M",
       "name": "Scotch-Weld Super Fast Instant Adhesive SF100",
       "summary": "Low-viscosity super-fast CA designed for difficult-to-bond plastics and rubbers and certain acidic or contaminated surfaces.",
@@ -57592,7 +57592,7 @@
     },
     {
       "id": "3m-vhb-4930f",
-      "profile": "adhesiveTape",
+      "profile": "foamTape",
       "maker": "3M",
       "name": "VHB Tape 4930F",
       "summary": "White, 0.6 mm double-sided acrylic foam tape for permanent fastening and sealing on high-surface-energy substrates.",
@@ -57645,7 +57645,7 @@
     },
     {
       "id": "3m-scotch-weld-dp460eg",
-      "profile": "twoPartEpoxy",
+      "profile": "toughenedEpoxy",
       "maker": "3M",
       "name": "Scotch-Weld DP460EG",
       "summary": "Toughened, two-part room-temperature epoxy for durable bonding and electronics assembly, including potting and magnet bonding.",
@@ -57691,7 +57691,7 @@
       "id": "permabond-2050",
       "maker": "Permabond",
       "name": "2050",
-      "profile": "cyanoacrylate",
+      "profile": "gelCA",
       "summary": "Flexible, toughened ethyl cyanoacrylate for dissimilar or semi-porous substrates exposed to peel, impact, vibration, and thermal cycling.",
       "sourceRevisionDate": "Permabond 2050 Global TDS Revision 5, 07 August 2020.",
       "chemistry": "Ethyl cyanoacrylate",
@@ -57827,7 +57827,7 @@
       "id": "permabond-731",
       "maker": "Permabond",
       "name": "731",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "summary": "Toughened, flexible ethyl cyanoacrylate with improved impact and peel strength and a slower handling cure that allows alignment.",
       "sourceRevisionDate": "Permabond 731 Global TDS Revision 5, 28 February 2022.",
       "chemistry": "Ethyl cyanoacrylate",
@@ -58176,6 +58176,53 @@
       ],
       "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
       "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
+    },
+    {
+      "id": "3m-scotch-weld-dp100-clear",
+      "profile": "clearEpoxy",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 Clear",
+      "summary": "Fast-setting, rigid two-part clear epoxy; the TDS reports a 1:1 mix, 15–20 minute set time, and typical substrate-specific overlap-shear results.",
+      "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 Clear TDS, September 2024 (supersedes August 2024)",
+      "chemistry": "Two-part epoxy adhesive",
+      "cureFamily": "Fast-setting two-part epoxy",
+      "cureDetail": "1:1 by volume (Part B:Part A). Five-minute open time and 5-minute worklife for a 10 g mix at 23 °C. Set time 15–20 minutes to reach 0.3 MPa overlap shear. Fully cures in 24–48 hours at 24 °C; heat up to 93 °C accelerates cure.",
+      "potLife": 5,
+      "fixtureTime": 20,
+      "fullCureHours": 48,
+      "clarity": "transparent",
+      "mixRatio": "1:1 by volume",
+      "lapShearSubstrate": "Typical overlap shear after 7 days at 23 °C (ASTM D1002 / ISO 4587): aluminum 6.6 MPa; cold-rolled steel 6.9 MPa; stainless steel 5.2 MPa; galvanized steel 6.2 MPa. Substrate preparation differs by material; these values are not specification values.",
+      "shearStrengthsMPa": {
+        "aluminum": 6.6,
+        "coldRolledSteel": 6.9,
+        "stainlessSteel": 5.2,
+        "galvanizedSteel": 6.2
+      },
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "clear",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "standards": [
+        "UL 94 HB"
+      ],
+      "cautions": [
+        "3M identifies these technical values as typical, not specification values.",
+        "Overlap-shear values depend on substrate and the specified surface preparation; consult the complete TDS for method details.",
+        "3M labels the product for industrial and occupational use."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/v000147556/"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceSampleType": "Two-part Duo-Pak epoxy",
+      "referenceSampleConsistency": "Clear, rigid two-part epoxy; mix ratio 1:1 by volume.",
+      "referenceForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS"
     }
   ]
 }

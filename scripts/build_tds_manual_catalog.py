@@ -127,11 +127,11 @@ def build_reference_family(entry: dict) -> dict:
         "id": entry["id"],
         "manufacturer": entry["maker"],
         "familyName": entry["name"],
-        "primaryCategory": entry["referenceCategory"],
-        "categories": [entry["referenceCategory"]],
-        "sampleType": entry["referenceSampleType"],
-        "sampleConsistency": entry["referenceSampleConsistency"],
-        "sampleForJoining": entry["referenceForJoining"],
+        "primaryCategory": entry.get("referenceCategory"),
+        "categories": [entry["referenceCategory"]] if entry.get("referenceCategory") else [],
+        "sampleType": entry.get("referenceSampleType"),
+        "sampleConsistency": entry.get("referenceSampleConsistency"),
+        "sampleForJoining": entry.get("referenceForJoining"),
         "applicationTags": entry.get("applicationTags", []),
         "tempMinC": entry.get("serviceMin"),
         "tempMaxC": entry.get("serviceMax"),
@@ -159,9 +159,9 @@ def main() -> None:
     reference_families = [build_reference_family(entry) for entry in entries]
     payload = (
         "window.TDS_MANUAL_PRODUCTS = "
-        + json.dumps(selector_products, indent=2)
+        + json.dumps(selector_products, indent=2, ensure_ascii=False)
         + ";\n\nwindow.TDS_MANUAL_REFERENCE_FAMILIES = "
-        + json.dumps(reference_families, indent=2)
+        + json.dumps(reference_families, indent=2, ensure_ascii=False)
         + ";\n\nwindow.TDS_MANUAL_STATS = "
         + json.dumps(
             {

@@ -53589,6 +53589,1089 @@ window.TDS_MANUAL_PRODUCTS = [
     ]
   },
   {
+    "id": "itw-devcon-hp250",
+    "profile": "toughenedEpoxy",
+    "maker": "ITW Performance Polymers",
+    "name": "Devcon HP 250",
+    "summary": "Two-part, toughened structural epoxy with 65-minute working time, high peel and impact resistance, and a published 250°F maximum service temperature.",
+    "sourceRevisionDate": "ITW Devcon HP 250 Technical Data Sheet, Version 3, April 2023",
+    "chemistry": "Two-part toughened epoxy adhesive",
+    "cureFamily": "Two-part structural epoxy",
+    "cureDetail": "2:1 by volume and 2.38:1 by weight; 65-minute working time at 72°F / 23°C, 6-hour fixture time, 24-hour functional cure, and 7-day full cure.",
+    "serviceMin": -55,
+    "serviceMax": 121,
+    "potLife": 65,
+    "potLifeConditions": "TDS working time; 28 g mass at 72°F / 23°C.",
+    "fixtureTime": 360,
+    "serviceCureMinutes": 1440,
+    "fullCureMinutes": 10080,
+    "mixRatio": "2:1 by volume; 2.38:1 by weight",
+    "viscosityClass": "high",
+    "viscosityValue": 105000,
+    "viscosityUnit": "cP mixed viscosity",
+    "lapShear": 22,
+    "lapShearSubstrate": "Adhesive lap shear / GBS, ASTM D1002, 7 days at 75°F / 24°C; 3,200 psi (22 MPa).",
+    "electricalBehavior": "insulating",
+    "dielectricBreakdownVPerMil": 490,
+    "dielectricBreakdownKVPerMm": 19.3,
+    "impactStrength": "12.3 ft-lb/in² (25.8 kJ/m²)",
+    "elongationPct": 25,
+    "hardnessValue": 78,
+    "hardnessScale": "Shore D, ASTM D2240",
+    "peelStrength": "30-40 pli (5.25-7 N/mm)",
+    "peelStrengthPiw": "30-40",
+    "peelStrengthNPerM": "5250-7000",
+    "solidsContentPct": 100,
+    "densityGPerCm3": 1.08,
+    "clarity": "straw",
+    "applicationTags": [
+      "structural-bonding",
+      "metal-bonding",
+      "composite-bonding",
+      "plastic-bonding",
+      "chemical-resistant",
+      "impact-resistant",
+      "high-temperature"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 8,
+      "impact": 8
+    },
+    "substrates": {
+      "metal": 9,
+      "aluminum": 9,
+      "stainlessSteel": 9,
+      "composite": 8,
+      "frp": 8,
+      "phenolic": 7,
+      "nylon": 7,
+      "pvc": 7,
+      "polycarbonate": 7,
+      "wood": 7,
+      "rigidPlastic": 7
+    },
+    "cautions": [
+      "TDS values are representative or typical and should not be used for specification purposes.",
+      "Prepare surfaces by solvent wiping; abrade or roughen metal to improve bond strength.",
+      "Mix thoroughly and assemble within the stated working time.",
+      "Thermal conductivity, volume/surface resistivity, shelf life, Tg and CTE are not reported in this TDS."
+    ],
+    "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/HP-250-TDS-v3-.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "insulationResistanceOhm",
+      "dielectricConstant",
+      "dissipationFactor",
+      "tensileStrengthMPa",
+      "chipBondStrengthMPa",
+      "cureDepthMm",
+      "tackFreeTime"
+    ]
+  },
+  {
+    "id": "liquid-nails-ln150",
+    "profile": "constructionAdhesive",
+    "maker": "Liquid Nails",
+    "name": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
+    "productCode": "LN-150",
+    "summary": "Waterborne acrylic adhesive/sealant; white, 350,000–400,000 cP, service −29 to 93°C, bridges 6.35 mm. TDS shear: 300 psi at 24 h and 380 psi at 7 d.",
+    "chemistry": "Waterborne acrylic blend",
+    "cureFamily": "Acrylic adhesive and sealant",
+    "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+    "serviceMin": -29,
+    "serviceMax": 93,
+    "applicationTags": [
+      "construction",
+      "sealing-gasketing",
+      "gap-filling",
+      "paintable"
+    ],
+    "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "dielectricConstant",
+      "tensileStrengthMPa"
+    ],
+    "gapFill": 6.35,
+    "lapShear": 2.07,
+    "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+    "fixtureTime": 1440,
+    "substrates": {
+      "wood": 7,
+      "metal": 7,
+      "concrete": 7,
+      "ceramic": 7,
+      "glass": 7,
+      "fiberglass": 7,
+      "drywall": 7,
+      "vinyl": 7
+    },
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "clarity": "white",
+    "viscosityClass": "high",
+    "viscosityValue": "350,000-400,000",
+    "viscosityUnit": "cP",
+    "cautions": [
+      "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+      "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+    ]
+  },
+  {
+    "id": "liquid-nails-ln700",
+    "profile": "constructionAdhesive",
+    "maker": "Liquid Nails",
+    "name": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
+    "productCode": "LN-700",
+    "summary": "Waterborne latex household repair adhesive; white, 200,000 cP, service −29 to 60°C, bridges 9.5 mm. TDS shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+    "chemistry": "Waterborne latex adhesive",
+    "cureFamily": "Latex construction adhesive",
+    "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+    "serviceMin": -29,
+    "serviceMax": 60,
+    "applicationTags": [
+      "household-repair",
+      "construction",
+      "gap-filling",
+      "paintable"
+    ],
+    "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "dielectricConstant",
+      "tensileStrengthMPa"
+    ],
+    "gapFill": 9.5,
+    "lapShear": 2.41,
+    "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+    "potLife": 20,
+    "potLifeConditions": "TDS open time at room temperature.",
+    "fixtureTime": 1440,
+    "substrates": {
+      "wood": 7,
+      "drywall": 7,
+      "concrete": 7,
+      "brick": 7,
+      "tile": 7,
+      "metal": 7,
+      "cork": 7,
+      "vinyl": 7
+    },
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "clarity": "white",
+    "viscosityClass": "high",
+    "viscosityValue": 200000,
+    "viscosityUnit": "cP",
+    "cautions": [
+      "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+      "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+    ]
+  },
+  {
+    "id": "liquid-nails-ln902",
+    "profile": "constructionAdhesive",
+    "maker": "Liquid Nails",
+    "name": "Subfloor and Deck Construction Adhesive - Latex Based",
+    "productCode": "LN-902/LNP-902",
+    "summary": "Low-temperature-gunnable latex subfloor adhesive; white, 200,000 cP, service −29 to 60°C, 15-minute open time, bridges 9.5 mm. Shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+    "chemistry": "Waterborne latex adhesive",
+    "cureFamily": "Latex subfloor construction adhesive",
+    "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+    "serviceMin": -29,
+    "serviceMax": 60,
+    "applicationTags": [
+      "subfloor",
+      "decking",
+      "construction",
+      "gap-filling",
+      "wet-lumber",
+      "cold-weather"
+    ],
+    "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "dielectricConstant",
+      "tensileStrengthMPa"
+    ],
+    "gapFill": 9.5,
+    "lapShear": 2.41,
+    "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+    "potLife": 15,
+    "potLifeConditions": "TDS open time at room temperature.",
+    "fixtureTime": 1440,
+    "substrates": {
+      "lumber": 7,
+      "treatedWood": 7,
+      "plywood": 7,
+      "engineeredWood": 7,
+      "osb": 7,
+      "particleboard": 7
+    },
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "clarity": "white",
+    "viscosityClass": "high",
+    "viscosityValue": 200000,
+    "viscosityUnit": "cP",
+    "cautions": [
+      "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+      "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+    ]
+  },
+  {
+    "id": "liquid-nails-ln903",
+    "profile": "constructionAdhesive",
+    "maker": "Liquid Nails",
+    "name": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
+    "productCode": "LN-903/LNP-903",
+    "summary": "Low-solvent latex construction adhesive; tan, 500,000 cP, service −18 to 60°C, 20-minute open time. Shear: 150 psi at 24 h, 180 psi at 48 h, 240 psi at 7 d.",
+    "chemistry": "Low-solvent latex adhesive",
+    "cureFamily": "Latex construction adhesive",
+    "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+    "serviceMin": -18,
+    "serviceMax": 60,
+    "applicationTags": [
+      "construction",
+      "interior-exterior",
+      "weather-resistant"
+    ],
+    "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "dielectricConstant",
+      "tensileStrengthMPa"
+    ],
+    "lapShear": 1.03,
+    "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+    "potLife": 20,
+    "potLifeConditions": "TDS open time at room temperature.",
+    "fixtureTime": 1440,
+    "substrates": {
+      "wood": 7,
+      "treatedWood": 7,
+      "plywood": 7,
+      "osb": 7,
+      "drywall": 7,
+      "concrete": 7,
+      "cementboard": 7,
+      "brick": 7,
+      "tileboard": 7,
+      "foamboard": 7
+    },
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "clarity": "tan",
+    "viscosityClass": "high",
+    "viscosityValue": 500000,
+    "viscosityUnit": "cP",
+    "cautions": [
+      "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+      "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+    ]
+  },
+  {
+    "id": "liquid-nails-ln2000",
+    "profile": "constructionAdhesive",
+    "maker": "Liquid Nails",
+    "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
+    "productCode": "LN-2000",
+    "summary": "Hybrid polymer adhesive; gray, 500,000 cP, service −40 to 149°C, 20-minute open time. TDS shear: 400 psi at 24 h.",
+    "chemistry": "Hybrid polymer adhesive",
+    "cureFamily": "Moisture-curing hybrid construction adhesive",
+    "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+    "serviceMin": -40,
+    "serviceMax": 149,
+    "applicationTags": [
+      "construction",
+      "hybrid-polymer",
+      "interior-exterior",
+      "wet-surface",
+      "gap-filling",
+      "weather-resistant"
+    ],
+    "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "dielectricConstant",
+      "tensileStrengthMPa"
+    ],
+    "lapShear": 2.76,
+    "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+    "potLife": 20,
+    "potLifeConditions": "TDS open time at room temperature.",
+    "fixtureTime": 1440,
+    "substrates": {
+      "wood": 7,
+      "metal": 7,
+      "glass": 7,
+      "plastic": 7,
+      "ceramic": 7,
+      "rubber": 7,
+      "fiberglass": 7,
+      "concrete": 7,
+      "pvc": 7
+    },
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "clarity": "gray",
+    "viscosityClass": "high",
+    "viscosityValue": 500000,
+    "viscosityUnit": "cP",
+    "cautions": [
+      "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+      "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-dp100-lh",
+    "profile": "flexibleEpoxy",
+    "maker": "3M",
+    "name": "Scotch-Weld DP100 LH",
+    "summary": "Fast-setting 1:1 two-part epoxy for structural bonding where quick handling and a slightly flexible cured bond are useful.",
+    "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 LH TDS, September 2024",
+    "chemistry": "Two-part epoxy adhesive",
+    "cureFamily": "Fast-setting two-part epoxy",
+    "cureDetail": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15–20 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
+    "potLife": 5,
+    "fixtureTime": 20,
+    "clarity": "transparent",
+    "mixRatio": "1:1 by volume",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "standards": [
+      "UL 94 HB"
+    ],
+    "cautions": [
+      "TDS describes cure and adhesive performance as comparable to DP100 Clear, but DP100 Clear numerical performance values are not copied to this product.",
+      "5 min worklife is test-mass and method dependent; set times vary with adhesive temperature.",
+      "Typical technical values are not specification values."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/b5005065035/"
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-dp100-plus-clear",
+    "profile": "flexibleEpoxy",
+    "maker": "3M",
+    "name": "Scotch-Weld DP100 Plus Clear",
+    "summary": "Fast-setting, flexible two-part clear epoxy with strong overlap-shear and peel performance.",
+    "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 Plus Clear TDS, December 2025",
+    "chemistry": "Two-part epoxy adhesive",
+    "cureFamily": "Fast-setting two-part epoxy",
+    "cureDetail": "Two-part 1:1 mix ratio epoxy. Worklife 2–5 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+    "potLife": 5,
+    "fixtureTime": 15,
+    "fullCureHours": 48,
+    "fullCureMinutes": 2880,
+    "lapShear": 22.4,
+    "lapShearSubstrate": "3M TDS overlap shear: 22.4 MPa (3250 psi) on etched aluminum, ASTM D1002 / ISO 4587, 24 h at 23 C then 2 h at 71 C; typical test data only.",
+    "thermalConductivity": 0.19,
+    "clarity": "transparent",
+    "mixRatio": "1:1 by volume",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "clear",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "standards": [
+      "UL 94 HB"
+    ],
+    "cautions": [
+      "Mix ratio 1:1 by volume; 1:0.98 by weight.",
+      "Worklife 2–5 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+      "Typical technical values are not specification values; the reported overlap shear includes a 2 h elevated-temperature post-cure.",
+      "3M labels this an industrial/occupational adhesive for trained users."
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 8,
+      "impact": 6
+    },
+    "substrates": {
+      "aluminum": 9
+    },
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/b40066487/"
+    ]
+  },
+  {
+    "id": "3m-hi-strength-90-spray-aerosol",
+    "profile": "sprayAdhesive",
+    "maker": "3M",
+    "name": "Hi-Strength 90 Spray Adhesive (Aerosol)",
+    "summary": "Fast, high-strength contact spray adhesive for HPL, wood, decorative laminates, particleboard and selected rubber/plastic substrates.",
+    "sourceRevisionDate": "3M Hi-Strength 90 Spray Adhesive (Aerosol) TDS, April 2025",
+    "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+    "cureFamily": "Solvent-evaporating contact spray adhesive",
+    "cureDetail": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1–10 min bonding range; actual timing depends on ambient conditions and applied coverage.",
+    "solidsContentPct": 13,
+    "dryTimeSeconds": 60,
+    "bondingRangeMinutes": [
+      1,
+      10
+    ],
+    "coverageSqFtPerCan": 24,
+    "saftC": 100,
+    "densityKgPerL": 0.72,
+    "clarity": "translucent",
+    "applicationTags": [
+      "spray-adhesive",
+      "contact-adhesive",
+      "construction",
+      "laminate-bonding",
+      "wood-bonding",
+      "industrial-adhesive"
+    ],
+    "cautions": [
+      "TDS data is typical only and should not be used as a specification.",
+      "SAFT is 100 C using birch plywood, 1 in overlap, 100 g load and a stepped temperature ramp; this is not a lap-shear strength value.",
+      "TDS reports flammable solvent and propellant.",
+      "TDS calls out HPL to wood, decorative laminates, particleboard, polyethylene, polypropylene and SBR rubber."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/b40069454/"
+    ]
+  },
+  {
+    "id": "3m-super-77-low-voc-aerosol",
+    "profile": "sprayAdhesive",
+    "maker": "3M",
+    "name": "Super 77 Spray Adhesive Low VOC",
+    "summary": "Industrial-grade high-tack, fast-drying low-VOC mist spray adhesive for insulation, paper, foils, cardboard, fabric, foam and wood.",
+    "sourceRevisionDate": "3M Super 77 Spray Adhesive Low VOC TDS, May 2026 (Preliminary)",
+    "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+    "cureFamily": "Solvent-evaporating contact spray adhesive",
+    "cureDetail": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
+    "solidsContentPct": 23.2,
+    "dryTimeSeconds": 60,
+    "bondingRangeMinutes": [
+      0.5,
+      30
+    ],
+    "coverageSqFtPerCan": 47.3,
+    "saftC": 77,
+    "densityKgPerL": 0.87,
+    "clarity": "translucent",
+    "applicationTags": [
+      "spray-adhesive",
+      "low-voc",
+      "craft",
+      "paper-bonding",
+      "fabric-bonding",
+      "foam-bonding",
+      "insulation-bonding"
+    ],
+    "cautions": [
+      "This is explicitly a preliminary TDS based on a limited number of production runs; 3M says it may issue a new sheet if results change.",
+      "Typical properties are not specification values.",
+      "SAFT is 77 C using birch plywood and a stepped temperature ramp; this is not a lap-shear strength value.",
+      "TDS warns flammable solvent and propellant; 3M labels the product industrial/occupational use."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/v101943161/"
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-dp490",
+    "profile": "toughenedEpoxy",
+    "maker": "3M",
+    "name": "Scotch-Weld DP490 Black",
+    "summary": "Black, non-sag two-part structural epoxy for tough bonds and environmental resistance.",
+    "sourceRevisionDate": "3M Scotch-Weld DP490 Black TDS, May 2026",
+    "chemistry": "Two-component toughened epoxy adhesive",
+    "cureFamily": "Room-temperature curing structural epoxy",
+    "cureDetail": "B:A 2:1 by volume; 90 min worklife for a 45 g mixed mass at 23 C. TDS reports 48 h to full strength on etched aluminum and 24 h to 1000 psi structural strength.",
+    "potLife": 90,
+    "fixtureTime": 1440,
+    "fullCureHours": 48,
+    "fullCureMinutes": 2880,
+    "lapShear": 23,
+    "lapShearSubstrate": "3M TDS overlap shear 23 MPa on sandblasted aluminum after 7 d at 23 C, ASTM D1002 / ISO 4587; typical data.",
+    "thermalConductivity": 0.202,
+    "clarity": "opaque",
+    "mixRatio": "B:A 2:1 by volume",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "toughened",
+      "non-sag",
+      "metal-bonding",
+      "environmental-resistance"
+    ],
+    "standards": [
+      "ASTM D1002",
+      "ISO 4587"
+    ],
+    "substrates": {
+      "aluminum": 9,
+      "stainlessSteel": 9,
+      "steel": 9,
+      "titanium": 8,
+      "fr4": 8,
+      "epoxyComposite": 8,
+      "polycarbonate": 5,
+      "abs": 4
+    },
+    "stress": {
+      "shear": 8,
+      "peel": 7,
+      "impact": 8
+    },
+    "cautions": [
+      "TDS values are typical only and should not be used as specification values.",
+      "Shear result is tied to surface preparation, substrate, bondline, cure and test method; do not treat it as a universal strength value.",
+      "TDS identifies industrial/occupational use."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/v101722005/"
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-ca8",
+    "profile": "thinCA",
+    "maker": "3M",
+    "name": "Scotch-Weld Instant Adhesive CA8",
+    "summary": "Clear, rapid-setting cyanoacrylate for metals, plastics and rubbers, with better shock resistance than many typical CAs.",
+    "sourceRevisionDate": "3M Scotch-Weld Instant Adhesive CA8 TDS, December 2024",
+    "chemistry": "Ethyl cyanoacrylate instant adhesive",
+    "cureFamily": "Room-temperature cyanoacrylate",
+    "cureDetail": "One-part ethyl cyanoacrylate. TDS reports 5–40 s to handling strength; full-cure time is not populated from this sheet.",
+    "fixtureTime": 1,
+    "viscosityMin": 70,
+    "viscosityMax": 130,
+    "viscosityUnit": "cP",
+    "serviceMin": -54,
+    "serviceMax": 82,
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-adhesive",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding",
+      "shock-resistant"
+    ],
+    "standards": [
+      "CID A-A-3097 Type II Class 2"
+    ],
+    "cautions": [
+      "Typical values are not specification values.",
+      "Long-term service temperatures in TDS are −54 to 82 C.",
+      "Industrial/occupational product; store refrigerated at 0–4 C and keep free of moisture."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/b40066933/"
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-sf100",
+    "profile": "thinCA",
+    "maker": "3M",
+    "name": "Scotch-Weld Super Fast Instant Adhesive SF100",
+    "summary": "Low-viscosity super-fast CA designed for difficult-to-bond plastics and rubbers and certain acidic or contaminated surfaces.",
+    "sourceRevisionDate": "3M Scotch-Weld Super Fast Instant Adhesive SF100 TDS, September 2024",
+    "chemistry": "Ethyl-hybrid cyanoacrylate",
+    "cureFamily": "Super-fast cyanoacrylate",
+    "cureDetail": "Handling strength in 10 s, full cure in 24 h at 23 C, and gap fill 0.006 in. Typical viscosity 70–110 cP measured by cone-plate at 3000/s.",
+    "fixtureTime": 0.17,
+    "fullCureHours": 24,
+    "fullCureMinutes": 1440,
+    "viscosityMin": 70,
+    "viscosityMax": 110,
+    "viscosityUnit": "cP",
+    "serviceMax": 82,
+    "gapFillMm": 0.1524,
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-adhesive",
+      "fast-cure",
+      "plastic-bonding",
+      "rubber-bonding",
+      "wood-bonding"
+    ],
+    "cautions": [
+      "Typical TDS values are not specification values.",
+      "TDS says activate/evaluate low-surface-energy plastics such as PE and PP; low humidity or low temperature slows cure.",
+      "Long-term water/humidity exposure can affect bond strength depending on substrate and bond gap.",
+      "Industrial/occupational product."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/b40066913/"
+    ]
+  },
+  {
+    "id": "3m-vhb-4930f",
+    "profile": "foamTape",
+    "maker": "3M",
+    "name": "VHB Tape 4930F",
+    "summary": "White, 0.6 mm double-sided acrylic foam tape for permanent fastening and sealing on high-surface-energy substrates.",
+    "sourceRevisionDate": "3M VHB Tape 4930F TDS, September 2024",
+    "chemistry": "Double-sided acrylic foam pressure-sensitive tape",
+    "cureFamily": "Pressure-sensitive acrylic foam tape",
+    "cureDetail": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
+    "fullCureHours": 72,
+    "fullCureMinutes": 4320,
+    "lapShear": 0.69,
+    "lapShearSubstrate": "3M TDS overlap shear 690 kPa (0.69 MPa) on stainless steel after 72 h at 23 C, ASTM D1002 / ISO 4587; typical data.",
+    "peelStrengthNPerM": 3500,
+    "serviceMax": 93,
+    "clarity": "opaque",
+    "applicationTags": [
+      "vhb-tape",
+      "acrylic-foam-tape",
+      "permanent-bonding",
+      "sealing",
+      "metal-bonding",
+      "glass-bonding",
+      "mechanical-fastener-replacement"
+    ],
+    "substrates": {
+      "stainlessSteel": 8,
+      "aluminum": 8,
+      "glass": 7,
+      "paintedMetal": 7,
+      "plastic": 5
+    },
+    "stress": {
+      "shear": 7,
+      "peel": 8,
+      "impact": 6
+    },
+    "cautions": [
+      "This is a tape with a firm acrylic foam core, not a liquid adhesive; do not compare its shear/peel results directly to liquid adhesive lap-shear results.",
+      "Typical values are not specification values.",
+      "3M states long-term temperature resistance up to 93 C and short-term up to 149 C under the TDS test definitions.",
+      "Porous surfaces such as wood, particleboard and concrete generally need sealing before application."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/v100808740/"
+    ]
+  },
+  {
+    "id": "3m-scotch-weld-dp460eg",
+    "profile": "toughenedEpoxy",
+    "maker": "3M",
+    "name": "Scotch-Weld DP460EG",
+    "summary": "Toughened, two-part room-temperature epoxy for durable bonding and electronics assembly, including potting and magnet bonding.",
+    "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP460EG Technical Data Sheet, January 2019; document 60-5005-0069-3.",
+    "chemistry": "Toughened two-part epoxy adhesive",
+    "cureFamily": "Room-temperature curing structural epoxy",
+    "cureDetail": "2:1 base-to-accelerator by volume; 110-minute worklife at 23 C; handling strength in about 4 hours; room-temperature cure in 24 hours.",
+    "mixRatio": "Base:accelerator 2:1 by volume (2.0:0.96 by weight)",
+    "potLife": 110,
+    "fixtureTime": 240,
+    "fullCureHours": 24,
+    "fullCureMinutes": 1440,
+    "viscosityMin": 15000,
+    "viscosityMax": 25000,
+    "viscosityUnit": "cP",
+    "lapShear": 35.5,
+    "lapShearSubstrate": "TDS reports >35.5 MPa overlap shear on 0.060 in etched aluminum after 24 h at 23 C (ASTM D1002). This is a typical test result, not a universal bond strength or specification.",
+    "thermalConductivity": 0.263,
+    "clarity": "opaque",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "potting",
+      "electronics-assembly",
+      "magnet-bonding",
+      "metal-bonding"
+    ],
+    "standards": [
+      "ASTM D1002"
+    ],
+    "cautions": [
+      "TDS values are typical only and not specification values.",
+      "The reported overlap-shear value is specific to etched aluminum, bond thickness, cure schedule and ASTM D1002 test method.",
+      "The TDS states that the adhesive cures in 24 hours at room temperature; heating accelerates cure and may increase Tg.",
+      "3M labels the product for industrial/occupational use."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+    "sourceLabel": "TDS",
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/"
+  },
+  {
+    "id": "permabond-2050",
+    "maker": "Permabond",
+    "name": "2050",
+    "profile": "gelCA",
+    "summary": "Flexible, toughened ethyl cyanoacrylate for dissimilar or semi-porous substrates exposed to peel, impact, vibration, and thermal cycling.",
+    "sourceRevisionDate": "Permabond 2050 Global TDS Revision 5, 07 August 2020.",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+    "serviceMin": -55,
+    "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+    "gapFill": 0.2,
+    "fixtureTime": 0.208,
+    "fixtureTimeNote": "10–15 seconds on steel (midpoint 12.5 s); 5–10 seconds on Buna-N rubber and PVC.",
+    "fullStrengthHours": 24,
+    "viscosityClass": "medium",
+    "viscosityValue": "1200-1800",
+    "viscosityUnit": "cP",
+    "lapShear": 18,
+    "lapShearSubstrate": "Steel, ISO 4587: 16–20 N/mm² (midpoint 18 MPa); also reports ABS >6, PVC >8 and polycarbonate >5 N/mm² with substrate failure for plastic tests.",
+    "thermalConductivity": 0.1,
+    "dielectricConstant": 2.5,
+    "dielectricBreakdownKVPerMm": 25,
+    "hardnessValue": 85,
+    "hardnessScale": "Shore D",
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "flexible-bonding",
+      "impact-resistant",
+      "rubber-bonding",
+      "plastic-bonding"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 5,
+      "impact": 6
+    },
+    "substrates": {
+      "steel": 8,
+      "plastic": 8,
+      "rubber": 8,
+      "pvc": 8,
+      "abs": 7,
+      "polycarbonate": 7
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and bond gap.",
+      "For polypropylene, polyethylene, PTFE, or silicone, prime with Permabond POP.",
+      "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+      "TDS identifies professional/industrial use only."
+    ],
+    "unpublishedFields": [
+      "serviceMax",
+      "potLife"
+    ],
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+    "productUrl": "https://permabond.com/tds/2050_tds-en/"
+  },
+  {
+    "id": "permabond-268",
+    "maker": "Permabond",
+    "name": "268",
+    "profile": "gelCA",
+    "summary": "Medium-high viscosity, gap-filling ethyl cyanoacrylate for larger gaps and difficult-to-bond plastics, metals, ceramics, and elastomers.",
+    "sourceRevisionDate": "Permabond 268 Global TDS Revision 3, 07 August 2020.",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+    "serviceMin": -55,
+    "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+    "gapFill": 0.43,
+    "fixtureTime": 0.125,
+    "fixtureTimeNote": "5–10 seconds on steel, Buna-N rubber, and phenolic (midpoint 7.5 s).",
+    "fullStrengthHours": 24,
+    "viscosityClass": "high",
+    "viscosityValue": "1200-2400",
+    "viscosityUnit": "cP",
+    "lapShear": 21,
+    "lapShearSubstrate": "Steel, ISO 4587: 20–22 N/mm² (midpoint 21 MPa); ABS, PVC, and polycarbonate results are reported as substrate failure.",
+    "thermalConductivity": 0.1,
+    "hardnessValue": 85,
+    "hardnessScale": "Shore D",
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "gap-filling",
+      "plastic-bonding",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 2,
+      "impact": 3
+    },
+    "substrates": {
+      "steel": 9,
+      "metal": 8,
+      "plastic": 8,
+      "ceramic": 7,
+      "elastomer": 8,
+      "abs": 7,
+      "pvc": 7,
+      "polycarbonate": 7
+    },
+    "standards": [
+      "MIL-A-46050C Type II Class 3 (existing designs)"
+    ],
+    "cautions": [
+      "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+      "Maximum stated gap fill is 0.43 mm; larger gaps and acidic surfaces slow cure.",
+      "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+      "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+      "TDS identifies professional/industrial use only."
+    ],
+    "unpublishedFields": [
+      "serviceMax",
+      "potLife"
+    ],
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+    "productUrl": "https://permabond.com/tds/268_tds-en/"
+  },
+  {
+    "id": "permabond-731",
+    "maker": "Permabond",
+    "name": "731",
+    "profile": "thinCA",
+    "summary": "Toughened, flexible ethyl cyanoacrylate with improved impact and peel strength and a slower handling cure that allows alignment.",
+    "sourceRevisionDate": "Permabond 731 Global TDS Revision 5, 28 February 2022.",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part toughened moisture-triggered cyanoacrylate; full strength in 24 hours.",
+    "serviceMin": -55,
+    "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+    "gapFill": 0.15,
+    "fixtureTime": 0.5,
+    "fixtureTimeNote": "Less than 30 seconds on steel; 120–180 seconds on aluminium; 15–20 seconds on Buna-N rubber and neoprene; 30–45 seconds on ABS.",
+    "fullStrengthHours": 24,
+    "viscosityClass": "medium",
+    "viscosityValue": "150",
+    "viscosityUnit": "cP",
+    "lapShear": 27,
+    "lapShearSubstrate": "Steel, ISO 4587: 24–30 N/mm² (midpoint 27 MPa); aluminium 13–15 MPa. Peel strength is 40–60 N/25 mm by ASTM D903.",
+    "peelStrengthNPerM": 2000,
+    "thermalConductivity": 0.1,
+    "dielectricConstant": 2.5,
+    "dielectricBreakdownKVPerMm": 25,
+    "hardnessValue": 85,
+    "hardnessScale": "Shore D",
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "toughened",
+      "flexible-bonding",
+      "peel-resistant",
+      "impact-resistant",
+      "metal-bonding",
+      "rubber-bonding"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 6,
+      "impact": 6
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "galvanizedSteel": 8,
+      "metal": 8,
+      "plastic": 7,
+      "rubber": 8,
+      "abs": 7,
+      "pvc": 6,
+      "acrylic": 6
+    },
+    "standards": [
+      "ISO 10993-5 Cytotoxicity (TDS reports pass)"
+    ],
+    "cautions": [
+      "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+      "TDS minimum service temperature is −55 °C; its temperature graph is not a continuous-use maximum specification.",
+      "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+      "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+      "TDS identifies professional/industrial use only."
+    ],
+    "unpublishedFields": [
+      "serviceMax",
+      "potLife"
+    ],
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+    "productUrl": "https://permabond.com/tds/731_tds-en/"
+  },
+  {
+    "id": "permabond-820",
+    "maker": "Permabond",
+    "name": "820",
+    "profile": "thinCA",
+    "summary": "Low-viscosity modified ethyl cyanoacrylate for fast bonding where improved high-temperature resistance is needed.",
+    "sourceRevisionDate": "Permabond 820 Global TDS Revision 7, 28 February 2022.",
+    "chemistry": "Modified ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+    "serviceMin": -55,
+    "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials and discusses brief high-temperature exposure; no continuous maximum is specified.",
+    "gapFill": 0.15,
+    "fixtureTime": 0.208,
+    "fixtureTimeNote": "10–15 seconds on steel, Buna-N rubber, and phenolic (midpoint 12.5 s).",
+    "fullStrengthHours": 24,
+    "viscosityClass": "low",
+    "viscosityValue": "100",
+    "viscosityUnit": "cP",
+    "lapShear": 21,
+    "lapShearSubstrate": "Steel, ISO 4587: 19–23 N/mm² (midpoint 21 MPa); strength varies with preparation and bond gap.",
+    "thermalConductivity": 0.1,
+    "dielectricBreakdownKVPerMm": 25,
+    "hardnessValue": 85,
+    "hardnessScale": "Shore D",
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "high-temperature-resistant",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 1,
+      "impact": 2
+    },
+    "substrates": {
+      "steel": 9,
+      "metal": 8,
+      "rubber": 8,
+      "plastic": 7
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+      "High-temperature exposure is described as brief; the TDS does not specify a continuous maximum service temperature.",
+      "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+      "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+      "TDS identifies professional/industrial use only."
+    ],
+    "unpublishedFields": [
+      "serviceMax",
+      "potLife"
+    ],
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+    "productUrl": "https://permabond.com/tds/820_tds-en/"
+  },
+  {
+    "id": "permabond-910fs",
+    "maker": "Permabond",
+    "name": "910FS",
+    "profile": "thinCA",
+    "summary": "Very-low-viscosity methyl cyanoacrylate designed for rapid metal bonding and fast wicking into close-fitting joints.",
+    "sourceRevisionDate": "Permabond 910FS Global TDS Revision 3, 06 August 2020.",
+    "chemistry": "Methyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-triggered methyl cyanoacrylate; TDS reports fixture strength in under 5 seconds on steel and full strength in 24 hours.",
+    "serviceMin": -55,
+    "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; brief higher-temperature exposure is described without a continuous maximum rating.",
+    "gapFill": 0.05,
+    "fixtureTime": 0.083,
+    "fixtureTimeNote": "Less than 5 seconds on steel; less than 10 seconds on Buna-N rubber and phenolic.",
+    "fullStrengthHours": 24,
+    "viscosityClass": "very-low",
+    "viscosityValue": "2-4",
+    "viscosityUnit": "cP",
+    "lapShear": 26,
+    "lapShearSubstrate": "Steel, ISO 4587: 23–29 N/mm² (midpoint 26 MPa); aluminium 13–15 MPa; brass and stainless steel 21 MPa.",
+    "thermalConductivity": 0.1,
+    "dielectricConstant": 2.5,
+    "dielectricBreakdownKVPerMm": 25,
+    "hardnessValue": 85,
+    "hardnessScale": "Shore D",
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "wicking-penetrating",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding"
+    ],
+    "standards": [
+      "MIL-A-46050C Type I Class 1 (existing designs)",
+      "CID A-A-3097 Type I Class 1 (new designs)"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 1,
+      "impact": 2
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "brass": 9,
+      "stainlessSteel": 9,
+      "metal": 9,
+      "plastic": 7,
+      "rubber": 7,
+      "abs": 8,
+      "acrylic": 8,
+      "pvc": 7,
+      "polycarbonate": 7
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+      "Maximum gap fill is 0.05 mm; this very-low-viscosity product is for close-fitting joints.",
+      "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+      "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+      "TDS identifies professional/industrial use only."
+    ],
+    "unpublishedFields": [
+      "serviceMax",
+      "potLife"
+    ],
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+    "productUrl": "https://permabond.com/tds/910fs_tds-en/"
+  },
+  {
     "id": "loctite-clear-epoxy",
     "maker": "Henkel Loctite",
     "name": "Clear Epoxy",
@@ -53725,6 +54808,49 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
     "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
+  },
+  {
+    "id": "3m-scotch-weld-dp100-clear",
+    "profile": "clearEpoxy",
+    "maker": "3M",
+    "name": "Scotch-Weld DP100 Clear",
+    "summary": "Fast-setting, rigid two-part clear epoxy; the TDS reports a 1:1 mix, 15–20 minute set time, and typical substrate-specific overlap-shear results.",
+    "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 Clear TDS, September 2024 (supersedes August 2024)",
+    "chemistry": "Two-part epoxy adhesive",
+    "cureFamily": "Fast-setting two-part epoxy",
+    "cureDetail": "1:1 by volume (Part B:Part A). Five-minute open time and 5-minute worklife for a 10 g mix at 23 °C. Set time 15–20 minutes to reach 0.3 MPa overlap shear. Fully cures in 24–48 hours at 24 °C; heat up to 93 °C accelerates cure.",
+    "potLife": 5,
+    "fixtureTime": 20,
+    "fullCureHours": 48,
+    "clarity": "transparent",
+    "mixRatio": "1:1 by volume",
+    "lapShearSubstrate": "Typical overlap shear after 7 days at 23 °C (ASTM D1002 / ISO 4587): aluminum 6.6 MPa; cold-rolled steel 6.9 MPa; stainless steel 5.2 MPa; galvanized steel 6.2 MPa. Substrate preparation differs by material; these values are not specification values.",
+    "shearStrengthsMPa": {
+      "aluminum": 6.6,
+      "coldRolledSteel": 6.9,
+      "stainlessSteel": 5.2,
+      "galvanizedSteel": 6.2
+    },
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "clear",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "standards": [
+      "UL 94 HB"
+    ],
+    "cautions": [
+      "3M identifies these technical values as typical, not specification values.",
+      "Overlap-shear values depend on substrate and the specified surface preparation; consult the complete TDS for method details.",
+      "3M labels the product for industrial and occupational use."
+    ],
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+    "supportingReferenceUrls": [
+      "https://www.3m.com/3M/en_US/p/d/v000147556/"
+    ]
   }
 ];
 
@@ -67988,16 +69114,511 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "sourceLabel": "TDS"
   },
   {
+    "id": "itw-devcon-hp250",
+    "manufacturer": "ITW Performance Polymers",
+    "familyName": "Devcon HP 250",
+    "primaryCategory": "Toughened Structural Epoxy Adhesives",
+    "categories": [
+      "Toughened Structural Epoxy Adhesives"
+    ],
+    "sampleType": "Two-part cartridge",
+    "sampleConsistency": "Straw-colored, thixotropic epoxy paste; 105,000 cP mixed viscosity",
+    "sampleForJoining": "Structural bonding of metals, FRP/SMC composites, phenolics, stainless steel, aluminum, vinyl esters, nylon, PVC, polycarbonate, styrenics, wood, and rigid plastics",
+    "applicationTags": [
+      "structural-bonding",
+      "metal-bonding",
+      "composite-bonding",
+      "plastic-bonding",
+      "chemical-resistant",
+      "impact-resistant",
+      "high-temperature"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 121,
+    "offerCount": 1,
+    "sourceUrl": "https://itwperformancepolymers.com/wp-content/uploads/HP-250-TDS-v3-.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "liquid-nails-ln150",
+    "manufacturer": "Liquid Nails",
+    "familyName": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
+    "primaryCategory": "Liquid Nails construction and repair adhesives",
+    "categories": [
+      "Liquid Nails construction and repair adhesives"
+    ],
+    "sampleType": "Cartridge or squeeze tube",
+    "sampleConsistency": null,
+    "sampleForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+    "applicationTags": [
+      "construction",
+      "sealing-gasketing",
+      "gap-filling",
+      "paintable"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 93,
+    "offerCount": 1,
+    "sourceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "liquid-nails-ln700",
+    "manufacturer": "Liquid Nails",
+    "familyName": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
+    "primaryCategory": "Liquid Nails construction and repair adhesives",
+    "categories": [
+      "Liquid Nails construction and repair adhesives"
+    ],
+    "sampleType": "Cartridge or squeeze tube",
+    "sampleConsistency": null,
+    "sampleForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+    "applicationTags": [
+      "household-repair",
+      "construction",
+      "gap-filling",
+      "paintable"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 60,
+    "offerCount": 1,
+    "sourceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "liquid-nails-ln902",
+    "manufacturer": "Liquid Nails",
+    "familyName": "Subfloor and Deck Construction Adhesive - Latex Based",
+    "primaryCategory": "Liquid Nails construction and repair adhesives",
+    "categories": [
+      "Liquid Nails construction and repair adhesives"
+    ],
+    "sampleType": "Cartridge or squeeze tube",
+    "sampleConsistency": null,
+    "sampleForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+    "applicationTags": [
+      "subfloor",
+      "decking",
+      "construction",
+      "gap-filling",
+      "wet-lumber",
+      "cold-weather"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 60,
+    "offerCount": 1,
+    "sourceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "liquid-nails-ln903",
+    "manufacturer": "Liquid Nails",
+    "familyName": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
+    "primaryCategory": "Liquid Nails construction and repair adhesives",
+    "categories": [
+      "Liquid Nails construction and repair adhesives"
+    ],
+    "sampleType": "Cartridge or squeeze tube",
+    "sampleConsistency": null,
+    "sampleForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+    "applicationTags": [
+      "construction",
+      "interior-exterior",
+      "weather-resistant"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 60,
+    "offerCount": 1,
+    "sourceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "liquid-nails-ln2000",
+    "manufacturer": "Liquid Nails",
+    "familyName": "FUZE*IT All Surface Interior and Exterior Adhesive",
+    "primaryCategory": "Liquid Nails construction and repair adhesives",
+    "categories": [
+      "Liquid Nails construction and repair adhesives"
+    ],
+    "sampleType": "Cartridge or squeeze tube",
+    "sampleConsistency": null,
+    "sampleForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+    "applicationTags": [
+      "construction",
+      "hybrid-polymer",
+      "interior-exterior",
+      "wet-surface",
+      "gap-filling",
+      "weather-resistant"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 149,
+    "offerCount": 1,
+    "sourceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-dp100-lh",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld DP100 LH",
+    "primaryCategory": "3M two-part epoxy adhesives",
+    "categories": [
+      "3M two-part epoxy adhesives"
+    ],
+    "sampleType": "Two-part Duo-Pak epoxy",
+    "sampleConsistency": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15–20 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
+    "sampleForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-dp100-plus-clear",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld DP100 Plus Clear",
+    "primaryCategory": "3M two-part epoxy adhesives",
+    "categories": [
+      "3M two-part epoxy adhesives"
+    ],
+    "sampleType": "Two-part Duo-Pak epoxy",
+    "sampleConsistency": "Mix ratio 1:1 by volume; 1:0.98 by weight.",
+    "sampleForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "clear",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-hi-strength-90-spray-aerosol",
+    "manufacturer": "3M",
+    "familyName": "Hi-Strength 90 Spray Adhesive (Aerosol)",
+    "primaryCategory": "3M spray adhesives",
+    "categories": [
+      "3M spray adhesives"
+    ],
+    "sampleType": "Aerosol spray adhesive",
+    "sampleConsistency": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1–10 min bonding range; actual timing depends on ambient conditions and applied coverage.",
+    "sampleForJoining": "HPL, wood, decorative laminates, particleboard and the specific compatible materials listed in the TDS.",
+    "applicationTags": [
+      "spray-adhesive",
+      "contact-adhesive",
+      "construction",
+      "laminate-bonding",
+      "wood-bonding",
+      "industrial-adhesive"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-super-77-low-voc-aerosol",
+    "manufacturer": "3M",
+    "familyName": "Super 77 Spray Adhesive Low VOC",
+    "primaryCategory": "3M spray adhesives",
+    "categories": [
+      "3M spray adhesives"
+    ],
+    "sampleType": "Aerosol spray adhesive",
+    "sampleConsistency": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
+    "sampleForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M.",
+    "applicationTags": [
+      "spray-adhesive",
+      "low-voc",
+      "craft",
+      "paper-bonding",
+      "fabric-bonding",
+      "foam-bonding",
+      "insulation-bonding"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-dp490",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld DP490 Black",
+    "primaryCategory": "3M structural epoxy adhesives",
+    "categories": [
+      "3M structural epoxy adhesives"
+    ],
+    "sampleType": "Black Duo-Pak epoxy",
+    "sampleConsistency": "B:A 2:1 by volume; 90 min worklife for a 45 g mixed mass at 23 C. TDS reports 48 h to full strength on etched aluminum and 24 h to 1000 psi structural strength.",
+    "sampleForJoining": "Structural bonding of properly prepared metals and composites using the product-specific TDS process.",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "toughened",
+      "non-sag",
+      "metal-bonding",
+      "environmental-resistance"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-ca8",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld Instant Adhesive CA8",
+    "primaryCategory": "3M cyanoacrylate instant adhesives",
+    "categories": [
+      "3M cyanoacrylate instant adhesives"
+    ],
+    "sampleType": "One-part liquid instant adhesive",
+    "sampleConsistency": "One-part ethyl cyanoacrylate. TDS reports 5–40 s to handling strength; full-cure time is not populated from this sheet.",
+    "sampleForJoining": "Small-area bonding of compatible metals, plastics and rubbers; test substrate compatibility and joint design.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-adhesive",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding",
+      "shock-resistant"
+    ],
+    "tempMinC": -54,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-sf100",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld Super Fast Instant Adhesive SF100",
+    "primaryCategory": "3M super-fast cyanoacrylate adhesives",
+    "categories": [
+      "3M super-fast cyanoacrylate adhesives"
+    ],
+    "sampleType": "Low-viscosity liquid instant adhesive",
+    "sampleConsistency": "Handling strength in 10 s, full cure in 24 h at 23 C, and gap fill 0.006 in. Typical viscosity 70–110 cP measured by cone-plate at 3000/s.",
+    "sampleForJoining": "High-speed bonding of compatible difficult-to-bond plastic/rubber materials and specified contaminated or acidic surfaces.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-adhesive",
+      "fast-cure",
+      "plastic-bonding",
+      "rubber-bonding",
+      "wood-bonding"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-vhb-4930f",
+    "manufacturer": "3M",
+    "familyName": "VHB Tape 4930F",
+    "primaryCategory": "3M VHB adhesive tapes",
+    "categories": [
+      "3M VHB adhesive tapes"
+    ],
+    "sampleType": "White double-sided acrylic foam tape, 0.6 mm",
+    "sampleConsistency": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
+    "sampleForJoining": "Permanent bonding or sealing of compatible high-surface-energy substrates such as metals, glass, paints and some plastics.",
+    "applicationTags": [
+      "vhb-tape",
+      "acrylic-foam-tape",
+      "permanent-bonding",
+      "sealing",
+      "metal-bonding",
+      "glass-bonding",
+      "mechanical-fastener-replacement"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 93,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-dp460eg",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld DP460EG",
+    "primaryCategory": null,
+    "categories": [],
+    "sampleType": null,
+    "sampleConsistency": null,
+    "sampleForJoining": null,
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "structural-bonding",
+      "potting",
+      "electronics-assembly",
+      "magnet-bonding",
+      "metal-bonding"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permabond-2050",
+    "manufacturer": "Permabond",
+    "familyName": "2050",
+    "primaryCategory": "Instant-Bond Adhesives",
+    "categories": [
+      "Instant-Bond Adhesives"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Colourless flexible ethyl cyanoacrylate, 1200–1800 cP.",
+    "sampleForJoining": "Flexible or semi-porous surfaces and dissimilar materials subject to peel, impact, vibration or thermal cycling.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "flexible-bonding",
+      "impact-resistant",
+      "rubber-bonding",
+      "plastic-bonding"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permabond-268",
+    "manufacturer": "Permabond",
+    "familyName": "268",
+    "primaryCategory": "Instant-Bond Adhesives",
+    "categories": [
+      "Instant-Bond Adhesives"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Colourless medium-high viscosity ethyl cyanoacrylate, 1200–2400 cP.",
+    "sampleForJoining": "Large-gap assembly and bonding metals, ceramics, plastics, elastomers, including polyacetal and passivated metals.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "gap-filling",
+      "plastic-bonding",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permabond-731",
+    "manufacturer": "Permabond",
+    "familyName": "731",
+    "primaryCategory": "Instant-Bond Adhesives",
+    "categories": [
+      "Instant-Bond Adhesives"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Colourless, toughened ethyl cyanoacrylate, 150 cP.",
+    "sampleForJoining": "Metal, plastic, rubber and elastomers where greater peel, impact resistance and alignment time are useful.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "toughened",
+      "flexible-bonding",
+      "peel-resistant",
+      "impact-resistant",
+      "metal-bonding",
+      "rubber-bonding"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permabond-820",
+    "manufacturer": "Permabond",
+    "familyName": "820",
+    "primaryCategory": "Instant-Bond Adhesives",
+    "categories": [
+      "Instant-Bond Adhesives"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Colourless modified ethyl cyanoacrylate, 100 cP.",
+    "sampleForJoining": "Fast room-temperature bonding of metal, rubber and plastic parts exposed to elevated temperatures.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "high-temperature-resistant",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permabond-910fs",
+    "manufacturer": "Permabond",
+    "familyName": "910FS",
+    "primaryCategory": "Instant-Bond Adhesives",
+    "categories": [
+      "Instant-Bond Adhesives"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Colourless methyl cyanoacrylate, 2–4 cP.",
+    "sampleForJoining": "Steel, aluminium, brass, stainless steel and other metals; also plastics and rubbers in close-fitting joints.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "instant-bonding",
+      "wicking-penetrating",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
     "id": "loctite-clear-epoxy",
     "manufacturer": "Henkel Loctite",
     "familyName": "Clear Epoxy",
-    "primaryCategory": "clearEpoxy",
-    "categories": [
-      "clearEpoxy"
-    ],
-    "sampleType": "Product",
-    "sampleConsistency": "Two-part epoxy",
-    "sampleForJoining": "Clear two-part epoxy for transparent household repairs and bonding multiple hard materials.",
+    "primaryCategory": null,
+    "categories": [],
+    "sampleType": null,
+    "sampleConsistency": null,
+    "sampleForJoining": null,
     "applicationTags": [
       "epoxy",
       "clear-bonding",
@@ -68015,13 +69636,11 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "id": "loctite-epoxy-instant-mix-5min",
     "manufacturer": "Henkel Loctite",
     "familyName": "Epoxy Instant Mix 5 Minute",
-    "primaryCategory": "clearEpoxy",
-    "categories": [
-      "clearEpoxy"
-    ],
-    "sampleType": "Product",
-    "sampleConsistency": "Two-part epoxy",
-    "sampleForJoining": "Fast-setting equal-volume epoxy with a static mixing nozzle for small repairs and general-purpose bonding.",
+    "primaryCategory": null,
+    "categories": [],
+    "sampleType": null,
+    "sampleConsistency": null,
+    "sampleForJoining": null,
     "applicationTags": [
       "epoxy",
       "fast-setting",
@@ -68039,13 +69658,11 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "id": "loctite-super-glue-ultra-gel-control",
     "manufacturer": "Henkel Loctite",
     "familyName": "Super Glue Ultra Gel Control",
-    "primaryCategory": "gelCA",
-    "categories": [
-      "gelCA"
-    ],
-    "sampleType": "Product",
-    "sampleConsistency": "Rubber-toughened ethyl cyanoacrylate",
-    "sampleForJoining": "Rubber-toughened ethyl cyanoacrylate gel for controlled application and improved peel and impact resistance.",
+    "primaryCategory": null,
+    "categories": [],
+    "sampleType": null,
+    "sampleConsistency": null,
+    "sampleForJoining": null,
     "applicationTags": [
       "cyanoacrylate",
       "gel",
@@ -68059,10 +69676,35 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "3m-scotch-weld-dp100-clear",
+    "manufacturer": "3M",
+    "familyName": "Scotch-Weld DP100 Clear",
+    "primaryCategory": "3M two-part epoxy adhesives",
+    "categories": [
+      "3M two-part epoxy adhesives"
+    ],
+    "sampleType": "Two-part Duo-Pak epoxy",
+    "sampleConsistency": "Clear, rigid two-part epoxy; mix ratio 1:1 by volume.",
+    "sampleForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "clear",
+      "structural-bonding",
+      "fast-setting",
+      "industrial-adhesive"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 533,
-  "referenceFamilies": 533
+  "selectorProducts": 554,
+  "referenceFamilies": 554
 };

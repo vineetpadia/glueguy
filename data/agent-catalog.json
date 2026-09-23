@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:55:21.803029+00:00",
+  "generatedAt": "2026-09-23T22:10:52.812303+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1702,
-    "manualTdsProducts": 553,
+    "products": 1703,
+    "manualTdsProducts": 554,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 721,
     "productsWithExtractionCandidates": 0,
@@ -85,6 +85,7 @@
         "3m-scotch-weld-ac77-instant-adhesive-primer",
         "3m-scotch-weld-ac79-instant-adhesive-primer",
         "3m-scotch-weld-ca8",
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp125-gray-7100320278",
@@ -2398,6 +2399,7 @@
         "threebond-tb6658"
       ],
       "clear": [
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-plus-clear",
         "gorilla-glue-2-part-epoxy",
         "gorilla-glue-super-glue",
@@ -3201,6 +3203,7 @@
         "threebond-tb1797"
       ],
       "epoxy": [
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp460eg",
@@ -3274,6 +3277,7 @@
         "weldon-771-abs"
       ],
       "fast-setting": [
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
         "caseway-sc-325-polycarbonate",
@@ -3863,6 +3867,7 @@
       ],
       "industrial-adhesive": [
         "3m-hi-strength-90-spray-aerosol",
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear"
       ],
@@ -6233,6 +6238,7 @@
       "structural-bonding": [
         "3m-dp8810ns",
         "3m-scotch-weld-2216-ba-translucent-7000046479",
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp125-gray-7100320278",
@@ -6717,6 +6723,7 @@
         "weldon-55-polycarbonate-petg"
       ],
       "two-part": [
+        "3m-scotch-weld-dp100-clear",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp460eg",
@@ -7152,7 +7159,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 721,
-      "official-tds-url": 286,
+      "official-tds-url": 287,
       "product-or-catalog-page": 178
     }
   },
@@ -20350,11 +20357,111 @@
       "extractionCandidates": []
     },
     {
+      "id": "3m-scotch-weld-dp100-clear",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 Clear",
+      "profile": "clearEpoxy",
+      "summary": "Fast-setting, rigid two-part clear epoxy; the TDS reports a 1:1 mix, 15\u201320 minute set time, and typical substrate-specific overlap-shear results.",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "clear",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part epoxy adhesive",
+        "cureFamily": "Fast-setting two-part epoxy",
+        "cureDetail": "1:1 by volume (Part B:Part A). Five-minute open time and 5-minute worklife for a 10 g mix at 23 \u00b0C. Set time 15\u201320 minutes to reach 0.3 MPa overlap shear. Fully cures in 24\u201348 hours at 24 \u00b0C; heat up to 93 \u00b0C accelerates cure.",
+        "potLife": 5,
+        "fixtureTime": 20,
+        "lapShearSubstrate": "Typical overlap shear after 7 days at 23 \u00b0C (ASTM D1002 / ISO 4587): aluminum 6.6 MPa; cold-rolled steel 6.9 MPa; stainless steel 5.2 MPa; galvanized steel 6.2 MPa. Substrate preparation differs by material; these values are not specification values.",
+        "clarity": "transparent",
+        "cureProfiles": 48
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.364,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
+          "potLife",
+          "fixtureTime",
+          "clarity",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "lapShear",
+          "viscosityClass",
+          "thermalConductivity",
+          "stress",
+          "substrates"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, lapShear, viscosityClass, thermalConductivity, stress, substrates",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "3M identifies these technical values as typical, not specification values.",
+        "Overlap-shear values depend on substrate and the specified surface preparation; consult the complete TDS for method details.",
+        "3M labels the product for industrial and occupational use."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "3m-scotch-weld-dp100-lh",
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld DP100 LH",
-      "profile": "twoPartEpoxy",
+      "profile": "flexibleEpoxy",
       "summary": "Fast-setting 1:1 two-part epoxy for structural bonding where quick handling and a slightly flexible cured bond are useful.",
       "applicationTags": [
         "epoxy",
@@ -20448,7 +20555,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld DP100 Plus Clear",
-      "profile": "twoPartEpoxy",
+      "profile": "flexibleEpoxy",
       "summary": "Fast-setting, flexible two-part clear epoxy with strong overlap-shear and peel performance.",
       "applicationTags": [
         "epoxy",
@@ -21388,7 +21495,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld DP460EG",
-      "profile": "twoPartEpoxy",
+      "profile": "toughenedEpoxy",
       "summary": "Toughened, two-part room-temperature epoxy for durable bonding and electronics assembly, including potting and magnet bonding.",
       "applicationTags": [
         "epoxy",
@@ -21495,7 +21602,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld DP490 Black",
-      "profile": "twoPartEpoxy",
+      "profile": "toughenedEpoxy",
       "summary": "Black, non-sag two-part structural epoxy for tough bonds and environmental resistance.",
       "applicationTags": [
         "epoxy",
@@ -22049,7 +22156,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld Instant Adhesive CA8",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "summary": "Clear, rapid-setting cyanoacrylate for metals, plastics and rubbers, with better shock resistance than many typical CAs.",
       "applicationTags": [
         "cyanoacrylate",
@@ -22553,7 +22660,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "Scotch-Weld Super Fast Instant Adhesive SF100",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "summary": "Low-viscosity super-fast CA designed for difficult-to-bond plastics and rubbers and certain acidic or contaminated surfaces.",
       "applicationTags": [
         "cyanoacrylate",
@@ -24160,7 +24267,7 @@
       "source": "manual-tds",
       "maker": "3M",
       "name": "VHB Tape 4930F",
-      "profile": "adhesiveTape",
+      "profile": "foamTape",
       "summary": "White, 0.6 mm double-sided acrylic foam tape for permanent fastening and sealing on high-surface-energy substrates.",
       "applicationTags": [
         "vhb-tape",
@@ -106431,7 +106538,7 @@
       "source": "manual-tds",
       "maker": "Permabond",
       "name": "2050",
-      "profile": "cyanoacrylate",
+      "profile": "gelCA",
       "summary": "Flexible, toughened ethyl cyanoacrylate for dissimilar or semi-porous substrates exposed to peel, impact, vibration, and thermal cycling.",
       "applicationTags": [
         "cyanoacrylate",
@@ -107520,7 +107627,7 @@
       "source": "manual-tds",
       "maker": "Permabond",
       "name": "731",
-      "profile": "cyanoacrylate",
+      "profile": "thinCA",
       "summary": "Toughened, flexible ethyl cyanoacrylate with improved impact and peel strength and a slower handling cure that allows alignment.",
       "applicationTags": [
         "cyanoacrylate",

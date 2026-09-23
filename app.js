@@ -2357,6 +2357,14 @@ const makeProduct = (id, profileName, overrides) => {
   if (overrides.sdsUrl) product.sdsUrl = overrides.sdsUrl;
   if (overrides.catalogUrl) product.catalogUrl = overrides.catalogUrl;
   product.sourceLabel = overrides.sourceLabel ?? overrides.mcmaster?.sourceLabel;
+  const temperatureEvidence = serviceTemperatureEvidenceStatus(product);
+  const hasObservedTemperatureRange = Number.isFinite(product.serviceMin) || Number.isFinite(product.serviceMax);
+  product.profileDerivedFields = (product.profileDerivedFields ?? []).filter((field) =>
+    !(
+      (field === "serviceMin" || field === "serviceMax") &&
+      (hasObservedTemperatureRange || temperatureEvidence === "test-only" || temperatureEvidence === "intermittent")
+    )
+  );
 
   return product;
 };
@@ -5362,16 +5370,16 @@ function productServiceTemperatureBounds(product) {
 function serviceTemperatureEvidenceStatus(product) {
   const bounds = productServiceTemperatureBounds(product);
   if (bounds.basis === "long-term") return "reported";
-  const profileFields = new Set(product.profileDerivedFields ?? []);
-  if (profileFields.has("serviceMin") || profileFields.has("serviceMax")) return "profile";
   const sourceText = [
     product.serviceTemperatureQualifier,
     product.serviceTemperatureNote,
     ...(product.cautions ?? []),
   ].filter(Boolean).join(" ").toLocaleLowerCase();
-  if (/intermittent/.test(sourceText) && /no continuous|not continuous|only intermittent|intermittent.*not/i.test(sourceText)) {
+  if (/intermittent/.test(sourceText) && /no continuous|not continuous|only intermittent|intermittent.*not|suggested operating temperature/i.test(sourceText)) {
     return "intermittent";
   }
+  const profileFields = new Set(product.profileDerivedFields ?? []);
+  if (profileFields.has("serviceMin") || profileFields.has("serviceMax")) return "profile";
   if (
     /not a continuous service-temperature|not a continuous temperature|not continuous service|no continuous service|not a continuous service limit|not published.*continuous|does not publish.*continuous/i.test(sourceText) ||
     /service min\/max scalars?.*tested|service min\/service max scalars?.*tested|tested .*bounds, not a continuous/i.test(sourceText)
@@ -5386,6 +5394,13 @@ function formatProductServiceTemperature(product) {
   if (status === "intermittent") return "Intermittent limit only";
   const bounds = productServiceTemperatureBounds(product);
   return formatTemperatureRange(bounds.min, bounds.max);
+}
+
+function isProfileDerivedTemperature(product) {
+  return (product.profileDerivedFields ?? []).some((field) =>
+    (field === "serviceMin" || field === "serviceMax") &&
+    serviceTemperatureEvidenceStatus(product) === "profile"
+  );
 }
 
 function scoreProduct(product, filters) {
@@ -6172,7 +6187,9 @@ function openProductDetail(product, match) {
     ["Primary load guidance", Number.isFinite(product.stress?.[match?.filters?.stress ?? appState.stress]) ? `${product.stress[match?.filters?.stress ?? appState.stress]}/10` : "Not reported", []],
   ];
   coreFields.forEach(([label, value, fields]) => {
-    const profileDerived = fields.some((field) => product.profileDerivedFields?.includes(field));
+    const profileDerived = label === "Service temperature"
+      ? isProfileDerivedTemperature(product)
+      : fields.some((field) => product.profileDerivedFields?.includes(field));
     appendDetailFact(specifications, label, value, profileDerived);
   });
   appendDetailFact(

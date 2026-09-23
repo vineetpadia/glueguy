@@ -6330,7 +6330,7 @@ function renderResults() {
   } else if (selectedMaterials.length === 1) {
     resultsTitle.textContent = `${materialLabel(selectedMaterials[0])}`;
   } else {
-    resultsTitle.textContent = "Matches";
+    resultsTitle.textContent = "Candidates";
   }
   fitAHeading.textContent = "Material fit";
   fitBHeading.textContent = "Secondary fit";
@@ -6340,12 +6340,12 @@ function renderResults() {
   const pageStart = (appState.resultPage - 1) * PAGE_SIZE;
   const visibleMatches = matches.slice(pageStart, pageStart + PAGE_SIZE);
   const partialCatalog = selectorCatalogState !== "ready";
-  resultsCount.textContent = `${matches.length} ${partialCatalog ? "starter " : ""}match${matches.length === 1 ? "" : "es"}`;
+  resultsCount.textContent = `${matches.length} ${partialCatalog ? "starter " : ""}candidate${matches.length === 1 ? "" : "s"}`;
   resultsContext.textContent = matches.length
     ? `Showing ${pageStart + 1}–${Math.min(pageStart + PAGE_SIZE, matches.length)} of ${matches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}${selectorCatalogState === "loading" ? " • Loading full catalog…" : selectorCatalogState === "error" ? " • Full catalog unavailable" : ""}`
     : filters.savedOnly && !appState.savedIds.length
       ? "No inventory yet. Star rows to add products."
-      : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
+      : "No candidates found. Adjust fixture time, clarity, warning filters, or the material pair.";
 
   activeTags.replaceChildren(
     ...buildActiveTags(filters).map((tag) => {

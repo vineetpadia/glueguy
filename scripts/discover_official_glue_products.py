@@ -146,10 +146,27 @@ def collect_html_link_records_from_text(base_url: str, page: str) -> list[dict]:
 
 def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
     """Find official TDS/document PDF links exposed by a product detail page."""
+    hostname = (urlparse(product_url).hostname or "").lower()
+    parsed_product_url = urlparse(product_url)
+    if hostname == "threebond.com" and parsed_product_url.path.startswith("/download/threebond-"):
+        # ThreeBond's technical-data-sheet index links directly to WordPress
+        # PDF responses through stable /download/ pages. Resolve the canonical
+        # PDF URL with HEAD so the catalog stores the document itself.
+        try:
+            response = requests.head(
+                product_url,
+                allow_redirects=True,
+                timeout=timeout,
+                headers=HEADERS,
+            )
+            if response.status_code == 200 and "pdf" in response.headers.get("content-type", "").lower():
+                return [{"url": response.url, "label": "ThreeBond Technical Data Sheet"}]
+        except Exception:  # noqa: BLE001
+            return []
+        return []
     page = fetch_text(product_url, timeout=timeout, transport=transport)
     results = []
     seen = set()
-    hostname = (urlparse(product_url).hostname or "").lower()
     # Henkel's consumer Loctite pages put datasheets in an explicitly named
     # "Technical Data Sheets" section but label each PDF with only the
     # product name. Accept only Henkel's datasheet host and only when that
@@ -421,6 +438,20 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
             else:
                 titled.append(word.capitalize())
         return normalize_space(" ".join(titled))
+    if strategy == "threebondProductSlug":
+        slug = urlparse(url).path.rstrip("/").split("/")[-1]
+        match = re.match(r"threebond-(.+)", slug, re.I)
+        if not match:
+            return None
+        tail = match.group(1)
+        if re.match(r"3923-3928(?:-|$)", tail, re.I):
+            return "TB3923/28"
+        code_match = re.match(
+            r"(\d+[A-Z]+-\d+[A-Z0-9]*|\d+[A-Z]+\(\d+[A-Z]+\)|\d+[A-Z0-9]*)",
+            tail,
+            re.I,
+        )
+        return f"TB{code_match.group(1).upper()}" if code_match else None
     if strategy == "tamiyaItemSlug":
         match = re.search(r"/products/(\d+)/index\.html", url, re.I)
         return f"Tamiya item {match.group(1)}" if match else None
@@ -732,7 +763,10 @@ def discover(selected_manufacturers: set[str] | None = None) -> dict:
                         filtered_records = filtered_records[: int(source["maxUrls"])]
                     source_entries = []
                     for record in filtered_records:
-                        name = derive_name_from_label(record["label"], manufacturer["name"])
+                        if normalize_text(manufacturer["name"]) == "threebond":
+                            name = derive_name_from_url(record["url"], "threebondProductSlug")
+                        else:
+                            name = derive_name_from_label(record["label"], manufacturer["name"])
                         if source.get("nameStrategy") == "loctiteCentralPdpSlug" and "central-pdp.html" not in record["url"].lower():
                             name = clean_title(record["label"], manufacturer["name"])
                         if name and allowed_name(name, name_require_patterns, name_exclude_patterns):

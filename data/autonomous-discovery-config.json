@@ -500,14 +500,16 @@
           "sourceType": "html",
           "kind": "product",
           "nameStrategy": "linkText",
-          "requestTimeout": 20,
+          "requestTimeout": 30,
           "maxUrls": 180,
           "includeRegex": [
             "/download/threebond-"
           ],
           "nameRequireRegex": [
             "TB\\d+"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 180
         }
       ]
     },

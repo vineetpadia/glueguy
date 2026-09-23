@@ -324,6 +324,32 @@
           "label": "3M Scotch-Weld 2216 B/A Technical Data Sheet (includes Gray formulation)"
         }
       ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100LH",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+          "label": "3M Scotch-Weld DP100 LH Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100 Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+          "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
+        }
+      ]
     }
   ]
 }

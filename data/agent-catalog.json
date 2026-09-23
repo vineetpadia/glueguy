@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T16:35:53.120157+00:00",
+  "generatedAt": "2026-09-23T17:00:00.686259+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1682,
-    "manualTdsProducts": 536,
+    "products": 1684,
+    "manualTdsProducts": 538,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 718,
     "productsWithExtractionCandidates": 0,
@@ -83,6 +83,8 @@
         "3m-scotch-weld-2216-ba-translucent-7000046479",
         "3m-scotch-weld-ac77-instant-adhesive-primer",
         "3m-scotch-weld-ac79-instant-adhesive-primer",
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp125-gray-7100320278",
         "3m-scotch-weld-dp125-translucent-7100320463",
         "3m-scotch-weld-dp2216-gray",
@@ -2374,6 +2376,7 @@
         "threebond-tb6658"
       ],
       "clear": [
+        "3m-scotch-weld-dp100-plus-clear",
         "gorilla-glue-2-part-epoxy",
         "gorilla-glue-super-glue",
         "oatey-all-purpose-abs-pvc-cpvc",
@@ -3155,6 +3158,8 @@
         "threebond-tb1797"
       ],
       "epoxy": [
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear",
         "bsi-quik-cure-5-minute-epoxy",
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
@@ -3218,6 +3223,8 @@
         "weldon-771-abs"
       ],
       "fast-setting": [
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear",
         "caseway-sc-325-polycarbonate",
         "gorilla-glue-super-glue",
         "threebond-tb1359k",
@@ -3785,6 +3792,10 @@
       ],
       "induction-bonding": [
         "threebond-tb2273e"
+      ],
+      "industrial-adhesive": [
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear"
       ],
       "industrial-coating": [
         "3m-scotchkote-323-liquid-epoxy-coating"
@@ -6096,6 +6107,8 @@
       "structural-bonding": [
         "3m-dp8810ns",
         "3m-scotch-weld-2216-ba-translucent-7000046479",
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear",
         "3m-scotch-weld-dp125-gray-7100320278",
         "3m-scotch-weld-dp125-translucent-7100320463",
         "3m-scotch-weld-dp2216-gray",
@@ -6572,6 +6585,8 @@
         "weldon-55-polycarbonate-petg"
       ],
       "two-part": [
+        "3m-scotch-weld-dp100-lh",
+        "3m-scotch-weld-dp100-plus-clear",
         "bsi-quik-cure-5-minute-epoxy",
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
@@ -6997,7 +7012,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 718,
-      "official-tds-url": 269,
+      "official-tds-url": 271,
       "product-or-catalog-page": 178
     }
   },
@@ -15131,9 +15146,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+            "label": "3M Scotch-Weld 2216 B/A Technical Data Sheet (includes Gray formulation)"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
@@ -15211,9 +15233,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+            "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
@@ -15291,9 +15320,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+            "label": "3M Scotch-Weld DP100 LH Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
@@ -15451,9 +15487,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+            "label": "3M Scotch-Weld DP125 Gray Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
@@ -16091,9 +16134,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+            "label": "3M Scotch-Weld DP8610NS Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
@@ -19440,6 +19490,205 @@
         "Pot life is not applicable/not published for this one-component instant adhesive.",
         "Thermal conductivity and lap-shear strength are not published in the cached official 3M TDS.",
         "Fills gaps up to 0.020 in / 0.508 mm and is intended for non-sag vertical applications where repositioning time is useful."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp100-lh",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 LH",
+      "profile": "twoPartEpoxy",
+      "summary": "Fast-setting 1:1 two-part epoxy for structural bonding where quick handling and a slightly flexible cured bond are useful.",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part epoxy adhesive",
+        "cureFamily": "Fast-setting two-part epoxy",
+        "cureDetail": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15\u201320 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
+        "potLife": 5,
+        "fixtureTime": 20,
+        "clarity": "transparent"
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.364,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "potLife",
+          "fixtureTime",
+          "clarity",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "lapShear",
+          "viscosityClass",
+          "thermalConductivity",
+          "stress",
+          "substrates"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, lapShear, viscosityClass, thermalConductivity, stress, substrates",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "TDS describes cure and adhesive performance as comparable to DP100 Clear, but DP100 Clear numerical performance values are not copied to this product.",
+        "5 min worklife is test-mass and method dependent; set times vary with adhesive temperature.",
+        "Typical technical values are not specification values."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp100-plus-clear",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 Plus Clear",
+      "profile": "twoPartEpoxy",
+      "summary": "Fast-setting, flexible two-part clear epoxy with strong overlap-shear and peel performance.",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "clear",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part epoxy adhesive",
+        "cureFamily": "Fast-setting two-part epoxy",
+        "cureDetail": "Two-part 1:1 mix ratio epoxy. Worklife 2\u20135 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+        "potLife": 5,
+        "fixtureTime": 15,
+        "lapShear": 22.4,
+        "lapShearSubstrate": "3M TDS overlap shear: 22.4 MPa (3250 psi) on etched aluminum, ASTM D1002 / ISO 4587, 24 h at 23 C then 2 h at 71 C; typical test data only.",
+        "clarity": "transparent",
+        "thermalConductivity": 0.19,
+        "cureProfiles": 2880
+      },
+      "rankableSpecs": {
+        "lapShear": 22.4,
+        "thermalConductivity": 0.19
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, viscosityClass",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Mix ratio 1:1 by volume; 1:0.98 by weight.",
+        "Worklife 2\u20135 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+        "Typical technical values are not specification values; the reported overlap shear includes a 2 h elevated-temperature post-cure."
       ],
       "extractionCandidates": []
     },
@@ -63723,9 +63972,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-907 Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive",
@@ -64259,9 +64515,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-3000 Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive",
@@ -64659,9 +64922,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-901 Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based",
@@ -64948,9 +65218,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
+            "label": "Liquid Nails LN-905 Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive",

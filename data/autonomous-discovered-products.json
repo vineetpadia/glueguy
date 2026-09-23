@@ -4,7 +4,7 @@
     "manufacturersConfigured": 38,
     "discoveredEntries": 995,
     "tdsDocumentsDiscovered": 129,
-    "tdsDocumentsLinked": 187,
+    "tdsDocumentsLinked": 189,
     "technicalDocumentsLinked": 34,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 33,
@@ -826,8 +826,8 @@
   "documentCoverageByManufacturer": {
     "3M": {
       "productLeads": 47,
-      "productsWithTds": 3,
-      "tdsDocuments": 3,
+      "productsWithTds": 5,
+      "tdsDocuments": 5,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -1196,6 +1196,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+          "label": "3M Scotch-Weld DP100 LH Technical Data Sheet"
+        }
       ]
     },
     {
@@ -1220,6 +1226,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+          "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
+        }
       ]
     },
     {

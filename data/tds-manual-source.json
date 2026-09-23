@@ -57266,6 +57266,97 @@
         "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
         "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ]
+    },
+    {
+      "id": "3m-scotch-weld-dp100-lh",
+      "profile": "twoPartEpoxy",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 LH",
+      "summary": "Fast-setting 1:1 two-part epoxy for structural bonding where quick handling and a slightly flexible cured bond are useful.",
+      "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 LH TDS, September 2024",
+      "chemistry": "Two-part epoxy adhesive",
+      "cureFamily": "Fast-setting two-part epoxy",
+      "cureDetail": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15–20 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
+      "potLife": 5,
+      "fixtureTime": 20,
+      "clarity": "transparent",
+      "mixRatio": "1:1 by volume",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "standards": [
+        "UL 94 HB"
+      ],
+      "cautions": [
+        "TDS describes cure and adhesive performance as comparable to DP100 Clear, but DP100 Clear numerical performance values are not copied to this product.",
+        "5 min worklife is test-mass and method dependent; set times vary with adhesive temperature.",
+        "Typical technical values are not specification values."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/b5005065035/"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceSampleType": "Two-part Duo-Pak epoxy",
+      "referenceSampleConsistency": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15–20 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS"
+    },
+    {
+      "id": "3m-scotch-weld-dp100-plus-clear",
+      "profile": "twoPartEpoxy",
+      "maker": "3M",
+      "name": "Scotch-Weld DP100 Plus Clear",
+      "summary": "Fast-setting, flexible two-part clear epoxy with strong overlap-shear and peel performance.",
+      "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP100 Plus Clear TDS, December 2025",
+      "chemistry": "Two-part epoxy adhesive",
+      "cureFamily": "Fast-setting two-part epoxy",
+      "cureDetail": "Two-part 1:1 mix ratio epoxy. Worklife 2–5 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+      "potLife": 5,
+      "fixtureTime": 15,
+      "fullCureHours": 48,
+      "fullCureMinutes": 2880,
+      "lapShear": 22.4,
+      "lapShearSubstrate": "3M TDS overlap shear: 22.4 MPa (3250 psi) on etched aluminum, ASTM D1002 / ISO 4587, 24 h at 23 C then 2 h at 71 C; typical test data only.",
+      "thermalConductivity": 0.19,
+      "clarity": "transparent",
+      "mixRatio": "1:1 by volume",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "clear",
+        "structural-bonding",
+        "fast-setting",
+        "industrial-adhesive"
+      ],
+      "standards": [
+        "UL 94 HB"
+      ],
+      "cautions": [
+        "Mix ratio 1:1 by volume; 1:0.98 by weight.",
+        "Worklife 2–5 min, open time 5 min, handling strength 15 min, structural strength (1000 psi) 5 h at 23 C; full cure 48 h at 24 C.",
+        "Typical technical values are not specification values; the reported overlap shear includes a 2 h elevated-temperature post-cure.",
+        "3M labels this an industrial/occupational adhesive for trained users."
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 8,
+        "impact": 6
+      },
+      "substrates": {
+        "aluminum": 9
+      },
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/b40066487/"
+      ],
+      "referenceCategory": "3M two-part epoxy adhesives",
+      "referenceSampleType": "Two-part Duo-Pak epoxy",
+      "referenceSampleConsistency": "Mix ratio 1:1 by volume; 1:0.98 by weight.",
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS"
     }
   ]
 }

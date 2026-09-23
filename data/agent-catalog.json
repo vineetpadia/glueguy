@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T22:41:40.864357+00:00",
+  "generatedAt": "2026-09-23T22:47:59.627075+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -58488,7 +58488,7 @@
       "maker": "Gorilla Glue",
       "name": "Gorilla Glue Original (polyurethane)",
       "profile": "structuralPolyurethane",
-      "summary": "Water-activated polyurethane Gorilla Glue that expands about 3x into materials, clamps for 1-2 h, cures best after 24 h, is waterproof to ANSI/HPVA Type I and has official service range of -40 to 200 F.",
+      "summary": "Water-activated polyurethane adhesive that expands during cure and makes strong indoor/outdoor bonds when clamped across tight-fitting joints.",
       "applicationTags": [
         "polyurethane",
         "moisture-cure",
@@ -58510,16 +58510,22 @@
         "cureDetail": "Prepare clean, dust-free tight-fitting surfaces, roughen shiny surfaces, lightly dampen one surface with water, apply glue to the dry surface, clamp 1-2 h and allow 24 h for best cure.",
         "serviceMin": -40,
         "serviceMax": 93,
+        "serviceTemperatureNote": "European TDS lists 0 to 200 \u00b0F (about -18 to 93 \u00b0C), dependent on material and bond conditions. Current official US product page lists -40 to 200 \u00b0F; the catalog serviceMin/serviceMax retain the current US page range.",
         "fixtureTime": 60,
-        "lapShearSubstrate": "Official product page publishes use and standards properties, not lap-shear strength.",
+        "lapShear": 20.5,
+        "lapShearSubstrate": "ASTM D905 shear strength on maple: 2,500-3,500 psi (17-24 MPa), TDS states typical/representative values only.",
         "viscosityClass": "liquid",
+        "viscosityValue": "4000-7000",
+        "viscosityUnit": "cP",
         "clarity": "opaque",
         "cureProfiles": 1440
       },
-      "rankableSpecs": {},
+      "rankableSpecs": {
+        "lapShear": 20.5
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.gorillatough.com/product/original-gorilla-glue",
+        "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Glue-TDS_Sept-2016-Europe.pdf",
         "tdsUrl": null,
         "productUrl": null,
         "sourceLabel": null,
@@ -58529,12 +58535,13 @@
       "coverage": {
         "decision": 1.0,
         "electronics": 1.0,
-        "decisionValueCoverage": 0.727,
-        "electronicsValueCoverage": 0.05,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.15,
         "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "fixtureTime",
+          "lapShear",
           "viscosityClass",
           "clarity",
           "stress",
@@ -58542,19 +58549,17 @@
           "cautions"
         ],
         "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
           "cureProfiles"
         ],
         "decisionFieldsMissing": [],
         "electronicsFieldsMissing": [],
         "decisionFieldsVerifiedAbsent": [
           "potLife",
-          "lapShear",
           "thermalConductivity"
         ],
-        "electronicsFieldsVerifiedAbsent": [
-          "viscosityValue",
-          "viscosityUnit"
-        ],
+        "electronicsFieldsVerifiedAbsent": [],
         "decisionFieldsNotApplicable": [],
         "electronicsFieldsNotApplicable": [
           "electricalBehavior",
@@ -58581,11 +58586,11 @@
         ]
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity, viscosityValue, viscosityUnit",
+        "Verified absent from available TDS fields: potLife, thermalConductivity",
         "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
-        "Moisture activation is required; lightly dampen one surface but do not saturate.",
-        "Clamp pressure must hold surfaces together without being so high that it squeezes adhesive out of the joint.",
-        "The official technical specs say gap filling: no, despite expansion during cure."
+        "The TDS is the 2016 European revision; its stated service range starts at 0 \u00b0F. The current US product page lists -40 \u00b0F as its low limit, so current US range is retained while the TDS range and discrepancy are explicit.",
+        "TDS maple shear strength is a typical 17-24 MPa range, not a design allowable or universal substrate value.",
+        "Moisture activation is required; lightly dampen one surface but do not saturate. Dense hardwoods may require both surfaces lightly dampened."
       ],
       "extractionCandidates": []
     },

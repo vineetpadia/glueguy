@@ -54367,8 +54367,8 @@
       "profile": "structuralPolyurethane",
       "maker": "Gorilla Glue",
       "name": "Gorilla Glue Original (polyurethane)",
-      "summary": "Water-activated polyurethane Gorilla Glue that expands about 3x into materials, clamps for 1-2 h, cures best after 24 h, is waterproof to ANSI/HPVA Type I and has official service range of -40 to 200 F.",
-      "sourceRevisionDate": "Gorilla official product page, fetched April 24, 2026; page exposes technical specifications and SDS link rather than a separate public TDS PDF",
+      "summary": "Water-activated polyurethane adhesive that expands during cure and makes strong indoor/outdoor bonds when clamped across tight-fitting joints.",
+      "sourceRevisionDate": "Gorilla Glue Original Technical Data Sheet, Europe, revision 6 September 2016; corroborated for application and service-temperature guidance by the current official product page.",
       "chemistry": "Water-activated polyurethane adhesive",
       "cureFamily": "Moisture-curing polyurethane",
       "cureDetail": "Prepare clean, dust-free tight-fitting surfaces, roughen shiny surfaces, lightly dampen one surface with water, apply glue to the dry surface, clamp 1-2 h and allow 24 h for best cure.",
@@ -54389,8 +54389,8 @@
       "fullCureMinutes": 1440,
       "viscosityClass": "liquid",
       "thermalConductivity": null,
-      "lapShear": null,
-      "lapShearSubstrate": "Official product page publishes use and standards properties, not lap-shear strength.",
+      "lapShear": 20.5,
+      "lapShearSubstrate": "ASTM D905 shear strength on maple: 2,500-3,500 psi (17-24 MPa), TDS states typical/representative values only.",
       "clarity": "opaque",
       "dryColor": "Tan",
       "outdoorUse": true,
@@ -54417,7 +54417,7 @@
         "multi-material"
       ],
       "stress": {
-        "shear": 5,
+        "shear": 6,
         "peel": 4,
         "impact": 4
       },
@@ -54437,24 +54437,52 @@
         "plastic": 4
       },
       "cautions": [
-        "Moisture activation is required; lightly dampen one surface but do not saturate.",
-        "Clamp pressure must hold surfaces together without being so high that it squeezes adhesive out of the joint.",
-        "The official technical specs say gap filling: no, despite expansion during cure.",
-        "Wear gloves and use mechanical removal after cure; uncured squeeze-out may be wiped with dry cloth or standard paint thinner."
+        "The TDS is the 2016 European revision; its stated service range starts at 0 °F. The current US product page lists -40 °F as its low limit, so current US range is retained while the TDS range and discrepancy are explicit.",
+        "TDS maple shear strength is a typical 17-24 MPa range, not a design allowable or universal substrate value.",
+        "Moisture activation is required; lightly dampen one surface but do not saturate. Dense hardwoods may require both surfaces lightly dampened.",
+        "Clamp tightly and evenly for 1-2 hours; allow 24 hours for best cure. Cured adhesive expands approximately threefold, but official technical specs state gap filling: no.",
+        "Wear gloves; Gorilla warns some users may experience skin sensitization. Do not use on polyethylene, polypropylene, or high-oil/high-plasticizer rubber."
       ],
-      "referenceUrl": "https://www.gorillatough.com/product/original-gorilla-glue",
+      "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Glue-TDS_Sept-2016-Europe.pdf",
       "referenceCategory": "Polyurethane Multipurpose Adhesives",
       "referenceSampleType": "Tan water-activated expanding polyurethane adhesive",
-      "referenceSampleConsistency": "Application above 40 F; service -40 to 200 F; clamp 1-2 h; best cure 24 h; cured color tan; ANSI/HPVA Type I; gap filling no",
+      "referenceSampleConsistency": "Liquid moisture-cured polyurethane; typical viscosity 4,000-7,000 cP at 25 °C; expands about threefold during cure.",
       "referenceForJoining": "Multi-material waterproof bonding of wood, stone, metal, ceramic, foam, glass, concrete and compatible plastics where tan expanding polyurethane squeeze-out can be managed",
       "sourceUrl": "https://www.gorillatough.com/product/original-gorilla-glue",
       "unpublishedFields": [
-        "lapShear",
         "potLife",
-        "thermalConductivity",
-        "viscosityValue",
-        "viscosityUnit"
-      ]
+        "thermalConductivity"
+      ],
+      "viscosityValue": "4000-7000",
+      "viscosityUnit": "cP",
+      "viscosityNote": "TDS typical viscosity at 25 °C: 4,000-7,000 cP.",
+      "lapShearRangeMPa": [
+        17,
+        24
+      ],
+      "serviceTemperatureQualifier": "typical; bond-condition-dependent",
+      "serviceTemperatureNote": "European TDS lists 0 to 200 °F (about -18 to 93 °C), dependent on material and bond conditions. Current official US product page lists -40 to 200 °F; the catalog serviceMin/serviceMax retain the current US page range.",
+      "serviceTemperatureMinTdsC": -18,
+      "serviceTemperatureMaxTdsC": 93,
+      "tdsServiceMinC": -18,
+      "tdsServiceMaxC": 93,
+      "lapShearProfilesMPa": {
+        "maple": [
+          17,
+          24
+        ]
+      },
+      "serviceTemperatureProfiles": {
+        "currentUsProductPage": {
+          "minC": -40,
+          "maxC": 93
+        },
+        "europeTds2016": {
+          "minC": -18,
+          "maxC": 93,
+          "note": "0 to 200 °F; dependent on material and bond conditions"
+        }
+      }
     },
     {
       "id": "gorilla-glue-super-glue",

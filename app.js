@@ -76,6 +76,8 @@ const APPLICATION_LABELS = Object.fromEntries(
   APPLICATION_OPTIONS.map((option) => [option.value, option.label]),
 );
 
+let selectorCatalogState = "loading";
+
 const PAGE_SIZE = 25;
 const REFERENCE_PAGE_SIZE = 50;
 
@@ -5230,7 +5232,11 @@ function renderHeroStats() {
     }),
   );
 
-  glueDensity.textContent = `${GLUES.length} products`;
+  glueDensity.textContent = selectorCatalogState === "loading"
+    ? `${GLUES.length} starter products · loading full catalog`
+    : selectorCatalogState === "error"
+      ? `${GLUES.length} starter products · full catalog unavailable`
+      : `${GLUES.length} products`;
 }
 
 function collectFilters() {
@@ -6333,9 +6339,10 @@ function renderResults() {
   appState.resultPage = Math.min(appState.resultPage, pageCount);
   const pageStart = (appState.resultPage - 1) * PAGE_SIZE;
   const visibleMatches = matches.slice(pageStart, pageStart + PAGE_SIZE);
-  resultsCount.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"}`;
+  const partialCatalog = selectorCatalogState !== "ready";
+  resultsCount.textContent = `${matches.length} ${partialCatalog ? "starter " : ""}match${matches.length === 1 ? "" : "es"}`;
   resultsContext.textContent = matches.length
-    ? `Showing ${pageStart + 1}–${Math.min(pageStart + PAGE_SIZE, matches.length)} of ${matches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}`
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + PAGE_SIZE, matches.length)} of ${matches.length} • ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} • ${STRESS_LABELS[filters.stress]}${selectorCatalogState === "loading" ? " • Loading full catalog…" : selectorCatalogState === "error" ? " • Full catalog unavailable" : ""}`
     : filters.savedOnly && !appState.savedIds.length
       ? "No inventory yet. Star rows to add products."
       : "No matches. Relax fixture time, clarity, warning filters, or the material pair.";
@@ -6706,6 +6713,9 @@ function attachEvents() {
 }
 
 async function loadSelectorCatalog() {
+  selectorCatalogState = "loading";
+  renderHeroStats();
+  scheduleRenderResults();
   try {
     const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
@@ -6714,6 +6724,7 @@ async function loadSelectorCatalog() {
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     MCMASTER_PIPELINE_STATS = catalog.mcmasterStats ?? MCMASTER_PIPELINE_STATS;
     TDS_MANUAL_STATS = catalog.tdsStats ?? TDS_MANUAL_STATS;
+    selectorCatalogState = "ready";
     repopulateCatalogFilters();
     populateReferenceFilters();
     renderReferenceLibrary();
@@ -6721,7 +6732,9 @@ async function loadSelectorCatalog() {
     scheduleRenderResults();
   } catch (error) {
     console.warn(error);
-    glueDensity.textContent = `${GLUES.length} products`;
+    selectorCatalogState = "error";
+    renderHeroStats();
+    scheduleRenderResults();
   }
 }
 

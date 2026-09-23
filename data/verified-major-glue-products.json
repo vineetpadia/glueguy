@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "maker": "E6000",
+      "name": "E6000 Fabri-Fuse",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf", "label": "E6000 Fabri-Fuse Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Fray Lock",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fray-lock/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf", "label": "E6000 Fray Lock Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-jewelry-bead/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-jewelry-and-bead-us-ca-eu-me-au-nz-mex.pdf", "label": "E6000 Jewelry & Bead Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Spray Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-sprayadhesive-us-ca-eu-me-au-nz.pdf", "label": "E6000 Spray Adhesive Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium with Precision Tips",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-with-precision-tips/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium Automotive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-automotive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-jewelry-and-bead/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf", "label": "E6000 Industrial Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6100 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf", "label": "E6100 Industrial Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6800 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf", "label": "E6800 Industrial Technical Data Sheet"}]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 with Precision Tips",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-precision-tip-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 official product page",
+      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf", "label": "E6000 Industrial Technical Data Sheet"}]
+    }
+  ]
+}

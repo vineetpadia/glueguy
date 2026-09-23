@@ -41,6 +41,27 @@
       ],
       "sources": [
         {
+          "label": "3M adhesives and sealants catalog",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/",
+          "sourceType": "html",
+          "extractor": "3m_search_products",
+          "kind": "product",
+          "requestTimeout": 25,
+          "maxUrls": 120,
+          "includeRegex": [
+            "/3M/en_US/p/d(?:c)?/"
+          ],
+          "nameRequireRegex": [
+            "adhesive|glue|cement|epoxy|scotch-weld|fastbond|spray|hot melt"
+          ],
+          "nameExcludeRegex": [
+            "tape dispenser|masking tape|abrasive|sandpaper|primer|activator|sealant|repair paste"
+          ],
+          "extractTdsLinks": true,
+          "includeSds": true,
+          "tdsMaxPages": 80
+        },
+        {
           "label": "3M Scotch-Weld category",
           "url": "https://www.3m.com/3M/en_US/p/c/adhesives/b/scotch-weld/",
           "extractor": "3m_adhesives_category",
@@ -54,59 +75,13 @@
             "/3M/en_US/p/d(?:c)?/"
           ],
           "nameRequireRegex": [
-            "adhesive",
-            "sealant",
-            "scotch-weld",
-            "vhb",
-            "jet-melt",
-            "fastbond",
-            "epoxy",
-            "cyanoacrylate",
-            "hot melt"
+            "adhesive|sealant|scotch-weld|vhb|jet-melt|fastbond|epoxy|cyanoacrylate|hot melt"
           ],
           "nameExcludeRegex": [
-            "paper disc",
-            "tape dispenser",
-            "masking",
-            "abrasive",
-            "sandpaper",
-            "primer",
-            "activator",
-            "repair paste",
-            "film",
-            "material",
-            "pipe sealant"
+            "paper disc|tape dispenser|masking|abrasive|sandpaper|primer|activator|repair paste|film|material|pipe sealant"
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 60
-        },
-        {
-          "label": "3M tapes category",
-          "url": "https://www.3m.com/3M/en_US/p/c/tapes/",
-          "extractor": "3m_adhesives_category",
-          "kind": "product",
-          "requestTimeout": 20,
-          "headers": {
-            "Accept-Encoding": "identity"
-          },
-          "maxUrls": 40,
-          "includeRegex": [
-            "/3M/en_US/p/d(?:c)?/"
-          ],
-          "nameRequireRegex": [
-            "vhb"
-          ],
-          "nameExcludeRegex": [
-            "window",
-            "dispenser",
-            "protective film",
-            "insulator kit",
-            "mounting tape",
-            "patch tape",
-            "extrudable"
-          ],
-          "extractTdsLinks": true,
-          "tdsMaxPages": 40
         }
       ]
     },
@@ -184,6 +159,9 @@
         {
           "label": "E6000 adhesive category",
           "url": "https://eclecticproducts.com/product-category/adhesives-sealants/e6000/",
+          "additionalUrls": [
+            "https://eclecticproducts.com/product-category/adhesives/e6000/"
+          ],
           "sourceType": "html",
           "kind": "product",
           "nameStrategy": "linkText",
@@ -193,7 +171,7 @@
             "/product/e[0-9]+|/product/e6000-"
           ],
           "nameRequireRegex": [
-            "E6000|E6100|E6800|Extreme Tack"
+            "E6000|E6100|E6800|Extreme Tack|Fray Lock|Fabri-Fuse|Jewelry"
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 24
@@ -276,16 +254,10 @@
           "label": "Loctite consumer products index",
           "url": "https://www.loctiteproducts.com/products.html",
           "sourceType": "html",
+          "extractor": "loctite_products",
           "kind": "product",
-          "nameStrategy": "loctiteCentralPdpSlug",
           "requestTimeout": 8,
           "maxUrls": 20,
-          "includeRegex": [
-            "/products/central-pdp\\.html/"
-          ],
-          "requireRegex": [
-            "loctite-"
-          ],
           "nameRequireRegex": [
             "Loctite",
             "Epoxy",
@@ -672,6 +644,7 @@
           "label": "DAP adhesives catalog",
           "url": "https://www.dap.com/products/adhesives/",
           "sourceType": "html",
+          "extractor": "dap_adhesives_catalog",
           "kind": "product",
           "nameStrategy": "linkText",
           "requestTimeout": 20,
@@ -731,8 +704,8 @@
           "label": "Liquid Nails product assortment",
           "url": "https://www.ppgpaints.com/liquid-nails/all-products",
           "sourceType": "html",
+          "extractor": "liquid_nails_catalog",
           "kind": "product",
-          "nameStrategy": "linkText",
           "requestTimeout": 20,
           "maxUrls": 150,
           "includeRegex": [
@@ -740,7 +713,7 @@
             "/products/adhesives-sealants/"
           ],
           "nameRequireRegex": [
-            "LIQUID NAILS|FUZE\\\\*IT|HEAVY DUTY|SUBFLOOR|LANDSCAPE|PANEL"
+            "LIQUID NAILS|FUZE\\*IT|HEAVY DUTY|SUBFLOOR|LANDSCAPE|PANEL"
           ],
           "nameExcludeRegex": [
             "caulk",

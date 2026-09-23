@@ -334,6 +334,8 @@ def official_lead_record(entry: dict) -> dict:
             "referenceUrl": entry.get("officialUrl"),
             "tdsUrl": tds_documents[0].get("url") if tds_documents else None,
             "tdsUrls": [doc["url"] for doc in tds_documents],
+            "tdsDocuments": tds_documents,
+            "technicalDocuments": sds_documents,
             "sdsUrls": [doc["url"] for doc in sds_documents],
             "productUrl": entry.get("officialUrl"),
             "sourceLabel": entry.get("sourceLabel"),
@@ -393,7 +395,23 @@ def main() -> None:
     known_products = {(normalize_space(row.get("maker")).casefold(), normalize_space(row.get("name")).casefold()) for row in products}
     for entry in official_leads:
         key = (normalize_space(entry.get("maker")).casefold(), normalize_space(entry.get("name")).casefold())
-        if not key[0] or not key[1] or key in known_products:
+        if not key[0] or not key[1]:
+            continue
+        if key in known_products:
+            existing = next(
+                row for row in products
+                if (normalize_space(row.get("maker")).casefold(), normalize_space(row.get("name")).casefold()) == key
+            )
+            tds_documents = [*existing["sources"].get("tdsDocuments", []), *entry.get("tdsDocuments", [])]
+            existing["sources"]["tdsDocuments"] = list({doc.get("url"): doc for doc in tds_documents if doc.get("url")}.values())
+            existing["sources"]["tdsUrls"] = [doc["url"] for doc in existing["sources"]["tdsDocuments"]]
+            if existing["sources"]["tdsUrls"]:
+                existing["sources"]["tdsUrl"] = existing["sources"]["tdsUrls"][0]
+            technical_documents = [*existing["sources"].get("technicalDocuments", []), *entry.get("technicalDocuments", [])]
+            existing["sources"]["technicalDocuments"] = list({doc.get("url"): doc for doc in technical_documents if doc.get("url")}.values())
+            if entry.get("officialUrl"):
+                existing["sources"].setdefault("officialProductUrls", []).append(entry["officialUrl"])
+                existing["sources"]["officialProductUrls"] = list(dict.fromkeys(existing["sources"]["officialProductUrls"]))
             continue
         products.append(official_lead_record(entry))
         known_products.add(key)

@@ -27,6 +27,7 @@ if not hasattr(requests, "get"):  # tolerate incomplete local dependency caches
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "data" / "autonomous-discovery-config.json"
 OUTPUT_PATH = ROOT / "data" / "autonomous-discovered-products.json"
+VERIFIED_LEADS_PATH = ROOT / "data" / "verified-major-glue-products.json"
 
 HEADERS = {
     "User-Agent": (
@@ -126,7 +127,7 @@ def collect_html_link_records(
     extra_headers: dict | None = None,
 ) -> list[dict]:
     text = fetch_text(url, timeout=timeout, transport=transport, stream=stream, extra_headers=extra_headers)
-    pattern = re.compile(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', re.I | re.S)
+    pattern = re.compile(r"""<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>""", re.I | re.S)
     records = []
     for href, inner in pattern.findall(text):
         label = html.unescape(re.sub(r"<[^>]+>", " ", inner))
@@ -170,6 +171,28 @@ def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None
 def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | None = None, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
     """Find manufacturer-hosted TDS and SDS links while retaining document type."""
     page = fetch_text(product_url, timeout=timeout, transport=transport)
+    if "eclecticproducts.com" in (urlparse(product_url).hostname or ""):
+        # Eclectic lists sheet names as link text and stores the PDF URL in a
+        # separate data attribute, outside ordinary hrefs.
+        product_slug = urlparse(product_url).path.rstrip("/").split("/")[-1]
+        labels = {
+            "e6000-fabri-fuse": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf",
+            "e6000-fray-lock": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf",
+            "e6000-jewelry-bead": "https://eclecticproducts.com/downloads/tds/tds-e6000-jewelry-and-bead-us-ca-eu-me-au-nz-mex.pdf",
+            "e6000-spray-adhesive": "https://eclecticproducts.com/downloads/tds/tds-e6000-sprayadhesive-us-ca-eu-me-au-nz.pdf",
+            "e6000-premium": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+            "e6000-premium-automotive": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+            "e6000-premium-jewelry-and-bead": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+            "e6000-premium-with-precision-tips": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+            "e6000-jewelry-and-bead": "https://eclecticproducts.com/downloads/tds/tds-e6000-jewelry-and-bead-us-ca-eu-me-au-nz-mex.pdf",
+            "e6000-industrial-adhesive": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+            "e6100-industrial-adhesive": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
+            "e6800-industrial-adhesive": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
+            "e6000-precision-tip-adhesive": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+        }
+        manual_url = labels.get(product_slug)
+        if manual_url:
+            return [{"url": manual_url, "label": f"{product_slug.replace('-', ' ').title()} Technical Data Sheet"}]
     results = []
     seen = set()
     domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
@@ -312,7 +335,7 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
             return None
         return normalize_space(" ".join(tokens))
     if strategy == "loctiteCentralPdpSlug":
-        match = re.search(r"/products/central-pdp\\.html/([^/]+)/", url, re.I)
+        match = re.search(r"/products/central-pdp\.html/([^/]+)/", url, re.I)
         if not match:
             return None
         slug = match.group(1).strip().lower()
@@ -487,7 +510,7 @@ def extract_3m_adhesives_category(source: dict, manufacturer: dict) -> list[dict
     name_require_patterns = compile_patterns(source.get("nameRequireRegex"))
     name_exclude_patterns = compile_patterns(source.get("nameExcludeRegex"))
 
-    pattern = re.compile(r'<a[^>]+href="([^"]+/3M/en_US/p/d(?:c)?/[^"]+)"[^>]*>(.*?)</a>', re.I | re.S)
+    pattern = re.compile(r'<a[^>]+href=["\']([^"\']+/3M/en_US/p/d(?:c)?/[^"\']+)["\'][^>]*>(.*?)</a>', re.I | re.S)
     entries = []
     seen_urls = set()
     for href, inner in pattern.findall(text):
@@ -548,6 +571,7 @@ def dedupe_entries(entries: list[dict]) -> list[dict]:
 
 def discover() -> dict:
     config = json.loads(CONFIG_PATH.read_text())
+    verified_leads = json.loads(VERIFIED_LEADS_PATH.read_text(encoding="utf-8")).get("entries", []) if VERIFIED_LEADS_PATH.exists() else []
     previous = json.loads(OUTPUT_PATH.read_text()) if OUTPUT_PATH.exists() else {}
     previous_entries = previous.get("entries", [])
     previous_tds = {
@@ -573,7 +597,11 @@ def discover() -> dict:
 
     for manufacturer in manufacturers:
         manufacturer_entries: list[dict] = []
+        manufacturer_entries.extend(entry for entry in verified_leads if normalize_text(entry.get("maker")) == normalize_text(manufacturer.get("name")))
         source_summaries = []
+        verified_count = sum(1 for entry in verified_leads if normalize_text(entry.get("maker")) == normalize_text(manufacturer.get("name")))
+        if verified_count:
+            source_summaries.append({"label": "verified major product and TDS seed", "url": "data/verified-major-glue-products.json", "matchedUrls": verified_count, "discoveredEntries": verified_count})
         for source in manufacturer.get("sources", []):
             include_patterns = compile_patterns(source.get("includeRegex"))
             exclude_patterns = compile_patterns(source.get("excludeRegex"))
@@ -628,10 +656,15 @@ def discover() -> dict:
                 if source.get("sourceType") == "html" and source.get("nameStrategy") == "linkText":
                     records = []
                     for page_url in [source["url"], *source.get("additionalUrls", [])]:
+                        page_timeout = timeout
+                        if "eclecticproducts.com" in page_url:
+                            # Eclectic's E6000 brand page needs longer than the
+                            # general adhesive catalog on its WordPress host.
+                            page_timeout = max(timeout, 30)
                         records.extend(
                             collect_html_link_records(
                                 page_url,
-                                timeout=timeout,
+                                timeout=page_timeout,
                                 transport=transport,
                                 stream=stream,
                                 extra_headers=extra_headers,
@@ -647,6 +680,8 @@ def discover() -> dict:
                     source_entries = []
                     for record in filtered_records:
                         name = derive_name_from_label(record["label"], manufacturer["name"])
+                        if source.get("nameStrategy") == "loctiteCentralPdpSlug" and "central-pdp.html" not in record["url"].lower():
+                            name = clean_title(record["label"], manufacturer["name"])
                         if name and allowed_name(name, name_require_patterns, name_exclude_patterns):
                             source_entries.append(
                                 {
@@ -666,6 +701,70 @@ def discover() -> dict:
                             "discoveredEntries": len(source_entries),
                         }
                     )
+                    continue
+                if source.get("extractor") == "liquid_nails_catalog":
+                    records = collect_html_link_records(source["url"], timeout=timeout, transport=transport, stream=stream, extra_headers=extra_headers)
+                    source_entries = []
+                    for record in records:
+                        if not re.search(r"liquid-nails-products/|/products/adhesives-sealants/", record["url"], re.I):
+                            continue
+                        name = derive_name_from_label(record.get("label", ""), "Liquid Nails")
+                        if not name or re.search(r"caulk|sealant|remover|accessory|roof repair", name, re.I):
+                            continue
+                        source_entries.append({"maker": manufacturer["name"], "name": name, "officialUrl": record["url"], "kind": source.get("kind", "product"), "sourceLabel": source.get("label")})
+                    manufacturer_entries.extend(source_entries[:int(source.get("maxUrls", 150))])
+                    source_summaries.append({"label": source.get("label"), "url": source["url"], "matchedUrls": len(source_entries), "discoveredEntries": len(source_entries[:int(source.get("maxUrls", 150))])})
+                    continue
+                if source.get("extractor") == "dap_adhesives_catalog":
+                    page = fetch_text(source["url"], timeout=timeout, transport=transport, stream=stream, extra_headers=extra_headers)
+                    records = collect_html_link_records_from_text(source["url"], page)
+                    if not records:
+                        pattern = re.compile(r'<a[^>]+href=["\']([^"\']*/products/adhesives/[^"\']+)["\'][^>]*>(.*?)</a>', re.I | re.S)
+                        records = [{"url": urljoin(source["url"], href), "label": normalize_space(html.unescape(re.sub(r"<[^>]+>", " ", label)))} for href, label in pattern.findall(page)]
+                    if not records:
+                        labels = re.findall(r"(?:<h[1-6][^>]*>|data-title=[\"'])([^<\"']*(?:RapidFuse|Weldwood|DAP Adhesive)[^<\"']*)", page, re.I)
+                        records = [{"url": source["url"], "label": label, "allowSharedSourceUrl": True} for label in labels]
+                    source_entries = []
+                    for record in records:
+                        if not allowed_url(record["url"], include_patterns, exclude_patterns, require_patterns):
+                            continue
+                        name = derive_name_from_label(record.get("label", ""), manufacturer["name"])
+                        if not name or not allowed_name(name, name_require_patterns, name_exclude_patterns):
+                            continue
+                        source_entries.append({"maker": manufacturer["name"], "name": name, "officialUrl": record["url"], "kind": source.get("kind", "product"), "sourceLabel": source.get("label"), "allowSharedSourceUrl": record.get("allowSharedSourceUrl", False)})
+                    manufacturer_entries.extend(source_entries[:int(source.get("maxUrls", 150))])
+                    source_summaries.append({"label": source.get("label"), "url": source["url"], "matchedUrls": len(records), "discoveredEntries": len(source_entries[:int(source.get("maxUrls", 150))])})
+                    continue
+                if source.get("extractor") == "3m_search_products":
+                    page = fetch_text(source["url"], timeout=timeout, transport=transport, stream=stream, extra_headers=extra_headers)
+                    records = collect_html_link_records_from_text(source["url"], page)
+                    if not records:
+                        pattern = re.compile(r'<a[^>]+href="([^"]*/3M/en_US/p/d(?:c)?/[^\"]+)"[^>]*>(.*?)</a>', re.I | re.S)
+                        records = [{"url": urljoin(source["url"], href), "label": normalize_space(html.unescape(re.sub(r"<[^>]+>", " ", label)))} for href, label in pattern.findall(page)]
+                    source_entries = []
+                    for record in records:
+                        if not allowed_url(record["url"], include_patterns, exclude_patterns, require_patterns):
+                            continue
+                        name = derive_name_from_label(record.get("label", ""), manufacturer["name"])
+                        if not name or not allowed_name(name, name_require_patterns, name_exclude_patterns):
+                            continue
+                        source_entries.append({"maker": manufacturer["name"], "name": name, "officialUrl": record["url"], "kind": source.get("kind", "product"), "sourceLabel": source.get("label")})
+                    manufacturer_entries.extend(source_entries[:int(source.get("maxUrls", 100))])
+                    source_summaries.append({"label": source.get("label"), "url": source["url"], "matchedUrls": len(records), "discoveredEntries": len(source_entries[:int(source.get("maxUrls", 100))])})
+                    continue
+                if source.get("extractor") == "loctite_products":
+                    records = collect_html_link_records(source["url"], timeout=timeout, transport=transport, stream=stream, extra_headers=extra_headers)
+                    source_entries = []
+                    for record in records:
+                        if not allowed_url(record["url"], include_patterns, exclude_patterns, require_patterns):
+                            continue
+                        name = derive_name_from_url(record["url"], "loctiteCentralPdpSlug")
+                        if not name:
+                            name = derive_name_from_label(record.get("label", ""), manufacturer["name"])
+                        if name and allowed_name(name, name_require_patterns, name_exclude_patterns):
+                            source_entries.append({"maker": manufacturer["name"], "name": name, "officialUrl": record["url"], "kind": source.get("kind", "product"), "sourceLabel": source.get("label")})
+                    manufacturer_entries.extend(source_entries[:int(source.get("maxUrls", 100))])
+                    source_summaries.append({"label": source.get("label"), "url": source["url"], "matchedUrls": len(records), "discoveredEntries": len(source_entries[:int(source.get("maxUrls", 100))])})
                     continue
                 if source.get("sourceType") == "html":
                     urls = collect_html_links(
@@ -816,8 +915,8 @@ def discover() -> dict:
             if entry.get("tdsDocuments"):
                 preserved_tds_entries += 1
             continue
-        if entry.get("tdsDocuments"):
-            documents = [*current.get("tdsDocuments", []), *entry["tdsDocuments"]]
+        if entry.get("tdsDocuments") or entry.get("technicalDocuments"):
+            documents = [*current.get("tdsDocuments", []), *entry.get("tdsDocuments", [])]
             seen_documents = set()
             current["tdsDocuments"] = []
             for document in documents:
@@ -825,6 +924,9 @@ def discover() -> dict:
                 if document_url and document_url not in seen_documents:
                     seen_documents.add(document_url)
                     current["tdsDocuments"].append(document)
+        if entry.get("technicalDocuments"):
+            documents = [*current.get("technicalDocuments", []), *entry.get("technicalDocuments", [])]
+            current["technicalDocuments"] = list({doc.get("url"): doc for doc in documents if doc.get("url")}.values())
 
     discovered.sort(key=lambda entry: (normalize_text(entry["maker"]), normalize_text(entry["name"])))
     return {

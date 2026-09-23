@@ -5880,6 +5880,7 @@ function ingestOfficialProductLeads(entries) {
         productUrl: entry.officialUrl,
         tdsDocuments,
         tdsUrl: tdsDocuments[0]?.url,
+        tdsUrls: tdsDocuments.map((document) => document.url),
         sdsDocuments,
         sdsUrl: sdsDocuments[0]?.url,
         sourceLabel: entry.sourceLabel || "Official manufacturer discovery",

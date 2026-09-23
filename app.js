@@ -5915,10 +5915,13 @@ function renderReferenceLibrary() {
   appState.referencePage = Math.min(appState.referencePage, pageCount);
   const pageStart = (appState.referencePage - 1) * REFERENCE_PAGE_SIZE;
   const pageProducts = visibleProducts.slice(pageStart, pageStart + REFERENCE_PAGE_SIZE);
-  const tdsLinkedLeadCount = OFFICIAL_PRODUCT_LEADS.filter((product) => product.tdsDocuments?.length).length;
+  const leadsWithTds = OFFICIAL_PRODUCT_LEADS.filter((product) => product.tdsDocuments?.length);
+  const tdsLinkedLeadCount = leadsWithTds.length;
+  const tdsLinkedMakerCount = new Set(leadsWithTds.map((product) => product.maker)).size;
+  const tdsCoverageSummary = `${tdsLinkedLeadCount} official leads with TDS across ${tdsLinkedMakerCount} makers`;
   referenceContext.textContent = visibleProducts.length
-    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsLinkedLeadCount} official leads with TDS`
-    : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsLinkedLeadCount} with TDS • Search product, maker, or use case`;
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsCoverageSummary}`
+    : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsCoverageSummary} • Search product, maker, or use case`;
   if (!visibleProducts.length) {
     renderReferencePagination(0, 1);
     return;

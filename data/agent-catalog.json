@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:24:24.222838+00:00",
+  "generatedAt": "2026-09-23T23:36:40.278675+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -18763,7 +18763,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/530755O/3mtm-optically-clear-adhesives-8211-8212-8213-8214-8215.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/530755O/3mtm-optically-clear-adhesives-8211-8212-8213-8214-8215.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-8211-optically-clear-adhesive.txt",
@@ -18864,7 +18864,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2394079O/bondo-liquid-resin-for-fiberglass.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2394079O/bondo-liquid-resin-for-fiberglass.pdf",
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v000335991/",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-bondo-fiberglass-resin-0401.txt",
@@ -18961,7 +18961,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -19074,7 +19074,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-high-temperature-masking-liquid-2538uv.txt",
@@ -19191,7 +19191,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
         "productUrl": "https://www.3m.com/3M/en_US/p/dc/v000146787/",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-marine-adhesive-sealant-4200fc-black-06564.txt",
@@ -19299,7 +19299,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366618O/3m-neoprene-high-performance-rubber-gasket-adhesive-1300l.pdf?pif=000661",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366618O/3m-neoprene-high-performance-rubber-gasket-adhesive-1300l.pdf?pif=000661",
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069397/",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-neoprene-rubber-gasket-adhesive-1300-1300l.txt",
@@ -19416,7 +19416,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-plastic-bonding-adhesive-2665b.txt",
@@ -19902,7 +19902,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-grip-847.txt",
@@ -20023,7 +20023,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-seal-1252.txt",
@@ -20160,7 +20160,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-2216-ba-translucent-7000046479.txt",
@@ -20261,7 +20261,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-ca5.txt",
@@ -20362,7 +20362,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365874O/3m-scotch-weld-instant-adhesive-ca50-gel.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365874O/3m-scotch-weld-instant-adhesive-ca50-gel.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-ca50-gel.txt",
@@ -20460,7 +20460,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -20557,7 +20557,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -20659,7 +20659,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -20779,7 +20779,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp125-gray-7100320278.txt",
@@ -20897,7 +20897,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365886O/3m-scotch-weld-epoxy-adhesive-dp125-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Translucent.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365886O/3m-scotch-weld-epoxy-adhesive-dp125-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Translucent.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp125-translucent-7100320463.txt",
@@ -21032,7 +21032,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp2216-gray.txt",
@@ -21149,7 +21149,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp405-black-7100330707.txt",
@@ -21266,7 +21266,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365743O/3m-scotch-weld-epoxy-adhesive-dp420-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365743O/3m-scotch-weld-epoxy-adhesive-dp420-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp420-black-7100319970.txt",
@@ -21382,7 +21382,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp420-off-white-7100320185.txt",
@@ -21495,7 +21495,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365922O/3m-scotch-weld-epoxy-adhesive-dp420ns-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420NS-Black.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365922O/3m-scotch-weld-epoxy-adhesive-dp420ns-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420NS-Black.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp420ns-black-7100320001.txt",
@@ -21601,7 +21601,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -21707,7 +21707,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -21822,7 +21822,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365885O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8810ns-green.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365885O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8810ns-green.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-dp8810ns.txt",
@@ -21948,7 +21948,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477.txt",
@@ -22055,7 +22055,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-hot-melt-3748-q.txt",
@@ -22156,7 +22156,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/44021O/3m-hot-melt-bonding-systems-guide.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/1245168O/3m-hot-melt-adhesive-3747-3779-3789-3797-technical-data-sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-hot-melt-3797tc.txt",
@@ -22255,7 +22255,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -22353,7 +22353,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-ac77-instant-adhesive-primer.txt",
@@ -22455,7 +22455,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-ac79-instant-adhesive-primer.txt",
@@ -22558,7 +22558,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-pr1500.txt",
@@ -22759,7 +22759,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -22875,7 +22875,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365860O/3m-scotch-weld-urethane-adhesive-dp600-self-leveling.pdf?&fn=3M-Scotch-Weld-Urethane-Adhesive-DP600-Self-Leveling_R1.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365860O/3m-scotch-weld-urethane-adhesive-dp600-self-leveling.pdf?&fn=3M-Scotch-Weld-Urethane-Adhesive-DP600-Self-Leveling_R1.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-weld-dp600-dp600ns-urethane.txt",
@@ -22998,7 +22998,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotchcast-3570g-n.txt",
@@ -23128,7 +23128,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b00039855/",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotchcast-2131-flame-retardant-resin.txt",
@@ -23264,7 +23264,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/312362O/3m-scotchcast-re-enterable-electrical-insulating-resin-2123.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/312362O/3m-scotchcast-re-enterable-electrical-insulating-resin-2123.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotchcast-2123-re-enterable-resin.txt",
@@ -23382,7 +23382,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotchkote-323-liquid-epoxy-coating.txt",
@@ -23480,7 +23480,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -23615,7 +23615,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-tc2707.txt",
@@ -23757,7 +23757,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-tc2810.txt",
@@ -23899,7 +23899,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-thermal-bonding-film-583.txt",
@@ -24048,7 +24048,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-thermal-bonding-film-af42.txt",
@@ -24156,7 +24156,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-vhb-4945.txt",
@@ -24265,7 +24265,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-vhb-4950.txt",
@@ -24371,7 +24371,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,

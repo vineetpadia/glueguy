@@ -55,6 +55,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
     "viscosityValue": 2000,
     "viscosityUnit": "cP",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA5 Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -121,6 +123,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "viscosityValue": "20000-50000",
     "viscosityUnit": "cP",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365874O/3m-scotch-weld-instant-adhesive-ca50-gel.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA50 Gel Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -206,6 +210,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": "1200-1650",
     "viscosityUnit": "cP",
     "viscosityNote": "Cone-Plate viscosity CP50 at 100/s shear rate",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Plastic and Rubber Instant Adhesives Technical Data, February 2016; PDF creation date June 21, 2016",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -409,7 +415,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime",
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365885O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8810ns-green.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Low Odor Acrylic Adhesive DP8810NS Green Technical Data Sheet, last revision February 2025, supersedes September 2024"
   },
   {
     "id": "3m-vhb-4950",
@@ -548,7 +556,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
-    "referenceUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf"
+    "referenceUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
+    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4950 Technical Data Sheet, last revision September 2024"
   },
   {
     "id": "3m-vhb-4945",
@@ -704,7 +714,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
     "supportingReferenceUrls": [
       "https://multimedia.3m.com/mws/media/1231314O/3m-vhb-y-4950y-4930y-4920y-4945y-4922-data-sheet.pdf"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
+    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4945 Technical Data Sheet, last revision May 2022"
   },
   {
     "id": "loctite-243",
@@ -26720,7 +26732,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Suggested bond line thickness is 3-7 mil; thinner bondlines lower thermal resistance but can reduce bond strength.",
       "Use the 3M EPX Plus II applicator and matching mix nozzles."
     ],
-    "referenceUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf"
+    "referenceUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet"
   },
   {
     "id": "3m-tc2810",
@@ -26844,7 +26858,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Use only the 3M EPX Plus II applicator and mix nozzles.",
       "Industrial use only; not intended, labeled, or packaged for consumer sale or use."
     ],
-    "referenceUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf"
+    "referenceUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet"
   },
   {
     "id": "dow-dowsil-tc2035",
@@ -30394,9 +30410,30 @@ window.TDS_MANUAL_PRODUCTS = [
       "The guide does not publish continuous service temperature, dielectric strength, volume resistivity, hardness, elongation or thermal conductivity for 3797.",
       "Electronics relevance is based on the guide's electrical component manufacturing and potting application language; the cached guide does not publish adhesive electrical or thermal performance values for 3797.",
       "The lap-shear scalar is converted from the published polypropylene shear strength of 330 psi at 72 F.",
-      "This is a thermoplastic hot-melt material, so heat can soften the bond and potting geometry should be qualified under operating temperature."
+      "This is a thermoplastic hot-melt material, so heat can soften the bond and potting geometry should be qualified under operating temperature.",
+      "The direct July 2016 3M TDS reports 350 psi on Douglas fir-to-Douglas fir, while the separate 3M bonding guide records 330 psi on polypropylene; these substrate-specific values are not interchangeable.",
+      "TDS performance figures are stated as typical and not for specification use."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/44021O/3m-hot-melt-bonding-systems-guide.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/1245168O/3m-hot-melt-adhesive-3747-3779-3789-3797-technical-data-sheet.pdf",
+    "tdsDocumentLabel": "3M Hot Melt Adhesive 3747 / 3779 / 3789 / 3797 Technical Data, July 2016",
+    "sourceRevisionDate": "3M Hot Melt Adhesive 3747 / 3779 / 3789 / 3797 Technical Data, July 2016; checked against 3M 3797TC product listing",
+    "tdsViscosityCpsAt375F": 2650,
+    "tdsApplicationTemperatureFRange": [
+      350,
+      385
+    ],
+    "tdsOpenTimeSeconds": 30,
+    "tdsDeliveryTimeSeconds": 55,
+    "tdsShearStrengthPsi": 350,
+    "tdsShearStrengthSubstrate": "Douglas fir to Douglas fir; 3M TDS, typical",
+    "tdsPeelStrengthPiw": 10,
+    "tdsHeatResistanceF": 170,
+    "tdsBallAndRingMeltPointF": 304,
+    "tdsStorageLifeYears": 2,
+    "tdsShelfStorageMaxF": 120,
+    "tdsFoodContact": "Indirect food contact under 21 CFR 175.105, subject to that regulation’s limitations",
+    "tdsOverlapShearMethodNote": "TDS describes overlap shear on Douglas fir; no specific test method is provided on the retrieved table.",
     "pricing": {
       "basis": "observed",
       "unit": "stick",
@@ -30511,6 +30548,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Technical data are representative or typical only and should not be used for specification purposes."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30592,6 +30631,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Technical data are representative or typical only and should not be used for specification purposes."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "stick",
@@ -30708,6 +30749,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31916,6 +31959,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -32044,6 +32089,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -32184,6 +32231,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/312362O/3m-scotchcast-re-enterable-electrical-insulating-resin-2123.pdf",
+    "tdsDocumentLabel": "3M Scotchcast 2123 data sheet January 2015, Rev D",
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -32298,6 +32347,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
+    "tdsDocumentLabel": "3M Technical Data October 2014; current 3M product page lists 06564 / 7000120497 black 295 mL cartridge",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -32598,6 +32649,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Bonding conditions are starting points only; 3M states users must optimize heat, pressure and dwell for substrate type, thickness and process."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -32831,6 +32884,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
+    "tdsDocumentLabel": "3M Technical Data, August 2015",
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -32952,6 +33007,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366618O/3m-neoprene-high-performance-rubber-gasket-adhesive-1300l.pdf?pif=000661",
+    "tdsDocumentLabel": "3M 1300L TDS last revision September 2024, supersedes June 2024; 3M 1300 product page crawled 2026",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34494,6 +34551,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/530755O/3mtm-optically-clear-adhesives-8211-8212-8213-8214-8215.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -34630,6 +34689,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish dielectric strength, volume resistivity, surface resistivity or CTI values."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34761,6 +34822,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish dielectric strength, volume resistivity, surface resistivity, structural-strength time, or CTI values."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365886O/3m-scotch-weld-epoxy-adhesive-dp125-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Translucent.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365886O/3m-scotch-weld-epoxy-adhesive-dp125-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Translucent.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34883,6 +34946,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish tensile, dielectric, thermal-conductivity, service-temperature range or bond-strength values."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34950,6 +35015,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35044,6 +35111,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
+    "tdsDocumentLabel": "3M Technical Data, January 2015",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35168,6 +35237,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish dielectric properties, thermal conductivity, density, Tg or a fixed full-cure time."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -35438,6 +35509,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+    "tdsDocumentLabel": "3M France-FR TDS V-8, last revision December 2025, supersedes September 2024",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35626,6 +35699,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365860O/3m-scotch-weld-urethane-adhesive-dp600-self-leveling.pdf?&fn=3M-Scotch-Weld-Urethane-Adhesive-DP600-Self-Leveling_R1.pdf",
+    "tdsDocumentLabel": "Primary 3M DP600 Self-Leveling TDS last revision September 2024, supersedes June 2024; legacy combined DP600/DP600NS TDS November 2016",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35941,6 +36016,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5557/BONDO.pdf",
       "https://www.digikey.com/en/products/detail/3m/0401/16537077"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2394079O/bondo-liquid-resin-for-fiberglass.pdf",
+    "tdsDocumentLabel": "3M Bondo Liquid Resin for Fiberglass TDS, December 2023; Digi-Key comparison chart also covers Bondo Fiberglass Resin 0401",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36046,6 +36123,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Final product specifications and test methods are governed by the product Certificate of Analysis shipped with commercial product."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
+    "tdsDocumentLabel": "3M Technical Data, January 2020",
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -36207,6 +36286,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://www.3m.com/3M/en_US/p/d/b00039855/",
     "referenceUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
+    "tdsDocumentLabel": "3M Scotchcast 2131 Data Sheet January 2015, 78-8129-9502-1 Rev D; 3M product page observed 2026",
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -36361,6 +36442,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "3M says the product is not designed or tested for certain automotive electric powertrain battery or high-voltage applications."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365743O/3m-scotch-weld-epoxy-adhesive-dp420-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365743O/3m-scotch-weld-epoxy-adhesive-dp420-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf",
+    "tdsDocumentLabel": "3M TDS V-7, last revision December 2025, supersedes April 2025",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36526,6 +36609,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "3M says the product is not designed or tested for certain automotive electric powertrain battery or high-voltage applications."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
+    "tdsDocumentLabel": "3M TDS V-7, last revision December 2025, supersedes April 2025",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36634,6 +36719,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "3M says the product is not designed or tested for certain automotive electric powertrain battery or high-voltage applications."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365922O/3m-scotch-weld-epoxy-adhesive-dp420ns-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420NS-Black.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365922O/3m-scotch-weld-epoxy-adhesive-dp420ns-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420NS-Black.pdf",
+    "tdsDocumentLabel": "Last Revision Date: December 2025; PDF created January 12, 2026",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36744,6 +36831,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "3M says the product is not designed or tested for certain automotive electric powertrain battery or high-voltage applications."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
+    "tdsDocumentLabel": "Last Revision Date: December 2025; PDF created January 12, 2026",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36880,6 +36969,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+    "tdsDocumentLabel": "Official 3M 2216 B/A TDS, October 2018",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -54296,7 +54387,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/b5005065035/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+    "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 LH TDS, September 2024"
   },
   {
     "id": "3m-scotch-weld-dp100-plus-clear",
@@ -54345,7 +54438,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/b40066487/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 Plus Clear TDS, December 2025"
   },
   {
     "id": "3m-hi-strength-90-spray-aerosol",
@@ -54384,7 +54479,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/b40069454/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+    "tdsDocumentLabel": "3M Hi-Strength 90 Spray Adhesive (Aerosol) TDS, April 2025"
   },
   {
     "id": "3m-super-77-low-voc-aerosol",
@@ -54424,7 +54521,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/v101943161/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+    "tdsDocumentLabel": "3M Super 77 Spray Adhesive Low VOC TDS, May 2026 (Preliminary)"
   },
   {
     "id": "3m-scotch-weld-dp490",
@@ -54481,7 +54580,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/v101722005/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld DP490 Black TDS, May 2026"
   },
   {
     "id": "3m-scotch-weld-ca8",
@@ -54519,7 +54620,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/b40066933/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA8 TDS, December 2024"
   },
   {
     "id": "3m-scotch-weld-sf100",
@@ -54557,7 +54660,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/b40066913/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+    "tdsDocumentLabel": "3M Scotch-Weld Super Fast Instant Adhesive SF100 TDS, September 2024"
   },
   {
     "id": "3m-vhb-4930f",
@@ -54606,7 +54711,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/v100808740/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+    "tdsDocumentLabel": "3M VHB Tape 4930F TDS, September 2024"
   },
   {
     "id": "3m-scotch-weld-dp460eg",
@@ -54650,7 +54757,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
     "sourceLabel": "TDS",
-    "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/"
+    "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+    "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP460EG Technical Data Sheet, January 2019; document 60-5005-0069-3."
   },
   {
     "id": "permabond-2050",
@@ -55158,7 +55267,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
     "supportingReferenceUrls": [
       "https://www.3m.com/3M/en_US/p/d/v000147556/"
-    ]
+    ],
+    "tdsUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+    "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 Clear TDS, September 2024 (supersedes August 2024)"
   },
   {
     "id": "gorilla-wood-glue",

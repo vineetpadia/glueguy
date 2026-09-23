@@ -66,7 +66,9 @@
       "priceExample": "1 oz bottle ~$46.60",
       "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-1~~/",
       "viscosityValue": 2000,
-      "viscosityUnit": "cP"
+      "viscosityUnit": "cP",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA5 Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024"
     },
     {
       "id": "3m-ca50-gel",
@@ -135,7 +137,9 @@
         "thermalConductivity"
       ],
       "viscosityValue": "20000-50000",
-      "viscosityUnit": "cP"
+      "viscosityUnit": "cP",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365874O/3m-scotch-weld-instant-adhesive-ca50-gel.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA50 Gel Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024"
     },
     {
       "id": "3m-pr1500",
@@ -225,7 +229,9 @@
       "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-for-hard-to-bond-materials~~/",
       "viscosityValue": "1200-1650",
       "viscosityUnit": "cP",
-      "viscosityNote": "Cone-Plate viscosity CP50 at 100/s shear rate"
+      "viscosityNote": "Cone-Plate viscosity CP50 at 100/s shear rate",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Plastic and Rubber Instant Adhesives Technical Data, February 2016; PDF creation date June 21, 2016"
     },
     {
       "id": "3m-dp8810ns",
@@ -428,7 +434,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Duo-Pak",
       "referenceSampleConsistency": "Blue-green mixed non-sag toughened acrylic paste; mixed viscosity 45,000 cP; B:A 10:1 mix ratio; 0.010 in glass beads for bond-line control",
-      "referenceForJoining": "Structural bonding of aluminum, stainless steel, PVC, ABS, acrylic, polycarbonate, FRP, fiber-reinforced epoxy, painted/coated metals, plastics, composites and powder-coated surfaces"
+      "referenceForJoining": "Structural bonding of aluminum, stainless steel, PVC, ABS, acrylic, polycarbonate, FRP, fiber-reinforced epoxy, painted/coated metals, plastics, composites and powder-coated surfaces",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365885O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8810ns-green.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Low Odor Acrylic Adhesive DP8810NS Green Technical Data Sheet, last revision February 2025, supersedes September 2024"
     },
     {
       "id": "3m-vhb-4950",
@@ -572,7 +580,9 @@
       "referenceCategory": "Acrylic Foam Bonding Tapes",
       "referenceSampleType": "Roll of white 0.045 in / 1.1 mm double-sided acrylic foam tape with white printed DK paper liner",
       "referenceSampleConsistency": "White firm acrylic foam pressure-sensitive tape; 800 kg/m3 density; 1.1 mm total thickness; 0.08 mm liner; 72 h dwell performance data",
-      "referenceForJoining": "High-surface-energy substrates including stainless steel, aluminum, metals, glass, easier-to-bond paints and plastics, and rigid assemblies needing permanent sealed joints with immediate handling strength"
+      "referenceForJoining": "High-surface-energy substrates including stainless steel, aluminum, metals, glass, easier-to-bond paints and plastics, and rigid assemblies needing permanent sealed joints with immediate handling strength",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
+      "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4950 Technical Data Sheet, last revision September 2024"
     },
     {
       "id": "3m-vhb-4945",
@@ -733,7 +743,9 @@
       "referenceCategory": "Acrylic Foam Bonding Tapes",
       "referenceSampleType": "Roll of white 0.045 in / 1.1 mm double-coated acrylic foam tape with white printed DK paper liner",
       "referenceSampleConsistency": "White firm acrylic foam pressure-sensitive tape; 800 kg/m3 density; 1.1 mm total thickness; 0.08 mm liner; 72 h dwell performance data",
-      "referenceForJoining": "High and medium surface-energy substrates including metals, glass, paints and plastics, plus plasticized vinyl applications where the user validates plasticizer migration over time"
+      "referenceForJoining": "High and medium surface-energy substrates including metals, glass, paints and plastics, plus plasticized vinyl applications where the user validates plasticizer migration over time",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
+      "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4945 Technical Data Sheet, last revision May 2022"
     },
     {
       "id": "loctite-243",
@@ -28298,7 +28310,9 @@
       "referenceCategory": "Thermally Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe Duo-Pak cartridge",
       "referenceSampleConsistency": "Gray two-part aluminum-filled paste; mixed viscosity 60,000 cP",
-      "referenceForJoining": "LED assembly, EV/HEV battery thermal fixing, thermal management, potting and general gap filling"
+      "referenceForJoining": "LED assembly, EV/HEV battery thermal fixing, thermal management, potting and general gap filling",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-tc2810",
@@ -28428,7 +28442,9 @@
       "referenceCategory": "Thermally Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe Duo-Pak cartridge",
       "referenceSampleConsistency": "Two-part ceramic-filled paste; mixed viscosity 40,000-80,000 cP",
-      "referenceForJoining": "LED assembly, potting and general gap filling where a thermally conductive electrically insulating epoxy adhesive is required"
+      "referenceForJoining": "LED assembly, potting and general gap filling where a thermally conductive electrically insulating epoxy adhesive is required",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "dow-dowsil-tc2035",
@@ -32149,7 +32165,9 @@
         "The guide does not publish continuous service temperature, dielectric strength, volume resistivity, hardness, elongation or thermal conductivity for 3797.",
         "Electronics relevance is based on the guide's electrical component manufacturing and potting application language; the cached guide does not publish adhesive electrical or thermal performance values for 3797.",
         "The lap-shear scalar is converted from the published polypropylene shear strength of 330 psi at 72 F.",
-        "This is a thermoplastic hot-melt material, so heat can soften the bond and potting geometry should be qualified under operating temperature."
+        "This is a thermoplastic hot-melt material, so heat can soften the bond and potting geometry should be qualified under operating temperature.",
+        "The direct July 2016 3M TDS reports 350 psi on Douglas fir-to-Douglas fir, while the separate 3M bonding guide records 330 psi on polypropylene; these substrate-specific values are not interchangeable.",
+        "TDS performance figures are stated as typical and not for specification use."
       ],
       "priceUsd": 1.98,
       "priceSize": 1,
@@ -32160,7 +32178,26 @@
       "referenceCategory": "Hot Melt Adhesives",
       "referenceSampleType": "5/8 in x 2 in TC stick",
       "referenceSampleConsistency": "Off-white low-viscosity thermoplastic hot-melt stick; 3,600 cP at 350 F",
-      "referenceForJoining": "Electrical potting and polypropylene/plastic hot-melt bonding applications where 30 second open time and fast cooling set are acceptable"
+      "referenceForJoining": "Electrical potting and polypropylene/plastic hot-melt bonding applications where 30 second open time and fast cooling set are acceptable",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/1245168O/3m-hot-melt-adhesive-3747-3779-3789-3797-technical-data-sheet.pdf",
+      "tdsDocumentLabel": "3M Hot Melt Adhesive 3747 / 3779 / 3789 / 3797 Technical Data, July 2016",
+      "sourceRevisionDate": "3M Hot Melt Adhesive 3747 / 3779 / 3789 / 3797 Technical Data, July 2016; checked against 3M 3797TC product listing",
+      "tdsViscosityCpsAt375F": 2650,
+      "tdsApplicationTemperatureFRange": [
+        350,
+        385
+      ],
+      "tdsOpenTimeSeconds": 30,
+      "tdsDeliveryTimeSeconds": 55,
+      "tdsShearStrengthPsi": 350,
+      "tdsShearStrengthSubstrate": "Douglas fir to Douglas fir; 3M TDS, typical",
+      "tdsPeelStrengthPiw": 10,
+      "tdsHeatResistanceF": 170,
+      "tdsBallAndRingMeltPointF": 304,
+      "tdsStorageLifeYears": 2,
+      "tdsShelfStorageMaxF": 120,
+      "tdsFoodContact": "Indirect food contact under 21 CFR 175.105, subject to that regulation’s limitations",
+      "tdsOverlapShearMethodNote": "TDS describes overlap shear on Douglas fir; no specific test method is provided on the retrieved table."
     },
     {
       "id": "3m-scotch-seal-1252",
@@ -32280,7 +32317,9 @@
       "referenceCategory": "Tamper Proof Sealants",
       "referenceSampleType": "5 oz tube",
       "referenceSampleConsistency": "Paste-like one-part air-drying nitrile-phenolic sealant; 500-2500 poise",
-      "referenceForJoining": "Protecting settings and calibrations of hydraulic, pneumatic and electronic equipment; sealing components between assembly stages; indicating tampering, movement, alteration or vibration loosening"
+      "referenceForJoining": "Protecting settings and calibrations of hydraulic, pneumatic and electronic equipment; sealing components between assembly stages; indicating tampering, movement, alteration or vibration loosening",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-hot-melt-3748-q",
@@ -32366,7 +32405,9 @@
       "referenceCategory": "Hot Melt Adhesives",
       "referenceSampleType": "5/8 in x 8 in Q stick",
       "referenceSampleConsistency": "Off-white thermoplastic hot-melt stick; 5,000 cP at 375 F",
-      "referenceForJoining": "Low-surface-energy plastics and coatings such as polyolefins; ABS, PVC, polycarbonate, polypropylene, polyethylene, wood, corrugated, fabrics, foams and lightweight materials"
+      "referenceForJoining": "Low-surface-energy plastics and coatings such as polyolefins; ABS, PVC, polycarbonate, polypropylene, polyethylene, wood, corrugated, fabrics, foams and lightweight materials",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-grip-847",
@@ -32489,7 +32530,9 @@
       "referenceCategory": "Nitrile Rubber and Gasket Adhesives",
       "referenceSampleType": "5 oz package",
       "referenceSampleConsistency": "Dark brown medium-viscosity nitrile rubber adhesive, 1,500-3,200 cP",
-      "referenceForJoining": "Leather, nitrile rubber, most plastics and gasketing materials to a variety of substrates; brush, flow or spray applications requiring strong flexible fuel/oil-resistant bonds"
+      "referenceForJoining": "Leather, nitrile rubber, most plastics and gasketing materials to a variety of substrates; brush, flow or spray applications requiring strong flexible fuel/oil-resistant bonds",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "omega-ob-102",
@@ -33759,7 +33802,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotchcast-3570g-n",
@@ -33893,7 +33938,9 @@
       "referenceCategory": "Connector Sealing and Electrical Encapsulation Resins",
       "referenceSampleType": "Closed mixing pouch connector sealing pack",
       "referenceSampleConsistency": "Black thermosetting two-part resin; 8-12 minute gel time at 73 F / 23 C",
-      "referenceForJoining": "Insulating, encapsulating and moisture-sealing 3M electrical spring connectors O/B+, R/Y+, T/R+, T/Y+, 312 and 512 against dust, soil, water and environmental elements"
+      "referenceForJoining": "Insulating, encapsulating and moisture-sealing 3M electrical spring connectors O/B+, R/Y+, T/R+, T/Y+, 312 and 512 against dust, soil, water and environmental elements",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotchcast-2123-re-enterable-resin",
@@ -34039,7 +34086,9 @@
         "tackFreeTime",
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/312362O/3m-scotchcast-re-enterable-electrical-insulating-resin-2123.pdf",
+      "tdsDocumentLabel": "3M Scotchcast 2123 data sheet January 2015, Rev D"
     },
     {
       "id": "3m-marine-adhesive-sealant-4200fc-black-06564",
@@ -34157,7 +34206,9 @@
       "referenceForJoining": "Above- and below-waterline marine sealing and removable bonding of fiberglass deck/hull joints, wood to fiberglass, portholes, deck fittings, rub rails, screw holes, stanchion supports and boat hardware",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
+      "tdsDocumentLabel": "3M Technical Data October 2014; current 3M product page lists 06564 / 7000120497 black 295 mL cartridge"
     },
     {
       "id": "panduit-ema-x-epoxy-adhesive-kit",
@@ -34471,7 +34522,9 @@
       "referenceCategory": "Heat-Activated Thermal Bonding Films",
       "referenceSampleType": "1 in x 60 yd roll",
       "referenceSampleConsistency": "Hazy transparent slightly tacky 2.0 mil nitrile phenolic film on 2.0 mil clear PET liner",
-      "referenceForJoining": "Heat-activated bonding of similar and dissimilar metals, plastics, rubbers and fabrics, including metal-to-metal, metal-to-fabric, rubber-to-metal and metal-to-plastic constructions"
+      "referenceForJoining": "Heat-activated bonding of similar and dissimilar metals, plastics, rubbers and fabrics, including metal-to-metal, metal-to-fabric, rubber-to-metal and metal-to-plastic constructions",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-thermal-bonding-film-af42",
@@ -34709,7 +34762,9 @@
       "referenceCategory": "Heat-Activated Thermal Bonding Films",
       "referenceSampleType": "1 in x 72 yd roll",
       "referenceSampleConsistency": "3 mil non-tacky translucent epoxy thermoset adhesive on 6.5 mil brown paper liner; cures clear",
-      "referenceForJoining": "Structural bonding of metal, glass, FR-4 printed-circuit substrate and other engineering-grade electronics materials"
+      "referenceForJoining": "Structural bonding of metal, glass, FR-4 printed-circuit substrate and other engineering-grade electronics materials",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
+      "tdsDocumentLabel": "3M Technical Data, August 2015"
     },
     {
       "id": "3m-neoprene-rubber-gasket-adhesive-1300-1300l",
@@ -34834,7 +34889,9 @@
       "tackFreeTime": "30 seconds",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366618O/3m-neoprene-high-performance-rubber-gasket-adhesive-1300l.pdf?pif=000661",
+      "tdsDocumentLabel": "3M 1300L TDS last revision September 2024, supersedes June 2024; 3M 1300 product page crawled 2026"
     },
     {
       "id": "itw-devcon-14265-5-minute-epoxy-gel",
@@ -36462,7 +36519,9 @@
         "thermalConductivity",
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/530755O/3mtm-optically-clear-adhesives-8211-8212-8213-8214-8215.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-dp125-gray-7100320278",
@@ -36600,7 +36659,9 @@
       "referenceCategory": "Flexible Epoxy Structural Adhesives",
       "referenceSampleType": "EPX Duo-Pak cartridge; Digi-Key 7100320278 and 7100320279 gray variants",
       "referenceSampleConsistency": "Gray filled high-viscosity two-part epoxy; accelerator 30,000 cP and base 58,000 cP at 23 C",
-      "referenceForJoining": "Flexible structural bonding of aluminum, steel, ABS, acrylic, polycarbonate, PVC, FRP and mixed assemblies needing peel strength"
+      "referenceForJoining": "Flexible structural bonding of aluminum, steel, ABS, acrylic, polycarbonate, PVC, FRP and mixed assemblies needing peel strength",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-dp125-translucent-7100320463",
@@ -36733,7 +36794,9 @@
       "referenceCategory": "Flexible Epoxy Structural Adhesives",
       "referenceSampleType": "EPX Duo-Pak cartridge; Digi-Key 7100320463 translucent 48.5 mL variant",
       "referenceSampleConsistency": "Translucent high-viscosity two-part epoxy; accelerator 30,000 cP and base 25,000 cP at 23 C",
-      "referenceForJoining": "Flexible structural bonding of aluminum, steel, ABS, acrylic, polycarbonate, PVC, FRP and visible mixed-material joints needing peel strength"
+      "referenceForJoining": "Flexible structural bonding of aluminum, steel, ABS, acrylic, polycarbonate, PVC, FRP and visible mixed-material joints needing peel strength",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365886O/3m-scotch-weld-epoxy-adhesive-dp125-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Translucent.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotchkote-323-liquid-epoxy-coating",
@@ -36861,7 +36924,9 @@
       "referenceCategory": "Liquid Epoxy Corrosion-Protection Coatings",
       "referenceSampleType": "50 mL 2-part cartridge kit; also listed in larger 450 mL, 900 mL, 1 L, 3 L, 17 L x 3 and drum package sizes",
       "referenceSampleConsistency": "Blue-green high-build 100% solids two-part epoxy coating, brush or spray grade",
-      "referenceForJoining": "Steel pipe corrosion protection, girth weld coating, FBE patch repair, internal lining and pipe rehabilitation"
+      "referenceForJoining": "Steel pipe corrosion protection, girth weld coating, FBE patch repair, internal lining and pipe rehabilitation",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-ac77-instant-adhesive-primer",
@@ -36936,7 +37001,9 @@
         "lapShear",
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-ac79-instant-adhesive-primer",
@@ -37038,7 +37105,9 @@
         "lapShear",
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
+      "tdsDocumentLabel": "3M Technical Data, January 2015"
     },
     {
       "id": "3m-plastic-bonding-adhesive-2665b",
@@ -37165,7 +37234,9 @@
       "referenceCategory": "Reactive Hot-Melt Urethane Plastic Bonding Adhesives",
       "referenceSampleType": "30 mL syringe or 295 mL cartridge; Digi-Key 2665B case package",
       "referenceSampleConsistency": "Black low-viscosity molten adhesive at 110 C with PSA-like tack after solidification",
-      "referenceForJoining": "Cover-glass bonding on electronic devices and plastic-to-plastic bonding, especially polycarbonate and acrylic assemblies"
+      "referenceForJoining": "Cover-glass bonding on electronic devices and plastic-to-plastic bonding, especially polycarbonate and acrylic assemblies",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
+      "tdsDocumentLabel": "3M product Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-pur-2710p-black",
@@ -37447,7 +37518,9 @@
       "referenceCategory": "Flexible Acrylic Structural Adhesives",
       "referenceSampleType": "490 mL cartridge; TDS also lists 45 mL cartridges, 19 L pails and 208 L drums",
       "referenceSampleConsistency": "Black thixotropic non-sag two-part acrylic; base 75,000-175,000 cP and accelerator 5,000-20,000 cP at 23 C",
-      "referenceForJoining": "Flexible structural bonding of painted or raw metals, most plastics and composites where low odor, non-flammability and high peel flexibility are useful"
+      "referenceForJoining": "Flexible structural bonding of painted or raw metals, most plastics and composites where low odor, non-flammability and high peel flexibility are useful",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+      "tdsDocumentLabel": "3M France-FR TDS V-8, last revision December 2025, supersedes September 2024"
     },
     {
       "id": "3m-scotch-weld-dp600-dp600ns-urethane",
@@ -37639,7 +37712,9 @@
       "referenceForJoining": "Rapid concrete floor and pool-deck repair, vertical edge repair, custom tapping in concrete/wood/masonry, handrail anchoring, and tough non-brittle bonding of wood, metal, glass and plastic",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365860O/3m-scotch-weld-urethane-adhesive-dp600-self-leveling.pdf?&fn=3M-Scotch-Weld-Urethane-Adhesive-DP600-Self-Leveling_R1.pdf",
+      "tdsDocumentLabel": "Primary 3M DP600 Self-Leveling TDS last revision September 2024, supersedes June 2024; legacy combined DP600/DP600NS TDS November 2016"
     },
     {
       "id": "micro-measurements-m-bond-200-mmf006570",
@@ -37978,7 +38053,9 @@
       "referenceCategory": "Fiberglass Polyester Repair Resins",
       "referenceSampleType": "0.9 pint / 426 mL 0401 container with included clear liquid hardener; broader TDS covers 0.9 pint, 0.9 quart and 0.9 gallon sizes",
       "referenceSampleConsistency": "Translucent light-brown cured polyester resin when mixed properly with clear liquid hardener",
-      "referenceForJoining": "Repairing chips, cracks, breaks, holes and gaps on fiberglass, metal, wood and masonry; rebuilding or joining surfaces; waterproofing and sealing small concrete or wood areas"
+      "referenceForJoining": "Repairing chips, cracks, breaks, holes and gaps on fiberglass, metal, wood and masonry; rebuilding or joining surfaces; waterproofing and sealing small concrete or wood areas",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2394079O/bondo-liquid-resin-for-fiberglass.pdf",
+      "tdsDocumentLabel": "3M Bondo Liquid Resin for Fiberglass TDS, December 2023; Digi-Key comparison chart also covers Bondo Fiberglass Resin 0401"
     },
     {
       "id": "3m-high-temperature-masking-liquid-2538uv",
@@ -38090,7 +38167,9 @@
       "referenceCategory": "Electronics High-Temperature Removable Masking Liquids",
       "referenceSampleType": "1 kg hot-melt masking liquid package",
       "referenceSampleConsistency": "Translucent UV-fluorescing olefin hybrid hot-melt liquid; transparent appearance in typical physical-property table",
-      "referenceForJoining": "Temporary masking and sealing of FR4, glass, metal and electronic components during conformal coating, high-temperature exposure and chemical masking processes"
+      "referenceForJoining": "Temporary masking and sealing of FR4, glass, metal and electronic components during conformal coating, high-temperature exposure and chemical masking processes",
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
+      "tdsDocumentLabel": "3M Technical Data, January 2020"
     },
     {
       "id": "3m-scotchcast-2131-flame-retardant-resin",
@@ -38257,7 +38336,9 @@
       "referenceCategory": "Flame-Retardant Electrical Insulating and Potting Resins",
       "referenceSampleType": "Two-part closed mixing pouch or bulk components; 3M product page lists 7.5 oz and 21.5 oz container sizes for current options",
       "referenceSampleConsistency": "Black semi-flexible two-part polyurethane resin; Part A pale yellow prepolymer and Part B black polyol in bulk form",
-      "referenceForJoining": "Replacing or repairing mine and portable cable jackets, insulating 1 kV cable splices, sealing crotches/sheaths, potting cables, wire encasements, cable fittings, printed circuit boards, junction boxes, back-shell connectors and motor repairs"
+      "referenceForJoining": "Replacing or repairing mine and portable cable jackets, insulating 1 kV cable splices, sealing crotches/sheaths, potting cables, wire encasements, cable fittings, printed circuit boards, junction boxes, back-shell connectors and motor repairs",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
+      "tdsDocumentLabel": "3M Scotchcast 2131 Data Sheet January 2015, 78-8129-9502-1 Rev D; 3M product page observed 2026"
     },
     {
       "id": "3m-scotch-weld-dp420-black-7100319970",
@@ -38414,7 +38495,9 @@
       "referenceCategory": "Toughened Epoxy Structural Adhesives",
       "referenceSampleType": "50 mL EPX Duo-Pak cartridge; TDS also covers 200 mL and 400 mL Duo-Pak configurations",
       "referenceSampleConsistency": "Black two-part epoxy; accelerator 9,000 cP and base 23,000 cP at 23 C",
-      "referenceForJoining": "Structural bonding of prepared aluminum, steel, FRP composites, ABS, polycarbonate and electronics-adjacent assemblies requiring high shear and peel"
+      "referenceForJoining": "Structural bonding of prepared aluminum, steel, FRP composites, ABS, polycarbonate and electronics-adjacent assemblies requiring high shear and peel",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365743O/3m-scotch-weld-epoxy-adhesive-dp420-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf",
+      "tdsDocumentLabel": "3M TDS V-7, last revision December 2025, supersedes April 2025"
     },
     {
       "id": "3m-scotch-weld-dp420-off-white-7100320185",
@@ -38582,7 +38665,9 @@
       "referenceCategory": "Toughened Epoxy Structural Adhesives",
       "referenceSampleType": "200 mL EPX Duo-Pak cartridge; TDS also covers 50 mL and 400 mL Duo-Pak configurations",
       "referenceSampleConsistency": "Off-white two-part epoxy; accelerator 9,000 cP and base 18,000 cP at 23 C",
-      "referenceForJoining": "Structural bonding of prepared aluminum, steel, FRP composites, ABS, polycarbonate, PVC and electronics-adjacent assemblies requiring high shear and peel with off-white bondline color"
+      "referenceForJoining": "Structural bonding of prepared aluminum, steel, FRP composites, ABS, polycarbonate, PVC and electronics-adjacent assemblies requiring high shear and peel with off-white bondline color",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
+      "tdsDocumentLabel": "3M TDS V-7, last revision December 2025, supersedes April 2025"
     },
     {
       "id": "3m-scotch-weld-dp420ns-black-7100320001",
@@ -38693,7 +38778,9 @@
       "referenceCategory": "Toughened Epoxy Structural Adhesives",
       "referenceSampleType": "50 mL EPX Duo-Pak cartridge and related 7100320001 / 7100320002 distributor package codes",
       "referenceSampleConsistency": "Black non-sag very-high-viscosity two-part epoxy; accelerator 89,000 cP and base 211,000 cP at 23 C",
-      "referenceForJoining": "High-strength structural bonding of prepared aluminum, steel, FRP, polycarbonate and mixed engineering assemblies"
+      "referenceForJoining": "High-strength structural bonding of prepared aluminum, steel, FRP, polycarbonate and mixed engineering assemblies",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365922O/3m-scotch-weld-epoxy-adhesive-dp420ns-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420NS-Black.pdf",
+      "tdsDocumentLabel": "Last Revision Date: December 2025; PDF created January 12, 2026"
     },
     {
       "id": "3m-scotch-weld-dp405-black-7100330707",
@@ -38806,7 +38893,9 @@
       "referenceCategory": "Fast Toughened Epoxy Structural Adhesives",
       "referenceSampleType": "50 mL EPX Duo-Pak cartridge; Digi-Key 7100330707",
       "referenceSampleConsistency": "Black high-viscosity two-part epoxy; accelerator 69,000 cP and base 9,000 cP at 23 C",
-      "referenceForJoining": "Fast structural bonding of prepared aluminum, steel, FRP, polycarbonate and mixed engineering assemblies"
+      "referenceForJoining": "Fast structural bonding of prepared aluminum, steel, FRP, polycarbonate and mixed engineering assemblies",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
+      "tdsDocumentLabel": "Last Revision Date: December 2025; PDF created January 12, 2026"
     },
     {
       "id": "3m-scotch-weld-2216-ba-translucent-7000046479",
@@ -38947,7 +39036,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+      "tdsDocumentLabel": "Official 3M 2216 B/A TDS, October 2018"
     },
     {
       "id": "sika-sikaflex-255-fc-tube",
@@ -57619,7 +57710,9 @@
       "referenceCategory": "3M two-part epoxy adhesives",
       "referenceSampleType": "Two-part Duo-Pak epoxy",
       "referenceSampleConsistency": "Two-part epoxy, B:A 1:1. TDS reports about 5 min worklife for a 10 g mixed mass and 15–20 min set time to 0.3 MPa (50 psi) overlap shear at 23 C. Full cure and joint-strength values are not populated here.",
-      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS"
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366697O/3M-Scotch-Weld-Epoxy-Adhesive-DP100-LH.pdf?pif=002094",
+      "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 LH TDS, September 2024"
     },
     {
       "id": "3m-scotch-weld-dp100-plus-clear",
@@ -57672,7 +57765,9 @@
       "referenceCategory": "3M two-part epoxy adhesives",
       "referenceSampleType": "Two-part Duo-Pak epoxy",
       "referenceSampleConsistency": "Mix ratio 1:1 by volume; 1:0.98 by weight.",
-      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS"
+      "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 Plus Clear TDS, December 2025"
     },
     {
       "id": "3m-hi-strength-90-spray-aerosol",
@@ -57715,7 +57810,9 @@
       "referenceCategory": "3M spray adhesives",
       "referenceSampleType": "Aerosol spray adhesive",
       "referenceSampleConsistency": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1–10 min bonding range; actual timing depends on ambient conditions and applied coverage.",
-      "referenceForJoining": "HPL, wood, decorative laminates, particleboard and the specific compatible materials listed in the TDS."
+      "referenceForJoining": "HPL, wood, decorative laminates, particleboard and the specific compatible materials listed in the TDS.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+      "tdsDocumentLabel": "3M Hi-Strength 90 Spray Adhesive (Aerosol) TDS, April 2025"
     },
     {
       "id": "3m-super-77-low-voc-aerosol",
@@ -57759,7 +57856,9 @@
       "referenceCategory": "3M spray adhesives",
       "referenceSampleType": "Aerosol spray adhesive",
       "referenceSampleConsistency": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
-      "referenceForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M."
+      "referenceForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+      "tdsDocumentLabel": "3M Super 77 Spray Adhesive Low VOC TDS, May 2026 (Preliminary)"
     },
     {
       "id": "3m-scotch-weld-dp490",
@@ -57820,7 +57919,9 @@
       "referenceCategory": "3M structural epoxy adhesives",
       "referenceSampleType": "Black Duo-Pak epoxy",
       "referenceSampleConsistency": "B:A 2:1 by volume; 90 min worklife for a 45 g mixed mass at 23 C. TDS reports 48 h to full strength on etched aluminum and 24 h to 1000 psi structural strength.",
-      "referenceForJoining": "Structural bonding of properly prepared metals and composites using the product-specific TDS process."
+      "referenceForJoining": "Structural bonding of properly prepared metals and composites using the product-specific TDS process.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld DP490 Black TDS, May 2026"
     },
     {
       "id": "3m-scotch-weld-ca8",
@@ -57862,7 +57963,9 @@
       "referenceCategory": "3M cyanoacrylate instant adhesives",
       "referenceSampleType": "One-part liquid instant adhesive",
       "referenceSampleConsistency": "One-part ethyl cyanoacrylate. TDS reports 5–40 s to handling strength; full-cure time is not populated from this sheet.",
-      "referenceForJoining": "Small-area bonding of compatible metals, plastics and rubbers; test substrate compatibility and joint design."
+      "referenceForJoining": "Small-area bonding of compatible metals, plastics and rubbers; test substrate compatibility and joint design.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA8 TDS, December 2024"
     },
     {
       "id": "3m-scotch-weld-sf100",
@@ -57904,7 +58007,9 @@
       "referenceCategory": "3M super-fast cyanoacrylate adhesives",
       "referenceSampleType": "Low-viscosity liquid instant adhesive",
       "referenceSampleConsistency": "Handling strength in 10 s, full cure in 24 h at 23 C, and gap fill 0.006 in. Typical viscosity 70–110 cP measured by cone-plate at 3000/s.",
-      "referenceForJoining": "High-speed bonding of compatible difficult-to-bond plastic/rubber materials and specified contaminated or acidic surfaces."
+      "referenceForJoining": "High-speed bonding of compatible difficult-to-bond plastic/rubber materials and specified contaminated or acidic surfaces.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+      "tdsDocumentLabel": "3M Scotch-Weld Super Fast Instant Adhesive SF100 TDS, September 2024"
     },
     {
       "id": "3m-vhb-4930f",
@@ -57957,7 +58062,9 @@
       "referenceCategory": "3M VHB adhesive tapes",
       "referenceSampleType": "White double-sided acrylic foam tape, 0.6 mm",
       "referenceSampleConsistency": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
-      "referenceForJoining": "Permanent bonding or sealing of compatible high-surface-energy substrates such as metals, glass, paints and some plastics."
+      "referenceForJoining": "Permanent bonding or sealing of compatible high-surface-energy substrates such as metals, glass, paints and some plastics.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+      "tdsDocumentLabel": "3M VHB Tape 4930F TDS, September 2024"
     },
     {
       "id": "3m-scotch-weld-dp460eg",
@@ -58001,7 +58108,9 @@
       ],
       "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
       "sourceLabel": "TDS",
-      "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/"
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP460EG Technical Data Sheet, January 2019; document 60-5005-0069-3."
     },
     {
       "id": "permabond-2050",
@@ -58538,7 +58647,9 @@
       "referenceCategory": "3M two-part epoxy adhesives",
       "referenceSampleType": "Two-part Duo-Pak epoxy",
       "referenceSampleConsistency": "Clear, rigid two-part epoxy; mix ratio 1:1 by volume.",
-      "referenceForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS"
+      "referenceForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+      "tdsDocumentLabel": "3M Scotch-Weld Epoxy Adhesive DP100 Clear TDS, September 2024 (supersedes August 2024)"
     },
     {
       "id": "gorilla-wood-glue",

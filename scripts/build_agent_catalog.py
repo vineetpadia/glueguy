@@ -314,7 +314,7 @@ def official_lead_record(entry: dict) -> dict:
     maker = normalize_space(entry.get("maker"))
     name = normalize_space(entry.get("name"))
     tds_documents = [doc for doc in entry.get("tdsDocuments", []) if doc.get("url")]
-    sds_documents = [doc for doc in entry.get("technicalDocuments", []) if doc.get("type") == "sds" and doc.get("url")]
+    sds_documents = [doc for doc in entry.get("technicalDocuments", []) if doc.get("documentType", doc.get("type", "")).upper() == "SDS" and doc.get("url")]
     lead_id = re.sub(r"[^a-z0-9]+", "-", f"{maker}-{name}".lower()).strip("-")
     return {
         "id": f"official-lead-{lead_id}",

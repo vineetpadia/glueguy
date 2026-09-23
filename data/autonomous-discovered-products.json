@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-23T06:54:44.436446+00:00",
+  "generated_at": "2026-09-23T07:54:58.575045+00:00",
   "stats": {
-    "manufacturersConfigured": 28,
-    "discoveredEntries": 799,
+    "manufacturersConfigured": 33,
+    "discoveredEntries": 850,
     "tdsDocumentsDiscovered": 60,
     "tdsDocumentsLinked": 85,
     "previousEntriesPreserved": 104,
-    "previousTdsEntriesPreserved": 8
+    "previousTdsEntriesPreserved": 8,
+    "technicalDocumentsLinked": 12
   },
   "manufacturers": [
     {
@@ -32,6 +33,23 @@
           "matchedUrls": 0,
           "discoveredEntries": 0,
           "error": "TimeoutError: Could not fetch 3M adhesives category with requests, urllib, or curl"
+        }
+      ]
+    },
+    {
+      "name": "Aleene's",
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ],
+      "discoveredEntries": 34,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Aleene's glue and adhesives catalog",
+          "url": "https://aleenes.com/collections/glue-adhesives",
+          "matchedUrls": 35,
+          "discoveredEntries": 34
         }
       ]
     },
@@ -71,6 +89,23 @@
       ]
     },
     {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ],
+      "discoveredEntries": 4,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "CEMEDINE global sitemap",
+          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
+          "matchedUrls": 9,
+          "discoveredEntries": 4
+        }
+      ]
+    },
+    {
       "name": "DAP",
       "priority": "high",
       "officialDomains": [
@@ -84,6 +119,23 @@
           "url": "https://www.dap.com/products/adhesives/",
           "matchedUrls": 2,
           "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 9,
+      "tdsDocumentsDiscovered": 11,
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives-sealants/e6000/",
+          "matchedUrls": 18,
+          "discoveredEntries": 9
         }
       ]
     },
@@ -183,6 +235,23 @@
       ]
     },
     {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ],
+      "discoveredEntries": 6,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        }
+      ]
+    },
+    {
       "name": "Krazy Glue",
       "priority": "high",
       "officialDomains": [
@@ -249,6 +318,24 @@
           "url": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
           "matchedUrls": 12,
           "discoveredEntries": 12
+        }
+      ]
+    },
+    {
+      "name": "Mr. Hobby",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "discoveredEntries": 6,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "GSI Creos Mr. Hobby cement and super glue catalog",
+          "url": "https://www.mr-hobby.com/en/products/category/10?genre=44",
+          "matchedUrls": 6,
+          "discoveredEntries": 6,
+          "manualVerification": "Official maker catalog and linked detail pages verified; includes glue/cement entries only."
         }
       ]
     },
@@ -349,6 +436,46 @@
       ]
     },
     {
+      "name": "Pritt",
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ],
+      "discoveredEntries": 3,
+      "tdsDocumentsDiscovered": 2,
+      "sources": [
+        {
+          "label": "Pritt official product sitemap",
+          "url": "https://www.prittworld.co.uk/en.sitemap-index.xml",
+          "matchedUrls": 10,
+          "discoveredEntries": 10
+        }
+      ]
+    },
+    {
+      "name": "Revell",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "discoveredEntries": 8,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Revell official model-building glue collection",
+          "url": "https://revell.com/en-eu/collections/model-building-glue",
+          "matchedUrls": 8,
+          "discoveredEntries": 8,
+          "manualVerification": "Official catalogue verified; automated fetch unavailable in current runtime."
+        }
+      ]
+    },
+    {
       "name": "Selleys",
       "priority": "high",
       "officialDomains": [
@@ -401,108 +528,60 @@
       ]
     },
     {
-      "name": "UHU",
-      "priority": "high",
-      "officialDomains": [
-        "uhu.com"
-      ],
-      "discoveredEntries": 11,
-      "tdsDocumentsDiscovered": 11,
-      "sources": [
-        {
-          "label": "UHU product range",
-          "url": "https://www.uhu.com/en-en/products",
-          "matchedUrls": 12,
-          "discoveredEntries": 11
-        }
-      ]
-    },
-    {
-      "name": "Aleene's",
+      "name": "Tamiya",
       "priority": "medium",
       "officialDomains": [
-        "aleenes.com"
+        "tamiya.com",
+        "tamiya.de"
       ],
-      "discoveredEntries": 34,
+      "discoveredEntries": 23,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Aleene's glue and adhesives catalog",
-          "url": "https://aleenes.com/collections/glue-adhesives",
-          "matchedUrls": 35,
-          "discoveredEntries": 34
+          "label": "Tamiya official cement and putty list",
+          "url": "https://www.tamiya.com/english/products/list.html?genre_item=e_501010",
+          "matchedUrls": 22,
+          "discoveredEntries": 22,
+          "additionalPages": 1,
+          "manualVerification": "Official catalogue pages 1 and 2 verified; product IDs and names taken from manufacturer category and linked product pages. Automated fetch unavailable in current runtime."
         }
       ]
     },
     {
-      "name": "CEMEDINE",
+      "name": "Testors",
       "priority": "medium",
       "officialDomains": [
-        "cemedine.co.jp"
+        "testors.com",
+        "rustoleum.com"
       ],
-      "discoveredEntries": 4,
+      "discoveredEntries": 13,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "CEMEDINE global sitemap",
-          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
-          "matchedUrls": 9,
-          "discoveredEntries": 4
+          "label": "Testors official cement adhesives catalog",
+          "url": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+          "matchedUrls": 13,
+          "discoveredEntries": 13,
+          "manualVerification": "Official page inspected; SKU and glue names taken from manufacturer catalog. Linked documents are SDS and are intentionally not counted as TDS."
         }
       ]
     },
     {
-      "name": "E6000",
+      "name": "Testors",
       "priority": "medium",
       "officialDomains": [
-        "eclecticproducts.com"
+        "testors.com",
+        "rustoleum.com"
       ],
-      "discoveredEntries": 9,
-      "tdsDocumentsDiscovered": 11,
-      "sources": [
-        {
-          "label": "E6000 adhesive category",
-          "url": "https://eclecticproducts.com/product-category/adhesives-sealants/e6000/",
-          "matchedUrls": 18,
-          "discoveredEntries": 9
-        }
-      ]
-    },
-    {
-      "name": "J-B Weld",
-      "priority": "medium",
-      "officialDomains": [
-        "jbweld.com"
-      ],
-      "discoveredEntries": 6,
+      "discoveredEntries": 13,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "J-B Weld products page",
-          "url": "https://www.jbweld.com/products",
-          "matchedUrls": 12,
-          "discoveredEntries": 12
-        }
-      ]
-    },
-    {
-      "name": "Pritt",
-      "priority": "medium",
-      "officialDomains": [
-        "prittworld.co.uk",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ],
-      "discoveredEntries": 3,
-      "tdsDocumentsDiscovered": 2,
-      "sources": [
-        {
-          "label": "Pritt official product sitemap",
-          "url": "https://www.prittworld.co.uk/en.sitemap-index.xml",
-          "matchedUrls": 10,
-          "discoveredEntries": 10
+          "label": "Testors official cement adhesives catalog",
+          "url": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+          "matchedUrls": 13,
+          "discoveredEntries": 13,
+          "manualVerification": "Official page inspected; SKU and glue names taken from manufacturer catalog. Linked documents are SDS and are intentionally not counted as TDS."
         }
       ]
     },
@@ -538,6 +617,41 @@
           "url": "https://www.titebond.com/all/glues",
           "matchedUrls": 60,
           "discoveredEntries": 40
+        }
+      ]
+    },
+    {
+      "name": "UHU",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ],
+      "discoveredEntries": 11,
+      "tdsDocumentsDiscovered": 11,
+      "sources": [
+        {
+          "label": "UHU product range",
+          "url": "https://www.uhu.com/en-en/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 11
+        }
+      ]
+    },
+    {
+      "name": "Weldbond",
+      "priority": "medium",
+      "officialDomains": [
+        "weldbond.com"
+      ],
+      "discoveredEntries": 1,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Weldbond official product FAQ",
+          "url": "https://www.weldbond.com/faq",
+          "matchedUrls": 1,
+          "discoveredEntries": 1,
+          "manualVerification": "Official FAQ identifies Weldbond as PVA glue and lists four package sizes; recorded as one formula listing."
         }
       ]
     }
@@ -2631,6 +2745,17 @@
     },
     {
       "maker": "Elmer's",
+      "name": "Elmer's All-Purpose Glue Stick, Large",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers%E2%80%99-all-purpose-glue-sticks-large/SP_2897847.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
       "name": "Elmer's Clear School Glue",
       "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-clear-liquid-school-glue/SP_2752211.html",
       "kind": "product",
@@ -2653,10 +2778,43 @@
     },
     {
       "maker": "Elmer's",
+      "name": "Elmer's Disappearing Purple School Glue Sticks, Large",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-disappearing-purple-school-glue-sticks-large/SAP_E578.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
       "name": "Elmer's Extra Strength Glue Stick",
       "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks/SP_2752230.html",
       "kind": "product",
       "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Extra Strength Glue Sticks, Jumbo",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks-jumbo/SP_2897845.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glow-in-the-Dark Liquid Glue",
+      "officialUrl": "https://www.elmers.com/glue/specialty-glue/elmer%E2%80%99s-glow-in-the-dark-liquid-glue/SP_2752229.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
       "priority": "high",
       "officialDomains": [
         "elmers.com"
@@ -2679,6 +2837,17 @@
       "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
       "kind": "product",
       "sourceLabel": "Elmer's product page",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glue Stick Variety Pack, 30 Count",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-glue-stick-variety-pack-30-count/SP_4844943.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
       "priority": "high",
       "officialDomains": [
         "elmers.com"
@@ -4226,6 +4395,84 @@
         "plaidonline.com",
         "help.plaidonline.com"
       ]
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Cement",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/359",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MC124",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Cement Deluxe",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/360",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MC127",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Cement S",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/361",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MC129",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Cement SP",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/362",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MC131",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Cement SPB Black",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/363",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MC132",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Mr. Hobby",
+      "name": "Mr. Just Brush-On Instant Glue",
+      "officialUrl": "https://www.mr-hobby.com/en/products/detail/364",
+      "kind": "product",
+      "sourceLabel": "GSI Creos Mr. Hobby cement and super glue catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "productCode": "MJ197",
+      "tdsDocuments": []
     },
     {
       "maker": "Pattex",
@@ -7334,8 +7581,8 @@
     },
     {
       "maker": "Pidilite",
-      "name": "Fevistik & Fevicol MR",
-      "officialUrl": "https://www.pidilite.com/consumer-brands/fevistik-and-fevicolmr",
+      "name": "Araldite",
+      "officialUrl": "https://www.pidilite.com/consumer-brands/araldite",
       "kind": "family",
       "sourceLabel": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
       "tdsDocuments": [],
@@ -7358,8 +7605,8 @@
     },
     {
       "maker": "Pidilite",
-      "name": "Araldite",
-      "officialUrl": "https://www.pidilite.com/consumer-brands/araldite",
+      "name": "Fevistik & Fevicol MR",
+      "officialUrl": "https://www.pidilite.com/consumer-brands/fevistik-and-fevicolmr",
       "kind": "family",
       "sourceLabel": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
       "tdsDocuments": [],
@@ -7425,6 +7672,110 @@
         "datasheets.tdx.henkel.com",
         "dm.henkel-dam.com"
       ]
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Clear Glue for Clear Parts - 20g",
+      "officialUrl": "https://revell.com/en-eu/products/396099090-contacta-clear-20g",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Glue Gel - 13g",
+      "officialUrl": "https://revell.com/en-eu/products/396029090-contacta",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Liquid Glue with Brush - 18g",
+      "officialUrl": "https://revell.com/en-eu/products/396019090-contacta-liquid",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Liquid Glue with Brush blister - 18g",
+      "officialUrl": "https://revell.com/en-eu/products/296019090-contacta-liquid-glue-w-brush-18g-blister",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Liquid Special Glue - 30g",
+      "officialUrl": "https://revell.com/en-eu/products/contacta-liquid-special-glue-bottle-30-g",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Professional Extra Thin Glue - 30ml",
+      "officialUrl": "https://revell.com/en-eu/products/396009090-contacta-professional-extra-thin",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Professional Mini Glue - 12.5g",
+      "officialUrl": "https://revell.com/en-eu/products/396089090-contacta-professional-mini",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Revell",
+      "name": "Revell Contacta Quick CA Glue - 5g",
+      "officialUrl": "https://revell.com/en-eu/products/396139090-contacta-quick-5g",
+      "kind": "product",
+      "sourceLabel": "Revell official model-building glue collection",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "tdsDocuments": []
     },
     {
       "maker": "Selleys",
@@ -8128,6 +8479,571 @@
       "priority": "high",
       "officialDomains": [
         "starbond.com"
+      ]
+    },
+    {
+      "maker": "Tamiya",
+      "name": "CA Cement for Rubber Tires (Low Viscosity)",
+      "officialUrl": "https://www.tamiya.com/english/products/54511/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "RC Model Polycarbonate Body Reinforcing Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87190/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement Accelerator",
+      "officialUrl": "https://www.tamiya.com/english/products/87138/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement (Easy Sanding)",
+      "officialUrl": "https://www.tamiya.com/english/products/87187/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement (Gel Type)",
+      "officialUrl": "https://www.tamiya.com/english/products/87091/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement & Primer Set",
+      "officialUrl": "https://www.tamiya.com/english/products/87211/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement (Quick Type)",
+      "officialUrl": "https://www.tamiya.com/english/products/87062/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement (Quick Type) II",
+      "officialUrl": "https://www.tamiya.com/english/products/87237/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya CA Cement (Strong)",
+      "officialUrl": "https://www.tamiya.com/english/products/87139/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87003/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Cement for ABS",
+      "officialUrl": "https://www.tamiya.com/english/products/87137/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Cement (Limonene Type)",
+      "officialUrl": "https://www.tamiya.com/english/products/87038/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Cement (Low Odor)",
+      "officialUrl": "https://www.tamiya.com/english/products/87238/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Craft Bond",
+      "officialUrl": "https://www.tamiya.com/english/products/87078/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Decal Adhesive",
+      "officialUrl": "https://www.tamiya.com/english/products/87176/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Decal Adhesive (Softener Type)",
+      "officialUrl": "https://www.tamiya.com/english/products/87193/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Epoxy Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87100/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Extra Thin Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87012/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Extra Thin Cement (Low Odor)",
+      "officialUrl": "https://www.tamiya.com/english/products/87236/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Extra Thin Cement (Quick-Setting)",
+      "officialUrl": "https://www.tamiya.com/english/products/87182/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Limonene Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87113/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Limonene Cement (Extra Thin)",
+      "officialUrl": "https://www.tamiya.com/english/products/87134/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Multipurpose Cement (Clear)",
+      "officialUrl": "https://www.tamiya.com/english/products/87188/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Testors",
+      "name": "5/8 oz. Cement for Plastics",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3501X",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3501X.PDF",
+          "label": "Testors 3501X Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Cement for Metal and Wood",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3505X",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3505X.PDF",
+          "label": "Testors 3505X Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Cement for Metal and Wood carded",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "281221",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/281221.pdf",
+          "label": "Testors 281221 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Cement for Plastics (2-pack)",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "290278",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Testors",
+      "name": "Cement for Plastics carded",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "281219",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/281219.pdf",
+          "label": "Testors 281219 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Cement for Wood Models",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "328699",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/328699.pdf",
+          "label": "Testors 328699 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Clear Parts Cement & Window Maker",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "281217",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/281217.pdf",
+          "label": "Testors 281217 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Extra Fast-Drying Wood Cement",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3503X",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3503X.PDF",
+          "label": "Testors 3503X Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Fast-Drying Liquid Cement with Precision Applicator",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "281216",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/281216.pdf",
+          "label": "Testors 281216 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Liquid Cement for Plastics",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3502XT",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3502XT.PDF",
+          "label": "Testors 3502XT Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Liquid Cement for Plastics with Precision Applicator",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3527C",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3527C.PDF",
+          "label": "Testors 3527C Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Non-Toxic Cement carded",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "281220",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/281220.pdf",
+          "label": "Testors 281220 Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Testors",
+      "name": "Non-Toxic Cement for Plastics",
+      "officialUrl": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+      "kind": "product",
+      "sourceLabel": "Testors official cement adhesives catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "productCode": "3521X",
+      "tdsDocuments": [],
+      "technicalDocuments": [
+        {
+          "url": "https://www.rustoleum.com/MSDS/ENGLISH/3521X.PDF",
+          "label": "Testors 3521X Safety Data Sheet (English)",
+          "documentType": "SDS"
+        }
       ]
     },
     {
@@ -10419,59 +11335,17 @@
       ]
     },
     {
-      "maker": "Elmer's",
-      "name": "Elmer's All-Purpose Glue Stick, Large",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers%E2%80%99-all-purpose-glue-sticks-large/SP_2897847.html",
+      "maker": "Weldbond",
+      "name": "Weldbond Universal Adhesive",
+      "officialUrl": "https://www.weldbond.com/faq",
       "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
-      "priority": "high",
+      "sourceLabel": "Weldbond official product FAQ",
+      "priority": "medium",
       "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Disappearing Purple School Glue Sticks, Large",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-disappearing-purple-school-glue-sticks-large/SAP_E578.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Extra Strength Glue Sticks, Jumbo",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks-jumbo/SP_2897845.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Glow-in-the-Dark Liquid Glue",
-      "officialUrl": "https://www.elmers.com/glue/specialty-glue/elmer%E2%80%99s-glow-in-the-dark-liquid-glue/SP_2752229.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Glue Stick Variety Pack, 30 Count",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-glue-stick-variety-pack-30-count/SP_4844943.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
+        "weldbond.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official FAQ confirms PVA formulation and 60 ml, 160 ml, 420 ml, and 3 L package sizes."
     }
   ]
 }

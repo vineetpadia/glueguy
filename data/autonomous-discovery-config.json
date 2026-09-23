@@ -886,6 +886,35 @@
       ]
     },
     {
+      "name": "Mr. Hobby",
+      "priority": "medium",
+      "officialDomains": [
+        "mr-hobby.com"
+      ],
+      "sources": [
+        {
+          "label": "GSI Creos Mr. Hobby cement and super glue catalog",
+          "url": "https://www.mr-hobby.com/en/products/category/10?genre=44",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 60,
+          "includeRegex": [
+            "/en/products/detail/"
+          ],
+          "nameRequireRegex": [
+            "Cement|Glue|Instant"
+          ],
+          "nameExcludeRegex": [
+            "Putty|Nozzle|Brush Set"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 60
+        }
+      ]
+    },
+    {
       "name": "Pattex",
       "priority": "high",
       "officialDomains": [
@@ -1033,6 +1062,120 @@
           "extractTdsLinks": true,
           "tdsMaxPages": 40,
           "requestTimeout": 20
+        }
+      ]
+    },
+    {
+      "name": "Weldbond",
+      "priority": "medium",
+      "officialDomains": [
+        "weldbond.com"
+      ],
+      "sources": [
+        {
+          "label": "Weldbond official FAQ",
+          "url": "https://www.weldbond.com/faq",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 10,
+          "includeRegex": [
+            "/faq"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 1
+        }
+      ]
+    },
+    {
+      "name": "Testors",
+      "priority": "medium",
+      "officialDomains": [
+        "testors.com",
+        "rustoleum.com"
+      ],
+      "sources": [
+        {
+          "label": "Testors official cement adhesives catalog",
+          "url": "https://www.testors.com/product-catalog/testors-brands/testors/adhesive/cement",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/product-catalog/testors-brands/testors/adhesive/"
+          ],
+          "nameRequireRegex": [
+            "Cement|Glue|Adhesive"
+          ],
+          "nameExcludeRegex": [
+            "Putty|Gluing Tips|Activator"
+          ],
+          "extractTdsLinks": true,
+          "includeSds": true,
+          "tdsMaxPages": 100
+        }
+      ]
+    },
+    {
+      "name": "Revell",
+      "priority": "medium",
+      "officialDomains": [
+        "revell.com",
+        "catalog.revell.de"
+      ],
+      "sources": [
+        {
+          "label": "Revell official model-building glue collection",
+          "url": "https://revell.com/en-eu/collections/model-building-glue",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 60,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Contacta|Adhesive"
+          ],
+          "nameExcludeRegex": [
+            "Decal|Softener|Filler|Putty|Color Stop|Starter Set"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 60
+        }
+      ]
+    },
+    {
+      "name": "Tamiya",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "sources": [
+        {
+          "label": "Tamiya official cement and putty list",
+          "url": "https://www.tamiya.com/english/products/list.html?genre_item=e_501010",
+          "additionalUrls": [
+            "https://www.tamiya.com/english/products/list.html?absolutepage=2&cmdarticlesearch=1&field_sort=d&genre_item=e_501010"
+          ],
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "tamiyaItemSlug",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/english/products/[0-9]+/index\\.html"
+          ],
+          "nameRequireRegex": [
+            "CEMENT|ADHESIVE|DECAL|CA CEMENT"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 80
         }
       ]
     }

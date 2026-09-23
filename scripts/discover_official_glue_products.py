@@ -167,6 +167,29 @@ def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None
     return results
 
 
+def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | None = None, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
+    """Find manufacturer-hosted TDS and SDS links while retaining document type."""
+    page = fetch_text(product_url, timeout=timeout, transport=transport)
+    results = []
+    seen = set()
+    domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
+    for record in collect_html_link_records_from_text(product_url, page):
+        label = normalize_space(record.get("label", ""))
+        url = record["url"].split("#", 1)[0]
+        host = (urlparse(url).hostname or "").lower()
+        if domains and not any(host == domain or host.endswith("." + domain) for domain in domains):
+            continue
+        searchable = f"{label} {url}".lower()
+        doc_type = "SDS" if re.search(r"\bsds\b|safety data|msds", searchable) else "TDS" if re.search(r"technical data|technical documentation|\btds\b", searchable) else None
+        if not doc_type or not (url.lower().split("?", 1)[0].endswith(".pdf") or "getmedia/" in url.lower() or "document" in url.lower()):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        results.append({"url": url, "label": label or f"{doc_type} document", "documentType": doc_type})
+    return results
+
+
 def extract_tds_catalog_links(source: dict, allowed_domains: list[str], manufacturer_name: str) -> list[dict]:
     """Discover TDS PDFs from explicitly configured official document-library pages.
 
@@ -317,6 +340,9 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
             else:
                 titled.append(word.capitalize())
         return normalize_space(" ".join(titled))
+    if strategy == "tamiyaItemSlug":
+        match = re.search(r"/products/(\d+)/index\.html", url, re.I)
+        return f"Tamiya item {match.group(1)}" if match else None
     return None
 
 
@@ -562,13 +588,17 @@ def discover() -> dict:
                     )
                     continue
                 if source.get("sourceType") == "html" and source.get("nameStrategy") == "linkText":
-                    records = collect_html_link_records(
-                        source["url"],
-                        timeout=timeout,
-                        transport=transport,
-                        stream=stream,
-                        extra_headers=extra_headers,
-                    )
+                    records = []
+                    for page_url in [source["url"], *source.get("additionalUrls", [])]:
+                        records.extend(
+                            collect_html_link_records(
+                                page_url,
+                                timeout=timeout,
+                                transport=transport,
+                                stream=stream,
+                                extra_headers=extra_headers,
+                            )
+                        )
                     filtered_records = [
                         record
                         for record in records
@@ -664,12 +694,17 @@ def discover() -> dict:
             max_pages = int(tds_source.get("tdsMaxPages", 20))
             for entry in deduped[:max_pages]:
                 try:
-                    entry["tdsDocuments"] = extract_tds_links(
+                    link_extractor = extract_tds_and_sds_links if tds_source.get("includeSds") else extract_tds_links
+                    found_documents = link_extractor(
                         entry["officialUrl"],
                         allowed_domains=manufacturer.get("officialDomains", []),
                         timeout=tds_source.get("requestTimeout", TIMEOUT),
                         transport=tds_source.get("transport", "requests"),
                     )
+                    entry["tdsDocuments"] = [document for document in found_documents if document.get("documentType") != "SDS"]
+                    safety_documents = [document for document in found_documents if document.get("documentType") == "SDS"]
+                    if safety_documents:
+                        entry["technicalDocuments"] = safety_documents
                     tds_documents_found += len(entry["tdsDocuments"])
                 except Exception as exc:  # noqa: BLE001
                     entry["tdsDiscoveryError"] = f"{type(exc).__name__}: {exc}"
@@ -749,6 +784,7 @@ def discover() -> dict:
             "discoveredEntries": len(discovered),
             "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
             "tdsDocumentsLinked": sum(len(entry.get("tdsDocuments", [])) for entry in discovered),
+            "technicalDocumentsLinked": sum(len(entry.get("technicalDocuments", [])) for entry in discovered),
             "previousEntriesPreserved": preserved_previous_entries,
             "previousTdsEntriesPreserved": preserved_tds_entries,
         },

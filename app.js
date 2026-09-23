@@ -5695,12 +5695,16 @@ function scoreProduct(product, filters) {
     reasons.push("Listed for " + materialLabel(selectedMaterials[0]) + " to " + materialLabel(selectedMaterials[1]) + ".");
   }
 
+  const serviceBounds = productServiceTemperatureBounds(product);
   if (!temperatureIsUnverified && temperaturePenalty === 0) {
-    reasons.push("Product record lists " + formatTemperature(filters.coldest) + " to " + formatTemperature(filters.hottest) + " service coverage.");
+    reasons.push(
+      "Reported service range is " +
+      formatTemperatureRange(serviceBounds.min, serviceBounds.max) +
+      " and covers the requested window.",
+    );
   } else if (!temperatureIsUnverified) {
     warnings.push("Product-record temperature range does not cover the full requested window.");
   }
-  const serviceBounds = productServiceTemperatureBounds(product);
   if (
     !temperatureIsUnverified &&
     filters.hottest <= serviceBounds.max &&

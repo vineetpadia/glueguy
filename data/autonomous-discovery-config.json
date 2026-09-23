@@ -771,9 +771,9 @@
       "sources": [
         {
           "label": "Fevicol official product sitemap",
-          "url": "https://fevicol.in/wp-sitemap.xml",
+          "url": "https://fevicol.in/wp-sitemap-posts-product-1.xml",
           "kind": "product",
-          "nameStrategy": "title",
+          "nameStrategy": "slugTitleCase",
           "includeRegex": [
             "/product/"
           ],

@@ -5160,8 +5160,8 @@ function collectFilters() {
     substrateA: formData.get("substrateA") || "any",
     substrateB: formData.get("substrateB") || "any",
     application: formData.get("application") || "any",
-    coldest: Number(formData.get("coldest") || -20),
-    hottest: Number(formData.get("hottest") || 90),
+    coldest: readTemperatureInput(formData.get("coldest")),
+    hottest: readTemperatureInput(formData.get("hottest")),
     stress: appState.stress,
     viscosity: formData.getAll("viscosity"),
     environment: formData.getAll("environment"),
@@ -5179,6 +5179,39 @@ function collectFilters() {
     clarity: formData.get("clarity") || "any",
     minLapShear: Number(formData.get("minLapShear") || 0),
   };
+}
+
+
+function readTemperatureInput(value) {
+  if (typeof value !== "string" || value.trim() === "") return Number.NaN;
+  const temperature = Number(value);
+  return Number.isFinite(temperature) ? temperature : Number.NaN;
+}
+
+function validateTemperatureWindow(filters) {
+  const errors = [];
+  if (!Number.isFinite(filters.coldest)) errors.push("Enter a minimum service temperature.");
+  if (!Number.isFinite(filters.hottest)) errors.push("Enter a maximum service temperature.");
+  if (
+    Number.isFinite(filters.coldest) &&
+    Number.isFinite(filters.hottest) &&
+    filters.hottest < filters.coldest
+  ) {
+    errors.push("Maximum service temperature must be greater than or equal to the minimum.");
+  }
+  return errors;
+}
+
+function showTemperatureValidation(errors) {
+  const message = document.querySelector("#temperature-range-error");
+  const inputs = [
+    filterForm.elements.coldest,
+    filterForm.elements.hottest,
+  ];
+  const invalid = errors.length > 0;
+  message?.classList.toggle("hidden", !invalid);
+  if (message) message.textContent = errors.join(" ");
+  inputs.forEach((input) => input?.setAttribute("aria-invalid", String(invalid)));
 }
 
 function setStressMode(value) {
@@ -6006,6 +6039,17 @@ function openProductDetail(product, match) {
 function renderResults() {
   appState.renderFrame = 0;
   const filters = collectFilters();
+  const inputErrors = validateTemperatureWindow(filters);
+  showTemperatureValidation(inputErrors);
+  if (inputErrors.length) {
+    resultsTitle.textContent = "Check joint conditions";
+    resultsCount.textContent = "Not ranked";
+    resultsContext.textContent = "Correct the service temperature range to see candidates.";
+    resultsBody.replaceChildren();
+    resultsEmpty.classList.add("hidden");
+    renderResultsPagination(0, 1);
+    return;
+  }
   const candidates = filters.savedOnly
     ? GLUES.filter((glue) => appState.savedIds.includes(glue.id))
     : GLUES;

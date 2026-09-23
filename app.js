@@ -5239,6 +5239,75 @@ function renderHeroStats() {
       : `${GLUES.length} products`;
 }
 
+function applySharedSearchFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has("share")) return;
+
+  for (const [name, rawValue] of params.entries()) {
+    if (["share", "stress", "sort", "q", "page"].includes(name)) continue;
+    const controls = Array.from(filterForm.elements).filter((control) => control.name === name);
+    if (!controls.length || name === "savedOnly") continue;
+
+    if (controls[0].type === "checkbox") {
+      controls.forEach((control) => {
+        control.checked = params.getAll(name).includes(control.value);
+      });
+    } else if (controls[0].tagName === "SELECT") {
+      if (Array.from(controls[0].options).some((option) => option.value === rawValue)) {
+        controls[0].value = rawValue;
+      }
+    } else if (controls[0].type === "number") {
+      if (rawValue.trim() !== "" && Number.isFinite(Number(rawValue))) controls[0].value = rawValue;
+    } else {
+      controls[0].value = rawValue;
+    }
+  }
+
+  const stress = params.get("stress");
+  if (["shear", "peel", "impact"].includes(stress)) setStressMode(stress);
+  const sort = params.get("sort");
+  if (["fit", "evidence", "name", "price"].includes(sort)) resultsSort.value = sort;
+  resultsSearch.value = params.get("q") ?? "";
+}
+
+function buildSharedSearchUrl() {
+  const url = new URL(window.location.href);
+  url.search = "";
+  const params = new URLSearchParams();
+  params.set("share", "1");
+
+  for (const [name, value] of new FormData(filterForm).entries()) {
+    if (name !== "savedOnly") params.append(name, value);
+  }
+  params.set("stress", appState.stress);
+  params.set("sort", resultsSort.value || "fit");
+  if (resultsSearch.value.trim()) params.set("q", resultsSearch.value.trim());
+  url.search = params.toString();
+  return url;
+}
+
+function syncSharedSearchUrl() {
+  const url = buildSharedSearchUrl();
+  window.history.replaceState(null, "", url);
+  return url;
+}
+
+async function copySharedSearchLink() {
+  const button = document.querySelector("#share-search");
+  const status = document.querySelector("#share-search-status");
+  const url = syncSharedSearchUrl();
+  try {
+    await navigator.clipboard.writeText(url.href);
+    if (button) {
+      button.textContent = "Copied";
+      window.setTimeout(() => { button.textContent = "Copy search link"; }, 1800);
+    }
+    if (status) status.textContent = "Search link copied. Anyone with it can open these conditions.";
+  } catch {
+    if (status) status.textContent = "Copy was unavailable. The address bar now contains your shareable search link.";
+  }
+}
+
 function collectFilters() {
   const formData = new FormData(filterForm);
   return {
@@ -6655,6 +6724,7 @@ function renderSavedGlues(matches, filters) {
 }
 
 function attachEvents() {
+  document.querySelector("#share-search")?.addEventListener("click", copySharedSearchLink);
   document.querySelector("#catalog-toggle")?.addEventListener("click", () => setCatalogView(true));
   document.querySelector("#catalog-back")?.addEventListener("click", () => setCatalogView(false));
   productDetailClose?.addEventListener("click", () => {
@@ -6667,10 +6737,10 @@ function attachEvents() {
       else productDetailDialog.removeAttribute("open");
     }
   });
-  filterForm.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });
-  filterForm.addEventListener("change", () => { appState.resultPage = 1; scheduleRenderResults(); });
-  resultsSearch?.addEventListener("input", () => { appState.resultPage = 1; scheduleRenderResults(); });
-  resultsSort?.addEventListener("change", () => { appState.resultPage = 1; scheduleRenderResults(); });
+  filterForm.addEventListener("input", () => { appState.resultPage = 1; syncSharedSearchUrl(); scheduleRenderResults(); });
+  filterForm.addEventListener("change", () => { appState.resultPage = 1; syncSharedSearchUrl(); scheduleRenderResults(); });
+  resultsSearch?.addEventListener("input", () => { appState.resultPage = 1; syncSharedSearchUrl(); scheduleRenderResults(); });
+  resultsSort?.addEventListener("change", () => { appState.resultPage = 1; syncSharedSearchUrl(); scheduleRenderResults(); });
   resultsPagination?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-page]");
     if (!button) return;
@@ -6767,6 +6837,7 @@ function init() {
   populateReferenceFilters();
   renderReferenceLibrary();
   resetAllFilters();
+  applySharedSearchFromUrl();
   attachEvents();
   renderHeroStats();
   scheduleRenderResults();

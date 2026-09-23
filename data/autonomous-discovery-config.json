@@ -82,6 +82,27 @@
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 60
+        },
+        {
+          "label": "3M consumer Scotch and household adhesives",
+          "url": "https://www.3m.com/3M/en_US/p/c/adhesives/i/consumer/home-improvement/adhesives/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/3M/en_US/p/d(?:c)?/"
+          ],
+          "nameRequireRegex": [
+            "adhesive|glue|cement|super 77|scotch super glue"
+          ],
+          "nameExcludeRegex": [
+            "tape|sealant|repair paste"
+          ],
+          "extractTdsLinks": true,
+          "includeSds": true,
+          "tdsMaxPages": 60
         }
       ]
     },
@@ -567,7 +588,97 @@
             "repair kit"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 80
+          "tdsMaxPages": 22,
+          "manualProducts": [
+            {
+              "name": "Original Gorilla Glue",
+              "officialUrl": "https://gorillatough.com/product/original-gorilla-glue"
+            },
+            {
+              "name": "Gorilla Wood Glue",
+              "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue"
+            },
+            {
+              "name": "Gorilla Wood Glue Ultimate",
+              "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue-ultimate"
+            },
+            {
+              "name": "Gorilla Dries Clear Wood Glue",
+              "officialUrl": "https://gorillatough.com/product/gorilla-dries-clear-wood-glue"
+            },
+            {
+              "name": "Gorilla Super Glue",
+              "officialUrl": "https://gorillatough.com/product/gorilla-super-glue"
+            },
+            {
+              "name": "Gorilla Super Glue Gel",
+              "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-gel"
+            },
+            {
+              "name": "Gorilla Epoxy",
+              "officialUrl": "https://gorillatough.com/product/gorilla-epoxy"
+            },
+            {
+              "name": "Gorilla Epoxy Ultimate",
+              "officialUrl": "https://gorillatough.com/product/gorilla-epoxy-ultimate"
+            },
+            {
+              "name": "Gorilla Heavy Duty Construction Adhesive",
+              "officialUrl": "https://gorillatough.com/product/gorilla-heavy-duty-construction-adhesive"
+            },
+            {
+              "name": "Gorilla Construction Adhesive Ultimate",
+              "officialUrl": "https://gorillatough.com/product/gorilla-construction-adhesive-ultimate"
+            },
+            {
+              "name": "Gorilla Max Strength Construction Adhesive Clear",
+              "officialUrl": "https://gorillatough.com/product/gorilla-max-strength-construction-adhesive-clear"
+            },
+            {
+              "name": "Gorilla Landscape Construction Adhesive",
+              "officialUrl": "https://gorillatough.com/product/landscape-construction-adhesive"
+            },
+            {
+              "name": "Gorilla Spray Adhesive",
+              "officialUrl": "https://gorillatough.com/product/gorilla-spray-adhesive"
+            },
+            {
+              "name": "Gorilla Fabric Glue",
+              "officialUrl": "https://gorillatough.com/product/gorilla-fabric-glue"
+            },
+            {
+              "name": "Clear Gorilla Glue",
+              "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue"
+            },
+            {
+              "name": "Clear Gorilla Glue Gel",
+              "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue-gel"
+            },
+            {
+              "name": "Gorilla Clear Grip",
+              "officialUrl": "https://gorillatough.com/product/gorilla-clear-grip"
+            },
+            {
+              "name": "Gorilla Rubber Cement",
+              "officialUrl": "https://gorillatough.com/product/gorilla-rubber-cement"
+            },
+            {
+              "name": "Gorilla Spray Adhesive Ultimate",
+              "officialUrl": "https://gorillatough.com/product/gorilla-spray-adhesive-ultimate"
+            },
+            {
+              "name": "Gorilla Clear Glue",
+              "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue"
+            },
+            {
+              "name": "Gorilla Clear Glue Micro Precise",
+              "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue-micro-precise"
+            },
+            {
+              "name": "Gorilla Permanent Adhesive Dots",
+              "officialUrl": "https://gorillatough.com/product/gorilla-permanent-adhesive-dots"
+            }
+          ]
         }
       ]
     },
@@ -658,8 +769,79 @@
           "nameExcludeRegex": [
             "caulk|sealant|filler|spackling|foam|tape|primer"
           ],
-          "extractTdsLinks": true,
-          "tdsMaxPages": 100
+          "extractTdsLinks": false,
+          "tdsMaxPages": 100,
+          "manualProducts": [
+            {
+              "name": "RapidFuse All Purpose Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-all-purpose-adhesive"
+            },
+            {
+              "name": "RapidFuse Gel Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive"
+            },
+            {
+              "name": "RapidFuse Super Glue",
+              "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue"
+            },
+            {
+              "name": "Ultra Clear All Purpose Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive"
+            },
+            {
+              "name": "Weldwood Original Wood Glue",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-wood-glue"
+            },
+            {
+              "name": "Weldwood Original Contact Cement",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement"
+            },
+            {
+              "name": "Weldwood Nonflammable Contact Cement",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement"
+            },
+            {
+              "name": "Weldwood Gel Formula Contact Cement",
+              "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement"
+            },
+            {
+              "name": "Weldwood Multi-Purpose Floor Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-floor-adhesive"
+            },
+            {
+              "name": "Weldwood Floor Tile Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-floor-tile-adhesive"
+            },
+            {
+              "name": "Weldwood Multi-Purpose Ceramic Tile Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-ceramic-tile-adhesive"
+            },
+            {
+              "name": "Weldwood Original Contact Cement Spray Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive"
+            },
+            {
+              "name": "Weldwood Multi-Purpose Spray Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-spray-adhesive"
+            },
+            {
+              "name": "Heavy Duty Construction Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/heavy-duty-construction-adhesive"
+            },
+            {
+              "name": "All Purpose Construction Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/all-purpose-construction-adhesive"
+            },
+            {
+              "name": "4000 Subfloor Construction Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/4000-subfloor-construction-adhesive"
+            },
+            {
+              "name": "Weldwood FRP Adhesive",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-frp-adhesive"
+            }
+          ],
+          "includeSds": true
         }
       ]
     },
@@ -704,7 +886,6 @@
           "label": "Liquid Nails product assortment",
           "url": "https://www.ppgpaints.com/liquid-nails/all-products",
           "sourceType": "html",
-          "extractor": "liquid_nails_catalog",
           "kind": "product",
           "requestTimeout": 20,
           "maxUrls": 150,
@@ -722,7 +903,119 @@
             "accessory"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 150
+          "tdsMaxPages": 27,
+          "manualProducts": [
+            {
+              "name": "FUZE*IT MAX Interior and Exterior All-Purpose Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive"
+            },
+            {
+              "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive"
+            },
+            {
+              "name": "Flex 5x Interior/Exterior Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-flex-5x-interior-exterior-construction-adhesive"
+            },
+            {
+              "name": "Extreme Heavy Duty Interior and Exterior Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive"
+            },
+            {
+              "name": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---latex-based"
+            },
+            {
+              "name": "Heavy Duty Interior and Exterior Construction Adhesive - Solvent Based",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based"
+            },
+            {
+              "name": "Subfloor and Deck Construction Adhesive - Latex Based",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-subfloor-deck-interior-exterior-construction-adhesive---latex-based"
+            },
+            {
+              "name": "Subfloor and Deck Construction Adhesive - Solvent Based",
+              "officialUrl": "https://www.ppgpaints.com/products/adhesives-sealants/liquid-nails-subfloor-and-deck-construction-adhesive-ln-602"
+            },
+            {
+              "name": "Projects Interior Construction Adhesive - Solvent Based",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-projects-interior-construction-adhesive---solvent-based"
+            },
+            {
+              "name": "Projects Interior Construction Adhesive - Latex Based",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-projects-interior-construction-adhesive---latex-based"
+            },
+            {
+              "name": "Landscape Block and Stone Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive"
+            },
+            {
+              "name": "Paneling and Molding Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-paneling-and-molding-construction-adhesive"
+            },
+            {
+              "name": "Tub Surround and Shower Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-tub-surround-and-shower-adhesive"
+            },
+            {
+              "name": "Drywall Advanced Interior Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-drywall-advanced-interior-construction-adhesive"
+            },
+            {
+              "name": "Small Projects Interior Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-interior-construction-adhesive"
+            },
+            {
+              "name": "Clear Seal Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-clear-seal-construction-adhesive"
+            },
+            {
+              "name": "Liquid Nails Landscape Block & Stone Exterior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-stone-exterior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Paneling Wood & Foam Molding Interior Adhesive - Latex",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-paneling-wood-foam-molding-interior-adhesive---latex"
+            },
+            {
+              "name": "Liquid Nails Paneling & Molding Interior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-paneling-molding-interior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Projects & Foamboard Interior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-projects-foamboard-interior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Insulation Panel & Drywall Interior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-insulation-panel-drywall-interior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Cove Base & Stair Tread Interior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-cove-base-stair-tread-interior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Manufactured Housing Indoor & Outdoor Construction Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-manufactured-housing-indoor-outdoor-construction-adhesive"
+            },
+            {
+              "name": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-repairs-interior-exterior-adhesive"
+            },
+            {
+              "name": "Liquid Nails FRP Fiberglass Reinforced Plastic Panel Interior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-frp-fiberglass-reinforced-plastic-panel-interior-adhesive"
+            },
+            {
+              "name": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-adhesive-caulk-in-one-interior-exterior"
+            },
+            {
+              "name": "Liquid Nails PERFECT GLUE Interior & Exterior Adhesive",
+              "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-perfect-glue-interior-exterior-adhesive"
+            }
+          ],
+          "includeSds": true,
+          "nameStrategy": "linkText"
         }
       ]
     },

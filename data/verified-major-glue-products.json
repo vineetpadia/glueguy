@@ -6,7 +6,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf", "label": "E6000 Fabri-Fuse Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf",
+          "label": "E6000 Fabri-Fuse Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -14,7 +19,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-fray-lock/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf", "label": "E6000 Fray Lock Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf",
+          "label": "E6000 Fray Lock Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -22,7 +32,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-jewelry-bead/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-jewelry-and-bead-us-ca-eu-me-au-nz-mex.pdf", "label": "E6000 Jewelry & Bead Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-jewelry-and-bead-us-ca-eu-me-au-nz-mex.pdf",
+          "label": "E6000 Jewelry & Bead Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -30,7 +45,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/tds-e6000-sprayadhesive-us-ca-eu-me-au-nz.pdf", "label": "E6000 Spray Adhesive Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-sprayadhesive-us-ca-eu-me-au-nz.pdf",
+          "label": "E6000 Spray Adhesive Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -38,7 +58,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-premium/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+          "label": "E6000 Premium Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -46,7 +71,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-premium-with-precision-tips/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+          "label": "E6000 Premium Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -54,7 +84,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-premium-automotive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+          "label": "E6000 Premium Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -62,7 +97,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-premium-jewelry-and-bead/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/", "label": "E6000 Premium Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/",
+          "label": "E6000 Premium Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -70,7 +110,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf", "label": "E6000 Industrial Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+          "label": "E6000 Industrial Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -78,7 +123,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf", "label": "E6100 Industrial Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
+          "label": "E6100 Industrial Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -86,7 +136,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf", "label": "E6800 Industrial Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
+          "label": "E6800 Industrial Technical Data Sheet"
+        }
+      ]
     },
     {
       "maker": "E6000",
@@ -94,7 +149,77 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-precision-tip-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 official product page",
-      "tdsDocuments": [{"url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf", "label": "E6000 Industrial Technical Data Sheet"}]
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+          "label": "E6000 Industrial Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "RapidFuse All Purpose Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-all-purpose-adhesive",
+      "kind": "product",
+      "sourceLabel": "DAP official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
+          "label": "RapidFuse All Purpose Adhesive Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "RapidFuse Gel Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
+      "kind": "product",
+      "sourceLabel": "DAP official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://www.dap.com/media/7191/rapidfuse-gel-tdb-final_6-11-20.pdf",
+          "label": "RapidFuse Gel Adhesive Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "RapidFuse Super Glue",
+      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
+      "kind": "product",
+      "sourceLabel": "DAP official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
+          "label": "RapidFuse Super Glue Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "Ultra Clear All Purpose Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
+      "kind": "product",
+      "sourceLabel": "DAP official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://www.dap.com/media/18540/rapidfuse-ultra-clear-tdb_51921-7079800180.pdf",
+          "label": "Ultra Clear All Purpose Adhesive Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "Weldwood Original Wood Glue",
+      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-wood-glue",
+      "kind": "product",
+      "sourceLabel": "DAP official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://images.dap.com/ww-wood-glue-tds-final.pdf",
+          "label": "Weldwood Original Wood Glue Technical Data Sheet"
+        }
+      ]
     }
   ]
 }

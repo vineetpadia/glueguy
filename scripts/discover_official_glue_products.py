@@ -171,7 +171,32 @@ def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None
 def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | None = None, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
     """Find manufacturer-hosted TDS and SDS links while retaining document type."""
     page = fetch_text(product_url, timeout=timeout, transport=transport)
-    if "eclecticproducts.com" in (urlparse(product_url).hostname or ""):
+    hostname = (urlparse(product_url).hostname or "").lower()
+    if hostname == "dap.com" or hostname.endswith(".dap.com"):
+        records = collect_html_link_records_from_text(product_url, page)
+        # DAP's custom document buttons can live outside anchors; pair the
+        # nearby document title/type with the data-url PDF in the same block.
+        blocks = re.findall(r"(?is)(.{0,700}(?:Technical Data Sheets?|Safety Data Sheets?).{0,1000}?)(?=<(?:h[1-6]|section|article)|$)", page)
+        for block in blocks:
+            text = normalize_space(html.unescape(re.sub(r"<[^>]+>", " ", block)))
+            doc_type = "SDS" if re.search(r"Safety Data Sheet|\bSDS\b", text, re.I) else "TDS"
+            if not re.search(r"Technical Data Sheet|\bTDS\b", text, re.I) and doc_type != "SDS":
+                continue
+            urls = re.findall(r"(?:data-url|data-href|href)=[\"']([^\"']+\.pdf(?:\?[^\"']*)?)[\"']", block, re.I)
+            for raw_url in urls:
+                records.append({"url": urljoin(product_url, html.unescape(raw_url)), "label": text[:160], "documentType": doc_type})
+        domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
+        results=[]; seen=set()
+        for record in records:
+            url=record["url"].split("#",1)[0]; host=(urlparse(url).hostname or "").lower()
+            if domains and not any(host==domain or host.endswith("."+domain) for domain in domains): continue
+            searchable=f"{record.get('label','')} {url}".lower()
+            doc_type=record.get("documentType") or ("SDS" if re.search(r"\bsds\b|safety data|msds",searchable) else "TDS" if re.search(r"technical data|\btds\b",searchable) else None)
+            if not doc_type or not url.lower().split("?",1)[0].endswith(".pdf") or url in seen: continue
+            seen.add(url); results.append({"url":url,"label":record.get("label") or f"{doc_type} document","documentType":doc_type})
+        if results:
+            return results
+    if "eclecticproducts.com" in hostname:
         # Eclectic lists sheet names as link text and stores the PDF URL in a
         # separate data attribute, outside ordinary hrefs.
         product_slug = urlparse(product_url).path.rstrip("/").split("/")[-1]
@@ -929,6 +954,17 @@ def discover() -> dict:
             current["technicalDocuments"] = list({doc.get("url"): doc for doc in documents if doc.get("url")}.values())
 
     discovered.sort(key=lambda entry: (normalize_text(entry["maker"]), normalize_text(entry["name"])))
+    coverage_by_maker = {}
+    for entry in discovered:
+        maker = entry.get("maker") or "Unknown"
+        coverage_by_maker.setdefault(maker, {"productLeads": 0, "productsWithTds": 0, "tdsDocuments": 0, "productsWithSds": 0})
+        row = coverage_by_maker[maker]
+        row["productLeads"] += 1
+        tds_documents = [doc for doc in entry.get("tdsDocuments", []) if doc.get("url")]
+        sds_documents = [doc for doc in entry.get("technicalDocuments", []) if doc.get("url") and doc.get("documentType", doc.get("type", "")).upper() == "SDS"]
+        row["tdsDocuments"] += len(tds_documents)
+        row["productsWithTds"] += bool(tds_documents)
+        row["productsWithSds"] += bool(sds_documents)
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "stats": {
@@ -937,10 +973,12 @@ def discover() -> dict:
             "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
             "tdsDocumentsLinked": sum(len(entry.get("tdsDocuments", [])) for entry in discovered),
             "technicalDocumentsLinked": sum(len(entry.get("technicalDocuments", [])) for entry in discovered),
+            "manufacturersWithProducts": len(coverage_by_maker),
             "previousEntriesPreserved": preserved_previous_entries,
             "previousTdsEntriesPreserved": preserved_tds_entries,
         },
         "manufacturers": manufacturers_summary,
+        "documentCoverageByManufacturer": coverage_by_maker,
         "entries": discovered,
     }
 

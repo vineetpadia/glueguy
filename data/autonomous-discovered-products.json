@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T03:35:09Z",
+  "generated_at": "2026-09-23T03:45:46.417Z",
   "stats": {
     "manufacturersConfigured": 10,
-    "discoveredEntries": 495,
-    "curatedOfficialLeadsAdded": 15
+    "discoveredEntries": 506,
+    "curatedOfficialLeadsAdded": 26
   },
   "manufacturers": [
     {
@@ -261,6 +261,22 @@
           "url": "https://www.titebond.com/all/glues",
           "matchedUrls": 60,
           "discoveredEntries": 40
+        }
+      ]
+    },
+    {
+      "name": "Gorilla",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "discoveredEntries": 11,
+      "sources": [
+        {
+          "label": "Gorilla official product catalog",
+          "url": "https://gorillatough.com/products",
+          "matchedUrls": 11,
+          "discoveredEntries": 11
         }
       ]
     }
@@ -5923,6 +5939,138 @@
       "officialDomains": [
         "titebond.com"
       ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Original Gorilla Glue",
+      "officialUrl": "https://gorillatough.com/product/original-gorilla-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Clear Gorilla Glue",
+      "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue Gel",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Epoxy",
+      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Epoxy Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Wood Glue Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Heavy Duty Construction Adhesive",
+      "officialUrl": "https://gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Spray Adhesive Heavy Duty",
+      "officialUrl": "https://gorillatough.com/product/gorilla-spray-adhesive-heavy-duty",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Hot Glue Sticks",
+      "officialUrl": "https://gorillatough.com/product/gorilla-hot-glue-sticks",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
     }
   ]
 }

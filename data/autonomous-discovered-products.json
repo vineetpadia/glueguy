@@ -1,79 +1,106 @@
 {
-  "generated_at": "2026-09-23T05:01:36.000Z",
+  "generated_at": "2026-09-23T06:09:16.046305+00:00",
   "stats": {
-    "manufacturersConfigured": 10,
-    "discoveredEntries": 512,
-    "curatedOfficialLeadsAdded": 84,
-    "tdsDocumentsDiscovered": 30
+    "manufacturersConfigured": 22,
+    "discoveredEntries": 635,
+    "tdsDocumentsDiscovered": 58,
+    "tdsDocumentsLinked": 83,
+    "previousEntriesPreserved": 94,
+    "previousTdsEntriesPreserved": 8
   },
   "manufacturers": [
     {
       "name": "3M",
       "priority": "high",
       "officialDomains": [
-        "3m.com"
+        "3m.com",
+        "multimedia.3m.com"
       ],
-      "discoveredEntries": 42,
+      "discoveredEntries": 0,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "3M Scotch-Weld category",
           "url": "https://www.3m.com/3M/en_US/p/c/adhesives/b/scotch-weld/",
-          "matchedUrls": 40,
-          "discoveredEntries": 40
+          "matchedUrls": 0,
+          "discoveredEntries": 0,
+          "error": "TimeoutError: Could not fetch 3M adhesives category with requests, urllib, or curl"
         },
         {
           "label": "3M tapes category",
           "url": "https://www.3m.com/3M/en_US/p/c/tapes/",
-          "matchedUrls": 2,
-          "discoveredEntries": 2
+          "matchedUrls": 0,
+          "discoveredEntries": 0,
+          "error": "TimeoutError: Could not fetch 3M adhesives category with requests, urllib, or curl"
         }
       ]
     },
     {
-      "name": "Amazing Goop",
-      "priority": "medium",
+      "name": "Beacon Adhesives",
+      "priority": "high",
       "officialDomains": [
-        "eclecticproducts.com"
+        "beaconadhesives.com"
       ],
-      "discoveredEntries": 1,
+      "discoveredEntries": 7,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Curated official product links",
-          "url": "https://eclecticproducts.com/product-category/adhesives/",
-          "matchedUrls": 0,
+          "label": "Beacon crafter and maker adhesives",
+          "url": "https://beaconadhesives.com/collections/maker-products",
+          "matchedUrls": 12,
+          "discoveredEntries": 7
+        }
+      ]
+    },
+    {
+      "name": "Bostik",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ],
+      "discoveredEntries": 9,
+      "tdsDocumentsDiscovered": 9,
+      "sources": [
+        {
+          "label": "Bostik Create craft adhesives",
+          "url": "https://diy.bostik.com/en-UK/our-ranges/create",
+          "matchedUrls": 80,
+          "discoveredEntries": 16
+        }
+      ]
+    },
+    {
+      "name": "DAP",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ],
+      "discoveredEntries": 0,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "DAP adhesives catalog",
+          "url": "https://www.dap.com/products/adhesives/",
+          "matchedUrls": 2,
           "discoveredEntries": 0
         }
       ]
     },
     {
-      "name": "CEMEDINE",
-      "priority": "medium",
-      "officialDomains": [
-        "cemedine.co.jp"
-      ],
-      "discoveredEntries": 4,
-      "sources": [
-        {
-          "label": "CEMEDINE global sitemap",
-          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
-          "matchedUrls": 10,
-          "discoveredEntries": 4
-        }
-      ]
-    },
-    {
-      "name": "E6000",
-      "priority": "medium",
+      "name": "Eclectic Products",
+      "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
       ],
-      "discoveredEntries": 12,
+      "discoveredEntries": 27,
+      "tdsDocumentsDiscovered": 27,
       "sources": [
         {
-          "label": "E6000 adhesive category",
-          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
-          "matchedUrls": 18,
-          "discoveredEntries": 7
+          "label": "Eclectic Products adhesive catalog",
+          "url": "https://eclecticproducts.com/product-category/adhesives/",
+          "matchedUrls": 56,
+          "discoveredEntries": 27
         }
       ]
     },
@@ -83,29 +110,32 @@
       "officialDomains": [
         "elmers.com"
       ],
-      "discoveredEntries": 1,
+      "discoveredEntries": 0,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Curated official product links",
-          "url": "",
-          "matchedUrls": 2,
-          "discoveredEntries": 2
+          "label": "Elmer's adhesives and glues",
+          "url": "https://www.elmers.com/glue/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0,
+          "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.elmers.com/glue/"
         }
       ]
     },
     {
-      "name": "Gorilla Glue",
+      "name": "Gorilla",
       "priority": "high",
       "officialDomains": [
         "gorillatough.com"
       ],
-      "discoveredEntries": 4,
+      "discoveredEntries": 18,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Curated official product links",
-          "url": "",
-          "matchedUrls": 4,
-          "discoveredEntries": 4
+          "label": "Gorilla Glue & Adhesives catalog",
+          "url": "https://gorillatough.com/products",
+          "matchedUrls": 80,
+          "discoveredEntries": 41
         }
       ]
     },
@@ -113,37 +143,36 @@
       "name": "Henkel Loctite",
       "priority": "high",
       "officialDomains": [
-        "loctiteproducts.com"
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
       ],
-      "discoveredEntries": 11,
+      "discoveredEntries": 10,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Loctite consumer products index",
           "url": "https://www.loctiteproducts.com/products.html",
           "matchedUrls": 12,
           "discoveredEntries": 10
-        },
-        {
-          "label": "Curated official product links",
-          "url": "",
-          "matchedUrls": 11,
-          "discoveredEntries": 11
         }
       ]
     },
     {
-      "name": "J-B Weld",
-      "priority": "medium",
+      "name": "Liquid Nails",
+      "priority": "high",
       "officialDomains": [
-        "jbweld.com"
+        "ppgpaints.com",
+        "buyat.ppg.com"
       ],
-      "discoveredEntries": 6,
+      "discoveredEntries": 0,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "J-B Weld products page",
-          "url": "https://www.jbweld.com/products",
-          "matchedUrls": 12,
-          "discoveredEntries": 12
+          "label": "Liquid Nails product assortment",
+          "url": "https://www.ppgpaints.com/liquid-nails/all-products",
+          "matchedUrls": 38,
+          "discoveredEntries": 0
         }
       ]
     },
@@ -154,6 +183,7 @@
         "masterbond.com"
       ],
       "discoveredEntries": 34,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Master Bond sitemap",
@@ -164,12 +194,31 @@
       ]
     },
     {
+      "name": "Mod Podge",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ],
+      "discoveredEntries": 12,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Mod Podge official formula guide",
+          "url": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        }
+      ]
+    },
+    {
       "name": "Permabond",
       "priority": "high",
       "officialDomains": [
         "permabond.com"
       ],
-      "discoveredEntries": 195,
+      "discoveredEntries": 199,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Permabond product sitemap",
@@ -180,40 +229,25 @@
         {
           "label": "Permabond TDS sitemap",
           "url": "https://permabond.com/tds-sitemap.xml",
-          "matchedUrls": 1288,
-          "discoveredEntries": 1288
+          "matchedUrls": 1320,
+          "discoveredEntries": 1320
         }
       ]
     },
     {
-      "name": "Seal-All",
-      "priority": "medium",
+      "name": "Permatex",
+      "priority": "high",
       "officialDomains": [
-        "eclecticproducts.com"
+        "permatex.com"
       ],
-      "discoveredEntries": 1,
+      "discoveredEntries": 18,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Curated official product links",
-          "url": "https://eclecticproducts.com/product-category/adhesives/",
-          "matchedUrls": 0,
-          "discoveredEntries": 0
-        }
-      ]
-    },
-    {
-      "name": "Shoe Goo",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
-      "discoveredEntries": 1,
-      "sources": [
-        {
-          "label": "Curated official product links",
-          "url": "https://eclecticproducts.com/product-category/adhesives/",
-          "matchedUrls": 0,
-          "discoveredEntries": 0
+          "label": "Permatex adhesives and sealants",
+          "url": "https://www.permatex.com/products/",
+          "matchedUrls": 80,
+          "discoveredEntries": 38
         }
       ]
     },
@@ -221,9 +255,11 @@
       "name": "Sika",
       "priority": "high",
       "officialDomains": [
-        "sika.com"
+        "sika.com",
+        "usa.sika.com"
       ],
       "discoveredEntries": 7,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Sika brand sitemap",
@@ -234,12 +270,117 @@
       ]
     },
     {
+      "name": "Starbond",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ],
+      "discoveredEntries": 2,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Starbond CA glue collection",
+          "url": "https://starbond.com/collections/ca-glue",
+          "matchedUrls": 87,
+          "discoveredEntries": 2
+        }
+      ]
+    },
+    {
+      "name": "UHU",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ],
+      "discoveredEntries": 11,
+      "tdsDocumentsDiscovered": 11,
+      "sources": [
+        {
+          "label": "UHU product range",
+          "url": "https://www.uhu.com/en-en/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 11
+        }
+      ]
+    },
+    {
+      "name": "Aleene's",
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ],
+      "discoveredEntries": 0,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Aleene's adhesives",
+          "url": "https://aleenes.com/collections/adhesives",
+          "matchedUrls": 0,
+          "discoveredEntries": 0,
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://aleenes.com/collections/adhesives"
+        }
+      ]
+    },
+    {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ],
+      "discoveredEntries": 4,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "CEMEDINE global sitemap",
+          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
+          "matchedUrls": 9,
+          "discoveredEntries": 4
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 9,
+      "tdsDocumentsDiscovered": 11,
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives-sealants/e6000/",
+          "matchedUrls": 18,
+          "discoveredEntries": 9
+        }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ],
+      "discoveredEntries": 6,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        }
+      ]
+    },
+    {
       "name": "ThreeBond",
       "priority": "medium",
       "officialDomains": [
-        "threebond.com"
+        "threebond.com",
+        "threebond.co.jp"
       ],
       "discoveredEntries": 144,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "ThreeBond technical data sheets",
@@ -255,7 +396,8 @@
       "officialDomains": [
         "titebond.com"
       ],
-      "discoveredEntries": 32,
+      "discoveredEntries": 24,
+      "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Titebond glues catalog",
@@ -264,109 +406,12 @@
           "discoveredEntries": 40
         }
       ]
-    },
-    {
-      "name": "Gorilla",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "discoveredEntries": 11,
-      "sources": [
-        {
-          "label": "Gorilla official product catalog",
-          "url": "https://gorillatough.com/products",
-          "matchedUrls": 11,
-          "discoveredEntries": 11
-        }
-      ]
-    },
-    {
-      "name": "Mod Podge",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com",
-        "help.plaidonline.com"
-      ],
-      "discoveredEntries": 2,
-      "sources": [
-        {
-          "label": "Mod Podge official product pages",
-          "url": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
-          "matchedUrls": 2,
-          "discoveredEntries": 2
-        }
-      ]
-    },
-    {
-      "name": "Starbond",
-      "priority": "high",
-      "officialDomains": [
-        "starbond.com"
-      ],
-      "discoveredEntries": 4,
-      "sources": [
-        {
-          "label": "Starbond official product pages",
-          "url": "https://starbond.com/collections/ca-glue",
-          "matchedUrls": 4,
-          "discoveredEntries": 4
-        }
-      ]
-    },
-    {
-      "name": "DAP",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ],
-      "discoveredEntries": 0,
-      "sources": [
-        {
-          "label": "DAP adhesives catalog",
-          "url": "https://www.dap.com/products/adhesives/",
-          "matchedUrls": 0,
-          "discoveredEntries": 0
-        }
-      ]
-    },
-    {
-      "name": "Beacon Adhesives",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ],
-      "discoveredEntries": 0,
-      "sources": [
-        {
-          "label": "Beacon crafter and maker adhesives",
-          "url": "https://beaconadhesives.com/collections/maker-products",
-          "matchedUrls": 0,
-          "discoveredEntries": 0
-        }
-      ]
-    },
-    {
-      "name": "Liquid Nails",
-      "priority": "high",
-      "officialDomains": [
-        "liquidnails.com"
-      ],
-      "discoveredEntries": 0,
-      "sources": [
-        {
-          "label": "Liquid Nails adhesives",
-          "url": "https://www.liquidnails.com/products",
-          "matchedUrls": 0,
-          "discoveredEntries": 0
-        }
-      ]
     }
   ],
   "entries": [
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Composite Urethane Adhesive 6301NS",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Composite Urethane Adhesive 6301NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -378,7 +423,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -390,7 +435,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -402,7 +447,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -414,7 +459,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -426,7 +471,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000300196/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -438,7 +483,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147517/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -450,7 +495,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147516/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -462,7 +507,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2216 Gray",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2216 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -474,19 +519,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100LH",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -498,7 +531,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH Plus",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100LH Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -510,7 +543,19 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP125 Gray",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100 Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP125 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -522,7 +567,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -534,307 +579,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2615 B/A",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2792 B/A",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-3542 B/A FR",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Flexible Acrylic Adhesive DP8610NS",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Instant Adhesive CA8",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP810 Black",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8725NS",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Polyurethane Adhesive DP6605NS",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ PUR Adhesive TS230 Off-White",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ PUR Easy Adhesive EZ250150",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Structural Adhesive EC-7236 B/A",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Structural Adhesive EW2060HF",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Structural Plastic Adhesive DP8005 Black",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF100",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP620NS",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™ Void Filling Compound EC-3515 B/A FR",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M™ Scotch-Weld™Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -846,7 +591,307 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ VHB™ Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-2615 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-2792 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-3542 B/A FR",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-9370 B/A FST",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Flexible Acrylic Adhesive DP8610NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Instant Adhesive CA8",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP810 Black",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP8725NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP8825NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Polyurethane Adhesive DP6605NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 PUR Adhesive TS230 Off-White",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 PUR Easy Adhesive EZ250150",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Adhesive EC-7236 B/A",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Adhesive EW2060HF",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Plastic Adhesive DP8005 Black",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Super Fast Instant Adhesive SF100",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Urethane Adhesive DP620NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Void Filling Compound EC-3515 B/A FR",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M\u00e2\u201e\u00a2 VHB\u00e2\u201e\u00a2 Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000198088/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -858,7 +903,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M™ VHB™ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "name": "3M\u00e2\u201e\u00a2 VHB\u00e2\u201e\u00a2 Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -869,11 +914,397 @@
       ]
     },
     {
+      "maker": "Aleene's",
+      "name": "Aleene's Clear Gel Tacky Glue",
+      "officialUrl": "https://aleenes.com/products/aleenes-clear-gel-tacky-glue-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Fabric Fusion",
+      "officialUrl": "https://aleenes.com/products/aleenes-fabric-fusion-66-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue",
+      "officialUrl": "https://aleenes.com/products/aleenes-original-tacky-glue-16-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Quick Dry Tacky Glue",
+      "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-quick-dry-tacky-glue-8-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Super Thick Tacky Glue",
+      "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-super-thick-tacky-glue-4-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Foam-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/foam-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Gem-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/gem-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $10.99 3-IN-1 Paper Ceramic Wood",
+      "officialUrl": "https://beaconadhesives.com/products/3-in-1",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $10.99 Fabri-Tac Stretch Fabric",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $4.99 All Purpose Tacky Glue Paper Cardboard",
+      "officialUrl": "https://beaconadhesives.com/products/tacky-glue",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $5.99 Dazzle-Tac Beads Glass Wire",
+      "officialUrl": "https://beaconadhesives.com/products/dazzle-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $5.99 Fabri-Tac Fabric Lace Leather",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-1",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $6.99 Fabri-Tac Super Fabric Ceramic Wood",
+      "officialUrl": "https://beaconadhesives.com/products/super-fabri-tac%C2%AE",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Starting at $8.99 Fabri-Tac Spray Fabric",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-spray",
+      "kind": "product",
+      "sourceLabel": "Beacon crafter and maker adhesives",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Blu Glu stick",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf",
+          "label": "Technical Data Sheet (400.58 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Blu Tack\u00ae",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf",
+          "label": "Technical Data Sheet (425.75 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "BLU TACK\u00ae GREY",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf",
+          "label": "Technical Data Sheet (400.26 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "BLU TACK\u00ae PINK",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf",
+          "label": "Technical Data Sheet (399.32 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "BLU TACK\u00ae WHITE",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf",
+          "label": "Technical Data Sheet (400.31 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik All Purpose Clear Glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik All Purpose Glue Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
+        }
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Fabric Glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Fabric Glue Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
+        }
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Super Glue Liquid",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Super Glue Liquid Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
+        }
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Essential white PVA glue in a bottle - dries clear",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf",
+          "label": "Technical Data Sheet (400.84 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "EVO-STIK Wood Glue Interior",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/evo-stik-wood-glue-interior",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "FAST TAK PERMANENT SPRAY",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf",
+          "label": "Technical Data Sheet (405.81 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Glu Dots",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
+          "label": "Technical Data Sheet (405.14 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "REMOVABLE GLU DOTS",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
+      "kind": "product",
+      "sourceLabel": "Bostik Create craft adhesives",
+      "tdsDocuments": [
+        {
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf",
+          "label": "Technical Data Sheet (405.14 KB)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ]
+    },
+    {
       "maker": "CEMEDINE",
       "name": "3000 Series",
       "officialUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
       "kind": "product",
       "sourceLabel": "CEMEDINE global sitemap",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "cemedine.co.jp"
@@ -885,6 +1316,7 @@
       "officialUrl": "https://www.cemedine.co.jp/global/en/technology/other/hotmelt/index.html",
       "kind": "product",
       "sourceLabel": "CEMEDINE global sitemap",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "cemedine.co.jp"
@@ -896,6 +1328,7 @@
       "officialUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/superx/index.html",
       "kind": "product",
       "sourceLabel": "CEMEDINE global sitemap",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "cemedine.co.jp"
@@ -907,20 +1340,65 @@
       "officialUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/sxppk/index.html",
       "kind": "product",
       "sourceLabel": "CEMEDINE global sitemap",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "cemedine.co.jp"
       ]
     },
     {
-      "maker": "Amazing Goop",
-      "name": "Amazing Goop Household Clear",
-      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-household/",
+      "maker": "DAP",
+      "name": "RapidFuse All Purpose Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse/rapidfuse-all-purpose-adhesive",
       "kind": "product",
-      "sourceLabel": "Eclectic Products adhesive catalog",
-      "priority": "medium",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
       "officialDomains": [
-        "eclecticproducts.com"
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Gel Formula Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Nonflammable Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Original Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-original-contact-cement",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Original Contact Cement Spray Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
       ]
     },
     {
@@ -929,15 +1407,19 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 6 (English)"
+        },
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
+          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u2013 REV 3 (English)"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "E6000 Industrial Technical Data Sheet — Clear & Black (Rev 3)",
-          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf"
-        }
       ]
     },
     {
@@ -946,15 +1428,19 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf",
+          "label": "E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10 (English)"
+        },
         {
           "label": "E6000 Fabri-Fuse Technical Data Sheet (Rev 10)",
           "url": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf"
         }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
       ]
     },
     {
@@ -963,15 +1449,19 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-fray-lock/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2023/08/E6-FL-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf",
+          "label": "E6 FL TDS USA CAN MEX EU ME AU NZ_Rev 10 (English)"
+        },
         {
           "label": "E6000 Fray Lock Technical Data Sheet",
           "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf"
         }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
       ]
     },
     {
@@ -980,66 +1470,19 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-jewelry-bead/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/07/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-5.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 5 (English)"
+        },
         {
           "label": "E6000 Jewelry & Bead Technical Data Sheet",
           "url": "https://eclecticproducts.com/downloads/tds-e6000-jewelry-and-bead-us-ca-eu-me-arabic.pdf"
         }
-      ]
-    },
-    {
-      "maker": "E6000",
-      "name": "E6000 Plus",
-      "officialUrl": "https://eclecticproducts.com/product/e6000-plus/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products adhesive catalog",
+      ],
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "E6000 Plus Technical Data Sheet",
-          "url": "https://eclecticproducts.com/downloads/tds/plus/tds-e6000Plus-us-ca-eu.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "E6000",
-      "name": "E6000 Premium Automotive",
-      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-automotive/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
-          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
-        }
-      ]
-    },
-    {
-      "maker": "E6000",
-      "name": "E6000 Premium Jewelry & Bead",
-      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-jewelry-and-bead/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
-          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
-        }
       ]
     },
     {
@@ -1048,6 +1491,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2022/08/E6-Spray-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-9.pdf",
+          "label": "E6 Spray TDS USA CAN MEX EU ME AU NZ_Rev 9 (English)"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
@@ -1059,6 +1508,12 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-precision-tip-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/07/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-5.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 5 (English)"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
@@ -1070,6 +1525,16 @@
       "officialUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
+          "label": "E6100 Industrial Black Gray White US CAN MEX TDS 5.23.19 (English)"
+        },
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+          "label": "E6100 Industrial Clear USA CAN TDS 5.23.19 (English)"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
@@ -1081,15 +1546,19 @@
       "officialUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+          "label": "E6800 Industrial Clear USA TDS REV 2 (English)"
+        },
         {
           "label": "E6800 Industrial Technical Data Sheet (Rev 1)",
           "url": "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
         }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
       ]
     },
     {
@@ -1098,49 +1567,568 @@
       "officialUrl": "https://eclecticproducts.com/product/e6000-extreme-tack/",
       "kind": "product",
       "sourceLabel": "E6000 adhesive category",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2023/08/E6-ET-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-9.pdf",
+          "label": "E6 ET TDS USA CAN MEX EU ME AU NZ_Rev 9 (English)"
+        },
         {
           "label": "E6000 Extreme Tack Technical Data Sheet",
           "url": "https://eclecticproducts.com/downloads/tds-e6000-extreme-tack-english.pdf"
         }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
       ]
     },
     {
-      "maker": "Seal-All",
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Automotive Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-automotive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Auto & RV Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-automotive-rv/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-AU-RV-TDS-US-MEX-AU_NZ_REV-2.pdf",
+          "label": "AG AU RV TDS US MEX AU_NZ_REV 2 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-all-purpose/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-AP-TDS-USA-CAN-MEX-AU-NZ_REV-3.pdf",
+          "label": "AG AP TDS USA CAN MEX AU NZ_REV 3 (English)"
+        },
+        {
+          "label": "Amazing GOOP All Purpose Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Craft Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-craft/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-CR-TDS-US-MEX-CAN_REV-3-1.pdf",
+          "label": "AG CR TDS US MEX CAN_REV 3 (English)"
+        },
+        {
+          "label": "Amazing GOOP Craft Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Household Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-household/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-HOUSEHOLD-TDS-US-MEX-CAN_REV-2.pdf",
+          "label": "AG HOUSEHOLD TDS US MEX CAN_REV 2 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop II Max Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-ii-max/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-II-MAX-TDS-US-CAN-AU-NZ_REV-2.pdf",
+          "label": "AG II MAX TDS US CAN AU NZ_REV 2 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Marine Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-marine/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-MA-TDS-USA-CAN-AU_NZ_REV-3.pdf",
+          "label": "AG MA TDS USA CAN AU_NZ_REV 3 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Plumbing Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-plumbing/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-PL-TDS-USA-MEX-CAN-AU-NZ-ME-REV-3.pdf",
+          "label": "AG PL TDS USA MEX CAN AU NZ ME REV 3 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Trim Repair Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-trim-repair/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 6 (English)"
+        },
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
+          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u2013 REV 3 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Fabri-Fuse",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fabri-fuse-us-ca-eu-me-arabic-au-nz-mex.pdf",
+          "label": "E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10 (English)"
+        },
+        {
+          "label": "E6000 Fabri-Fuse Technical Data Sheet (Rev 10)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Fray Lock",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-fray-lock/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2023/08/E6-FL-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf",
+          "label": "E6 FL TDS USA CAN MEX EU ME AU NZ_Rev 10 (English)"
+        },
+        {
+          "label": "E6000 Fray Lock Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-jewelry-bead/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/07/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-5.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 5 (English)"
+        },
+        {
+          "label": "E6000 Jewelry & Bead Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-e6000-jewelry-and-bead-us-ca-eu-me-arabic.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Plus",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-plus/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2022/08/tds-e6000Plus-us-ca-eu.pdf",
+          "label": "E6000 Plus-us-ca-eu (English)"
+        },
+        {
+          "label": "E6000 Plus Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds/plus/tds-e6000Plus-us-ca-eu.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Premium",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/08/E6000-PREMIUM-TDS-USA_CAN_EU_AUS-REV-9.pdf",
+          "label": "E6000 PREMIUM TDS USA_CAN_EU_AUS REV 9 (English)"
+        },
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Premium Automotive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-automotive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/08/E6000-PREMIUM-TDS-USA_CAN_EU_AUS-REV-9.pdf",
+          "label": "E6000 PREMIUM TDS USA_CAN_EU_AUS REV 9 (English)"
+        },
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Premium Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-jewelry-and-bead/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/08/E6000-PREMIUM-TDS-USA_CAN_EU_AUS-REV-9.pdf",
+          "label": "E6000 PREMIUM TDS USA_CAN_EU_AUS REV 9 (English)"
+        },
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Premium with Precision Tips",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-with-precision-tips/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/08/E6000-PREMIUM-TDS-USA_CAN_EU_AUS-REV-9.pdf",
+          "label": "E6000 PREMIUM TDS USA_CAN_EU_AUS REV 9 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 Spray Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2022/08/E6-Spray-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-9.pdf",
+          "label": "E6 Spray TDS USA CAN MEX EU ME AU NZ_Rev 9 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6000 with Precision Tips",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-precision-tip-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/07/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-5.pdf",
+          "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 5 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6100 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
+          "label": "E6100 Industrial Black Gray White US CAN MEX TDS 5.23.19 (English)"
+        },
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+          "label": "E6100 Industrial Clear USA CAN TDS 5.23.19 (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "E6800 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+          "label": "E6800 Industrial Clear USA TDS REV 2 (English)"
+        },
+        {
+          "label": "E6800 Industrial Technical Data Sheet (Rev 1)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "QuickHOLD",
+      "officialUrl": "https://eclecticproducts.com/product/quickhold/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2026/09/QH-TDS-USA_MEX_CAN_R2.pdf",
+          "label": "QH TDS USA_MEX_CAN_R2.pdf (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
       "name": "Seal-All Clear",
       "officialUrl": "https://eclecticproducts.com/product/seal-all/",
       "kind": "product",
       "sourceLabel": "Eclectic Products adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2026/09/SA-TDS-USA-CAN-MEX-AU-NZ_R2.pdf",
+          "label": "SA TDS USA CAN MEX AU NZ_R2.pdf (English)"
+        },
         {
           "label": "Seal-All Technical Data Sheet (current revision)",
           "url": "https://eclecticproducts.com/wp-content/uploads/2024/02/SA-TDS-USA-CAN-MEX_5.25.23-Rev-01.pdf"
         }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
       ]
     },
     {
-      "maker": "Shoe Goo",
+      "maker": "Eclectic Products",
       "name": "Shoe Goo",
       "officialUrl": "https://eclecticproducts.com/product/shoe-goo/",
       "kind": "product",
-      "sourceLabel": "Eclectic Products shoe repair catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
+      "sourceLabel": "Eclectic Products adhesive catalog",
       "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+          "label": "SG TDS USA AU NZ CAN _REV 14.pdf (English)"
+        },
         {
           "label": "Shoe Goo Technical Data Sheet",
           "url": "https://eclecticproducts.com/downloads/tds-shoegoo-english.pdf"
         }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Shoe Goo Boots & Gloves Clear",
+      "officialUrl": "https://eclecticproducts.com/product/shoe-goo-boots-gloves/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-BG-TDS-US_REV-8.pdf",
+          "label": "SG BG TDS US_REV 8.pdf (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Shoe Goo II",
+      "officialUrl": "https://eclecticproducts.com/product/shoe-goo-ii-3/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://eclecticproducts.com/wp-content/uploads/2024/10/SHOE-GOO-II-TDS-USA-CAN-EU-AU-NZ_REV-4.pdf",
+          "label": "Shoe GOO ll USA_CA_EU_AUNZ (English)"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Clear School Glue",
+      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-clear-liquid-school-glue/SP_2752211.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Disappearing Purple School Glue Stick",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Extra Strength Glue Stick",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks/SP_2752230.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glue-All Multi-Purpose Glue",
+      "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
       ]
     },
     {
@@ -1155,11 +2143,263 @@
       ]
     },
     {
-      "maker": "Gorilla Glue",
+      "maker": "Elmer's",
+      "name": "Elmer's Liquid School Glue",
+      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Clear Gorilla Glue",
+      "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
       "name": "Clear Gorilla Glue Gel",
       "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue-gel",
       "kind": "product",
-      "sourceLabel": "Gorilla product catalog",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Clear Gorilla Glue Micro Precise",
+      "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue-micro-precise",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Epoxy",
+      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Epoxy Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Heavy Duty Construction Adhesive",
+      "officialUrl": "https://gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Hot Glue Sticks",
+      "officialUrl": "https://gorillatough.com/product/gorilla-hot-glue-sticks",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Max Strength Construction Adhesive Clear",
+      "officialUrl": "https://gorillatough.com/product/gorilla-max-strength-construction-adhesive-clear",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Permanent Adhesive Dots",
+      "officialUrl": "https://gorillatough.com/product/gorilla-permanent-adhesive-dots",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Spray Adhesive Heavy Duty",
+      "officialUrl": "https://gorillatough.com/product/gorilla-spray-adhesive",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue Brush & Nozzle",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-brush-nozzle",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue Gel",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Super Glue Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Waterproof Patch & Seal Black Liquid",
+      "officialUrl": "https://gorillatough.com/product/gorilla-waterproof-patch-seal-black-liquid",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Waterproof Patch & Seal Clear Liquid",
+      "officialUrl": "https://gorillatough.com/product/gorilla-waterproof-patch-seal-clear-liquid",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Gorilla Waterproof Patch & Seal White Liquid",
+      "officialUrl": "https://gorillatough.com/product/gorilla-waterproof-patch-seal-white-liquid",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Kitchen & Bath Construction Adhesive",
+      "officialUrl": "https://gorillatough.com/product/kitchen-bath-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Landscape Construction Adhesive",
+      "officialUrl": "https://gorillatough.com/product/landscape-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Original Gorilla Glue",
+      "officialUrl": "https://gorillatough.com/product/original-gorilla-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "evidenceStatus": "official-product-page"
+    },
+    {
+      "maker": "Gorilla",
+      "name": "Wood Glue Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla Glue & Adhesives catalog",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "gorillatough.com"
@@ -1204,6 +2444,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1217,6 +2458,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1230,6 +2472,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-silicone/SAP_0201XCL02WYJ.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1243,6 +2486,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-1min/SAP_0201OAL029U5.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1256,6 +2500,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1269,6 +2514,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1282,6 +2528,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1295,6 +2542,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1308,6 +2556,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-putty/SAP_0201OGL029V2.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1321,6 +2570,7 @@
       "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
       "kind": "product",
       "sourceLabel": "Loctite consumer products index",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "loctite.com",
@@ -1341,7 +2591,19 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "ClearWeld™ Syringe - 25 ml",
+      "name": "ClearWeld\u2122 Professional Size 8 oz",
+      "officialUrl": "https://www.jbweld.com/product/clearweld-pro-size",
+      "kind": "product",
+      "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ]
+    },
+    {
+      "maker": "J-B Weld",
+      "name": "ClearWeld\u00e2\u201e\u00a2 Syringe - 25 ml",
       "officialUrl": "https://www.jbweld.com/product/clearweld-syringe",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -1352,10 +2614,11 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld™ Professional Size 10 oz",
+      "name": "J-B Weld\u2122 Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
@@ -1363,10 +2626,11 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld™ Twin Tube - 2 oz",
+      "name": "J-B Weld\u2122 Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
@@ -1374,10 +2638,11 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld™ Professional Size 10 oz",
+      "name": "KwikWeld\u2122 Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-kwik-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
@@ -1385,10 +2650,11 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld™ Twin Tube - 2 oz",
+      "name": "KwikWeld\u2122 Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/kwikweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
@@ -1396,19 +2662,53 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "MarineWeld™ Twin Tube - 2 oz",
+      "name": "MarineWeld\u2122 Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/marineweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT All Surface Interior & Exterior Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "ppgpaints.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT MAX Interior & Exterior All-Purpose Construction Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-r-interior-and-exterior-all-purpose-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "ppgpaints.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Heavy Duty Construction Adhesive",
+      "officialUrl": "https://theliquidnails.com/liquid-nails-heavy-duty-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "theliquidnails.com"
       ]
     },
     {
       "maker": "Master Bond",
-      "name": "B-Stage Epoxy Systems",
-      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
+      "name": "B-staged epoxy in a cookie form",
+      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1418,8 +2718,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "B-staged epoxy in a cookie form",
-      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
+      "name": "B-Stage Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1671,8 +2971,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicone Systems",
-      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
+      "name": "Silicones for Medical Devices",
+      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1682,8 +2982,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicones for Medical Devices",
-      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
+      "name": "Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1777,6 +3077,228 @@
       "priority": "high",
       "officialDomains": [
         "masterbond.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": ".css-1pp9xez{font-family:var(--ghc-primary-font-family),sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:16px;font-style:normal;font-weight:400;line-height:24px;letter-spacing:0px;color:#AFAFAF;} Mod Podge",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": ".css-y2gtb8{box-sizing:border-box;padding:24px;background-color:white;max-width:1200px;border-radius:8px;border:1px solid #DDDDDD;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:0;overflow:hidden;height:164px;}@media (min-width: 768px),@media (min-width: 1240px){.css-y2gtb8{-webkit-transition:border-color 200ms ease;transition:border-color 200ms ease;}.css-y2gtb8:hover,.css-y2gtb8:focus,.css-y2gtb8:active{outline:none;border-color:#000000;}.css-y2gtb8:active,.css-y2gtb8:hover{box-shadow:inset 0px 1px 2px rgba(22, 22, 22, 0.16);}}@media (min-width: 320px){.css-y2gtb8{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}}@media (min-width: 568px){.css-y2gtb8{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}}@media (min-width: 768px){.css-y2gtb8{min-height:122px;height:100%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}}@media (min-width: 1240px){.css-y2gtb8{min-height:122px;height:100%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}} .css-1hwby2j{-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;}@media (min-width: 320px){.css-1hwby2j{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;padding:24px;}}@media (min-width: 768px){.css-1hwby2j{padding:24px;}} .css-lik3jp{margin:0;margin-bottom:4px;font-family:var(--ghc-primary-font-family),sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:600;font-size:20px;line-height:24px;text-overflow:ellipsis;overflow:hidden;font-family:var(--ghc-primary-font-family),sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;font-size:16px;line-height:24px;font-weight:600;margin-bottom:0;}@media (min-width: 320px){.css-lik3jp{max-height:calc( 2 * 24px );overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;}}@media (min-width: 568px),@media (min-width: 768px),@media (min-width: 1240px){.css-lik3jp{max-height:calc( 1 * 24px );overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical;}} Mod Podge Matte .css-17r7igq{margin:0;font-family:var(--ghc-primary-font-family),sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;font-size:16px;line-height:24px;color:#6A6A6A;}@media (min-width: 320px){.css-17r7igq{max-height:calc( 3 * 24px );overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;display:block;}}@media (min-width: 768px){.css-17r7igq{margin-bottom:16px;max-height:calc( 2 * 24px );overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;}}@media (min-width: 1240px){.css-17r7igq{margin-bottom:16px;max-height:calc( 3 * 24px );overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;}} Help with the classic no-shine finish for paper, fabric, and mixed media. .css-1ff36h2{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;} .css-6oebi6{height:20px;display:none;margin:0;color:#6A6A6A;font-family:var(--ghc-primary-font-family),sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;font-size:12px;line-height:20px;}@media (min-width: 568px),@media (min-width: 768px),@media (min-width: 1240px){.css-6oebi6{display:block;}} 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-matte-355552",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Dimensional Magic Create raised, glossy accents and dimensional effects. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dimensional-magic-355562",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Dishwasher-Safe Create functional dishware and drinkware that holds up to washing. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dishwasher-safe-355558",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Fabric Adhere fabric to fabric or other surfaces without stiffness. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-fabric-355559",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Gloss Tips for achieving a smooth, shiny finish on your decoupage projects. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-gloss-355553",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Hard Coat",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-hard-coat-355560",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Hard Coat sing the extra-durable formula for furniture and high-traffic surfaces. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-hard-coat-355556",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Matte",
+      "officialUrl": "https://plaidonline.com/mod-podge-matte",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Outdoor",
+      "officialUrl": "https://plaidonline.com/mod-podge-outdoor",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Outdoor Protect your outdoor projects from the elements with this weather-resistant formula. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-outdoor-355557",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Paper",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-paper-355563",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Paper The best formula for paper-to-paper projects and scrapbooking. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-paper-355598",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Satin",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-satin-355564",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Satin Get a soft sheen that falls between matte and gloss. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-satin-355603",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Sparkle",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-sparkle-355561",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Sparkle Add glitter and shimmer to your projects with this sparkle finish. 4 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-sparkle-355560",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Super Gloss Gloss Achieve a high-shine, resin-like finish without mixing or measuring. 3 articles",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-super-gloss-355561",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official formula guide",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
       ]
     },
     {
@@ -2761,7 +4283,18 @@
     {
       "maker": "Permabond",
       "name": "ET5422",
-      "officialUrl": "https://permabond.com/tds/et5422_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/et5422_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "ET5424",
+      "officialUrl": "https://permabond.com/tds/et5424_tds-english/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2794,7 +4327,7 @@
     {
       "maker": "Permabond",
       "name": "ET5428BLACK",
-      "officialUrl": "https://permabond.com/tds/et5428black_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/et5428black_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -2816,7 +4349,7 @@
     {
       "maker": "Permabond",
       "name": "ET5441",
-      "officialUrl": "https://permabond.com/tds/et5441_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/et5441_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3090,8 +4623,19 @@
     },
     {
       "maker": "Permabond",
+      "name": "LH055",
+      "officialUrl": "https://permabond.com/tds/lh055_tds/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
       "name": "LH056",
-      "officialUrl": "https://permabond.com/tds/lh056_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/lh056_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3124,7 +4668,7 @@
     {
       "maker": "Permabond",
       "name": "LM012",
-      "officialUrl": "https://permabond.com/tds/lm012_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/lm012_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3135,7 +4679,7 @@
     {
       "maker": "Permabond",
       "name": "LM113",
-      "officialUrl": "https://permabond.com/tds/lm113_tds-pt-br/",
+      "officialUrl": "https://permabond.com/tds/lm113_tds-en/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3277,7 +4821,7 @@
     },
     {
       "maker": "Permabond",
-      "name": "Permabond 105 – Cyanoacrylate Adhesive",
+      "name": "Permabond 105 \u2013 Cyanoacrylate Adhesive",
       "officialUrl": "https://permabond.com/products/permabond-105/",
       "kind": "product",
       "sourceLabel": "Permabond product sitemap",
@@ -3475,6 +5019,17 @@
     },
     {
       "maker": "Permabond",
+      "name": "TA4213",
+      "officialUrl": "https://permabond.com/tds/ta4213_tds-2/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
       "name": "TA4230",
       "officialUrl": "https://permabond.com/tds/ta4230_tds-pt-br/",
       "kind": "product",
@@ -3587,6 +5142,17 @@
       "maker": "Permabond",
       "name": "TA4550",
       "officialUrl": "https://permabond.com/tds/ta4550_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "TA4551",
+      "officialUrl": "https://permabond.com/tds/ta4551_tds_english/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3783,6 +5349,17 @@
     },
     {
       "maker": "Permabond",
+      "name": "UV630M",
+      "officialUrl": "https://permabond.com/tds/uv630m_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
       "name": "UV632",
       "officialUrl": "https://permabond.com/tds/uv632_tds-en/",
       "kind": "product",
@@ -3838,8 +5415,19 @@
     },
     {
       "maker": "Permabond",
+      "name": "UV640M",
+      "officialUrl": "https://permabond.com/tds/uv640m_tds-pt-br/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
       "name": "UV643",
-      "officialUrl": "https://permabond.com/tds/uv643_tds-en/",
+      "officialUrl": "https://permabond.com/tds/uv643_tds-pt-br/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3851,6 +5439,17 @@
       "maker": "Permabond",
       "name": "UV645",
       "officialUrl": "https://permabond.com/tds/uv645_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV645M",
+      "officialUrl": "https://permabond.com/tds/uv645m_tds-pt-br/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3873,6 +5472,17 @@
       "maker": "Permabond",
       "name": "UV649",
       "officialUrl": "https://permabond.com/tds/uv649_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond TDS sitemap",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "UV649M",
+      "officialUrl": "https://permabond.com/tds/uv649m_tds-pt-br/",
       "kind": "product",
       "sourceLabel": "Permabond TDS sitemap",
       "priority": "high",
@@ -3925,6 +5535,222 @@
       ]
     },
     {
+      "maker": "Permatex",
+      "name": "Head gasket Repair",
+      "officialUrl": "https://www.permatex.com/products/stop-leaks/permatex-head-gasket-repair-stop-leak/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae 5 Minute Epoxy 10500 6ml .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Black Cut Gasket Coating, 2 oz, 80012 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-black-cut-gasket-coating-2-oz-80012/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Black Super Weatherstrip Adhesive 81852 (2 OZ) .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/weatherstrip/permatex-black-super-weatherstrip-adhesive-81852-2-oz/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Grey Cut Gasket Coating, 2 oz, 80013 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-grey-cut-gasket-coating-2-oz-80013/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Head Gasket Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/autozone/permatex-head-gasket-repair-stop-leak-available-at-autozone/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Home Fiberglass, Porcelain & Plastic Repair Kit 90217 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/home/permatex-home-fiberglass-porcelain-plastic-repair-kit-90217/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Muffler Repair Kit \u2013 Heavy Duty \u2013 High Temperature .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/specialized-maintenance-repair/permatex-muffler-repair-kit-heavy-duty-high-temperature/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Plastic Emblem & Trim Adhesive 2 oz .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/specialty-adhesives-removers/permatex-plastic-emblem-trim-adhesive-2-oz/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Power Steering Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/autozone/permatex-power-steering-repair-stop-leak-2/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Radiator Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/autozone/permatex-radiator-repair-stop-leak-2/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Red Cut Gasket Coating, 2 oz, 80014 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-red-cut-gasket-coating-2-oz-80014/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae Tailpipe Repair Kit: Heavy Duty 80336 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/specialized-maintenance-repair/permatex-tailpipe-repair-kit-heavy-duty-80336/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure High Strength Removable Threadlocker Orange, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/advance/permatex-the-right-stuff-rapid-cure-high-strength-removable-threadlocker-orange-10-ml/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure High Strength Threadlocker Red, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/thread-compounds/red-threadlockers/permatex-the-right-stuff-rapid-cure-high-strength-threadlocker-red-10-ml/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure Medium Strength Threadlocker Blue, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Power Steering Repair",
+      "officialUrl": "https://www.permatex.com/products/stop-leaks/permatex-power-steering-repair-stop-leak/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Radiator Repair",
+      "officialUrl": "https://www.permatex.com/products/stop-leaks/permatex-radiator-repair-stop-leak/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
       "maker": "Sika",
       "name": "Multipurpose Adhesive and Sealant",
       "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-415.html",
@@ -3938,8 +5764,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex® PRO-3 Purform®",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
+      "name": "New Sikaflex\u00ae-11 FC",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3950,8 +5776,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex®-11 FC",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
+      "name": "New Sikaflex\u00ae PRO-3 Purform\u00ae",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3974,7 +5800,7 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikadur® Crack Repair Kit",
+      "name": "Sikadur\u00ae Crack Repair Kit",
       "officialUrl": "https://www.sika.com/en/brands/sikadur-crack-repair-kit.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -3986,8 +5812,8 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex® - The Leading Brand for Sealants and Adhesives",
-      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
+      "name": "Sikaflex\u00ae PRO-3 Purform\u00ae PowerCure",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3998,14 +5824,82 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex® PRO-3 Purform® PowerCure",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
+      "name": "Sikaflex\u00ae - The Leading Brand for Sealants and Adhesives",
+      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
       "officialDomains": [
         "sika.com",
         "usa.sika.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Hobby & Craft Brush-On Super Glue \u2014 Specialty Foam-Safe, Low-Odor Formula for Models (10g)",
+      "officialUrl": "https://starbond.com/products/hobby-craft-super-glue-brush-on-precision-applicator",
+      "kind": "product",
+      "sourceLabel": "Starbond CA glue collection",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Hobby & Craft Specialty No-Drip Super Glue Gel \u2014 Foam-Safe, Low-Odor Formula for Models (3 \u00d7 5g)",
+      "officialUrl": "https://starbond.com/products/hobby-craft-premium-superglue-gel",
+      "kind": "product",
+      "sourceLabel": "Starbond CA glue collection",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Flexible Toughened CA Glue",
+      "officialUrl": "https://starbond.com/products/flexible-heavymedium-ca-glue-keg-500",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Medium CA Glue",
+      "officialUrl": "https://starbond.com/products/medium-ca-glue-em-150",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Super Fast Thin CA Glue",
+      "officialUrl": "https://starbond.com/products/super-fast-thin-ca-glue",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ]
+    },
+    {
+      "maker": "Starbond",
+      "name": "Starbond Thick CA Glue",
+      "officialUrl": "https://starbond.com/products/thick-ca-glue-em-2000",
+      "kind": "product",
+      "sourceLabel": "Starbond official product information",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
       ]
     },
     {
@@ -5738,65 +7632,11 @@
     },
     {
       "maker": "Titebond",
-      "name": "Instant Bond Adhesive Gel",
-      "officialUrl": "https://www.titebond.com/product/glues/9059d175-2198-4bbe-90d1-f2406dd7049a",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Instant Bond Adhesive Medium",
-      "officialUrl": "https://www.titebond.com/product/glues/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Instant Bond Adhesive Medium - Jet Black",
-      "officialUrl": "https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Instant Bond Adhesive Thick",
-      "officialUrl": "https://www.titebond.com/product/glues/35c28e98-b180-4028-a7f8-c83a567bed1b",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Instant Bond Adhesive Thin",
-      "officialUrl": "https://www.titebond.com/product/glues/59d79143-2116-4229-bd02-a47678325f21",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
       "name": "Instant Bond Gel",
       "officialUrl": "https://www.titebond.com/product/glues/9059d175-2198-4bbe-90d1-f2406dd7049a",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5808,6 +7648,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5819,6 +7660,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5830,6 +7672,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/35c28e98-b180-4028-a7f8-c83a567bed1b",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5841,6 +7684,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/59d79143-2116-4229-bd02-a47678325f21",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5852,17 +7696,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/0c432f73-dd8c-40de-8734-68eaf96f8e71",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Super Titebond Glue",
-      "officialUrl": "https://www.titebond.com/product/glues/0c432f73-dd8c-40de-8734-68eaf96f8e71",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5874,17 +7708,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Titebond All Purpose White Glue",
-      "officialUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5896,6 +7720,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/956e0030-cd56-406e-9873-ec9e5af5fca4",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5907,6 +7732,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/fdb9c5cb-15b3-49b3-b709-5794cc3ae102",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5918,17 +7744,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/cd34dfc4-2241-4e5c-962e-af426a169bec",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Titebond Doweling Glue",
-      "officialUrl": "https://www.titebond.com/product/glues/cd34dfc4-2241-4e5c-962e-af426a169bec",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5940,6 +7756,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/3262a6f9-50bd-4214-8a22-29886a6fe105",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5951,6 +7768,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5962,6 +7780,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5973,6 +7792,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5984,6 +7804,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/21051713-5cce-4925-a653-3bff0a0f71ab",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -5995,17 +7816,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/fbd42020-a590-4228-844a-0ef245db4dc7",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "titebond.com"
-      ]
-    },
-    {
-      "maker": "Titebond",
-      "name": "Titebond II Premium",
-      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
-      "kind": "product",
-      "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6017,6 +7828,19 @@
       "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond II Premium",
+      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+      "kind": "product",
+      "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6028,6 +7852,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6039,6 +7864,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6050,6 +7876,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6061,6 +7888,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/1f1dafb3-eec8-4f9a-87fe-06f40d4c47df",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6072,6 +7900,7 @@
       "officialUrl": "https://www.titebond.com/product/glues/e06720fc-44f9-42b2-8c5c-77e7d85cf624",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -6083,649 +7912,197 @@
       "officialUrl": "https://www.titebond.com/product/glues/c944de78-f0a8-4180-b75e-026994aba708",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
+      "tdsDocuments": [],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
       ]
     },
     {
-      "maker": "Gorilla",
-      "name": "Original Gorilla Glue",
-      "officialUrl": "https://gorillatough.com/product/original-gorilla-glue",
+      "maker": "UHU",
+      "name": "All Purpose Adhesive",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-folding-box-35-ml-cz",
       "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Clear Gorilla Glue",
-      "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Super Glue",
-      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Super Glue Gel",
-      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Super Glue Ultimate",
-      "officialUrl": "https://gorillatough.com/product/gorilla-super-glue-ultimate",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Epoxy",
-      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Epoxy Ultimate",
-      "officialUrl": "https://gorillatough.com/product/gorilla-epoxy-ultimate",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Wood Glue Ultimate",
-      "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue-ultimate",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Heavy Duty Construction Adhesive",
-      "officialUrl": "https://gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Spray Adhesive Heavy Duty",
-      "officialUrl": "https://gorillatough.com/product/gorilla-spray-adhesive-heavy-duty",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Gorilla",
-      "name": "Gorilla Hot Glue Sticks",
-      "officialUrl": "https://gorillatough.com/product/gorilla-hot-glue-sticks",
-      "kind": "product",
-      "sourceLabel": "Gorilla official product catalog",
-      "priority": "high",
-      "officialDomains": [
-        "gorillatough.com"
-      ],
-      "evidenceStatus": "official-product-page"
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Matte",
-      "officialUrl": "https://plaidonline.com/mod-podge-matte",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Gloss",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-gloss-355553",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Starbond",
-      "name": "Starbond Super Fast Thin CA Glue",
-      "officialUrl": "https://starbond.com/products/super-fast-thin-ca-glue",
-      "kind": "product",
-      "sourceLabel": "Starbond official product information",
-      "priority": "high",
-      "officialDomains": [
-        "starbond.com"
-      ]
-    },
-    {
-      "maker": "Starbond",
-      "name": "Starbond Medium CA Glue",
-      "officialUrl": "https://starbond.com/products/medium-ca-glue-em-150",
-      "kind": "product",
-      "sourceLabel": "Starbond official product information",
-      "priority": "high",
-      "officialDomains": [
-        "starbond.com"
-      ]
-    },
-    {
-      "maker": "Starbond",
-      "name": "Starbond Thick CA Glue",
-      "officialUrl": "https://starbond.com/products/thick-ca-glue-em-2000",
-      "kind": "product",
-      "sourceLabel": "Starbond official product information",
-      "priority": "high",
-      "officialDomains": [
-        "starbond.com"
-      ]
-    },
-    {
-      "maker": "Starbond",
-      "name": "Starbond Flexible Toughened CA Glue",
-      "officialUrl": "https://starbond.com/products/flexible-heavymedium-ca-glue-keg-500",
-      "kind": "product",
-      "sourceLabel": "Starbond official product information",
-      "priority": "high",
-      "officialDomains": [
-        "starbond.com"
-      ]
-    },
-    {
-      "maker": "DAP",
-      "name": "WELDWOOD Original Contact Cement",
-      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-original-contact-cement",
-      "kind": "product",
-      "sourceLabel": "DAP official product information",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ]
-    },
-    {
-      "maker": "DAP",
-      "name": "WELDWOOD Gel Formula Contact Cement",
-      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement",
-      "kind": "product",
-      "sourceLabel": "DAP official product information",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ]
-    },
-    {
-      "maker": "DAP",
-      "name": "WELDWOOD Nonflammable Contact Cement",
-      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement",
-      "kind": "product",
-      "sourceLabel": "DAP official product information",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ]
-    },
-    {
-      "maker": "DAP",
-      "name": "WELDWOOD Original Contact Cement Spray Adhesive",
-      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
-      "kind": "product",
-      "sourceLabel": "DAP official product information",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ]
-    },
-    {
-      "maker": "DAP",
-      "name": "RapidFuse All Purpose Adhesive",
-      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse/rapidfuse-all-purpose-adhesive",
-      "kind": "product",
-      "sourceLabel": "DAP official product information",
-      "priority": "high",
-      "officialDomains": [
-        "dap.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Fabri-Tac",
-      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-1",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Fabri-Tac Super",
-      "officialUrl": "https://beaconadhesives.com/products/super-fabri-tac%C2%AE",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Fabri-Tac Stretch",
-      "officialUrl": "https://beaconadhesives.com/products/fabri-tac",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Fabri-Tac Spray",
-      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-spray",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Gem-Tac",
-      "officialUrl": "https://beaconadhesives.com/products/gem-tac",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Foam-Tac",
-      "officialUrl": "https://beaconadhesives.com/products/foam-tac",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Beacon Adhesives",
-      "name": "Dazzle-Tac",
-      "officialUrl": "https://beaconadhesives.com/products/dazzle-tac",
-      "kind": "product",
-      "sourceLabel": "Beacon Adhesives official product information",
-      "priority": "high",
-      "officialDomains": [
-        "beaconadhesives.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Outdoor",
-      "officialUrl": "https://plaidonline.com/mod-podge-outdoor",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Dishwasher-Safe",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dishwasher-safe-355558",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Fabric",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-fabric-355559",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Hard Coat",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-hard-coat-355560",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Sparkle",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-sparkle-355561",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Dimensional Magic",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dimensional-magic-355562",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Paper",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-paper-355563",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Satin",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-satin-355564",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "plaidonline.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Liquid School Glue",
-      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Clear School Glue",
-      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-clear-liquid-school-glue/SP_2752211.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Glue-All Multi-Purpose Glue",
-      "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Disappearing Purple School Glue Stick",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Original Tacky Glue",
-      "officialUrl": "https://aleenes.com/products/aleenes-original-tacky-glue-16-fl-oz",
-      "kind": "product",
-      "sourceLabel": "Aleene's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Fabric Fusion",
-      "officialUrl": "https://aleenes.com/products/aleenes-fabric-fusion-66-fl-oz",
-      "kind": "product",
-      "sourceLabel": "Aleene's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Quick Dry Tacky Glue",
-      "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-quick-dry-tacky-glue-8-fl-oz-1",
-      "kind": "product",
-      "sourceLabel": "Aleene's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Super Thick Tacky Glue",
-      "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-super-thick-tacky-glue-4-fl-oz-1",
-      "kind": "product",
-      "sourceLabel": "Aleene's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Clear Gel Tacky Glue",
-      "officialUrl": "https://aleenes.com/products/aleenes-clear-gel-tacky-glue-4-fl-oz",
-      "kind": "product",
-      "sourceLabel": "Aleene's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Extra Strength Glue Stick",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks/SP_2752230.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product information",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Liquid Nails",
-      "name": "FUZE*IT All Surface Interior & Exterior Adhesive",
-      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
-      "kind": "product",
-      "sourceLabel": "Liquid Nails official product information",
-      "priority": "high",
-      "officialDomains": [
-        "ppgpaints.com"
-      ]
-    },
-    {
-      "maker": "Liquid Nails",
-      "name": "FUZE*IT MAX Interior & Exterior All-Purpose Construction Adhesive",
-      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-r-interior-and-exterior-all-purpose-construction-adhesive",
-      "kind": "product",
-      "sourceLabel": "Liquid Nails official product information",
-      "priority": "high",
-      "officialDomains": [
-        "ppgpaints.com"
-      ]
-    },
-    {
-      "maker": "Liquid Nails",
-      "name": "Heavy Duty Construction Adhesive",
-      "officialUrl": "https://theliquidnails.com/liquid-nails-heavy-duty-construction-adhesive",
-      "kind": "product",
-      "sourceLabel": "Liquid Nails official product information",
-      "priority": "high",
-      "officialDomains": [
-        "theliquidnails.com"
-      ]
-    },
-    {
-      "maker": "Shoe Goo",
-      "name": "Shoe Goo Boots & Gloves",
-      "officialUrl": "https://eclecticproducts.com/product/shoe-goo-boots-gloves/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products official product page",
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
+      "sourceLabel": "UHU product range",
       "tdsDocuments": [
         {
-          "label": "Shoe Goo Boots & Gloves Technical Data Sheet (Rev 8)",
-          "url": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-BG-TDS-US_REV-8.pdf"
+          "url": "https://www.uhu.com/getmedia/c0cc9772-468f-4c6d-a65d-d950b8e20093/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
         }
-      ]
-    },
-    {
-      "maker": "Shoe Goo",
-      "name": "Shoe Goo II",
-      "officialUrl": "https://eclecticproducts.com/product/shoe-goo-ii-3/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products official product page",
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ]
-    },
-    {
-      "maker": "Amazing Goop",
-      "name": "Amazing GOOP All Purpose",
-      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-all-purpose/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products official product page",
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
       ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "All Purpose Adhesive extra",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-gel-folding-box-31-m-1",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
       "tdsDocuments": [
         {
-          "label": "Amazing GOOP All Purpose Technical Data Sheet",
-          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+          "url": "https://www.uhu.com/getmedia/c6b22a4e-244c-4726-ad6c-ff599bcd37a6/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
         }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
       ]
     },
     {
-      "maker": "Amazing Goop",
-      "name": "Amazing GOOP Craft",
-      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-craft/",
+      "maker": "UHU",
+      "name": "All Purpose Adhesive solvent free",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-solvent-free-folding",
       "kind": "product",
-      "sourceLabel": "Eclectic Products official product page",
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
+      "sourceLabel": "UHU product range",
       "tdsDocuments": [
         {
-          "label": "Amazing GOOP Craft Technical Data Sheet",
-          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+          "url": "https://www.uhu.com/getmedia/a18475a5-ee5f-4aa2-8c84-24f38c8bbf07/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
         }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
       ]
     },
     {
-      "maker": "E6000",
-      "name": "E6000 Premium",
-      "officialUrl": "https://eclecticproducts.com/product/e6000-premium/",
+      "maker": "UHU",
+      "name": "All Purpose Adhesive SUPER",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-super-strong-safe-bl",
       "kind": "product",
-      "sourceLabel": "Eclectic Products official product page",
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
+      "sourceLabel": "UHU product range",
       "tdsDocuments": [
         {
-          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
-          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+          "url": "https://www.uhu.com/getmedia/7117e189-6141-47dd-bcf4-7473a72f65e2/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
         }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "All Purpose Adhesive Twist & Glue",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-twist-glue-bottle-35",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/5a3c24a1-9448-4d1d-aa5e-c98f16815fac/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "Glue Pen",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-glue-pen-tray-50-ml-esfrenelitpt",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/e9df6976-b9ac-4d0c-b8a3-4810e620acff/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "Photo stic",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-photo-solvent-free-tray-21-g-de-fr-nl-en",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/765ff218-f82e-41cc-a57c-05e5ffd1337d/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "stic",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-stic-solvent-free-tray-21-g-multi-languag",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/6c4ffbe5-a799-4d86-8664-5dee9f06def6/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "stic Magic Blue",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-stic-magic-blue-tray-21-g-esestrpl",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/7daf1b71-828b-4a9f-8546-e666288ff66c/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "stic ReNATURE",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-stic-renature-tray-21-g-endasvfi",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/7f1565d9-ef25-4d6d-abb0-07cffc41ccf2/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "Twist & glue ReNATURE",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-twistglue-renature-solvent-free-tray-35-m",
+      "kind": "product",
+      "sourceLabel": "UHU product range",
+      "tdsDocuments": [
+        {
+          "url": "https://www.uhu.com/getmedia/55aef1aa-ec31-472d-ac64-dac94f4c0fdf/Print%20PDF.pdf",
+          "label": "Technical Documentation Sheet"
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
       ]
     },
     {
@@ -6747,23 +8124,6 @@
     },
     {
       "maker": "UHU",
-      "name": "UHU All Purpose Adhesive SUPER",
-      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-super-strong-safe-bl",
-      "kind": "product",
-      "sourceLabel": "UHU official product information",
-      "priority": "high",
-      "officialDomains": [
-        "uhu.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "UHU All Purpose Adhesive SUPER Technical Documentation Sheet",
-          "url": "https://www.uhu.com/getmedia/7117e189-6141-47dd-bcf4-7473a72f65e2/Print%20PDF.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "UHU",
       "name": "UHU All Purpose Power",
       "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-power-folding-box-45",
       "kind": "product",
@@ -6776,40 +8136,6 @@
         {
           "label": "UHU All Purpose Power Technical Documentation Sheet",
           "url": "https://www.uhu.com/getmedia/1a573ba8-4270-4b24-806b-4c103aa5923f/Print%20PDF.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "UHU",
-      "name": "UHU Max Repair Power",
-      "officialUrl": "https://www.uhu.com/en-en/products/uhu-max-repair-power-blister-8-g-enplcsskhu",
-      "kind": "product",
-      "sourceLabel": "UHU official product information",
-      "priority": "high",
-      "officialDomains": [
-        "uhu.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "UHU Max Repair Power Technical Documentation Sheet",
-          "url": "https://www.uhu.com/getmedia/08c613ca-5edc-44fd-9393-abe14d6eea3c/Print%20PDF.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "UHU",
-      "name": "UHU stic",
-      "officialUrl": "https://www.uhu.com/en-en/products/uhu-stic-solvent-free-tray-21-g-multi-languag",
-      "kind": "product",
-      "sourceLabel": "UHU official product information",
-      "priority": "high",
-      "officialDomains": [
-        "uhu.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "UHU stic Technical Documentation Sheet",
-          "url": "https://www.uhu.com/getmedia/6c4ffbe5-a799-4d86-8664-5dee9f06def6/Print%20PDF.pdf"
         }
       ]
     },
@@ -6848,149 +8174,19 @@
       ]
     },
     {
-      "maker": "Bostik",
-      "name": "Bostik Blu Tack",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
+      "maker": "UHU",
+      "name": "UHU Max Repair Power",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-max-repair-power-blister-8-g-enplcsskhu",
       "kind": "product",
-      "sourceLabel": "Bostik official product information",
+      "sourceLabel": "UHU official product information",
       "priority": "high",
       "officialDomains": [
-        "diy.bostik.com"
+        "uhu.com"
       ],
       "tdsDocuments": [
         {
-          "label": "Bostik Blu Tack Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik Blu Tack White",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik Blu Tack White Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik Blu Glu Stick",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik Blu Glu Stick Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik PVA Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik PVA Glue Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik Fast Tak Permanent Spray Adhesive",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik Fast Tak Permanent Spray Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik All Purpose Clear Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik All Purpose Glue Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik Super Glue Liquid",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik Super Glue Liquid Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
-        }
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "EVO-STIK Wood Glue Interior",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/evo-stik-wood-glue-interior",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ]
-    },
-    {
-      "maker": "Bostik",
-      "name": "Bostik Fabric Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
-      "kind": "product",
-      "sourceLabel": "Bostik official product information",
-      "priority": "high",
-      "officialDomains": [
-        "diy.bostik.com"
-      ],
-      "tdsDocuments": [
-        {
-          "label": "Bostik Fabric Glue Technical Data Sheet",
-          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
+          "label": "UHU Max Repair Power Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/08c613ca-5edc-44fd-9393-abe14d6eea3c/Print%20PDF.pdf"
         }
       ]
     }

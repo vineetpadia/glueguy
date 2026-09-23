@@ -535,7 +535,26 @@
             "Read more|Accelerator|Activator|Titebrush|Pump"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 60
+          "extractTitebondPrintTds": true,
+          "tdsMaxPages": 120
+        },
+        {
+          "label": "Titebond construction adhesives catalog",
+          "url": "https://www.titebond.com/all/adhesives",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 60,
+          "includeRegex": [
+            "/product/adhesives/"
+          ],
+          "nameRequireRegex": [
+            "Adhesive|Titebond"
+          ],
+          "extractTdsLinks": true,
+          "extractTitebondPrintTds": true,
+          "tdsMaxPages": 120
         }
       ]
     },
@@ -1269,6 +1288,368 @@
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 80
+        }
+      ]
+    },
+    {
+      "name": "Barge",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "sources": [
+        {
+          "label": "Barge official contact cement catalog",
+          "url": "https://www.bargeadhesive.com/products.html",
+          "sourceType": "manual",
+          "kind": "product",
+          "manualProducts": [
+            {
+              "name": "Barge All Purpose Original Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc001_dc031_dc111_dc115.pdf",
+                  "label": "Barge All Purpose Original Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge All Purpose TF Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/da071_da081.pdf",
+                  "label": "Barge All Purpose TF Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge All Purpose TF Clear Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_ap_tf_clear_%28da060%2C_da061%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+                  "label": "Barge All Purpose TF Clear Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge Infinity Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc900_dc901.pdf",
+                  "label": "Barge Infinity Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge Super Stik Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_stik_tf_%28da030%2C_da035%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+                  "label": "Barge Super Stik Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge Super Bond Fast-Dry Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_fast_dry_tf_%28da050%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+                  "label": "Barge Super Bond Fast-Dry Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge Super Speed Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_speed_tf_da010_quabaug_-_ghs_hazcom_-_v4.2.1english_us.pdf",
+                  "label": "Barge Super Speed Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            },
+            {
+              "name": "Barge Rubber Cement",
+              "officialUrl": "https://www.bargeadhesive.com/products.html",
+              "technicalDocuments": [
+                {
+                  "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_rubber_cement_tf_%28da020%2C_da025%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+                  "label": "Barge Rubber Cement Safety Data Sheet",
+                  "documentType": "SDS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LePage",
+      "priority": "high",
+      "officialDomains": [
+        "lepage.ca",
+        "datasheets.tdx.henkel.com",
+        "api.henkeldx.com"
+      ],
+      "sources": [
+        {
+          "label": "LePage official product catalog",
+          "url": "https://www.lepage.ca/en/products.html",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 25,
+          "maxUrls": 160,
+          "includeRegex": [
+            "/products/central-pdp.html/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Adhesive|Epoxy|Cement|PL ?[0-9]|PL Premium|No More Nails|Extreme"
+          ],
+          "nameExcludeRegex": [
+            "Foam Cleaner|FunTak|Mounting Tape|Sealant|Caulk|Putty|Spackle|Foam|Filler|Remover"
+          ],
+          "extractTdsLinks": true,
+          "includeSds": true,
+          "tdsMaxPages": 160
+        },
+        {
+          "label": "LePage verified official glue and adhesive products",
+          "url": "https://www.lepage.ca/en/products.html",
+          "sourceType": "manual",
+          "kind": "product",
+          "manualProducts": [
+            {
+              "name": "LePage Express Wood Glue",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf",
+                  "label": "LePage Express Wood Glue Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Pro Carpenter’s Wood Glue",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf",
+                  "label": "LePage Pro Carpenter’s Wood Glue Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Extreme Glue",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf",
+                  "label": "LePage Extreme Glue Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Epoxy Steel",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
+                  "label": "LePage Epoxy Steel Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Epoxy Marine",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf",
+                  "label": "LePage Epoxy Marine Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage No More Nails All Purpose",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf",
+                  "label": "LePage No More Nails All Purpose Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage PL Premium Max",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf",
+                  "label": "LePage PL Premium Max Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Multi Purpose Wood Glue",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf",
+                  "label": "LePage Multi Purpose Wood Glue Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage PL Premium",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf",
+                  "label": "LePage PL Premium Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage PL Premium Fast Grab",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf",
+                  "label": "LePage PL Premium Fast Grab Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Outdoor Weatherproof Wood Glue",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-outdoor-weatherproof/SAP_0201FTL019Y4.html"
+            },
+            {
+              "name": "LePage Super Glue Gel Control",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf",
+                  "label": "LePage Super Glue Gel Control Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Super Glue Ultra Liquid Control",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf",
+                  "label": "LePage Super Glue Ultra Liquid Control Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Super Glue Ultra Gel Control",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf",
+                  "label": "LePage Super Glue Ultra Gel Control Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Super Glue Liquid Pro",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf",
+                  "label": "LePage Super Glue Liquid Pro Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Super Glue Longneck Bottle",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf",
+                  "label": "LePage Super Glue Longneck Bottle Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Super Glue All Plastics",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf",
+                  "label": "LePage Super Glue All Plastics Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Epoxy Speed Set Instant Mix",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf",
+                  "label": "LePage Epoxy Speed Set Instant Mix Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage PL200 Drywall",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
+                  "label": "LePage PL200 Drywall Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage PL400 Subfloor & Deck",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+              "tdsDocuments": [
+                {
+                  "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+                  "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
+                  "documentType": "TDS"
+                }
+              ]
+            },
+            {
+              "name": "LePage Epoxy Gel",
+              "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-gel/SAP_0201OIL01130.html"
+            }
+          ]
         }
       ]
     }

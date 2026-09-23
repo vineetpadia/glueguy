@@ -17,6 +17,7 @@ MCMASTER_CATALOG_PATH = ROOT / "data" / "mcmaster-site-catalog.js"
 REPORT_PATH = ROOT / "data" / "autonomous-research-report.json"
 CACHE_MANIFEST_PATH = ROOT / "data" / "tds-cache-manifest.json"
 EXTRACTION_SUGGESTIONS_PATH = ROOT / "data" / "tds-extraction-suggestions.json"
+OFFICIAL_LEADS_PATH = ROOT / "data" / "autonomous-discovered-products.json"
 OUTPUT_PATH = ROOT / "data" / "agent-catalog.json"
 
 DECISION_FIELDS = [
@@ -308,6 +309,58 @@ def product_record(entry: dict, cache_index: dict[str, dict], extraction_index: 
     }
 
 
+def official_lead_record(entry: dict) -> dict:
+    """Expose official product discovery without implying its specs were reviewed."""
+    maker = normalize_space(entry.get("maker"))
+    name = normalize_space(entry.get("name"))
+    tds_documents = [doc for doc in entry.get("tdsDocuments", []) if doc.get("url")]
+    sds_documents = [doc for doc in entry.get("technicalDocuments", []) if doc.get("type") == "sds" and doc.get("url")]
+    lead_id = re.sub(r"[^a-z0-9]+", "-", f"{maker}-{name}".lower()).strip("-")
+    return {
+        "id": f"official-lead-{lead_id}",
+        "source": "official-manufacturer-lead",
+        "maker": maker,
+        "name": name,
+        "profile": None,
+        "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+        "applicationTags": [],
+        "referenceCategory": None,
+        "referenceForJoining": None,
+        "electricalBehaviorClass": "",
+        "specs": {},
+        "rankableSpecs": {},
+        "pricing": None,
+        "sources": {
+            "referenceUrl": entry.get("officialUrl"),
+            "tdsUrl": tds_documents[0].get("url") if tds_documents else None,
+            "tdsUrls": [doc["url"] for doc in tds_documents],
+            "sdsUrls": [doc["url"] for doc in sds_documents],
+            "productUrl": entry.get("officialUrl"),
+            "sourceLabel": entry.get("sourceLabel"),
+            "tdsCacheTextPath": None,
+            "sourceQuality": "official-manufacturer-lead",
+        },
+        "coverage": {
+            "decision": 0,
+            "electronics": 0,
+            "decisionValueCoverage": 0,
+            "electronicsValueCoverage": 0,
+            "decisionFieldsPresent": [],
+            "electronicsFieldsPresent": [],
+            "decisionFieldsMissing": DECISION_FIELDS,
+            "electronicsFieldsMissing": ELECTRONICS_FIELDS,
+            "decisionFieldsVerifiedAbsent": [],
+            "electronicsFieldsVerifiedAbsent": [],
+            "decisionFieldsNotApplicable": [],
+            "electronicsFieldsNotApplicable": [],
+            "decisionFieldsAliasCovered": [],
+            "electronicsFieldsAliasCovered": [],
+        },
+        "agentNotes": ["Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."],
+        "extractionCandidates": [],
+    }
+
+
 def build_indexes(products: list[dict]) -> dict:
     by_maker: dict[str, list[str]] = {}
     by_application: dict[str, list[str]] = {}
@@ -328,6 +381,7 @@ def build_indexes(products: list[dict]) -> dict:
 def main() -> None:
     manual = json.loads(MANUAL_SOURCE_PATH.read_text(encoding="utf-8")).get("entries", [])
     mcmaster = load_window_json(MCMASTER_CATALOG_PATH, "MCMASTER_SITE_PRODUCTS")
+    official_leads = json.loads(OFFICIAL_LEADS_PATH.read_text(encoding="utf-8")).get("entries", [])
     report = json.loads(REPORT_PATH.read_text(encoding="utf-8")) if REPORT_PATH.exists() else {}
     cache_index = build_cache_index()
     extraction_index = build_extraction_index()
@@ -336,6 +390,13 @@ def main() -> None:
         *(product_record(entry, cache_index, extraction_index, "manual-tds") for entry in manual),
         *(product_record(entry, cache_index, extraction_index, "mcmaster-derived") for entry in mcmaster),
     ]
+    known_products = {(normalize_space(row.get("maker")).casefold(), normalize_space(row.get("name")).casefold()) for row in products}
+    for entry in official_leads:
+        key = (normalize_space(entry.get("maker")).casefold(), normalize_space(entry.get("name")).casefold())
+        if not key[0] or not key[1] or key in known_products:
+            continue
+        products.append(official_lead_record(entry))
+        known_products.add(key)
     products.sort(key=lambda row: (normalize_space(row.get("maker")).lower(), normalize_space(row.get("name")).lower(), row["id"]))
 
     payload = {
@@ -348,11 +409,13 @@ def main() -> None:
             "If a required field is listed under coverage.*FieldsMissing, report it as unavailable instead of backfilling from profile defaults.",
             "Treat coverage.*FieldsVerifiedAbsent as source-checked omissions and coverage.*FieldsNotApplicable as excluded from behavior-specific scoring.",
             "Use sources.tdsCacheTextPath or sources.tdsUrl for evidence lookup before high-stakes recommendations.",
+            "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed.",
         ],
         "stats": {
             "products": len(products),
             "manualTdsProducts": len(manual),
             "mcmasterDerivedProducts": len(mcmaster),
+            "officialManufacturerLeads": sum(1 for product in products if product["source"] == "official-manufacturer-lead"),
             "productsWithExtractionCandidates": sum(1 for product in products if product["extractionCandidates"]),
             "auditStats": report.get("stats", {}),
         },

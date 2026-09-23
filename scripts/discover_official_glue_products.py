@@ -190,6 +190,16 @@ def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | Non
     return results
 
 
+def extract_titebond_print_tds(product_url: str, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
+    """Resolve Titebond's explicit 'Get TDS' link to its printable technical sheet."""
+    match = re.search(r"/product/(?:glues|adhesives)/([0-9a-f-]+)", product_url, re.I)
+    if not match:
+        return []
+    print_url = f"https://www.titebond.com/print/product/{match.group(1)}"
+    # The manufacturer's product page exposes this route as its Get TDS action.
+    return [{"url": print_url, "label": "Titebond Technical Data Sheet", "documentType": "TDS"}]
+
+
 def extract_tds_catalog_links(source: dict, allowed_domains: list[str], manufacturer_name: str) -> list[dict]:
     """Discover TDS PDFs from explicitly configured official document-library pages.
 
@@ -527,7 +537,7 @@ def dedupe_entries(entries: list[dict]) -> list[dict]:
             continue
         key = (normalize_text(entry.get("maker")), normalize_text(name))
         url_key = product_url_identity(entry.get("officialUrl"))
-        if key in seen_names or (url_key and url_key in seen_urls):
+        if key in seen_names or (url_key and url_key in seen_urls and not entry.get("allowSharedSourceUrl")):
             continue
         seen_names.add(key)
         if url_key:
@@ -571,6 +581,34 @@ def discover() -> dict:
             name_require_patterns = compile_patterns(source.get("nameRequireRegex"))
             name_exclude_patterns = compile_patterns(source.get("nameExcludeRegex"))
             try:
+                manual_products = source.get("manualProducts", [])
+                if manual_products:
+                    manual_entries = []
+                    for product in manual_products:
+                        name = normalize_space(product.get("name"))
+                        if not name:
+                            continue
+                        record = {
+                            "maker": manufacturer["name"],
+                            "name": name,
+                            "officialUrl": product.get("officialUrl") or source["url"],
+                            "kind": product.get("kind", source.get("kind", "product")),
+                            "sourceLabel": source.get("label"),
+                            "allowSharedSourceUrl": True,
+                        }
+                        if product.get("technicalDocuments"):
+                            record["technicalDocuments"] = product["technicalDocuments"]
+                        if product.get("tdsDocuments"):
+                            record["tdsDocuments"] = product["tdsDocuments"]
+                        manual_entries.append(record)
+                    manufacturer_entries.extend(manual_entries)
+                    source_summaries.append({
+                        "label": source.get("label"),
+                        "url": source["url"],
+                        "matchedUrls": len(manual_entries),
+                        "discoveredEntries": len(manual_entries),
+                    })
+                    continue
                 timeout = source.get("requestTimeout", TIMEOUT)
                 transport = source.get("transport", "requests")
                 stream = bool(source.get("stream"))
@@ -701,7 +739,19 @@ def discover() -> dict:
                         timeout=tds_source.get("requestTimeout", TIMEOUT),
                         transport=tds_source.get("transport", "requests"),
                     )
-                    entry["tdsDocuments"] = [document for document in found_documents if document.get("documentType") != "SDS"]
+                    existing_tds_documents = list(entry.get("tdsDocuments", []))
+                    discovered_tds_documents = [document for document in found_documents if document.get("documentType") != "SDS"]
+                    if tds_source.get("extractTitebondPrintTds"):
+                        discovered_tds_documents.extend(extract_titebond_print_tds(
+                            entry["officialUrl"],
+                            timeout=tds_source.get("requestTimeout", TIMEOUT),
+                            transport=tds_source.get("transport", "requests"),
+                        ))
+                    entry["tdsDocuments"] = list({
+                        document.get("url"): document
+                        for document in [*existing_tds_documents, *discovered_tds_documents]
+                        if document.get("url")
+                    }.values())
                     safety_documents = [document for document in found_documents if document.get("documentType") == "SDS"]
                     if safety_documents:
                         entry["technicalDocuments"] = safety_documents

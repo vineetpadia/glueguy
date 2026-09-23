@@ -1,13 +1,13 @@
 {
   "generated_at": "2026-09-23T08:08:02.782832+00:00",
   "stats": {
-    "manufacturersConfigured": 36,
-    "discoveredEntries": 884,
-    "tdsDocumentsDiscovered": 60,
-    "tdsDocumentsLinked": 90,
+    "manufacturersConfigured": 38,
+    "discoveredEntries": 934,
+    "tdsDocumentsDiscovered": 129,
+    "tdsDocumentsLinked": 154,
     "previousEntriesPreserved": 104,
     "previousTdsEntriesPreserved": 8,
-    "technicalDocumentsLinked": 12
+    "technicalDocumentsLinked": 20
   },
   "manufacturers": [
     {
@@ -265,6 +265,26 @@
           "url": "https://krazyglue.com/collections/all",
           "matchedUrls": 18,
           "discoveredEntries": 9
+        }
+      ]
+    },
+    {
+      "name": "LePage",
+      "priority": "high",
+      "officialDomains": [
+        "lepage.ca",
+        "datasheets.tdx.henkel.com",
+        "api.henkeldx.com"
+      ],
+      "discoveredEntries": 21,
+      "tdsDocumentsDiscovered": 19,
+      "sources": [
+        {
+          "label": "LePage official product catalog",
+          "url": "https://www.lepage.ca/en/products.html",
+          "matchedUrls": 21,
+          "discoveredEntries": 21,
+          "manualVerification": "21 manufacturer-listed adhesive products are curated; 19 include official technical data sheets."
         }
       ]
     },
@@ -629,14 +649,22 @@
       "officialDomains": [
         "titebond.com"
       ],
-      "discoveredEntries": 24,
-      "tdsDocumentsDiscovered": 0,
+      "discoveredEntries": 45,
+      "tdsDocumentsDiscovered": 45,
       "sources": [
         {
           "label": "Titebond glues catalog",
           "url": "https://www.titebond.com/all/glues",
-          "matchedUrls": 60,
-          "discoveredEntries": 40
+          "matchedUrls": 24,
+          "discoveredEntries": 24,
+          "tdsDocumentsDiscovered": 24
+        },
+        {
+          "label": "Titebond construction adhesives catalog",
+          "url": "https://www.titebond.com/all/adhesives",
+          "matchedUrls": 21,
+          "discoveredEntries": 21,
+          "tdsDocumentsDiscovered": 21
         }
       ]
     },
@@ -710,6 +738,23 @@
           "matchedUrls": 18,
           "discoveredEntries": 18,
           "manualVerification": "All 18 current official catalog entries recorded; product identities and stock IDs verified. Official catalog exposes SDS for several, not TDS for the household/craft products."
+        }
+      ]
+    },
+    {
+      "name": "Barge",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "discoveredEntries": 8,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Barge official contact cement catalog",
+          "url": "https://www.bargeadhesive.com/products.html",
+          "matchedUrls": 8,
+          "discoveredEntries": 8
         }
       ]
     }
@@ -10938,7 +10983,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/9059d175-2198-4bbe-90d1-f2406dd7049a",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/9059d175-2198-4bbe-90d1-f2406dd7049a",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -10950,7 +11001,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/ce6a01c6-e907-4088-8bcb-b1c7d687da52",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -10962,7 +11019,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/cf857a79-9922-49df-a160-bfe23df42c2a",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -10974,7 +11037,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/35c28e98-b180-4028-a7f8-c83a567bed1b",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/35c28e98-b180-4028-a7f8-c83a567bed1b",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -10986,7 +11055,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/59d79143-2116-4229-bd02-a47678325f21",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/59d79143-2116-4229-bd02-a47678325f21",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -10998,7 +11073,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/0c432f73-dd8c-40de-8734-68eaf96f8e71",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/0c432f73-dd8c-40de-8734-68eaf96f8e71",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11010,7 +11091,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11022,7 +11109,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/956e0030-cd56-406e-9873-ec9e5af5fca4",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/956e0030-cd56-406e-9873-ec9e5af5fca4",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11034,7 +11127,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/fdb9c5cb-15b3-49b3-b709-5794cc3ae102",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/fdb9c5cb-15b3-49b3-b709-5794cc3ae102",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11046,7 +11145,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/cd34dfc4-2241-4e5c-962e-af426a169bec",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/cd34dfc4-2241-4e5c-962e-af426a169bec",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11058,7 +11163,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/3262a6f9-50bd-4214-8a22-29886a6fe105",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/3262a6f9-50bd-4214-8a22-29886a6fe105",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11070,7 +11181,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11082,7 +11199,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11094,7 +11217,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11106,7 +11235,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/21051713-5cce-4925-a653-3bff0a0f71ab",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11118,7 +11253,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/fbd42020-a590-4228-844a-0ef245db4dc7",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/fbd42020-a590-4228-844a-0ef245db4dc7",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11130,7 +11271,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11142,7 +11289,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11154,7 +11307,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/c9121dfd-2a9d-46d0-bd6d-c183e64bd0cd",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11166,7 +11325,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/d4d28015-603f-4dfc-a7d9-f684acc71207",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11178,7 +11343,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11190,7 +11361,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/1f1dafb3-eec8-4f9a-87fe-06f40d4c47df",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/1f1dafb3-eec8-4f9a-87fe-06f40d4c47df",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11202,7 +11379,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/e06720fc-44f9-42b2-8c5c-77e7d85cf624",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/e06720fc-44f9-42b2-8c5c-77e7d85cf624",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11214,7 +11397,13 @@
       "officialUrl": "https://www.titebond.com/product/glues/c944de78-f0a8-4180-b75e-026994aba708",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/c944de78-f0a8-4180-b75e-026994aba708",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "titebond.com"
@@ -11917,6 +12106,816 @@
       ],
       "tdsDocuments": [],
       "sourceNote": "Official catalog stock number: B10013732"
+    },
+    {
+      "maker": "Titebond",
+      "name": "PROvantage Heavy Duty Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/c7bd0bd7-59b4-4f90-a4e4-150f8caed5f1",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/c7bd0bd7-59b4-4f90-a4e4-150f8caed5f1",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "PROvantage Landscape Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/d593f33d-309b-4cfa-a997-46ec883fa207",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/d593f33d-309b-4cfa-a997-46ec883fa207",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "PROvantage Subfloor Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/ef6cc010-fde1-47f1-9e8c-f4334bac4635",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/ef6cc010-fde1-47f1-9e8c-f4334bac4635",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Acoustical Ceiling Tile Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/8f89eeb0-1722-4e99-a25a-06a268db47d0",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/8f89eeb0-1722-4e99-a25a-06a268db47d0",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond All Purpose Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/147e2569-96ef-4bcb-b517-07ce510e8a3d",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/147e2569-96ef-4bcb-b517-07ce510e8a3d",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Contractor Grade Drywall Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/23dc069f-5b09-4919-b37d-ef3b28b0ca97",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/23dc069f-5b09-4919-b37d-ef3b28b0ca97",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Contractor Grade Heavy Duty Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/e3f2f250-4ac9-4928-9f19-4b5f18b02760",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/e3f2f250-4ac9-4928-9f19-4b5f18b02760",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Contractor Grade Projects Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/c710917a-5b54-4023-8501-3588f9e0f933",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/c710917a-5b54-4023-8501-3588f9e0f933",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Contractor Grade Subfloor Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/954ead4e-20ac-4a63-90fd-df7e96e6b6be",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/954ead4e-20ac-4a63-90fd-df7e96e6b6be",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Cove Base Plus Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/7d02de5d-aea6-4a5b-8c31-d2dc89ba8778",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/7d02de5d-aea6-4a5b-8c31-d2dc89ba8778",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Drywall Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/fdaee9b3-420e-4423-9129-b42bc9a457bb",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/fdaee9b3-420e-4423-9129-b42bc9a457bb",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Drywall Plus Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/70e88413-be8d-413b-9df0-a951cd08865d",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/70e88413-be8d-413b-9df0-a951cd08865d",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Fast Grab FRP Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/b4b122ee-69f1-4172-b064-55c41b7fe900",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/b4b122ee-69f1-4172-b064-55c41b7fe900",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Fast Set Polyurethane Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/358ff037-60c2-4392-80cb-1b47b0b0e677",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Heavy Duty Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/f29013a3-8db0-4b81-b308-46eef40bd3c5",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/f29013a3-8db0-4b81-b308-46eef40bd3c5",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond PVC Trim Adhesive and Sealant",
+      "officialUrl": "https://www.titebond.com/product/adhesives/f63c53ea-c753-4139-ba10-cd61e9c63e46",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/f63c53ea-c753-4139-ba10-cd61e9c63e46",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond PVC Trim Joint Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/60116d27-44a6-4564-b8f7-806ef3c1e340",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/60116d27-44a6-4564-b8f7-806ef3c1e340",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Solvent-Based FRP Construction",
+      "officialUrl": "https://www.titebond.com/product/adhesives/60e6eb46-89e3-4da1-b259-f2c80266f3ac",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/60e6eb46-89e3-4da1-b259-f2c80266f3ac",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Subfloor Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/f4175eb6-0b08-4cb8-851c-4ede389a0377",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/f4175eb6-0b08-4cb8-851c-4ede389a0377",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond TiteGrab Plus Construction Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/0f44d2b8-ee8e-410d-9b74-7d5e67488d30",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/0f44d2b8-ee8e-410d-9b74-7d5e67488d30",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Titebond",
+      "name": "Titebond Ultimate Advanced Polymer Panel Adhesive",
+      "officialUrl": "https://www.titebond.com/product/adhesives/d20b39a8-adca-4ba0-86ee-0bd6cf34af3e",
+      "kind": "product",
+      "sourceLabel": "Titebond construction adhesives catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.titebond.com/print/product/d20b39a8-adca-4ba0-86ee-0bd6cf34af3e",
+          "label": "Titebond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "titebond.com"
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge All Purpose Original Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc001_dc031_dc111_dc115.pdf",
+          "label": "Barge All Purpose Original Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge All Purpose TF Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/da071_da081.pdf",
+          "label": "Barge All Purpose TF Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge All Purpose TF Clear Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_ap_tf_clear_%28da060%2C_da061%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge All Purpose TF Clear Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge Infinity Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc900_dc901.pdf",
+          "label": "Barge Infinity Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge Rubber Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_rubber_cement_tf_%28da020%2C_da025%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Rubber Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge Super Bond Fast-Dry Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_fast_dry_tf_%28da050%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Super Bond Fast-Dry Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge Super Speed Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_speed_tf_da010_quabaug_-_ghs_hazcom_-_v4.2.1english_us.pdf",
+          "label": "Barge Super Speed Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "Barge",
+      "name": "Barge Super Stik Cement",
+      "officialUrl": "https://www.bargeadhesive.com/products.html",
+      "kind": "product",
+      "sourceLabel": "Barge official contact cement catalog",
+      "priority": "high",
+      "officialDomains": [
+        "bargeadhesive.com"
+      ],
+      "allowSharedSourceUrl": true,
+      "technicalDocuments": [
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_stik_tf_%28da030%2C_da035%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Super Stik Cement Safety Data Sheet",
+          "documentType": "SDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Express Wood Glue",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf",
+          "label": "LePage Express Wood Glue Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Pro Carpenter’s Wood Glue",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf",
+          "label": "LePage Pro Carpenter’s Wood Glue Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Extreme Glue",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf",
+          "label": "LePage Extreme Glue Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Epoxy Steel",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
+          "label": "LePage Epoxy Steel Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Epoxy Marine",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf",
+          "label": "LePage Epoxy Marine Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage No More Nails All Purpose",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf",
+          "label": "LePage No More Nails All Purpose Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL Premium Max",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf",
+          "label": "LePage PL Premium Max Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Multi Purpose Wood Glue",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf",
+          "label": "LePage Multi Purpose Wood Glue Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL Premium",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf",
+          "label": "LePage PL Premium Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL Premium Fast Grab",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf",
+          "label": "LePage PL Premium Fast Grab Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Outdoor Weatherproof Wood Glue",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-outdoor-weatherproof/SAP_0201FTL019Y4.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products"
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue Gel Control",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf",
+          "label": "LePage Super Glue Gel Control Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue Ultra Liquid Control",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf",
+          "label": "LePage Super Glue Ultra Liquid Control Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue Ultra Gel Control",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf",
+          "label": "LePage Super Glue Ultra Gel Control Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue Liquid Pro",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf",
+          "label": "LePage Super Glue Liquid Pro Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue Longneck Bottle",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf",
+          "label": "LePage Super Glue Longneck Bottle Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Super Glue All Plastics",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf",
+          "label": "LePage Super Glue All Plastics Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Epoxy Speed Set Instant Mix",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf",
+          "label": "LePage Epoxy Speed Set Instant Mix Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL200 Drywall",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
+          "label": "LePage PL200 Drywall Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL400 Subfloor & Deck",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+          "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage Epoxy Gel",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-gel/SAP_0201OIL01130.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products"
     }
   ]
 }

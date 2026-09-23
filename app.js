@@ -5866,18 +5866,28 @@ function ingestOfficialProductLeads(entries) {
     .filter((entry) => entry?.name && safeSourceUrl(entry.officialUrl))
     .map((entry) => {
       const tdsDocuments = (entry.tdsDocuments ?? []).filter((document) => safeSourceUrl(document?.url));
+      const sdsDocuments = (entry.technicalDocuments ?? [])
+        .filter((document) => document?.documentType === "SDS" && safeSourceUrl(document?.url));
       return {
         id: `lead-${normalizeLeadIdentity(entry.maker)}-${normalizeLeadIdentity(entry.name)}`.replaceAll(" ", "-"),
         maker: entry.maker || "Manufacturer not reported",
         name: entry.name,
         summary: tdsDocuments.length
           ? "An official manufacturer product page and technical data sheet are linked. Product-specific specifications have not yet been reviewed for Glueguy’s selector."
-          : "This product appears in an official manufacturer catalog. Product-specific technical specifications have not yet been reviewed for Glueguy’s selector.",
+          : sdsDocuments.length
+            ? "An official manufacturer product page and safety data sheet are linked. Product-specific performance specifications have not yet been reviewed for Glueguy’s selector."
+            : "This product appears in an official manufacturer catalog. Product-specific technical specifications have not yet been reviewed for Glueguy’s selector.",
         productUrl: entry.officialUrl,
         tdsDocuments,
         tdsUrl: tdsDocuments[0]?.url,
+        sdsDocuments,
+        sdsUrl: sdsDocuments[0]?.url,
         sourceLabel: entry.sourceLabel || "Official manufacturer discovery",
-        catalogEvidenceLevel: tdsDocuments.length ? "Manufacturer product page + TDS linked" : "Manufacturer-listed lead",
+        catalogEvidenceLevel: tdsDocuments.length
+          ? "Manufacturer product page + TDS linked"
+          : sdsDocuments.length
+            ? "Manufacturer product page + SDS linked"
+            : "Manufacturer-listed lead",
         applicationTags: [],
       };
     })
@@ -5918,7 +5928,8 @@ function renderReferenceLibrary() {
   const leadsWithTds = OFFICIAL_PRODUCT_LEADS.filter((product) => product.tdsDocuments?.length);
   const tdsLinkedLeadCount = leadsWithTds.length;
   const tdsLinkedMakerCount = new Set(leadsWithTds.map((product) => product.maker)).size;
-  const tdsCoverageSummary = `${tdsLinkedLeadCount} official leads with TDS across ${tdsLinkedMakerCount} makers`;
+  const sdsLinkedLeadCount = OFFICIAL_PRODUCT_LEADS.filter((product) => product.sdsDocuments?.length).length;
+  const tdsCoverageSummary = `${tdsLinkedLeadCount} official leads with TDS across ${tdsLinkedMakerCount} makers • ${sdsLinkedLeadCount} with SDS`;
   referenceContext.textContent = visibleProducts.length
     ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsCoverageSummary}`
     : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsCoverageSummary} • Search product, maker, or use case`;
@@ -5950,6 +5961,8 @@ function renderReferenceLibrary() {
     if (part) productCell.append(makeText("p", "table-note", `Part ${part}`));
     if (product.catalogEvidenceLevel === "Manufacturer product page + TDS linked") {
       productCell.append(makeText("p", "table-note", "Manufacturer TDS linked; specs not yet curated"));
+    } else if (product.catalogEvidenceLevel === "Manufacturer product page + SDS linked") {
+      productCell.append(makeText("p", "table-note", "Manufacturer SDS linked; performance specs not yet curated"));
     }
 
     const applicationsCell = document.createElement("td");
@@ -6081,6 +6094,10 @@ function productSourceLinks(product) {
   (product.tdsDocuments ?? []).forEach((document, index) => {
     const label = product.tdsDocuments.length > 1 ? `TDS ${index + 1}` : "TDS";
     add(document?.url, label, "Manufacturer technical data sheet", "tds");
+  });
+  (product.sdsDocuments ?? []).forEach((document, index) => {
+    const label = product.sdsDocuments.length > 1 ? `SDS ${index + 1}` : "SDS";
+    add(document?.url, label, "Manufacturer safety data sheet", "sds");
   });
   add(product.tdsUrl, "TDS", "Manufacturer technical data sheet", "tds");
   add(

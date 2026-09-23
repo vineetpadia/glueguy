@@ -149,6 +149,7 @@ node --check app.min.js
 - `data/autonomous-research-seeds.json` defines target manufacturers and products.
 - `data/autonomous-discovery-config.json` defines which official sitemap surfaces should be mined automatically.
 - `scripts/discover_official_glue_products.py` expands the backlog from official manufacturer surfaces.
+- For manufacturers whose sources enable `extractTdsLinks`, discovery visits product pages, finds official links labelled as TDS/technical documentation, and records those URLs alongside each product lead. The cache step downloads those documents and extracts local text, and the candidate step mines them into a review queue. Candidate values stay separate from curated catalog facts until reviewed.
 - `scripts/run_glue_autoresearch.py` executes one measurable discovery-plus-audit experiment and appends it to `data/autonomous-results.tsv`.
 - `scripts/autonomous_glue_research.py` merges curated seeds plus discovered official leads into a ranked backlog report.
 

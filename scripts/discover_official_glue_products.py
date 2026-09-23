@@ -236,7 +236,7 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
             return None
         return normalize_space(" ".join(tokens))
     if strategy == "loctiteCentralPdpSlug":
-        match = re.search(r"/products/central-pdp\.html/([^/]+)/", url, re.I)
+        match = re.search(r"/products/central-pdp\\.html/([^/]+)/", url, re.I)
         if not match:
             return None
         slug = match.group(1).strip().lower()
@@ -247,7 +247,21 @@ def derive_name_from_url(url: str, strategy: str) -> str | None:
         for word in words:
             if word == "loctite":
                 titled.append("Loctite")
-            elif re.fullmatch(r"\d+[a-z]*", word):
+            elif re.fullmatch(r"\\d+[a-z]*", word):
+                titled.append(word.upper())
+            else:
+                titled.append(word.capitalize())
+        return normalize_space(" ".join(titled))
+    if strategy == "slugTitleCase":
+        slug = url.rstrip("/").split("/")[-1].lower()
+        words = [word for word in re.split(r"[-_]+", slug) if word]
+        if not words:
+            return None
+        titled = []
+        for word in words:
+            if re.fullmatch(r"[a-z]{1,4}", word) and word not in {"glue", "bond", "tack", "fast", "foam"}:
+                titled.append(word.upper())
+            elif re.fullmatch(r"\\d+[a-z]*", word):
                 titled.append(word.upper())
             else:
                 titled.append(word.capitalize())

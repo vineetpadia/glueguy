@@ -430,6 +430,13 @@ def dedupe_entries(entries: list[dict]) -> list[dict]:
 
 def discover() -> dict:
     config = json.loads(CONFIG_PATH.read_text())
+    previous = json.loads(OUTPUT_PATH.read_text()) if OUTPUT_PATH.exists() else {}
+    previous_entries = previous.get("entries", [])
+    previous_tds = {
+        (normalize_text(entry.get("maker")), normalize_text(entry.get("name"))): entry
+        for entry in previous_entries
+        if entry.get("maker") and entry.get("name") and entry.get("tdsDocuments")
+    }
     discovered: list[dict] = []
     manufacturers_summary = []
     manufacturers = sorted(
@@ -546,6 +553,21 @@ def discover() -> dict:
                 )
 
         deduped = dedupe_entries(manufacturer_entries)
+        for entry in deduped:
+            key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
+            previous_entry = previous_tds.get(key)
+            if previous_entry:
+                documents = [
+                    *entry.get("tdsDocuments", []),
+                    *previous_entry.get("tdsDocuments", []),
+                ]
+                seen_documents = set()
+                entry["tdsDocuments"] = [
+                    document for document in documents
+                    if document.get("url") and not (
+                        document["url"] in seen_documents or seen_documents.add(document["url"])
+                    )
+                ]
         tds_documents_found = 0
         if any(source.get("extractTdsLinks") for source in manufacturer.get("sources", [])):
             tds_source = next(source for source in manufacturer["sources"] if source.get("extractTdsLinks"))
@@ -577,6 +599,18 @@ def discover() -> dict:
             }
         )
 
+    discovered_keys = {
+        (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
+        for entry in discovered
+    }
+    preserved_tds_entries = 0
+    for entry in previous_entries:
+        key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
+        if entry.get("tdsDocuments") and key not in discovered_keys:
+            discovered.append(entry)
+            discovered_keys.add(key)
+            preserved_tds_entries += 1
+
     discovered.sort(key=lambda entry: (normalize_text(entry["maker"]), normalize_text(entry["name"])))
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -584,6 +618,8 @@ def discover() -> dict:
             "manufacturersConfigured": len(config.get("manufacturers", [])),
             "discoveredEntries": len(discovered),
             "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
+            "tdsDocumentsLinked": sum(len(entry.get("tdsDocuments", [])) for entry in discovered),
+            "previousTdsEntriesPreserved": preserved_tds_entries,
         },
         "manufacturers": manufacturers_summary,
         "entries": discovered,

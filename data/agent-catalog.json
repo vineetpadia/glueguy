@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T20:55:23.030651+00:00",
+  "generatedAt": "2026-09-23T20:59:54.915186+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,10 +11,10 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1696,
+    "products": 1698,
     "manualTdsProducts": 553,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 715,
+    "officialManufacturerLeads": 717,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -1517,7 +1517,9 @@
         "official-lead-permatex-head-gasket-repair",
         "official-lead-permatex-permatex-5-minute-epoxy-10500-6ml-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-black-cut-gasket-coating-2-oz-80012-woocommerce-variation-price-display-none-important",
+        "official-lead-permatex-permatex-black-silicone-adhesive-sealant",
         "official-lead-permatex-permatex-black-super-weatherstrip-adhesive-81852-2-oz-woocommerce-variation-price-display-none-important",
+        "official-lead-permatex-permatex-clear-rtv-silicone-adhesive-sealant",
         "official-lead-permatex-permatex-grey-cut-gasket-coating-2-oz-80013-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-head-gasket-repair-stop-leak-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-home-fiberglass-porcelain-plastic-repair-kit-90217-woocommerce-variation-price-display-none-important",
@@ -7145,7 +7147,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 715,
+      "official-manufacturer-lead": 717,
       "official-tds-url": 286,
       "product-or-catalog-page": 178
     }
@@ -132798,6 +132800,221 @@
         "sdsUrls": [],
         "productUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml/",
         "sourceLabel": "Permatex adhesives and sealants",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-permatex-permatex-black-silicone-adhesive-sealant",
+      "source": "official-manufacturer-lead",
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Black Silicone Adhesive Sealant",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/tds/81158.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+            "label": "Permatex Black Silicone Adhesive Sealant Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2019",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "81158",
+              "81173"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Single-component, moisture-curing RTV oxime silicone rubber; general-purpose adhesive sealant.",
+              "appearance": "Black non-sag paste; specific gravity 1.42.",
+              "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+              "hardness": ">18 Shore A after 7 days at 25\u00b0C/50% RH.",
+              "elongation": ">350%.",
+              "tensileStrength": ">1.2 N/mm\u00b2 (>170 psi).",
+              "serviceTemperature": "Continuous \u221275\u00b0F to +450\u00b0F; intermittent \u221275\u00b0F to +500\u00b0F.",
+              "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+              "cautions": "TDS says not recommended for engine gasketing applications.",
+              "productCodes": "Ordering information: 81158 (3 oz tube) and 81173 (11 oz cartridge)."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+        "sourceLabel": "Permatex official product catalog",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-permatex-permatex-clear-rtv-silicone-adhesive-sealant",
+      "source": "official-manufacturer-lead",
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Clear RTV Silicone Adhesive Sealant",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/tds/80855.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+            "label": "Permatex Clear RTV Silicone Adhesive Sealant Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2019",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "80050",
+              "80855",
+              "85913"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Single-component, moisture-curing acetoxy silicone rubber RTV adhesive sealant.",
+              "appearance": "Clear non-sag paste; specific gravity 1.01.",
+              "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+              "hardness": ">20 Shore A after 7 days at 25\u00b0C/50% RH.",
+              "elongation": ">350%.",
+              "tensileStrength": ">1.5 N/mm\u00b2 (>218 psi).",
+              "serviceTemperature": "Continuous \u221275\u00b0F to +400\u00b0F; intermittent \u221275\u00b0F to +500\u00b0F.",
+              "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+              "cautions": "TDS notes the curing process can corrode some surfaces; use the Ultra Series silicones for critical applications.",
+              "productCodes": "Ordering information: 80050 (3 oz tube), 80855 (11 oz cartridge), and 85913 (7.25 oz PowerBead)."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+        "sourceLabel": "Permatex official product catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },

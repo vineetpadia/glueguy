@@ -2,9 +2,9 @@
   "generated_at": "2026-09-23T20:06:44.417417+00:00",
   "stats": {
     "manufacturersConfigured": 38,
-    "discoveredEntries": 1000,
-    "tdsDocumentsDiscovered": 42,
-    "tdsDocumentsLinked": 620,
+    "discoveredEntries": 1002,
+    "tdsDocumentsDiscovered": 44,
+    "tdsDocumentsLinked": 622,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -170,9 +170,9 @@
       "productsWithSds": 0
     },
     "Permatex": {
-      "productLeads": 21,
-      "productsWithTds": 4,
-      "tdsDocuments": 4,
+      "productLeads": 23,
+      "productsWithTds": 6,
+      "tdsDocuments": 6,
       "productsWithSds": 0
     },
     "Pidilite": {
@@ -19719,6 +19719,92 @@
         "permatex.com"
       ],
       "manufacturerPartNumber": "21309"
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex® Black Silicone Adhesive Sealant",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+      "kind": "product",
+      "sourceLabel": "Permatex official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "manufacturerPartNumber": "81158",
+      "manufacturerPartNumbers": [
+        "81158",
+        "81173"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+          "label": "Permatex Black Silicone Adhesive Sealant Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2019",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "81158",
+            "81173"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Single-component, moisture-curing RTV oxime silicone rubber; general-purpose adhesive sealant.",
+            "appearance": "Black non-sag paste; specific gravity 1.42.",
+            "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+            "hardness": ">18 Shore A after 7 days at 25°C/50% RH.",
+            "elongation": ">350%.",
+            "tensileStrength": ">1.2 N/mm² (>170 psi).",
+            "serviceTemperature": "Continuous −75°F to +450°F; intermittent −75°F to +500°F.",
+            "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+            "cautions": "TDS says not recommended for engine gasketing applications.",
+            "productCodes": "Ordering information: 81158 (3 oz tube) and 81173 (11 oz cartridge)."
+          }
+        }
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex® Clear RTV Silicone Adhesive Sealant",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+      "kind": "product",
+      "sourceLabel": "Permatex official product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "manufacturerPartNumber": "80050",
+      "manufacturerPartNumbers": [
+        "80050",
+        "80855",
+        "85913"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+          "label": "Permatex Clear RTV Silicone Adhesive Sealant Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2019",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "80050",
+            "80855",
+            "85913"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Single-component, moisture-curing acetoxy silicone rubber RTV adhesive sealant.",
+            "appearance": "Clear non-sag paste; specific gravity 1.01.",
+            "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+            "hardness": ">20 Shore A after 7 days at 25°C/50% RH.",
+            "elongation": ">350%.",
+            "tensileStrength": ">1.5 N/mm² (>218 psi).",
+            "serviceTemperature": "Continuous −75°F to +400°F; intermittent −75°F to +500°F.",
+            "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+            "cautions": "TDS notes the curing process can corrode some surfaces; use the Ultra Series silicones for critical applications.",
+            "productCodes": "Ordering information: 80050 (3 oz tube), 80855 (11 oz cartridge), and 85913 (7.25 oz PowerBead)."
+          }
+        }
+      ]
     }
   ]
 }

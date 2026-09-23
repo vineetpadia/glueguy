@@ -1,10 +1,40 @@
 {
-  "generatedAt": "2026-09-23T20:52:57.674061+00:00",
+  "generatedAt": "2026-09-23T20:59:54.338597+00:00",
   "source": "Permatex official TDS PDFs; text reviewed and technical evidence transcribed directly",
-  "pdfCount": 3,
-  "pdfsResolved": 3,
-  "documentsWithText": 3,
+  "pdfCount": 6,
+  "pdfsResolved": 6,
+  "documentsWithText": 6,
   "documents": [
+    {
+      "maker": "Permatex",
+      "productCodes": [
+        "10500"
+      ],
+      "sourceUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+      "pdfUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+      "httpStatus": 200,
+      "pageCount": 1,
+      "title": "Permatex 5 Minute Epoxy Technical Data Sheet",
+      "revisionDate": "February 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Two-part rapid-curing general-purpose epoxy; epoxy resin; 1:1 mix ratio by volume.",
+        "workLife": "Working time: 4–6 minutes.",
+        "setTime": "Fixture time: 8–10 minutes; may be handled after 15 minutes.",
+        "appearance": "Final color: clear to slightly yellow.",
+        "viscosity": "10,000–20,000 mPa·s at 25°C.",
+        "serviceTemperature": "−40°F to +176°F (−40°C to +80°C).",
+        "shearStrength": "1,200 PSI.",
+        "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
+      },
+      "targets": [
+        {
+          "name": "Permatex 5 Minute Epoxy 10500 6ml",
+          "officialProductUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
+          "manufacturerPartNumber": "10500"
+        }
+      ]
+    },
     {
       "maker": "Permatex",
       "productCodes": [
@@ -87,6 +117,80 @@
           "name": "Permatex® Ultra Bond Super Glue, 5 g",
           "officialProductUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
           "manufacturerPartNumber": "21309"
+        }
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "productCodes": [
+        "81158",
+        "81173"
+      ],
+      "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+      "pdfUrl": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+      "httpStatus": 200,
+      "pageCount": 2,
+      "title": "Permatex Black Silicone Adhesive Sealant Technical Data Sheet",
+      "revisionDate": "February 2019",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Single-component, moisture-curing RTV oxime silicone rubber; general-purpose adhesive sealant.",
+        "appearance": "Black non-sag paste; specific gravity 1.42.",
+        "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+        "hardness": ">18 Shore A after 7 days at 25°C/50% RH.",
+        "elongation": ">350%.",
+        "tensileStrength": ">1.2 N/mm² (>170 psi).",
+        "serviceTemperature": "Continuous −75°F to +450°F; intermittent −75°F to +500°F.",
+        "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+        "cautions": "TDS says not recommended for engine gasketing applications.",
+        "productCodes": "Ordering information: 81158 (3 oz tube) and 81173 (11 oz cartridge)."
+      },
+      "targets": [
+        {
+          "name": "Permatex® Black Silicone Adhesive Sealant",
+          "officialProductUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+          "manufacturerPartNumbers": [
+            "81158",
+            "81173"
+          ]
+        }
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "productCodes": [
+        "80050",
+        "80855",
+        "85913"
+      ],
+      "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+      "pdfUrl": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+      "httpStatus": 200,
+      "pageCount": 2,
+      "title": "Permatex Clear RTV Silicone Adhesive Sealant Technical Data Sheet",
+      "revisionDate": "February 2019",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Single-component, moisture-curing acetoxy silicone rubber RTV adhesive sealant.",
+        "appearance": "Clear non-sag paste; specific gravity 1.01.",
+        "cureTime": "Tack-free in 1 hour; full cure in 24 hours.",
+        "hardness": ">20 Shore A after 7 days at 25°C/50% RH.",
+        "elongation": ">350%.",
+        "tensileStrength": ">1.5 N/mm² (>218 psi).",
+        "serviceTemperature": "Continuous −75°F to +400°F; intermittent −75°F to +500°F.",
+        "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
+        "cautions": "TDS notes the curing process can corrode some surfaces; use the Ultra Series silicones for critical applications.",
+        "productCodes": "Ordering information: 80050 (3 oz tube), 80855 (11 oz cartridge), and 85913 (7.25 oz PowerBead)."
+      },
+      "targets": [
+        {
+          "name": "Permatex® Clear RTV Silicone Adhesive Sealant",
+          "officialProductUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+          "manufacturerPartNumbers": [
+            "80050",
+            "80855",
+            "85913"
+          ]
         }
       ]
     }

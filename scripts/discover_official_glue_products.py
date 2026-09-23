@@ -546,9 +546,11 @@ def discover() -> dict:
                 )
 
         deduped = dedupe_entries(manufacturer_entries)
+        tds_documents_found = 0
         if any(source.get("extractTdsLinks") for source in manufacturer.get("sources", [])):
             tds_source = next(source for source in manufacturer["sources"] if source.get("extractTdsLinks"))
-            for entry in deduped:
+            max_pages = int(tds_source.get("tdsMaxPages", 20))
+            for entry in deduped[:max_pages]:
                 try:
                     entry["tdsDocuments"] = extract_tds_links(
                         entry["officialUrl"],
@@ -556,6 +558,7 @@ def discover() -> dict:
                         timeout=tds_source.get("requestTimeout", TIMEOUT),
                         transport=tds_source.get("transport", "requests"),
                     )
+                    tds_documents_found += len(entry["tdsDocuments"])
                 except Exception as exc:  # noqa: BLE001
                     entry["tdsDiscoveryError"] = f"{type(exc).__name__}: {exc}"
         for entry in deduped:
@@ -568,6 +571,7 @@ def discover() -> dict:
                 "priority": manufacturer.get("priority", "medium"),
                 "officialDomains": manufacturer.get("officialDomains", []),
                 "discoveredEntries": len(deduped),
+                "tdsDocumentsDiscovered": tds_documents_found,
                 "sources": source_summaries,
             }
         )
@@ -578,6 +582,7 @@ def discover() -> dict:
         "stats": {
             "manufacturersConfigured": len(config.get("manufacturers", [])),
             "discoveredEntries": len(discovered),
+            "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
         },
         "manufacturers": manufacturers_summary,
         "entries": discovered,

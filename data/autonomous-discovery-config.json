@@ -640,25 +640,30 @@
       "name": "Liquid Nails",
       "priority": "high",
       "officialDomains": [
-        "liquidnails.com"
+        "ppgpaints.com",
+        "buyat.ppg.com"
       ],
       "sources": [
         {
-          "label": "Liquid Nails adhesives",
-          "url": "https://www.liquidnails.com/products",
+          "label": "Liquid Nails product assortment",
+          "url": "https://www.ppgpaints.com/liquid-nails/all-products",
           "sourceType": "html",
           "kind": "product",
           "nameStrategy": "linkText",
           "requestTimeout": 20,
-          "maxUrls": 100,
+          "maxUrls": 150,
           "includeRegex": [
-            "/products/"
+            "/liquid-nails-products/",
+            "/products/adhesives-sealants/"
           ],
           "nameRequireRegex": [
-            "LN-|Fuze It|Heavy Duty|Subfloor|Paneling|Landscape"
+            "LIQUID NAILS|FUZE\\\\*IT|HEAVY DUTY|SUBFLOOR|LANDSCAPE|PANEL"
           ],
           "nameExcludeRegex": [
-            "caulk|sealant"
+            "caulk",
+            "sealant",
+            "remover",
+            "accessory"
           ]
         }
       ]

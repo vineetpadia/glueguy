@@ -4,7 +4,7 @@
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
     "curatedOfficialLeadsAdded": 84,
-    "tdsDocumentsDiscovered": 15
+    "tdsDocumentsDiscovered": 30
   },
   "manufacturers": [
     {
@@ -932,6 +932,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Industrial Technical Data Sheet — Clear & Black (Rev 3)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf"
+        }
       ]
     },
     {
@@ -943,6 +949,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Fabri-Fuse Technical Data Sheet (Rev 10)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf"
+        }
       ]
     },
     {
@@ -954,6 +966,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Fray Lock Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds/tds-e6000-fray-lock-us-ca-eu-me-arabic-au-nz-mex.pdf"
+        }
       ]
     },
     {
@@ -965,6 +983,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Jewelry & Bead Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-e6000-jewelry-and-bead-us-ca-eu-me-arabic.pdf"
+        }
       ]
     },
     {
@@ -976,6 +1000,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Plus Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds/plus/tds-e6000Plus-us-ca-eu.pdf"
+        }
       ]
     },
     {
@@ -987,6 +1017,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
       ]
     },
     {
@@ -998,6 +1034,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
       ]
     },
     {
@@ -1042,6 +1084,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6800 Industrial Technical Data Sheet (Rev 1)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
+        }
       ]
     },
     {
@@ -1053,6 +1101,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Extreme Tack Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-e6000-extreme-tack-english.pdf"
+        }
       ]
     },
     {
@@ -1064,6 +1118,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Seal-All Technical Data Sheet (current revision)",
+          "url": "https://eclecticproducts.com/wp-content/uploads/2024/02/SA-TDS-USA-CAN-MEX_5.25.23-Rev-01.pdf"
+        }
       ]
     },
     {
@@ -1075,6 +1135,12 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Shoe Goo Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-shoegoo-english.pdf"
+        }
       ]
     },
     {
@@ -6592,6 +6658,12 @@
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Shoe Goo Boots & Gloves Technical Data Sheet",
+          "url": "https://eclecticproducts.com/product/shoe-goo-boots-gloves/"
+        }
       ]
     },
     {
@@ -6614,6 +6686,12 @@
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Amazing GOOP All Purpose Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+        }
       ]
     },
     {
@@ -6625,6 +6703,12 @@
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Amazing GOOP Craft Technical Data Sheet",
+          "url": "https://eclecticproducts.com/downloads/tds-agap_agcr_qh_e6_craftmini.pdf"
+        }
       ]
     },
     {
@@ -6636,6 +6720,12 @@
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "E6000 Premium Technical Data Sheet (Rev 9)",
+          "url": "https://eclecticproducts.com/datasheet/e6000-premium-tds-usa_can_eu_aus-rev-9/"
+        }
       ]
     },
     {

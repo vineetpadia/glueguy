@@ -484,6 +484,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Gorilla",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "sources": [
+        {
+          "label": "Gorilla Glue & Adhesives catalog",
+          "url": "https://gorillatough.com/products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/product/"
+          ],
+          "nameRequireRegex": [
+            "gorilla|super glue|wood glue|epoxy|construction adhesive|craft glue|spray adhesive"
+          ],
+          "nameExcludeRegex": [
+            "tape",
+            "mounting",
+            "sealant",
+            "filler",
+            "spackle",
+            "caulk",
+            "foam",
+            "gun",
+            "cleaner",
+            "waterproofing",
+            "putty",
+            "coating",
+            "repair kit"
+          ]
+        }
+      ]
     }
   ]
 }

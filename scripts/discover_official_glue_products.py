@@ -561,6 +561,7 @@ def discover() -> dict:
                     tds_documents_found += len(entry["tdsDocuments"])
                 except Exception as exc:  # noqa: BLE001
                     entry["tdsDiscoveryError"] = f"{type(exc).__name__}: {exc}"
+                time.sleep(float(tds_source.get("tdsRequestIntervalSeconds", 0.15)))
         for entry in deduped:
             entry["priority"] = manufacturer.get("priority", "medium")
             entry["officialDomains"] = manufacturer.get("officialDomains", [])

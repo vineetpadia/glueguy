@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:44:13.715347+00:00",
+  "generatedAt": "2026-09-23T21:55:21.803029+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,10 +11,10 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1701,
+    "products": 1702,
     "manualTdsProducts": 553,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 720,
+    "officialManufacturerLeads": 721,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -199,6 +199,7 @@
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-2214-hi-temp-gray-6-fl-oz-cartridge-6-each-case",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-2214-non-metallic-filled-cream-5-9-fl-oz-cartridge-4-each-case",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-2216-gray",
+        "official-lead-3m-3m-scotch-weld-epoxy-adhesive-dp100-clear",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-dp100-plus",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-dp100lh",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-dp100lh-plus",
@@ -7150,7 +7151,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 720,
+      "official-manufacturer-lead": 721,
       "official-tds-url": 286,
       "product-or-catalog-page": 178
     }
@@ -15542,6 +15543,117 @@
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
         "sourceLabel": "3M Scotch-Weld category",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-3m-3m-scotch-weld-epoxy-adhesive-dp100-clear",
+      "source": "official-manufacturer-lead",
+      "maker": "3M",
+      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100, Clear",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000147556/",
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+            "label": "3M Scotch-Weld Epoxy Adhesive DP100 Clear Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "September 2024 (supersedes August 2024)",
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "DP100"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Two-part epoxy adhesive; cures rigid.",
+              "mixRatio": "1:1 by volume; 1:0.98 by weight (Part B:Part A).",
+              "appearance": "Clear uncured and cured.",
+              "openTime": "5 minutes.",
+              "workLife": "5 minutes for 10 g mixed at 23 \u00b0C.",
+              "setTime": "15\u201320 minutes at 23 \u00b0C to reach 0.3 MPa overlap shear strength.",
+              "cureTime": "Fully cures in 24\u201348 hours at 24 \u00b0C; heat up to 93 \u00b0C accelerates cure.",
+              "density": "Base 1.14\u20131.19 g/cm\u00b3; accelerator 1.10\u20131.15 g/cm\u00b3.",
+              "viscosity": "Base 8,000\u201315,000 cP and accelerator 9,000\u201316,000 cP at 27 \u00b0C.",
+              "lapShear": "After 7 days at 23 \u00b0C: aluminum 6.6 MPa, cold-rolled steel 6.9 MPa, stainless steel 5.2 MPa, galvanized steel 6.2 MPa; ASTM D1002 / ISO 4587.",
+              "compressionStrength": "58 MPa (ASTM D695).",
+              "hardness": "Shore D 82 (ASTM D2240).",
+              "peelStrength": "T-peel 4 N/cm on aluminum and cold-rolled steel after 7 days at 23 \u00b0C (ASTM D1876).",
+              "glassTransitionTemperature": "33 \u00b0C midpoint.",
+              "standard": "UL 94 HB."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/v000147556/",
+        "sourceLabel": "3M official DP100 Clear product page and TDS",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },

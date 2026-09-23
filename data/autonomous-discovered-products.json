@@ -2,10 +2,10 @@
   "generated_at": "2026-09-24T02:00:00+00:00",
   "stats": {
     "manufacturersConfigured": 38,
-    "discoveredEntries": 1005,
-    "tdsDocumentsDiscovered": 62,
-    "tdsDocumentsLinked": 640,
-    "technicalDocumentsLinked": 73,
+    "discoveredEntries": 1006,
+    "tdsDocumentsDiscovered": 63,
+    "tdsDocumentsLinked": 641,
+    "technicalDocumentsLinked": 74,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
     "previousTdsEntriesPreserved": 517
@@ -32,9 +32,9 @@
   ],
   "documentCoverageByManufacturer": {
     "3M": {
-      "productLeads": 47,
-      "productsWithTds": 33,
-      "tdsDocuments": 34,
+      "productLeads": 48,
+      "productsWithTds": 34,
+      "tdsDocuments": 35,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -20221,6 +20221,49 @@
             "hardness": "Shore A 35.",
             "elongation": "500%.",
             "serviceTemperature": "−10 to +80 °C."
+          }
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100, Clear",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147556/",
+      "kind": "product",
+      "sourceLabel": "3M official DP100 Clear product page and TDS",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "manufacturerPartNumber": "DP100",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+          "label": "3M Scotch-Weld Epoxy Adhesive DP100 Clear Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "September 2024 (supersedes August 2024)",
+          "pageCount": 5,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "DP100"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Two-part epoxy adhesive; cures rigid.",
+            "mixRatio": "1:1 by volume; 1:0.98 by weight (Part B:Part A).",
+            "appearance": "Clear uncured and cured.",
+            "openTime": "5 minutes.",
+            "workLife": "5 minutes for 10 g mixed at 23 °C.",
+            "setTime": "15–20 minutes at 23 °C to reach 0.3 MPa overlap shear strength.",
+            "cureTime": "Fully cures in 24–48 hours at 24 °C; heat up to 93 °C accelerates cure.",
+            "density": "Base 1.14–1.19 g/cm³; accelerator 1.10–1.15 g/cm³.",
+            "viscosity": "Base 8,000–15,000 cP and accelerator 9,000–16,000 cP at 27 °C.",
+            "lapShear": "After 7 days at 23 °C: aluminum 6.6 MPa, cold-rolled steel 6.9 MPa, stainless steel 5.2 MPa, galvanized steel 6.2 MPa; ASTM D1002 / ISO 4587.",
+            "compressionStrength": "58 MPa (ASTM D695).",
+            "hardness": "Shore D 82 (ASTM D2240).",
+            "peelStrength": "T-peel 4 N/cm on aluminum and cold-rolled steel after 7 days at 23 °C (ASTM D1876).",
+            "glassTransitionTemperature": "33 °C midpoint.",
+            "standard": "UL 94 HB."
           }
         }
       ]

@@ -7039,7 +7039,7 @@ async function loadSelectorCatalog() {
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     try {
-      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=official-tds-coverage-20260923-3m-dap-permatex-ca-glues-rtv-selleys-direct-tds-12-liquid-nails-exterior-mirror-metal");
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=official-tds-coverage-20260923-3m-dap-permatex-ca-glues-rtv-selleys-direct-tds-12-liquid-nails-exterior-mirror-metal-3m-dp100-clear-20260924");
       if (leadsResponse.ok) {
         const leadsCatalog = await leadsResponse.json();
         ingestOfficialProductLeads(leadsCatalog.entries ?? []);

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-24T01:10:00+00:00",
+  "generatedAt": "2026-09-24T03:00:00+00:00",
   "source": "3M official multimedia TDS PDFs linked from 3M product resources and TDS search",
-  "pdfCount": 21,
-  "pdfsResolved": 21,
-  "documentsWithText": 21,
+  "pdfCount": 22,
+  "pdfsResolved": 22,
+  "documentsWithText": 22,
   "documents": [
     {
       "maker": "3M",
@@ -625,6 +625,43 @@
           "code": "EC-3515 B/A FR",
           "name": "3M™ Scotch-Weld™ Void Filling Compound EC-3515 B/A FR",
           "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "DP100"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2365897O/3m-scotch-weld-epoxy-adhesive-dp100-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Clear.pdf",
+      "httpStatus": 200,
+      "pageCount": 5,
+      "title": "3M Scotch-Weld Epoxy Adhesive DP100 Clear Technical Data Sheet",
+      "revisionDate": "September 2024 (supersedes August 2024)",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Two-part epoxy adhesive; cures rigid.",
+        "mixRatio": "1:1 by volume; 1:0.98 by weight (Part B:Part A).",
+        "appearance": "Clear uncured and cured.",
+        "openTime": "5 minutes.",
+        "workLife": "5 minutes for 10 g mixed at 23 °C.",
+        "setTime": "15–20 minutes at 23 °C to reach 0.3 MPa overlap shear strength.",
+        "cureTime": "Fully cures in 24–48 hours at 24 °C; heat up to 93 °C accelerates cure.",
+        "density": "Base 1.14–1.19 g/cm³; accelerator 1.10–1.15 g/cm³.",
+        "viscosity": "Base 8,000–15,000 cP and accelerator 9,000–16,000 cP at 27 °C.",
+        "lapShear": "After 7 days at 23 °C: aluminum 6.6 MPa, cold-rolled steel 6.9 MPa, stainless steel 5.2 MPa, galvanized steel 6.2 MPa; ASTM D1002 / ISO 4587.",
+        "compressionStrength": "58 MPa (ASTM D695).",
+        "hardness": "Shore D 82 (ASTM D2240).",
+        "peelStrength": "T-peel 4 N/cm on aluminum and cold-rolled steel after 7 days at 23 °C (ASTM D1876).",
+        "glassTransitionTemperature": "33 °C midpoint.",
+        "standard": "UL 94 HB."
+      },
+      "targets": [
+        {
+          "code": "DP100",
+          "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100, Clear",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000147556/"
         }
       ]
     }

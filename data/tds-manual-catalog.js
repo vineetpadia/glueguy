@@ -17123,6 +17123,88 @@ window.TDS_MANUAL_PRODUCTS = [
     ]
   },
   {
+    "id": "e6100-industrial-clear",
+    "profile": "industrialClear",
+    "maker": "E6000",
+    "name": "E6100 Industrial Clear",
+    "summary": "Non-sag flexible industrial adhesive for vertical repairs and mixed-material bonding where a high-viscosity bead must stay in place.",
+    "sourceRevisionDate": "Eclectic Products E6100 Industrial Adhesive Non-Sag Formula (Clear) TDS, Rev 16, effective May 23, 2019.",
+    "cureFamily": "Industrial adhesive",
+    "cureDetail": "One-part non-sag industrial adhesive; air-dry / solvent-evaporation cure",
+    "serviceMin": -40,
+    "serviceMax": 82,
+    "potLife": 4,
+    "fixtureTime": 20,
+    "viscosityClass": "very-high",
+    "clarity": "transparent",
+    "applicationTags": [
+      "general-repair",
+      "vertical-bonding",
+      "vibration-resistant"
+    ],
+    "stress": {
+      "shear": 5.8,
+      "peel": 9.3,
+      "impact": 9
+    },
+    "substrates": {
+      "wood": 9,
+      "steel": 9,
+      "aluminum": 8,
+      "glass": 9,
+      "ceramic": 9,
+      "masonry": 8,
+      "concrete": 8,
+      "leather": 9,
+      "rubber": 9,
+      "pvc": 9,
+      "vinyl": 8
+    },
+    "cautions": [
+      "TDS reports 180-degree peel strength, not lap-shear strength; do not treat tensile strength as lap shear.",
+      "Product contains perchloroethylene; review SDS and use appropriate handling precautions.",
+      "Paint after cure or use E6800 for direct sunlight; clear E6100 is not formulated for direct sunlight.",
+      "Thin-film cure is about 24 hours; thick film and maximum bond strength may require 48-72 hours.",
+      "Avoid polystyrene, polyethylene and polypropylene plastics."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+    "unpublishedFields": [
+      "lapShear",
+      "thermalConductivity"
+    ],
+    "viscosityValue": 1000000,
+    "viscosityUnit": "cP",
+    "tackFreeTime": 4,
+    "tackFreeTimeMinutes": 4,
+    "tensileStrengthPsi": 3800,
+    "tensileStrengthMPa": 26.2,
+    "elongationPct": 900,
+    "hardnessValue": 80,
+    "hardnessScale": "Shore A",
+    "dielectricBreakdownVPerMil": 400,
+    "dielectricBreakdownKVPerMm": 15.75,
+    "peelStrengthProfilesPli": {
+      "aluminum": 35,
+      "birchWood": 40,
+      "glass": 34,
+      "pvc": 38,
+      "steel": 45
+    },
+    "fullCureProfiles": [
+      {
+        "minutes": 1440,
+        "context": "thin film cure"
+      },
+      {
+        "minutes": [
+          2880,
+          4320
+        ],
+        "context": "thick film / maximum bond strength"
+      }
+    ]
+  },
+  {
     "id": "e6000-fabri-fuse",
     "profile": "fabricAdhesive",
     "maker": "E6000",
@@ -59541,6 +59623,28 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "sourceLabel": "TDS"
   },
   {
+    "id": "e6100-industrial-clear",
+    "manufacturer": "E6000",
+    "familyName": "E6100 Industrial Clear",
+    "primaryCategory": "Industrial Adhesives",
+    "categories": [
+      "Industrial Adhesives"
+    ],
+    "sampleType": "10.2 fl oz cartridge",
+    "sampleConsistency": "Clear, non-sag; 1,000,000 cP",
+    "sampleForJoining": "Vertical repairs to brick and mortar, HVAC repair, fasteners, roofing, vehicle upholstery and trim; wood, metal, glass, fiberglass, ceramics, masonry, concrete, leather, rubber, PVC, neoprene, vinyl and many plastics",
+    "applicationTags": [
+      "general-repair",
+      "vertical-bonding",
+      "vibration-resistant"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
     "id": "e6000-fabri-fuse",
     "manufacturer": "E6000",
     "familyName": "E6000 Fabri-Fuse",
@@ -69705,6 +69809,6 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 554,
-  "referenceFamilies": 554
+  "selectorProducts": 555,
+  "referenceFamilies": 555
 };

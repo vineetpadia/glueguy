@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T22:10:52.812303+00:00",
+  "generatedAt": "2026-09-23T22:19:21.860685+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1703,
-    "manualTdsProducts": 554,
+    "products": 1704,
+    "manualTdsProducts": 555,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 721,
     "productsWithExtractionCandidates": 0,
@@ -516,6 +516,7 @@
         "e6000-industrial",
         "e6000-premium",
         "e6000-spray-adhesive",
+        "e6100-industrial-clear",
         "official-lead-e6000-e6000-fray-lock",
         "official-lead-e6000-e6000-industrial-adhesive",
         "official-lead-e6000-e6000-jewelry-bead",
@@ -3540,6 +3541,7 @@
         "digiwave-dga6129",
         "e6000-industrial",
         "e6000-premium",
+        "e6100-industrial-clear",
         "epotek-730",
         "gc-electronics-10-114",
         "gc-electronics-10-120",
@@ -6864,6 +6866,7 @@
         "permabond-2011"
       ],
       "vertical-bonding": [
+        "e6100-industrial-clear",
         "threebond-tb7789a"
       ],
       "vertical-repair": [
@@ -6896,6 +6899,7 @@
       "vibration-resistant": [
         "bsi-quik-cure-5-minute-epoxy",
         "cemedine-sx1008",
+        "e6100-industrial-clear",
         "loctite-243",
         "momentive-siltrust-rtv630",
         "permabond-et514",
@@ -7159,7 +7163,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 721,
-      "official-tds-url": 287,
+      "official-tds-url": 288,
       "product-or-catalog-page": 178
     }
   },
@@ -45698,6 +45702,133 @@
       },
       "agentNotes": [
         "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "e6100-industrial-clear",
+      "source": "manual-tds",
+      "maker": "E6000",
+      "name": "E6100 Industrial Clear",
+      "profile": "industrialClear",
+      "summary": "Non-sag flexible industrial adhesive for vertical repairs and mixed-material bonding where a high-viscosity bead must stay in place.",
+      "applicationTags": [
+        "general-repair",
+        "vertical-bonding",
+        "vibration-resistant"
+      ],
+      "referenceCategory": "Industrial Adhesives",
+      "referenceForJoining": "Vertical repairs to brick and mortar, HVAC repair, fasteners, roofing, vehicle upholstery and trim; wood, metal, glass, fiberglass, ceramics, masonry, concrete, leather, rubber, PVC, neoprene, vinyl and many plastics",
+      "electricalBehaviorClass": "insulating",
+      "specs": {
+        "cureFamily": "Industrial adhesive",
+        "cureDetail": "One-part non-sag industrial adhesive; air-dry / solvent-evaporation cure",
+        "serviceMin": -40,
+        "serviceMax": 82,
+        "potLife": 4,
+        "fixtureTime": 20,
+        "viscosityClass": "very-high",
+        "viscosityValue": 1000000,
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "electricalBehavior": 15.75,
+        "dielectricBreakdownKVPerMm": 15.75,
+        "tensileStrengthMPa": 26.2,
+        "elongationPct": 900,
+        "hardnessValue": 80,
+        "hardnessScale": "Shore A",
+        "tackFreeTime": 4,
+        "cureProfiles": [
+          {
+            "minutes": 1440,
+            "context": "thin film cure"
+          },
+          {
+            "minutes": [
+              2880,
+              4320
+            ],
+            "context": "thick film / maximum bond strength"
+          }
+        ]
+      },
+      "rankableSpecs": {
+        "dielectricBreakdownKVPerMm": 15.75,
+        "tensileStrengthMPa": 26.2,
+        "elongationPct": 900,
+        "hardnessValue": 80
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 0.6,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.55,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "tackFreeTime",
+          "electricalBehavior",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm"
+        ],
+        "decisionFieldsVerifiedAbsent": [
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "connectionResistanceOhm"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "electricalBehavior",
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing electronics fields: volumeResistivityOhmM, surfaceResistivityOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, peelStrengthNPerM, chipBondStrengthMPa, cureDepthMm",
+        "Verified absent from available TDS fields: lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: connectionResistanceOhm",
+        "TDS reports 180-degree peel strength, not lap-shear strength; do not treat tensile strength as lap shear.",
+        "Product contains perchloroethylene; review SDS and use appropriate handling precautions.",
+        "Paint after cure or use E6800 for direct sunlight; clear E6100 is not formulated for direct sunlight."
       ],
       "extractionCandidates": []
     },

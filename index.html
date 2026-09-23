@@ -9,7 +9,7 @@
     />
     <title>Glueguy Lab</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="./styles.css?v=b6a1b0fe43520f5a9e82a119874f9a7c8b7cd376" />
+    <link rel="stylesheet" href="./styles.css?v=0be038e4c2470705888a4603487376be521ef46e" />
   </head>
   <body>
     <main class="shell">
@@ -303,6 +303,18 @@
       </section>
     </main>
 
-    <script defer src="./app.js?v=28e4966df2b299fdb7b3dd84ec9bd748c5a0e80a"></script>
+
+    <dialog id="product-detail-dialog" class="product-detail-dialog" aria-labelledby="product-detail-title" aria-describedby="product-detail-maker">
+      <div class="product-detail-header">
+        <div>
+          <p class="eyebrow">Product details</p>
+          <h2 id="product-detail-title"></h2>
+          <p id="product-detail-maker" class="product-detail-maker"></p>
+        </div>
+        <button id="product-detail-close" class="product-detail-close" type="button" aria-label="Close product details" title="Close">×</button>
+      </div>
+      <div id="product-detail-content" class="product-detail-content"></div>
+    </dialog>
+    <script defer src="./app.js?v=bd03eda94e90e59fb0e023d41b45a67747ebef73"></script>
   </body>
 </html>

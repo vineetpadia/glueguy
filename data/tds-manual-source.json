@@ -57642,6 +57642,50 @@
       "referenceSampleType": "White double-sided acrylic foam tape, 0.6 mm",
       "referenceSampleConsistency": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
       "referenceForJoining": "Permanent bonding or sealing of compatible high-surface-energy substrates such as metals, glass, paints and some plastics."
+    },
+    {
+      "id": "3m-scotch-weld-dp460eg",
+      "profile": "twoPartEpoxy",
+      "maker": "3M",
+      "name": "Scotch-Weld DP460EG",
+      "summary": "Toughened, two-part room-temperature epoxy for durable bonding and electronics assembly, including potting and magnet bonding.",
+      "sourceRevisionDate": "3M Scotch-Weld Epoxy Adhesive DP460EG Technical Data Sheet, January 2019; document 60-5005-0069-3.",
+      "chemistry": "Toughened two-part epoxy adhesive",
+      "cureFamily": "Room-temperature curing structural epoxy",
+      "cureDetail": "2:1 base-to-accelerator by volume; 110-minute worklife at 23 C; handling strength in about 4 hours; room-temperature cure in 24 hours.",
+      "mixRatio": "Base:accelerator 2:1 by volume (2.0:0.96 by weight)",
+      "potLife": 110,
+      "fixtureTime": 240,
+      "fullCureHours": 24,
+      "fullCureMinutes": 1440,
+      "viscosityMin": 15000,
+      "viscosityMax": 25000,
+      "viscosityUnit": "cP",
+      "lapShear": 35.5,
+      "lapShearSubstrate": "TDS reports >35.5 MPa overlap shear on 0.060 in etched aluminum after 24 h at 23 C (ASTM D1002). This is a typical test result, not a universal bond strength or specification.",
+      "thermalConductivity": 0.263,
+      "clarity": "opaque",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "structural-bonding",
+        "potting",
+        "electronics-assembly",
+        "magnet-bonding",
+        "metal-bonding"
+      ],
+      "standards": [
+        "ASTM D1002"
+      ],
+      "cautions": [
+        "TDS values are typical only and not specification values.",
+        "The reported overlap-shear value is specific to etched aluminum, bond thickness, cure schedule and ASTM D1002 test method.",
+        "The TDS states that the adhesive cures in 24 hours at room temperature; heating accelerates cure and may increase Tg.",
+        "3M labels the product for industrial/occupational use."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+      "sourceLabel": "TDS",
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/"
     }
   ]
 }

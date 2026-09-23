@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T17:10:15.514871+00:00",
+  "generatedAt": "2026-09-23T17:19:16.956641+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1690,
-    "manualTdsProducts": 544,
+    "products": 1691,
+    "manualTdsProducts": 545,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 718,
     "productsWithExtractionCandidates": 0,
@@ -94,6 +94,7 @@
         "3m-scotch-weld-dp420-black-7100319970",
         "3m-scotch-weld-dp420-off-white-7100320185",
         "3m-scotch-weld-dp420ns-black-7100320001",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
@@ -2966,6 +2967,7 @@
         "3m-scotch-weld-dp420-black-7100319970",
         "3m-scotch-weld-dp420-off-white-7100320185",
         "3m-scotch-weld-dp420ns-black-7100320001",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-pur-2710p-black",
         "3m-scotchcast-2123-re-enterable-resin",
         "3m-scotchcast-2131-flame-retardant-resin",
@@ -3175,6 +3177,7 @@
       "epoxy": [
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "bsi-quik-cure-5-minute-epoxy",
         "gorilla-glue-2-part-epoxy",
@@ -4371,6 +4374,7 @@
         "threebond-tb2488"
       ],
       "magnet-bonding": [
+        "3m-scotch-weld-dp460eg",
         "permabond-ta4592",
         "threebond-tb1783",
         "threebond-tb2249g",
@@ -4454,6 +4458,7 @@
         "3m-scotch-weld-dp420-black-7100319970",
         "3m-scotch-weld-dp420-off-white-7100320185",
         "3m-scotch-weld-dp420ns-black-7100320001",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
@@ -5297,6 +5302,7 @@
         "weldon-714-cpvc"
       ],
       "potting": [
+        "3m-scotch-weld-dp460eg",
         "itw-devcon-14310-2-ton-epoxy",
         "loctite-aa3492",
         "threebond-tb1537",
@@ -6173,6 +6179,7 @@
         "3m-scotch-weld-dp420-black-7100319970",
         "3m-scotch-weld-dp420-off-white-7100320185",
         "3m-scotch-weld-dp420ns-black-7100320001",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
@@ -6648,6 +6655,7 @@
       "two-part": [
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear",
+        "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "bsi-quik-cure-5-minute-epoxy",
         "gorilla-glue-2-part-epoxy",
@@ -7079,7 +7087,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 718,
-      "official-tds-url": 277,
+      "official-tds-url": 278,
       "product-or-catalog-page": 178
     }
   },
@@ -15735,13 +15743,20 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+            "label": "3M Scotch-Weld DP460EG Technical Data Sheet (January 2019)"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
-        "sourceLabel": "3M Scotch-Weld category",
+        "sourceLabel": "3M official product page and technical data sheet",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },
@@ -20726,6 +20741,113 @@
         "The serviceMin/serviceMax scalars reflect tested overlap-shear temperatures, not a continuous service-temperature specification.",
         "The current TDS does not state full cure time, dielectric strength, volume resistivity, surface resistivity or CTI values.",
         "Plastic substrate shear values are much lower than metal/FRP values and should not be treated as general structural-plastic strength."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp460eg",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld DP460EG",
+      "profile": "twoPartEpoxy",
+      "summary": "Toughened, two-part room-temperature epoxy for durable bonding and electronics assembly, including potting and magnet bonding.",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "structural-bonding",
+        "potting",
+        "electronics-assembly",
+        "magnet-bonding",
+        "metal-bonding"
+      ],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Toughened two-part epoxy adhesive",
+        "cureFamily": "Room-temperature curing structural epoxy",
+        "cureDetail": "2:1 base-to-accelerator by volume; 110-minute worklife at 23 C; handling strength in about 4 hours; room-temperature cure in 24 hours.",
+        "potLife": 110,
+        "fixtureTime": 240,
+        "lapShear": 35.5,
+        "lapShearSubstrate": "TDS reports >35.5 MPa overlap shear on 0.060 in etched aluminum after 24 h at 23 C (ASTM D1002). This is a typical test result, not a universal bond strength or specification.",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "thermalConductivity": 0.263,
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 35.5,
+        "thermalConductivity": 0.263
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+        "tdsUrl": null,
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+        "sourceLabel": "TDS",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.545,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "clarity",
+          "thermalConductivity",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "stress",
+          "substrates"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, viscosityClass, stress, substrates",
+        "Not applicable to this product/behavior: viscosityValue, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "TDS values are typical only and not specification values.",
+        "The reported overlap-shear value is specific to etched aluminum, bond thickness, cure schedule and ASTM D1002 test method.",
+        "The TDS states that the adhesive cures in 24 hours at room temperature; heating accelerates cure and may increase Tg."
       ],
       "extractionCandidates": []
     },

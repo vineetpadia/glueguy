@@ -58659,6 +58659,107 @@
       "standards": [
         "NSF P1 (regional; no food contact)"
       ]
+    },
+    {
+      "id": "loctite-495",
+      "profile": "thinCA",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 495",
+      "summary": "General-purpose, low-viscosity ethyl cyanoacrylate for rapid bonding of close-fitting plastics, rubbers and metals.",
+      "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 495 (new formulation), February 2012; Henkel-hosted TDS digitally signed 26 November 2025.",
+      "chemistry": "Ethyl cyanoacrylate instant adhesive",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-initiated cure; assemble close-fitting parts within seconds. Full strength typically develops in 24-72 hours, depending on gap, materials and ambient conditions.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "potLife": null,
+      "fixtureTime": 5,
+      "fixtureTimeNote": "Fixture-time threshold is 0.1 N/mm² at 22 °C / 50% RH: <5 s on degreased aluminum, neoprene, nitrile, ABS, PVC and phenolic; 5-10 s on degreased mild steel; 10-15 s on polycarbonate.",
+      "fullCureMinutes": 1440,
+      "fullCureNote": "At least 24 h for full chemical/solvent resistance; TDS directions recommend full strength before service loads, typically 24-72 h.",
+      "viscosityClass": "low",
+      "viscosityValue": "20-45",
+      "viscosityUnit": "mPa.s",
+      "viscosityNote": "Cone-and-plate at 25 °C, shear rate 3000 s-1: 20-45 mPa·s; Brookfield LVF spindle 1 at 30 rpm: 20-60 mPa·s.",
+      "gapFill": 0.12,
+      "thermalConductivity": null,
+      "lapShear": 14.2,
+      "lapShearSubstrate": "After 24 h at 22 °C, ISO 4587 lap shear: grit-blasted steel 14.2 MPa; grit-blasted aluminum 10.8 MPa; zinc dichromate 5.9 MPa; ABS 7.9 MPa; PVC 8.7 MPa; polycarbonate 8.0 MPa; phenolic 9.9 MPa; neoprene 1.0 MPa; nitrile 1.3 MPa. Values marked * had substrate failure.",
+      "lapShearProfilesMPa": {
+        "gritBlastedSteel": 14.2,
+        "gritBlastedAluminum": 10.8,
+        "zincDichromate": 5.9,
+        "abs": 7.9,
+        "pvc": 8.7,
+        "polycarbonate": 8.0,
+        "phenolic": 9.9,
+        "neoprene": 1.0,
+        "nitrile": 1.3
+      },
+      "clarity": "transparent",
+      "applicationTags": [
+        "instant-bonding",
+        "cyanoacrylate",
+        "fast-fixturing",
+        "metal-bonding",
+        "plastic-bonding",
+        "rubber-bonding",
+        "general-repair"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 1,
+        "impact": 1
+      },
+      "substrates": {
+        "steel": 8,
+        "aluminum": 7,
+        "zinc": 5,
+        "abs": 8,
+        "pvc": 8,
+        "polycarbonate": 8,
+        "phenolic": 7,
+        "rubber": 7,
+        "neoprene": 6,
+        "nitrile": 6,
+        "plastic": 7,
+        "metal": 7
+      },
+      "cautions": [
+        "Short fixture time leaves little opportunity to reposition; accurately locate parts before assembly.",
+        "Increasing bond gap slows cure; humidity outside the recommended 40-60% range at 22 °C changes cure behavior.",
+        "Activator can accelerate cure but may reduce ultimate strength; validate on the actual joint.",
+        "For PP and PE polyolefins, Henkel says combine with LOCTITE SF 770 primer.",
+        "TDS does not publish one service-temperature range; do not infer it from the temperature-resistance graph.",
+        "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+        "Store unopened in a dry location; optimal storage is 2-8 °C."
+      ],
+      "storageCondition": "Optimal unopened storage 2-8 °C in a dry location.",
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
+      "sourceUrl": "https://next.henkel-adhesives.com/uk/en/products/industrial-adhesives/central-pdp.html/loctite-495/BP000000153540.html",
+      "referenceCategory": "Instant Adhesives",
+      "referenceSampleType": "One-part instant adhesive bottle",
+      "referenceSampleConsistency": "Transparent colorless-to-straw low-viscosity ethyl cyanoacrylate; 20-45 mPa·s by cone-and-plate at 25 °C.",
+      "referenceForJoining": "Rapid assembly of close-fitting plastics, rubbers, metals and other compatible substrates.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity",
+        "potLife"
+      ],
+      "specificGravity": 1.1,
+      "lapShearCureHours": 24,
+      "lapShearTestTemperatureC": 22,
+      "fixtureTimeTestTemperatureC": 22,
+      "fixtureTimeTestHumidityPct": 50,
+      "fixtureShearThresholdMPa": 0.1,
+      "tensileStrengthProfilesMPa": {
+        "bunaN10sec": 6.0,
+        "bunaN24hour": 13.7
+      },
+      "standards": [
+        "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
+      ]
     }
   ]
 }

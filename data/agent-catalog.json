@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T22:53:10.260400+00:00",
+  "generatedAt": "2026-09-23T22:56:16.275022+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1706,
-    "manualTdsProducts": 558,
+    "products": 1707,
+    "manualTdsProducts": 559,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
@@ -719,6 +719,7 @@
         "loctite-243",
         "loctite-401",
         "loctite-403",
+        "loctite-495",
         "loctite-aa3492",
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min",
@@ -2755,6 +2756,7 @@
         "bsi-super-gold",
         "gorilla-glue-super-glue",
         "loctite-401",
+        "loctite-495",
         "loctite-super-glue-ultra-gel-control",
         "permabond-2050",
         "permabond-268",
@@ -3270,6 +3272,7 @@
       "fast-fixturing": [
         "3m-scotch-weld-dp405-black-7100330707",
         "loctite-401",
+        "loctite-495",
         "penchem-gl163-structural-epoxy",
         "weicon-va2407"
       ],
@@ -3559,6 +3562,7 @@
         "itw-devcon-14265-5-minute-epoxy-gel",
         "itw-devcon-14310-2-ton-epoxy",
         "liquid-nails-ln3000",
+        "loctite-495",
         "mg-chemicals-8332",
         "mg-chemicals-9201",
         "panduit-ema-x-epoxy-adhesive-kit",
@@ -3962,6 +3966,7 @@
         "gc-electronics-10-120",
         "loctite-401",
         "loctite-403",
+        "loctite-495",
         "loctite-super-glue-ultra-gel-control",
         "mc-3m_scotch_weld_ca4",
         "mc-3m_scotch_weld_ca40",
@@ -4538,6 +4543,7 @@
         "itw-devcon-hp250",
         "loctite-243",
         "loctite-401",
+        "loctite-495",
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min",
         "permabond-170",
@@ -5146,6 +5152,7 @@
         "gc-electronics-10-347",
         "itw-devcon-hp250",
         "loctite-401",
+        "loctite-495",
         "mg-chemicals-9201",
         "mg-chemicals-uvled82",
         "penchem-gl163-structural-epoxy",
@@ -5729,6 +5736,7 @@
         "cemedine-3000rx",
         "gc-electronics-10-120",
         "loctite-401",
+        "loctite-495",
         "permabond-2050",
         "permabond-4c10",
         "permabond-731",
@@ -7192,7 +7200,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
-      "official-tds-url": 291,
+      "official-tds-url": 292,
       "product-or-catalog-page": 178
     }
   },
@@ -59637,6 +59645,113 @@
         "Short fixture time leaves little opportunity to reposition; accurately locate parts before assembly.",
         "Larger bond gaps and lower humidity slow cure; activator can accelerate cure but may reduce ultimate strength, so validate.",
         "TDS lap-shear values vary substantially by substrate and surface preparation; do not treat one scalar as universal design strength."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-495",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 495",
+      "profile": "thinCA",
+      "summary": "General-purpose, low-viscosity ethyl cyanoacrylate for rapid bonding of close-fitting plastics, rubbers and metals.",
+      "applicationTags": [
+        "instant-bonding",
+        "cyanoacrylate",
+        "fast-fixturing",
+        "metal-bonding",
+        "plastic-bonding",
+        "rubber-bonding",
+        "general-repair"
+      ],
+      "referenceCategory": "Instant Adhesives",
+      "referenceForJoining": "Rapid assembly of close-fitting plastics, rubbers, metals and other compatible substrates.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate instant adhesive",
+        "cureFamily": "Cyanoacrylate",
+        "cureDetail": "One-part moisture-initiated cure; assemble close-fitting parts within seconds. Full strength typically develops in 24-72 hours, depending on gap, materials and ambient conditions.",
+        "gapFill": 0.12,
+        "fixtureTime": 5,
+        "lapShear": 14.2,
+        "lapShearSubstrate": "After 24 h at 22 \u00b0C, ISO 4587 lap shear: grit-blasted steel 14.2 MPa; grit-blasted aluminum 10.8 MPa; zinc dichromate 5.9 MPa; ABS 7.9 MPa; PVC 8.7 MPa; polycarbonate 8.0 MPa; phenolic 9.9 MPa; neoprene 1.0 MPa; nitrile 1.3 MPa. Values marked * had substrate failure.",
+        "viscosityClass": "low",
+        "viscosityValue": "20-45",
+        "viscosityUnit": "mPa.s",
+        "clarity": "transparent",
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 14.2
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Short fixture time leaves little opportunity to reposition; accurately locate parts before assembly.",
+        "Increasing bond gap slows cure; humidity outside the recommended 40-60% range at 22 \u00b0C changes cure behavior.",
+        "Activator can accelerate cure but may reduce ultimate strength; validate on the actual joint."
       ],
       "extractionCandidates": []
     },

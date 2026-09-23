@@ -982,3 +982,6 @@ summary::-webkit-details-marker {
 input[aria-invalid="true"] { border-color: var(--red); box-shadow: 0 0 0 3px rgba(215, 0, 21, .09); }
 
 .verification-note { margin: 0 0 5px; padding: 5px 7px; border-left: 2px solid #b7791f; color: #76500d; background: rgba(245, 158, 11, .09); font-size: 11px; line-height: 1.4; }
+
+/* Compact provenance tags in product details */
+.product-detail-fact dd .detail-provenance { flex: 0 0 auto; padding: 1px 6px; border: 1px solid var(--line); border-radius: 999px; background: rgba(0,0,0,.025); }

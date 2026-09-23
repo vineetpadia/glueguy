@@ -5849,6 +5849,25 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Working life (days)", "workingLifeDays"],
   ["Storage condition", "storageCondition"],
   ["TDS revision date", "sourceRevisionDate"],
+  ["Test methods / standards", "standards"],
+  ["Lap-shear substrate and conditions", "lapShearSubstrate"],
+  ["Service-temperature note", "serviceTemperatureNote"],
+  ["Working-life conditions", "potLifeConditions"],
+  ["Handling-time note", "fixtureTimeNote"],
+  ["Viscosity note", "viscosityNote"],
+  ["Storage conditions", "storageCondition"],
+  ["Test specimen", "testPiece"],
+  ["Test condition", "testCondition"],
+  ["Test method", "testMethod"],
+  ["Test temperature", "testTemperature"],
+  ["Test substrate", "testSubstrate"],
+  ["Test surface preparation", "testSurfacePrep"],
+  ["Test dwell time", "testDwellTime"],
+  ["Test bond-line thickness", "testBondlineThickness"],
+  ["Bonding conditions", "bondingConditions"],
+  ["Cure conditions", "cureCondition"],
+  ["Recommended cure conditions", "recommendedCureConditions"],
+  ["Recommended bond line", "recommendedBondLineMm"],
   ["Product code", "productSku"],
 ];
 
@@ -5891,7 +5910,7 @@ function createDetailSection(title, description = "") {
   return section;
 }
 
-function appendDetailFact(section, label, value, profileDerived = false) {
+function appendDetailFact(section, label, value, profileDerived = false, sourceLabel = "") {
   if (value === null || value === undefined || value === "") return;
   const fact = document.createElement("div");
   fact.className = "product-detail-fact";
@@ -5903,10 +5922,12 @@ function appendDetailFact(section, label, value, profileDerived = false) {
   definition.append(text);
   const provenance = document.createElement("span");
   provenance.className = profileDerived ? "field-evidence" : "detail-provenance";
-  provenance.textContent = profileDerived ? "Profile guide" : "Product record";
+  provenance.textContent = profileDerived ? "Profile guide" : sourceLabel || "Product record";
   provenance.title = profileDerived
     ? "This value is inherited from a chemistry profile, not this product’s technical data sheet."
-    : "Product-specific catalog value; verify conditions and limits in the linked manufacturer documentation.";
+    : sourceLabel
+      ? "Source and conditions are summarized in this catalog field; use linked manufacturer documentation for full test details."
+      : "Product-specific catalog value; verify conditions and limits in the linked manufacturer documentation.";
   provenance.setAttribute("aria-label", provenance.title);
   definition.append(provenance);
   fact.append(term, definition);
@@ -6028,14 +6049,20 @@ function openProductDetail(product, match) {
   productDetailContent.append(specifications);
 
   const otherValues = DETAIL_EVIDENCE_FIELDS
-    .map(([label, field]) => [label, formatDetailValue(product[field])])
-    .filter(([, value]) => value);
+    .map(([label, field]) => [label, field, formatDetailValue(product[field])])
+    .filter(([, , value]) => value);
   if (otherValues.length) {
     const evidence = createDetailSection(
-      "Additional cataloged technical values",
-      "These fields are present in the catalog when listed; missing values are not assumed."
+      "TDS evidence and test context",
+      "Recorded source revision, methods, substrates, and conditions help interpret typical values. They are shown only when present in the product record."
     );
-    otherValues.forEach(([label, value]) => appendDetailFact(evidence, label, value, false));
+    otherValues.forEach(([label, field, value]) => {
+      const tdsLinked = Boolean(safeSourceUrl(product.tdsUrl) || safeSourceUrl(product.referenceUrl));
+      const provenanceLabel = field === "sourceRevisionDate"
+        ? (tdsLinked ? "TDS source" : "Source note")
+        : tdsLinked ? "TDS-linked note" : "Catalog note";
+      appendDetailFact(evidence, label, value, false, provenanceLabel);
+    });
     productDetailContent.append(evidence);
   }
 

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T03:52:22.150Z",
+  "generated_at": "2026-09-23T12:00:00.000Z",
   "stats": {
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
-    "curatedOfficialLeadsAdded": 32
+    "curatedOfficialLeadsAdded": 58
   },
   "manufacturers": [
     {
@@ -310,6 +310,54 @@
           "url": "https://starbond.com/collections/ca-glue",
           "matchedUrls": 4,
           "discoveredEntries": 4
+        }
+      ]
+    },
+    {
+      "name": "DAP",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ],
+      "discoveredEntries": 0,
+      "sources": [
+        {
+          "label": "DAP adhesives catalog",
+          "url": "https://www.dap.com/products/adhesives/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "Beacon Adhesives",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ],
+      "discoveredEntries": 0,
+      "sources": [
+        {
+          "label": "Beacon crafter and maker adhesives",
+          "url": "https://beaconadhesives.com/collections/maker-products",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "Liquid Nails",
+      "priority": "high",
+      "officialDomains": [
+        "liquidnails.com"
+      ],
+      "discoveredEntries": 0,
+      "sources": [
+        {
+          "label": "Liquid Nails adhesives",
+          "url": "https://www.liquidnails.com/products",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
         }
       ]
     }
@@ -6169,6 +6217,292 @@
       "priority": "high",
       "officialDomains": [
         "starbond.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Original Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-original-contact-cement/",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Gel Formula Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement/",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Nonflammable Contact Cement",
+      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "WELDWOOD Original Contact Cement Spray Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "DAP",
+      "name": "RapidFuse All Purpose Adhesive",
+      "officialUrl": "https://www.dap.com/products/adhesives/rapidfuse/",
+      "kind": "product",
+      "sourceLabel": "DAP official product information",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Fabri-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-1",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Fabri-Tac Super",
+      "officialUrl": "https://beaconadhesives.com/products/super-fabri-tac%C2%AE",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Fabri-Tac Stretch",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Fabri-Tac Spray",
+      "officialUrl": "https://beaconadhesives.com/products/fabri-tac-spray",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Gem-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/gem-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Foam-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/foam-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Beacon Adhesives",
+      "name": "Dazzle-Tac",
+      "officialUrl": "https://beaconadhesives.com/products/dazzle-tac",
+      "kind": "product",
+      "sourceLabel": "Beacon Adhesives official product information",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Outdoor",
+      "officialUrl": "https://plaidonline.com/mod-podge-outdoor",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Dishwasher-Safe",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dishwasher-safe-355558",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Fabric",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-fabric-355559",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Hard Coat",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-hard-coat-355560",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Sparkle",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-sparkle-355561",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Dimensional Magic",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-dimensional-magic-355562",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Paper",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-paper-355563",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Mod Podge",
+      "name": "Mod Podge Satin",
+      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-satin-355564",
+      "kind": "product",
+      "sourceLabel": "Mod Podge official product information",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Liquid School Glue",
+      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Clear School Glue",
+      "officialUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-clear-liquid-school-glue/SP_2752211.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glue-All Multi-Purpose Glue",
+      "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Disappearing Purple School Glue Stick",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue",
+      "officialUrl": "https://aleenes.com/collections/original-tacky-glue",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Fabric Fusion",
+      "officialUrl": "https://aleenes.com/collections/aleenes-fabric-fusion",
+      "kind": "product",
+      "sourceLabel": "Aleene's official product information",
+      "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
       ]
     }
   ]

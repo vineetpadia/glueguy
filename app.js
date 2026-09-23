@@ -6993,7 +6993,7 @@ async function loadSelectorCatalog() {
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     try {
-      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=manufacturer-leads-gorilla-20260923");
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=manufacturer-leads-craft-20260923");
       if (leadsResponse.ok) {
         const leadsCatalog = await leadsResponse.json();
         ingestOfficialProductLeads(leadsCatalog.entries ?? []);

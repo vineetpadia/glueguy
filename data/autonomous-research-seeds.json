@@ -1505,6 +1505,51 @@
           "name": "VA 2407"
         }
       ]
+    },
+    {
+      "name": "Mod Podge",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com"
+      ],
+      "products": [
+        {
+          "name": "Mod Podge Matte"
+        },
+        {
+          "name": "Mod Podge Gloss"
+        },
+        {
+          "name": "Mod Podge Outdoor"
+        },
+        {
+          "name": "Mod Podge Fabric"
+        },
+        {
+          "name": "Mod Podge Dishwasher Safe"
+        }
+      ]
+    },
+    {
+      "name": "Starbond",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ],
+      "products": [
+        {
+          "name": "Super Fast Thin CA Glue"
+        },
+        {
+          "name": "Medium CA Glue"
+        },
+        {
+          "name": "Thick CA Glue"
+        },
+        {
+          "name": "Flexible Toughened CA Glue"
+        }
+      ]
     }
   ]
 }

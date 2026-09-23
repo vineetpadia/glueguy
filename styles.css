@@ -727,6 +727,46 @@ summary::-webkit-details-marker {
   text-transform: uppercase;
 }
 
+.compare-table th[scope="col"] {
+  min-width: 190px;
+  vertical-align: top;
+}
+
+.compare-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.compare-table thead th:first-child {
+  left: 0;
+  z-index: 4;
+}
+
+.compare-table th[scope="row"] {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  width: 160px;
+  min-width: 160px;
+  color: var(--secondary);
+  background: var(--surface-solid);
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.compare-table .comparison-emphasis-row th,
+.compare-table .comparison-emphasis-row td {
+  background: var(--blue-soft);
+}
+
+.compare-table td a {
+  display: inline-block;
+  margin: 0 6px 4px 0;
+  color: var(--blue);
+}
+
 .empty-state {
   display: grid;
   min-height: 180px;

@@ -5028,6 +5028,7 @@ const productDetailContent = document.querySelector("#product-detail-content");
 const productDetailClose = document.querySelector("#product-detail-close");
 const activeTags = document.querySelector("#active-tags");
 const compareState = document.querySelector("#compare-state");
+const shortlistCount = document.querySelector("#shortlist-count");
 const fitAHeading = document.querySelector("#fit-a-heading");
 const fitBHeading = document.querySelector("#fit-b-heading");
 const heroStats = document.querySelector("#hero-stats");
@@ -6700,64 +6701,178 @@ function renderSavedGlues(matches, filters) {
       const rescored = scoreProduct(product, filters);
       if (rescored) return { ...rescored, outsideFilters: false };
 
-      return {
-        product,
-        score: 0,
-        outsideFilters: true,
-      };
+      return { product, score: 0, outsideFilters: true };
     })
     .filter(Boolean);
 
+  if (shortlistCount) {
+    shortlistCount.textContent = `${selected.length} selected · compare side by side`;
+  }
   compareState.replaceChildren();
 
   if (!selected.length) {
-    compareState.innerHTML = "<p>No inventory yet.</p><p>Star a row to add it.</p>";
+    const empty = document.createElement("p");
+    empty.textContent = "Star products from the results to compare them here.";
+    compareState.append(empty);
     return;
   }
+
   const shell = document.createElement("div");
   shell.className = "compare-table-shell";
-
   const table = document.createElement("table");
   table.className = "compare-table";
-  table.innerHTML = `
-    <thead>
-      <tr>
-        <th>Product</th>
-        <th>Current filter status</th>
-        <th>Temperature</th>
-        <th>Fixture</th>
-        <th>Cost</th>
-        <th>Remove</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  `;
+  table.setAttribute("aria-label", "Shortlisted adhesive comparison");
+  const thead = document.createElement("thead");
+  const header = document.createElement("tr");
+  const propertyHeading = document.createElement("th");
+  propertyHeading.scope = "col";
+  propertyHeading.textContent = "Property";
+  header.append(propertyHeading);
 
-  const tbody = table.querySelector("tbody");
+  selected.forEach(({ product }) => {
+    const cell = document.createElement("th");
+    cell.scope = "col";
+    const maker = document.createElement("span");
+    maker.className = "maker";
+    maker.textContent = product.maker || "Manufacturer not reported";
+    const name = document.createElement("span");
+    name.className = "product-name";
+    name.textContent = product.name || "Product name not reported";
+    cell.append(maker, name);
+    header.append(cell);
+  });
+  thead.append(header);
 
-  selected.forEach((match) => {
+  const tbody = document.createElement("tbody");
+  const addRow = (label, values, rowClass = "") => {
     const row = document.createElement("tr");
+    if (rowClass) row.className = rowClass;
+    const heading = document.createElement("th");
+    heading.scope = "row";
+    heading.textContent = label;
+    row.append(heading);
+    values.forEach((value) => {
+      const cell = document.createElement("td");
+      cell.textContent = value || "Not reported";
+      row.append(cell);
+    });
+    tbody.append(row);
+  };
+  const recordedValue = (product, field, value, formatter) => {
+    if (!Number.isFinite(value)) return "Not reported";
+    const text = formatter(value);
+    return product.profileDerivedFields?.includes(field)
+      ? `Profile guide · ${text}`
+      : `Recorded · ${text}`;
+  };
+  const ratingValue = (product, field, value, isDerived) => {
+    if (!Number.isFinite(value)) return "Not reported";
+    return `${isDerived ? "Profile guide" : "Recorded"} · ${value}/10`;
+  };
+
+  addRow("Current filters", selected.map((match) =>
+    match.outsideFilters ? "Outside current filters" : "Not excluded · verify evidence gaps below",
+  ));
+  [filters.substrateA, filters.substrateB].filter((material) => material && material !== "any")
+    .forEach((material, index) => {
+      addRow(`Material ${index ? "B" : "A"} · ${materialLabel(material)}`, selected.map((match) => {
+        const product = match.product;
+        const value = product.substrates?.[material];
+        if (!Number.isFinite(value)) return "Not reported";
+        const isDerived = product.profileDerivedSubstrates?.includes(material);
+        return `${isDerived ? "Profile guide" : "Recorded"} · ${value}/10`;
+      }));
+    });
+  addRow(`Primary load · ${STRESS_LABELS[filters.stress]}`, selected.map(({ product }) =>
+    ratingValue(product, filters.stress, product.stress?.[filters.stress], product.profileDerivedStress?.includes(filters.stress)),
+  ));
+  filters.environment.forEach((environment) => {
+    addRow(`Environment · ${ENVIRONMENT_LABELS[environment]}`, selected.map(({ product }) => {
+      const value = product.environment?.[environment];
+      if (!Number.isFinite(value)) return "Not reported";
+      return `${product.profileDerivedEnvironment?.includes(environment) ? "Profile guide" : "Recorded"} · ${value}/10`;
+    }));
+  });
+  addRow("Cure", selected.map(({ product }) => product.cureDetail || product.cureFamily || "Not reported"));
+  addRow("Pot life", selected.map(({ product }) =>
+    recordedValue(product, "potLife", product.potLife, (value) => formatMinutes(value)),
+  ));
+  addRow("Fixture time", selected.map(({ product }) =>
+    recordedValue(product, "fixtureTime", product.fixtureTime, (value) => formatMinutes(value)),
+  ));
+  addRow("Service temperature", selected.map(({ product }) => {
+    const status = serviceTemperatureEvidenceStatus(product);
+    const range = formatProductServiceTemperature(product);
+    if (isProfileDerivedTemperature(product)) return `Profile guide · ${range}`;
+    return status === "reported" ? `Reported · ${range}` : `Unverified (${status}) · ${range}`;
+  }));
+  addRow("Gap fill", selected.map(({ product }) =>
+    recordedValue(product, "gapFill", product.gapFill, (value) => formatGap(value)),
+  ));
+  addRow("Lap shear", selected.map(({ product }) => {
+    const status = lapShearEvidenceStatus(product, [filters.substrateA, filters.substrateB]);
+    if (status === "profile") return `Profile guide · ${formatProductLapShear(product, [filters.substrateA, filters.substrateB], true)}`;
+    return formatProductLapShear(product, [filters.substrateA, filters.substrateB], true) || "Not reported";
+  }));
+  addRow("Thermal conductivity", selected.map(({ product }) =>
+    recordedValue(product, "thermalConductivity", product.thermalConductivity, (value) => formatThermal(value)),
+  ));
+  addRow("Evidence to verify", selected.map((match) =>
+    match.unverifiedRequirements?.length ? match.unverifiedRequirements.join(" · ") :
+      match.outsideFilters ? "Recheck against current joint requirements" : "No unresolved requirements flagged",
+  ), "comparison-emphasis-row");
+  addRow("Product cautions", selected.map(({ product }) =>
+    product.cautions?.length ? Array.from(new Set(product.cautions)).join(" · ") : "No catalog cautions listed",
+  ));
+  addRow("Listed price", selected.map(({ product }) => {
+    const price = formatPricing(product.pricing);
+    const detail = formatPricingDetail(product.pricing);
+    return detail ? `${price} · ${detail}` : price;
+  }));
+
+  const sourceRow = document.createElement("tr");
+  const sourceHeading = document.createElement("th");
+  sourceHeading.scope = "row";
+  sourceHeading.textContent = "Sources";
+  sourceRow.append(sourceHeading);
+  selected.forEach(({ product }) => {
+    const cell = document.createElement("td");
+    const links = productSourceLinks(product);
+    if (!links.length) {
+      cell.textContent = "No source link";
+    } else {
+      links.forEach(({ url, label }) => {
+        const link = document.createElement("a");
+        link.href = url;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        link.textContent = label;
+        cell.append(link, document.createElement("br"));
+      });
+    }
+    sourceRow.append(cell);
+  });
+  tbody.append(sourceRow);
+
+  const actionRow = document.createElement("tr");
+  const actionHeading = document.createElement("th");
+  actionHeading.scope = "row";
+  actionHeading.textContent = "Shortlist";
+  actionRow.append(actionHeading);
+  selected.forEach(({ product }) => {
+    const cell = document.createElement("td");
     const remove = document.createElement("button");
     remove.type = "button";
     remove.className = "button button-ghost button-table";
     remove.textContent = "Remove";
-    remove.addEventListener("click", () => toggleSavedGlue(match.product.id));
-
-    row.innerHTML = `
-      <td>
-        <div class="maker">${match.product.maker}</div>
-        <div class="product-name">${match.product.name}</div>
-      </td>
-      <td>${match.outsideFilters ? "Outside current filters" : "Not excluded by current filters"}</td>
-      <td>${formatProductServiceTemperature(match.product)}</td>
-      <td>${formatMinutes(match.product.fixtureTime)}</td>
-      <td>${formatPricing(match.product.pricing)}</td>
-      <td></td>
-    `;
-    row.lastElementChild.append(remove);
-    tbody.append(row);
+    remove.setAttribute("aria-label", `Remove ${product.name} from shortlist`);
+    remove.addEventListener("click", () => toggleSavedGlue(product.id));
+    cell.append(remove);
+    actionRow.append(cell);
   });
+  tbody.append(actionRow);
 
+  table.append(thead, tbody);
   shell.append(table);
   compareState.append(shell);
 }

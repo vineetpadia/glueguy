@@ -4,7 +4,7 @@
     "manufacturersConfigured": 38,
     "discoveredEntries": 995,
     "tdsDocumentsDiscovered": 129,
-    "tdsDocumentsLinked": 191,
+    "tdsDocumentsLinked": 195,
     "technicalDocumentsLinked": 34,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 33,
@@ -826,8 +826,8 @@
   "documentCoverageByManufacturer": {
     "3M": {
       "productLeads": 47,
-      "productsWithTds": 7,
-      "tdsDocuments": 7,
+      "productsWithTds": 11,
+      "tdsDocuments": 11,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -1352,6 +1352,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+          "label": "3M Scotch-Weld Epoxy Adhesive DP490 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -1382,6 +1388,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+          "label": "3M Scotch-Weld Instant Adhesive CA8 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -1538,6 +1550,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+          "label": "3M Scotch-Weld Super Fast Instant Adhesive SF100 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -1640,6 +1658,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+          "label": "3M VHB Tape 4930F Technical Data Sheet"
+        }
       ]
     },
     {

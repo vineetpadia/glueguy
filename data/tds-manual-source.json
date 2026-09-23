@@ -57444,6 +57444,204 @@
       "referenceSampleType": "Aerosol spray adhesive",
       "referenceSampleConsistency": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
       "referenceForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M."
+    },
+    {
+      "id": "3m-scotch-weld-dp490",
+      "profile": "twoPartEpoxy",
+      "maker": "3M",
+      "name": "Scotch-Weld DP490 Black",
+      "summary": "Black, non-sag two-part structural epoxy for tough bonds and environmental resistance.",
+      "sourceRevisionDate": "3M Scotch-Weld DP490 Black TDS, May 2026",
+      "chemistry": "Two-component toughened epoxy adhesive",
+      "cureFamily": "Room-temperature curing structural epoxy",
+      "cureDetail": "B:A 2:1 by volume; 90 min worklife for a 45 g mixed mass at 23 C. TDS reports 48 h to full strength on etched aluminum and 24 h to 1000 psi structural strength.",
+      "potLife": 90,
+      "fixtureTime": 1440,
+      "fullCureHours": 48,
+      "fullCureMinutes": 2880,
+      "lapShear": 23,
+      "lapShearSubstrate": "3M TDS overlap shear 23 MPa on sandblasted aluminum after 7 d at 23 C, ASTM D1002 / ISO 4587; typical data.",
+      "thermalConductivity": 0.202,
+      "clarity": "opaque",
+      "mixRatio": "B:A 2:1 by volume",
+      "applicationTags": [
+        "epoxy",
+        "two-part",
+        "structural-bonding",
+        "toughened",
+        "non-sag",
+        "metal-bonding",
+        "environmental-resistance"
+      ],
+      "standards": [
+        "ASTM D1002",
+        "ISO 4587"
+      ],
+      "substrates": {
+        "aluminum": 9,
+        "stainlessSteel": 9,
+        "steel": 9,
+        "titanium": 8,
+        "fr4": 8,
+        "epoxyComposite": 8,
+        "polycarbonate": 5,
+        "abs": 4
+      },
+      "stress": {
+        "shear": 8,
+        "peel": 7,
+        "impact": 8
+      },
+      "cautions": [
+        "TDS values are typical only and should not be used as specification values.",
+        "Shear result is tied to surface preparation, substrate, bondline, cure and test method; do not treat it as a universal strength value.",
+        "TDS identifies industrial/occupational use."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/v101722005/"
+      ],
+      "referenceCategory": "3M structural epoxy adhesives",
+      "referenceSampleType": "Black Duo-Pak epoxy",
+      "referenceSampleConsistency": "B:A 2:1 by volume; 90 min worklife for a 45 g mixed mass at 23 C. TDS reports 48 h to full strength on etched aluminum and 24 h to 1000 psi structural strength.",
+      "referenceForJoining": "Structural bonding of properly prepared metals and composites using the product-specific TDS process."
+    },
+    {
+      "id": "3m-scotch-weld-ca8",
+      "profile": "cyanoacrylate",
+      "maker": "3M",
+      "name": "Scotch-Weld Instant Adhesive CA8",
+      "summary": "Clear, rapid-setting cyanoacrylate for metals, plastics and rubbers, with better shock resistance than many typical CAs.",
+      "sourceRevisionDate": "3M Scotch-Weld Instant Adhesive CA8 TDS, December 2024",
+      "chemistry": "Ethyl cyanoacrylate instant adhesive",
+      "cureFamily": "Room-temperature cyanoacrylate",
+      "cureDetail": "One-part ethyl cyanoacrylate. TDS reports 5–40 s to handling strength; full-cure time is not populated from this sheet.",
+      "fixtureTime": 1,
+      "viscosityMin": 70,
+      "viscosityMax": 130,
+      "viscosityUnit": "cP",
+      "serviceMin": -54,
+      "serviceMax": 82,
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-adhesive",
+        "metal-bonding",
+        "plastic-bonding",
+        "rubber-bonding",
+        "shock-resistant"
+      ],
+      "standards": [
+        "CID A-A-3097 Type II Class 2"
+      ],
+      "cautions": [
+        "Typical values are not specification values.",
+        "Long-term service temperatures in TDS are −54 to 82 C.",
+        "Industrial/occupational product; store refrigerated at 0–4 C and keep free of moisture."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/b40066933/"
+      ],
+      "referenceCategory": "3M cyanoacrylate instant adhesives",
+      "referenceSampleType": "One-part liquid instant adhesive",
+      "referenceSampleConsistency": "One-part ethyl cyanoacrylate. TDS reports 5–40 s to handling strength; full-cure time is not populated from this sheet.",
+      "referenceForJoining": "Small-area bonding of compatible metals, plastics and rubbers; test substrate compatibility and joint design."
+    },
+    {
+      "id": "3m-scotch-weld-sf100",
+      "profile": "cyanoacrylate",
+      "maker": "3M",
+      "name": "Scotch-Weld Super Fast Instant Adhesive SF100",
+      "summary": "Low-viscosity super-fast CA designed for difficult-to-bond plastics and rubbers and certain acidic or contaminated surfaces.",
+      "sourceRevisionDate": "3M Scotch-Weld Super Fast Instant Adhesive SF100 TDS, September 2024",
+      "chemistry": "Ethyl-hybrid cyanoacrylate",
+      "cureFamily": "Super-fast cyanoacrylate",
+      "cureDetail": "Handling strength in 10 s, full cure in 24 h at 23 C, and gap fill 0.006 in. Typical viscosity 70–110 cP measured by cone-plate at 3000/s.",
+      "fixtureTime": 0.17,
+      "fullCureHours": 24,
+      "fullCureMinutes": 1440,
+      "viscosityMin": 70,
+      "viscosityMax": 110,
+      "viscosityUnit": "cP",
+      "serviceMax": 82,
+      "gapFillMm": 0.1524,
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-adhesive",
+        "fast-cure",
+        "plastic-bonding",
+        "rubber-bonding",
+        "wood-bonding"
+      ],
+      "cautions": [
+        "Typical TDS values are not specification values.",
+        "TDS says activate/evaluate low-surface-energy plastics such as PE and PP; low humidity or low temperature slows cure.",
+        "Long-term water/humidity exposure can affect bond strength depending on substrate and bond gap.",
+        "Industrial/occupational product."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/b40066913/"
+      ],
+      "referenceCategory": "3M super-fast cyanoacrylate adhesives",
+      "referenceSampleType": "Low-viscosity liquid instant adhesive",
+      "referenceSampleConsistency": "Handling strength in 10 s, full cure in 24 h at 23 C, and gap fill 0.006 in. Typical viscosity 70–110 cP measured by cone-plate at 3000/s.",
+      "referenceForJoining": "High-speed bonding of compatible difficult-to-bond plastic/rubber materials and specified contaminated or acidic surfaces."
+    },
+    {
+      "id": "3m-vhb-4930f",
+      "profile": "adhesiveTape",
+      "maker": "3M",
+      "name": "VHB Tape 4930F",
+      "summary": "White, 0.6 mm double-sided acrylic foam tape for permanent fastening and sealing on high-surface-energy substrates.",
+      "sourceRevisionDate": "3M VHB Tape 4930F TDS, September 2024",
+      "chemistry": "Double-sided acrylic foam pressure-sensitive tape",
+      "cureFamily": "Pressure-sensitive acrylic foam tape",
+      "cureDetail": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
+      "fullCureHours": 72,
+      "fullCureMinutes": 4320,
+      "lapShear": 0.69,
+      "lapShearSubstrate": "3M TDS overlap shear 690 kPa (0.69 MPa) on stainless steel after 72 h at 23 C, ASTM D1002 / ISO 4587; typical data.",
+      "peelStrengthNPerM": 3500,
+      "serviceMax": 93,
+      "clarity": "opaque",
+      "applicationTags": [
+        "vhb-tape",
+        "acrylic-foam-tape",
+        "permanent-bonding",
+        "sealing",
+        "metal-bonding",
+        "glass-bonding",
+        "mechanical-fastener-replacement"
+      ],
+      "substrates": {
+        "stainlessSteel": 8,
+        "aluminum": 8,
+        "glass": 7,
+        "paintedMetal": 7,
+        "plastic": 5
+      },
+      "stress": {
+        "shear": 7,
+        "peel": 8,
+        "impact": 6
+      },
+      "cautions": [
+        "This is a tape with a firm acrylic foam core, not a liquid adhesive; do not compare its shear/peel results directly to liquid adhesive lap-shear results.",
+        "Typical values are not specification values.",
+        "3M states long-term temperature resistance up to 93 C and short-term up to 149 C under the TDS test definitions.",
+        "Porous surfaces such as wood, particleboard and concrete generally need sealing before application."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/v100808740/"
+      ],
+      "referenceCategory": "3M VHB adhesive tapes",
+      "referenceSampleType": "White double-sided acrylic foam tape, 0.6 mm",
+      "referenceSampleConsistency": "Pressure-sensitive tape bonds on contact; TDS reports approximate bond build at room temperature of 50% at 20 min, 90% at 24 h and 100% at 72 h.",
+      "referenceForJoining": "Permanent bonding or sealing of compatible high-surface-energy substrates such as metals, glass, paints and some plastics."
     }
   ]
 }

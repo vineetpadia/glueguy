@@ -376,6 +376,58 @@
           "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
         }
       ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2409614O/3m-scotch-weld-epoxy-adhesive-dp490.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP490.pdf",
+          "label": "3M Scotch-Weld Epoxy Adhesive DP490 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Instant Adhesive CA8",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365917O/3m-scotch-weld-instant-adhesive-ca8.pdf?fn=3M-Scotch-Weld-Instant-Adhesive-CA8_R1.pdf",
+          "label": "3M Scotch-Weld Instant Adhesive CA8 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Super Fast Instant Adhesive SF100",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365887O/3M-Scotch-Weld-Super-Fast-Instant-Adhesive-SF100.pdf?pif=000224",
+          "label": "3M Scotch-Weld Super Fast Instant Adhesive SF100 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ VHBÃ¢â€žÂ¢ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366521O/3m-vhb-tape-specialty-tape-4930f.pdf?fn=3M-VHB-Tape-Specialty-Tape-4930F.pdf",
+          "label": "3M VHB Tape 4930F Technical Data Sheet"
+        }
+      ]
     }
   ]
 }

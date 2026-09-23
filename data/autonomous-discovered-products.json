@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T14:00:00.000Z",
+  "generated_at": "2026-09-23T15:30:00.000Z",
   "stats": {
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
-    "curatedOfficialLeadsAdded": 80
+    "curatedOfficialLeadsAdded": 84
   },
   "manufacturers": [
     {
@@ -6728,7 +6728,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik Blu Tack",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6739,7 +6739,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik Blu Tack White",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6750,7 +6750,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik Blu Glu Stick",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6761,7 +6761,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik PVA Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6772,7 +6772,51 @@
     {
       "maker": "Bostik",
       "name": "Bostik Fast Tak Permanent Spray Adhesive",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik All Purpose Clear Glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose-glue",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Super Glue Ultra+",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-ultra",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "EVO-STIK Wood Glue Interior",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/evo-stik-wood-glue-interior",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Fabric Glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fabric-glue",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",

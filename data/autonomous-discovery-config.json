@@ -44,7 +44,9 @@
             "film",
             "material",
             "pipe sealant"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         },
         {
           "label": "3M tapes category",
@@ -70,7 +72,9 @@
             "mounting tape",
             "patch tape",
             "extrudable"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -100,7 +104,9 @@
             "paint",
             "sealer",
             "finish"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10
         }
       ]
     },
@@ -130,7 +136,9 @@
           ],
           "nameExcludeRegex": [
             "Emulsion|Repairable|Automobiles|Rubber Type"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10
         }
       ]
     },
@@ -154,7 +162,9 @@
           ],
           "nameRequireRegex": [
             "E6000|E6100|E6800|Extreme Tack"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10
         }
       ]
     },
@@ -181,7 +191,9 @@
           ],
           "nameExcludeRegex": [
             "Read more"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -213,7 +225,9 @@
             "glitter",
             "paint",
             "school supplies"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -253,7 +267,9 @@
           "nameExcludeRegex": [
             "Glue Remover",
             "Mounting Putty"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -298,7 +314,9 @@
             "repair cast",
             "molding tape",
             "fuzetape"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10
         }
       ]
     },
@@ -394,7 +412,9 @@
             "tool",
             "tape",
             "accessory"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -481,7 +501,9 @@
           ],
           "nameExcludeRegex": [
             "Read more|Accelerator|Activator|Titebrush|Pump"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10
         }
       ]
     },
@@ -520,7 +542,9 @@
             "putty",
             "coating",
             "repair kit"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -551,7 +575,9 @@
             "when should",
             "how long",
             "what is"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -578,7 +604,9 @@
           ],
           "nameExcludeRegex": [
             "bundle|kit|accelerator|remover|wood finish"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -605,7 +633,9 @@
           ],
           "nameExcludeRegex": [
             "caulk|sealant|filler|spackling|foam|tape|primer"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -632,7 +662,9 @@
           ],
           "nameExcludeRegex": [
             "Magna-Tac|epoxy|industrial"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -664,7 +696,9 @@
             "sealant",
             "remover",
             "accessory"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 16
         }
       ]
     },
@@ -692,7 +726,8 @@
           "nameExcludeRegex": [
             "threadlocker|tape|correction"
           ],
-          "extractTdsLinks": true
+          "extractTdsLinks": true,
+          "tdsMaxPages": 30
         }
       ]
     },
@@ -722,7 +757,8 @@
           "nameExcludeRegex": [
             "tool|dispenser"
           ],
-          "extractTdsLinks": true
+          "extractTdsLinks": true,
+          "tdsMaxPages": 30
         }
       ]
     }

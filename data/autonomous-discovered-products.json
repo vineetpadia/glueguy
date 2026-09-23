@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T13:00:00.000Z",
+  "generated_at": "2026-09-23T14:00:00.000Z",
   "stats": {
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
-    "curatedOfficialLeadsAdded": 68
+    "curatedOfficialLeadsAdded": 80
   },
   "manufacturers": [
     {
@@ -6646,6 +6646,138 @@
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU All Purpose Adhesive",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-folding-box-60-ml-en",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU All Purpose Adhesive SUPER",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-super-strong-safe-bl",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU All Purpose Power",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-all-purpose-adhesive-power-folding-box-45",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU Max Repair Power",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-max-repair-power-blister-8-g-enplcsskhu",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU stic",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-stic-solvent-free-tray-21-g-multi-languag",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU Epoxy Quick Set",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-epoxy-5-min-syringe-in-blister-14-ml-aren",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "UHU",
+      "name": "UHU Epoxy Repair Universal",
+      "officialUrl": "https://www.uhu.com/en-en/products/uhu-epoxy-putty-repair-all-blister-60-g-enest",
+      "kind": "product",
+      "sourceLabel": "UHU official product information",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Blu Tack",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Blu Tack White",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Blu Glu Stick",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik PVA Glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
+      ]
+    },
+    {
+      "maker": "Bostik",
+      "name": "Bostik Fast Tak Permanent Spray Adhesive",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create",
+      "kind": "product",
+      "sourceLabel": "Bostik official product information",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com"
       ]
     }
   ]

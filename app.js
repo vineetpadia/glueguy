@@ -5602,7 +5602,7 @@ function setCatalogView(showCatalog) {
     renderReferenceLibrary();
     catalogPanel.querySelector("#reference-search")?.focus();
   } else {
-    document.querySelector("#results-title")?.focus({ preventScroll: true });
+    catalogToggle.focus({ preventScroll: true });
   }
 }
 

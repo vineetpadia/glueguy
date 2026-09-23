@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T20:39:38.766805+00:00",
+  "generatedAt": "2026-09-23T20:47:55.735813+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -131883,9 +131883,30 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+            "label": "Permatex 5 Minute Epoxy Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2024",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "Two-part rapid-curing general-purpose epoxy; epoxy resin; 1:1 mix ratio by volume.",
+              "workLife": "Working time: 4\u20136 minutes.",
+              "setTime": "Fixture time: 8\u201310 minutes; may be handled after 15 minutes.",
+              "appearance": "Final color: clear to slightly yellow.",
+              "viscosity": "10,000\u201320,000 mPa\u00b7s at 25\u00b0C.",
+              "serviceTemperature": "\u221240\u00b0F to +176\u00b0F (\u221240\u00b0C to +80\u00b0C).",
+              "shearStrength": "1,200 PSI.",
+              "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",

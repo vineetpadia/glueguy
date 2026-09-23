@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-24T00:00:00+00:00",
+  "source": "Permatex official product TDS PDF; text reviewed and technical evidence transcribed directly",
+  "pdfCount": 1,
+  "pdfsResolved": 1,
+  "documentsWithText": 1,
+  "documents": [
+    {
+      "maker": "Permatex",
+      "productCodes": [
+        "10500"
+      ],
+      "sourceUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+      "pdfUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+      "httpStatus": 200,
+      "pageCount": 1,
+      "title": "Permatex 5 Minute Epoxy Technical Data Sheet",
+      "revisionDate": "February 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Two-part rapid-curing general-purpose epoxy; epoxy resin; 1:1 mix ratio by volume.",
+        "workLife": "Working time: 4–6 minutes.",
+        "setTime": "Fixture time: 8–10 minutes; may be handled after 15 minutes.",
+        "appearance": "Final color: clear to slightly yellow.",
+        "viscosity": "10,000–20,000 mPa·s at 25°C.",
+        "serviceTemperature": "−40°F to +176°F (−40°C to +80°C).",
+        "shearStrength": "1,200 PSI.",
+        "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
+      },
+      "targets": [
+        {
+          "name": "Permatex Â® 5 Minute Epoxy 10500 6ml .woocommerce-variation-price{ display: none !important;}",
+          "officialProductUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/"
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,8 @@
   "stats": {
     "manufacturersConfigured": 38,
     "discoveredEntries": 997,
-    "tdsDocumentsDiscovered": 38,
-    "tdsDocumentsLinked": 616,
+    "tdsDocumentsDiscovered": 39,
+    "tdsDocumentsLinked": 617,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -171,8 +171,8 @@
     },
     "Permatex": {
       "productLeads": 18,
-      "productsWithTds": 0,
-      "tdsDocuments": 0,
+      "productsWithTds": 1,
+      "tdsDocuments": 1,
       "productsWithSds": 0
     },
     "Pidilite": {
@@ -11503,7 +11503,26 @@
       "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+          "label": "Permatex 5 Minute Epoxy Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2024",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "Two-part rapid-curing general-purpose epoxy; epoxy resin; 1:1 mix ratio by volume.",
+            "workLife": "Working time: 4–6 minutes.",
+            "setTime": "Fixture time: 8–10 minutes; may be handled after 15 minutes.",
+            "appearance": "Final color: clear to slightly yellow.",
+            "viscosity": "10,000–20,000 mPa·s at 25°C.",
+            "serviceTemperature": "−40°F to +176°F (−40°C to +80°C).",
+            "shearStrength": "1,200 PSI.",
+            "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "permatex.com"

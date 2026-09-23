@@ -5626,6 +5626,12 @@ function scoreProduct(product, filters) {
         : "service temperature range",
     );
   }
+  if (
+    !temperatureIsUnverified &&
+    (productServiceTemperatureBounds(product).min > filters.coldest ||
+      productServiceTemperatureBounds(product).max < filters.hottest)
+  ) return null;
+
   const lowTempMiss = temperatureIsUnverified ? 0 : Math.max(0, productServiceTemperatureBounds(product).min - filters.coldest);
   const highTempMiss = temperatureIsUnverified ? 0 : Math.max(0, filters.hottest - productServiceTemperatureBounds(product).max);
   const temperaturePenalty = lowTempMiss * 0.7 + highTempMiss * 0.45;

@@ -852,6 +852,159 @@
           "requestTimeout": 20
         }
       ]
+    },
+    {
+      "name": "Krazy Glue",
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ],
+      "sources": [
+        {
+          "label": "Krazy Glue official products catalog",
+          "url": "https://krazyglue.com/collections/all",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/"
+          ],
+          "excludeRegex": [
+            "krazy-tape"
+          ],
+          "nameRequireRegex": [
+            "Glue|Krazy Fix"
+          ],
+          "nameExcludeRegex": [
+            "tape|merch|bundle"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 80
+        }
+      ]
+    },
+    {
+      "name": "Pattex",
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ],
+      "sources": [
+        {
+          "label": "Pattex official Alleskleber und Reparaturkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Alleskleber+und+Reparaturkleber&teaser.sort=recent#results",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 40,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Kleb|Glue|Kraft|Fix|Repair|Sekunden|Montage"
+          ],
+          "nameExcludeRegex": [
+            "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100
+        },
+        {
+          "label": "Pattex official Montagekleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Montagekleber&teaser.sort=recent#results",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 40,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Kleb|Glue|Kraft|Fix|Repair|Sekunden|Montage"
+          ],
+          "nameExcludeRegex": [
+            "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100
+        },
+        {
+          "label": "Pattex official Holz- & Kontaktkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Holz-+%26+Kontaktkleber&teaser.sort=recent#results",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 40,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Kleb|Glue|Kraft|Fix|Repair|Sekunden|Montage"
+          ],
+          "nameExcludeRegex": [
+            "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100
+        },
+        {
+          "label": "Pattex official Sekundenkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Sekundenkleber&teaser.sort=recent#results",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 40,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Kleb|Glue|Kraft|Fix|Repair|Sekunden|Montage"
+          ],
+          "nameExcludeRegex": [
+            "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100
+        }
+      ]
+    },
+    {
+      "name": "Pritt",
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ],
+      "sources": [
+        {
+          "label": "Pritt official product sitemap",
+          "url": "https://www.prittworld.co.uk/en.sitemap-index.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "nameRequireRegex": [
+            "Pritt"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 40,
+          "requestTimeout": 20
+        }
+      ]
     }
   ]
 }

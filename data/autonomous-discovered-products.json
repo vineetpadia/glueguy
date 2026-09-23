@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-23T16:04:00.352911+00:00",
+  "generated_at": "2026-09-23T17:44:37.175560+00:00",
   "stats": {
     "manufacturersConfigured": 38,
-    "discoveredEntries": 995,
-    "tdsDocumentsDiscovered": 129,
-    "tdsDocumentsLinked": 196,
-    "technicalDocumentsLinked": 35,
+    "discoveredEntries": 996,
+    "tdsDocumentsDiscovered": 195,
+    "tdsDocumentsLinked": 392,
+    "technicalDocumentsLinked": 41,
     "manufacturersWithProducts": 39,
-    "previousEntriesPreserved": 33,
-    "previousTdsEntriesPreserved": 0
+    "previousEntriesPreserved": 797,
+    "previousTdsEntriesPreserved": 359
   },
   "manufacturers": [
     {
@@ -376,23 +376,21 @@
       "officialDomains": [
         "permabond.com"
       ],
-      "discoveredEntries": 0,
-      "tdsDocumentsDiscovered": 0,
+      "discoveredEntries": 199,
+      "tdsDocumentsDiscovered": 195,
       "tdsCatalogDocumentsFound": 0,
       "sources": [
         {
           "label": "Permabond product sitemap",
           "url": "https://permabond.com/products-sitemap.xml",
-          "matchedUrls": 0,
-          "discoveredEntries": 0,
-          "error": "ConnectionError: HTTPSConnectionPool(host='permabond.com', port=443): Max retries exceeded with url: /products-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='permabond.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          "matchedUrls": 3,
+          "discoveredEntries": 3
         },
         {
           "label": "Permabond TDS sitemap",
           "url": "https://permabond.com/tds-sitemap.xml",
-          "matchedUrls": 0,
-          "discoveredEntries": 0,
-          "error": "ConnectionError: HTTPSConnectionPool(host='permabond.com', port=443): Max retries exceeded with url: /tds-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='permabond.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          "matchedUrls": 1320,
+          "discoveredEntries": 1320
         }
       ]
     },
@@ -869,7 +867,7 @@
     "E6000": {
       "productLeads": 14,
       "productsWithTds": 14,
-      "tdsDocuments": 32,
+      "tdsDocuments": 33,
       "productsWithSds": 0
     },
     "Eclectic Products": {
@@ -928,8 +926,8 @@
     },
     "Liquid Nails": {
       "productLeads": 30,
-      "productsWithTds": 5,
-      "tdsDocuments": 5,
+      "productsWithTds": 9,
+      "tdsDocuments": 9,
       "productsWithSds": 0
     },
     "Master Bond": {
@@ -957,9 +955,9 @@
       "productsWithSds": 0
     },
     "Permabond": {
-      "productLeads": 203,
-      "productsWithTds": 0,
-      "tdsDocuments": 0,
+      "productLeads": 204,
+      "productsWithTds": 195,
+      "tdsDocuments": 195,
       "productsWithSds": 0
     },
     "Permatex": {
@@ -1080,6 +1078,36 @@
     },
     {
       "maker": "3M",
+      "name": "3M Super 77 Multipurpose Spray Adhesive",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100007170/",
+      "kind": "product",
+      "sourceLabel": "3M official consumer adhesive product page",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M Super 77 Multipurpose Spray Adhesive Low VOC",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101943161/",
+      "kind": "product",
+      "sourceLabel": "3M official consumer adhesive product page",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+          "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
       "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Composite Urethane Adhesive 6301NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
       "kind": "product",
@@ -1194,6 +1222,24 @@
     },
     {
       "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100 Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
+          "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
       "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100LH",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
       "kind": "product",
@@ -1224,24 +1270,6 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100 Plus",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ],
-      "tdsDocuments": [
-        {
-          "url": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear_R4.pdf",
-          "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
-        }
-      ]
-    },
-    {
-      "maker": "3M",
       "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP125 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
       "kind": "product",
@@ -1262,18 +1290,6 @@
       "maker": "3M",
       "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
       "priority": "high",
@@ -1614,32 +1630,14 @@
     },
     {
       "maker": "3M",
-      "name": "3M Super 77 Multipurpose Spray Adhesive",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100007170/",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
       "kind": "product",
-      "sourceLabel": "3M official consumer adhesive product page",
+      "sourceLabel": "3M Scotch-Weld category",
       "priority": "high",
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M Super 77 Multipurpose Spray Adhesive Low VOC",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101943161/",
-      "kind": "product",
-      "sourceLabel": "3M official consumer adhesive product page",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ],
-      "tdsDocuments": [
-        {
-          "url": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
-          "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
-        }
       ]
     },
     {
@@ -1899,8 +1897,8 @@
     },
     {
       "maker": "Aleene's",
-      "name": "Aleene's Original Tacky Glue 16 fl. oz. 3 Pack $19.99",
-      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz-3-pack",
+      "name": "Aleene's Original Tacky Glue 16 fl. oz. $6.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz",
       "kind": "product",
       "sourceLabel": "Aleene's glue and adhesives catalog",
       "tdsDocuments": [],
@@ -1911,8 +1909,8 @@
     },
     {
       "maker": "Aleene's",
-      "name": "Aleene's Original Tacky Glue 16 fl. oz. $6.99",
-      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz",
+      "name": "Aleene's Original Tacky Glue 16 fl. oz. 3 Pack $19.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz-3-pack",
       "kind": "product",
       "sourceLabel": "Aleene's glue and adhesives catalog",
       "tdsDocuments": [],
@@ -1947,32 +1945,8 @@
     },
     {
       "maker": "Aleene's",
-      "name": "Aleene's Original Tacky GlueÂ® 4 fl. oz. 3 Pack $6.99",
-      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue%C2%AE-4-fl-oz-3-pack",
-      "kind": "product",
-      "sourceLabel": "Aleene's glue and adhesives catalog",
-      "tdsDocuments": [],
-      "priority": "medium",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
       "name": "Aleene's Original Tacky Glue 4 fl. oz. $4.99",
       "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-4-fl-oz",
-      "kind": "product",
-      "sourceLabel": "Aleene's glue and adhesives catalog",
-      "tdsDocuments": [],
-      "priority": "medium",
-      "officialDomains": [
-        "aleenes.com"
-      ]
-    },
-    {
-      "maker": "Aleene's",
-      "name": "Aleene's Original Tacky Glue 8 fl. oz. 3 Pack $13.99",
-      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-8-fl-oz-3-pack",
       "kind": "product",
       "sourceLabel": "Aleene's glue and adhesives catalog",
       "tdsDocuments": [],
@@ -1995,8 +1969,8 @@
     },
     {
       "maker": "Aleene's",
-      "name": "Aleene's Original Tacky GlueÂ® Mini Tacky 2/3 oz. 18-Pc. Set $17.99",
-      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes%C2%AE-original-tacky-glue%C2%AE-mini-tacky-2-3-oz-18-pc-set",
+      "name": "Aleene's Original Tacky Glue 8 fl. oz. 3 Pack $13.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-8-fl-oz-3-pack",
       "kind": "product",
       "sourceLabel": "Aleene's glue and adhesives catalog",
       "tdsDocuments": [],
@@ -2009,6 +1983,30 @@
       "maker": "Aleene's",
       "name": "Aleene's Original Tacky Glue Sticks 2 Pack $2.99",
       "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-sticks-2-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky GlueÂ® 4 fl. oz. 3 Pack $6.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue%C2%AE-4-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky GlueÂ® Mini Tacky 2/3 oz. 18-Pc. Set $17.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes%C2%AE-original-tacky-glue%C2%AE-mini-tacky-2-3-oz-18-pc-set",
       "kind": "product",
       "sourceLabel": "Aleene's glue and adhesives catalog",
       "tdsDocuments": [],
@@ -2170,6 +2168,41 @@
         {
           "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc001_dc031_dc111_dc115.pdf",
           "label": "Barge All Purpose Original Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/da071_da081.pdf",
+          "label": "Barge All Purpose TF Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_ap_tf_clear_%28da060%2C_da061%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge All Purpose TF Clear Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/dc900_dc901.pdf",
+          "label": "Barge Infinity Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_rubber_cement_tf_%28da020%2C_da025%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Rubber Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_fast_dry_tf_%28da050%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Super Bond Fast-Dry Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_speed_tf_da010_quabaug_-_ghs_hazcom_-_v4.2.1english_us.pdf",
+          "label": "Barge Super Speed Cement Safety Data Sheet",
+          "documentType": "SDS"
+        },
+        {
+          "url": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_super_stik_tf_%28da030%2C_da035%29_quabaug_-_ghs_us_-_hcs_2012_v4.4english_%28us%29.pdf",
+          "label": "Barge Super Stik Cement Safety Data Sheet",
           "documentType": "SDS"
         }
       ],
@@ -2940,6 +2973,10 @@
         {
           "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
           "label": "E6000 Industrial Clr_Blk US CAN MEX TDS – REV 3 (English)"
+        },
+        {
+          "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+          "label": "E6000 Industrial Technical Data Sheet"
         }
       ],
       "priority": "medium",
@@ -3250,18 +3287,6 @@
     },
     {
       "maker": "Eclectic Products",
-      "name": "Amazing Goop Automotive Clear",
-      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-automotive/",
-      "kind": "product",
-      "sourceLabel": "Eclectic Products adhesive catalog",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ]
-    },
-    {
-      "maker": "Eclectic Products",
       "name": "Amazing Goop Auto & RV Clear",
       "officialUrl": "https://eclecticproducts.com/product/amazing-goop-automotive-rv/",
       "kind": "product",
@@ -3272,6 +3297,18 @@
           "label": "AG AU RV TDS US MEX AU_NZ_REV 2 (English)"
         }
       ],
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Eclectic Products",
+      "name": "Amazing Goop Automotive Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-automotive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
         "eclecticproducts.com"
@@ -3832,6 +3869,17 @@
     },
     {
       "maker": "Elmer's",
+      "name": "Elmer's Glue Stick Variety Pack, 30 Count",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-glue-stick-variety-pack-30-count/SP_4844943.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
       "name": "Elmer's Glue-All Multi-Purpose Glue",
       "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/",
       "kind": "product",
@@ -3847,17 +3895,6 @@
       "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
       "kind": "product",
       "sourceLabel": "Elmer's product page",
-      "priority": "high",
-      "officialDomains": [
-        "elmers.com"
-      ]
-    },
-    {
-      "maker": "Elmer's",
-      "name": "Elmer's Glue Stick Variety Pack, 30 Count",
-      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-glue-stick-variety-pack-30-count/SP_4844943.html",
-      "kind": "product",
-      "sourceLabel": "Elmer's official product pages",
       "priority": "high",
       "officialDomains": [
         "elmers.com"
@@ -5153,50 +5190,6 @@
     },
     {
       "maker": "LePage",
-      "name": "LePage PL200 Drywall",
-      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
-      "kind": "product",
-      "sourceLabel": "LePage verified official glue and adhesive products",
-      "allowSharedSourceUrl": true,
-      "tdsDocuments": [
-        {
-          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
-          "label": "LePage PL200 Drywall Technical Data Sheet",
-          "documentType": "TDS"
-        }
-      ],
-      "tdsDiscoveryError": "ConnectionError: HTTPSConnectionPool(host='www.lepage.ca', port=443): Max retries exceeded with url: /en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.lepage.ca', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))",
-      "priority": "high",
-      "officialDomains": [
-        "lepage.ca",
-        "datasheets.tdx.henkel.com",
-        "api.henkeldx.com"
-      ]
-    },
-    {
-      "maker": "LePage",
-      "name": "LePage PL400 Subfloor & Deck",
-      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
-      "kind": "product",
-      "sourceLabel": "LePage verified official glue and adhesive products",
-      "allowSharedSourceUrl": true,
-      "tdsDocuments": [
-        {
-          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
-          "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
-          "documentType": "TDS"
-        }
-      ],
-      "tdsDiscoveryError": "ConnectionError: HTTPSConnectionPool(host='www.lepage.ca', port=443): Max retries exceeded with url: /en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.lepage.ca', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))",
-      "priority": "high",
-      "officialDomains": [
-        "lepage.ca",
-        "datasheets.tdx.henkel.com",
-        "api.henkeldx.com"
-      ]
-    },
-    {
-      "maker": "LePage",
       "name": "LePage PL Premium",
       "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
       "kind": "product",
@@ -5254,6 +5247,50 @@
         }
       ],
       "tdsDiscoveryError": "ConnectionError: HTTPSConnectionPool(host='www.lepage.ca', port=443): Max retries exceeded with url: /en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.lepage.ca', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))",
+      "priority": "high",
+      "officialDomains": [
+        "lepage.ca",
+        "datasheets.tdx.henkel.com",
+        "api.henkeldx.com"
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL200 Drywall",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "allowSharedSourceUrl": true,
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
+          "label": "LePage PL200 Drywall Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "tdsDiscoveryError": "ConnectionError: HTTPSConnectionPool(host='www.lepage.ca', port=443): Max retries exceeded with url: /en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.lepage.ca', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))",
+      "priority": "high",
+      "officialDomains": [
+        "lepage.ca",
+        "datasheets.tdx.henkel.com",
+        "api.henkeldx.com"
+      ]
+    },
+    {
+      "maker": "LePage",
+      "name": "LePage PL400 Subfloor & Deck",
+      "officialUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+      "kind": "product",
+      "sourceLabel": "LePage verified official glue and adhesive products",
+      "allowSharedSourceUrl": true,
+      "tdsDocuments": [
+        {
+          "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+          "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ],
+      "tdsDiscoveryError": "ConnectionError: HTTPSConnectionPool(host='www.lepage.ca', port=443): Max retries exceeded with url: /en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.lepage.ca', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))",
       "priority": "high",
       "officialDomains": [
         "lepage.ca",
@@ -5479,6 +5516,17 @@
     },
     {
       "maker": "Liquid Nails",
+      "name": "FUZE*IT All Surface Interior & Exterior Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "ppgpaints.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
       "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
       "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
       "kind": "product",
@@ -5499,8 +5547,8 @@
     },
     {
       "maker": "Liquid Nails",
-      "name": "FUZE*IT All Surface Interior & Exterior Adhesive",
-      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
+      "name": "FUZE*IT MAX Interior & Exterior All-Purpose Construction Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-r-interior-and-exterior-all-purpose-construction-adhesive",
       "kind": "product",
       "sourceLabel": "Liquid Nails official product information",
       "priority": "high",
@@ -5526,17 +5574,6 @@
           "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
           "label": "Liquid Nails LN-3000 Technical Data Sheet"
         }
-      ]
-    },
-    {
-      "maker": "Liquid Nails",
-      "name": "FUZE*IT MAX Interior & Exterior All-Purpose Construction Adhesive",
-      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-r-interior-and-exterior-all-purpose-construction-adhesive",
-      "kind": "product",
-      "sourceLabel": "Liquid Nails official product information",
-      "priority": "high",
-      "officialDomains": [
-        "ppgpaints.com"
       ]
     },
     {
@@ -5882,8 +5919,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "B-staged epoxy in a cookie form",
-      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
+      "name": "B-Stage Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -5893,8 +5930,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "B-Stage Epoxy Systems",
-      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
+      "name": "B-staged epoxy in a cookie form",
+      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -6146,8 +6183,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicones for Medical Devices",
-      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
+      "name": "Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -6157,8 +6194,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicone Systems",
-      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
+      "name": "Silicones for Medical Devices",
+      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -6748,6 +6785,22 @@
     },
     {
       "maker": "Pattex",
+      "name": "PATTEX Kraftkleber Transparent",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-transparent/SAP_0201FSP03FP9.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
       "name": "PATTEX Kraftkleber, LÃ¶semittelfrei",
       "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-lsemittelfrei/SAP_0201FSP03083.html",
       "kind": "product",
@@ -6764,10 +6817,10 @@
     },
     {
       "maker": "Pattex",
-      "name": "PATTEX Kraftkleber Transparent",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-transparent/SAP_0201FSP03FP9.html",
+      "name": "PATTEX Montage Stein",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montage-stein/SAP_0201CGP03WQX.html",
       "kind": "product",
-      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "sourceLabel": "Pattex official Montagekleber products",
       "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
@@ -6924,22 +6977,6 @@
     },
     {
       "maker": "Pattex",
-      "name": "PATTEX Montage Stein",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montage-stein/SAP_0201CGP03WQX.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Montagekleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
       "name": "PATTEX Multi - Repair Liquid Water-based",
       "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-multi-repair-liquid-water-based/SAP_0201ONP03M60.html",
       "kind": "product",
@@ -6976,6 +7013,86 @@
       "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-repair-extreme/SAP_0201OFP03X70.html",
       "kind": "product",
       "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber FlÃ¼ssig",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-flssig/SAP_0201DCP03CAY.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber FÃ¼r Jedes Plastik",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-fr-jedes-plastik/SAP_0201DFP03FP4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Power Easy Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-power-easy-gel/SAP_0201DEP039L9.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Ultra Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-ultra-gel/SAP_0201DGP039L6.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Upcycling-Set",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-upcycling-set/SAP_0201DCP03FW5.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
       "tdsDocuments": [],
       "priority": "high",
       "officialDomains": [
@@ -7052,38 +7169,6 @@
     },
     {
       "maker": "Pattex",
-      "name": "PATTEX Sekundenkleber FlÃ¼ssig",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-flssig/SAP_0201DCP03CAY.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Sekundenkleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
-      "name": "PATTEX Sekundenkleber FÃ¼r Jedes Plastik",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-fr-jedes-plastik/SAP_0201DFP03FP4.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Sekundenkleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
       "name": "PATTEX Sekundenkleber, Glas",
       "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-glas/SAP_0201DFP03CAO.html",
       "kind": "product",
@@ -7116,56 +7201,8 @@
     },
     {
       "maker": "Pattex",
-      "name": "PATTEX Sekundenkleber Power Easy Gel",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-power-easy-gel/SAP_0201DEP039L9.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Sekundenkleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
       "name": "PATTEX Sekundenkleber, PrÃ¤zision flÃ¼ssig",
       "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-przision-flssig/SAP_0201DCP03Z77.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Sekundenkleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
-      "name": "PATTEX Sekundenkleber Ultra Gel",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-ultra-gel/SAP_0201DGP039L6.html",
-      "kind": "product",
-      "sourceLabel": "Pattex official Sekundenkleber products",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "pattex.de",
-        "henkel.com",
-        "henkel-dam.com",
-        "datasheets.tdx.henkel.com",
-        "dm.henkel-dam.com"
-      ]
-    },
-    {
-      "maker": "Pattex",
-      "name": "PATTEX Sekundenkleber Upcycling-Set",
-      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-upcycling-set/SAP_0201DCP03FW5.html",
       "kind": "product",
       "sourceLabel": "Pattex official Sekundenkleber products",
       "tdsDocuments": [],
@@ -7219,6 +7256,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7230,6 +7274,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7241,6 +7292,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7252,6 +7310,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/108_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7263,6 +7328,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/130UV_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7274,6 +7346,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/135UV_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7285,6 +7364,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/170_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7296,6 +7382,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/200_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7307,6 +7400,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/2010_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7318,6 +7418,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/2011_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7329,6 +7436,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7340,6 +7454,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/240_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7351,6 +7472,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7362,6 +7490,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/3DSeries_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7373,6 +7508,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/4C10_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7384,6 +7526,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/4C20_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7395,6 +7544,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/4C30_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7406,6 +7562,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/4C40_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7417,6 +7580,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/712_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7428,6 +7598,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7439,6 +7616,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/735_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7450,6 +7634,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/737_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7461,6 +7652,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/04/751_TDS_PTBR.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7472,6 +7670,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/790_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7483,6 +7688,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/791_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7494,6 +7706,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/792_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7505,6 +7724,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/795_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7516,6 +7742,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/799_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7527,6 +7760,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/801_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7538,6 +7778,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/802_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7549,6 +7796,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7560,6 +7814,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/825_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7571,6 +7832,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7582,6 +7850,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7593,6 +7868,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/919_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7604,6 +7886,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7615,6 +7904,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7626,6 +7922,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/940_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7637,6 +7940,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/941_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7648,6 +7958,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/943_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7659,6 +7976,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/947_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7670,6 +7994,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A011_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7681,6 +8012,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A025_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7692,6 +8030,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A1042_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7703,6 +8048,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A1044_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7714,6 +8066,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A1046_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7725,6 +8084,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7736,6 +8102,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A113_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7747,6 +8120,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A118_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7758,6 +8138,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A126_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7769,6 +8156,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A129_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7780,6 +8174,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A130_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7791,6 +8192,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A131_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7802,6 +8210,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A134_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7813,6 +8228,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A136_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7824,6 +8246,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/A905_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7835,6 +8264,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/Anti-Seize_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7846,6 +8282,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ASC10_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7857,6 +8300,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/CleanerA_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7868,6 +8318,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/CSA_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7879,6 +8336,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/CSA-NF_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7890,6 +8354,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/CSA_NF_TDS_PTBR.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7901,6 +8372,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES550_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7912,6 +8390,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES558_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7923,6 +8408,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES562_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7934,6 +8426,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES569_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7945,6 +8444,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES5748_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7956,6 +8462,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES578_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7967,6 +8480,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ES579_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7978,6 +8498,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET500_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -7989,6 +8516,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5003_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8000,6 +8534,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET503_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8011,6 +8552,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET505_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8022,6 +8570,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET510_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8033,6 +8588,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET514_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8044,6 +8606,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8055,6 +8624,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8066,6 +8642,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8077,6 +8660,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET515_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8088,6 +8678,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5162_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8099,6 +8696,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5164_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8110,6 +8714,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET536_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8121,6 +8732,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8132,6 +8750,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8143,6 +8768,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET538_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8154,6 +8786,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5392_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8165,6 +8804,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5393_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8176,6 +8822,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET540_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8187,6 +8840,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8198,6 +8858,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5422_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8209,6 +8876,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/05/ET5424_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8220,6 +8894,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5424_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8231,6 +8912,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5428_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8242,6 +8930,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8253,6 +8948,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5429_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8264,6 +8966,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/ET5441_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8275,6 +8984,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/F201_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8286,6 +9002,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8297,6 +9020,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8308,6 +9038,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/F202_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8319,6 +9056,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8330,6 +9074,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH040Pure_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8341,6 +9092,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH120_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8352,6 +9110,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH131_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8363,6 +9128,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH167_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8374,6 +9146,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HH190_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8385,6 +9164,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HL126_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8396,6 +9182,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HL138_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8407,6 +9200,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM118_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8418,6 +9218,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM128_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8429,6 +9236,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM129_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8440,6 +9254,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM135_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8451,6 +9272,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8462,6 +9290,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM161_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8473,6 +9308,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM162_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8484,6 +9326,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM163_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8495,6 +9344,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/HM165_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8506,6 +9362,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH050_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8517,6 +9380,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH050Pure_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8528,6 +9398,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH051_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8539,6 +9416,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/04/LH055_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8550,6 +9434,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH056_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8561,6 +9452,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH150_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8572,6 +9470,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LH197_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8583,6 +9488,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LM012_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8594,6 +9506,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/LM113_TDS-4.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8605,6 +9524,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MH052_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8616,6 +9542,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MH196_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8627,6 +9560,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MH199_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8638,6 +9578,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MM115_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8649,6 +9596,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MM115Pure_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8660,6 +9614,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8671,6 +9632,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8682,6 +9650,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8693,6 +9668,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MT3809_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8704,6 +9686,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MT382_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8715,6 +9704,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8726,6 +9722,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/MT3836_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8741,6 +9744,18 @@
     },
     {
       "maker": "Permabond",
+      "name": "Permabond 105 – Cyanoacrylate Adhesive",
+      "officialUrl": "https://permabond.com/products/permabond-105/",
+      "kind": "product",
+      "sourceLabel": "Permabond product sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ]
+    },
+    {
+      "maker": "Permabond",
       "name": "PERMABOND DEFAULT 1.JPG",
       "officialUrl": "https://permabond.com/wp-content/uploads/2022/11/Permabond-Default-1.jpg",
       "kind": "product",
@@ -8748,7 +9763,8 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
-      ]
+      ],
+      "tdsDocuments": []
     },
     {
       "maker": "Permabond",
@@ -8759,7 +9775,8 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
-      ]
+      ],
+      "tdsDocuments": []
     },
     {
       "maker": "Permabond",
@@ -8770,7 +9787,8 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
-      ]
+      ],
+      "tdsDocuments": []
     },
     {
       "maker": "Permabond",
@@ -8781,6 +9799,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/POP_TDS_DE.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8792,6 +9817,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/PT321_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8803,6 +9835,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/PT326_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8814,6 +9853,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/PT328_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8825,6 +9871,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/QFS10_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8836,6 +9889,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/QFS16_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8847,6 +9907,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4200_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8858,6 +9925,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4202_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8869,6 +9943,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4204_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8880,6 +9961,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4205_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8891,6 +9979,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4205_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8902,6 +9997,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4207_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8913,6 +10015,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8924,6 +10033,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4210_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8935,6 +10051,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/06/TA4213_TDS_FR.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8946,6 +10069,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4230_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8957,6 +10087,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4246_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8968,6 +10105,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA430_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8979,6 +10123,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA435_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -8990,6 +10141,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA436_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9001,6 +10159,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA437_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9012,6 +10177,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA439_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9023,6 +10195,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA440_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9034,6 +10213,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA452_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9045,6 +10231,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4522_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9056,6 +10249,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4550_TDS-1-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9067,6 +10267,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/05/TA4551_TDS_FR.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9078,6 +10285,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA459_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9089,6 +10303,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4590_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9100,6 +10321,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4592_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9111,6 +10339,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4605_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9122,6 +10357,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9133,6 +10375,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4611_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9144,6 +10393,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4631_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9155,6 +10411,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4810_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9166,6 +10429,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/TA4820_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9177,6 +10447,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV605_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9188,6 +10465,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV610_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9199,6 +10483,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV6160_TDS-3.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9210,6 +10501,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV620_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9221,6 +10519,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV6231_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9232,6 +10537,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV625_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9254,6 +10566,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV6302_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9265,6 +10584,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV630M-PTBR-TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9276,6 +10602,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV632_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9287,6 +10620,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2026/01/UV6357_TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9298,6 +10638,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV6361_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9309,6 +10656,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV639_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9331,6 +10685,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV640M-PTBR-TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9342,6 +10703,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV643-PTBR-TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9364,6 +10732,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV645M-PTBR-TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9375,6 +10750,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV648_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9397,6 +10779,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV649M-PTBR-TDS.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9408,6 +10797,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV670_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9419,6 +10815,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV681_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9430,6 +10833,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV683_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9441,6 +10851,13 @@
       "priority": "high",
       "officialDomains": [
         "permabond.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/UV7141_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
       ]
     },
     {
@@ -9469,32 +10886,8 @@
     },
     {
       "maker": "Permatex",
-      "name": "PermatexÂ® Black Cut Gasket Coating, 2 oz, 80012 .woocommerce-variation-price{ display: none !important;}",
-      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-black-cut-gasket-coating-2-oz-80012/",
-      "kind": "product",
-      "sourceLabel": "Permatex adhesives and sealants",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "permatex.com"
-      ]
-    },
-    {
-      "maker": "Permatex",
       "name": "Permatex Â® Black Super Weatherstrip Adhesive 81852 (2 OZ) .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/weatherstrip/permatex-black-super-weatherstrip-adhesive-81852-2-oz/",
-      "kind": "product",
-      "sourceLabel": "Permatex adhesives and sealants",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "permatex.com"
-      ]
-    },
-    {
-      "maker": "Permatex",
-      "name": "PermatexÂ® Grey Cut Gasket Coating, 2 oz, 80013 .woocommerce-variation-price{ display: none !important;}",
-      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-grey-cut-gasket-coating-2-oz-80013/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
       "tdsDocuments": [],
@@ -9577,18 +10970,6 @@
     },
     {
       "maker": "Permatex",
-      "name": "PermatexÂ® Red Cut Gasket Coating, 2 oz, 80014 .woocommerce-variation-price{ display: none !important;}",
-      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-red-cut-gasket-coating-2-oz-80014/",
-      "kind": "product",
-      "sourceLabel": "Permatex adhesives and sealants",
-      "tdsDocuments": [],
-      "priority": "high",
-      "officialDomains": [
-        "permatex.com"
-      ]
-    },
-    {
-      "maker": "Permatex",
       "name": "Permatex Â® Tailpipe Repair Kit: Heavy Duty 80336 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/specialized-maintenance-repair/permatex-tailpipe-repair-kit-heavy-duty-80336/",
       "kind": "product",
@@ -9627,6 +11008,42 @@
       "maker": "Permatex",
       "name": "Permatex Â® The Right Stuff Â® Rapid Cure Medium Strength Threadlocker Blue, 10 ML .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "PermatexÂ® Black Cut Gasket Coating, 2 oz, 80012 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-black-cut-gasket-coating-2-oz-80012/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "PermatexÂ® Grey Cut Gasket Coating, 2 oz, 80013 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-grey-cut-gasket-coating-2-oz-80013/",
+      "kind": "product",
+      "sourceLabel": "Permatex adhesives and sealants",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ]
+    },
+    {
+      "maker": "Permatex",
+      "name": "PermatexÂ® Red Cut Gasket Coating, 2 oz, 80014 .woocommerce-variation-price{ display: none !important;}",
+      "officialUrl": "https://www.permatex.com/products/gasketing/permatex-red-cut-gasket-coating-2-oz-80014/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
       "tdsDocuments": [],
@@ -10793,8 +12210,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New SikaflexÂ®-11 FC",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
+      "name": "New SikaflexÂ® PRO-3 PurformÂ®",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -10805,8 +12222,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New SikaflexÂ® PRO-3 PurformÂ®",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
+      "name": "New SikaflexÂ®-11 FC",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -10841,8 +12258,8 @@
     },
     {
       "maker": "Sika",
-      "name": "SikaflexÂ® PRO-3 PurformÂ® PowerCure",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
+      "name": "SikaflexÂ® - The Leading Brand for Sealants and Adhesives",
+      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -10853,8 +12270,8 @@
     },
     {
       "maker": "Sika",
-      "name": "SikaflexÂ® - The Leading Brand for Sealants and Adhesives",
-      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
+      "name": "SikaflexÂ® PRO-3 PurformÂ® PowerCure",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -10959,8 +12376,8 @@
     },
     {
       "maker": "Tamiya",
-      "name": "Tamiya CA Cement Accelerator",
-      "officialUrl": "https://www.tamiya.com/english/products/87138/index.html",
+      "name": "Tamiya CA Cement & Primer Set",
+      "officialUrl": "https://www.tamiya.com/english/products/87211/index.html",
       "kind": "product",
       "sourceLabel": "Tamiya official cement and putty list",
       "priority": "medium",
@@ -10987,19 +12404,6 @@
       "maker": "Tamiya",
       "name": "Tamiya CA Cement (Gel Type)",
       "officialUrl": "https://www.tamiya.com/english/products/87091/index.html",
-      "kind": "product",
-      "sourceLabel": "Tamiya official cement and putty list",
-      "priority": "medium",
-      "officialDomains": [
-        "tamiya.com",
-        "tamiya.de"
-      ],
-      "tdsDocuments": []
-    },
-    {
-      "maker": "Tamiya",
-      "name": "Tamiya CA Cement & Primer Set",
-      "officialUrl": "https://www.tamiya.com/english/products/87211/index.html",
       "kind": "product",
       "sourceLabel": "Tamiya official cement and putty list",
       "priority": "medium",
@@ -11050,8 +12454,8 @@
     },
     {
       "maker": "Tamiya",
-      "name": "Tamiya Cement",
-      "officialUrl": "https://www.tamiya.com/english/products/87003/index.html",
+      "name": "Tamiya CA Cement Accelerator",
+      "officialUrl": "https://www.tamiya.com/english/products/87138/index.html",
       "kind": "product",
       "sourceLabel": "Tamiya official cement and putty list",
       "priority": "medium",
@@ -11063,8 +12467,8 @@
     },
     {
       "maker": "Tamiya",
-      "name": "Tamiya Cement for ABS",
-      "officialUrl": "https://www.tamiya.com/english/products/87137/index.html",
+      "name": "Tamiya Cement",
+      "officialUrl": "https://www.tamiya.com/english/products/87003/index.html",
       "kind": "product",
       "sourceLabel": "Tamiya official cement and putty list",
       "priority": "medium",
@@ -11091,6 +12495,19 @@
       "maker": "Tamiya",
       "name": "Tamiya Cement (Low Odor)",
       "officialUrl": "https://www.tamiya.com/english/products/87238/index.html",
+      "kind": "product",
+      "sourceLabel": "Tamiya official cement and putty list",
+      "priority": "medium",
+      "officialDomains": [
+        "tamiya.com",
+        "tamiya.de"
+      ],
+      "tdsDocuments": []
+    },
+    {
+      "maker": "Tamiya",
+      "name": "Tamiya Cement for ABS",
+      "officialUrl": "https://www.tamiya.com/english/products/87137/index.html",
       "kind": "product",
       "sourceLabel": "Tamiya official cement and putty list",
       "priority": "medium",
@@ -13839,13 +15256,13 @@
     },
     {
       "maker": "Titebond",
-      "name": "Titebond III Ultimate",
-      "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+      "name": "Titebond II Premium",
+      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
       "tdsDocuments": [
         {
-          "url": "https://www.titebond.com/print/product/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+          "url": "https://www.titebond.com/print/product/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
           "label": "Titebond Technical Data Sheet",
           "documentType": "TDS"
         }
@@ -13857,13 +15274,13 @@
     },
     {
       "maker": "Titebond",
-      "name": "Titebond II Premium",
-      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+      "name": "Titebond III Ultimate",
+      "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
       "tdsDocuments": [
         {
-          "url": "https://www.titebond.com/print/product/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+          "url": "https://www.titebond.com/print/product/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
           "label": "Titebond Technical Data Sheet",
           "documentType": "TDS"
         }
@@ -14428,32 +15845,6 @@
     },
     {
       "maker": "ZAP",
-      "name": "Zap-A-Gap Fly Fishing",
-      "officialUrl": "https://zapglue.com/products/zap-a-gap-fly-fishing-medium-green",
-      "kind": "product",
-      "sourceLabel": "ZAP Glue official adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "zapglue.com"
-      ],
-      "productCode": "ZF04",
-      "tdsDocuments": []
-    },
-    {
-      "maker": "ZAP",
-      "name": "Zap-A-Gap Medium",
-      "officialUrl": "https://zapglue.com/products/zap-a-gap-medium-green",
-      "kind": "product",
-      "sourceLabel": "ZAP Glue official adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "zapglue.com"
-      ],
-      "productCode": "PT-01/02/03/04/05/100/105",
-      "tdsDocuments": []
-    },
-    {
-      "maker": "ZAP",
       "name": "Zap CA Thin",
       "officialUrl": "https://zapglue.com/products/zap-ca",
       "kind": "product",
@@ -14480,19 +15871,6 @@
     },
     {
       "maker": "ZAP",
-      "name": "Zap-O Foam Safe CA",
-      "officialUrl": "https://zapglue.com/products/1-oz-28-4ml-zap-o-foam-safe-ca-odorless-btl",
-      "kind": "product",
-      "sourceLabel": "ZAP Glue official adhesive catalog",
-      "priority": "medium",
-      "officialDomains": [
-        "zapglue.com"
-      ],
-      "productCode": "PT-25",
-      "tdsDocuments": []
-    },
-    {
-      "maker": "ZAP",
       "name": "Zap Plastic Model Cement",
       "officialUrl": "https://zapglue.com/products/zap-plastic-model-cement",
       "kind": "product",
@@ -14502,6 +15880,45 @@
         "zapglue.com"
       ],
       "productCode": "PT-104",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "ZAP",
+      "name": "Zap-A-Gap Fly Fishing",
+      "officialUrl": "https://zapglue.com/products/zap-a-gap-fly-fishing-medium-green",
+      "kind": "product",
+      "sourceLabel": "ZAP Glue official adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "zapglue.com"
+      ],
+      "productCode": "ZF04",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "ZAP",
+      "name": "Zap-A-Gap Medium",
+      "officialUrl": "https://zapglue.com/products/zap-a-gap-medium-green",
+      "kind": "product",
+      "sourceLabel": "ZAP Glue official adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "zapglue.com"
+      ],
+      "productCode": "PT-01/02/03/04/05/100/105",
+      "tdsDocuments": []
+    },
+    {
+      "maker": "ZAP",
+      "name": "Zap-O Foam Safe CA",
+      "officialUrl": "https://zapglue.com/products/1-oz-28-4ml-zap-o-foam-safe-ca-odorless-btl",
+      "kind": "product",
+      "sourceLabel": "ZAP Glue official adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "zapglue.com"
+      ],
+      "productCode": "PT-25",
       "tdsDocuments": []
     },
     {

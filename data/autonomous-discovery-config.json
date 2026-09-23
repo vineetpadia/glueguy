@@ -406,7 +406,11 @@
             "-fr/?$",
             "-de/?$",
             "-es/?$"
-          ]
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 250,
+          "tdsRequestIntervalSeconds": 0.15,
+          "includeSds": true
         }
       ]
     },

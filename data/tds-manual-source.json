@@ -57686,6 +57686,358 @@
       "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
       "sourceLabel": "TDS",
       "productUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/"
+    },
+    {
+      "id": "permabond-2050",
+      "maker": "Permabond",
+      "name": "2050",
+      "profile": "cyanoacrylate",
+      "summary": "Flexible, toughened ethyl cyanoacrylate for dissimilar or semi-porous substrates exposed to peel, impact, vibration, and thermal cycling.",
+      "sourceRevisionDate": "Permabond 2050 Global TDS Revision 5, 07 August 2020.",
+      "chemistry": "Ethyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+      "serviceMin": -55,
+      "serviceMax": null,
+      "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+      "gapFill": 0.2,
+      "fixtureTime": 0.208,
+      "fixtureTimeNote": "10–15 seconds on steel (midpoint 12.5 s); 5–10 seconds on Buna-N rubber and PVC.",
+      "fullStrengthHours": 24,
+      "viscosityClass": "medium",
+      "viscosityValue": "1200-1800",
+      "viscosityUnit": "cP",
+      "lapShear": 18,
+      "lapShearSubstrate": "Steel, ISO 4587: 16–20 N/mm² (midpoint 18 MPa); also reports ABS >6, PVC >8 and polycarbonate >5 N/mm² with substrate failure for plastic tests.",
+      "thermalConductivity": 0.1,
+      "dielectricConstant": 2.5,
+      "dielectricBreakdownKVPerMm": 25,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-bonding",
+        "flexible-bonding",
+        "impact-resistant",
+        "rubber-bonding",
+        "plastic-bonding"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 5,
+        "impact": 6
+      },
+      "substrates": {
+        "steel": 8,
+        "plastic": 8,
+        "rubber": 8,
+        "pvc": 8,
+        "abs": 7,
+        "polycarbonate": 7
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and bond gap.",
+        "For polypropylene, polyethylene, PTFE, or silicone, prime with Permabond POP.",
+        "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+        "TDS identifies professional/industrial use only."
+      ],
+      "unpublishedFields": [
+        "serviceMax",
+        "potLife"
+      ],
+      "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+      "referenceCategory": "Instant-Bond Adhesives",
+      "referenceSampleType": "Bottle",
+      "referenceSampleConsistency": "Colourless flexible ethyl cyanoacrylate, 1200–1800 cP.",
+      "referenceForJoining": "Flexible or semi-porous surfaces and dissimilar materials subject to peel, impact, vibration or thermal cycling.",
+      "productUrl": "https://permabond.com/tds/2050_tds-en/"
+    },
+    {
+      "id": "permabond-268",
+      "maker": "Permabond",
+      "name": "268",
+      "profile": "gelCA",
+      "summary": "Medium-high viscosity, gap-filling ethyl cyanoacrylate for larger gaps and difficult-to-bond plastics, metals, ceramics, and elastomers.",
+      "sourceRevisionDate": "Permabond 268 Global TDS Revision 3, 07 August 2020.",
+      "chemistry": "Ethyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+      "serviceMin": -55,
+      "serviceMax": null,
+      "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+      "gapFill": 0.43,
+      "fixtureTime": 0.125,
+      "fixtureTimeNote": "5–10 seconds on steel, Buna-N rubber, and phenolic (midpoint 7.5 s).",
+      "fullStrengthHours": 24,
+      "viscosityClass": "high",
+      "viscosityValue": "1200-2400",
+      "viscosityUnit": "cP",
+      "lapShear": 21,
+      "lapShearSubstrate": "Steel, ISO 4587: 20–22 N/mm² (midpoint 21 MPa); ABS, PVC, and polycarbonate results are reported as substrate failure.",
+      "thermalConductivity": 0.1,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-bonding",
+        "gap-filling",
+        "plastic-bonding",
+        "metal-bonding",
+        "ceramic-bonding"
+      ],
+      "stress": {
+        "shear": 7,
+        "peel": 2,
+        "impact": 3
+      },
+      "substrates": {
+        "steel": 9,
+        "metal": 8,
+        "plastic": 8,
+        "ceramic": 7,
+        "elastomer": 8,
+        "abs": 7,
+        "pvc": 7,
+        "polycarbonate": 7
+      },
+      "standards": [
+        "MIL-A-46050C Type II Class 3 (existing designs)"
+      ],
+      "cautions": [
+        "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+        "Maximum stated gap fill is 0.43 mm; larger gaps and acidic surfaces slow cure.",
+        "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+        "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+        "TDS identifies professional/industrial use only."
+      ],
+      "unpublishedFields": [
+        "serviceMax",
+        "potLife"
+      ],
+      "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+      "referenceCategory": "Instant-Bond Adhesives",
+      "referenceSampleType": "Bottle",
+      "referenceSampleConsistency": "Colourless medium-high viscosity ethyl cyanoacrylate, 1200–2400 cP.",
+      "referenceForJoining": "Large-gap assembly and bonding metals, ceramics, plastics, elastomers, including polyacetal and passivated metals.",
+      "productUrl": "https://permabond.com/tds/268_tds-en/"
+    },
+    {
+      "id": "permabond-731",
+      "maker": "Permabond",
+      "name": "731",
+      "profile": "cyanoacrylate",
+      "summary": "Toughened, flexible ethyl cyanoacrylate with improved impact and peel strength and a slower handling cure that allows alignment.",
+      "sourceRevisionDate": "Permabond 731 Global TDS Revision 5, 28 February 2022.",
+      "chemistry": "Ethyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part toughened moisture-triggered cyanoacrylate; full strength in 24 hours.",
+      "serviceMin": -55,
+      "serviceMax": null,
+      "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; no continuous maximum is specified.",
+      "gapFill": 0.15,
+      "fixtureTime": 0.5,
+      "fixtureTimeNote": "Less than 30 seconds on steel; 120–180 seconds on aluminium; 15–20 seconds on Buna-N rubber and neoprene; 30–45 seconds on ABS.",
+      "fullStrengthHours": 24,
+      "viscosityClass": "medium",
+      "viscosityValue": "150",
+      "viscosityUnit": "cP",
+      "lapShear": 27,
+      "lapShearSubstrate": "Steel, ISO 4587: 24–30 N/mm² (midpoint 27 MPa); aluminium 13–15 MPa. Peel strength is 40–60 N/25 mm by ASTM D903.",
+      "peelStrengthNPerM": 2000,
+      "thermalConductivity": 0.1,
+      "dielectricConstant": 2.5,
+      "dielectricBreakdownKVPerMm": 25,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-bonding",
+        "toughened",
+        "flexible-bonding",
+        "peel-resistant",
+        "impact-resistant",
+        "metal-bonding",
+        "rubber-bonding"
+      ],
+      "stress": {
+        "shear": 7,
+        "peel": 6,
+        "impact": 6
+      },
+      "substrates": {
+        "steel": 9,
+        "aluminum": 8,
+        "galvanizedSteel": 8,
+        "metal": 8,
+        "plastic": 7,
+        "rubber": 8,
+        "abs": 7,
+        "pvc": 6,
+        "acrylic": 6
+      },
+      "standards": [
+        "ISO 10993-5 Cytotoxicity (TDS reports pass)"
+      ],
+      "cautions": [
+        "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+        "TDS minimum service temperature is −55 °C; its temperature graph is not a continuous-use maximum specification.",
+        "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+        "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+        "TDS identifies professional/industrial use only."
+      ],
+      "unpublishedFields": [
+        "serviceMax",
+        "potLife"
+      ],
+      "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+      "referenceCategory": "Instant-Bond Adhesives",
+      "referenceSampleType": "Bottle",
+      "referenceSampleConsistency": "Colourless, toughened ethyl cyanoacrylate, 150 cP.",
+      "referenceForJoining": "Metal, plastic, rubber and elastomers where greater peel, impact resistance and alignment time are useful.",
+      "productUrl": "https://permabond.com/tds/731_tds-en/"
+    },
+    {
+      "id": "permabond-820",
+      "maker": "Permabond",
+      "name": "820",
+      "profile": "thinCA",
+      "summary": "Low-viscosity modified ethyl cyanoacrylate for fast bonding where improved high-temperature resistance is needed.",
+      "sourceRevisionDate": "Permabond 820 Global TDS Revision 7, 28 February 2022.",
+      "chemistry": "Modified ethyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-triggered cyanoacrylate; full strength in 24 hours.",
+      "serviceMin": -55,
+      "serviceMax": null,
+      "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials and discusses brief high-temperature exposure; no continuous maximum is specified.",
+      "gapFill": 0.15,
+      "fixtureTime": 0.208,
+      "fixtureTimeNote": "10–15 seconds on steel, Buna-N rubber, and phenolic (midpoint 12.5 s).",
+      "fullStrengthHours": 24,
+      "viscosityClass": "low",
+      "viscosityValue": "100",
+      "viscosityUnit": "cP",
+      "lapShear": 21,
+      "lapShearSubstrate": "Steel, ISO 4587: 19–23 N/mm² (midpoint 21 MPa); strength varies with preparation and bond gap.",
+      "thermalConductivity": 0.1,
+      "dielectricBreakdownKVPerMm": 25,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-bonding",
+        "high-temperature-resistant",
+        "metal-bonding",
+        "plastic-bonding",
+        "rubber-bonding"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 1,
+        "impact": 2
+      },
+      "substrates": {
+        "steel": 9,
+        "metal": 8,
+        "rubber": 8,
+        "plastic": 7
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+        "High-temperature exposure is described as brief; the TDS does not specify a continuous maximum service temperature.",
+        "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+        "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+        "TDS identifies professional/industrial use only."
+      ],
+      "unpublishedFields": [
+        "serviceMax",
+        "potLife"
+      ],
+      "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+      "referenceCategory": "Instant-Bond Adhesives",
+      "referenceSampleType": "Bottle",
+      "referenceSampleConsistency": "Colourless modified ethyl cyanoacrylate, 100 cP.",
+      "referenceForJoining": "Fast room-temperature bonding of metal, rubber and plastic parts exposed to elevated temperatures.",
+      "productUrl": "https://permabond.com/tds/820_tds-en/"
+    },
+    {
+      "id": "permabond-910fs",
+      "maker": "Permabond",
+      "name": "910FS",
+      "profile": "thinCA",
+      "summary": "Very-low-viscosity methyl cyanoacrylate designed for rapid metal bonding and fast wicking into close-fitting joints.",
+      "sourceRevisionDate": "Permabond 910FS Global TDS Revision 3, 06 August 2020.",
+      "chemistry": "Methyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-triggered methyl cyanoacrylate; TDS reports fixture strength in under 5 seconds on steel and full strength in 24 hours.",
+      "serviceMin": -55,
+      "serviceMax": null,
+      "serviceTemperatureNote": "TDS gives a minimum cured exposure temperature of −55 °C depending on bonded materials; brief higher-temperature exposure is described without a continuous maximum rating.",
+      "gapFill": 0.05,
+      "fixtureTime": 0.083,
+      "fixtureTimeNote": "Less than 5 seconds on steel; less than 10 seconds on Buna-N rubber and phenolic.",
+      "fullStrengthHours": 24,
+      "viscosityClass": "very-low",
+      "viscosityValue": "2-4",
+      "viscosityUnit": "cP",
+      "lapShear": 26,
+      "lapShearSubstrate": "Steel, ISO 4587: 23–29 N/mm² (midpoint 26 MPa); aluminium 13–15 MPa; brass and stainless steel 21 MPa.",
+      "thermalConductivity": 0.1,
+      "dielectricConstant": 2.5,
+      "dielectricBreakdownKVPerMm": 25,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "instant-bonding",
+        "wicking-penetrating",
+        "metal-bonding",
+        "plastic-bonding",
+        "rubber-bonding"
+      ],
+      "standards": [
+        "MIL-A-46050C Type I Class 1 (existing designs)",
+        "CID A-A-3097 Type I Class 1 (new designs)"
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 1,
+        "impact": 2
+      },
+      "substrates": {
+        "steel": 9,
+        "aluminum": 8,
+        "brass": 9,
+        "stainlessSteel": 9,
+        "metal": 9,
+        "plastic": 7,
+        "rubber": 7,
+        "abs": 8,
+        "acrylic": 8,
+        "pvc": 7,
+        "polycarbonate": 7
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not specifications; strength varies with surface preparation and gap.",
+        "Maximum gap fill is 0.05 mm; this very-low-viscosity product is for close-fitting joints.",
+        "Prime polypropylene, polyethylene, PTFE, or silicone with Permabond POP.",
+        "Store at 2–7 °C; allow the bottle to reach room temperature before opening.",
+        "TDS identifies professional/industrial use only."
+      ],
+      "unpublishedFields": [
+        "serviceMax",
+        "potLife"
+      ],
+      "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+      "referenceCategory": "Instant-Bond Adhesives",
+      "referenceSampleType": "Bottle",
+      "referenceSampleConsistency": "Colourless methyl cyanoacrylate, 2–4 cP.",
+      "referenceForJoining": "Steel, aluminium, brass, stainless steel and other metals; also plastics and rubbers in close-fitting joints.",
+      "productUrl": "https://permabond.com/tds/910fs_tds-en/"
     }
   ]
 }

@@ -172,6 +172,16 @@ def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | Non
     """Find manufacturer-hosted TDS and SDS links while retaining document type."""
     page = fetch_text(product_url, timeout=timeout, transport=transport)
     hostname = (urlparse(product_url).hostname or "").lower()
+    parsed_product_url = urlparse(product_url)
+    if hostname == "permabond.com" and parsed_product_url.path.startswith("/tds/"):
+        # Permabond's TDS landing pages expose their PDF as a generic
+        # "Download PDF" link. The page path and heading establish the
+        # document type; the anchor label by itself does not.
+        if re.search(r"technical data\s*sheet|technical datasheet", page, re.I):
+            for record in collect_html_link_records_from_text(product_url, page):
+                url = record["url"].split("#", 1)[0]
+                if url.lower().split("?", 1)[0].endswith(".pdf") and re.search(r"download\s+pdf", record.get("label", ""), re.I):
+                    return [{"url": url, "label": "Permabond Technical Data Sheet", "documentType": "TDS"}]
     if hostname == "dap.com" or hostname.endswith(".dap.com"):
         records = collect_html_link_records_from_text(product_url, page)
         # DAP's custom document buttons can live outside anchors; pair the
@@ -594,10 +604,10 @@ def dedupe_entries(entries: list[dict]) -> list[dict]:
     return deduped
 
 
-def discover() -> dict:
-    config = json.loads(CONFIG_PATH.read_text())
+def discover(selected_manufacturers: set[str] | None = None) -> dict:
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     verified_leads = json.loads(VERIFIED_LEADS_PATH.read_text(encoding="utf-8")).get("entries", []) if VERIFIED_LEADS_PATH.exists() else []
-    previous = json.loads(OUTPUT_PATH.read_text()) if OUTPUT_PATH.exists() else {}
+    previous = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")) if OUTPUT_PATH.exists() else {}
     previous_entries = previous.get("entries", [])
     previous_tds = {
         (normalize_text(entry.get("maker")), normalize_text(entry.get("name"))): entry
@@ -611,8 +621,13 @@ def discover() -> dict:
     }
     discovered: list[dict] = []
     manufacturers_summary = []
+    configured_manufacturers = config.get("manufacturers", [])
+    manufacturers_to_scan = [
+        manufacturer for manufacturer in configured_manufacturers
+        if selected_manufacturers is None or normalize_text(manufacturer.get("name")) in selected_manufacturers
+    ]
     manufacturers = sorted(
-        config.get("manufacturers", []),
+        manufacturers_to_scan,
         key=lambda manufacturer: (
             0 if normalize_text(manufacturer.get("name")) == "3m" else 1,
             manufacturer.get("priority", "medium"),
@@ -925,17 +940,27 @@ def discover() -> dict:
         for entry in discovered
         if entry.get("officialUrl")
     }
+    discovered_by_identity = {
+        (normalize_text(entry.get("maker")), normalize_text(entry.get("name")), product_url_identity(entry.get("officialUrl"))): entry
+        for entry in discovered
+    }
     preserved_previous_entries = 0
     preserved_tds_entries = 0
     for entry in previous_entries:
         key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
         url_key = product_url_identity(entry.get("officialUrl"))
-        current = discovered_by_key.get(key) or (discovered_by_url.get(url_key) if url_key else None)
+        current = discovered_by_key.get(key)
+        if selected_manufacturers is not None:
+            identity = (key[0], key[1], url_key)
+            current = discovered_by_identity.get(identity)
+        elif current is None and url_key:
+            current = discovered_by_url.get(url_key)
         if current is None:
             discovered.append(entry)
             discovered_by_key[key] = entry
             if url_key:
                 discovered_by_url[url_key] = entry
+            discovered_by_identity[(key[0], key[1], url_key)] = entry
             preserved_previous_entries += 1
             if entry.get("tdsDocuments"):
                 preserved_tds_entries += 1
@@ -968,7 +993,7 @@ def discover() -> dict:
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "stats": {
-            "manufacturersConfigured": len(config.get("manufacturers", [])),
+            "manufacturersConfigured": len(configured_manufacturers),
             "discoveredEntries": len(discovered),
             "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
             "tdsDocumentsLinked": sum(len(entry.get("tdsDocuments", [])) for entry in discovered),
@@ -984,8 +1009,14 @@ def discover() -> dict:
 
 
 def main() -> None:
-    payload = discover()
-    OUTPUT_PATH.write_text(json.dumps(payload, indent=2) + "\n")
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--manufacturer", action="append", help="Scan only this configured manufacturer; may be repeated.")
+    args = parser.parse_args()
+    selected = {normalize_text(name) for name in args.manufacturer} if args.manufacturer else None
+    payload = discover(selected)
+    OUTPUT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

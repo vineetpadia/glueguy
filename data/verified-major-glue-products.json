@@ -441,6 +441,76 @@
           "label": "3M Scotch-Weld DP460EG Technical Data Sheet, January 2019"
         }
       ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 2050",
+      "officialUrl": "https://permabond.com/tds/2050_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond official product-specific TDS page",
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 268",
+      "officialUrl": "https://permabond.com/tds/268_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond official product-specific TDS page",
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 731",
+      "officialUrl": "https://permabond.com/tds/731_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond official product-specific TDS page",
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 820",
+      "officialUrl": "https://permabond.com/tds/820_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond official product-specific TDS page",
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
+    },
+    {
+      "maker": "Permabond",
+      "name": "Permabond 910FS",
+      "officialUrl": "https://permabond.com/tds/910fs_tds-en/",
+      "kind": "product",
+      "sourceLabel": "Permabond official product-specific TDS page",
+      "tdsDocuments": [
+        {
+          "url": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+          "label": "Permabond Technical Data Sheet",
+          "documentType": "TDS"
+        }
+      ]
     }
   ]
 }

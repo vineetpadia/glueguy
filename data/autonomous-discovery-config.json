@@ -86,13 +86,13 @@
       ],
       "sources": [
         {
-          "label": "Aleene's adhesives",
-          "url": "https://aleenes.com/collections/adhesives",
+          "label": "Aleene's glue and adhesives catalog",
+          "url": "https://aleenes.com/collections/glue-adhesives",
           "sourceType": "html",
           "kind": "product",
           "nameStrategy": "linkText",
           "requestTimeout": 20,
-          "maxUrls": 80,
+          "maxUrls": 100,
           "includeRegex": [
             "/products/"
           ],
@@ -759,6 +759,97 @@
           ],
           "extractTdsLinks": true,
           "tdsMaxPages": 100
+        }
+      ]
+    },
+    {
+      "name": "Fevicol",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ],
+      "sources": [
+        {
+          "label": "Fevicol official product sitemap",
+          "url": "https://fevicol.in/wp-sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/product/"
+          ],
+          "excludeRegex": [
+            "hardener",
+            "foam"
+          ],
+          "nameRequireRegex": [
+            "Fevicol"
+          ],
+          "nameExcludeRegex": [
+            "hardener",
+            "foam"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 30,
+          "requestTimeout": 20
+        }
+      ]
+    },
+    {
+      "name": "Selleys",
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ],
+      "sources": [
+        {
+          "label": "Selleys official adhesives sitemap",
+          "url": "https://www.selleys.com.au/xmlsitemap/",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/products/glues-adhesives/"
+          ],
+          "excludeRegex": [
+            "/products/glues-adhesives/?$",
+            "/removable-hooks-and-glue/",
+            "/undo-glue",
+            "/(contact-adhesives|construction-adhesives|epoxy-glue|wood-glue|all-purpose-glues|other-glues)/?$",
+            "/point-works",
+            "3-in-1-adhesive-sealant-gap-filler",
+            "/tape"
+          ],
+          "nameExcludeRegex": [
+            "removable hook",
+            "undo glue",
+            "sealant",
+            "gap filler",
+            "adhesive tape",
+            "accessor"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 100,
+          "requestTimeout": 20
+        }
+      ]
+    },
+    {
+      "name": "Pidilite",
+      "priority": "high",
+      "officialDomains": [
+        "pidilite.com"
+      ],
+      "sources": [
+        {
+          "label": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
+          "url": "https://www.pidilite.com/sitemap.xml",
+          "kind": "family",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/consumer-brands/(fevikwik|araldite|fevistik-and-fevicolmr)$"
+          ],
+          "extractTdsLinks": true,
+          "tdsMaxPages": 10,
+          "requestTimeout": 20
         }
       ]
     }

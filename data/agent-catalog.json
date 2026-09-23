@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:35:16.159800+00:00",
+  "generatedAt": "2026-09-23T21:39:19.761829+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -142016,9 +142016,33 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-fast-grab/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/gq4mtxcm/selleys-liquid-nails-fast-grab-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/gq4mtxcm/selleys-liquid-nails-fast-grab-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/gq4mtxcm/selleys-liquid-nails-fast-grab-tds.pdf",
+            "label": "Selleys Liquid Nails Fast Grab Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "May 29, 2020",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Liquid Nails Fast Grab"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Water-based construction adhesive.",
+              "appearance": "Beige.",
+              "initialCure": "24 hours.",
+              "cureTime": "72 hours; longer in cool/humid or non-porous conditions.",
+              "lapShear": "Tensile shear >1.5 MPa; initial bond >200 kPa (AS 2329-1999).",
+              "peelStrength": "About 40 N/25 mm.",
+              "serviceTemperature": "Temporary exposure up to 140 \u00b0C.",
+              "VOC": "24 g/L."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-fast-grab/",
@@ -142437,9 +142461,33 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-rapid-cure/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/rttj3pmb/selleys-liquid-nails-rapid-cure-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/rttj3pmb/selleys-liquid-nails-rapid-cure-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/rttj3pmb/selleys-liquid-nails-rapid-cure-tds.pdf",
+            "label": "Selleys Liquid Nails Rapid Cure Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "July 1, 2020",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Liquid Nails Rapid Cure"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Polyurethane construction adhesive.",
+              "density": "1.13 g/mL.",
+              "openTime": "5 minutes.",
+              "fixtureTime": "Initial cure in 10 minutes.",
+              "cureTime": "Full cure in 24 hours.",
+              "lapShear": "3 MPa initial bond on hoop pine at 1 h; 7 MPa pine-to-pine tensile shear at 24 h.",
+              "serviceTemperature": "\u221215 to 100 \u00b0C.",
+              "gapFill": "Bridges gaps up to 3 mm."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-rapid-cure/",

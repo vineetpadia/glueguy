@@ -158,7 +158,7 @@ const LAP_SHEAR_SUBSTRATE_TERMS = {
   pvc: ["pvc", "polyvinyl chloride"],
   cpvc: ["cpvc", "chlorinated polyvinyl chloride"],
   acrylic: ["acrylic", "pmma"],
-  polycarbonate: ["polycarbonate"],
+  polycarbonate: ["polycarbonate", "pc"],
   petg: ["petg"],
   polystyrene: ["polystyrene", "hips"],
   rubber: ["rubber", "epdm"],
@@ -175,17 +175,19 @@ function lapShearEvidenceStatus(product, materials = []) {
   const note = String(product.lapShearSubstrate ?? "").trim();
   if (!note) return "unknown";
   if (
-    /not published|not stated|unsupported|intentionally removed|does not publish/i.test(note) ||
+    /not published|unsupported|intentionally removed|does not publish|lap[- ]shear not stated|not stated.*lap[- ]shear/i.test(note) ||
     /compressive shear|tensile strength|tensile shear/i.test(note) ||
     /does not publish a conventional lap[- ]shear/i.test(note)
   ) return "unsupported";
-  if (!/\b(?:lap|overlap)[- ]shear\b/i.test(note)) return "unknown";
+  if (!/\b(?:lap|overlap)[- ]shear\b|ASTM\s+D1002|ISO\s*4587|DIN\s+EN\s+1465/i.test(note)) return "unknown";
   if (/substrate not stated|substrate not specified|unknown substrate/i.test(note)) return "unknown";
   const normalized = note.toLocaleLowerCase();
   const relevantMaterials = materials.filter((material) => material && material !== "any");
   if (relevantMaterials.some((material) => {
     const terms = LAP_SHEAR_SUBSTRATE_TERMS[material] ?? [materialLabel(material).toLocaleLowerCase()];
-    return !terms.some((term) => normalized.includes(term.toLocaleLowerCase()));
+    return !terms.some((term) => term === "pc"
+      ? /(?:^|[^a-z])pc(?:$|[^a-z])/i.test(normalized)
+      : normalized.includes(term.toLocaleLowerCase()));
   })) return "unknown";
   return "valid";
 }

@@ -1,6 +1,38 @@
 {
   "manufacturers": [
     {
+      "name": "Scotch",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "sources": [
+        {
+          "label": "Scotch official glues and adhesives catalog",
+          "url": "https://www.scotchbrand.com/3M/en_US/p/pc/glues-adhesives/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 25,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/3M/en_US/p/d/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Adhesive|Epoxy|Spray Mount"
+          ],
+          "nameExcludeRegex": [
+            "Tape Runner"
+          ],
+          "extractTdsLinks": true,
+          "includeSds": true,
+          "tdsMaxPages": 80
+        }
+      ]
+    },
+    {
       "name": "3M",
       "priority": "high",
       "officialDomains": [

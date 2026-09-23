@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-09-23T08:08:02.782832+00:00",
   "stats": {
-    "manufacturersConfigured": 35,
-    "discoveredEntries": 866,
+    "manufacturersConfigured": 36,
+    "discoveredEntries": 884,
     "tdsDocumentsDiscovered": 60,
     "tdsDocumentsLinked": 90,
     "previousEntriesPreserved": 104,
@@ -690,6 +690,26 @@
           "matchedUrls": 11,
           "discoveredEntries": 11,
           "manualVerification": "Glue product pages verified from maker catalog; accessory accelerators, debonders, and threadlockers excluded."
+        }
+      ]
+    },
+    {
+      "name": "Scotch",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "discoveredEntries": 18,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Scotch official glues and adhesives catalog",
+          "url": "https://www.scotchbrand.com/3M/en_US/p/pc/glues-adhesives/",
+          "matchedUrls": 18,
+          "discoveredEntries": 18,
+          "manualVerification": "All 18 current official catalog entries recorded; product identities and stock IDs verified. Official catalog exposes SDS for several, not TDS for the household/craft products."
         }
       ]
     }
@@ -11627,6 +11647,276 @@
       ],
       "productCode": "PT-44",
       "tdsDocuments": []
+    },
+    {
+      "maker": "Scotch",
+      "name": "3M Quick Set Epoxy Adhesive 18091, 1 oz",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/v000300073/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: 70005045482"
+    },
+    {
+      "maker": "Scotch",
+      "name": "3M Instant Set Epoxy 18090, 1 oz",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/v000300072/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: 70005045474"
+    },
+    {
+      "maker": "Scotch",
+      "name": "3M Concrete Adhesive 18081, 1 oz",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/v000300071/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: 70005045607"
+    },
+    {
+      "maker": "Scotch",
+      "name": "3M Vinyl & Leather Adhesive 18060, 1 fl oz",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/v000355138/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: 70005045672"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Restickable Glue Stick",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b10014709/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B10014709"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Super Glue Gel in Precision Applicator",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b10010595/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B10010595"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Scrapbooker’s Glue with Two Way Applicator",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/cbgnhw011019/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00046314"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Super Glue Liquid in Precision Applicator",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00012218/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00012218"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Maximum Strength Adhesive",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00012153/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00012153"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Super Glue Gel, Tubes",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00012141/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00012141"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Wrinkle-Free Glue Sticks",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b10014174/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B10014174"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Flex Hold Glue in Precision Applicator",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00046372/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00046372"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Photo Mount Adhesive",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00045303/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00045303"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Multi-Purpose Glue",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00021392/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00021392"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Spray Mount 10.25 oz, 6065",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00045302/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00045302"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Quick Drying Tacky Glue",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b00021379/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B00021379"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Super 77 Multi-Purpose Spray Adhesive 7724A",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b0006843059/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: 70006843059"
+    },
+    {
+      "maker": "Scotch",
+      "name": "Scotch Adhesive Dots",
+      "officialUrl": "https://www.scotchbrand.com/3M/en_US/p/d/b10013732/",
+      "kind": "product",
+      "sourceLabel": "Scotch official glues and adhesives catalog",
+      "priority": "high",
+      "officialDomains": [
+        "scotchbrand.com",
+        "3m.com",
+        "multimedia.3m.com"
+      ],
+      "tdsDocuments": [],
+      "sourceNote": "Official catalog stock number: B10013732"
     }
   ]
 }

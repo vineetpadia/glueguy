@@ -9,7 +9,7 @@
     />
     <title>Glueguy Lab</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="./styles.css?v=4bb67865b3e370b2213f90f097d4625909f66239" />
+    <link rel="stylesheet" href="./styles.css?v=bb3e3b06b98c902ef738e6505f72de32dc45aee2" />
   </head>
   <body>
     <main class="shell">
@@ -318,7 +318,7 @@
           </div>
           <button class="button button-ghost" id="catalog-back" type="button">Back to selector</button>
         </div>
-        <p class="reference-intro">Search the full product catalog by name, manufacturer, part number, chemistry, or use case. Product records vary in completeness; review details and manufacturer documents before selecting an adhesive. Prices may be estimates or supplier listings.</p>
+        <p class="reference-intro">Browse selector-ready products plus additional official manufacturer-listed product leads. Leads without reviewed technical data are labeled and excluded from selector recommendations.</p>
         <div class="reference-tools">
           <label class="visually-hidden" for="reference-search">Search product catalog</label>
           <input id="reference-search" type="search" placeholder="Search product, maker, or part number…" autocomplete="off" />
@@ -326,6 +326,8 @@
           <select id="reference-category" aria-label="Chemistry"></select>
           <label class="visually-hidden" for="reference-application">Use case</label>
           <select id="reference-application" aria-label="Use case"></select>
+          <label class="visually-hidden" for="reference-maker">Manufacturer</label>
+          <select id="reference-maker" aria-label="Manufacturer"></select>
         </div>
         <div class="reference-summary">
           <strong id="reference-count">Loading product catalog</strong>
@@ -333,7 +335,7 @@
         </div>
         <div class="reference-table-shell" aria-live="polite">
           <table class="reference-table">
-            <thead><tr><th>Product</th><th>Use cases</th><th>Chemistry and cure</th><th>Service temperature</th><th>Cost</th><th>Sources</th></tr></thead>
+            <thead><tr><th>Product</th><th>Use cases</th><th>Chemistry, cure &amp; evidence</th><th>Service temperature</th><th>Cost</th><th>Sources</th></tr></thead>
             <tbody id="reference-body"></tbody>
           </table>
           <nav id="reference-pagination" class="results-pagination" aria-label="Catalog pages"></nav>
@@ -352,6 +354,6 @@
       </div>
       <div id="product-detail-content" class="product-detail-content"></div>
     </dialog>
-    <script defer src="./app.js?v=ef2fb22aaa752ac5087a5d812bb3014aebc3c586"></script>
+    <script defer src="./app.js?v=b2b0a1a077eb4a8e54d8b07ba5b4ddfb3cc09316"></script>
   </body>
 </html>

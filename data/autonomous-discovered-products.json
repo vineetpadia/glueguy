@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-27T01:29:48.838258+00:00",
+  "generated_at": "2026-09-23T03:35:09Z",
   "stats": {
     "manufacturersConfigured": 10,
-    "discoveredEntries": 481
+    "discoveredEntries": 495,
+    "curatedOfficialLeadsAdded": 15
   },
   "manufacturers": [
     {
       "name": "3M",
       "priority": "high",
       "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
+        "3m.com"
       ],
       "discoveredEntries": 42,
       "sources": [
@@ -29,20 +29,120 @@
       ]
     },
     {
+      "name": "Amazing Goop",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 1,
+      "sources": [
+        {
+          "label": "Curated official product links",
+          "url": "https://eclecticproducts.com/product-category/adhesives/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "CEMEDINE",
+      "priority": "medium",
+      "officialDomains": [
+        "cemedine.co.jp"
+      ],
+      "discoveredEntries": 4,
+      "sources": [
+        {
+          "label": "CEMEDINE global sitemap",
+          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
+          "matchedUrls": 10,
+          "discoveredEntries": 4
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 12,
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
+          "matchedUrls": 18,
+          "discoveredEntries": 7
+        }
+      ]
+    },
+    {
+      "name": "Elmer's",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ],
+      "discoveredEntries": 1,
+      "sources": [
+        {
+          "label": "Curated official product links",
+          "url": "",
+          "matchedUrls": 2,
+          "discoveredEntries": 2
+        }
+      ]
+    },
+    {
+      "name": "Gorilla Glue",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ],
+      "discoveredEntries": 4,
+      "sources": [
+        {
+          "label": "Curated official product links",
+          "url": "",
+          "matchedUrls": 4,
+          "discoveredEntries": 4
+        }
+      ]
+    },
+    {
       "name": "Henkel Loctite",
       "priority": "high",
       "officialDomains": [
-        "loctite.com",
-        "loctiteproducts.com",
-        "henkel-adhesives.com"
+        "loctiteproducts.com"
       ],
-      "discoveredEntries": 10,
+      "discoveredEntries": 11,
       "sources": [
         {
           "label": "Loctite consumer products index",
           "url": "https://www.loctiteproducts.com/products.html",
           "matchedUrls": 12,
           "discoveredEntries": 10
+        },
+        {
+          "label": "Curated official product links",
+          "url": "",
+          "matchedUrls": 11,
+          "discoveredEntries": 11
+        }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ],
+      "discoveredEntries": 6,
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
         }
       ]
     },
@@ -85,11 +185,42 @@
       ]
     },
     {
+      "name": "Seal-All",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 1,
+      "sources": [
+        {
+          "label": "Curated official product links",
+          "url": "https://eclecticproducts.com/product-category/adhesives/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "Shoe Goo",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "discoveredEntries": 1,
+      "sources": [
+        {
+          "label": "Curated official product links",
+          "url": "https://eclecticproducts.com/product-category/adhesives/",
+          "matchedUrls": 0,
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
       "name": "Sika",
       "priority": "high",
       "officialDomains": [
-        "sika.com",
-        "usa.sika.com"
+        "sika.com"
       ],
       "discoveredEntries": 7,
       "sources": [
@@ -102,59 +233,10 @@
       ]
     },
     {
-      "name": "CEMEDINE",
-      "priority": "medium",
-      "officialDomains": [
-        "cemedine.co.jp"
-      ],
-      "discoveredEntries": 4,
-      "sources": [
-        {
-          "label": "CEMEDINE global sitemap",
-          "url": "https://www.cemedine.co.jp/global/en/sitemap/index.html",
-          "matchedUrls": 10,
-          "discoveredEntries": 4
-        }
-      ]
-    },
-    {
-      "name": "E6000",
-      "priority": "medium",
-      "officialDomains": [
-        "eclecticproducts.com"
-      ],
-      "discoveredEntries": 7,
-      "sources": [
-        {
-          "label": "E6000 adhesive category",
-          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
-          "matchedUrls": 18,
-          "discoveredEntries": 7
-        }
-      ]
-    },
-    {
-      "name": "J-B Weld",
-      "priority": "medium",
-      "officialDomains": [
-        "jbweld.com"
-      ],
-      "discoveredEntries": 6,
-      "sources": [
-        {
-          "label": "J-B Weld products page",
-          "url": "https://www.jbweld.com/products",
-          "matchedUrls": 12,
-          "discoveredEntries": 12
-        }
-      ]
-    },
-    {
       "name": "ThreeBond",
       "priority": "medium",
       "officialDomains": [
-        "threebond.com",
-        "threebond.co.jp"
+        "threebond.com"
       ],
       "discoveredEntries": 144,
       "sources": [
@@ -186,7 +268,7 @@
   "entries": [
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Composite Urethane Adhesive 6301NS",
+      "name": "3M™ Scotch-Weld™ Composite Urethane Adhesive 6301NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -198,7 +280,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -210,7 +292,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -222,7 +304,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -234,7 +316,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -246,7 +328,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000300196/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -258,7 +340,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147517/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -270,7 +352,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147516/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -282,7 +364,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive 2216 Gray",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2216 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -294,31 +376,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100LH",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100LH Plus",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP100 Plus",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -330,7 +388,31 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP125 Gray",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH Plus",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP125 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -342,7 +424,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -354,19 +436,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
-      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
-      "kind": "product",
-      "sourceLabel": "3M Scotch-Weld category",
-      "priority": "high",
-      "officialDomains": [
-        "3m.com",
-        "multimedia.3m.com"
-      ]
-    },
-    {
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -378,7 +448,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-2615 B/A",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2615 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -390,7 +460,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-2792 B/A",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2792 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -402,7 +472,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-3542 B/A FR",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-3542 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -414,7 +484,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Adhesive EC-9370 B/A FST",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -426,7 +496,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -438,7 +508,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Flexible Acrylic Adhesive DP8610NS",
+      "name": "3M™ Scotch-Weld™ Flexible Acrylic Adhesive DP8610NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -450,7 +520,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Instant Adhesive CA8",
+      "name": "3M™ Scotch-Weld™ Instant Adhesive CA8",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -462,7 +532,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
+      "name": "3M™ Scotch-Weld™ Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -474,7 +544,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP810 Black",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP810 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -486,7 +556,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP8725NS",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8725NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -498,7 +568,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP8825NS",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -510,7 +580,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+      "name": "3M™ Scotch-Weld™ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -522,7 +592,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -534,7 +604,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Polyurethane Adhesive DP6605NS",
+      "name": "3M™ Scotch-Weld™ Polyurethane Adhesive DP6605NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -546,7 +616,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 PUR Adhesive TS230 Off-White",
+      "name": "3M™ Scotch-Weld™ PUR Adhesive TS230 Off-White",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -558,7 +628,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 PUR Easy Adhesive EZ250150",
+      "name": "3M™ Scotch-Weld™ PUR Easy Adhesive EZ250150",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -570,7 +640,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Structural Adhesive EC-7236 B/A",
+      "name": "3M™ Scotch-Weld™ Structural Adhesive EC-7236 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -582,7 +652,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Structural Adhesive EW2060HF",
+      "name": "3M™ Scotch-Weld™ Structural Adhesive EW2060HF",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -594,7 +664,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 Black",
+      "name": "3M™ Scotch-Weld™ Structural Plastic Adhesive DP8005 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -606,7 +676,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Super Fast Instant Adhesive SF100",
+      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF100",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -618,7 +688,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -630,7 +700,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -642,7 +712,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS",
+      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP620NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -654,7 +724,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Void Filling Compound EC-3515 B/A FR",
+      "name": "3M™ Scotch-Weld™ Void Filling Compound EC-3515 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -666,7 +736,19 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 VHB\u2122 Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
+      "name": "3M™ Scotch-Weld™Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
+      "kind": "product",
+      "sourceLabel": "3M Scotch-Weld category",
+      "priority": "high",
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M™ VHB™ Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000198088/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -678,7 +760,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u2122 VHB\u2122 Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "name": "3M™ VHB™ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -733,6 +815,17 @@
       ]
     },
     {
+      "maker": "Amazing Goop",
+      "name": "Amazing Goop Household Clear",
+      "officialUrl": "https://eclecticproducts.com/product/amazing-goop-household/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
       "maker": "E6000",
       "name": "E6000",
       "officialUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
@@ -778,6 +871,39 @@
     },
     {
       "maker": "E6000",
+      "name": "E6000 Plus",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-plus/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium Automotive",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-automotive/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6000 Premium Jewelry & Bead",
+      "officialUrl": "https://eclecticproducts.com/product/e6000-premium-jewelry-and-bead/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
       "name": "E6000 Spray Adhesive",
       "officialUrl": "https://eclecticproducts.com/product/e6000-spray-adhesive/",
       "kind": "product",
@@ -800,6 +926,28 @@
     },
     {
       "maker": "E6000",
+      "name": "E6100 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
+      "name": "E6800 Industrial Adhesive",
+      "officialUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
+      "kind": "product",
+      "sourceLabel": "E6000 adhesive category",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "E6000",
       "name": "Extreme Tack",
       "officialUrl": "https://eclecticproducts.com/product/e6000-extreme-tack/",
       "kind": "product",
@@ -807,6 +955,83 @@
       "priority": "medium",
       "officialDomains": [
         "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Seal-All",
+      "name": "Seal-All Clear",
+      "officialUrl": "https://eclecticproducts.com/product/seal-all/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products adhesive catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Shoe Goo",
+      "name": "Shoe Goo",
+      "officialUrl": "https://eclecticproducts.com/product/shoe-goo/",
+      "kind": "product",
+      "sourceLabel": "Eclectic Products shoe repair catalog",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glue-All Multi-Purpose Liquid Glue",
+      "officialUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's product page",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Gorilla Glue",
+      "name": "Clear Gorilla Glue Gel",
+      "officialUrl": "https://gorillatough.com/product/clear-gorilla-glue-gel",
+      "kind": "product",
+      "sourceLabel": "Gorilla product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Clear Grip",
+      "officialUrl": "https://gorillatough.com/product/gorilla-clear-grip",
+      "kind": "product",
+      "sourceLabel": "Gorilla product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Construction Adhesive Ultimate",
+      "officialUrl": "https://gorillatough.com/product/gorilla-construction-adhesive-ultimate",
+      "kind": "product",
+      "sourceLabel": "Gorilla product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
+      ]
+    },
+    {
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Wood Glue",
+      "officialUrl": "https://gorillatough.com/product/gorilla-wood-glue",
+      "kind": "product",
+      "sourceLabel": "Gorilla product catalog",
+      "priority": "high",
+      "officialDomains": [
+        "gorillatough.com"
       ]
     },
     {
@@ -940,8 +1165,19 @@
       ]
     },
     {
+      "maker": "Henkel Loctite",
+      "name": "Loctite Super Glue Ultra Gel Control",
+      "officialUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html",
+      "kind": "product",
+      "sourceLabel": "Loctite consumer products",
+      "priority": "high",
+      "officialDomains": [
+        "loctiteproducts.com"
+      ]
+    },
+    {
       "maker": "J-B Weld",
-      "name": "ClearWeld\u2122 Syringe - 25 ml",
+      "name": "ClearWeld™ Syringe - 25 ml",
       "officialUrl": "https://www.jbweld.com/product/clearweld-syringe",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -952,7 +1188,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld\u2122 Professional Size 10 oz",
+      "name": "J-B Weld™ Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -963,7 +1199,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld\u2122 Twin Tube - 2 oz",
+      "name": "J-B Weld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -974,7 +1210,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld\u2122 Professional Size 10 oz",
+      "name": "KwikWeld™ Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-kwik-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -985,7 +1221,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld\u2122 Twin Tube - 2 oz",
+      "name": "KwikWeld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/kwikweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -996,7 +1232,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "MarineWeld\u2122 Twin Tube - 2 oz",
+      "name": "MarineWeld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/marineweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -1007,8 +1243,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "B-staged epoxy in a cookie form",
-      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
+      "name": "B-Stage Epoxy Systems",
+      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1018,8 +1254,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "B-Stage Epoxy Systems",
-      "officialUrl": "https://www.masterbond.com/products/b-stage-epoxy-systems",
+      "name": "B-staged epoxy in a cookie form",
+      "officialUrl": "https://www.masterbond.com/products/b-staged-epoxy-cookie-form",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1271,8 +1507,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicones for Medical Devices",
-      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
+      "name": "Silicone Systems",
+      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -1282,8 +1518,8 @@
     },
     {
       "maker": "Master Bond",
-      "name": "Silicone Systems",
-      "officialUrl": "https://www.masterbond.com/products/silicone-systems",
+      "name": "Silicones for Medical Devices",
+      "officialUrl": "https://www.masterbond.com/products/silicones-medical-devices",
       "kind": "family",
       "sourceLabel": "Master Bond sitemap",
       "priority": "high",
@@ -2877,7 +3113,7 @@
     },
     {
       "maker": "Permabond",
-      "name": "Permabond 105 \u2013 Cyanoacrylate Adhesive",
+      "name": "Permabond 105 – Cyanoacrylate Adhesive",
       "officialUrl": "https://permabond.com/products/permabond-105/",
       "kind": "product",
       "sourceLabel": "Permabond product sitemap",
@@ -3538,8 +3774,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex\u00ae-11 FC",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
+      "name": "New Sikaflex® PRO-3 Purform®",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3550,8 +3786,8 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex\u00ae PRO-3 Purform\u00ae",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
+      "name": "New Sikaflex®-11 FC",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3574,7 +3810,7 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikadur\u00ae Crack Repair Kit",
+      "name": "Sikadur® Crack Repair Kit",
       "officialUrl": "https://www.sika.com/en/brands/sikadur-crack-repair-kit.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -3586,8 +3822,8 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex\u00ae PRO-3 Purform\u00ae PowerCure",
-      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
+      "name": "Sikaflex® - The Leading Brand for Sealants and Adhesives",
+      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -3598,8 +3834,8 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex\u00ae - The Leading Brand for Sealants and Adhesives",
-      "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
+      "name": "Sikaflex® PRO-3 Purform® PowerCure",
+      "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
       "priority": "high",
@@ -5602,8 +5838,8 @@
     },
     {
       "maker": "Titebond",
-      "name": "Titebond III Ultimate",
-      "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+      "name": "Titebond II Premium",
+      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
       "priority": "medium",
@@ -5613,8 +5849,8 @@
     },
     {
       "maker": "Titebond",
-      "name": "Titebond II Premium",
-      "officialUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+      "name": "Titebond III Ultimate",
+      "officialUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
       "kind": "product",
       "sourceLabel": "Titebond glues catalog",
       "priority": "medium",

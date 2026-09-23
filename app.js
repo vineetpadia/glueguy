@@ -5031,6 +5031,7 @@ const referenceContext = document.querySelector("#reference-context");
 const referenceSearch = document.querySelector("#reference-search");
 const referenceCategorySelect = document.querySelector("#reference-category");
 const referenceApplicationSelect = document.querySelector("#reference-application");
+const referenceMakerSelect = document.querySelector("#reference-maker");
 const resetFiltersButton = document.querySelector("#reset-filters");
 const resetHeroButton = document.querySelector("#reset-hero");
 const presetButtons = document.querySelectorAll("[data-preset]");
@@ -5194,6 +5195,7 @@ function repopulateCatalogFilters() {
 
 function populateReferenceFilters() {
   if (!referenceCategorySelect || !referenceApplicationSelect) return;
+  const browseProducts = [...GLUES, ...OFFICIAL_PRODUCT_LEADS];
   const chemistries = Array.from(new Set(GLUES.map((product) => product.chemistry).filter(Boolean))).sort();
   const applications = Array.from(new Set(GLUES.flatMap((product) => product.applicationTags ?? []).filter(Boolean)))
     .sort((left, right) => applicationLabel(left).localeCompare(applicationLabel(right)));
@@ -5205,14 +5207,28 @@ function populateReferenceFilters() {
     { value: "any", label: "All use cases" },
     ...applications.map((value) => ({ value, label: applicationLabel(value) })),
   ]);
+  if (referenceMakerSelect) {
+    const makers = Array.from(new Set(browseProducts.map((product) => product.maker).filter(Boolean)))
+      .sort((left, right) => left.localeCompare(right));
+    populateSelect(referenceMakerSelect, [
+      { value: "any", label: "All manufacturers" },
+      ...makers.map((value) => ({ value, label: value })),
+    ]);
+  }
 }
 
 function renderHeroStats() {
   const chemistries = new Set(GLUES.map((glue) => glue.chemistry)).size;
   const makers = new Set(GLUES.map((glue) => glue.maker)).size;
+  const allMakers = new Set([
+    ...GLUES.map((glue) => glue.maker),
+    ...OFFICIAL_PRODUCT_LEADS.map((product) => product.maker),
+  ].filter(Boolean)).size;
   const statItems = [
     { label: "Chemistries", value: chemistries },
-    { label: "Makers", value: makers },
+    { label: "Manufacturers", value: allMakers || makers },
+    { label: "Selector-ready", value: GLUES.length },
+    { label: "Manufacturer leads", value: OFFICIAL_PRODUCT_LEADS.length },
   ];
 
   heroStats.replaceChildren(
@@ -5225,10 +5241,10 @@ function renderHeroStats() {
   );
 
   glueDensity.textContent = selectorCatalogState === "loading"
-    ? `${GLUES.length} starter products · loading full catalog`
+    ? `${GLUES.length} selector-ready products · loading catalog leads`
     : selectorCatalogState === "error"
-      ? `${GLUES.length} starter products · full catalog unavailable`
-      : `${GLUES.length} products`;
+      ? `${GLUES.length} selector-ready products · official leads unavailable`
+      : `${GLUES.length} selector-ready products + ${OFFICIAL_PRODUCT_LEADS.length} official leads`;
 }
 
 function applySharedSearchFromUrl() {
@@ -5828,12 +5844,43 @@ function formatReferenceCost(family) {
   return "n/a";
 }
 
+let OFFICIAL_PRODUCT_LEADS = [];
+
+function normalizeLeadIdentity(value) {
+  return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function ingestOfficialProductLeads(entries) {
+  const known = new Set(GLUES.map((product) => buildCatalogKey(product)));
+  OFFICIAL_PRODUCT_LEADS = (entries ?? [])
+    .filter((entry) => entry?.name && safeSourceUrl(entry.officialUrl))
+    .map((entry) => ({
+      id: `lead-${normalizeLeadIdentity(entry.maker)}-${normalizeLeadIdentity(entry.name)}`.replaceAll(" ", "-"),
+      maker: entry.maker || "Manufacturer not reported",
+      name: entry.name,
+      summary: "This product appears in an official manufacturer catalog. Product-specific technical specifications have not yet been reviewed for Glueguy’s selector.",
+      productUrl: entry.officialUrl,
+      sourceLabel: entry.sourceLabel || "Official manufacturer discovery",
+      catalogEvidenceLevel: "Manufacturer-listed lead",
+      applicationTags: [],
+    }))
+    .filter((product) => {
+      const key = buildCatalogKey(product);
+      if (known.has(key)) return false;
+      known.add(key);
+      return true;
+    });
+}
+
 function renderReferenceLibrary() {
   if (!referenceBody || !referenceCount || !referenceContext) return;
   const query = referenceSearch?.value.trim().toLowerCase() ?? "";
   const chemistry = referenceCategorySelect?.value ?? "any";
   const application = referenceApplicationSelect?.value ?? "any";
-  const visibleProducts = GLUES.filter((product) => {
+  const selectedMaker = referenceMakerSelect?.value ?? "any";
+  const browseCatalogProducts = [...GLUES, ...OFFICIAL_PRODUCT_LEADS];
+  const visibleProducts = browseCatalogProducts.filter((product) => {
+    if (selectedMaker !== "any" && product.maker !== selectedMaker) return false;
     if (chemistry !== "any" && product.chemistry !== chemistry) return false;
     if (application !== "any" && !(product.applicationTags ?? []).includes(application)) return false;
     if (!query) return true;
@@ -5852,8 +5899,8 @@ function renderReferenceLibrary() {
   const pageStart = (appState.referencePage - 1) * REFERENCE_PAGE_SIZE;
   const pageProducts = visibleProducts.slice(pageStart, pageStart + REFERENCE_PAGE_SIZE);
   referenceContext.textContent = visibleProducts.length
-    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} catalog products`
-    : `${GLUES.length} catalog products • Search product, maker, part number, chemistry, or use case`;
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads`
+    : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • Search product, maker, or use case`;
   if (!visibleProducts.length) {
     renderReferencePagination(0, 1);
     return;
@@ -6926,6 +6973,7 @@ function attachEvents() {
   referenceSearch?.addEventListener("input", () => { appState.referencePage = 1; renderReferenceLibrary(); });
   referenceCategorySelect?.addEventListener("change", () => { appState.referencePage = 1; renderReferenceLibrary(); });
   referenceApplicationSelect?.addEventListener("change", () => { appState.referencePage = 1; renderReferenceLibrary(); });
+  referenceMakerSelect?.addEventListener("change", () => { appState.referencePage = 1; renderReferenceLibrary(); });
   document.querySelector("#reference-pagination")?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-reference-page]");
     if (!button) return;
@@ -6944,6 +6992,15 @@ async function loadSelectorCatalog() {
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
+    try {
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=manufacturer-leads-20260923");
+      if (leadsResponse.ok) {
+        const leadsCatalog = await leadsResponse.json();
+        ingestOfficialProductLeads(leadsCatalog.entries ?? []);
+      }
+    } catch (leadError) {
+      console.warn("Official product leads unavailable", leadError);
+    }
     MCMASTER_PIPELINE_STATS = catalog.mcmasterStats ?? MCMASTER_PIPELINE_STATS;
     TDS_MANUAL_STATS = catalog.tdsStats ?? TDS_MANUAL_STATS;
     selectorCatalogState = "ready";

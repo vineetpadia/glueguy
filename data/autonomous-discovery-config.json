@@ -1,81 +1,12 @@
 {
   "manufacturers": [
     {
-      "name": "Permabond",
-      "priority": "high",
-      "officialDomains": ["permabond.com"],
-      "sources": [
-        {
-          "label": "Permabond product sitemap",
-          "url": "https://permabond.com/products-sitemap.xml",
-          "kind": "product",
-          "nameStrategy": "title",
-          "includeRegex": ["/products/permabond-"],
-          "excludeRegex": ["/fr/", "/de/", "/es/", "/pt-br/"]
-        },
-        {
-          "label": "Permabond TDS sitemap",
-          "url": "https://permabond.com/tds-sitemap.xml",
-          "kind": "product",
-          "nameStrategy": "permabondTdsSlug",
-          "excludeRegex": ["/fr/", "/de/", "/es/", "/pt-br/", "-fr/?$", "-de/?$", "-es/?$"]
-        }
-      ]
-    },
-    {
-      "name": "Master Bond",
-      "priority": "high",
-      "officialDomains": ["masterbond.com"],
-      "sources": [
-        {
-          "label": "Master Bond sitemap",
-          "url": "https://www.masterbond.com/sitemap.xml",
-          "kind": "family",
-          "nameStrategy": "title",
-          "includeRegex": ["/products/"],
-          "excludeRegex": ["/de/", "/es/", "/fr/", "/faq", "/news", "/packaging/"]
-        }
-      ]
-    },
-    {
-      "name": "Sika",
-      "priority": "high",
-      "officialDomains": ["sika.com", "usa.sika.com"],
-      "sources": [
-        {
-          "label": "Sika brand sitemap",
-          "url": "https://www.sika.com/en/brands.sitemap.xml",
-          "kind": "product",
-          "nameStrategy": "title",
-          "includeRegex": ["/brands/"],
-          "excludeRegex": ["/brands\\.html$", "/comfortfloor", "/healthy-environment", "/purform\\.html$"],
-          "requireRegex": ["sikaflex", "sikabond", "sikapower", "sikasil", "sikadur", "sikamelt", "sikaforce", "sikaseal"]
-        }
-      ]
-    },
-    {
-      "name": "J-B Weld",
-      "priority": "medium",
-      "officialDomains": ["jbweld.com"],
-      "sources": [
-        {
-          "label": "J-B Weld products page",
-          "url": "https://www.jbweld.com/products",
-          "sourceType": "html",
-          "kind": "product",
-          "nameStrategy": "title",
-          "requestTimeout": 20,
-          "maxUrls": 12,
-          "includeRegex": ["/product/"],
-          "excludeRegex": ["-14ml", "-7in", "-quart", "-gallon", "/product/static-mixers$", "/product/tiger-patch", "/product/high-strength-molding-tape", "/product/fuzetape", "/product/fiberglass-(cloth|mat)", "/product/cream-hardener", "/product/liquid-hardener"],
-          "nameExcludeRegex": ["kit$", "cloth", "mat", "hardener", "mixers?", "tape$", "repair cast", "molding tape", "fuzetape"]
-        }
-      ]
-    },
-    {
       "name": "3M",
       "priority": "high",
-      "officialDomains": ["3m.com", "multimedia.3m.com"],
+      "officialDomains": [
+        "3m.com",
+        "multimedia.3m.com"
+      ],
       "sources": [
         {
           "label": "3M Scotch-Weld category",
@@ -87,9 +18,33 @@
             "Accept-Encoding": "identity"
           },
           "maxUrls": 60,
-          "includeRegex": ["/3M/en_US/p/d(?:c)?/"],
-          "nameRequireRegex": ["adhesive", "sealant", "scotch-weld", "vhb", "jet-melt", "fastbond", "epoxy", "cyanoacrylate", "hot melt"],
-          "nameExcludeRegex": ["paper disc", "tape dispenser", "masking", "abrasive", "sandpaper", "primer", "activator", "repair paste", "film", "material", "pipe sealant"]
+          "includeRegex": [
+            "/3M/en_US/p/d(?:c)?/"
+          ],
+          "nameRequireRegex": [
+            "adhesive",
+            "sealant",
+            "scotch-weld",
+            "vhb",
+            "jet-melt",
+            "fastbond",
+            "epoxy",
+            "cyanoacrylate",
+            "hot melt"
+          ],
+          "nameExcludeRegex": [
+            "paper disc",
+            "tape dispenser",
+            "masking",
+            "abrasive",
+            "sandpaper",
+            "primer",
+            "activator",
+            "repair paste",
+            "film",
+            "material",
+            "pipe sealant"
+          ]
         },
         {
           "label": "3M tapes category",
@@ -101,36 +56,60 @@
             "Accept-Encoding": "identity"
           },
           "maxUrls": 40,
-          "includeRegex": ["/3M/en_US/p/d(?:c)?/"],
-          "nameRequireRegex": ["vhb"],
-          "nameExcludeRegex": ["window", "dispenser", "protective film", "insulator kit", "mounting tape", "patch tape", "extrudable"]
+          "includeRegex": [
+            "/3M/en_US/p/d(?:c)?/"
+          ],
+          "nameRequireRegex": [
+            "vhb"
+          ],
+          "nameExcludeRegex": [
+            "window",
+            "dispenser",
+            "protective film",
+            "insulator kit",
+            "mounting tape",
+            "patch tape",
+            "extrudable"
+          ]
         }
       ]
     },
     {
-      "name": "Henkel Loctite",
-      "priority": "high",
-      "officialDomains": ["loctite.com", "loctiteproducts.com", "henkel-adhesives.com"],
+      "name": "Aleene's",
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ],
       "sources": [
         {
-          "label": "Loctite consumer products index",
-          "url": "https://www.loctiteproducts.com/products.html",
+          "label": "Aleene's adhesives",
+          "url": "https://aleenes.com/collections/adhesives",
           "sourceType": "html",
           "kind": "product",
-          "nameStrategy": "loctiteCentralPdpSlug",
-          "requestTimeout": 8,
-          "maxUrls": 20,
-          "includeRegex": ["/products/central-pdp\\.html/"],
-          "requireRegex": ["loctite-"],
-          "nameRequireRegex": ["Loctite", "Epoxy", "Glue", "Threadlocker", "Sealant", "Repair", "Putty", "Silicone"],
-          "nameExcludeRegex": ["Glue Remover", "Mounting Putty"]
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Tacky|Adhesive|Fabric"
+          ],
+          "nameExcludeRegex": [
+            "glitter",
+            "paint",
+            "sealer",
+            "finish"
+          ]
         }
       ]
     },
     {
       "name": "CEMEDINE",
       "priority": "medium",
-      "officialDomains": ["cemedine.co.jp"],
+      "officialDomains": [
+        "cemedine.co.jp"
+      ],
       "sources": [
         {
           "label": "CEMEDINE global sitemap",
@@ -140,17 +119,327 @@
           "nameStrategy": "linkText",
           "requestTimeout": 15,
           "maxUrls": 24,
-          "includeRegex": ["/global/en/technology/"],
-          "requireRegex": ["epoxy|elastic|cyanoacrylates|hotmelt"],
-          "nameRequireRegex": ["Super X|SX|EP|3000|Metal Lock|Hotmelt"],
-          "nameExcludeRegex": ["Emulsion|Repairable|Automobiles|Rubber Type"]
+          "includeRegex": [
+            "/global/en/technology/"
+          ],
+          "requireRegex": [
+            "epoxy|elastic|cyanoacrylates|hotmelt"
+          ],
+          "nameRequireRegex": [
+            "Super X|SX|EP|3000|Metal Lock|Hotmelt"
+          ],
+          "nameExcludeRegex": [
+            "Emulsion|Repairable|Automobiles|Rubber Type"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E6000",
+      "priority": "medium",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "sources": [
+        {
+          "label": "E6000 adhesive category",
+          "url": "https://eclecticproducts.com/product-category/adhesives-sealants/e6000/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 24,
+          "includeRegex": [
+            "/product/e[0-9]+|/product/e6000-"
+          ],
+          "nameRequireRegex": [
+            "E6000|E6100|E6800|Extreme Tack"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eclectic Products",
+      "priority": "high",
+      "officialDomains": [
+        "eclecticproducts.com"
+      ],
+      "sources": [
+        {
+          "label": "Eclectic Products adhesive catalog",
+          "url": "https://eclecticproducts.com/product-category/adhesives/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 120,
+          "includeRegex": [
+            "/product/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Goo|Shoe|Adhesive|E6000|Seal-All|QuickHold"
+          ],
+          "nameExcludeRegex": [
+            "Read more"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elmer's",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ],
+      "sources": [
+        {
+          "label": "Elmer's adhesives and glues",
+          "url": "https://www.elmers.com/glue/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/product/",
+            "/glue/"
+          ],
+          "nameRequireRegex": [
+            "Glue|Adhesive|CraftBond|Wood Glue"
+          ],
+          "nameExcludeRegex": [
+            "slime",
+            "activator",
+            "glitter",
+            "paint",
+            "school supplies"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Henkel Loctite",
+      "priority": "high",
+      "officialDomains": [
+        "loctite.com",
+        "loctiteproducts.com",
+        "henkel-adhesives.com"
+      ],
+      "sources": [
+        {
+          "label": "Loctite consumer products index",
+          "url": "https://www.loctiteproducts.com/products.html",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "loctiteCentralPdpSlug",
+          "requestTimeout": 8,
+          "maxUrls": 20,
+          "includeRegex": [
+            "/products/central-pdp\\.html/"
+          ],
+          "requireRegex": [
+            "loctite-"
+          ],
+          "nameRequireRegex": [
+            "Loctite",
+            "Epoxy",
+            "Glue",
+            "Threadlocker",
+            "Sealant",
+            "Repair",
+            "Putty",
+            "Silicone"
+          ],
+          "nameExcludeRegex": [
+            "Glue Remover",
+            "Mounting Putty"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J-B Weld",
+      "priority": "medium",
+      "officialDomains": [
+        "jbweld.com"
+      ],
+      "sources": [
+        {
+          "label": "J-B Weld products page",
+          "url": "https://www.jbweld.com/products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "title",
+          "requestTimeout": 20,
+          "maxUrls": 12,
+          "includeRegex": [
+            "/product/"
+          ],
+          "excludeRegex": [
+            "-14ml",
+            "-7in",
+            "-quart",
+            "-gallon",
+            "/product/static-mixers$",
+            "/product/tiger-patch",
+            "/product/high-strength-molding-tape",
+            "/product/fuzetape",
+            "/product/fiberglass-(cloth|mat)",
+            "/product/cream-hardener",
+            "/product/liquid-hardener"
+          ],
+          "nameExcludeRegex": [
+            "kit$",
+            "cloth",
+            "mat",
+            "hardener",
+            "mixers?",
+            "tape$",
+            "repair cast",
+            "molding tape",
+            "fuzetape"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master Bond",
+      "priority": "high",
+      "officialDomains": [
+        "masterbond.com"
+      ],
+      "sources": [
+        {
+          "label": "Master Bond sitemap",
+          "url": "https://www.masterbond.com/sitemap.xml",
+          "kind": "family",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/products/"
+          ],
+          "excludeRegex": [
+            "/de/",
+            "/es/",
+            "/fr/",
+            "/faq",
+            "/news",
+            "/packaging/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Permabond",
+      "priority": "high",
+      "officialDomains": [
+        "permabond.com"
+      ],
+      "sources": [
+        {
+          "label": "Permabond product sitemap",
+          "url": "https://permabond.com/products-sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/products/permabond-"
+          ],
+          "excludeRegex": [
+            "/fr/",
+            "/de/",
+            "/es/",
+            "/pt-br/"
+          ]
+        },
+        {
+          "label": "Permabond TDS sitemap",
+          "url": "https://permabond.com/tds-sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "permabondTdsSlug",
+          "excludeRegex": [
+            "/fr/",
+            "/de/",
+            "/es/",
+            "/pt-br/",
+            "-fr/?$",
+            "-de/?$",
+            "-es/?$"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Permatex",
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "sources": [
+        {
+          "label": "Permatex adhesives and sealants",
+          "url": "https://www.permatex.com/products/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Adhesive|Gasket|Sealant|Threadlocker|Retaining|Epoxy|Repair"
+          ],
+          "nameExcludeRegex": [
+            "cleaner",
+            "lubricant",
+            "tool",
+            "tape",
+            "accessory"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sika",
+      "priority": "high",
+      "officialDomains": [
+        "sika.com",
+        "usa.sika.com"
+      ],
+      "sources": [
+        {
+          "label": "Sika brand sitemap",
+          "url": "https://www.sika.com/en/brands.sitemap.xml",
+          "kind": "product",
+          "nameStrategy": "title",
+          "includeRegex": [
+            "/brands/"
+          ],
+          "excludeRegex": [
+            "/brands\\.html$",
+            "/comfortfloor",
+            "/healthy-environment",
+            "/purform\\.html$"
+          ],
+          "requireRegex": [
+            "sikaflex",
+            "sikabond",
+            "sikapower",
+            "sikasil",
+            "sikadur",
+            "sikamelt",
+            "sikaforce",
+            "sikaseal"
+          ]
         }
       ]
     },
     {
       "name": "ThreeBond",
       "priority": "medium",
-      "officialDomains": ["threebond.com", "threebond.co.jp"],
+      "officialDomains": [
+        "threebond.com",
+        "threebond.co.jp"
+      ],
       "sources": [
         {
           "label": "ThreeBond technical data sheets",
@@ -160,15 +449,21 @@
           "nameStrategy": "linkText",
           "requestTimeout": 20,
           "maxUrls": 180,
-          "includeRegex": ["/download/threebond-"],
-          "nameRequireRegex": ["TB\\d+"]
+          "includeRegex": [
+            "/download/threebond-"
+          ],
+          "nameRequireRegex": [
+            "TB\\d+"
+          ]
         }
       ]
     },
     {
       "name": "Titebond",
       "priority": "medium",
-      "officialDomains": ["titebond.com"],
+      "officialDomains": [
+        "titebond.com"
+      ],
       "sources": [
         {
           "label": "Titebond glues catalog",
@@ -178,28 +473,15 @@
           "nameStrategy": "linkText",
           "requestTimeout": 20,
           "maxUrls": 60,
-          "includeRegex": ["/product/glues/"],
-          "nameRequireRegex": ["Titebond|Instant Bond"],
-          "nameExcludeRegex": ["Read more|Accelerator|Activator|Titebrush|Pump"]
-        }
-      ]
-    },
-    {
-      "name": "E6000",
-      "priority": "medium",
-      "officialDomains": ["eclecticproducts.com"],
-      "sources": [
-        {
-          "label": "E6000 adhesive category",
-          "url": "https://eclecticproducts.com/product-category/adhesives/e6000/",
-          "sourceType": "html",
-          "kind": "product",
-          "nameStrategy": "linkText",
-          "requestTimeout": 20,
-          "maxUrls": 24,
-          "includeRegex": ["/product/e[0-9]+|/product/e6000-"],
-          "nameRequireRegex": ["E6000|Extreme Tack"],
-          "nameExcludeRegex": ["Read more|E6100|E6800"]
+          "includeRegex": [
+            "/product/glues/"
+          ],
+          "nameRequireRegex": [
+            "Titebond|Instant Bond"
+          ],
+          "nameExcludeRegex": [
+            "Read more|Accelerator|Activator|Titebrush|Pump"
+          ]
         }
       ]
     }

@@ -5494,11 +5494,8 @@ function renderReferenceLibrary() {
 
   const visibleFamilies = REFERENCE_LIBRARY.filter((family) => {
     if (category !== "any" && family.primaryCategory !== category) return false;
-    if (application !== "any" && !(family.applicationTags ?? []).includes(application)) {
-      return false;
-    }
+    if (application !== "any" && !(family.applicationTags ?? []).includes(application)) return false;
     if (!query) return true;
-
     const haystack = [
       family.familyName,
       family.manufacturer,
@@ -5515,126 +5512,98 @@ function renderReferenceLibrary() {
       family.sampleForJoining,
       family.sampleForUseOn,
       ...(family.categories ?? []),
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-
+    ].filter(Boolean).join(" ").toLowerCase();
     return haystack.includes(query);
   });
 
-  referenceCount.textContent = `${visibleFamilies.length} reference famil${
-    visibleFamilies.length === 1 ? "y" : "ies"
-  }`;
+  referenceCount.textContent = `${visibleFamilies.length} reference famil${visibleFamilies.length === 1 ? "y" : "ies"}`;
   referenceContext.textContent = buildReferenceContext();
   referenceBody.replaceChildren();
-  referenceEmpty?.classList.add("hidden");
+  referenceEmpty?.classList.toggle("hidden", visibleFamilies.length > 0);
+  if (!visibleFamilies.length) return;
 
-  if (!visibleFamilies.length) {
-    referenceEmpty?.classList.remove("hidden");
-    return;
-  }
-
+  const makeText = (tagName, className, value) => {
+    const node = document.createElement(tagName);
+    if (className) node.className = className;
+    node.textContent = value ?? "";
+    return node;
+  };
   const fragment = document.createDocumentFragment();
   visibleFamilies.forEach((family) => {
     const row = document.createElement("tr");
+    const familyCell = document.createElement("td");
+    familyCell.append(
+      makeText("p", "maker", family.manufacturer || "Unknown maker"),
+      makeText("p", "product-name", family.familyName || "Unnamed reference family"),
+      makeText("p", "product-summary", family.sampleForJoining || family.sampleForUseOn || "Joining scope not exposed on sampled offer."),
+    );
     const sampleMeta = [
       family.samplePartNo ? `McMaster ${family.samplePartNo}` : "",
-      family.samplePackage ?? "",
-      family.sampleColor ?? "",
-    ]
-      .filter(Boolean)
-      .join(" • ");
-    const joiningSummary =
-      family.sampleForJoining ??
-      family.sampleForUseOn ??
-      "Joining scope not exposed on the sampled offer.";
-
-    const familyCell = document.createElement("td");
-    familyCell.innerHTML = `
-      <p class="maker">${family.manufacturer ?? "Unknown maker"}</p>
-      <p class="product-name">${family.familyName}</p>
-      <p class="product-summary">${joiningSummary}</p>
-      ${sampleMeta ? `<p class="table-note">${sampleMeta}</p>` : ""}
-    `;
+      family.samplePackage,
+      family.sampleColor,
+    ].filter(Boolean).join(" • ");
+    if (sampleMeta) familyCell.append(makeText("p", "table-note", sampleMeta));
 
     const applicationCell = document.createElement("td");
     const applicationWrap = document.createElement("div");
     applicationWrap.className = "application-list";
-    const applicationTags = dedupeList(family.applicationTags ?? []);
-    if (applicationTags.length) {
-      applicationTags.forEach((tag) => {
-        const item = document.createElement("span");
-        item.className = "application-pill";
-        item.textContent = applicationLabel(tag);
-        applicationWrap.append(item);
-      });
+    const tags = dedupeList(family.applicationTags ?? []);
+    if (tags.length) {
+      tags.forEach((tag) => applicationWrap.append(makeText("span", "application-pill", applicationLabel(tag))));
     } else {
-      applicationWrap.innerHTML = '<span class="empty-text">n/a</span>';
+      applicationWrap.append(makeText("span", "empty-text", "Not categorized"));
     }
     applicationCell.append(applicationWrap);
 
     const categoryCell = document.createElement("td");
-    const extraCategories = (family.categories ?? []).filter(
-      (entry) => entry && entry !== family.primaryCategory,
-    );
-    categoryCell.innerHTML = `
-      <div>${family.primaryCategory}</div>
-      <div class="table-note">${
-        family.sampleCureType ?? family.sampleType ?? "Package not sampled"
-      }</div>
-      ${
-        family.sampleCoverage
-          ? `<div class="table-note">${family.sampleCoverage}</div>`
-          : ""
-      }
-      ${
-        extraCategories.length
-          ? `<div class="table-note">${extraCategories.slice(0, 2).join(" • ")}</div>`
-          : '<div class="table-note">Primary family bucket</div>'
-      }
-    `;
+    categoryCell.append(makeText("div", "", family.primaryCategory || "Uncategorized"));
+    categoryCell.append(makeText("div", "table-note", family.sampleCureType || family.sampleType || "Package not sampled"));
+    if (family.sampleCoverage) categoryCell.append(makeText("div", "table-note", family.sampleCoverage));
+    const extras = (family.categories ?? []).filter((item) => item && item !== family.primaryCategory);
+    if (extras.length) categoryCell.append(makeText("div", "table-note", extras.slice(0, 2).join(" • ")));
 
-    const tempCell = document.createElement("td");
-    tempCell.textContent = formatTemperatureRange(family.tempMinC, family.tempMaxC);
-
+    const temperatureCell = makeText("td", "", formatTemperatureRange(family.tempMinC, family.tempMaxC));
     const offersCell = document.createElement("td");
-    offersCell.innerHTML = `
-      <div>${family.offerCount}</div>
-      <div class="table-note">${family.offerCount === 1 ? "sampled offer" : "sampled offers"}</div>
-    `;
+    offersCell.append(makeText("div", "", Number.isFinite(family.offerCount) ? String(family.offerCount) : "Not reported"));
+    offersCell.append(makeText("div", "table-note", family.offerCount === 1 ? "sampled offer" : "sampled offers"));
 
-    const costCell = document.createElement("td");
-    costCell.innerHTML = `
-      <div class="cost-main">${formatReferenceCost(family)}</div>
-      <div class="table-note">${
-        Number.isFinite(family.bestPricePerMl)
-          ? "Best observed normalized package cost"
-          : "Lowest observed package price"
-      }</div>
-    `;
+    const priceCell = document.createElement("td");
+    priceCell.append(makeText("div", "cost-main", formatReferenceCost(family)));
+    priceCell.append(makeText("div", "table-note", Number.isFinite(family.bestPricePerMl) ? "Best observed normalized package cost" : "Lowest observed package price; package basis may differ"));
 
     const sourceCell = document.createElement("td");
-    if (family.sourceUrl) {
-      const sourceLabel = family.sourceLabel ?? "McMaster";
-      sourceCell.innerHTML = `<a class="reference-link" href="${family.sourceUrl}" target="_blank" rel="noreferrer">${sourceLabel}</a>`;
+    const sourceUrl = safeSourceUrl(family.sourceUrl);
+    if (sourceUrl) {
+      const link = document.createElement("a");
+      link.className = "reference-link";
+      link.href = sourceUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = family.sourceLabel || "Source";
+      sourceCell.append(link);
     } else {
-      sourceCell.innerHTML = '<span class="empty-text">n/a</span>';
+      sourceCell.append(makeText("span", "empty-text", "Not available"));
     }
-
-    row.append(
-      familyCell,
-      applicationCell,
-      categoryCell,
-      tempCell,
-      offersCell,
-      costCell,
-      sourceCell,
-    );
+    row.append(familyCell, applicationCell, categoryCell, temperatureCell, offersCell, priceCell, sourceCell);
     fragment.append(row);
   });
-
   referenceBody.append(fragment);
+}
+
+function setCatalogView(showCatalog) {
+  const workbench = document.querySelector("#lab");
+  const catalogPanel = document.querySelector("#reference-library-panel");
+  const catalogToggle = document.querySelector("#catalog-toggle");
+  if (!workbench || !catalogPanel || !catalogToggle) return;
+  workbench.classList.toggle("hidden", showCatalog);
+  catalogPanel.classList.toggle("hidden", !showCatalog);
+  catalogToggle.setAttribute("aria-expanded", String(showCatalog));
+  if (showCatalog) {
+    renderReferenceLibrary();
+    catalogPanel.querySelector("#reference-search")?.focus();
+  } else {
+    document.querySelector("#results-title")?.focus({ preventScroll: true });
+  }
 }
 
 function safeSourceUrl(value) {
@@ -6358,6 +6327,8 @@ function renderSavedGlues(matches, filters) {
 }
 
 function attachEvents() {
+  document.querySelector("#catalog-toggle")?.addEventListener("click", () => setCatalogView(true));
+  document.querySelector("#catalog-back")?.addEventListener("click", () => setCatalogView(false));
   productDetailClose?.addEventListener("click", () => {
     if (typeof productDetailDialog.close === "function") productDetailDialog.close();
     else productDetailDialog.removeAttribute("open");
@@ -6452,6 +6423,7 @@ function scheduleCatalogLoad() {
 function init() {
   populateFilters();
   populateReferenceFilters();
+  renderReferenceLibrary();
   resetAllFilters();
   attachEvents();
   renderHeroStats();

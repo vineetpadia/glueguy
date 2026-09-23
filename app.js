@@ -5866,7 +5866,6 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Working-life conditions", "potLifeConditions"],
   ["Handling-time note", "fixtureTimeNote"],
   ["Viscosity note", "viscosityNote"],
-  ["Storage conditions", "storageCondition"],
   ["Test specimen", "testPiece"],
   ["Test condition", "testCondition"],
   ["Test method", "testMethod"],
@@ -6071,7 +6070,9 @@ function openProductDetail(product, match) {
       const tdsLinked = Boolean(safeSourceUrl(product.tdsUrl) || safeSourceUrl(product.referenceUrl));
       const provenanceLabel = field === "sourceRevisionDate"
         ? (tdsLinked ? "TDS source" : "Source note")
-        : tdsLinked ? "TDS-linked note" : "Catalog note";
+        : /Master Bond product page/i.test(value)
+          ? "Related source note"
+          : tdsLinked ? "TDS-linked note" : "Catalog note";
       appendDetailFact(evidence, label, value, false, provenanceLabel);
     });
     productDetailContent.append(evidence);

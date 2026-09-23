@@ -779,7 +779,7 @@
           "nameExcludeRegex": [
             "caulk|sealant|filler|spackling|foam|tape|primer"
           ],
-          "extractTdsLinks": false,
+          "extractTdsLinks": true,
           "tdsMaxPages": 100,
           "manualProducts": [
             {
@@ -801,6 +801,14 @@
             {
               "name": "Weldwood Original Wood Glue",
               "officialUrl": "https://www.dap.com/products/adhesives/weldwood-original-wood-glue"
+            },
+            {
+              "name": "Weldwood Professional Wood Glue",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-professional-wood-glue"
+            },
+            {
+              "name": "Weldwood 2-in-1 Wood Glue & Filler",
+              "officialUrl": "https://www.dap.com/products/adhesives/weldwood-2-in-1-wood-glue-and-filler"
             },
             {
               "name": "Weldwood Original Contact Cement",

@@ -214,6 +214,17 @@ def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | Non
                     return [{"url": url, "label": "Permabond Technical Data Sheet", "documentType": "TDS"}]
     if hostname == "dap.com" or hostname.endswith(".dap.com"):
         records = collect_html_link_records_from_text(product_url, page)
+        # DAP's document module frequently labels the actual PDF anchor only
+        # "EN"/"ES". The canonical TDS filename remains visible in the URL, so
+        # recognize those links directly (including images.dap.com URLs).
+        domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
+        for raw_url in re.findall(r"(?:href|data-url|data-href)=[\"']([^\"']+\.pdf(?:\?[^\"']*)?)[\"']", page, re.I):
+            url = urljoin(product_url, html.unescape(raw_url)).split("#", 1)[0]
+            host = (urlparse(url).hostname or "").lower()
+            if domains and not any(host == domain or host.endswith("." + domain) for domain in domains):
+                continue
+            if re.search(r"technical.?data|\btds\b", url, re.I):
+                records.append({"url": url, "label": "DAP Technical Data Sheet", "documentType": "TDS"})
         # DAP's custom document buttons can live outside anchors; pair the
         # nearby document title/type with the data-url PDF in the same block.
         blocks = re.findall(r"(?is)(.{0,700}(?:Technical Data Sheets?|Safety Data Sheets?).{0,1000}?)(?=<(?:h[1-6]|section|article)|$)", page)
@@ -225,7 +236,6 @@ def extract_tds_and_sds_links(product_url: str, allowed_domains: list[str] | Non
             urls = re.findall(r"(?:data-url|data-href|href)=[\"']([^\"']+\.pdf(?:\?[^\"']*)?)[\"']", block, re.I)
             for raw_url in urls:
                 records.append({"url": urljoin(product_url, html.unescape(raw_url)), "label": text[:160], "documentType": doc_type})
-        domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
         results=[]; seen=set()
         for record in records:
             url=record["url"].split("#",1)[0]; host=(urlparse(url).hostname or "").lower()

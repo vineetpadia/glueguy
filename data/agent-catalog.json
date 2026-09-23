@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T19:32:28.955897+00:00",
+  "generatedAt": "2026-09-23T20:08:32.121234+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,10 +11,10 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1691,
+    "products": 1693,
     "manualTdsProducts": 553,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 710,
+    "officialManufacturerLeads": 712,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -438,6 +438,7 @@
         "official-lead-dap-rapidfuse-gel-adhesive",
         "official-lead-dap-rapidfuse-super-glue",
         "official-lead-dap-ultra-clear-all-purpose-adhesive",
+        "official-lead-dap-weldwood-2-in-1-wood-glue-filler",
         "official-lead-dap-weldwood-floor-tile-adhesive",
         "official-lead-dap-weldwood-frp-adhesive",
         "official-lead-dap-weldwood-gel-formula-contact-cement",
@@ -447,7 +448,8 @@
         "official-lead-dap-weldwood-nonflammable-contact-cement",
         "official-lead-dap-weldwood-original-contact-cement",
         "official-lead-dap-weldwood-original-contact-cement-spray-adhesive",
-        "official-lead-dap-weldwood-original-wood-glue"
+        "official-lead-dap-weldwood-original-wood-glue",
+        "official-lead-dap-weldwood-professional-wood-glue"
       ],
       "DELO": [
         "delo-monopox-tc2270"
@@ -7140,7 +7142,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 710,
+      "official-manufacturer-lead": 712,
       "official-tds-url": 286,
       "product-or-catalog-page": 178
     }
@@ -37246,11 +37248,87 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/4000-subfloor-construction-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1.pdf",
+          "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1%20Spanish%20rev%207079825117.pdf",
+          "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1.pdf",
+          "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1%20Spanish%20rev%207079825117.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1.pdf",
+            "label": "TDS 4000 SUBFLOOR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Improves structural performance of floor assemblies | PACKAGING COLOR UPC | 28 FL OZ (828 mL) | Light Tan 7079825117",
+              "chemistry": "Light Tan 7079825117 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 0\u00b0F \u2013 120\u00b0F | Tooling Time (Working Time) 15 minutes | Full Cure Time 7 days | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 15 minutes | Full Cure Time 7 days | Typical Cured Performance Properties | Service Temperature Range -20\u00b0F \u2013 140\u00b0F",
+              "serviceTemperature": "\u2022 Won\u2019t freeze | \u2022 Application temperature range from 0\u00b0F to 120\u00b0F | \u2022 Provides a strong, permanent bond | \u2022 Prevents floor squeaks",
+              "solids": "Bead Color Light tan | Weight % Solids 63% | Odor Mild solvent | Clean Up Mineral spirits",
+              "shelfLife": "Flash Point 75\u00b0F | Shelf Life: 18 months | Coverage 28oz: \u00bc\u201d bead yields 86 linear ft, 3/8\u201d bead yields 38 | linear ft"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1%20Spanish%20rev%207079825117.pdf",
+            "label": "TDS 4000 SUBFLOOR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 28 FL OZ (828 mL) Marr\u00f3n claro 7079825117 | CARACTER\u00cdSTICAS Y BENEFICIOS CLAVE"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1.pdf",
+            "label": "TDS 4000 SUBFLOOR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Improves structural performance of floor assemblies | PACKAGING COLOR UPC | 28 FL OZ (828 mL) | Light Tan 7079825117",
+              "chemistry": "Light Tan 7079825117 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 0\u00b0F \u2013 120\u00b0F | Tooling Time (Working Time) 15 minutes | Full Cure Time 7 days | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 15 minutes | Full Cure Time 7 days | Typical Cured Performance Properties | Service Temperature Range -20\u00b0F \u2013 140\u00b0F",
+              "serviceTemperature": "\u2022 Won\u2019t freeze | \u2022 Application temperature range from 0\u00b0F to 120\u00b0F | \u2022 Provides a strong, permanent bond | \u2022 Prevents floor squeaks",
+              "solids": "Bead Color Light tan | Weight % Solids 63% | Odor Mild solvent | Clean Up Mineral spirits",
+              "shelfLife": "Flash Point 75\u00b0F | Shelf Life: 18 months | Coverage 28oz: \u00bc\u201d bead yields 86 linear ft, 3/8\u201d bead yields 38 | linear ft"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%204000%20Subfloor%20TDS_9-6-23_1%20Spanish%20rev%207079825117.pdf",
+            "label": "TDS 4000 SUBFLOOR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 28 FL OZ (828 mL) Marr\u00f3n claro 7079825117 | CARACTER\u00cdSTICAS Y BENEFICIOS CLAVE"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/7008201English.pdf",
+            "label": "SDS 4000 SUBFLOOR Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/7008201Spanish.pdf",
+            "label": "SDS 4000 SUBFLOOR Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/7008201English.pdf",
+          "https://images.dap.com/7008201Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/4000-subfloor-construction-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -37326,11 +37404,63 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/all-purpose-construction-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/DAP%20All%20Purpose%20TDS_9-6-23.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/DAP%20All%20Purpose%20TDS_9-6-23.pdf",
+          "https://images.dap.com/DAP%20All%20Purpose%20TDS_9-6-23.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/DAP%20All%20Purpose%20TDS_9-6-23.pdf",
+            "label": "TDS ALL PURPOSE ADHESIVE Technical Data Sheet Technical Data Sheet EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adheres to: | PACKAGING COLOR UPC | 10.3 FL OZ (305 mL) Off White 7079827501 | 28 FL OZ (828 mL) Off White 7079827502",
+              "chemistry": "28 FL OZ (828 mL) Off White 7079827502 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days | Typical Cured Performance Properties | Service Temperature Range 0\u00b0F \u2013 140\u00b0F",
+              "serviceTemperature": "Typical Application Properties | Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days",
+              "solids": "Bead Color Off white | Weight % Solids 68% | Odor Low | Clean Up Soap & water",
+              "shelfLife": "Flash Point 212\u00b0F | Shelf Life: 18 months | Coverage 10.3oz: \u00bc\u201d bead yields 32 linear ft, 3/8\u201d bead yields 14 | linear ft"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%20All%20Purpose%20TDS_9-6-23.pdf",
+            "label": "TDS ALL PURPOSE ADHESIVE Technical Data Sheet Technical Data Sheet EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adheres to: | PACKAGING COLOR UPC | 10.3 FL OZ (305 mL) Off White 7079827501 | 28 FL OZ (828 mL) Off White 7079827502",
+              "chemistry": "28 FL OZ (828 mL) Off White 7079827502 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days | Typical Cured Performance Properties | Service Temperature Range 0\u00b0F \u2013 140\u00b0F",
+              "serviceTemperature": "Typical Application Properties | Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 20 minutes | Full Cure Time 7 days",
+              "solids": "Bead Color Off white | Weight % Solids 68% | Odor Low | Clean Up Soap & water",
+              "shelfLife": "Flash Point 212\u00b0F | Shelf Life: 18 months | Coverage 10.3oz: \u00bc\u201d bead yields 32 linear ft, 3/8\u201d bead yields 14 | linear ft"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/7008601English.pdf",
+            "label": "SDS ALL PURPOSE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/7008601Spanish.pdf",
+            "label": "SDS ALL PURPOSE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/7008601English.pdf",
+          "https://images.dap.com/7008601Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/all-purpose-construction-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -37517,11 +37647,87 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/heavy-duty-construction-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1.pdf",
+          "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1%20Spanish%20rev%207079827509%207079827510.pdf",
+          "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1.pdf",
+          "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1%20Spanish%20rev%207079827509%207079827510.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1.pdf",
+            "label": "TDS HEAVY DUTY Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adheres to: | PACKAGING COLOR UPC | 10 FL OZ (295 mL) Off White 7079827509 | 28 FL OZ (828 mL) Off White 7079827510",
+              "chemistry": "28 FL OZ (828 mL) Off White 7079827510 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours | Typical Cured Performance Properties | Service Temperature Range -30\u00b0F \u2013 180\u00b0F",
+              "serviceTemperature": "Typical Application Properties | Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours",
+              "solids": "Bead Color Off white | Weight % Solids 78% | Odor Very mild | Clean Up Soap & water",
+              "shelfLife": "Flash Point 212\u00b0F | Shelf Life: 12 months | Coverage 10oz: \u00bc\u201d bead yields 31 linear ft, 3/8\u201d bead yields 14 | linear ft"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1%20Spanish%20rev%207079827509%207079827510.pdf",
+            "label": "TDS HEAVY DUTY Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 F\u00e1cil de aplicar con pistola | EMPAQUE COLOR UPC | 10 onzas l\u00edquidas (295 ml) Blanco hueso 7079827509 | 28 onzas l\u00edquidas (828 ml) Blanco hueso 7079827510"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1.pdf",
+            "label": "TDS HEAVY DUTY Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adheres to: | PACKAGING COLOR UPC | 10 FL OZ (295 mL) Off White 7079827509 | 28 FL OZ (828 mL) Off White 7079827510",
+              "chemistry": "28 FL OZ (828 mL) Off White 7079827510 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours | Typical Cured Performance Properties",
+              "cureTime": "Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours | Typical Cured Performance Properties | Service Temperature Range -30\u00b0F \u2013 180\u00b0F",
+              "serviceTemperature": "Typical Application Properties | Application Temperature Range 40\u00b0F \u2013 100\u00b0F | Tooling Time (Working Time) 10 minutes | Full Cure Time 24 hours",
+              "solids": "Bead Color Off white | Weight % Solids 78% | Odor Very mild | Clean Up Soap & water",
+              "shelfLife": "Flash Point 212\u00b0F | Shelf Life: 12 months | Coverage 10oz: \u00bc\u201d bead yields 31 linear ft, 3/8\u201d bead yields 14 | linear ft"
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%20Heavy%20Duty%20TDS_9-6-23_1%20Spanish%20rev%207079827509%207079827510.pdf",
+            "label": "TDS HEAVY DUTY Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 F\u00e1cil de aplicar con pistola | EMPAQUE COLOR UPC | 10 onzas l\u00edquidas (295 ml) Blanco hueso 7079827509 | 28 onzas l\u00edquidas (828 ml) Blanco hueso 7079827510"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/7008501English.pdf",
+            "label": "SDS HEAVY DUTY Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/7008501Spanish.pdf",
+            "label": "SDS HEAVY DUTY Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/7008501English.pdf",
+          "https://images.dap.com/7008501Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/heavy-duty-construction-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -37597,20 +37803,13 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-all-purpose-adhesive",
-        "tdsUrl": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
-        "tdsUrls": [
-          "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
-            "label": "RapidFuse All Purpose Adhesive Technical Data Sheet"
-          }
-        ],
+        "tdsUrl": null,
+        "tdsUrls": [],
+        "tdsDocuments": [],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.dap.com/products/adhesives/rapidfuse-all-purpose-adhesive",
-        "sourceLabel": "DAP official product page",
+        "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },
@@ -37684,20 +37883,87 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
-        "tdsUrl": "https://www.dap.com/media/7191/rapidfuse-gel-tdb-final_6-11-20.pdf",
+        "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
         "tdsUrls": [
-          "https://www.dap.com/media/7191/rapidfuse-gel-tdb-final_6-11-20.pdf"
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf"
         ],
         "tdsDocuments": [
           {
-            "url": "https://www.dap.com/media/7191/rapidfuse-gel-tdb-final_6-11-20.pdf",
-            "label": "RapidFuse Gel Adhesive Technical Data Sheet"
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178 | 0.13 oz (4 g) Control",
+              "chemistry": "SUGGESTED USES | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178",
+              "viscosity": "Non-Volatiles: 98% | Viscosity: 90,000 \u2013 120,000 cps | Flash Point: 190.4 F (88 C) | Weight/Gallon: 8.85 lbs/gal",
+              "cureTime": "Handling Time: 5 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
+              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 40\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 120\u00b0F",
+              "shelfLife": "Appearance: Clear Gel | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with | a pin."
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Tubo de 0.7 oz (20 g) Transparente 7079800178 | Aplicador con control de"
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178 | 0.13 oz (4 g) Control",
+              "chemistry": "SUGGESTED USES | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178",
+              "viscosity": "Non-Volatiles: 98% | Viscosity: 90,000 \u2013 120,000 cps | Flash Point: 190.4 F (88 C) | Weight/Gallon: 8.85 lbs/gal",
+              "cureTime": "Handling Time: 5 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
+              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 40\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 120\u00b0F",
+              "shelfLife": "Appearance: Clear Gel | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with | a pin."
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Tubo de 0.7 oz (20 g) Transparente 7079800178 | Aplicador con control de"
+            }
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3040804English.pdf",
+            "label": "SDS RAPIDFUSE SUPER GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3040804Spanish.pdf",
+            "label": "SDS RAPIDFUSE SUPER GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3040804English.pdf",
+          "https://images.dap.com/3040804Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
-        "sourceLabel": "DAP official product page",
+        "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },
@@ -37771,20 +38037,87 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
-        "tdsUrl": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
+        "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
         "tdsUrls": [
-          "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf"
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf"
         ],
         "tdsDocuments": [
           {
-            "url": "https://www.dap.com/media/4798/rapidfuse-all-purpose-adhesive_tds_8-26-19.pdf",
-            "label": "RapidFuse Super Glue Technical Data Sheet"
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155 | 0.2 oz (6g) tube Clear 7079800158",
+              "chemistry": "\u2022 Composites | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155",
+              "viscosity": "Non-Volatiles: 98.0% | Viscosity: 2500 cps | Flash Point: 190\u00b0F | Weight/Gallon: 9.18 lbs/gal",
+              "cureTime": "Handling Time: 3 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
+              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 50\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 180\u00b0F",
+              "shelfLife": "Appearance: Clear | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with a | pin."
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 0.85 oz (24.1 g) Transpar | ente"
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155 | 0.2 oz (6g) tube Clear 7079800158",
+              "chemistry": "\u2022 Composites | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155",
+              "viscosity": "Non-Volatiles: 98.0% | Viscosity: 2500 cps | Flash Point: 190\u00b0F | Weight/Gallon: 9.18 lbs/gal",
+              "cureTime": "Handling Time: 3 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
+              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 50\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 180\u00b0F",
+              "shelfLife": "Appearance: Clear | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with a | pin."
+            }
+          },
+          {
+            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 0.85 oz (24.1 g) Transpar | ente"
+            }
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3040804English.pdf",
+            "label": "SDS RAPIDFUSE SUPER GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3040804Spanish.pdf",
+            "label": "SDS RAPIDFUSE SUPER GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3040804English.pdf",
+          "https://images.dap.com/3040804Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
-        "sourceLabel": "DAP official product page",
+        "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },
@@ -37858,20 +38191,210 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
-        "tdsUrl": "https://www.dap.com/media/18540/rapidfuse-ultra-clear-tdb_51921-7079800180.pdf",
+        "tdsUrl": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
         "tdsUrls": [
-          "https://www.dap.com/media/18540/rapidfuse-ultra-clear-tdb_51921-7079800180.pdf"
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf",
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf"
         ],
         "tdsDocuments": [
           {
-            "url": "https://www.dap.com/media/18540/rapidfuse-ultra-clear-tdb_51921-7079800180.pdf",
-            "label": "Ultra Clear All Purpose Adhesive Technical Data Sheet"
+            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180 | KEY FEATURES & BENEFITS",
+              "chemistry": "08/2018 | www.dap.com | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180",
+              "viscosity": "Adhesive Base: Silane Terminated Prepolymer | Consistency: Low Viscosity Liquid | Volatile: <1.5% | Non-Volatiles: 97.5% By Weight",
+              "cureTime": "substrates, apply adhesive to one surface and wait 15 minutes before joining surfaces together. | 3. Wait at least 25 minutes for set. Allow 1 to 3 hours before return to service and 24 hours for full cure. Non- | porous substrates (plastic, metal, glass) may take longer to set and cure. Slightly dampen non-porous surfaces | before application for faster set",
+              "serviceTemperature": "Odor: Low | Application Temperature Range: 40\u00b0F to 120\u00b0F | Optimum Bottle Temperature: 65\u00b0F \u2013 75\u00b0F (Cool dry place; preferably dark) | Service Temperature Range: -60\u00b0F to +300\u00b0F",
+              "shelfLife": "Appearance: Clear, Water White Liquid | Shelf Life: 18 Months Minimum @ 70\u00b0F | Prior to cure: Clean excess adhesive with paper towel and replace cap. | After cure: Cured adhesive may be cut, scraped, or sanded away or removed with acetone or alcohol."
+            }
+          },
+          {
+            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf",
+            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Ideal para uso en interiores y exteriores | EMPAQUE COLOR UPC | Envase de 1.67 fl oz (49 mL) Transparente 7079800180 | 08/2018 | www.dap.com"
+            }
+          },
+          {
+            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180 | KEY FEATURES & BENEFITS",
+              "chemistry": "08/2018 | www.dap.com | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180",
+              "viscosity": "Adhesive Base: Silane Terminated Prepolymer | Consistency: Low Viscosity Liquid | Volatile: <1.5% | Non-Volatiles: 97.5% By Weight",
+              "cureTime": "substrates, apply adhesive to one surface and wait 15 minutes before joining surfaces together. | 3. Wait at least 25 minutes for set. Allow 1 to 3 hours before return to service and 24 hours for full cure. Non- | porous substrates (plastic, metal, glass) may take longer to set and cure. Slightly dampen non-porous surfaces | before application for faster set",
+              "serviceTemperature": "Odor: Low | Application Temperature Range: 40\u00b0F to 120\u00b0F | Optimum Bottle Temperature: 65\u00b0F \u2013 75\u00b0F (Cool dry place; preferably dark) | Service Temperature Range: -60\u00b0F to +300\u00b0F",
+              "shelfLife": "Appearance: Clear, Water White Liquid | Shelf Life: 18 Months Minimum @ 70\u00b0F | Prior to cure: Clean excess adhesive with paper towel and replace cap. | After cure: Cured adhesive may be cut, scraped, or sanded away or removed with acetone or alcohol."
+            }
+          },
+          {
+            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf",
+            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Ideal para uso en interiores y exteriores | EMPAQUE COLOR UPC | Envase de 1.67 fl oz (49 mL) Transparente 7079800180 | 08/2018 | www.dap.com"
+            }
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3041501English.pdf",
+            "label": "SDS RAPIDFUSE ULTRA CLEAR Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3041501Spanish.pdf",
+            "label": "SDS RAPIDFUSE ULTRA CLEAR Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3041501English.pdf",
+          "https://images.dap.com/3041501Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
-        "sourceLabel": "DAP official product page",
+        "sourceLabel": "DAP adhesives catalog",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-dap-weldwood-2-in-1-wood-glue-filler",
+      "source": "official-manufacturer-lead",
+      "maker": "DAP",
+      "name": "Weldwood 2-in-1 Wood Glue & Filler",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-2-in-1-wood-glue-and-filler",
+        "tdsUrl": "https://images.dap.com/DAP%20Weldwood%202%20in%201%20Wood%20Glue%20&%20Filler%20TDS%20Final.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/DAP%20Weldwood%202%20in%201%20Wood%20Glue%20&%20Filler%20TDS%20Final.pdf",
+          "https://images.dap.com/DAP%20Weldwood%202%20in%201%20Wood%20Glue%20&%20Filler%20TDS%20Final_Spanish.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/DAP%20Weldwood%202%20in%201%20Wood%20Glue%20&%20Filler%20TDS%20Final.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "exterior when sealed and cleans up easily with water. | PACKAGING COLOR UPC | 5 FL OZ | Natural",
+              "chemistry": "KEY FEATURES & BENEFITS | PRODUCT DESCRIPTION | SUGGESTED USES | 01/2025 | www.dap.com",
+              "cureTime": "\u2022 30 Minute Clamp Time | \u2022 24 Hour Cure Time | \u2022 Stainable & Paintable | \u2022 Interior / Exterior",
+              "shelfLife": "Freeze Thaw Stability Yes | Shelf Life 1 Year | See product label and Safety Data Sheet (SDS) for health and safety information. You can request an | SDS by visiting our website at dap.com or by calling 888-DAP-TIPS."
+            }
+          },
+          {
+            "url": "https://images.dap.com/DAP%20Weldwood%202%20in%201%20Wood%20Glue%20&%20Filler%20TDS%20Final_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "se puede usar tanto en interiores como en exteriores una vez sellado y se limpia f\u00e1cilmente con agua. | EMPAQUE COLOR UPC | 5 FL OZ (133.1 ML) | Natural"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3022501English.pdf",
+            "label": "SDS WELDWOOD 2-IN-1 Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3022501Spanish.pdf",
+            "label": "SDS WELDWOOD 2-IN-1 Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3022501English.pdf",
+          "https://images.dap.com/3022501Spanish.pdf"
+        ],
+        "productUrl": "https://www.dap.com/products/adhesives/weldwood-2-in-1-wood-glue-and-filler",
+        "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },
@@ -37945,11 +38468,85 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-floor-tile-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10.1.18.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10.1.18.pdf",
+          "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+          "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10.1.18.pdf",
+          "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10%201%2018-SP%20rev.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10.1.18.pdf",
+            "label": "TDS WELDWOOD FLOOR TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "grab. It is nonflammable, VOC compliant and freeze/thaw stable. | PACKAGING COLOR UPC | Quart Clear 7079800136 | Gallon Clear 7079800137",
+              "chemistry": "4 Gallon Clear 7079800139 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "\u2022 Fast set to provide strong early grab/tack | \u2022 Up to hours working time | \u2022 Easy to spread | \u2022 Freeze-thaw stable",
+              "cureTime": "Weight/Gallon 8.6 pounds | Full Cure Time 24 hours | APPLICATION | TYPICAL PHYSICAL & CHEMICAL PROPERTIES",
+              "solids": "Odor Mild | Solids 62% by weight | Weight/Gallon 8.6 pounds | Full Cure Time 24 hours",
+              "shelfLife": "Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months when unopened | Use soapy water to remove adhesive from cove base and tools. Use mineral spirits for dried adhesive. | Product in an unopened container has a 12-month shelf life when stored in a cool, dry place. Partially"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS WELDWOOD FLOOR TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "vinilo s\u00f3lido, baldosas de asfalto viejo o baldosas de asbesto. | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n (0.94L) Transparente 7079800136 | Gal\u00f3n (3.8L) Transparente 7079800137"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10.1.18.pdf",
+            "label": "TDS WELDWOOD FLOOR TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "grab. It is nonflammable, VOC compliant and freeze/thaw stable. | PACKAGING COLOR UPC | Quart Clear 7079800136 | Gallon Clear 7079800137",
+              "chemistry": "4 Gallon Clear 7079800139 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "\u2022 Fast set to provide strong early grab/tack | \u2022 Up to hours working time | \u2022 Easy to spread | \u2022 Freeze-thaw stable",
+              "cureTime": "Weight/Gallon 8.6 pounds | Full Cure Time 24 hours | APPLICATION | TYPICAL PHYSICAL & CHEMICAL PROPERTIES",
+              "solids": "Odor Mild | Solids 62% by weight | Weight/Gallon 8.6 pounds | Full Cure Time 24 hours",
+              "shelfLife": "Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months when unopened | Use soapy water to remove adhesive from cove base and tools. Use mineral spirits for dried adhesive. | Product in an unopened container has a 12-month shelf life when stored in a cool, dry place. Partially"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Floor%20Tile%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS WELDWOOD FLOOR TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "vinilo s\u00f3lido, baldosas de asfalto viejo o baldosas de asbesto. | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n (0.94L) Transparente 7079800136 | Gal\u00f3n (3.8L) Transparente 7079800137"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/7727201English.pdf",
+            "label": "SDS WELDWOOD FLOOR TILE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/7727201Spanish.pdf",
+            "label": "SDS WELDWOOD FLOOR TILE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/7727201English.pdf",
+          "https://images.dap.com/7727201Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-floor-tile-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38025,11 +38622,85 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-frp-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/WW%20FRP%20Adhesive_TDS_9.21.20.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20FRP%20Adhesive_TDS_9.21.20.pdf",
+          "https://images.dap.com/WW%20FRP%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+          "https://images.dap.com/WW%20FRP%20Adhesive_TDS_9.21.20.pdf",
+          "https://images.dap.com/WW%20FRP%20Adhesive_TDS_10%201%2018-SP%20rev.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20FRP%20Adhesive_TDS_9.21.20.pdf",
+            "label": "TDS FRP ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "resistant when dry. It produces low odor and is VOC compliant. | PACKAGING COLOR UPC | Gallon White 7079860480 | 4 Gallon White 7079860481",
+              "chemistry": "4 Gallon White 7079860481 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "cureTime": "Service Temperature 0\u00b0 F- 120\u00b0 F\u00b0 | Full Cure Time 7 days | Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months",
+              "serviceTemperature": "Application Temperature At least 65\u00b0 F (18\u00b0 C) for 24 hours before installation | Service Temperature 0\u00b0 F- 120\u00b0 F\u00b0 | Full Cure Time 7 days | Freeze Thaw Stability Passes least 5 cycles",
+              "solids": "Odor Mild | Solids 68% by weight | APPLICATION | TYPICAL PHYSICAL & CHEMICAL PROPERTIES",
+              "shelfLife": "Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months | Use soapy water to remove adhesive from cove base and tools. Use mineral spirits for dried adhesive. | Product has 12 month shelf life when stored in a cool, dry place. Product will withstand 5 freeze/thaw"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20FRP%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS FRP ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "dise\u00f1ado para instalar FRP a concreto, enlucidos, contrachapado y paneles de yeso. | EMPAQUE COLOR UPC | Gal\u00f3n (3.8 l) Blanco 7079860480 | 4 galones (15.1 l) Blanco 7079860481"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20FRP%20Adhesive_TDS_9.21.20.pdf",
+            "label": "TDS FRP ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "resistant when dry. It produces low odor and is VOC compliant. | PACKAGING COLOR UPC | Gallon White 7079860480 | 4 Gallon White 7079860481",
+              "chemistry": "4 Gallon White 7079860481 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "cureTime": "Service Temperature 0\u00b0 F- 120\u00b0 F\u00b0 | Full Cure Time 7 days | Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months",
+              "serviceTemperature": "Application Temperature At least 65\u00b0 F (18\u00b0 C) for 24 hours before installation | Service Temperature 0\u00b0 F- 120\u00b0 F\u00b0 | Full Cure Time 7 days | Freeze Thaw Stability Passes least 5 cycles",
+              "solids": "Odor Mild | Solids 68% by weight | APPLICATION | TYPICAL PHYSICAL & CHEMICAL PROPERTIES",
+              "shelfLife": "Freeze Thaw Stability Passes least 5 cycles | Shelf Life 12 months | Use soapy water to remove adhesive from cove base and tools. Use mineral spirits for dried adhesive. | Product has 12 month shelf life when stored in a cool, dry place. Product will withstand 5 freeze/thaw"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20FRP%20Adhesive_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS FRP ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "dise\u00f1ado para instalar FRP a concreto, enlucidos, contrachapado y paneles de yeso. | EMPAQUE COLOR UPC | Gal\u00f3n (3.8 l) Blanco 7079860480 | 4 galones (15.1 l) Blanco 7079860481"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/1165001English.pdf",
+            "label": "SDS FRP ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/1165001Spanish.pdf",
+            "label": "SDS FRP ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/1165001English.pdf",
+          "https://images.dap.com/1165001Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-frp-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38105,9 +38776,30 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://images.dap.com/WW%20Gel%20Contact%20Cement_TDS_5.8.19.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Gel%20Contact%20Cement_TDS_5.8.19.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Gel%20Contact%20Cement_TDS_5.8.19.pdf",
+            "label": "DAP\u00ae WELDWOOD\u00ae Gel Formula Contact Cement",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Interior/exterior use. | PACKAGING COLOR UPC | Pint Tan 7079825310 | Quart Tan 7079825312",
+              "chemistry": "Gallon Tan 7079825316 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "most porous and non-porous surfaces. | \u2022 Dries in 15-20 minutes and offers a long open time of up to 1-1/2 to 2 hours. | \u2022 When pressed together, surfaces bond instantly on contact with high green strength, allowing | immediate use of the assembly.",
+              "setTime": "surface to be bonded, working cement in one direction only. | \u2022 Let coated surfaces dry for 15-20 minutes. Dry time may vary with temperature, humidity and | thickness of coat applied. Properly coated surfaces feel tacky and appear glossy when dry. Test for | dryness by pressing kraft paper against adhesive surface. When dry, adhesive should bond slightly",
+              "serviceTemperature": "Application Temperature: 65\u00b0F to 110\u00b0F | Service Temperature Range: -40\u00b0F to 180\u00b0F (-40\u00b0C to 82\u00b0C) | Bond Strength: Excellent | Open Time: Up to 2 Hours",
+              "tensileStrength": "Service Temperature Range: -40\u00b0F to 180\u00b0F (-40\u00b0C to 82\u00b0C) | Bond Strength: Excellent | Open Time: Up to 2 Hours | Coverage: Approximately 230 sq. ft/gallon.",
+              "solids": "Flash Point: >21\u00b0F Minimum | Solids: 21% by Weight | Weight/Gallon: 7.3lbs/gal | Color: Tan",
+              "shelfLife": "Coverage: Approximately 230 sq. ft/gallon. | Shelf Life: 12 months | Odor: Solvent | Freeze-Thaw Stability: Does not freeze (may thicken with cold temperatures,"
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.dap.com/products/adhesives/contact-cement/weldwood-gel-formula-contact-cement",
@@ -38185,11 +38877,85 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-ceramic-tile-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_7.17.20.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_7.17.20.pdf",
+          "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_10%201%2018-SP%20rev.pdf",
+          "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_7.17.20.pdf",
+          "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_10%201%2018-SP%20rev.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_7.17.20.pdf",
+            "label": "TDS WELDWOOD CERAMIC TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Multi-Purpose mastic for installing most types of ceramic tile on walls, floors and countertops. | PACKAGING COLOR UPC | Quart White 7079825190 | Gallon White 7079825192",
+              "chemistry": "Gallon White 7079825192 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "where applicable. | Open Time: Approximately 25 to 35 minutes after application to substrate. Open time may vary | depending on trowel size and climatic conditions. | Cure Time: Walls and countertops may be grouted with an appropriate grout after mastic has set for",
+              "cureTime": "depending on trowel size and climatic conditions. | Cure Time: Walls and countertops may be grouted with an appropriate grout after mastic has set for | 24 hours. For floors, allow mastic to set for 24 to 72 hours depending on temperature, humidity and | porosity of substrate and tile. Use an appropriate grout to complete floor tile installation. Do not allo",
+              "solids": "Violate Mineral Spirits | Solids 70% by weight | Weight/Gallon 13.3 pounds | Application Temperature 40 \u00baF -100\u00baF",
+              "shelfLife": "Final Cure Time 3 days | Shelf Life 12 months when stored in original tightly sealed container | Coverage (sq. ft.): | Trowel Size One Quart One Gallon"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS WELDWOOD CERAMIC TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adhesivo multiuso para instalar la mayor\u00eda de los tipos de cer\u00e1mica en paredes, pisos y encimeras. | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n(0.94L) Blanco 7079825190 | Gal\u00f3n (3.8L) Blanco 7079825192"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_7.17.20.pdf",
+            "label": "TDS WELDWOOD CERAMIC TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Multi-Purpose mastic for installing most types of ceramic tile on walls, floors and countertops. | PACKAGING COLOR UPC | Quart White 7079825190 | Gallon White 7079825192",
+              "chemistry": "Gallon White 7079825192 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "where applicable. | Open Time: Approximately 25 to 35 minutes after application to substrate. Open time may vary | depending on trowel size and climatic conditions. | Cure Time: Walls and countertops may be grouted with an appropriate grout after mastic has set for",
+              "cureTime": "depending on trowel size and climatic conditions. | Cure Time: Walls and countertops may be grouted with an appropriate grout after mastic has set for | 24 hours. For floors, allow mastic to set for 24 to 72 hours depending on temperature, humidity and | porosity of substrate and tile. Use an appropriate grout to complete floor tile installation. Do not allo",
+              "solids": "Violate Mineral Spirits | Solids 70% by weight | Weight/Gallon 13.3 pounds | Application Temperature 40 \u00baF -100\u00baF",
+              "shelfLife": "Final Cure Time 3 days | Shelf Life 12 months when stored in original tightly sealed container | Coverage (sq. ft.): | Trowel Size One Quart One Gallon"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20Ceramic_TDS_10%201%2018-SP%20rev.pdf",
+            "label": "TDS WELDWOOD CERAMIC TILE ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Adhesivo multiuso para instalar la mayor\u00eda de los tipos de cer\u00e1mica en paredes, pisos y encimeras. | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n(0.94L) Blanco 7079825190 | Gal\u00f3n (3.8L) Blanco 7079825192"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/7705001English.pdf",
+            "label": "SDS WELDWOOD CERAMIC TILE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/7705001Spanish.pdf",
+            "label": "SDS WELDWOOD CERAMIC TILE ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/7705001English.pdf",
+          "https://images.dap.com/7705001Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-ceramic-tile-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38265,11 +39031,83 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-floor-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/WW%20Multi-purpose%20floor_TDS_10.1.18.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Multi-purpose%20floor_TDS_10.1.18.pdf",
+          "https://images.dap.com/ww-multi-purpose-floor_tds_10-1-18%20Spanish%20rev%207079800141%207079800142%207079800144.pdf",
+          "https://images.dap.com/WW%20Multi-purpose%20floor_TDS_10.1.18.pdf",
+          "https://images.dap.com/ww-multi-purpose-floor_tds_10-1-18%20Spanish%20rev%207079800141%207079800142%207079800144.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20floor_TDS_10.1.18.pdf",
+            "label": "TDS WELDWOOD FLOOR ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "unitary latex, woven and hot melt. | PACKAGING COLOR UPC | Quart Off-White 7079800141 | Gallon Off-White 7079800142",
+              "chemistry": "4 Gallon Off-White 7079800144 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "Weight/Gallon 10 pounds | Work Time 20-40 minutes | Freeze Thaw Stability Passes 5 cycles | Shelf Life 12 months when unopened",
+              "solids": "Volatile Water | Solids 60% by weight | Weight/Gallon 10 pounds | Work Time 20-40 minutes",
+              "shelfLife": "Freeze Thaw Stability Passes 5 cycles | Shelf Life 12 months when unopened | Use warm soapy water to remove wet adhesive. Use mineral spirits and a soft plastic scouring pad to | clean up excess adhesive from tools and flooring. Surface should be wiped dry immediately after clean-"
+            }
+          },
+          {
+            "url": "https://images.dap.com/ww-multi-purpose-floor_tds_10-1-18%20Spanish%20rev%207079800141%207079800142%207079800144.pdf",
+            "label": "TDS WELDWOOD FLOOR ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n (946 ml) Blanco hueso 7079800141 | Gal\u00f3n (3.78 l) Blanco hueso 7079800142"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Multi-purpose%20floor_TDS_10.1.18.pdf",
+            "label": "TDS WELDWOOD FLOOR ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "unitary latex, woven and hot melt. | PACKAGING COLOR UPC | Quart Off-White 7079800141 | Gallon Off-White 7079800142",
+              "chemistry": "4 Gallon Off-White 7079800144 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "Weight/Gallon 10 pounds | Work Time 20-40 minutes | Freeze Thaw Stability Passes 5 cycles | Shelf Life 12 months when unopened",
+              "solids": "Volatile Water | Solids 60% by weight | Weight/Gallon 10 pounds | Work Time 20-40 minutes",
+              "shelfLife": "Freeze Thaw Stability Passes 5 cycles | Shelf Life 12 months when unopened | Use warm soapy water to remove wet adhesive. Use mineral spirits and a soft plastic scouring pad to | clean up excess adhesive from tools and flooring. Surface should be wiped dry immediately after clean-"
+            }
+          },
+          {
+            "url": "https://images.dap.com/ww-multi-purpose-floor_tds_10-1-18%20Spanish%20rev%207079800141%207079800142%207079800144.pdf",
+            "label": "TDS WELDWOOD FLOOR ADHESIVE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Cuarto de gal\u00f3n (946 ml) Blanco hueso 7079800141 | Gal\u00f3n (3.78 l) Blanco hueso 7079800142"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/1164801English.pdf",
+            "label": "SDS WELDWOOD FLOOR ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/1164801Spanish.pdf",
+            "label": "SDS WELDWOOD FLOOR ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/1164801English.pdf",
+          "https://images.dap.com/1164801Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-floor-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38345,11 +39183,81 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-spray-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+          "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124_Spanish.pdf",
+          "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+          "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124_Spanish.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cardboard | PACKAGING COLOR UPC | 11 OZ. NET. WT Clear 7079800124 | PRODUCT DESCRIPTION",
+              "chemistry": "11 OZ. NET. WT Clear 7079800124 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "serviceTemperature": "Application Temperature: 55\u00b0F to 95\u00b0F | Service Temperature Range: 0\u00b0F to 150\u00b0F | Coverage: Up to 68 sq. ft. per can at 1 gram per sq. ft. on a single | surface. Coverage will vary depending on porosity of",
+              "shelfLife": "Freeze Thaw Stability: Stable | Shelf Life: 18 months | Clean excess wet adhesive from surfaces and tools with mineral spirits. Dried adhesive must be cut or | scraped away. Clean hands with warm water and soap. DO NOT use solvents to remove product from"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 cart\u00f3n | EMPAQUE COLOR UPC | 11 OZ (312 g) PESO NETO Transparente 7079800124 | DESCRIPCI\u00d3N DEL PRODUCTO"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cardboard | PACKAGING COLOR UPC | 11 OZ. NET. WT Clear 7079800124 | PRODUCT DESCRIPTION",
+              "chemistry": "11 OZ. NET. WT Clear 7079800124 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "serviceTemperature": "Application Temperature: 55\u00b0F to 95\u00b0F | Service Temperature Range: 0\u00b0F to 150\u00b0F | Coverage: Up to 68 sq. ft. per can at 1 gram per sq. ft. on a single | surface. Coverage will vary depending on porosity of",
+              "shelfLife": "Freeze Thaw Stability: Stable | Shelf Life: 18 months | Clean excess wet adhesive from surfaces and tools with mineral spirits. Dried adhesive must be cut or | scraped away. Clean hands with warm water and soap. DO NOT use solvents to remove product from"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 cart\u00f3n | EMPAQUE COLOR UPC | 11 OZ (312 g) PESO NETO Transparente 7079800124 | DESCRIPCI\u00d3N DEL PRODUCTO"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3042704English.pdf",
+            "label": "SDS WELDWOOD SPRAY ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3042704Spanish.pdf",
+            "label": "SDS WELDWOOD SPRAY ADHESIVE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3042704English.pdf",
+          "https://images.dap.com/3042704Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-spray-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38425,11 +39333,91 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+          "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19_SP%20rev.pdf",
+          "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+          "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19_SP%20rev.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+            "label": "TDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cured bond resists the effects of heat (up to 180\uf0b0F), Interior/exterior use. | PACKAGING COLOR UPC | Pint Natural 7079825330 | Quart Natural 7079825332",
+              "chemistry": "Gallon Natural 7079825336 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding | time allows extra time between adhesive application and actual surface bonding. Dry time and open time | dependent on temperature and humidity.",
+              "setTime": "contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding | time allows extra time between adhesive application and actual surface bonding. Dry time and open time | dependent on temperature and humidity.",
+              "cureTime": "5. No clamping required. Contact Cement bonds permanently when sufficient pressure is applied | and reaches maximum holding strength in 7 days. | 6. Trimming or finishing operations may be performed immediately after bonding. Allow at least 72 | hours of curing before exposing bonded assemblies to direct sunlight or temperatures over 150",
+              "serviceTemperature": "Application Temperature: 65\u00b0F to 120\u00b0F | Service Temperature Range: -40\u00b0F to 180\u00b0F (-40\u00b0C to 82\u00b0C) | Bond Strength: Excellent | Open Time: 2.5 to 3.0 Hours",
+              "tensileStrength": "4. The temperature of air, adhesive and surfaces should be above 65\u00b0F (18\u00b0C) for a minimum of 24 | hours before and after application to ensure proper drying and bond strength. | Application: | Spray Application: Satisfactory spray results can be achieved with practically any air spray",
+              "solids": "DAP\u00ae WELDWOOD\u00ae Nonflammable Contact Cement | DAP WELDWOOD Nonflammable Contact Cement is a high-solids polychloroprene-based, waterborne | contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding",
+              "shelfLife": "Coverage: Approximately 760 square feet per gallon | Shelf Life: 1 Year, minimum | Odor: Slightly Solvent | Freeze-Thaw Stability: 5 cycles @ 0\u00b0F"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19_SP%20rev.pdf",
+            "label": "TDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 La uni\u00f3n curada resiste los efectos del calor (hasta 180\u00b0F, 82\u00b0C). Uso en Interior/exterior. | EMPAQUE COLOR UPC | Pinta (473 ml) Natural 7079825330 | Cuarto de gal\u00f3n (946 ml) Natural 7079825332"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+            "label": "TDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cured bond resists the effects of heat (up to 180\uf0b0F), Interior/exterior use. | PACKAGING COLOR UPC | Pint Natural 7079825330 | Quart Natural 7079825332",
+              "chemistry": "Gallon Natural 7079825336 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding | time allows extra time between adhesive application and actual surface bonding. Dry time and open time | dependent on temperature and humidity.",
+              "setTime": "contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding | time allows extra time between adhesive application and actual surface bonding. Dry time and open time | dependent on temperature and humidity.",
+              "cureTime": "5. No clamping required. Contact Cement bonds permanently when sufficient pressure is applied | and reaches maximum holding strength in 7 days. | 6. Trimming or finishing operations may be performed immediately after bonding. Allow at least 72 | hours of curing before exposing bonded assemblies to direct sunlight or temperatures over 150",
+              "serviceTemperature": "Application Temperature: 65\u00b0F to 120\u00b0F | Service Temperature Range: -40\u00b0F to 180\u00b0F (-40\u00b0C to 82\u00b0C) | Bond Strength: Excellent | Open Time: 2.5 to 3.0 Hours",
+              "tensileStrength": "4. The temperature of air, adhesive and surfaces should be above 65\u00b0F (18\u00b0C) for a minimum of 24 | hours before and after application to ensure proper drying and bond strength. | Application: | Spray Application: Satisfactory spray results can be achieved with practically any air spray",
+              "solids": "DAP\u00ae WELDWOOD\u00ae Nonflammable Contact Cement | DAP WELDWOOD Nonflammable Contact Cement is a high-solids polychloroprene-based, waterborne | contact adhesive that specifically meets the stringent requirements of the professional user. This versatile | product offers 60-70-minute dry time and 2.5 to 3-hour assembly/working time. The additional bonding",
+              "shelfLife": "Coverage: Approximately 760 square feet per gallon | Shelf Life: 1 Year, minimum | Odor: Slightly Solvent | Freeze-Thaw Stability: 5 cycles @ 0\u00b0F"
+            }
+          },
+          {
+            "url": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19_SP%20rev.pdf",
+            "label": "TDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 La uni\u00f3n curada resiste los efectos del calor (hasta 180\u00b0F, 82\u00b0C). Uso en Interior/exterior. | EMPAQUE COLOR UPC | Pinta (473 ml) Natural 7079825330 | Cuarto de gal\u00f3n (946 ml) Natural 7079825332"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3053401English.pdf",
+            "label": "SDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3053401Spanish.pdf",
+            "label": "SDS WELDWOOD NONFLAMMABLE CONTACT CEMENT Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3053401English.pdf",
+          "https://images.dap.com/3053401Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38505,9 +39493,31 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
+            "label": "DAP\u00ae WELDWOOD\u00ae Original Contact Cement",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "chemicals. Interior/exterior use. | PACKAGING COLOR UPC | Pint Tan 7079800271 | Quart Tan 7079800272",
+              "chemistry": "Gallon Tan 7079800273 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "workLife": "\u2022 Spreads on easily and requires only one coat on most porous and non-porous surfaces. | \u2022 Dries tack free quickly and offers a long open time of up to 2 hours. | \u2022 When pressed together, surfaces bond instantly on contact with high green strength, allowing | immediate use of assembly.",
+              "setTime": "\u2022 Spreads on easily and requires only one coat on most porous and non-porous surfaces. | \u2022 Dries tack free quickly and offers a long open time of up to 2 hours. | \u2022 When pressed together, surfaces bond instantly on contact with high green strength, allowing | immediate use of assembly.",
+              "cureTime": "5. No clamping required. Contact Cement bonds permanently when sufficient pressure is applied | and reaches maximum holding strength in 7 days. | 6. Trimming or finishing operations may be performed immediately after bonding. Allow at least 72 | hours of curing before exposing bonded assemblies to direct sunlight or temperatures over 150",
+              "serviceTemperature": "\u2022 Dries in 15-20 minutes | \u2022 High heat resistance | \u2022 Water resistant when dry | \u2022 Spreads on easily and requires only one coat on most porous and non-porous surfaces.",
+              "tensileStrength": "4. The temperature of air, adhesive and surfaces should be above 65\u00b0F (18\u00b0C) for a minimum of 24 | hours before and after application to ensure proper drying and bond strength. | Application: | Spray Application: Satisfactory spray results can be achieved with practically any air spray",
+              "solids": "Flash Point: 21\u00b0F Minimum, Seta-Close Cup | Solids: 20% by Weight | Weight/Gallon: 7.4lbs/gal | Color: Tan",
+              "shelfLife": "Coverage: Approximately 216 sq. ft/gallon | Shelf Life: 12 months | Odor: Solvent | Freeze-Thaw Stability: Does not freeze (may thicken with cold temperatures,"
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement",
@@ -38585,11 +39595,83 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "tdsUrl": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+          "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120_Spanish.pdf",
+          "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+          "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120_Spanish.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cardboard | PACKAGING COLOR UPC | 14 OZ NET WT. Clear 7079800120 | PRODUCT DESCRIPTION",
+              "chemistry": "14 OZ NET WT. Clear 7079800120 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "Adhesive Base: Synthetic Rubber | Open Time: Up to 30 min | Volatile: Organic solvent | Application Temperature: 55\u00b0F to 95\u00b0F",
+              "serviceTemperature": "Application Temperature: 55\u00b0F to 95\u00b0F | Service Temperature Range: 0\u00b0F to 180\u00b0F | Coverage: Up to 79 sq. ft. per can at 1 gram per sq. ft. on a single | surface. Coverage will vary depending on porosity of",
+              "shelfLife": "Freeze Thaw Stability: Stable | Shelf Life: 18 months | Clean excess wet adhesive from surfaces and tools with mineral spirits. Dried adhesive must cut or | scraped away. Clean hands with warm water and soap. DO NOT use solvents to remove product from"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "cart\u00f3n | EMPAQUE COLOR UPC | PESO NETO 14 OZ (397 g) Transparente 7079800120 | DESCRIPCI\u00d3N DEL PRODUCTO"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Cardboard | PACKAGING COLOR UPC | 14 OZ NET WT. Clear 7079800120 | PRODUCT DESCRIPTION",
+              "chemistry": "14 OZ NET WT. Clear 7079800120 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | SUGGESTED USES",
+              "workLife": "Adhesive Base: Synthetic Rubber | Open Time: Up to 30 min | Volatile: Organic solvent | Application Temperature: 55\u00b0F to 95\u00b0F",
+              "serviceTemperature": "Application Temperature: 55\u00b0F to 95\u00b0F | Service Temperature Range: 0\u00b0F to 180\u00b0F | Coverage: Up to 79 sq. ft. per can at 1 gram per sq. ft. on a single | surface. Coverage will vary depending on porosity of",
+              "shelfLife": "Freeze Thaw Stability: Stable | Shelf Life: 18 months | Clean excess wet adhesive from surfaces and tools with mineral spirits. Dried adhesive must cut or | scraped away. Clean hands with warm water and soap. DO NOT use solvents to remove product from"
+            }
+          },
+          {
+            "url": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120_Spanish.pdf",
+            "label": "ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "cart\u00f3n | EMPAQUE COLOR UPC | PESO NETO 14 OZ (397 g) Transparente 7079800120 | DESCRIPCI\u00d3N DEL PRODUCTO"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3019304English.pdf",
+            "label": "SDS WELDWOOD CONTACT CEMENT SPRAY Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3019304Spanish.pdf",
+            "label": "SDS WELDWOOD CONTACT CEMENT SPRAY Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3019304English.pdf",
+          "https://images.dap.com/3019304Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
         "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
@@ -38672,13 +39754,164 @@
         "tdsDocuments": [
           {
             "url": "https://images.dap.com/ww-wood-glue-tds-final.pdf",
-            "label": "Weldwood Original Wood Glue Technical Data Sheet"
+            "label": "EN",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "strength, long-lasting bond is required | PACKAGING COLOR UPC | 4oz Bottle Yellow 7079800496 | 8oz Bottle Yellow 7079800497",
+              "chemistry": "1 Gallon Bottle Yellow 7079800498 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "viscosity": "Flash Point: < 93.3\u00b0C | Viscosity: 7500cps | Weight/Gal: 8.76 lbs | Appearance: Yellow",
+              "serviceTemperature": "\u2022 All surfaces to be glued must be clean, dry and free of all foreign material. | \u2022 Temperature should be 55\u00b0F or above. Optimum temperature range is 70\u00b0F to 80\u00b0F. | \u2022 Wood requires no special preliminary treatment; however, the most efficient bonds develop when the | wood has been resurfaced just prior to applying glue.",
+              "solids": "Coverage: Approximately 225 sq. ft./gallon | Solids: 44.6% | Non Volatiles: 99% | Flash Point: < 93.3\u00b0C",
+              "shelfLife": "Freeze Thaw Stability: Passes 5 cycles at 0\u00b0F | Shelf Life: 12 months minimum @ 70\u00b0F | Clean up excess wet adhesive with a damp sponge/cloth before it skins over. Excess dried adhesive | must be cut, scraped or sanded away. Clean hands and tools with warm water and soap. Store"
+            }
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3020701English.pdf",
+            "label": "SDS WELDWOOD ORIGINAL WOOD GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3020701Spanish.pdf",
+            "label": "SDS WELDWOOD ORIGINAL WOOD GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3020701English.pdf",
+          "https://images.dap.com/3020701Spanish.pdf"
+        ],
         "productUrl": "https://www.dap.com/products/adhesives/weldwood-original-wood-glue",
-        "sourceLabel": "DAP official product page",
+        "sourceLabel": "DAP adhesives catalog",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-dap-weldwood-professional-wood-glue",
+      "source": "official-manufacturer-lead",
+      "maker": "DAP",
+      "name": "Weldwood Professional Wood Glue",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.dap.com/products/adhesives/weldwood-professional-wood-glue",
+        "tdsUrl": "https://images.dap.com/WW%20Prof%20Wood%20GlueTDS%20Final.pdf",
+        "tdsUrls": [
+          "https://images.dap.com/WW%20Prof%20Wood%20GlueTDS%20Final.pdf",
+          "https://images.dap.com/ww-prof-wood-gluetds-final%20Spanish%20rev%207079800480%207079800481%207079800482%207079800483.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://images.dap.com/WW%20Prof%20Wood%20GlueTDS%20Final.pdf",
+            "label": "TDS WELDWOOD PROFESSIONAL WOOD GLUE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "\u2022 Especially resistant to shock and sharp impact when thoroughly set. | PACKAGING COLOR UPC | 8 oz Bottle Tan 7079800480 | 16 oz Bottle Tan 7079800481",
+              "chemistry": "1 Gallon Bottle Tan 7079800483 | PRODUCT DESCRIPTION | KEY FEATURES & BENEFITS | PERFORMANCE CHARACTERISTICS",
+              "viscosity": "Flash Point: >100\u00b0C | Viscosity: 5500cps (+/- 1100) | Weight/Gal: 9.2 lbs | Appearance: Tan",
+              "serviceTemperature": "\u2022 All surfaces to be glued must be clean, dry and free of all foreign material. | \u2022 Temperature should be 55\u00b0F or above. Optimum temperature range is 70\u00b0F to 80\u00b0F. | \u2022 Wood requires no special preliminary treatment; however, the most efficient bonds develop when the | wood has been resurfaced just prior to applying glue.",
+              "solids": "Coverage: Approximately 225 sq. ft./gallon | Solids: 49% | Non Volatiles: 99% | Flash Point: >100\u00b0C",
+              "shelfLife": "Freeze Thaw Stability: No | Shelf Life: 12 months minimum @ 70\u00b0F | Clean up excess wet adhesive with a damp sponge/cloth before it skins over. Excess dried adhesive | must be cut, scraped or sanded away. Clean hands and tools with warm water and soap. Store container"
+            }
+          },
+          {
+            "url": "https://images.dap.com/ww-prof-wood-gluetds-final%20Spanish%20rev%207079800480%207079800481%207079800482%207079800483.pdf",
+            "label": "TDS WELDWOOD PROFESSIONAL WOOD GLUE Technical Data Sheet Technical Data Sheet EN / ES",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "HOJA DE DATOS T\u00c9CNICOS | EMPAQUE COLOR UPC | Envase de 8 oz (237 ml) Marr\u00f3n claro 7079800480 | Envase de 16 oz (473 ml) Marr\u00f3n claro 7079800481"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "url": "https://images.dap.com/3022304English.pdf",
+            "label": "SDS WELDWOOD PROFESSIONAL WOOD GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          },
+          {
+            "url": "https://images.dap.com/3022304Spanish.pdf",
+            "label": "SDS WELDWOOD PROFESSIONAL WOOD GLUE Safety Data Sheet Safety Data Sheet EN / ES",
+            "documentType": "SDS"
+          }
+        ],
+        "sdsUrls": [
+          "https://images.dap.com/3022304English.pdf",
+          "https://images.dap.com/3022304Spanish.pdf"
+        ],
+        "productUrl": "https://www.dap.com/products/adhesives/weldwood-professional-wood-glue",
+        "sourceLabel": "DAP adhesives catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },

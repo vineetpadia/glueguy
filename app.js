@@ -5689,7 +5689,6 @@ function productSourceLinks(product) {
   return links;
 }
 
-function renderResults() {
 const DETAIL_EVIDENCE_FIELDS = [
   ["Mix ratio", "mixRatio"],
   ["Electrical behavior", "electricalBehavior"],
@@ -5959,7 +5958,7 @@ function openProductDetail(product, match) {
   }
 }
 
-
+function renderResults() {
   appState.renderFrame = 0;
   const filters = collectFilters();
   const candidates = filters.savedOnly

@@ -5273,137 +5273,197 @@ function resetAllFilters() {
   setStressMode("shear");
 }
 
+
 function scoreProduct(product, filters) {
   if (filters.manufacturer !== "any" && product.maker !== filters.manufacturer) return null;
   if (filters.cure !== "any" && product.cureFamily !== filters.cure) return null;
-  if (
-    filters.application !== "any" &&
-    !(product.applicationTags ?? []).includes(filters.application)
-  ) {
-    return null;
+  if (filters.application !== "any" && !(product.applicationTags ?? []).includes(filters.application)) return null;
+
+  const profileFields = new Set(product.profileDerivedFields ?? []);
+  const profileStress = new Set(product.profileDerivedStress ?? []);
+  const profileEnvironment = new Set(product.profileDerivedEnvironment ?? []);
+  const profileSubstrates = new Set(product.profileDerivedSubstrates ?? []);
+  const unverifiedRequirements = new Set();
+  const isRecorded = (field) =>
+    !profileFields.has(field) &&
+    product[field] !== null &&
+    product[field] !== undefined &&
+    (typeof product[field] !== "number" || Number.isFinite(product[field]));
+
+  const requireRecordedThreshold = (field, label, threshold, comparison, active) => {
+    if (!active) return true;
+    if (!isRecorded(field) || !Number.isFinite(product[field])) {
+      unverifiedRequirements.add(label);
+      return true;
+    }
+    return comparison === "min" ? product[field] >= threshold : product[field] <= threshold;
+  };
+  if (!requireRecordedThreshold("potLife", "minimum pot life", filters.minPotLife, "min", filters.minPotLife > 0)) return null;
+  if (!requireRecordedThreshold("fixtureTime", "maximum fixture time", filters.maxFixtureTime, "max", filters.maxFixtureTime < 9999)) return null;
+  if (!requireRecordedThreshold("gapFill", "minimum gap fill", filters.minGapFill, "min", filters.minGapFill > 0)) return null;
+  if (!requireRecordedThreshold("thermalConductivity", "minimum thermal conductivity", filters.minThermalConductivity, "min", filters.minThermalConductivity > 0)) return null;
+  if (!requireRecordedThreshold("lapShear", "minimum lap shear", filters.minLapShear, "min", filters.minLapShear > 0)) return null;
+
+  if (filters.clarity !== "any") {
+    if (profileFields.has("clarity") || !Object.prototype.hasOwnProperty.call(CLARITY_RANK, product.clarity)) {
+      unverifiedRequirements.add(filters.clarity.replace("-", " ") + " clarity");
+    } else if (CLARITY_RANK[product.clarity] < CLARITY_RANK[filters.clarity]) return null;
   }
-  if (filters.minPotLife > product.potLife) return null;
-  if (filters.maxFixtureTime < product.fixtureTime) return null;
-  if (filters.minGapFill > (Number.isFinite(product.gapFill) ? product.gapFill : 0)) return null;
-  if (
-    filters.minThermalConductivity >
-    (Number.isFinite(product.thermalConductivity) ? product.thermalConductivity : 0)
-  ) {
-    return null;
+  if (filters.viscosity.length) {
+    if (profileFields.has("viscosityClass") || !product.viscosityClass) {
+      unverifiedRequirements.add("requested viscosity");
+    } else if (!filters.viscosity.includes(product.viscosityClass)) return null;
   }
-  if (filters.minLapShear > (Number.isFinite(product.lapShear) ? product.lapShear : 0)) return null;
-  if (
-    filters.clarity !== "any" &&
-    CLARITY_RANK[product.clarity] < CLARITY_RANK[filters.clarity]
-  ) {
-    return null;
+  if (filters.thixotropicOnly) {
+    if (profileFields.has("thixotropic") || typeof product.thixotropic !== "boolean") {
+      unverifiedRequirements.add("non-sag behavior");
+    } else if (!product.thixotropic) return null;
   }
-  if (filters.thixotropicOnly && !product.thixotropic) return null;
-  if (filters.viscosity.length && !filters.viscosity.includes(product.viscosityClass)) return null;
   if (
     filters.excludeHazardousSolvents &&
     (product.rawSolventMethod || product.chlorinatedSolvent || product.containsMethyleneChloride || product.containsChloroform)
-  ) {
-    return null;
-  }
+  ) return null;
   if (filters.excludePipeCodeWarnings && product.pipeCodeWarning) return null;
 
   const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
     (material) => material && material !== "any",
   );
-  const substrateScores = selectedMaterials.map((material) => product.substrates[material] ?? 0);
+  selectedMaterials.forEach((material) => {
+    if (profileSubstrates.has(material) || !Number.isFinite(product.substrates?.[material])) {
+      unverifiedRequirements.add(materialLabel(material) + " material affinity");
+    }
+  });
+  const substrateScores = selectedMaterials.map((material) => product.substrates?.[material] ?? 0);
+  const rankingSubstrateScores = selectedMaterials.map((material, index) =>
+    profileSubstrates.has(material) || !Number.isFinite(product.substrates?.[material])
+      ? 6.5
+      : substrateScores[index],
+  );
   const explicitWeakSubstrate = selectedMaterials.some(
     (material) =>
-      !product.profileDerivedSubstrates?.includes(material) &&
-      (product.substrates[material] ?? 0) < 3,
+      !profileSubstrates.has(material) &&
+      Number.isFinite(product.substrates?.[material]) &&
+      product.substrates[material] < 3,
   );
-
   if (selectedMaterials.length && explicitWeakSubstrate) return null;
   if (
     selectedMaterials.length === 2 &&
     !product.profileDerivedIncompatibleMaterialPairs &&
     product.incompatibleMaterialPairs?.length &&
     materialPairListHas(product.incompatibleMaterialPairs, selectedMaterials)
-  ) {
-    return null;
-  }
+  ) return null;
   if (
     selectedMaterials.length === 2 &&
     !product.profileDerivedCompatibleMaterialPairs &&
     product.compatibleMaterialPairs?.length &&
     !materialPairListHas(product.compatibleMaterialPairs, selectedMaterials)
+  ) return null;
+  if (
+    selectedMaterials.length === 2 &&
+    (product.profileDerivedCompatibleMaterialPairs ||
+      product.profileDerivedIncompatibleMaterialPairs ||
+      !product.compatibleMaterialPairs?.length)
   ) {
-    return null;
+    unverifiedRequirements.add(
+      materialLabel(selectedMaterials[0]) + " to " + materialLabel(selectedMaterials[1]) + " joint compatibility",
+    );
   }
 
   const averageSubstrate = selectedMaterials.length
-    ? substrateScores.reduce((sum, value) => sum + value, 0) / selectedMaterials.length
+    ? rankingSubstrateScores.reduce((sum, value) => sum + value, 0) / selectedMaterials.length
     : 6.5;
-  const minimumSubstrate = selectedMaterials.length ? Math.min(...substrateScores) : 6.5;
-
-  const lowTempMiss = Math.max(0, product.serviceMin - filters.coldest);
-  const highTempMiss = Math.max(0, filters.hottest - product.serviceMax);
+  const minimumSubstrate = selectedMaterials.length ? Math.min(...rankingSubstrateScores) : 6.5;
+  const temperatureIsProfileDerived =
+    profileFields.has("serviceMin") || profileFields.has("serviceMax") ||
+    !Number.isFinite(product.serviceMin) || !Number.isFinite(product.serviceMax);
+  if (temperatureIsProfileDerived) unverifiedRequirements.add("service temperature range");
+  const lowTempMiss = temperatureIsProfileDerived ? 0 : Math.max(0, product.serviceMin - filters.coldest);
+  const highTempMiss = temperatureIsProfileDerived ? 0 : Math.max(0, filters.hottest - product.serviceMax);
   const temperaturePenalty = lowTempMiss * 0.7 + highTempMiss * 0.45;
-  const temperatureFit = clamp(12 - temperaturePenalty, -16, 12);
+  const temperatureFit = temperatureIsProfileDerived ? 0 : clamp(12 - temperaturePenalty, -16, 12);
 
-  const environmentValues = filters.environment.map((name) => product.environment[name] ?? 0.35);
+  filters.environment.forEach((name) => {
+    if (profileEnvironment.has(name) || !Number.isFinite(product.environment?.[name])) {
+      unverifiedRequirements.add(ENVIRONMENT_LABELS[name] + " resistance");
+    }
+  });
+  const environmentValues = filters.environment.map((name) =>
+    profileEnvironment.has(name) || !Number.isFinite(product.environment?.[name])
+      ? 0.5
+      : product.environment[name],
+  );
   const environmentAverage = environmentValues.length
     ? environmentValues.reduce((sum, value) => sum + value, 0) / environmentValues.length
     : 0.72;
+  if (profileStress.has(filters.stress) || !Number.isFinite(product.stress?.[filters.stress])) {
+    unverifiedRequirements.add("primary " + STRESS_LABELS[filters.stress] + " performance");
+  }
+  const stressFit =
+    profileStress.has(filters.stress) || !Number.isFinite(product.stress?.[filters.stress])
+      ? 0.5
+      : product.stress[filters.stress];
+  const gapFillIsRecorded = isRecorded("gapFill");
+  const nonSagIsRecorded = isRecorded("thixotropic");
 
   const rawScore =
     averageSubstrate * 5 +
     minimumSubstrate * 2.2 +
-    product.stress[filters.stress] * 4.1 +
+    stressFit * 4.1 +
     environmentAverage * 12 +
     temperatureFit +
-    (product.thixotropic ? 2 : 0) +
-    Math.min(Number.isFinite(product.gapFill) ? product.gapFill : 0, 5);
+    (nonSagIsRecorded && product.thixotropic ? 2 : 0) +
+    (gapFillIsRecorded && Number.isFinite(product.gapFill) ? Math.min(product.gapFill, 5) : 0);
 
   const reasons = [];
   const warnings = [];
-
-  if (selectedMaterials.length === 2 && minimumSubstrate >= 8) {
-    reasons.push(`Strong on ${materialLabel(selectedMaterials[0])} and ${materialLabel(selectedMaterials[1])}.`);
-  } else if (selectedMaterials.length === 1 && averageSubstrate >= 8) {
-    reasons.push(`High affinity for ${materialLabel(selectedMaterials[0])}.`);
+  if (
+    selectedMaterials.length === 2 &&
+    selectedMaterials.every((material) => !profileSubstrates.has(material) && Number.isFinite(product.substrates?.[material])) &&
+    minimumSubstrate >= 8
+  ) {
+    reasons.push("Strong on " + materialLabel(selectedMaterials[0]) + " and " + materialLabel(selectedMaterials[1]) + ".");
+  } else if (
+    selectedMaterials.length === 1 &&
+    !profileSubstrates.has(selectedMaterials[0]) &&
+    Number.isFinite(product.substrates?.[selectedMaterials[0]]) &&
+    averageSubstrate >= 8
+  ) {
+    reasons.push("High affinity for " + materialLabel(selectedMaterials[0]) + ".");
   }
-
   if (
     selectedMaterials.length === 2 &&
     !product.profileDerivedCompatibleMaterialPairs &&
-    product.compatibleMaterialPairs?.length
+    product.compatibleMaterialPairs?.length &&
+    materialPairListHas(product.compatibleMaterialPairs, selectedMaterials)
   ) {
-    reasons.push(
-      `Listed for ${materialLabel(selectedMaterials[0])} to ${materialLabel(selectedMaterials[1])}.`,
-    );
+    reasons.push("Listed for " + materialLabel(selectedMaterials[0]) + " to " + materialLabel(selectedMaterials[1]) + ".");
   }
 
-  const temperatureIsProfileDerived =
-    product.profileDerivedFields?.includes("serviceMin") ||
-    product.profileDerivedFields?.includes("serviceMax");
-  if (temperatureIsProfileDerived) {
-    warnings.push("Temperature range is a chemistry-profile guide; verify this product's TDS.");
-  } else if (temperaturePenalty === 0) {
-    reasons.push(`Product record lists ${formatTemperature(filters.coldest)} to ${formatTemperature(filters.hottest)} service coverage.`);
-  } else {
+  if (!temperatureIsProfileDerived && temperaturePenalty === 0) {
+    reasons.push("Product record lists " + formatTemperature(filters.coldest) + " to " + formatTemperature(filters.hottest) + " service coverage.");
+  } else if (!temperatureIsProfileDerived) {
     warnings.push("Product-record temperature range does not cover the full requested window.");
   }
-
-  if (filters.hottest <= product.serviceMax && product.serviceMax - filters.hottest < 10) {
+  if (
+    !temperatureIsProfileDerived &&
+    filters.hottest <= product.serviceMax &&
+    product.serviceMax - filters.hottest < 10
+  ) {
     warnings.push(
-      `Service temp only ${formatTemperature(product.serviceMax)} (design at ${formatTemperature(filters.hottest)} leaves <10 °C margin).`,
+      "Service temp only " + formatTemperature(product.serviceMax) +
+      " (design at " + formatTemperature(filters.hottest) + " leaves <10 °C margin).",
     );
   }
 
-  if (filters.environment.length && environmentAverage >= 0.76) {
-    const text = filters.environment.map((key) => ENVIRONMENT_LABELS[key]).join(", ");
-    reasons.push(`Comfortable in ${text}.`);
+  const environmentIsFullyRecorded = filters.environment.every(
+    (name) => !profileEnvironment.has(name) && Number.isFinite(product.environment?.[name]),
+  );
+  if (filters.environment.length && environmentIsFullyRecorded && environmentAverage >= 0.76) {
+    reasons.push("Comfortable in " + filters.environment.map((key) => ENVIRONMENT_LABELS[key]).join(", ") + ".");
   }
-
-  if (filters.environment.some((name) => (product.environment[name] ?? 0) < 0.6)) {
-    warnings.push("Selected environment is tougher than this glue prefers.");
-  }
+  if (filters.environment.some(
+    (name) => !profileEnvironment.has(name) && Number.isFinite(product.environment?.[name]) && product.environment[name] < 0.6,
+  )) warnings.push("Selected environment is tougher than this glue prefers.");
   if (product.rawSolventMethod || product.chlorinatedSolvent) {
     warnings.push("Raw or chlorinated solvent method; use industrial controls and SDS procedures.");
   } else if (product.flammable || product.containsMek) {
@@ -5413,47 +5473,49 @@ function scoreProduct(product, filters) {
     warnings.push("Pipe-code-limited product; verify local approval before using it for plumbing transitions.");
   }
 
-  if (filters.thixotropicOnly && product.thixotropic) {
-    reasons.push("Non-sag profile suits vertical joints.");
-  } else if (product.thixotropic && Number.isFinite(product.gapFill) && product.gapFill >= 3) {
-    reasons.push(`Bridges around ${formatGap(product.gapFill)} without slumping.`);
+  if (filters.thixotropicOnly && nonSagIsRecorded && product.thixotropic) {
+    reasons.push("Recorded non-sag behavior suits vertical joints.");
+  } else if (
+    nonSagIsRecorded && gapFillIsRecorded && product.thixotropic &&
+    Number.isFinite(product.gapFill) && product.gapFill >= 3
+  ) {
+    reasons.push("Bridges around " + formatGap(product.gapFill) + " without slumping.");
   }
-
-  if (filters.clarity !== "any" && CLARITY_RANK[product.clarity] >= CLARITY_RANK[filters.clarity]) {
-    reasons.push(`Bond line stays ${product.clarity.replace("-", " ")}.`);
-  }
-
   if (
+    filters.clarity !== "any" &&
+    isRecorded("clarity") &&
+    CLARITY_RANK[product.clarity] >= CLARITY_RANK[filters.clarity]
+  ) reasons.push("Bond line stays " + product.clarity.replace("-", " ") + ".");
+  if (
+    isRecorded("thermalConductivity") &&
     Number.isFinite(product.thermalConductivity) &&
     product.thermalConductivity >= Math.max(1, filters.minThermalConductivity)
+  ) reasons.push("Moves heat at " + formatThermal(product.thermalConductivity) + ".");
+  if (isRecorded("fixtureTime") && product.fixtureTime <= 5) {
+    reasons.push("Fast fixture in " + formatMinutes(product.fixtureTime) + ".");
+  } else if (
+    filters.minPotLife > 0 && isRecorded("potLife") &&
+    product.potLife >= filters.minPotLife
   ) {
-    reasons.push(`Moves heat at ${formatThermal(product.thermalConductivity)}.`);
+    reasons.push("Working time meets minimum at " + formatMinutes(product.potLife) + ".");
   }
-
-  if (product.fixtureTime <= 5) {
-    reasons.push(`Fast fixture in ${formatMinutes(product.fixtureTime)}.`);
-  } else if (filters.minPotLife > 0 && product.potLife >= filters.minPotLife) {
-    reasons.push(`Working time is long enough at ${formatMinutes(product.potLife)}.`);
-  }
-
   if (selectedMaterials.length && minimumSubstrate < 5) {
-    warnings.push("Substrate fit is marginal for at least one side of the joint.");
+    warnings.push("Recorded substrate fit is marginal for at least one side of the joint.");
   }
 
   warnings.push(...product.cautions);
-
   const dedupedWarnings = Array.from(new Set(warnings));
-  if (filters.excludeWarnings && dedupedWarnings.length) return null;
+  const dedupedUnverifiedRequirements = Array.from(unverifiedRequirements);
+  if (filters.excludeWarnings && (dedupedWarnings.length || dedupedUnverifiedRequirements.length)) return null;
 
   return {
     product,
     score: clamp(Math.round(rawScore), 0, 100),
     substrateFit: averageSubstrate,
     minimumSubstrate,
-    materialFits: Object.fromEntries(selectedMaterials.map((material) => [material, product.substrates[material] ?? 0])),
-    materialFitIsProfileDerived: selectedMaterials.filter((material) =>
-      product.profileDerivedSubstrates?.includes(material),
-    ),
+    materialFits: Object.fromEntries(selectedMaterials.map((material) => [material, product.substrates?.[material] ?? 0])),
+    materialFitIsProfileDerived: selectedMaterials.filter((material) => profileSubstrates.has(material)),
+    unverifiedRequirements: dedupedUnverifiedRequirements,
     reasons: reasons.slice(0, 2),
     warnings: dedupedWarnings.slice(0, 2),
   };
@@ -5918,7 +5980,11 @@ function openProductDetail(product, match) {
       anyMaterial.textContent = "No material pair is selected.";
       assessment.append(anyMaterial);
     }
-    const assessmentText = [...(match.reasons ?? []), ...(match.warnings ?? [])];
+    const assessmentText = [
+      ...(match.reasons ?? []),
+      ...(match.unverifiedRequirements ?? []).map((requirement) => "Verify product-specific evidence for " + requirement + "."),
+      ...(match.warnings ?? []),
+    ];
     const uniqueAssessment = dedupeList(assessmentText);
     if (uniqueAssessment.length) {
       const list = document.createElement("ul");
@@ -6066,7 +6132,7 @@ function renderResults() {
         if (Number.isFinite(b) && b > 0 && (!Number.isFinite(a) || a <= 0)) return 1;
         return (a || Infinity) - (b || Infinity);
       }
-      return right.score - left.score || (Number.isFinite(right.product.lapShear) ? right.product.lapShear : 0) - (Number.isFinite(left.product.lapShear) ? left.product.lapShear : 0);
+      return right.score - left.score || (!right.product.profileDerivedFields?.includes("lapShear") && Number.isFinite(right.product.lapShear) ? right.product.lapShear : 0) - (!left.product.profileDerivedFields?.includes("lapShear") && Number.isFinite(left.product.lapShear) ? left.product.lapShear : 0);
     });
 
   const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
@@ -6243,6 +6309,13 @@ function renderResults() {
         warningList.append(item);
       });
       reasonCell.append(warningList);
+    }
+
+    if (match.unverifiedRequirements?.length) {
+      const verify = document.createElement("p");
+      verify.className = "verification-note";
+      verify.textContent = "Verify product-specific evidence for: " + match.unverifiedRequirements.join(", ") + ".";
+      reasonCell.prepend(verify);
     }
 
     const actionCell = document.createElement("td");

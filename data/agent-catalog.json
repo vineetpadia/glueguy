@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T20:47:55.735813+00:00",
+  "generatedAt": "2026-09-23T20:55:23.030651+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,10 +11,10 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1693,
+    "products": 1696,
     "manualTdsProducts": 553,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 712,
+    "officialManufacturerLeads": 715,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -1526,10 +1526,13 @@
         "official-lead-permatex-permatex-power-steering-repair-stop-leak-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-radiator-repair-stop-leak-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-red-cut-gasket-coating-2-oz-80014-woocommerce-variation-price-display-none-important",
+        "official-lead-permatex-permatex-super-glue-2-g",
+        "official-lead-permatex-permatex-super-glue-gel-2-g",
         "official-lead-permatex-permatex-tailpipe-repair-kit-heavy-duty-80336-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-the-right-stuff-rapid-cure-high-strength-removable-threadlocker-orange-10-ml-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-the-right-stuff-rapid-cure-high-strength-threadlocker-red-10-ml-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml-woocommerce-variation-price-display-none-important",
+        "official-lead-permatex-permatex-ultra-bond-super-glue-5-g",
         "official-lead-permatex-power-steering-repair",
         "official-lead-permatex-radiator-repair"
       ],
@@ -7142,7 +7145,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 712,
+      "official-manufacturer-lead": 715,
       "official-tds-url": 286,
       "product-or-catalog-page": 178
     }
@@ -131903,8 +131906,12 @@
               "viscosity": "10,000\u201320,000 mPa\u00b7s at 25\u00b0C.",
               "serviceTemperature": "\u221240\u00b0F to +176\u00b0F (\u221240\u00b0C to +80\u00b0C).",
               "shearStrength": "1,200 PSI.",
-              "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
-            }
+              "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section.",
+              "documentPartNumber": "10500"
+            },
+            "productCodes": [
+              "10500"
+            ]
           }
         ],
         "technicalDocuments": [],
@@ -132791,6 +132798,316 @@
         "sdsUrls": [],
         "productUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml/",
         "sourceLabel": "Permatex adhesives and sealants",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-permatex-permatex-super-glue-gel-2-g",
+      "source": "official-manufacturer-lead",
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Super Glue Gel, 2 g",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/82191.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/tds/82191.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/tds/82191.pdf",
+            "label": "Permatex Super Glue Gel, 2 g Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2019",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "Instant-bonding ethyl cyanoacrylate adhesive in gel form for close-fitting surfaces.",
+              "appearance": "Clear gel; specific gravity 1.05; mild pungent odor.",
+              "setTime": "Fixture time: 15\u201330 seconds.",
+              "cureTime": "Full cure within 2 hours; cures on exposure to moisture.",
+              "serviceTemperature": "Continuous temperature resistance \u221265\u00b0F to +180\u00b0F (\u221254\u00b0C to +82\u00b0C).",
+              "substrates": "Effective on metal, rubber, glass, aluminum, ceramics, vinyl, alloys, many plastics, and other non-porous surfaces; does not bond polyethylene or polypropylene.",
+              "documentPartNumber": "82191"
+            },
+            "productCodes": [
+              "82191"
+            ]
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+        "sourceLabel": "Permatex official product catalog",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-permatex-permatex-super-glue-2-g",
+      "source": "official-manufacturer-lead",
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Super Glue, 2 g",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/82190.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/tds/82190.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/tds/82190.pdf",
+            "label": "Permatex Super Glue, 2 g Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2019",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "One-component, solvent-free, low-viscosity cyanoacrylate instant adhesive; cures at room temperature.",
+              "appearance": "Colorless liquid; specific gravity 1.06.",
+              "viscosity": "20\u201360 cP at 25\u00b0C (Brookfield LVF, spindle 1, 30 rpm).",
+              "setTime": "Fixture time: 5\u201310 seconds on degreased steel, G10 epoxy glass, and aluminum; 40\u201360 seconds on oak.",
+              "lapShear": "Tensile shear: steel 1,800\u20132,400 psi; G10 epoxy glass 2,200\u20132,800 psi; aluminum 1,200\u20131,600 psi; oak 1,100\u20131,600 psi.",
+              "serviceTemperature": "\u221265\u00b0F to +180\u00b0F (\u221253\u00b0C to +82\u00b0C).",
+              "substrates": "Adheres to metals, alloys, plastics, vinyl, rubber, and ceramics; not suitable for untreated polyethylene or polypropylene.",
+              "documentPartNumber": "82190"
+            },
+            "productCodes": [
+              "82190"
+            ]
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+        "sourceLabel": "Permatex official product catalog",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-permatex-permatex-ultra-bond-super-glue-5-g",
+      "source": "official-manufacturer-lead",
+      "maker": "Permatex",
+      "name": "Permatex\u00ae Ultra Bond Super Glue, 5 g",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+        "tdsUrls": [
+          "https://www.permatex.com/wp-content/uploads/tds/21309.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+            "label": "Permatex Ultra Bond Super Glue, 5 g Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2019",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "Ethyl cyanoacrylate; premium, faster-acting cyanoacrylate super glue for porous and non-porous materials.",
+              "appearance": "Clear, colorless liquid; specific gravity 1.10; viscosity 110 cP.",
+              "setTime": "Fixture time: 15\u201330 seconds.",
+              "cureTime": "Full cure within 2 hours; cures on exposure to moisture.",
+              "serviceTemperature": "\u221265\u00b0F to +180\u00b0F.",
+              "substrates": "Metal, most plastics, laminated plastics, vinyl, rubber, ceramics, paper, wood, textiles, leather, synthetic leather, cork, and chipboard; does not bond polyethylene or polypropylene.",
+              "documentPartNumber": "21309"
+            },
+            "productCodes": [
+              "21309"
+            ]
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
+        "sourceLabel": "Permatex official product catalog",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },

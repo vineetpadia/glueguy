@@ -2,9 +2,9 @@
   "generated_at": "2026-09-23T20:06:44.417417+00:00",
   "stats": {
     "manufacturersConfigured": 38,
-    "discoveredEntries": 997,
-    "tdsDocumentsDiscovered": 39,
-    "tdsDocumentsLinked": 617,
+    "discoveredEntries": 1000,
+    "tdsDocumentsDiscovered": 42,
+    "tdsDocumentsLinked": 620,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -170,9 +170,9 @@
       "productsWithSds": 0
     },
     "Permatex": {
-      "productLeads": 18,
-      "productsWithTds": 1,
-      "tdsDocuments": 1,
+      "productLeads": 21,
+      "productsWithTds": 4,
+      "tdsDocuments": 4,
       "productsWithSds": 0
     },
     "Pidilite": {
@@ -11519,14 +11519,19 @@
             "viscosity": "10,000–20,000 mPa·s at 25°C.",
             "serviceTemperature": "−40°F to +176°F (−40°C to +80°C).",
             "shearStrength": "1,200 PSI.",
-            "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section."
-          }
+            "cureTime": "TDS states handling after 15 minutes; it does not specify a full-cure time in the extracted section.",
+            "documentPartNumber": "10500"
+          },
+          "productCodes": [
+            "10500"
+          ]
         }
       ],
       "priority": "high",
       "officialDomains": [
         "permatex.com"
-      ]
+      ],
+      "manufacturerPartNumber": "10500"
     },
     {
       "maker": "Permatex",
@@ -19611,6 +19616,109 @@
       ],
       "productCode": "PT-44",
       "tdsDocuments": []
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex® Super Glue, 2 g",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+      "kind": "product",
+      "sourceLabel": "Permatex official product catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/tds/82190.pdf",
+          "label": "Permatex Super Glue, 2 g Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2019",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "One-component, solvent-free, low-viscosity cyanoacrylate instant adhesive; cures at room temperature.",
+            "appearance": "Colorless liquid; specific gravity 1.06.",
+            "viscosity": "20–60 cP at 25°C (Brookfield LVF, spindle 1, 30 rpm).",
+            "setTime": "Fixture time: 5–10 seconds on degreased steel, G10 epoxy glass, and aluminum; 40–60 seconds on oak.",
+            "lapShear": "Tensile shear: steel 1,800–2,400 psi; G10 epoxy glass 2,200–2,800 psi; aluminum 1,200–1,600 psi; oak 1,100–1,600 psi.",
+            "serviceTemperature": "−65°F to +180°F (−53°C to +82°C).",
+            "substrates": "Adheres to metals, alloys, plastics, vinyl, rubber, and ceramics; not suitable for untreated polyethylene or polypropylene.",
+            "documentPartNumber": "82190"
+          },
+          "productCodes": [
+            "82190"
+          ]
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "manufacturerPartNumber": "82190"
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex® Super Glue Gel, 2 g",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+      "kind": "product",
+      "sourceLabel": "Permatex official product catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/tds/82191.pdf",
+          "label": "Permatex Super Glue Gel, 2 g Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2019",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "Instant-bonding ethyl cyanoacrylate adhesive in gel form for close-fitting surfaces.",
+            "appearance": "Clear gel; specific gravity 1.05; mild pungent odor.",
+            "setTime": "Fixture time: 15–30 seconds.",
+            "cureTime": "Full cure within 2 hours; cures on exposure to moisture.",
+            "serviceTemperature": "Continuous temperature resistance −65°F to +180°F (−54°C to +82°C).",
+            "substrates": "Effective on metal, rubber, glass, aluminum, ceramics, vinyl, alloys, many plastics, and other non-porous surfaces; does not bond polyethylene or polypropylene.",
+            "documentPartNumber": "82191"
+          },
+          "productCodes": [
+            "82191"
+          ]
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "manufacturerPartNumber": "82191"
+    },
+    {
+      "maker": "Permatex",
+      "name": "Permatex® Ultra Bond Super Glue, 5 g",
+      "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
+      "kind": "product",
+      "sourceLabel": "Permatex official product catalog",
+      "tdsDocuments": [
+        {
+          "url": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+          "label": "Permatex Ultra Bond Super Glue, 5 g Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2019",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "Ethyl cyanoacrylate; premium, faster-acting cyanoacrylate super glue for porous and non-porous materials.",
+            "appearance": "Clear, colorless liquid; specific gravity 1.10; viscosity 110 cP.",
+            "setTime": "Fixture time: 15–30 seconds.",
+            "cureTime": "Full cure within 2 hours; cures on exposure to moisture.",
+            "serviceTemperature": "−65°F to +180°F.",
+            "substrates": "Metal, most plastics, laminated plastics, vinyl, rubber, ceramics, paper, wood, textiles, leather, synthetic leather, cork, and chipboard; does not bond polyethylene or polypropylene.",
+            "documentPartNumber": "21309"
+          },
+          "productCodes": [
+            "21309"
+          ]
+        }
+      ],
+      "priority": "high",
+      "officialDomains": [
+        "permatex.com"
+      ],
+      "manufacturerPartNumber": "21309"
     }
   ]
 }

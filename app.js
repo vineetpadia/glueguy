@@ -5193,13 +5193,13 @@ function repopulateCatalogFilters() {
     : "any";
 }
 
-const NON_MANUFACTURER_LABEL = /^(?:acoustical sealants|acrylic plastic|adhesives with ten mixing sticks|aflas fluoroelastomer|anchoring adhesive kits for concrete|asphalt|bentonite\\/petrolatum|buna-n|calcium carbonate|cartridge|each|epdm rubber|epoxy|epoxy resin|fabric|fluoroelastomer|guns|latex|pail|polyether|polymer|polyurethane|silicone|viton fluoroelastomer|other (?:conductive|hot glue|instant-bond|retaining compounds|threadlockers)|high (?:locking strength|purity instant-bond)|medium (?:locking strength|soft)|low-odor epoxy structural|low-outgassing silicone sealants|flame-retardant high-temperature gasket makers|fatigue-resistant instant-bond|optically clear light-activated instant-bond)$/i;
+const NON_MANUFACTURER_LABEL = /^(?:acoustical sealants|acrylic plastic|adhesives with ten mixing sticks|aflas fluoroelastomer|anchoring adhesive kits for concrete|asphalt|bentonite\/petrolatum|buna-n|calcium carbonate|cartridge|each|epdm rubber|epoxy|epoxy resin|fabric|fluoroelastomer|guns|latex|pail|polyether|polymer|polyurethane|silicone|viton fluoroelastomer|other (?:conductive|hot glue|instant-bond|retaining compounds|threadlockers)|high (?:locking strength|purity instant-bond)|medium (?:locking strength|soft)|low-odor epoxy structural|low-outgassing silicone sealants|flame-retardant high-temperature gasket makers|fatigue-resistant instant-bond|optically clear light-activated instant-bond)$/i;
 
 function isManufacturerLabel(value) {
   const label = String(value ?? "").trim();
   if (!label || label.length > 48 || NON_MANUFACTURER_LABEL.test(label)) return false;
-  if (/\\b\\d+(?:\\.\\d+)?\\s*(?:fl\\.?\\s*oz|oz|ml|g|kg|gallon|qt|pail)\\b/i.test(label)) return false;
-  if (/^(?:apply|degrease|transfer|position|glue hardens)\\b/i.test(label) || /[.!?]/.test(label)) return false;
+  if (/\b\d+(?:\.\d+)?\s*(?:fl\.?\s*oz|oz|ml|g|kg|gallon|qt|pail)\b/i.test(label)) return false;
+  if (/^(?:apply|degrease|transfer|position|glue hardens)\b/i.test(label) || /[.!?]/.test(label)) return false;
   return true;
 }
 

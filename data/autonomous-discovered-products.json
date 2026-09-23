@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T06:09:16.046305+00:00",
+  "generated_at": "2026-09-23T06:54:44.436446+00:00",
   "stats": {
-    "manufacturersConfigured": 22,
-    "discoveredEntries": 635,
-    "tdsDocumentsDiscovered": 58,
-    "tdsDocumentsLinked": 83,
-    "previousEntriesPreserved": 94,
+    "manufacturersConfigured": 28,
+    "discoveredEntries": 794,
+    "tdsDocumentsDiscovered": 60,
+    "tdsDocumentsLinked": 85,
+    "previousEntriesPreserved": 104,
     "previousTdsEntriesPreserved": 8
   },
   "manufacturers": [
@@ -123,6 +123,23 @@
       ]
     },
     {
+      "name": "Fevicol",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ],
+      "discoveredEntries": 23,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Fevicol official product sitemap",
+          "url": "https://fevicol.in/wp-sitemap-posts-product-1.xml",
+          "matchedUrls": 23,
+          "discoveredEntries": 23
+        }
+      ]
+    },
+    {
       "name": "Gorilla",
       "priority": "high",
       "officialDomains": [
@@ -147,14 +164,31 @@
         "loctiteproducts.com",
         "henkel-adhesives.com"
       ],
-      "discoveredEntries": 10,
+      "discoveredEntries": 0,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
           "label": "Loctite consumer products index",
           "url": "https://www.loctiteproducts.com/products.html",
           "matchedUrls": 12,
-          "discoveredEntries": 10
+          "discoveredEntries": 0
+        }
+      ]
+    },
+    {
+      "name": "Krazy Glue",
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ],
+      "discoveredEntries": 9,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Krazy Glue official products catalog",
+          "url": "https://krazyglue.com/collections/all",
+          "matchedUrls": 18,
+          "discoveredEntries": 9
         }
       ]
     },
@@ -212,6 +246,45 @@
       ]
     },
     {
+      "name": "Pattex",
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ],
+      "discoveredEntries": 41,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Pattex official Alleskleber und Reparaturkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Alleskleber+und+Reparaturkleber&teaser.sort=recent#results",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        },
+        {
+          "label": "Pattex official Montagekleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Montagekleber&teaser.sort=recent#results",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        },
+        {
+          "label": "Pattex official Holz- & Kontaktkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Holz-+%26+Kontaktkleber&teaser.sort=recent#results",
+          "matchedUrls": 6,
+          "discoveredEntries": 5
+        },
+        {
+          "label": "Pattex official Sekundenkleber products",
+          "url": "https://www.pattex.de/products.html?teaser.pimCategory=Sekundenkleber&teaser.sort=recent#results",
+          "matchedUrls": 12,
+          "discoveredEntries": 12
+        }
+      ]
+    },
+    {
       "name": "Permabond",
       "priority": "high",
       "officialDomains": [
@@ -248,6 +321,40 @@
           "url": "https://www.permatex.com/products/",
           "matchedUrls": 80,
           "discoveredEntries": 38
+        }
+      ]
+    },
+    {
+      "name": "Pidilite",
+      "priority": "high",
+      "officialDomains": [
+        "pidilite.com"
+      ],
+      "discoveredEntries": 3,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
+          "url": "https://www.pidilite.com/sitemap.xml",
+          "matchedUrls": 3,
+          "discoveredEntries": 3
+        }
+      ]
+    },
+    {
+      "name": "Selleys",
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ],
+      "discoveredEntries": 46,
+      "tdsDocumentsDiscovered": 0,
+      "sources": [
+        {
+          "label": "Selleys official adhesives sitemap",
+          "url": "https://www.selleys.com.au/xmlsitemap/",
+          "matchedUrls": 46,
+          "discoveredEntries": 46
         }
       ]
     },
@@ -309,15 +416,14 @@
       "officialDomains": [
         "aleenes.com"
       ],
-      "discoveredEntries": 0,
+      "discoveredEntries": 34,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
-          "label": "Aleene's adhesives",
-          "url": "https://aleenes.com/collections/adhesives",
-          "matchedUrls": 0,
-          "discoveredEntries": 0,
-          "error": "HTTPError: 404 Client Error: Not Found for url: https://aleenes.com/collections/adhesives"
+          "label": "Aleene's glue and adhesives catalog",
+          "url": "https://aleenes.com/collections/glue-adhesives",
+          "matchedUrls": 35,
+          "discoveredEntries": 34
         }
       ]
     },
@@ -373,6 +479,27 @@
       ]
     },
     {
+      "name": "Pritt",
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ],
+      "discoveredEntries": 3,
+      "tdsDocumentsDiscovered": 2,
+      "sources": [
+        {
+          "label": "Pritt official product sitemap",
+          "url": "https://www.prittworld.co.uk/en.sitemap-index.xml",
+          "matchedUrls": 10,
+          "discoveredEntries": 10
+        }
+      ]
+    },
+    {
       "name": "ThreeBond",
       "priority": "medium",
       "officialDomains": [
@@ -411,7 +538,7 @@
   "entries": [
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Composite Urethane Adhesive 6301NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Composite Urethane Adhesive 6301NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -423,7 +550,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -435,7 +562,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -447,7 +574,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -459,7 +586,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -471,7 +598,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000300196/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -483,7 +610,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147517/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -495,7 +622,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147516/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -507,7 +634,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive 2216 Gray",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive 2216 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -519,7 +646,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100LH",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP100LH",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -531,7 +658,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100LH Plus",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP100LH Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -543,7 +670,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP100 Plus",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP100 Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -555,7 +682,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP125 Gray",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP125 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -567,7 +694,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -579,7 +706,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -591,7 +718,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -603,7 +730,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-2615 B/A",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive EC-2615 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -615,7 +742,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-2792 B/A",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive EC-2792 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -627,7 +754,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-3542 B/A FR",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive EC-3542 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -639,7 +766,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Adhesive EC-9370 B/A FST",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Adhesive EC-9370 B/A FST",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -651,7 +778,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -663,7 +790,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Flexible Acrylic Adhesive DP8610NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Flexible Acrylic Adhesive DP8610NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -675,7 +802,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Instant Adhesive CA8",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Instant Adhesive CA8",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -687,7 +814,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -699,7 +826,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP810 Black",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Low Odor Acrylic Adhesive DP810 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -711,7 +838,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP8725NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Low Odor Acrylic Adhesive DP8725NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -723,7 +850,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Acrylic Adhesive DP8825NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Low Odor Acrylic Adhesive DP8825NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -735,7 +862,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -747,7 +874,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -759,7 +886,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Polyurethane Adhesive DP6605NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Polyurethane Adhesive DP6605NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -771,7 +898,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 PUR Adhesive TS230 Off-White",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ PUR Adhesive TS230 Off-White",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -783,7 +910,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 PUR Easy Adhesive EZ250150",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ PUR Easy Adhesive EZ250150",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -795,7 +922,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Adhesive EC-7236 B/A",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Structural Adhesive EC-7236 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -807,7 +934,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Adhesive EW2060HF",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Structural Adhesive EW2060HF",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -819,7 +946,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Structural Plastic Adhesive DP8005 Black",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Structural Plastic Adhesive DP8005 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -831,7 +958,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Super Fast Instant Adhesive SF100",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Super Fast Instant Adhesive SF100",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -843,7 +970,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -855,7 +982,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -867,7 +994,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Urethane Adhesive DP620NS",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Urethane Adhesive DP620NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -879,7 +1006,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 Scotch-Weld\u00e2\u201e\u00a2 Void Filling Compound EC-3515 B/A FR",
+      "name": "3Mâ„¢ Scotch-Weldâ„¢ Void Filling Compound EC-3515 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -891,7 +1018,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 VHB\u00e2\u201e\u00a2 Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
+      "name": "3Mâ„¢ VHBâ„¢ Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000198088/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -903,7 +1030,7 @@
     },
     {
       "maker": "3M",
-      "name": "3M\u00e2\u201e\u00a2 VHB\u00e2\u201e\u00a2 Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "name": "3Mâ„¢ VHBâ„¢ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -915,11 +1042,107 @@
     },
     {
       "maker": "Aleene's",
+      "name": "Aleene's Always Ready Original Tacky Glue 4 fl. oz. $4.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes%C2%AE-always-ready-original-tacky-glue-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Always Ready Quick Dry Tacky Glue 4 fl. oz. $3.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-always-ready-quick-dry-tacky-glue-4-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Always Ready Turbo Tacky Glue 4 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-always-ready-turbo-tacky-glue-4-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
       "name": "Aleene's Clear Gel Tacky Glue",
       "officialUrl": "https://aleenes.com/products/aleenes-clear-gel-tacky-glue-4-fl-oz",
       "kind": "product",
       "sourceLabel": "Aleene's official product information",
       "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Clear Gel Tacky Glue 8 fl. oz. 3 Pack $18.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-clear-gel-tacky-glue-8-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Clear Gel Tacky Glue Pens 2 Pack $7.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-clear-gel-tacky-glue-pens-2-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's DIY Craft Heavy-Duty Adhesive 4 fl. oz. $10.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-diy-craft-heavy-duty-adhesive-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's DIY Craft Super Glue Gel .07 oz. 2 Pack $6.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-diy-craft-super-glue-gel-07-oz-2-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's DIY Craft Super Glue Liquid .07 oz. 2 Pack $4.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-diy-craft-super-glue-liquid-07-oz-2-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
       "officialDomains": [
         "aleenes.com"
       ]
@@ -937,11 +1160,203 @@
     },
     {
       "maker": "Aleene's",
+      "name": "Aleene's Fast Grab Tacky Glue 8 fl. oz. $7.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-fast-grab-tacky-glue-8-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Felt & Foam Tacky Glue 4 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-felt-foam-tacky-glue-4-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Jewel-It Embellishing Glue 4 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-jewel-it-embellishing-glue-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Mixed Media Adhesive 1.5 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-mixed-media-adhesive-1-5-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Clear Gel Tacky Glue 8 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-clear-gel-tacky-glue-8-fl-oz-1",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
       "name": "Aleene's Original Tacky Glue",
       "officialUrl": "https://aleenes.com/products/aleenes-original-tacky-glue-16-fl-oz",
       "kind": "product",
       "sourceLabel": "Aleene's official product information",
       "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 128 fl. oz. $46.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-128-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 16 fl. oz. 3 Pack $19.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 16 fl. oz. $6.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-16-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 2 fl. oz. 6 Pack $9.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-2-fl-oz-6-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 3 fl. oz. Tube $3.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-3-fl-oz-tube",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue® 4 fl. oz. 3 Pack $6.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue%C2%AE-4-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 4 fl. oz. $4.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 8 fl. oz. 3 Pack $13.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-8-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue 8 fl. oz. $5.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-8-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue® Mini Tacky 2/3 oz. 18-Pc. Set $17.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes%C2%AE-original-tacky-glue%C2%AE-mini-tacky-2-3-oz-18-pc-set",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Original Tacky Glue Sticks 2 Pack $2.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-original-tacky-glue-sticks-2-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
       "officialDomains": [
         "aleenes.com"
       ]
@@ -959,11 +1374,131 @@
     },
     {
       "maker": "Aleene's",
+      "name": "Aleene's Quick Dry Tacky Glue 4 fl. oz. 3 Pack $9.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-quick-dry-tacky-glue-4-fl-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Rapid Dry Mixed-Media Adhesive 1.5 fl. oz. $7.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-rapid-dry-mixed-media-adhesive-1-5-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Rhinestone Adhesive 4 fl. oz. $9.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-rhinestone-adhesive-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
       "name": "Aleene's Super Thick Tacky Glue",
       "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-super-thick-tacky-glue-4-fl-oz-1",
       "kind": "product",
       "sourceLabel": "Aleene's official product information",
       "priority": "high",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Tack-It Over & Over Repositionable Adhesive 16 fl. oz. Jar $16.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-tack-it-over-over-repositionable-adhesive-16-fl-oz-jar",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Tack-It Over & Over Repositionable Adhesive 4 fl. oz. $7.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-tack-it-over-over-repositionable-adhesive-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Aleene's Tacky Dot Runner $3.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/aleenes-tacky-dot-runner",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Liquid Fusion Performance Adhesive 2 fl. oz. $7.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/liquid-fusion-performance-adhesive-2-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Liquid Fusion Performance Adhesive 4 oz. 3 Pack $29.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/liquid-fusion-performance-adhesive-4-oz-3-pack",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Liquid Fusion Performance Adhesive Heavy Duty Glue 4 fl. oz. $10.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/liquid-fusion-performance-adhesive-heavy-duty-glue-4-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "aleenes.com"
+      ]
+    },
+    {
+      "maker": "Aleene's",
+      "name": "Liquid Fusion Performance Adhesive Heavy Duty Glue 8 fl. oz. $16.99",
+      "officialUrl": "https://aleenes.com/collections/glue-adhesives/products/liquid-fusion-performance-adhesive-heavy-duty-glue-8-fl-oz",
+      "kind": "product",
+      "sourceLabel": "Aleene's glue and adhesives catalog",
+      "tdsDocuments": [],
+      "priority": "medium",
       "officialDomains": [
         "aleenes.com"
       ]
@@ -1094,7 +1629,7 @@
     },
     {
       "maker": "Bostik",
-      "name": "Blu Tack\u00ae",
+      "name": "Blu Tack®",
       "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
       "kind": "product",
       "sourceLabel": "Bostik Create craft adhesives",
@@ -1112,7 +1647,7 @@
     },
     {
       "maker": "Bostik",
-      "name": "BLU TACK\u00ae GREY",
+      "name": "BLU TACK® GREY",
       "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
       "kind": "product",
       "sourceLabel": "Bostik Create craft adhesives",
@@ -1130,7 +1665,7 @@
     },
     {
       "maker": "Bostik",
-      "name": "BLU TACK\u00ae PINK",
+      "name": "BLU TACK® PINK",
       "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
       "kind": "product",
       "sourceLabel": "Bostik Create craft adhesives",
@@ -1148,7 +1683,7 @@
     },
     {
       "maker": "Bostik",
-      "name": "BLU TACK\u00ae WHITE",
+      "name": "BLU TACK® WHITE",
       "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
       "kind": "product",
       "sourceLabel": "Bostik Create craft adhesives",
@@ -1414,7 +1949,7 @@
         },
         {
           "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
-          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u2013 REV 3 (English)"
+          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS – REV 3 (English)"
         }
       ],
       "priority": "medium",
@@ -1746,7 +2281,7 @@
         },
         {
           "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
-          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u2013 REV 3 (English)"
+          "label": "E6000 Industrial Clr_Blk US CAN MEX TDS – REV 3 (English)"
         }
       ],
       "priority": "high",
@@ -2151,6 +2686,282 @@
       "priority": "high",
       "officialDomains": [
         "elmers.com"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol 707 FW",
+      "officialUrl": "https://fevicol.in/product/fevicol-707-fw/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-707-fw/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol 998 FW",
+      "officialUrl": "https://fevicol.in/product/fevicol-998-fw/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-998-fw/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol BWP",
+      "officialUrl": "https://fevicol.in/product/fevicol-bwp/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-bwp/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol EZEE Spray",
+      "officialUrl": "https://fevicol.in/product/fevicol-ezee-spray/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-ezee-spray/fevicol-ezee-spray/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Fast Tack",
+      "officialUrl": "https://fevicol.in/product/fevicol-fast-tack/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-fast-tack/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Floorfix",
+      "officialUrl": "https://fevicol.in/product/fevicol-floorfix/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-floorfix/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Heatx",
+      "officialUrl": "https://fevicol.in/product/fevicol-heatx/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol HI PER",
+      "officialUrl": "https://fevicol.in/product/fevicol-hi-per/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-hi-per/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Hotmelt 382",
+      "officialUrl": "https://fevicol.in/product/fevicol-hotmelt-382/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-hotmelt-382/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Hotmelt AMT Transparent",
+      "officialUrl": "https://fevicol.in/product/fevicol-hotmelt-amt-transparent/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-hotmelt-amt-transparent/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Hotmelt MNL Transparent",
+      "officialUrl": "https://fevicol.in/product/fevicol-hotmelt-mnl-transparent/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-hotmelt-mnl-transparent/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Marine",
+      "officialUrl": "https://fevicol.in/product/fevicol-marine/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Marinekoat",
+      "officialUrl": "https://fevicol.in/product/fevicol-marinekoat/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-marinekoat/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Membrane Press LC",
+      "officialUrl": "https://fevicol.in/product/fevicol-membrane-press-lc/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-membrane-press-lc/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Membrane Press STAR 2K",
+      "officialUrl": "https://fevicol.in/product/fevicol-membrane-press-star-2k/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-membrane-press-star-2k/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Pl111",
+      "officialUrl": "https://fevicol.in/product/fevicol-pl111/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-pl111/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Pl222",
+      "officialUrl": "https://fevicol.in/product/fevicol-pl222/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-pl222/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Probond",
+      "officialUrl": "https://fevicol.in/product/fevicol-probond/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-probond/fevicol-probond/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol SH",
+      "officialUrl": "https://fevicol.in/product/fevicol-sh/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-sh/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol Speedx",
+      "officialUrl": "https://fevicol.in/product/fevicol-speedx/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-speedx/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol SR 505",
+      "officialUrl": "https://fevicol.in/product/fevicol-sr-505/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-sr-505/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol SWR",
+      "officialUrl": "https://fevicol.in/product/fevicol-swr/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-swr/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
+      ]
+    },
+    {
+      "maker": "Fevicol",
+      "name": "Fevicol SWR EQ",
+      "officialUrl": "https://fevicol.in/product/fevicol-swr-eq/",
+      "kind": "product",
+      "sourceLabel": "Fevicol official product sitemap",
+      "tdsDiscoveryError": "HTTPError: 404 Client Error: Not Found for url: https://fevicol.in/product/fevicol-swr-eq/",
+      "priority": "high",
+      "officialDomains": [
+        "fevicol.in"
       ]
     },
     {
@@ -2591,7 +3402,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "ClearWeld\u2122 Professional Size 8 oz",
+      "name": "ClearWeld™ Professional Size 8 oz",
       "officialUrl": "https://www.jbweld.com/product/clearweld-pro-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2603,7 +3414,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "ClearWeld\u00e2\u201e\u00a2 Syringe - 25 ml",
+      "name": "ClearWeldâ„¢ Syringe - 25 ml",
       "officialUrl": "https://www.jbweld.com/product/clearweld-syringe",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2614,7 +3425,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld\u2122 Professional Size 10 oz",
+      "name": "J-B Weld™ Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2626,7 +3437,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "J-B Weld\u2122 Twin Tube - 2 oz",
+      "name": "J-B Weld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2638,7 +3449,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld\u2122 Professional Size 10 oz",
+      "name": "KwikWeld™ Professional Size 10 oz",
       "officialUrl": "https://www.jbweld.com/product/j-b-kwik-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2650,7 +3461,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "KwikWeld\u2122 Twin Tube - 2 oz",
+      "name": "KwikWeld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/kwikweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2662,7 +3473,7 @@
     },
     {
       "maker": "J-B Weld",
-      "name": "MarineWeld\u2122 Twin Tube - 2 oz",
+      "name": "MarineWeld™ Twin Tube - 2 oz",
       "officialUrl": "https://www.jbweld.com/product/marineweld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
@@ -2670,6 +3481,114 @@
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "All Purpose Gel Glue",
+      "officialUrl": "https://krazyglue.com/products/all-purpose-gel",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "All Purpose Liquid Glue",
+      "officialUrl": "https://krazyglue.com/products/all-purpose-liquid",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Color Change Liquid Glue",
+      "officialUrl": "https://krazyglue.com/products/color-change-liquid",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Craft Formula Gel Glue",
+      "officialUrl": "https://krazyglue.com/products/craft-gel",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Craft Formula Liquid Glue",
+      "officialUrl": "https://krazyglue.com/products/craft-liquid",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Home & Office Gel Glue",
+      "officialUrl": "https://krazyglue.com/products/home-office-gel-glue",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Home & Office Liquid Glue",
+      "officialUrl": "https://krazyglue.com/products/home-office-liquid",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Krazy Fix Clear",
+      "officialUrl": "https://krazyglue.com/products/krazy-fix-clear",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
+      ]
+    },
+    {
+      "maker": "Krazy Glue",
+      "name": "Krazy Fix Fast",
+      "officialUrl": "https://krazyglue.com/products/krazy-fix-fast",
+      "kind": "product",
+      "sourceLabel": "Krazy Glue official products catalog",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "krazyglue.com"
       ]
     },
     {
@@ -3299,6 +4218,662 @@
       "officialDomains": [
         "plaidonline.com",
         "help.plaidonline.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX 2K-Kleber Füll Mix",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-2k-kleber-fll-mix/SAP_0201OIP03R62.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX 60 sec. Universalkleber",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-60-sec-universalkleber/SAP_0201OFP03UJ1.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, KraftMix Extrem Fest",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-kraftmix-extrem-fest/SAP_0201OIP03BBB.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, KraftMix Extrem Fest Tuben",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-kraftmix-extrem-fest-tuben/SAP_0201OIP03KC6.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, KraftMix Extrem Schnell",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-kraftmix-extrem-schnell/SAP_0201OIP03EK5.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, KraftMix Extrem Schnell Tube",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-kraftmix-extrem-schnell-tube/SAP_0201OIP03KC5.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, Repair Express Power Knete",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-repair-express-power-knete/SAP_0201OGP03CCD.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Alleskleber, Repair Express Power Knete Metall",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-alleskleber-repair-express-power-knete-metall/SAP_0201OGP03FA4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kleben statt Bohren Fix & Ab",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kleben-statt-bohren-fix-ab/SAP_0201C2P03BAH.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kleben statt Bohren Schwere Gegenstände",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kleben-statt-bohren-schwere-gegenstnde/SAP_0201C2P03CAA.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kraftkleber Classic",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-classic/SAP_0201FSP03EI1.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kraftkleber Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-gel/SAP_0201FSP03162.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kraftkleber, Lösemittelfrei",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-lsemittelfrei/SAP_0201FSP03083.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Kraftkleber Transparent",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-kraftkleber-transparent/SAP_0201FSP03FP9.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber All Materials",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-all-materials/SAP_0201CVP03BAT.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber DK Flex 1000",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-dk-flex-1000/SAP_0201CSP03LC7.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Express",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-express/SAP_0201CGP03EI4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber High Tack",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-high-tack/SAP_0201CGP03CAA.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Holz",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-holz/SAP_0201CGP03BAO.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Kleben statt Bohren Express",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-kleben-statt-bohren-express/SAP_0201C2P03EI4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Kleben statt Bohren Innen & Außen",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-kleben-statt-bohren-innen-auen/SAP_0201C2P03BAX.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Kleben statt Bohren Kristallklar",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-kleben-statt-bohren-kristallklar/SAP_0201C2P03Y22.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montagekleber Kleben statt Bohren Strong & Easy",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montagekleber-kleben-statt-bohren-strong-easy/SAP_0201C2P03CAY.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Montage Stein",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-montage-stein/SAP_0201CGP03WQX.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Montagekleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Multi - Repair Liquid Water-based",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-multi-repair-liquid-water-based/SAP_0201ONP03M60.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Repair 100% Alleskleber",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-repair-100-alleskleber/SAP_0201OHP039L3.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Repair Extreme",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-repair-extreme/SAP_0201OFP03X70.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, 100%",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-100/SAP_0201DGP039L4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Control Flüssig",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-control-flssig/SAP_0201DCP039M0.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Control Ultra Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-control-ultra-gel/SAP_0201DGP03215.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Creative Pen",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-creative-pen/SAP_0201DEP039L8.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Flüssig",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-flssig/SAP_0201DCP03CAY.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Für Jedes Plastik",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-fr-jedes-plastik/SAP_0201DFP03FP4.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Glas",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-glas/SAP_0201DFP03CAO.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Mini Trio flüssig",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-mini-trio-flssig/SAP_0201DIP039M1.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Power Easy Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-power-easy-gel/SAP_0201DEP039L9.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber, Präzision flüssig",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-przision-flssig/SAP_0201DCP03Z77.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Ultra Gel",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-ultra-gel/SAP_0201DGP039L6.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sekundenkleber Upcycling-Set",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sekundenkleber-upcycling-set/SAP_0201DCP03FW5.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Sekundenkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Spezialkleber Textil",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-spezialkleber-textil/SAP_0201OHP03KC1.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Alleskleber und Reparaturkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pattex",
+      "name": "PATTEX Sprühkleber Power Spray permanent",
+      "officialUrl": "https://www.pattex.de/products/central-pdp.html/pattex-sprhkleber-power-spray-permanent/SAP_0201FUP03132.html",
+      "kind": "product",
+      "sourceLabel": "Pattex official Holz- & Kontaktkleber products",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pattex.de",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
       ]
     },
     {
@@ -4821,7 +6396,7 @@
     },
     {
       "maker": "Permabond",
-      "name": "Permabond 105 \u2013 Cyanoacrylate Adhesive",
+      "name": "Permabond 105 – Cyanoacrylate Adhesive",
       "officialUrl": "https://permabond.com/products/permabond-105/",
       "kind": "product",
       "sourceLabel": "Permabond product sitemap",
@@ -5548,7 +7123,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae 5 Minute Epoxy 10500 6ml .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® 5 Minute Epoxy 10500 6ml .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5560,7 +7135,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex\u00ae Black Cut Gasket Coating, 2 oz, 80012 .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex® Black Cut Gasket Coating, 2 oz, 80012 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/gasketing/permatex-black-cut-gasket-coating-2-oz-80012/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5572,7 +7147,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Black Super Weatherstrip Adhesive 81852 (2 OZ) .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Black Super Weatherstrip Adhesive 81852 (2 OZ) .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/weatherstrip/permatex-black-super-weatherstrip-adhesive-81852-2-oz/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5584,7 +7159,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex\u00ae Grey Cut Gasket Coating, 2 oz, 80013 .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex® Grey Cut Gasket Coating, 2 oz, 80013 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/gasketing/permatex-grey-cut-gasket-coating-2-oz-80013/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5596,7 +7171,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Head Gasket Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Head Gasket Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/autozone/permatex-head-gasket-repair-stop-leak-available-at-autozone/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5608,7 +7183,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Home Fiberglass, Porcelain & Plastic Repair Kit 90217 .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Home Fiberglass, Porcelain & Plastic Repair Kit 90217 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/home/permatex-home-fiberglass-porcelain-plastic-repair-kit-90217/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5620,7 +7195,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Muffler Repair Kit \u2013 Heavy Duty \u2013 High Temperature .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Muffler Repair Kit – Heavy Duty – High Temperature .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/specialized-maintenance-repair/permatex-muffler-repair-kit-heavy-duty-high-temperature/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5632,7 +7207,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Plastic Emblem & Trim Adhesive 2 oz .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Plastic Emblem & Trim Adhesive 2 oz .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/adhesives-and-sealants/specialty-adhesives-removers/permatex-plastic-emblem-trim-adhesive-2-oz/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5644,7 +7219,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Power Steering Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Power Steering Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/autozone/permatex-power-steering-repair-stop-leak-2/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5656,7 +7231,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Radiator Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Radiator Repair Stop Leak .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/autozone/permatex-radiator-repair-stop-leak-2/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5668,7 +7243,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex\u00ae Red Cut Gasket Coating, 2 oz, 80014 .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex® Red Cut Gasket Coating, 2 oz, 80014 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/gasketing/permatex-red-cut-gasket-coating-2-oz-80014/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5680,7 +7255,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae Tailpipe Repair Kit: Heavy Duty 80336 .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® Tailpipe Repair Kit: Heavy Duty 80336 .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/specialized-maintenance-repair/permatex-tailpipe-repair-kit-heavy-duty-80336/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5692,7 +7267,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure High Strength Removable Threadlocker Orange, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® The Right Stuff ® Rapid Cure High Strength Removable Threadlocker Orange, 10 ML .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/advance/permatex-the-right-stuff-rapid-cure-high-strength-removable-threadlocker-orange-10-ml/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5704,7 +7279,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure High Strength Threadlocker Red, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® The Right Stuff ® Rapid Cure High Strength Threadlocker Red, 10 ML .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/thread-compounds/red-threadlockers/permatex-the-right-stuff-rapid-cure-high-strength-threadlocker-red-10-ml/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5716,7 +7291,7 @@
     },
     {
       "maker": "Permatex",
-      "name": "Permatex \u00ae The Right Stuff \u00ae Rapid Cure Medium Strength Threadlocker Blue, 10 ML .woocommerce-variation-price{ display: none !important;}",
+      "name": "Permatex ® The Right Stuff ® Rapid Cure Medium Strength Threadlocker Blue, 10 ML .woocommerce-variation-price{ display: none !important;}",
       "officialUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml/",
       "kind": "product",
       "sourceLabel": "Permatex adhesives and sealants",
@@ -5751,6 +7326,652 @@
       ]
     },
     {
+      "maker": "Pidilite",
+      "name": "Fevistik & Fevicol MR",
+      "officialUrl": "https://www.pidilite.com/consumer-brands/fevistik-and-fevicolmr",
+      "kind": "family",
+      "sourceLabel": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pidilite.com"
+      ]
+    },
+    {
+      "maker": "Pidilite",
+      "name": "Fevikwik",
+      "officialUrl": "https://www.pidilite.com/consumer-brands/fevikwik",
+      "kind": "family",
+      "sourceLabel": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pidilite.com"
+      ]
+    },
+    {
+      "maker": "Pidilite",
+      "name": "Araldite",
+      "officialUrl": "https://www.pidilite.com/consumer-brands/araldite",
+      "kind": "family",
+      "sourceLabel": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "pidilite.com"
+      ]
+    },
+    {
+      "maker": "Pritt",
+      "name": "PRITT Glue Pads",
+      "officialUrl": "https://www.prittworld.co.uk/products/central-pdp.html/pritt-glue-pads/SAP_0201BGP20K14.html",
+      "kind": "product",
+      "sourceLabel": "Pritt official product sitemap",
+      "tdsDocuments": [
+        {
+          "label": "Pritt Multi Tac Technical Data Sheet (en_GB)",
+          "url": "https://datasheets.tdx.henkel.com/PRITT-Glue-Pads-Multi-Tack-en_GB.pdf"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pritt",
+      "name": "PRITT Glue stick",
+      "officialUrl": "https://www.prittworld.co.uk/products/central-pdp.html/pritt-glue-stick/SAP_0201BAP20126.html",
+      "kind": "product",
+      "sourceLabel": "Pritt official product sitemap",
+      "tdsDocuments": [
+        {
+          "label": "Pritt Stick Technical Data Sheet (en_GB)",
+          "url": "https://datasheets.tdx.henkel.com/PRITT-Glue-Stick-en_GB.pdf"
+        }
+      ],
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Pritt",
+      "name": "PRITT Multipurpose Glue",
+      "officialUrl": "https://www.prittworld.co.uk/products/central-pdp.html/pritt-multipurpose-glue/SAP_0201BSP20BO6.html",
+      "kind": "product",
+      "sourceLabel": "Pritt official product sitemap",
+      "tdsDocuments": [],
+      "priority": "medium",
+      "officialDomains": [
+        "prittworld.co.uk",
+        "henkel.com",
+        "henkel-dam.com",
+        "datasheets.tdx.henkel.com",
+        "dm.henkel-dam.com"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "All Plastics",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/specialist-glue/all-plastics/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Aquadhere Durabond",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-durabond/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Aquadhere Exterior",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-exterior/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Aquadhere Interior",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-interior/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Aquadhere Quick Set",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-quick-set/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Araldite Extra Time Epoxy Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/epoxy-glue/araldite-extra-time-epoxy-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Araldite Rapid Epoxy Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/epoxy-glue/araldite-rapid-epoxy-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Araldite Super Strong Epoxy Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/epoxy-glue/araldite-super-strong-epoxy-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Easy Tack",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/other-glues/easy-tack/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Adjustable Gel",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/fix-go-adjustable-gel/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Araldite 5 Minute Epoxy Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/epoxy-glue/fix-go-araldite-5-minute/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Brush On Super Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/fix-go-brush-on-super-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go High Precision Bottle Super Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/fix-go-high-precision-bottle-super-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Multi Grip",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/all-purpose-glues/fix-go-multi-grip/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go No More Mess Super Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/fix-go-no-more-mess-super-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Shoe Repair",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/specialist-glue/fix-go-shoe-repair/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Fix & Go Super Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/fix-go-super-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Hold Up",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/hold-up/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Kwik Grip Crystal Clear",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-crystal-clear/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Kwik Grip High Temp Spray Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-high-temp-spray/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Kwik Grip Horizontal",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-horizontal/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Kwik Grip Spray Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-spray/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Kwik Grip Vertical Gel",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-vertical-gel/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Clear",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-clear/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Construction Adhesive",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-construction-adhesive/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Exterior",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-exterior/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Extreme Grab",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-extreme-grab/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Fast Grab",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-fast-grab/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Flex",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-flex/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Heavy Duty",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-heavy-duty/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Landscape",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-landscape/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Mirror & Metal",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-mirror-metal/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Liquid Nails Rapid Cure",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-rapid-cure/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Marine Flex",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/specialist-glue/marine-flex/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Power Grip",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/all-purpose-glues/power-grip/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Pro Trade Construction Adhesive Fast Grip",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/pro-trade-construction-adhesive-fast-grip/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Pro Trade Construction Adhesive Multipurpose",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/pro-trade-construction-adhesive-multipurpose/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Selleys Araldite Ultimate Bond",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/epoxy-glue/selleys-araldite-ultimate-bond/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Selleys Shoe Fix",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/specialist-glue/selleys-shoe-fix/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Specialist Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/specialist-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue Adjustable Gel",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-adjustable-gel/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue Adjustable Gel Single Shot 4x1g Pack",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-adjustable-gel-single-shot-4x1g-pack/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue High Precision",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-high-precision/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue Single Shot 5x1mL Pack",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-single-shot-5x1ml-pack/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "Super Glue Stand-up",
+      "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-stand-up/",
+      "kind": "product",
+      "sourceLabel": "Selleys official adhesives sitemap",
+      "tdsDocuments": [],
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ]
+    },
+    {
       "maker": "Sika",
       "name": "Multipurpose Adhesive and Sealant",
       "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-415.html",
@@ -5764,7 +7985,7 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex\u00ae-11 FC",
+      "name": "New Sikaflex®-11 FC",
       "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-11fc.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -5776,7 +7997,7 @@
     },
     {
       "maker": "Sika",
-      "name": "New Sikaflex\u00ae PRO-3 Purform\u00ae",
+      "name": "New Sikaflex® PRO-3 Purform®",
       "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -5800,7 +8021,7 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikadur\u00ae Crack Repair Kit",
+      "name": "Sikadur® Crack Repair Kit",
       "officialUrl": "https://www.sika.com/en/brands/sikadur-crack-repair-kit.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -5812,7 +8033,7 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex\u00ae PRO-3 Purform\u00ae PowerCure",
+      "name": "Sikaflex® PRO-3 Purform® PowerCure",
       "officialUrl": "https://www.sika.com/en/brands/purform-construction/sikaflex-pro-3-purform-powercure.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -5824,7 +8045,7 @@
     },
     {
       "maker": "Sika",
-      "name": "Sikaflex\u00ae - The Leading Brand for Sealants and Adhesives",
+      "name": "Sikaflex® - The Leading Brand for Sealants and Adhesives",
       "officialUrl": "https://www.sika.com/en/brands/sikaflex.html",
       "kind": "product",
       "sourceLabel": "Sika brand sitemap",
@@ -5836,7 +8057,7 @@
     },
     {
       "maker": "Starbond",
-      "name": "Hobby & Craft Brush-On Super Glue \u2014 Specialty Foam-Safe, Low-Odor Formula for Models (10g)",
+      "name": "Hobby & Craft Brush-On Super Glue — Specialty Foam-Safe, Low-Odor Formula for Models (10g)",
       "officialUrl": "https://starbond.com/products/hobby-craft-super-glue-brush-on-precision-applicator",
       "kind": "product",
       "sourceLabel": "Starbond CA glue collection",
@@ -5848,7 +8069,7 @@
     },
     {
       "maker": "Starbond",
-      "name": "Hobby & Craft Specialty No-Drip Super Glue Gel \u2014 Foam-Safe, Low-Odor Formula for Models (3 \u00d7 5g)",
+      "name": "Hobby & Craft Specialty No-Drip Super Glue Gel — Foam-Safe, Low-Odor Formula for Models (3 × 5g)",
       "officialUrl": "https://starbond.com/products/hobby-craft-premium-superglue-gel",
       "kind": "product",
       "sourceLabel": "Starbond CA glue collection",

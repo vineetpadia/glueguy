@@ -786,6 +786,17 @@ const OBSERVED_TDS_FIELDS = [
   "containsMek",
   "vocFree",
   "pipeCodeWarning",
+  "fixtureTimeNote",
+  "viscosityNote",
+  "testPiece",
+  "testCondition",
+  "testMethod",
+  "testTemperature",
+  "testSubstrate",
+  "testSurfacePrep",
+  "testDwellTime",
+  "testBondlineThickness",
+  "recommendedBondLineMm",
 ];
 
 const PROFILE_LIBRARY = {
@@ -6556,7 +6567,7 @@ function attachEvents() {
 
 async function loadSelectorCatalog() {
   try {
-    const response = await fetch("./data/selector-catalog.json", { cache: "force-cache" });
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

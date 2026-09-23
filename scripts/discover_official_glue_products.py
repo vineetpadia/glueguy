@@ -85,7 +85,10 @@ def fetch_text(
                     if total >= 262144:
                         break
                 return "".join(chunks)
-            return response.text
+            text = response.text
+            if "\ufffd" in text and response.apparent_encoding:
+                text = response.content.decode(response.apparent_encoding, errors="replace")
+            return text
         except Exception as exc:  # noqa: BLE001
             last_error = exc
             if response is not None and getattr(response, "status_code", None) not in RETRY_STATUSES:
@@ -413,17 +416,31 @@ def extract_3m_adhesives_category(source: dict, manufacturer: dict) -> list[dict
     return entries
 
 
+def product_url_identity(value: str | None) -> tuple[str, str] | None:
+    if not value:
+        return None
+    parsed = urlparse(value)
+    if not parsed.hostname:
+        return None
+    path = parsed.path.rstrip("/") or "/"
+    return parsed.hostname.lower(), path
+
+
 def dedupe_entries(entries: list[dict]) -> list[dict]:
     deduped: list[dict] = []
-    seen: set[tuple[str, str]] = set()
+    seen_names: set[tuple[str, str]] = set()
+    seen_urls: set[tuple[str, str]] = set()
     for entry in entries:
         name = entry.get("name")
         if not name:
             continue
-        key = (normalize_text(entry["maker"]), normalize_text(name))
-        if key in seen:
+        key = (normalize_text(entry.get("maker")), normalize_text(name))
+        url_key = product_url_identity(entry.get("officialUrl"))
+        if key in seen_names or (url_key and url_key in seen_urls):
             continue
-        seen.add(key)
+        seen_names.add(key)
+        if url_key:
+            seen_urls.add(url_key)
         deduped.append(entry)
     return deduped
 
@@ -436,6 +453,11 @@ def discover() -> dict:
         (normalize_text(entry.get("maker")), normalize_text(entry.get("name"))): entry
         for entry in previous_entries
         if entry.get("maker") and entry.get("name") and entry.get("tdsDocuments")
+    }
+    previous_tds_by_url = {
+        product_url_identity(entry.get("officialUrl")): entry
+        for entry in previous_entries
+        if entry.get("officialUrl") and entry.get("tdsDocuments")
     }
     discovered: list[dict] = []
     manufacturers_summary = []
@@ -571,7 +593,9 @@ def discover() -> dict:
                 time.sleep(float(tds_source.get("tdsRequestIntervalSeconds", 0.15)))
         for entry in deduped:
             key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
-            previous_entry = previous_tds.get(key)
+            previous_entry = previous_tds.get(key) or previous_tds_by_url.get(
+                product_url_identity(entry.get("officialUrl"))
+            )
             if previous_entry:
                 documents = [
                     *entry.get("tdsDocuments", []),
@@ -599,17 +623,39 @@ def discover() -> dict:
             }
         )
 
-    discovered_keys = {
-        (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
+    discovered_by_key = {
+        (normalize_text(entry.get("maker")), normalize_text(entry.get("name"))): entry
         for entry in discovered
     }
+    discovered_by_url = {
+        product_url_identity(entry.get("officialUrl")): entry
+        for entry in discovered
+        if entry.get("officialUrl")
+    }
+    preserved_previous_entries = 0
     preserved_tds_entries = 0
     for entry in previous_entries:
         key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
-        if entry.get("tdsDocuments") and key not in discovered_keys:
+        url_key = product_url_identity(entry.get("officialUrl"))
+        current = discovered_by_key.get(key) or (discovered_by_url.get(url_key) if url_key else None)
+        if current is None:
             discovered.append(entry)
-            discovered_keys.add(key)
-            preserved_tds_entries += 1
+            discovered_by_key[key] = entry
+            if url_key:
+                discovered_by_url[url_key] = entry
+            preserved_previous_entries += 1
+            if entry.get("tdsDocuments"):
+                preserved_tds_entries += 1
+            continue
+        if entry.get("tdsDocuments"):
+            documents = [*current.get("tdsDocuments", []), *entry["tdsDocuments"]]
+            seen_documents = set()
+            current["tdsDocuments"] = []
+            for document in documents:
+                document_url = document.get("url")
+                if document_url and document_url not in seen_documents:
+                    seen_documents.add(document_url)
+                    current["tdsDocuments"].append(document)
 
     discovered.sort(key=lambda entry: (normalize_text(entry["maker"]), normalize_text(entry["name"])))
     return {
@@ -619,6 +665,7 @@ def discover() -> dict:
             "discoveredEntries": len(discovered),
             "tdsDocumentsDiscovered": sum(item.get("tdsDocumentsDiscovered", 0) for item in manufacturers_summary),
             "tdsDocumentsLinked": sum(len(entry.get("tdsDocuments", [])) for entry in discovered),
+            "previousEntriesPreserved": preserved_previous_entries,
             "previousTdsEntriesPreserved": preserved_tds_entries,
         },
         "manufacturers": manufacturers_summary,

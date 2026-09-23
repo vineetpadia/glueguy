@@ -6312,6 +6312,11 @@ function renderResults() {
     .filter(Boolean)
     .filter((match) => !query || [match.product.name, match.product.maker, match.product.chemistry, match.product.cureFamily, ...(match.product.applicationTags ?? [])].filter(Boolean).join(" ").toLocaleLowerCase().includes(query))
     .sort((left, right) => {
+      if (resultsSort?.value === "evidence") {
+        const leftGaps = left.unverifiedRequirements?.length ?? 0;
+        const rightGaps = right.unverifiedRequirements?.length ?? 0;
+        if (leftGaps !== rightGaps) return leftGaps - rightGaps;
+      }
       if (resultsSort?.value === "name") return left.product.name.localeCompare(right.product.name);
       if (resultsSort?.value === "price") {
         const a = left.product.pricing?.unitPrice, b = right.product.pricing?.unitPrice;

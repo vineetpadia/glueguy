@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T17:00:00.686259+00:00",
+  "generatedAt": "2026-09-23T17:05:06.968760+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1684,
-    "manualTdsProducts": 538,
+    "products": 1686,
+    "manualTdsProducts": 540,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 718,
     "productsWithExtractionCandidates": 0,
@@ -69,6 +69,7 @@
         "3m-ca5",
         "3m-ca50-gel",
         "3m-dp8810ns",
+        "3m-hi-strength-90-spray-aerosol",
         "3m-high-temperature-masking-liquid-2538uv",
         "3m-hot-melt-3748-q",
         "3m-hot-melt-3797tc",
@@ -99,6 +100,7 @@
         "3m-scotchcast-2131-flame-retardant-resin",
         "3m-scotchcast-3570g-n",
         "3m-scotchkote-323-liquid-epoxy-coating",
+        "3m-super-77-low-voc-aerosol",
         "3m-tc2707",
         "3m-tc2810",
         "3m-thermal-bonding-film-583",
@@ -2520,6 +2522,7 @@
         "dow-sylgard-577"
       ],
       "construction": [
+        "3m-hi-strength-90-spray-aerosol",
         "digiwave-dga6129",
         "liquid-nails-ln150",
         "liquid-nails-ln2000",
@@ -2634,6 +2637,7 @@
         "3m-scotch-weld-dp600-dp600ns-urethane"
       ],
       "contact-adhesive": [
+        "3m-hi-strength-90-spray-aerosol",
         "3m-neoprene-rubber-gasket-adhesive-1300-1300l"
       ],
       "contact-lamination": [
@@ -2680,6 +2684,9 @@
         "weldon-4052",
         "weldon-714-cpvc",
         "weldon-724-cpvc-industrial"
+      ],
+      "craft": [
+        "3m-super-77-low-voc-aerosol"
       ],
       "craft-layout": [
         "3m-scotch-spray-mount-6065"
@@ -3186,6 +3193,9 @@
         "titebond-ii-premium",
         "titebond-iii-ultimate"
       ],
+      "fabric-bonding": [
+        "3m-super-77-low-voc-aerosol"
+      ],
       "fast-cure": [
         "weldon-16-dcm-tce-free"
       ],
@@ -3381,6 +3391,9 @@
       ],
       "fluorescent-detection": [
         "threebond-tb1386h"
+      ],
+      "foam-bonding": [
+        "3m-super-77-low-voc-aerosol"
       ],
       "foam-safe": [
         "bsi-super-gold"
@@ -3794,6 +3807,7 @@
         "threebond-tb2273e"
       ],
       "industrial-adhesive": [
+        "3m-hi-strength-90-spray-aerosol",
         "3m-scotch-weld-dp100-lh",
         "3m-scotch-weld-dp100-plus-clear"
       ],
@@ -4105,6 +4119,9 @@
         "threebond-tb3166",
         "threebond-tb3732"
       ],
+      "insulation-bonding": [
+        "3m-super-77-low-voc-aerosol"
+      ],
       "interior-exterior": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
         "dap-dynaflex-230",
@@ -4135,6 +4152,9 @@
       ],
       "laboratory": [
         "micro-measurements-m-bond-200-mmf006570"
+      ],
+      "laminate-bonding": [
+        "3m-hi-strength-90-spray-aerosol"
       ],
       "lamination": [
         "penchem-gl163-structural-epoxy",
@@ -4305,6 +4325,7 @@
         "threebond-tb7782"
       ],
       "low-voc": [
+        "3m-super-77-low-voc-aerosol",
         "christys-red-hot-blue-glue-low-voc",
         "dap-3-0-advanced-window-door-siding-trim-sealant",
         "oatey-clear-pvc-medium-bodied",
@@ -4913,6 +4934,7 @@
         "3m-vhb-4950"
       ],
       "paper-bonding": [
+        "3m-super-77-low-voc-aerosol",
         "threebond-tb7721a",
         "threebond-tb7789a"
       ],
@@ -6073,6 +6095,10 @@
       "spot-weld-joint": [
         "threebond-tb3351c"
       ],
+      "spray-adhesive": [
+        "3m-hi-strength-90-spray-aerosol",
+        "3m-super-77-low-voc-aerosol"
+      ],
       "spray-coating": [
         "gardner-bender-lts-400"
       ],
@@ -6941,6 +6967,7 @@
         "gardner-bender-lts-400"
       ],
       "wood-bonding": [
+        "3m-hi-strength-90-spray-aerosol",
         "cemedine-ep330",
         "permabond-et5143",
         "permabond-et5364",
@@ -7012,7 +7039,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 718,
-      "official-tds-url": 271,
+      "official-tds-url": 273,
       "product-or-catalog-page": 178
     }
   },
@@ -9889,9 +9916,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40069454/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+            "label": "3M Hi-Strength 90 Spray Adhesive (Aerosol) Technical Data Sheet"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b40069454/",
@@ -14426,9 +14460,16 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v101943161/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+            "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v101943161/",
@@ -18088,6 +18129,99 @@
         "This is a fiberglass/polyester repair resin, not an electronics adhesive or structural aerospace composite resin.",
         "Use fiberglass cloth or mat reinforcement for holes and gaps in fiberglass or metal; resin alone is also described as a concrete or wood sealer for small areas.",
         "Do not use on walking surfaces when used as a sealer because the cured product will be slippery."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-hi-strength-90-spray-aerosol",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Hi-Strength 90 Spray Adhesive (Aerosol)",
+      "profile": "sprayAdhesive",
+      "summary": "Fast, high-strength contact spray adhesive for HPL, wood, decorative laminates, particleboard and selected rubber/plastic substrates.",
+      "applicationTags": [
+        "spray-adhesive",
+        "contact-adhesive",
+        "construction",
+        "laminate-bonding",
+        "wood-bonding",
+        "industrial-adhesive"
+      ],
+      "referenceCategory": "3M spray adhesives",
+      "referenceForJoining": "HPL, wood, decorative laminates, particleboard and the specific compatible materials listed in the TDS.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+        "cureFamily": "Solvent-evaporating contact spray adhesive",
+        "cureDetail": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1\u201310 min bonding range; actual timing depends on ambient conditions and applied coverage.",
+        "clarity": "translucent"
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.182,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.182,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "thermalConductivity",
+          "stress",
+          "substrates"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, thermalConductivity, stress, substrates",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "TDS data is typical only and should not be used as a specification.",
+        "SAFT is 100 C using birch plywood, 1 in overlap, 100 g load and a stepped temperature ramp; this is not a lap-shear strength value.",
+        "TDS reports flammable solvent and propellant."
       ],
       "extractionCandidates": []
     },
@@ -22002,6 +22136,100 @@
         "This is a corrosion-protection coating; it should not be ranked as a structural adhesive by lap-shear strength.",
         "Surface preparation is central: near-white abrasive blast, 2.0-4.0 mil anchor profile, and application within four hours of blasting are specified for pipe coating use.",
         "The metal must be above 5 C and at least 3 C above dew point during application."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-super-77-low-voc-aerosol",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Super 77 Spray Adhesive Low VOC",
+      "profile": "sprayAdhesive",
+      "summary": "Industrial-grade high-tack, fast-drying low-VOC mist spray adhesive for insulation, paper, foils, cardboard, fabric, foam and wood.",
+      "applicationTags": [
+        "spray-adhesive",
+        "low-voc",
+        "craft",
+        "paper-bonding",
+        "fabric-bonding",
+        "foam-bonding",
+        "insulation-bonding"
+      ],
+      "referenceCategory": "3M spray adhesives",
+      "referenceForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+        "cureFamily": "Solvent-evaporating contact spray adhesive",
+        "cureDetail": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s\u201330 min bonding range; timing varies with ambient temperature, humidity and coverage.",
+        "clarity": "translucent"
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.182,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.182,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "thermalConductivity",
+          "stress",
+          "substrates"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, thermalConductivity, stress, substrates",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "This is explicitly a preliminary TDS based on a limited number of production runs; 3M says it may issue a new sheet if results change.",
+        "Typical properties are not specification values.",
+        "SAFT is 77 C using birch plywood and a stepped temperature ramp; this is not a lap-shear strength value."
       ],
       "extractionCandidates": []
     },

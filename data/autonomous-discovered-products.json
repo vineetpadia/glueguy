@@ -4,7 +4,7 @@
     "manufacturersConfigured": 38,
     "discoveredEntries": 995,
     "tdsDocumentsDiscovered": 129,
-    "tdsDocumentsLinked": 189,
+    "tdsDocumentsLinked": 191,
     "technicalDocumentsLinked": 34,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 33,
@@ -826,8 +826,8 @@
   "documentCoverageByManufacturer": {
     "3M": {
       "productLeads": 47,
-      "productsWithTds": 5,
-      "tdsDocuments": 5,
+      "productsWithTds": 7,
+      "tdsDocuments": 7,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -1070,6 +1070,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+          "label": "3M Hi-Strength 90 Spray Adhesive (Aerosol) Technical Data Sheet"
+        }
       ]
     },
     {
@@ -1604,6 +1610,12 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+          "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
+        }
       ]
     },
     {

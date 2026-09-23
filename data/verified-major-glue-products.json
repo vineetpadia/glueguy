@@ -350,6 +350,32 @@
           "label": "3M Scotch-Weld DP100 Plus Clear Technical Data Sheet"
         }
       ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M Hi-Strength 90 Spray Adhesive",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069454/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+          "label": "3M Hi-Strength 90 Spray Adhesive (Aerosol) Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M Super 77 Multipurpose Spray Adhesive Low VOC",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101943161/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+          "label": "3M Super 77 Spray Adhesive Low VOC Technical Data Sheet (Preliminary)"
+        }
+      ]
     }
   ]
 }

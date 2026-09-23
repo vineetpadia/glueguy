@@ -57357,6 +57357,93 @@
       "referenceSampleType": "Two-part Duo-Pak epoxy",
       "referenceSampleConsistency": "Mix ratio 1:1 by volume; 1:0.98 by weight.",
       "referenceForJoining": "Bonding metals and compatible rigid or flexible substrates according to the exact product TDS"
+    },
+    {
+      "id": "3m-hi-strength-90-spray-aerosol",
+      "profile": "sprayAdhesive",
+      "maker": "3M",
+      "name": "Hi-Strength 90 Spray Adhesive (Aerosol)",
+      "summary": "Fast, high-strength contact spray adhesive for HPL, wood, decorative laminates, particleboard and selected rubber/plastic substrates.",
+      "sourceRevisionDate": "3M Hi-Strength 90 Spray Adhesive (Aerosol) TDS, April 2025",
+      "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+      "cureFamily": "Solvent-evaporating contact spray adhesive",
+      "cureDetail": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1–10 min bonding range; actual timing depends on ambient conditions and applied coverage.",
+      "solidsContentPct": 13,
+      "dryTimeSeconds": 60,
+      "bondingRangeMinutes": [
+        1,
+        10
+      ],
+      "coverageSqFtPerCan": 24,
+      "saftC": 100,
+      "densityKgPerL": 0.72,
+      "clarity": "translucent",
+      "applicationTags": [
+        "spray-adhesive",
+        "contact-adhesive",
+        "construction",
+        "laminate-bonding",
+        "wood-bonding",
+        "industrial-adhesive"
+      ],
+      "cautions": [
+        "TDS data is typical only and should not be used as a specification.",
+        "SAFT is 100 C using birch plywood, 1 in overlap, 100 g load and a stepped temperature ramp; this is not a lap-shear strength value.",
+        "TDS reports flammable solvent and propellant.",
+        "TDS calls out HPL to wood, decorative laminates, particleboard, polyethylene, polypropylene and SBR rubber."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2366580O/3m-hi-strength-90-spray-adhesive-aerosol.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/b40069454/"
+      ],
+      "referenceCategory": "3M spray adhesives",
+      "referenceSampleType": "Aerosol spray adhesive",
+      "referenceSampleConsistency": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1–10 min bonding range; actual timing depends on ambient conditions and applied coverage.",
+      "referenceForJoining": "HPL, wood, decorative laminates, particleboard and the specific compatible materials listed in the TDS."
+    },
+    {
+      "id": "3m-super-77-low-voc-aerosol",
+      "profile": "sprayAdhesive",
+      "maker": "3M",
+      "name": "Super 77 Spray Adhesive Low VOC",
+      "summary": "Industrial-grade high-tack, fast-drying low-VOC mist spray adhesive for insulation, paper, foils, cardboard, fabric, foam and wood.",
+      "sourceRevisionDate": "3M Super 77 Spray Adhesive Low VOC TDS, May 2026 (Preliminary)",
+      "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
+      "cureFamily": "Solvent-evaporating contact spray adhesive",
+      "cureDetail": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
+      "solidsContentPct": 23.2,
+      "dryTimeSeconds": 60,
+      "bondingRangeMinutes": [
+        0.5,
+        30
+      ],
+      "coverageSqFtPerCan": 47.3,
+      "saftC": 77,
+      "densityKgPerL": 0.87,
+      "clarity": "translucent",
+      "applicationTags": [
+        "spray-adhesive",
+        "low-voc",
+        "craft",
+        "paper-bonding",
+        "fabric-bonding",
+        "foam-bonding",
+        "insulation-bonding"
+      ],
+      "cautions": [
+        "This is explicitly a preliminary TDS based on a limited number of production runs; 3M says it may issue a new sheet if results change.",
+        "Typical properties are not specification values.",
+        "SAFT is 77 C using birch plywood and a stepped temperature ramp; this is not a lap-shear strength value.",
+        "TDS warns flammable solvent and propellant; 3M labels the product industrial/occupational use."
+      ],
+      "referenceUrl": "https://multimedia.3m.com/mws/media/2796995O/preliminary-3m-super-77-spray-adhesive-low-voc.pdf?fn=Preliminary-3M-Super-77-Spray-Adhesive-Low-VOC.pdf",
+      "supportingReferenceUrls": [
+        "https://www.3m.com/3M/en_US/p/d/v101943161/"
+      ],
+      "referenceCategory": "3M spray adhesives",
+      "referenceSampleType": "Aerosol spray adhesive",
+      "referenceSampleConsistency": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s–30 min bonding range; timing varies with ambient temperature, humidity and coverage.",
+      "referenceForJoining": "Lightweight foils, paper, cardboard, fabric, foam, insulation and wood materials listed by 3M."
     }
   ]
 }

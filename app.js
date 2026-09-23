@@ -5274,13 +5274,29 @@ function buildSharedSearchUrl() {
   const url = new URL(window.location.href);
   url.search = "";
   const params = new URLSearchParams();
+  const defaults = {
+    substrateA: "any",
+    substrateB: "any",
+    application: "any",
+    coldest: "-20",
+    hottest: "90",
+    cure: "any",
+    manufacturer: "any",
+    minPotLife: "0",
+    maxFixtureTime: "9999",
+    minGapFill: "0",
+    minThermalConductivity: "0",
+    clarity: "any",
+    minLapShear: "0",
+  };
   params.set("share", "1");
 
   for (const [name, value] of new FormData(filterForm).entries()) {
-    if (name !== "savedOnly") params.append(name, value);
+    if (name === "savedOnly" || defaults[name] === value) continue;
+    params.append(name, value);
   }
-  params.set("stress", appState.stress);
-  params.set("sort", resultsSort.value || "fit");
+  if (appState.stress !== "shear") params.set("stress", appState.stress);
+  if (resultsSort.value && resultsSort.value !== "fit") params.set("sort", resultsSort.value);
   if (resultsSearch.value.trim()) params.set("q", resultsSearch.value.trim());
   url.search = params.toString();
   return url;

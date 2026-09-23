@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:31:20.091801+00:00",
+  "generatedAt": "2026-09-23T21:35:16.159800+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -18204,9 +18204,30 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2264565O/3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr.pdf?fn=3m-scotch-weld-ec-3515-ba-fr.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2264565O/3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr.pdf?fn=3m-scotch-weld-ec-3515-ba-fr.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2264565O/3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr.pdf?fn=3m-scotch-weld-ec-3515-ba-fr.pdf",
+            "label": "3M Scotch-Weld Void Filling Compound EC-3515 B/A FR Technical Data Sheet",
+            "documentType": "TDS",
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "EC-3515 B/A FR"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Two-part epoxy void-filling compound with glass microspheres; aerospace applications.",
+              "appearance": "Density 0.47\u20130.50 g/cc; Shore D hardness average 57.",
+              "workLife": "More than 90 minutes for 200 g at stated conditions.",
+              "mixRatio": "100 g Part B to 94 g Part A in the cited test preparation.",
+              "cureTime": "5 hours at 52 \u00b0C in the cited mechanical-property test.",
+              "compression": "21 MPa at 24 \u00b0C; 37 MPa at \u221255 \u00b0C; 3.1 MPa at 93 \u00b0C (ASTM D695).",
+              "flammability": "12-second vertical burn: extinguish 1.75 s, burn length 46 mm, zero drip time; source reports 14 CFR / CS 25.853 (a) Appendix F testing."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",

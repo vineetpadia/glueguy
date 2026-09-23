@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T22:30:00+00:00",
+  "generatedAt": "2026-09-24T01:10:00+00:00",
   "source": "3M official multimedia TDS PDFs linked from 3M product resources and TDS search",
-  "pdfCount": 20,
-  "pdfsResolved": 20,
-  "documentsWithText": 20,
+  "pdfCount": 21,
+  "pdfsResolved": 21,
+  "documentsWithText": 21,
   "documents": [
     {
       "maker": "3M",
@@ -596,6 +596,35 @@
           "code": "SF20",
           "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
           "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "EC-3515 B/A FR"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2264565O/3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr.pdf?fn=3m-scotch-weld-ec-3515-ba-fr.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2264565O/3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr.pdf?fn=3m-scotch-weld-ec-3515-ba-fr.pdf",
+      "httpStatus": 200,
+      "pageCount": null,
+      "title": "3M Scotch-Weld Void Filling Compound EC-3515 B/A FR",
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Two-part epoxy void-filling compound with glass microspheres; aerospace applications.",
+        "appearance": "Density 0.47–0.50 g/cc; Shore D hardness average 57.",
+        "workLife": "More than 90 minutes for 200 g at stated conditions.",
+        "mixRatio": "100 g Part B to 94 g Part A in the cited test preparation.",
+        "cureTime": "5 hours at 52 °C in the cited mechanical-property test.",
+        "compression": "21 MPa at 24 °C; 37 MPa at −55 °C; 3.1 MPa at 93 °C (ASTM D695).",
+        "flammability": "12-second vertical burn: extinguish 1.75 s, burn length 46 mm, zero drip time; source reports 14 CFR / CS 25.853 (a) Appendix F testing."
+      },
+      "targets": [
+        {
+          "code": "EC-3515 B/A FR",
+          "name": "3M™ Scotch-Weld™ Void Filling Compound EC-3515 B/A FR",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/"
         }
       ]
     }

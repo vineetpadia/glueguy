@@ -7033,13 +7033,13 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-threebond");
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     try {
-      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=official-tds-coverage-20260923-threebond");
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=official-tds-coverage-20260923-3m");
       if (leadsResponse.ok) {
         const leadsCatalog = await leadsResponse.json();
         ingestOfficialProductLeads(leadsCatalog.entries ?? []);

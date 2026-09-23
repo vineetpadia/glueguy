@@ -373,6 +373,14 @@ def html_h1(text: str) -> str | None:
 
 def clean_title(value: str, maker: str) -> str:
     cleaned = normalize_space(value)
+    for broken, fixed in (
+        ("â„¢", "™"),
+        ("â€“", "–"),
+        ("â€”", "—"),
+        ("Â®", "®"),
+        ("Â°", "°"),
+    ):
+        cleaned = cleaned.replace(broken, fixed)
     suffixes = [
         " | MasterBond.com",
         " - Permabond",

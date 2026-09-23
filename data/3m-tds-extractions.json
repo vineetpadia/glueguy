@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-09-23T19:29:19.058730+00:00",
+  "source": "3M official multimedia TDS PDFs linked from 3M product resources and TDS search",
+  "pdfCount": 8,
+  "pdfsResolved": 8,
+  "documentsWithText": 8,
+  "documents": [
+    {
+      "maker": "3M",
+      "productCodes": [
+        "1386"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2366025O/3m-scotch-weld-epoxy-adhesive-1386.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-1386.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2366025O/3m-scotch-weld-epoxy-adhesive-1386.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-1386.pdf",
+      "httpStatus": 200,
+      "pageCount": 5,
+      "title": "3M™ Scotch-Weld™ Epoxy Adhesive 1386",
+      "revisionDate": "September, 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "Attribute Name Value | Color White — Cream ¹ | Viscosity 75,000 — 175,000 cP ² | Net Weight 9.4 — 9.8 lb/gal",
+        "chemistry": "Regulatory Info/SDS | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive 1386 is a one-part, 100% solids, thermosetting liquid adhesive. | Product Features",
+        "viscosity": "Color White — Cream ¹ | Viscosity 75,000 — 175,000 cP ² | Net Weight 9.4 — 9.8 lb/gal | Base Resin Modified Epoxy",
+        "cureTime": "but lower than optimum strengths. At these temperatures the indicated time cycles should not be exceeded. | Cure Time | Cure time depends on the cure temperature used, methods of heat application, production limitations and bond | properties required. Since no two bonding operations are exactly alike, it is suggested t",
+        "lapShear": "bond. | The following is a guide to the effect of bondline temperature during cure on 75°F (24°C) overlap shear strengths: | Bond Line Time at 75°F (24°C) | Temperature Shear Strength",
+        "serviceTemperature": "Product Features | • Exceptionally high strength properties at service temperatures from -70 to 250°F (-57 to 121°C). | • Higher impact, peel and bond strength properties than normally attainable in many epoxy based adhesives. | • Little or no volatile by-products given off during cure. This unique property makes Scotc",
+        "tensileStrength": "3M™ Scotch-Weld™ Epoxy Adhesive 1386 | English-US 1/5 | Tensile Strength | Temperature: 177 °C (350 °F) | Dwell Time: 60 min"
+      },
+      "targets": [
+        {
+          "code": "1386",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "1751"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/66780O/3m-scotch-weld-epoxy-adhesive-1751-b-a.pdf?fn=TDS_1751-B-A_R1.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/66780O/3m-scotch-weld-epoxy-adhesive-1751-b-a.pdf?fn=TDS_1751-B-A_R1.pdf",
+      "httpStatus": 200,
+      "pageCount": 4,
+      "title": "3M™ Scotch-Weld™ Epoxy Adhesive EC-1751 B/A",
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "Chemistry Epoxy Amine | Color Gray Amber | Typical Uncured Density 10.8 lb/gal 7.9 lb/gal) | Mix Ratio by Weight 2 1",
+        "chemistry": "Technical Data Sheet | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive EC-1751 B/A is a gray, aluminum filled two-component epoxy adhesive with | cure at room temperature or with additional heat to form a tough bond. It has excellent adhesion to many metal,",
+        "workLife": "- Outstanding environmental resistance | - 45 minute work life | Typical Properties | Note: The following technical information and data should be considered representative or typical only and",
+        "setTime": "7 Days @ 75°F (24°C) | Time to Handling Strength 8 to 12 hours | Shore D Hardness 75 to 80 | Thermal Conductivity 0.2229 BTU/Hr/Ft2/oF/Ft @ 96°F (36°C)",
+        "cureTime": "Work Life at 75°F (24°C) Approximately 45 Minutes | Full Cure | 30 Minutes @ 200°F (93°C) | 5 Hours @ 150°F (67°C)",
+        "lapShear": "The following data shows typical values obtained with 3M ™ Scotch-Weld™ Epoxy Adhesive EC-1751 B/A | in aluminum overlap shear bonds. All specimens were 2024 -T3 bare aluminum panels which had been FPL | etch. Bonds were cured as described in the table under 2 psi (13.8 kPa) with no additional pressure. Sample | prepar",
+        "hardness": "Time to Handling Strength 8 to 12 hours | Shore D Hardness 75 to 80 | Thermal Conductivity 0.2229 BTU/Hr/Ft2/oF/Ft @ 96°F (36°C) | Technical Data Sheet"
+      },
+      "targets": [
+        {
+          "code": "1751",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "1838",
+        "1838L"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/66759O/3m-scotch-weld-epoxy-adhesive-1838-b-a.pdf?fn=78690009648_R3.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/66759O/3m-scotch-weld-epoxy-adhesive-1838-b-a.pdf?fn=78690009648_R3.pdf",
+      "httpStatus": 200,
+      "pageCount": 6,
+      "title": "1838 B/A Data Page",
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "Modified Amine | Color Base | Accelerator | White",
+        "chemistry": "Technical Data February, 2016 | Product Description • 3MTM Scotch-WeldTM Epoxy Adhesives 1838 B/A Green and Tan are controlled flow | products; Scotch-Weld 1838-L B/A Translucent Adhesive is flowable. | • These epoxy adhesives are two-part, room temperature curing structural adhesives with",
+        "viscosity": "Translucent | Viscosity (approx). Base | 70,000-600,000 cps | 100,000-600,000 cps",
+        "workLife": "By Volume 4:5 5:6 1:1 | Worklife 73°F (23°C) Mixed 100 gms 60 minutes 60 minutes 60 minutes | 3M™ Scotch-Weld™ | Epoxy Adhesives",
+        "setTime": "will speed curing. | 6. The following times and temperatures will result in handling strength for these | products: | Temperature Time",
+        "cureTime": "150°F (65°C) 15-20 mins. | 7. The following times and temperatures will result in a full cure of these products: | Temperature Time | 75°F (24°C) 7 days",
+        "lapShear": "typical only and should not be used for specification purposes. | A. Aluminum Overlap Shear | Overlap shear strength was measured on FPL etched 1 in. wide by 1/2 in. overlap | specimens. The bonds were made from 2 panels of 4 in. x 7 in. x .063 in., 2024 T3",
+        "hardness": "Color Green Tan Clear/Amber | Shore D Hardness | (Approx.) | 80-85 80-85 80-85"
+      },
+      "targets": [
+        {
+          "code": "1838",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/"
+        },
+        {
+          "code": "1838L",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "DP605NS"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
+      "httpStatus": 200,
+      "pageCount": 7,
+      "title": "3M™ Scotch-Weld™ Urethane Adhesive DP605NS can be considered “low",
+      "revisionDate": "September 2016",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "Condition DP605NS | Appearance Part B | Part A | White",
+        "chemistry": "Technical Data Sheet September 2016 | Product Description 3M™ Scotch-Weld™ Urethane Adhesive DP605NS Off-White is a two-part, | non-sag urethane adhesive. It provides tough, flexible bonds with good | adhesion to a wide variety of substrates, especially wood and many properly",
+        "viscosity": "By weight 1:1 | Viscosity1 | (Approx.) time to deliver 20 gms @ 20 psi | through a .104\" orifice @ 75°F (24°C) seconds.",
+        "workLife": "moisture conditions, priming of glass is required. | Features • Tough, flexible bonds • 5 minute work life | • Non-Sag/Thixotropic • Bonds wood and many plastics | • 1:1 Mix Ratio • Low Halogen Content",
+        "setTime": "Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23°C (73°F) | Cure Time2 48 hours @ 23°C (73°F) | Elongation3 100%",
+        "cureTime": "Time to Handling Strength1 15-20 min. @ 23°C (73°F) | Cure Time2 48 hours @ 23°C (73°F) | Elongation3 100% | Electrical",
+        "lapShear": "or typical only and should not be used for specification purposes. | Aluminum, Overlap Shear, at Temperature (PSI) (ASTM D1002) | Temperature DP605NS | -40°F (-40°C) 1340",
+        "hardness": "Appearance Off-White | Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23°C (73°F) | Cure Time2 48 hours @ 23°C (73°F)"
+      },
+      "targets": [
+        {
+          "code": "DP605NS",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "DP810"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
+      "httpStatus": 200,
+      "pageCount": 7,
+      "title": null,
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "DP810 • DP810 Black • DP810 NS | Product Description 3M™ Scotch-Weld™ Low-Odour Acrylic Adhesives are two-part, 1:1 mix ratio, | toughened structural adhesives with less odour than most acrylic adhesives. These | adhesives have excellent shear and peel strength along with good impact resistance",
+        "viscosity": "8.7 - 9.1 | Viscosity (cps)(1) Base (B) | Accelerator (A) | 18,000 - 22,000",
+        "workLife": "Features • Tough, durable bonds • Low-odour acrylic adhesive | • Minimal surface prep • 10 minute worklife | • 10 minute time to handling strength • 1:1 mix ratio | • Bonds stainless steel • Excellent shear and peel strength",
+        "setTime": "• Minimal surface prep • 10 minute worklife | • 10 minute time to handling strength • 1:1 mix ratio | • Bonds stainless steel • Excellent shear and peel strength | Typical Uncured",
+        "cureTime": "Time to Handling Strength (50 psi) 10 minutes 10 minutes 10 minutes | Full Cure @ 23°C (73°F) 8 - 24 hours 8 - 24 hours 8 - 24 hours | Worklife @ 23°C (73°F) 10 minutes 10 minutes 10 minutes | Technical Data February, 2016",
+        "lapShear": "or typical only and should not be used for specification purposes. | Overlap Shear Strength(2), tested @ 23°C (73°F) | 3M™ Scotch-Weld™ Low-Odour Acrylic Adhesive | DP810 DP810 Black DP810 NS"
+      },
+      "targets": [
+        {
+          "code": "DP810",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Low Odor Acrylic Adhesive DP810 Black",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "EC2615"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/241247O/ec-2615-2615-lw-data-page-qxd.pdf?fn=EC-2615BA.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/241247O/ec-2615-2615-lw-data-page-qxd.pdf?fn=EC-2615BA.pdf",
+      "httpStatus": 200,
+      "pageCount": 5,
+      "title": "EC-2615•2615 LW Data Page.qxd",
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "16,000 cps | Color: | Off White | Amber",
+        "chemistry": "EC-2615 B/A L W | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive EC-2615 B/A and EC-2615 B/A LW (Long | Worklife) are two-component epoxy adhesives which cure at room temperature or",
+        "viscosity": "(Accelerator) | Viscosity (Brookfield RVF): | Approx. | 800,000 cps",
+        "workLife": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2615 B/A and EC-2615 B/A LW (Long | Worklife) are two-component epoxy adhesives which cure at room temperature or | with heat to form a tough, impact-resistance bond. They have excellent adhesion to | many metal and plastic substrates.",
+        "setTime": "It is suggested using a cure of 7 days at 70°F-80°F and 2 psi bonding pressure. At 70°F-80°F, bonds of | Scotch-Weld EC-2615 B/A Adhesive generally reach handling strength in 2 to 3 hours. Scotch-Weld | EC-2615 B/A LW Adhesive generally reaches handling strength in 5 to 6 hours. Full cure is reached | in 1 to 7 days. I",
+        "cureTime": "Scotch-Weld EC-2615 B/A Adhesive generally reach handling strength in 2 to 3 hours. Scotch-Weld | EC-2615 B/A LW Adhesive generally reaches handling strength in 5 to 6 hours. Full cure is reached | in 1 to 7 days. If faster cures are desired, bonds may be heated. At 150°F full cure is reached in | approximately 2 hours",
+        "lapShear": "Description Cure 1 Cure 2 Cure 1 Cure 2 | 1. 75°F Tensile Shear (psi) 4350 3850 5000 5250 | 2. 180°F Tensile Shear (psi) 460 950 700 1250 | 3. -67°F Tensile Shear (psi) 3650 6400 5350 3900"
+      },
+      "targets": [
+        {
+          "code": "EC2615",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-2615 B/A",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "EC2792"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/807611O/3m-tm-scotch-weld-tm-epoxy-adhesive-ec-2792-b-a-datasheet.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/807611O/3m-tm-scotch-weld-tm-epoxy-adhesive-ec-2792-b-a-datasheet.pdf",
+      "httpStatus": 200,
+      "pageCount": 5,
+      "title": "EC-2792 B/A Datasheet.qxd",
+      "revisionDate": "April 2012",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "Accelerator Amine | Color Base White | Accelerator Amber | Net Weight Base 9.3 - 9.7",
+        "chemistry": "EC-2792 B/A | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive EC-2792 B/A is a high performance, two-part epoxy adhesive offering outstanding | shear and peel adhesion, and very high levels of durability.",
+        "viscosity": "Adhesive EC-2792 B/A | Viscosity (approx) Base 150,000 - 275,000 cps | @ 73°F (23°C) Accelerator 8,000 - 14,000 cps | Base Resin Base Epoxy",
+        "workLife": "• High peel strength | • 60 minute worklife | • Outstanding environmental performance | • Easy mixing",
+        "cureTime": "24 4500 — 5210 | 1This represents the oven temperature to which the bonds were subjected for the prescribed time. The average bondline temperatur e during the cure time will be | somewhat lower than the oven temperature. | 3M™ Scotch-Weld™ Epoxy Adhesive",
+        "lapShear": "Rate of Strength Build-Up | Aluminum, Overlap Shear (7 mil Bondline) (ASTM D 1002-72) | Bonds Tested at 73°F (23°C) | Scotch-Weld EC-2792 B/A Adhesive",
+        "hardness": "Mixed Color Off-White | Shore D Hardness (ASTM D 2240) 78 - 84 | Thermal Conductivity 0.104 | Dielectric Strength (ASTM D 149) 727 volts/mil"
+      },
+      "targets": [
+        {
+          "code": "EC2792",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-2792 B/A",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "EC3542"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/1422579O/3m-scotch-weld-epoxy-adhesive-ec-3542-ba-fr.pdf?fn=TDS-3M-Scotch-Weld-Epoxy-Adhesive-EC-3542-BA-FR.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/1422579O/3m-scotch-weld-epoxy-adhesive-ec-3542-ba-fr.pdf?fn=TDS-3M-Scotch-Weld-Epoxy-Adhesive-EC-3542-BA-FR.pdf",
+      "httpStatus": 200,
+      "pageCount": 6,
+      "title": null,
+      "revisionDate": null,
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "appearance": "- 100% solids | - Light gray colored adhesive | - Meets the flammability requirements of 14 CFR 25.853 (a) | - Easy mixing",
+        "chemistry": "Technical Data Sheet | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive EC-3542 B/A FR is a two-component | epoxy adhesive with cure at room temperature or with additional heat to form",
+        "workLife": "- Outstanding environmental resistance | - 30 minute work life | - Typical Cured Density of 0.71 g/cc (5.9 lbs/gal) | General Applications",
+        "cureTime": "Work Life at 72 ± 3°F Approximately 30 Minutes | Full Cure | 3 Hours @ 75°F (24°C) | 5 Hours @ 125°F (52°C)",
+        "lapShear": "Aluminum to Aluminum Bonds | Overlap Shear | The following data shows typical values obtained with 3M™ Scotch -Weld™ Epoxy Adhesive EC-3542 B/A FR | in aluminum overlap shear bonds. All specimens were 2024 -T3 bare aluminum panels which had been FPL"
+      },
+      "targets": [
+        {
+          "code": "EC3542",
+          "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-3542 B/A FR",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/"
+        }
+      ]
+    }
+  ]
+}

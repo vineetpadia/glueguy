@@ -6559,6 +6559,39 @@
       "officialDomains": [
         "elmers.com"
       ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT All Surface Interior & Exterior Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "ppgpaints.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT MAX Interior & Exterior All-Purpose Construction Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-r-interior-and-exterior-all-purpose-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "ppgpaints.com"
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Heavy Duty Construction Adhesive",
+      "officialUrl": "https://theliquidnails.com/liquid-nails-heavy-duty-construction-adhesive",
+      "kind": "product",
+      "sourceLabel": "Liquid Nails official product information",
+      "priority": "high",
+      "officialDomains": [
+        "theliquidnails.com"
+      ]
     }
   ]
 }

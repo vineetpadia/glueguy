@@ -55447,6 +55447,105 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
     ]
+  },
+  {
+    "id": "loctite-454",
+    "profile": "gelCA",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 454",
+    "summary": "Thixotropic ethyl cyanoacrylate gel for vertical or overhead bonding, larger gaps, and porous materials that would wick thin instant adhesive.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 454 (new formulation), February 2012; Henkel-hosted TDS digitally signed 28 November 2025.",
+    "chemistry": "Ethyl cyanoacrylate instant adhesive gel",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-initiated cure; assemble close-fitting parts promptly. Full strength typically develops in 24-72 h depending on gap, substrates and ambient conditions.",
+    "fixtureTime": 45,
+    "fixtureTimeNote": "Fixture threshold is 0.1 N/mm² at 22 °C / 50% RH. Time is substrate-specific: steel 30-60 s; aluminum 2-10 s; neoprene 10-15 s; nitrile <5 s; ABS <5 s; PVC 5-10 s; polycarbonate 10-15 s; phenolic <5 s; balsa <5 s; oak 30-60 s; pine 15-30 s; chipboard 5-10 s; fabric 10-20 s; leather 5-15 s; paper 5-10 s.",
+    "fullCureMinutes": 1440,
+    "fullCureNote": "TDS states at least 24 h for full chemical/solvent resistance and 24-72 h for full strength before service loading.",
+    "viscosityClass": "high",
+    "viscosityValue": "150-450",
+    "viscosityUnit": "mPa.s",
+    "viscosityNote": "Casson cone-and-plate at 25 °C: 150-450 mPa·s. North American Brookfield RVT Helipath method: 100,000-300,000 mPa·s at 2.5 rpm or 18,000-40,000 at 20 rpm.",
+    "thixotropic": true,
+    "gapFill": 0.25,
+    "lapShear": 20.9,
+    "lapShearSubstrate": "After 72 h at 22 °C, ISO 4587: grit-blasted steel 20.9 MPa; etched aluminum 17.1 MPa; zinc dichromate 11.5 MPa; ABS 8.3 MPa; PVC 7.1 MPa; phenolic 12.3 MPa; polycarbonate 7.7 MPa; nitrile 1.3 MPa; neoprene 1.1 MPa. Asterisked entries had substrate failure.",
+    "lapShearProfilesMPa": {
+      "gritBlastedSteel": 20.9,
+      "etchedAluminum": 17.1,
+      "zincDichromate": 11.5,
+      "abs": 8.3,
+      "pvc": 7.1,
+      "phenolic": 12.3,
+      "polycarbonate": 7.7,
+      "nitrile": 1.3,
+      "neoprene": 1.1
+    },
+    "clarity": "transparent",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "gel",
+      "non-sag",
+      "vertical-bonding",
+      "overhead-bonding",
+      "gap-filling",
+      "porous-materials"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "substrates": {
+      "steel": 8,
+      "aluminum": 8,
+      "zinc": 6,
+      "abs": 8,
+      "pvc": 8,
+      "phenolic": 7,
+      "polycarbonate": 7,
+      "rubber": 7,
+      "neoprene": 7,
+      "nitrile": 7,
+      "wood": 8,
+      "paper": 8,
+      "leather": 8,
+      "fabric": 8,
+      "plastic": 8
+    },
+    "cautions": [
+      "Gel is thixotropic and resists flow on vertical surfaces; larger bond gaps still slow cyanoacrylate cure.",
+      "Increasing humidity accelerates cure but may impair final strength; best TDS results are at 40-60% RH around 22 °C.",
+      "Activator can speed cure but may reduce ultimate strength; validate the joint.",
+      "Use LOCTITE SF 770 primer for low-energy plastics such as PP, PE and PTFE.",
+      "TDS hot-strength curves are not a single service-temperature rating; service range intentionally left blank.",
+      "Lap-shear values are typical and substrate/surface-preparation dependent; marked polymer values ended in substrate failure.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "Store unopened in a dry location; optimal storage is 2-8 °C."
+    ],
+    "storageCondition": "Optimal unopened storage 2-8 °C in a dry location.",
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-454/BP000000153575.html",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "thermalConductivity",
+      "potLife"
+    ],
+    "specificGravity": 1.1,
+    "lapShearCureHours": 72,
+    "lapShearTestTemperatureC": 22,
+    "fixtureTimeTestTemperatureC": 22,
+    "fixtureTimeTestHumidityPct": 50,
+    "fixtureShearThresholdMPa": 0.1,
+    "tensileStrengthProfilesMPa": {
+      "bunaN30sec": 6.0,
+      "bunaN72hour": 15.1
+    },
+    "standards": [
+      "NSF P1 (regional; no food contact)"
+    ]
   }
 ];
 
@@ -70444,10 +70543,37 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-454",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 454",
+    "primaryCategory": "Instant Adhesives",
+    "categories": [
+      "Instant Adhesives"
+    ],
+    "sampleType": "One-part instant adhesive gel syringe",
+    "sampleConsistency": "Clear to slightly cloudy thixotropic gel; Casson viscosity 150-450 mPa·s at 25 °C.",
+    "sampleForJoining": "Vertical and overhead joints; close-fitting metals, plastics, elastomers and porous wood, paper, leather or fabric.",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "gel",
+      "non-sag",
+      "vertical-bonding",
+      "overhead-bonding",
+      "gap-filling",
+      "porous-materials"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 560,
-  "referenceFamilies": 560
+  "selectorProducts": 561,
+  "referenceFamilies": 561
 };

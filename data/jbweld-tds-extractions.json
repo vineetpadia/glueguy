@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-23T20:39:38.160875+00:00",
+  "source": "J-B Weld branded product data sheet for Original Cold-Weld epoxy",
+  "pdfCount": 1,
+  "pdfsResolved": 1,
+  "documentsWithText": 1,
+  "documents": [
+    {
+      "maker": "J-B Weld",
+      "productCodes": [
+        "8265S",
+        "8281"
+      ],
+      "sourceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+      "pdfUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+      "httpStatus": 200,
+      "pageCount": 1,
+      "title": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
+      "revisionDate": "October 2020",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
+        "setTime": "Sets in 4-6 hours",
+        "cureTime": "Full cure in 15-24 hours",
+        "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
+        "serviceTemperature": "Up to 550°F when fully cured",
+        "appearance": "Cures to dark grey"
+      },
+      "targets": [
+        {
+          "name": "J-B Weldâ„¢ Professional Size 10 oz",
+          "officialProductUrl": "https://www.jbweld.com/product/j-b-weld-professional-size"
+        },
+        {
+          "name": "J-B Weldâ„¢ Twin Tube - 2 oz",
+          "officialProductUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube"
+        }
+      ]
+    }
+  ]
+}

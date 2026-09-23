@@ -3,8 +3,8 @@
   "stats": {
     "manufacturersConfigured": 38,
     "discoveredEntries": 997,
-    "tdsDocumentsDiscovered": 37,
-    "tdsDocumentsLinked": 614,
+    "tdsDocumentsDiscovered": 38,
+    "tdsDocumentsLinked": 616,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -117,8 +117,8 @@
     },
     "J-B Weld": {
       "productLeads": 7,
-      "productsWithTds": 0,
-      "tdsDocuments": 0,
+      "productsWithTds": 2,
+      "tdsDocuments": 2,
       "productsWithSds": 0
     },
     "Krazy Glue": {
@@ -5445,7 +5445,24 @@
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+          "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "October 2020",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
+            "setTime": "Sets in 4-6 hours",
+            "cureTime": "Full cure in 15-24 hours",
+            "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
+            "serviceTemperature": "Up to 550°F when fully cured",
+            "appearance": "Cures to dark grey"
+          }
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"
@@ -5457,7 +5474,24 @@
       "officialUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
       "kind": "product",
       "sourceLabel": "J-B Weld products page",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+          "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "October 2020",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
+            "setTime": "Sets in 4-6 hours",
+            "cureTime": "Full cure in 15-24 hours",
+            "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
+            "serviceTemperature": "Up to 550°F when fully cured",
+            "appearance": "Cures to dark grey"
+          }
+        }
+      ],
       "priority": "medium",
       "officialDomains": [
         "jbweld.com"

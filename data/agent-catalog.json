@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:11:10.613119+00:00",
+  "generatedAt": "2026-09-23T21:22:52.334345+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,10 +11,10 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1698,
+    "products": 1701,
     "manualTdsProducts": 553,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 717,
+    "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -1627,6 +1627,8 @@
         "official-lead-scotch-scotch-wrinkle-free-glue-sticks"
       ],
       "Selleys": [
+        "official-lead-selleys-650-fc-adhesive-sealant",
+        "official-lead-selleys-all-clear",
         "official-lead-selleys-all-plastics",
         "official-lead-selleys-aquadhere-durabond",
         "official-lead-selleys-aquadhere-exterior",
@@ -1672,7 +1674,8 @@
         "official-lead-selleys-super-glue-adjustable-gel-single-shot-4x1g-pack",
         "official-lead-selleys-super-glue-high-precision",
         "official-lead-selleys-super-glue-single-shot-5x1ml-pack",
-        "official-lead-selleys-super-glue-stand-up"
+        "official-lead-selleys-super-glue-stand-up",
+        "official-lead-selleys-the-one-adhesive"
       ],
       "Shin-Etsu Silicone": [
         "shinetsu-ke3411",
@@ -7147,7 +7150,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 717,
+      "official-manufacturer-lead": 720,
       "official-tds-url": 286,
       "product-or-catalog-page": 178
     }
@@ -139485,6 +139488,209 @@
       "extractionCandidates": []
     },
     {
+      "id": "official-lead-selleys-650-fc-adhesive-sealant",
+      "source": "official-manufacturer-lead",
+      "maker": "Selleys",
+      "name": "650 FC Adhesive Sealant",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+        "tdsUrl": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+            "label": "Selleys 650 FC Adhesive Sealant Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2023-01-16",
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "650 FC Adhesive Sealant"
+            ],
+            "propertyEvidence": {
+              "chemistry": "One-part silane-modified polymer adhesive/sealant.",
+              "movementCapability": "\u00b120% joint movement.",
+              "VOC": "30 g/L.",
+              "jointDimensions": "2:1 width:depth; minimum width/depth 6 mm."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+        "sourceLabel": "Selleys official Technical Data Sheet",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-selleys-all-clear",
+      "source": "official-manufacturer-lead",
+      "maker": "Selleys",
+      "name": "All Clear",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+        "tdsUrl": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+            "label": "Selleys All Clear Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2024-04-24",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "All Clear"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Co-polymer sealant.",
+              "appearance": "Clear.",
+              "density": "0.86.",
+              "skinTime": "15 min weather dependent.",
+              "hardness": "Shore A 35.",
+              "elongation": "500%.",
+              "serviceTemperature": "\u221210 to +80 \u00b0C."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+        "sourceLabel": "Selleys official Technical Data Sheet",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-selleys-all-plastics",
       "source": "official-manufacturer-lead",
       "maker": "Selleys",
@@ -139580,9 +139786,31 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-durabond/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/0adfzbys/selleys-aquadhere-durabond.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/0adfzbys/selleys-aquadhere-durabond.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/0adfzbys/selleys-aquadhere-durabond.pdf",
+            "label": "Selleys Aquadhere Durabond Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2020-05-29",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Aquadhere Durabond"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Solvent-free moisture-curing polyurethane.",
+              "density": "1.14 at 25 \u00b0C.",
+              "openTime": "About 10 min; temperature/humidity dependent.",
+              "fixtureTime": "About 4 h.",
+              "cureTime": "Up to 24 h.",
+              "serviceTemperature": "Heat resistance to 140 \u00b0C."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-durabond/",
@@ -139660,9 +139888,29 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-exterior/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/vj3epp3o/selleys-aquadhere-exterior-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/vj3epp3o/selleys-aquadhere-exterior-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/vj3epp3o/selleys-aquadhere-exterior-tds.pdf",
+            "label": "Selleys Aquadhere Exterior Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2021-03-30",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Aquadhere Exterior"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Cross-linking PVA (polyaliphatic).",
+              "viscosity": "2000\u20133500 cP.",
+              "fixtureTime": "30 min softwood; 1 h hardwood.",
+              "cureTime": "Maximum strength in 24 h."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-exterior/",
@@ -141260,9 +141508,30 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-vertical-gel/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/4ydn2kiw/selleys-kwik-grip-vertical-gel-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/4ydn2kiw/selleys-kwik-grip-vertical-gel-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/4ydn2kiw/selleys-kwik-grip-vertical-gel-tds.pdf",
+            "label": "Selleys Kwik Grip Vertical Gel Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2020-05-07",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Kwik Grip Vertical Gel"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Solvent-based contact adhesive gel.",
+              "applicationTemperature": "10\u201335 \u00b0C.",
+              "openTime": "20\u201340 min.",
+              "cureTime": "24 h.",
+              "serviceTemperature": "Heat resistance to 130 \u00b0C."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-vertical-gel/",
@@ -141420,9 +141689,31 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-construction-adhesive/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/00dgnguk/selleys-liquid-nails-original-tds.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/00dgnguk/selleys-liquid-nails-original-tds.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/00dgnguk/selleys-liquid-nails-original-tds.pdf",
+            "label": "Selleys Liquid Nails Construction Adhesive Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2016-06-07",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Liquid Nails Construction Adhesive"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Solvent-evaporation construction adhesive.",
+              "appearance": "Thixotropic beige paste.",
+              "openTime": "20\u201330 min weather dependent.",
+              "cureTime": "Strong bond typically at 24 h; cures in 7 days.",
+              "lapShear": "Tensile shear exceeds 1 MPa; initial wet/dry exceeds 200 kPa at 24 h.",
+              "peelStrength": "Exceeds 40 N."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-construction-adhesive/",
@@ -141820,9 +142111,30 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-heavy-duty/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://www.selleys.com.au/media/sztknoxq/selleys-liquid-nails-heavy-duty.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/sztknoxq/selleys-liquid-nails-heavy-duty.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/sztknoxq/selleys-liquid-nails-heavy-duty.pdf",
+            "label": "Selleys Liquid Nails Heavy Duty Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2021-12-01",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "Liquid Nails Heavy Duty"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Solvent-based construction adhesive.",
+              "appearance": "Brown.",
+              "density": "1.21.",
+              "repositionTime": "Up to 20 min.",
+              "fixtureTime": "Minimum 8 h before removing temporary fasteners/clamps."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-heavy-duty/",
@@ -143107,6 +143419,112 @@
         "sdsUrls": [],
         "productUrl": "https://www.selleys.com.au/products/glues-adhesives/super-glue/super-glue-stand-up/",
         "sourceLabel": "Selleys official adhesives sitemap",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-manufacturer-lead"
+      },
+      "coverage": {
+        "decision": 0,
+        "electronics": 0,
+        "decisionValueCoverage": 0,
+        "electronicsValueCoverage": 0,
+        "decisionFieldsPresent": [],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsMissing": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "official-lead-selleys-the-one-adhesive",
+      "source": "official-manufacturer-lead",
+      "maker": "Selleys",
+      "name": "The One Adhesive",
+      "profile": null,
+      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
+      "applicationTags": [],
+      "referenceCategory": null,
+      "referenceForJoining": null,
+      "electricalBehaviorClass": "",
+      "specs": {},
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+        "tdsUrl": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+        "tdsUrls": [
+          "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+            "label": "Selleys The One Adhesive Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "2020-07-27",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "The One Adhesive"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Moisture-curing SMP.",
+              "appearance": "Grey; density about 1.60.",
+              "applicationTemperature": "5\u201335 \u00b0C.",
+              "openTime": "About 10 min at 23 \u00b0C/50% RH.",
+              "skinTime": "15\u201325 min.",
+              "cureRate": "2.5\u20133 mm per 24 h.",
+              "tensileStrength": "1.5 \u00b1 0.2 MPa (DIN 53504).",
+              "hardness": "Shore A 40 \u00b1 5.",
+              "elongation": "Greater than 250%.",
+              "serviceTemperature": "0\u201370 \u00b0C."
+            }
+          }
+        ],
+        "technicalDocuments": [],
+        "sdsUrls": [],
+        "productUrl": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+        "sourceLabel": "Selleys official Technical Data Sheet",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
       },

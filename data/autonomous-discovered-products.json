@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-23T20:06:44.417417+00:00",
+  "generated_at": "2026-09-23T22:15:00+00:00",
   "stats": {
     "manufacturersConfigured": 38,
-    "discoveredEntries": 1002,
-    "tdsDocumentsDiscovered": 47,
-    "tdsDocumentsLinked": 625,
+    "discoveredEntries": 1005,
+    "tdsDocumentsDiscovered": 55,
+    "tdsDocumentsLinked": 633,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -47,7 +47,7 @@
       "productLeads": 8,
       "productsWithTds": 0,
       "tdsDocuments": 0,
-      "productsWithSds": 8
+      "productsWithSds": 0
     },
     "Beacon Adhesives": {
       "productLeads": 9,
@@ -71,7 +71,7 @@
       "productLeads": 19,
       "productsWithTds": 18,
       "tdsDocuments": 57,
-      "productsWithSds": 16
+      "productsWithSds": 0
     },
     "E6000": {
       "productLeads": 14,
@@ -101,7 +101,7 @@
       "productLeads": 33,
       "productsWithTds": 0,
       "tdsDocuments": 0,
-      "productsWithSds": 3
+      "productsWithSds": 0
     },
     "Gorilla Glue": {
       "productLeads": 3,
@@ -206,9 +206,9 @@
       "productsWithSds": 0
     },
     "Selleys": {
-      "productLeads": 46,
-      "productsWithTds": 0,
-      "tdsDocuments": 0,
+      "productLeads": 49,
+      "productsWithTds": 8,
+      "tdsDocuments": 8,
       "productsWithSds": 0
     },
     "Sika": {
@@ -233,7 +233,7 @@
       "productLeads": 13,
       "productsWithTds": 0,
       "tdsDocuments": 0,
-      "productsWithSds": 12
+      "productsWithSds": 0
     },
     "ThreeBond": {
       "productLeads": 144,
@@ -752,7 +752,9 @@
           "documentRevision": "January 8, 2024",
           "pageCount": 4,
           "textExtractionStatus": "text-extracted",
-          "productCodes": ["EC-9370 B/A FST"],
+          "productCodes": [
+            "EC-9370 B/A FST"
+          ],
           "propertyEvidence": {
             "chemistry": "Two-part room-temperature-curing epoxy paste for aircraft interior materials, honeycomb bonding and potting.",
             "mixRatio": "Part B:Part A = 100:50 by volume (2:1).",
@@ -958,7 +960,9 @@
           "documentRevision": "September 2024",
           "pageCount": 3,
           "textExtractionStatus": "text-extracted",
-          "productCodes": ["PR40"],
+          "productCodes": [
+            "PR40"
+          ],
           "propertyEvidence": {
             "chemistry": "Low-viscosity ethyl-hybrid cyanoacrylate for plastics and rubber.",
             "appearance": "Clear liquid.",
@@ -976,7 +980,13 @@
           "documentRevision": "February 2016",
           "pageCount": 4,
           "textExtractionStatus": "text-extracted",
-          "productCodes": ["PR40", "PR100", "PR600", "PR1500", "PR Gel"],
+          "productCodes": [
+            "PR40",
+            "PR100",
+            "PR600",
+            "PR1500",
+            "PR Gel"
+          ],
           "propertyEvidence": {
             "viscosity": "PR40: 24–40 cP in this 2016 family sheet.",
             "specificGravity": "1.06.",
@@ -12371,7 +12381,27 @@
       "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-durabond/",
       "kind": "product",
       "sourceLabel": "Selleys official adhesives sitemap",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/0adfzbys/selleys-aquadhere-durabond.pdf",
+          "label": "Selleys Aquadhere Durabond Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2020-05-29",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "Aquadhere Durabond"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Solvent-free moisture-curing polyurethane.",
+            "density": "1.14 at 25 °C.",
+            "openTime": "About 10 min; temperature/humidity dependent.",
+            "fixtureTime": "About 4 h.",
+            "cureTime": "Up to 24 h.",
+            "serviceTemperature": "Heat resistance to 140 °C."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "selleys.com.au"
@@ -12383,7 +12413,25 @@
       "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/wood-glue/aquadhere-exterior/",
       "kind": "product",
       "sourceLabel": "Selleys official adhesives sitemap",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/vj3epp3o/selleys-aquadhere-exterior-tds.pdf",
+          "label": "Selleys Aquadhere Exterior Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2021-03-30",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "Aquadhere Exterior"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Cross-linking PVA (polyaliphatic).",
+            "viscosity": "2000–3500 cP.",
+            "fixtureTime": "30 min softwood; 1 h hardwood.",
+            "cureTime": "Maximum strength in 24 h."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "selleys.com.au"
@@ -12623,7 +12671,26 @@
       "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/contact-adhesives/kwik-grip-vertical-gel/",
       "kind": "product",
       "sourceLabel": "Selleys official adhesives sitemap",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/4ydn2kiw/selleys-kwik-grip-vertical-gel-tds.pdf",
+          "label": "Selleys Kwik Grip Vertical Gel Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2020-05-07",
+          "pageCount": 1,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "Kwik Grip Vertical Gel"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Solvent-based contact adhesive gel.",
+            "applicationTemperature": "10–35 °C.",
+            "openTime": "20–40 min.",
+            "cureTime": "24 h.",
+            "serviceTemperature": "Heat resistance to 130 °C."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "selleys.com.au"
@@ -12647,7 +12714,27 @@
       "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-construction-adhesive/",
       "kind": "product",
       "sourceLabel": "Selleys official adhesives sitemap",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/00dgnguk/selleys-liquid-nails-original-tds.pdf",
+          "label": "Selleys Liquid Nails Construction Adhesive Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2016-06-07",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "Liquid Nails Construction Adhesive"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Solvent-evaporation construction adhesive.",
+            "appearance": "Thixotropic beige paste.",
+            "openTime": "20–30 min weather dependent.",
+            "cureTime": "Strong bond typically at 24 h; cures in 7 days.",
+            "lapShear": "Tensile shear exceeds 1 MPa; initial wet/dry exceeds 200 kPa at 24 h.",
+            "peelStrength": "Exceeds 40 N."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "selleys.com.au"
@@ -12707,7 +12794,26 @@
       "officialUrl": "https://www.selleys.com.au/products/glues-adhesives/construction-adhesives/liquid-nails-heavy-duty/",
       "kind": "product",
       "sourceLabel": "Selleys official adhesives sitemap",
-      "tdsDocuments": [],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/sztknoxq/selleys-liquid-nails-heavy-duty.pdf",
+          "label": "Selleys Liquid Nails Heavy Duty Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2021-12-01",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "Liquid Nails Heavy Duty"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Solvent-based construction adhesive.",
+            "appearance": "Brown.",
+            "density": "1.21.",
+            "repositionTime": "Up to 20 min.",
+            "fixtureTime": "Minimum 8 h before removing temporary fasteners/clamps."
+          }
+        }
+      ],
       "priority": "high",
       "officialDomains": [
         "selleys.com.au"
@@ -19862,6 +19968,105 @@
             "substrates": "Metal, glass, wood, plastic, silicone resin, vulcanized silicone rubber, ceramics, natural and synthetic fibers, painted surfaces.",
             "cautions": "TDS notes the curing process can corrode some surfaces; use the Ultra Series silicones for critical applications.",
             "productCodes": "Ordering information: 80050 (3 oz tube), 80855 (11 oz cartridge), and 85913 (7.25 oz PowerBead)."
+          }
+        }
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "The One Adhesive",
+      "officialUrl": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+      "kind": "product",
+      "sourceLabel": "Selleys official Technical Data Sheet",
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/pyfgbawi/selleys-the-one-adhesive.pdf",
+          "label": "Selleys The One Adhesive Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2020-07-27",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "The One Adhesive"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Moisture-curing SMP.",
+            "appearance": "Grey; density about 1.60.",
+            "applicationTemperature": "5–35 °C.",
+            "openTime": "About 10 min at 23 °C/50% RH.",
+            "skinTime": "15–25 min.",
+            "cureRate": "2.5–3 mm per 24 h.",
+            "tensileStrength": "1.5 ± 0.2 MPa (DIN 53504).",
+            "hardness": "Shore A 40 ± 5.",
+            "elongation": "Greater than 250%.",
+            "serviceTemperature": "0–70 °C."
+          }
+        }
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "650 FC Adhesive Sealant",
+      "officialUrl": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+      "kind": "product",
+      "sourceLabel": "Selleys official Technical Data Sheet",
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/55kbg3h4/tds-selleys-650fc-adhesive-sealant.pdf",
+          "label": "Selleys 650 FC Adhesive Sealant Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2023-01-16",
+          "pageCount": 3,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "650 FC Adhesive Sealant"
+          ],
+          "propertyEvidence": {
+            "chemistry": "One-part silane-modified polymer adhesive/sealant.",
+            "movementCapability": "±20% joint movement.",
+            "VOC": "30 g/L.",
+            "jointDimensions": "2:1 width:depth; minimum width/depth 6 mm."
+          }
+        }
+      ]
+    },
+    {
+      "maker": "Selleys",
+      "name": "All Clear",
+      "officialUrl": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+      "kind": "product",
+      "sourceLabel": "Selleys official Technical Data Sheet",
+      "priority": "high",
+      "officialDomains": [
+        "selleys.com.au"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://www.selleys.com.au/media/tjkiliao/selleys-all-clear-tds.pdf",
+          "label": "Selleys All Clear Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "2024-04-24",
+          "pageCount": 2,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": [
+            "All Clear"
+          ],
+          "propertyEvidence": {
+            "chemistry": "Co-polymer sealant.",
+            "appearance": "Clear.",
+            "density": "0.86.",
+            "skinTime": "15 min weather dependent.",
+            "hardness": "Shore A 35.",
+            "elongation": "500%.",
+            "serviceTemperature": "−10 to +80 °C."
           }
         }
       ]

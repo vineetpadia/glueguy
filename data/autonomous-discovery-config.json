@@ -691,7 +691,8 @@
           ],
           "nameExcludeRegex": [
             "threadlocker|tape|correction"
-          ]
+          ],
+          "extractTdsLinks": true
         }
       ]
     },
@@ -720,7 +721,8 @@
           ],
           "nameExcludeRegex": [
             "tool|dispenser"
-          ]
+          ],
+          "extractTdsLinks": true
         }
       ]
     }

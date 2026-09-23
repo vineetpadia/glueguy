@@ -581,6 +581,87 @@
           ]
         }
       ]
+    },
+    {
+      "name": "DAP",
+      "priority": "high",
+      "officialDomains": [
+        "dap.com"
+      ],
+      "sources": [
+        {
+          "label": "DAP adhesives catalog",
+          "url": "https://www.dap.com/products/adhesives/",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/adhesives/"
+          ],
+          "nameRequireRegex": [
+            "Weldwood|RapidFuse|construction adhesive|contact cement|adhesive"
+          ],
+          "nameExcludeRegex": [
+            "caulk|sealant|filler|spackling|foam|tape|primer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beacon Adhesives",
+      "priority": "high",
+      "officialDomains": [
+        "beaconadhesives.com"
+      ],
+      "sources": [
+        {
+          "label": "Beacon crafter and maker adhesives",
+          "url": "https://beaconadhesives.com/collections/maker-products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Fabri-Tac|Gem-Tac|Dazzle-Tac|Foam-Tac|All Purpose Tacky Glue|3-IN-1"
+          ],
+          "nameExcludeRegex": [
+            "Magna-Tac|epoxy|industrial"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liquid Nails",
+      "priority": "high",
+      "officialDomains": [
+        "liquidnails.com"
+      ],
+      "sources": [
+        {
+          "label": "Liquid Nails adhesives",
+          "url": "https://www.liquidnails.com/products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "LN-|Fuze It|Heavy Duty|Subfloor|Paneling|Landscape"
+          ],
+          "nameExcludeRegex": [
+            "caulk|sealant"
+          ]
+        }
+      ]
     }
   ]
 }

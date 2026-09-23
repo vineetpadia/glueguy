@@ -553,21 +553,6 @@ def discover() -> dict:
                 )
 
         deduped = dedupe_entries(manufacturer_entries)
-        for entry in deduped:
-            key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
-            previous_entry = previous_tds.get(key)
-            if previous_entry:
-                documents = [
-                    *entry.get("tdsDocuments", []),
-                    *previous_entry.get("tdsDocuments", []),
-                ]
-                seen_documents = set()
-                entry["tdsDocuments"] = [
-                    document for document in documents
-                    if document.get("url") and not (
-                        document["url"] in seen_documents or seen_documents.add(document["url"])
-                    )
-                ]
         tds_documents_found = 0
         if any(source.get("extractTdsLinks") for source in manufacturer.get("sources", [])):
             tds_source = next(source for source in manufacturer["sources"] if source.get("extractTdsLinks"))
@@ -585,6 +570,21 @@ def discover() -> dict:
                     entry["tdsDiscoveryError"] = f"{type(exc).__name__}: {exc}"
                 time.sleep(float(tds_source.get("tdsRequestIntervalSeconds", 0.15)))
         for entry in deduped:
+            key = (normalize_text(entry.get("maker")), normalize_text(entry.get("name")))
+            previous_entry = previous_tds.get(key)
+            if previous_entry:
+                documents = [
+                    *entry.get("tdsDocuments", []),
+                    *previous_entry.get("tdsDocuments", []),
+                ]
+                seen_documents = set()
+                merged_documents = []
+                for document in documents:
+                    url = document.get("url")
+                    if url and url not in seen_documents:
+                        seen_documents.add(url)
+                        merged_documents.append(document)
+                entry["tdsDocuments"] = merged_documents
             entry["priority"] = manufacturer.get("priority", "medium")
             entry["officialDomains"] = manufacturer.get("officialDomains", [])
         discovered.extend(deduped)

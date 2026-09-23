@@ -677,7 +677,7 @@
     },
     {
       "name": "Gorilla Glue",
-      "priority": "medium",
+      "priority": "high",
       "officialDomains": [
         "gorillatough.com"
       ],
@@ -693,6 +693,45 @@
         },
         {
           "name": "2-Part Epoxy"
+        },
+        {
+          "name": "Original Gorilla Glue"
+        },
+        {
+          "name": "Clear Gorilla Glue"
+        },
+        {
+          "name": "Gorilla Super Glue"
+        },
+        {
+          "name": "Gorilla Super Glue Gel"
+        },
+        {
+          "name": "Gorilla Super Glue Ultimate"
+        },
+        {
+          "name": "Gorilla Epoxy"
+        },
+        {
+          "name": "Gorilla Epoxy Ultimate"
+        },
+        {
+          "name": "Gorilla Wood Glue"
+        },
+        {
+          "name": "Gorilla Wood Glue Ultimate"
+        },
+        {
+          "name": "Gorilla Heavy Duty Construction Adhesive"
+        },
+        {
+          "name": "Gorilla Construction Adhesive Ultimate"
+        },
+        {
+          "name": "Gorilla Spray Adhesive Heavy Duty"
+        },
+        {
+          "name": "Gorilla Hot Glue Sticks"
         }
       ]
     },

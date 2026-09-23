@@ -55172,6 +55172,99 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "storageLifeYears": 2,
     "freezeThawCycles": 5
+  },
+  {
+    "id": "loctite-401",
+    "profile": "thinCA",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 401",
+    "summary": "Fast-fixturing, surface-insensitive ethyl cyanoacrylate for close-fitting metal, plastic, elastomer and porous-material joints.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 401, February 2012; Henkel-hosted TDS PDF digitally signed by tdx.henkel.com 28 November 2025.",
+    "chemistry": "Ethyl cyanoacrylate instant adhesive",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-initiated cure; assemble close-fitting parts within seconds. Allow 24-72 h for full strength depending on gap, substrate and ambient conditions.",
+    "fixtureTime": 5,
+    "fixtureTimeNote": "Fixture-time threshold is 0.1 N/mm² at 22 °C / 50% RH; varies by substrate: <5 s on steel, aluminum, ABS, PVC, balsa and chipboard; 5-10 s polycarbonate; 15-30 s oak/leather; 15-20 s pine; 10-20 s fabric.",
+    "fullCureMinutes": 1440,
+    "fullCureNote": "Full chemical/solvent resistance develops after at least 24 h; TDS directions recommend full strength before service loads, typically 24-72 h.",
+    "viscosityClass": "low",
+    "viscosityValue": "70-110",
+    "viscosityUnit": "mPa.s",
+    "viscosityNote": "Cone-and-plate at 25 °C, shear rate 3000 s-1: 70-110 mPa·s; Brookfield LVF spindle 1 at 30 rpm: 100-120 mPa·s.",
+    "lapShear": 20,
+    "lapShearSubstrate": "At 72 h / 22 °C, TDS lap shear: grit-blasted steel 20 MPa; etched aluminum 12.4 MPa; zinc dichromate 2.5 MPa; ABS 7.5 MPa; PVC 10 MPa; phenolic 12.6 MPa; polycarbonate 9.6 MPa; nitrile 1.2 MPa; neoprene 1.1 MPa. Values marked with * had substrate failure.",
+    "lapShearProfilesMPa": {
+      "gritBlastedSteel": 20,
+      "etchedAluminum": 12.4,
+      "zincDichromate": 2.5,
+      "abs": 7.5,
+      "pvc": 10,
+      "phenolic": 12.6,
+      "polycarbonate": 9.6,
+      "nitrile": 1.2,
+      "neoprene": 1.1
+    },
+    "clarity": "transparent",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "fast-fixturing",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding",
+      "porous-materials"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "steel": 8,
+      "aluminum": 7,
+      "zinc": 5,
+      "abs": 8,
+      "pvc": 8,
+      "polycarbonate": 8,
+      "phenolic": 7,
+      "rubber": 7,
+      "neoprene": 6,
+      "wood": 7,
+      "paper": 7,
+      "leather": 7,
+      "fabric": 7
+    },
+    "cautions": [
+      "Short fixture time leaves little opportunity to reposition; accurately locate parts before assembly.",
+      "Larger bond gaps and lower humidity slow cure; activator can accelerate cure but may reduce ultimate strength, so validate.",
+      "TDS lap-shear values vary substantially by substrate and surface preparation; do not treat one scalar as universal design strength.",
+      "Not recommended for pure oxygen / oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "For low-energy plastics such as PP, PE and PTFE, Henkel says use LOCTITE SF 770 primer.",
+      "Store unopened in a dry location; optimal storage is 2-8 °C."
+    ],
+    "storageCondition": "Optimal unopened storage 2-8 °C in a dry location.",
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
+    "sourceUrl": "https://next.henkel-adhesives.com/ca/en/products/industrial-adhesives/central-pdp.html/loctite-401/BP000000153529/variation/1923338.html",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "thermalConductivity",
+      "peelStrengthNPerM",
+      "potLife"
+    ],
+    "specificGravity": 1.1,
+    "lapShearCureHours": 72,
+    "lapShearTestTemperatureC": 22,
+    "fixtureTimeTestTemperatureC": 22,
+    "fixtureTimeTestHumidityPct": 50,
+    "fixtureShearThresholdMPa": 0.1,
+    "tensileStrengthProfilesMPa": {
+      "bunaN10sec": 6.9,
+      "bunaN72hour": 13.7
+    },
+    "standards": [
+      "NSF P1 (regional; no food contact)"
+    ]
   }
 ];
 
@@ -70092,10 +70185,36 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-401",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 401",
+    "primaryCategory": "Instant Adhesives",
+    "categories": [
+      "Instant Adhesives"
+    ],
+    "sampleType": "One-part instant adhesive bottle",
+    "sampleConsistency": "Transparent low-viscosity ethyl cyanoacrylate; 70-110 mPa·s by cone-and-plate at 25 °C.",
+    "sampleForJoining": "Fast assembly of close-fitting metals, plastics, elastomers, wood, paper, leather and fabric.",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "fast-fixturing",
+      "metal-bonding",
+      "plastic-bonding",
+      "rubber-bonding",
+      "porous-materials"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 557,
-  "referenceFamilies": 557
+  "selectorProducts": 558,
+  "referenceFamilies": 558
 };

@@ -58457,6 +58457,107 @@
       "referenceSampleType": "Two-part Duo-Pak epoxy",
       "referenceSampleConsistency": "Clear, rigid two-part epoxy; mix ratio 1:1 by volume.",
       "referenceForJoining": "Bonding metals and compatible rigid substrates according to the exact product TDS"
+    },
+    {
+      "id": "gorilla-wood-glue",
+      "profile": "pvaWood",
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Wood Glue",
+      "summary": "Cross-linking PVA wood adhesive for strong indoor/outdoor wood joints, with Type II water resistance and short clamp time.",
+      "sourceRevisionDate": "Gorilla Wood Glue Technical Data Sheet, Europe revision 25 February 2016; representative values only.",
+      "chemistry": "Cross-linking PVA wood adhesive",
+      "cureFamily": "Cross-linking PVA",
+      "cureDetail": "Water-based cross-linking PVA; apply to clean wood surfaces, assemble and clamp.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "potLife": "5-10 min open working time",
+      "fixtureTime": 25,
+      "fixtureTimeRangeMinutes": [
+        20,
+        30
+      ],
+      "fullCureMinutes": 1440,
+      "viscosityClass": "medium",
+      "viscosityValue": "4000-5000",
+      "viscosityUnit": "cP",
+      "viscosityNote": "Typical viscosity 4,000-5,000 cP; measurement temperature not stated in the cited TDS.",
+      "thermalConductivity": null,
+      "lapShear": 27.5,
+      "lapShearRangeMPa": [
+        27,
+        28
+      ],
+      "lapShearSubstrate": "ASTM D905 shear strength on maple: 3,900-4,000 psi (27-28 MPa), typical values.",
+      "clarity": "opaque",
+      "dryColor": "tan",
+      "standards": [
+        "ANSI/HPVA HP-1-1994 Type II",
+        "EN 204/205 D3"
+      ],
+      "applicationTags": [
+        "wood-bonding",
+        "pva",
+        "water-resistant",
+        "cross-linking",
+        "indoor-outdoor"
+      ],
+      "stress": {
+        "shear": 7,
+        "peel": 2,
+        "impact": 3
+      },
+      "environment": {
+        "humidity": 0.7,
+        "temperature": 0.45,
+        "immersion": 0.15
+      },
+      "substrates": {
+        "wood": 10,
+        "hardwood": 10,
+        "woodComposites": 8
+      },
+      "cautions": [
+        "Manufacturer TDS identifies published data as typical/representative only, not specification or design-allowable values.",
+        "TDS gives minimum use temperature as 12 °C; service-temperature range is not published.",
+        "Type II / EN D3 water resistance is not the same as Type I waterproof classification or continuous immersion suitability.",
+        "Gorilla advises against structural or load-bearing use for its current Gorilla Wood Glue Ultimate product; verify the exact formulation/product variant before critical use."
+      ],
+      "sourceUrl": "https://gorillatough.com/product/gorilla-wood-glue-ultimate",
+      "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
+      "referenceCategory": "Wood Adhesives",
+      "referenceSampleType": "Cross-linking PVA wood glue",
+      "referenceSampleConsistency": "Tan liquid; typical viscosity 4,000-5,000 cP; 49-51% solids; pH 2.9-3.2",
+      "referenceForJoining": "Tight-fitting wood and natural wood-composite joints",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity",
+        "peelStrengthNPerM",
+        "potLifeMinutes"
+      ],
+      "solidsPctRange": [
+        49,
+        51
+      ],
+      "phRange": [
+        2.9,
+        3.2
+      ],
+      "minimumUseTemperatureC": 12,
+      "openWorkingTimeMinutes": [
+        5,
+        10
+      ],
+      "clampTimeRangeMinutes": [
+        20,
+        30
+      ],
+      "dryTime80PctHours": [
+        1,
+        2
+      ],
+      "storageLifeYears": 2,
+      "freezeThawCycles": 5
     }
   ]
 }

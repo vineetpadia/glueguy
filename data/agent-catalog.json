@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T22:47:59.627075+00:00",
+  "generatedAt": "2026-09-23T22:50:30.707228+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,9 +12,9 @@
   ],
   "stats": {
     "products": 1705,
-    "manualTdsProducts": 556,
+    "manualTdsProducts": 557,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 721,
+    "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -708,9 +708,9 @@
         "gorilla-glue-construction-adhesive",
         "gorilla-glue-original-polyurethane",
         "gorilla-glue-super-glue",
+        "gorilla-wood-glue",
         "official-lead-gorilla-glue-gorilla-clear-grip",
-        "official-lead-gorilla-glue-gorilla-construction-adhesive-ultimate",
-        "official-lead-gorilla-glue-gorilla-wood-glue"
+        "official-lead-gorilla-glue-gorilla-construction-adhesive-ultimate"
       ],
       "Guns": [
         "mc-guns_74695a71"
@@ -2724,6 +2724,9 @@
       "craft-pva": [
         "titebond-quick-thick"
       ],
+      "cross-linking": [
+        "gorilla-wood-glue"
+      ],
       "cryogenic-bonding": [
         "3m-scotch-weld-2216-ba-translucent-7000046479",
         "3m-scotch-weld-dp2216-gray"
@@ -3865,6 +3868,9 @@
       ],
       "impact-tough": [
         "gorilla-glue-super-glue"
+      ],
+      "indoor-outdoor": [
+        "gorilla-wood-glue"
       ],
       "induction-bonding": [
         "threebond-tb2273e"
@@ -5558,6 +5564,9 @@
       "pump-out-resistant": [
         "cemedine-sx1008"
       ],
+      "pva": [
+        "gorilla-wood-glue"
+      ],
       "pvc-solvent-cement": [
         "christys-red-hot-blue-glue-low-voc",
         "oatey-abs-pvc-transition-green",
@@ -6963,6 +6972,7 @@
         "bsi-ic-gel",
         "bsi-super-gold",
         "gorilla-glue-2-part-epoxy",
+        "gorilla-wood-glue",
         "itw-devcon-14310-2-ton-epoxy",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
@@ -7103,6 +7113,7 @@
         "3m-hi-strength-90-spray-aerosol",
         "3m-scotch-weld-sf100",
         "cemedine-ep330",
+        "gorilla-wood-glue",
         "permabond-et5143",
         "permabond-et5364",
         "threebond-tb1530",
@@ -7172,8 +7183,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 721,
-      "official-tds-url": 289,
+      "official-manufacturer-lead": 720,
+      "official-tds-url": 290,
       "product-or-catalog-page": 178
     }
   },
@@ -58697,54 +58708,86 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-gorilla-glue-gorilla-wood-glue",
-      "source": "official-manufacturer-lead",
+      "id": "gorilla-wood-glue",
+      "source": "manual-tds",
       "maker": "Gorilla Glue",
       "name": "Gorilla Wood Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "pvaWood",
+      "summary": "Cross-linking PVA wood adhesive for strong indoor/outdoor wood joints, with Type II water resistance and short clamp time.",
+      "applicationTags": [
+        "wood-bonding",
+        "pva",
+        "water-resistant",
+        "cross-linking",
+        "indoor-outdoor"
+      ],
+      "referenceCategory": "Wood Adhesives",
+      "referenceForJoining": "Tight-fitting wood and natural wood-composite joints",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Cross-linking PVA wood adhesive",
+        "cureFamily": "Cross-linking PVA",
+        "cureDetail": "Water-based cross-linking PVA; apply to clean wood surfaces, assemble and clamp.",
+        "potLife": "5-10 min open working time",
+        "fixtureTime": 25,
+        "lapShear": 27.5,
+        "lapShearSubstrate": "ASTM D905 shear strength on maple: 3,900-4,000 psi (27-28 MPa), typical values.",
+        "viscosityClass": "medium",
+        "viscosityValue": "4000-5000",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 27.5
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://gorillatough.com/product/gorilla-wood-glue",
+        "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
         "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://gorillatough.com/product/gorilla-wood-glue",
-        "sourceLabel": "Gorilla product catalog",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [],
+        "tdsUrls": [],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://gorillatough.com/product/gorilla-wood-glue"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
           "potLife",
           "fixtureTime",
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
           "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "peelStrengthNPerM"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -58758,21 +58801,21 @@
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
-          "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
+          "tackFreeTime"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Verified absent from available TDS fields: serviceMin, serviceMax, thermalConductivity, peelStrengthNPerM",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Manufacturer TDS identifies published data as typical/representative only, not specification or design-allowable values.",
+        "TDS gives minimum use temperature as 12 \u00b0C; service-temperature range is not published.",
+        "Type II / EN D3 water resistance is not the same as Type I waterproof classification or continuous immersion suitability."
       ],
       "extractionCandidates": []
     },

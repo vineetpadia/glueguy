@@ -58760,6 +58760,103 @@
       "standards": [
         "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
       ]
+    },
+    {
+      "id": "loctite-406",
+      "profile": "thinCA",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 406",
+      "summary": "Very low-viscosity ethyl cyanoacrylate designed for fast bonding of plastics and elastomers, including EPDM.",
+      "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 406 (new formulation), February 2012; Henkel-hosted TDS digitally signed 28 November 2025.",
+      "chemistry": "Ethyl cyanoacrylate instant adhesive",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-initiated cure; apply to one clean surface and assemble immediately. Full strength typically develops in 24-72 hours depending on gap, materials and ambient conditions.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "potLife": null,
+      "fixtureTime": 5,
+      "fixtureTimeNote": "Fixture-time threshold is 0.1 N/mm² at 22 °C / 50% RH: 20-45 s on degreased steel; <5 s on etched aluminum, neoprene, nitrile, ABS, PVC and phenolic; 10-20 s on polycarbonate.",
+      "fullCureMinutes": 1440,
+      "fullCureNote": "At least 24 h for full chemical/solvent resistance; allow 24-72 h to develop full strength before service loads.",
+      "viscosityClass": "low",
+      "viscosityValue": "12-22",
+      "viscosityUnit": "mPa.s",
+      "viscosityNote": "Cone-and-plate at 25 °C, shear rate 3000 s-1: 12-22 mPa·s; Brookfield LVF spindle 1 at 30 rpm: 15-25 mPa·s.",
+      "gapFill": 0.12,
+      "thermalConductivity": null,
+      "lapShear": 15.5,
+      "lapShearSubstrate": "After 24 h at 22 °C, ISO 4587 lap shear: grit-blasted steel 15.5 MPa; etched aluminum 12 MPa; zinc dichromate 14 MPa; ABS 8.8 MPa; PVC 8.7 MPa; polycarbonate 9.1 MPa; phenolic 11.3 MPa; neoprene 1 MPa; nitrile 1.2 MPa. Values marked * had substrate failure.",
+      "lapShearProfilesMPa": {
+        "gritBlastedSteel": 15.5,
+        "etchedAluminum": 12,
+        "zincDichromate": 14,
+        "abs": 8.8,
+        "pvc": 8.7,
+        "polycarbonate": 9.1,
+        "phenolic": 11.3,
+        "neoprene": 1,
+        "nitrile": 1.2
+      },
+      "clarity": "transparent",
+      "applicationTags": [
+        "instant-bonding",
+        "cyanoacrylate",
+        "fast-fixturing",
+        "plastic-bonding",
+        "rubber-bonding",
+        "elastomer-bonding"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 1,
+        "impact": 1
+      },
+      "substrates": {
+        "steel": 7,
+        "aluminum": 7,
+        "zinc": 5,
+        "abs": 9,
+        "pvc": 9,
+        "polycarbonate": 8,
+        "phenolic": 7,
+        "neoprene": 9,
+        "nitrile": 9,
+        "rubber": 9,
+        "plastic": 9,
+        "elastomer": 9
+      },
+      "cautions": [
+        "Very low viscosity and 0.12 mm gap fill suit close-fitting small gaps only.",
+        "Fixture is materially dependent; degreased steel takes 20-45 s while several plastics and rubbers fixture in under 5 s under the TDS test conditions.",
+        "Increasing bond gap or changing humidity changes cure; best results are at 40-60% RH around 22 °C. Higher humidity accelerates cure but can impair final strength.",
+        "Activator may accelerate cure but can reduce ultimate strength; validate the actual joint.",
+        "Use LOCTITE SF 770 primer to bond difficult low-energy plastics such as PP, PE and PTFE.",
+        "TDS does not publish a single service-temperature rating; do not infer one from the hot-strength chart.",
+        "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+        "Store unopened in a dry location; optimal storage is 2-8 °C."
+      ],
+      "storageCondition": "Optimal unopened storage 2-8 °C in a dry location.",
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
+      "sourceUrl": "https://next.henkel-adhesives.com/uk/en/products/industrial-adhesives/central-pdp.html/loctite-406/BP000000153530.html",
+      "referenceCategory": "Instant Adhesives",
+      "referenceSampleType": "One-part instant adhesive bottle",
+      "referenceSampleConsistency": "Transparent colorless-to-straw, very low-viscosity ethyl cyanoacrylate; 12-22 mPa·s by cone-and-plate at 25 °C.",
+      "referenceForJoining": "Close-fitting plastic and elastomer joints, including EPDM, as well as compatible metals.",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "thermalConductivity",
+        "potLife"
+      ],
+      "specificGravity": 1.1,
+      "lapShearCureHours": 24,
+      "lapShearTestTemperatureC": 22,
+      "fixtureTimeTestTemperatureC": 22,
+      "fixtureTimeTestHumidityPct": 50,
+      "fixtureShearThresholdMPa": 0.1,
+      "standards": [
+        "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
+      ]
     }
   ]
 }

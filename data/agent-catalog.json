@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:36:40.278675+00:00",
+  "generatedAt": "2026-09-23T23:49:50.296697+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1710,
-    "manualTdsProducts": 562,
+    "products": 1712,
+    "manualTdsProducts": 564,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
@@ -727,6 +727,8 @@
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min",
         "loctite-hy4070",
+        "loctite-pl-premium-construction-adhesive",
+        "loctite-power-grab-ultimate-crystal-clear",
         "loctite-si595",
         "loctite-super-glue-ultra-gel-control",
         "official-lead-henkel-loctite-loctite-ceramic-repair",
@@ -2410,6 +2412,7 @@
         "3m-scotch-weld-dp100-plus-clear",
         "gorilla-glue-2-part-epoxy",
         "gorilla-glue-super-glue",
+        "loctite-power-grab-ultimate-crystal-clear",
         "oatey-all-purpose-abs-pvc-cpvc",
         "oatey-clear-pvc-medium-bodied",
         "weldon-16-dcm-tce-free",
@@ -2666,7 +2669,9 @@
         "permabond-ms359-grey"
       ],
       "construction-adhesive": [
-        "gorilla-glue-construction-adhesive"
+        "gorilla-glue-construction-adhesive",
+        "loctite-pl-premium-construction-adhesive",
+        "loctite-power-grab-ultimate-crystal-clear"
       ],
       "construction-repair": [
         "3m-scotch-weld-dp600-dp600ns-urethane"
@@ -2802,6 +2807,9 @@
         "threebond-tb7796a",
         "threebond-tb7797",
         "weicon-va2407"
+      ],
+      "damp-surface-bonding": [
+        "loctite-power-grab-ultimate-crystal-clear"
       ],
       "damping": [
         "threebond-tb3168j"
@@ -3251,6 +3259,9 @@
       "expanding": [
         "gorilla-glue-original-polyurethane"
       ],
+      "exterior-use": [
+        "loctite-pl-premium-construction-adhesive"
+      ],
       "exterior-woodworking": [
         "titebond-ii-premium",
         "titebond-iii-ultimate"
@@ -3509,6 +3520,7 @@
         "liquid-nails-ln902",
         "liquid-nails-ln905",
         "loctite-454",
+        "loctite-pl-premium-construction-adhesive",
         "mg-chemicals-9200",
         "permabond-268",
         "permabond-922",
@@ -4233,7 +4245,8 @@
         "dap-3-0-advanced-window-door-siding-trim-sealant",
         "dap-dynaflex-230",
         "liquid-nails-ln2000",
-        "liquid-nails-ln903"
+        "liquid-nails-ln903",
+        "loctite-power-grab-ultimate-crystal-clear"
       ],
       "interior-projects": [
         "titebond-quick-thick"
@@ -4749,6 +4762,7 @@
       ],
       "moisture-cure": [
         "gorilla-glue-original-polyurethane",
+        "loctite-pl-premium-construction-adhesive",
         "threebond-1530c",
         "threebond-1533",
         "threebond-tb3164d",
@@ -4878,6 +4892,9 @@
       "non-solvent": [
         "threebond-tb1537",
         "threebond-tb3027g"
+      ],
+      "nonporous-substrates": [
+        "loctite-power-grab-ultimate-crystal-clear"
       ],
       "nylon-bonding": [
         "permabond-ta4550"
@@ -5383,6 +5400,7 @@
       ],
       "polyurethane": [
         "gorilla-glue-original-polyurethane",
+        "loctite-pl-premium-construction-adhesive",
         "threebond-tb1797"
       ],
       "polyurethane-sealant": [
@@ -6144,6 +6162,9 @@
         "caseway-sc-325-polycarbonate",
         "weldon-16-dcm-tce-free"
       ],
+      "silane-modified-polymer": [
+        "loctite-power-grab-ultimate-crystal-clear"
+      ],
       "silicone": [
         "threebond-tb1207b",
         "threebond-tb1215",
@@ -6560,7 +6581,8 @@
         "weldon-4052"
       ],
       "subfloor": [
-        "liquid-nails-ln902"
+        "liquid-nails-ln902",
+        "loctite-pl-premium-construction-adhesive"
       ],
       "sunlight-yellowing-resistant": [
         "permabond-uv6160",
@@ -7023,6 +7045,8 @@
         "itw-devcon-14310-2-ton-epoxy",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "loctite-pl-premium-construction-adhesive",
+        "loctite-power-grab-ultimate-crystal-clear",
         "permabond-ta4631",
         "titebond-ii-premium",
         "weldon-16-dcm-tce-free",
@@ -7231,7 +7255,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
-      "official-tds-url": 295,
+      "official-tds-url": 297,
       "product-or-catalog-page": 178
     }
   },
@@ -61002,6 +61026,215 @@
       },
       "agentNotes": [
         "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-pl-premium-construction-adhesive",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE PL Premium Construction Adhesive",
+      "profile": "constructionAdhesive",
+      "summary": "One-part moisture-curing polyurethane construction adhesive for interior and exterior wood, subfloor, masonry, metal, and compatible foam-board assemblies.",
+      "applicationTags": [
+        "construction-adhesive",
+        "polyurethane",
+        "moisture-cure",
+        "subfloor",
+        "exterior-use",
+        "water-resistant",
+        "gap-filling"
+      ],
+      "referenceCategory": "Construction Adhesives",
+      "referenceForJoining": "Subfloors and interior/exterior construction bonds across wood, plywood, OSB, MDF, concrete, masonry, stone, metals, ceramics, rigid PVC trim, and compatible foam board.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-component polyurethane, moisture-curing",
+        "cureFamily": "Moisture-curing polyurethane construction adhesive",
+        "cureDetail": "Apply when the adhesive and conditions are suitable; TDS recommends 41\u201395\u00b0F for optimal performance. Open time is 15\u201320 minutes, repositioning 30\u201345 minutes, clamp 24 hours, and cure is 24\u201348 hours at 78\u00b0F / 25\u00b0C and 50% RH; cold or low humidity slows cure.",
+        "serviceMin": -40,
+        "serviceMax": 71,
+        "lapShear": 4.1,
+        "lapShearSubstrate": "Tensile lap-shear strength per LOCTITE TDS: Douglas-fir plywood to stainless steel 590 psi (4.1 MPa), wood failure; Douglas-fir plywood to hot-galvanized steel 512 psi (3.5 MPa), wood failure. Typical published data.",
+        "viscosityClass": "very-high",
+        "viscosityValue": 555000,
+        "viscosityUnit": "cP",
+        "cureProfiles": 2880
+      },
+      "rankableSpecs": {
+        "lapShear": 4.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PL-Premium-Construction-Adhesive-en_US.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PL-Premium-Construction-Adhesive-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.636,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "lapShear",
+          "viscosityClass",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for marine or water-submersion applications.",
+        "Not for polyethylene, polypropylene, PTFE, flexible vinyl, bitumen-coated materials, or flexible sheet goods.",
+        "Not recommended around fireplaces or other high-heat areas, or for composite decking and Ipe."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-power-grab-ultimate-crystal-clear",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE Power Grab Ultimate Crystal Clear Construction Adhesive",
+      "profile": "constructionAdhesive",
+      "summary": "Clear silane-modified polymer construction adhesive for interior and exterior bonding on porous and nonporous surfaces, including damp surfaces that can dry.",
+      "applicationTags": [
+        "construction-adhesive",
+        "silane-modified-polymer",
+        "clear",
+        "interior-exterior",
+        "water-resistant",
+        "damp-surface-bonding",
+        "nonporous-substrates"
+      ],
+      "referenceCategory": "Construction Adhesives",
+      "referenceForJoining": "Clear interior/exterior bonds on wood, plywood, OSB, concrete, glass, stone, tile, masonry, metal, ceramic, drywall, rigid PVC trim, and some plastics.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Silane-modified polymer",
+        "cureFamily": "Moisture-curing silane-modified polymer construction adhesive",
+        "cureDetail": "Apply at 41\u2013104\u00b0F. Press parts together within 10 minutes; reposition within 5\u201310 minutes. Support or brace for 24\u201348 hours. Cure is typically 24\u201348 hours at 78\u00b0F / 25\u00b0C and 50% RH, longer on nonporous surfaces, in low humidity, or in cold conditions.",
+        "serviceMin": -30,
+        "serviceMax": 70,
+        "serviceTemperatureNote": "TDS prints the minimum as \u221222\u00b0F (30\u00b0C), an internally inconsistent Fahrenheit/Celsius pair; \u221222\u00b0F converts to approximately \u221230\u00b0C. Maximum is 158\u00b0F (70\u00b0C).",
+        "viscosityClass": "paste",
+        "viscosityValue": 1200000,
+        "viscosityUnit": "cP",
+        "cureProfiles": 2880
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Power-Grab-Ultimate-Crystal-Clear-en_US.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Power-Grab-Ultimate-Crystal-Clear-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.545,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not recommended for PE, PP, PTFE, flexible or plasticized PVC, acrylic glass, copper, brass, PE films over foam insulation, bitumen-coated surfaces, flexible sheet goods, or mirror applications.",
+        "Direct sunlight may degrade the adhesive; do not use on warped materials.",
+        "Wet-surface use is acceptable only if the surfaces can dry; nonporous-to-nonporous bonds may require a light water mist and can cure much more slowly."
       ],
       "extractionCandidates": []
     },

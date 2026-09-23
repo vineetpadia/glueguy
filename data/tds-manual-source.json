@@ -59302,6 +59302,212 @@
       "standards": [
         "NSF 61 (48-hour cure at 23 °C required for NSF 61 applications; confirm local suitability)"
       ]
+    },
+    {
+      "id": "loctite-pl-premium-construction-adhesive",
+      "profile": "constructionAdhesive",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE PL Premium Construction Adhesive",
+      "summary": "One-part moisture-curing polyurethane construction adhesive for interior and exterior wood, subfloor, masonry, metal, and compatible foam-board assemblies.",
+      "sourceRevisionDate": "LOCTITE PL Premium Construction Adhesive Technical Data Sheet, revision December 12, 2019; supersedes May 22, 2015.",
+      "chemistry": "One-component polyurethane, moisture-curing",
+      "cureFamily": "Moisture-curing polyurethane construction adhesive",
+      "cureDetail": "Apply when the adhesive and conditions are suitable; TDS recommends 41–95°F for optimal performance. Open time is 15–20 minutes, repositioning 30–45 minutes, clamp 24 hours, and cure is 24–48 hours at 78°F / 25°C and 50% RH; cold or low humidity slows cure.",
+      "serviceMin": -40,
+      "serviceMax": 71,
+      "serviceTemperatureMinF": -40,
+      "serviceTemperatureMaxF": 160,
+      "applicationTemperatureMinC": 5,
+      "applicationTemperatureMaxC": 35,
+      "applicationTemperatureMinF": 41,
+      "applicationTemperatureMaxF": 95,
+      "openTimeRangeMinutes": [
+        15,
+        20
+      ],
+      "repositionTimeRangeMinutes": [
+        30,
+        45
+      ],
+      "fullCureMinutes": 2880,
+      "viscosityClass": "very-high",
+      "viscosityValue": 555000,
+      "viscosityUnit": "cP",
+      "appearance": "Tan thick paste",
+      "specificGravity": 1.3,
+      "gapFill": null,
+      "waterResistant": true,
+      "paintable": true,
+      "vocContentGPerL": 76,
+      "lapShear": 4.1,
+      "lapShearSubstrate": "Tensile lap-shear strength per LOCTITE TDS: Douglas-fir plywood to stainless steel 590 psi (4.1 MPa), wood failure; Douglas-fir plywood to hot-galvanized steel 512 psi (3.5 MPa), wood failure. Typical published data.",
+      "lapShearProfilesMPa": {
+        "douglasFirPlywoodToStainlessSteel": 4.1,
+        "douglasFirPlywoodToHotGalvanizedSteel": 3.5
+      },
+      "tdsCompressionShearStrengthPsi": {
+        "dryLumberBonding": 638,
+        "wetLumberBonding": 404,
+        "frozenLumberBonding": 773,
+        "gapFilling": 468,
+        "moistureResistance": 585
+      },
+      "tdsCompressionShearTestMethod": "ASTM D3498; Douglas-fir to Douglas-fir plywood; TDS labels results by bonding condition; typical values.",
+      "standards": [
+        "ASTM D3498",
+        "APA AFG-01",
+        "ASTM C557",
+        "GREENGUARD"
+      ],
+      "applicationTags": [
+        "construction-adhesive",
+        "polyurethane",
+        "moisture-cure",
+        "subfloor",
+        "exterior-use",
+        "water-resistant",
+        "gap-filling"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 4,
+        "impact": 4
+      },
+      "environment": {
+        "humidity": 0.75,
+        "fuel": 0.1,
+        "immersion": 0.35
+      },
+      "substrates": {
+        "wood": 9,
+        "plywood": 9,
+        "osb": 9,
+        "concrete": 8,
+        "masonry": 8,
+        "metal": 7,
+        "ceramic": 7,
+        "foamboard": 7,
+        "pvc": 6
+      },
+      "cautions": [
+        "Not for marine or water-submersion applications.",
+        "Not for polyethylene, polypropylene, PTFE, flexible vinyl, bitumen-coated materials, or flexible sheet goods.",
+        "Not recommended around fireplaces or other high-heat areas, or for composite decking and Ipe.",
+        "Natural stone, rubber, and some plastics may bond poorly; test first.",
+        "Pressure-treated lumber must weather for at least six months.",
+        "Clean uncured adhesive with mineral spirits; cured adhesive requires mechanical removal.",
+        "TDS values are typical; bond strength and cure depend on material, surface condition, temperature, humidity, and adhesive quantity."
+      ],
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PL-Premium-Construction-Adhesive-en_US.pdf",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PL-Premium-Construction-Adhesive-en_US.pdf",
+      "tdsDocumentLabel": "Henkel LOCTITE PL Premium Construction Adhesive Technical Data Sheet, revision 2019-12-12",
+      "sourceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-pl-premium/SAP_0201CRL029Q4/variation/2450576.html",
+      "referenceCategory": "Construction Adhesives",
+      "referenceSampleType": "10 fl oz or 28 fl oz cartridge",
+      "referenceSampleConsistency": "Tan thick paste; 555,000 cP; application 41–95°F optimal; 15–20 min open time; service −40 to 160°F; 24–48 h cure.",
+      "referenceForJoining": "Subfloors and interior/exterior construction bonds across wood, plywood, OSB, MDF, concrete, masonry, stone, metals, ceramics, rigid PVC trim, and compatible foam board.",
+      "clampTimeRangeMinutes": [
+        1440,
+        1440
+      ]
+    },
+    {
+      "id": "loctite-power-grab-ultimate-crystal-clear",
+      "profile": "constructionAdhesive",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE Power Grab Ultimate Crystal Clear Construction Adhesive",
+      "summary": "Clear silane-modified polymer construction adhesive for interior and exterior bonding on porous and nonporous surfaces, including damp surfaces that can dry.",
+      "sourceRevisionDate": "LOCTITE Power Grab Ultimate Crystal Clear Construction Adhesive Technical Data Sheet, revision May 15, 2022; supersedes November 23, 2020.",
+      "chemistry": "Silane-modified polymer",
+      "cureFamily": "Moisture-curing silane-modified polymer construction adhesive",
+      "cureDetail": "Apply at 41–104°F. Press parts together within 10 minutes; reposition within 5–10 minutes. Support or brace for 24–48 hours. Cure is typically 24–48 hours at 78°F / 25°C and 50% RH, longer on nonporous surfaces, in low humidity, or in cold conditions.",
+      "serviceMin": -30,
+      "serviceMax": 70,
+      "serviceTemperatureMinF": -22,
+      "serviceTemperatureMaxF": 158,
+      "serviceTemperatureNote": "TDS prints the minimum as −22°F (30°C), an internally inconsistent Fahrenheit/Celsius pair; −22°F converts to approximately −30°C. Maximum is 158°F (70°C).",
+      "applicationTemperatureMinC": 5,
+      "applicationTemperatureMaxC": 40,
+      "applicationTemperatureMinF": 41,
+      "applicationTemperatureMaxF": 104,
+      "openTimeMinutes": 10,
+      "repositionTimeRangeMinutes": [
+        5,
+        10
+      ],
+      "fullCureMinutes": 2880,
+      "viscosityClass": "paste",
+      "viscosityValue": 1200000,
+      "viscosityUnit": "cP",
+      "appearance": "Clear, thick paste",
+      "specificGravityRange": [
+        1.6,
+        1.7
+      ],
+      "waterResistant": true,
+      "paintable": true,
+      "sandable": false,
+      "tdsOverlapTensileStrengthPsiProfiles": {
+        "mapleToMapleBondDevelopment": {
+          "4h": 18.5,
+          "8h": 65.8,
+          "24h": 125.2,
+          "7d": 161.2
+        }
+      },
+      "tdsBondStrengthTestConditions": "TDS labels these as tensile strength on a 1-inch overlap at 73°F / 23°C; maple-to-maple bond development values are 18.5 psi at 4 h, 65.8 psi at 8 h, 125.2 psi at 24 h, and 161.2 psi at 7 days. Not reported as an ASTM D1002 lap-shear test.",
+      "applicationTags": [
+        "construction-adhesive",
+        "silane-modified-polymer",
+        "clear",
+        "interior-exterior",
+        "water-resistant",
+        "damp-surface-bonding",
+        "nonporous-substrates"
+      ],
+      "stress": {
+        "shear": 5,
+        "peel": 5,
+        "impact": 4
+      },
+      "environment": {
+        "humidity": 0.85,
+        "fuel": 0.1,
+        "immersion": 0.7
+      },
+      "substrates": {
+        "wood": 9,
+        "plywood": 9,
+        "concrete": 8,
+        "glass": 8,
+        "marble": 8,
+        "granite": 8,
+        "tile": 8,
+        "metal": 7,
+        "ceramic": 8,
+        "foamboard": 8,
+        "pvc": 6
+      },
+      "cautions": [
+        "Not recommended for PE, PP, PTFE, flexible or plasticized PVC, acrylic glass, copper, brass, PE films over foam insulation, bitumen-coated surfaces, flexible sheet goods, or mirror applications.",
+        "Direct sunlight may degrade the adhesive; do not use on warped materials.",
+        "Wet-surface use is acceptable only if the surfaces can dry; nonporous-to-nonporous bonds may require a light water mist and can cure much more slowly.",
+        "Cure releases methanol; use good ventilation and gloves and eye protection.",
+        "TDS service minimum is printed as −22°F (30°C), which is inconsistent; the Fahrenheit value converts to about −30°C.",
+        "TDS bond-strength figures are typical and the overlap-tensile results are not ASTM D1002 lap-shear values."
+      ],
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Power-Grab-Ultimate-Crystal-Clear-en_US.pdf",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Power-Grab-Ultimate-Crystal-Clear-en_US.pdf",
+      "tdsDocumentLabel": "Henkel LOCTITE Power Grab Ultimate Crystal Clear Construction Adhesive Technical Data Sheet, revision 2022-05-15",
+      "sourceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-power-grab-ultimate/SAP_0201C3L029O3.html",
+      "referenceCategory": "Construction Adhesives",
+      "referenceSampleType": "9 fl oz cartridge or 2.7 fl oz squeeze tube",
+      "referenceSampleConsistency": "Clear paste; 1,200,000 cP; 10 min open time; 5–10 min repositioning; 24 h clamp/support; 24–48 h cure.",
+      "referenceForJoining": "Clear interior/exterior bonds on wood, plywood, OSB, concrete, glass, stone, tile, masonry, metal, ceramic, drywall, rigid PVC trim, and some plastics.",
+      "clampTimeRangeMinutes": [
+        1440,
+        1440
+      ]
     }
   ]
 }

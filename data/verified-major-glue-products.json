@@ -428,6 +428,19 @@
           "label": "3M VHB Tape 4930F Technical Data Sheet"
         }
       ]
+    },
+    {
+      "maker": "3M",
+      "name": "3M Scotch-Weld Epoxy Adhesive DP460EG",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?fn=98328.pdf",
+          "label": "3M Scotch-Weld DP460EG Technical Data Sheet, January 2019"
+        }
+      ]
     }
   ]
 }

@@ -667,6 +667,62 @@
           ]
         }
       ]
+    },
+    {
+      "name": "UHU",
+      "priority": "high",
+      "officialDomains": [
+        "uhu.com"
+      ],
+      "sources": [
+        {
+          "label": "UHU product range",
+          "url": "https://www.uhu.com/en-en/products",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 150,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Adhesive|glue|Epoxy|Max Repair|stic"
+          ],
+          "nameExcludeRegex": [
+            "threadlocker|tape|correction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bostik",
+      "priority": "high",
+      "officialDomains": [
+        "diy.bostik.com",
+        "bostik.com"
+      ],
+      "sources": [
+        {
+          "label": "Bostik Create craft adhesives",
+          "url": "https://diy.bostik.com/en-UK/our-ranges/create",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/product/",
+            "/our-ranges/"
+          ],
+          "nameRequireRegex": [
+            "Blu Tack|Blu Glu|PVA Glue|Fast Tak|Glu Dots"
+          ],
+          "nameExcludeRegex": [
+            "tool|dispenser"
+          ]
+        }
+      ]
     }
   ]
 }

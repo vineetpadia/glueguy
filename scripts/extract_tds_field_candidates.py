@@ -1077,10 +1077,25 @@ def main() -> None:
     manifest_by_id = {entry.get("id"): entry for entry in manifest.get("entries", []) if entry.get("id")}
     missing_by_id = load_missing_by_id()
 
-    suggestions = []
-    stats = {"entriesScanned": 0, "entriesWithSuggestions": 0, "candidateFields": 0}
+    source_entries = list(source.get("entries", []))
+    known_ids = {entry.get("id") for entry in source_entries}
+    for cached in manifest.get("entries", []):
+        entry_id = cached.get("id")
+        if not entry_id or not entry_id.startswith("discovered-") or entry_id in known_ids or not cached.get("textPath"):
+            continue
+        source_entries.append({
+            "id": entry_id,
+            "maker": cached.get("maker"),
+            "name": cached.get("name"),
+            "referenceUrl": cached.get("referenceUrl"),
+            "unpublishedFields": [],
+        })
+        known_ids.add(entry_id)
 
-    for entry in source.get("entries", []):
+    suggestions = []
+    stats = {"entriesScanned": 0, "entriesWithSuggestions": 0, "candidateFields": 0, "discoveredTdsEntries": len(source_entries) - len(source.get("entries", []))}
+
+    for entry in source_entries:
         entry_id = entry.get("id")
         cache = manifest_by_id.get(entry_id) or {}
         text_path_value = cache.get("textPath") or f"data/tds-cache/{entry_id}.txt"
@@ -1090,7 +1105,7 @@ def main() -> None:
 
         missing = set(missing_by_id.get(entry_id) or [])
         if not missing:
-            missing = set(actionable_missing(entry, MISSING_FIELD_ORDER))
+            missing = set(MISSING_FIELD_ORDER) if entry_id.startswith("discovered-") else set(actionable_missing(entry, MISSING_FIELD_ORDER))
         else:
             missing = {field for field in missing if field_status(entry, field) == "missing"}
         if not missing:

@@ -5119,18 +5119,12 @@ function repopulateCatalogFilters() {
 
 function populateReferenceFilters() {
   if (!referenceCategorySelect || !referenceApplicationSelect) return;
-  const categories = Array.from(
-    new Set(REFERENCE_LIBRARY.map((family) => family.primaryCategory).filter(Boolean)),
-  ).sort();
-  const applications = Array.from(
-    new Set(
-      REFERENCE_LIBRARY.flatMap((family) => family.applicationTags ?? []).filter(Boolean),
-    ),
-  ).sort((left, right) => applicationLabel(left).localeCompare(applicationLabel(right)));
-
+  const chemistries = Array.from(new Set(GLUES.map((product) => product.chemistry).filter(Boolean))).sort();
+  const applications = Array.from(new Set(GLUES.flatMap((product) => product.applicationTags ?? []).filter(Boolean)))
+    .sort((left, right) => applicationLabel(left).localeCompare(applicationLabel(right)));
   populateSelect(referenceCategorySelect, [
-    { value: "any", label: "All reference categories" },
-    ...categories.map((value) => ({ value, label: value })),
+    { value: "any", label: "All chemistries" },
+    ...chemistries.map((value) => ({ value, label: value })),
   ]);
   populateSelect(referenceApplicationSelect, [
     { value: "any", label: "All use cases" },
@@ -5487,40 +5481,25 @@ function formatReferenceCost(family) {
 
 function renderReferenceLibrary() {
   if (!referenceBody || !referenceCount || !referenceContext) return;
-
   const query = referenceSearch?.value.trim().toLowerCase() ?? "";
-  const category = referenceCategorySelect?.value ?? "any";
+  const chemistry = referenceCategorySelect?.value ?? "any";
   const application = referenceApplicationSelect?.value ?? "any";
-
-  const visibleFamilies = REFERENCE_LIBRARY.filter((family) => {
-    if (category !== "any" && family.primaryCategory !== category) return false;
-    if (application !== "any" && !(family.applicationTags ?? []).includes(application)) return false;
+  const visibleProducts = GLUES.filter((product) => {
+    if (chemistry !== "any" && product.chemistry !== chemistry) return false;
+    if (application !== "any" && !(product.applicationTags ?? []).includes(application)) return false;
     if (!query) return true;
     const haystack = [
-      family.familyName,
-      family.manufacturer,
-      family.primaryCategory,
-      ...(family.applicationTags ?? []).map((tag) => applicationLabel(tag)),
-      family.sampleType,
-      family.samplePartNo,
-      family.samplePackage,
-      family.sampleMixRatio,
-      family.sampleColor,
-      family.sampleCoverage,
-      family.sampleCureType,
-      family.sampleConsistency,
-      family.sampleForJoining,
-      family.sampleForUseOn,
-      ...(family.categories ?? []),
+      product.name, product.maker, product.chemistry, product.cureFamily, product.cureDetail,
+      product.productSku, product.productCode, product.partNumber, product.id,
+      product.mcmaster?.partNo, ...(product.applicationTags ?? []),
     ].filter(Boolean).join(" ").toLowerCase();
     return haystack.includes(query);
   });
-
-  referenceCount.textContent = `${visibleFamilies.length} reference famil${visibleFamilies.length === 1 ? "y" : "ies"}`;
-  referenceContext.textContent = buildReferenceContext();
+  referenceCount.textContent = `${visibleProducts.length} product${visibleProducts.length === 1 ? "" : "s"}`;
+  referenceContext.textContent = `${GLUES.length} products in this catalog • Search product, maker, part number, chemistry, or use case`;
   referenceBody.replaceChildren();
-  referenceEmpty?.classList.toggle("hidden", visibleFamilies.length > 0);
-  if (!visibleFamilies.length) return;
+  referenceEmpty?.classList.toggle("hidden", visibleProducts.length > 0);
+  if (!visibleProducts.length) return;
 
   const makeText = (tagName, className, value) => {
     const node = document.createElement(tagName);
@@ -5529,62 +5508,60 @@ function renderReferenceLibrary() {
     return node;
   };
   const fragment = document.createDocumentFragment();
-  visibleFamilies.forEach((family) => {
+  visibleProducts.forEach((product) => {
     const row = document.createElement("tr");
-    const familyCell = document.createElement("td");
-    familyCell.append(
-      makeText("p", "maker", family.manufacturer || "Unknown maker"),
-      makeText("p", "product-name", family.familyName || "Unnamed reference family"),
-      makeText("p", "product-summary", family.sampleForJoining || family.sampleForUseOn || "Joining scope not exposed on sampled offer."),
-    );
-    const sampleMeta = [
-      family.samplePartNo ? `McMaster ${family.samplePartNo}` : "",
-      family.samplePackage,
-      family.sampleColor,
-    ].filter(Boolean).join(" • ");
-    if (sampleMeta) familyCell.append(makeText("p", "table-note", sampleMeta));
+    const productCell = document.createElement("td");
+    productCell.append(makeText("p", "maker", product.maker || "Unknown maker"));
+    const detail = document.createElement("button");
+    detail.type = "button";
+    detail.className = "product-name product-detail-trigger";
+    detail.textContent = product.name || "Unnamed product";
+    detail.setAttribute("aria-haspopup", "dialog");
+    detail.setAttribute("aria-controls", "product-detail-dialog");
+    detail.addEventListener("click", () => openProductDetail(product));
+    productCell.append(detail);
+    const part = product.productSku || product.productCode || product.partNumber || product.mcmaster?.partNo;
+    if (part) productCell.append(makeText("p", "table-note", `Part ${part}`));
 
-    const applicationCell = document.createElement("td");
-    const applicationWrap = document.createElement("div");
-    applicationWrap.className = "application-list";
-    const tags = dedupeList(family.applicationTags ?? []);
-    if (tags.length) {
-      tags.forEach((tag) => applicationWrap.append(makeText("span", "application-pill", applicationLabel(tag))));
-    } else {
-      applicationWrap.append(makeText("span", "empty-text", "Not categorized"));
-    }
-    applicationCell.append(applicationWrap);
+    const applicationsCell = document.createElement("td");
+    const applications = document.createElement("div");
+    applications.className = "application-list";
+    const tags = dedupeList(product.applicationTags ?? []);
+    if (tags.length) tags.forEach((tag) => applications.append(makeText("span", "application-pill", applicationLabel(tag))));
+    else applications.append(makeText("span", "empty-text", "Not reported"));
+    applicationsCell.append(applications);
 
-    const categoryCell = document.createElement("td");
-    categoryCell.append(makeText("div", "", family.primaryCategory || "Uncategorized"));
-    categoryCell.append(makeText("div", "table-note", family.sampleCureType || family.sampleType || "Package not sampled"));
-    if (family.sampleCoverage) categoryCell.append(makeText("div", "table-note", family.sampleCoverage));
-    const extras = (family.categories ?? []).filter((item) => item && item !== family.primaryCategory);
-    if (extras.length) categoryCell.append(makeText("div", "table-note", extras.slice(0, 2).join(" • ")));
+    const chemistryCell = document.createElement("td");
+    chemistryCell.append(makeText("div", "", product.chemistry || "Not reported"));
+    if (product.cureFamily) chemistryCell.append(makeText("div", "table-note", product.cureFamily));
+    if (product.mcmaster) chemistryCell.append(makeText("div", "table-note", formatMcMasterSummary(product.mcmaster)));
 
-    const temperatureCell = makeText("td", "", formatTemperatureRange(family.tempMinC, family.tempMaxC));
-    const offersCell = document.createElement("td");
-    offersCell.append(makeText("div", "", Number.isFinite(family.offerCount) ? String(family.offerCount) : "Not reported"));
-    offersCell.append(makeText("div", "table-note", family.offerCount === 1 ? "sampled offer" : "sampled offers"));
-
+    const temperatureCell = makeText("td", "", formatTemperatureRange(product.serviceMin, product.serviceMax));
     const priceCell = document.createElement("td");
-    priceCell.append(makeText("div", "cost-main", formatReferenceCost(family)));
-    priceCell.append(makeText("div", "table-note", Number.isFinite(family.bestPricePerMl) ? "Best observed normalized package cost" : "Lowest observed package price; package basis may differ"));
+    priceCell.append(makeText("div", "cost-main", formatPricing(product.pricing)));
+    const priceDetail = formatPricingDetail(product.pricing);
+    if (priceDetail) priceCell.append(makeText("div", "table-note", priceDetail));
 
-    const sourceCell = document.createElement("td");
-    const sourceUrl = safeSourceUrl(family.sourceUrl);
-    if (sourceUrl) {
-      const link = document.createElement("a");
-      link.className = "reference-link";
-      link.href = sourceUrl;
-      link.target = "_blank";
-      link.rel = "noreferrer";
-      link.textContent = family.sourceLabel || "Source";
-      sourceCell.append(link);
+    const sourcesCell = document.createElement("td");
+    const sources = productSourceLinks(product);
+    if (sources.length) {
+      const links = document.createElement("div");
+      links.className = "reference-source-links";
+      sources.forEach(({ url, label, ariaLabel }) => {
+        const link = document.createElement("a");
+        link.className = "reference-link";
+        link.href = url;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        link.textContent = label;
+        link.setAttribute("aria-label", `${ariaLabel} for ${product.maker} ${product.name}`);
+        links.append(link);
+      });
+      sourcesCell.append(links);
     } else {
-      sourceCell.append(makeText("span", "empty-text", "Not available"));
+      sourcesCell.append(makeText("span", "empty-text", "No source links recorded"));
     }
-    row.append(familyCell, applicationCell, categoryCell, temperatureCell, offersCell, priceCell, sourceCell);
+    row.append(productCell, applicationsCell, chemistryCell, temperatureCell, priceCell, sourcesCell);
     fragment.append(row);
   });
   referenceBody.append(fragment);
@@ -6393,6 +6370,8 @@ async function loadSelectorCatalog() {
     MCMASTER_PIPELINE_STATS = catalog.mcmasterStats ?? MCMASTER_PIPELINE_STATS;
     TDS_MANUAL_STATS = catalog.tdsStats ?? TDS_MANUAL_STATS;
     repopulateCatalogFilters();
+    populateReferenceFilters();
+    renderReferenceLibrary();
     renderHeroStats();
     scheduleRenderResults();
   } catch (error) {

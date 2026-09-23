@@ -285,6 +285,45 @@
           "label": "Liquid Nails LN-903 Technical Data Sheet"
         }
       ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP125 Gray",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+          "label": "3M Scotch-Weld DP125 Gray Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Flexible Acrylic Adhesive DP8610NS",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
+          "label": "3M Scotch-Weld DP8610NS Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 2216 Gray",
+      "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
+      "kind": "product",
+      "sourceLabel": "3M official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
+          "label": "3M Scotch-Weld 2216 B/A Technical Data Sheet (includes Gray formulation)"
+        }
+      ]
     }
   ]
 }

@@ -424,17 +424,54 @@ def cache_entry(entry: dict, overrides: dict[str, dict], existing: dict[str, dic
     return result
 
 
+def discovered_tds_entries() -> list[dict]:
+    """Turn official product-page TDS links into cache inputs without curating them as catalog facts."""
+    discovered_path = ROOT / "data" / "autonomous-discovered-products.json"
+    if not discovered_path.exists():
+        return []
+    payload = json.loads(discovered_path.read_text(encoding="utf-8"))
+    entries = []
+    seen = set()
+    for product in payload.get("entries", []):
+        maker = product.get("maker")
+        name = product.get("name")
+        for document in product.get("tdsDocuments", []):
+            url = document.get("url")
+            if not maker or not name or not url:
+                continue
+            key = (normalize_space(maker).lower(), normalize_space(name).lower(), url)
+            if key in seen:
+                continue
+            seen.add(key)
+            entries.append({
+                "id": "discovered-" + slugify(maker + "-" + name),
+                "maker": maker,
+                "name": name,
+                "referenceUrl": url,
+                "sourceProductUrl": product.get("officialUrl"),
+                "sourceDocumentLabel": document.get("label"),
+            })
+    return entries
+
+
 def main() -> None:
     payload = json.loads(SOURCE_PATH.read_text())
+    manual_entries = payload.get("entries", [])
+    manual_keys = {(normalize_space(e.get("maker")).lower(), normalize_space(e.get("name")).lower()) for e in manual_entries}
+    discovered_entries = [
+        entry for entry in discovered_tds_entries()
+        if (normalize_space(entry["maker"]).lower(), normalize_space(entry["name"]).lower()) not in manual_keys
+    ]
+    cache_inputs = manual_entries + discovered_entries
     overrides = load_overrides()
     existing = load_existing_manifest()
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "entries": [],
-        "stats": {"attempted": 0, "cached": 0, "reused": 0, "errors": 0},
+        "stats": {"attempted": 0, "cached": 0, "reused": 0, "errors": 0, "discoveredTdsEntries": len(discovered_entries)},
     }
 
-    for entry in payload.get("entries", []):
+    for entry in cache_inputs:
         url = entry.get("referenceUrl")
         if not url:
             continue

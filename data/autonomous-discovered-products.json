@@ -3,8 +3,8 @@
   "stats": {
     "manufacturersConfigured": 38,
     "discoveredEntries": 1002,
-    "tdsDocumentsDiscovered": 44,
-    "tdsDocumentsLinked": 622,
+    "tdsDocumentsDiscovered": 47,
+    "tdsDocumentsLinked": 625,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -33,8 +33,8 @@
   "documentCoverageByManufacturer": {
     "3M": {
       "productLeads": 47,
-      "productsWithTds": 28,
-      "tdsDocuments": 28,
+      "productsWithTds": 30,
+      "tdsDocuments": 31,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -743,6 +743,28 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
+          "label": "3M Scotch-Weld Epoxy Adhesive EC-9370 B/A FST Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "January 8, 2024",
+          "pageCount": 4,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": ["EC-9370 B/A FST"],
+          "propertyEvidence": {
+            "chemistry": "Two-part room-temperature-curing epoxy paste for aircraft interior materials, honeycomb bonding and potting.",
+            "mixRatio": "Part B:Part A = 100:50 by volume (2:1).",
+            "appearance": "Mixed color off-white to pale mauve; thixotropic, non-sag paste.",
+            "workLife": "20–30 minutes at 23 ± 2 °C.",
+            "handlingStrength": "Handling strength after 4 hours at room temperature; approximately 2 MPa overlap shear at that point.",
+            "cureTime": "Full cure: 3 days at room temperature or 5 hours at 52 °C.",
+            "lapShear": "Greater than 10 MPa after 3 days at room temperature on clad Al 2024-T3 (EN 2243-1).",
+            "compression": "Compression strength greater than 35 MPa; compression modulus greater than 1500 MPa.",
+            "firePerformance": "TDS reports passing applicable aircraft interior flammability, smoke and toxicity requirements; consult the sheet for test conditions and regulatory detail."
+          }
+        }
       ]
     },
     {
@@ -927,6 +949,44 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+          "label": "3M Scotch-Weld Plastic and Rubber Instant Adhesive PR40 Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "September 2024",
+          "pageCount": 3,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": ["PR40"],
+          "propertyEvidence": {
+            "chemistry": "Low-viscosity ethyl-hybrid cyanoacrylate for plastics and rubber.",
+            "appearance": "Clear liquid.",
+            "viscosity": "20–45 cP.",
+            "specificGravity": "1.06.",
+            "handlingStrength": "15 seconds to handling strength.",
+            "cureTime": "Full cure in 24 hours.",
+            "gapFill": "0.004 in."
+          }
+        },
+        {
+          "url": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
+          "label": "3M Plastic and Rubber Instant Adhesives PR40/PR100/PR600/PR1500/PR Gel Family Technical Data Sheet",
+          "documentType": "TDS",
+          "documentRevision": "February 2016",
+          "pageCount": 4,
+          "textExtractionStatus": "text-extracted",
+          "productCodes": ["PR40", "PR100", "PR600", "PR1500", "PR Gel"],
+          "propertyEvidence": {
+            "viscosity": "PR40: 24–40 cP in this 2016 family sheet.",
+            "specificGravity": "1.06.",
+            "handlingStrength": "11–13 seconds on EPDM.",
+            "cureTime": "Full cure in 24 hours.",
+            "serviceTemperature": "−45 to +82 °C.",
+            "gapFill": "0.004 in.",
+            "lapShear": "Reported values: steel 2124 psi, ABS 892 psi, and polycarbonate 670 psi; retain the TDS substrate/preparation notes when interpreting these typical values."
+          }
+        }
       ]
     },
     {

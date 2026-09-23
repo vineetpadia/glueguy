@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T20:59:54.915186+00:00",
+  "generatedAt": "2026-09-23T21:11:10.613119+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -16331,9 +16331,34 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
+            "label": "3M Scotch-Weld Epoxy Adhesive EC-9370 B/A FST Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "January 8, 2024",
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "EC-9370 B/A FST"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Two-part room-temperature-curing epoxy paste for aircraft interior materials, honeycomb bonding and potting.",
+              "mixRatio": "Part B:Part A = 100:50 by volume (2:1).",
+              "appearance": "Mixed color off-white to pale mauve; thixotropic, non-sag paste.",
+              "workLife": "20\u201330 minutes at 23 \u00b1 2 \u00b0C.",
+              "handlingStrength": "Handling strength after 4 hours at room temperature; approximately 2 MPa overlap shear at that point.",
+              "cureTime": "Full cure: 3 days at room temperature or 5 hours at 52 \u00b0C.",
+              "lapShear": "Greater than 10 MPa after 3 days at room temperature on clad Al 2024-T3 (EN 2243-1).",
+              "compression": "Compression strength greater than 35 MPa; compression modulus greater than 1500 MPa.",
+              "firePerformance": "TDS reports passing applicable aircraft interior flammability, smoke and toxicity requirements; consult the sheet for test conditions and regulatory detail."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
@@ -17133,9 +17158,57 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+          "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+            "label": "3M Scotch-Weld Plastic and Rubber Instant Adhesive PR40 Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "September 2024",
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "PR40"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Low-viscosity ethyl-hybrid cyanoacrylate for plastics and rubber.",
+              "appearance": "Clear liquid.",
+              "viscosity": "20\u201345 cP.",
+              "specificGravity": "1.06.",
+              "handlingStrength": "15 seconds to handling strength.",
+              "cureTime": "Full cure in 24 hours.",
+              "gapFill": "0.004 in."
+            }
+          },
+          {
+            "url": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
+            "label": "3M Plastic and Rubber Instant Adhesives PR40/PR100/PR600/PR1500/PR Gel Family Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "February 2016",
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "PR40",
+              "PR100",
+              "PR600",
+              "PR1500",
+              "PR Gel"
+            ],
+            "propertyEvidence": {
+              "viscosity": "PR40: 24\u201340 cP in this 2016 family sheet.",
+              "specificGravity": "1.06.",
+              "handlingStrength": "11\u201313 seconds on EPDM.",
+              "cureTime": "Full cure in 24 hours.",
+              "serviceTemperature": "\u221245 to +82 \u00b0C.",
+              "gapFill": "0.004 in.",
+              "lapShear": "Reported values: steel 2124 psi, ABS 892 psi, and polycarbonate 670 psi; retain the TDS substrate/preparation notes when interpreting these typical values."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",

@@ -7033,7 +7033,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv");
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

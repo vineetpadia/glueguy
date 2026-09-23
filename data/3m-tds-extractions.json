@@ -1,10 +1,68 @@
 {
   "generatedAt": "2026-09-23T20:30:44.503890+00:00",
   "source": "3M official multimedia TDS PDFs linked from 3M product resources and TDS search",
-  "pdfCount": 15,
-  "pdfsResolved": 15,
-  "documentsWithText": 15,
+  "pdfCount": 18,
+  "pdfsResolved": 18,
+  "documentsWithText": 18,
   "documents": [
+    {
+      "maker": "3M",
+      "productCodes": ["EC-9370 B/A FST"],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
+      "httpStatus": 200,
+      "pageCount": 4,
+      "title": "3M Scotch-Weld Epoxy Adhesive EC-9370 B/A FST",
+      "revisionDate": "January 8, 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Two-part room-temperature-curing epoxy paste for aircraft interior materials, honeycomb bonding and potting.",
+        "mixRatio": "Part B:Part A = 100:50 by volume (2:1).",
+        "appearance": "Mixed color off-white to pale mauve; thixotropic, non-sag paste.",
+        "workLife": "20–30 minutes at 23 ± 2 °C.",
+        "handlingStrength": "Handling strength after 4 hours at room temperature; approximately 2 MPa overlap shear at that point.",
+        "cureTime": "Full cure: 3 days at room temperature or 5 hours at 52 °C.",
+        "lapShear": "Greater than 10 MPa after 3 days at room temperature on clad Al 2024-T3 (EN 2243-1).",
+        "compression": "Compression strength greater than 35 MPa; compression modulus greater than 1500 MPa.",
+        "firePerformance": "TDS reports passing applicable aircraft interior flammability, smoke and toxicity requirements; consult the sheet for test conditions and regulatory detail."
+      },
+      "targets": [{"code": "EC-9370 B/A FST", "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/"}]
+    },
+    {
+      "maker": "3M",
+      "productCodes": ["PR40"],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
+      "httpStatus": 200,
+      "pageCount": 3,
+      "title": "3M Scotch-Weld Plastic and Rubber Instant Adhesive PR40",
+      "revisionDate": "September 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Low-viscosity ethyl-hybrid cyanoacrylate for plastics and rubber.",
+        "appearance": "Clear liquid.", "viscosity": "20–45 cP.", "specificGravity": "1.06.",
+        "handlingStrength": "15 seconds to handling strength.", "cureTime": "Full cure in 24 hours.", "gapFill": "0.004 in."
+      },
+      "targets": [{"code": "PR40", "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"}]
+    },
+    {
+      "maker": "3M",
+      "productCodes": ["PR40", "PR100", "PR600", "PR1500", "PR Gel"],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
+      "httpStatus": 200,
+      "pageCount": 4,
+      "title": "3M Plastic and Rubber Instant Adhesives PR40/PR100/PR600/PR1500/PR Gel Family",
+      "revisionDate": "February 2016",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "viscosity": "PR40: 24–40 cP in this 2016 family sheet.", "specificGravity": "1.06.",
+        "handlingStrength": "11–13 seconds on EPDM.", "cureTime": "Full cure in 24 hours.",
+        "serviceTemperature": "−45 to +82 °C.", "gapFill": "0.004 in.",
+        "lapShear": "Reported values: steel 2124 psi, ABS 892 psi, and polycarbonate 670 psi; consult the sheet's substrate/preparation notes when interpreting these typical values."
+      },
+      "targets": [{"code": "PR40", "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"}]
+    },
     {
       "maker": "3M",
       "productCodes": [

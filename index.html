@@ -261,6 +261,8 @@
               <input id="results-search" type="search" placeholder="Name, maker, chemistry…" autocomplete="off" />
               <label class="results-sort-label" for="results-sort">Sort</label>
               <select id="results-sort" aria-label="Sort results"><option value="fit">Best fit</option><option value="evidence">Fewest gaps to verify</option><option value="name">Name</option><option value="price">Lowest listed price</option></select>
+              <button class="button button-ghost" id="share-search" type="button">Copy search link</button>
+              <span class="visually-hidden" id="share-search-status" role="status" aria-live="polite"></span>
             </div>
             <div class="summary-row">
               <div class="active-tags" id="active-tags"></div>
@@ -350,6 +352,6 @@
       </div>
       <div id="product-detail-content" class="product-detail-content"></div>
     </dialog>
-    <script defer src="./app.js?v=4735e01ad4e86a5694856a1cb8f2a1b3b89f23a8"></script>
+    <script defer src="./app.js?v=b76227ea36e74bfb7d0fa36f673da50f36aa59f0"></script>
   </body>
 </html>

@@ -2,7 +2,7 @@
   "generated_at": "2026-09-23T06:54:44.436446+00:00",
   "stats": {
     "manufacturersConfigured": 28,
-    "discoveredEntries": 794,
+    "discoveredEntries": 799,
     "tdsDocumentsDiscovered": 60,
     "tdsDocumentsLinked": 85,
     "previousEntriesPreserved": 104,
@@ -110,7 +110,7 @@
       "officialDomains": [
         "elmers.com"
       ],
-      "discoveredEntries": 0,
+      "discoveredEntries": 5,
       "tdsDocumentsDiscovered": 0,
       "sources": [
         {
@@ -119,6 +119,13 @@
           "matchedUrls": 0,
           "discoveredEntries": 0,
           "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.elmers.com/glue/"
+        },
+        {
+          "label": "Elmer's official product pages (verified individually)",
+          "url": "https://www.elmers.com/glue/",
+          "matchedUrls": 5,
+          "discoveredEntries": 5,
+          "note": "The catalog page returned HTTP 403 to the automated fetcher; these direct product pages were verified from Elmer’s indexed official catalog."
         }
       ]
     },
@@ -10409,6 +10416,61 @@
           "label": "UHU Max Repair Power Technical Documentation Sheet",
           "url": "https://www.uhu.com/getmedia/08c613ca-5edc-44fd-9393-abe14d6eea3c/Print%20PDF.pdf"
         }
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's All-Purpose Glue Stick, Large",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers%E2%80%99-all-purpose-glue-sticks-large/SP_2897847.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Disappearing Purple School Glue Sticks, Large",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-disappearing-purple-school-glue-sticks-large/SAP_E578.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Extra Strength Glue Sticks, Jumbo",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-extra-strength-glue-sticks-jumbo/SP_2897845.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glow-in-the-Dark Liquid Glue",
+      "officialUrl": "https://www.elmers.com/glue/specialty-glue/elmer%E2%80%99s-glow-in-the-dark-liquid-glue/SP_2752229.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
+      ]
+    },
+    {
+      "maker": "Elmer's",
+      "name": "Elmer's Glue Stick Variety Pack, 30 Count",
+      "officialUrl": "https://www.elmers.com/glue/glue-sticks/elmers-glue-stick-variety-pack-30-count/SP_4844943.html",
+      "kind": "product",
+      "sourceLabel": "Elmer's official product pages",
+      "priority": "high",
+      "officialDomains": [
+        "elmers.com"
       ]
     }
   ]

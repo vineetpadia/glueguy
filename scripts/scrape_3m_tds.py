@@ -6,6 +6,7 @@ from __future__ import annotations
 import concurrent.futures
 import json
 import re
+import time
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
@@ -58,6 +59,34 @@ SOURCES = [
         "codes": ["EC3542"],
         "url": "https://multimedia.3m.com/mws/media/1422579O/3m-scotch-weld-epoxy-adhesive-ec-3542-ba-fr.pdf?fn=TDS-3M-Scotch-Weld-Epoxy-Adhesive-EC-3542-BA-FR.pdf",
     },
+    {
+        "codes": ["2214 Hi-Temp"],
+        "url": "https://multimedia.3m.com/mws/media/2365952O/3m-scotch-weld-epoxy-adhesive-2214-hi-temp.pdf",
+    },
+    {
+        "codes": ["2214 Non-Metallic Filled"],
+        "url": "https://multimedia.3m.com/mws/media/2365997O/3m-scotch-weld-epoxy-adhesive-2214-non-metallic-filled.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-2214-Non-Metallic-Filled.pdf",
+    },
+    {
+        "codes": ["2158"],
+        "url": "https://multimedia.3m.com/mws/media/2365973O/3m-scotch-weld-epoxy-adhesive-2158-b-a.pdf",
+    },
+    {
+        "codes": ["DP8005"],
+        "url": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
+    },
+    {
+        "codes": ["DP620NS"],
+        "url": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
+    },
+    {
+        "codes": ["DP8725NS"],
+        "url": "https://multimedia.3m.com/mws/media/2365901O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8725ns.pdf",
+    },
+    {
+        "codes": ["DP8825NS"],
+        "url": "https://multimedia.3m.com/mws/media/2522980O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8825ns-green.pdf?fn=3M-Scotch-Weld-Low-Odor-Acrylic-Adhesive-DP8825NS-Green.pdf",
+    },
 ]
 
 PROPERTY_TERMS = {
@@ -93,9 +122,17 @@ def extract_metadata(source: dict) -> dict:
         "targets": [],
     }
     try:
-        response = requests.get(
-            source["url"], allow_redirects=True, timeout=40, headers=HEADERS
-        )
+        response = None
+        for attempt in range(3):
+            try:
+                response = requests.get(
+                    source["url"], allow_redirects=True, timeout=(20, 90), headers=HEADERS
+                )
+                break
+            except requests.exceptions.Timeout:
+                if attempt == 2:
+                    raise
+                time.sleep(2 * (attempt + 1))
         result["httpStatus"] = response.status_code
         if response.status_code != 200 or "pdf" not in response.headers.get("content-type", "").lower():
             result["textExtractionStatus"] = "source-unavailable-or-not-pdf"
@@ -159,7 +196,7 @@ def product_matches(code: str, name: str) -> bool:
 
 def main() -> None:
     payload = json.loads(LEADS_PATH.read_text(encoding="utf-8"))
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         results = list(executor.map(extract_metadata, SOURCES))
 
     linked_codes = 0

@@ -3,8 +3,8 @@
   "stats": {
     "manufacturersConfigured": 38,
     "discoveredEntries": 997,
-    "tdsDocumentsDiscovered": 30,
-    "tdsDocumentsLinked": 607,
+    "tdsDocumentsDiscovered": 37,
+    "tdsDocumentsLinked": 614,
     "technicalDocumentsLinked": 73,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 978,
@@ -33,8 +33,8 @@
   "documentCoverageByManufacturer": {
     "3M": {
       "productLeads": 47,
-      "productsWithTds": 21,
-      "tdsDocuments": 21,
+      "productsWithTds": 28,
+      "tdsDocuments": 28,
       "productsWithSds": 0
     },
     "Aleene's": {
@@ -287,7 +287,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Composite Urethane Adhesive 6301NS",
+      "name": "3M™ Scotch-Weld™ Composite Urethane Adhesive 6301NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005297038/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -299,7 +299,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1386, Cream, 1 Quart, 12 Can/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088184/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -330,7 +330,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1751, Gray, Part B/A, 1.66 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088197/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -361,7 +361,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838, Green, Part B/A, 1.8 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000088198/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -393,7 +393,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 1838L, Translucent, Part B/A, 2 Quart, 6 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000080066/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -425,7 +425,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2158, Gray, Part B/A, 2 Gallon, 2 Kit/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000300196/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -433,11 +433,30 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365973O/3m-scotch-weld-epoxy-adhesive-2158-b-a.pdf",
+          "label": "3M™ Scotch-Weld™ Epoxy Adhesive 2158",
+          "documentType": "TDS",
+          "documentRevision": "September, 2024",
+          "pageCount": 4,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Temperature Value | Base Color White | Accelerator Color Dark Gray | Base Resin Modified Epoxy",
+            "chemistry": "Regulatory Info/SDS | Product Description | 3M™ Scotch-Weld™ Epoxy Adhesive 2158 B/A is a gray, two-part, high strength adhesive that chemically cures at room | temperature. It has good adhesion to a variety of substrates including metals, many plastics, wood and concrete.",
+            "viscosity": "Accelerator Net Weight 12.8 ± 0.4 lb/gal | Base Viscosity 23 °C (73 °F) 250,000-450,000 cP ¹ | Accelerator Viscosity 23 °C (73 °F) 200,000-800,000 cP ² | ¹ Viscosity obtained by Brookfield, DV-II, #7 Spindle, 20 rpm",
+            "workLife": "Open Time 120 min ¹ | Worklife, 100g mixed 23 °C (73 °F) 120 min | Time to Handling Strength 23 °C (73 °F) 8 — 12 h | Time to Full Cure 23 °C (73 °F) 7 d",
+            "setTime": "Worklife, 100g mixed 23 °C (73 °F) 120 min | Time to Handling Strength 23 °C (73 °F) 8 — 12 h | Time to Full Cure 23 °C (73 °F) 7 d | ¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend",
+            "cureTime": "Time to Handling Strength 23 °C (73 °F) 8 — 12 h | Time to Full Cure 23 °C (73 °F) 7 d | ¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten ad",
+            "hardness": "Attribute Name Test Method Value | Shore D Hardness ASTM D2240 85 | Typical Performance Characteristics | Substrate: FPL Etched Aluminum"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Hi-Temp, Gray, 6 fl oz Cartridge, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147517/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -445,11 +464,30 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365952O/3m-scotch-weld-epoxy-adhesive-2214-hi-temp.pdf",
+          "label": "3M™ Scotch-Weld™ Epoxy Adhesive 2214 Hi-Temp | English-US 1/5",
+          "documentType": "TDS",
+          "documentRevision": "September, 2024",
+          "pageCount": 5,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Value | Color Gray ¹ | Viscosity >1,000,000 cP ² | Viscosity 15 — 30 s ³",
+            "chemistry": "Regulatory Info/SDS | Product Description | • One part 250°F (121°C) curing 100% solids, 3M™ Scotch-Weld™ Epoxy Adhesive 2214 is a paste consistency epoxy | adhesive designed for bonding metals and many high temperature plastics such as fiberglass reinforced plastic,",
+            "viscosity": "Color Gray ¹ | Viscosity >1,000,000 cP ² | Viscosity 15 — 30 s ³ | Net Weight 12 lb/gal",
+            "cureTime": "Attribute Name Value | Time to Full Cure 40 min | Typical Physical Properties | Attribute Name Value",
+            "lapShear": "Attribute Name Test Method Value | Overlap Shear Strength ASTM D1002, ISO 4587 2,400 lb/in² ¹ | ¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.13-0.20 mm (5-8 | mil)",
+            "tensileStrength": "Elongation at Break 1 % | Tensile Strength at Break 8,000 lb/in² | Electrical and Thermal Properties | Attribute Name Test Condition Value",
+            "hardness": "Modulus 800,000 lb/in² | Shore D Hardness ASTM D2240 88 | 3M™ Scotch-Weld™ Epoxy Adhesive 2214 Hi-Temp | English-US 1/5 | Typical Performance Characteristics"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2214, Non-Metallic Filled, Cream, 5.9 fl oz Cartridge, 4 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000147516/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -457,11 +495,30 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365997O/3m-scotch-weld-epoxy-adhesive-2214-non-metallic-filled.pdf?fn=3M-Scotch-Weld-Epoxy-Adhesive-2214-Non-Metallic-Filled.pdf",
+          "label": "3M™ Scotch-Weld™ Epoxy Adhesive 2214 Non-Metallic Filled | English-US 1/5",
+          "documentType": "TDS",
+          "documentRevision": "September, 2024",
+          "pageCount": 5,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Value | Color Cream — Tan ¹ | Viscosity >1,000,000 cP ² | Viscosity 50 — 200 s ³",
+            "chemistry": "Regulatory Info/SDS | Product Description | • One part 250°F (121°C) curing 100% solids, 3M™ Scotch-Weld™ Epoxy Adhesive 2214 is a paste consistency epoxy | adhesive designed for bonding metals and many high temperature plastics such as fiberglass reinforced plastic,",
+            "viscosity": "Color Cream — Tan ¹ | Viscosity >1,000,000 cP ² | Viscosity 50 — 200 s ³ | Net Weight 9.6 lb/gal",
+            "cureTime": "Attribute Name Value | Time to Full Cure 40 min | Typical Physical Properties | Attribute Name Value",
+            "lapShear": "Attribute Name Test Method Value | Overlap Shear Strength ASTM D1002, ISO 4587 2,200 lb/in² ¹ | ¹ 25 mm (1\") wide, 12.7 mm (1/2\") overlap samples, 25 mm (1\") x 102 mm (4\") substrates, bondline thickness: 0.13-0.20 mm (5-8 | mil)",
+            "tensileStrength": "Elongation at Break <2 % | Tensile Strength at Break 9,000 lb/in² | Electrical and Thermal Properties | Attribute Name Test Condition Value",
+            "hardness": "Modulus 700,000 lb/in² | Shore D Hardness ASTM D2240 85 | 3M™ Scotch-Weld™ Epoxy Adhesive 2214 Non-Metallic Filled | English-US 1/5 | Typical Performance Characteristics"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive 2216 Gray",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive 2216 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066446/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -479,7 +536,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100LH",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005065035/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -497,7 +554,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100LH Plus",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100LH Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005319032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -509,7 +566,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP100 Plus",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066487/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -527,7 +584,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP125 Gray",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP125 Gray",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321031/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -545,7 +602,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP420LX, HiNS, Black, 400ml Duo-Pak, 6/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005565002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -557,7 +614,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
+      "name": "3M™ Scotch-Weld™Epoxy Adhesive DP420LX, Off-White, 50 mL Duo-Pak, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101736002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -569,7 +626,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive DP460EG, 50 mL Duo-Pak, 12 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100835273/",
       "kind": "product",
       "sourceLabel": "3M official product page and technical data sheet",
@@ -587,7 +644,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-2615 B/A",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2615 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066454/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -618,7 +675,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-2792 B/A",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-2792 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066502/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -649,7 +706,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-3542 B/A FR",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-3542 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b49000256/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -678,7 +735,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Adhesive EC-9370 B/A FST",
+      "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -690,7 +747,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
+      "name": "3M™ Scotch-Weld™ Epoxy Structural Adhesive DP490, Black, US/Canada Label, 400mL, 6 Each/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v101722005/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -708,7 +765,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Flexible Acrylic Adhesive DP8610NS",
+      "name": "3M™ Scotch-Weld™ Flexible Acrylic Adhesive DP8610NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005197002/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -726,7 +783,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Instant Adhesive CA8",
+      "name": "3M™ Scotch-Weld™ Instant Adhesive CA8",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066933/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -744,7 +801,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
+      "name": "3M™ Scotch-Weld™ Light Activated Epoxy Adhesive 5001, Clear, 30ml, 24/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005545023/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -756,7 +813,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Low Odor Acrylic Adhesive DP810 Black",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP810 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -786,7 +843,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Low Odor Acrylic Adhesive DP8725NS",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8725NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005282004/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -794,11 +851,31 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365901O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8725ns.pdf",
+          "label": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8725NS | English-US 1/6",
+          "documentType": "TDS",
+          "documentRevision": "February, 2025",
+          "pageCount": 6,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Value | Color Black ¹ | Mix Ratio by Volume (B:A) 10:1 | Mix Ratio by Weight (B:A) 10:1",
+            "chemistry": "Regulatory Info/SDS | Product Description | 3M™ Scotch-Weld™ DP8725 Adhesive is a low odor, non-flammable, two-part acrylic structural adhesives with a 10:1 | mix ratio.",
+            "viscosity": "Accelerator Color Gray | Base Viscosity 23 °C (73 °F) 40,000 cP ¹ | Base Viscosity 23 °C (73 °F) 15000 — 80000 cP ² | Accelerator Viscosity 23 °C (73 °F) 15,000 cP ¹",
+            "workLife": "Viscosity 40,000 cP | Worklife 20 — 22 min ¹ | Open Time 25 — 30 min ² | Set Time (min) 23 °C (73 °F) 25 — 30 min ³",
+            "setTime": "Open Time 25 — 30 min ² | Set Time (min) 23 °C (73 °F) 25 — 30 min ³ | 3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8725NS | English-US 1/6 | Attribute Name Temperature Value",
+            "cureTime": "Attribute Name Temperature Value | Time to Structural Strength 30 — 35 min ⁴ | Time to Full Cure 23 °C (73 °F) 24 h | ¹ Maximum time that adhesive can remain in a static mixing nozzle and still be expelled without undue force on the applicator. Cure",
+            "lapShear": "surface. | ³ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | ⁴ Minimum time required to achieve 6.9 MPa (1,000 psi) of overlap shear strength. Cure times are approximate and depend on",
+            "hardness": "Attribute Name Test Method Value | Shore D Hardness ASTM D2240 65 | Typical Performance Characteristics | Overlap Shear Strength"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Low Odor Acrylic Adhesive DP8825NS",
+      "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -806,11 +883,31 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2522980O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8825ns-green.pdf?fn=3M-Scotch-Weld-Low-Odor-Acrylic-Adhesive-DP8825NS-Green.pdf",
+          "label": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS Green | English-EU 1/6",
+          "documentType": "TDS",
+          "documentRevision": "September, 2024",
+          "pageCount": 6,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Temperature Value | Base Color Off-White | Accelerator Color Blue | Base Density 1.12 g/cm³ ¹",
+            "chemistry": "Supersedes: June, 2024 | Product Description | 3M™ Scotch-Weld™ Low Odor Acrylic Adhesives are high performance, two-part acrylic adhesives that offer excellent | shear, peel, and impact performance. These toughened products provide improved adhesion to many plastics and",
+            "viscosity": "Accelerator Density 1.08 g/cm³ ¹ | Base Viscosity 23 °C 40,000 cP ² | Accelerator Viscosity 23 °C 15,000 cP ² | ¹ Density measured using pycnometer.",
+            "workLife": "Viscosity 40,000 cP | Worklife 23 °C 22 — 24 min ¹ | Open Time 21 min ² | Set Time (min) 23 °C 42 — 46 min ³",
+            "setTime": "Open Time 21 min ² | Set Time (min) 23 °C 42 — 46 min ³ | 3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS Green | English-EU 1/6 | Attribute Name Temperature Value",
+            "cureTime": "Attribute Name Temperature Value | Time to Structural Strength 50 — 56 min ⁴ | Time to Full Cure 23 °C 24 h ⁵ | ¹ Maximum time that adhesive can remain in a static mixing nozzle and still be expelled without undue force on the applicator. Cure",
+            "lapShear": "surface. | ³ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | ⁴ Minimum time required to achieve 6.9 MPa (1,000 psi) of overlap shear strength. Cure times are approximate and depend on",
+            "tensileStrength": "Attribute Name Value | Tensile Strength Not Tested MPa ¹ | ¹ 3 mm (1/8 in) thick Type I test specimens; samples pulled at 5 mm/min (0.2 in/min) | Attribute Name Value"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+      "name": "3M™ Scotch-Weld™ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -822,7 +919,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -834,7 +931,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Polyurethane Adhesive DP6605NS",
+      "name": "3M™ Scotch-Weld™ Polyurethane Adhesive DP6605NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005650010/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -846,7 +943,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ PUR Adhesive TS230 Off-White",
+      "name": "3M™ Scotch-Weld™ PUR Adhesive TS230 Off-White",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069382/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -858,7 +955,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ PUR Easy Adhesive EZ250150",
+      "name": "3M™ Scotch-Weld™ PUR Easy Adhesive EZ250150",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40069378/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -870,7 +967,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Structural Adhesive EC-7236 B/A",
+      "name": "3M™ Scotch-Weld™ Structural Adhesive EC-7236 B/A",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066474/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -882,7 +979,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Structural Adhesive EW2060HF",
+      "name": "3M™ Scotch-Weld™ Structural Adhesive EW2060HF",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005036065/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -894,7 +991,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Structural Plastic Adhesive DP8005 Black",
+      "name": "3M™ Scotch-Weld™ Structural Plastic Adhesive DP8005 Black",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -902,11 +999,31 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
+          "label": "3M™ Scotch-Weld™ Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that",
+          "documentType": "TDS",
+          "documentRevision": "February, 2025",
+          "pageCount": 5,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Temperature Value | Base Color Black | Accelerator Color White | Base Resin Methacrylate",
+            "chemistry": "Regulatory Info/SDS | Product Description | 3M™ Scotch-Weld™ Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that | can bond many low surface energy plastics, including many grades of polypropylene, polyethylene, and TPO’s without",
+            "viscosity": "Accelerator Net Weight 8.7 — 9.15 lb/gal | Base Viscosity 23 °C (73 °F) 15000 — 30000 cP ¹ | Accelerator Viscosity 23 °C (73 °F) 35000 — 55000 cP ² | ¹ Viscosity obtained by Brookfield, DV-II, #7 Spindle, 20 rpm",
+            "workLife": "Attribute Name Value | Worklife 2.5 — 3 min | Time to Handling Strength 2 — 3 h ¹ | ¹ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive",
+            "setTime": "Worklife 2.5 — 3 min | Time to Handling Strength 2 — 3 h ¹ | ¹ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature.",
+            "cureTime": "Time to Handling Strength 2 — 3 h ¹ | ¹ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
+            "lapShear": "Time to Handling Strength 2 — 3 h ¹ | ¹ Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
+            "hardness": "Peak Stress 1,692 lb/in² ¹ | Shore D Hardness ASTM D2240 23 °C (73 °F) 60 | ¹ Mechanical properties obtained using a Sintech 5GL Mechanical Tester. Approximate dimensions of the test specimen was 38 x 13 x | 7.6 mm (1.5 x 0.5 x 0.3 in). Elongation was determined by crosshead displacement. The crosshead velocity was 13 "
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Super Fast Instant Adhesive SF100",
+      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF100",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066913/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -924,7 +1041,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+      "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -936,7 +1053,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
+      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -968,7 +1085,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Urethane Adhesive DP620NS",
+      "name": "3M™ Scotch-Weld™ Urethane Adhesive DP620NS",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -976,11 +1093,32 @@
       "officialDomains": [
         "3m.com",
         "multimedia.3m.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
+          "label": "3M™ Scotch-Weld™ Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged",
+          "documentType": "TDS",
+          "documentRevision": "April, 2025",
+          "pageCount": 4,
+          "textExtractionStatus": "text-extracted",
+          "propertyEvidence": {
+            "appearance": "Attribute Name Value | Color Black ¹ | Mix Ratio by Volume (B:A) 1:1 | Mix Ratio by Weight (B:A) 1:1",
+            "chemistry": "Regulatory Info/SDS | Product Description | 3M™ Scotch-Weld™ Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged | as 1:1 ratio liquids in a duo-pak cartridge. With the squeeze of the trigger, the components are automatically mixed and",
+            "viscosity": "Accelerator Density 1.14 — 1.19 | Base Viscosity 23 °C (73 °F) 3000 — 6000 cP ¹ | Accelerator Viscosity 23 °C (73 °F) 1000 — 5000 cP ¹ | ¹ Brookfield CP #52 @ 50 rpm",
+            "workLife": "Open Time 20 min ¹ | Worklife, 10g mixed 23 °C (73 °F) 20 min | Time to Handling Strength 23 °C (73 °F) 4 h ² | ¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend",
+            "setTime": "Worklife, 10g mixed 23 °C (73 °F) 20 min | Time to Handling Strength 23 °C (73 °F) 4 h ² | ¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten ",
+            "cureTime": "Time to Handling Strength 23 °C (73 °F) 4 h ² | ¹ Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten adhesive on a non-metallic | surface.",
+            "lapShear": "surface. | ² Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | 3M™ Scotch-Weld™ Urethane Adhesive DP620NS Black | English-US 1/4",
+            "serviceTemperature": "Attribute Name Value | Long Term Temperature Resistance 121 °C (250 °F) ¹ | Minimum Long Term Temperature Resistance -51 °C (-60 °F) ¹ | ¹ Long Term (day, weeks)",
+            "hardness": "°F) | Shore D Hardness ASTM D2240 23 °C (73 °F) 50 | Typical Performance Characteristics | Overlap Shear Strength"
+          }
+        }
       ]
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ Scotch-WeldÃ¢â€žÂ¢ Void Filling Compound EC-3515 B/A FR",
+      "name": "3M™ Scotch-Weld™ Void Filling Compound EC-3515 B/A FR",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/b5005378018/",
       "kind": "product",
       "sourceLabel": "3M Scotch-Weld category",
@@ -1022,7 +1160,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ VHBÃ¢â€žÂ¢ Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
+      "name": "3M™ VHB™ Tape 4914-020, White, 600 mm x 33 m, 1 Roll/Case",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v000198088/",
       "kind": "product",
       "sourceLabel": "3M tapes category",
@@ -1034,7 +1172,7 @@
     },
     {
       "maker": "3M",
-      "name": "3MÃ¢â€žÂ¢ VHBÃ¢â€žÂ¢ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
+      "name": "3M™ VHB™ Tape 4930F, White, 1 in x 72 yd, 25 mil, Film Liner, Roll",
       "officialUrl": "https://www.3m.com/3M/en_US/p/d/v100808740/",
       "kind": "product",
       "sourceLabel": "3M tapes category",

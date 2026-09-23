@@ -383,6 +383,13 @@ def html_h1(text: str) -> str | None:
 
 def clean_title(value: str, maker: str) -> str:
     cleaned = normalize_space(value)
+    if maker.lower() == "3m" and "\u00c3\u00a2\u00e2" in cleaned:
+        # Repair the double UTF-8/Windows-1252 corruption found in a few 3M
+        # catalog labels (for example, the ™ in "3M™ Scotch-Weld™").
+        try:
+            cleaned = cleaned.encode("cp1252").decode("utf-8")
+        except UnicodeError:
+            pass
     for broken, fixed in (
         ("â„¢", "™"),
         ("â€“", "–"),
@@ -834,6 +841,8 @@ def discover(selected_manufacturers: set[str] | None = None) -> dict:
                         if not allowed_url(record["url"], include_patterns, exclude_patterns, require_patterns):
                             continue
                         name = derive_name_from_label(record.get("label", ""), manufacturer["name"])
+                        if normalize_text(manufacturer.get("name")) == "3m" and name:
+                            name = clean_title(name, manufacturer["name"])
                         if not name or not allowed_name(name, name_require_patterns, name_exclude_patterns):
                             continue
                         source_entries.append({"maker": manufacturer["name"], "name": name, "officialUrl": record["url"], "kind": source.get("kind", "product"), "sourceLabel": source.get("label"), "allowSharedSourceUrl": record.get("allowSharedSourceUrl", False)})

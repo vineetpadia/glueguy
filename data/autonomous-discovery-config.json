@@ -843,7 +843,7 @@
           "label": "Pidilite official Fevikwik, Araldite, and Fevistik brand pages",
           "url": "https://www.pidilite.com/sitemap.xml",
           "kind": "family",
-          "nameStrategy": "title",
+          "nameStrategy": "pidiliteBrandSlug",
           "includeRegex": [
             "/consumer-brands/(fevikwik|araldite|fevistik-and-fevicolmr)$"
           ],
@@ -914,7 +914,12 @@
             "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 100
+          "tdsMaxPages": 100,
+          "excludeRegex": [
+            "heiklebepistole",
+            "made-at-home",
+            "supermatic"
+          ]
         },
         {
           "label": "Pattex official Montagekleber products",
@@ -934,7 +939,12 @@
             "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 100
+          "tdsMaxPages": 100,
+          "excludeRegex": [
+            "heiklebepistole",
+            "made-at-home",
+            "supermatic"
+          ]
         },
         {
           "label": "Pattex official Holz- & Kontaktkleber products",
@@ -954,7 +964,12 @@
             "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 100
+          "tdsMaxPages": 100,
+          "excludeRegex": [
+            "heiklebepistole",
+            "made-at-home",
+            "supermatic"
+          ]
         },
         {
           "label": "Pattex official Sekundenkleber products",
@@ -974,7 +989,12 @@
             "AERO 360|Luftentfeuchter|Tabs Nachfüllpack|PU Schaum|Klebeband|Tape|Heißklebepistole|Dichtmasse"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 100
+          "tdsMaxPages": 100,
+          "excludeRegex": [
+            "heiklebepistole",
+            "made-at-home",
+            "supermatic"
+          ]
         }
       ]
     },

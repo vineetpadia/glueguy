@@ -149,11 +149,24 @@ def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None
     page = fetch_text(product_url, timeout=timeout, transport=transport)
     results = []
     seen = set()
+    hostname = (urlparse(product_url).hostname or "").lower()
+    # Henkel's consumer Loctite pages put datasheets in an explicitly named
+    # "Technical Data Sheets" section but label each PDF with only the
+    # product name. Accept only Henkel's datasheet host and only when that
+    # section heading is present on the product page.
+    loctite_tds_section = hostname.endswith(".loctiteproducts.com") and re.search(
+        r"technical\s+data\s+sheets", page, re.I
+    )
     for record in collect_html_link_records_from_text(product_url, page):
         label = normalize_space(record.get("label", ""))
         url = record["url"].split("#", 1)[0]
         host = (urlparse(url).hostname or "").lower()
         domains = [domain.lower().lstrip(".") for domain in (allowed_domains or [])]
+        if loctite_tds_section and host == "datasheets.tdx.henkel.com":
+            if url.lower().split("?", 1)[0].endswith(".pdf") and url not in seen:
+                seen.add(url)
+                results.append({"url": url, "label": label or "Henkel Loctite Technical Data Sheet"})
+            continue
         if domains and not any(host == domain or host.endswith("." + domain) for domain in domains):
             continue
         searchable = f"{label} {url}".lower()

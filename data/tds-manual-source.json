@@ -2106,7 +2106,7 @@
       "clarity": "transparent",
       "appearance": "Transparent pasty adhesive",
       "refractiveIndex": "approx. 1.49 nD20",
-      "linearExpansionCoeffPerK": 0.00008,
+      "linearExpansionCoeffPerK": 8e-05,
       "thermalConductivity": 0.1,
       "electricalBehavior": "insulating",
       "volumeResistivity": ">1E15 Ohm.cm",
@@ -2300,7 +2300,7 @@
           "method": "DSC"
         }
       ],
-      "thermalExpansionCoeffPerC": 0.00005,
+      "thermalExpansionCoeffPerC": 5e-05,
       "strengthRetentionPct": 80,
       "electricalBehavior": "insulating",
       "shelfLifeMonths": 18,
@@ -2807,8 +2807,8 @@
       "volumeResistivityOhmCm": "1E-4 to 5E-4",
       "volumeResistivityOhmM": "1E-6 to 5E-6",
       "volumeResistivityRangeOhmM": [
-        0.000001,
-        0.000005
+        1e-06,
+        5e-06
       ],
       "lapShear": 7.5,
       "lapShearRangeMPa": [
@@ -6995,7 +6995,7 @@
       "thixotropic": true,
       "electricalBehavior": "insulating",
       "thermalConductivity": 0.1,
-      "thermalExpansionCoeffPerC": 0.00009,
+      "thermalExpansionCoeffPerC": 9e-05,
       "dielectricBreakdownKVPerMm": 25,
       "specificGravity": 1.1,
       "hardnessValue": 85,
@@ -9524,10 +9524,10 @@
       "thermalResistanceJunctionToCase": "6.7 to 7.0 C/W for TO-18 package with nickel-gold metallized 20 x 20 mil chips and 2 mil H20E bondline",
       "volumeResistivity": "<= 0.0004 Ohm-cm",
       "volumeResistivityOhmCm": 0.0004,
-      "volumeResistivityOhmM": 0.000004,
+      "volumeResistivityOhmM": 4e-06,
       "glassTransitionC": ">=80",
       "coefficientThermalExpansionPerC": {
-        "belowTg": 0.000031,
+        "belowTg": 3.1e-05,
         "aboveTg": 0.000158
       },
       "hardnessValue": 75,
@@ -9644,7 +9644,7 @@
       "thermalConductivity": null,
       "glassTransitionC": ">=115",
       "coefficientThermalExpansionPerC": {
-        "belowTg": 0.000074,
+        "belowTg": 7.4e-05,
         "aboveTg": 0.000145
       },
       "hardnessValue": 86,
@@ -10090,7 +10090,7 @@
       },
       "glassTransitionC": ">=90",
       "coefficientThermalExpansionPerC": {
-        "belowTg": 0.000051,
+        "belowTg": 5.1e-05,
         "aboveTg": 0.000178
       },
       "hardnessValue": 85,
@@ -10654,7 +10654,7 @@
       "hardnessScale": "Shore D",
       "glassTransitionC": 55,
       "coefficientThermalExpansionPerC": {
-        "belowTg": 0.000066,
+        "belowTg": 6.6e-05,
         "aboveTg": 0.000248
       },
       "decompositionTemperatureC": 364,
@@ -19130,7 +19130,7 @@
       "lapShearSubstrate": "The official TB3303N technical data does not publish lap shear; it publishes chip bonding strength of 3.1 MPa on a ceramic chip to glass sheet after 180 C x 60 min cure.",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "2.3E-6 Ohm.m after 180 C x 60 min cure",
-      "volumeResistivityOhmM": 0.0000023,
+      "volumeResistivityOhmM": 2.3e-06,
       "chipBondStrength": "3.1 MPa, ceramic chip / glass sheet after 180 C x 60 min cure",
       "chipBondStrengthMPa": 3.1,
       "hardnessScale": "Pencil",
@@ -21516,7 +21516,7 @@
       "lapShearSubstrate": "stainless steel, ASTM D1002",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "7.0 x 10^-4 Ohm.cm",
-      "volumeResistivityOhmM": 0.000007,
+      "volumeResistivityOhmM": 7e-06,
       "tensileStrengthMPa": 9,
       "compressiveStrengthMPa": 36,
       "hardnessValue": 73,
@@ -21625,7 +21625,7 @@
       "lapShearSubstrate": "stainless steel, ASTM D1002",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "6.0 x 10^-3 Ohm.cm",
-      "volumeResistivityOhmM": 0.00006,
+      "volumeResistivityOhmM": 6e-05,
       "tensileStrengthMPa": 14,
       "compressiveStrengthMPa": 65,
       "hardnessValue": 60,
@@ -21734,7 +21734,7 @@
       "lapShearSubstrate": "stainless steel, ASTM D1002",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "1.8 x 10^-3 Ohm.cm",
-      "volumeResistivityOhmM": 0.000018,
+      "volumeResistivityOhmM": 1.8e-05,
       "tensileStrengthMPa": 13,
       "compressiveStrengthMPa": 69,
       "hardnessValue": 78,
@@ -21839,7 +21839,7 @@
       "lapShearSubstrate": "ASTM D-1002, TDS prints >1200 lbs/in",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "<0.001 Ohm.cm",
-      "volumeResistivityOhmM": 0.00001,
+      "volumeResistivityOhmM": 1e-05,
       "hardnessValue": ">70",
       "hardnessScale": "Shore",
       "thermalConductivity": 1.6,
@@ -26094,7 +26094,7 @@
       "lapShearSubstrate": "stainless steel",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "1.8 x 10^-3 Ohm.cm",
-      "volumeResistivityOhmM": 0.000018,
+      "volumeResistivityOhmM": 1.8e-05,
       "compressiveStrengthMPa": 26,
       "hardnessValue": 70,
       "hardnessScale": "Shore D",
@@ -26202,7 +26202,7 @@
       "lapShearSubstrate": "stainless steel, ASTM D1002",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "5.3 x 10^-4 Ohm.cm",
-      "volumeResistivityOhmM": 0.0000053,
+      "volumeResistivityOhmM": 5.3e-06,
       "tensileStrengthMPa": 8.3,
       "compressiveStrengthMPa": 75,
       "hardnessValue": 84,
@@ -31202,7 +31202,7 @@
       "lapShearSubstrate": "substrate not stated; TDS reports 9,400 psi lap shear",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "<1 x 10^-4 Ohm.cm; cured property table gives 0.0001 Ohm.cm",
-      "volumeResistivityOhmM": 0.000001,
+      "volumeResistivityOhmM": 1e-06,
       "thermalConductivity": 2.99,
       "thermalExpansionCoeffPpmC": 15,
       "tensileStrengthMPa": 65.5,
@@ -39897,7 +39897,7 @@
       "hardnessValue": 88,
       "hardnessScale": "JIS-D, JIS K 7215",
       "glassTransitionC": 105,
-      "linearExpansionCoeffPerK": 0.000074,
+      "linearExpansionCoeffPerK": 7.4e-05,
       "waterAbsorptionPct": {
         "boiling1h": 0.48,
         "pct": 2.8
@@ -40071,7 +40071,7 @@
       "hardnessValue": 89,
       "hardnessScale": "JIS-D, JIS K 7215",
       "glassTransitionC": 105,
-      "linearExpansionCoeffPerK": 0.000069,
+      "linearExpansionCoeffPerK": 6.9e-05,
       "waterAbsorptionPct": {
         "boiling1h": 0.47,
         "pct": 2.7
@@ -40372,7 +40372,7 @@
       "chipBondStrengthMPa": 15,
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "0.5E-5 Ohm.m",
-      "volumeResistivityOhmM": 0.000005,
+      "volumeResistivityOhmM": 5e-06,
       "lowHalogen": true,
       "halogenContentPpm": {
         "totalChlorineMax": 900,
@@ -40505,7 +40505,7 @@
       "hardnessValue": 86,
       "hardnessScale": "JIS-D by 3TS-215-01",
       "glassTransitionC": 65,
-      "linearExpansionCoeffPerK": 0.000093,
+      "linearExpansionCoeffPerK": 9.3e-05,
       "waterAbsorptionPct": "1.03 after boiling for 1 h by 3TS-233-02",
       "reworkable": true,
       "reworkProfiles": [
@@ -40627,7 +40627,7 @@
         "steelSteel": 19.6
       },
       "glassTransitionC": 163,
-      "linearExpansionCoeffPerK": 0.0000421,
+      "linearExpansionCoeffPerK": 4.21e-05,
       "electricalBehavior": "insulating",
       "volumeResistivity": "1.23E13 Ohm.m / 1.23E15 Ohm.cm",
       "volumeResistivityOhmM": 12300000000000,
@@ -40738,7 +40738,7 @@
       "hardnessScale": "Pencil hardness by 3TS-215-05",
       "electricalBehavior": "isotropic-conductive",
       "volumeResistivity": "1.9E-6 Ohm.m after 180 C x 60 min cure",
-      "volumeResistivityOhmM": 0.0000019,
+      "volumeResistivityOhmM": 1.9e-06,
       "storageTemperatureMinC": -20,
       "storageTemperatureMaxC": 5,
       "nozzleInnerDiameterMinMm": 0.21,
@@ -40974,7 +40974,7 @@
       "hardnessValue": 89,
       "hardnessScale": "Shore D",
       "glassTransitionC": 115,
-      "linearExpansionCoeffPerK": 0.000045,
+      "linearExpansionCoeffPerK": 4.5e-05,
       "electricalBehavior": "insulating",
       "volumeResistivity": "2.9E13 Ohm.m / 2.9E15 Ohm.cm",
       "volumeResistivityOhmM": 29000000000000,
@@ -43227,7 +43227,7 @@
           "temperatureC": 153
         }
       ],
-      "linearExpansionCoeffPerK": 0.000035,
+      "linearExpansionCoeffPerK": 3.5e-05,
       "storageModulusProfilesGPa": {
         "25C": 5.3,
         "100C": 3.7
@@ -46858,7 +46858,7 @@
       "hardnessValue": 78,
       "hardnessScale": "Durometer D",
       "glassTransitionC": 160,
-      "linearExpansionCoeffPerK": 0.000069,
+      "linearExpansionCoeffPerK": 6.9e-05,
       "linearExpansionCoeffPpmC": 69,
       "storageTemperatureMinC": -5,
       "storageTemperatureMaxC": 25,
@@ -50894,7 +50894,7 @@
       "viscosityUnit": "Pa.s by 3TS-210-10 at shear rate 19.2 s^-1",
       "specificGravity": 1.5,
       "electricalBehavior": "conductive",
-      "volumeResistivityOhmM": 0.00008,
+      "volumeResistivityOhmM": 8e-05,
       "lowHalogen": true,
       "halogenContentPpm": {
         "totalChlorine": "<900",
@@ -51046,8 +51046,8 @@
       "viscosityUnit": "Pa.s / 100 P",
       "specificGravity": 2.6,
       "thermalConductivity": 2.55,
-      "coefficientThermalExpansionPerC": 0.0000075,
-      "linearExpansionCoeffPerK": 0.0000075,
+      "coefficientThermalExpansionPerC": 7.5e-06,
+      "linearExpansionCoeffPerK": 7.5e-06,
       "vickersHardness": 200,
       "lapShear": 2.8,
       "lapShearSubstrate": "Cured material lap shear strength 2.8 MPa / 28.7 kgf/cm2; shear-strength graph shows 2.04 MPa after 0.5 h x100 C, 2.39 MPa after 24 h room temperature, 2.62 MPa after 72 h room temperature and 2.87 MPa after 168 h room temperature.",
@@ -51339,7 +51339,7 @@
       "shrinkagePct": 0.9,
       "glassTransitionC": -45,
       "linearExpansionCoeffPerK": {
-        "alpha1Minus100ToMinus70C": 0.000066,
+        "alpha1Minus100ToMinus70C": 6.6e-05,
         "alpha2ZeroTo50C": 0.0002215
       },
       "electricalBehavior": "not published",
@@ -51908,7 +51908,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000081,
+        "zeroTo100CMin": 8.1e-05,
         "zeroTo100CMax": 0.000124
       },
       "glassTransitionC": 110,
@@ -52068,7 +52068,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000079,
+        "zeroTo100CMin": 7.9e-05,
         "zeroTo100CMax": 0.000116
       },
       "glassTransitionC": 107,
@@ -52228,7 +52228,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000077,
+        "zeroTo100CMin": 7.7e-05,
         "zeroTo100CMax": 0.000121
       },
       "glassTransitionC": 109,
@@ -52389,7 +52389,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000083,
+        "zeroTo100CMin": 8.3e-05,
         "zeroTo100CMax": 0.000135
       },
       "glassTransitionC": 118,
@@ -52548,7 +52548,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000078,
+        "zeroTo100CMin": 7.8e-05,
         "zeroTo100CMax": 0.000123
       },
       "glassTransitionC": 99,
@@ -52708,7 +52708,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100CMin": 0.000076,
+        "zeroTo100CMin": 7.6e-05,
         "zeroTo100CMax": 0.00013
       },
       "glassTransitionC": 96,
@@ -52869,7 +52869,7 @@
       },
       "electricalBehavior": "insulating",
       "linearExpansionCoeffPerK": {
-        "zeroTo100C": 0.000095,
+        "zeroTo100C": 9.5e-05,
         "oneTenTo150C": 0.000171
       },
       "glassTransitionC": 104,
@@ -58038,6 +58038,144 @@
       "referenceSampleConsistency": "Colourless methyl cyanoacrylate, 2–4 cP.",
       "referenceForJoining": "Steel, aluminium, brass, stainless steel and other metals; also plastics and rubbers in close-fitting joints.",
       "productUrl": "https://permabond.com/tds/910fs_tds-en/"
+    },
+    {
+      "id": "loctite-clear-epoxy",
+      "maker": "Henkel Loctite",
+      "name": "Clear Epoxy",
+      "profile": "clearEpoxy",
+      "summary": "Clear two-part epoxy for transparent household repairs and bonding multiple hard materials.",
+      "sourceRevisionDate": "LOCTITE Epoxy Clear Multi-Purpose Technical Data Sheet, 7 April 2016.",
+      "chemistry": "Two-part epoxy",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Mix equal volumes of resin and hardener. Sets in 5–10 minutes; reaches usable strength in about 30 minutes and full cure in 24 hours.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "TDS reports continuous exposure from −23 °C to 49 °C and intermittent exposure up to 150 °C.",
+      "fixtureTime": 7.5,
+      "fixtureTimeNote": "Sets in 5–10 minutes; midpoint shown.",
+      "fullStrengthHours": 24,
+      "lapShear": 23.7,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24 h: 23.7 MPa; aluminum, 24 h: 14.17 MPa. TDS values are typical test results.",
+      "clarity": "transparent",
+      "applicationTags": [
+        "epoxy",
+        "clear-bonding",
+        "household-repair",
+        "metal-bonding",
+        "ceramic-bonding"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 2,
+        "impact": 4
+      },
+      "substrates": {
+        "steel": 8,
+        "aluminum": 7,
+        "glass": 7,
+        "ceramic": 8,
+        "wood": 7,
+        "plastic": 5
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not product specifications.",
+        "Mix equal volumes thoroughly; bond strength depends on surface preparation and joint design."
+      ],
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
+      "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html"
+    },
+    {
+      "id": "loctite-epoxy-instant-mix-5min",
+      "maker": "Henkel Loctite",
+      "name": "Epoxy Instant Mix 5 Minute",
+      "profile": "clearEpoxy",
+      "summary": "Fast-setting equal-volume epoxy with a static mixing nozzle for small repairs and general-purpose bonding.",
+      "sourceRevisionDate": "LOCTITE Instant Mix 5 Minute Epoxy Technical Data Sheet, 22 April 2025.",
+      "chemistry": "Two-part epoxy",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix. Sets in 5–7 minutes, reaches usable strength in about 20 minutes, and fully cures in 24 hours.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "fixtureTime": 6,
+      "fixtureTimeNote": "Sets in 5–7 minutes; midpoint shown.",
+      "fullStrengthHours": 24,
+      "viscosityValue": "Approximately 11,000",
+      "viscosityUnit": "cP",
+      "lapShear": 17.2,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24 h: 17.2 MPa. Typical TDS test result.",
+      "applicationTags": [
+        "epoxy",
+        "fast-setting",
+        "household-repair",
+        "metal-bonding",
+        "ceramic-bonding"
+      ],
+      "stress": {
+        "shear": 5,
+        "peel": 2,
+        "impact": 4
+      },
+      "substrates": {
+        "steel": 7,
+        "aluminum": 6,
+        "glass": 6,
+        "ceramic": 7,
+        "wood": 7,
+        "plastic": 5
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not product specifications.",
+        "Mix equal volumes; short working time requires parts to be aligned promptly."
+      ],
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
+      "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html"
+    },
+    {
+      "id": "loctite-super-glue-ultra-gel-control",
+      "maker": "Henkel Loctite",
+      "name": "Super Glue Ultra Gel Control",
+      "profile": "gelCA",
+      "summary": "Rubber-toughened ethyl cyanoacrylate gel for controlled application and improved peel and impact resistance.",
+      "sourceRevisionDate": "LOCTITE Super Glue Ultra Gel Control Technical Data Sheet.",
+      "chemistry": "Rubber-toughened ethyl cyanoacrylate",
+      "cureFamily": "Cyanoacrylate",
+      "cureDetail": "One-part moisture-curing cyanoacrylate gel. Fixture in 15–30 seconds; handling strength in about 5 minutes; full cure in 12–24 hours.",
+      "serviceMax": 82,
+      "fixtureTime": 0.375,
+      "fixtureTimeNote": "15–30 seconds; midpoint shown.",
+      "fullStrengthHours": 18,
+      "lapShear": 21.12,
+      "lapShearSubstrate": "Aluminum, ISO 4587, representative value: 21.12 MPa (reported range 15–25 MPa).",
+      "peelStrengthNPerM": 2500,
+      "clarity": "transparent",
+      "applicationTags": [
+        "cyanoacrylate",
+        "gel",
+        "instant-bonding",
+        "impact-resistant",
+        "peel-resistant",
+        "controlled-dispensing"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 6,
+        "impact": 6
+      },
+      "substrates": {
+        "aluminum": 7,
+        "steel": 7,
+        "ceramic": 7,
+        "rubber": 7,
+        "plastic": 6
+      },
+      "cautions": [
+        "Typical TDS values are guidelines, not product specifications.",
+        "Not intended for continuous water exposure; does not fill gaps.",
+        "Maximum service temperature reported by the TDS is 82 °C."
+      ],
+      "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
+      "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
     }
   ]
 }

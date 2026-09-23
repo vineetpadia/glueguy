@@ -898,7 +898,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "viscosityValue": "900-1500",
     "viscosityUnit": "mPa.s",
-    "viscosityNote": "Cone & Plate at 100 s\u207b\u00b9 shear rate, 25\u00b0C; Brookfield LVF Spindle 2 at 12 rpm: 1100-1650 mPa.s"
+    "viscosityNote": "Cone & Plate at 100 s⁻¹ shear rate, 25°C; Brookfield LVF Spindle 2 at 12 rpm: 1100-1650 mPa.s"
   },
   {
     "id": "loctite-hy4070",
@@ -974,7 +974,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "clarity": "translucent",
     "viscosityValue": "200-1300",
     "viscosityUnit": "mPa.s",
-    "viscosityNote": "Casson Viscosity Part A, Cone & Plate Rheometer, 25\u00b0C"
+    "viscosityNote": "Casson Viscosity Part A, Cone & Plate Rheometer, 25°C"
   },
   {
     "id": "loctite-si595",
@@ -989,14 +989,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMax": 204,
     "gapFill": 6,
     "fixtureTime": 30,
-    "potLife": "\u226445 min",
+    "potLife": "≤45 min",
     "unpublishedFields": [
       "serviceMin",
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
     ],
-    "tackFreeTime": "\u226445 minutes",
+    "tackFreeTime": "≤45 minutes",
     "tackFreeTimeMinutes": 45,
     "fullCureHours": 24,
     "fullCureMinutes": 1440,
@@ -1452,7 +1452,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "cureProfiles"
     ],
-    "serviceTemperatureNote": "No explicit service temp range; heat aging data at 120\u2013130 \u00b0C (up to 18 weeks); thermal shock \u221240 to +125 \u00b0C (3000 cycles); standard test conditions 16\u201327 \u00b0C."
+    "serviceTemperatureNote": "No explicit service temp range; heat aging data at 120–130 °C (up to 18 weeks); thermal shock −40 to +125 °C (3000 cycles); standard test conditions 16–27 °C."
   },
   {
     "id": "cemedine-sx720",
@@ -2896,7 +2896,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product page does not publish service-temperature minimum, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life."
     ],
     "referenceUrl": "https://threebond.com/products/adhesives/elastic-bonding-adhesives/",
-    "serviceTemperatureNote": "TDS cache is family-level HTML page; 16\u201327 \u00b0C appears to be standard test conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
+    "serviceTemperatureNote": "TDS cache is family-level HTML page; 16–27 °C appears to be standard test conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
@@ -3164,7 +3164,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The source product page does not publish service-temperature range, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life for TB1211."
     ],
     "referenceUrl": "https://threebond.com/products/sealants/silicone-rtv/",
-    "serviceTemperatureNote": "TDS cache is family-level HTML page; \u22125 to 25 \u00b0C appears to be standard test or storage conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
+    "serviceTemperatureNote": "TDS cache is family-level HTML page; −5 to 25 °C appears to be standard test or storage conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
     "unpublishedFields": [
       "lapShear",
       "potLife",
@@ -3192,7 +3192,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "mPa.s / cP",
     "specificGravity": 1.13,
     "lapShear": 28,
-    "lapShearSubstrate": "Steel fixing shear strength 28 MPa (290 kgf/cm\u00b2) from TB1324 TDS",
+    "lapShearSubstrate": "Steel fixing shear strength 28 MPa (290 kgf/cm²) from TB1324 TDS",
     "recommendedClearanceMm": "0.01-0.02",
     "maximumClearanceMm": 0.3,
     "cureTimesByTemperatureMinutes": {
@@ -3561,7 +3561,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA300-TDS.pdf",
     "viscosityValue": "A: 40000-70000; B: 40000-70000",
     "viscosityUnit": "cP",
-    "serviceTemperatureNote": "TDS explicitly recommends application at 65\u201385\u00b0F (18\u201330\u00b0C) for proper cure; temperatures outside that range slow or accelerate cure significantly.",
+    "serviceTemperatureNote": "TDS explicitly recommends application at 65–85°F (18–30°C) for proper cure; temperatures outside that range slow or accelerate cure significantly.",
     "unpublishedFields": [
       "thermalConductivity"
     ]
@@ -3681,7 +3681,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA310-TDS.pdf",
     "viscosityValue": "A: 40000-70000; B: 40000-70000",
     "viscosityUnit": "cP",
-    "serviceTemperatureNote": "The official TDS recommends application at 65\u201385\u00b0F (18\u201330\u00b0C) for reliable cure and lists 13\u201325\u00b0C storage range for shelf-life stability.",
+    "serviceTemperatureNote": "The official TDS recommends application at 65–85°F (18–30°C) for reliable cure and lists 13–25°C storage range for shelf-life stability.",
     "unpublishedFields": [
       "thermalConductivity"
     ]
@@ -3940,7 +3940,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Bulk dispensing equipment must be explosion proof; liquid-contact parts should be stainless steel and should avoid brass, carbon steel, copper, copper alloys, Viton, Buna-N, Neoprene, and other elastomer seals."
     ],
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA205HV-TDS.pdf",
-    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13\u201325 \u00b0C (max 38 \u00b0C avoids shelf-life reduction); cure profile shown at 15\u201332 \u00b0C application temperatures.",
+    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "stress": {
       "shear": 8,
       "peel": 6,
@@ -4082,7 +4082,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Bulk dispensing equipment must be explosion proof; liquid-contact parts should be stainless steel and should avoid brass, carbon steel, copper, copper alloys, Viton, Buna-N, Neoprene, and other elastomer seals."
     ],
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8110_GB-TDS_EN.pdf",
-    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13\u201325 \u00b0C (max 38 \u00b0C avoids shelf-life reduction); cure profile shown at 15\u201332 \u00b0C application temperatures.",
+    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "stress": {
       "shear": 8,
       "peel": 6,
@@ -4236,14 +4236,14 @@ window.TDS_MANUAL_PRODUCTS = [
       "stress"
     ],
     "cautions": [
-      "The official TDS states application-temperature guidance for reliable cure: 65\u201385 F (18\u201330 C).",
+      "The official TDS states application-temperature guidance for reliable cure: 65–85 F (18–30 C).",
       "Cartridge products are supplied only with glass-bead spacers; bulk pails and drums are available with or without glass-bead spacers.",
       "Mixing large masses can generate substantial exotherm and release entrapped air, steam, or volatile gases; confine gap thickness to the published maximum.",
       "Bulk dispensing equipment must be explosion proof; liquid-contact parts should be stainless steel and should avoid brass, carbon steel, copper, copper alloys, Viton, Buna-N, Neoprene, and other elastomer seals.",
       "The Digi-Key CSV row does not disclose a public package volume, so pricing is recorded per observed distributor pack rather than normalized per mL."
     ],
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8105_GB-TDS_EN.pdf",
-    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13\u201325 \u00b0C (max 38 \u00b0C avoids shelf-life reduction); cure profile shown at 15\u201332 \u00b0C application temperatures.",
+    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "viscosityValue": "A: 70000-140000; B: 50000-120000",
     "viscosityUnit": "cP",
     "pricing": {
@@ -4395,7 +4395,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "metal": 9
     },
     "cautions": [
-      "The official TDS states application-temperature guidance for reliable cure: 65\u201385 F (18\u201330 C).",
+      "The official TDS states application-temperature guidance for reliable cure: 65–85 F (18–30 C).",
       "Cartridge products are supplied only with glass-bead spacers; bulk pails and drums are available with or without glass-bead spacers.",
       "MA8120/GB is lower halogen and slower than MA8105/GB; use the 18-22 minute work-time range rather than borrowing faster family defaults.",
       "Mixing large masses can generate substantial exotherm and release entrapped air, steam, or volatile gases; confine gap thickness to the published maximum.",
@@ -4403,7 +4403,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The Digi-Key CSV row does not disclose a public package volume, so pricing is recorded per observed distributor pack rather than normalized per mL."
     ],
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8120_GB-TDS_EN.pdf",
-    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13\u201325 \u00b0C (max 38 \u00b0C avoids shelf-life reduction); cure profile shown at 15\u201332 \u00b0C application temperatures.",
+    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "unpublishedFields": [
       "thermalConductivity"
     ],
@@ -4509,7 +4509,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The official sheet reports tensile strength and elongation as ranges, so they remain in text rather than midpoint approximations.",
       "The product is positioned specifically for primerless metal bonding; use that advantage instead of assuming every acrylic in the family behaves the same way.",
       "Gap tolerance is large at 0.25-13 mm, which changes exotherm and cure behavior versus thin bond-line products.",
-      "The official TDS states application-temperature guidance for reliable cure: 65\u201385 F (18\u201330 C).",
+      "The official TDS states application-temperature guidance for reliable cure: 65–85 F (18–30 C).",
       "Bulk dispensing equipment must be explosion proof; wetted parts should be stainless steel; avoid brass, carbon steel, copper/copper alloys and Viton/BUNA-N/Neoprene seals.",
       "Strong polar solvents, strong acids and bases are listed as susceptible chemical exposures."
     ],
@@ -4520,9 +4520,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA832-TDS-.pdf",
     "viscosityValue": "A: 80000-130000; B: 35000-80000",
     "viscosityUnit": "cP",
-    "serviceTemperatureNote": "TDS explicitly recommends application at 65\u201385\u00b0F (18\u201330\u00b0C) for proper cure; temperatures outside that range slow or accelerate cure significantly.",
+    "serviceTemperatureNote": "TDS explicitly recommends application at 65–85°F (18–30°C) for proper cure; temperatures outside that range slow or accelerate cure significantly.",
     "fixtureTime": 55,
-    "fixtureTimeNote": "Time to 0.3 MPa (50 psi) at 75\u00b0F (23.9\u00b0C): 55-60 min per TDS cure profile table",
+    "fixtureTimeNote": "Time to 0.3 MPa (50 psi) at 75°F (23.9°C): 55-60 min per TDS cure profile table",
     "stress": {
       "shear": 8,
       "peel": 6,
@@ -4649,7 +4649,7 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "cautions": [
       "Industrial use only; end user must validate suitability.",
-      "The official TDS states application-temperature guidance for reliable cure: 65\u201385 F (18\u201330 C).",
+      "The official TDS states application-temperature guidance for reliable cure: 65–85 F (18–30 C).",
       "The product is positioned for marine and transportation composite bonding with minimal surface preparation rather than for precision thin bond-line assemblies.",
       "Product-page metal guidance still distinguishes coated metals and raw metals with PC120 surface preparation.",
       "Mate surfaces within working time and keep adhesive within max gap capability to limit exotherm/volatile release.",
@@ -4667,9 +4667,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "viscosityValue": "A: 100000-125000; B: 35000-70000",
     "viscosityUnit": "cP",
-    "serviceTemperatureNote": "The official TDS recommends application at 65\u201385\u00b0F (18\u201330\u00b0C) for reliable cure and lists 13\u201325\u00b0C storage for shelf-life stability.",
+    "serviceTemperatureNote": "The official TDS recommends application at 65–85°F (18–30°C) for reliable cure and lists 13–25°C storage for shelf-life stability.",
     "fixtureTime": 80,
-    "fixtureTimeNote": "Time to 0.3 MPa (50 psi) at 75\u00b0F (23.9\u00b0C): 80-85 min per TDS cure profile table",
+    "fixtureTimeNote": "Time to 0.3 MPa (50 psi) at 75°F (23.9°C): 80-85 min per TDS cure profile table",
     "stress": {
       "shear": 8,
       "peel": 6,
@@ -4813,7 +4813,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA560-1-TDS.pdf",
     "viscosityValue": "A: 145000-185000; B: 170000-205000",
     "viscosityUnit": "cP",
-    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13\u201325 \u00b0C (max 38 \u00b0C avoids shelf-life reduction); cure profile shown at 15\u201332 \u00b0C application temperatures.",
+    "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "unpublishedFields": [
       "thermalConductivity"
     ]
@@ -4878,7 +4878,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
-    "serviceTemperatureNote": "Shelf life stored at 10\u201330 \u00b0C; service temperature not stated in available TDS text; product is two-part PU structural adhesive."
+    "serviceTemperatureNote": "Shelf life stored at 10–30 °C; service temperature not stated in available TDS text; product is two-part PU structural adhesive."
   },
   {
     "id": "sikapower-498-3",
@@ -4953,7 +4953,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://industry.sika.com/content/dam/dms/us01/e/sikapower-498-3.pdf"
     ],
-    "serviceTemperatureNote": "Shelf life stored below 25 \u00b0C; service temp not stated; Tg=110 \u00b0C (heat-cured 180 \u00b0C/30 min); applied at 50\u201360 \u00b0C."
+    "serviceTemperatureNote": "Shelf life stored below 25 °C; service temp not stated; Tg=110 °C (heat-cured 180 °C/30 min); applied at 50–60 °C."
   },
   {
     "id": "panacol-structalit-8801",
@@ -6345,7 +6345,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": "2-3",
     "viscosityUnit": "mPa.s",
     "lapShear": 19,
-    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm\u00b2; also tested on aluminum (7-9 MPa), zinc (8-10 MPa), ABS (>6 MPa SF), PC (6 MPa)",
+    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm²; also tested on aluminum (7-9 MPa), zinc (8-10 MPa), ABS (>6 MPa SF), PC (6 MPa)",
     "thermalConductivity": 0.1,
     "dielectricConstant": 2.5,
     "dielectricBreakdownKVPerMm": 25,
@@ -6384,7 +6384,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
     "sourceRevisionDate": "Permabond 101 Global TDS Revision 7, 05 August 2020",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf"
@@ -6405,7 +6405,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": "70-90",
     "viscosityUnit": "mPa.s",
     "lapShear": 19,
-    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm\u00b2 (midpoint); also tested on aluminum, ABS, rubber",
+    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm² (midpoint); also tested on aluminum, ABS, rubber",
     "thermalConductivity": 0.1,
     "dielectricConstant": 2.5,
     "dielectricBreakdownKVPerMm": 25,
@@ -6441,7 +6441,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf"
   },
@@ -6450,12 +6450,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "profile": "thinCA",
     "maker": "Permabond",
     "name": "919",
-    "summary": "Allyl cyanoacrylate originally designed for high-temperature service; standard cure gives -55 to ~100\u00b0C, secondary heat-activation at 150\u00b0C for 2h unlocks up to 250\u00b0C service. MIL-A-46050C Type V Class 1.",
+    "summary": "Allyl cyanoacrylate originally designed for high-temperature service; standard cure gives -55 to ~100°C, secondary heat-activation at 150°C for 2h unlocks up to 250°C service. MIL-A-46050C Type V Class 1.",
     "cureFamily": "Cyanoacrylate",
-    "cureDetail": "One-part allyl cyanoacrylate; room-temperature cure for standard service; secondary heat-activation (150\u00b0C / 2h after 4h RT clamp) for 250\u00b0C service",
+    "cureDetail": "One-part allyl cyanoacrylate; room-temperature cure for standard service; secondary heat-activation (150°C / 2h after 4h RT clamp) for 250°C service",
     "serviceMin": -55,
     "serviceMax": 250,
-    "serviceTemperatureNote": "Standard cure serviceMin -55\u00b0C; serviceMax 250\u00b0C requires secondary heat-activation: clamp at RT for 4h then heat at 150\u00b0C for 2h.",
+    "serviceTemperatureNote": "Standard cure serviceMin -55°C; serviceMax 250°C requires secondary heat-activation: clamp at RT for 4h then heat at 150°C for 2h.",
     "gapFill": 0.05,
     "fixtureTime": 0.17,
     "fixtureTimeNote": "10 seconds per product description; 15s on NBR rubber, 20s on Buna N",
@@ -6463,7 +6463,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": "2-6",
     "viscosityUnit": "mPa.s",
     "lapShear": 20,
-    "lapShearSubstrate": "Steel ISO 4587, 20-22 N/mm\u00b2; aluminum 16-18 MPa",
+    "lapShearSubstrate": "Steel ISO 4587, 20-22 N/mm²; aluminum 16-18 MPa",
     "thermalConductivity": 0.1,
     "hardnessValue": 85,
     "hardnessScale": "Shore D",
@@ -6491,7 +6491,7 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "cautions": [
       "Allyl cyanoacrylate chemistry - different from standard ethyl CA; review compatibility before using with rubber or plastics sensitive to CA.",
-      "Full 250\u00b0C service requires heat-activation protocol: 4h RT clamp + 2h at 150\u00b0C. Standard RT cure only.",
+      "Full 250°C service requires heat-activation protocol: 4h RT clamp + 2h at 150°C. Standard RT cure only.",
       "MIL-A-46050C Type V Class 1 - verify requirements for specific applications."
     ],
     "unpublishedFields": [
@@ -6517,7 +6517,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": 80,
     "viscosityUnit": "mPa.s",
     "lapShear": 19,
-    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm\u00b2",
+    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm²",
     "thermalConductivity": 0.1,
     "hardnessValue": 85,
     "hardnessScale": "Shore D",
@@ -6546,7 +6546,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf"
   },
@@ -6566,7 +6566,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": "1200-2000",
     "viscosityUnit": "mPa.s",
     "lapShear": 19,
-    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm\u00b2",
+    "lapShearSubstrate": "Steel ISO 4587, 19-23 N/mm²",
     "thermalConductivity": 0.1,
     "hardnessValue": 85,
     "hardnessScale": "Shore D",
@@ -6598,7 +6598,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf"
   },
@@ -8996,7 +8996,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
     "viscosityValue": "100-200",
-    "viscosityNote": "At 23\u00b0C, 100 rpm per fallback TDS text"
+    "viscosityNote": "At 23°C, 100 rpm per fallback TDS text"
   },
   {
     "id": "epotek-h20e",
@@ -10182,7 +10182,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Service temperature not explicitly stated in TDS (HTML page only); high Tg epoxy with serviceMax <300\u00b0C; minimum not published in available cache."
+    "serviceTemperatureNote": "Service temperature not explicitly stated in TDS (HTML page only); high Tg epoxy with serviceMax <300°C; minimum not published in available cache."
   },
   {
     "id": "epotek-og142-87",
@@ -10191,7 +10191,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "OG142-87",
     "summary": "Single-component UV-curable optical epoxy for fiber-optic and optoelectronic sealing and encapsulation.",
     "cureFamily": "UV-cure single-component optical epoxy",
-    "cureDetail": "UV cure complete after ~24 hours from exposure; flood lamp dose > 30 sec, LED/spot options > 60\u201390 sec.",
+    "cureDetail": "UV cure complete after ~24 hours from exposure; flood lamp dose > 30 sec, LED/spot options > 60–90 sec.",
     "serviceMax": 300,
     "viscosityClass": "low",
     "thixotropic": false,
@@ -10211,7 +10211,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "UV cure requires direct line-of-sight to the adhesive; shadowed joints will not progress even with optional thermal post-cure.",
       "Shelf life is one year refrigerated; one-year refrigerated shelf life is explicitly specified.",
       "Official TDS states recommended cure can be >30 s (flood lamp), >60-90 s (LED/spot options), with UV cure complete after 24 hours.",
-      "Suggested operating temperature is < 300 \u00b0C (intermittent); service data is not specified as a continuous guaranteed envelope in TDS."
+      "Suggested operating temperature is < 300 °C (intermittent); service data is not specified as a continuous guaranteed envelope in TDS."
     ],
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/uj2ugm4ojuhic1r2by8khup5pu1kvlbp/og142-87.pdf",
     "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/uj2ugm4ojuhic1r2by8khup5pu1kvlbp/og142-87.pdf",
@@ -10243,7 +10243,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "volumeResistivityOhmM",
       "fixtureTime"
     ],
-    "serviceTemperatureNote": "Service temperature not explicitly stated; UV/heat cure epoxy with Tg \u2265100\u00b0C; serviceMax <300\u00b0C intermittent; minimum not published in available cache.",
+    "serviceTemperatureNote": "Service temperature not explicitly stated; UV/heat cure epoxy with Tg ≥100°C; serviceMax <300°C intermittent; minimum not published in available cache.",
     "viscosityValue": "250-600",
     "viscosityUnit": "cP",
     "viscosityNote": "Pourable liquid consistency, 250-600 cPs per TDS"
@@ -12739,14 +12739,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 70,
-    "potLifeConditions": "60-80 min @ 23\u00b0C (1+1g), midpoint 70 min",
+    "potLifeConditions": "60-80 min @ 23°C (1+1g), midpoint 70 min",
     "fixtureTime": 210,
-    "fixtureTimeNote": "Handling time 3-5 hours @ 23\u00b0C (midpoint 240 min); working strength @ 60\u00b0C: 30 min",
+    "fixtureTimeNote": "Handling time 3-5 hours @ 23°C (midpoint 240 min); working strength @ 60°C: 30 min",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 80000-200000 @ 20rpm/2rpm; Mixed: 80000",
     "viscosityUnit": "mPa.s",
     "lapShear": 18,
-    "lapShearSubstrate": "Mild steel ISO 4587, 18-22 N/mm\u00b2; stainless steel 12-15 N/mm\u00b2",
+    "lapShearSubstrate": "Mild steel ISO 4587, 18-22 N/mm²; stainless steel 12-15 N/mm²",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -12775,7 +12775,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf"
   },
   {
@@ -12789,14 +12789,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 65,
-    "potLifeConditions": "50-80 min @ 23\u00b0C (1+1g), midpoint 65 min",
+    "potLifeConditions": "50-80 min @ 23°C (1+1g), midpoint 65 min",
     "fixtureTime": 240,
-    "fixtureTimeNote": "Handling time 3-5 hours @ 23\u00b0C",
+    "fixtureTimeNote": "Handling time 3-5 hours @ 23°C",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 80000-200000 @ 20rpm/2rpm; Mixed: 80000",
     "viscosityUnit": "mPa.s",
     "lapShear": 19,
-    "lapShearSubstrate": "Mild steel ISO 4587, 19-21 N/mm\u00b2; stainless steel 18-21 N/mm\u00b2",
+    "lapShearSubstrate": "Mild steel ISO 4587, 19-21 N/mm²; stainless steel 18-21 N/mm²",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -12823,7 +12823,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf"
   },
   {
@@ -12837,14 +12837,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 50,
-    "potLifeConditions": "40-60 min @ 23\u00b0C (2+1g), midpoint 50 min",
+    "potLifeConditions": "40-60 min @ 23°C (2+1g), midpoint 50 min",
     "fixtureTime": 240,
-    "fixtureTimeNote": "Handling time 3-5 hours @ 23\u00b0C",
+    "fixtureTimeNote": "Handling time 3-5 hours @ 23°C",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 40000-150000 @ 20rpm/2rpm; Mixed: 40000",
     "viscosityUnit": "mPa.s",
     "lapShear": 18,
-    "lapShearSubstrate": "Mild steel ISO 4587, 18-20 N/mm\u00b2; stainless steel 15-19 N/mm\u00b2",
+    "lapShearSubstrate": "Mild steel ISO 4587, 18-20 N/mm²; stainless steel 15-19 N/mm²",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -12870,7 +12870,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf"
   },
   {
@@ -12880,18 +12880,18 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "ET5364",
     "summary": "1:1 non-drip two-part epoxy with 2-hour pot life and very high shear strength (22-24 MPa on steel) for bonding metals, wood, ceramics, and composites.",
     "cureFamily": "Two-part epoxy",
-    "cureDetail": "Room-temperature-curing two-part epoxy; 1:1 by volume; 2-hour pot life; 8-hour handling time; full cure 72h @ 23\u00b0C or 1h @ 60\u00b0C",
+    "cureDetail": "Room-temperature-curing two-part epoxy; 1:1 by volume; 2-hour pot life; 8-hour handling time; full cure 72h @ 23°C or 1h @ 60°C",
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 120,
-    "potLifeConditions": "2 hours @ 23\u00b0C",
+    "potLifeConditions": "2 hours @ 23°C",
     "fixtureTime": 480,
-    "fixtureTimeNote": "Handling time 8 hours @ 23\u00b0C; working strength 24h @ 23\u00b0C or 30 min @ 60\u00b0C",
+    "fixtureTimeNote": "Handling time 8 hours @ 23°C; working strength 24h @ 23°C or 30 min @ 60°C",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 90000-130000 @ 20rpm / 400000-600000 @ 2rpm; B: 60000-110000 @ 20rpm / 200000-300000 @ 2rpm",
     "viscosityUnit": "mPa.s",
     "lapShear": 22,
-    "lapShearSubstrate": "Steel ISO 4587, 22-24 N/mm\u00b2 (72h RT); 24-26 MPa after 1h@60\u00b0C; aluminum 24-26 MPa",
+    "lapShearSubstrate": "Steel ISO 4587, 22-24 N/mm² (72h RT); 24-26 MPa after 1h@60°C; aluminum 24-26 MPa",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -12920,7 +12920,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf"
   },
   {
@@ -12934,9 +12934,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 20,
-    "potLifeConditions": "20 min @ 23\u00b0C (10g mixed)",
+    "potLifeConditions": "20 min @ 23°C (10g mixed)",
     "fixtureTime": 180,
-    "fixtureTimeNote": "Handling time 2-4 hours @ 23\u00b0C (midpoint 180 min); working strength 6h @ 23\u00b0C",
+    "fixtureTimeNote": "Handling time 2-4 hours @ 23°C (midpoint 180 min); working strength 6h @ 23°C",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 600000; B: 160000",
     "viscosityUnit": "mPa.s",
@@ -12968,7 +12968,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf"
   },
   {
@@ -12982,14 +12982,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 5,
     "potLife": 11,
-    "potLifeConditions": "10-12 min @ 23\u00b0C",
+    "potLifeConditions": "10-12 min @ 23°C",
     "fixtureTime": 75,
-    "fixtureTimeNote": "Handling time 60-90 min (to 1 N/mm\u00b2); midpoint 75 min",
+    "fixtureTimeNote": "Handling time 60-90 min (to 1 N/mm²); midpoint 75 min",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 120000-450000 @ 20rpm/2rpm; B: 100000-250000 @ 20rpm/2rpm",
     "viscosityUnit": "mPa.s",
     "lapShear": 20,
-    "lapShearSubstrate": "Mild steel (grit blasted), 20-30 N/mm\u00b2; FRP glass epoxy 19-23 MPa; ISO 4587 mild steel 10-15 MPa",
+    "lapShearSubstrate": "Mild steel (grit blasted), 20-30 N/mm²; FRP glass epoxy 19-23 MPa; ISO 4587 mild steel 10-15 MPa",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -13017,7 +13017,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf"
   },
   {
@@ -13027,18 +13027,18 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "ET5003",
     "summary": "Fast-setting 1:1 two-part epoxy with mercaptan hardener for 12-15 minute handling time; designed for metal repair, sandable after short cure, 20-24 MPa on steel.",
     "cureFamily": "Two-part epoxy (mercaptan hardener)",
-    "cureDetail": "1:1 by volume; silver-grey/black; mercaptan hardener for fast cure; gel time 5 min; handling time 12-15 min; working strength 30-60 min; full cure 24h @ 23\u00b0C",
+    "cureDetail": "1:1 by volume; silver-grey/black; mercaptan hardener for fast cure; gel time 5 min; handling time 12-15 min; working strength 30-60 min; full cure 24h @ 23°C",
     "serviceMin": -40,
     "gapFill": 2,
     "potLife": 5,
-    "potLifeConditions": "Gel time 5 min @ 23\u00b0C (20g mass); use within potlife",
+    "potLifeConditions": "Gel time 5 min @ 23°C (20g mass); use within potlife",
     "fixtureTime": 13,
-    "fixtureTimeNote": "Handling time 12-15 min @ 23\u00b0C (midpoint 13 min); working strength 30-60 min",
+    "fixtureTimeNote": "Handling time 12-15 min @ 23°C (midpoint 13 min); working strength 30-60 min",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 190000 (thixotropic); B: 54000 (thixotropic)",
     "viscosityUnit": "mPa.s",
     "lapShear": 20,
-    "lapShearSubstrate": "Mild steel ISO 4587, 20-24 N/mm\u00b2; aluminum 16-19 MPa; stainless steel 23-26 MPa",
+    "lapShearSubstrate": "Mild steel ISO 4587, 20-24 N/mm²; aluminum 16-19 MPa; stainless steel 23-26 MPa",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -13067,7 +13067,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not rated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5003_TDS-3.pdf",
     "sourceRevisionDate": "Permabond ET5003 Global TDS Revision 3, 05 September 2022 (Provisional)"
   },
@@ -13866,7 +13866,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a011_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14001,7 +14001,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a1042_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14049,7 +14049,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a1044_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -14096,7 +14096,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a1046_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14143,7 +14143,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a113_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14192,7 +14192,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a118_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14240,7 +14240,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a126_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14290,7 +14290,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a129_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -14337,7 +14337,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a130_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14386,7 +14386,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a131_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -14435,7 +14435,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The non-drip formulation is intended for larger fittings, coarse threads, and repair of assemblies with wear or wide tolerances."
     ],
     "referenceUrl": "https://permabond.com/tds/a134_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14483,7 +14483,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above ambient is only stated for brief excursions such as paint baking or wave soldering, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/a136_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 4,
       "peel": 1,
@@ -14546,7 +14546,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/f201_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14610,7 +14610,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/f202_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14672,7 +14672,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/hh120_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14733,7 +14733,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/hh131_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14794,7 +14794,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/hh190_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 4,
       "peel": 1,
@@ -14857,7 +14857,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/hl126_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -14917,7 +14917,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics; compatibility must be checked before plastic exposure."
     ],
     "referenceUrl": "https://permabond.com/tds/hl138_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -14974,7 +14974,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm118_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -15031,7 +15031,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm128_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -15101,7 +15101,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm129_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -15168,7 +15168,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm135_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15225,7 +15225,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm161_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15275,7 +15275,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/HM162_TDS-1.pdf",
     "viscosityValue": 1000,
     "viscosityUnit": "mPa.s",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; TDS states product can withstand higher temperatures for brief periods but gives no continuous-service maximum rating.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; TDS states product can withstand higher temperatures for brief periods but gives no continuous-service maximum rating.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15340,7 +15340,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm163_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15413,7 +15413,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/hm165_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15459,7 +15459,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/HH167_TDS-1.pdf",
     "viscosityValue": "90000 @ 20 rpm; 500000 @ 2 rpm",
     "viscosityUnit": "mPa.s",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; TDS states product can withstand higher temperatures for brief periods but gives no continuous-service maximum rating.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; TDS states product can withstand higher temperatures for brief periods but gives no continuous-service maximum rating.",
     "stress": {
       "shear": 8,
       "peel": 1,
@@ -15520,7 +15520,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lh050_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -15577,7 +15577,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lh051_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -15642,7 +15642,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says it is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lh056_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -15704,7 +15704,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lh150_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -15775,7 +15775,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lh197_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 4,
       "peel": 1,
@@ -15838,7 +15838,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lm012_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -15901,7 +15901,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/lm113_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -15991,7 +15991,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Adhesive outside a closed joint remains uncured due to air contact; viscosity must be matched to thread size and joint configuration."
     ],
     "referenceUrl": "https://permabond.com/tds/mh052_tds-en/?pdf",
-    "serviceTemperatureNote": "Storage temperature 5\u201325 \u00b0C; certified for gaseous O\u2082 to 60 \u00b0C/10 bar; 100% strength retention in engine oil at 125 \u00b0C/1000 h immersion; no general service temperature range stated in TDS.",
+    "serviceTemperatureNote": "Storage temperature 5–25 °C; certified for gaseous O₂ to 60 °C/10 bar; 100% strength retention in engine oil at 125 °C/1000 h immersion; no general service temperature range stated in TDS.",
     "stress": {
       "shear": 5,
       "peel": 1,
@@ -16218,7 +16218,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product may adversely affect some thermoplastics and is not recommended for oxygen, oxygen-rich systems, or strong oxidizers."
     ],
     "referenceUrl": "https://permabond.com/tds/mm115_tds-pt-br/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "stress": {
       "shear": 6,
       "peel": 1,
@@ -16790,7 +16790,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "foamboard": 8,
       "treatedLumber": 9
     },
-    "serviceTemperatureNote": "Application and service temperature -6\u00b0C (22\u00b0F) to 49\u00b0C (120\u00b0F) per TDS; all-weather all-season formula.",
+    "serviceTemperatureNote": "Application and service temperature -6°C (22°F) to 49°C (120°F) per TDS; all-weather all-season formula.",
     "viscosityValue": 200000,
     "viscosityUnit": "cP"
   },
@@ -19093,7 +19093,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100\u00b0C from product datasheet."
+    "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100°C from product datasheet."
   },
   {
     "id": "araldite-2031",
@@ -19144,7 +19144,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
-    "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100\u00b0C from product datasheet."
+    "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100°C from product datasheet."
   },
   {
     "id": "permabond-ms359a-grey",
@@ -21982,7 +21982,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4631_tds-en/?pdf",
-    "serviceTemperatureNote": "TDS states \"can withstand higher temperatures for brief periods\"; no service temperature range published; 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "TDS states \"can withstand higher temperatures for brief periods\"; no service temperature range published; 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "thermalConductivity"
     ]
@@ -22870,7 +22870,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv6357_tds/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "potLife",
       "serviceMax",
@@ -22957,7 +22957,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv6361_tds-en/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "potLife",
       "serviceMax",
@@ -23055,7 +23055,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv639_tds-en/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "potLife",
       "serviceMax",
@@ -23256,7 +23256,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv643_tds-en/?pdf",
-    "serviceTemperatureNote": "No explicit service temperature range stated; Tg 83 \u00b0C (DMA tan delta); thermal cycle tested \u221240 to +80 \u00b0C/80%RH; 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "No explicit service temperature range stated; Tg 83 °C (DMA tan delta); thermal cycle tested −40 to +80 °C/80%RH; 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
@@ -23989,7 +23989,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv7141_tds-en/?pdf",
-    "serviceTemperatureNote": "Min \u221255 \u00b0C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5\u201325 \u00b0C is storage, not service.",
+    "serviceTemperatureNote": "Min −55 °C per TDS explicit statement; max not stated for continuous service (TDS: \"can withstand higher temperatures for brief periods\"); 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "potLife",
       "serviceMax",
@@ -24011,7 +24011,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "mPa.s",
     "thixotropic": true,
     "lapShear": 14,
-    "lapShearSubstrate": "Steel collar & pin ISO10123, 14 MPa; torque strength Break 25 N\u00b7m on M10 steel",
+    "lapShearSubstrate": "Steel collar & pin ISO10123, 14 MPa; torque strength Break 25 N·m on M10 steel",
     "thermalConductivity": 0.2,
     "clarity": "opaque",
     "applicationTags": [
@@ -24040,7 +24040,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "fixtureTime"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS-1.pdf",
     "dielectricBreakdownKVPerMm": 11
   },
@@ -24051,16 +24051,16 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "HM160",
     "summary": "Medium-viscosity MIL-spec anaerobic retainer for precision cylindrical assemblies; MIL-R-46082B Type II and ASTM D5363 AN 0412.",
     "cureFamily": "Anaerobic retaining compound",
-    "cureDetail": "One-part anaerobic; metal-catalyzed room-temperature cure; handling strength 15 min on M10 steel at 23\u00b0C; full cure 24 hours",
+    "cureDetail": "One-part anaerobic; metal-catalyzed room-temperature cure; handling strength 15 min on M10 steel at 23°C; full cure 24 hours",
     "serviceMin": -55,
     "gapFill": 0.2,
     "fixtureTime": 15,
-    "fixtureTimeNote": "Handling strength 15 minutes on M10 steel at 23\u00b0C; working strength 1-3 hours per similar HM-series products",
+    "fixtureTimeNote": "Handling strength 15 minutes on M10 steel at 23°C; working strength 1-3 hours per similar HM-series products",
     "viscosityClass": "low",
     "viscosityValue": 600,
     "viscosityUnit": "mPa.s",
     "lapShear": 14,
-    "lapShearSubstrate": "Steel collar & pin ISO10123, 14 MPa; torque strength Break 30 N\u00b7m, Prevail 50 N\u00b7m on M10 steel",
+    "lapShearSubstrate": "Steel collar & pin ISO10123, 14 MPa; torque strength Break 30 N·m, Prevail 50 N·m on M10 steel",
     "thermalConductivity": 0.2,
     "clarity": "opaque",
     "applicationTags": [
@@ -24087,7 +24087,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-3.pdf",
     "dielectricBreakdownKVPerMm": 11
   },
@@ -24098,7 +24098,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "F201HV",
     "summary": "High-viscosity toughened anaerobic threadsealant certified for hydrogen sealing (KIWA KE214), potable water (WRAS), and EN751-1; excellent resistance to differential thermal expansion.",
     "cureFamily": "Anaerobic threadsealant (toughened)",
-    "cureDetail": "One-part anaerobic methacrylate ester; metal-catalyzed cure; handling strength 15 min, working strength 1 hour, full cure 24h on M10 steel at 23\u00b0C",
+    "cureDetail": "One-part anaerobic methacrylate ester; metal-catalyzed cure; handling strength 15 min, working strength 1 hour, full cure 24h on M10 steel at 23°C",
     "serviceMin": -55,
     "gapFill": 0.3,
     "fixtureTime": 15,
@@ -24107,7 +24107,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "mPa.s",
     "thixotropic": true,
     "lapShear": 30,
-    "lapShearSubstrate": "Steel collar & pin ISO10123, 30 MPa; torque Break 28 N\u00b7m, Prevail 30 N\u00b7m on M10 steel",
+    "lapShearSubstrate": "Steel collar & pin ISO10123, 30 MPa; torque Break 28 N·m, Prevail 30 N·m on M10 steel",
     "clarity": "opaque",
     "applicationTags": [
       "threadlocking",
@@ -24140,7 +24140,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
     "dielectricBreakdownKVPerMm": 11
   },
@@ -24151,7 +24151,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "A1058",
     "summary": "Extra-high viscosity anaerobic threadsealant for large-bore pipe threads (to M56/2\"); WRAS and KTW-BWGL certified for potable water; 90 minute handling time.",
     "cureFamily": "Anaerobic threadsealant",
-    "cureDetail": "One-part anaerobic acrylic; metal-catalyzed cure; handling strength 90 min, working strength 2-4 hours, full cure 72h on M10 steel at 23\u00b0C",
+    "cureDetail": "One-part anaerobic acrylic; metal-catalyzed cure; handling strength 90 min, working strength 2-4 hours, full cure 72h on M10 steel at 23°C",
     "serviceMin": -40,
     "gapFill": 0.5,
     "fixtureTime": 90,
@@ -24159,7 +24159,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityValue": 300000,
     "viscosityUnit": "mPa.s",
     "lapShear": 8,
-    "lapShearSubstrate": "Steel collar & pin ISO10123, 8 MPa; torque Break 8 N\u00b7m on M10 zinc",
+    "lapShearSubstrate": "Steel collar & pin ISO10123, 8 MPa; torque Break 8 N·m on M10 zinc",
     "thermalConductivity": 0.19,
     "clarity": "opaque",
     "applicationTags": [
@@ -24190,7 +24190,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "potLife"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-5.pdf",
     "dielectricBreakdownKVPerMm": 11
   },
@@ -24205,14 +24205,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -40,
     "gapFill": 5,
     "potLife": 15,
-    "potLifeConditions": "10-20 min @ 25\u00b0C, midpoint 15 min",
+    "potLifeConditions": "10-20 min @ 25°C, midpoint 15 min",
     "fixtureTime": 75,
-    "fixtureTimeNote": "Handling time 60-90 min to 0.1 N/mm\u00b2 @ 25\u00b0C",
+    "fixtureTimeNote": "Handling time 60-90 min to 0.1 N/mm² @ 25°C",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 200000 (thixo paste); B: 100000 (thixo paste)",
     "viscosityUnit": "mPa.s",
     "lapShear": 4,
-    "lapShearSubstrate": "Mild steel ISO 4587, 4-7 N/mm\u00b2; aluminum 6-8 MPa; ABS 4-6 MPa; PC 4-6 MPa; CF 6-8 MPa",
+    "lapShearSubstrate": "Mild steel ISO 4587, 4-7 N/mm²; aluminum 6-8 MPa; ABS 4-6 MPa; PC 4-6 MPa; CF 6-8 MPa",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -24246,7 +24246,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf"
   },
   {
@@ -24256,17 +24256,17 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "TA4610",
     "summary": "1:1 toughened acrylic adhesive that bonds polyolefins (PP, HDPE) without primer; 5-8 min pot life, 12-15 min fixture, suitable for underwater bonding.",
     "cureFamily": "Two-part toughened acrylic (LSE-capable)",
-    "cureDetail": "1:1 by volume two-part methacrylate; bonds polyolefins without primer; 5-8 min pot life; 12-15 min fixture; full cure 48h @ 23\u00b0C",
+    "cureDetail": "1:1 by volume two-part methacrylate; bonds polyolefins without primer; 5-8 min pot life; 12-15 min fixture; full cure 48h @ 23°C",
     "serviceMin": -55,
     "potLife": 6,
-    "potLifeConditions": "5-8 min @ 23\u00b0C (2g+2g), midpoint 6.5 min",
+    "potLifeConditions": "5-8 min @ 23°C (2g+2g), midpoint 6.5 min",
     "fixtureTime": 13,
-    "fixtureTimeNote": "Fixture time 12-15 min (to 0.1 N/mm\u00b2) @ 23\u00b0C; handling time 40-50 min",
+    "fixtureTimeNote": "Fixture time 12-15 min (to 0.1 N/mm²) @ 23°C; handling time 40-50 min",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 200000-500000; B: 20000-30000",
     "viscosityUnit": "mPa.s",
     "lapShear": 7,
-    "lapShearSubstrate": "Mild steel to PP 7 N/mm\u00b2; PP 8 MPa (SF); HDPE 15 MPa; stainless steel 5 MPa; FRP/epoxy 13 MPa; ABS 4 MPa (SF); CF 8 MPa",
+    "lapShearSubstrate": "Mild steel to PP 7 N/mm²; PP 8 MPa (SF); HDPE 15 MPa; stainless steel 5 MPa; FRP/epoxy 13 MPa; ABS 4 MPa (SF); CF 8 MPa",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -24297,14 +24297,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "cautions": [
       "Bonds PP and PE without primer - a key advantage over most structural adhesives.",
       "Can be used for underwater bonding applications.",
-      "Full cure requires 48 hours at 23\u00b0C."
+      "Full cure requires 48 hours at 23°C."
     ],
     "unpublishedFields": [
       "serviceMax",
       "gapFill",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -55\u00b0C per TDS; max not explicitly stated for continuous service.",
+    "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf"
   },
   {
@@ -24314,18 +24314,18 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "ET5428 BLACK",
     "summary": "High-performance thixotropic black two-part epoxy for carbon fiber and composite bonding; color-matched to carbon fiber; 28-34 MPa shear strength, good peel and impact.",
     "cureFamily": "Two-part toughened epoxy (composite-grade, carbon fiber color match)",
-    "cureDetail": "2:1 by weight epoxy/polyamine; pot life 10-20 min; handling 30-45 min @ 23\u00b0C; working strength 24-48h @ 23\u00b0C or 15 min @ 60\u00b0C; full cure 24-48h",
+    "cureDetail": "2:1 by weight epoxy/polyamine; pot life 10-20 min; handling 30-45 min @ 23°C; working strength 24-48h @ 23°C or 15 min @ 60°C; full cure 24-48h",
     "serviceMin": -40,
     "gapFill": 5,
     "potLife": 15,
-    "potLifeConditions": "10-20 min @ 23\u00b0C (10g), midpoint 15 min",
+    "potLifeConditions": "10-20 min @ 23°C (10g), midpoint 15 min",
     "fixtureTime": 37,
-    "fixtureTimeNote": "Handling time 30-45 min @ 23\u00b0C (midpoint 37 min)",
+    "fixtureTimeNote": "Handling time 30-45 min @ 23°C (midpoint 37 min)",
     "viscosityClass": "very-high",
     "viscosityValue": "A: 115000/300000 @ 20rpm/2rpm; B: 200000/1100000 @ 20rpm/2rpm",
     "viscosityUnit": "mPa.s",
     "lapShear": 28,
-    "lapShearSubstrate": "Mild steel ISO 4587, 28-34 N/mm\u00b2; stainless steel 29-35 MPa; aluminum 22-28 MPa; CF >25 MPa (SF); FRP/polyester >9 MPa (SF)",
+    "lapShearSubstrate": "Mild steel ISO 4587, 28-34 N/mm²; stainless steel 29-35 MPa; aluminum 22-28 MPa; CF >25 MPa (SF); FRP/polyester >9 MPa (SF)",
     "clarity": "opaque",
     "applicationTags": [
       "structural-bonding",
@@ -24357,7 +24357,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Min -40\u00b0C per TDS; max not explicitly stated for continuous service; product description notes 'high temperature resistance' and Tg 50-60\u00b0C.",
+    "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service; product description notes 'high temperature resistance' and Tg 50-60°C.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf"
   },
   {
@@ -33442,7 +33442,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityClass": "very-high",
     "thixotropic": true,
     "lapShear": 16,
-    "lapShearSubstrate": "Aluminium to aluminium 25mm width, 5.0 kN minimum specification at 23\u00b0C (corresponds to \u226516 MPa on specified overlap geometry)",
+    "lapShearSubstrate": "Aluminium to aluminium 25mm width, 5.0 kN minimum specification at 23°C (corresponds to ≥16 MPa on specified overlap geometry)",
     "lapShearForcesKN": {
       "aluminumToAluminumMin": 5,
       "dr25ToDr25Min": 0.3,
@@ -33532,7 +33532,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=RK-6619&DocType=Specification+Or+Standard&PartCntxt=583393-000",
-    "fixtureTimeNote": "Cure at 85\u00b0C for 60 min achieves bond for test per spec; full strength requires 72h at 23\u00b0C post-cure",
+    "fixtureTimeNote": "Cure at 85°C for 60 min achieves bond for test per spec; full strength requires 72h at 23°C post-cure",
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -34738,7 +34738,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish fixture time, dry time, lap shear, dielectric, thermal, tensile, hardness or service-temperature properties."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
-    "serviceTemperatureNote": "Storage temperature 16\u201327 \u00b0C per TDS; these are CA primers/activators; no service temperature rating applies to primer film.",
+    "serviceTemperatureNote": "Storage temperature 16–27 °C per TDS; these are CA primers/activators; no service temperature rating applies to primer film.",
     "unpublishedFields": [
       "lapShear",
       "potLife",
@@ -34832,7 +34832,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "AC11 and AC452 are marked not available in the Americas Region in the 2015 TDS; AC79 is represented by the Digi-Key AC79 8 oz row."
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
-    "serviceTemperatureNote": "Storage temperature 16\u201327 \u00b0C per TDS; these are CA primers/activators; no service temperature rating applies to primer film.",
+    "serviceTemperatureNote": "Storage temperature 16–27 °C per TDS; these are CA primers/activators; no service temperature rating applies to primer film.",
     "unpublishedFields": [
       "lapShear",
       "potLife",
@@ -36770,7 +36770,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://usa.sika.com/en/industry/transportation/construction/construction-adhesives-sealants/body-bonding/sikaflex-255-fc.html",
     "referenceUrl": "https://usa.sika.com/dam/dms/us01/2/sikaflex-255-fc.pdf",
-    "fixtureTimeNote": "Skin time 40 min per TDS (23\u00b0C/50%RH); open time 20 min; handling time for glazing application per cure speed diagram (not extracted)",
+    "fixtureTimeNote": "Skin time 40 min per TDS (23°C/50%RH); open time 20 min; handling time for glazing application per cure speed diagram (not extracted)",
     "unpublishedFields": [
       "thermalConductivity",
       "viscosityValue",
@@ -43634,7 +43634,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "mPa.s / cP",
     "specificGravity": 1.11,
     "lapShear": 35,
-    "lapShearSubstrate": "Steel compression shear strength 35 MPa (360 kgf/cm\u00b2) from TB1303 TDS",
+    "lapShearSubstrate": "Steel compression shear strength 35 MPa (360 kgf/cm²) from TB1303 TDS",
     "recommendedClearanceMm": "0.005-0.1",
     "cureTimesByTemperatureMinutes": {
       "80C": 30,
@@ -43722,7 +43722,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "mPa.s / cP",
     "specificGravity": 1.11,
     "lapShear": 23,
-    "lapShearSubstrate": "Steel fixing shear strength 23 MPa (240 kgf/cm\u00b2) from TB1322 TDS",
+    "lapShearSubstrate": "Steel fixing shear strength 23 MPa (240 kgf/cm²) from TB1322 TDS",
     "recommendedClearanceMm": "0.005-0.01",
     "maximumClearanceMm": 0.15,
     "cureTimesByTemperatureMinutes": {
@@ -48368,7 +48368,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
-    "potLifeConditions": "Gel time 3-5 min at 25\u00b0C per TDS (midpoint 4 min)",
+    "potLifeConditions": "Gel time 3-5 min at 25°C per TDS (midpoint 4 min)",
     "unpublishedFields": [
       "thermalConductivity"
     ]
@@ -50258,7 +50258,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
-    "serviceTemperatureNote": "serviceMax of 40 \u00b0C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
   },
   {
     "id": "threebond-tb6155d",
@@ -50445,7 +50445,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
-    "serviceTemperatureNote": "serviceMax of 40 \u00b0C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
   },
   {
     "id": "threebond-tb6630",
@@ -51894,7 +51894,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Application temperature 4\u201343\u00b0C (40\u2013110\u00b0F); cured joint service temperature not explicitly stated in TDS; serviceMax 60\u00b0C is the ASTM D2564 test temperature; minimum for cured joint not stated."
+    "serviceTemperatureNote": "Application temperature 4–43°C (40–110°F); cured joint service temperature not explicitly stated in TDS; serviceMax 60°C is the ASTM D2564 test temperature; minimum for cured joint not stated."
   },
   {
     "id": "weldon-4007",
@@ -53587,6 +53587,144 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://weldon.com/product-literature/product-data-sheets/"
     ]
+  },
+  {
+    "id": "loctite-clear-epoxy",
+    "maker": "Henkel Loctite",
+    "name": "Clear Epoxy",
+    "profile": "clearEpoxy",
+    "summary": "Clear two-part epoxy for transparent household repairs and bonding multiple hard materials.",
+    "sourceRevisionDate": "LOCTITE Epoxy Clear Multi-Purpose Technical Data Sheet, 7 April 2016.",
+    "chemistry": "Two-part epoxy",
+    "cureFamily": "Two-part room-temperature epoxy",
+    "cureDetail": "Mix equal volumes of resin and hardener. Sets in 5–10 minutes; reaches usable strength in about 30 minutes and full cure in 24 hours.",
+    "serviceMin": -23,
+    "serviceMax": 49,
+    "serviceTemperatureNote": "TDS reports continuous exposure from −23 °C to 49 °C and intermittent exposure up to 150 °C.",
+    "fixtureTime": 7.5,
+    "fixtureTimeNote": "Sets in 5–10 minutes; midpoint shown.",
+    "fullStrengthHours": 24,
+    "lapShear": 23.7,
+    "lapShearSubstrate": "Sandblasted cold-rolled steel, 24 h: 23.7 MPa; aluminum, 24 h: 14.17 MPa. TDS values are typical test results.",
+    "clarity": "transparent",
+    "applicationTags": [
+      "epoxy",
+      "clear-bonding",
+      "household-repair",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 4
+    },
+    "substrates": {
+      "steel": 8,
+      "aluminum": 7,
+      "glass": 7,
+      "ceramic": 8,
+      "wood": 7,
+      "plastic": 5
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not product specifications.",
+      "Mix equal volumes thoroughly; bond strength depends on surface preparation and joint design."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html"
+  },
+  {
+    "id": "loctite-epoxy-instant-mix-5min",
+    "maker": "Henkel Loctite",
+    "name": "Epoxy Instant Mix 5 Minute",
+    "profile": "clearEpoxy",
+    "summary": "Fast-setting equal-volume epoxy with a static mixing nozzle for small repairs and general-purpose bonding.",
+    "sourceRevisionDate": "LOCTITE Instant Mix 5 Minute Epoxy Technical Data Sheet, 22 April 2025.",
+    "chemistry": "Two-part epoxy",
+    "cureFamily": "Two-part room-temperature epoxy",
+    "cureDetail": "Equal-volume mix. Sets in 5–7 minutes, reaches usable strength in about 20 minutes, and fully cures in 24 hours.",
+    "serviceMin": -23,
+    "serviceMax": 49,
+    "fixtureTime": 6,
+    "fixtureTimeNote": "Sets in 5–7 minutes; midpoint shown.",
+    "fullStrengthHours": 24,
+    "viscosityValue": "Approximately 11,000",
+    "viscosityUnit": "cP",
+    "lapShear": 17.2,
+    "lapShearSubstrate": "Sandblasted cold-rolled steel, 24 h: 17.2 MPa. Typical TDS test result.",
+    "applicationTags": [
+      "epoxy",
+      "fast-setting",
+      "household-repair",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 2,
+      "impact": 4
+    },
+    "substrates": {
+      "steel": 7,
+      "aluminum": 6,
+      "glass": 6,
+      "ceramic": 7,
+      "wood": 7,
+      "plastic": 5
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not product specifications.",
+      "Mix equal volumes; short working time requires parts to be aligned promptly."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html"
+  },
+  {
+    "id": "loctite-super-glue-ultra-gel-control",
+    "maker": "Henkel Loctite",
+    "name": "Super Glue Ultra Gel Control",
+    "profile": "gelCA",
+    "summary": "Rubber-toughened ethyl cyanoacrylate gel for controlled application and improved peel and impact resistance.",
+    "sourceRevisionDate": "LOCTITE Super Glue Ultra Gel Control Technical Data Sheet.",
+    "chemistry": "Rubber-toughened ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate",
+    "cureDetail": "One-part moisture-curing cyanoacrylate gel. Fixture in 15–30 seconds; handling strength in about 5 minutes; full cure in 12–24 hours.",
+    "serviceMax": 82,
+    "fixtureTime": 0.375,
+    "fixtureTimeNote": "15–30 seconds; midpoint shown.",
+    "fullStrengthHours": 18,
+    "lapShear": 21.12,
+    "lapShearSubstrate": "Aluminum, ISO 4587, representative value: 21.12 MPa (reported range 15–25 MPa).",
+    "peelStrengthNPerM": 2500,
+    "clarity": "transparent",
+    "applicationTags": [
+      "cyanoacrylate",
+      "gel",
+      "instant-bonding",
+      "impact-resistant",
+      "peel-resistant",
+      "controlled-dispensing"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 6,
+      "impact": 6
+    },
+    "substrates": {
+      "aluminum": 7,
+      "steel": 7,
+      "ceramic": 7,
+      "rubber": 7,
+      "plastic": 6
+    },
+    "cautions": [
+      "Typical TDS values are guidelines, not product specifications.",
+      "Not intended for continuous water exposure; does not fill gaps.",
+      "Maximum service temperature reported by the TDS is 82 °C."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
   }
 ];
 
@@ -67848,10 +67986,83 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/11/ips_weld-on_40_TDS_1022_R.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-clear-epoxy",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "Clear Epoxy",
+    "primaryCategory": "clearEpoxy",
+    "categories": [
+      "clearEpoxy"
+    ],
+    "sampleType": "Product",
+    "sampleConsistency": "Two-part epoxy",
+    "sampleForJoining": "Clear two-part epoxy for transparent household repairs and bonding multiple hard materials.",
+    "applicationTags": [
+      "epoxy",
+      "clear-bonding",
+      "household-repair",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "tempMinC": -23,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-epoxy-instant-mix-5min",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "Epoxy Instant Mix 5 Minute",
+    "primaryCategory": "clearEpoxy",
+    "categories": [
+      "clearEpoxy"
+    ],
+    "sampleType": "Product",
+    "sampleConsistency": "Two-part epoxy",
+    "sampleForJoining": "Fast-setting equal-volume epoxy with a static mixing nozzle for small repairs and general-purpose bonding.",
+    "applicationTags": [
+      "epoxy",
+      "fast-setting",
+      "household-repair",
+      "metal-bonding",
+      "ceramic-bonding"
+    ],
+    "tempMinC": -23,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-super-glue-ultra-gel-control",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "Super Glue Ultra Gel Control",
+    "primaryCategory": "gelCA",
+    "categories": [
+      "gelCA"
+    ],
+    "sampleType": "Product",
+    "sampleConsistency": "Rubber-toughened ethyl cyanoacrylate",
+    "sampleForJoining": "Rubber-toughened ethyl cyanoacrylate gel for controlled application and improved peel and impact resistance.",
+    "applicationTags": [
+      "cyanoacrylate",
+      "gel",
+      "instant-bonding",
+      "impact-resistant",
+      "peel-resistant",
+      "controlled-dispensing"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 530,
-  "referenceFamilies": 530
+  "selectorProducts": 533,
+  "referenceFamilies": 533
 };

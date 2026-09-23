@@ -268,7 +268,8 @@
       "officialDomains": [
         "loctite.com",
         "loctiteproducts.com",
-        "henkel-adhesives.com"
+        "henkel-adhesives.com",
+        "tdx.henkel.com"
       ],
       "sources": [
         {
@@ -294,7 +295,10 @@
             "Mounting Putty"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 20
+          "tdsMaxPages": 20,
+          "includeRegex": [
+            "central-pdp\\.html"
+          ]
         }
       ]
     },

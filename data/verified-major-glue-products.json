@@ -220,6 +220,71 @@
           "label": "Weldwood Original Wood Glue Technical Data Sheet"
         }
       ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-adhesive-caulk-in-one-interior-exterior",
+      "kind": "product",
+      "sourceLabel": "PPG Liquid Nails official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-150 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-repairs-interior-exterior-adhesive",
+      "kind": "product",
+      "sourceLabel": "PPG Liquid Nails official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+          "label": "Liquid Nails LN-700 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
+      "kind": "product",
+      "sourceLabel": "PPG Liquid Nails official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+          "label": "Liquid Nails FUZE*IT LN-2000 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Subfloor and Deck Construction Adhesive - Latex Based",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-subfloor-deck-interior-exterior-construction-adhesive---latex-based",
+      "kind": "product",
+      "sourceLabel": "PPG Liquid Nails official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-902 Technical Data Sheet"
+        }
+      ]
+    },
+    {
+      "maker": "Liquid Nails",
+      "name": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
+      "officialUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---latex-based",
+      "kind": "product",
+      "sourceLabel": "PPG Liquid Nails official product page",
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-903 Technical Data Sheet"
+        }
+      ]
     }
   ]
 }

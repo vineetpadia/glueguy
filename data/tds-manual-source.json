@@ -56966,6 +56966,306 @@
         "cureDepthMm",
         "tackFreeTime"
       ]
+    },
+    {
+      "id": "liquid-nails-ln150",
+      "profile": "constructionAdhesive",
+      "maker": "Liquid Nails",
+      "name": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
+      "productCode": "LN-150",
+      "summary": "Waterborne acrylic adhesive/sealant; white, 350,000–400,000 cP, service −29 to 93°C, bridges 6.35 mm. TDS shear: 300 psi at 24 h and 380 psi at 7 d.",
+      "chemistry": "Waterborne acrylic blend",
+      "cureFamily": "Acrylic adhesive and sealant",
+      "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+      "serviceMin": -29,
+      "serviceMax": 93,
+      "applicationTags": [
+        "construction",
+        "sealing-gasketing",
+        "gap-filling",
+        "paintable"
+      ],
+      "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+      "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceSampleType": "Cartridge or squeeze tube",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+      "unpublishedFields": [
+        "thermalConductivity",
+        "volumeResistivityOhmM",
+        "surfaceResistivityOhm",
+        "dielectricConstant",
+        "tensileStrengthMPa"
+      ],
+      "gapFill": 6.35,
+      "lapShear": 2.07,
+      "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+      "fixtureTime": 1440,
+      "substrates": {
+        "wood": 7,
+        "metal": 7,
+        "concrete": 7,
+        "ceramic": 7,
+        "glass": 7,
+        "fiberglass": 7,
+        "drywall": 7,
+        "vinyl": 7
+      },
+      "stress": {
+        "shear": 4,
+        "peel": 3,
+        "impact": 3
+      },
+      "clarity": "white",
+      "viscosityClass": "high",
+      "viscosityValue": "350,000-400,000",
+      "viscosityUnit": "cP",
+      "cautions": [
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+      ]
+    },
+    {
+      "id": "liquid-nails-ln700",
+      "profile": "constructionAdhesive",
+      "maker": "Liquid Nails",
+      "name": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
+      "productCode": "LN-700",
+      "summary": "Waterborne latex household repair adhesive; white, 200,000 cP, service −29 to 60°C, bridges 9.5 mm. TDS shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+      "chemistry": "Waterborne latex adhesive",
+      "cureFamily": "Latex construction adhesive",
+      "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+      "serviceMin": -29,
+      "serviceMax": 60,
+      "applicationTags": [
+        "household-repair",
+        "construction",
+        "gap-filling",
+        "paintable"
+      ],
+      "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+      "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceSampleType": "Cartridge or squeeze tube",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+      "unpublishedFields": [
+        "thermalConductivity",
+        "volumeResistivityOhmM",
+        "surfaceResistivityOhm",
+        "dielectricConstant",
+        "tensileStrengthMPa"
+      ],
+      "gapFill": 9.5,
+      "lapShear": 2.41,
+      "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+      "potLife": 20,
+      "potLifeConditions": "TDS open time at room temperature.",
+      "fixtureTime": 1440,
+      "substrates": {
+        "wood": 7,
+        "drywall": 7,
+        "concrete": 7,
+        "brick": 7,
+        "tile": 7,
+        "metal": 7,
+        "cork": 7,
+        "vinyl": 7
+      },
+      "stress": {
+        "shear": 4,
+        "peel": 3,
+        "impact": 3
+      },
+      "clarity": "white",
+      "viscosityClass": "high",
+      "viscosityValue": 200000,
+      "viscosityUnit": "cP",
+      "cautions": [
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+      ]
+    },
+    {
+      "id": "liquid-nails-ln902",
+      "profile": "constructionAdhesive",
+      "maker": "Liquid Nails",
+      "name": "Subfloor and Deck Construction Adhesive - Latex Based",
+      "productCode": "LN-902/LNP-902",
+      "summary": "Low-temperature-gunnable latex subfloor adhesive; white, 200,000 cP, service −29 to 60°C, 15-minute open time, bridges 9.5 mm. Shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+      "chemistry": "Waterborne latex adhesive",
+      "cureFamily": "Latex subfloor construction adhesive",
+      "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+      "serviceMin": -29,
+      "serviceMax": 60,
+      "applicationTags": [
+        "subfloor",
+        "decking",
+        "construction",
+        "gap-filling",
+        "wet-lumber",
+        "cold-weather"
+      ],
+      "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+      "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceSampleType": "Cartridge or squeeze tube",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+      "unpublishedFields": [
+        "thermalConductivity",
+        "volumeResistivityOhmM",
+        "surfaceResistivityOhm",
+        "dielectricConstant",
+        "tensileStrengthMPa"
+      ],
+      "gapFill": 9.5,
+      "lapShear": 2.41,
+      "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+      "potLife": 15,
+      "potLifeConditions": "TDS open time at room temperature.",
+      "fixtureTime": 1440,
+      "substrates": {
+        "lumber": 7,
+        "treatedWood": 7,
+        "plywood": 7,
+        "engineeredWood": 7,
+        "osb": 7,
+        "particleboard": 7
+      },
+      "stress": {
+        "shear": 4,
+        "peel": 3,
+        "impact": 3
+      },
+      "clarity": "white",
+      "viscosityClass": "high",
+      "viscosityValue": 200000,
+      "viscosityUnit": "cP",
+      "cautions": [
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+      ]
+    },
+    {
+      "id": "liquid-nails-ln903",
+      "profile": "constructionAdhesive",
+      "maker": "Liquid Nails",
+      "name": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
+      "productCode": "LN-903/LNP-903",
+      "summary": "Low-solvent latex construction adhesive; tan, 500,000 cP, service −18 to 60°C, 20-minute open time. Shear: 150 psi at 24 h, 180 psi at 48 h, 240 psi at 7 d.",
+      "chemistry": "Low-solvent latex adhesive",
+      "cureFamily": "Latex construction adhesive",
+      "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+      "serviceMin": -18,
+      "serviceMax": 60,
+      "applicationTags": [
+        "construction",
+        "interior-exterior",
+        "weather-resistant"
+      ],
+      "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+      "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceSampleType": "Cartridge or squeeze tube",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+      "unpublishedFields": [
+        "thermalConductivity",
+        "volumeResistivityOhmM",
+        "surfaceResistivityOhm",
+        "dielectricConstant",
+        "tensileStrengthMPa"
+      ],
+      "lapShear": 1.03,
+      "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+      "potLife": 20,
+      "potLifeConditions": "TDS open time at room temperature.",
+      "fixtureTime": 1440,
+      "substrates": {
+        "wood": 7,
+        "treatedWood": 7,
+        "plywood": 7,
+        "osb": 7,
+        "drywall": 7,
+        "concrete": 7,
+        "cementboard": 7,
+        "brick": 7,
+        "tileboard": 7,
+        "foamboard": 7
+      },
+      "stress": {
+        "shear": 4,
+        "peel": 3,
+        "impact": 3
+      },
+      "clarity": "tan",
+      "viscosityClass": "high",
+      "viscosityValue": 500000,
+      "viscosityUnit": "cP",
+      "cautions": [
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+      ]
+    },
+    {
+      "id": "liquid-nails-ln2000",
+      "profile": "constructionAdhesive",
+      "maker": "Liquid Nails",
+      "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
+      "productCode": "LN-2000",
+      "summary": "Hybrid polymer adhesive; gray, 500,000 cP, service −40 to 149°C, 20-minute open time. TDS shear: 400 psi at 24 h.",
+      "chemistry": "Hybrid polymer adhesive",
+      "cureFamily": "Moisture-curing hybrid construction adhesive",
+      "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+      "serviceMin": -40,
+      "serviceMax": 149,
+      "applicationTags": [
+        "construction",
+        "hybrid-polymer",
+        "interior-exterior",
+        "wet-surface",
+        "gap-filling",
+        "weather-resistant"
+      ],
+      "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+      "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceSampleType": "Cartridge or squeeze tube",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
+      "unpublishedFields": [
+        "thermalConductivity",
+        "volumeResistivityOhmM",
+        "surfaceResistivityOhm",
+        "dielectricConstant",
+        "tensileStrengthMPa"
+      ],
+      "lapShear": 2.76,
+      "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+      "potLife": 20,
+      "potLifeConditions": "TDS open time at room temperature.",
+      "fixtureTime": 1440,
+      "substrates": {
+        "wood": 7,
+        "metal": 7,
+        "glass": 7,
+        "plastic": 7,
+        "ceramic": 7,
+        "rubber": 7,
+        "fiberglass": 7,
+        "concrete": 7,
+        "pvc": 7
+      },
+      "stress": {
+        "shear": 4,
+        "peel": 3,
+        "impact": 3
+      },
+      "clarity": "gray",
+      "viscosityClass": "high",
+      "viscosityValue": 500000,
+      "viscosityUnit": "cP",
+      "cautions": [
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T16:21:18.262049+00:00",
+  "generatedAt": "2026-09-23T16:35:53.120157+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,9 +12,9 @@
   ],
   "stats": {
     "products": 1682,
-    "manualTdsProducts": 531,
+    "manualTdsProducts": 536,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 723,
+    "officialManufacturerLeads": 718,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -828,8 +828,13 @@
         "limitless-shielding-ca-sc-55"
       ],
       "Liquid Nails": [
+        "liquid-nails-ln150",
+        "liquid-nails-ln2000",
         "liquid-nails-ln3000",
+        "liquid-nails-ln700",
         "liquid-nails-ln901",
+        "liquid-nails-ln902",
+        "liquid-nails-ln903",
         "liquid-nails-ln905",
         "liquid-nails-ln907",
         "mc-liquid_nails_latex_ln_604",
@@ -842,15 +847,12 @@
         "official-lead-liquid-nails-drywall-advanced-interior-construction-adhesive",
         "official-lead-liquid-nails-extreme-heavy-duty-interior-and-exterior-construction-adhesive",
         "official-lead-liquid-nails-flex-5x-interior-exterior-construction-adhesive",
-        "official-lead-liquid-nails-fuze-it-all-surface-interior-and-exterior-adhesive",
         "official-lead-liquid-nails-fuze-it-all-surface-interior-exterior-adhesive",
         "official-lead-liquid-nails-fuze-it-max-interior-and-exterior-all-purpose-construction-adhesive",
         "official-lead-liquid-nails-fuze-it-max-interior-exterior-all-purpose-construction-adhesive",
         "official-lead-liquid-nails-heavy-duty-construction-adhesive",
-        "official-lead-liquid-nails-heavy-duty-interior-and-exterior-construction-adhesive-latex-based",
         "official-lead-liquid-nails-heavy-duty-interior-and-exterior-construction-adhesive-solvent-based",
         "official-lead-liquid-nails-landscape-block-and-stone-adhesive",
-        "official-lead-liquid-nails-liquid-nails-adhesive-caulk-in-one-interior-exterior",
         "official-lead-liquid-nails-liquid-nails-cove-base-stair-tread-interior-adhesive",
         "official-lead-liquid-nails-liquid-nails-frp-fiberglass-reinforced-plastic-panel-interior-adhesive",
         "official-lead-liquid-nails-liquid-nails-insulation-panel-drywall-interior-adhesive",
@@ -860,12 +862,10 @@
         "official-lead-liquid-nails-liquid-nails-paneling-wood-foam-molding-interior-adhesive-latex",
         "official-lead-liquid-nails-liquid-nails-perfect-glue-interior-exterior-adhesive",
         "official-lead-liquid-nails-liquid-nails-projects-foamboard-interior-adhesive",
-        "official-lead-liquid-nails-liquid-nails-small-projects-repairs-interior-exterior-adhesive",
         "official-lead-liquid-nails-paneling-and-molding-construction-adhesive",
         "official-lead-liquid-nails-projects-interior-construction-adhesive-latex-based",
         "official-lead-liquid-nails-projects-interior-construction-adhesive-solvent-based",
         "official-lead-liquid-nails-small-projects-interior-construction-adhesive",
-        "official-lead-liquid-nails-subfloor-and-deck-construction-adhesive-latex-based",
         "official-lead-liquid-nails-subfloor-and-deck-construction-adhesive-solvent-based",
         "official-lead-liquid-nails-tub-surround-and-shower-adhesive"
       ],
@@ -2409,7 +2409,8 @@
         "threebond-tb3351c"
       ],
       "cold-weather": [
-        "christys-red-hot-blue-glue-low-voc"
+        "christys-red-hot-blue-glue-low-voc",
+        "liquid-nails-ln902"
       ],
       "cold-weld": [
         "jbweld-original-professional-size-10oz",
@@ -2517,8 +2518,13 @@
       ],
       "construction": [
         "digiwave-dga6129",
+        "liquid-nails-ln150",
+        "liquid-nails-ln2000",
         "liquid-nails-ln3000",
+        "liquid-nails-ln700",
         "liquid-nails-ln901",
+        "liquid-nails-ln902",
+        "liquid-nails-ln903",
         "liquid-nails-ln905",
         "liquid-nails-ln907",
         "mc-3m_1357",
@@ -2745,6 +2751,9 @@
       ],
       "de-oxime": [
         "threebond-tb1281"
+      ],
+      "decking": [
+        "liquid-nails-ln902"
       ],
       "decorator-items": [
         "weldon-2354"
@@ -3399,8 +3408,12 @@
         "gorilla-glue-2-part-epoxy",
         "gorilla-glue-construction-adhesive",
         "itw-devcon-14265-5-minute-epoxy-gel",
+        "liquid-nails-ln150",
+        "liquid-nails-ln2000",
         "liquid-nails-ln3000",
+        "liquid-nails-ln700",
         "liquid-nails-ln901",
+        "liquid-nails-ln902",
         "liquid-nails-ln905",
         "mg-chemicals-9200",
         "permabond-922",
@@ -3729,7 +3742,8 @@
       "household-repair": [
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
-        "jbweld-original-twin-tube-2oz"
+        "jbweld-original-twin-tube-2oz",
+        "liquid-nails-ln700"
       ],
       "hq-free": [
         "threebond-tb17n040"
@@ -3741,7 +3755,8 @@
         "weicon-flex310m-ht220plus"
       ],
       "hybrid-polymer": [
-        "dap-3-0-advanced-window-door-siding-trim-sealant"
+        "dap-3-0-advanced-window-door-siding-trim-sealant",
+        "liquid-nails-ln2000"
       ],
       "hydraulics": [
         "permabond-lh051",
@@ -4081,7 +4096,9 @@
       ],
       "interior-exterior": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
-        "dap-dynaflex-230"
+        "dap-dynaflex-230",
+        "liquid-nails-ln2000",
+        "liquid-nails-ln903"
       ],
       "interior-projects": [
         "titebond-quick-thick"
@@ -4874,7 +4891,9 @@
         "gorilla-glue-original-polyurethane",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "liquid-nails-ln150",
         "liquid-nails-ln3000",
+        "liquid-nails-ln700",
         "liquid-nails-ln905",
         "threebond-tb1158"
       ],
@@ -5670,6 +5689,7 @@
         "limitless-shielding-ca-sc-10",
         "limitless-shielding-ca-sc-310",
         "limitless-shielding-ca-sc-55",
+        "liquid-nails-ln150",
         "loctite-si595",
         "masterbond-mastersil-151",
         "mc-3m_hybrid_polymer_2084",
@@ -6329,6 +6349,9 @@
         "weldon-2354",
         "weldon-4052"
       ],
+      "subfloor": [
+        "liquid-nails-ln902"
+      ],
       "sunlight-yellowing-resistant": [
         "permabond-uv6160",
         "permabond-uv620"
@@ -6805,6 +6828,8 @@
         "threebond-tb6154d"
       ],
       "weather-resistant": [
+        "liquid-nails-ln2000",
+        "liquid-nails-ln903",
         "permabond-uv6231",
         "permabond-uv6357",
         "permabond-uv643",
@@ -6833,6 +6858,9 @@
       "wet-damp-surface": [
         "dap-3-0-advanced-window-door-siding-trim-sealant"
       ],
+      "wet-lumber": [
+        "liquid-nails-ln902"
+      ],
       "wet-service": [
         "permabond-712",
         "permabond-a011",
@@ -6851,6 +6879,9 @@
         "permabond-hh131",
         "permabond-hl138",
         "permabond-mh052"
+      ],
+      "wet-surface": [
+        "liquid-nails-ln2000"
       ],
       "wet-weather": [
         "christys-red-hot-blue-glue-low-voc"
@@ -6965,8 +6996,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 723,
-      "official-tds-url": 264,
+      "official-manufacturer-lead": 718,
+      "official-tds-url": 269,
       "product-or-catalog-page": 178
     }
   },
@@ -64015,39 +64046,69 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-fuze-it-all-surface-interior-and-exterior-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "liquid-nails-ln2000",
+      "source": "manual-tds",
       "maker": "Liquid Nails",
       "name": "FUZE*IT All Surface Interior and Exterior Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Hybrid polymer adhesive; gray, 500,000 cP, service \u221240 to 149\u00b0C, 20-minute open time. TDS shear: 400 psi at 24 h.",
+      "applicationTags": [
+        "construction",
+        "hybrid-polymer",
+        "interior-exterior",
+        "wet-surface",
+        "gap-filling",
+        "weather-resistant"
+      ],
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Hybrid polymer adhesive",
+        "cureFamily": "Moisture-curing hybrid construction adhesive",
+        "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+        "serviceMin": -40,
+        "serviceMax": 149,
+        "potLife": 20,
+        "fixtureTime": 1440,
+        "lapShear": 2.76,
+        "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+        "viscosityClass": "high",
+        "viscosityValue": 500000,
+        "viscosityUnit": "cP",
+        "clarity": "gray"
+      },
+      "rankableSpecs": {
+        "lapShear": 2.76
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive",
-        "sourceLabel": "Liquid Nails product assortment",
+        "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+            "label": "Liquid Nails FUZE*IT LN-2000 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-all-surface-interior-exterior-adhesive"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
@@ -64055,24 +64116,33 @@
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
+          "dielectricConstant",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
           "connectionResistanceOhm",
           "insulationResistanceOhm",
-          "dielectricConstant",
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -64082,15 +64152,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, dielectricConstant, tensileStrengthMPa",
+        "Not applicable to this product/behavior: electricalBehavior, connectionResistanceOhm, insulationResistanceOhm, dissipationFactor, dielectricBreakdownVPerMil, dielectricBreakdownKVPerMm, elongationPct, hardnessValue",
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ],
       "extractionCandidates": []
     },
@@ -64460,39 +64529,66 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-heavy-duty-interior-and-exterior-construction-adhesive-latex-based",
-      "source": "official-manufacturer-lead",
+      "id": "liquid-nails-ln903",
+      "source": "manual-tds",
       "maker": "Liquid Nails",
       "name": "Heavy Duty Interior and Exterior Construction Adhesive - Latex Based",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Low-solvent latex construction adhesive; tan, 500,000 cP, service \u221218 to 60\u00b0C, 20-minute open time. Shear: 150 psi at 24 h, 180 psi at 48 h, 240 psi at 7 d.",
+      "applicationTags": [
+        "construction",
+        "interior-exterior",
+        "weather-resistant"
+      ],
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Low-solvent latex adhesive",
+        "cureFamily": "Latex construction adhesive",
+        "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+        "serviceMin": -18,
+        "serviceMax": 60,
+        "potLife": 20,
+        "fixtureTime": 1440,
+        "lapShear": 1.03,
+        "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+        "viscosityClass": "high",
+        "viscosityValue": 500000,
+        "viscosityUnit": "cP",
+        "clarity": "tan"
+      },
+      "rankableSpecs": {
+        "lapShear": 1.03
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---latex-based",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---latex-based",
-        "sourceLabel": "Liquid Nails product assortment",
+        "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-903 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---latex-based"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
@@ -64500,24 +64596,33 @@
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
+          "dielectricConstant",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
           "connectionResistanceOhm",
           "insulationResistanceOhm",
-          "dielectricConstant",
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -64527,15 +64632,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, dielectricConstant, tensileStrengthMPa",
+        "Not applicable to this product/behavior: electricalBehavior, connectionResistanceOhm, insulationResistanceOhm, dissipationFactor, dielectricBreakdownVPerMil, dielectricBreakdownKVPerMm, elongationPct, hardnessValue",
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ],
       "extractionCandidates": []
     },
@@ -64909,64 +65013,102 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-liquid-nails-adhesive-caulk-in-one-interior-exterior",
-      "source": "official-manufacturer-lead",
+      "id": "liquid-nails-ln150",
+      "source": "manual-tds",
       "maker": "Liquid Nails",
       "name": "Liquid Nails Adhesive + Caulk in One Interior & Exterior",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Waterborne acrylic adhesive/sealant; white, 350,000\u2013400,000 cP, service \u221229 to 93\u00b0C, bridges 6.35 mm. TDS shear: 300 psi at 24 h and 380 psi at 7 d.",
+      "applicationTags": [
+        "construction",
+        "sealing-gasketing",
+        "gap-filling",
+        "paintable"
+      ],
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Waterborne acrylic blend",
+        "cureFamily": "Acrylic adhesive and sealant",
+        "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+        "serviceMin": -29,
+        "serviceMax": 93,
+        "gapFill": 6.35,
+        "fixtureTime": 1440,
+        "lapShear": 2.07,
+        "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+        "viscosityClass": "high",
+        "viscosityValue": "350,000-400,000",
+        "viscosityUnit": "cP",
+        "clarity": "white"
+      },
+      "rankableSpecs": {
+        "lapShear": 2.07
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-adhesive-caulk-in-one-interior-exterior",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-adhesive-caulk-in-one-interior-exterior",
-        "sourceLabel": "Liquid Nails product assortment",
+        "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-150 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-adhesive-caulk-in-one-interior-exterior"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
           "fixtureTime",
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "potLife"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
+          "dielectricConstant",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
           "connectionResistanceOhm",
           "insulationResistanceOhm",
-          "dielectricConstant",
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -64976,15 +65118,15 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: potLife",
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, dielectricConstant, tensileStrengthMPa",
+        "Not applicable to this product/behavior: electricalBehavior, connectionResistanceOhm, insulationResistanceOhm, dissipationFactor, dielectricBreakdownVPerMil, dielectricBreakdownKVPerMm, elongationPct, hardnessValue",
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ],
       "extractionCandidates": []
     },
@@ -66285,39 +66427,68 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-liquid-nails-small-projects-repairs-interior-exterior-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "liquid-nails-ln700",
+      "source": "manual-tds",
       "maker": "Liquid Nails",
       "name": "Liquid Nails Small Projects & Repairs Interior & Exterior Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Waterborne latex household repair adhesive; white, 200,000 cP, service \u221229 to 60\u00b0C, bridges 9.5 mm. TDS shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+      "applicationTags": [
+        "household-repair",
+        "construction",
+        "gap-filling",
+        "paintable"
+      ],
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Waterborne latex adhesive",
+        "cureFamily": "Latex construction adhesive",
+        "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+        "serviceMin": -29,
+        "serviceMax": 60,
+        "gapFill": 9.5,
+        "potLife": 20,
+        "fixtureTime": 1440,
+        "lapShear": 2.41,
+        "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+        "viscosityClass": "high",
+        "viscosityValue": 200000,
+        "viscosityUnit": "cP",
+        "clarity": "white"
+      },
+      "rankableSpecs": {
+        "lapShear": 2.41
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-repairs-interior-exterior-adhesive",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-repairs-interior-exterior-adhesive",
-        "sourceLabel": "Liquid Nails product assortment",
+        "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+            "label": "Liquid Nails LN-700 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-small-projects-repairs-interior-exterior-adhesive"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
@@ -66325,24 +66496,33 @@
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
+          "dielectricConstant",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
           "connectionResistanceOhm",
           "insulationResistanceOhm",
-          "dielectricConstant",
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -66352,15 +66532,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, dielectricConstant, tensileStrengthMPa",
+        "Not applicable to this product/behavior: electricalBehavior, connectionResistanceOhm, insulationResistanceOhm, dissipationFactor, dielectricBreakdownVPerMil, dielectricBreakdownKVPerMm, elongationPct, hardnessValue",
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ],
       "extractionCandidates": []
     },
@@ -66685,39 +66864,70 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-subfloor-and-deck-construction-adhesive-latex-based",
-      "source": "official-manufacturer-lead",
+      "id": "liquid-nails-ln902",
+      "source": "manual-tds",
       "maker": "Liquid Nails",
       "name": "Subfloor and Deck Construction Adhesive - Latex Based",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Low-temperature-gunnable latex subfloor adhesive; white, 200,000 cP, service \u221229 to 60\u00b0C, 15-minute open time, bridges 9.5 mm. Shear: 350 psi at 24 h, 450 psi at 48 h, 500 psi at 7 d.",
+      "applicationTags": [
+        "subfloor",
+        "decking",
+        "construction",
+        "gap-filling",
+        "wet-lumber",
+        "cold-weather"
+      ],
+      "referenceCategory": "Liquid Nails construction and repair adhesives",
+      "referenceForJoining": "See TDS-recommended substrates; product-specific exclusions are listed in cautions.",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Waterborne latex adhesive",
+        "cureFamily": "Latex subfloor construction adhesive",
+        "cureDetail": "One-component, moisture/waterborne cure; follow PPG instructions for substrate preparation, open time and cure.",
+        "serviceMin": -29,
+        "serviceMax": 60,
+        "gapFill": 9.5,
+        "potLife": 15,
+        "fixtureTime": 1440,
+        "lapShear": 2.41,
+        "lapShearSubstrate": "PPG TDS-reported shear strength; retrieved extract does not identify substrate/test method. Values are product-specific and should not be directly compared with standardized lap-shear results.",
+        "viscosityClass": "high",
+        "viscosityValue": 200000,
+        "viscosityUnit": "cP",
+        "clarity": "white"
+      },
+      "rankableSpecs": {
+        "lapShear": 2.41
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-subfloor-deck-interior-exterior-construction-adhesive---latex-based",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-subfloor-deck-interior-exterior-construction-adhesive---latex-based",
-        "sourceLabel": "Liquid Nails product assortment",
+        "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-902 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-subfloor-deck-interior-exterior-construction-adhesive---latex-based"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
@@ -66725,24 +66935,33 @@
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
+          "dielectricConstant",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
           "connectionResistanceOhm",
           "insulationResistanceOhm",
-          "dielectricConstant",
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -66752,15 +66971,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, dielectricConstant, tensileStrengthMPa",
+        "Not applicable to this product/behavior: electricalBehavior, connectionResistanceOhm, insulationResistanceOhm, dissipationFactor, dielectricBreakdownVPerMil, dielectricBreakdownKVPerMm, elongationPct, hardnessValue",
+        "PPG TDS indicates minimum cure time of 24 hours; allow full drying/cure before loading.",
+        "TDS-reported shear setup is not fully specified in the retrieved extract; do not compare directly with standardized lap-shear measurements."
       ],
       "extractionCandidates": []
     },

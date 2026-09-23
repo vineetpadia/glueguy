@@ -4,7 +4,7 @@
     "manufacturersConfigured": 38,
     "discoveredEntries": 995,
     "tdsDocumentsDiscovered": 129,
-    "tdsDocumentsLinked": 175,
+    "tdsDocumentsLinked": 180,
     "technicalDocumentsLinked": 34,
     "manufacturersWithProducts": 39,
     "previousEntriesPreserved": 33,
@@ -928,8 +928,8 @@
     },
     "Liquid Nails": {
       "productLeads": 30,
-      "productsWithTds": 0,
-      "tdsDocuments": 0,
+      "productsWithTds": 5,
+      "tdsDocuments": 5,
       "productsWithSds": 0
     },
     "Master Bond": {
@@ -5383,6 +5383,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-907 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5411,6 +5417,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-2000.pdf",
+          "label": "Liquid Nails FUZE*IT LN-2000 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5436,6 +5448,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-3000 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5472,6 +5490,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-903_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-903 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5486,6 +5510,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-901 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5500,6 +5530,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
+          "label": "Liquid Nails LN-905 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5514,6 +5550,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-150_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-150 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5654,6 +5696,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-700_DataSheet_FINAL.pdf",
+          "label": "Liquid Nails LN-700 Technical Data Sheet"
+        }
       ]
     },
     {
@@ -5724,6 +5772,12 @@
       "officialDomains": [
         "ppgpaints.com",
         "buyat.ppg.com"
+      ],
+      "tdsDocuments": [
+        {
+          "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-902_Data_Sheet.pdf",
+          "label": "Liquid Nails LN-902 Technical Data Sheet"
+        }
       ]
     },
     {

@@ -55546,6 +55546,146 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "NSF P1 (regional; no food contact)"
     ]
+  },
+  {
+    "id": "loctite-480",
+    "profile": "gelCA",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 480",
+    "summary": "Black, rubber-toughened ethyl cyanoacrylate with enhanced flexibility, peel strength and shock resistance for close-fitting metal, plastic and rubber joints.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 480, July 2024; Henkel-hosted PDF digitally signed 26 November 2025. Service range is taken from Henkel’s current US product page, not the TDS.",
+    "chemistry": "Rubber-toughened ethyl cyanoacrylate",
+    "cureFamily": "Toughened cyanoacrylate",
+    "cureDetail": "One-part humidity-initiated cure. Assemble close-fitting parts promptly; TDS strength tests use 24-hour cure at 22 °C.",
+    "serviceMin": -40,
+    "serviceMax": 100,
+    "serviceTemperatureQualifier": "current manufacturer product-page range",
+    "serviceTemperatureNote": "Henkel US product page lists operating temperature -40 to 100 °C; the July 2024 TDS does not state a simple continuous range and instead supplies hot-strength data.",
+    "fixtureTime": 90,
+    "fixtureTimeNote": "TDS fixture threshold: 0.1 N/mm² at 22 °C / 50% RH; steel (degreased) 60-120 s, aluminum 10-30 s, zinc dichromate 50-150 s, neoprene and nitrile <20 s, ABS 20-50 s, PVC 50-100 s, polycarbonate 30-90 s, phenolic 20-60 s. Manufacturer product page gives approximately 90 s on steel.",
+    "fullCureMinutes": 1440,
+    "fullCureNote": "At least 24 hours for full chemical/solvent resistance; strength table is after 24 h at 22 °C.",
+    "viscosityClass": "low",
+    "viscosityValue": "100-200",
+    "viscosityUnit": "mPa.s",
+    "viscosityNote": "Cone-and-plate at 25 °C and 1000 s-1: 100-200 mPa·s; Brookfield LVF spindle 1 at 6 rpm: 100-200 mPa·s.",
+    "gapFill": 0.18,
+    "thermalConductivity": 0.1,
+    "lapShear": 26,
+    "lapShearRangeMPa": [
+      22,
+      30
+    ],
+    "lapShearSubstrate": "After 24 h at 22 °C, ISO 4587: grit-blasted steel 22-30 MPa; etched aluminum 14-22 MPa; zinc dichromate 8-15 MPa; ABS 6-20 MPa; PVC 4-20 MPa; phenolic 5-15 MPa; polycarbonate 5-20 MPa; nitrile 5-15 MPa; neoprene 5-15 MPa. Grit-blasted steel after 24 h + 48 h at 120 °C: ≥18 MPa.",
+    "lapShearProfilesMPa": {
+      "gritBlastedSteel": [
+        22,
+        30
+      ],
+      "etchedAluminum": [
+        14,
+        22
+      ],
+      "zincDichromate": [
+        8,
+        15
+      ],
+      "abs": [
+        6,
+        20
+      ],
+      "pvc": [
+        4,
+        20
+      ],
+      "phenolic": [
+        5,
+        15
+      ],
+      "polycarbonate": [
+        5,
+        20
+      ],
+      "nitrile": [
+        5,
+        15
+      ],
+      "neoprene": [
+        5,
+        15
+      ],
+      "steelPost120CExposureMin": 18
+    },
+    "clarity": "opaque",
+    "dryColor": "black",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "rubber-toughened",
+      "impact-resistant",
+      "flexible-bond",
+      "close-fitting-parts"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 6,
+      "impact": 8
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "zinc": 7,
+      "abs": 8,
+      "pvc": 7,
+      "phenolic": 7,
+      "polycarbonate": 7,
+      "nitrile": 8,
+      "neoprene": 8,
+      "rubber": 9,
+      "plastic": 7,
+      "metal": 8
+    },
+    "electricalBehavior": "insulating",
+    "dielectricBreakdownKVPerMm": 25,
+    "volumeResistivityOhmCm": "10 × 10^15",
+    "surfaceResistivityOhm": "10 × 10^15",
+    "glassTransitionC": 150,
+    "cautions": [
+      "Designed for close-fitting joints and best performance in thin bond gaps around 0.05 mm; listed gap fill is 0.18 mm.",
+      "Bond strength is strongly substrate and surface-preparation dependent; retain the full TDS ranges instead of treating the steel scalar as universal.",
+      "TDS hot-strength chart is not a single service-temperature rating; -40 to 100 °C comes from the current Henkel product page.",
+      "Activators may improve cure speed but can reduce ultimate bond strength; validate before production.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "For NSF 61 applications, Henkel says a 48-hour cure at 23 °C is required; confirm approval for the exact application and region.",
+      "Optimal unopened storage is 2-8 °C in a dry location."
+    ],
+    "storageCondition": "Optimal unopened storage 2-8 °C in a dry location.",
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-480/BP000000153522/variation/234048.html",
+    "unpublishedFields": [
+      "potLife",
+      "serviceTemperatureRangeInTds",
+      "peelStrengthNPerM"
+    ],
+    "specificGravity": 1.05,
+    "lapShearCureHours": 24,
+    "lapShearTestTemperatureC": 22,
+    "fixtureTimeTestTemperatureC": 22,
+    "fixtureTimeTestHumidityPct": 50,
+    "fixtureShearThresholdMPa": 0.1,
+    "dielectricConstant": {
+      "0.1kHz": 2.65,
+      "1kHz": 2.75,
+      "10kHz": 2.75
+    },
+    "dissipationFactor": {
+      "0.1kHz": "<0.02",
+      "1kHz": "<0.02",
+      "10kHz": "<0.02"
+    },
+    "standards": [
+      "NSF 61 (48-hour cure at 23 °C required for NSF 61 applications; confirm local suitability)"
+    ]
   }
 ];
 
@@ -70570,10 +70710,35 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-480",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 480",
+    "primaryCategory": "Instant Adhesives",
+    "categories": [
+      "Instant Adhesives"
+    ],
+    "sampleType": "One-part black instant adhesive bottle",
+    "sampleConsistency": "Black rubber-toughened low-viscosity cyanoacrylate; 100-200 mPa·s.",
+    "sampleForJoining": "Close-fitting metals, elastomers and plastics requiring increased flexibility, peel strength and shock resistance.",
+    "applicationTags": [
+      "instant-bonding",
+      "cyanoacrylate",
+      "rubber-toughened",
+      "impact-resistant",
+      "flexible-bond",
+      "close-fitting-parts"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 100,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 561,
-  "referenceFamilies": 561
+  "selectorProducts": 562,
+  "referenceFamilies": 562
 };

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:02:28.901647+00:00",
+  "generatedAt": "2026-09-23T23:05:06.156047+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1709,
-    "manualTdsProducts": 561,
+    "products": 1710,
+    "manualTdsProducts": 562,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
@@ -721,6 +721,7 @@
         "loctite-403",
         "loctite-406",
         "loctite-454",
+        "loctite-480",
         "loctite-495",
         "loctite-aa3492",
         "loctite-clear-epoxy",
@@ -2434,6 +2435,9 @@
         "mg-chemicals-832fxc",
         "mg-chemicals-832wc"
       ],
+      "close-fitting-parts": [
+        "loctite-480"
+      ],
       "cloth-bonding": [
         "threebond-tb7789a"
       ],
@@ -2760,6 +2764,7 @@
         "loctite-401",
         "loctite-406",
         "loctite-454",
+        "loctite-480",
         "loctite-495",
         "loctite-super-glue-ultra-gel-control",
         "permabond-2050",
@@ -3407,6 +3412,9 @@
         "liquid-nails-ln901",
         "threebond-3012d"
       ],
+      "flexible-bond": [
+        "loctite-480"
+      ],
       "flexible-bonding": [
         "3m-marine-adhesive-sealant-4200fc-black-06564",
         "3m-scotch-grip-847",
@@ -3872,6 +3880,7 @@
       ],
       "impact-resistant": [
         "itw-devcon-hp250",
+        "loctite-480",
         "loctite-super-glue-ultra-gel-control",
         "permabond-2050",
         "permabond-731",
@@ -3976,6 +3985,7 @@
         "loctite-403",
         "loctite-406",
         "loctite-454",
+        "loctite-480",
         "loctite-495",
         "loctite-super-glue-ultra-gel-control",
         "mc-3m_scotch_weld_ca4",
@@ -5778,6 +5788,9 @@
       "rubber-elastic": [
         "threebond-tb3013q"
       ],
+      "rubber-toughened": [
+        "loctite-480"
+      ],
       "rust-preventive": [
         "threebond-tb6154d",
         "threebond-tb6155d"
@@ -7218,7 +7231,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
-      "official-tds-url": 294,
+      "official-tds-url": 295,
       "product-or-catalog-page": 178
     }
   },
@@ -59877,6 +59890,138 @@
         "Gel is thixotropic and resists flow on vertical surfaces; larger bond gaps still slow cyanoacrylate cure.",
         "Increasing humidity accelerates cure but may impair final strength; best TDS results are at 40-60% RH around 22 \u00b0C.",
         "Activator can speed cure but may reduce ultimate strength; validate the joint."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-480",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 480",
+      "profile": "gelCA",
+      "summary": "Black, rubber-toughened ethyl cyanoacrylate with enhanced flexibility, peel strength and shock resistance for close-fitting metal, plastic and rubber joints.",
+      "applicationTags": [
+        "instant-bonding",
+        "cyanoacrylate",
+        "rubber-toughened",
+        "impact-resistant",
+        "flexible-bond",
+        "close-fitting-parts"
+      ],
+      "referenceCategory": "Instant Adhesives",
+      "referenceForJoining": "Close-fitting metals, elastomers and plastics requiring increased flexibility, peel strength and shock resistance.",
+      "electricalBehaviorClass": "insulating",
+      "specs": {
+        "chemistry": "Rubber-toughened ethyl cyanoacrylate",
+        "cureFamily": "Toughened cyanoacrylate",
+        "cureDetail": "One-part humidity-initiated cure. Assemble close-fitting parts promptly; TDS strength tests use 24-hour cure at 22 \u00b0C.",
+        "serviceMin": -40,
+        "serviceMax": 100,
+        "serviceTemperatureNote": "Henkel US product page lists operating temperature -40 to 100 \u00b0C; the July 2024 TDS does not state a simple continuous range and instead supplies hot-strength data.",
+        "gapFill": 0.18,
+        "fixtureTime": 90,
+        "lapShear": 26,
+        "lapShearSubstrate": "After 24 h at 22 \u00b0C, ISO 4587: grit-blasted steel 22-30 MPa; etched aluminum 14-22 MPa; zinc dichromate 8-15 MPa; ABS 6-20 MPa; PVC 4-20 MPa; phenolic 5-15 MPa; polycarbonate 5-20 MPa; nitrile 5-15 MPa; neoprene 5-15 MPa. Grit-blasted steel after 24 h + 48 h at 120 \u00b0C: \u226518 MPa.",
+        "viscosityClass": "low",
+        "viscosityValue": "100-200",
+        "viscosityUnit": "mPa.s",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "electricalBehavior": "insulating",
+        "volumeResistivityOhmM": "10 \u00d7 10^15",
+        "surfaceResistivityOhm": "10 \u00d7 10^15",
+        "dielectricConstant": {
+          "0.1kHz": 2.65,
+          "1kHz": 2.75,
+          "10kHz": 2.75
+        },
+        "dissipationFactor": {
+          "0.1kHz": "<0.02",
+          "1kHz": "<0.02",
+          "10kHz": "<0.02"
+        },
+        "dielectricBreakdownKVPerMm": 25,
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 26,
+        "thermalConductivity": 0.1,
+        "dielectricBreakdownKVPerMm": 25,
+        "volumeResistivityOhmM": "10 \u00d7 10^15"
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 0.6,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.5,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "surfaceResistivityOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownKVPerMm",
+          "volumeResistivityOhmM",
+          "dielectricBreakdownVPerMil",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [
+          "insulationResistanceOhm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "peelStrengthNPerM"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "connectionResistanceOhm"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "volumeResistivityOhmM",
+          "dielectricBreakdownVPerMil",
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing electronics fields: insulationResistanceOhm, tensileStrengthMPa, elongationPct, hardnessValue, hardnessScale, chipBondStrengthMPa, cureDepthMm, tackFreeTime",
+        "Verified absent from available TDS fields: potLife, peelStrengthNPerM",
+        "Not applicable to this product/behavior: connectionResistanceOhm",
+        "Designed for close-fitting joints and best performance in thin bond gaps around 0.05 mm; listed gap fill is 0.18 mm.",
+        "Bond strength is strongly substrate and surface-preparation dependent; retain the full TDS ranges instead of treating the steel scalar as universal.",
+        "TDS hot-strength chart is not a single service-temperature rating; -40 to 100 \u00b0C comes from the current Henkel product page."
       ],
       "extractionCandidates": []
     },

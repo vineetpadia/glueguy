@@ -81,14 +81,16 @@
 
           <div class="control-group">
             <label>
-              <span>Minimum °C</span>
-              <input name="coldest" type="number" value="-20" step="5" />
+              <span>Minimum service temperature (°C)</span>
+              <input name="coldest" type="number" value="-20" step="1" aria-describedby="temperature-range-help temperature-range-error" />
             </label>
             <label>
-              <span>Maximum °C</span>
-              <input name="hottest" type="number" value="90" step="5" />
+              <span>Maximum service temperature (°C)</span>
+              <input name="hottest" type="number" value="90" step="1" aria-describedby="temperature-range-help temperature-range-error" />
             </label>
           </div>
+          <p class="temperature-help" id="temperature-range-help">Candidates are checked against the complete service range.</p>
+          <p class="input-error-message hidden" id="temperature-range-error" role="alert"></p>
 
           <div class="control-stack">
             <span class="stack-label">Primary load</span>

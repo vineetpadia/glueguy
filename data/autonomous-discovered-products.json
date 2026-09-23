@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:30:00.000Z",
+  "generated_at": "2026-09-23T16:00:00.000Z",
   "stats": {
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
@@ -6506,17 +6506,6 @@
       ]
     },
     {
-      "maker": "Mod Podge",
-      "name": "Mod Podge Outdoor",
-      "officialUrl": "https://help.plaidonline.com/en-US/articles/mod-podge-outdoor-355557",
-      "kind": "product",
-      "sourceLabel": "Mod Podge official product information",
-      "priority": "high",
-      "officialDomains": [
-        "help.plaidonline.com"
-      ]
-    },
-    {
       "maker": "Aleene's",
       "name": "Aleene's Quick Dry Tacky Glue",
       "officialUrl": "https://aleenes.com/collections/original-tacky-glue/products/aleenes-quick-dry-tacky-glue-8-fl-oz-1",
@@ -6783,7 +6772,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik All Purpose Clear Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose-glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6794,7 +6783,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik Super Glue Ultra+",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-ultra",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
@@ -6816,7 +6805,7 @@
     {
       "maker": "Bostik",
       "name": "Bostik Fabric Glue",
-      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fabric-glue",
+      "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",

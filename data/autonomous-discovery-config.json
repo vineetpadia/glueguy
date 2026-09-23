@@ -523,6 +523,64 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Mod Podge",
+      "priority": "high",
+      "officialDomains": [
+        "plaidonline.com",
+        "help.plaidonline.com"
+      ],
+      "sources": [
+        {
+          "label": "Mod Podge official formula guide",
+          "url": "https://help.plaidonline.com/en-US/articles/mod-podge-355549",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 80,
+          "includeRegex": [
+            "/articles/mod-podge-"
+          ],
+          "nameRequireRegex": [
+            "Mod Podge"
+          ],
+          "nameExcludeRegex": [
+            "how do I",
+            "when should",
+            "how long",
+            "what is"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starbond",
+      "priority": "high",
+      "officialDomains": [
+        "starbond.com"
+      ],
+      "sources": [
+        {
+          "label": "Starbond CA glue collection",
+          "url": "https://starbond.com/collections/ca-glue",
+          "sourceType": "html",
+          "kind": "product",
+          "nameStrategy": "linkText",
+          "requestTimeout": 20,
+          "maxUrls": 100,
+          "includeRegex": [
+            "/products/"
+          ],
+          "nameRequireRegex": [
+            "Super Glue|CA Glue|Cyanoacrylate"
+          ],
+          "nameExcludeRegex": [
+            "bundle|kit|accelerator|remover|wood finish"
+          ]
+        }
+      ]
     }
   ]
 }

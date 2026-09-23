@@ -976,3 +976,7 @@ summary::-webkit-details-marker {
   .reference-tools input, .reference-tools select { width: 100%; }
   .reference-table-shell { max-height: 68dvh; margin: 0 -10px; border-radius: 0; }
 }
+
+.temperature-help { margin: -12px 0 0; color: var(--tertiary); font-size: 11px; line-height: 1.45; }
+.input-error-message { margin: -10px 0 0; color: var(--red); font-size: 12px; font-weight: 550; line-height: 1.4; }
+input[aria-invalid="true"] { border-color: var(--red); box-shadow: 0 0 0 3px rgba(215, 0, 21, .09); }

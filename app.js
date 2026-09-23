@@ -584,6 +584,7 @@ const OBSERVED_TDS_FIELDS = [
   "ulRecognized",
   "voltageRatingV",
   "serviceOverloadMaxC",
+  "serviceExcursions",
   "adhesionToMetalsPsi",
   "adhesionToCableJacketsPsi",
   "workingPressureBar",
@@ -5344,6 +5345,49 @@ function resetAllFilters() {
 }
 
 
+function productServiceTemperatureBounds(product) {
+  if (
+    Number.isFinite(product.longTermServiceTemperatureMinC) &&
+    Number.isFinite(product.longTermServiceTemperatureMaxC)
+  ) {
+    return {
+      min: product.longTermServiceTemperatureMinC,
+      max: product.longTermServiceTemperatureMaxC,
+      basis: "long-term",
+    };
+  }
+  return { min: product.serviceMin, max: product.serviceMax, basis: "reported" };
+}
+
+function serviceTemperatureEvidenceStatus(product) {
+  const bounds = productServiceTemperatureBounds(product);
+  if (bounds.basis === "long-term") return "reported";
+  const profileFields = new Set(product.profileDerivedFields ?? []);
+  if (profileFields.has("serviceMin") || profileFields.has("serviceMax")) return "profile";
+  const sourceText = [
+    product.serviceTemperatureQualifier,
+    product.serviceTemperatureNote,
+    ...(product.cautions ?? []),
+  ].filter(Boolean).join(" ").toLocaleLowerCase();
+  if (
+    /not a continuous service-temperature|not a continuous temperature|not continuous service|no continuous service|not a continuous service limit|not published.*continuous|does not publish.*continuous/i.test(sourceText) ||
+    /service min\/max scalars?.*tested|service min\/service max scalars?.*tested|tested .*bounds, not a continuous/i.test(sourceText)
+  ) return "test-only";
+  if (/intermittent/.test(sourceText) && /no continuous|not continuous|only intermittent|intermittent.*not/i.test(sourceText)) {
+    return "intermittent";
+  }
+  if (!Number.isFinite(bounds.min) || !Number.isFinite(bounds.max)) return "unknown";
+  return "reported";
+}
+
+function formatProductServiceTemperature(product) {
+  const status = serviceTemperatureEvidenceStatus(product);
+  if (status === "test-only") return "Test temperatures only";
+  if (status === "intermittent") return "Intermittent limit only";
+  const bounds = productServiceTemperatureBounds(product);
+  return formatTemperatureRange(bounds.min, bounds.max);
+}
+
 function scoreProduct(product, filters) {
   if (filters.manufacturer !== "any" && product.maker !== filters.manufacturer) return null;
   if (filters.cure !== "any" && product.cureFamily !== filters.cure) return null;
@@ -5450,14 +5494,19 @@ function scoreProduct(product, filters) {
     ? rankingSubstrateScores.reduce((sum, value) => sum + value, 0) / selectedMaterials.length
     : 6.5;
   const minimumSubstrate = selectedMaterials.length ? Math.min(...rankingSubstrateScores) : 6.5;
-  const temperatureIsProfileDerived =
-    profileFields.has("serviceMin") || profileFields.has("serviceMax") ||
-    !Number.isFinite(product.serviceMin) || !Number.isFinite(product.serviceMax);
-  if (temperatureIsProfileDerived) unverifiedRequirements.add("service temperature range");
-  const lowTempMiss = temperatureIsProfileDerived ? 0 : Math.max(0, product.serviceMin - filters.coldest);
-  const highTempMiss = temperatureIsProfileDerived ? 0 : Math.max(0, filters.hottest - product.serviceMax);
+  const temperatureEvidenceStatus = serviceTemperatureEvidenceStatus(product);
+  const temperatureIsUnverified = temperatureEvidenceStatus !== "reported";
+  if (temperatureIsUnverified) {
+    unverifiedRequirements.add(
+      temperatureEvidenceStatus === "test-only" || temperatureEvidenceStatus === "intermittent"
+        ? "continuous service-temperature limits"
+        : "service temperature range",
+    );
+  }
+  const lowTempMiss = temperatureIsUnverified ? 0 : Math.max(0, productServiceTemperatureBounds(product).min - filters.coldest);
+  const highTempMiss = temperatureIsUnverified ? 0 : Math.max(0, filters.hottest - productServiceTemperatureBounds(product).max);
   const temperaturePenalty = lowTempMiss * 0.7 + highTempMiss * 0.45;
-  const temperatureFit = temperatureIsProfileDerived ? 0 : clamp(12 - temperaturePenalty, -16, 12);
+  const temperatureFit = temperatureIsUnverified ? 0 : clamp(12 - temperaturePenalty, -16, 12);
 
   filters.environment.forEach((name) => {
     if (profileEnvironment.has(name) || !Number.isFinite(product.environment?.[name])) {
@@ -5516,18 +5565,19 @@ function scoreProduct(product, filters) {
     reasons.push("Listed for " + materialLabel(selectedMaterials[0]) + " to " + materialLabel(selectedMaterials[1]) + ".");
   }
 
-  if (!temperatureIsProfileDerived && temperaturePenalty === 0) {
+  if (!temperatureIsUnverified && temperaturePenalty === 0) {
     reasons.push("Product record lists " + formatTemperature(filters.coldest) + " to " + formatTemperature(filters.hottest) + " service coverage.");
-  } else if (!temperatureIsProfileDerived) {
+  } else if (!temperatureIsUnverified) {
     warnings.push("Product-record temperature range does not cover the full requested window.");
   }
+  const serviceBounds = productServiceTemperatureBounds(product);
   if (
-    !temperatureIsProfileDerived &&
-    filters.hottest <= product.serviceMax &&
-    product.serviceMax - filters.hottest < 10
+    !temperatureIsUnverified &&
+    filters.hottest <= serviceBounds.max &&
+    serviceBounds.max - filters.hottest < 10
   ) {
     warnings.push(
-      "Service temp only " + formatTemperature(product.serviceMax) +
+      "Service temp only " + formatTemperature(serviceBounds.max) +
       " (design at " + formatTemperature(filters.hottest) + " leaves <10 °C margin).",
     );
   }
@@ -5719,7 +5769,7 @@ function renderReferenceLibrary() {
     if (product.cureFamily) chemistryCell.append(makeText("div", "table-note", product.cureFamily));
     if (product.mcmaster) chemistryCell.append(makeText("div", "table-note", formatMcMasterSummary(product.mcmaster)));
 
-    const temperatureCell = makeText("td", "", formatTemperatureRange(product.serviceMin, product.serviceMax));
+    const temperatureCell = makeText("td", "", formatProductServiceTemperature(product));
     const priceCell = document.createElement("td");
     priceCell.append(makeText("div", "cost-main", formatPricing(product.pricing)));
     const priceDetail = formatPricingDetail(product.pricing);
@@ -5929,6 +5979,15 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Test methods / standards", "standards"],
   ["Lap-shear substrate and conditions", "lapShearSubstrate"],
   ["Service-temperature note", "serviceTemperatureNote"],
+  ["Service-temperature qualification", "serviceTemperatureQualifier"],
+  ["Long-term service minimum (°C)", "longTermServiceTemperatureMinC"],
+  ["Long-term service maximum (°C)", "longTermServiceTemperatureMaxC"],
+  ["Short-term service minimum (°C)", "shortTermServiceTemperatureMinC"],
+  ["Short-term service maximum (°C)", "shortTermServiceTemperatureMaxC"],
+  ["Overload temperature maximum (°C)", "serviceOverloadMaxC"],
+  ["Documented temperature excursions", "serviceExcursions"],
+  ["Temperatures tested, minimum (°C)", "temperatureTestedMinC"],
+  ["Temperatures tested, maximum (°C)", "temperatureTestedMaxC"],
   ["Working-life conditions", "potLifeConditions"],
   ["Handling-time note", "fixtureTimeNote"],
   ["Viscosity note", "viscosityNote"],
@@ -6101,7 +6160,7 @@ function openProductDetail(product, match) {
     "Values tagged “Profile guide” are chemistry-family defaults. Other values are product-specific catalog entries; the linked source and its test conditions remain authoritative."
   );
   const coreFields = [
-    ["Service temperature", formatTemperatureRange(product.serviceMin, product.serviceMax), ["serviceMin", "serviceMax"]],
+    ["Service temperature", formatProductServiceTemperature(product), ["serviceMin", "serviceMax"]],
     ["Fixture time", formatMinutes(product.fixtureTime), ["fixtureTime"]],
     ["Pot life", formatMinutes(product.potLife), ["potLife"]],
     ["Gap fill", formatGap(product.gapFill), ["gapFill"]],
@@ -6354,15 +6413,12 @@ function renderResults() {
 
     const fixtureCell = document.createElement("td");
     fixtureCell.innerHTML = `
-      <div>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}${match.product.profileDerivedFields.some((field) => ["serviceMin", "serviceMax"].includes(field)) ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
+      <div>${formatProductServiceTemperature(match.product)}${match.product.profileDerivedFields.some((field) => ["serviceMin", "serviceMax"].includes(field)) ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
       <div class="table-note">${formatGap(match.product.gapFill)} gap${match.product.profileDerivedFields.includes("gapFill") ? ' <em class="field-evidence">Profile guide</em>' : ""} • ${formatProductLapShear(match.product, [match.filters?.substrateA, match.filters?.substrateB])}${match.product.profileDerivedFields.includes("lapShear") ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
     `;
 
     const tempCell = document.createElement("td");
-    tempCell.textContent = formatTemperatureRange(
-      match.product.serviceMin,
-      match.product.serviceMax,
-    );
+    tempCell.textContent = formatProductServiceTemperature(match.product);
 
     const viscosityCell = document.createElement("td");
     viscosityCell.textContent = VISCOSITY_LABELS[match.product.viscosityClass];
@@ -6556,7 +6612,7 @@ function renderSavedGlues(matches, filters) {
         <div class="product-name">${match.product.name}</div>
       </td>
       <td>${match.outsideFilters ? "Outside current filters" : "Not excluded by current filters"}</td>
-      <td>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}</td>
+      <td>${formatProductServiceTemperature(match.product)}</td>
       <td>${formatMinutes(match.product.fixtureTime)}</td>
       <td>${formatPricing(match.product.pricing)}</td>
       <td></td>

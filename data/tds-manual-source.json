@@ -18160,7 +18160,9 @@
         "Official E6000 Industrial TDS publishes tensile strength and 180-degree peel strength, not lap-shear strength; do not enter the 3500 psi tensile value as lapShear.",
         "Official TDS does not publish thermal conductivity.",
         "Paint over after curing for direct-sunlight exposure or switch to the UV-stable E6800 variant.",
-        "Full cure is highly thickness-dependent: about 24 hours in thin films and 48-72 hours in thick sections."
+        "Full cure is highly thickness-dependent: about 24 hours in thin films and 48-72 hours in thick sections.",
+        "Published service-temperature range is intermittent only, not a continuous rating.",
+        "Contains perchloroethylene; the TDS includes a California cancer warning."
       ],
       "referenceUrl": "https://eclecticproducts.com/downloads/tds-e6000-industrial-english-clear-us_ca.pdf",
       "referenceCategory": "Industrial Adhesives",
@@ -18221,7 +18223,10 @@
           ],
           "context": "thick film or maximum bond strength"
         }
-      ]
+      ],
+      "serviceTemperatureQualifier": "intermittent",
+      "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 82 °C intermittently; this is not a continuous service rating. Ideal application temperature is 10 to 32 °C.",
+      "serviceOverloadMaxC": 82
     },
     {
       "id": "e6100-industrial-clear",

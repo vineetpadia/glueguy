@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T22:27:56.439033+00:00",
+  "generatedAt": "2026-09-23T22:41:40.864357+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -44465,6 +44465,7 @@
         "cureDetail": "One-part self-leveling industrial adhesive; air-dry / solvent-evaporation cure",
         "serviceMin": -40,
         "serviceMax": 82,
+        "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 82 \u00b0C intermittently; this is not a continuous service rating. Ideal application temperature is 10 to 32 \u00b0C.",
         "potLife": 4,
         "fixtureTime": 20,
         "viscosityClass": "high",

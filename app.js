@@ -4635,7 +4635,10 @@ const mergeObservedCatalogData = (existing, generated) => {
       );
     });
   }
-  if (generated.pricing && (!existing.pricing || existing.pricing.basis !== "observed")) {
+  if (
+    isTraceableObservedPricing(generated.pricing) &&
+    !isTraceableObservedPricing(existing.pricing)
+  ) {
     existing.pricing = generated.pricing;
   }
   if (generated.applicationTags?.length) {
@@ -4705,11 +4708,15 @@ function ingestSelectorProducts(products) {
 
     if (existing) {
       mergeObservedCatalogData(existing, generated);
-      existing.pricing = existing.pricing ?? assignPricing(existing);
+      existing.pricing = isTraceableObservedPricing(existing.pricing)
+        ? existing.pricing
+        : assignPricing(existing);
       return;
     }
 
-    generated.pricing = generated.pricing ?? assignPricing(generated);
+    generated.pricing = isTraceableObservedPricing(generated.pricing)
+      ? generated.pricing
+      : assignPricing(generated);
     catalogKeys.set(key, generated);
     GLUES.push(generated);
   });
@@ -4729,54 +4736,12 @@ const roundMoney = (value) => Math.round(value * 100) / 100;
 
 const observedUnitPrice = (priceUsd, size, unit, example, sourceUrl) => ({
   basis: "observed",
+  currency: "USD",
   unit,
   unitPrice: roundMoney(priceUsd / size),
   example,
   sourceUrl,
 });
-
-const estimatedUnitPrice = (unitPrice, unit, example) => ({
-  basis: "estimated",
-  unit,
-  unitPrice: roundMoney(unitPrice),
-  example,
-});
-
-const PRICE_DEFAULTS = {
-  toughenedEpoxy: estimatedUnitPrice(0.95, "mL"),
-  flexibleEpoxy: estimatedUnitPrice(0.8, "mL"),
-  clearEpoxy: estimatedUnitPrice(0.45, "mL"),
-  structuralAcrylic: estimatedUnitPrice(0.88, "mL"),
-  mmaPlasticWelder: estimatedUnitPrice(0.52, "mL"),
-  thinCA: estimatedUnitPrice(1.45, "mL"),
-  gelCA: estimatedUnitPrice(1.65, "mL"),
-  hybridCA: estimatedUnitPrice(1.15, "mL"),
-  uvOptical: estimatedUnitPrice(2.2, "mL"),
-  uvAcrylate: estimatedUnitPrice(2.25, "mL"),
-  rtvSilicone: estimatedUnitPrice(0.1, "mL"),
-  siliconeRubberAdhesive: estimatedUnitPrice(0.62, "mL"),
-  polyurethaneSealant: estimatedUnitPrice(0.1, "mL"),
-  msPolymerSealant: estimatedUnitPrice(0.12, "mL"),
-  structuralPolyurethane: estimatedUnitPrice(0.72, "mL"),
-  anaerobicThreadlocker: estimatedUnitPrice(2.2, "mL"),
-  anaerobicRetainer: estimatedUnitPrice(0.82, "mL"),
-  foamTape: estimatedUnitPrice(6.3, "m"),
-  contactCement: estimatedUnitPrice(0.03, "mL"),
-  pvaWood: estimatedUnitPrice(0.017, "mL"),
-  hotMelt: estimatedUnitPrice(0.45, "stick"),
-  sprayAdhesive: estimatedUnitPrice(15.5, "can"),
-  thermalEpoxy: estimatedUnitPrice(1.2, "mL"),
-  solventAcrylic: estimatedUnitPrice(0.08, "mL"),
-  solventPVC: estimatedUnitPrice(0.035, "mL"),
-  solventCPVC: estimatedUnitPrice(0.04, "mL"),
-  solventABSStyrene: estimatedUnitPrice(0.045, "mL"),
-  solventPolycarbonate: estimatedUnitPrice(0.08, "mL"),
-  solventMultiPlastic: estimatedUnitPrice(0.06, "mL"),
-  constructionAdhesive: estimatedUnitPrice(0.026, "mL"),
-  industrialClear: estimatedUnitPrice(0.2, "mL"),
-  fabricAdhesive: estimatedUnitPrice(0.16, "mL"),
-  craftPva: estimatedUnitPrice(0.012, "mL"),
-};
 
 const PRICE_OVERRIDES = {
   "3m-dp420ns": observedUnitPrice(
@@ -4901,19 +4866,45 @@ const PRICE_OVERRIDES = {
   ),
 };
 
-function assignPricing(product) {
-  return (
-    PRICE_OVERRIDES[product.id] ??
-    PRICE_DEFAULTS[product.profileKey] ?? {
-      basis: "estimated",
-      unit: "mL",
-      unitPrice: null,
-    }
+function isTraceableObservedPricing(pricing) {
+  return Boolean(
+    pricing?.basis === "observed" &&
+    Number.isFinite(pricing.unitPrice) &&
+    pricing.unitPrice > 0 &&
+    typeof pricing.unit === "string" &&
+    pricing.unit.trim() &&
+    typeof pricing.sourceUrl === "string" &&
+    /^https?:\/\//i.test(pricing.sourceUrl) &&
+    typeof pricing.example === "string" &&
+    pricing.example.trim()
   );
 }
 
+const unavailablePricing = Object.freeze({
+  basis: "unavailable",
+  currency: "USD",
+  unit: null,
+  unitPrice: null,
+});
+
+function assignPricing(product) {
+  const listed = PRICE_OVERRIDES[product.id];
+  return isTraceableObservedPricing(listed) ? listed : unavailablePricing;
+}
+
+function compareObservedPrices(left, right) {
+  const a = left.product.pricing;
+  const b = right.product.pricing;
+  const aKnown = isTraceableObservedPricing(a);
+  const bKnown = isTraceableObservedPricing(b);
+  if (aKnown !== bKnown) return aKnown ? -1 : 1;
+  if (!aKnown) return 0;
+  if (a.unit !== b.unit) return a.unit.localeCompare(b.unit);
+  return a.unitPrice - b.unitPrice;
+}
+
 GLUES.forEach((glue) => {
-  glue.pricing = glue.pricing ?? assignPricing(glue);
+  glue.pricing = isTraceableObservedPricing(glue.pricing) ? glue.pricing : assignPricing(glue);
 });
 
 const PRESETS = {
@@ -5122,8 +5113,8 @@ const materialLabel = (value) => MATERIAL_LABELS[value] ?? value;
 const applicationLabel = (value) => APPLICATION_LABELS[value] ?? value;
 const formatFit = (value) => `${value.toFixed(1)}/10`;
 const formatPricing = (pricing) =>
-  pricing && Number.isFinite(pricing.unitPrice) && pricing.unitPrice > 0
-    ? `${pricing.basis === "estimated" ? "Est. " : ""}${formatUsd(pricing.unitPrice)}/${pricing.unit}`
+  isTraceableObservedPricing(pricing)
+    ? `${formatUsd(pricing.unitPrice)}/${pricing.unit} (USD)`
     : "Price unavailable";
 const formatPricingDetail = (pricing) => pricing?.example ?? "";
 const formatMcMasterPackage = (meta) =>
@@ -6342,15 +6333,12 @@ function openProductDetail(product, match) {
   const commerce = createDetailSection("Price and package");
   appendDetailFact(commerce, "Unit price", formatPricing(product.pricing), false);
   if (product.pricing?.example) appendDetailFact(commerce, "Package", product.pricing.example, false);
-  if (product.pricing?.basis) {
-    const basis = document.createElement("p");
-    basis.className = "product-detail-note";
-    basis.textContent =
-      product.pricing.basis === "estimated"
-        ? "Price is an estimate, not a current supplier quote."
-        : "Observed package price; availability and price can change.";
-    commerce.append(basis);
-  }
+  const priceBasisNote = document.createElement("p");
+  priceBasisNote.className = "product-detail-note";
+  priceBasisNote.textContent = isTraceableObservedPricing(product.pricing)
+    ? "Supplier price source is linked. Observation date is not recorded; confirm current price and stock."
+    : "No supplier-linked current price is recorded.";
+  commerce.append(priceBasisNote);
   productDetailContent.append(commerce);
 
   const cautions = dedupeList([...(product.cautions ?? []), ...(match?.warnings ?? [])]);
@@ -6432,10 +6420,7 @@ function renderResults() {
       }
       if (resultsSort?.value === "name") return left.product.name.localeCompare(right.product.name);
       if (resultsSort?.value === "price") {
-        const a = left.product.pricing?.unitPrice, b = right.product.pricing?.unitPrice;
-        if (Number.isFinite(a) && a > 0 && (!Number.isFinite(b) || b <= 0)) return -1;
-        if (Number.isFinite(b) && b > 0 && (!Number.isFinite(a) || a <= 0)) return 1;
-        return (a || Infinity) - (b || Infinity);
+        return compareObservedPrices(left, right);
       }
       return right.score - left.score || (lapShearEvidenceStatus(right.product) === "valid" ? right.product.lapShear : 0) - (lapShearEvidenceStatus(left.product) === "valid" ? left.product.lapShear : 0);
     });

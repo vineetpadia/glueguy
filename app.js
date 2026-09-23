@@ -5864,16 +5864,23 @@ function ingestOfficialProductLeads(entries) {
   const known = new Set(GLUES.map((product) => buildCatalogKey(product)));
   OFFICIAL_PRODUCT_LEADS = (entries ?? [])
     .filter((entry) => entry?.name && safeSourceUrl(entry.officialUrl))
-    .map((entry) => ({
-      id: `lead-${normalizeLeadIdentity(entry.maker)}-${normalizeLeadIdentity(entry.name)}`.replaceAll(" ", "-"),
-      maker: entry.maker || "Manufacturer not reported",
-      name: entry.name,
-      summary: "This product appears in an official manufacturer catalog. Product-specific technical specifications have not yet been reviewed for Glueguy’s selector.",
-      productUrl: entry.officialUrl,
-      sourceLabel: entry.sourceLabel || "Official manufacturer discovery",
-      catalogEvidenceLevel: "Manufacturer-listed lead",
-      applicationTags: [],
-    }))
+    .map((entry) => {
+      const tdsDocuments = (entry.tdsDocuments ?? []).filter((document) => safeSourceUrl(document?.url));
+      return {
+        id: `lead-${normalizeLeadIdentity(entry.maker)}-${normalizeLeadIdentity(entry.name)}`.replaceAll(" ", "-"),
+        maker: entry.maker || "Manufacturer not reported",
+        name: entry.name,
+        summary: tdsDocuments.length
+          ? "An official manufacturer product page and technical data sheet are linked. Product-specific specifications have not yet been reviewed for Glueguy’s selector."
+          : "This product appears in an official manufacturer catalog. Product-specific technical specifications have not yet been reviewed for Glueguy’s selector.",
+        productUrl: entry.officialUrl,
+        tdsDocuments,
+        tdsUrl: tdsDocuments[0]?.url,
+        sourceLabel: entry.sourceLabel || "Official manufacturer discovery",
+        catalogEvidenceLevel: tdsDocuments.length ? "Manufacturer product page + TDS linked" : "Manufacturer-listed lead",
+        applicationTags: [],
+      };
+    })
     .filter((product) => {
       const key = buildCatalogKey(product);
       if (known.has(key)) return false;
@@ -5908,9 +5915,10 @@ function renderReferenceLibrary() {
   appState.referencePage = Math.min(appState.referencePage, pageCount);
   const pageStart = (appState.referencePage - 1) * REFERENCE_PAGE_SIZE;
   const pageProducts = visibleProducts.slice(pageStart, pageStart + REFERENCE_PAGE_SIZE);
+  const tdsLinkedLeadCount = OFFICIAL_PRODUCT_LEADS.filter((product) => product.tdsDocuments?.length).length;
   referenceContext.textContent = visibleProducts.length
-    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads`
-    : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • Search product, maker, or use case`;
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsLinkedLeadCount} official leads with TDS`
+    : `${GLUES.length} selector-ready • ${OFFICIAL_PRODUCT_LEADS.length} official leads • ${tdsLinkedLeadCount} with TDS • Search product, maker, or use case`;
   if (!visibleProducts.length) {
     renderReferencePagination(0, 1);
     return;
@@ -5937,6 +5945,9 @@ function renderReferenceLibrary() {
     productCell.append(detail);
     const part = product.productSku || product.productCode || product.partNumber || product.mcmaster?.partNo;
     if (part) productCell.append(makeText("p", "table-note", `Part ${part}`));
+    if (product.catalogEvidenceLevel === "Manufacturer product page + TDS linked") {
+      productCell.append(makeText("p", "table-note", "Manufacturer TDS linked; specs not yet curated"));
+    }
 
     const applicationsCell = document.createElement("td");
     const applications = document.createElement("div");
@@ -6064,6 +6075,10 @@ function productSourceLinks(product) {
     links.push({ url, label, ariaLabel, kind });
   };
 
+  (product.tdsDocuments ?? []).forEach((document, index) => {
+    const label = product.tdsDocuments.length > 1 ? `TDS ${index + 1}` : "TDS";
+    add(document?.url, label, "Manufacturer technical data sheet", "tds");
+  });
   add(product.tdsUrl, "TDS", "Manufacturer technical data sheet", "tds");
   add(
     product.productUrl,
@@ -7003,7 +7018,7 @@ async function loadSelectorCatalog() {
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     try {
-      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=all-glues-20260923-bostik-final-a43e317");
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=official-tds-links-20260923");
       if (leadsResponse.ok) {
         const leadsCatalog = await leadsResponse.json();
         ingestOfficialProductLeads(leadsCatalog.entries ?? []);

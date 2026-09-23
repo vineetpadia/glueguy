@@ -15,7 +15,13 @@ import urllib.request
 from urllib.parse import urljoin, urlparse
 from typing import Iterable
 
-import requests
+try:
+    import requests
+except ImportError:  # Use pip's bundled requests in the managed Python runtime.
+    from pip._vendor import requests
+
+if not hasattr(requests, "get"):  # tolerate incomplete local dependency caches
+    from pip._vendor import requests as requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -158,6 +164,43 @@ def extract_tds_links(product_url: str, allowed_domains: list[str] | None = None
             continue
         seen.add(url)
         results.append({"url": url, "label": label or "Technical data sheet"})
+    return results
+
+
+def extract_tds_catalog_links(source: dict, allowed_domains: list[str], manufacturer_name: str) -> list[dict]:
+    """Discover TDS PDFs from explicitly configured official document-library pages.
+
+    A separate catalog is only useful when the PDF's own filename or link label
+    identifies a known product. This avoids attaching generic safety PDFs or
+    unrelated brand documents to arbitrary products.
+    """
+    results = []
+    seen = set()
+    for page_url in source.get("urls", []):
+        try:
+            if page_url.lower().split("?", 1)[0].endswith(".pdf"):
+                records = [{"url": page_url, "label": source.get("labels", {}).get(page_url, "")}]
+            else:
+                page = fetch_text(page_url, timeout=source.get("requestTimeout", TIMEOUT))
+                records = collect_html_link_records_from_text(page_url, page)
+        except Exception:
+            continue
+        for record in records:
+            url = record["url"].split("#", 1)[0]
+            host = (urlparse(url).hostname or "").lower()
+            if not any(host == domain.lower().lstrip(".") or host.endswith("." + domain.lower().lstrip(".")) for domain in allowed_domains):
+                continue
+            label = normalize_space(record.get("label", ""))
+            searchable = f"{label} {url}".lower()
+            if not (url.lower().split("?", 1)[0].endswith(".pdf") or "getmedia/" in url.lower()):
+                continue
+            if not re.search(r"technical data|technical documentation|\btds\b", searchable):
+                continue
+            identity = url.lower()
+            if identity in seen:
+                continue
+            seen.add(identity)
+            results.append({"url": url, "label": label or f"{manufacturer_name} Technical Data Sheet"})
     return results
 
 
@@ -597,6 +640,24 @@ def discover() -> dict:
                 )
 
         deduped = dedupe_entries(manufacturer_entries)
+        tds_catalog_documents = []
+        tds_catalog = manufacturer.get("tdsCatalog")
+        if tds_catalog:
+            tds_catalog_documents = extract_tds_catalog_links(tds_catalog, manufacturer.get("officialDomains", []), manufacturer["name"])
+            for entry in deduped:
+                product_tokens = [normalize_text(token) for token in re.findall(r"[A-Za-z0-9]+", entry.get("name", "")) if len(token) >= 4]
+                matched = []
+                for document in tds_catalog_documents:
+                    document_text = normalize_text(f"{document['label']} {document['url']}")
+                    meaningful_tokens = [token for token in product_tokens if token not in {"pritt", "glue", "adhesive", "technical", "datasheet", "tds"}]
+                    exact_candidates = [token for token in meaningful_tokens if token in {"stick", "pads"}]
+                    if exact_candidates and any(token in document_text for token in exact_candidates):
+                        matched.append(document)
+                    elif not exact_candidates and meaningful_tokens and any(token in document_text for token in meaningful_tokens):
+                        matched.append(document)
+                if matched:
+                    existing = {document.get("url") for document in entry.get("tdsDocuments", [])}
+                    entry.setdefault("tdsDocuments", []).extend(document for document in matched if document.get("url") not in existing)
         tds_documents_found = 0
         if any(source.get("extractTdsLinks") for source in manufacturer.get("sources", [])):
             tds_source = next(source for source in manufacturer["sources"] if source.get("extractTdsLinks"))
@@ -641,6 +702,7 @@ def discover() -> dict:
                 "officialDomains": manufacturer.get("officialDomains", []),
                 "discoveredEntries": len(deduped),
                 "tdsDocumentsDiscovered": tds_documents_found,
+                "tdsCatalogDocumentsFound": len(tds_catalog_documents),
                 "sources": source_summaries,
             }
         )

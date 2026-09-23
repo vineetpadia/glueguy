@@ -1008,6 +1008,16 @@
         "datasheets.tdx.henkel.com",
         "dm.henkel-dam.com"
       ],
+      "tdsCatalog": {
+        "urls": [
+          "https://datasheets.tdx.henkel.com/PRITT-Glue-Stick-en_GB.pdf",
+          "https://datasheets.tdx.henkel.com/PRITT-Glue-Pads-Multi-Tack-en_GB.pdf"
+        ],
+        "labels": {
+          "https://datasheets.tdx.henkel.com/PRITT-Glue-Stick-en_GB.pdf": "Pritt Stick Technical Data Sheet",
+          "https://datasheets.tdx.henkel.com/PRITT-Glue-Pads-Multi-Tack-en_GB.pdf": "Pritt Glue Pads Multi-Tack Technical Data Sheet"
+        }
+      },
       "sources": [
         {
           "label": "Pritt official product sitemap",

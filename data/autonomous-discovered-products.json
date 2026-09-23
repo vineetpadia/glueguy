@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-23T16:00:00.000Z",
+  "generated_at": "2026-09-23T05:01:36.000Z",
   "stats": {
     "manufacturersConfigured": 10,
     "discoveredEntries": 512,
-    "curatedOfficialLeadsAdded": 84
+    "curatedOfficialLeadsAdded": 84,
+    "tdsDocumentsDiscovered": 15
   },
   "manufacturers": [
     {
@@ -6646,6 +6647,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU All Purpose Adhesive Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/2cfbe133-1b8a-47cf-88f9-e759d42ad948/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6657,6 +6664,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU All Purpose Adhesive SUPER Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/7117e189-6141-47dd-bcf4-7473a72f65e2/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6668,6 +6681,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU All Purpose Power Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/1a573ba8-4270-4b24-806b-4c103aa5923f/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6679,6 +6698,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU Max Repair Power Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/08c613ca-5edc-44fd-9393-abe14d6eea3c/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6690,6 +6715,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU stic Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/6c4ffbe5-a799-4d86-8664-5dee9f06def6/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6701,6 +6732,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU Epoxy Quick Set Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/b8bf1859-a064-4395-ab21-4223b139cf44/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6712,6 +6749,12 @@
       "priority": "high",
       "officialDomains": [
         "uhu.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "UHU Epoxy Repair Universal Technical Documentation Sheet",
+          "url": "https://www.uhu.com/getmedia/f1444b03-8157-4fb9-ac10-2f59c1ced086/Print%20PDF.pdf"
+        }
       ]
     },
     {
@@ -6723,6 +6766,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Blu Tack Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf"
+        }
       ]
     },
     {
@@ -6734,6 +6783,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Blu Tack White Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf"
+        }
       ]
     },
     {
@@ -6745,6 +6800,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Blu Glu Stick Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf"
+        }
       ]
     },
     {
@@ -6756,6 +6817,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik PVA Glue Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf"
+        }
       ]
     },
     {
@@ -6767,6 +6834,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Fast Tak Permanent Spray Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf"
+        }
       ]
     },
     {
@@ -6778,17 +6851,29 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik All Purpose Glue Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
+        }
       ]
     },
     {
       "maker": "Bostik",
-      "name": "Bostik Super Glue Ultra+",
+      "name": "Bostik Super Glue Liquid",
       "officialUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
       "kind": "product",
       "sourceLabel": "Bostik official product information",
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Super Glue Liquid Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
+        }
       ]
     },
     {
@@ -6811,6 +6896,12 @@
       "priority": "high",
       "officialDomains": [
         "diy.bostik.com"
+      ],
+      "tdsDocuments": [
+        {
+          "label": "Bostik Fabric Glue Technical Data Sheet",
+          "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
+        }
       ]
     }
   ]

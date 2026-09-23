@@ -77,6 +77,7 @@ const APPLICATION_LABELS = Object.fromEntries(
 );
 
 const PAGE_SIZE = 25;
+const REFERENCE_PAGE_SIZE = 50;
 
 const PROFILE_APPLICATION_TAGS = {
   toughenedEpoxy: ["structural-bonding"],
@@ -4969,6 +4970,7 @@ const appState = {
   savedIds: readSavedGlueIds(),
   renderFrame: 0,
   resultPage: 1,
+  referencePage: 1,
 };
 
 const usdFormatter = new Intl.NumberFormat("en-US", {
@@ -5496,10 +5498,19 @@ function renderReferenceLibrary() {
     return haystack.includes(query);
   });
   referenceCount.textContent = `${visibleProducts.length} product${visibleProducts.length === 1 ? "" : "s"}`;
-  referenceContext.textContent = `${GLUES.length} products in this catalog • Search product, maker, part number, chemistry, or use case`;
   referenceBody.replaceChildren();
   referenceEmpty?.classList.toggle("hidden", visibleProducts.length > 0);
-  if (!visibleProducts.length) return;
+  const pageCount = Math.max(1, Math.ceil(visibleProducts.length / REFERENCE_PAGE_SIZE));
+  appState.referencePage = Math.min(appState.referencePage, pageCount);
+  const pageStart = (appState.referencePage - 1) * REFERENCE_PAGE_SIZE;
+  const pageProducts = visibleProducts.slice(pageStart, pageStart + REFERENCE_PAGE_SIZE);
+  referenceContext.textContent = visibleProducts.length
+    ? `Showing ${pageStart + 1}–${Math.min(pageStart + REFERENCE_PAGE_SIZE, visibleProducts.length)} of ${visibleProducts.length} • ${GLUES.length} catalog products`
+    : `${GLUES.length} catalog products • Search product, maker, part number, chemistry, or use case`;
+  if (!visibleProducts.length) {
+    renderReferencePagination(0, 1);
+    return;
+  }
 
   const makeText = (tagName, className, value) => {
     const node = document.createElement(tagName);
@@ -5508,7 +5519,7 @@ function renderReferenceLibrary() {
     return node;
   };
   const fragment = document.createDocumentFragment();
-  visibleProducts.forEach((product) => {
+  pageProducts.forEach((product) => {
     const row = document.createElement("tr");
     const productCell = document.createElement("td");
     productCell.append(makeText("p", "maker", product.maker || "Unknown maker"));
@@ -5565,6 +5576,40 @@ function renderReferenceLibrary() {
     fragment.append(row);
   });
   referenceBody.append(fragment);
+  renderReferencePagination(visibleProducts.length, pageCount);
+}
+
+
+function renderReferencePagination(total, pageCount) {
+  const pagination = document.querySelector("#reference-pagination");
+  if (!pagination) return;
+  pagination.replaceChildren();
+  if (total <= REFERENCE_PAGE_SIZE) return;
+  const makeButton = (label, page, disabled = false, current = false) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "page-button";
+    button.textContent = label;
+    button.dataset.referencePage = String(page);
+    button.disabled = disabled;
+    if (current) button.setAttribute("aria-current", "page");
+    return button;
+  };
+  const previous = Math.max(1, appState.referencePage - 1);
+  const next = Math.min(pageCount, appState.referencePage + 1);
+  pagination.append(
+    makeButton("Previous", previous, appState.referencePage === 1),
+    makeButton("1", 1, false, appState.referencePage === 1),
+  );
+  if (appState.referencePage > 3) pagination.append(document.createTextNode("…"));
+  const start = Math.max(2, appState.referencePage - 1);
+  const end = Math.min(pageCount - 1, appState.referencePage + 1);
+  for (let page = start; page <= end; page += 1) {
+    if (page > 1 && page < pageCount) pagination.append(makeButton(String(page), page, false, page === appState.referencePage));
+  }
+  if (appState.referencePage < pageCount - 2) pagination.append(document.createTextNode("…"));
+  if (pageCount > 1) pagination.append(makeButton(String(pageCount), pageCount, false, appState.referencePage === pageCount));
+  pagination.append(makeButton("Next", next, appState.referencePage === pageCount));
 }
 
 function setCatalogView(showCatalog) {
@@ -6354,9 +6399,15 @@ function attachEvents() {
     });
   });
 
-  referenceSearch?.addEventListener("input", renderReferenceLibrary);
-  referenceCategorySelect?.addEventListener("change", renderReferenceLibrary);
-  referenceApplicationSelect?.addEventListener("change", renderReferenceLibrary);
+  referenceSearch?.addEventListener("input", () => { appState.referencePage = 1; renderReferenceLibrary(); });
+  referenceCategorySelect?.addEventListener("change", () => { appState.referencePage = 1; renderReferenceLibrary(); });
+  referenceApplicationSelect?.addEventListener("change", () => { appState.referencePage = 1; renderReferenceLibrary(); });
+  document.querySelector("#reference-pagination")?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-reference-page]");
+    if (!button) return;
+    appState.referencePage = Number(button.dataset.referencePage);
+    renderReferenceLibrary();
+  });
 }
 
 async function loadSelectorCatalog() {

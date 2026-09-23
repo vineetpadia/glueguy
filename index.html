@@ -9,7 +9,7 @@
     />
     <title>Glueguy Lab</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="./styles.css?v=0be038e4c2470705888a4603487376be521ef46e" />
+    <link rel="stylesheet" href="./styles.css?v=3a3b3fe55da740d411fbd12f5035a5227d49b757" />
   </head>
   <body>
     <main class="shell">
@@ -25,6 +25,9 @@
           <div class="topbar-actions">
             <div class="topbar-links">
               <a class="button button-ghost" href="./data/agent-catalog.json">Catalog API</a>
+          <button class="button button-ghost" id="catalog-toggle" type="button" aria-controls="reference-library-panel" aria-expanded="false">
+            Browse catalog
+          </button>
               <button class="button button-ghost" id="reset-hero" type="button">
                 Reset
               </button>
@@ -303,6 +306,35 @@
       </section>
     </main>
 
+      <section id="reference-library-panel" class="reference-library-panel hidden" aria-labelledby="reference-title">
+        <div class="results-header">
+          <div>
+            <p class="section-index">Browse</p>
+            <h2 id="reference-title">Adhesive reference catalog</h2>
+          </div>
+          <button class="button button-ghost" id="catalog-back" type="button">Back to selector</button>
+        </div>
+        <p class="reference-intro">Explore sampled product families, use cases, service ranges, package offers, and source listings. Catalog prices and family-level data are reference points; verify the specific product and current manufacturer documentation.</p>
+        <div class="reference-tools">
+          <label class="visually-hidden" for="reference-search">Search reference catalog</label>
+          <input id="reference-search" type="search" placeholder="Search family, maker, part number…" autocomplete="off" />
+          <label class="visually-hidden" for="reference-category">Category</label>
+          <select id="reference-category" aria-label="Reference category"></select>
+          <label class="visually-hidden" for="reference-application">Use case</label>
+          <select id="reference-application" aria-label="Use case"></select>
+        </div>
+        <div class="reference-summary">
+          <strong id="reference-count">Loading reference catalog</strong>
+          <span id="reference-context"></span>
+        </div>
+        <div class="reference-table-shell" aria-live="polite">
+          <table class="reference-table">
+            <thead><tr><th>Family and sample</th><th>Use cases</th><th>Category and package</th><th>Temperature</th><th>Offers</th><th>Observed price</th><th>Source</th></tr></thead>
+            <tbody id="reference-body"></tbody>
+          </table>
+          <div class="empty-state hidden" id="reference-empty"><div><h3>No catalog families match.</h3><p>Try a broader search or clear one of the filters.</p></div></div>
+        </div>
+      </section>
 
     <dialog id="product-detail-dialog" class="product-detail-dialog" aria-labelledby="product-detail-title" aria-describedby="product-detail-maker">
       <div class="product-detail-header">
@@ -315,6 +347,6 @@
       </div>
       <div id="product-detail-content" class="product-detail-content"></div>
     </dialog>
-    <script defer src="./app.js?v=bd03eda94e90e59fb0e023d41b45a67747ebef73"></script>
+    <script defer src="./app.js?v=af6f5ec52e0d89d9766ae8ec6e5820afcfe70e8b"></script>
   </body>
 </html>

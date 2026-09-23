@@ -125,6 +125,35 @@ def collect_html_link_records(
     return records
 
 
+def collect_html_link_records_from_text(base_url: str, page: str) -> list[dict]:
+    pattern = re.compile(r"""<a\b[^>]*href=["']([^"']+)["'][^>]*>(.*?)</a>""", re.I | re.S)
+    records = []
+    for href, inner in pattern.findall(page):
+        label = html.unescape(re.sub(r"<[^>]+>", " ", inner))
+        records.append({"url": urljoin(base_url, html.unescape(href)), "label": normalize_space(label)})
+    return records
+
+
+def extract_tds_links(product_url: str, timeout: int = TIMEOUT, transport: str = "requests") -> list[dict]:
+    """Find official TDS/document PDF links exposed by a product detail page."""
+    page = fetch_text(product_url, timeout=timeout, transport=transport)
+    results = []
+    seen = set()
+    for record in collect_html_link_records_from_text(product_url, page):
+        label = normalize_space(record.get("label", ""))
+        url = record["url"].split("#", 1)[0]
+        searchable = f"{label} {url}".lower()
+        if not re.search(r"technical data|technical documentation|\btds\b", searchable):
+            continue
+        if not (url.lower().split("?", 1)[0].endswith(".pdf") or "getmedia/" in url.lower() or "document" in url.lower()):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        results.append({"url": url, "label": label or "Technical data sheet"})
+    return results
+
+
 def local_name(tag: str) -> str:
     return tag.split("}", 1)[-1]
 
@@ -513,6 +542,17 @@ def discover() -> dict:
                 )
 
         deduped = dedupe_entries(manufacturer_entries)
+        if any(source.get("extractTdsLinks") for source in manufacturer.get("sources", [])):
+            tds_source = next(source for source in manufacturer["sources"] if source.get("extractTdsLinks"))
+            for entry in deduped:
+                try:
+                    entry["tdsDocuments"] = extract_tds_links(
+                        entry["officialUrl"],
+                        timeout=tds_source.get("requestTimeout", TIMEOUT),
+                        transport=tds_source.get("transport", "requests"),
+                    )
+                except Exception as exc:  # noqa: BLE001
+                    entry["tdsDiscoveryError"] = f"{type(exc).__name__}: {exc}"
         for entry in deduped:
             entry["priority"] = manufacturer.get("priority", "medium")
             entry["officialDomains"] = manufacturer.get("officialDomains", [])

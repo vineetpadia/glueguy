@@ -7003,7 +7003,7 @@ async function loadSelectorCatalog() {
     ingestSelectorProducts(catalog.tdsProducts ?? []);
     ingestSelectorProducts(catalog.mcmasterProducts ?? []);
     try {
-      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=all-glues-20260923-uhu-bostik");
+      const leadsResponse = await fetch("./data/autonomous-discovered-products.json?v=all-glues-20260923-bostik-links-2feb2cd");
       if (leadsResponse.ok) {
         const leadsCatalog = await leadsResponse.json();
         ingestOfficialProductLeads(leadsCatalog.entries ?? []);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:09:12.062741+00:00",
+  "generatedAt": "2026-09-23T23:24:24.222838+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -58357,25 +58357,27 @@
         "serviceMax": 82,
         "potLife": 5,
         "fixtureTime": 5,
-        "lapShearSubstrate": "Official product page publishes use and temperature properties, not lap-shear strength.",
+        "lapShearSubstrate": "Older European TDS, ASTM D1002: steel 3,300 psi / 22.8 MPa after 3 days at 122 F / 50 C; maple 1,900 psi / 13.1 MPa. Typical representative values, not specification values.",
         "viscosityClass": "gel",
+        "viscosityValue": "8,000-12,000",
+        "viscosityUnit": "cP (mixed; 2016 TDS)",
         "clarity": "transparent"
       },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.gorillatough.com/product/gorilla-epoxy",
-        "tdsUrl": null,
+        "tdsUrl": "https://totaldiy.ie/wp-content/uploads/Gorilla-Epoxy-TDS_Sept-2016-Europe.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gorilla-glue-2-part-epoxy.txt",
         "sourceQuality": "cached-official-tds-text"
       },
       "coverage": {
-        "decision": 1.0,
+        "decision": 0.909,
         "electronics": 1.0,
         "decisionValueCoverage": 0.818,
-        "electronicsValueCoverage": 0.0,
+        "electronicsValueCoverage": 0.1,
         "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
@@ -58387,17 +58389,18 @@
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [],
-        "electronicsFieldsMissing": [],
-        "decisionFieldsVerifiedAbsent": [
-          "lapShear",
-          "thermalConductivity"
-        ],
-        "electronicsFieldsVerifiedAbsent": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
           "viscosityUnit"
         ],
+        "decisionFieldsMissing": [
+          "lapShear"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
         "decisionFieldsNotApplicable": [],
         "electronicsFieldsNotApplicable": [
           "electricalBehavior",
@@ -58423,7 +58426,8 @@
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: lapShear, thermalConductivity, viscosityValue, viscosityUnit",
+        "Missing decision fields: lapShear",
+        "Verified absent from available TDS fields: thermalConductivity",
         "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
         "Not recommended for polyethylene, polypropylene or similar plastics.",
         "Water resistant only for moderate exposure; the official page does not recommend continual water exposure.",
@@ -58688,7 +58692,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.gorillatough.com/product/gorilla-super-glue",
-        "tdsUrl": null,
+        "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Super-Glue-TDS_June-2013-Europe.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gorilla-glue-super-glue.txt",
@@ -58717,12 +58721,11 @@
           "lapShear",
           "thermalConductivity"
         ],
-        "electronicsFieldsVerifiedAbsent": [
-          "viscosityValue",
-          "viscosityUnit"
-        ],
+        "electronicsFieldsVerifiedAbsent": [],
         "decisionFieldsNotApplicable": [],
         "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -58746,8 +58749,8 @@
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity, viscosityValue, viscosityUnit",
-        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
         "Not recommended for polyethylene, polypropylene or similar plastics.",
         "Official technical specs list outdoor use: no.",
         "High temperature and humidity can cause premature aging; the page says not to refrigerate."

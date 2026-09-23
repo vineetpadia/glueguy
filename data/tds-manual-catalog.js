@@ -16334,7 +16334,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Freezing may thicken the product; agitation should restore original form.",
       "The TDS does not publish continuous service-temperature limits, pot life, thermal conductivity or chemical-resistance tables."
     ],
-    "referenceUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207"
+    "referenceUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207",
+    "tdsUrl": "https://www.titebond.com/print/product/d4d28015-603f-4dfc-a7d9-f684acc71207",
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
   },
   {
     "id": "titebond-ii-premium",
@@ -16446,7 +16448,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Because treated-lumber surfaces vary, Titebond recommends testing adhesion.",
       "The TDS does not publish continuous service-temperature limits, pot life, thermal conductivity or chemical-resistance tables."
     ],
-    "referenceUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2"
+    "referenceUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+    "tdsUrl": "https://www.titebond.com/print/product/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
   },
   {
     "id": "titebond-iii-ultimate",
@@ -16558,7 +16562,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Because treated-lumber surfaces vary, Titebond recommends testing adhesion.",
       "The TDS does not publish continuous service-temperature limits, pot life, thermal conductivity or chemical-resistance tables."
     ],
-    "referenceUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af"
+    "referenceUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+    "tdsUrl": "https://www.titebond.com/print/product/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
   },
   {
     "id": "titebond-quick-thick",
@@ -16658,7 +16664,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "For wood, sand the glued area thoroughly before staining.",
       "The product page does not publish bond-strength, service-temperature, pot-life or thermal-conductivity values."
     ],
-    "referenceUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b"
+    "referenceUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
+    "tdsUrl": "https://www.titebond.com/print/product/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
   },
   {
     "id": "liquid-nails-ln901",
@@ -51099,7 +51107,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "Gorilla Glue",
     "name": "Gorilla Glue 2-Part Epoxy",
     "summary": "Clear two-part syringe epoxy with 5 min set time, gap-filling behavior, water resistance for moderate exposure, solvent resistance after cure, and official service-temperature range of -10 to 180 F.",
-    "sourceRevisionDate": "Gorilla official product page, fetched April 24, 2026; page exposes technical specifications and SDS link rather than a separate public TDS PDF",
+    "sourceRevisionDate": "Gorilla Epoxy Technical Data Sheet, Europe, revision 6 September 2016; current US product page checked April 24, 2026",
     "chemistry": "Two-part epoxy resin/hardener adhesive",
     "cureFamily": "Room-temperature curing two-part epoxy",
     "cureDetail": "Dispense equal amounts from the dual syringe, mix for about 20 s until uniform, apply within 5 min while the mixture remains workable, then clamp and leave undisturbed for maximum bond strength.",
@@ -51117,7 +51125,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "setTimeMinutes": 5,
     "mixingTimeSeconds": 20,
     "viscosityClass": "gel",
-    "lapShearSubstrate": "Official product page publishes use and temperature properties, not lap-shear strength.",
+    "lapShearSubstrate": "Older European TDS, ASTM D1002: steel 3,300 psi / 22.8 MPa after 3 days at 122 F / 50 C; maple 1,900 psi / 13.1 MPa. Typical representative values, not specification values.",
     "clarity": "transparent",
     "dryColor": "Clear",
     "outdoorUse": true,
@@ -51161,16 +51169,31 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for polyethylene, polypropylene or similar plastics.",
       "Water resistant only for moderate exposure; the official page does not recommend continual water exposure.",
       "Apply within 5 min after mixing because the mixture thickens and bond strength decreases with delay.",
-      "Official source is a product page with technical specifications, not a separate TDS PDF."
+      "Official source is a product page with technical specifications, not a separate TDS PDF.",
+      "2016 European TDS reports -10 to 200 F service temperature; current US product-page specifications report -10 to 180 F. Keep the sources and ranges distinct; the TDS values are typical and explicitly not for specification use.",
+      "2016 European TDS strength values are typical representative results; steel value was tested after a 122 F / 50 C, 3-day cure and must not be treated as a design allowable."
     ],
     "referenceUrl": "https://www.gorillatough.com/product/gorilla-epoxy",
     "sourceUrl": "https://www.gorillatough.com/product/gorilla-epoxy",
     "unpublishedFields": [
-      "lapShear",
-      "thermalConductivity",
-      "viscosityValue",
-      "viscosityUnit"
-    ]
+      "thermalConductivity"
+    ],
+    "tdsUrl": "https://totaldiy.ie/wp-content/uploads/Gorilla-Epoxy-TDS_Sept-2016-Europe.pdf",
+    "tdsDocumentLabel": "Gorilla Epoxy Technical Data Sheet, Europe, revision 6 September 2016",
+    "lapShearProfilesMPa": {
+      "steel": 22.8,
+      "maple": 13.1
+    },
+    "viscosityValue": "8,000-12,000",
+    "viscosityUnit": "cP (mixed; 2016 TDS)",
+    "viscosityNote": "2016 European TDS reports mixed viscosity 8,000-12,000 cP.",
+    "tdsHandlingTimeMinutes": 30,
+    "tdsFullCureHours": 24,
+    "tdsServiceTemperatureRangeF": [
+      -10,
+      200
+    ],
+    "tdsGapFillNote": "Excellent; 0.050 in (1.27 mm) gap retains >50% strength per 2016 European TDS."
   },
   {
     "id": "gorilla-glue-construction-adhesive",
@@ -51392,7 +51415,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "Gorilla Glue",
     "name": "Gorilla Glue Super Glue",
     "summary": "Impact-tough cyanoacrylate super glue that bonds in 10-45 s without clamping, cures clear, is sandable, has no gap filling and lists official service range of -65 to 220 F.",
-    "sourceRevisionDate": "Gorilla official product page, fetched April 24, 2026; page exposes technical specifications and SDS link rather than a separate public TDS PDF",
+    "sourceRevisionDate": "Gorilla Super Glue Technical Data Sheet, Europe, revision 5 June 2013; current US product page checked April 24, 2026",
     "chemistry": "Cyanoacrylate instant adhesive",
     "cureFamily": "Instant cyanoacrylate",
     "cureDetail": "Apply a small amount to one clean, dry surface; one drop covers about one square inch. Press surfaces together for 10-45 s to achieve bond. Excess glue, gaps or uneven surfaces can delay or prevent bonding.",
@@ -51452,17 +51475,47 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for polyethylene, polypropylene or similar plastics.",
       "Official technical specs list outdoor use: no.",
       "High temperature and humidity can cause premature aging; the page says not to refrigerate.",
-      "Excess glue, gaps or uneven surfaces may delay or prevent bonding."
+      "Excess glue, gaps or uneven surfaces may delay or prevent bonding.",
+      "2013 European TDS is an older regional sheet: it reports 30-60 s fixture time and typical substrate-specific strengths. Current US product page reports 10-45 s to bond; preserve these as separate source-era claims, not interchangeable guarantees."
     ],
     "referenceUrl": "https://www.gorillatough.com/product/gorilla-super-glue",
     "sourceUrl": "https://www.gorillatough.com/product/gorilla-super-glue",
     "unpublishedFields": [
       "lapShear",
       "potLife",
-      "thermalConductivity",
-      "viscosityValue",
-      "viscosityUnit"
-    ]
+      "thermalConductivity"
+    ],
+    "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Super-Glue-TDS_June-2013-Europe.pdf",
+    "tdsDocumentLabel": "Gorilla Super Glue Technical Data Sheet, Europe, revision 5 June 2013",
+    "tdsViscosityRangeCps": [
+      1000,
+      1500
+    ],
+    "tdsLapShearProfilesMPa": {
+      "steel": {
+        "minimum": 10,
+        "qualifier": "greater than"
+      },
+      "aluminum": {
+        "minimum": 10,
+        "qualifier": "greater than"
+      },
+      "polycarbonate": {
+        "minimum": 5.5,
+        "qualifier": "greater than"
+      },
+      "EPDM": {
+        "minimum": 3.4,
+        "qualifier": "greater than"
+      }
+    },
+    "tdsLapShearTestMethod": "ASTM D1002; 2013 European TDS typical results",
+    "tdsFixtureTimeRangeSeconds": [
+      30,
+      60
+    ],
+    "tdsImpactStrength": "20 ft·lbf/in² (42 kg·cm/cm²), ASTM D950",
+    "tdsShelfLife": "2 years unopened; 1+ years if opened, dependent on storage conditions (2013 European TDS)"
   },
   {
     "id": "bsi-ic-gel",

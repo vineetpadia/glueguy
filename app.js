@@ -143,6 +143,63 @@ const hasOwn = (object, key) => Object.prototype.hasOwnProperty.call(object, key
 const hasCatalogValue = (value) => value !== undefined && value !== null;
 const dedupeList = (values) => Array.from(new Set(values.filter(Boolean)));
 
+const LAP_SHEAR_SUBSTRATE_TERMS = {
+  aluminum: ["aluminum", "aluminium", "alumite"],
+  steel: ["steel", "mild steel", "carbon steel", "crs"],
+  copper: ["copper", "brass"],
+  glass: ["glass"],
+  ceramic: ["ceramic", "alumina"],
+  wood: ["wood"],
+  mdf: ["mdf"],
+  paper: ["paper", "cardboard"],
+  fabric: ["fabric", "textile"],
+  leather: ["leather"],
+  abs: ["abs"],
+  pvc: ["pvc", "polyvinyl chloride"],
+  cpvc: ["cpvc", "chlorinated polyvinyl chloride"],
+  acrylic: ["acrylic", "pmma"],
+  polycarbonate: ["polycarbonate"],
+  petg: ["petg"],
+  polystyrene: ["polystyrene", "hips"],
+  rubber: ["rubber", "epdm"],
+  siliconeRubber: ["silicone rubber", "silicone elastomer"],
+  hdpe: ["hdpe", "high-density polyethylene", "polyethylene"],
+  concrete: ["concrete", "masonry"],
+  fr4: ["fr4", "pcb"],
+  carbonFiber: ["carbon fiber", "carbon-fiber", "cfrp"],
+};
+
+function lapShearEvidenceStatus(product, materials = []) {
+  if (product.profileDerivedFields?.includes("lapShear")) return "profile";
+  if (!Number.isFinite(product.lapShear)) return "unknown";
+  const note = String(product.lapShearSubstrate ?? "").trim();
+  if (!note) return "unknown";
+  if (
+    /not published|not stated|unsupported|intentionally removed|does not publish/i.test(note) ||
+    /compressive shear|tensile strength|tensile shear/i.test(note) ||
+    /does not publish a conventional lap[- ]shear/i.test(note)
+  ) return "unsupported";
+  if (!/\b(?:lap|overlap)[- ]shear\b/i.test(note)) return "unknown";
+  if (/substrate not stated|substrate not specified|unknown substrate/i.test(note)) return "unknown";
+  const normalized = note.toLocaleLowerCase();
+  const relevantMaterials = materials.filter((material) => material && material !== "any");
+  if (relevantMaterials.some((material) => {
+    const terms = LAP_SHEAR_SUBSTRATE_TERMS[material] ?? [materialLabel(material).toLocaleLowerCase()];
+    return !terms.some((term) => normalized.includes(term.toLocaleLowerCase()));
+  })) return "unknown";
+  return "valid";
+}
+
+function formatProductLapShear(product, materials = [], detail = false) {
+  const status = lapShearEvidenceStatus(product, materials);
+  if (status === "unsupported") return detail ? "Not a lap-shear result" : "No comparable lap-shear result";
+  if (status === "unknown" && Number.isFinite(product.lapShear) && !product.profileDerivedFields?.includes("lapShear")) {
+    return detail ? "Test substrate/method not recorded" : "Lap-shear test context unavailable";
+  }
+  if (!Number.isFinite(product.lapShear)) return "";
+  return detail ? formatLapShear(product.lapShear) : formatLapShear(product.lapShear) + " lap";
+}
+
 const OBSERVED_TDS_FIELDS = [
   "viscosityValue",
   "viscosityUnit",
@@ -5313,7 +5370,17 @@ function scoreProduct(product, filters) {
   if (!requireRecordedThreshold("fixtureTime", "maximum fixture time", filters.maxFixtureTime, "max", filters.maxFixtureTime < 9999)) return null;
   if (!requireRecordedThreshold("gapFill", "minimum gap fill", filters.minGapFill, "min", filters.minGapFill > 0)) return null;
   if (!requireRecordedThreshold("thermalConductivity", "minimum thermal conductivity", filters.minThermalConductivity, "min", filters.minThermalConductivity > 0)) return null;
-  if (!requireRecordedThreshold("lapShear", "minimum lap shear", filters.minLapShear, "min", filters.minLapShear > 0)) return null;
+  const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
+    (material) => material && material !== "any",
+  );
+  if (filters.minLapShear > 0) {
+    const lapShearStatus = lapShearEvidenceStatus(product, selectedMaterials);
+    if (lapShearStatus !== "valid") {
+      unverifiedRequirements.add("minimum lap shear with matching test context");
+    } else if (product.lapShear < filters.minLapShear) {
+      return null;
+    }
+  }
 
   if (filters.clarity !== "any") {
     if (profileFields.has("clarity") || !Object.prototype.hasOwnProperty.call(CLARITY_RANK, product.clarity)) {
@@ -5336,9 +5403,6 @@ function scoreProduct(product, filters) {
   ) return null;
   if (filters.excludePipeCodeWarnings && product.pipeCodeWarning) return null;
 
-  const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
-    (material) => material && material !== "any",
-  );
   selectedMaterials.forEach((material) => {
     if (profileSubstrates.has(material) || !Number.isFinite(product.substrates?.[material])) {
       unverifiedRequirements.add(materialLabel(material) + " material affinity");
@@ -6039,7 +6103,7 @@ function openProductDetail(product, match) {
     ["Fixture time", formatMinutes(product.fixtureTime), ["fixtureTime"]],
     ["Pot life", formatMinutes(product.potLife), ["potLife"]],
     ["Gap fill", formatGap(product.gapFill), ["gapFill"]],
-    ["Lap shear", formatLapShear(product.lapShear), ["lapShear"]],
+    ["Lap shear", formatProductLapShear(product, [], true), ["lapShear"]],
     ["Viscosity", VISCOSITY_LABELS[product.viscosityClass] ?? "Not reported", ["viscosityClass"]],
     ["Thermal conductivity", Number.isFinite(product.thermalConductivity) ? formatThermal(product.thermalConductivity) : "Not reported", ["thermalConductivity"]],
     ["Clarity", product.clarity ? product.clarity.replaceAll("-", " ") : "Not reported", ["clarity"]],
@@ -6171,7 +6235,7 @@ function renderResults() {
         if (Number.isFinite(b) && b > 0 && (!Number.isFinite(a) || a <= 0)) return 1;
         return (a || Infinity) - (b || Infinity);
       }
-      return right.score - left.score || (!right.product.profileDerivedFields?.includes("lapShear") && Number.isFinite(right.product.lapShear) ? right.product.lapShear : 0) - (!left.product.profileDerivedFields?.includes("lapShear") && Number.isFinite(left.product.lapShear) ? left.product.lapShear : 0);
+      return right.score - left.score || (lapShearEvidenceStatus(right.product) === "valid" ? right.product.lapShear : 0) - (lapShearEvidenceStatus(left.product) === "valid" ? left.product.lapShear : 0);
     });
 
   const selectedMaterials = [filters.substrateA, filters.substrateB].filter(
@@ -6289,7 +6353,7 @@ function renderResults() {
     const fixtureCell = document.createElement("td");
     fixtureCell.innerHTML = `
       <div>${formatTemperatureRange(match.product.serviceMin, match.product.serviceMax)}${match.product.profileDerivedFields.some((field) => ["serviceMin", "serviceMax"].includes(field)) ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
-      <div class="table-note">${formatGap(match.product.gapFill)} gap${match.product.profileDerivedFields.includes("gapFill") ? ' <em class="field-evidence">Profile guide</em>' : ""} • ${formatLapShear(match.product.lapShear)} lap${match.product.profileDerivedFields.includes("lapShear") ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
+      <div class="table-note">${formatGap(match.product.gapFill)} gap${match.product.profileDerivedFields.includes("gapFill") ? ' <em class="field-evidence">Profile guide</em>' : ""} • ${formatProductLapShear(match.product, [match.filters?.substrateA, match.filters?.substrateB])}${match.product.profileDerivedFields.includes("lapShear") ? ' <em class="field-evidence">Profile guide</em>' : ""}</div>
     `;
 
     const tempCell = document.createElement("td");
@@ -6304,7 +6368,7 @@ function renderResults() {
     const gapCell = document.createElement("td");
     gapCell.innerHTML = `
       <div>${formatGap(match.product.gapFill)}</div>
-      <div class="product-summary">${formatLapShear(match.product.lapShear)} lap${
+      <div class="product-summary">${formatProductLapShear(match.product, [match.filters?.substrateA, match.filters?.substrateB])}${
         match.product.mcmaster?.peelStrength ? ` • ${match.product.mcmaster.peelStrength} peel` : ""
       }</div>
     `;

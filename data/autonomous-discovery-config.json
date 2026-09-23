@@ -46,7 +46,7 @@
             "pipe sealant"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 60
         },
         {
           "label": "3M tapes category",
@@ -74,7 +74,7 @@
             "extrudable"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 40
         }
       ]
     },
@@ -106,7 +106,7 @@
             "finish"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 10
+          "tdsMaxPages": 80
         }
       ]
     },
@@ -138,7 +138,7 @@
             "Emulsion|Repairable|Automobiles|Rubber Type"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 10
+          "tdsMaxPages": 24
         }
       ]
     },
@@ -164,7 +164,7 @@
             "E6000|E6100|E6800|Extreme Tack"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 10
+          "tdsMaxPages": 24
         }
       ]
     },
@@ -193,7 +193,7 @@
             "Read more"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 120
         }
       ]
     },
@@ -227,7 +227,7 @@
             "school supplies"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 80
         }
       ]
     },
@@ -269,7 +269,7 @@
             "Mounting Putty"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 20
         }
       ]
     },
@@ -316,7 +316,7 @@
             "fuzetape"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 10
+          "tdsMaxPages": 12
         }
       ]
     },
@@ -414,7 +414,7 @@
             "accessory"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 80
         }
       ]
     },
@@ -503,7 +503,7 @@
             "Read more|Accelerator|Activator|Titebrush|Pump"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 10
+          "tdsMaxPages": 60
         }
       ]
     },
@@ -544,7 +544,7 @@
             "repair kit"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 80
         }
       ]
     },
@@ -577,7 +577,7 @@
             "what is"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 80
         }
       ]
     },
@@ -606,7 +606,7 @@
             "bundle|kit|accelerator|remover|wood finish"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 100
         }
       ]
     },
@@ -635,7 +635,7 @@
             "caulk|sealant|filler|spackling|foam|tape|primer"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 100
         }
       ]
     },
@@ -664,7 +664,7 @@
             "Magna-Tac|epoxy|industrial"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 100
         }
       ]
     },
@@ -698,7 +698,7 @@
             "accessory"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 16
+          "tdsMaxPages": 150
         }
       ]
     },
@@ -727,7 +727,7 @@
             "threadlocker|tape|correction"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 30
+          "tdsMaxPages": 150
         }
       ]
     },
@@ -758,7 +758,7 @@
             "tool|dispenser"
           ],
           "extractTdsLinks": true,
-          "tdsMaxPages": 30
+          "tdsMaxPages": 100
         }
       ]
     }

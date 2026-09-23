@@ -444,7 +444,7 @@ def discovered_tds_entries() -> list[dict]:
                 continue
             seen.add(key)
             entries.append({
-                "id": "discovered-" + slugify(maker + "-" + name),
+                "id": "discovered-" + slugify(maker + "-" + name + "-" + url),
                 "maker": maker,
                 "name": name,
                 "referenceUrl": url,

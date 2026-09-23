@@ -310,29 +310,29 @@
         <div class="results-header">
           <div>
             <p class="section-index">Browse</p>
-            <h2 id="reference-title">Adhesive reference catalog</h2>
+            <h2 id="reference-title">Adhesive product catalog</h2>
           </div>
           <button class="button button-ghost" id="catalog-back" type="button">Back to selector</button>
         </div>
-        <p class="reference-intro">Explore sampled product families, use cases, service ranges, package offers, and source listings. Catalog prices and family-level data are reference points; verify the specific product and current manufacturer documentation.</p>
+        <p class="reference-intro">Search the full product catalog by name, manufacturer, part number, chemistry, or use case. Product records vary in completeness; review details and manufacturer documents before selecting an adhesive. Prices may be estimates or supplier listings.</p>
         <div class="reference-tools">
-          <label class="visually-hidden" for="reference-search">Search reference catalog</label>
-          <input id="reference-search" type="search" placeholder="Search family, maker, part number…" autocomplete="off" />
+          <label class="visually-hidden" for="reference-search">Search product catalog</label>
+          <input id="reference-search" type="search" placeholder="Search product, maker, or part number…" autocomplete="off" />
           <label class="visually-hidden" for="reference-category">Category</label>
-          <select id="reference-category" aria-label="Reference category"></select>
+          <select id="reference-category" aria-label="Chemistry"></select>
           <label class="visually-hidden" for="reference-application">Use case</label>
           <select id="reference-application" aria-label="Use case"></select>
         </div>
         <div class="reference-summary">
-          <strong id="reference-count">Loading reference catalog</strong>
+          <strong id="reference-count">Loading product catalog</strong>
           <span id="reference-context"></span>
         </div>
         <div class="reference-table-shell" aria-live="polite">
           <table class="reference-table">
-            <thead><tr><th>Family and sample</th><th>Use cases</th><th>Category and package</th><th>Temperature</th><th>Offers</th><th>Observed price</th><th>Source</th></tr></thead>
+            <thead><tr><th>Product</th><th>Use cases</th><th>Chemistry and cure</th><th>Service temperature</th><th>Cost</th><th>Sources</th></tr></thead>
             <tbody id="reference-body"></tbody>
           </table>
-          <div class="empty-state hidden" id="reference-empty"><div><h3>No catalog families match.</h3><p>Try a broader search or clear one of the filters.</p></div></div>
+          <div class="empty-state hidden" id="reference-empty"><div><h3>No products match.</h3><p>Try a broader search or clear one of the filters.</p></div></div>
         </div>
       </section>
 

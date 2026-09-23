@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-09-23T20:30:44.503890+00:00",
+  "generatedAt": "2026-09-23T22:30:00+00:00",
   "source": "3M official multimedia TDS PDFs linked from 3M product resources and TDS search",
-  "pdfCount": 18,
-  "pdfsResolved": 18,
-  "documentsWithText": 18,
+  "pdfCount": 20,
+  "pdfsResolved": 20,
+  "documentsWithText": 20,
   "documents": [
     {
       "maker": "3M",
-      "productCodes": ["EC-9370 B/A FST"],
+      "productCodes": [
+        "EC-9370 B/A FST"
+      ],
       "sourceUrl": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
       "pdfUrl": "https://multimedia.3m.com/mws/media/2330147O/3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst-tech-data-sheet.pdf?fn=ec-9370-ba-fst-tech-data-sheet.pdf",
       "httpStatus": 200,
@@ -26,11 +28,19 @@
         "compression": "Compression strength greater than 35 MPa; compression modulus greater than 1500 MPa.",
         "firePerformance": "TDS reports passing applicable aircraft interior flammability, smoke and toxicity requirements; consult the sheet for test conditions and regulatory detail."
       },
-      "targets": [{"code": "EC-9370 B/A FST", "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/"}]
+      "targets": [
+        {
+          "code": "EC-9370 B/A FST",
+          "name": "3M™ Scotch-Weld™ Epoxy Adhesive EC-9370 B/A FST",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b5005493000/"
+        }
+      ]
     },
     {
       "maker": "3M",
-      "productCodes": ["PR40"],
+      "productCodes": [
+        "PR40"
+      ],
       "sourceUrl": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
       "pdfUrl": "https://multimedia.3m.com/mws/media/2365869O/3m-scotch-weld-plastic-and-rubber-instant-adhesive-pr40.pdf?fn=3M-Scotch-Weld-Plastic-and-Rubber-Instant-Adhesive-PR40_R1.pdf",
       "httpStatus": 200,
@@ -40,14 +50,30 @@
       "textExtractionStatus": "text-extracted",
       "propertyEvidence": {
         "chemistry": "Low-viscosity ethyl-hybrid cyanoacrylate for plastics and rubber.",
-        "appearance": "Clear liquid.", "viscosity": "20–45 cP.", "specificGravity": "1.06.",
-        "handlingStrength": "15 seconds to handling strength.", "cureTime": "Full cure in 24 hours.", "gapFill": "0.004 in."
+        "appearance": "Clear liquid.",
+        "viscosity": "20–45 cP.",
+        "specificGravity": "1.06.",
+        "handlingStrength": "15 seconds to handling strength.",
+        "cureTime": "Full cure in 24 hours.",
+        "gapFill": "0.004 in."
       },
-      "targets": [{"code": "PR40", "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"}]
+      "targets": [
+        {
+          "code": "PR40",
+          "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"
+        }
+      ]
     },
     {
       "maker": "3M",
-      "productCodes": ["PR40", "PR100", "PR600", "PR1500", "PR Gel"],
+      "productCodes": [
+        "PR40",
+        "PR100",
+        "PR600",
+        "PR1500",
+        "PR Gel"
+      ],
       "sourceUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
       "pdfUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf?fn=PR-Gel_R1.pdf",
       "httpStatus": 200,
@@ -56,12 +82,21 @@
       "revisionDate": "February 2016",
       "textExtractionStatus": "text-extracted",
       "propertyEvidence": {
-        "viscosity": "PR40: 24–40 cP in this 2016 family sheet.", "specificGravity": "1.06.",
-        "handlingStrength": "11–13 seconds on EPDM.", "cureTime": "Full cure in 24 hours.",
-        "serviceTemperature": "−45 to +82 °C.", "gapFill": "0.004 in.",
+        "viscosity": "PR40: 24–40 cP in this 2016 family sheet.",
+        "specificGravity": "1.06.",
+        "handlingStrength": "11–13 seconds on EPDM.",
+        "cureTime": "Full cure in 24 hours.",
+        "serviceTemperature": "−45 to +82 °C.",
+        "gapFill": "0.004 in.",
         "lapShear": "Reported values: steel 2124 psi, ABS 892 psi, and polycarbonate 670 psi; consult the sheet's substrate/preparation notes when interpreting these typical values."
       },
-      "targets": [{"code": "PR40", "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40", "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"}]
+      "targets": [
+        {
+          "code": "PR40",
+          "name": "3M™ Scotch-Weld™ Plastic & Rubber Instant Adhesive PR40",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000311416/"
+        }
+      ]
     },
     {
       "maker": "3M",
@@ -505,6 +540,62 @@
           "code": "DP8825NS",
           "name": "3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS",
           "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/b40066513/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "LO1000"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2365925O/3m-scotch-weld-low-odor-instant-adhesive-lo1000.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2365925O/3m-scotch-weld-low-odor-instant-adhesive-lo1000.pdf",
+      "httpStatus": 200,
+      "pageCount": 3,
+      "title": "3M Scotch-Weld LO1000 Technical Data Sheet",
+      "revisionDate": "September 2024",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Low-odor methoxyethyl cyanoacrylate.",
+        "appearance": "Clear liquid; specific gravity 1.08 g/mL.",
+        "viscosity": "850–1250 cP (cone-plate, CP50 at 100/s).",
+        "handlingStrength": "30 seconds to handling strength.",
+        "cureTime": "24 hours to full cure (minimum 80% ultimate aluminum-aluminum overlap shear).",
+        "gapFill": "0.008 in."
+      },
+      "targets": [
+        {
+          "code": "LO1000",
+          "name": "3M™ Scotch-Weld™ Low Odor Instant Adhesive LO1000, Clear, 20 Gram Bottle, 10/case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/"
+        }
+      ]
+    },
+    {
+      "maker": "3M",
+      "productCodes": [
+        "SF20"
+      ],
+      "sourceUrl": "https://multimedia.3m.com/mws/media/2365854O/3m-scotch-weld-super-fast-instant-adhesive-sf20.pdf",
+      "pdfUrl": "https://multimedia.3m.com/mws/media/2365854O/3m-scotch-weld-super-fast-instant-adhesive-sf20.pdf",
+      "httpStatus": 200,
+      "pageCount": 3,
+      "title": "3M Scotch-Weld SF20 Technical Data Sheet",
+      "revisionDate": "April 2025",
+      "textExtractionStatus": "text-extracted",
+      "propertyEvidence": {
+        "chemistry": "Ethyl cyanoacrylate, wicking grade for close-fitting parts.",
+        "appearance": "Clear liquid; specific gravity 1.06 g/mL.",
+        "viscosity": "10–25 cP.",
+        "handlingStrength": "5 seconds.",
+        "cureTime": "24 hours to full cure.",
+        "gapFill": "0.004 in (0.10 mm)."
+      },
+      "targets": [
+        {
+          "code": "SF20",
+          "name": "3M™ Scotch-Weld™ Super Fast Instant Adhesive SF20, Clear, 20 Gram, 10 Bottles/Case",
+          "officialProductUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T21:22:52.334345+00:00",
+  "generatedAt": "2026-09-23T21:31:20.091801+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -17081,9 +17081,31 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365925O/3m-scotch-weld-low-odor-instant-adhesive-lo1000.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365925O/3m-scotch-weld-low-odor-instant-adhesive-lo1000.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365925O/3m-scotch-weld-low-odor-instant-adhesive-lo1000.pdf",
+            "label": "3M Scotch-Weld LO1000 Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "September 2024",
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "LO1000"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Low-odor methoxyethyl cyanoacrylate.",
+              "appearance": "Clear liquid; specific gravity 1.08 g/mL.",
+              "viscosity": "850\u20131250 cP (cone-plate, CP50 at 100/s).",
+              "handlingStrength": "30 seconds to handling strength.",
+              "cureTime": "24 hours to full cure (minimum 80% ultimate aluminum-aluminum overlap shear).",
+              "gapFill": "0.008 in."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v000207751/",
@@ -17877,9 +17899,31 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
-        "tdsUrl": null,
-        "tdsUrls": [],
-        "tdsDocuments": [],
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365854O/3m-scotch-weld-super-fast-instant-adhesive-sf20.pdf",
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365854O/3m-scotch-weld-super-fast-instant-adhesive-sf20.pdf"
+        ],
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365854O/3m-scotch-weld-super-fast-instant-adhesive-sf20.pdf",
+            "label": "3M Scotch-Weld SF20 Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "April 2025",
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "productCodes": [
+              "SF20"
+            ],
+            "propertyEvidence": {
+              "chemistry": "Ethyl cyanoacrylate, wicking grade for close-fitting parts.",
+              "appearance": "Clear liquid; specific gravity 1.06 g/mL.",
+              "viscosity": "10\u201325 cP.",
+              "handlingStrength": "5 seconds.",
+              "cureTime": "24 hours to full cure.",
+              "gapFill": "0.004 in (0.10 mm)."
+            }
+          }
+        ],
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",

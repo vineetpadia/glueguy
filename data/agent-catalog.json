@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:05:06.156047+00:00",
+  "generatedAt": "2026-09-23T23:09:12.062741+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -64217,14 +64217,14 @@
         "chemistry": "Two-part epoxy cold-weld adhesive",
         "cureFamily": "Room-temperature curing two-part epoxy",
         "cureDetail": "Mix equal parts from each tube thoroughly, apply to cleaned and roughened surface, allow 4-6 h before handling and 15 h minimum before putting the object back in use. Full cure is listed as 15-24 h.",
-        "serviceMax": 288,
-        "fixtureTime": 240,
-        "lapShearSubstrate": "Official product page publishes tensile strength, not lap-shear strength.",
+        "serviceTemperatureNote": "October 2020 product TDS states withstands temperatures up to 550 \u00b0F when fully cured; it does not identify the value as a continuous service rating. An older 2013 technical data sheet lists 500 \u00b0F continuous and 600 \u00b0F intermittent; those legacy figures are retained only as historical evidence.",
+        "fixtureTime": 300,
+        "lapShearSubstrate": "The October 2020 product TDS does not publish lap shear. The legacy October 2013 TDS reports ASTM D1002 tensile lap shear for steel at 25 \u00b0C: 1040 psi (7.17 MPa); after 3 h at 400 \u00b0F, steel 1840 psi and aluminum 1367 psi; after 3 h at 550 \u00b0F, steel 671 psi and aluminum 580 psi. Legacy figures are preserved separately and not used as current selector strength.",
         "viscosityClass": "paste",
         "clarity": "opaque",
-        "tensileStrengthMPa": 42.88,
+        "tensileStrengthMPa": 34.61,
         "cureProfiles": {
-          "officialPageRangeMinutes": [
+          "2020TdsFullCureRangeMinutes": [
             900,
             1440
           ],
@@ -64232,11 +64232,11 @@
         }
       },
       "rankableSpecs": {
-        "tensileStrengthMPa": 42.88
+        "tensileStrengthMPa": 34.61
       },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+        "referenceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
         "tdsUrl": null,
         "productUrl": null,
         "sourceLabel": null,
@@ -64246,16 +64246,17 @@
       "coverage": {
         "decision": 1.0,
         "electronics": 1.0,
-        "decisionValueCoverage": 0.636,
+        "decisionValueCoverage": 0.727,
         "electronicsValueCoverage": 0.1,
         "decisionFieldsPresent": [
-          "serviceMax",
           "fixtureTime",
           "viscosityClass",
           "clarity",
           "stress",
           "substrates",
-          "cautions"
+          "cautions",
+          "serviceMin",
+          "serviceMax"
         ],
         "electronicsFieldsPresent": [
           "tensileStrengthMPa",
@@ -64264,7 +64265,6 @@
         "decisionFieldsMissing": [],
         "electronicsFieldsMissing": [],
         "decisionFieldsVerifiedAbsent": [
-          "serviceMin",
           "potLife",
           "lapShear",
           "thermalConductivity"
@@ -64292,17 +64292,20 @@
           "cureDepthMm",
           "tackFreeTime"
         ],
-        "decisionFieldsAliasCovered": [],
+        "decisionFieldsAliasCovered": [
+          "serviceMin",
+          "serviceMax"
+        ],
         "electronicsFieldsAliasCovered": [
           "cureProfiles"
         ]
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue, viscosityUnit",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity, viscosityValue, viscosityUnit",
         "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
-        "The official J-B Weld twin-tube page currently lists 6220 PSI, while the 10 oz professional page lists 5020 PSI; the entries are kept separate instead of normalizing the discrepancy away.",
-        "Official source is a product page with specifications and SDS link, not a separate TDS PDF.",
-        "Surface preparation is explicit: clean dirt, grease, oil, paint or loose debris and roughen with file/coarse sandpaper."
+        "The October 2020 product TDS lists tensile strength 5020 PSI, while the current J-B Weld product page reports 6220 PSI for Twin Tube SKU 8265S. The TDS value is used as the document-backed figure; discrepancy requires manufacturer clarification.",
+        "The October 2020 TDS does not publish lap-shear strength. October 2013 D1002 values are retained as legacy test data only and are not used as current selector strength.",
+        "The 2020 TDS says not recommended for polyethylene, polypropylene, nylon, highly flexible materials, or non-porous surfaces."
       ],
       "extractionCandidates": []
     },

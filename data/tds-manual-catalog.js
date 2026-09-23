@@ -50970,12 +50970,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "J-B Weld",
     "name": "J-B Weld Twin Tube - 2 oz",
     "summary": "Original Cold Weld two-part epoxy twin-tube product, mixed 1:1, setting in 4-6 h, curing in 15-24 h, drying dark gray and listing 6220 PSI tensile strength on the official product page.",
-    "sourceRevisionDate": "J-B Weld official product page, fetched April 24, 2026; page exposes product specifications and SDS link rather than a separate TDS PDF",
+    "sourceRevisionDate": "J-B Weld Original product brief / TDS, revised October 2020 (SKU 8265S); legacy J-B Weld technical data sheet revised October 2013 used only for separately labeled legacy ASTM test data.",
     "chemistry": "Two-part epoxy cold-weld adhesive",
     "cureFamily": "Room-temperature curing two-part epoxy",
     "cureDetail": "Mix equal parts from each tube thoroughly, apply to cleaned and roughened surface, allow 4-6 h before handling and 15 h minimum before putting the object back in use. Full cure is listed as 15-24 h.",
-    "serviceMax": 288,
-    "fixtureTime": 240,
+    "fixtureTime": 300,
     "fixtureTimeRangeMinutes": [
       240,
       360
@@ -50984,19 +50983,19 @@ window.TDS_MANUAL_PRODUCTS = [
       240,
       360
     ],
-    "fullCureMinutes": 1440,
+    "fullCureMinutes": 900,
     "fullCureProfiles": {
-      "officialPageRangeMinutes": [
+      "2020TdsFullCureRangeMinutes": [
         900,
         1440
       ],
       "minimumReturnToUseMinutes": 900
     },
-    "mixRatio": "1:1",
+    "mixRatio": "1:1 by volume (equal parts from each tube)",
     "viscosityClass": "paste",
-    "lapShearSubstrate": "Official product page publishes tensile strength, not lap-shear strength.",
-    "tensileStrength": "6220 PSI",
-    "tensileStrengthMPa": 42.88,
+    "lapShearSubstrate": "The October 2020 product TDS does not publish lap shear. The legacy October 2013 TDS reports ASTM D1002 tensile lap shear for steel at 25 °C: 1040 psi (7.17 MPa); after 3 h at 400 °F, steel 1840 psi and aluminum 1367 psi; after 3 h at 550 °F, steel 671 psi and aluminum 580 psi. Legacy figures are preserved separately and not used as current selector strength.",
+    "tensileStrength": "5020 PSI (October 2020 TDS)",
+    "tensileStrengthMPa": 34.61,
     "maximumUseTempC": 288,
     "maximumUseTempF": 550,
     "dryColor": "Dark Gray",
@@ -51046,10 +51045,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "fiberglass": 8
     },
     "cautions": [
-      "The official J-B Weld twin-tube page currently lists 6220 PSI, while the 10 oz professional page lists 5020 PSI; the entries are kept separate instead of normalizing the discrepancy away.",
-      "Official source is a product page with specifications and SDS link, not a separate TDS PDF.",
-      "Surface preparation is explicit: clean dirt, grease, oil, paint or loose debris and roughen with file/coarse sandpaper.",
-      "Typical values only; validate for structural, pressure, fuel-immersion or safety-critical repairs."
+      "The October 2020 product TDS lists tensile strength 5020 PSI, while the current J-B Weld product page reports 6220 PSI for Twin Tube SKU 8265S. The TDS value is used as the document-backed figure; discrepancy requires manufacturer clarification.",
+      "The October 2020 TDS does not publish lap-shear strength. October 2013 D1002 values are retained as legacy test data only and are not used as current selector strength.",
+      "The 2020 TDS says not recommended for polyethylene, polypropylene, nylon, highly flexible materials, or non-porous surfaces.",
+      "Fully cured temperature tolerance up to 550 °F is not labeled continuous by the 2020 TDS; the 2013 TDS separately lists 500 °F continuous and 600 °F intermittent.",
+      "Clean and degrease the repair area, remove paint/rust/debris, then roughen with a file or coarse sandpaper. Mix equal parts thoroughly.",
+      "Product sets in 4-6 hours and cures in 15-24 hours; allow at least 15 hours before returning the item to use."
     ],
     "unpublishedFields": [
       "serviceMin",
@@ -51057,13 +51058,40 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity",
       "viscosityValue",
-      "viscosityUnit"
+      "viscosityUnit",
+      "currentLapShear"
     ],
-    "referenceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+    "referenceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
     "supportingReferenceUrls": [
-      "https://dynamix-cdn.s3.amazonaws.com/jbweldcom/jbweldcom_201860687.pdf"
+      "https://www.jbweld.com/product/j-b-weld-twin-tube",
+      "https://jbweld.co.za/wp-content/uploads/2016/03/JB-Weld-Technical-Datasheet.pdf"
     ],
-    "sourceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube"
+    "sourceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+    "tensileStrengthPsi": 5020,
+    "currentWebPageTensileStrengthPsi": 6220,
+    "currentWebPageTensileStrengthNote": "Current official J-B Weld Twin Tube product page reported 6220 PSI when checked; October 2020 product TDS for the same SKU 8265S reports 5020 PSI. Retain TDS value as the document-backed value and flag the discrepancy for manufacturer clarification.",
+    "legacyLapShearProfilesPsi": {
+      "steelRoomTemperature25C": 1040,
+      "steelAfter3h400F": 1840,
+      "aluminumAfter3h400F": 1367,
+      "steelAfter3h550F": 671,
+      "aluminumAfter3h550F": 580
+    },
+    "legacyLapShearProfilesMPa": {
+      "steelRoomTemperature25C": 7.17,
+      "steelAfter3h400F": 12.69,
+      "aluminumAfter3h400F": 9.42,
+      "steelAfter3h550F": 4.63,
+      "aluminumAfter3h550F": 4.0
+    },
+    "serviceTemperatureNote": "October 2020 product TDS states withstands temperatures up to 550 °F when fully cured; it does not identify the value as a continuous service rating. An older 2013 technical data sheet lists 500 °F continuous and 600 °F intermittent; those legacy figures are retained only as historical evidence.",
+    "serviceTemperatureProfiles": {
+      "2020TdsMaximumWhenFullyCuredF": 550,
+      "legacy2013ContinuousF": 500,
+      "legacy2013IntermittentF": 600
+    },
+    "legacyDataRevision": "October 2013 technical data sheet; substrate-specific ASTM D1002 values are historical and not treated as current product specifications.",
+    "volatileOrganicContentStatus": "Compliant for sale in all 50 states (October 2020 TDS)."
   },
   {
     "id": "gorilla-glue-2-part-epoxy",
@@ -69150,7 +69178,7 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
       "Consumer Two-Part Epoxy Cold-Weld Adhesives"
     ],
     "sampleType": "Dark-gray 1:1 two-part epoxy in 2 oz twin tubes",
-    "sampleConsistency": "1:1 mix; 4-6 h set; 15-24 h cure; 6220 PSI tensile strength; 550 F maximum temperature when fully cured",
+    "sampleConsistency": "Steel-reinforced two-part room-temperature epoxy; 1:1 mix; sets 4-6 h; cures 15-24 h; dark gray; 2020 TDS tensile 5020 PSI.",
     "sampleForJoining": "Strong repair bonding and filling on metal, wood, plastic/composite/PVC, ceramic, concrete, brick and fiberglass where a dark-gray machinable epoxy is acceptable",
     "applicationTags": [
       "epoxy",
@@ -69167,9 +69195,9 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
       "household-repair"
     ],
     "tempMinC": null,
-    "tempMaxC": 288,
+    "tempMaxC": null,
     "offerCount": 1,
-    "sourceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
+    "sourceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
     "sourceLabel": "TDS"
   },
   {

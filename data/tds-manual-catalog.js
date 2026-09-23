@@ -17205,6 +17205,117 @@ window.TDS_MANUAL_PRODUCTS = [
     ]
   },
   {
+    "profile": "industrialClear",
+    "maker": "E6000",
+    "stress": {
+      "shear": 5.8,
+      "peel": 9.3,
+      "impact": 9
+    },
+    "substrates": {
+      "wood": 9,
+      "steel": 9,
+      "aluminum": 8,
+      "glass": 9,
+      "ceramic": 9,
+      "concrete": 8,
+      "leather": 9,
+      "rubber": 9,
+      "pvc": 9,
+      "abs": 7,
+      "acrylic": 7,
+      "polycarbonate": 7,
+      "petg": 7,
+      "carbonFiber": 7
+    },
+    "electricalBehavior": "insulating",
+    "dielectricBreakdownVPerMil": 400,
+    "dielectricBreakdownKVPerMm": 15.75,
+    "id": "e6800-industrial-clear",
+    "name": "E6800 Industrial Clear",
+    "summary": "UV-resistant flexible industrial adhesive for outdoor and marine repairs where a durable solvent-evaporation bond and resistance to yellowing are important.",
+    "sourceRevisionDate": "Eclectic Products E6800 Industrial Adhesives UV Resistant Formula (Clear) TDS, USA Revision 2.",
+    "cureFamily": "Industrial adhesive",
+    "cureDetail": "One-part solvent-borne industrial adhesive; solvent evaporation cure",
+    "serviceMin": -40,
+    "serviceMax": 82,
+    "potLife": 2,
+    "fixtureTime": 45,
+    "viscosityClass": "high",
+    "clarity": "transparent",
+    "applicationTags": [
+      "general-repair",
+      "outdoor",
+      "marine",
+      "uv-resistant",
+      "vibration-resistant"
+    ],
+    "cautions": [
+      "The TDS reports separate T-peel, lap-shear and dolly-pull test values by substrate; these are retained as separate metrics and must not be treated as a single lap-shear value.",
+      "Contains toluene and petroleum distillates; the TDS identifies the uncured adhesive as flammable. Review SDS and use appropriate handling precautions.",
+      "Not recommended for polystyrene, polyethylene, polypropylene, Styrofoam or paper products.",
+      "Apply to both surfaces and allow about 2 minutes partial cure before mating; repositioning becomes difficult after contact and pressure.",
+      "Thin-film cure is about 24 hours; thick film or maximum strength may require 48-72 hours.",
+      "Intermittent cured service temperature is -40 to 82 C; this is not a continuous service rating."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+    "productUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
+    "unpublishedFields": [
+      "thermalConductivity"
+    ],
+    "viscosityValue": 100000,
+    "viscosityUnit": "cP",
+    "tackFreeTime": 2,
+    "tackFreeTimeMinutes": 2,
+    "solvent": "Toluene, petroleum distillates",
+    "densityLbPerGal": 7.5,
+    "solidsWeightPct": 46,
+    "solidsVolumePct": 43,
+    "vocGL": 480,
+    "tensileStrengthPsi": 2000,
+    "tensileStrengthMPa": 13.79,
+    "elongationPct": 1100,
+    "hardnessValue": 80,
+    "hardnessScale": "Shore A",
+    "tPeelStrengthProfilesPli": {
+      "fabric": 30,
+      "leather": 30,
+      "vinyl": 30,
+      "canvas": 45,
+      "neoprene": 20,
+      "rubber": 10
+    },
+    "lapShearStrengthProfilesPsi": {
+      "metal": 210,
+      "wood": 200,
+      "laminate": 70,
+      "chrome": 150,
+      "plastics": 80,
+      "fiberglass": 100,
+      "pvc": 100
+    },
+    "dollyPullStrengthProfilesPsi": {
+      "ceramic": 380,
+      "concrete": 280,
+      "masonry": 110,
+      "asphalt": 200,
+      "glass": 205
+    },
+    "fullCureProfiles": [
+      {
+        "minutes": 1440,
+        "context": "thin film cure"
+      },
+      {
+        "minutes": [
+          2880,
+          4320
+        ],
+        "context": "thick film / maximum strength"
+      }
+    ]
+  },
+  {
     "id": "e6000-fabri-fuse",
     "profile": "fabricAdhesive",
     "maker": "E6000",
@@ -59645,6 +59756,30 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "sourceLabel": "TDS"
   },
   {
+    "id": "e6800-industrial-clear",
+    "manufacturer": "E6000",
+    "familyName": "E6800 Industrial Clear",
+    "primaryCategory": "Industrial Adhesives",
+    "categories": [
+      "Industrial Adhesives"
+    ],
+    "sampleType": "3.7 fl oz / 10.2 fl oz",
+    "sampleConsistency": "Clear medium-viscosity adhesive; 100,000 cP",
+    "sampleForJoining": "Greenhouse and solarium repairs, roofing, garden tools, marine/outdoor anchors and metal parts, brick and mortar; wood, metal, glass, fiberglass, ceramics, masonry, concrete, asphalt, leather, rubber, PVC, neoprene, vinyl and many plastics",
+    "applicationTags": [
+      "general-repair",
+      "outdoor",
+      "marine",
+      "uv-resistant",
+      "vibration-resistant"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
     "id": "e6000-fabri-fuse",
     "manufacturer": "E6000",
     "familyName": "E6000 Fabri-Fuse",
@@ -69809,6 +69944,6 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 555,
-  "referenceFamilies": 555
+  "selectorProducts": 556,
+  "referenceFamilies": 556
 };

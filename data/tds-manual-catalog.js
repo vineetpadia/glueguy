@@ -62763,6 +62763,378 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "thermalConductivity": null,
     "viscosityValue": null
+  },
+  {
+    "id": "loctite-222",
+    "profile": "anaerobicThreadlocker",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 222 Low-Strength Threadlocker",
+    "summary": "Purple, thixotropic, low-strength anaerobic threadlocker for small or serviceable metal fasteners; 6 N·m M10 breakaway torque and ≥2.5 MPa compressive shear after 24 h at 22 °C.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 222, May 2022",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Low-strength anaerobic threadlocker",
+    "cureDetail": "Cures anaerobically when confined between close-fitting metal surfaces; cure rate depends on substrate, gap, temperature and activator. TDS cured properties are measured after 24 h at 22 °C.",
+    "viscosityClass": "low",
+    "viscosityRangeMpaS": [
+      900,
+      1500
+    ],
+    "viscosityValue": "Brookfield RVT spindle 3 at 20 rpm: 900–1,500 mPa·s; spindle 3 at 2.5 rpm: ≥3,500 mPa·s.",
+    "viscosityUnit": "mPa·s (cP) at 25 °C",
+    "specificGravity": 1.05,
+    "appearance": "Purple liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": true,
+    "thermalConductivity": 0.1,
+    "lapShear": 2.5,
+    "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 °C: ≥2.5 N/mm² (MPa); this is not a conventional lap-shear coupon result.",
+    "compressiveStrengthMPa": 2.5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123MinimumAfter24h": 2.5
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakawayAfter24hAt22C": 6,
+      "m10SteelPrevailAfter24hAt22C": 4,
+      "m10SteelBreakloosePreTorqued5NmAfter24hAt22C": 14,
+      "m10SteelMaxPrevailPreTorqued5NmAfter24hAt22C": 14
+    },
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "serviceable",
+      "low-strength"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 3
+    },
+    "environment": {
+      "humidity": 0.55
+    },
+    "substrates": {
+      "steel": 9,
+      "stainlessSteel": 7,
+      "brass": 8,
+      "metal": 9,
+      "threadedFasteners": 10
+    },
+    "cautions": [
+      "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+      "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+      "Not normally recommended for plastics, especially thermoplastics that may stress-crack; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "Aqueous washing systems can affect cure and performance; verify compatibility.",
+      "Technical data are reference values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-222/BP000340.html"
+    ],
+    "standards": [
+      "ISO 10964",
+      "ISO 10123",
+      "ISO 8302"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime"
+    ],
+    "torqueBreakNm": 6,
+    "torquePrevailNm": 4,
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null
+  },
+  {
+    "id": "loctite-262",
+    "profile": "anaerobicThreadlocker",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 262 High-Strength Threadlocker",
+    "summary": "Red, medium-to-high-strength thixotropic anaerobic threadlocker for larger metal fasteners; M10 steel breakaway torque 22 N·m after 24 h at 22 °C.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 262, February 2022",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Medium-to-high-strength anaerobic threadlocker",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces; cure rate varies with substrate, bond gap, temperature and activator. Typical torque and shear values are after 24 h at 22 °C unless otherwise stated.",
+    "viscosityClass": "medium",
+    "viscosityRangeMpaS": [
+      1200,
+      1400
+    ],
+    "viscosityValue": "Brookfield RVT spindle 3 at 20 rpm: 1,200–1,400 mPa·s.",
+    "viscosityUnit": "mPa·s (cP) at 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Red liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": true,
+    "lapShear": 10,
+    "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 °C: ≥10 N/mm² (MPa); ≥3 MPa after 1 h. Not a conventional lap-shear coupon result.",
+    "compressiveStrengthMPa": 10,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123MinimumAfter24h": 10,
+      "steelPinsAndCollarsIso10123MinimumAfter1h": 3
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakawayAfter24hAt22C": 22,
+      "m10SteelPrevailAfter24hAt22C": 32,
+      "m10SteelBreakloosePreTorqued5NmAfter24hAt22C": 38,
+      "m10SteelMaxPrevailPreTorqued5NmAfter24hAt22C": 40
+    },
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "high-strength",
+      "permanent"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 1,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.8
+    },
+    "substrates": {
+      "steel": 10,
+      "stainlessSteel": 8,
+      "brass": 8,
+      "metal": 9,
+      "threadedFasteners": 10
+    },
+    "cautions": [
+      "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+      "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+      "Not normally recommended for plastics, especially thermoplastics that may stress-crack; confirm compatibility.",
+      "High-strength product; TDS directions call for localized heat (about 250 °C) for disassembly.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "Aqueous washing systems can affect cure and performance; verify compatibility.",
+      "Technical data are reference values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-262/BP000000153483.html"
+    ],
+    "standards": [
+      "ISO 10964",
+      "ISO 10123",
+      "ASTM D5363 (regional lot testing)",
+      "MIL-S-46163A (regional qualification)"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime"
+    ],
+    "torqueBreakNm": 22,
+    "torquePrevailNm": 32,
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null
+  },
+  {
+    "id": "loctite-271",
+    "profile": "anaerobicThreadlocker",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 271 High-Strength Threadlocker",
+    "summary": "Red, low-viscosity, high-strength permanent anaerobic threadlocker; TDS lists 17–40 N·m M10 steel breakaway torque after 24 h at 22 °C.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 271, March 2012",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "High-strength anaerobic threadlocker",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces; cure speed depends on substrate, bond gap, temperature and activator. Published M10 torque results are after 24 h at 22 °C.",
+    "viscosityClass": "low",
+    "viscosityRangeMpaS": [
+      400,
+      600
+    ],
+    "viscosityValue": "Brookfield RVT spindle 1 at 10 rpm: 400–600 mPa·s.",
+    "viscosityUnit": "mPa·s (cP) at 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Red liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": false,
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakawayAfter24hAt22C": [
+        17,
+        40
+      ],
+      "m10SteelPrevailAfter24hAt22C": [
+        23,
+        40
+      ]
+    },
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "high-strength",
+      "permanent",
+      "low-viscosity"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 1,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.8
+    },
+    "substrates": {
+      "steel": 10,
+      "stainlessSteel": 8,
+      "brass": 8,
+      "metal": 9,
+      "threadedFasteners": 10
+    },
+    "cautions": [
+      "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+      "TDS is an older March 2012 revision; check the current regional Henkel TDS before specification or production use.",
+      "The listed M10 torque values are typical ranges; different fastener coatings and materials produce different values.",
+      "High-strength product; localized heat (about 250 °C) may be needed for removal.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "Not normally recommended on plastics; confirm compatibility.",
+      "Technical data are reference values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-271/BP000355.html"
+    ],
+    "standards": [
+      "ISO 10964",
+      "ASTM D5363 (regional lot testing)",
+      "MIL-S-46163A (regional qualification)",
+      "UL MH8007 (regional classification)"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime",
+      "lapShear"
+    ],
+    "torqueBreakNm": 17,
+    "torquePrevailNm": 23,
+    "torqueBreakNote": "M10 steel breakaway torque after 24 h at 22 °C is published as a range of 17–40 N·m; scalar is the lower bound.",
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null
+  },
+  {
+    "id": "loctite-290",
+    "profile": "anaerobicThreadlocker",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 290 Wicking Threadlocker",
+    "summary": "Green, low-viscosity, medium-to-high-strength anaerobic wicking threadlocker for preassembled fasteners; 10 N·m M10 breakaway torque and ≥5.4 MPa compressive shear after 24 h at 22 °C.",
+    "sourceRevisionDate": "Henkel Technical Data Sheet LOCTITE 290, February 2022",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Medium-to-high-strength anaerobic wicking threadlocker",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces. Low viscosity wicks into engaged threads and can fill porosity in welds, castings and powdered metal parts. Cure depends on substrate, bond gap, temperature and activator.",
+    "viscosityClass": "low",
+    "viscosityRangeMpaS": [
+      20,
+      55
+    ],
+    "viscosityValue": "Brookfield RVT spindle 1 at 50 rpm: 20–55 mPa·s.",
+    "viscosityUnit": "mPa·s (cP) at 25 °C",
+    "specificGravity": 1.08,
+    "appearance": "Green liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": false,
+    "thermalConductivity": 0.1,
+    "lapShear": 5.4,
+    "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 °C: ≥5.4 N/mm² (MPa); this is not a conventional lap-shear coupon result.",
+    "compressiveStrengthMPa": 5.4,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123MinimumAfter24h": 5.4
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakawayAfter24hAt22C": 10,
+      "m10SteelPrevailAfter24hAt22C": 29,
+      "m10SteelBreakloosePreTorqued5NmAfter24hAt22C": 30,
+      "m10SteelMaxPrevailPreTorqued5NmAfter24hAt22C": 40
+    },
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "wicking",
+      "porosity-sealing",
+      "medium-high-strength"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 1,
+      "impact": 4
+    },
+    "environment": {
+      "humidity": 0.6,
+      "fuel": 0.75
+    },
+    "substrates": {
+      "steel": 9,
+      "stainlessSteel": 7,
+      "brass": 8,
+      "metal": 9,
+      "threadedFasteners": 10,
+      "castMetal": 7,
+      "powderedMetal": 7
+    },
+    "cautions": [
+      "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+      "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+      "TDS identifies the product as wicking-grade and directs post-assembly application; it is not a substitute for a removable low-strength threadlocker.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or as a sealant for chlorine or strong oxidizers.",
+      "Technical data are reference values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-290/BP000000153486.html"
+    ],
+    "standards": [
+      "ISO 10964",
+      "ISO 10123",
+      "ISO 8302",
+      "ASTM D5363 (regional lot testing)",
+      "MIL-S-46163A (regional qualification)"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime"
+    ],
+    "torqueBreakNm": 10,
+    "torquePrevailNm": 29,
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null
   }
 ];
 
@@ -79601,12 +79973,114 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-222",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 222 Low-Strength Threadlocker",
+    "primaryCategory": "Threadlockers",
+    "categories": [
+      "Threadlockers"
+    ],
+    "sampleType": "Bottle or tube",
+    "sampleConsistency": "Purple, low-viscosity, thixotropic, one-part anaerobic liquid; 900–1,500 mPa·s Brookfield at 25 °C, spindle 3 at 20 rpm.",
+    "sampleForJoining": "Low-strength locking/sealing of small metal fasteners, adjustment screws and assemblies requiring removal with standard hand tools.",
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "serviceable",
+      "low-strength"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-262",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 262 High-Strength Threadlocker",
+    "primaryCategory": "Threadlockers",
+    "categories": [
+      "Threadlockers"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Red, medium-viscosity, thixotropic, one-part anaerobic liquid; 1,200–1,400 mPa·s Brookfield at 25 °C.",
+    "sampleForJoining": "High-strength locking and sealing of metal threaded fasteners, including larger bolts and studs up to M25.",
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "high-strength",
+      "permanent"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-271",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 271 High-Strength Threadlocker",
+    "primaryCategory": "Threadlockers",
+    "categories": [
+      "Threadlockers"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Red, low-viscosity one-part anaerobic liquid; 400–600 mPa·s Brookfield at 25 °C.",
+    "sampleForJoining": "Permanent high-strength locking/sealing of metal threaded fasteners, large bolts and studs up to M25.",
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "high-strength",
+      "permanent",
+      "low-viscosity"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-290",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 290 Wicking Threadlocker",
+    "primaryCategory": "Threadlockers",
+    "categories": [
+      "Threadlockers"
+    ],
+    "sampleType": "Bottle or tube",
+    "sampleConsistency": "Green, low-viscosity one-part anaerobic liquid; 20–55 mPa·s Brookfield at 25 °C.",
+    "sampleForJoining": "Post-assembly wicking lock/seal of metal threaded fasteners and porosity sealing in welds, castings and powdered-metal parts.",
+    "applicationTags": [
+      "threadlocking",
+      "sealing",
+      "metal-bonding",
+      "vibration-resistant",
+      "wicking",
+      "porosity-sealing",
+      "medium-high-strength"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 640,
-  "referenceFamilies": 640,
-  "tdsBackedProducts": 633,
+  "selectorProducts": 644,
+  "referenceFamilies": 644,
+  "tdsBackedProducts": 637,
   "otherOfficialTechnicalSources": 7
 };

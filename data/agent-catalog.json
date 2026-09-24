@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:19:19.409056+00:00",
+  "generatedAt": "2026-09-24T03:26:06.037037+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1708,
-    "manualTdsProducts": 633,
+    "products": 1712,
+    "manualTdsProducts": 637,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 640,
@@ -719,7 +719,11 @@
         "mc-guns_74695a71"
       ],
       "Henkel Loctite": [
+        "loctite-222",
         "loctite-243",
+        "loctite-262",
+        "loctite-271",
+        "loctite-290",
         "loctite-401",
         "loctite-403",
         "loctite-406",
@@ -3915,6 +3919,8 @@
         "permabond-hl138"
       ],
       "high-strength": [
+        "loctite-262",
+        "loctite-271",
         "threebond-tb1216e",
         "threebond-tb1217f",
         "threebond-tb1322",
@@ -4645,6 +4651,7 @@
         "threebond-tb3168j"
       ],
       "low-strength": [
+        "loctite-222",
         "threebond-tb1342",
         "threebond-tb1344",
         "threebond-tb2458"
@@ -4675,6 +4682,7 @@
         "threebond-tb6155d"
       ],
       "low-viscosity": [
+        "loctite-271",
         "threebond-tb1741",
         "threebond-tb1742b",
         "threebond-tb1742z",
@@ -4771,6 +4779,9 @@
         "weldon-4052",
         "weldon-771-abs"
       ],
+      "medium-high-strength": [
+        "loctite-290"
+      ],
       "medium-low-viscosity": [
         "threebond-tb7784"
       ],
@@ -4818,7 +4829,11 @@
         "aremco-ceramabond-571",
         "cemedine-ep330",
         "itw-devcon-hp250",
+        "loctite-222",
         "loctite-243",
+        "loctite-262",
+        "loctite-271",
+        "loctite-290",
         "loctite-401",
         "loctite-495",
         "loctite-clear-epoxy",
@@ -5393,6 +5408,8 @@
         "threebond-tb7738"
       ],
       "permanent": [
+        "loctite-262",
+        "loctite-271",
         "threebond-tb1322",
         "threebond-tb1372d"
       ],
@@ -5690,6 +5707,9 @@
       ],
       "pop-display": [
         "weldon-3-dcm-tce-free"
+      ],
+      "porosity-sealing": [
+        "loctite-290"
       ],
       "porous-bonding": [
         "permabond-2010",
@@ -6153,7 +6173,11 @@
       ],
       "sealing": [
         "3m-vhb-4930f",
+        "loctite-222",
         "loctite-243",
+        "loctite-262",
+        "loctite-271",
+        "loctite-290",
         "loctite-aa3492",
         "permabond-a011",
         "permabond-a1042",
@@ -6428,6 +6452,7 @@
         "threebond-tb3955"
       ],
       "serviceable": [
+        "loctite-222",
         "loctite-243",
         "permabond-lh197",
         "permabond-lm113",
@@ -7064,7 +7089,11 @@
         "cemedine-3000rx"
       ],
       "threadlocking": [
+        "loctite-222",
         "loctite-243",
+        "loctite-262",
+        "loctite-271",
+        "loctite-290",
         "mc-3m_scotch_weld_tl22",
         "mc-3m_scotch_weld_tl42",
         "mc-high_locking_strength_high_locking_strength",
@@ -7367,7 +7396,11 @@
         "cemedine-sx1008",
         "e6100-industrial-clear",
         "e6800-industrial-clear",
+        "loctite-222",
         "loctite-243",
+        "loctite-262",
+        "loctite-271",
+        "loctite-290",
         "momentive-siltrust-rtv630",
         "permabond-et514",
         "permabond-et5392",
@@ -7561,6 +7594,7 @@
       ],
       "wicking": [
         "gc-electronics-10-120",
+        "loctite-290",
         "permabond-a126",
         "permabond-hl126",
         "threebond-1401",
@@ -7683,7 +7717,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 640,
-      "official-tds-url": 360,
+      "official-tds-url": 364,
       "product-or-catalog-page": 191
     }
   },
@@ -61126,6 +61160,420 @@
         "Use LOCTITE cyanoacrylate mixing nozzle for best application results.",
         "Designed for bond gaps up to 5 mm; fixture-time value is for etched aluminum with 0.5 mm gap.",
         "Official public sources do not publish pot life, thermal conductivity or mixed clarity."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-222",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 222 Low-Strength Threadlocker",
+      "profile": "anaerobicThreadlocker",
+      "summary": "Purple, thixotropic, low-strength anaerobic threadlocker for small or serviceable metal fasteners; 6 N\u00b7m M10 breakaway torque and \u22652.5 MPa compressive shear after 24 h at 22 \u00b0C.",
+      "applicationTags": [
+        "threadlocking",
+        "sealing",
+        "metal-bonding",
+        "vibration-resistant",
+        "serviceable",
+        "low-strength"
+      ],
+      "referenceCategory": "Threadlockers",
+      "referenceForJoining": "Low-strength locking/sealing of small metal fasteners, adjustment screws and assemblies requiring removal with standard hand tools.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Low-strength anaerobic threadlocker",
+        "cureDetail": "Cures anaerobically when confined between close-fitting metal surfaces; cure rate depends on substrate, gap, temperature and activator. TDS cured properties are measured after 24 h at 22 \u00b0C.",
+        "lapShear": 2.5,
+        "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 \u00b0C: \u22652.5 N/mm\u00b2 (MPa); this is not a conventional lap-shear coupon result.",
+        "viscosityClass": "low",
+        "viscosityValue": "Brookfield RVT spindle 3 at 20 rpm: 900\u20131,500 mPa\u00b7s; spindle 3 at 2.5 rpm: \u22653,500 mPa\u00b7s.",
+        "viscosityUnit": "mPa\u00b7s (cP) at 25 \u00b0C",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.05
+      },
+      "rankableSpecs": {
+        "lapShear": 2.5,
+        "thermalConductivity": 0.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+        "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+        "Not normally recommended for plastics, especially thermoplastics that may stress-crack; confirm compatibility."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-262",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 262 High-Strength Threadlocker",
+      "profile": "anaerobicThreadlocker",
+      "summary": "Red, medium-to-high-strength thixotropic anaerobic threadlocker for larger metal fasteners; M10 steel breakaway torque 22 N\u00b7m after 24 h at 22 \u00b0C.",
+      "applicationTags": [
+        "threadlocking",
+        "sealing",
+        "metal-bonding",
+        "vibration-resistant",
+        "high-strength",
+        "permanent"
+      ],
+      "referenceCategory": "Threadlockers",
+      "referenceForJoining": "High-strength locking and sealing of metal threaded fasteners, including larger bolts and studs up to M25.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Medium-to-high-strength anaerobic threadlocker",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces; cure rate varies with substrate, bond gap, temperature and activator. Typical torque and shear values are after 24 h at 22 \u00b0C unless otherwise stated.",
+        "lapShear": 10,
+        "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 \u00b0C: \u226510 N/mm\u00b2 (MPa); \u22653 MPa after 1 h. Not a conventional lap-shear coupon result.",
+        "viscosityClass": "medium",
+        "viscosityValue": "Brookfield RVT spindle 3 at 20 rpm: 1,200\u20131,400 mPa\u00b7s.",
+        "viscosityUnit": "mPa\u00b7s (cP) at 25 \u00b0C",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 10
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: thermalConductivity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+        "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+        "Not normally recommended for plastics, especially thermoplastics that may stress-crack; confirm compatibility."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-271",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 271 High-Strength Threadlocker",
+      "profile": "anaerobicThreadlocker",
+      "summary": "Red, low-viscosity, high-strength permanent anaerobic threadlocker; TDS lists 17\u201340 N\u00b7m M10 steel breakaway torque after 24 h at 22 \u00b0C.",
+      "applicationTags": [
+        "threadlocking",
+        "sealing",
+        "metal-bonding",
+        "vibration-resistant",
+        "high-strength",
+        "permanent",
+        "low-viscosity"
+      ],
+      "referenceCategory": "Threadlockers",
+      "referenceForJoining": "Permanent high-strength locking/sealing of metal threaded fasteners, large bolts and studs up to M25.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "High-strength anaerobic threadlocker",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces; cure speed depends on substrate, bond gap, temperature and activator. Published M10 torque results are after 24 h at 22 \u00b0C.",
+        "viscosityClass": "low",
+        "viscosityValue": "Brookfield RVT spindle 1 at 10 rpm: 400\u2013600 mPa\u00b7s.",
+        "viscosityUnit": "mPa\u00b7s (cP) at 25 \u00b0C",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: thermalConductivity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+        "TDS is an older March 2012 revision; check the current regional Henkel TDS before specification or production use.",
+        "The listed M10 torque values are typical ranges; different fastener coatings and materials produce different values."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-290",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 290 Wicking Threadlocker",
+      "profile": "anaerobicThreadlocker",
+      "summary": "Green, low-viscosity, medium-to-high-strength anaerobic wicking threadlocker for preassembled fasteners; 10 N\u00b7m M10 breakaway torque and \u22655.4 MPa compressive shear after 24 h at 22 \u00b0C.",
+      "applicationTags": [
+        "threadlocking",
+        "sealing",
+        "metal-bonding",
+        "vibration-resistant",
+        "wicking",
+        "porosity-sealing",
+        "medium-high-strength"
+      ],
+      "referenceCategory": "Threadlockers",
+      "referenceForJoining": "Post-assembly wicking lock/seal of metal threaded fasteners and porosity sealing in welds, castings and powdered-metal parts.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Medium-to-high-strength anaerobic wicking threadlocker",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces. Low viscosity wicks into engaged threads and can fill porosity in welds, castings and powdered metal parts. Cure depends on substrate, bond gap, temperature and activator.",
+        "lapShear": 5.4,
+        "lapShearSubstrate": "Compressive shear strength, ISO 10123, steel pins and collars after 24 h at 22 \u00b0C: \u22655.4 N/mm\u00b2 (MPa); this is not a conventional lap-shear coupon result.",
+        "viscosityClass": "low",
+        "viscosityValue": "Brookfield RVT spindle 1 at 50 rpm: 20\u201355 mPa\u00b7s.",
+        "viscosityUnit": "mPa\u00b7s (cP) at 25 \u00b0C",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.08
+      },
+      "rankableSpecs": {
+        "lapShear": 5.4,
+        "thermalConductivity": 0.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS provides hot-strength and heat-aging curves but no continuous service-temperature rating, so serviceMin and serviceMax are left unpublished.",
+        "Compressive shear on steel pins/collars is not a conventional lap-shear coupon result.",
+        "TDS identifies the product as wicking-grade and directs post-assembly application; it is not a substitute for a removable low-strength threadlocker."
       ],
       "extractionCandidates": []
     },

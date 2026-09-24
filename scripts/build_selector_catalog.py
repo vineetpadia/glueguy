@@ -117,6 +117,7 @@ SELECTOR_PRODUCT_FIELDS = {
     "specificGravity",
     "specificGravityRange",
     "waterResistant",
+    "waterResistanceNote",
     "waterproof",
     "paintable",
     "sandable",

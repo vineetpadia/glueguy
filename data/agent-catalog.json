@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T01:54:30.084554+00:00",
+  "generatedAt": "2026-09-24T02:12:01.440041+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1737,
-    "manualTdsProducts": 583,
+    "products": 1730,
+    "manualTdsProducts": 595,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 719,
+    "officialManufacturerLeads": 700,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -362,19 +362,19 @@
         "bsi-super-gold"
       ],
       "Bostik": [
-        "official-lead-bostik-blu-glu-stick",
-        "official-lead-bostik-blu-tack",
-        "official-lead-bostik-blu-tack-grey",
-        "official-lead-bostik-blu-tack-pink",
-        "official-lead-bostik-blu-tack-white",
-        "official-lead-bostik-bostik-all-purpose-clear-glue",
-        "official-lead-bostik-bostik-fabric-glue",
-        "official-lead-bostik-bostik-super-glue-liquid",
-        "official-lead-bostik-essential-white-pva-glue-in-a-bottle-dries-clear",
-        "official-lead-bostik-evo-stik-wood-glue-interior",
-        "official-lead-bostik-fast-tak-permanent-spray",
-        "official-lead-bostik-glu-dots",
-        "official-lead-bostik-removable-glu-dots"
+        "bostik-all-purpose-clear",
+        "bostik-blu-stick",
+        "bostik-blu-tack",
+        "bostik-blu-tack-grey",
+        "bostik-blu-tack-pink",
+        "bostik-blu-tack-white",
+        "bostik-fabric-glue",
+        "bostik-fast-tak-permanent-spray",
+        "bostik-glu-dots-extra-strong",
+        "bostik-glu-dots-removable",
+        "bostik-pva-glue",
+        "bostik-super-glue-liquid",
+        "official-lead-bostik-evo-stik-wood-glue-interior"
       ],
       "Buna-N": [
         "mc-buna_n",
@@ -805,8 +805,6 @@
         "mc-metal_reinforced_epoxy_structural_steelstik",
         "official-lead-j-b-weld-clearweld-professional-size-8-oz",
         "official-lead-j-b-weld-clearweld-syringe-25-ml",
-        "official-lead-j-b-weld-j-b-weld-professional-size-10-oz",
-        "official-lead-j-b-weld-j-b-weld-twin-tube-2-oz",
         "official-lead-j-b-weld-kwikweld-professional-size-10-oz",
         "official-lead-j-b-weld-kwikweld-twin-tube-2-oz",
         "official-lead-j-b-weld-marineweld-twin-tube-2-oz"
@@ -1334,16 +1332,12 @@
         "official-lead-permabond-csa-nf",
         "official-lead-permabond-csa-pt-br",
         "official-lead-permabond-et5424-en",
-        "official-lead-permabond-et5428black",
         "official-lead-permabond-f201hv-en",
         "official-lead-permabond-f201hv-pt-br",
         "official-lead-permabond-hh040pure",
         "official-lead-permabond-lh050pure",
         "official-lead-permabond-lh055",
         "official-lead-permabond-mm115pure",
-        "official-lead-permabond-ms359agrey",
-        "official-lead-permabond-ms359clear",
-        "official-lead-permabond-ms359grey",
         "official-lead-permabond-permabond-105-cyanoacrylate-adhesive",
         "official-lead-permabond-permabond-default-1-jpg",
         "official-lead-permabond-permabond-ta452",
@@ -1354,7 +1348,6 @@
         "official-lead-permabond-ta4200",
         "official-lead-permabond-ta4205-en",
         "official-lead-permabond-ta4205-pt-br",
-        "official-lead-permabond-ta4208black",
         "official-lead-permabond-ta4213",
         "official-lead-permabond-ta452",
         "official-lead-permabond-ta4551",
@@ -2741,6 +2734,9 @@
         "3m-hi-strength-90-spray-aerosol",
         "3m-neoprene-rubber-gasket-adhesive-1300-1300l"
       ],
+      "contact-bonding": [
+        "bostik-all-purpose-clear"
+      ],
       "contact-lamination": [
         "3m-scotch-grip-847",
         "barge-all-purpose-original-cement",
@@ -2798,6 +2794,10 @@
       ],
       "craft": [
         "3m-super-77-low-voc-aerosol",
+        "bostik-blu-tack",
+        "bostik-blu-tack-grey",
+        "bostik-blu-tack-pink",
+        "bostik-blu-tack-white",
         "dap-weldwood-multi-purpose-spray-adhesive",
         "e6000-fabri-fuse",
         "elmers-glue-all-multipurpose",
@@ -2808,6 +2808,9 @@
       ],
       "craft-layout": [
         "3m-scotch-spray-mount-6065"
+      ],
+      "craft-mounting": [
+        "bostik-glu-dots-extra-strong"
       ],
       "craft-pva": [
         "titebond-quick-thick"
@@ -3359,6 +3362,9 @@
         "3m-super-77-low-voc-aerosol",
         "titebond-all-purpose-white"
       ],
+      "fabric-repair": [
+        "bostik-fabric-glue"
+      ],
       "face-gluing": [
         "titebond-extend"
       ],
@@ -3681,6 +3687,8 @@
         "3m-scotch-grip-847",
         "amazing-goop-all-purpose",
         "atom-adhesives-14265",
+        "bostik-all-purpose-clear",
+        "bostik-super-glue-liquid",
         "chipquik-sg1",
         "chipquik-sg2",
         "chipquik-sg3",
@@ -4110,6 +4118,7 @@
         "3m-scotch-ad124-super-glue-liquid",
         "3m-scotch-weld-ac77-instant-adhesive-primer",
         "3m-scotch-weld-ac79-instant-adhesive-primer",
+        "bostik-super-glue-liquid",
         "cemedine-3000rx",
         "chipquik-sg1",
         "chipquik-sg2",
@@ -5249,6 +5258,13 @@
         "threebond-tb7789a",
         "titebond-all-purpose-white"
       ],
+      "paper-craft": [
+        "bostik-blu-stick",
+        "bostik-fast-tak-permanent-spray",
+        "bostik-glu-dots-extra-strong",
+        "bostik-glu-dots-removable",
+        "bostik-pva-glue"
+      ],
       "paper-fabric-bonding": [
         "3m-scotch-spray-mount-6065"
       ],
@@ -6018,6 +6034,10 @@
       "schedule-80": [
         "weldon-714-cpvc"
       ],
+      "school": [
+        "bostik-blu-stick",
+        "bostik-pva-glue"
+      ],
       "school-projects": [
         "elmers-glue-all-multipurpose",
         "elmers-liquid-school-glue-white",
@@ -6495,6 +6515,7 @@
       ],
       "spray-mounting": [
         "3m-scotch-spray-mount-6065",
+        "bostik-fast-tak-permanent-spray",
         "e6000-spray-adhesive",
         "mc-3m_74",
         "mc-3m_74ca",
@@ -6852,11 +6873,21 @@
       "temporary-bonding": [
         "3m-scotch-spray-mount-6065"
       ],
+      "temporary-mounting": [
+        "bostik-blu-tack",
+        "bostik-blu-tack-grey",
+        "bostik-blu-tack-pink",
+        "bostik-blu-tack-white",
+        "bostik-glu-dots-removable"
+      ],
       "terminal-fixing": [
         "threebond-tb3350c"
       ],
       "test-and-measurement": [
         "micro-measurements-m-bond-200-mmf006570"
+      ],
+      "textile": [
+        "bostik-fabric-glue"
       ],
       "textile-bonding": [
         "e6000-fabri-fuse",
@@ -7500,6 +7531,9 @@
       "wood-sealing": [
         "3m-bondo-fiberglass-resin-0401"
       ],
+      "woodworking": [
+        "bostik-pva-glue"
+      ],
       "z-axis-interconnect": [
         "threebond-3373c"
       ],
@@ -7509,8 +7543,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 719,
-      "official-tds-url": 310,
+      "official-manufacturer-lead": 700,
+      "official-tds-url": 322,
       "product-or-catalog-page": 191
     }
   },
@@ -32781,59 +32815,77 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-blu-glu-stick",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-blu-stick",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "Blu Glu stick",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Blu Stick",
+      "profile": "craftPva",
+      "summary": "Washable solid glue stick for paper and card projects; blue during application and dries clear.",
+      "applicationTags": [
+        "paper-craft",
+        "school"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "paper-craft, school",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "PVP (polyvinylpyrrolidone)",
+        "cureFamily": "Waterborne glue stick",
+        "cureDetail": "Apply to paper/card; dries clear. TDS reports pH 10.5\u201311.5 and 35\u201339% solids.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 1.1,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf",
             "label": "Technical Data Sheet (400.58 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -32855,72 +32907,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Poor water resistance. TDS spells out the polymer name with a typo; normalized here to PVP (polyvinylpyrrolidone)."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-blu-tack",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-blu-tack",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "Blu Tack\u00c2\u00ae",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Blu Tack",
+      "profile": "reusablePutty",
+      "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+      "applicationTags": [
+        "temporary-mounting",
+        "craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "temporary-mounting, craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic polymer-based reusable putty",
+        "cureFamily": "Pressure-sensitive putty",
+        "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "clarity": "opaque",
+        "specificGravity": 1.8,
+        "shelfLifeMonths": 60
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf",
             "label": "Technical Data Sheet (425.75 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -32942,72 +33012,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-blu-tack-grey",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-blu-tack-grey",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "BLU TACK\u00c2\u00ae GREY",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Blu Tack Grey",
+      "profile": "reusablePutty",
+      "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+      "applicationTags": [
+        "temporary-mounting",
+        "craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "temporary-mounting, craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic polymer-based reusable putty",
+        "cureFamily": "Pressure-sensitive putty",
+        "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "clarity": "opaque",
+        "specificGravity": 1.8,
+        "shelfLifeMonths": 48
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf",
             "label": "Technical Data Sheet (400.26 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33029,72 +33117,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-blu-tack-pink",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-blu-tack-pink",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "BLU TACK\u00c2\u00ae PINK",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Blu Tack Pink",
+      "profile": "reusablePutty",
+      "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+      "applicationTags": [
+        "temporary-mounting",
+        "craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "temporary-mounting, craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic polymer-based reusable putty",
+        "cureFamily": "Pressure-sensitive putty",
+        "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "clarity": "opaque",
+        "specificGravity": 1.8,
+        "shelfLifeMonths": 60
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf",
             "label": "Technical Data Sheet (399.32 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33116,72 +33222,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-blu-tack-white",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-blu-tack-white",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "BLU TACK\u00c2\u00ae WHITE",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Blu Tack White",
+      "profile": "reusablePutty",
+      "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+      "applicationTags": [
+        "temporary-mounting",
+        "craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "temporary-mounting, craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic polymer-based reusable putty",
+        "cureFamily": "Pressure-sensitive putty",
+        "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "clarity": "opaque",
+        "specificGravity": 1.8,
+        "shelfLifeMonths": 48
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf",
             "label": "Technical Data Sheet (400.31 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33203,72 +33327,92 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-bostik-all-purpose-clear-glue",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-all-purpose-clear",
+      "source": "manual-tds",
       "maker": "Bostik",
       "name": "Bostik All Purpose Clear Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "contactCement",
+      "summary": "Solvent-borne contact adhesive for many household repairs on compatible materials; bond develops after a short solvent flash-off.",
+      "applicationTags": [
+        "general-repair",
+        "contact-bonding"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "general-repair, contact-bonding",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Nitrile rubber and resin in ketone solvents",
+        "cureFamily": "Solvent-borne contact adhesive",
+        "cureDetail": "For non-porous surfaces, coat both sides, allow 5\u201310 minutes to dry, then press firmly; bond is immediate and not adjustable.",
+        "serviceMin": -40,
+        "serviceMax": 80,
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "flashPointF": 64.4,
+        "specificGravity": 0.86,
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "label": "Bostik All Purpose Glue Technical Data Sheet",
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
-        "sourceLabel": "Bostik official product information",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33290,72 +33434,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Highly flammable (flash point 18\u00b0C). Do not use on PE, PP or PTFE; may damage polystyrene and some paints/fabrics. Not for pottery handles or items holding hot food/liquid."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-bostik-fabric-glue",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-fabric-glue",
+      "source": "manual-tds",
       "maker": "Bostik",
       "name": "Bostik Fabric Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "fabricAdhesive",
+      "summary": "Flexible water-based textile adhesive that dries clear and can be washed, tumble-dried and ironed when fully dry.",
+      "applicationTags": [
+        "fabric-repair",
+        "textile"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "fabric-repair, textile",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Water-based acrylic emulsion",
+        "cureFamily": "Flexible fabric adhesive",
+        "cureDetail": "Coat both surfaces and press immediately; allow to dry before rough handling. TDS gives no exact dry time.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 1.03,
+        "solidsContentPct": 60,
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "label": "Bostik Fabric Glue Technical Data Sheet",
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
-        "sourceLabel": "Bostik official product information",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33377,72 +33539,90 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not suitable for 100% nylon or polyester or non-porous materials. High-temperature ironing/tumble drying should be brief."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-bostik-super-glue-liquid",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-glu-dots-extra-strong",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "Bostik Super Glue Liquid",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Bostik Glu Dots \u2013 Extra Strong",
+      "profile": "pressureSensitiveDots",
+      "summary": "Double-sided pressure-sensitive adhesive dots for clean, instant attachment of lightweight craft and display items.",
+      "applicationTags": [
+        "craft-mounting",
+        "paper-craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "craft-mounting, paper-craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Hydrocarbon polymer, pressure-sensitive adhesive",
+        "cureFamily": "Pressure-sensitive adhesive dots",
+        "cureDetail": "Apply dot to object, peel backing and press in place; remove by slowly peeling.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 1.0,
+        "solidsContentPct": 100,
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
-        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
-        ],
+        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
+        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
-            "label": "Bostik Super Glue Liquid Technical Data Sheet",
-            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
+            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
+            "label": "Technical Data Sheet (405.14 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
-        "sourceLabel": "Bostik official product information",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33464,72 +33644,194 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "TDS provides no numerical bond strength, service-temperature rating or defined load rating; use only for lightweight items."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-essential-white-pva-glue-in-a-bottle-dries-clear",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-glu-dots-removable",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "Essential white PVA glue in a bottle - dries clear",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Bostik Glu Dots \u2013 Removable",
+      "profile": "pressureSensitiveDots",
+      "summary": "Double-sided pressure-sensitive adhesive dots for clean, instant attachment of lightweight craft and display items.",
+      "applicationTags": [
+        "temporary-mounting",
+        "paper-craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "temporary-mounting, paper-craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Hydrocarbon polymer, pressure-sensitive adhesive",
+        "cureFamily": "Pressure-sensitive adhesive dots",
+        "cureDetail": "Apply dot to object, peel backing and press in place; remove by slowly peeling.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 1.0,
+        "solidsContentPct": 100,
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
+        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf",
+            "label": "Technical Data Sheet (405.14 KB)"
+          }
+        ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots"
+        ]
+      },
+      "coverage": {
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "TDS provides no numerical bond strength, service-temperature rating or defined load rating; use only for lightweight items."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "bostik-pva-glue",
+      "source": "manual-tds",
+      "maker": "Bostik",
+      "name": "Bostik PVA Glue",
+      "profile": "craftPva",
+      "summary": "Washable white craft and school PVA for paper, card, wood and fabric; dries clear or opalescent.",
+      "applicationTags": [
+        "paper-craft",
+        "school",
+        "woodworking"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "paper-craft, school, woodworking",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Vinyl acetate homopolymer / polyvinyl alcohol",
+        "cureFamily": "Waterborne PVA craft glue",
+        "cureDetail": "Full cure: about 12 hours on paper/card and 24 hours on wood.",
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf",
             "label": "Technical Data Sheet (400.84 KB)"
           }
         ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
         "electronicsFieldsPresent": [],
         "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
           "potLife",
           "fixtureTime",
           "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
+          "thermalConductivity"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33551,15 +33853,120 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not intended for structural joints or sustained wet service; TDS does not publish strength or service-temperature limits."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "bostik-super-glue-liquid",
+      "source": "manual-tds",
+      "maker": "Bostik",
+      "name": "Bostik Super Glue Liquid",
+      "profile": "thinCA",
+      "summary": "Fast-setting ethyl cyanoacrylate for small household bonds on compatible hard materials.",
+      "applicationTags": [
+        "instant-bonding",
+        "general-repair"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "instant-bonding, general-repair",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Joins in seconds; maximum bond strength develops over 24\u201348 hours.",
+        "serviceMin": -55,
+        "serviceMax": 80,
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 1.1,
+        "shelfLifeMonths": 12
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
+        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "label": "Bostik Super Glue Liquid Technical Data Sheet",
+            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
+          }
+        ],
+        "tdsUrls": [
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid"
+        ]
+      },
+      "coverage": {
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not for soft PE or absorbent paper; avoid high-stress joints and items holding hot food or liquid. Bonds skin and eyes rapidly."
       ],
       "extractionCandidates": []
     },
@@ -33644,146 +34051,79 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-bostik-fast-tak-permanent-spray",
-      "source": "official-manufacturer-lead",
+      "id": "bostik-fast-tak-permanent-spray",
+      "source": "manual-tds",
       "maker": "Bostik",
-      "name": "FAST TAK PERMANENT SPRAY",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "Fast Tak Permanent Spray",
+      "profile": "sprayAdhesive",
+      "summary": "Permanent repositionable spray adhesive for light laminating and mounting tasks; solvent-borne.",
+      "applicationTags": [
+        "spray-mounting",
+        "paper-craft"
+      ],
+      "referenceCategory": "Household & Craft Adhesives",
+      "referenceForJoining": "spray-mounting, paper-craft",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic rubber and resin in hydrocarbon solvent",
+        "cureFamily": "Solvent-borne pressure-sensitive spray adhesive",
+        "cureDetail": "Spray from 15\u201320 cm; allow about 2\u20135 minutes to dry/tack, then press surfaces together. Coverage about 5 m\u00b2 per 500 mL on one surface.",
+        "serviceMin": -15,
+        "serviceMax": 50,
+        "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+        "specificGravity": 0.66,
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
         "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf",
             "label": "Technical Data Sheet (405.81 KB)"
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-bostik-glu-dots",
-      "source": "official-manufacturer-lead",
-      "maker": "Bostik",
-      "name": "Glu Dots",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
-        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
         "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
-            "label": "Technical Data Sheet (405.14 KB)"
-          }
+          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf"
         ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -33805,102 +34145,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-bostik-removable-glu-dots",
-      "source": "official-manufacturer-lead",
-      "maker": "Bostik",
-      "name": "REMOVABLE GLU DOTS",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
-        "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf",
-        "tdsUrls": [
-          "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-removable-glu-dots-technical-data-sheet-TDS00526.pdf",
-            "label": "Technical Data Sheet (405.14 KB)"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
-        "sourceLabel": "Bostik Create craft adhesives",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Flammable; use outdoors or in a well-ventilated area. Not for PVC or expanded polystyrene, structural or safety-critical overhead bonds. Avoid overspray and strike-through."
       ],
       "extractionCandidates": []
     },
@@ -66649,11 +66901,36 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
-        "tdsUrl": null,
+        "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/jbweld-original-professional-size-10oz.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+            "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "October 2020",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
+              "setTime": "Sets in 4-6 hours",
+              "cureTime": "Full cure in 15-24 hours",
+              "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
+              "serviceTemperature": "Up to 550\u00b0F when fully cured",
+              "appearance": "Cures to dark grey"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.jbweld.com/product/j-b-weld-professional-size"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -66767,11 +67044,36 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/jbweld-original-twin-tube-2oz.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+            "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": "October 2020",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
+              "setTime": "Sets in 4-6 hours",
+              "cureTime": "Full cure in 15-24 hours",
+              "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
+              "serviceTemperature": "Up to 550\u00b0F when fully cured",
+              "appearance": "Cures to dark grey"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.jbweld.com/product/j-b-weld-twin-tube"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -66930,204 +67232,6 @@
         "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, thermalConductivity",
         "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
         "Observed cost is per package because McMaster did not expose a normalizable volume."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-j-b-weld-j-b-weld-professional-size-10-oz",
-      "source": "official-manufacturer-lead",
-      "maker": "J-B Weld",
-      "name": "J-B Weld\u00e2\u201e\u00a2 Professional Size 10 oz",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
-        "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
-        "tdsUrls": [
-          "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
-            "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
-            "documentType": "TDS",
-            "documentRevision": "October 2020",
-            "pageCount": 1,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
-              "setTime": "Sets in 4-6 hours",
-              "cureTime": "Full cure in 15-24 hours",
-              "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
-              "serviceTemperature": "Up to 550\u00b0F when fully cured",
-              "appearance": "Cures to dark grey"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
-        "sourceLabel": "J-B Weld products page",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-j-b-weld-j-b-weld-twin-tube-2-oz",
-      "source": "official-manufacturer-lead",
-      "maker": "J-B Weld",
-      "name": "J-B Weld\u00e2\u201e\u00a2 Twin Tube - 2 oz",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
-        "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
-        "tdsUrls": [
-          "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
-            "label": "J-B Weld Original Cold-Weld Epoxy Product Data Sheet",
-            "documentType": "TDS",
-            "documentRevision": "October 2020",
-            "pageCount": 1,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "chemistry": "Original Cold-Weld two-part epoxy system; 1:1 mix ratio",
-              "setTime": "Sets in 4-6 hours",
-              "cureTime": "Full cure in 15-24 hours",
-              "tensileStrength": "5020 PSI (October 2020 product data sheet; current product page reports 6220 PSI)",
-              "serviceTemperature": "Up to 550\u00b0F when fully cured",
-              "appearance": "Cures to dark grey"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
-        "sourceLabel": "J-B Weld products page",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -120701,11 +120805,25 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-et5428black.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf",
+            "label": "Permabond Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://permabond.com/tds/et5428black_tds-en/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -120766,94 +120884,6 @@
         "Charcoal black color is specifically matched for carbon fiber/composite assemblies.",
         "High temperature resistance - performs well in elevated temperature service.",
         "2:1 by weight mix ratio - requires weight-based dispensing or validated static mixer."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-permabond-et5428black",
-      "source": "official-manufacturer-lead",
-      "maker": "Permabond",
-      "name": "ET5428BLACK",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://permabond.com/tds/et5428black_tds-en/",
-        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf",
-        "tdsUrls": [
-          "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://permabond.com/wp-content/uploads/2025/11/ET5428_BLACK_TDS.pdf",
-            "label": "Permabond Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://permabond.com/tds/et5428black_tds-en/",
-        "sourceLabel": "Permabond TDS sitemap",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -125513,11 +125543,25 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-ms359-clear.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf",
+            "label": "Permabond Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://permabond.com/tds/ms359clear_tds-en/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -125622,11 +125666,25 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-ms359-grey.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf",
+            "label": "Permabond Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://permabond.com/tds/ms359grey_tds-en/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -125731,11 +125789,25 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-ms359a-grey.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf",
+            "label": "Permabond Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://permabond.com/tds/ms359agrey_tds-en/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -125793,270 +125865,6 @@
         "No continuous maximum service temperature is encoded because the TDS excerpted values only state a -40 C lower service limit.",
         "The lap-shear scalar is the lower bound of the published 1-2 N/mm2 range for steel, aluminum, zinc, PVC, and wood; lower polycarbonate and polystyrene ranges are preserved in shearStrengthsMPa.",
         "This is a flexible sealant/potting material, not a high-modulus structural adhesive."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-permabond-ms359agrey",
-      "source": "official-manufacturer-lead",
-      "maker": "Permabond",
-      "name": "MS359AGREY",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://permabond.com/tds/ms359agrey_tds-en/",
-        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf",
-        "tdsUrls": [
-          "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359AGREY_TDS-2.pdf",
-            "label": "Permabond Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://permabond.com/tds/ms359agrey_tds-en/",
-        "sourceLabel": "Permabond TDS sitemap",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-permabond-ms359clear",
-      "source": "official-manufacturer-lead",
-      "maker": "Permabond",
-      "name": "MS359CLEAR",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://permabond.com/tds/ms359clear_tds-en/",
-        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf",
-        "tdsUrls": [
-          "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359CLEAR_TDS-2.pdf",
-            "label": "Permabond Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://permabond.com/tds/ms359clear_tds-en/",
-        "sourceLabel": "Permabond TDS sitemap",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-permabond-ms359grey",
-      "source": "official-manufacturer-lead",
-      "maker": "Permabond",
-      "name": "MS359GREY",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://permabond.com/tds/ms359grey_tds-en/",
-        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf",
-        "tdsUrls": [
-          "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://permabond.com/wp-content/uploads/2025/11/MS359GREY_TDS-2.pdf",
-            "label": "Permabond Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://permabond.com/tds/ms359grey_tds-en/",
-        "sourceLabel": "Permabond TDS sitemap",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -129287,11 +129095,25 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/ta4208black/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-ta4208-black.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf",
+            "label": "Permabond Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://permabond.com/tds/ta4208black/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -129354,94 +129176,6 @@
         "The lap-shear scalar is the lower bound of the published steel range; exact substrate ranges are preserved in shearStrengthsMPa.",
         "Values marked substrate failure are lower-bound substrate limits, not adhesive-limit strengths.",
         "Aluminum peel is published as 175 N/25mm; the N/m scalar is a direct conversion."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-permabond-ta4208black",
-      "source": "official-manufacturer-lead",
-      "maker": "Permabond",
-      "name": "TA4208BLACK",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://permabond.com/tds/ta4208black/",
-        "tdsUrl": "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf",
-        "tdsUrls": [
-          "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://permabond.com/wp-content/uploads/2026/01/TA4208-BLACK_TDS.pdf",
-            "label": "Permabond Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://permabond.com/tds/ta4208black/",
-        "sourceLabel": "Permabond TDS sitemap",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },

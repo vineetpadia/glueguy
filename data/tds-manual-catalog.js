@@ -59188,6 +59188,671 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMax": null,
     "lapShear": null,
     "thermalConductivity": null
+  },
+  {
+    "id": "bostik-blu-tack",
+    "profile": "reusablePutty",
+    "maker": "Bostik",
+    "name": "Blu Tack",
+    "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+    "sourceRevisionDate": "Bostik Blu Tack Technical Data Sheet, TDS00548, March 2022",
+    "chemistry": "Synthetic polymer-based reusable putty",
+    "cureFamily": "Pressure-sensitive putty",
+    "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 3,
+      "glass": 3,
+      "metal": 3,
+      "plastic": 3
+    },
+    "cautions": [
+      "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-handy-technical-data-sheet-TDS00548.pdf",
+    "tdsDocumentLabel": "Bostik Blu Tack Technical Data Sheet, TDS00548, March 2022",
+    "appearance": "pale blue reusable putty",
+    "specificGravity": 1.8,
+    "shelfLifeMonths": 60,
+    "storageCondition": "Store sealed in original packaging in a dry place at 15–30°C.",
+    "clarity": "opaque",
+    "tdsStorageLifeYears": 5.0,
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-blu-tack-grey",
+    "profile": "reusablePutty",
+    "maker": "Bostik",
+    "name": "Blu Tack Grey",
+    "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+    "sourceRevisionDate": "Bostik Blu Tack Grey Technical Data Sheet, TDS02172, March 2022",
+    "chemistry": "Synthetic polymer-based reusable putty",
+    "cureFamily": "Pressure-sensitive putty",
+    "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 3,
+      "glass": 3,
+      "metal": 3,
+      "plastic": 3
+    },
+    "cautions": [
+      "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-grey-technical-data-sheet-TDS02172.pdf",
+    "tdsDocumentLabel": "Bostik Blu Tack Grey Technical Data Sheet, TDS02172, March 2022",
+    "appearance": "dark grey reusable putty",
+    "specificGravity": 1.8,
+    "shelfLifeMonths": 48,
+    "storageCondition": "Store sealed in original packaging in a dry place at 15–30°C.",
+    "clarity": "opaque",
+    "tdsStorageLifeYears": 4.0,
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-blu-tack-pink",
+    "profile": "reusablePutty",
+    "maker": "Bostik",
+    "name": "Blu Tack Pink",
+    "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+    "sourceRevisionDate": "Bostik Blu Tack Pink Technical Data Sheet, TDS00717, March 2022",
+    "chemistry": "Synthetic polymer-based reusable putty",
+    "cureFamily": "Pressure-sensitive putty",
+    "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 3,
+      "glass": 3,
+      "metal": 3,
+      "plastic": 3
+    },
+    "cautions": [
+      "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-pink-technical-data-sheet-TDS00717.pdf",
+    "tdsDocumentLabel": "Bostik Blu Tack Pink Technical Data Sheet, TDS00717, March 2022",
+    "appearance": "pink reusable putty",
+    "specificGravity": 1.8,
+    "shelfLifeMonths": 60,
+    "storageCondition": "Store sealed in original packaging in a dry place at 15–30°C.",
+    "clarity": "opaque",
+    "tdsStorageLifeYears": 5.0,
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-blu-tack-white",
+    "profile": "reusablePutty",
+    "maker": "Bostik",
+    "name": "Blu Tack White",
+    "summary": "Reusable pressure-sensitive adhesive putty for temporarily mounting lightweight items on clean, dry, non-porous surfaces.",
+    "sourceRevisionDate": "Bostik Blu Tack White Technical Data Sheet, TDS00715, March 2022",
+    "chemistry": "Synthetic polymer-based reusable putty",
+    "cureFamily": "Pressure-sensitive putty",
+    "cureDetail": "Press onto clean, dry, non-porous surfaces; remove by rolling off. Adhesion strengthens over time.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 3,
+      "glass": 3,
+      "metal": 3,
+      "plastic": 3
+    },
+    "cautions": [
+      "May leave an oily mark; test first. Not for porous surfaces, silk-screened/hand-stencilled wallpaper or porous brick. Keep away from children; not for structural mounting."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-tack-white-technical-data-sheet-TDS00715.pdf",
+    "tdsDocumentLabel": "Bostik Blu Tack White Technical Data Sheet, TDS00715, March 2022",
+    "appearance": "white reusable putty",
+    "specificGravity": 1.8,
+    "shelfLifeMonths": 48,
+    "storageCondition": "Store sealed in original packaging in a dry place at 15–30°C.",
+    "clarity": "opaque",
+    "tdsStorageLifeYears": 4.0,
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-blu-stick",
+    "profile": "craftPva",
+    "maker": "Bostik",
+    "name": "Blu Stick",
+    "summary": "Washable solid glue stick for paper and card projects; blue during application and dries clear.",
+    "sourceRevisionDate": "Bostik Blu Stick Technical Data Sheet, TDS00207, March 2022",
+    "chemistry": "PVP (polyvinylpyrrolidone)",
+    "cureFamily": "Waterborne glue stick",
+    "cureDetail": "Apply to paper/card; dries clear. TDS reports pH 10.5–11.5 and 35–39% solids.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "paper-craft",
+      "school"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "paper": 9,
+      "wood": 1,
+      "fabric": 1
+    },
+    "cautions": [
+      "Poor water resistance. TDS spells out the polymer name with a typo; normalized here to PVP (polyvinylpyrrolidone)."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-blu-stick-TDS00207.pdf",
+    "tdsDocumentLabel": "Bostik Blu Stick Technical Data Sheet, TDS00207, March 2022",
+    "appearance": "Blue solid stick, clear when dry",
+    "specificGravity": 1.1,
+    "solidsContentRangePct": [
+      35,
+      39
+    ],
+    "ph": "10.5–11.5",
+    "shelfLifeMonths": 18,
+    "storageCondition": "Keep sealed and dry at 15–25°C.",
+    "applicationTemperatureMinC": 5,
+    "applicationTemperatureMaxC": 30,
+    "waterResistant": false,
+    "tdsApplicationTemperatureFRange": [
+      41,
+      86
+    ],
+    "specificGravityRange": [
+      1.0,
+      1.2
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-all-purpose-clear",
+    "profile": "contactCement",
+    "maker": "Bostik",
+    "name": "Bostik All Purpose Clear Glue",
+    "summary": "Solvent-borne contact adhesive for many household repairs on compatible materials; bond develops after a short solvent flash-off.",
+    "sourceRevisionDate": "Bostik All Purpose Clear Glue Technical Data Sheet, TDS00410, March 2022",
+    "chemistry": "Nitrile rubber and resin in ketone solvents",
+    "cureFamily": "Solvent-borne contact adhesive",
+    "cureDetail": "For non-porous surfaces, coat both sides, allow 5–10 minutes to dry, then press firmly; bond is immediate and not adjustable.",
+    "serviceMin": -40,
+    "serviceMax": 80,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "general-repair",
+      "contact-bonding"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "wood": 5,
+      "metal": 5,
+      "glass": 4,
+      "ceramic": 4,
+      "leather": 7,
+      "fabric": 5,
+      "paper": 4,
+      "plastic": 5
+    },
+    "cautions": [
+      "Highly flammable (flash point 18°C). Do not use on PE, PP or PTFE; may damage polystyrene and some paints/fabrics. Not for pottery handles or items holding hot food/liquid."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-all-purpose-glue-technical-data-sheet-TDS00410.pdf",
+    "tdsDocumentLabel": "Bostik All Purpose Clear Glue Technical Data Sheet, TDS00410, March 2022",
+    "appearance": "Clear mobile liquid",
+    "specificGravity": 0.86,
+    "waterResistant": true,
+    "waterResistanceNote": "Good",
+    "shelfLifeMonths": 24,
+    "storageCondition": "Store sealed, dry at 5–25°C and away from ignition sources.",
+    "flashPointF": 64.4,
+    "tdsServiceTemperatureRangeF": [
+      -40,
+      176
+    ],
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-fabric-glue",
+    "profile": "fabricAdhesive",
+    "maker": "Bostik",
+    "name": "Bostik Fabric Glue",
+    "summary": "Flexible water-based textile adhesive that dries clear and can be washed, tumble-dried and ironed when fully dry.",
+    "sourceRevisionDate": "Bostik Fabric Glue Technical Data Sheet, TDS02083, March 2022",
+    "chemistry": "Water-based acrylic emulsion",
+    "cureFamily": "Flexible fabric adhesive",
+    "cureDetail": "Coat both surfaces and press immediately; allow to dry before rough handling. TDS gives no exact dry time.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "fabric-repair",
+      "textile"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "fabric": 9,
+      "leather": 4,
+      "paper": 2
+    },
+    "cautions": [
+      "Not suitable for 100% nylon or polyester or non-porous materials. High-temperature ironing/tumble drying should be brief."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-fabric-glue-TDS02083.pdf",
+    "tdsDocumentLabel": "Bostik Fabric Glue Technical Data Sheet, TDS02083, March 2022",
+    "appearance": "White liquid, dries clear in a thin film",
+    "specificGravity": 1.03,
+    "solidsContentPct": 60,
+    "shelfLifeMonths": 12,
+    "storageCondition": "Store sealed, dry at 5–35°C; protect from frost.",
+    "waterResistant": true,
+    "waterResistanceNote": "Very good wash/water resistance when dry; good UV resistance.",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-super-glue-liquid",
+    "profile": "thinCA",
+    "maker": "Bostik",
+    "name": "Bostik Super Glue Liquid",
+    "summary": "Fast-setting ethyl cyanoacrylate for small household bonds on compatible hard materials.",
+    "sourceRevisionDate": "Bostik Super Glue Liquid Technical Data Sheet, TDS00484, March 2022",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Joins in seconds; maximum bond strength develops over 24–48 hours.",
+    "serviceMin": -55,
+    "serviceMax": 80,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "wood": 4,
+      "metal": 5,
+      "ceramic": 5,
+      "rubber": 5,
+      "plastic": 4,
+      "leather": 4
+    },
+    "cautions": [
+      "Not for soft PE or absorbent paper; avoid high-stress joints and items holding hot food or liquid. Bonds skin and eyes rapidly."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-repair-super-glue-liquid-3g-TDS00484.pdf",
+    "tdsDocumentLabel": "Bostik Super Glue Liquid Technical Data Sheet, TDS00484, March 2022",
+    "appearance": "Clear thin liquid",
+    "specificGravity": 1.1,
+    "shelfLifeMonths": 12,
+    "storageCondition": "Keep sealed and cool/dry at 20–25°C; refrigeration at 5°C is recommended for long-term storage.",
+    "tdsServiceTemperatureRangeF": [
+      -67,
+      176
+    ],
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-pva-glue",
+    "profile": "craftPva",
+    "maker": "Bostik",
+    "name": "Bostik PVA Glue",
+    "summary": "Washable white craft and school PVA for paper, card, wood and fabric; dries clear or opalescent.",
+    "sourceRevisionDate": "Bostik PVA Glue Technical Data Sheet, TDS02021, March 2022",
+    "chemistry": "Vinyl acetate homopolymer / polyvinyl alcohol",
+    "cureFamily": "Waterborne PVA craft glue",
+    "cureDetail": "Full cure: about 12 hours on paper/card and 24 hours on wood.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "paper-craft",
+      "school",
+      "woodworking"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "paper": 9,
+      "wood": 5,
+      "fabric": 4
+    },
+    "cautions": [
+      "Not intended for structural joints or sustained wet service; TDS does not publish strength or service-temperature limits."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-pva-glue-technical-data-sheet-TDS02021.pdf",
+    "tdsDocumentLabel": "Bostik PVA Glue Technical Data Sheet, TDS02021, March 2022",
+    "appearance": "White liquid, dries clear/opalescent",
+    "specificGravityRange": [
+      1.0,
+      1.1
+    ],
+    "applicationTemperatureMinC": 15,
+    "shelfLifeMonths": 12,
+    "storageCondition": "Store sealed above 5°C in a cool, dry, ventilated place away from sunlight.",
+    "waterResistant": false,
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-fast-tak-permanent-spray",
+    "profile": "sprayAdhesive",
+    "maker": "Bostik",
+    "name": "Fast Tak Permanent Spray",
+    "summary": "Permanent repositionable spray adhesive for light laminating and mounting tasks; solvent-borne.",
+    "sourceRevisionDate": "Bostik Fast Tak Permanent Spray Technical Data Sheet, TDS00401, March 2022",
+    "chemistry": "Synthetic rubber and resin in hydrocarbon solvent",
+    "cureFamily": "Solvent-borne pressure-sensitive spray adhesive",
+    "cureDetail": "Spray from 15–20 cm; allow about 2–5 minutes to dry/tack, then press surfaces together. Coverage about 5 m² per 500 mL on one surface.",
+    "serviceMin": -15,
+    "serviceMax": 50,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "spray-mounting",
+      "paper-craft"
+    ],
+    "stress": {
+      "shear": 2.0,
+      "peel": 3.0,
+      "impact": 2.0
+    },
+    "substrates": {
+      "paper": 7,
+      "fabric": 6,
+      "wood": 3
+    },
+    "cautions": [
+      "Flammable; use outdoors or in a well-ventilated area. Not for PVC or expanded polystyrene, structural or safety-critical overhead bonds. Avoid overspray and strike-through."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-craft-fast-tak-permanent-technical-data-sheet-TDS00401.pdf",
+    "tdsDocumentLabel": "Bostik Fast Tak Permanent Spray Technical Data Sheet, TDS00401, March 2022",
+    "appearance": "Yellow solvent spray",
+    "specificGravity": 0.66,
+    "applicationTemperatureMinC": 15,
+    "applicationTemperatureMaxC": 30,
+    "shelfLifeMonths": 12,
+    "storageCondition": "Store sealed and dry at 5–25°C.",
+    "coverageSqFtPerCan": 53.8,
+    "tdsServiceTemperatureRangeF": [
+      5,
+      122
+    ],
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-glu-dots-extra-strong",
+    "profile": "pressureSensitiveDots",
+    "maker": "Bostik",
+    "name": "Bostik Glu Dots – Extra Strong",
+    "summary": "Double-sided pressure-sensitive adhesive dots for clean, instant attachment of lightweight craft and display items.",
+    "sourceRevisionDate": "Bostik Glu Dots Technical Data Sheet, TDS00526, March 2022",
+    "chemistry": "Hydrocarbon polymer, pressure-sensitive adhesive",
+    "cureFamily": "Pressure-sensitive adhesive dots",
+    "cureDetail": "Apply dot to object, peel backing and press in place; remove by slowly peeling.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "craft-mounting",
+      "paper-craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 2,
+      "plastic": 2,
+      "glass": 2
+    },
+    "cautions": [
+      "TDS provides no numerical bond strength, service-temperature rating or defined load rating; use only for lightweight items."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
+    "tdsDocumentLabel": "Bostik Glu Dots Technical Data Sheet, TDS00526, March 2022",
+    "appearance": "Transparent, double-sided adhesive dots",
+    "specificGravity": 1.0,
+    "solidsContentPct": 100,
+    "shelfLifeMonths": 24,
+    "storageCondition": "Store sealed and dry at 5–25°C.",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "bostik-glu-dots-removable",
+    "profile": "pressureSensitiveDots",
+    "maker": "Bostik",
+    "name": "Bostik Glu Dots – Removable",
+    "summary": "Double-sided pressure-sensitive adhesive dots for clean, instant attachment of lightweight craft and display items.",
+    "sourceRevisionDate": "Bostik Glu Dots Technical Data Sheet, TDS00526, March 2022",
+    "chemistry": "Hydrocarbon polymer, pressure-sensitive adhesive",
+    "cureFamily": "Pressure-sensitive adhesive dots",
+    "cureDetail": "Apply dot to object, peel backing and press in place; remove by slowly peeling.",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked Bostik TDS.",
+    "applicationTags": [
+      "temporary-mounting",
+      "paper-craft"
+    ],
+    "stress": {
+      "shear": 1,
+      "peel": 2,
+      "impact": 0
+    },
+    "substrates": {
+      "paper": 7,
+      "wood": 2,
+      "plastic": 2,
+      "glass": 2
+    },
+    "cautions": [
+      "TDS provides no numerical bond strength, service-temperature rating or defined load rating; use only for lightweight items."
+    ],
+    "referenceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
+    "tdsUrl": "https://diy.bostik.com/sites/default/files/2023-10/diy-bostik-uk-stationery-extra-strong-glu-dots-technical-data-sheet-TDS00526.pdf",
+    "tdsDocumentLabel": "Bostik Glu Dots Technical Data Sheet, TDS00526, March 2022",
+    "appearance": "Transparent, double-sided adhesive dots",
+    "specificGravity": 1.0,
+    "solidsContentPct": 100,
+    "shelfLifeMonths": 24,
+    "storageCondition": "Store sealed and dry at 5–25°C.",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -74932,12 +75597,265 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-blu-tack",
+    "manufacturer": "Bostik",
+    "familyName": "Blu Tack",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "temporary-mounting, craft",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-blu-tack-grey",
+    "manufacturer": "Bostik",
+    "familyName": "Blu Tack Grey",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "temporary-mounting, craft",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-grey",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-blu-tack-pink",
+    "manufacturer": "Bostik",
+    "familyName": "Blu Tack Pink",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "temporary-mounting, craft",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-pink",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-blu-tack-white",
+    "manufacturer": "Bostik",
+    "familyName": "Blu Tack White",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "temporary-mounting, craft",
+    "applicationTags": [
+      "temporary-mounting",
+      "craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-tack-white",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-blu-stick",
+    "manufacturer": "Bostik",
+    "familyName": "Blu Stick",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "paper-craft, school",
+    "applicationTags": [
+      "paper-craft",
+      "school"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/blu-glu-stick",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-all-purpose-clear",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik All Purpose Clear Glue",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "general-repair, contact-bonding",
+    "applicationTags": [
+      "general-repair",
+      "contact-bonding"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 80,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/all-purpose",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-fabric-glue",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik Fabric Glue",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "fabric-repair, textile",
+    "applicationTags": [
+      "fabric-repair",
+      "textile"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/fabric-glue",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-super-glue-liquid",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik Super Glue Liquid",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "3 g tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "instant-bonding, general-repair",
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 80,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/repair/super-glue-liquid",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-pva-glue",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik PVA Glue",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "paper-craft, school, woodworking",
+    "applicationTags": [
+      "paper-craft",
+      "school",
+      "woodworking"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/pva-white-glu",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-fast-tak-permanent-spray",
+    "manufacturer": "Bostik",
+    "familyName": "Fast Tak Permanent Spray",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "spray-mounting, paper-craft",
+    "applicationTags": [
+      "spray-mounting",
+      "paper-craft"
+    ],
+    "tempMinC": -15,
+    "tempMaxC": 50,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/fast-tak-permanent-spray",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-glu-dots-extra-strong",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik Glu Dots – Extra Strong",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "craft-mounting, paper-craft",
+    "applicationTags": [
+      "craft-mounting",
+      "paper-craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/extra-strong-glu-dots",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "bostik-glu-dots-removable",
+    "manufacturer": "Bostik",
+    "familyName": "Bostik Glu Dots – Removable",
+    "primaryCategory": "Household & Craft Adhesives",
+    "categories": [
+      "Household & Craft Adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "temporary-mounting, paper-craft",
+    "applicationTags": [
+      "temporary-mounting",
+      "paper-craft"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 590,
-  "referenceFamilies": 590,
-  "tdsBackedProducts": 583,
+  "selectorProducts": 602,
+  "referenceFamilies": 602,
+  "tdsBackedProducts": 595,
   "otherOfficialTechnicalSources": 7
 };

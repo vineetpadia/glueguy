@@ -110,6 +110,21 @@ def normalize_space(value: str | None) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def product_match_key(maker: str | None, name: str | None) -> tuple[str, str]:
+    """Normalize official lead names and known manufacturer aliases for dedupe."""
+    maker_key = re.sub(r"[^a-z0-9]+", "", normalize_space(maker).casefold())
+    name_key = re.sub(r"[^a-z0-9]+", "", normalize_space(name).casefold())
+    if maker_key == "bostik":
+        aliases = {
+            "bluglustick": "blustick",
+            "essentialwhitepvaglueinabottledriesclear": "bostikpvaglue",
+            "gludots": "bostikgludotsextrastrong",
+            "removablegludots": "bostikgludotsremovable",
+        }
+        name_key = aliases.get(name_key, name_key)
+    return maker_key, name_key
+
+
 def load_window_json(path: Path, variable_name: str):
     text = path.read_text(encoding="utf-8")
     match = re.search(rf"window\.{re.escape(variable_name)} = (.*?);\s*(?:window\.|$)", text, re.S)
@@ -408,15 +423,15 @@ def main() -> None:
         *(product_record(entry, cache_index, extraction_index, "manual-tds") for entry in manual),
         *(product_record(entry, cache_index, extraction_index, "mcmaster-derived") for entry in mcmaster),
     ]
-    known_products = {(normalize_space(row.get("maker")).casefold(), normalize_space(row.get("name")).casefold()) for row in products}
+    known_products = {product_match_key(row.get("maker"), row.get("name")) for row in products}
     for entry in official_leads:
-        key = (normalize_space(entry.get("maker")).casefold(), normalize_space(entry.get("name")).casefold())
+        key = product_match_key(entry.get("maker"), entry.get("name"))
         if not key[0] or not key[1]:
             continue
         if key in known_products:
             existing = next(
                 row for row in products
-                if (normalize_space(row.get("maker")).casefold(), normalize_space(row.get("name")).casefold()) == key
+                if product_match_key(row.get("maker"), row.get("name")) == key
             )
             tds_documents = [*existing["sources"].get("tdsDocuments", []), *entry.get("tdsDocuments", [])]
             existing["sources"]["tdsDocuments"] = list({doc.get("url"): doc for doc in tds_documents if doc.get("url")}.values())

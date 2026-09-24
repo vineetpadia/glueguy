@@ -1486,6 +1486,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "CEMEDINE reports low-molecular-silicone-free behavior to reduce electrical contact-failure risk, but users must validate contamination sensitivity in the actual device."
     ],
     "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html",
+    "supportingReferenceUrls": [
+      "https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html",
+      "https://exhibition.cemedine.co.jp/form/tca.html"
+    ],
     "unpublishedFields": [
       "serviceMin",
       "serviceMax",
@@ -1592,6 +1596,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "For non-porous materials and heavy or vertical parts, CEMEDINE describes double-sided application/contact-bond style use rather than relying only on wet assembly."
     ],
     "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/superx/",
+    "supportingReferenceUrls": [
+      "https://www.cemedine.co.jp/global/en/technology/elastic/superx/",
+      "https://exhibition.cemedine.co.jp/form/sx720.html"
+    ],
     "unpublishedFields": [
       "potLife",
       "thermalConductivity",
@@ -5426,7 +5434,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Material table values vary widely by adherend and include material failure for lauan plywood; validate on production substrates.",
       "Two-component epoxy properties depend on 1:1 mix accuracy, surface preparation, bondline thickness and cure temperature."
     ],
-    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"
+    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+    "supportingReferenceUrls": [
+      "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"
+    ]
   },
   {
     "id": "cemedine-ep008",
@@ -6163,6 +6174,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
+    "tdsUrl": "https://www.wacker.com/h/zh-dk/medias/SEMICOSIL-811-en-2024.06.16.pdf",
+    "tdsDocumentLabel": "WACKER SEMICOSIL 811 Technical Data Sheet, most recent change June 16, 2024",
+    "supportingReferenceUrls": [
+      "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
+      "https://www.wacker.com/h/medias/7401-EN.pdf"
+    ],
     "thermalConductivity": null
   },
   {

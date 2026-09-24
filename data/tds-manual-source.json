@@ -1528,6 +1528,7 @@
         "CEMEDINE reports low-molecular-silicone-free behavior to reduce electrical contact-failure risk, but users must validate contamination sensitivity in the actual device."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html",
+      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html", "https://exhibition.cemedine.co.jp/form/tca.html"],
       "referenceCategory": "Thermal Conductive Elastic Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "White paste (120 Pa.s at 23 C)",
@@ -1638,6 +1639,7 @@
         "For non-porous materials and heavy or vertical parts, CEMEDINE describes double-sided application/contact-bond style use rather than relying only on wet assembly."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/superx/",
+      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/elastic/superx/", "https://exhibition.cemedine.co.jp/form/sx720.html"],
       "referenceCategory": "Flame-Retardant Elastic Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Elastic adhesive paste",
@@ -5600,6 +5602,7 @@
         "Two-component epoxy properties depend on 1:1 mix accuracy, surface preparation, bondline thickness and cure temperature."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"],
       "referenceCategory": "Two-Component Epoxy Adhesives",
       "referenceSampleType": "Two-part pack",
       "referenceSampleConsistency": "Base resin pink translucent, 70 Pa.s and 1.17 g/cm3; hardener light yellow translucent, 160 Pa.s and 1.14 g/cm3",
@@ -6368,6 +6371,9 @@
         "tackFreeTime"
       ],
       "referenceUrl": "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
+      "tdsUrl": "https://www.wacker.com/h/zh-dk/medias/SEMICOSIL-811-en-2024.06.16.pdf",
+      "tdsDocumentLabel": "WACKER SEMICOSIL 811 Technical Data Sheet, most recent change June 16, 2024",
+      "supportingReferenceUrls": ["https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264", "https://www.wacker.com/h/medias/7401-EN.pdf"],
       "referenceCategory": "Electronics Silicone Adhesives",
       "referenceSampleType": "Two-part adhesive",
       "referenceSampleConsistency": "Non-slump UV-fluorescent silicone adhesive",

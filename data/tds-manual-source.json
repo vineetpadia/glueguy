@@ -59508,6 +59508,76 @@
         1440,
         1440
       ]
+    },
+    {
+      "id": "dap-weldwood-original-contact-cement",
+      "profile": "contactCement",
+      "maker": "DAP WELDWOOD",
+      "name": "WELDWOOD Original Contact Cement",
+      "summary": "Solvent-based polychloroprene contact cement for laminates, veneer, wood, leather, fabrics, rubber, paper, and similar materials; bonds immediately after the flashed surfaces are pressed together.",
+      "sourceRevisionDate": "DAP WELDWOOD Original Contact Cement Technical Data Sheet, revision August 2018.",
+      "chemistry": "Polychloroprene rubber-based contact adhesive; synthetic rubbers and resins",
+      "cureFamily": "Solvent-flash contact cement",
+      "cureDetail": "Apply to both surfaces and allow 15–20 minutes to dry until tacky and glossy. Assemble within 2–3 hours; up to 2 hours open time is stated. Apply firm, even pressure after contact; maximum holding strength in 7 days. Application conditions 65–110°F; TDS calls for air, adhesive, and surfaces above 65°F for at least 24 hours before and after application.",
+      "serviceMin": -40,
+      "serviceMax": 82,
+      "serviceTemperatureMinF": -40,
+      "serviceTemperatureMaxF": 180,
+      "applicationTemperatureMinF": 65,
+      "applicationTemperatureMaxF": 110,
+      "openTimeRangeMinutes": [
+        120,
+        120
+      ],
+      "appearance": "Tan pourable liquid",
+      "waterResistant": true,
+      "vocContentGPerL": 702.8,
+      "applicationTags": [
+        "contact-lamination",
+        "wood-paper-fabric",
+        "interior-exterior"
+      ],
+      "stress": {
+        "shear": 5,
+        "peel": 8,
+        "impact": 5
+      },
+      "environment": {
+        "humidity": 0.65,
+        "fuel": 0.35,
+        "immersion": 0.2
+      },
+      "substrates": {
+        "wood": 9,
+        "mdf": 8,
+        "paper": 8,
+        "fabric": 9,
+        "leather": 9,
+        "rubber": 8,
+        "metal": 6,
+        "concrete": 5,
+        "abs": 5,
+        "pvc": 5,
+        "hdpe": 0,
+        "polystyrene": 0
+      },
+      "cautions": [
+        "Not for structural applications, copper or copper alloys, polystyrene foam, or heavy-gauge metal.",
+        "Solvents may stain or damage painted surfaces, vinyl, and some plastics; test first.",
+        "Bond is effectively one-shot after firm contact; align parts before joining.",
+        "TDS reports typical properties; confirm suitability and safety from the product label and current SDS."
+      ],
+      "standards": [
+        "Federal Specification A-A-1936A (supersedes MMM-A-130B)"
+      ],
+      "referenceUrl": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
+      "tdsUrl": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
+      "tdsDocumentLabel": "DAP WELDWOOD Original Contact Cement Technical Data Sheet, revision 2018-08",
+      "sourceUrl": "https://www.dap.com/products/adhesives/original-contact-neoprene-adhesive",
+      "referenceCategory": "Contact Adhesives",
+      "referenceSampleType": "16 fl oz, 32 fl oz, or 1 gal can; 0.67 fl oz and 3 fl oz packages also listed by DAP",
+      "referenceSampleConsistency": "Tan pourable liquid; polychloroprene rubber adhesive; 15–20 min dry; up to 2 h open time; service −40 to 180°F.",
+      "referenceForJoining": "High-pressure laminates, wood and plastic veneers, paneling, leather, fabrics, rubber, paper, cardboard, and compatible materials bonded to wood, particleboard, plywood, metal, or concrete."
     }
   ]
 }

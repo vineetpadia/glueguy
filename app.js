@@ -6208,6 +6208,10 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Historical TDS full cure (hours)", "tdsFullCureHours"],
   ["Historical TDS shelf life", "tdsShelfLife"],
   ["TDS document", "tdsDocumentLabel"],
+  ["TDS application and cure notes", "cureDetail"],
+  ["TDS appearance", "appearance"],
+  ["Service temperature minimum (°F)", "serviceTemperatureMinF"],
+  ["Service temperature maximum (°F)", "serviceTemperatureMaxF"],
   ["TDS viscosity at 375°F (cP)", "tdsViscosityCpsAt375F"],
   ["TDS application temperature range (°F)", "tdsApplicationTemperatureFRange"],
   ["TDS open time (seconds)", "tdsOpenTimeSeconds"],
@@ -7071,7 +7075,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-20260924");
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-dap-weldwood-20260923");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

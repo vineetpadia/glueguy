@@ -63869,6 +63869,320 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null
+  },
+  {
+    "id": "loctite-567",
+    "profile": "anaerobicThreadSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 567 Thread Sealant",
+    "summary": "Off-white, high-viscosity anaerobic paste for sealing tapered metal pipe threads; lubricity helps prevent galling during assembly.",
+    "sourceRevisionDate": "Henkel LOCTITE 567 Technical Data Sheet, June 2025",
+    "chemistry": "One-part methacrylate ester",
+    "cureFamily": "Anaerobic thread sealant",
+    "cureDetail": "Cures between close-fitting metal pipe threads; maximum pressure and solvent resistance after at least 24 h.",
+    "viscosityClass": "high",
+    "viscosityValue": "Brookfield RVF spindle 7 at 2 rpm: 540,000 cP",
+    "viscosityUnit": "cP",
+    "specificGravity": 1.1,
+    "appearance": "Off-white paste",
+    "clarity": "opaque",
+    "thixotropic": true,
+    "fixingTorqueBySizeNm": {
+      "m10BreakawayBlackOxideSteel24h22C": 12,
+      "m10PrevailBlackOxideSteel24h22C": 1.9,
+      "m10BreaklooseAfter5NmPretorqueBlackOxideSteel24h22C": 17
+    },
+    "standards": [
+      "ISO 10964",
+      "AGA certificate 3207 (regional)",
+      "NSF/ANSI 61 (regional)"
+    ],
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "oil-tolerant"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.75,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "stainlessSteel": 9,
+      "brass": 9,
+      "metal": 9,
+      "pipeThreads": 10
+    },
+    "cautions": [
+      "The listed torque figures are ISO 10964 fastener tests and are not pipe-joint pressure ratings.",
+      "No general continuous service-temperature range or universal pressure rating is published in the linked TDS. Regional AGA approval is specific to its stated class and conditions.",
+      "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical values are typical, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-567-en_US.pdf",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime",
+      "lapShear",
+      "thermalConductivity"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-567-en_US.pdf",
+    "tdsDocumentLabel": "LOCTITE 567 Technical Data Sheet, June 2025",
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "loctite-577",
+    "profile": "anaerobicThreadSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 577 Thread Sealant",
+    "summary": "Yellow, thixotropic, medium-strength anaerobic thread sealant for metal pipes and fittings, including stainless steel without activation.",
+    "sourceRevisionDate": "Henkel LOCTITE 577 Technical Data Sheet, May 2026",
+    "chemistry": "One-part methacrylate ester",
+    "cureFamily": "Anaerobic thread sealant",
+    "cureDetail": "Cures between close-fitting metal pipe threads; maximum pressure and solvent resistance after at least 24 h.",
+    "gapFill": 0.25,
+    "viscosityClass": "high",
+    "viscosityValue": "Brookfield RVT: spindle 6 at 2.5 rpm 100,000 cP; at 20 rpm 24,500 cP",
+    "viscosityUnit": "cP",
+    "specificGravity": 1.1,
+    "appearance": "Yellow paste",
+    "clarity": "opaque",
+    "thixotropic": true,
+    "compressiveStrengthMPa": 5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After24h22C": 5
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakaway24h22C": 33,
+      "m10SteelPrevail24h22C": 2.5,
+      "m10SteelBreaklooseAfter5NmPretorque24h22C": 27
+    },
+    "standards": [
+      "ISO 10964",
+      "ISO 10123",
+      "EN 751-1",
+      "NSF P1 (regional)",
+      "AGA approval (regional)"
+    ],
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "stainless-steel"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.75,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "stainlessSteel": 9,
+      "brass": 9,
+      "metal": 9,
+      "pipeThreads": 10
+    },
+    "cautions": [
+      "M10 torque values are ISO 10964 fastener tests and not pipe-joint pressure ratings. Regional gas approvals apply only under their stated conditions.",
+      "TDS cold-strength testing at -75 °C is not a continuous service-temperature rating; no general service range is included here.",
+      "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical values are typical, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-577-en_GL.pdf",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "potLife",
+      "fixtureTime",
+      "lapShear",
+      "thermalConductivity"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-577-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 577 Technical Data Sheet, May 2026",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "loctite-545",
+    "profile": "anaerobicThreadSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 545 Thread Sealant",
+    "summary": "Purple, medium-strength anaerobic liquid for sealing metal pipes and fittings; lubricity supports assembly of fine hydraulic and pneumatic threads.",
+    "sourceRevisionDate": "Henkel LOCTITE 545 Technical Data Sheet, August 2016",
+    "chemistry": "One-part methacrylate ester",
+    "cureFamily": "Anaerobic thread sealant",
+    "cureDetail": "Cures between close-fitting metal threads; allow at least 24 h at room temperature for maximum pressure and solvent resistance.",
+    "viscosityClass": "medium",
+    "viscosityValue": "Brookfield RVT spindle 3 at 2.5 rpm: 9,000–20,000 cP",
+    "viscosityUnit": "cP",
+    "specificGravity": 1.02,
+    "appearance": "Purple liquid",
+    "clarity": "opaque",
+    "thixotropic": false,
+    "compressiveStrengthMPa": 1.5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After24h22C": 1.5
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakaway24h22C": 2
+    },
+    "standards": [
+      "ISO 10964",
+      "ISO 10123",
+      "AGA approval (regional)",
+      "NSF P1 (regional)"
+    ],
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "hydraulic-pneumatic"
+    ],
+    "stress": {
+      "shear": 2,
+      "peel": 1,
+      "impact": 1
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.7,
+      "immersion": 0.65
+    },
+    "substrates": {
+      "steel": 8,
+      "stainlessSteel": 8,
+      "brass": 8,
+      "metal": 8,
+      "pipeThreads": 9
+    },
+    "cautions": [
+      "M10 breakaway torque is an ISO 10964 fastener test, not a pipe-joint pressure rating.",
+      "Cold-strength testing to -75 °C is not a continuous service-temperature rating; no general service range is provided. Confirm regional approvals against the current local document.",
+      "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical values are typical, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-545-en_GL.pdf",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime",
+      "lapShear",
+      "thermalConductivity"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-545-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 545 Technical Data Sheet, August 2016",
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "loctite-542",
+    "profile": "anaerobicThreadSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 542 Thread Sealant",
+    "summary": "Brown, low-viscosity, medium-strength anaerobic sealant for fine metal pipe threads and fittings, especially hydraulic and pneumatic systems.",
+    "sourceRevisionDate": "Henkel LOCTITE 542 Technical Data Sheet, April 2026",
+    "chemistry": "One-part dimethacrylate ester",
+    "cureFamily": "Anaerobic thread sealant",
+    "cureDetail": "Cures between close-fitting metal threads; allow at least 24 h for maximum pressure and solvent resistance.",
+    "viscosityClass": "low",
+    "viscosityValue": "Brookfield RVT spindle 2 at 2.5 rpm: 1,200–2,750 cP; at 20 rpm: 400–800 cP",
+    "viscosityUnit": "cP",
+    "specificGravity": 1.06,
+    "appearance": "Brown liquid",
+    "clarity": "opaque",
+    "thixotropic": false,
+    "thermalConductivity": 0.1,
+    "compressiveStrengthMPa": 6.5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After24h22C": 6.5
+    },
+    "fixingTorqueBySizeNm": {
+      "m10SteelBreakaway24h22C": 15,
+      "m10SteelPrevail24h22C": 9,
+      "m10SteelBreaklooseAfter5NmPretorque24h22C": 25
+    },
+    "standards": [
+      "ISO 10964",
+      "ISO 10123"
+    ],
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "hydraulic-pneumatic"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.75,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "stainlessSteel": 8,
+      "brass": 8,
+      "metal": 9,
+      "pipeThreads": 10
+    },
+    "cautions": [
+      "M10 torque figures are ISO 10964 fastener tests and not pipe-joint pressure ratings.",
+      "No general continuous service-temperature range, pressure rating, or gap-fill value is given in the linked TDS.",
+      "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical values are typical, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "gapFill",
+      "potLife",
+      "fixtureTime",
+      "lapShear"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 542 Technical Data Sheet, April 2026",
+    "serviceMin": null,
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null
   }
 ];
 
@@ -81018,12 +81332,104 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-567",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 567 Thread Sealant",
+    "primaryCategory": "Thread sealants",
+    "categories": [
+      "Thread sealants"
+    ],
+    "sampleType": "Tube",
+    "sampleConsistency": "Off-white high-viscosity paste; Brookfield RVF spindle 7 at 2 rpm: 540,000 cP.",
+    "sampleForJoining": "Tapered metal pipe threads and fittings",
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "oil-tolerant"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-567-en_US.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-577",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 577 Thread Sealant",
+    "primaryCategory": "Thread sealants",
+    "categories": [
+      "Thread sealants"
+    ],
+    "sampleType": "Tube",
+    "sampleConsistency": "Yellow thixotropic paste; Brookfield RVT spindle 6 at 2.5 rpm: 100,000 cP.",
+    "sampleForJoining": "Metal pipe threads and fittings, including stainless steel",
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "stainless-steel"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-577-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-545",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 545 Thread Sealant",
+    "primaryCategory": "Thread sealants",
+    "categories": [
+      "Thread sealants"
+    ],
+    "sampleType": "Bottle or tube",
+    "sampleConsistency": "Purple liquid; Brookfield RVT spindle 3 at 2.5 rpm: 9,000–20,000 cP.",
+    "sampleForJoining": "Metal pipe threads and fittings in hydraulic and pneumatic systems",
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "hydraulic-pneumatic"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-545-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-542",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 542 Thread Sealant",
+    "primaryCategory": "Thread sealants",
+    "categories": [
+      "Thread sealants"
+    ],
+    "sampleType": "Bottle or tube",
+    "sampleConsistency": "Brown low-viscosity liquid; Brookfield RVT spindle 2 at 2.5 rpm: 1,200–2,750 cP.",
+    "sampleForJoining": "Fine metal pipe threads and fittings in hydraulic and pneumatic systems",
+    "applicationTags": [
+      "sealing-gasketing",
+      "anaerobic-cure",
+      "metal-pipe-threads",
+      "hydraulic-pneumatic"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 652,
-  "referenceFamilies": 652,
-  "tdsBackedProducts": 645,
+  "selectorProducts": 656,
+  "referenceFamilies": 656,
+  "tdsBackedProducts": 649,
   "otherOfficialTechnicalSources": 7
 };

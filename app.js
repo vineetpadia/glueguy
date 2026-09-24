@@ -100,6 +100,7 @@ const PROFILE_APPLICATION_TAGS = {
   anaerobicThreadlocker: ["threadlocking"],
   anaerobicRetainer: ["retaining"],
   anaerobicGasketSealant: ["sealing-gasketing"],
+  anaerobicThreadSealant: ["sealing-gasketing"],
   foamTape: ["structural-bonding"],
   contactCement: ["contact-lamination"],
   pvaWood: ["wood-paper-fabric"],
@@ -1557,6 +1558,27 @@ const PROFILE_LIBRARY = {
     summary:
       "One-part anaerobic sealants for rigid machined metal flanges, form-in-place gaskets, gearboxes, pumps, engines, and transmission housings.",
     cautions: ["Not intended for flexible joints or as a general-purpose adhesive; confirm flange fit, cure, and sealing performance in the actual assembly."],
+  },
+  anaerobicThreadSealant: {
+    chemistry: "Anaerobic thread sealant",
+    cureFamily: "Anaerobic",
+    cureDetail: "Cures between close-fitting metal pipe threads and fittings",
+    serviceMin: null,
+    serviceMax: null,
+    viscosityClass: "medium",
+    thixotropic: false,
+    gapFill: null,
+    thermalConductivity: null,
+    clarity: "opaque",
+    potLife: null,
+    fixtureTime: null,
+    lapShear: null,
+    stress: buildStress({ shear: 3, peel: 1, impact: 1 }),
+    environment: buildEnvironment({ humidity: 0.65, fuel: 0.75, immersion: 0.7 }),
+    substrates: buildRatings({ steel: 9, stainlessSteel: 9, brass: 8, copper: 8, metal: 9 }, 0),
+    summary:
+      "One-part anaerobic sealants for metal pipe threads and fittings that cure in close-fitting joints to help prevent leakage and loosening.",
+    cautions: ["Designed for threaded-joint sealing; published torque tests are not bond-strength values for structural adhesive joints."],
   },
   foamTape: {
     chemistry: "Acrylic foam tape",
@@ -7242,7 +7264,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-loctite-flange-sealants");
+    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-loctite-pipe-thread-sealants");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

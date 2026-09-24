@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:40:15.029070+00:00",
+  "generatedAt": "2026-09-24T03:52:10.687646+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1720,
-    "manualTdsProducts": 645,
+    "products": 1724,
+    "manualTdsProducts": 649,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 640,
@@ -733,7 +733,11 @@
         "loctite-510",
         "loctite-515",
         "loctite-518",
+        "loctite-542",
+        "loctite-545",
+        "loctite-567",
         "loctite-574",
+        "loctite-577",
         "loctite-609",
         "loctite-620",
         "loctite-638",
@@ -2185,7 +2189,11 @@
         "loctite-510",
         "loctite-515",
         "loctite-518",
+        "loctite-542",
+        "loctite-545",
+        "loctite-567",
         "loctite-574",
+        "loctite-577",
         "loctite-609",
         "loctite-620",
         "loctite-638",
@@ -4117,6 +4125,10 @@
         "lepage-pl-premium-max",
         "liquid-nails-ln2000"
       ],
+      "hydraulic-pneumatic": [
+        "loctite-542",
+        "loctite-545"
+      ],
       "hydraulics": [
         "permabond-lh051",
         "permabond-lm012",
@@ -5021,6 +5033,12 @@
       "metal-pipe": [
         "threebond-tb1110f"
       ],
+      "metal-pipe-threads": [
+        "loctite-542",
+        "loctite-545",
+        "loctite-567",
+        "loctite-577"
+      ],
       "metal-plastic-bonding": [
         "threebond-3164f"
       ],
@@ -5245,6 +5263,7 @@
       "oil-tolerant": [
         "loctite-243",
         "loctite-518",
+        "loctite-567",
         "loctite-638",
         "loctite-648",
         "permabond-hm129"
@@ -6314,7 +6333,11 @@
         "loctite-510",
         "loctite-515",
         "loctite-518",
+        "loctite-542",
+        "loctite-545",
+        "loctite-567",
         "loctite-574",
+        "loctite-577",
         "loctite-si595",
         "masterbond-mastersil-151",
         "mc-3m_hybrid_polymer_2084",
@@ -6742,6 +6765,9 @@
       ],
       "stainable": [
         "gorilla-glue-original-polyurethane"
+      ],
+      "stainless-steel": [
+        "loctite-577"
       ],
       "steel-bonding": [
         "threebond-tb2273e"
@@ -7798,7 +7824,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 640,
-      "official-tds-url": 372,
+      "official-tds-url": 376,
       "product-or-catalog-page": 191
     }
   },
@@ -62651,6 +62677,297 @@
       "extractionCandidates": []
     },
     {
+      "id": "loctite-542",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 542 Thread Sealant",
+      "profile": "anaerobicThreadSealant",
+      "summary": "Brown, low-viscosity, medium-strength anaerobic sealant for fine metal pipe threads and fittings, especially hydraulic and pneumatic systems.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "anaerobic-cure",
+        "metal-pipe-threads",
+        "hydraulic-pneumatic"
+      ],
+      "referenceCategory": "Thread sealants",
+      "referenceForJoining": "Fine metal pipe threads and fittings in hydraulic and pneumatic systems",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester",
+        "cureFamily": "Anaerobic thread sealant",
+        "cureDetail": "Cures between close-fitting metal threads; allow at least 24 h for maximum pressure and solvent resistance.",
+        "viscosityClass": "low",
+        "viscosityValue": "Brookfield RVT spindle 2 at 2.5 rpm: 1,200\u20132,750 cP; at 20 rpm: 400\u2013800 cP",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.06
+      },
+      "rankableSpecs": {
+        "thermalConductivity": 0.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "M10 torque figures are ISO 10964 fastener tests and not pipe-joint pressure ratings.",
+        "No general continuous service-temperature range, pressure rating, or gap-fill value is given in the linked TDS.",
+        "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-545",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 545 Thread Sealant",
+      "profile": "anaerobicThreadSealant",
+      "summary": "Purple, medium-strength anaerobic liquid for sealing metal pipes and fittings; lubricity supports assembly of fine hydraulic and pneumatic threads.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "anaerobic-cure",
+        "metal-pipe-threads",
+        "hydraulic-pneumatic"
+      ],
+      "referenceCategory": "Thread sealants",
+      "referenceForJoining": "Metal pipe threads and fittings in hydraulic and pneumatic systems",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester",
+        "cureFamily": "Anaerobic thread sealant",
+        "cureDetail": "Cures between close-fitting metal threads; allow at least 24 h at room temperature for maximum pressure and solvent resistance.",
+        "viscosityClass": "medium",
+        "viscosityValue": "Brookfield RVT spindle 3 at 2.5 rpm: 9,000\u201320,000 cP",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "specificGravity": 1.02
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-545-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-545-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "M10 breakaway torque is an ISO 10964 fastener test, not a pipe-joint pressure rating.",
+        "Cold-strength testing to -75 \u00b0C is not a continuous service-temperature rating; no general service range is provided. Confirm regional approvals against the current local document.",
+        "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-567",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 567 Thread Sealant",
+      "profile": "anaerobicThreadSealant",
+      "summary": "Off-white, high-viscosity anaerobic paste for sealing tapered metal pipe threads; lubricity helps prevent galling during assembly.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "anaerobic-cure",
+        "metal-pipe-threads",
+        "oil-tolerant"
+      ],
+      "referenceCategory": "Thread sealants",
+      "referenceForJoining": "Tapered metal pipe threads and fittings",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester",
+        "cureFamily": "Anaerobic thread sealant",
+        "cureDetail": "Cures between close-fitting metal pipe threads; maximum pressure and solvent resistance after at least 24 h.",
+        "viscosityClass": "high",
+        "viscosityValue": "Brookfield RVF spindle 7 at 2 rpm: 540,000 cP",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-567-en_US.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-567-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "The listed torque figures are ISO 10964 fastener tests and are not pipe-joint pressure ratings.",
+        "No general continuous service-temperature range or universal pressure rating is published in the linked TDS. Regional AGA approval is specific to its stated class and conditions.",
+        "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "loctite-574",
       "source": "manual-tds",
       "maker": "Henkel Loctite",
@@ -62757,6 +63074,103 @@
         "No general continuous service-temperature range is published on the linked TDS/product page; hot-strength testing is not a service rating.",
         "TDS environmental aging tests measure strength changes and are not a measure of sealing performance.",
         "TDS is a June 2022 revision; confirm local product approvals before specification."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-577",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 577 Thread Sealant",
+      "profile": "anaerobicThreadSealant",
+      "summary": "Yellow, thixotropic, medium-strength anaerobic thread sealant for metal pipes and fittings, including stainless steel without activation.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "anaerobic-cure",
+        "metal-pipe-threads",
+        "stainless-steel"
+      ],
+      "referenceCategory": "Thread sealants",
+      "referenceForJoining": "Metal pipe threads and fittings, including stainless steel",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester",
+        "cureFamily": "Anaerobic thread sealant",
+        "cureDetail": "Cures between close-fitting metal pipe threads; maximum pressure and solvent resistance after at least 24 h.",
+        "gapFill": 0.25,
+        "viscosityClass": "high",
+        "viscosityValue": "Brookfield RVT: spindle 6 at 2.5 rpm 100,000 cP; at 20 rpm 24,500 cP",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-577-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-577-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "M10 torque values are ISO 10964 fastener tests and not pipe-joint pressure ratings. Regional gas approvals apply only under their stated conditions.",
+        "TDS cold-strength testing at -75 \u00b0C is not a continuous service-temperature rating; no general service range is included here.",
+        "Not normally recommended for plastics; verify compatibility. Do not use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
       ],
       "extractionCandidates": []
     },

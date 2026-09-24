@@ -17341,58 +17341,6 @@ window.TDS_MANUAL_PRODUCTS = [
     ]
   },
   {
-    "id": "e6000-fabri-fuse",
-    "profile": "fabricAdhesive",
-    "maker": "E6000",
-    "name": "E6000 Fabri-Fuse",
-    "summary": "Flexible washable fabric adhesive for appliques, trims, ribbon, patches, and decorative attachments that need to stay soft after laundering.",
-    "cureFamily": "Fabric adhesive",
-    "cureDetail": "One-part flexible fabric adhesive; room-temperature dry/cure",
-    "serviceMin": -12,
-    "serviceMax": 66,
-    "potLife": 180,
-    "fixtureTime": 210,
-    "viscosityClass": "medium",
-    "clarity": "transparent",
-    "applicationTags": [
-      "wood-paper-fabric"
-    ],
-    "stress": {
-      "shear": 2.8,
-      "peel": 8.7,
-      "impact": 6.5
-    },
-    "substrates": {
-      "fabric": 10,
-      "leather": 7,
-      "paper": 7,
-      "wood": 7,
-      "steel": 5,
-      "aluminum": 5,
-      "glass": 6,
-      "ceramic": 6,
-      "rubber": 6,
-      "pvc": 5,
-      "abs": 4,
-      "acrylic": 4,
-      "polycarbonate": 4,
-      "petg": 4
-    },
-    "cautions": [
-      "Official Fabri-Fuse TDS does not publish lap-shear strength or thermal conductivity.",
-      "Substrate ratings are qualitative from the published application list; no numeric adhesion table is published.",
-      "Washable performance requires full cure; plan around roughly 72 hours before laundering.",
-      "Always test a small hidden area first, and expect cure to slow in cold conditions and speed up in heat."
-    ],
-    "referenceUrl": "https://eclecticproducts.com/downloads/tds-e6000-fabri-fuse-us-ca-eu-me-arabic.pdf",
-    "unpublishedFields": [
-      "lapShear",
-      "thermalConductivity",
-      "viscosityValue",
-      "viscosityUnit"
-    ]
-  },
-  {
     "id": "e6000-spray-adhesive",
     "profile": "sprayAdhesive",
     "maker": "E6000",
@@ -57130,6 +57078,251 @@ window.TDS_MANUAL_PRODUCTS = [
     "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
     "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
     "productSku": "21309"
+  },
+  {
+    "id": "amazing-goop-all-purpose",
+    "profile": "industrialClear",
+    "maker": "Eclectic Products",
+    "name": "Amazing GOOP All Purpose Adhesive",
+    "summary": "Flexible, waterproof contact adhesive and sealant for mixed-material household repair, with published substrate test results for peel, lap shear, and dolly pull.",
+    "sourceRevisionDate": "Eclectic Products AMAZING GOOP All Purpose Technical Data Sheet, Revision 3 (2025).",
+    "chemistry": "Rubber-based solvent adhesive; TDS lists toluene and petroleum distillates.",
+    "cureFamily": "Solvent-based flexible contact adhesive and sealant",
+    "cureDetail": "Allow about 2 minutes partial cure before mating surfaces. Set time is 45 minutes; thin films cure in 24 hours and thick films in 48–72 hours. Maximum strength may take 48–72 hours.",
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 180,
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMaxF": 90,
+    "viscosityValue": 100000,
+    "viscosityUnit": "cP (medium-viscosity version)",
+    "specificGravity": 0.89,
+    "solidsContentPct": 45,
+    "vocContentGPerL": 489,
+    "tackTimeRangeMinutes": [
+      2,
+      2
+    ],
+    "fullCureHours": 72,
+    "serviceTemperatureNote": "Fully cured intermittent service range -40 to 180°F per manufacturer TDS.",
+    "tensileStrengthPsi": 2000,
+    "elongationPct": 1100,
+    "hardnessValue": 80,
+    "hardnessScale": "Shore A",
+    "dielectricBreakdownVPerMil": 400,
+    "lapShearProfilesMPa": {
+      "metal": 1.45,
+      "wood": 1.38,
+      "copper": 1.03,
+      "polymerClay": 0.21,
+      "laminate": 0.48,
+      "plastics": 0.55,
+      "fiberglass": 0.69,
+      "pvc": 0.69
+    },
+    "lapShearSubstrate": "Typical ASTM D1002/D3163 lap-shear strengths converted from psi: metal 210 psi, wood 200 psi, copper 150 psi, polymer clay 30 psi, laminate 70 psi, plastics 80 psi, fiberglass 100 psi, PVC 100 psi.",
+    "lapShearTestMethod": "ASTM D1002/D3163 lap shear; typical values by TDS. The table prints PLI and PSI under substrate adhesive data; fabric, leather, vinyl, canvas, neoprene, rubber are ASTM D1876 T-peel in PLI; concrete, masonry, asphalt, glass use ASTM D1583 dolly pull in PSI.",
+    "tdsPeelStrengthProfilesPiw": {
+      "fabric": 30,
+      "leather": 30,
+      "vinyl": 30,
+      "canvas": 45,
+      "neoprene": 20,
+      "rubber": 10
+    },
+    "tdsPeelStrengthTestMethod": "ASTM D1876 T-peel; lb/in width (PLI), per TDS Revision 3.",
+    "waterproof": true,
+    "applicationTags": [
+      "general-repair",
+      "flexible-bond",
+      "waterproof",
+      "chemical-resistant",
+      "abrasion-resistant",
+      "shoe-repair"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 9,
+      "impact": 7
+    },
+    "environment": {
+      "humidity": 0.75,
+      "fuel": 0.4,
+      "immersion": 0.8
+    },
+    "substrates": {
+      "glass": 8,
+      "plastic": 8,
+      "metal": 8,
+      "leather": 8,
+      "vinyl": 8,
+      "rubber": 8,
+      "wood": 7,
+      "concrete": 7,
+      "fabric": 8,
+      "pvc": 8
+    },
+    "cautions": [
+      "Solvent-based and flammable; TDS lists toluene and petroleum distillates. Follow current label and SDS handling instructions.",
+      "Not recommended for polystyrene, polyethylene, polypropylene, Styrofoam, paper products, or items contacting food, drinking water, or animals.",
+      "Do not treat fabric T-peel, hard-substrate lap shear, and dolly-pull results as interchangeable strength tests.",
+      "TDS reports 2,000 psi tensile strength by ASTM D412; this is a cured elastomer material property, not a joint lap-shear value."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-AP-TDS-USA-CAN-MEX-AU-NZ_REV-3.pdf",
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-AP-TDS-USA-CAN-MEX-AU-NZ_REV-3.pdf",
+    "tdsDocumentLabel": "Eclectic Products AMAZING GOOP All Purpose Adhesive Technical Data Sheet, Revision 3.",
+    "productUrl": "https://eclecticproducts.com/product/amazing-goop-all-purpose/",
+    "fullCureProfiles": [
+      {
+        "thickness": "thin film",
+        "hours": 24
+      },
+      {
+        "thickness": "thick film",
+        "hours": [
+          48,
+          72
+        ]
+      }
+    ],
+    "fixtureTime": 45
+  },
+  {
+    "id": "e6000-fabri-fuse",
+    "profile": "fabricAdhesive",
+    "maker": "E6000",
+    "name": "E6000 Fabri-Fuse",
+    "summary": "Flexible washable fabric adhesive for appliques, trims, ribbon, patches, and decorative attachments that need to stay soft after laundering.",
+    "sourceRevisionDate": "Eclectic Products E6000 Fabri-Fuse Technical Data Sheet, Revision 10.",
+    "chemistry": "Water-dilutable fabric adhesive; TDS lists no solvent.",
+    "cureFamily": "One-part flexible fabric adhesive",
+    "cureDetail": "Dry flat for at least 8 hours at room temperature; washable after 72 hours. TDS lists 3-hour work/open time and 3.5–4-hour set/reposition time at 70°F.",
+    "serviceMin": -12,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": 10,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 40,
+    "applicationTemperatureMaxF": 90,
+    "viscosityValue": 31500,
+    "viscosityUnit": "cP (Spindle 6, 10 rpm, 77°F)",
+    "specificGravity": 1.0,
+    "appearance": "Cloudy white wet; clear when cured",
+    "waterResistant": true,
+    "paintable": true,
+    "shelfLifeMonths": 24,
+    "applicationTags": [
+      "fabric-adhesive",
+      "textile-bonding",
+      "flexible-bond",
+      "washable",
+      "craft"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 8,
+      "impact": 6
+    },
+    "environment": {
+      "humidity": 0.5,
+      "fuel": 0.05,
+      "immersion": 0.5
+    },
+    "substrates": {
+      "fabric": 10,
+      "felt": 9,
+      "yarn": 9,
+      "metal": 6,
+      "wood": 6,
+      "glass": 6,
+      "ceramic": 6,
+      "vinyl": 6,
+      "rubber": 6,
+      "foam": 5
+    },
+    "cautions": [
+      "TDS does not publish lap-shear strength or thermal conductivity; no joint-strength value is entered.",
+      "Washable after 72 hours; it can be sewn through once dry. Test a small area before full use.",
+      "Do not freeze; store above 40°F. The stated service range is 10–150°F.",
+      "The TDS warns that this product can expose users to styrene; follow product label and SDS handling guidance."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf",
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6000 Fabri-Fuse Technical Data Sheet, Revision 10.",
+    "productUrl": "https://eclecticproducts.com/product/e6000-fabri-fuse/",
+    "fixtureTime": 210,
+    "potLife": 180
+  },
+  {
+    "id": "permatex-5-minute-epoxy-10500",
+    "profile": "clearEpoxy",
+    "maker": "Permatex",
+    "name": "5 Minute Epoxy (Item 10500)",
+    "summary": "Rapid-curing, equal-volume two-part epoxy for rigid household and automotive repairs, with a published 1,200 psi shear-strength value.",
+    "sourceRevisionDate": "Permatex 5 Minute Epoxy Technical Data Sheet, revised February 2024.",
+    "chemistry": "Two-part epoxy resin adhesive",
+    "cureFamily": "Two-part fast-cure epoxy",
+    "cureDetail": "Mix 1:1 by volume. Working time 4–6 minutes, fixture 8–10 minutes, sets in about 5 minutes and may be handled in 15 minutes; cooler temperatures extend set time.",
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 176,
+    "fixtureTimeRangeMinutes": [
+      8,
+      10
+    ],
+    "potLifeRangeMinutes": [
+      4,
+      6
+    ],
+    "lapShear": 8.27,
+    "lapShearSubstrate": "Permatex TDS publishes typical shear strength of 1,200 psi (8.27 MPa) but does not identify the tested substrate or method in the listed typical properties.",
+    "lapShearTestMethod": "Manufacturer calls result ‘Shear Strength 1200 PSI’; specific ASTM method and test substrate not stated in the TDS.",
+    "mixRatio": "1:1 by volume",
+    "specificGravity": 1.16,
+    "viscosityValue": "10,000–20,000",
+    "viscosityUnit": "mPa·s at 25°C",
+    "hardnessValue": "75–83",
+    "hardnessScale": "Shore D after full cure",
+    "clarity": "transparent",
+    "appearance": "Clear to slightly yellow",
+    "waterResistant": true,
+    "gapFill": 1,
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "fast-setting",
+      "general-repair",
+      "metal-bonding",
+      "ceramic-bonding",
+      "wood-paper-fabric"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 2,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.45,
+      "fuel": 0.35,
+      "immersion": 0.6
+    },
+    "substrates": {
+      "metal": 8,
+      "ceramic": 8,
+      "pottery": 8,
+      "wood": 8,
+      "fabric": 6,
+      "tile": 8
+    },
+    "cautions": [
+      "TDS reports 1,200 psi shear strength without identifying a test method or substrate; do not compare this directly with substrate-specific ASTM lap-shear results.",
+      "Not recommended in pure oxygen or oxygen-rich systems, or as an adhesive for chlorine or other strong oxidizers.",
+      "Cured epoxy is rigid; not intended for joints needing high flexibility."
+    ],
+    "referenceUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+    "tdsDocumentLabel": "Permatex 5 Minute Epoxy Technical Data Sheet (revised 2024-02).",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/epoxies/permatex-5-minute-epoxy-10500-6ml/",
+    "productSku": "10500",
+    "fixtureTime": 9,
+    "potLife": 5
   }
 ];
 
@@ -61863,26 +62056,6 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "tempMaxC": 82,
     "offerCount": 1,
     "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
-    "sourceLabel": "TDS"
-  },
-  {
-    "id": "e6000-fabri-fuse",
-    "manufacturer": "E6000",
-    "familyName": "E6000 Fabri-Fuse",
-    "primaryCategory": "Fabric Adhesives",
-    "categories": [
-      "Fabric Adhesives"
-    ],
-    "sampleType": "Bottle",
-    "sampleConsistency": "Cloudy white wet adhesive curing clear; about 9,760 cP",
-    "sampleForJoining": "Fabric, felt, yarn, metal, wood, glass, ceramic, vinyl, rubber and trims",
-    "applicationTags": [
-      "wood-paper-fabric"
-    ],
-    "tempMinC": -12,
-    "tempMaxC": 66,
-    "offerCount": 1,
-    "sourceUrl": "https://eclecticproducts.com/downloads/tds-e6000-fabri-fuse-us-ca-eu-me-arabic.pdf",
     "sourceLabel": "TDS"
   },
   {
@@ -72630,12 +72803,87 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "amazing-goop-all-purpose",
+    "manufacturer": "Eclectic Products",
+    "familyName": "Amazing GOOP All Purpose Adhesive",
+    "primaryCategory": "Flexible Contact Adhesives and Sealants",
+    "categories": [
+      "Flexible Contact Adhesives and Sealants"
+    ],
+    "sampleType": "1.0 oz or 3.7 oz tube; clear",
+    "sampleConsistency": "Clear rubber-based adhesive; medium 100,000 cP; 45 wt% solids; 489 g/L VOC; 24–72 h cure.",
+    "sampleForJoining": "Mixed-material household repairs and sealing: glass, plastic, metal, leather, vinyl, rubber, wood, ceramic, masonry and listed substrates.",
+    "applicationTags": [
+      "general-repair",
+      "flexible-bond",
+      "waterproof",
+      "chemical-resistant",
+      "abrasion-resistant",
+      "shoe-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/AG-AP-TDS-USA-CAN-MEX-AU-NZ_REV-3.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "e6000-fabri-fuse",
+    "manufacturer": "E6000",
+    "familyName": "E6000 Fabri-Fuse",
+    "primaryCategory": "Fabric Adhesives",
+    "categories": [
+      "Fabric Adhesives"
+    ],
+    "sampleType": "2 fl oz hang bottle; 4 fl oz shelf or carded bottle",
+    "sampleConsistency": "Cloudy-white wet, clear-cured aqueous adhesive; 31,500 cP; no solvent listed.",
+    "sampleForJoining": "Fabric, felt, yarn, appliques, patches, trims, lace, ribbon and decorative accents; also listed metal, wood, glass, ceramic, vinyl and rubber.",
+    "applicationTags": [
+      "fabric-adhesive",
+      "textile-bonding",
+      "flexible-bond",
+      "washable",
+      "craft"
+    ],
+    "tempMinC": -12,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/06/E6-FF-TDS-USA-CAN-MEX-EU-ME-AU-NZ_Rev-10.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-5-minute-epoxy-10500",
+    "manufacturer": "Permatex",
+    "familyName": "5 Minute Epoxy (Item 10500)",
+    "primaryCategory": "Fast-Cure Epoxy Adhesives",
+    "categories": [
+      "Fast-Cure Epoxy Adhesives"
+    ],
+    "sampleType": "6 mL 1:1 dual syringe, carded",
+    "sampleConsistency": "Two-part clear to slightly yellow epoxy; 4–6 min working time; 8–10 min fixture; 1,200 psi stated shear strength.",
+    "sampleForJoining": "Rigid materials including metal, ceramic, pottery, wood, fabric, and tile.",
+    "applicationTags": [
+      "epoxy",
+      "two-part",
+      "fast-setting",
+      "general-repair",
+      "metal-bonding",
+      "ceramic-bonding",
+      "wood-paper-fabric"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 581,
-  "referenceFamilies": 581,
-  "tdsBackedProducts": 574,
+  "selectorProducts": 583,
+  "referenceFamilies": 583,
+  "tdsBackedProducts": 576,
   "otherOfficialTechnicalSources": 7
 };

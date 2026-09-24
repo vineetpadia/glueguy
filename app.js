@@ -234,6 +234,22 @@ const OBSERVED_TDS_FIELDS = [
   "dielectricBreakdownVPerMil",
   "dielectricBreakdownKVPerMm",
   "dielectricBreakdownRangeKVPerMm",
+  "lapShearSubstrate",
+  "lapShearProfilesMPa",
+  "lapShearTestMethod",
+  "tdsPeelStrengthProfilesPiw",
+  "tdsPeelStrengthTestMethod",
+  "fixtureTimeRangeMinutes",
+  "potLifeRangeMinutes",
+  "mixRatio",
+  "fullCureProfiles",
+  "appearance",
+  "waterResistant",
+  "paintable",
+  "solidsContentPct",
+  "specificGravity",
+  "vocContentGPerL",
+  "shelfLifeMonths",
   "vickersHardness",
   "coefficientThermalExpansionPerC",
   "curingSchedules",
@@ -2313,6 +2329,17 @@ const makeProduct = (id, profileName, overrides) => {
   if (overrides.potLife !== undefined) product.potLife = overrides.potLife;
   if (overrides.fixtureTime !== undefined) product.fixtureTime = overrides.fixtureTime;
   if (overrides.lapShear !== undefined) product.lapShear = overrides.lapShear;
+  [
+    "serviceTemperatureMinF", "serviceTemperatureMaxF",
+    "applicationTemperatureMinF", "applicationTemperatureMaxF",
+    "fixtureTimeRangeMinutes", "potLifeRangeMinutes", "mixRatio",
+    "lapShearSubstrate", "lapShearProfilesMPa", "lapShearTestMethod",
+    "tdsPeelStrengthProfilesPiw", "tdsPeelStrengthTestMethod",
+    "fullCureProfiles", "appearance", "waterResistant", "paintable",
+    "solidsContentPct", "specificGravity", "vocContentGPerL", "shelfLifeMonths",
+  ].forEach((field) => {
+    if (hasCatalogValue(overrides[field])) product[field] = overrides[field];
+  });
   if (overrides.chemistry) product.chemistry = overrides.chemistry;
   if (overrides.summary) product.summary = overrides.summary;
   if (overrides.cureFamily) product.cureFamily = overrides.cureFamily;
@@ -2342,6 +2369,22 @@ const makeProduct = (id, profileName, overrides) => {
   OBSERVED_TDS_FIELDS.forEach((field) => {
     if (hasCatalogValue(overrides[field])) {
       product[field] = overrides[field];
+    }
+  });
+  [
+    "lapShearSubstrate", "lapShearProfilesMPa", "lapShearTestMethod",
+    "tdsPeelStrengthProfilesPiw", "tdsPeelStrengthTestMethod",
+    "fixtureTimeRangeMinutes", "potLifeRangeMinutes", "mixRatio",
+    "fullCureProfiles", "appearance", "waterResistant", "paintable",
+    "serviceTemperatureMinF", "serviceTemperatureMaxF",
+    "applicationTemperatureMinF", "applicationTemperatureMaxF",
+    "solidsContentPct", "specificGravity", "vocContentGPerL", "shelfLifeMonths",
+  ].forEach((field) => {
+    if (hasCatalogValue(generated[field])) {
+      existing[field] = generated[field];
+      existing.profileDerivedFields = (existing.profileDerivedFields ?? []).filter(
+        (derivedField) => derivedField !== field,
+      );
     }
   });
   product.applicationTags = inferApplicationTagsForProduct(
@@ -6207,6 +6250,7 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Historical TDS gap-fill result", "tdsGapFillNote"],
   ["Historical TDS handling time (minutes)", "tdsHandlingTimeMinutes"],
   ["Historical TDS full cure (hours)", "tdsFullCureHours"],
+  ["Full cure by application thickness", "fullCureProfiles"],
   ["Historical TDS shelf life", "tdsShelfLife"],
   ["TDS document", "tdsDocumentLabel"],
   ["Technical document type", "technicalDocumentType"],
@@ -6246,6 +6290,8 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Open-time range (minutes)", "openTimeRangeMinutes"],
   ["Dry-time range (minutes)", "dryTimeRangeMinutes"],
   ["Tack-time range (minutes)", "tackTimeRangeMinutes"],
+  ["Fixture-time range (minutes)", "fixtureTimeRangeMinutes"],
+  ["Working-time range (minutes)", "potLifeRangeMinutes"],
   ["TDS repositioning time (minutes)", "repositionTimeRangeMinutes"],
   ["Clamp/support time (minutes)", "clampTimeRangeMinutes"],
   ["Application temperature minimum (°F)", "applicationTemperatureMinF"],

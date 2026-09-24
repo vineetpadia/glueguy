@@ -116,6 +116,19 @@ def build_selector_product(entry: dict) -> dict:
             "priceSourceUrl",
         }
     }
+    # The browser's compact selector allowlist must carry each curated TDS
+    # evidence field through to the product-detail view.
+    selector_fields = {
+        "serviceTemperatureMinF", "serviceTemperatureMaxF",
+        "applicationTemperatureMinF", "applicationTemperatureMaxF",
+        "fullCureProfiles", "fixtureTimeRangeMinutes", "potLifeRangeMinutes",
+        "mixRatio", "lapShearProfilesMPa", "lapShearTestMethod",
+        "tdsPeelStrengthProfilesPiw", "tdsPeelStrengthTestMethod",
+        "appearance", "waterResistant", "paintable",
+    }
+    for key in selector_fields:
+        if key in entry and entry[key] is not None:
+            product[key] = entry[key]
     if pricing is not None:
         product["pricing"] = pricing
     return product

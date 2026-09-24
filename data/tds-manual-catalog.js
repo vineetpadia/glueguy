@@ -62848,6 +62848,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "torqueBreakNm": 6,
     "torquePrevailNm": 4,
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 222 Technical Data Sheet, May 2022",
     "serviceMin": null,
     "serviceMax": null,
     "gapFill": null,
@@ -62941,6 +62943,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "torqueBreakNm": 22,
     "torquePrevailNm": 32,
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 262 Technical Data Sheet, February 2022",
     "serviceMin": null,
     "serviceMax": null,
     "gapFill": null,
@@ -63034,6 +63038,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "torqueBreakNm": 17,
     "torquePrevailNm": 23,
     "torqueBreakNote": "M10 steel breakaway torque after 24 h at 22 °C is published as a range of 17–40 N·m; scalar is the lower bound.",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 271 Technical Data Sheet, March 2012",
     "serviceMin": null,
     "serviceMax": null,
     "gapFill": null,
@@ -63130,6 +63136,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "torqueBreakNm": 10,
     "torquePrevailNm": 29,
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 290 Technical Data Sheet, February 2022",
     "serviceMin": null,
     "serviceMax": null,
     "gapFill": null,
@@ -63221,6 +63229,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 609 Technical Data Sheet, September 2014",
     "potLife": null
   },
   {
@@ -63300,6 +63310,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 620 Technical Data Sheet, April 2022",
     "potLife": null
   },
   {
@@ -63394,6 +63406,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 638 Technical Data Sheet, May 2024",
     "potLife": null
   },
   {
@@ -63489,6 +63503,371 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 648 Technical Data Sheet, May 2021",
+    "potLife": null
+  },
+  {
+    "id": "loctite-518",
+    "profile": "anaerobicGasketSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 518 Semi-Flexible Flange Sealant",
+    "summary": "Medium-strength, primerless, semi-flexible anaerobic form-in-place gasket for rigid metal flanges, including aluminum; seals gaps up to 0.25 mm.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 518, May 2021; supporting Henkel US product page accessed September 2026",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Anaerobic flange sealant",
+    "cureDetail": "Cures when confined between close-fitting metal surfaces; minor oil, cutting-fluid and cleaner residues may be tolerated. TDS lap-shear tests were on ISO 4587 coupons and sealing capability on annular flange test specimens.",
+    "serviceMin": -55,
+    "serviceMax": 150,
+    "gapFill": 0.25,
+    "fixtureTime": 25,
+    "viscosityClass": "very-high",
+    "viscosityValue": 4000000,
+    "viscosityUnit": "mPa·s Brookfield HBT spindle TC, 0.5 rpm, Helipath, at 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Red gel-like material",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": true,
+    "lapShear": 11,
+    "lapShearSubstrate": "ISO 4587 lap shear at 23 °C after 72 h: grit-blasted mild steel 11 MPa; mild steel 5.5 MPa; aluminum 5.8 MPa; Alclad 1.6 MPa; grit-blasted steel-to-aluminum 6.7 MPa.",
+    "lapShearProfilesMPa": {
+      "gritBlastedMildSteel72h23C": 11,
+      "mildSteel72h23C": 5.5,
+      "aluminum72h23C": 5.8,
+      "alcladAluminum72h23C": 1.6,
+      "gritBlastedSteelToAluminum72h23C": 6.7,
+      "gritBlastedMildSteel24h23C": 8.4,
+      "mildSteel24h23C": 5.5,
+      "aluminum24h23C": 5.4,
+      "alcladAluminum24h23C": 2.2
+    },
+    "compressiveStrengthMPa": 5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After1h23C": 5,
+      "steelPinsAndCollarsIso10123After24h23C": 5
+    },
+    "sealingCapabilityTest": "After 20 h cure, annular gasket (50 mm ID / 70 mm OD) tested for leakage by 1 min water immersion; reported sealed induced gap 0.25 mm for mild steel and aluminum, up to 1.3 MPa test pressure.",
+    "instantSealPressureMPaByInducedGap": {
+      "0.05mm": 1.35,
+      "0.125mm": 0.14,
+      "0.25mm": 0.1
+    },
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "aluminum-bonding",
+      "oil-tolerant"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 3,
+      "impact": 3
+    },
+    "environment": {
+      "humidity": 0.7,
+      "fuel": 0.7,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 9,
+      "castIron": 9,
+      "metal": 9,
+      "rigidFlanges": 10
+    },
+    "cautions": [
+      "Temperature range is from Henkel product technical specifications; TDS itself publishes hot/cold-strength curves rather than a general continuous service rating.",
+      "Immediate low-pressure sealing data are test-specific and not a pressure rating for arbitrary assemblies.",
+      "Lap-shear figures depend on substrate and cure; do not treat the grit-blasted steel value as universal.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical data are typical values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-518-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-518/BP000000153476.html"
+    ],
+    "standards": [
+      "ISO 4587",
+      "ISO 10123",
+      "ISO 527-2",
+      "ISO 6922",
+      "ISO 11359-2"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-518-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 518 Technical Data Sheet, May 2021",
+    "potLife": null
+  },
+  {
+    "id": "loctite-515",
+    "profile": "anaerobicGasketSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 515 Flange Sealant",
+    "summary": "Purple, one-part anaerobic flange sealant that flexes with minor flange movement; fills close-fitting machined rigid-metal flange gaps up to 0.25 mm.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 515, August 2016; supporting Henkel US product page accessed September 2026",
+    "chemistry": "One-part methacrylate ester acrylic",
+    "cureFamily": "Anaerobic flange sealant",
+    "cureDetail": "Cures when confined between close-fitting metal surfaces. Designed for form-in-place gaskets on pumps, thermostats, compressors, transmission housings and axle covers; TDS explicitly says environmental strength aging is not a measure of sealing performance.",
+    "gapFill": 0.25,
+    "fixtureTime": 30,
+    "viscosityClass": "very-high",
+    "viscosityValue": "Brookfield HBT, Helipath at 25 °C: 700,000–1,700,000 mPa·s (spindle TB at 0.5 rpm); 150,000–375,000 mPa·s (spindle TB at 5 rpm).",
+    "viscosityUnit": "mPa·s (cP) at 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Opaque dark purple",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thermalConductivity": 0.1,
+    "lapShear": 6,
+    "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel: 6.0 MPa after 24 h at 22 °C; ≥6.9 MPa after 24 h at 90 °C, tested at 22 °C.",
+    "lapShearProfilesMPa": {
+      "gritBlastedSteelAfter24h22C": 6,
+      "gritBlastedSteelAfter24h90CThenTest22C": 6.9
+    },
+    "compressiveStrengthMPa": 5,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After1h22CMinimum": 5,
+      "steelPinsAndCollarsIso10123After24h22CMinimum": 5
+    },
+    "tensileStrengthMPa": 14,
+    "tensileStrengthSubstrate": "ISO 6922, grit-blasted steel after 24 h at 22 °C",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "flexible-flange-joints"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 4,
+      "impact": 3
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.55,
+      "immersion": 0.6
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "metal": 9,
+      "rigidFlanges": 10
+    },
+    "cautions": [
+      "TDS is an August 2016 revision; verify the current regional document before specification.",
+      "Cold strength tested to -75 °C is not a continuous service-temperature rating; no general service range is included here.",
+      "TDS says environmental aging tests measure joint strength, not sealing capability.",
+      "TDS lists regional gas approvals; confirm local applicability.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical data are typical values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-515-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-515/BP000000153466.html"
+    ],
+    "standards": [
+      "ISO 4587",
+      "ISO 10123",
+      "ISO 6922",
+      "ISO 8302",
+      "ISO 11359-2",
+      "UL MH8007 (regional)",
+      "AGA certificate 2590 (regional)"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "potLife"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-515-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 515 Technical Data Sheet, August 2016",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null
+  },
+  {
+    "id": "loctite-510",
+    "profile": "anaerobicGasketSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 510 High-Temperature Flange Sealant",
+    "summary": "Pink, high-viscosity anaerobic FIP gasket for close-fitting rigid metal flanges; withstands high temperatures and seals gaps up to 0.25 mm.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 510, June 2022; supporting Henkel US product page accessed September 2026",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Anaerobic flange sealant",
+    "cureDetail": "Cures when confined between close-fitting metal surfaces. Used for rigid machined flanges, especially transmission and motor casings. TDS reports compressive shear ≥7.5 MPa after 24 h at 22 °C and grit-blasted-steel lap shear 5 MPa.",
+    "serviceMin": -55,
+    "serviceMax": 200,
+    "serviceTemperatureSource": "Henkel US product specification states operating range -55 to 200 °C; TDS also lists an Australian Gas Association Class II approval with working temperature -10 to 200 °C.",
+    "gapFill": 0.25,
+    "fixtureTime": 25,
+    "viscosityClass": "high",
+    "viscosityValue": "Brookfield HBT, Helipath, 25 °C: 40,000–140,000 mPa·s at spindle TC / 20 rpm; 200,000–750,000 mPa·s at spindle TC / 2.5 rpm.",
+    "viscosityUnit": "mPa·s (cP)",
+    "specificGravity": 1.1,
+    "appearance": "Opaque pink paste",
+    "clarity": "opaque",
+    "thermalConductivity": 0.1,
+    "lapShear": 5,
+    "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel, 5 MPa after 24 h at 22 °C; TDS also reports compressive shear ≥7.5 MPa on degreased steel pins/collars.",
+    "compressiveStrengthMPa": 7.5,
+    "shearStrengthsMPa": {
+      "degreasedSteelPinsAndCollarsIso10123After1h22CMinimum": 1,
+      "degreasedSteelPinsAndCollarsIso10123After24h22CMinimum": 7.5,
+      "gritBlastedSteelLapShearIso4587After24h22C": 5
+    },
+    "tensileStrengthMPa": 7.5,
+    "tensileStrengthSubstrate": "ISO 6922, grit-blasted steel after 24 h at 22 °C",
+    "sealingCapabilityTest": "Annular gasket (50 mm ID / 70 mm OD) tested for leakage; maximum induced gap listed as ≤0.125 mm on mild steel and aluminum 2011-T3.",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "high-temperature",
+      "chemical-resistant"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.8,
+      "immersion": 0.75
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "metal": 9,
+      "rigidFlanges": 10
+    },
+    "cautions": [
+      "Operating-temperature range comes from Henkel product page; the TDS AGA working-temperature approval is regional (-10 to 200 °C).",
+      "TDS leak-test gap and pressure data are specific to its annular test joint, not a universal pressure rating.",
+      "TDS includes strength and chemical-aging results; these do not by themselves establish service life for a specific flange.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical data are typical values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-510-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-510/BP000000153499.html"
+    ],
+    "standards": [
+      "ISO 4587",
+      "ISO 10123",
+      "ISO 6922",
+      "ISO 8302",
+      "ISO 11359-2",
+      "NSF P1 (regional)",
+      "Australian Gas Association certificate 2590 (regional)"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-510-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 510 Technical Data Sheet, June 2022",
+    "potLife": null
+  },
+  {
+    "id": "loctite-574",
+    "profile": "anaerobicGasketSealant",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 574 Flange Sealant",
+    "summary": "Orange, thixotropic anaerobic form-in-place gasket for close-fitting rigid metal faces and flanges; ISO 4587 grit-blasted-steel lap shear 8.5 MPa.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 574, June 2022; supporting Henkel US product page accessed September 2026",
+    "chemistry": "One-part dimethacrylate ester acrylic",
+    "cureFamily": "Anaerobic flange sealant",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces; forms an immediate low-pressure seal after flange assembly. Typical gasket use includes gearbox and engine casings.",
+    "gapFill": 0.25,
+    "fixtureTimeRangeMinutes": [
+      15,
+      45
+    ],
+    "viscosityClass": "high",
+    "viscosityValue": "Brookfield RVT at 25 °C: 23,000–35,000 mPa·s at spindle 6 / 20 rpm; 70,000–120,000 mPa·s at spindle 6 / 2.5 rpm.",
+    "viscosityUnit": "mPa·s (cP)",
+    "specificGravity": 1.1,
+    "appearance": "Orange paste",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": true,
+    "thermalConductivity": 0.1,
+    "lapShear": 8.5,
+    "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel, 8.5 MPa after 24 h at 22 °C. TDS also reports compressive shear ≥6 MPa on steel pins and collars and tensile strength 5 MPa on grit-blasted steel.",
+    "compressiveStrengthMPa": 6,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123MinimumAfter24h22C": 6,
+      "gritBlastedSteelLapShearIso4587After24h22C": 8.5
+    },
+    "tensileStrengthMPa": 5,
+    "tensileStrengthSubstrate": "ISO 6922, grit-blasted steel, 24 h at 22 °C",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "oil-resistant",
+      "water-glycol-resistant"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.7,
+      "immersion": 0.8
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "castIron": 9,
+      "metal": 9,
+      "rigidFlanges": 10
+    },
+    "cautions": [
+      "No general continuous service-temperature range is published on the linked TDS/product page; hot-strength testing is not a service rating.",
+      "TDS environmental aging tests measure strength changes and are not a measure of sealing performance.",
+      "TDS is a June 2022 revision; confirm local product approvals before specification.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "Technical data are typical values, not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-574/BP000000153497.html"
+    ],
+    "standards": [
+      "ISO 4587",
+      "ISO 10123",
+      "ISO 6922",
+      "ISO 8302",
+      "ISO 11359-2"
+    ],
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "potLife"
+    ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 574 Technical Data Sheet, June 2022",
+    "serviceMin": null,
+    "serviceMax": null,
     "potLife": null
   }
 ];
@@ -80536,12 +80915,115 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-518",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 518 Semi-Flexible Flange Sealant",
+    "primaryCategory": "Gasketing sealants",
+    "categories": [
+      "Gasketing sealants"
+    ],
+    "sampleType": "Tube or cartridge",
+    "sampleConsistency": "Red, thixotropic, very-high-viscosity one-part anaerobic gel; TDS HBT Helipath viscosity is 4,000,000 mPa·s at spindle TC, 0.5 rpm.",
+    "sampleForJoining": "Rigid metal flange gaskets on pumps, thermostats, compressors, transmissions, gearboxes, engine casings and axle covers.",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "aluminum-bonding",
+      "oil-tolerant"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 150,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-518-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-515",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 515 Flange Sealant",
+    "primaryCategory": "Gasketing sealants",
+    "categories": [
+      "Gasketing sealants"
+    ],
+    "sampleType": "Tube or cartridge",
+    "sampleConsistency": "Opaque purple, high-viscosity, thixotropic one-part anaerobic sealant; 150,000–375,000 mPa·s Brookfield HBT at 5 rpm, Helipath, 25 °C.",
+    "sampleForJoining": "Form-in-place seals on rigid metal flanges in pumps, compressors, thermostats, transmissions and axle covers; accommodates minor flange movement.",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "flexible-flange-joints"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-515-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-510",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 510 High-Temperature Flange Sealant",
+    "primaryCategory": "Gasketing sealants",
+    "categories": [
+      "Gasketing sealants"
+    ],
+    "sampleType": "Tube or cartridge",
+    "sampleConsistency": "Opaque pink, high-viscosity, one-part anaerobic paste; 40,000–140,000 mPa·s HBT Helipath at 20 rpm, 25 °C.",
+    "sampleForJoining": "High-temperature form-in-place gasket for rigid metal flanges including transmissions and motor casings.",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "high-temperature",
+      "chemical-resistant"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 200,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-510-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-574",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 574 Flange Sealant",
+    "primaryCategory": "Gasketing sealants",
+    "categories": [
+      "Gasketing sealants"
+    ],
+    "sampleType": "Tube or cartridge",
+    "sampleConsistency": "Orange, high-viscosity thixotropic one-part anaerobic paste; 23,000–35,000 mPa·s Brookfield at 20 rpm, 25 °C.",
+    "sampleForJoining": "Form-in-place seals on rigid machined-metal joints including gearbox and engine casings, pumps and housings.",
+    "applicationTags": [
+      "sealing-gasketing",
+      "flange-sealing",
+      "form-in-place-gasket",
+      "anaerobic-cure",
+      "rigid-metal-flanges",
+      "oil-resistant",
+      "water-glycol-resistant"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 648,
-  "referenceFamilies": 648,
-  "tdsBackedProducts": 641,
+  "selectorProducts": 652,
+  "referenceFamilies": 652,
+  "tdsBackedProducts": 645,
   "otherOfficialTechnicalSources": 7
 };

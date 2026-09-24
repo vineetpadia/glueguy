@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:31:08.178068+00:00",
+  "generatedAt": "2026-09-24T03:40:15.029070+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1716,
-    "manualTdsProducts": 641,
+    "products": 1720,
+    "manualTdsProducts": 645,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 640,
@@ -730,6 +730,10 @@
         "loctite-454",
         "loctite-480",
         "loctite-495",
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574",
         "loctite-609",
         "loctite-620",
         "loctite-638",
@@ -2157,6 +2161,9 @@
       "alumina": [
         "threebond-tb3732"
       ],
+      "aluminum-bonding": [
+        "loctite-518"
+      ],
       "aluminum-wheel": [
         "threebond-tb6630"
       ],
@@ -2175,6 +2182,10 @@
         "threebond-tb3062u"
       ],
       "anaerobic-cure": [
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574",
         "loctite-609",
         "loctite-620",
         "loctite-638",
@@ -2408,6 +2419,7 @@
         "amazing-goop-all-purpose",
         "bsi-quik-cure-5-minute-epoxy",
         "itw-devcon-hp250",
+        "loctite-510",
         "mg-chemicals-9510",
         "threebond-tb1152c",
         "threebond-tb1153c",
@@ -3559,6 +3571,10 @@
         "threebond-tb2272f"
       ],
       "flange-sealing": [
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574",
         "permabond-a136",
         "permabond-hh120",
         "permabond-hh190",
@@ -3633,6 +3649,9 @@
       "flexible-film": [
         "threebond-tb3027g"
       ],
+      "flexible-flange-joints": [
+        "loctite-515"
+      ],
       "flexible-potting": [
         "3m-scotchcast-2131-flame-retardant-resin"
       ],
@@ -3651,6 +3670,12 @@
       "food-contact": [
         "permabond-et5162",
         "permabond-et5164"
+      ],
+      "form-in-place-gasket": [
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574"
       ],
       "formed-in-place-gasket": [
         "gc-electronics-10-150"
@@ -3965,6 +3990,7 @@
         "itw-devcon-hp250",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "loctite-510",
         "loctite-620",
         "loctite-638",
         "loctite-648",
@@ -5201,6 +5227,7 @@
       "oil-resistant": [
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "loctite-574",
         "threebond-1211",
         "threebond-tb1102",
         "threebond-tb1110f",
@@ -5217,6 +5244,7 @@
       ],
       "oil-tolerant": [
         "loctite-243",
+        "loctite-518",
         "loctite-638",
         "loctite-648",
         "permabond-hm129"
@@ -6071,6 +6099,12 @@
       "rf-gluing": [
         "titebond-ii-premium"
       ],
+      "rigid-metal-flanges": [
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574"
+      ],
       "rigid-pvc": [
         "weldon-4007"
       ],
@@ -6277,6 +6311,10 @@
         "limitless-shielding-ca-sc-310",
         "limitless-shielding-ca-sc-55",
         "liquid-nails-ln150",
+        "loctite-510",
+        "loctite-515",
+        "loctite-518",
+        "loctite-574",
         "loctite-si595",
         "masterbond-mastersil-151",
         "mc-3m_hybrid_polymer_2084",
@@ -7496,6 +7534,9 @@
       "water-dilutable": [
         "threebond-tb1141g"
       ],
+      "water-glycol-resistant": [
+        "loctite-574"
+      ],
       "water-resistant": [
         "3m-neoprene-rubber-gasket-adhesive-1300-1300l",
         "bsi-ic-gel",
@@ -7757,7 +7798,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 640,
-      "official-tds-url": 368,
+      "official-tds-url": 372,
       "product-or-catalog-page": 191
     }
   },
@@ -61241,7 +61282,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -61343,7 +61384,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -61444,7 +61485,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -61551,7 +61592,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62267,6 +62308,459 @@
       "extractionCandidates": []
     },
     {
+      "id": "loctite-510",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 510 High-Temperature Flange Sealant",
+      "profile": "anaerobicGasketSealant",
+      "summary": "Pink, high-viscosity anaerobic FIP gasket for close-fitting rigid metal flanges; withstands high temperatures and seals gaps up to 0.25 mm.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "flange-sealing",
+        "form-in-place-gasket",
+        "anaerobic-cure",
+        "rigid-metal-flanges",
+        "high-temperature",
+        "chemical-resistant"
+      ],
+      "referenceCategory": "Gasketing sealants",
+      "referenceForJoining": "High-temperature form-in-place gasket for rigid metal flanges including transmissions and motor casings.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Anaerobic flange sealant",
+        "cureDetail": "Cures when confined between close-fitting metal surfaces. Used for rigid machined flanges, especially transmission and motor casings. TDS reports compressive shear \u22657.5 MPa after 24 h at 22 \u00b0C and grit-blasted-steel lap shear 5 MPa.",
+        "serviceMin": -55,
+        "serviceMax": 200,
+        "gapFill": 0.25,
+        "fixtureTime": 25,
+        "lapShear": 5,
+        "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel, 5 MPa after 24 h at 22 \u00b0C; TDS also reports compressive shear \u22657.5 MPa on degreased steel pins/collars.",
+        "viscosityClass": "high",
+        "viscosityValue": "Brookfield HBT, Helipath, 25 \u00b0C: 40,000\u2013140,000 mPa\u00b7s at spindle TC / 20 rpm; 200,000\u2013750,000 mPa\u00b7s at spindle TC / 2.5 rpm.",
+        "viscosityUnit": "mPa\u00b7s (cP)",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 7.5,
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 5,
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 7.5
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-510-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-510-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Operating-temperature range comes from Henkel product page; the TDS AGA working-temperature approval is regional (-10 to 200 \u00b0C).",
+        "TDS leak-test gap and pressure data are specific to its annular test joint, not a universal pressure rating.",
+        "TDS includes strength and chemical-aging results; these do not by themselves establish service life for a specific flange."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-515",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 515 Flange Sealant",
+      "profile": "anaerobicGasketSealant",
+      "summary": "Purple, one-part anaerobic flange sealant that flexes with minor flange movement; fills close-fitting machined rigid-metal flange gaps up to 0.25 mm.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "flange-sealing",
+        "form-in-place-gasket",
+        "anaerobic-cure",
+        "rigid-metal-flanges",
+        "flexible-flange-joints"
+      ],
+      "referenceCategory": "Gasketing sealants",
+      "referenceForJoining": "Form-in-place seals on rigid metal flanges in pumps, compressors, thermostats, transmissions and axle covers; accommodates minor flange movement.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester acrylic",
+        "cureFamily": "Anaerobic flange sealant",
+        "cureDetail": "Cures when confined between close-fitting metal surfaces. Designed for form-in-place gaskets on pumps, thermostats, compressors, transmission housings and axle covers; TDS explicitly says environmental strength aging is not a measure of sealing performance.",
+        "gapFill": 0.25,
+        "fixtureTime": 30,
+        "lapShear": 6,
+        "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel: 6.0 MPa after 24 h at 22 \u00b0C; \u22656.9 MPa after 24 h at 90 \u00b0C, tested at 22 \u00b0C.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteelAfter24h22C": 6,
+          "gritBlastedSteelAfter24h90CThenTest22C": 6.9
+        },
+        "viscosityClass": "very-high",
+        "viscosityValue": "Brookfield HBT, Helipath at 25 \u00b0C: 700,000\u20131,700,000 mPa\u00b7s (spindle TB at 0.5 rpm); 150,000\u2013375,000 mPa\u00b7s (spindle TB at 5 rpm).",
+        "viscosityUnit": "mPa\u00b7s (cP) at 25 \u00b0C",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 14,
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 6,
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 14
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-515-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-515-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS is an August 2016 revision; verify the current regional document before specification.",
+        "Cold strength tested to -75 \u00b0C is not a continuous service-temperature rating; no general service range is included here.",
+        "TDS says environmental aging tests measure joint strength, not sealing capability."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-518",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 518 Semi-Flexible Flange Sealant",
+      "profile": "anaerobicGasketSealant",
+      "summary": "Medium-strength, primerless, semi-flexible anaerobic form-in-place gasket for rigid metal flanges, including aluminum; seals gaps up to 0.25 mm.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "flange-sealing",
+        "form-in-place-gasket",
+        "anaerobic-cure",
+        "rigid-metal-flanges",
+        "aluminum-bonding",
+        "oil-tolerant"
+      ],
+      "referenceCategory": "Gasketing sealants",
+      "referenceForJoining": "Rigid metal flange gaskets on pumps, thermostats, compressors, transmissions, gearboxes, engine casings and axle covers.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Anaerobic flange sealant",
+        "cureDetail": "Cures when confined between close-fitting metal surfaces; minor oil, cutting-fluid and cleaner residues may be tolerated. TDS lap-shear tests were on ISO 4587 coupons and sealing capability on annular flange test specimens.",
+        "serviceMin": -55,
+        "serviceMax": 150,
+        "gapFill": 0.25,
+        "fixtureTime": 25,
+        "lapShear": 11,
+        "lapShearSubstrate": "ISO 4587 lap shear at 23 \u00b0C after 72 h: grit-blasted mild steel 11 MPa; mild steel 5.5 MPa; aluminum 5.8 MPa; Alclad 1.6 MPa; grit-blasted steel-to-aluminum 6.7 MPa.",
+        "lapShearProfilesMPa": {
+          "gritBlastedMildSteel72h23C": 11,
+          "mildSteel72h23C": 5.5,
+          "aluminum72h23C": 5.8,
+          "alcladAluminum72h23C": 1.6,
+          "gritBlastedSteelToAluminum72h23C": 6.7,
+          "gritBlastedMildSteel24h23C": 8.4,
+          "mildSteel24h23C": 5.5,
+          "aluminum24h23C": 5.4,
+          "alcladAluminum24h23C": 2.2
+        },
+        "viscosityClass": "very-high",
+        "viscosityValue": 4000000,
+        "viscosityUnit": "mPa\u00b7s Brookfield HBT spindle TC, 0.5 rpm, Helipath, at 25 \u00b0C",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 11
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-518-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-518-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: thermalConductivity",
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Temperature range is from Henkel product technical specifications; TDS itself publishes hot/cold-strength curves rather than a general continuous service rating.",
+        "Immediate low-pressure sealing data are test-specific and not a pressure rating for arbitrary assemblies.",
+        "Lap-shear figures depend on substrate and cure; do not treat the grit-blasted steel value as universal."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-574",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 574 Flange Sealant",
+      "profile": "anaerobicGasketSealant",
+      "summary": "Orange, thixotropic anaerobic form-in-place gasket for close-fitting rigid metal faces and flanges; ISO 4587 grit-blasted-steel lap shear 8.5 MPa.",
+      "applicationTags": [
+        "sealing-gasketing",
+        "flange-sealing",
+        "form-in-place-gasket",
+        "anaerobic-cure",
+        "rigid-metal-flanges",
+        "oil-resistant",
+        "water-glycol-resistant"
+      ],
+      "referenceCategory": "Gasketing sealants",
+      "referenceForJoining": "Form-in-place seals on rigid machined-metal joints including gearbox and engine casings, pumps and housings.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part dimethacrylate ester acrylic",
+        "cureFamily": "Anaerobic flange sealant",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces; forms an immediate low-pressure seal after flange assembly. Typical gasket use includes gearbox and engine casings.",
+        "gapFill": 0.25,
+        "lapShear": 8.5,
+        "lapShearSubstrate": "ISO 4587 lap shear, grit-blasted steel, 8.5 MPa after 24 h at 22 \u00b0C. TDS also reports compressive shear \u22656 MPa on steel pins and collars and tensile strength 5 MPa on grit-blasted steel.",
+        "viscosityClass": "high",
+        "viscosityValue": "Brookfield RVT at 25 \u00b0C: 23,000\u201335,000 mPa\u00b7s at spindle 6 / 20 rpm; 70,000\u2013120,000 mPa\u00b7s at spindle 6 / 2.5 rpm.",
+        "viscosityUnit": "mPa\u00b7s (cP)",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 5,
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 8.5,
+        "thermalConductivity": 0.1,
+        "tensileStrengthMPa": 5
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-574-en_GL.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "tensileStrengthMPa"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "No general continuous service-temperature range is published on the linked TDS/product page; hot-strength testing is not a service rating.",
+        "TDS environmental aging tests measure strength changes and are not a measure of sealing performance.",
+        "TDS is a June 2022 revision; confirm local product approvals before specification."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "loctite-609",
       "source": "manual-tds",
       "maker": "Henkel Loctite",
@@ -62309,7 +62803,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62417,7 +62911,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62525,7 +63019,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62636,7 +63130,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,

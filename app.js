@@ -99,6 +99,7 @@ const PROFILE_APPLICATION_TAGS = {
   msPolymerSealant: ["sealing-gasketing"],
   anaerobicThreadlocker: ["threadlocking"],
   anaerobicRetainer: ["retaining"],
+  anaerobicGasketSealant: ["sealing-gasketing"],
   foamTape: ["structural-bonding"],
   contactCement: ["contact-lamination"],
   pvaWood: ["wood-paper-fabric"],
@@ -1535,6 +1536,27 @@ const PROFILE_LIBRARY = {
     summary:
       "Made for cylindrical metal fits such as bearings, shafts, bushings, and sleeves.",
     cautions: ["Works only in tight clearances and only on metal assemblies."],
+  },
+  anaerobicGasketSealant: {
+    chemistry: "Anaerobic flange sealant",
+    cureFamily: "Anaerobic",
+    cureDetail: "Anaerobic cure between close-fitting rigid metal flanges",
+    serviceMin: null,
+    serviceMax: null,
+    viscosityClass: "high",
+    thixotropic: true,
+    gapFill: 0.25,
+    thermalConductivity: 0.1,
+    clarity: "opaque",
+    potLife: null,
+    fixtureTime: null,
+    lapShear: 7,
+    stress: buildStress({ shear: 5, peel: 2, impact: 2 }),
+    environment: buildEnvironment({ humidity: 0.7, fuel: 0.7, immersion: 0.72 }),
+    substrates: buildRatings({ aluminum: 8, steel: 9, castIron: 9, metal: 9 }, 0),
+    summary:
+      "One-part anaerobic sealants for rigid machined metal flanges, form-in-place gaskets, gearboxes, pumps, engines, and transmission housings.",
+    cautions: ["Not intended for flexible joints or as a general-purpose adhesive; confirm flange fit, cure, and sealing performance in the actual assembly."],
   },
   foamTape: {
     chemistry: "Acrylic foam tape",
@@ -7220,7 +7242,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-titebond-wood-line");
+    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-loctite-flange-sealants");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

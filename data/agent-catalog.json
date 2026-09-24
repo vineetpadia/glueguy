@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:48:39.545165+00:00",
+  "generatedAt": "2026-09-24T04:55:56.392577+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -149212,7 +149212,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/shinetsu-ke3411.txt",
@@ -149460,7 +149460,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/shinetsu-ke8100.txt",
@@ -149583,7 +149583,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/shinetsu-x32-2020.txt",

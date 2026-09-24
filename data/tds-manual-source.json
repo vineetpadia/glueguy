@@ -1747,7 +1747,10 @@
       "referenceCategory": "High-Strength Silicone Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Gray heat-cure RTV paste; 120 Pa.s at 23 C; density 1.31 g/cm3 after cure; 77 Durometer A; 7.1 MPa tensile strength",
-      "referenceForJoining": "Electronics sealing, automotive parts, PBT/PPS housings, aluminum assemblies"
+      "referenceForJoining": "Electronics sealing, automotive parts, PBT/PPS housings, aluminum assemblies",
+      "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
+      "tdsDocumentLabel": "Shin-Etsu KE-8100 official technical product data page",
+      "supportingReferenceUrls": ["https://www.shinetsusilicone-global.com/catalog/pdf/HighlyFunctionalSilicone_E.pdf"]
     },
     {
       "id": "wacker-semicosil-9720tc",
@@ -6457,7 +6460,10 @@
       "referenceCategory": "Automotive and Electronics Silicone Materials",
       "referenceSampleType": "One-part adhesive",
       "referenceSampleConsistency": "Gray high-viscosity addition-cure thermal interface adhesive; 100 Pa.s viscosity; 2.83 g/cm3 density; Shore A 78 after 120 C x 1 h cure",
-      "referenceForJoining": "Automotive electronic components, ECU thermal paths, transistors and ICs on circuit boards, heat-managed housings and electrically insulating thermal-interface bonds"
+      "referenceForJoining": "Automotive electronic components, ECU thermal paths, transistors and ICs on circuit boards, heat-managed housings and electrically insulating thermal-interface bonds",
+      "supportingReferenceUrls": ["https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf"],
+      "tdsUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
+      "tdsDocumentLabel": "Shin-Etsu Silicone Materials for Automobiles catalog, Table 4 thermal interface adhesives (includes X-32-2020)"
     },
     {
       "id": "shinetsu-ke45",
@@ -6698,7 +6704,9 @@
       "referenceCategory": "High-Thermal-Stable RTV Silicone Adhesives",
       "referenceSampleType": "One-part adhesive",
       "referenceSampleConsistency": "Black one-part condensation RTV silicone; 30 Pa.s; acetone by-product; 40 min tack-free; 36 Durometer A after heat exposure",
-      "referenceForJoining": "High-temperature electronics and industrial sealing/bonding"
+      "referenceForJoining": "High-temperature electronics and industrial sealing/bonding",
+      "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml",
+      "tdsDocumentLabel": "Shin-Etsu KE-3410/KE-3411 official technical product data page"
     },
     {
       "id": "permabond-101",

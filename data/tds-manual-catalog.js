@@ -1694,7 +1694,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shin-Etsu states the table values are not specified values.",
       "The official product notice does not publish service-temperature range, pot life, peel strength, elongation, dielectric breakdown, volume resistivity, thermal conductivity, shelf life or storage temperature."
     ],
-    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml"
+    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
+    "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
+    "tdsDocumentLabel": "Shin-Etsu KE-8100 official technical product data page",
+    "supportingReferenceUrls": [
+      "https://www.shinetsusilicone-global.com/catalog/pdf/HighlyFunctionalSilicone_E.pdf"
+    ]
   },
   {
     "id": "wacker-semicosil-9720tc",
@@ -6243,7 +6248,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf"
+    "referenceUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
+    "supportingReferenceUrls": [
+      "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf"
+    ],
+    "tdsUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
+    "tdsDocumentLabel": "Shin-Etsu Silicone Materials for Automobiles catalog, Table 4 thermal interface adhesives (includes X-32-2020)"
   },
   {
     "id": "shinetsu-ke45",
@@ -6476,7 +6486,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shin-Etsu states the table values are not specified values.",
       "The official product notice does not publish density, service minimum, dielectric data, thermal conductivity, shelf life or storage temperature."
     ],
-    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml"
+    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml",
+    "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/156/index2.shtml",
+    "tdsDocumentLabel": "Shin-Etsu KE-3410/KE-3411 official technical product data page"
   },
   {
     "id": "permabond-101",

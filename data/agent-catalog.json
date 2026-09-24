@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:58:16.579696+00:00",
+  "generatedAt": "2026-09-24T05:04:12.806473+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -42830,7 +42830,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-748-non-corrosive-sealant.02184346z.html",
-        "tdsUrl": null,
+        "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_748_tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dow-dowsil-748.txt",
@@ -43241,7 +43241,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-ea-9187l-uv-conformal-coating.04064436z.html",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.e-aircraftsupply.com/MSDS/75/11-3909-01-dowsil-ea-9187l-uv-si-conform-co.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dow-ea-9187l.txt",

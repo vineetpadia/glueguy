@@ -3273,6 +3273,8 @@
       "supportingReferenceUrls": [
         "https://www.e-aircraftsupply.com/MSDS/75/11-3909-01-dowsil-ea-9187l-uv-si-conform-co.pdf"
       ],
+      "tdsUrl": "https://www.e-aircraftsupply.com/MSDS/75/11-3909-01-dowsil-ea-9187l-uv-si-conform-co.pdf",
+      "tdsDocumentLabel": "Dow DOWSIL EA-9187L UV Silicone Conformal Coating Technical Data Sheet, Form 11-3909-01 (2018)",
       "referenceCategory": "Electronics Conformal Coatings",
       "referenceSampleType": "One-part coating",
       "referenceSampleConsistency": "Translucent one-part flowable neutral-cure RTV silicone; 900 mPa.s; skin-over 9 min at 25 C; Shore A 17; specific gravity 0.98",
@@ -14920,7 +14922,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Thixotropic blue adhesive; 15,000-25,000 cP @ 20 rpm",
-      "referenceForJoining": "Steel, ferrites, ceramics, copper parts, motors, sensors, and electronic assemblies needing fast fixture"
+      "referenceForJoining": "Steel, ferrites, ceramics, copper parts, motors, sensors, and electronic assemblies needing fast fixture",
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/TA4590_TDS.pdf",
+      "tdsDocumentLabel": "Permabond TA4590 Global Technical Datasheet Revision 4, February 23, 2018"
     },
     {
       "id": "permabond-a011",
@@ -20404,6 +20408,10 @@
         "Cured material is impervious to many solvents and can require mechanical removal."
       ],
       "referenceUrl": "https://prostech.vn/wp-content/uploads/2018/07/9001-e-v35.pdf",
+      "supportingReferenceUrls": [
+        "https://es.dymax.com/get-resource-file/7694/file/sg020eudt_adhesives_coatings_and_encapsulants_for_electronic_assembly_sg.pdf",
+        "https://kr.dymax.com/get-resource-file/7683/file/sg020eufr_assemblage_electronique_sg.pdf"
+      ],
       "supportingReferenceUrls": [
         "https://dymax.com/get-resource-file/7802/file/Dymax%20Asia%20Product%20SG%20%28EN%20Asia%29.pdf"
       ],
@@ -31674,6 +31682,8 @@
       "priceExample": "Digi-Key 748 NON-COR SLNT CRT 300ML, observed from glue__adhesives__applicators.csv",
       "priceSourceUrl": "https://www.digikey.com/en/products/detail/ellsworth-adhesives/748-NON-COR-SLNT-CRT-300ML/11494948",
       "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-748-non-corrosive-sealant.02184346z.html",
+      "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_748_tds.pdf",
+      "tdsDocumentLabel": "Dow DOWSIL 748 Non-Corrosive Sealant Technical Data Sheet (Americas & Asia copy hosted by Krayden)",
       "referenceCategory": "Non-Corrosive Electrical RTV Silicone Sealants",
       "referenceSampleType": "300 mL cartridge",
       "referenceSampleConsistency": "Off-white one-part non-slump paste; specific gravity 1.33 and extrusion rate 145 g/min",

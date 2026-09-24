@@ -3175,6 +3175,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.e-aircraftsupply.com/MSDS/75/11-3909-01-dowsil-ea-9187l-uv-si-conform-co.pdf"
     ],
+    "tdsUrl": "https://www.e-aircraftsupply.com/MSDS/75/11-3909-01-dowsil-ea-9187l-uv-si-conform-co.pdf",
+    "tdsDocumentLabel": "Dow DOWSIL EA-9187L UV Silicone Conformal Coating Technical Data Sheet, Form 11-3909-01 (2018)",
     "unpublishedFields": [
       "potLife",
       "fixtureTime",
@@ -14310,6 +14312,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The cached official Permabond text is a TDS landing page and does not expose additional property-table values beyond the existing curated fields."
     ],
     "referenceUrl": "https://permabond.com/tds/TA4590_tds-en/",
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/TA4590_TDS.pdf",
+    "tdsDocumentLabel": "Permabond TA4590 Global Technical Datasheet Revision 4, February 23, 2018",
     "serviceMax": null,
     "potLife": null
   },
@@ -30420,6 +30424,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not tested or represented as suitable for medical or pharmaceutical uses."
     ],
     "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-748-non-corrosive-sealant.02184346z.html",
+    "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_748_tds.pdf",
+    "tdsDocumentLabel": "Dow DOWSIL 748 Non-Corrosive Sealant Technical Data Sheet (Americas & Asia copy hosted by Krayden)",
     "unpublishedFields": [
       "potLife",
       "lapShear",

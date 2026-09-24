@@ -880,14 +880,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "403",
     "summary": "Low-odor low-bloom instant adhesive for close-fitting plastic, rubber, and metal parts where cosmetic haze is a problem.",
     "cureFamily": "Cyanoacrylate",
-    "cureDetail": "One-part low-odor, low-bloom instant adhesive. Henkel product-page technical information lists 30 s fixture time on steel, 0.2 mm gap fill, 1,200 mPa.s viscosity and 20.3 N/mm2 mild-steel lap shear.",
-    "serviceMin": -40,
-    "serviceMax": 80,
-    "gapFill": 0.2,
-    "fixtureTime": 0.5,
+    "cureDetail": "One-part low-odor, low-bloom alkoxyethyl cyanoacrylate; cures with atmospheric moisture. Full chemical/solvent resistance develops after at least 24 hours.",
+    "fixtureTime": "20-45 s on steel at 22 °C / 50% RH",
     "viscosityClass": "medium",
     "lapShear": 20.3,
-    "lapShearSubstrate": "Mild steel grit blasted; Henkel product-page technical information",
+    "lapShearSubstrate": "ISO 4587 after 72 h at 22 °C: grit-blasted steel 20.3 MPa; etched aluminum 14.1 MPa; substrate-specific values also reported for zinc dichromate, ABS, PVC, phenolic, polycarbonate, nitrile and neoprene.",
     "clarity": "transparent",
     "applicationTags": [
       "instant-bonding"
@@ -912,18 +909,31 @@ window.TDS_MANUAL_PRODUCTS = [
       "Thermal conductivity is not published on the checked Henkel page/cache.",
       "For difficult-to-bond plastics such as PP, PE and PTFE, Henkel specifies use with primer such as LOCTITE SF 770.",
       "Use for close-fitting parts; the published gap fill is approximately 0.20 mm.",
-      "Cyanoacrylate performance is substrate and surface-preparation dependent; validate cosmetic low-bloom requirements on the actual assembly."
+      "Cyanoacrylate performance is substrate and surface-preparation dependent; validate cosmetic low-bloom requirements on the actual assembly.",
+      "The linked TDS is for the new formulation and dated August 2012; confirm product formulation and regional TDS before specification.",
+      "No continuous service-temperature range or numerical gap-fill limit is published in this TDS."
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
     "unpublishedFields": [
+      "gapFill",
       "potLife",
+      "serviceMax",
+      "serviceMin",
       "thermalConductivity"
     ],
     "viscosityValue": "900-1500",
     "viscosityUnit": "mPa.s",
     "viscosityNote": "Cone & Plate at 100 s⁻¹ shear rate, 25°C; Brookfield LVF Spindle 2 at 12 rpm: 1100-1650 mPa.s",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 403 Technical Data Sheet, August 2012 (new formulation)",
+    "sourceRevisionDate": "Henkel LOCTITE 403 Technical Data Sheet, August 2012; current Henkel-hosted PDF digitally signed November 2025.",
+    "fixtureTimeNote": "Henkel defines fixture as 0.1 N/mm² shear strength; substrate-specific TDS table gives 20-45 s on steel.",
+    "serviceTemperatureNote": "The linked TDS does not publish a continuous service-temperature range.",
+    "gapFill": null,
     "potLife": null,
+    "serviceMax": null,
+    "serviceMin": null,
     "thermalConductivity": null
   },
   {
@@ -17332,7 +17342,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
+    "tdsDocumentLabel": "Liquid Nails / PPG Heavy Duty LN-901 Data Sheet, May 2022"
   },
   {
     "id": "liquid-nails-ln907",
@@ -17379,7 +17391,9 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "serviceTemperatureNote": "Application and service temperature -6°C (22°F) to 49°C (120°F) per TDS; all-weather all-season formula.",
     "viscosityValue": 200000,
-    "viscosityUnit": "cP"
+    "viscosityUnit": "cP",
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
+    "tdsDocumentLabel": "Liquid Nails / PPG Extreme Heavy Duty LN-907 Data Sheet"
   },
   {
     "id": "liquid-nails-ln905",
@@ -17469,7 +17483,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
+    "tdsDocumentLabel": "Liquid Nails / PPG Landscape Block & Stone LN-905 Data Sheet, October 2023"
   },
   {
     "id": "liquid-nails-ln3000",
@@ -17606,7 +17622,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
+    "tdsDocumentLabel": "Liquid Nails / PPG Fuze*It Max LN-3000 Data Sheet, August 2022"
   },
   {
     "id": "e6000-industrial",
@@ -65076,8 +65094,8 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "applicationTags": [
       "instant-bonding"
     ],
-    "tempMinC": -40,
-    "tempMaxC": 80,
+    "tempMinC": null,
+    "tempMaxC": null,
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
     "sourceLabel": "TDS"

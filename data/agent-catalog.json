@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:02:55.897732+00:00",
+  "generatedAt": "2026-09-24T04:07:43.743233+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1715,
+    "products": 1711,
     "manualTdsProducts": 650,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 630,
+    "officialManufacturerLeads": 626,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -882,14 +882,10 @@
         "mc-liquid_nails_urethane_rubber_ln_950",
         "official-lead-liquid-nails-clear-seal-construction-adhesive",
         "official-lead-liquid-nails-drywall-advanced-interior-construction-adhesive",
-        "official-lead-liquid-nails-extreme-heavy-duty-interior-and-exterior-construction-adhesive",
         "official-lead-liquid-nails-flex-5x-interior-exterior-construction-adhesive",
         "official-lead-liquid-nails-fuze-it-all-surface-interior-exterior-adhesive",
-        "official-lead-liquid-nails-fuze-it-max-interior-and-exterior-all-purpose-construction-adhesive",
         "official-lead-liquid-nails-fuze-it-max-interior-exterior-all-purpose-construction-adhesive",
         "official-lead-liquid-nails-heavy-duty-construction-adhesive",
-        "official-lead-liquid-nails-heavy-duty-interior-and-exterior-construction-adhesive-solvent-based",
-        "official-lead-liquid-nails-landscape-block-and-stone-adhesive",
         "official-lead-liquid-nails-liquid-nails-cove-base-stair-tread-interior-adhesive",
         "official-lead-liquid-nails-liquid-nails-frp-fiberglass-reinforced-plastic-panel-interior-adhesive",
         "official-lead-liquid-nails-liquid-nails-insulation-panel-drywall-interior-adhesive",
@@ -7819,7 +7815,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 630,
+      "official-manufacturer-lead": 626,
       "official-tds-url": 377,
       "product-or-catalog-page": 191
     }
@@ -60638,13 +60634,11 @@
       "electricalBehaviorClass": "",
       "specs": {
         "cureFamily": "Cyanoacrylate",
-        "cureDetail": "One-part low-odor, low-bloom instant adhesive. Henkel product-page technical information lists 30 s fixture time on steel, 0.2 mm gap fill, 1,200 mPa.s viscosity and 20.3 N/mm2 mild-steel lap shear.",
-        "serviceMin": -40,
-        "serviceMax": 80,
-        "gapFill": 0.2,
-        "fixtureTime": 0.5,
+        "cureDetail": "One-part low-odor, low-bloom alkoxyethyl cyanoacrylate; cures with atmospheric moisture. Full chemical/solvent resistance develops after at least 24 hours.",
+        "serviceTemperatureNote": "The linked TDS does not publish a continuous service-temperature range.",
+        "fixtureTime": "20-45 s on steel at 22 \u00b0C / 50% RH",
         "lapShear": 20.3,
-        "lapShearSubstrate": "Mild steel grit blasted; Henkel product-page technical information",
+        "lapShearSubstrate": "ISO 4587 after 72 h at 22 \u00b0C: grit-blasted steel 20.3 MPa; etched aluminum 14.1 MPa; substrate-specific values also reported for zinc dichromate, ABS, PVC, phenolic, polycarbonate, nitrile and neoprene.",
         "viscosityClass": "medium",
         "viscosityValue": "900-1500",
         "viscosityUnit": "mPa.s",
@@ -60656,7 +60650,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/loctite-403.txt",
@@ -60668,15 +60662,15 @@
         "decisionValueCoverage": 0.818,
         "electronicsValueCoverage": 0.1,
         "decisionFieldsPresent": [
-          "serviceMin",
-          "serviceMax",
           "fixtureTime",
           "lapShear",
           "viscosityClass",
           "clarity",
           "stress",
           "substrates",
-          "cautions"
+          "cautions",
+          "serviceMin",
+          "serviceMax"
         ],
         "electronicsFieldsPresent": [
           "viscosityValue",
@@ -60710,7 +60704,10 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsAliasCovered": [],
+        "decisionFieldsAliasCovered": [
+          "serviceMin",
+          "serviceMax"
+        ],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
@@ -72033,93 +72030,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-extreme-heavy-duty-interior-and-exterior-construction-adhesive",
-      "source": "official-manufacturer-lead",
-      "maker": "Liquid Nails",
-      "name": "Extreme Heavy Duty Interior and Exterior Construction Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive",
-        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
-        "tdsUrls": [
-          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
-            "label": "Liquid Nails LN-907 Technical Data Sheet"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive",
-        "sourceLabel": "Liquid Nails product assortment",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "liquid-nails-ln907",
       "source": "manual-tds",
       "maker": "Liquid Nails",
@@ -72152,11 +72062,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/liquid-nails-ln907.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-907 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-907_Data_Sheet.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-extreme-heavy-duty-interior-exterior-construction-adhesive"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -72576,93 +72498,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-fuze-it-max-interior-and-exterior-all-purpose-construction-adhesive",
-      "source": "official-manufacturer-lead",
-      "maker": "Liquid Nails",
-      "name": "FUZE*IT MAX Interior and Exterior All-Purpose Construction Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive",
-        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
-        "tdsUrls": [
-          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
-            "label": "Liquid Nails LN-3000 Technical Data Sheet"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive",
-        "sourceLabel": "Liquid Nails product assortment",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "liquid-nails-ln3000",
       "source": "manual-tds",
       "maker": "Liquid Nails",
@@ -72718,11 +72553,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/liquid-nails-ln3000.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-3000 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-3000_Fuze_It_Max_Data_Sheet.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-fuze-it-r-max-interior-and-exterior-all-purpose-construction-adhesive"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -72985,93 +72832,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-liquid-nails-heavy-duty-interior-and-exterior-construction-adhesive-solvent-based",
-      "source": "official-manufacturer-lead",
-      "maker": "Liquid Nails",
-      "name": "Heavy Duty Interior and Exterior Construction Adhesive - Solvent Based",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based",
-        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
-        "tdsUrls": [
-          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
-            "label": "Liquid Nails LN-901 Technical Data Sheet"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based",
-        "sourceLabel": "Liquid Nails product assortment",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "liquid-nails-ln901",
       "source": "manual-tds",
       "maker": "Liquid Nails",
@@ -73112,11 +72872,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/liquid-nails-ln901.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf",
+            "label": "Liquid Nails LN-901 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/LN-901_Data_Sheet.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-heavy-duty-interior-exterior-construction-adhesive---solvent-based"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -73220,11 +72992,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/liquid-nails-ln905.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
+            "label": "Liquid Nails LN-905 Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -73283,93 +73067,6 @@
         "For structures greater than 3 ft in height, consult the manufacturer's instructions.",
         "Not recommended for water-immersion applications.",
         "Do not apply to wet surfaces."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-liquid-nails-landscape-block-and-stone-adhesive",
-      "source": "official-manufacturer-lead",
-      "maker": "Liquid Nails",
-      "name": "Landscape Block and Stone Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive",
-        "tdsUrl": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
-        "tdsUrls": [
-          "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://buyat.ppg.com/rep_pafpainttools_files/Liquid%20Nails%20US/TDB/LN-905.pdf",
-            "label": "Liquid Nails LN-905 Technical Data Sheet"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.ppgpaints.com/liquid-nails-products/liquid-nails-r-landscape-block-and-stone-adhesive",
-        "sourceLabel": "Liquid Nails product assortment",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },

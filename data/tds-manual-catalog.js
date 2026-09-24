@@ -60063,6 +60063,719 @@ window.TDS_MANUAL_PRODUCTS = [
     "fixtureTime": null,
     "potLife": null,
     "thermalConductivity": null
+  },
+  {
+    "id": "lepage-marine-epoxy",
+    "profile": "toughenedEpoxy",
+    "maker": "LePage",
+    "name": "LePage Epoxy Marine",
+    "summary": "Two-part epoxy for repairs exposed to water, including pipes; TDS documents use and cure underwater plus substrate-specific shear results.",
+    "sourceRevisionDate": "LePage Marine Epoxy Technical Data Sheet, revision November 10, 2014",
+    "chemistry": "Epoxy resin with polymercaptan hardener",
+    "cureFamily": "Two-part marine epoxy",
+    "cureDetail": "Mix equal volumes. TDS gel time is 120–150 minutes and full cure is 24 hours; it can be applied and cured underwater.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 8,
+      "concrete": 7,
+      "glass": 6,
+      "ceramic": 6,
+      "plastic": 5,
+      "fiberglass": 8
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, nylon, flexible materials, aquariums or potable-water systems. Avoid short heat exposure above 150°C."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Marine Epoxy Technical Data Sheet, revision November 10, 2014",
+    "serviceMin": -23,
+    "serviceMax": 49,
+    "longTermServiceTemperatureMinC": -23,
+    "longTermServiceTemperatureMaxC": 49,
+    "shortTermServiceTemperatureMaxC": 150,
+    "serviceTemperatureNote": "TDS long-term range −23 to 49°C; short-term maximum 150°C.",
+    "applicationTemperatureMinC": 4,
+    "applicationTemperatureMaxC": 35,
+    "fixtureTimeRangeMinutes": [
+      120,
+      150
+    ],
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "shelfLifeMonths": 24,
+    "waterResistant": true,
+    "waterproof": true,
+    "freezeThawStability": "Not damaged by freezing",
+    "dryColor": "Off-white",
+    "tdsLapShearProfilesMPa": {
+      "coldRolledSteel6h": 5.95,
+      "coldRolledSteel24h": 20.68,
+      "coldRolledSteel7d": 24.72,
+      "aluminum6061T624h": 18.97,
+      "aluminum6061T67dAfter24hWater": 18.24,
+      "underwaterAluminum7d": 3.8,
+      "underwaterFRPDull7d": 15.18
+    },
+    "lapShearSubstrate": "TDS reports tensile-shear results by substrate and cure; examples include sandblasted cold-rolled steel 20.68 MPa at 24 h and 24.72 MPa at 7 d. Underwater-bond results are reported separately.",
+    "tdsCompressionShearStrengthPsi": 1420,
+    "tdsCompressionShearTestMethod": "Sandblasted hard PVC (white), 24 h cure; TDS reports 9.79 ± 1.01 MPa (1420 ± 147 psi).",
+    "fixtureTime": null,
+    "potLife": null
+  },
+  {
+    "id": "lepage-speed-set-epoxy",
+    "profile": "toughenedEpoxy",
+    "maker": "LePage",
+    "name": "LePage Epoxy Speed Set Instant Mix",
+    "summary": "Five-minute two-part epoxy for household repairs and gap filling, with published substrate-specific tensile-shear results.",
+    "sourceRevisionDate": "LePage Speed Set Instant Mix Epoxy Technical Data Sheet, revision August 30, 2016",
+    "chemistry": "Epoxy resin with polymercaptan hardener",
+    "cureFamily": "Two-part quick-set epoxy",
+    "cureDetail": "Mix equal volumes. Gel/set time 5–7 minutes at 20–25°C; usable strength at 20 minutes; full cure 24 hours.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 7,
+      "metal": 7,
+      "glass": 6,
+      "ceramic": 6,
+      "stone": 6,
+      "plastic": 5,
+      "concrete": 6,
+      "fiberglass": 7
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, nylon or flexible materials. TDS says it is not for continuously wet areas or water immersion."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Speed Set Instant Mix Epoxy Technical Data Sheet, revision August 30, 2016",
+    "serviceMin": -23,
+    "serviceMax": 49,
+    "longTermServiceTemperatureMinC": -23,
+    "longTermServiceTemperatureMaxC": 49,
+    "shortTermServiceTemperatureMaxC": 150,
+    "applicationTemperatureMinC": 4,
+    "applicationTemperatureMaxC": 35,
+    "openTimeMinutes": 4,
+    "fixtureTime": 20,
+    "tdsFullCureHours": 24,
+    "shelfLifeMonths": 18,
+    "waterResistant": true,
+    "waterproof": false,
+    "dryColor": "Translucent amber",
+    "tdsLapShearProfilesMPa": {
+      "sandblastedColdRolledSteel30min": 4.92,
+      "sandblastedColdRolledSteel2h": 16.44,
+      "sandblastedColdRolledSteel4h": 19.0,
+      "sandblastedColdRolledSteel24h": 22.14
+    },
+    "lapShearSubstrate": "Tensile-shear values are for sandblasted cold-rolled steel at the stated cure times; 24 h value 22.14 MPa (3211 psi).",
+    "unpublishedFields": [
+      "lapShear",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-express-wood-glue",
+    "profile": "pvaWood",
+    "maker": "LePage",
+    "name": "LePage Express Wood Glue",
+    "summary": "Quick-drying PVA wood glue for carpentry and cabinetmaking; the TDS specifies an 8-minute open time and 10-minute clamp time.",
+    "sourceRevisionDate": "LePage Express Quick Dry Wood Glue Technical Data Sheet, revision April 19, 2016",
+    "chemistry": "Polyvinyl acetate (PVA), water-based",
+    "cureFamily": "PVA wood glue",
+    "cureDetail": "Above 3°C application. Maximum 8-minute open time; clamp at least 10 minutes; keep undisturbed overnight before finishing.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 9,
+      "paper": 5,
+      "fabric": 4,
+      "leather": 4,
+      "cork": 5
+    },
+    "cautions": [
+      "Not for gap-filling joints, nonporous plastic/metal bonds, direct water contact, or load-bearing structural applications."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Express Quick Dry Wood Glue Technical Data Sheet, revision April 19, 2016",
+    "appearance": "Yellow free-flowing liquid; dries translucent white",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "applicationTemperatureMinC": 3,
+    "openTimeMinutes": 8,
+    "fixtureTime": 10,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "specificGravity": 1.1,
+    "ph": "3–4.5",
+    "shelfLifeMonths": 12,
+    "storageCondition": "Store tightly closed at 5–40°C; protect from freezing.",
+    "coverageSqFtPerGallon": 159,
+    "notStructural": true,
+    "waterResistant": false,
+    "serviceMin": null,
+    "serviceMax": null
+  },
+  {
+    "id": "lepage-extreme-glue",
+    "profile": "hybridRepair",
+    "maker": "LePage",
+    "name": "LePage Extreme Glue",
+    "summary": "Flexible, clear, water-resistant hybrid adhesive for varied household repairs; TDS includes tensile-shear results across multiple substrates.",
+    "sourceRevisionDate": "LePage Extreme Glue Technical Data Sheet, revision February 15, 2022",
+    "chemistry": "Silane moisture-curing polymer",
+    "cureFamily": "One-part flexible hybrid polymer adhesive",
+    "cureDetail": "8–15-minute open time, about 5 minutes repositioning, at least 30 minutes clamp/support and approximately 24 hours full cure.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 7,
+      "metal": 6,
+      "glass": 7,
+      "ceramic": 6,
+      "plastic": 5,
+      "fiberglass": 6,
+      "fabric": 5,
+      "paper": 5,
+      "concrete": 5,
+      "leather": 5
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, rigid polystyrene or direct food contact. Water-resistant but not for immersion. Test non-ferrous metals and coatings. Nonporous-to-nonporous joints require lightly dampening both faces; temperatures above 50°C can yellow the cured adhesive."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Extreme Glue Technical Data Sheet, revision February 15, 2022",
+    "appearance": "Transparent, colorless liquid; cures clear and flexible",
+    "serviceMin": -40,
+    "serviceMax": 80,
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 176,
+    "applicationTemperatureMinC": 5,
+    "applicationTemperatureMaxC": 40,
+    "openTimeRangeMinutes": [
+      8,
+      15
+    ],
+    "repositionTimeRangeMinutes": [
+      0,
+      5
+    ],
+    "fixtureTime": 30,
+    "tdsFullCureHours": 24,
+    "shelfLifeMonths": 18,
+    "viscosityRangeCps": [
+      8000,
+      20000
+    ],
+    "tdsViscosityRangeCps": [
+      8000,
+      20000
+    ],
+    "viscosityUnit": "cP",
+    "specificGravity": 1.13,
+    "flashPointF": 150.8,
+    "vocContentGPerL": 105,
+    "waterResistant": true,
+    "waterproof": false,
+    "paintable": true,
+    "tdsLapShearProfilesMPa": {
+      "pinePine7d": 2.7,
+      "mapleMaple7d": 3.4,
+      "mapleAluminum7d": 2.59,
+      "aluminumAluminum7d": 1.68,
+      "steelSteel7d": 1.3,
+      "maplePolycarbonate7d": 3.26,
+      "mapleFiberglassSanded7d": 3.1
+    },
+    "lapShearSubstrate": "TDS tensile-shear values are 1-inch overlaps cured 7 days at 23°C; maple-to-maple 493 psi (3.40 MPa), maple-to-polycarbonate 473 psi (3.26 MPa), pine-to-pine 392 psi (2.70 MPa).",
+    "unpublishedFields": [
+      "lapShear",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-multi-purpose-white-glue",
+    "profile": "pvaWood",
+    "maker": "LePage",
+    "name": "LePage Multi Purpose Wood Glue",
+    "summary": "Water-based PVA glue for indoor woodworking and other porous materials; TDS gives ASTM D905 compression-shear results for several assemblies.",
+    "sourceRevisionDate": "LePage Multi-Purpose White Glue Technical Data Sheet, revision April 30, 2014",
+    "chemistry": "Polyvinyl acetate (PVA), water-based",
+    "cureFamily": "PVA woodworking adhesive",
+    "cureDetail": "Apply above 15°C. TDS calls for at least 25 minutes clamping, 24 hours before loading, with strength continuing to develop for 7 days.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 9,
+      "paper": 7,
+      "fabric": 6,
+      "leather": 5,
+      "cork": 6,
+      "plastic": 3
+    },
+    "cautions": [
+      "Not for gap filling, bonding two nonporous materials, direct water exposure or load-bearing structural use."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Multi-Purpose White Glue Technical Data Sheet, revision April 30, 2014",
+    "appearance": "White free-flowing liquid; dries translucent white",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "applicationTemperatureMinC": 15,
+    "openTimeMinutes": 5,
+    "fixtureTime": 25,
+    "tdsFullCureHours": 24,
+    "fullCureMinutes": 1440,
+    "specificGravity": 1.08,
+    "viscosityRangeCps": [
+      6000,
+      10000
+    ],
+    "tdsViscosityRangeCps": [
+      6000,
+      10000
+    ],
+    "viscosityUnit": "cP",
+    "ph": 4.5,
+    "vocContentGPerL": 4,
+    "shelfLifeMonths": 18,
+    "storageCondition": "Store tightly closed at 5–32°C; protect from freezing. TDS reports stability through five freeze/thaw cycles.",
+    "coverageSqFtPerGallon": 159,
+    "freezeThawStability": "Stable up to five freeze/thaw cycles",
+    "waterResistant": false,
+    "paintable": true,
+    "notStructural": true,
+    "tdsCompressionShearStrengthPsi": 2494,
+    "tdsCompressionShearTestMethod": "ASTM D905, hard white maple, 60 min clamp and 24 h dry: 17.2 ± 2.4 MPa (2494 ± 347 psi). TDS also lists substrate-specific results for marble, granite, glass, aluminum and laminate.",
+    "serviceMin": null,
+    "serviceMax": null
+  },
+  {
+    "id": "lepage-pl-premium",
+    "profile": "constructionAdhesive",
+    "maker": "LePage",
+    "name": "LePage PL Premium",
+    "summary": "One-part moisture-curing polyurethane construction adhesive for indoor/outdoor building bonds; current TDS includes ASTM and APA performance tests.",
+    "sourceRevisionDate": "LePage PL Premium Construction Adhesive Technical Data Sheet, revision June 24, 2024",
+    "chemistry": "One-part moisture-curing polyurethane",
+    "cureFamily": "Polyurethane construction adhesive",
+    "cureDetail": "15–20-minute open time; reposition 30–45 minutes; clamp/support for 24 hours; cure 24–48 hours at 25°C and 50% RH.",
+    "applicationTags": [
+      "construction-adhesive",
+      "subfloor",
+      "outdoor",
+      "polyurethane"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "substrates": {
+      "wood": 9,
+      "metal": 7,
+      "concrete": 8,
+      "stone": 8,
+      "foam": 8,
+      "ceramic": 7,
+      "fiberglass": 6,
+      "drywall": 7,
+      "pvc": 5
+    },
+    "cautions": [
+      "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Avoid high-heat areas.",
+      "Cure is slower in cold or low-humidity conditions; foam insulation can cavitate if cure/surface temperature exceeds 32°C."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf",
+    "tdsDocumentLabel": "LePage PL Premium Construction Adhesive Technical Data Sheet, revision June 24, 2024",
+    "serviceMin": -40,
+    "serviceMax": 71,
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 160,
+    "applicationTemperatureMinC": 5,
+    "applicationTemperatureMaxC": 35,
+    "openTimeRangeMinutes": [
+      15,
+      20
+    ],
+    "repositionTimeRangeMinutes": [
+      30,
+      45
+    ],
+    "clampTimeRangeMinutes": [
+      1440,
+      1440
+    ],
+    "tdsFullCureHours": [
+      24,
+      48
+    ],
+    "viscosityValue": 555000,
+    "viscosityUnit": "cP",
+    "specificGravity": 1.3,
+    "shelfLifeMonths": 12,
+    "waterResistant": true,
+    "outdoorUse": true,
+    "freezeThawStability": "Not damaged by freezing",
+    "tdsCompressionShearStrengthPsi": 638,
+    "tdsCompressionShearTestMethod": "ASTM D3498, Douglas Fir to Douglas Fir plywood, dry lumber: 4.4 MPa (638 psi). Separate results are listed for wet/frozen lumber and gap fill.",
+    "tdsLapShearProfilesMPa": {
+      "plywoodStainlessSteel": 4.1,
+      "plywoodHotGalvanizedSteel": 3.5
+    },
+    "lapShearSubstrate": "Tensile-shear/lap-shear TDS values: Douglas Fir plywood to stainless steel, 4.1 MPa (590 psi), wood failure; to hot galvanized steel, 3.5 MPa (512 psi), wood failure.",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-pl-premium-fast-grab",
+    "profile": "constructionAdhesive",
+    "maker": "LePage",
+    "name": "LePage PL Premium Fast Grab",
+    "summary": "Fast-grab one-part polyurethane construction adhesive for vertical and horizontal building materials, with substrate-specific TDS strength data.",
+    "sourceRevisionDate": "LePage PL Premium Fast Grab Construction Adhesive Technical Data Sheet, revision November 1, 2022",
+    "chemistry": "One-part moisture-curing polyurethane",
+    "cureFamily": "Fast-grab polyurethane construction adhesive",
+    "cureDetail": "20-minute open time; reposition 15–20 minutes; temporary mechanical support 24 hours; cure 24–48 hours at 25°C and 50% RH.",
+    "applicationTags": [
+      "construction-adhesive",
+      "fast-grab",
+      "polyurethane"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "substrates": {
+      "wood": 9,
+      "metal": 7,
+      "concrete": 8,
+      "stone": 8,
+      "foam": 8,
+      "ceramic": 7,
+      "fiberglass": 6,
+      "drywall": 7,
+      "pvc": 5
+    },
+    "cautions": [
+      "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Vertical loads require permanent mechanical support.",
+      "Avoid high-heat areas; EPS/XPS foam can cavitate above 32°C during cure."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf",
+    "tdsDocumentLabel": "LePage PL Premium Fast Grab Construction Adhesive Technical Data Sheet, revision November 1, 2022",
+    "serviceMin": -18,
+    "serviceMax": 71,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 160,
+    "applicationTemperatureMinC": 5,
+    "applicationTemperatureMaxC": 35,
+    "openTimeMinutes": 20,
+    "repositionTimeRangeMinutes": [
+      15,
+      20
+    ],
+    "clampTimeRangeMinutes": [
+      1440,
+      1440
+    ],
+    "tdsFullCureHours": [
+      24,
+      48
+    ],
+    "viscosityValue": 1800000,
+    "viscosityUnit": "cP",
+    "specificGravity": 1.3,
+    "shelfLifeMonths": 12,
+    "waterResistant": true,
+    "outdoorUse": true,
+    "tdsCompressionShearStrengthPsi": 809,
+    "tdsCompressionShearTestMethod": "ASTM D3498, Douglas Fir to Douglas Fir plywood, dry lumber: 5.6 MPa (809 psi). Separate results are listed for wet/frozen lumber and gap fill.",
+    "tdsLapShearProfilesMPa": {
+      "plywoodStainlessSteel": 5.4,
+      "plywoodHotGalvanizedSteel": 4.6
+    },
+    "lapShearSubstrate": "Tensile-shear/lap-shear TDS values: Douglas Fir plywood to stainless steel, 5.4 MPa (777 psi), substrate failure; to hot galvanized steel, 4.6 MPa (665 psi), substrate failure.",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-pl-premium-max",
+    "profile": "hybridRepair",
+    "maker": "LePage",
+    "name": "LePage PL Premium Max",
+    "summary": "Silane-modified polymer construction adhesive for damp and dry surfaces and cold-weather work; current 2026 TDS publishes ASTM D3498 compression-shear data.",
+    "sourceRevisionDate": "LePage PL Premium Max Construction Adhesive Technical Data Sheet, revision March 2, 2026",
+    "chemistry": "Silane-modified polymer, 100% solids after cure in typical ASTM D3498 conditions",
+    "cureFamily": "Silane-modified polymer construction adhesive",
+    "cureDetail": "20-minute open time; reposition 15 minutes; support 24–48 hours depending on project; cure 24–48 hours at 25°C and 50% RH.",
+    "applicationTags": [
+      "construction-adhesive",
+      "outdoor",
+      "hybrid-polymer"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "substrates": {
+      "wood": 9,
+      "metal": 7,
+      "concrete": 8,
+      "stone": 8,
+      "foam": 8,
+      "ceramic": 7,
+      "fiberglass": 6,
+      "drywall": 7,
+      "pvc": 5
+    },
+    "cautions": [
+      "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Avoid high-heat areas.",
+      "For dry lumber, 100% solids claim is stated for typical ASTM D3498 conditions; do not generalize to all joints."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf",
+    "tdsDocumentLabel": "LePage PL Premium Max Construction Adhesive Technical Data Sheet, revision March 2, 2026",
+    "serviceMin": -18,
+    "serviceMax": 71,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 160,
+    "applicationTemperatureMinC": -12,
+    "applicationTemperatureMaxC": 49,
+    "openTimeMinutes": 20,
+    "repositionTimeRangeMinutes": [
+      0,
+      15
+    ],
+    "clampTimeRangeMinutes": [
+      1440,
+      2880
+    ],
+    "tdsFullCureHours": [
+      24,
+      48
+    ],
+    "viscosityValue": 1200000,
+    "viscosityUnit": "cP",
+    "specificGravityRange": [
+      1.6,
+      1.7
+    ],
+    "shelfLifeMonths": 18,
+    "waterResistant": true,
+    "waterproof": false,
+    "outdoorUse": true,
+    "flashPointF": 224.6,
+    "tdsCompressionShearStrengthPsi": 1275,
+    "tdsCompressionShearTestMethod": "ASTM D3498, Douglas Fir to Douglas Fir plywood, dry lumber: 8.79 MPa (1275 psi); separate TDS values apply for wet lumber, frozen lumber, gap filling and moisture resistance.",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-no-more-nails-all-purpose",
+    "profile": "constructionAdhesive",
+    "maker": "LePage",
+    "name": "LePage No More Nails All Purpose",
+    "summary": "Water-based, high-initial-grab latex construction adhesive for interior porous-to-nonporous bonds; TDS specifies its vertical load limit.",
+    "sourceRevisionDate": "LePage No More Nails All-Purpose Construction Adhesive Technical Data Sheet, revision March 3, 2025",
+    "chemistry": "Synthetic latex, water-based",
+    "cureFamily": "Latex construction adhesive",
+    "cureDetail": "15-minute open/reposition time at 25°C and 50% RH; initial dry about 12 hours; most applications reach full strength in 12 hours, but low-porosity joints may require 7 days or longer.",
+    "applicationTags": [
+      "construction-adhesive",
+      "interior",
+      "latex"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "substrates": {
+      "wood": 7,
+      "metal": 5,
+      "concrete": 7,
+      "stone": 7,
+      "ceramic": 6,
+      "foam": 6,
+      "drywall": 8,
+      "pvc": 5,
+      "glass": 4,
+      "cork": 5
+    },
+    "cautions": [
+      "Interior use only; not for water immersion or continuously wet areas. At least one substrate must be porous. Not for PE, PP, PTFE, nylon, corroding metals, mirrors, natural marble or cement board.",
+      "For vertical bonds, TDS rates up to 10 g/cm² (20 lb/ft²) on porous substrates; support heavier items."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf",
+    "tdsDocumentLabel": "LePage No More Nails All-Purpose Construction Adhesive Technical Data Sheet, revision March 3, 2025",
+    "serviceMin": -18,
+    "serviceMax": 50,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 122,
+    "applicationTemperatureMinC": 10,
+    "openTimeMinutes": 15,
+    "repositionTimeRangeMinutes": [
+      0,
+      15
+    ],
+    "tdsFullCureHours": 12,
+    "specificGravityRange": [
+      1.03,
+      1.3
+    ],
+    "viscosityValue": 2000000,
+    "viscosityUnit": "cP",
+    "ph": "7.3-9",
+    "vocContentGPerL": 27,
+    "shelfLifeMonths": 24,
+    "waterResistant": true,
+    "outdoorUse": false,
+    "dryColor": "White",
+    "tdsBondStrengthTestConditions": "Douglas Fir to dry lumber: 1.97 MPa (285 psi); TDS calls this bond strength but does not specify a test method.",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ]
+  },
+  {
+    "id": "lepage-pro-carpenters-glue",
+    "profile": "pvaWood",
+    "maker": "LePage",
+    "name": "LePage Pro Carpenters Wood Glue",
+    "summary": "Interior aliphatic-resin PVA wood glue for tight-fitting carpentry and cabinet joints; TDS supplies assembly, cure, viscosity and storage data.",
+    "sourceRevisionDate": "LePage Pro Carpenter’s Glue Technical Data Sheet, revision April 30, 2014",
+    "chemistry": "Polyvinyl acetate (PVA), aliphatic resin, water-based",
+    "cureFamily": "PVA woodworking adhesive",
+    "cureDetail": "Maximum 5-minute open time; clamp for at least 25 minutes; leave undisturbed overnight before finishing. Dry time is 24 hours at 25°C and 50% RH; strength continues to develop for 7 days.",
+    "applicationTags": [
+      "woodworking",
+      "cabinetmaking",
+      "carpentry"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "substrates": {
+      "wood": 9,
+      "veneer": 8,
+      "paper": 6,
+      "leather": 5,
+      "cork": 5,
+      "fabric": 4
+    },
+    "cautions": [
+      "Interior wood adhesive; not for gaps, direct water exposure, nonporous-to-nonporous bonds or load-bearing structural applications. Use the outdoor wood-glue product where water resistance is required."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Pro Carpenter’s Glue Technical Data Sheet, revision April 30, 2014",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "applicationTemperatureMinC": 15,
+    "openTimeMinutes": 5,
+    "fixtureTime": 25,
+    "tdsFullCureHours": 24,
+    "fullCureMinutes": 1440,
+    "specificGravity": 1.08,
+    "tdsViscosityRangeCps": [
+      6000,
+      10000
+    ],
+    "viscosityUnit": "cP",
+    "ph": 4.5,
+    "vocContentGPerL": 4,
+    "shelfLifeMonths": 18,
+    "storageCondition": "Store sealed at 5–32°C; protect from freezing. TDS reports stability through five freeze/thaw cycles.",
+    "coverageSqFtPerGallon": 159,
+    "freezeThawStability": "Stable up to five freeze/thaw cycles",
+    "waterResistant": false,
+    "paintable": true,
+    "dryColor": "Translucent pale yellow",
+    "notStructural": true,
+    "serviceMin": null,
+    "serviceMax": null
   }
 ];
 
@@ -76120,12 +76833,223 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-marine-epoxy",
+    "manufacturer": "LePage",
+    "familyName": "LePage Epoxy Marine",
+    "primaryCategory": "Household and repair adhesives",
+    "categories": [
+      "Household and repair adhesives"
+    ],
+    "sampleType": "Consumer adhesive package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, concrete, glass, ceramic, plastic, fiberglass",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -23,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-speed-set-epoxy",
+    "manufacturer": "LePage",
+    "familyName": "LePage Epoxy Speed Set Instant Mix",
+    "primaryCategory": "Household and repair adhesives",
+    "categories": [
+      "Household and repair adhesives"
+    ],
+    "sampleType": "Consumer adhesive package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, glass, ceramic, stone, plastic, concrete, fiberglass",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -23,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-express-wood-glue",
+    "manufacturer": "LePage",
+    "familyName": "LePage Express Wood Glue",
+    "primaryCategory": "Household and repair adhesives",
+    "categories": [
+      "Household and repair adhesives"
+    ],
+    "sampleType": "Consumer adhesive package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, paper, fabric, leather, cork",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-extreme-glue",
+    "manufacturer": "LePage",
+    "familyName": "LePage Extreme Glue",
+    "primaryCategory": "Household and repair adhesives",
+    "categories": [
+      "Household and repair adhesives"
+    ],
+    "sampleType": "Consumer adhesive package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, glass, ceramic, plastic, fiberglass, fabric, paper, concrete, leather",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 80,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-multi-purpose-white-glue",
+    "manufacturer": "LePage",
+    "familyName": "LePage Multi Purpose Wood Glue",
+    "primaryCategory": "Household and repair adhesives",
+    "categories": [
+      "Household and repair adhesives"
+    ],
+    "sampleType": "Consumer adhesive package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, paper, fabric, leather, cork, plastic",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pl-premium",
+    "manufacturer": "LePage",
+    "familyName": "LePage PL Premium",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Consumer cartridge or bottle",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "",
+    "applicationTags": [
+      "construction-adhesive",
+      "subfloor",
+      "outdoor",
+      "polyurethane"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 71,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pl-premium-fast-grab",
+    "manufacturer": "LePage",
+    "familyName": "LePage PL Premium Fast Grab",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Consumer cartridge or bottle",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "",
+    "applicationTags": [
+      "construction-adhesive",
+      "fast-grab",
+      "polyurethane"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 71,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pl-premium-max",
+    "manufacturer": "LePage",
+    "familyName": "LePage PL Premium Max",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Consumer cartridge or bottle",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "",
+    "applicationTags": [
+      "construction-adhesive",
+      "outdoor",
+      "hybrid-polymer"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 71,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-no-more-nails-all-purpose",
+    "manufacturer": "LePage",
+    "familyName": "LePage No More Nails All Purpose",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Consumer cartridge or bottle",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "",
+    "applicationTags": [
+      "construction-adhesive",
+      "interior",
+      "latex"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 50,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pro-carpenters-glue",
+    "manufacturer": "LePage",
+    "familyName": "LePage Pro Carpenters Wood Glue",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Consumer cartridge or bottle",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "",
+    "applicationTags": [
+      "woodworking",
+      "cabinetmaking",
+      "carpentry"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 605,
-  "referenceFamilies": 605,
-  "tdsBackedProducts": 598,
+  "selectorProducts": 615,
+  "referenceFamilies": 615,
+  "tdsBackedProducts": 608,
   "otherOfficialTechnicalSources": 7
 };

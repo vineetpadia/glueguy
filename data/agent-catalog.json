@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T02:22:37.681450+00:00",
+  "generatedAt": "2026-09-24T02:31:24.088434+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,10 +12,10 @@
   ],
   "stats": {
     "products": 1730,
-    "manualTdsProducts": 598,
+    "manualTdsProducts": 608,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 697,
+    "officialManufacturerLeads": 687,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -840,21 +840,21 @@
         "mc-latex_latex"
       ],
       "LePage": [
+        "lepage-express-wood-glue",
+        "lepage-extreme-glue",
+        "lepage-marine-epoxy",
+        "lepage-multi-purpose-white-glue",
+        "lepage-no-more-nails-all-purpose",
+        "lepage-pl-premium",
+        "lepage-pl-premium-fast-grab",
+        "lepage-pl-premium-max",
+        "lepage-pro-carpenters-glue",
+        "lepage-speed-set-epoxy",
         "official-lead-lepage-lepage-epoxy-gel",
-        "official-lead-lepage-lepage-epoxy-marine",
-        "official-lead-lepage-lepage-epoxy-speed-set-instant-mix",
         "official-lead-lepage-lepage-epoxy-steel",
-        "official-lead-lepage-lepage-express-wood-glue",
-        "official-lead-lepage-lepage-extreme-glue",
-        "official-lead-lepage-lepage-multi-purpose-wood-glue",
-        "official-lead-lepage-lepage-no-more-nails-all-purpose",
         "official-lead-lepage-lepage-outdoor-weatherproof-wood-glue",
-        "official-lead-lepage-lepage-pl-premium",
-        "official-lead-lepage-lepage-pl-premium-fast-grab",
-        "official-lead-lepage-lepage-pl-premium-max",
         "official-lead-lepage-lepage-pl200-drywall",
         "official-lead-lepage-lepage-pl400-subfloor-deck",
-        "official-lead-lepage-lepage-pro-carpenter-s-wood-glue",
         "official-lead-lepage-lepage-super-glue-all-plastics",
         "official-lead-lepage-lepage-super-glue-gel-control",
         "official-lead-lepage-lepage-super-glue-liquid-pro",
@@ -2346,6 +2346,9 @@
       "bushing": [
         "threebond-tb2720c"
       ],
+      "cabinetmaking": [
+        "lepage-pro-carpenters-glue"
+      ],
       "cable-jointing": [
         "mg-chemicals-8810"
       ],
@@ -2376,6 +2379,9 @@
       ],
       "carbon-fiber": [
         "permabond-et5428black"
+      ],
+      "carpentry": [
+        "lepage-pro-carpenters-glue"
       ],
       "ceramic": [
         "threebond-tb3732"
@@ -2723,6 +2729,10 @@
       ],
       "construction-adhesive": [
         "gorilla-glue-construction-adhesive",
+        "lepage-no-more-nails-all-purpose",
+        "lepage-pl-premium",
+        "lepage-pl-premium-fast-grab",
+        "lepage-pl-premium-max",
         "loctite-pl-premium-construction-adhesive",
         "loctite-power-grab-ultimate-crystal-clear",
         "titebond-fast-set-polyurethane-construction-adhesive"
@@ -3398,7 +3408,8 @@
         "weicon-va2407"
       ],
       "fast-grab": [
-        "gorilla-glue-construction-adhesive"
+        "gorilla-glue-construction-adhesive",
+        "lepage-pl-premium-fast-grab"
       ],
       "fast-set": [
         "mg-chemicals-8332",
@@ -3709,6 +3720,11 @@
         "glue-dots-xd41-404-super-high-tack",
         "itw-devcon-14265-5-minute-epoxy-gel",
         "itw-devcon-14310-2-ton-epoxy",
+        "lepage-express-wood-glue",
+        "lepage-extreme-glue",
+        "lepage-marine-epoxy",
+        "lepage-multi-purpose-white-glue",
+        "lepage-speed-set-epoxy",
         "liquid-nails-ln3000",
         "loctite-495",
         "mg-chemicals-8332",
@@ -4007,6 +4023,7 @@
       ],
       "hybrid-polymer": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
+        "lepage-pl-premium-max",
         "liquid-nails-ln2000"
       ],
       "hydraulics": [
@@ -4382,6 +4399,7 @@
         "3m-super-77-low-voc-aerosol"
       ],
       "interior": [
+        "lepage-no-more-nails-all-purpose",
         "titebond-all-purpose-white",
         "titebond-extend",
         "titebond-genuine-hide-glue"
@@ -4438,6 +4456,9 @@
       ],
       "large-housings": [
         "weldon-16-dcm-tce-free"
+      ],
+      "latex": [
+        "lepage-no-more-nails-all-purpose"
       ],
       "lcd-window": [
         "threebond-tb3170d"
@@ -5220,7 +5241,9 @@
         "threebond-tb1655d20t"
       ],
       "outdoor": [
-        "e6800-industrial-clear"
+        "e6800-industrial-clear",
+        "lepage-pl-premium",
+        "lepage-pl-premium-max"
       ],
       "overhead-bonding": [
         "loctite-454"
@@ -5582,6 +5605,8 @@
       ],
       "polyurethane": [
         "gorilla-glue-original-polyurethane",
+        "lepage-pl-premium",
+        "lepage-pl-premium-fast-grab",
         "loctite-pl-premium-construction-adhesive",
         "threebond-tb1797",
         "titebond-fast-set-polyurethane-construction-adhesive"
@@ -6807,6 +6832,7 @@
         "weldon-4052"
       ],
       "subfloor": [
+        "lepage-pl-premium",
         "liquid-nails-ln902",
         "loctite-pl-premium-construction-adhesive",
         "titebond-fast-set-polyurethane-construction-adhesive"
@@ -7535,7 +7561,8 @@
         "3m-bondo-fiberglass-resin-0401"
       ],
       "woodworking": [
-        "bostik-pva-glue"
+        "bostik-pva-glue",
+        "lepage-pro-carpenters-glue"
       ],
       "z-axis-interconnect": [
         "threebond-3373c"
@@ -7546,8 +7573,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 697,
-      "official-tds-url": 325,
+      "official-manufacturer-lead": 687,
+      "official-tds-url": 335,
       "product-or-catalog-page": 191
     }
   },
@@ -68345,25 +68372,37 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-epoxy-marine",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-marine-epoxy",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Epoxy Marine",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "toughenedEpoxy",
+      "summary": "Two-part epoxy for repairs exposed to water, including pipes; TDS documents use and cure underwater plus substrate-specific shear results.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household and repair adhesives",
+      "referenceForJoining": "wood, metal, concrete, glass, ceramic, plastic, fiberglass",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Epoxy resin with polymercaptan hardener",
+        "cureFamily": "Two-part marine epoxy",
+        "cureDetail": "Mix equal volumes. TDS gel time is 120\u2013150 minutes and full cure is 24 hours; it can be applied and cured underwater.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "TDS long-term range \u221223 to 49\u00b0C; short-term maximum 150\u00b0C.",
+        "lapShearSubstrate": "TDS reports tensile-shear results by substrate and cure; examples include sandblasted cold-rolled steel 20.68 MPa at 24 h and 24.72 MPa at 7 d. Underwater-bond results are reported separately.",
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf",
@@ -68371,34 +68410,41 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Marine-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-marine/SAP_0201OIL019V5.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -68420,38 +68466,49 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not for PE, PP, PTFE, nylon, flexible materials, aquariums or potable-water systems. Avoid short heat exposure above 150\u00b0C."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-epoxy-speed-set-instant-mix",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-speed-set-epoxy",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Epoxy Speed Set Instant Mix",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "toughenedEpoxy",
+      "summary": "Five-minute two-part epoxy for household repairs and gap filling, with published substrate-specific tensile-shear results.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household and repair adhesives",
+      "referenceForJoining": "wood, metal, glass, ceramic, stone, plastic, concrete, fiberglass",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Epoxy resin with polymercaptan hardener",
+        "cureFamily": "Two-part quick-set epoxy",
+        "cureDetail": "Mix equal volumes. Gel/set time 5\u20137 minutes at 20\u201325\u00b0C; usable strength at 20 minutes; full cure 24 hours.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "fixtureTime": 20,
+        "lapShearSubstrate": "Tensile-shear values are for sandblasted cold-rolled steel at the stated cure times; 24 h value 22.14 MPa (3211 psi).",
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf",
@@ -68459,34 +68516,41 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-Instant-Mix-5-Minute-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-speed-set-instant-mix/SAP_0201OAL019U6.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -68508,15 +68572,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not for PE, PP, PTFE, nylon or flexible materials. TDS says it is not for continuously wet areas or water immersion."
       ],
       "extractionCandidates": []
     },
@@ -68609,25 +68672,35 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-express-wood-glue",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-express-wood-glue",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Express Wood Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "pvaWood",
+      "summary": "Quick-drying PVA wood glue for carpentry and cabinetmaking; the TDS specifies an 8-minute open time and 10-minute clamp time.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household and repair adhesives",
+      "referenceForJoining": "wood, paper, fabric, leather, cork",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Polyvinyl acetate (PVA), water-based",
+        "cureFamily": "PVA wood glue",
+        "cureDetail": "Above 3\u00b0C application. Maximum 8-minute open time; clamp at least 10 minutes; keep undisturbed overnight before finishing.",
+        "fixtureTime": 10,
+        "specificGravity": 1.1,
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf",
@@ -68635,34 +68708,41 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Express-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-express-wood-glue/SAP_0201FTL01EI4.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -68684,38 +68764,53 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not for gap-filling joints, nonporous plastic/metal bonds, direct water contact, or load-bearing structural applications."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-extreme-glue",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-extreme-glue",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Extreme Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "hybridRepair",
+      "summary": "Flexible, clear, water-resistant hybrid adhesive for varied household repairs; TDS includes tensile-shear results across multiple substrates.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household and repair adhesives",
+      "referenceForJoining": "wood, metal, glass, ceramic, plastic, fiberglass, fabric, paper, concrete, leather",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Silane moisture-curing polymer",
+        "cureFamily": "One-part flexible hybrid polymer adhesive",
+        "cureDetail": "8\u201315-minute open time, about 5 minutes repositioning, at least 30 minutes clamp/support and approximately 24 hours full cure.",
+        "serviceMin": -40,
+        "serviceMax": 80,
+        "fixtureTime": 30,
+        "lapShearSubstrate": "TDS tensile-shear values are 1-inch overlaps cured 7 days at 23\u00b0C; maple-to-maple 493 psi (3.40 MPa), maple-to-polycarbonate 473 psi (3.26 MPa), pine-to-pine 392 psi (2.70 MPa).",
+        "viscosityUnit": "cP",
+        "flashPointF": 150.8,
+        "specificGravity": 1.13,
+        "vocContentGPerL": 105,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf",
@@ -68723,36 +68818,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Extreme-glue-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-extreme-glue/SAP_0201OCL01BBV.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
-          "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -68772,38 +68875,50 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for PE, PP, PTFE, rigid polystyrene or direct food contact. Water-resistant but not for immersion. Test non-ferrous metals and coatings. Nonporous-to-nonporous joints require lightly dampening both faces; temperatures above 50\u00b0C can yellow the cured adhesive."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-multi-purpose-wood-glue",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-multi-purpose-white-glue",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Multi Purpose Wood Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "pvaWood",
+      "summary": "Water-based PVA glue for indoor woodworking and other porous materials; TDS gives ASTM D905 compression-shear results for several assemblies.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household and repair adhesives",
+      "referenceForJoining": "wood, paper, fabric, leather, cork, plastic",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Polyvinyl acetate (PVA), water-based",
+        "cureFamily": "PVA woodworking adhesive",
+        "cureDetail": "Apply above 15\u00b0C. TDS calls for at least 25 minutes clamping, 24 hours before loading, with strength continuing to develop for 7 days.",
+        "fixtureTime": 25,
+        "viscosityUnit": "cP",
+        "specificGravity": 1.08,
+        "vocContentGPerL": 4,
+        "shelfLifeMonths": 18,
+        "cureProfiles": 1440
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf",
@@ -68811,36 +68926,45 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Multi-Purpose-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-multi-purpose-wood-glue/SAP_0201FTL019I1.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [
           "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -68857,41 +68981,56 @@
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
+          "tackFreeTime"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for gap filling, bonding two nonporous materials, direct water exposure or load-bearing structural use."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-no-more-nails-all-purpose",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-no-more-nails-all-purpose",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage No More Nails All Purpose",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Water-based, high-initial-grab latex construction adhesive for interior porous-to-nonporous bonds; TDS specifies its vertical load limit.",
+      "applicationTags": [
+        "construction-adhesive",
+        "interior",
+        "latex"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Synthetic latex, water-based",
+        "cureFamily": "Latex construction adhesive",
+        "cureDetail": "15-minute open/reposition time at 25\u00b0C and 50% RH; initial dry about 12 hours; most applications reach full strength in 12 hours, but low-porosity joints may require 7 days or longer.",
+        "serviceMin": -18,
+        "serviceMax": 50,
+        "viscosityValue": 2000000,
+        "viscosityUnit": "cP",
+        "vocContentGPerL": 27,
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf",
@@ -68899,36 +69038,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-All-Purpose-No-More-Nails-Construction-Adhesive---Cartridge-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-no-more-nails-all-purpose/SAP_0201C2L019J4/variation/2048233.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -68948,15 +69095,15 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Interior use only; not for water immersion or continuously wet areas. At least one substrate must be porous. Not for PE, PP, PTFE, nylon, corroding metals, mirrors, natural marble or cement board.",
+        "For vertical bonds, TDS rates up to 10 g/cm\u00b2 (20 lb/ft\u00b2) on porous substrates; support heavier items."
       ],
       "extractionCandidates": []
     },
@@ -69041,25 +69188,42 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-pl-premium",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-pl-premium",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage PL Premium",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "One-part moisture-curing polyurethane construction adhesive for indoor/outdoor building bonds; current TDS includes ASTM and APA performance tests.",
+      "applicationTags": [
+        "construction-adhesive",
+        "subfloor",
+        "outdoor",
+        "polyurethane"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "One-part moisture-curing polyurethane",
+        "cureFamily": "Polyurethane construction adhesive",
+        "cureDetail": "15\u201320-minute open time; reposition 30\u201345 minutes; clamp/support for 24 hours; cure 24\u201348 hours at 25\u00b0C and 50% RH.",
+        "serviceMin": -40,
+        "serviceMax": 71,
+        "lapShearSubstrate": "Tensile-shear/lap-shear TDS values: Douglas Fir plywood to stainless steel, 4.1 MPa (590 psi), wood failure; to hot galvanized steel, 3.5 MPa (512 psi), wood failure.",
+        "viscosityValue": 555000,
+        "viscosityUnit": "cP",
+        "specificGravity": 1.3,
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf",
@@ -69067,36 +69231,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium/SAP_0201CRL019Q4.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -69116,38 +69288,54 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Avoid high-heat areas.",
+        "Cure is slower in cold or low-humidity conditions; foam insulation can cavitate if cure/surface temperature exceeds 32\u00b0C."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-pl-premium-fast-grab",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-pl-premium-fast-grab",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage PL Premium Fast Grab",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "Fast-grab one-part polyurethane construction adhesive for vertical and horizontal building materials, with substrate-specific TDS strength data.",
+      "applicationTags": [
+        "construction-adhesive",
+        "fast-grab",
+        "polyurethane"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "One-part moisture-curing polyurethane",
+        "cureFamily": "Fast-grab polyurethane construction adhesive",
+        "cureDetail": "20-minute open time; reposition 15\u201320 minutes; temporary mechanical support 24 hours; cure 24\u201348 hours at 25\u00b0C and 50% RH.",
+        "serviceMin": -18,
+        "serviceMax": 71,
+        "lapShearSubstrate": "Tensile-shear/lap-shear TDS values: Douglas Fir plywood to stainless steel, 5.4 MPa (777 psi), substrate failure; to hot galvanized steel, 4.6 MPa (665 psi), substrate failure.",
+        "viscosityValue": 1800000,
+        "viscosityUnit": "cP",
+        "specificGravity": 1.3,
+        "shelfLifeMonths": 12
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf",
@@ -69155,36 +69343,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-PL-Premium--Fast-Grab-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-fast-grab/SAP_0201CRL019P9.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -69204,38 +69400,53 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Vertical loads require permanent mechanical support.",
+        "Avoid high-heat areas; EPS/XPS foam can cavitate above 32\u00b0C during cure."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-pl-premium-max",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-pl-premium-max",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage PL Premium Max",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "hybridRepair",
+      "summary": "Silane-modified polymer construction adhesive for damp and dry surfaces and cold-weather work; current 2026 TDS publishes ASTM D3498 compression-shear data.",
+      "applicationTags": [
+        "construction-adhesive",
+        "outdoor",
+        "hybrid-polymer"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Silane-modified polymer, 100% solids after cure in typical ASTM D3498 conditions",
+        "cureFamily": "Silane-modified polymer construction adhesive",
+        "cureDetail": "20-minute open time; reposition 15 minutes; support 24\u201348 hours depending on project; cure 24\u201348 hours at 25\u00b0C and 50% RH.",
+        "serviceMin": -18,
+        "serviceMax": 71,
+        "viscosityValue": 1200000,
+        "viscosityUnit": "cP",
+        "flashPointF": 224.6,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf",
@@ -69243,36 +69454,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-PL-PREMIUM-MAX-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl-premium-max/SAP_0201CRL019P7.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -69292,15 +69511,15 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for marine or water-submersion use, flexible sheet goods, PE, PP, PTFE or flexible vinyl. Some rubbers, plastics and natural stones need testing. Avoid high-heat areas.",
+        "For dry lumber, 100% solids claim is stated for typical ASTM D3498 conditions; do not generalize to all joints."
       ],
       "extractionCandidates": []
     },
@@ -69481,25 +69700,40 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-pro-carpenter-s-wood-glue",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-pro-carpenters-glue",
+      "source": "manual-tds",
       "maker": "LePage",
-      "name": "LePage Pro Carpenter\u00e2\u20ac\u2122s Wood Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "name": "LePage Pro Carpenters Wood Glue",
+      "profile": "pvaWood",
+      "summary": "Interior aliphatic-resin PVA wood glue for tight-fitting carpentry and cabinet joints; TDS supplies assembly, cure, viscosity and storage data.",
+      "applicationTags": [
+        "woodworking",
+        "cabinetmaking",
+        "carpentry"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Polyvinyl acetate (PVA), aliphatic resin, water-based",
+        "cureFamily": "PVA woodworking adhesive",
+        "cureDetail": "Maximum 5-minute open time; clamp for at least 25 minutes; leave undisturbed overnight before finishing. Dry time is 24 hours at 25\u00b0C and 50% RH; strength continues to develop for 7 days.",
+        "fixtureTime": 25,
+        "viscosityUnit": "cP",
+        "specificGravity": 1.08,
+        "vocContentGPerL": 4,
+        "shelfLifeMonths": 18,
+        "cureProfiles": 1440
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf",
@@ -69507,36 +69741,45 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Carpenters-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [
           "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -69553,18 +69796,18 @@
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
+          "tackFreeTime"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Interior wood adhesive; not for gaps, direct water exposure, nonporous-to-nonporous bonds or load-bearing structural applications. Use the outdoor wood-glue product where water resistance is required."
       ],
       "extractionCandidates": []
     },

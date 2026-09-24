@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:52:10.687646+00:00",
+  "generatedAt": "2026-09-24T04:00:19.400282+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1724,
-    "manualTdsProducts": 649,
+    "products": 1715,
+    "manualTdsProducts": 650,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 640,
+    "officialManufacturerLeads": 630,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -512,19 +512,17 @@
       "E6000": [
         "e6000-fabri-fuse",
         "e6000-industrial",
+        "e6000-plus",
         "e6000-premium",
         "e6000-spray-adhesive",
         "e6100-industrial-clear",
         "e6800-industrial-clear",
         "official-lead-e6000-e6000-fray-lock",
-        "official-lead-e6000-e6000-industrial-adhesive",
         "official-lead-e6000-e6000-jewelry-bead",
         "official-lead-e6000-e6000-premium-automotive",
         "official-lead-e6000-e6000-premium-jewelry-bead",
         "official-lead-e6000-e6000-premium-with-precision-tips",
         "official-lead-e6000-e6000-with-precision-tips",
-        "official-lead-e6000-e6100-industrial-adhesive",
-        "official-lead-e6000-e6800-industrial-adhesive",
         "official-lead-e6000-extreme-tack"
       ],
       "EPDM Rubber": [
@@ -757,10 +755,7 @@
         "loctite-pl-premium-construction-adhesive",
         "loctite-power-grab-ultimate-crystal-clear",
         "loctite-si595",
-        "loctite-super-glue-ultra-gel-control",
-        "official-lead-henkel-loctite-loctite-clear-epoxy",
-        "official-lead-henkel-loctite-loctite-epoxy-instant-mix-5min",
-        "official-lead-henkel-loctite-loctite-super-glue-ultra-gel-control"
+        "loctite-super-glue-ultra-gel-control"
       ],
       "High Locking Strength": [
         "mc-high_locking_strength_high_locking_strength"
@@ -1804,8 +1799,6 @@
         "official-lead-threebond-tb1225c",
         "official-lead-threebond-tb1281b",
         "official-lead-threebond-tb1305n",
-        "official-lead-threebond-tb1324",
-        "official-lead-threebond-tb1401",
         "official-lead-threebond-tb1401b",
         "official-lead-threebond-tb1401c",
         "official-lead-threebond-tb1530b",
@@ -1815,7 +1808,6 @@
         "official-lead-threebond-tb1533c",
         "official-lead-threebond-tb1533d",
         "official-lead-threebond-tb1533f",
-        "official-lead-threebond-tb1703",
         "official-lead-threebond-tb1741f",
         "official-lead-threebond-tb1747b",
         "official-lead-threebond-tb1747c",
@@ -1831,7 +1823,6 @@
         "official-lead-threebond-tb3303n",
         "official-lead-threebond-tb3315e",
         "official-lead-threebond-tb3373c",
-        "official-lead-threebond-tb3923-28",
         "official-lead-threebond-tb6658c",
         "official-lead-threebond-tb7721a",
         "official-lead-threebond-tb7789a",
@@ -2834,6 +2825,7 @@
         "bostik-blu-tack-white",
         "dap-weldwood-multi-purpose-spray-adhesive",
         "e6000-fabri-fuse",
+        "e6000-plus",
         "elmers-glue-all-multipurpose",
         "elmers-liquid-school-glue-white"
       ],
@@ -3602,6 +3594,7 @@
         "barge-all-purpose-original-cement",
         "barge-all-purpose-tf-cement",
         "e6000-fabri-fuse",
+        "e6000-plus",
         "loctite-480",
         "rh-adhesives-hh-66-toluene-free-vinyl-cement",
         "rh-adhesives-hh-66-vinyl-cement",
@@ -3790,6 +3783,7 @@
         "dap-rapidfuse-ultra-clear",
         "digiwave-dga6129",
         "e6000-industrial",
+        "e6000-plus",
         "e6000-premium",
         "e6100-industrial-clear",
         "e6800-industrial-clear",
@@ -5389,6 +5383,7 @@
         "threebond-tb1655d20t"
       ],
       "outdoor": [
+        "e6000-plus",
         "e6800-industrial-clear",
         "lepage-pl-premium",
         "lepage-pl-premium-max"
@@ -7567,6 +7562,7 @@
         "3m-neoprene-rubber-gasket-adhesive-1300-1300l",
         "bsi-ic-gel",
         "bsi-super-gold",
+        "e6000-plus",
         "gorilla-glue-2-part-epoxy",
         "gorilla-wood-glue",
         "itw-devcon-14310-2-ton-epoxy",
@@ -7823,8 +7819,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 640,
-      "official-tds-url": 376,
+      "official-manufacturer-lead": 630,
+      "official-tds-url": 377,
       "product-or-catalog-page": 191
     }
   },
@@ -34295,7 +34291,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://casewayproducts.com/content/TDS/SC-325%20TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://casewayproducts.com/content/TDS/SC-325%20TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -38134,7 +38130,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/media/3657/dap-3-0-adv-wds-sealant-white_tds_7-24-19-final.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.dap.com/media/3657/dap-3-0-adv-wds-sealant-white_tds_7-24-19-final.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dap-3-0-advanced-window-door-siding-trim-sealant.txt",
@@ -38535,7 +38531,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/media/23571/dynaflex-230-white-colors_tds_2-9-19.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.dap.com/media/23571/dynaflex-230-white-colors_tds_2-9-19.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dap-dynaflex-230.txt",
@@ -45485,163 +45481,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "e6000-industrial",
-      "source": "manual-tds",
-      "maker": "E6000",
-      "name": "E6000",
-      "profile": "industrialClear",
-      "summary": "Flexible self-leveling industrial contact-style adhesive for difficult mixed-material repairs that need vibration tolerance and broad substrate compatibility.",
-      "applicationTags": [
-        "general-repair"
-      ],
-      "referenceCategory": "Industrial Adhesives",
-      "referenceForJoining": "Wood, metal, glass, fiberglass, ceramics, masonry, concrete, leather, rubber, PVC, vinyl and many plastics",
-      "electricalBehaviorClass": "insulating",
-      "specs": {
-        "cureFamily": "Industrial adhesive",
-        "cureDetail": "One-part self-leveling industrial adhesive; air-dry / solvent-evaporation cure",
-        "serviceMin": -40,
-        "serviceMax": 82,
-        "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 82 \u00b0C intermittently; this is not a continuous service rating. Ideal application temperature is 10 to 32 \u00b0C.",
-        "potLife": 4,
-        "fixtureTime": 20,
-        "viscosityClass": "high",
-        "viscosityValue": "50000-200000",
-        "viscosityUnit": "cP",
-        "clarity": "transparent",
-        "electricalBehavior": "insulating",
-        "dielectricBreakdownKVPerMm": 15.75,
-        "tensileStrengthMPa": 24.13,
-        "elongationPct": 900,
-        "hardnessValue": 80,
-        "hardnessScale": "Shore A",
-        "peelStrengthNPerM": [
-          5954,
-          7881
-        ],
-        "tensileStrengthPsi": 3500,
-        "dielectricBreakdownVPerMil": 400,
-        "tackFreeTime": 4,
-        "cureProfiles": [
-          {
-            "minutes": 1440,
-            "context": "thin film full cure"
-          },
-          {
-            "minutes": [
-              2880,
-              4320
-            ],
-            "context": "thick film or maximum bond strength"
-          }
-        ]
-      },
-      "rankableSpecs": {
-        "dielectricBreakdownKVPerMm": 15.75,
-        "tensileStrengthMPa": 24.13,
-        "elongationPct": 900,
-        "hardnessValue": 80,
-        "peelStrengthNPerM": [
-          5954,
-          7881
-        ]
-      },
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://eclecticproducts.com/downloads/tds-e6000-industrial-english-clear-us_ca.pdf",
-        "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
-        "productUrl": null,
-        "sourceLabel": null,
-        "tdsCacheTextPath": "data/tds-cache/e6000-industrial.txt",
-        "sourceQuality": "cached-official-tds-text",
-        "tdsDocuments": [
-          {
-            "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
-            "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 6 (English)"
-          },
-          {
-            "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
-            "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u2013 REV 3 (English)"
-          },
-          {
-            "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
-            "label": "E6000 Industrial Technical Data Sheet"
-          }
-        ],
-        "tdsUrls": [
-          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
-          "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf"
-        ],
-        "technicalDocuments": [],
-        "officialProductUrls": [
-          "https://eclecticproducts.com/product/e6000-industrial-adhesive/"
-        ]
-      },
-      "coverage": {
-        "decision": 1.0,
-        "electronics": 1.0,
-        "decisionValueCoverage": 0.818,
-        "electronicsValueCoverage": 0.6,
-        "decisionFieldsPresent": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "viscosityClass",
-          "clarity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsPresent": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsMissing": [],
-        "electronicsFieldsMissing": [],
-        "decisionFieldsVerifiedAbsent": [
-          "lapShear",
-          "thermalConductivity"
-        ],
-        "electronicsFieldsVerifiedAbsent": [
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "chipBondStrengthMPa",
-          "cureDepthMm"
-        ],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [
-          "connectionResistanceOhm"
-        ],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": [
-          "cureProfiles"
-        ]
-      },
-      "agentNotes": [
-        "Verified absent from available TDS fields: lapShear, thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, chipBondStrengthMPa",
-        "Not applicable to this product/behavior: connectionResistanceOhm",
-        "Official E6000 Industrial TDS publishes tensile strength and 180-degree peel strength, not lap-shear strength; do not enter the 3500 psi tensile value as lapShear.",
-        "Official TDS does not publish thermal conductivity.",
-        "Paint over after curing for direct-sunlight exposure or switch to the UV-stable E6800 variant."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "e6000-fabri-fuse",
       "source": "manual-tds",
       "maker": "E6000",
@@ -45852,32 +45691,82 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-e6000-e6000-industrial-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "e6000-industrial",
+      "source": "manual-tds",
       "maker": "E6000",
       "name": "E6000 Industrial Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "profile": "industrialClear",
+      "summary": "Flexible, self-leveling solvent-based adhesive for repairs across metal, wood, glass, ceramics, rubber, PVC, masonry, leather and other substrates; cures by solvent evaporation.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Industrial Adhesives",
+      "referenceForJoining": "Wood, metal, glass, fiberglass, ceramics, masonry, concrete, leather, rubber, PVC, vinyl and many plastics",
+      "electricalBehaviorClass": "insulating",
+      "specs": {
+        "chemistry": "Solvent-based flexible industrial adhesive; TDS lists toluene and petroleum distillates.",
+        "cureFamily": "Industrial adhesive",
+        "cureDetail": "One-part self-leveling industrial adhesive; air-dry / solvent-evaporation cure",
+        "serviceMin": -40,
+        "serviceMax": 82,
+        "serviceTemperatureNote": "Fully cured material withstands -40 to 82 \u00b0C intermittently per current Rev 3 TDS; not a continuous service rating.",
+        "fixtureTime": 45,
+        "lapShear": 1.45,
+        "lapShearSubstrate": "ASTM D1002/3163: metal 210 psi (about 1.45 MPa); TDS lists additional substrate-specific values in psi.",
+        "lapShearProfilesMPa": {
+          "metal": 1.45,
+          "wood": 1.38,
+          "copper": 1.03,
+          "polymerClay": 0.21,
+          "laminate": 0.48,
+          "plastics": 0.55,
+          "fiberglass": 0.69,
+          "pvc": 0.69
+        },
+        "viscosityClass": "high",
+        "viscosityValue": "Low 50,000; medium 100,000; high 200,000 cP",
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "electricalBehavior": "insulating",
+        "dielectricBreakdownKVPerMm": 15.75,
+        "tensileStrengthMPa": 13.79,
+        "elongationPct": 1100,
+        "hardnessValue": 80,
+        "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 2000,
+        "dielectricBreakdownVPerMil": 400,
+        "specificGravity": 0.887,
+        "tackFreeTime": 2,
+        "cureProfiles": [
+          {
+            "minutes": 1440,
+            "context": "thin film full cure"
+          },
+          {
+            "minutes": [
+              2880,
+              4320
+            ],
+            "context": "thick film or maximum bond strength"
+          }
+        ]
+      },
+      "rankableSpecs": {
+        "lapShear": 1.45,
+        "dielectricBreakdownKVPerMm": 15.75,
+        "tensileStrengthMPa": 13.79,
+        "elongationPct": 1100,
+        "hardnessValue": 80
+      },
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
-        "tdsUrl": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
-        "tdsUrls": [
-          "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf"
-        ],
+        "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
+        "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": "data/tds-cache/e6000-industrial.txt",
+        "sourceQuality": "cached-official-tds-text",
         "tdsDocuments": [
-          {
-            "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
-            "label": "E6000 Industrial Technical Data Sheet"
-          },
           {
             "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
             "label": "E6 Craft TDS US CAN MEX ME AU NZ_REV 6 (English)"
@@ -45885,66 +45774,86 @@
           {
             "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
             "label": "E6000 Industrial Clr_Blk US CAN MEX TDS \u00e2\u20ac\u201c REV 3 (English)"
+          },
+          {
+            "url": "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf",
+            "label": "E6000 Industrial Technical Data Sheet"
           }
         ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://eclecticproducts.com/product/e6000-industrial-adhesive/",
-        "sourceLabel": "E6000 official product page",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "tdsUrls": [
+          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-6.pdf",
+          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
+          "https://eclecticproducts.com/downloads/tds/e6000-industrial-clear-black-us-can-mex-tds-rev-3.pdf"
+        ],
+        "officialProductUrls": [
+          "https://eclecticproducts.com/product/e6000-industrial-adhesive/"
+        ],
+        "technicalDocuments": []
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 0.95,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.55,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
           "fixtureTime",
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
           "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsMissing": [
+          "potLife"
+        ],
+        "electronicsFieldsMissing": [
+          "peelStrengthNPerM"
+        ],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "chipBondStrengthMPa",
+          "cureDepthMm"
+        ],
         "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "connectionResistanceOhm"
+        ],
         "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: potLife",
+        "Missing electronics fields: peelStrengthNPerM",
+        "Verified absent from available TDS fields: thermalConductivity, volumeResistivityOhmM, surfaceResistivityOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, chipBondStrengthMPa, cureDepthMm",
+        "Not applicable to this product/behavior: connectionResistanceOhm",
+        "TDS tensile strength and substrate-specific lap-shear/peel results are distinct test methods; do not interchange them.",
+        "Fully cured temperature range -40 to 82 \u00b0C is intermittent only.",
+        "Avoid direct sunlight unless painted over after cure; E6800 is the manufacturer\u2019s UV formula."
       ],
       "extractionCandidates": []
     },
@@ -46042,6 +45951,115 @@
       },
       "agentNotes": [
         "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "e6000-plus",
+      "source": "manual-tds",
+      "maker": "E6000",
+      "name": "E6000 Plus Adhesive",
+      "profile": "industrialClear",
+      "summary": "Low-odor, solvent-free flexible clear adhesive for indoor/outdoor craft and repair; waterproof, UV-resistant and washer/dryer safe.",
+      "applicationTags": [
+        "general-repair",
+        "craft",
+        "flexible-bond",
+        "water-resistant",
+        "outdoor"
+      ],
+      "referenceCategory": "Industrial and craft adhesives",
+      "referenceForJoining": "Wood, glass, fabric, ceramic, gems, metals, marble, fiberglass, concrete and many plastics.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Premium polymer technology; TDS describes product as solvent-free.",
+        "cureFamily": "Flexible industrial/craft adhesive",
+        "cureDetail": "One-part self-leveling adhesive; 25-minute working time; full cure 24 h, with up to 72 h for maximum bond strength depending on substrates and temperature.",
+        "serviceMin": -40,
+        "serviceMax": 93,
+        "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 93 \u00b0C intermittently; this is not a continuous service rating.",
+        "potLife": 25,
+        "fixtureTime": "30-55 min tack-free",
+        "viscosityClass": "medium",
+        "viscosityValue": "25,000-42,000 cP at 11/s shear rate",
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "elongationPct": 325,
+        "hardnessValue": 25,
+        "hardnessScale": "Shore A",
+        "specificGravity": 1.07,
+        "tackFreeTime": 42.5
+      },
+      "rankableSpecs": {
+        "elongationPct": 325,
+        "hardnessValue": 25
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf",
+        "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.3,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "tackFreeTime"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "No lap-shear strength or thermal conductivity is published in this TDS.",
+        "Temperature range is intermittent, not continuous.",
+        "Not recommended for acrylic, vinyl, foam, polyethylene or polypropylene."
       ],
       "extractionCandidates": []
     },
@@ -46668,103 +46686,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-e6000-e6100-industrial-adhesive",
-      "source": "official-manufacturer-lead",
-      "maker": "E6000",
-      "name": "E6100 Industrial Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
-        "tdsUrl": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
-        "tdsUrls": [
-          "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
-            "label": "E6100 Industrial Technical Data Sheet"
-          },
-          {
-            "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
-            "label": "E6100 Industrial Black Gray White US CAN MEX TDS 5.23.19 (English)"
-          },
-          {
-            "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
-            "label": "E6100 Industrial Clear USA CAN TDS 5.23.19 (English)"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://eclecticproducts.com/product/e6100-industrial-adhesive/",
-        "sourceLabel": "E6000 official product page",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "e6100-industrial-clear",
       "source": "manual-tds",
       "maker": "E6000",
@@ -46822,11 +46743,33 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-tds-url"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
+            "label": "E6100 Industrial Technical Data Sheet"
+          },
+          {
+            "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
+            "label": "E6100 Industrial Black Gray White US CAN MEX TDS 5.23.19 (English)"
+          },
+          {
+            "url": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+            "label": "E6100 Industrial Clear USA CAN TDS 5.23.19 (English)"
+          }
+        ],
+        "tdsUrls": [
+          "https://eclecticproducts.com/downloads/tds/e6100-industrial-black-gray-white-us-can-mex-tds-5-23-19.pdf",
+          "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Black-Gray-White-US-CAN-MEX-TDS-5.23.19.pdf",
+          "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf"
+        ],
+        "officialProductUrls": [
+          "https://eclecticproducts.com/product/e6100-industrial-adhesive/"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -46894,103 +46837,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-e6000-e6800-industrial-adhesive",
-      "source": "official-manufacturer-lead",
-      "maker": "E6000",
-      "name": "E6800 Industrial Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
-        "tdsUrl": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
-        "tdsUrls": [
-          "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
-          "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
-            "label": "E6800 Industrial Technical Data Sheet"
-          },
-          {
-            "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
-            "label": "E6800 Industrial Clear USA TDS REV 2 (English)"
-          },
-          {
-            "label": "E6800 Industrial Technical Data Sheet (Rev 1)",
-            "url": "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
-        "sourceLabel": "E6000 official product page",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "e6800-industrial-clear",
       "source": "manual-tds",
       "maker": "E6000",
@@ -47050,11 +46896,33 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
         "productUrl": "https://eclecticproducts.com/product/e6800-industrial-adhesive/",
         "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-tds-url"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
+            "label": "E6800 Industrial Technical Data Sheet"
+          },
+          {
+            "url": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+            "label": "E6800 Industrial Clear USA TDS REV 2 (English)"
+          },
+          {
+            "label": "E6800 Industrial Technical Data Sheet (Rev 1)",
+            "url": "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
+          }
+        ],
+        "tdsUrls": [
+          "https://eclecticproducts.com/downloads/tds/e6800-industrial-clear-usa-tds-rev-2.pdf",
+          "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+          "https://eclecticproducts.com/wp-content/uploads/2024/12/E6800-Industrial-Clear-USA-TDS_REV-1.pdf"
+        ],
+        "officialProductUrls": [
+          "https://eclecticproducts.com/product/e6800-industrial-adhesive/"
+        ]
       },
       "coverage": {
         "decision": 0.909,
@@ -52055,7 +51923,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-301.txt",
@@ -52285,7 +52153,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/730.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.epotek.com/docs/en/Datasheet/730.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-730.txt",
@@ -52423,7 +52291,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-h20e.txt",
@@ -52668,7 +52536,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/ce58ekmfmxrh7jur5ixxn0glqwwyyo6e/med-353nd.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/ce58ekmfmxrh7jur5ixxn0glqwwyyo6e/med-353nd.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-353nd.txt",
@@ -52900,7 +52768,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-og198-54.txt",
@@ -60174,7 +60042,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Glue-TDS_Sept-2016-Europe.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Glue-TDS_Sept-2016-Europe.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gorilla-glue-original-polyurethane.txt",
@@ -60484,7 +60352,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -60689,7 +60557,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/loctite-243.txt",
@@ -60901,7 +60769,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/loctite-aa3492.txt",
@@ -61003,11 +60871,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
         "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
         "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-tds-url"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
+            "label": "LOCTITE\u00ae Epoxy Clear\u2122 Multi-Purpose en_US | application/pdf"
+          }
+        ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html"
+        ]
       },
       "coverage": {
         "decision": 0.909,
@@ -61103,11 +60983,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
         "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
         "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-tds-url"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
+            "label": "LOCTITE\u00ae Instant Mix 5 Minute Epoxy en_US | application/pdf"
+          }
+        ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html"
+        ]
       },
       "coverage": {
         "decision": 0.818,
@@ -61204,7 +61096,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4070-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4070-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/loctite-hy4070.txt",
@@ -61734,7 +61626,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -61853,7 +61745,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -61973,7 +61865,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62141,7 +62033,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -62265,7 +62157,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -63725,93 +63617,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-clear-epoxy",
-      "source": "official-manufacturer-lead",
-      "maker": "Henkel Loctite",
-      "name": "Loctite Clear Epoxy",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
-        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
-            "label": "LOCTITE\u00ae Epoxy Clear\u2122 Multi-Purpose en_US | application/pdf"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "loctite-clear-silicone-waterproof-sealant",
       "source": "manual-tds",
       "maker": "Henkel Loctite",
@@ -64046,93 +63851,6 @@
         "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
         "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
         "Do not expose to prolonged water immersion or continuously wet areas; not for potable-water systems."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-henkel-loctite-loctite-epoxy-instant-mix-5min",
-      "source": "official-manufacturer-lead",
-      "maker": "Henkel Loctite",
-      "name": "Loctite Epoxy Instant Mix 5MIN",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
-        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
-            "label": "LOCTITE\u00ae Instant Mix 5 Minute Epoxy en_US | application/pdf"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -64934,93 +64652,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-super-glue-ultra-gel-control",
-      "source": "official-manufacturer-lead",
-      "maker": "Henkel Loctite",
-      "name": "Loctite Super Glue Ultra Gel Control",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html",
-        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
-            "label": "LOCTITE Super Glue Ultra Gel Control Technical Data Sheet"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html",
-        "sourceLabel": "Loctite consumer products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "loctite-si595",
       "source": "manual-tds",
       "maker": "Henkel Loctite",
@@ -65086,7 +64717,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-595-en_GL.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-595-en_GL.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/loctite-si595.txt",
@@ -65191,11 +64822,23 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
         "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html",
         "sourceLabel": null,
         "tdsCacheTextPath": null,
-        "sourceQuality": "official-tds-url"
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
+            "label": "LOCTITE Super Glue Ultra Gel Control Technical Data Sheet"
+          }
+        ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
+        ]
       },
       "coverage": {
         "decision": 0.636,
@@ -66818,7 +66461,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.itwppfasia.com/en/webroot/upload/20200928/Devcon-Devcon-2-Ton-Epoxy-EN-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.itwppfasia.com/en/webroot/upload/20200928/Devcon-Devcon-2-Ton-Epoxy-EN-TDS.pdf",
         "productUrl": "https://itwperformancepolymers.com/products/devcon/adhesives-sealants/devcon-2-ton-epoxy",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/itw-devcon-14310-2-ton-epoxy.txt",
@@ -66940,7 +66583,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/HP-250-TDS-v3-.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/HP-250-TDS-v3-.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -103628,7 +103271,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/07/WELD-ON-16-DCM-TDS_05.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/07/WELD-ON-16-DCM-TDS_05.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weldon-16-dcm-tce-free.txt",
@@ -103787,7 +103430,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_1802_TDS_0120.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_1802_TDS_0120.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -103939,7 +103582,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.tapplastics.com/image/catalog/pdf/Weld-On-2354-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.tapplastics.com/image/catalog/pdf/Weld-On-2354-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -104060,7 +103703,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chemical-concepts.com/wp-content/uploads/2025/07/Weld-On-3-DCM-Free-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chemical-concepts.com/wp-content/uploads/2025/07/Weld-On-3-DCM-Free-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weldon-3-dcm-tce-free.txt",
@@ -104202,7 +103845,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/11/ips_weld-on_40_TDS_1022_R.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/11/ips_weld-on_40_TDS_1022_R.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weldon-40.txt",
@@ -104327,7 +103970,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://plastic-craft.com/content/TDS/Weld-On/ips_weld-on_4007_TDS_0120.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://plastic-craft.com/content/TDS/Weld-On/ips_weld-on_4007_TDS_0120.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weldon-4007.txt",
@@ -104486,7 +104129,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/vinyls-pvc-cpvc/ips_weld-on_4052_TDS_0120.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/vinyls-pvc-cpvc/ips_weld-on_4052_TDS_0120.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -104615,7 +104258,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_4SC_TDS_0120.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_4SC_TDS_0120.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -104760,7 +104403,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/polycarbonate/ips_weld-on_55_TDS_0120.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/polycarbonate/ips_weld-on_55_TDS_0120.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -110367,7 +110010,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL163_Datasheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL163_Datasheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/penchem-gl163-structural-epoxy.txt",
@@ -110494,7 +110137,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL311_Datasheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL311_Datasheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/penchem-gl311-1-structural-epoxy.txt",
@@ -140317,7 +139960,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/umb/1165/ma1025-data-sheet_rev09.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/umb/1165/ma1025-data-sheet_rev09.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma1025.txt",
@@ -140588,7 +140231,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA300-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA300-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma300.txt",
@@ -140725,7 +140368,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA310-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA310-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma310.txt",
@@ -140896,7 +140539,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA425-TDS-09082025.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA425-TDS-09082025.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma425.txt",
@@ -141027,7 +140670,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA560-1-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA560-1-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma560-1.txt",
@@ -141167,7 +140810,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8105_GB-TDS_EN.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8105_GB-TDS_EN.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma8105-gb.txt",
@@ -141445,7 +141088,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8120_GB-TDS_EN.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8120_GB-TDS_EN.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma8120-gb.txt",
@@ -141603,7 +141246,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA832-TDS-.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA832-TDS-.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma832.txt",
@@ -156943,11 +156586,37 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1324.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
+            "label": "TB1324 \u2013 ANAEROBIC SEALANT",
+            "productCodeInTds": "TB1324",
+            "catalogNameAliases": [],
+            "documentType": "TDS",
+            "sourcePageUrl": "https://threebond.com/download/threebond-1324-anaerobic-sealant",
+            "documentRevision": "0.1",
+            "issuedDate": "6/17/03",
+            "documentControlNumber": "3-TB-20-0862",
+            "pageCount": 2,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Property Units Value | Appearance - Red Liquid | Viscosity mPa \u2022 s (cP) 650 (650) | Specific gravity - 1.13",
+              "viscosity": "Appearance - Red Liquid | Viscosity mPa \u2022 s (cP) 650 (650) | Specific gravity - 1.13 | 2. Cured Material",
+              "curingSpeed": "Properties Units Value | Workable 2 Curing Speed Final Hours 24 | 80\u00b0C 30 | 100\u00b0C 20 Curing Time"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf"
+        ],
+        "officialProductUrls": [
+          "https://threebond.com/download/threebond-1324-anaerobic-sealant"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -157068,11 +156737,37 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1401.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
+            "label": "TB1401 \u2013 THREAD LOCK",
+            "productCodeInTds": "TB1401",
+            "catalogNameAliases": [],
+            "documentType": "TDS",
+            "sourcePageUrl": "https://threebond.com/download/threebond-1401-threadlock",
+            "documentRevision": "0.2",
+            "issuedDate": "4/15/02",
+            "documentControlNumber": "3-TB-20-0484",
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Item Unit Value | Appearance - Transparent | Viscosity mPa{cP} 350{350} | Specific Gravity - 0.88",
+              "viscosity": "Appearance - Transparent | Viscosity mPa{cP} 350{350} | Specific Gravity - 0.88 | 2. Curing speed",
+              "curingSpeed": "Specific Gravity - 0.88 | 2. Curing speed | Property Units Value | 1 day 0.8{8}"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf"
+        ],
+        "officialProductUrls": [
+          "https://threebond.com/download/threebond-1401-threadlock"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -157542,11 +157237,36 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1703.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
+            "label": "TB 1703 \u2013 CYANOACRYLATE ADHESIVE",
+            "productCodeInTds": "TB1703",
+            "catalogNameAliases": [],
+            "documentType": "TDS",
+            "sourcePageUrl": "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive",
+            "documentRevision": "0.1",
+            "issuedDate": null,
+            "documentControlNumber": null,
+            "pageCount": 1,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Properties Units Value | Appearance - Transparent liquid | Viscosity (@ 25\u00b0C) mPa\u2022s {cP} 100 {100} | Specific gravity (@ 25\u00b0C) - 1.10",
+              "viscosity": "Appearance - Transparent liquid | Viscosity (@ 25\u00b0C) mPa\u2022s {cP} 100 {100} | Specific gravity (@ 25\u00b0C) - 1.10 | Solubility - Acetone, MEK, Nitromethane"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf"
+        ],
+        "officialProductUrls": [
+          "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -161707,107 +161427,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-threebond-tb1324",
-      "source": "official-manufacturer-lead",
-      "maker": "ThreeBond",
-      "name": "TB1324",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://threebond.com/download/threebond-1324-anaerobic-sealant",
-        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
-        "tdsUrls": [
-          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
-            "label": "TB1324 \u2013 ANAEROBIC SEALANT",
-            "productCodeInTds": "TB1324",
-            "catalogNameAliases": [],
-            "documentType": "TDS",
-            "sourcePageUrl": "https://threebond.com/download/threebond-1324-anaerobic-sealant",
-            "documentRevision": "0.1",
-            "issuedDate": "6/17/03",
-            "documentControlNumber": "3-TB-20-0862",
-            "pageCount": 2,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Property Units Value | Appearance - Red Liquid | Viscosity mPa \u2022 s (cP) 650 (650) | Specific gravity - 1.13",
-              "viscosity": "Appearance - Red Liquid | Viscosity mPa \u2022 s (cP) 650 (650) | Specific gravity - 1.13 | 2. Cured Material",
-              "curingSpeed": "Properties Units Value | Workable 2 Curing Speed Final Hours 24 | 80\u00b0C 30 | 100\u00b0C 20 Curing Time"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://threebond.com/download/threebond-1324-anaerobic-sealant",
-        "sourceLabel": "ThreeBond technical data sheets",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "threebond-tb1342",
       "source": "manual-tds",
       "maker": "ThreeBond",
@@ -162731,107 +162350,6 @@
         "This is a primer/curing accelerator for anaerobic sealants, not a standalone structural adhesive.",
         "Published lap shear, fitted bonding strength and set time are measured with TB1359D on Fe.",
         "Flammable; keep away from fire."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-threebond-tb1401",
-      "source": "official-manufacturer-lead",
-      "maker": "ThreeBond",
-      "name": "TB1401",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://threebond.com/download/threebond-1401-threadlock",
-        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
-        "tdsUrls": [
-          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
-            "label": "TB1401 \u2013 THREAD LOCK",
-            "productCodeInTds": "TB1401",
-            "catalogNameAliases": [],
-            "documentType": "TDS",
-            "sourcePageUrl": "https://threebond.com/download/threebond-1401-threadlock",
-            "documentRevision": "0.2",
-            "issuedDate": "4/15/02",
-            "documentControlNumber": "3-TB-20-0484",
-            "pageCount": 1,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Item Unit Value | Appearance - Transparent | Viscosity mPa{cP} 350{350} | Specific Gravity - 0.88",
-              "viscosity": "Appearance - Transparent | Viscosity mPa{cP} 350{350} | Specific Gravity - 0.88 | 2. Curing speed",
-              "curingSpeed": "Specific Gravity - 0.88 | 2. Curing speed | Property Units Value | 1 day 0.8{8}"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://threebond.com/download/threebond-1401-threadlock",
-        "sourceLabel": "ThreeBond technical data sheets",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -164627,106 +164145,6 @@
         "If the adhesive layer is heated to 25 C or more before peeling the liner, the adhesive may adhere to the release liner and become difficult to peel.",
         "Transfer, bonding and curing conditions can vary considerably with substrate material and size.",
         "Some gas may be generated during operation and curing; forcibly ventilate the work and curing areas."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-threebond-tb1703",
-      "source": "official-manufacturer-lead",
-      "maker": "ThreeBond",
-      "name": "TB1703",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive",
-        "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
-        "tdsUrls": [
-          "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
-            "label": "TB 1703 \u2013 CYANOACRYLATE ADHESIVE",
-            "productCodeInTds": "TB1703",
-            "catalogNameAliases": [],
-            "documentType": "TDS",
-            "sourcePageUrl": "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive",
-            "documentRevision": "0.1",
-            "issuedDate": null,
-            "documentControlNumber": null,
-            "pageCount": 1,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Properties Units Value | Appearance - Transparent liquid | Viscosity (@ 25\u00b0C) mPa\u2022s {cP} 100 {100} | Specific gravity (@ 25\u00b0C) - 1.10",
-              "viscosity": "Appearance - Transparent liquid | Viscosity (@ 25\u00b0C) mPa\u2022s {cP} 100 {100} | Specific gravity (@ 25\u00b0C) - 1.10 | Solubility - Acetone, MEK, Nitromethane"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://threebond.com/download/threebond-1703-cyanoacrylate-adhesive",
-        "sourceLabel": "ThreeBond technical data sheets",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -175102,11 +174520,38 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb3923-3928.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
+            "label": "TB3923/TB3928 Structural Acrylic Adhesive",
+            "productCodeInTds": "TB3923/TB3928",
+            "catalogNameAliases": [],
+            "documentType": "TDS",
+            "sourcePageUrl": "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive",
+            "documentRevision": "0.0",
+            "issuedDate": "2/4/03",
+            "documentControlNumber": "3-TB-20-1026",
+            "pageCount": 3,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Property Units TB 3923 TB 3928 | Appearance - Light White Dark Green | Viscosity mPa s (cP) 3000 (3000) 3000 (3000) | Specific gravity - 1.0 1.0",
+              "viscosity": "Appearance - Light White Dark Green | Viscosity mPa s (cP) 3000 (3000) 3000 (3000) | Specific gravity - 1.0 1.0 | Non-Volatile % 100 100",
+              "lapShear": "2. Hardening Characteristics | Hardening Time (Minute) Lap Shear Strength (N/cm 2 (kgf/cm2)) | 15 220(22) | 20 640 (65)",
+              "tensileStrength": "Information | TB 3923/TB 3928 has an excellent bonding strength, high tensile strength, peel resistance and | impact bonding is higher than general epoxy adhesive. It is easy to use, hardens by coating one | surface with TB3923 and another surface with TB3928 then press together."
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf"
+        ],
+        "officialProductUrls": [
+          "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive"
+        ]
       },
       "coverage": {
         "decision": 1.0,
@@ -175167,108 +174612,6 @@
         "Apply TB3923 to one surface and TB3928 to the other unless intentionally pre-mixing; pre-mixed pot life is short.",
         "The TDS reports hairline cracking on PC and acrylic in the plastic-effect test.",
         "Thermal shear strength at 120 C and 150 C is much lower than room-temperature lap shear despite good 30-day thermal aging recovery values."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-threebond-tb3923-28",
-      "source": "official-manufacturer-lead",
-      "maker": "ThreeBond",
-      "name": "TB3923/28",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive",
-        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
-        "tdsUrls": [
-          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
-            "label": "TB3923/TB3928 Structural Acrylic Adhesive",
-            "productCodeInTds": "TB3923/TB3928",
-            "catalogNameAliases": [],
-            "documentType": "TDS",
-            "sourcePageUrl": "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive",
-            "documentRevision": "0.0",
-            "issuedDate": "2/4/03",
-            "documentControlNumber": "3-TB-20-1026",
-            "pageCount": 3,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Property Units TB 3923 TB 3928 | Appearance - Light White Dark Green | Viscosity mPa s (cP) 3000 (3000) 3000 (3000) | Specific gravity - 1.0 1.0",
-              "viscosity": "Appearance - Light White Dark Green | Viscosity mPa s (cP) 3000 (3000) 3000 (3000) | Specific gravity - 1.0 1.0 | Non-Volatile % 100 100",
-              "lapShear": "2. Hardening Characteristics | Hardening Time (Minute) Lap Shear Strength (N/cm 2 (kgf/cm2)) | 15 220(22) | 20 640 (65)",
-              "tensileStrength": "Information | TB 3923/TB 3928 has an excellent bonding strength, high tensile strength, peel resistance and | impact bonding is higher than general epoxy adhesive. It is easy to use, hardens by coating one | surface with TB3923 and another surface with TB3928 then press together."
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://threebond.com/download/threebond-3923-3928-structural-acrylic-adhseive",
-        "sourceLabel": "ThreeBond technical data sheets",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
       ],
       "extractionCandidates": []
     },
@@ -184393,7 +183736,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-A-95-GREY-en-2024.10.03.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-A-95-GREY-en-2024.10.03.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/wacker-elastosil-a95-grey.txt",
@@ -184508,7 +183851,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-E-951-en-2025.05.21.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-E-951-en-2025.05.21.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/wacker-elastosil-e951.txt",
@@ -184634,7 +183977,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-267-BLACK-en-2024.10.28.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-267-BLACK-en-2024.10.28.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/wacker-semicosil-267-black.txt",
@@ -184885,7 +184228,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/wacker-semicosil-9720tc.txt",

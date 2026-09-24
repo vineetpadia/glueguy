@@ -869,6 +869,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE 243 Technical Data Sheet, April 2025",
     "potLife": null
   },
   {
@@ -998,7 +1000,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "clarity": "translucent",
     "viscosityValue": "200-1300",
     "viscosityUnit": "mPa.s",
-    "viscosityNote": "Casson Viscosity Part A, Cone & Plate Rheometer, 25°C"
+    "viscosityNote": "Casson Viscosity Part A, Cone & Plate Rheometer, 25°C",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4070-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE HY 4070 Technical Data Sheet, July 2017; Henkel product page observed April 2026"
   },
   {
     "id": "loctite-si595",
@@ -1122,6 +1126,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.henkel-adhesives.com/us/en/product/flexible-sealants/loctite_si_595.html"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-595-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE SI 595 Technical Data Sheet, January 2018; PDF digitally signed by tdx.henkel.com November 27, 2025",
     "serviceMin": null,
     "thermalConductivity": null
   },
@@ -1363,6 +1369,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf",
+    "tdsDocumentLabel": "LOCTITE AA 3492 Technical Data Sheet, November 2014; PDF digitally signed by tdx.henkel.com November 26, 2025",
     "thermalConductivity": null
   },
   {
@@ -1761,6 +1769,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Appearance is white/opaque, not optically clear."
     ],
     "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf",
+    "tdsUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf",
+    "tdsDocumentLabel": "WACKER SEMICOSIL 9720 TC Technical Data Sheet, most recent change January 7, 2025",
     "potLife": null,
     "lapShear": null
   },
@@ -3305,6 +3315,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/products/adhesives/gasket-adhesives/"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International TB1324 Anaerobic Sealant Technical Data Sheet, Rev. 0.1, issued June 17, 2003, document 3-TB-20-0862",
     "fixtureTime": null,
     "thermalConductivity": null
   },
@@ -3609,6 +3621,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA300-TDS.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers Plexus MA300 TDS, last update January 17, 2025",
     "thermalConductivity": null
   },
   {
@@ -3730,6 +3744,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA310-TDS.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers Plexus MA310 TDS, last update January 17, 2025",
     "thermalConductivity": null
   },
   {
@@ -3837,6 +3853,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/umb/1165/ma1025-data-sheet_rev09.pdf",
+    "tdsDocumentLabel": "Plexus MA1025 Technical Data Sheet Rev 09, May 2018",
     "thermalConductivity": null
   },
   {
@@ -4296,6 +4314,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "viscosityValue": "A: 70000-140000; B: 50000-120000",
     "viscosityUnit": "cP",
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8105_GB-TDS_EN.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers TDS last update March 4, 2025",
     "serviceMin": null,
     "pricing": {
       "basis": "observed",
@@ -4460,6 +4480,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "viscosityValue": "A: 40000-80000; B: 80000-120000",
     "viscosityUnit": "cP",
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8120_GB-TDS_EN.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers TDS last update December 20, 2023",
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -4593,7 +4615,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "elongationRangePct": [
       20,
       40
-    ]
+    ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA832-TDS-.pdf",
+    "tdsDocumentLabel": "Plexus MA832 Technical Data Sheet, Last Update Date March 21, 2024"
   },
   {
     "id": "plexus-ma425",
@@ -4742,7 +4766,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "elongationRangePct": [
       30,
       50
-    ]
+    ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA425-TDS-09082025.pdf",
+    "tdsDocumentLabel": "Plexus MA425 Technical Data Sheet, Last Update Date August 9, 2025"
   },
   {
     "id": "plexus-ma560-1",
@@ -4868,6 +4894,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA560-1-TDS.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers Plexus MA560-1 TDS, last update July 19, 2023",
     "thermalConductivity": null
   },
   {
@@ -5757,6 +5785,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-us/silicone-rubber/moisture-curing-silicone-rubber-rtv-1/elastosil-a-95-grey/p/000005087"
     ],
+    "tdsUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-A-95-GREY-en-2024.10.03.pdf",
+    "tdsDocumentLabel": "WACKER ELASTOSIL A 95 GREY Technical Data Sheet, most recent change October 3, 2024",
     "thermalConductivity": null
   },
   {
@@ -5830,6 +5860,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-gb/c/elastosil-e-951/p/000005158"
     ],
+    "tdsUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-E-951-en-2025.05.21.pdf",
+    "tdsDocumentLabel": "WACKER ELASTOSIL E 951 Technical Data Sheet, most recent change May 21, 2025",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -5965,6 +5997,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-us/silicone-rubber/room-temperature-curing-silicone-rubber-rtv-2/semicosil-267-black/p/000010257"
     ],
+    "tdsUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-267-BLACK-en-2024.10.28.pdf",
+    "tdsDocumentLabel": "WACKER SEMICOSIL 267 BLACK TDS, most recent change October 28, 2024",
     "serviceMin": null,
     "serviceMax": null,
     "lapShear": null,
@@ -6462,6 +6496,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
     "sourceRevisionDate": "Permabond 101 Global TDS Revision 7, 05 August 2020",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 101 Global TDS Revision 7, 05 August 2020",
     "serviceMax": null
   },
   {
@@ -6575,7 +6611,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/919_TDS-1.pdf",
     "sourceRevisionDate": "Permabond 919 TDS",
-    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/919_TDS-1.pdf"
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/919_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/919_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 919 TDS"
   },
   {
     "id": "permabond-920",
@@ -9121,6 +9159,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
     "viscosityValue": "100-200",
     "viscosityNote": "At 23°C, 100 rpm per fallback TDS text",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
+    "tdsDocumentLabel": "EPO-TEK 301 Technical Data Sheet, August 2024, Rev XIV",
     "serviceMin": null,
     "fixtureTime": null,
     "thermalConductivity": null
@@ -9246,6 +9286,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Performance can shift if repackaged out of the original containers."
     ],
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf",
+    "tdsDocumentLabel": "EPO-TEK H20E Technical Data Sheet, August 2024, Rev XIX",
     "serviceMin": null,
     "serviceMax": null,
     "fixtureTime": null,
@@ -9364,6 +9406,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The official TDS describes OG198-54 as electrically and thermally insulating but does not publish numeric dielectric or thermal-conductivity values."
     ],
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf",
+    "tdsDocumentLabel": "EPO-TEK OG198-54 Technical Data Sheet, September 2023, Rev XVIII",
     "serviceMin": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -9777,6 +9821,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.epotek.com/docs/en/Datasheet/353ND.pdf"
     ],
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/ce58ekmfmxrh7jur5ixxn0glqwwyyo6e/med-353nd.pdf",
+    "tdsDocumentLabel": "EPO-TEK MED-353ND Technical Data Sheet, February 2021, Rev VI",
     "serviceMin": null,
     "fixtureTime": null
   },
@@ -10295,6 +10341,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://products.meridianadhesives.com/storage/downloads/fnspdfvouzarg2dqo8ytarv6p6dmwtw0/730.pdf"
     ],
+    "tdsUrl": "https://www.epotek.com/docs/en/Datasheet/730.pdf",
+    "tdsDocumentLabel": "EPO-TEK 730 Technical Data Sheet, General Purpose Epoxy, February 2021, Rev. VI",
     "serviceMin": null,
     "fixtureTime": null
   },
@@ -13272,6 +13320,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5003_TDS-3.pdf",
     "sourceRevisionDate": "Permabond ET5003 Global TDS Revision 3, 05 September 2022 (Provisional)",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5003_TDS-3.pdf",
+    "tdsDocumentLabel": "Permabond ET5003 Global TDS Revision 3, 05 September 2022 (Provisional)",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -17326,14 +17376,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "id": "e6000-industrial",
     "profile": "industrialClear",
     "maker": "E6000",
-    "name": "E6000",
-    "summary": "Flexible self-leveling industrial contact-style adhesive for difficult mixed-material repairs that need vibration tolerance and broad substrate compatibility.",
+    "name": "E6000 Industrial Adhesive",
+    "summary": "Flexible, self-leveling solvent-based adhesive for repairs across metal, wood, glass, ceramics, rubber, PVC, masonry, leather and other substrates; cures by solvent evaporation.",
     "cureFamily": "Industrial adhesive",
     "cureDetail": "One-part self-leveling industrial adhesive; air-dry / solvent-evaporation cure",
     "serviceMin": -40,
     "serviceMax": 82,
-    "potLife": 4,
-    "fixtureTime": 20,
+    "fixtureTime": 45,
     "viscosityClass": "high",
     "clarity": "transparent",
     "applicationTags": [
@@ -17361,56 +17410,45 @@ window.TDS_MANUAL_PRODUCTS = [
       "carbonFiber": 7
     },
     "cautions": [
-      "Official E6000 Industrial TDS publishes tensile strength and 180-degree peel strength, not lap-shear strength; do not enter the 3500 psi tensile value as lapShear.",
-      "Official TDS does not publish thermal conductivity.",
-      "Paint over after curing for direct-sunlight exposure or switch to the UV-stable E6800 variant.",
-      "Full cure is highly thickness-dependent: about 24 hours in thin films and 48-72 hours in thick sections.",
-      "Published service-temperature range is intermittent only, not a continuous rating.",
-      "Contains perchloroethylene; the TDS includes a California cancer warning."
+      "TDS tensile strength and substrate-specific lap-shear/peel results are distinct test methods; do not interchange them.",
+      "Fully cured temperature range -40 to 82 °C is intermittent only.",
+      "Avoid direct sunlight unless painted over after cure; E6800 is the manufacturer’s UV formula.",
+      "Not recommended for polystyrene, polyethylene, polypropylene, Styrofoam or paper products; may damage finished surfaces before fully dry.",
+      "TDS says not recommended for items contacting food, drinking water or animals.",
+      "Contains toluene; review current label and SDS for handling hazards."
     ],
-    "referenceUrl": "https://eclecticproducts.com/downloads/tds-e6000-industrial-english-clear-us_ca.pdf",
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
     "unpublishedFields": [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "dielectricConstant",
       "dissipationFactor",
       "insulationResistanceOhm",
-      "lapShear",
       "surfaceResistivityOhm",
       "thermalConductivity",
       "volumeResistivityOhmM"
     ],
-    "viscosityValue": "50000-200000",
+    "viscosityValue": "Low 50,000; medium 100,000; high 200,000 cP",
     "viscosityUnit": "cP",
-    "viscosityNote": "Available in three viscosity grades: low 50,000 cP, medium 100,000 cP, high 200,000 cP (ASTM D-412 method)",
+    "viscosityNote": "Three self-leveling viscosity grades: 50,000 / 100,000 / 200,000 cP.",
     "electricalBehavior": "insulating",
     "dielectricBreakdownVPerMil": 400,
     "dielectricBreakdownKVPerMm": 15.75,
-    "tensileStrengthPsi": 3500,
-    "tensileStrengthMPa": 24.13,
-    "elongationPct": 900,
+    "tensileStrengthPsi": 2000,
+    "tensileStrengthMPa": 13.79,
+    "elongationPct": 1100,
     "hardnessValue": 80,
     "hardnessScale": "Shore A",
-    "tackFreeTime": 4,
-    "tackFreeTimeMinutes": 4,
+    "tackFreeTime": 2,
+    "tackFreeTimeMinutes": 2,
     "peelStrengthProfilesPli": {
-      "aluminum": 35,
-      "birchWood": 40,
-      "glass": 34,
-      "pvc": 38,
-      "steel": 45
+      "fabric": 30,
+      "leather": 30,
+      "vinyl": 30,
+      "canvas": 45,
+      "neoprene": 20,
+      "rubber": 10
     },
-    "peelStrengthProfilesNPerM": {
-      "aluminum": 6130,
-      "birchWood": 7005,
-      "glass": 5954,
-      "pvc": 6655,
-      "steel": 7881
-    },
-    "peelStrengthNPerM": [
-      5954,
-      7881
-    ],
     "fullCureProfiles": [
       {
         "minutes": 1440,
@@ -17425,8 +17463,28 @@ window.TDS_MANUAL_PRODUCTS = [
       }
     ],
     "serviceTemperatureQualifier": "intermittent",
-    "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 82 °C intermittently; this is not a continuous service rating. Ideal application temperature is 10 to 32 °C.",
-    "serviceOverloadMaxC": 82
+    "serviceTemperatureNote": "Fully cured material withstands -40 to 82 °C intermittently per current Rev 3 TDS; not a continuous service rating.",
+    "sourceRevisionDate": "Eclectic Products E6000 Industrial Adhesive TDS, US/Canada/Mexico Revision 3; posted October 2025.",
+    "chemistry": "Solvent-based flexible industrial adhesive; TDS lists toluene and petroleum distillates.",
+    "fixtureTimeNote": "TDS set time approximately 45 minutes, depending on material, humidity and temperature; mating follows about 2 minutes partial cure.",
+    "appearance": "Clear or black",
+    "specificGravity": 0.887,
+    "solidsWeightPct": 45,
+    "solidsVolumePct": 42,
+    "lapShear": 1.45,
+    "lapShearSubstrate": "ASTM D1002/3163: metal 210 psi (about 1.45 MPa); TDS lists additional substrate-specific values in psi.",
+    "lapShearProfilesMPa": {
+      "metal": 1.45,
+      "wood": 1.38,
+      "copper": 1.03,
+      "polymerClay": 0.21,
+      "laminate": 0.48,
+      "plastics": 0.55,
+      "fiberglass": 0.69,
+      "pvc": 0.69
+    },
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6000 Industrial Adhesive Technical Data Sheet, US/Canada/Mexico Revision 3"
   },
   {
     "id": "e6100-industrial-clear",
@@ -17508,7 +17566,9 @@ window.TDS_MANUAL_PRODUCTS = [
         ],
         "context": "thick film / maximum bond strength"
       }
-    ]
+    ],
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/11/E6100-Industrial-Clear-USA-CAN-TDS-5.23.19.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6100 Industrial Adhesive Non-Sag Formula (Clear) TDS, Rev 16, effective May 23, 2019."
   },
   {
     "profile": "industrialClear",
@@ -17619,7 +17679,9 @@ window.TDS_MANUAL_PRODUCTS = [
         ],
         "context": "thick film / maximum strength"
       }
-    ]
+    ],
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6800-Industrial-Clear-USA-TDS-REV-2.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6800 Industrial Adhesives UV Resistant Formula (Clear) TDS, USA Revision 2."
   },
   {
     "id": "e6000-spray-adhesive",
@@ -17754,7 +17816,9 @@ window.TDS_MANUAL_PRODUCTS = [
         ],
         "context": "maximum strength"
       }
-    ]
+    ],
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2023/11/E6-PREMIUM-TDS-USA.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6000 Premium Technical Data Sheet, USA/Canada/EU/Australia Revision 9"
   },
   {
     "id": "threebond-1225c",
@@ -17975,6 +18039,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1703-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International TB 1703 Technical Data Sheet Rev. 0.1, issued March 12, 2002, document 3-TB-20-0501",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -18090,6 +18156,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.threebond.co.jp/en/product/threebond_1401cv/"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
+    "tdsDocumentLabel": "Three Bond International TB1401 Thread Lock Technical Data Sheet, Rev. 0.2, issued April 15, 2002, document 3-TB-20-0484; current ThreeBond Japan product page reviewed for chemistry/use alignment",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -33777,6 +33845,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://itwperformancepolymers.com/products/devcon/adhesives-sealants/devcon-2-ton-epoxy",
     "referenceUrl": "https://www.itwppfasia.com/en/webroot/upload/20200928/Devcon-Devcon-2-Ton-Epoxy-EN-TDS.pdf",
+    "tdsUrl": "https://www.itwppfasia.com/en/webroot/upload/20200928/Devcon-Devcon-2-Ton-Epoxy-EN-TDS.pdf",
+    "tdsDocumentLabel": "ITW Devcon TDS October 11, 2012; current ITW product page confirms open time, fixture time and 0.01-0.05 in gap fill",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
@@ -37765,6 +37835,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL163_Datasheet.pdf",
+    "tdsDocumentLabel": "Penchem GL163 TDS revision 01, December 2, 2024",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
@@ -37860,6 +37932,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6679/GL311_Datasheet.pdf",
+    "tdsDocumentLabel": "Penchem GL311-1 TDS revision 04, March 20, 2024",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -38586,6 +38660,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf",
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International TB1731 TDS Rev 0.2, issued March 24, 2003, document control number 3-TB-20-0517",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40177,6 +40253,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3015b-uv-curable-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3015b-uv-curable-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3015b-uv-curable-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International TB3015B TDS Rev 0.1, issued March 27, 2002, document control number 3-TB-20-0725",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42866,6 +42944,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1102 Solvent Based Liquid Gasket Technical Data Sheet, Rev. 0.1, issued May 20, 2002, document 3-TB-20-0401",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -43027,6 +43107,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1121 Liquid Gasket Technical Data Sheet, Rev. 0.0, issued October 4, 2002, document 3-TB-20-01003",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -44012,6 +44094,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1215-silicone-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1215 Silicone Sealant Technical Data Sheet, Rev. 0.2, issued May 21, 2002, document 3-TB-20-0421",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44093,6 +44177,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1216E-silicone-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1216E Silicone Sealant Technical Data Sheet, Rev. 0.3, issued August 11, 2003, document 3-TB-20-0423",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44179,6 +44265,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217F-silicone-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1217F Silicone Sealant Technical Data Sheet, Rev. 0.2, issued January 31, 2003, document 3-TB-20-0428",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44275,6 +44363,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1217H Silicone Sealant Technical Data Sheet, Rev. 0.1, issued July 22, 2003, document 3-TB-20-0972",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -44696,6 +44786,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1281-silicone-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1281 Silicone Sealant Technical Data Sheet, Rev. 0.1, issued August 29, 2002, document 3-TB-20-0449",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44786,6 +44878,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1303-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1303 Anaerobic Sealant Technical Data Sheet, Rev. 0.1, issued August 29, 2002, document 3-TB-20-0791",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44877,6 +44971,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1322-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1322 Anaerobic Sealant Technical Data Sheet, Rev. 0.1, issued June 17, 2002 / page 2 lists June 17, 2003, document 3-TB-20-0922",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44947,6 +45043,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1342-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1342 Anaerobic Sealant Technical Data Sheet, Rev. 0.1, issued May 8, 2002, document 3-TB-20-0467",
     "lapShear": null,
     "potLife": null,
     "thermalConductivity": null
@@ -45021,6 +45119,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1344 Anaerobic Threadlocker Technical Data Sheet, Rev. 0.1, issued September 12, 2002, document 3-TB-20-0469",
     "serviceMin": null,
     "serviceMax": null,
     "lapShear": null,
@@ -45223,6 +45323,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1360-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1360 Anaerobic Sealant Technical Data Sheet, Rev. 0.0, issued October 24, 2001, document 3-TB-20-0866",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -45310,6 +45412,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1372D Anaerobic Sealant Technical Data Sheet, Rev. 0.0, issued September 12, 2002, document 3-TB-20-0461",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46138,6 +46242,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1741 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued August 3, 2001, document 3-TB-20-0518",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46226,6 +46332,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1742B Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued August 3, 2001, document 3-TB-20-0522",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46315,6 +46423,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1742Z Very Fast Curing Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued September 24, 2001, document 3-TB-20-0507",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46403,6 +46513,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1745Z Very Fast Curing Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued September 24, 2001, document 3-TB-20-0527",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46495,6 +46607,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1747 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.2, issued August 27, 2002, document 3-TB-20-0529",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47011,6 +47125,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1783 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued April 28, 2003, document 3-TB-20-0536",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47088,6 +47204,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1785C Technical Data Sheet, extracted from official PDF; local text layer does not print a revision/date field",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47287,6 +47405,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB Glue Accelerator 31/32/B-9/377 Technical Data Sheets, issued February 7, 2001; February 7, 2002; and August 16, 2006",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47371,6 +47491,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1797 PP/PE Primer Technical Data Sheet, Rev. 0.1, issued April 29, 2002, document 3-TB-20-0512",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47460,6 +47582,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB17N-019 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.0, issued May 13, 2004, document 3-TB-20-1089",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47539,6 +47663,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB17N-040 / HQ Free 17A-078E Technical Data Sheet, extracted from official PDF; local text layer does not print a revision/date field",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47625,6 +47751,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB17N-065 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.0, issued June 6, 2006, document 3-TB-20-1181",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -49040,6 +49168,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB2706 Machine Parts Degreasing Cleaner Technical Data Sheet, Rev. 0.0, issued November 2, 2001, document 3-TB-20-0868",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -49113,6 +49243,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB2720C Water Base Lubricant Technical Data Sheet, Rev. 0.1, issued January 29, 2002, document 3-TB-20-0882",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -49622,6 +49754,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3923-3928-structural-acrylic-adhseive.pdf",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB3923 & TB3928 Structural Acrylic Adhesive Technical Data Sheet, Rev. 0.0, issued February 4, 2003, document 3-TB-20-1026",
     "thermalConductivity": null
   },
   {
@@ -52233,6 +52367,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "legacyDataRevision": "October 2013 technical data sheet; substrate-specific ASTM D1002 values are historical and not treated as current product specifications.",
     "volatileOrganicContentStatus": "Compliant for sale in all 50 states (October 2020 TDS).",
+    "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/J-B-Weld_803-8281_Cold-Weld-Epoxy_DataSheet_0125.pdf",
+    "tdsDocumentLabel": "J-B Weld Original product brief / TDS, revised October 2020 (SKU 8265S); legacy J-B Weld technical data sheet revised October 2013 used only for separately labeled legacy ASTM test data.",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -52549,6 +52685,8 @@ window.TDS_MANUAL_PRODUCTS = [
         "note": "0 to 200 °F; dependent on material and bond conditions"
       }
     },
+    "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Glue-TDS_Sept-2016-Europe.pdf",
+    "tdsDocumentLabel": "Gorilla Glue Original Technical Data Sheet, Europe, revision 6 September 2016; corroborated for application and service-temperature guidance by the current official product page.",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -53071,6 +53209,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://www.dap.com/media/3657/dap-3-0-adv-wds-sealant-white_tds_7-24-19-final.pdf",
+    "tdsDocumentLabel": "DAP 3.0 High Performance Window, Door, Siding & Trim Sealant TDS, July 24, 2019",
     "lapShear": null,
     "thermalConductivity": null
   },
@@ -53239,6 +53379,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://www.dap.com/media/23571/dynaflex-230-white-colors_tds_2-9-19.pdf",
+    "tdsDocumentLabel": "DAP DYNAFLEX 230 Premium Elastomeric Sealant TDS for white/colors and clear variants, February 25, 2019; official product page fetched April 24, 2026",
     "lapShear": null,
     "thermalConductivity": null
   },
@@ -53486,6 +53628,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://weldon.com/product-literature/product-data-sheets/"
     ],
+    "tdsUrl": "https://plastic-craft.com/content/TDS/Weld-On/ips_weld-on_4007_TDS_0120.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 4007 Technical Data Sheet, January 2020; current official Weld-On site did not expose this legacy industrial PDS directly, so an IPS-authored distributor mirror was used",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -53620,6 +53764,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/vinyls-pvc-cpvc/ips_weld-on_4052_TDS_0120.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 4052 Technical Data Sheet, 01/20",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -53737,6 +53883,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/polycarbonate/ips_weld-on_55_TDS_0120.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 55 Technical Data Sheet, 01/20",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -54395,6 +54543,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://www.chemical-concepts.com/wp-content/uploads/2025/07/Weld-On-3-DCM-Free-TDS.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 3 DCM TCE Free Technical Data Sheet, copyright 2025; IPS-authored distributor mirror used because the current Weld-On product-data page does not expose this acrylic fabrication TDS directly",
     "thermalConductivity": null,
     "viscosityValue": null
   },
@@ -54514,6 +54664,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_4SC_TDS_0120.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 4SC Technical Data Sheet, 01/20",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -54646,6 +54798,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2020/documentation/acrylics/ips_weld-on_1802_TDS_0120.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 1802 Technical Data Sheet, 01/20",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -54771,6 +54925,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue"
     ],
+    "tdsUrl": "https://www.tapplastics.com/image/catalog/pdf/Weld-On-2354-TDS.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 2354 Technical Data Sheet, 01/20",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -54862,6 +55018,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue"
     ],
+    "tdsUrl": "https://casewayproducts.com/content/TDS/SC-325%20TDS.pdf",
+    "tdsDocumentLabel": "Caseway SC-325 Polycarbonate Solvent Cement TDS Version 3.0, 03/2022",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -54969,6 +55127,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/07/WELD-ON-16-DCM-TDS_05.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 16 DCM TCE Free Technical Data Sheet, copyright 2025; IPS-authored distributor mirror used because the current Weld-On product-data page does not expose this acrylic fabrication TDS directly",
     "thermalConductivity": null
   },
   {
@@ -55104,6 +55264,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://weldon.com/product-literature/product-data-sheets/"
     ],
+    "tdsUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/11/ips_weld-on_40_TDS_1022_R.pdf",
+    "tdsDocumentLabel": "IPS Adhesives Weld-On 40 Technical Data Sheet, January 2020; IPS-authored distributor mirror used because the current Weld-On product-data page does not expose this acrylic fabrication TDS directly",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -55189,7 +55351,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/HP-250-TDS-v3-.pdf",
+    "tdsDocumentLabel": "ITW Devcon HP 250 Technical Data Sheet, Version 3, April 2023"
   },
   {
     "id": "liquid-nails-ln150",
@@ -55942,6 +56106,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
     "productUrl": "https://permabond.com/tds/2050_tds-en/",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 2050 Global TDS Revision 5, 07 August 2020.",
     "serviceMax": null
   },
   {
@@ -56008,6 +56174,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
     "productUrl": "https://permabond.com/tds/268_tds-en/",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond 268 Global TDS Revision 3, 07 August 2020.",
     "serviceMax": null
   },
   {
@@ -56080,6 +56248,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
     "productUrl": "https://permabond.com/tds/731_tds-en/",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 731 Global TDS Revision 5, 28 February 2022.",
     "serviceMax": null
   },
   {
@@ -56140,6 +56310,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
     "productUrl": "https://permabond.com/tds/820_tds-en/",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 820 Global TDS Revision 7, 28 February 2022.",
     "serviceMax": null
   },
   {
@@ -56212,6 +56384,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
     "productUrl": "https://permabond.com/tds/910fs_tds-en/",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond 910FS Global TDS Revision 3, 06 August 2020.",
     "serviceMax": null
   },
   {
@@ -56269,6 +56443,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "gelTimeNote": "TDS reports gel time of 4–10 minutes.",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
+    "tdsDocumentLabel": "LOCTITE Epoxy Clear Multi-Purpose Technical Data Sheet, 7 April 2016.",
     "fixtureTime": null
   },
   {
@@ -56326,6 +56502,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "gelTimeNote": "TDS reports gel time of 5–7 minutes.",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
+    "tdsDocumentLabel": "LOCTITE Instant Mix 5 Minute Epoxy Technical Data Sheet, 22 April 2025.",
     "fixtureTime": null
   },
   {
@@ -56372,7 +56550,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Maximum service temperature reported by the TDS is 82 °C."
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
-    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html"
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-glue-ultra-gel-control/SAP_0201DGL029X9.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Ultra-Gel-Control-en_US.pdf",
+    "tdsDocumentLabel": "LOCTITE Super Glue Ultra Gel Control Technical Data Sheet."
   },
   {
     "id": "3m-scotch-weld-dp100-clear",
@@ -56512,6 +56692,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "storageLifeYears": 2,
     "freezeThawCycles": 5,
+    "tdsUrl": "https://arcbuildingproducts.ie/wp-content/uploads/2018/10/Gorilla-Wood-Glue-TDS_Feb-2016-Europe.pdf",
+    "tdsDocumentLabel": "Gorilla Wood Glue Technical Data Sheet, Europe revision 25 February 2016; representative values only.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -56714,6 +56896,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "NSF P1 (regional; no food contact)"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
+    "tdsDocumentLabel": "Henkel Technical Data Sheet LOCTITE 401, February 2012; Henkel-hosted TDS PDF digitally signed by tdx.henkel.com 28 November 2025.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -56811,6 +56995,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
+    "tdsDocumentLabel": "Henkel Technical Data Sheet LOCTITE 495 (new formulation), February 2012; Henkel-hosted TDS digitally signed 26 November 2025.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -56904,6 +57090,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
+    "tdsDocumentLabel": "Henkel Technical Data Sheet LOCTITE 406 (new formulation), February 2012; Henkel-hosted TDS digitally signed 28 November 2025.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -57007,6 +57195,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "NSF P1 (regional; no food contact)"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-454-en_GL.pdf",
+    "tdsDocumentLabel": "Henkel Technical Data Sheet LOCTITE 454 (new formulation), February 2012; Henkel-hosted TDS digitally signed 28 November 2025.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -57151,6 +57341,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "standards": [
       "NSF 61 (48-hour cure at 23 °C required for NSF 61 applications; confirm local suitability)"
     ],
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
+    "tdsDocumentLabel": "Henkel Technical Data Sheet LOCTITE 480, July 2024; Henkel-hosted PDF digitally signed 26 November 2025. Service range is taken from Henkel’s current US product page, not the TDS.",
     "potLife": null
   },
   {
@@ -64183,6 +64375,77 @@ window.TDS_MANUAL_PRODUCTS = [
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null
+  },
+  {
+    "id": "e6000-plus",
+    "profile": "industrialClear",
+    "maker": "E6000",
+    "name": "E6000 Plus Adhesive",
+    "summary": "Low-odor, solvent-free flexible clear adhesive for indoor/outdoor craft and repair; waterproof, UV-resistant and washer/dryer safe.",
+    "sourceRevisionDate": "Eclectic Products E6000 Plus Technical Data Sheet, USA/Canada/EU Revision 04.",
+    "chemistry": "Premium polymer technology; TDS describes product as solvent-free.",
+    "cureFamily": "Flexible industrial/craft adhesive",
+    "cureDetail": "One-part self-leveling adhesive; 25-minute working time; full cure 24 h, with up to 72 h for maximum bond strength depending on substrates and temperature.",
+    "serviceMin": -40,
+    "serviceMax": 93,
+    "serviceTemperatureQualifier": "intermittent",
+    "serviceTemperatureNote": "Fully cured adhesive withstands -40 to 93 °C intermittently; this is not a continuous service rating.",
+    "potLife": 25,
+    "fixtureTime": "30-55 min tack-free",
+    "viscosityClass": "medium",
+    "viscosityValue": "25,000-42,000 cP at 11/s shear rate",
+    "viscosityUnit": "cP",
+    "specificGravity": 1.07,
+    "appearance": "Clear",
+    "clarity": "transparent",
+    "tackFreeTime": 42.5,
+    "tackFreeTimeMinutes": 42.5,
+    "elongationPct": 325,
+    "hardnessValue": 25,
+    "hardnessScale": "Shore A",
+    "applicationTags": [
+      "general-repair",
+      "craft",
+      "flexible-bond",
+      "water-resistant",
+      "outdoor"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 8,
+      "impact": 8
+    },
+    "environment": {
+      "humidity": 0.7,
+      "fuel": 0.1,
+      "immersion": 0.8
+    },
+    "substrates": {
+      "wood": 8,
+      "glass": 8,
+      "fabric": 9,
+      "ceramic": 8,
+      "metal": 8,
+      "fiberglass": 8,
+      "concrete": 7,
+      "plastic": 7,
+      "styrofoam": 8
+    },
+    "cautions": [
+      "No lap-shear strength or thermal conductivity is published in this TDS.",
+      "Temperature range is intermittent, not continuous.",
+      "Not recommended for acrylic, vinyl, foam, polyethylene or polypropylene.",
+      "TDS describes UV resistance and low VOC content; follow label and regional instructions."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf",
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf",
+    "tdsDocumentLabel": "Eclectic Products E6000 Plus Technical Data Sheet, USA/Canada/EU Revision 04",
+    "unpublishedFields": [
+      "lapShear",
+      "thermalConductivity"
+    ],
+    "lapShear": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -68855,13 +69118,13 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
   {
     "id": "e6000-industrial",
     "manufacturer": "E6000",
-    "familyName": "E6000",
+    "familyName": "E6000 Industrial Adhesive",
     "primaryCategory": "Industrial Adhesives",
     "categories": [
       "Industrial Adhesives"
     ],
     "sampleType": "Tube / cartridge",
-    "sampleConsistency": "Clear self-leveling adhesive; 50,000-200,000 cP depending package style",
+    "sampleConsistency": "Clear or black self-leveling adhesive; low/medium/high viscosity grades 50,000/100,000/200,000 cP.",
     "sampleForJoining": "Wood, metal, glass, fiberglass, ceramics, masonry, concrete, leather, rubber, PVC, vinyl and many plastics",
     "applicationTags": [
       "general-repair"
@@ -68869,7 +69132,7 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "tempMinC": -40,
     "tempMaxC": 82,
     "offerCount": 1,
-    "sourceUrl": "https://eclecticproducts.com/downloads/tds-e6000-industrial-english-clear-us_ca.pdf",
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2025/10/E6000-Industrial-Clr_Blk-US-CAN-MEX-TDS-REV-3.pdf",
     "sourceLabel": "TDS"
   },
   {
@@ -81424,12 +81687,36 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "e6000-plus",
+    "manufacturer": "E6000",
+    "familyName": "E6000 Plus Adhesive",
+    "primaryCategory": "Industrial and craft adhesives",
+    "categories": [
+      "Industrial and craft adhesives"
+    ],
+    "sampleType": "Squeeze tube",
+    "sampleConsistency": "Clear self-leveling adhesive; 25,000-42,000 cP at 11/s shear rate.",
+    "sampleForJoining": "Wood, glass, fabric, ceramic, gems, metals, marble, fiberglass, concrete and many plastics.",
+    "applicationTags": [
+      "general-repair",
+      "craft",
+      "flexible-bond",
+      "water-resistant",
+      "outdoor"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 93,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 656,
-  "referenceFamilies": 656,
-  "tdsBackedProducts": 649,
+  "selectorProducts": 657,
+  "referenceFamilies": 657,
+  "tdsBackedProducts": 650,
   "otherOfficialTechnicalSources": 7
 };

@@ -20213,6 +20213,8 @@
       "referenceSampleType": "One-part liquid",
       "referenceSampleConsistency": "Colorless translucent acrylated-urethane gel; 10,000 cP nominal; density 1.05 g/mL; D60 hardness; Ultra-Red fluorescence",
       "referenceForJoining": "Printed circuit boards and electronics assemblies with high-profile leads and shadowed conformal-coating regions",
+      "tdsUrl": "https://dymax.com/get-resource-file/7128/file/Multi-Cure%25C2%25AE%25209-20351-UR%2520PDS.pdf",
+      "tdsDocumentLabel": "Dymax Multi-Cure 9-20351-UR Product Data Sheet, Rev. 06/04/2024",
       "unpublishedFields": [
         "serviceMin",
         "serviceMax",
@@ -20572,6 +20574,8 @@
       "referenceSampleType": "One-part liquid",
       "referenceSampleConsistency": "Clear/light-yellow acrylated-urethane liquid; 1,100 cP nominal; density 1.09 g/mL; D70 cured hardness; bright blue fluorescing inspection response",
       "referenceForJoining": "Reworkable conformal coating for PCB assemblies with under-component shadow areas",
+      "tdsUrl": "https://dymax.com/content/download/7603/file/768a9c873451b0af5f21a9ece0633404.pdf",
+      "tdsDocumentLabel": "Dymax Dual-Cure 9482 Product Data Sheet, Rev. 02/10/2023",
       "unpublishedFields": [
         "serviceMin",
         "serviceMax",

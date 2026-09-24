@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:42:23.129199+00:00",
+  "generatedAt": "2026-09-24T04:48:39.545165+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -45059,7 +45059,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://dymax.com/get-resource-file/7128/file/Multi-Cure%25C2%25AE%25209-20351-UR%2520PDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://dymax.com/get-resource-file/7128/file/Multi-Cure%25C2%25AE%25209-20351-UR%2520PDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dymax-9-20351-ur.txt",
@@ -45408,7 +45408,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://dymax.com/content/download/7603/file/768a9c873451b0af5f21a9ece0633404.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://dymax.com/content/download/7603/file/768a9c873451b0af5f21a9ece0633404.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dymax-9482.txt",

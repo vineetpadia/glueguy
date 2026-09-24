@@ -19328,6 +19328,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cured material is impervious to many solvents and may require mechanical removal."
     ],
     "referenceUrl": "https://dymax.com/get-resource-file/7128/file/Multi-Cure%25C2%25AE%25209-20351-UR%2520PDS.pdf",
+    "tdsUrl": "https://dymax.com/get-resource-file/7128/file/Multi-Cure%25C2%25AE%25209-20351-UR%2520PDS.pdf",
+    "tdsDocumentLabel": "Dymax Multi-Cure 9-20351-UR Product Data Sheet, Rev. 06/04/2024",
     "unpublishedFields": [
       "serviceMin",
       "serviceMax",
@@ -19679,6 +19681,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cured material is impervious to many solvents and may require mechanical removal."
     ],
     "referenceUrl": "https://dymax.com/content/download/7603/file/768a9c873451b0af5f21a9ece0633404.pdf",
+    "tdsUrl": "https://dymax.com/content/download/7603/file/768a9c873451b0af5f21a9ece0633404.pdf",
+    "tdsDocumentLabel": "Dymax Dual-Cure 9482 Product Data Sheet, Rev. 02/10/2023",
     "unpublishedFields": [
       "serviceMin",
       "serviceMax",

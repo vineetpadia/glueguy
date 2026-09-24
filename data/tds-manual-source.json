@@ -3279,24 +3279,24 @@
       "maker": "ThreeBond",
       "name": "1211",
       "summary": "Low-viscosity multipurpose silicone liquid gasket for general sealing and gasketing where flow into narrow joints is useful.",
-      "sourceRevisionDate": "ThreeBond International 1200 Series Silicone RTV Sealant product page, cached April 24, 2026",
+      "sourceRevisionDate": "Three Bond International TB1211 Silicone Sealant Technical Data Sheet, Revision 0.2, issued February 3, 2003; document control 3-TB-20-0418.",
       "chemistry": "One-component moisture-curing silicone RTV",
       "cureFamily": "One-part moisture-curing silicone liquid gasket",
-      "cureDetail": "Room-temperature-vulcanizing silicone liquid gasket; curing condition is moisture cure. ThreeBond positions TB1211 as a multipurpose low-viscosity silicone-based liquid gasket with excellent oil resistance for use with solid sheet gaskets.",
-      "serviceMin": 18,
-      "serviceMax": 30,
+      "cureDetail": "Moisture-cured, room-temperature-vulcanizing silicone sealant. Manufacturer TDS describes FIPG use and reports a 90 minute tack-free time.",
+      "serviceMin": -60,
+      "serviceMax": 200,
       "gapFill": null,
       "potLife": null,
       "fixtureTime": 90,
       "tackFreeTimeMinutes": 90,
       "viscosityClass": "high",
-      "viscosityValue": 68,
-      "viscosityUnit": "Pa.s",
+      "viscosityValue": 70,
+      "viscosityUnit": "Pa·s (700 P), TDS typical uncured value",
       "appearance": "White",
       "blowOutResistanceMPa": 10,
       "pressureResistanceMPa": 10,
-      "lapShear": null,
-      "lapShearSubstrate": "The 1200-series product page does not publish lap shear for TB1211; it publishes blow-out resistance of 10 MPa and higher at room temperature.",
+      "lapShear": 1.0,
+      "lapShearSubstrate": "Aluminum/aluminum, room temperature: 1.0 MPa, per the linked TDS.",
       "thermalConductivity": null,
       "clarity": "opaque",
       "applicationTags": [
@@ -3329,19 +3329,24 @@
         "ThreeBond states product-table values are examples of measured values and not guarantee levels.",
         "Best fit is sealing and liquid-gasket use, not structural load transfer.",
         "Current source exposes tack-free time and blow-out resistance but not a lap-shear strength value.",
-        "The source product page does not publish service-temperature range, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life for TB1211."
+        "The source product page does not publish service-temperature range, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life for TB1211.",
+        "TDS is an older February 2003 revision; verify current product formulation and local availability."
       ],
       "referenceUrl": "https://threebond.com/products/sealants/silicone-rtv/",
       "referenceCategory": "Silicone RTV and FIPG Sealants",
       "referenceSampleType": "Tube",
       "referenceSampleConsistency": "White silicone liquid gasket; 68 Pa.s",
       "referenceForJoining": "General-purpose gasketing and sealing joints, especially where oil resistance and use with solid sheet gaskets matter",
-      "serviceTemperatureNote": "TDS cache is family-level HTML page; −5 to 25 °C appears to be standard test or storage conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
+      "serviceTemperatureNote": "The linked 2003 TB1211 TDS lists service temperature -60 to 200 °C. Confirm current regional formulation before specification.",
       "unpublishedFields": [
         "lapShear",
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1211-silicone-sealant",
+      "tdsDocumentLabel": "Three Bond International TB1211 Silicone Sealant Technical Data Sheet, Revision 0.2, February 3, 2003",
+      "specificGravity": 1.01,
+      "tensileStrengthMPa": 2.5
     },
     {
       "id": "threebond-1324",
@@ -18994,7 +18999,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1225C-heat-dissipating-adhesive",
+      "tdsDocumentLabel": "ThreeBond 1225C Technical Data, June 23, 2015; document ED2015029"
     },
     {
       "id": "threebond-1533",
@@ -19087,7 +19094,9 @@
         "cureDepthMm",
         "tackFreeTime",
         "cureProfiles"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1533-moisture-curing-elastic-adhesive",
+      "tdsDocumentLabel": "ThreeBond 1533 Technical Data, January 1, 2006; document ED2015055"
     },
     {
       "id": "threebond-1703",
@@ -19380,7 +19389,9 @@
       "referenceCategory": "UV-Curable Electronics Adhesives",
       "referenceSampleType": "Bottle / dispenser",
       "referenceSampleConsistency": "Blue liquid; 9600 cP; specific gravity 1.1; 45 Shore A after cure; 3000 mJ/cm2 standard UV dose",
-      "referenceForJoining": "Potting and encapsulating electronic assemblies where flexibility and heat resistance are needed"
+      "referenceForJoining": "Potting and encapsulating electronic assemblies where flexibility and heat resistance are needed",
+      "tdsUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
+      "tdsDocumentLabel": "Three Bond International TB 3012D Technical Data Sheet Rev. 0.0, issued 05/20/2011, document control 3-TB-20-1252"
     },
     {
       "id": "threebond-3164f",
@@ -19583,7 +19594,9 @@
       "referenceCategory": "UV-Curing Silicone Adhesives",
       "referenceSampleType": "Cartridge / dispenser",
       "referenceSampleConsistency": "White silicone; 4.0 Pa.s",
-      "referenceForJoining": "Electric and electronic components needing rapid UV cure, deep cure in shadow areas, and durable metal/plastic adhesion"
+      "referenceForJoining": "Electric and electronic components needing rapid UV cure, deep cure in shadow areas, and durable metal/plastic adhesion",
+      "tdsUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
+      "tdsDocumentLabel": "Three Bond International Three Bond 3164F TDS Rev 0.5, issued July 1, 2015, document control number 3-TB-20-1352"
     },
     {
       "id": "threebond-3303n",
@@ -19705,7 +19718,9 @@
       "referenceCategory": "Conductive Electronics Adhesives",
       "referenceSampleType": "Syringe / dispenser",
       "referenceSampleConsistency": "Light yellow silicone-based conductive paste; 41 Pa.s",
-      "referenceForJoining": "SMD quartz crystals, crystal oscillators, SAW filters, chip components and conductive spot bonding in electronics"
+      "referenceForJoining": "SMD quartz crystals, crystal oscillators, SAW filters, chip components and conductive spot bonding in electronics",
+      "tdsUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3303N Technical Data, October 6, 2005, document ED070403"
     },
     {
       "id": "threebond-3315e",
@@ -19828,7 +19843,9 @@
       "referenceCategory": "Conductive Electronics Adhesives",
       "referenceSampleType": "Bottle / dispenser",
       "referenceSampleConsistency": "Black styrene-elastomer/carbon liquid; 600 mPa.s/cP at 25 C; specific gravity 0.87; 20% heating residue; 20 um heat-bonded dry film",
-      "referenceForJoining": "Grounding of electronic components and electroconductive bonding of anti-static rollers, core bars and similar assemblies"
+      "referenceForJoining": "Grounding of electronic components and electroconductive bonding of anti-static rollers, core bars and similar assemblies",
+      "tdsUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
+      "tdsDocumentLabel": "ThreeBond 3315E Technical Data, Nov. 19 1998; document ED20090703"
     },
     {
       "id": "threebond-3373c",
@@ -20008,7 +20025,9 @@
       "referenceCategory": "Conductive Electronics Adhesives",
       "referenceSampleType": "Screen-printable paste",
       "referenceSampleConsistency": "Light yellow-green liquid / paste; 75 Pa.s",
-      "referenceForJoining": "Electrical interconnects on transparent conductive glass, plastic substrates, FPC-to-ITO, and other fine-pitch z-axis conductive bonds"
+      "referenceForJoining": "Electrical interconnects on transparent conductive glass, plastic substrates, FPC-to-ITO, and other fine-pitch z-axis conductive bonds",
+      "tdsUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
+      "tdsDocumentLabel": "Three Bond International TB3373C TDS Rev 0.3, issued November 8, 2005, document control number 3-TB-20-0969"
     },
     {
       "id": "dymax-9-20351-ur",
@@ -40278,7 +40297,9 @@
         "dielectricBreakdownKVPerMm",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1530-moisture-curing-elasomeric-adhesive",
+      "tdsDocumentLabel": "Three Bond International TB1530 TDS Rev 0.3, issued April 12, 2004, document control number 3-TB-20-0808"
     },
     {
       "id": "threebond-tb1630",
@@ -40433,7 +40454,9 @@
       "referenceCategory": "UV-Curing Optical Sheet Adhesives",
       "referenceSampleType": "30 micron-class UV-curing adhesive sheet with PET separator and PET base film",
       "referenceSampleConsistency": "Colorless transparent solid adhesive film; adhesive layer 27-33 microns",
-      "referenceForJoining": "Face bonding of transparent parts and face bonding of parts requiring light resistance, including glass, acrylic, polycarbonate and PET assemblies"
+      "referenceForJoining": "Face bonding of transparent parts and face bonding of parts requiring light resistance, including glass, acrylic, polycarbonate and PET assemblies",
+      "tdsUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1630 (30t) Technical Data, March 26, 2010, document AD2005049"
     },
     {
       "id": "threebond-tb1731",
@@ -40737,7 +40760,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2202-epoxy-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. TB2202 Series Technical Data, July 7, 1995, document ED030901"
     },
     {
       "id": "threebond-tb2204",
@@ -40911,7 +40936,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2204-epoxy-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. TB2202 Series Technical Data, July 7, 1995, document ED030901; official TB2204 download serves the shared TB2202 Series PDF"
     },
     {
       "id": "threebond-tb3013q",
@@ -41071,7 +41098,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3013Q-uv-curable-arcylic-elastic-adhseive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3013Q Technical Data, July 23, 2010, document AD2010060"
     },
     {
       "id": "threebond-tb3331d",
@@ -41185,7 +41214,9 @@
       "referenceCategory": "Electrically Conductive Electronics Adhesives",
       "referenceSampleType": "Musashi Engineering 10-cc syringe package, 10 g x 5 pieces",
       "referenceSampleConsistency": "Silver conductive paste; 25 Pa.s at 10 s^-1 and 25 C; structural viscosity ratio 4.0",
-      "referenceForJoining": "Grounding and conductive bonding of electronic components where low-halogen, solvent-free, single-component 80 C heat-curing adhesive is required"
+      "referenceForJoining": "Grounding and conductive bonding of electronic components where low-halogen, solvent-free, single-component 80 C heat-curing adhesive is required",
+      "tdsUrl": "https://threebond.com/download/threebond-3331D-electrically-conductive-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3331D Technical Data, March 30, 2017, document ED2017011"
     },
     {
       "id": "threebond-tb2274",
@@ -41332,7 +41363,9 @@
       "referenceCategory": "CSP/BGA Underfill Epoxy Adhesives",
       "referenceSampleType": "One-part black under-filling resin for CSP and BGA mounting",
       "referenceSampleConsistency": "Black liquid; 12 Pa.s / 120 P; specific gravity 1.14",
-      "referenceForJoining": "Sealing and reinforcement underfill for CSP and BGA components on wiring boards where low-temperature cure and later repair/removal are required"
+      "referenceForJoining": "Sealing and reinforcement underfill for CSP and BGA components on wiring boards where low-temperature cure and later repair/removal are required",
+      "tdsUrl": "https://threebond.com/download/threebond-2274-underfilling-agent",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2274 Technical Data, March 9, 1999, document ED030705"
     },
     {
       "id": "threebond-tb2285",
@@ -41450,7 +41483,9 @@
       "referenceCategory": "High-Tg One-Component Electrical Insulating Epoxies",
       "referenceSampleType": "Single-package ivory-white epoxy for electric motor coil coating",
       "referenceSampleConsistency": "Ivory-white self-leveling epoxy; 120 Pa.s / 1200 P; specific gravity 1.55",
-      "referenceForJoining": "Coating electric motor coils and insulating bonded steel/metal electrical assemblies needing high Tg, high dielectric strength and strong heat-cured epoxy adhesion"
+      "referenceForJoining": "Coating electric motor coils and insulating bonded steel/metal electrical assemblies needing high Tg, high dielectric strength and strong heat-cured epoxy adhesion",
+      "tdsUrl": "https://threebond.com/download/threebond-2285-high-glass-transition-epoxy",
+      "tdsDocumentLabel": "Three Bond International TB2285 TDS Rev 0.1, issued March 4, 2002, document control number 3-TB-20-0616"
     },
     {
       "id": "threebond-tb3303m",
@@ -41565,7 +41600,9 @@
       "referenceCategory": "Silicone-Based Conductive Electronics Adhesives",
       "referenceSampleType": "One-part heat-curing conductive adhesive supplied for syringe/applicator use",
       "referenceSampleConsistency": "Light-yellow conductive paste; 40 Pa.s at 25 C",
-      "referenceForJoining": "Connection of piezoelectric elements and electrodes on small crystal oscillators, supportless SMD crystal oscillators and surface-wave elastic filters, plus spot bonding and fixing of chip components"
+      "referenceForJoining": "Connection of piezoelectric elements and electrodes on small crystal oscillators, supportless SMD crystal oscillators and surface-wave elastic filters, plus spot bonding and fixing of chip components",
+      "tdsUrl": "https://threebond.com/download/threebond-3303M-silicone-based-conductive-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3303M Technical Data, November 29, 2005, document ED20090905"
     },
     {
       "id": "threebond-tb2206s",
@@ -41688,7 +41725,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2206S-expoy-compound-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2206S Technical Data, December 22, 2008, document ED20090403"
     },
     {
       "id": "threebond-tb2222p",
@@ -41799,7 +41838,9 @@
       "referenceCategory": "High-Tg One-Component Electrical Insulating Epoxies",
       "referenceSampleType": "Single-component black epoxy resin",
       "referenceSampleConsistency": "Black epoxy; 45 Pa.s / 450 P; specific gravity 1.6",
-      "referenceForJoining": "High-strength steel bonding and electronics assemblies needing high Tg, high peel strength, electrical insulation and compatibility with soldering-process exposure"
+      "referenceForJoining": "High-strength steel bonding and electronics assemblies needing high Tg, high peel strength, electrical insulation and compatibility with soldering-process exposure",
+      "tdsUrl": "https://threebond.com/download/threebond-2222p-one-component-epoxy",
+      "tdsDocumentLabel": "Three Bond International TB2222P TDS Rev 0.2, issued December 12, 2002, document control number 3-TB-20-0848"
     },
     {
       "id": "threebond-tb2235l",
@@ -41950,7 +41991,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2235L-epoxy-compound-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2235L Technical Data, April 15, 2016, document ED2016072"
     },
     {
       "id": "threebond-tb2237j",
@@ -42113,7 +42156,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2237J-heat-curable-expoxy-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2237J Technical Data, October 26, 2016, document ED2016096"
     },
     {
       "id": "threebond-tb3015b",
@@ -42366,7 +42411,9 @@
       "referenceSampleType": "One-part white nonsolvent UV-curing resin for optical-part fixing",
       "referenceSampleConsistency": "White flexible UV resin; 13 Pa.s at 20 s^-1; specific gravity 0.93",
       "referenceForJoining": "Fixing optical parts and bonding hard-to-bond polyolefin optical plastics where low-halogen UV or LED cure is required",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3017D Technical Data, July 22, 2009, document ED20091101"
     },
     {
       "id": "threebond-tb3017e",
@@ -42517,7 +42564,9 @@
       "referenceSampleType": "One-part white nonsolvent UV-curing resin for controlled-flow optical-part fixing",
       "referenceSampleConsistency": "White flexible UV resin; 25 Pa.s at 20 s^-1 and 25 C; specific gravity 0.93",
       "referenceForJoining": "Fixing optical parts and controlled-flow bonding of hard-to-bond polyolefin optical plastics where low-halogen UV or LED cure is required",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3017E Technical Data, October 22, 2009, document ED2009066"
     },
     {
       "id": "threebond-tb3020b",
@@ -42721,7 +42770,9 @@
         "chipBondStrengthMPa",
         "tackFreeTime",
         "cureProfiles"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3020B-uv-curable-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3020B Technical Data, October 26, 2016, document ED2016095"
     },
     {
       "id": "threebond-tb2249g",
@@ -42849,7 +42900,9 @@
       "referenceCategory": "High-Strength One-Part Heat-Curing Epoxy Compounds",
       "referenceSampleType": "Black one-part heat-curing epoxy compound",
       "referenceSampleConsistency": "Black high-viscosity epoxy; 75 Pa.s; specific gravity 1.59",
-      "referenceForJoining": "Bonding magnets, metallic materials and other general parts needing high heat-cured shear and peel strength"
+      "referenceForJoining": "Bonding magnets, metallic materials and other general parts needing high heat-cured shear and peel strength",
+      "tdsUrl": "https://threebond.com/download/threebond-2249G-heat-curing-epoxy-compound-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2249G Technical Data, May 30, 2005, document ED061006"
     },
     {
       "id": "threebond-tb2270j",
@@ -42983,7 +43036,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2270J-epoxy-resin",
+      "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 2270J Technical Data, September 19, 2014, document ED2014042"
     },
     {
       "id": "threebond-tb2272f",
@@ -43143,7 +43198,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2272F-epoxy-compound-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2272F Technical Data, September 27, 2012, document ED2012073"
     },
     {
       "id": "threebond-tb2273e",
@@ -43411,7 +43468,9 @@
       "referenceCategory": "Flexible UV-Curing Electronics Adhesives",
       "referenceSampleType": "Milky-white thixotropic UV adhesive for PCB/component/optical securing",
       "referenceSampleConsistency": "Milky-white thixotropic liquid; 16.5 Pa.s BH viscosity; specific gravity 1.16",
-      "referenceForJoining": "Securing PCBs, components, floppy-head parts, lead wires, lenses, glass, optical pickup parts and other optical devices"
+      "referenceForJoining": "Securing PCBs, components, floppy-head parts, lead wires, lenses, glass, optical pickup parts and other optical devices",
+      "tdsUrl": "https://threebond.com/download/threebond-3030-uv-curing-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3030 Technical Data, September 17, 2004, document ED2004090"
     },
     {
       "id": "threebond-tb3036e",
@@ -43518,7 +43577,9 @@
       "referenceSampleType": "Light-orange nonsolvent UV-curing resin for optical pickup bases",
       "referenceSampleConsistency": "Light-orange resin; 10.5 Pa.s; specific gravity 1.54",
       "referenceForJoining": "Securing optical pickup bases and bonding metallic/plastic parts including zinc die-cast pickup frames and PPS/glass assemblies",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3036E Technical Data, June 5, 2007, document ED2007036"
     },
     {
       "id": "threebond-tb3062u",
@@ -43616,7 +43677,9 @@
       "referenceSampleType": "250 g dark-blue plastic container",
       "referenceSampleConsistency": "Transparent light-yellow to brown low-viscosity liquid; 1.0 Pa.s / 1000 cP; specific gravity 1.07",
       "referenceForJoining": "Bonding different materials and motor magnet cases, especially metal assemblies with UV-accessible and fine anaerobic shadow-gap regions",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3062U Technical Data, March 3, 2009, document ED2009063"
     },
     {
       "id": "threebond-tb3081j",
@@ -43739,7 +43802,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3081J-uv-curing-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3081J Technical Data, August 31, 2010, document ED2010065"
     },
     {
       "id": "threebond-tb3081p",
@@ -43896,7 +43961,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3081P-uv-curable-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3081P Technical Data, October 17, 2016, document ED2016093"
     },
     {
       "id": "threebond-tb3124",
@@ -44052,7 +44119,9 @@
       "referenceCategory": "UV-Curing Epoxy OLED Panel Sealants",
       "referenceSampleType": "Pinkish-white UV-curing epoxy organic EL panel sealant",
       "referenceSampleConsistency": "Pinkish-white very-high-viscosity epoxy resin; 270 Pa.s; specific gravity 1.41; contains 20 micron glass fiber gap material",
-      "referenceForJoining": "Sealing organic EL/OLED panels and bonding/sealing glass-to-glass or glass-to-SUS panel assemblies needing low moisture permeability"
+      "referenceForJoining": "Sealing organic EL/OLED panels and bonding/sealing glass-to-glass or glass-to-SUS panel assemblies needing low moisture permeability",
+      "tdsUrl": "https://threebond.com/download/threebond-3124-uv-curing-resin",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3124 Technical Data, May 18, 2004, document ED080506"
     },
     {
       "id": "threebond-tb3164d",
@@ -44190,7 +44259,9 @@
       "referenceCategory": "Dual UV/Moisture-Curing Electronics Silicone Resins",
       "referenceSampleType": "Translucent-white UV/moisture-curing silicone resin",
       "referenceSampleConsistency": "Translucent-white medium-viscosity silicone resin; 10 Pa.s; specific gravity 1.00",
-      "referenceForJoining": "Potting, sealing, bonding and fixing electric/electronic parts, especially engineering-plastic assemblies needing UV cure plus moisture cure in shadowed areas"
+      "referenceForJoining": "Potting, sealing, bonding and fixing electric/electronic parts, especially engineering-plastic assemblies needing UV cure plus moisture cure in shadowed areas",
+      "tdsUrl": "https://threebond.com/download/threebond-3164D-uv-curing-silicone-resin",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3164D Technical Data, April 3, 2007, document ED071101"
     },
     {
       "id": "threebond-tb3164h",
@@ -44341,7 +44412,9 @@
       "referenceCategory": "UV-Curing Silicone RTV Electronics Adhesives",
       "referenceSampleType": "Transparent alkoxy condensation UV-curing silicone RTV",
       "referenceSampleConsistency": "Transparent self-leveling silicone RTV; 8.0 Pa.s at 25 C and 1.0 s^-1; specific gravity 0.99; thixotropic index 1.1",
-      "referenceForJoining": "Potting, sealing, bonding and fixing electric/electronic parts where transparent, UV-detectable silicone with secondary moisture cure is needed"
+      "referenceForJoining": "Potting, sealing, bonding and fixing electric/electronic parts where transparent, UV-detectable silicone with secondary moisture cure is needed",
+      "tdsUrl": "https://threebond.com/download/threebond-3164H-uv-curing-silicone-rtv",
+      "tdsDocumentLabel": "ThreeBond International, Inc. ThreeBond 3164H Technical Data Sheet, Revision 0.0, September 21, 2017, document TB-20-1363"
     },
     {
       "id": "threebond-tb3166",
@@ -44492,7 +44565,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3166-uv-curable-silicone-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3166 Technical Data, November 17, 2017, document ED2017045"
     },
     {
       "id": "threebond-tb3168j",
@@ -44610,7 +44685,9 @@
       "referenceSampleType": "Blue low-halogen UV-curing silicone gel",
       "referenceSampleConsistency": "Blue high-viscosity silicone gel; 17 Pa.s at 20.0 s^-1; specific gravity 1.02; penetration 88 after cure",
       "referenceForJoining": "Damping optical pickups in CD, DVD and BD assemblies where low-halogen, low-cyclic-siloxane UV-curing silicone gel is needed",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3168J Technical Data, October 10, 2012, document ED2012079"
     },
     {
       "id": "threebond-tb3170b",
@@ -44793,7 +44870,9 @@
       "referenceCategory": "Visible-Light-Curing Optical and Electronics Adhesives",
       "referenceSampleType": "Transparent light-yellow visible-light-curing acrylate resin",
       "referenceSampleConsistency": "Transparent light-yellow low-viscosity liquid; 1.8 Pa.s at 25 C; specific gravity 1.04",
-      "referenceForJoining": "Bonding electric and optical parts, transparent UV-blocking materials and thick-film joints in plastics, glass and metals"
+      "referenceForJoining": "Bonding electric and optical parts, transparent UV-blocking materials and thick-film joints in plastics, glass and metals",
+      "tdsUrl": "https://threebond.com/download/threebond-3170B-visible-light-curing-resin",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3170B Technical Data, March 6, 2002, document ED050803"
     },
     {
       "id": "threebond-tb3170d",
@@ -44912,7 +44991,9 @@
       "referenceCategory": "Visible-Light-Curing Optical and Electronics Adhesives",
       "referenceSampleType": "Light-yellow thixotropic visible-light-curing urethane acrylate resin",
       "referenceSampleConsistency": "Light-yellow high-viscosity thixotropic resin; 37 Pa.s / 370 P; structural viscosity ratio 2.0; specific gravity 1.06",
-      "referenceForJoining": "Fixing UV-absorbing adherends and camera LCD windows, including acrylic-to-SUS, acrylic-to-aluminum and acrylic-to-polycarbonate joints"
+      "referenceForJoining": "Fixing UV-absorbing adherends and camera LCD windows, including acrylic-to-SUS, acrylic-to-aluminum and acrylic-to-polycarbonate joints",
+      "tdsUrl": "https://threebond.com/download/threebond-3170D-visible-light-curing-resin",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3170D Technical Data, June 15, 1999, document ED11043"
     },
     {
       "id": "threebond-tb1102",
@@ -45085,7 +45166,9 @@
       "referenceSampleType": "White anaerobic non-solvent liquid gasket",
       "referenceSampleConsistency": "White high-viscosity anaerobic liquid; 50 Pa.s; specific gravity 1.08; may yellow over time without quality effect",
       "referenceForJoining": "Sealing and preventing loosening of metallic threaded pipe connections in cold/hot water, cooling, oil, air and drain piping, excluding drinking/hot-water supply piping",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1110F Technical Data, May 24, 2011, document ED2011018"
     },
     {
       "id": "threebond-tb1121",
@@ -45264,7 +45347,9 @@
         "lapShear",
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1141G-aqueous-liquid-gasket.pdf",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1141G Technical Data, January 21, 2008, document ED080401; official PDF OCR fallback used because the source is scanned"
     },
     {
       "id": "threebond-tb1152c",
@@ -45409,7 +45494,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1152C-olefin-sealant",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1152C Technical Data, December 4, 2009, document AD2009078"
     },
     {
       "id": "threebond-tb1153c",
@@ -45552,7 +45639,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1153C-olefin-sealant",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1153C Technical Data, December 4, 2009, document AD2009079"
     },
     {
       "id": "threebond-tb1156c",
@@ -45673,7 +45762,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1156C-heat-curable-acrylic-sealant",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1156C Technical Data, January 22, 2013, document ED2013001"
     },
     {
       "id": "threebond-tb1158",
@@ -45774,7 +45865,9 @@
       "referenceCategory": "RTV Acrylic Liquid Gaskets",
       "referenceSampleType": "Black paintable RTV acrylic-based liquid gasket",
       "referenceSampleConsistency": "Black non-sag very-high-viscosity acrylic RTV sealant; 200 Pa.s at 25 C; specific gravity 1.35; 15 min tack-free",
-      "referenceForJoining": "Sealing parts requiring oil resistance and sealing areas that will be painted after assembly"
+      "referenceForJoining": "Sealing parts requiring oil resistance and sealing areas that will be painted after assembly",
+      "tdsUrl": "https://threebond.com/download/threebond-1158-arcylic-based-liquid-gasket",
+      "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1158 Technical Data, June 22, 2005, document ED071006"
     },
     {
       "id": "threebond-tb1171e",
@@ -45878,7 +45971,9 @@
       "referenceSampleType": "Colorless transparent solvent-drying battery sealant",
       "referenceSampleConsistency": "Colorless transparent low-viscosity liquid; 600 mPa.s; specific gravity 0.79; heating residue 6.0",
       "referenceForJoining": "Sealing non-aqueous electrolyte batteries, capacitors and lithium batteries where electrolyte stability and low moisture permeability are required",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1171E Technical Data, August 21, 2008, document ED2008034"
     },
     {
       "id": "threebond-tb1184",
@@ -45986,7 +46081,9 @@
       "unpublishedFields": [
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1184-liquid-gasket.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1184 Technical Data, October 26, 2010, document ED2010080"
     },
     {
       "id": "threebond-tb1207b",
@@ -46097,7 +46194,9 @@
       "referenceCategory": "RTV Silicone FIPG Sealants",
       "referenceSampleType": "Black non-sag RTV silicone FIPG",
       "referenceSampleConsistency": "Black paste; BH 250 Pa.s / SOD 100 Pa.s; specific gravity 1.01; tack-free 8 min",
-      "referenceForJoining": "Formed-in-place gaskets requiring elastic, temperature-resistant and chemically resistant RTV silicone sealing"
+      "referenceForJoining": "Formed-in-place gaskets requiring elastic, temperature-resistant and chemically resistant RTV silicone sealing",
+      "tdsUrl": "https://threebond.com/download/threebond-1207B-silicone-sealant",
+      "tdsDocumentLabel": "Three Bond International, Inc. TB1207B Silicone Sealant Technical Data Sheet, Rev. 0.3, issued September 30, 2003, document 3-TB-20-0409"
     },
     {
       "id": "threebond-tb1215",
@@ -46589,7 +46688,9 @@
       "referenceSampleType": "Black non-sag oxime RTV silicone sealant",
       "referenceSampleConsistency": "Black non-flow very-high-viscosity RTV; 280 Pa.s at 23 C SOD; specific gravity 1.37; tack-free 7 min",
       "referenceForJoining": "Engine oil pan, chain case and similar engine gasket sealing where oily-surface adhesion and engine-oil resistance are required",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1217M Technical Data, June 17, 2011, document ED2010052"
     },
     {
       "id": "threebond-tb1225b",
@@ -46696,7 +46797,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1225B-silicone-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1225B Technical Data, September 20, 2002, document ED040701"
     },
     {
       "id": "threebond-tb1227d",
@@ -46821,7 +46924,9 @@
       "referenceCategory": "Engine-Oil and Coolant Resistant RTV Silicone FIPG Sealants",
       "referenceSampleType": "Black dealcoholized one-part cold-curing silicone FIPG",
       "referenceSampleConsistency": "Black non-sag very-high-viscosity RTV; 200 Pa.s; specific gravity 1.46; tack-free 90 min; thick-film curability 2.0 mm/day",
-      "referenceForJoining": "Vehicle engine oil pan, chain case and similar flange sealing where engine-oil and long-life-coolant resistance are required without MEKO generation"
+      "referenceForJoining": "Vehicle engine oil pan, chain case and similar flange sealing where engine-oil and long-life-coolant resistance are required without MEKO generation",
+      "tdsUrl": "https://threebond.com/download/threebond-1227D-silicone-based-sealant",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1227D Technical Data, May 16, 2005, document ED20090616"
     },
     {
       "id": "threebond-tb1281",
@@ -47382,7 +47487,9 @@
       "referenceSampleType": "Blue thixotropic anaerobic surface-bonding sealant",
       "referenceSampleConsistency": "Blue thixotropic liquid; 2.5 Pa.s at 25 C and 200 s^-1; TI value 2.2; specific gravity 1.10",
       "referenceForJoining": "Bonding and fixing metallic parts where high anaerobic fitted/lap shear strength and optional TB1390J primer-assisted fast setting are needed",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1359K Technical Data, September 14, 2017, document ED2017037"
     },
     {
       "id": "threebond-tb1360",
@@ -47702,7 +47809,9 @@
       "referenceSampleType": "Fluorescent yellow delayed-curing anaerobic sealant",
       "referenceSampleConsistency": "Fluorescent yellow medium-viscosity liquid; 2200 mPa.s; specific gravity 1.10",
       "referenceForJoining": "Bonding and sealing Welch plugs where delayed cure, pressure sealing, oil/antifreeze resistance and fluorescent application inspection are needed",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1386H Technical Data, April 20, 2004, document ED051105"
     },
     {
       "id": "threebond-tb1390r",
@@ -47790,7 +47899,9 @@
       "referenceSampleType": "Transparent blue-green ethanol-type anaerobic primer",
       "referenceSampleConsistency": "Transparent blue-green liquid primer; specific gravity 0.79; dry for 1 min or more before applying anaerobic sealant",
       "referenceForJoining": "Accelerating cure of anaerobic sealants on substrates before assembly, especially when fast Fe set with TB1359D-like sealants is required",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf",
+      "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 1390R Technical Data, July 31, 2013, document ED2013014"
     },
     {
       "id": "threebond-tb1537",
@@ -48028,7 +48139,9 @@
         "insulationResistanceOhm",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1537-moisture-curing-elasomeric-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1537 Series Technical Data, April 7, 2009, document AD2009027"
     },
     {
       "id": "threebond-tb1539a",
@@ -48176,7 +48289,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-1539A-elastic-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1539 Technical Data, September 6, 2016, document ED2016084; official ThreeBond URL identifies the target as TB1539A"
     },
     {
       "id": "threebond-tb1655d20t",
@@ -48335,7 +48450,9 @@
       "referenceCategory": "Low-Halogen Heat-Curable Epoxy Sheet Adhesives",
       "referenceSampleType": "White 20 micron epoxy heat-curable sheet adhesive",
       "referenceSampleConsistency": "White solid sheet adhesive; 20 micron adhesive layer between PET release liners; flow starting temperature 63 C",
-      "referenceForJoining": "Surface bonding of metallic and glass plates and bonding electrical/electronic parts where uniform low-halogen epoxy film bonding is required"
+      "referenceForJoining": "Surface bonding of metallic and glass plates and bonding electrical/electronic parts where uniform low-halogen epoxy film bonding is required",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/ThreeBond-1655D20t-heat-curing-sheet-adhesive.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1655D(20t) Technical Data, October 3, 2016, document ED2016094"
     },
     {
       "id": "threebond-tb1741",
@@ -48956,7 +49073,9 @@
       "referenceCategory": "Light-Curing Low-Blush Cyanoacrylate Instant Adhesives",
       "referenceSampleType": "Clear yellow ultra-low-viscosity light-curing cyanoacrylate",
       "referenceSampleConsistency": "Clear yellow liquid; 2 mPa.s; 2 s NBR/NBR set time; UV or visible-light cure for overflow/filler areas",
-      "referenceForJoining": "Low-blush bonding and securing of electronic, optical and precision parts where light cure can accelerate exposed adhesive while moisture cure handles shadowed gaps"
+      "referenceForJoining": "Low-blush bonding and securing of electronic, optical and precision parts where light cure can accelerate exposed adhesive while moisture cure handles shadowed gaps",
+      "tdsUrl": "https://threebond.com/download/threebond-1771E-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1771E Technical Data, July 26, 2002, document ED051005"
     },
     {
       "id": "threebond-tb1771m",
@@ -49104,7 +49223,9 @@
       "referenceCategory": "Light-Curing ISO 10993 Cyanoacrylate Instant Adhesives",
       "referenceSampleType": "Yellow to transparent yellow-green low-viscosity light-curing cyanoacrylate",
       "referenceSampleConsistency": "Yellow to transparent yellow-green liquid; 2 mPa.s; specific gravity 1.05; 2 s NBR set time; 10 kJ/m2 UV cure",
-      "referenceForJoining": "Gap penetration, low-blush electronics/optical bonding and hard-to-bond materials needing both light cure and moisture cure in shadowed areas"
+      "referenceForJoining": "Gap penetration, low-blush electronics/optical bonding and hard-to-bond materials needing both light cure and moisture cure in shadowed areas",
+      "tdsUrl": "https://threebond.com/download/threebond-1771M-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1771M Technical Data, April 7, 2017, document ED2017014"
     },
     {
       "id": "threebond-tb1773e",
@@ -49247,7 +49368,9 @@
       "referenceCategory": "Light-Curing Low-Blush Cyanoacrylate Instant Adhesives",
       "referenceSampleType": "Clear yellow low-viscosity light-curing cyanoacrylate",
       "referenceSampleConsistency": "Clear yellow liquid; 150 mPa.s; 2 s NBR/NBR setting time; UV or visible-light cure for overflow/filler areas",
-      "referenceForJoining": "Low-blush bonding and securing of electronic, optical and precision parts where a slightly higher-viscosity light-curing cyanoacrylate is needed"
+      "referenceForJoining": "Low-blush bonding and securing of electronic, optical and precision parts where a slightly higher-viscosity light-curing cyanoacrylate is needed",
+      "tdsUrl": "https://threebond.com/download/threebond-1773E-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1773E Technical Data, July 26, 2002, document AD2002039"
     },
     {
       "id": "threebond-tb1783",
@@ -49559,7 +49682,9 @@
       "referenceCategory": "Ethyl Medium-Viscosity Cyanoacrylate Instant Adhesives",
       "referenceSampleType": "Clear transparent ethyl medium-viscosity cyanoacrylate",
       "referenceSampleConsistency": "Clear transparent liquid; 150 mPa.s; specific gravity 1.05; 5 s steel/steel set time",
-      "referenceForJoining": "Fast bonding of wood, metals and plastics with a medium-viscosity ethyl cyanoacrylate that includes published dielectric data"
+      "referenceForJoining": "Fast bonding of wood, metals and plastics with a medium-viscosity ethyl cyanoacrylate that includes published dielectric data",
+      "tdsUrl": "https://threebond.com/download/threebond-1786-cryanoacrylate-adhesive",
+      "tdsDocumentLabel": "Three Bond International, Inc. TB1786 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued April 28, 2003, document 3-TB-20-0539"
     },
     {
       "id": "threebond-tb1796",
@@ -50168,7 +50293,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-3027G-uv-curing-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3027G Technical Data, October 11, 2012, document ED2012076"
     },
     {
       "id": "threebond-tb2418",
@@ -50378,7 +50505,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2418A-acrylic-based-sealing-agent.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2418 Technical Data, January 13, 2011, document ED2011003"
     },
     {
       "id": "threebond-tb2448",
@@ -50585,7 +50714,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2448A-high-strength-epoxy-sealant.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2448 Technical Data, March 9, 2012, document ED2012018"
     },
     {
       "id": "threebond-tb2458",
@@ -50788,7 +50919,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2458-low-strength-arcylic-sealing-agent.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2458 Technical Data, October 9, 2009, document ED2009060"
     },
     {
       "id": "threebond-tb2468",
@@ -50991,7 +51124,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2468-water-based-acrylic.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2468 Technical Data, January 15, 2010, document ED2010005"
     },
     {
       "id": "threebond-tb2478",
@@ -51194,7 +51329,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2478-high-strength-acrylic-sealing-agent.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2478 Technical Data, May 27, 2009, document ED20090705"
     },
     {
       "id": "threebond-tb2488",
@@ -51403,7 +51540,9 @@
       "notApplicableFields": [
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2488A-arcylic-based-locking-agent.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2488 Technical Data, August 25, 2010, document ED2010061"
     },
     {
       "id": "threebond-tb2706",
@@ -51673,7 +51812,9 @@
       "referenceCategory": "Electroconductive Paints and Circuit Repair Coatings",
       "referenceSampleType": "Silver cold-drying electroconductive paint",
       "referenceSampleConsistency": "Silver conductive paint; 1 Pa.s; specific gravity 2.2; <=0.6 ohm coating resistance after 25 C x24 h dry",
-      "referenceForJoining": "Securing and fixing terminals and repairing electronic circuits with a room-temperature-drying conductive silver paint"
+      "referenceForJoining": "Securing and fixing terminals and repairing electronic circuits with a room-temperature-drying conductive silver paint",
+      "tdsUrl": "https://threebond.com/download/threebond-3350C-cold-drying-electroconductive-paint",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3350C Technical Data, July 29, 2003, document ED2003045"
     },
     {
       "id": "threebond-tb3351c",
@@ -51789,7 +51930,9 @@
       "referenceCategory": "Electroconductive Resins for Electronics Grounding",
       "referenceSampleType": "Gray nickel-based one-part conductive resin",
       "referenceSampleConsistency": "Gray conductive resin; 3.0 Pa.s; specific gravity 1.5; 8.0e-5 ohm.m volume resistivity after 90 C x60 min cure",
-      "referenceForJoining": "Grounding electronic parts and securing electrical continuity at coating films or spot-welded joints using a low-halogen conductive resin"
+      "referenceForJoining": "Grounding electronic parts and securing electrical continuity at coating films or spot-welded joints using a low-halogen conductive resin",
+      "tdsUrl": "https://threebond.com/download/threebond-3351C-electroconductive-resin",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3351C Technical Data, May 24, 2010, document AD2010024"
     },
     {
       "id": "threebond-tb3732",
@@ -51943,7 +52086,9 @@
       "referenceCategory": "Heat-Resistant Inorganic Adhesives",
       "referenceSampleType": "White alumina inorganic paste adhesive",
       "referenceSampleConsistency": "White alumina paste; 10 Pa.s; specific gravity 2.6; 1400 C Seger cone heat resistance; 2.8 MPa lap shear",
-      "referenceForJoining": "Filling, fixing and bonding ceramic, glass, metal, electronic components and heat-resistant molded materials at very high temperature"
+      "referenceForJoining": "Filling, fixing and bonding ceramic, glass, metal, electronic components and heat-resistant molded materials at very high temperature",
+      "tdsUrl": "https://threebond.com/download/threebond-3732-heat-resistant-inorganic-adhesive",
+      "tdsDocumentLabel": "Three Bond International, Inc. TB3732 Heat Resistant Inorganic Adhesive Technical Data Sheet, Rev. 0.3, issued September 3, 2004, document 3-TB-20-0760"
     },
     {
       "id": "threebond-tb3923-3928",
@@ -52235,7 +52380,9 @@
       "referenceCategory": "Two-Part Elastic Acrylic Adhesives",
       "referenceSampleType": "Light-blue / light-yellow quick-curing elastic acrylic adhesive",
       "referenceSampleConsistency": "1:1 by volume, 2.4 Pa.s per component, specific gravity 1.04, 5 min pot life, A65 rubber-like cured adhesive",
-      "referenceForJoining": "Bonding and fixing automotive electrical components, sensors and motors where quick room-temperature cure and elastic thermal/moisture-resistant behavior are needed"
+      "referenceForJoining": "Bonding and fixing automotive electrical components, sensors and motors where quick room-temperature cure and elastic thermal/moisture-resistant behavior are needed",
+      "tdsUrl": "https://threebond.com/download/threebond-3955A-elastic-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3955 Technical Data, March 24, 2011, document ED2012011"
     },
     {
       "id": "threebond-tb7721a",
@@ -52390,7 +52537,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7721A-gold-label-instant-adhseive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7721 Technical Data, June 11, 2013, document ED2012029; official download URL uses 7721A"
     },
     {
       "id": "threebond-tb7737",
@@ -52521,7 +52670,9 @@
       "referenceSampleType": "Clear light-yellow half-gel ethyl cyanoacrylate/elastomer adhesive",
       "referenceSampleConsistency": "2000 mPa.s; structural viscosity ratio 4.8; specific gravity 1.07; 90 s iron set; 25.7 MPa iron shear",
       "referenceForJoining": "High-impact and high-peel instant bonding of metals, plastics, rubbers, speaker parts and automotive window-frame/weatherstrip members",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7737 Technical Data, March 25, 2008, document ED080304"
     },
     {
       "id": "threebond-tb7738",
@@ -52653,7 +52804,9 @@
       "referenceSampleType": "Clear light-yellow high-viscosity half-gel ethyl cyanoacrylate/elastomer adhesive",
       "referenceSampleConsistency": "5000 mPa.s; structural viscosity ratio 5.0; specific gravity 1.08; 90 s iron set; 27.7 MPa iron shear",
       "referenceForJoining": "High-impact and high-peel instant bonding where higher viscosity and sag resistance are needed on metals, plastics, rubbers, speaker parts and automotive weatherstrips",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7738 Technical Data, March 25, 2008, document ED080306"
     },
     {
       "id": "threebond-tb7741",
@@ -52808,7 +52961,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7741-gold-label-adhseive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7741 Technical Data, November 18, 2008, document ED081203"
     },
     {
       "id": "threebond-tb7781",
@@ -52968,7 +53123,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7781-gold-label-adhseive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7781 Technical Data, June 23, 2006, document ED061002"
     },
     {
       "id": "threebond-tb7782",
@@ -53129,7 +53286,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7782-gold-label-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7782 Technical Data, June 23, 2006, document ED061003"
     },
     {
       "id": "threebond-tb7784",
@@ -53288,7 +53447,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7784-gold-label-instant-adhseive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7784 Technical Data, June 23, 2006, document ED061004"
     },
     {
       "id": "threebond-tb7785",
@@ -53448,7 +53609,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7785-gold-label-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7785 Technical Data, May 10, 2007, document ED070703"
     },
     {
       "id": "threebond-tb7786",
@@ -53608,7 +53771,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7786-gold-label-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7786 Technical Data, May 10, 2007, document ED070704"
     },
     {
       "id": "threebond-tb7789a",
@@ -53768,7 +53933,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-7789A-gold-label-instant-adhesive",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7789 Technical Data, May 18, 2011, document ED2011014; official download URL uses 7789A"
     },
     {
       "id": "threebond-tb7796a",
@@ -53871,7 +54038,9 @@
       "referenceSampleType": "Colorless-to-light-transparent-brown curing accelerator",
       "referenceSampleConsistency": "Specific gravity 0.75; within-5-s steel-sheet set with TB1739/TB7796 and TB1747/TB7796",
       "referenceForJoining": "Accelerating ThreeBond 1700/7700 instant adhesives on porous materials and electronics/speaker assemblies where fast fixture and bloom reduction are needed",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7796 Technical Data, March 27, 2012, document ED2012024; official download URL uses 7796A"
     },
     {
       "id": "threebond-tb7797",
@@ -53999,7 +54168,9 @@
       "referenceSampleType": "Clear transparent multi-primer for hard-to-bond plastics",
       "referenceSampleConsistency": "Specific gravity 0.67; TB7784/TB7797 set times 3-5 s on PE, PP, POM, PTFE and silicone rubber",
       "referenceForJoining": "Pretreating polyethylene, polypropylene, polyacetal, PTFE and silicone rubber so ThreeBond 1700/7700 cyanoacrylates can bond hard-to-bond substrates",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7797 Technical Data, May 14, 2008, document ED080601"
     },
     {
       "id": "threebond-tb6154d",
@@ -54102,7 +54273,9 @@
       "referenceSampleConsistency": "2300 mPa.s; specific gravity 0.85; 45% heating residue; 30-50 um dry-test film; 1000 h class B salt spray",
       "referenceForJoining": "Protecting automotive underbody and metal parts against rust before or outside adhesive/sealant assembly workflows",
       "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
-      "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+      "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6154D Technical Data, August 28, 2012, document ED2012062"
     },
     {
       "id": "threebond-tb6155d",
@@ -54191,7 +54364,9 @@
       "referenceSampleType": "Gray water-based liquid forming black dried coating",
       "referenceSampleConsistency": "3000 mPa.s; specific gravity 1.15; 62.5% heating residue; pH 8.85; 500 h no-rust salt spray",
       "referenceForJoining": "Protecting automotive lower parts, undercarriages and wheel housings from salt damage before or outside adhesive/sealant bonding workflows",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6155D Technical Data, January 1, 2016, document ED2016001"
     },
     {
       "id": "threebond-tb6602p",
@@ -54313,7 +54488,9 @@
       "referenceSampleConsistency": "Colorless; 0.69 g/cm3 density; 0.00% heating residue; 30 s drying property; brake-fluid and gear-oil cleaning pass",
       "referenceForJoining": "Degreasing automotive brake and mechanical parts before mechanical assembly or downstream bonding/sealing operations",
       "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
-      "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+      "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
+      "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 6602P Technical Data, September 1, 2004, document ED2004088"
     },
     {
       "id": "threebond-tb6630",
@@ -54401,7 +54578,9 @@
       "referenceSampleType": "Colorless-to-pale-purple clear neutral cleaner",
       "referenceSampleConsistency": "pH 6.8; viscosity 10 mPa.s; specific gravity 1.038; purple iron discoloration within 2 min",
       "referenceForJoining": "Cleaning automotive bodies and aluminum wheels, with cautions for downstream bonding because residual cleaner or spots can affect prepared surfaces",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf",
+      "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6630 Technical Data, April 6, 2000, document ED070304"
     },
     {
       "id": "threebond-tb6658",
@@ -54554,7 +54733,9 @@
       "referenceSampleType": "Colorless strong alkaline electrolytic water",
       "referenceSampleConsistency": "pH 12.7; brake fluid, engine oil and gear oil emulsified; skin nonirritating and eye no-irritation in TDS safety tests",
       "referenceForJoining": "Cleaning and degreasing machine tools, cutting-oil/rust-preventive-oil contamination and automotive interiors before downstream assembly or bonding operations",
-      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf"
+      "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf",
+      "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf",
+      "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 6658 Technical Data, February 19, 2014, document ED2014002"
     },
     {
       "id": "jbweld-original-professional-size-10oz",

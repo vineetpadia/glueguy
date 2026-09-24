@@ -3175,21 +3175,22 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "ThreeBond",
     "name": "1211",
     "summary": "Low-viscosity multipurpose silicone liquid gasket for general sealing and gasketing where flow into narrow joints is useful.",
-    "sourceRevisionDate": "ThreeBond International 1200 Series Silicone RTV Sealant product page, cached April 24, 2026",
+    "sourceRevisionDate": "Three Bond International TB1211 Silicone Sealant Technical Data Sheet, Revision 0.2, issued February 3, 2003; document control 3-TB-20-0418.",
     "chemistry": "One-component moisture-curing silicone RTV",
     "cureFamily": "One-part moisture-curing silicone liquid gasket",
-    "cureDetail": "Room-temperature-vulcanizing silicone liquid gasket; curing condition is moisture cure. ThreeBond positions TB1211 as a multipurpose low-viscosity silicone-based liquid gasket with excellent oil resistance for use with solid sheet gaskets.",
-    "serviceMin": 18,
-    "serviceMax": 30,
+    "cureDetail": "Moisture-cured, room-temperature-vulcanizing silicone sealant. Manufacturer TDS describes FIPG use and reports a 90 minute tack-free time.",
+    "serviceMin": -60,
+    "serviceMax": 200,
     "fixtureTime": 90,
     "tackFreeTimeMinutes": 90,
     "viscosityClass": "high",
-    "viscosityValue": 68,
-    "viscosityUnit": "Pa.s",
+    "viscosityValue": 70,
+    "viscosityUnit": "Pa·s (700 P), TDS typical uncured value",
     "appearance": "White",
     "blowOutResistanceMPa": 10,
     "pressureResistanceMPa": 10,
-    "lapShearSubstrate": "The 1200-series product page does not publish lap shear for TB1211; it publishes blow-out resistance of 10 MPa and higher at room temperature.",
+    "lapShear": 1.0,
+    "lapShearSubstrate": "Aluminum/aluminum, room temperature: 1.0 MPa, per the linked TDS.",
     "clarity": "opaque",
     "applicationTags": [
       "sealing-gasketing",
@@ -3221,16 +3222,20 @@ window.TDS_MANUAL_PRODUCTS = [
       "ThreeBond states product-table values are examples of measured values and not guarantee levels.",
       "Best fit is sealing and liquid-gasket use, not structural load transfer.",
       "Current source exposes tack-free time and blow-out resistance but not a lap-shear strength value.",
-      "The source product page does not publish service-temperature range, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life for TB1211."
+      "The source product page does not publish service-temperature range, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life for TB1211.",
+      "TDS is an older February 2003 revision; verify current product formulation and local availability."
     ],
     "referenceUrl": "https://threebond.com/products/sealants/silicone-rtv/",
-    "serviceTemperatureNote": "TDS cache is family-level HTML page; −5 to 25 °C appears to be standard test or storage conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
+    "serviceTemperatureNote": "The linked 2003 TB1211 TDS lists service temperature -60 to 200 °C. Confirm current regional formulation before specification.",
     "unpublishedFields": [
       "lapShear",
       "potLife",
       "thermalConductivity"
     ],
-    "lapShear": null,
+    "tdsUrl": "https://threebond.com/download/threebond-1211-silicone-sealant",
+    "tdsDocumentLabel": "Three Bond International TB1211 Silicone Sealant Technical Data Sheet, Revision 0.2, February 3, 2003",
+    "specificGravity": 1.01,
+    "tensileStrengthMPa": 2.5,
     "potLife": null,
     "thermalConductivity": null
   },
@@ -18152,6 +18157,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1225C-heat-dissipating-adhesive",
+    "tdsDocumentLabel": "ThreeBond 1225C Technical Data, June 23, 2015; document ED2015029",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -18241,6 +18248,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "cureProfiles"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1533-moisture-curing-elastic-adhesive",
+    "tdsDocumentLabel": "ThreeBond 1533 Technical Data, January 1, 2006; document ED2015055",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -18521,6 +18530,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Published values are typical results and should be confirmed by lab and actual trial runs."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
+    "tdsUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
+    "tdsDocumentLabel": "Three Bond International TB 3012D Technical Data Sheet Rev. 0.0, issued 05/20/2011, document control 3-TB-20-1252",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -18717,6 +18728,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish service-temperature limits, pot life, lap shear, dielectric strength, dielectric constant, dissipation factor, volume resistivity, surface resistivity, thermal conductivity, shelf life or exact numeric UV fixture time."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
+    "tdsUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
+    "tdsDocumentLabel": "Three Bond International Three Bond 3164F TDS Rev 0.5, issued July 1, 2015, document control number 3-TB-20-1352",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -18834,6 +18847,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish density or specific gravity, lap shear, peel, tensile strength, elongation, surface resistivity, dielectric properties, thermal conductivity, Tg, CTE, shelf life or service-temperature range."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
+    "tdsUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3303N Technical Data, October 6, 2005, document ED070403",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -18954,6 +18969,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Industrial use only; not for household products or medical implants."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
+    "tdsUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
+    "tdsDocumentLabel": "ThreeBond 3315E Technical Data, Nov. 19 1998; document ED20090703",
     "serviceMin": null,
     "serviceMax": null,
     "fixtureTime": null,
@@ -19128,6 +19145,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish service-temperature limits, pot life, lap shear, tensile strength, elongation, hardness, thermal conductivity, dielectric constant, dielectric breakdown, shelf life or storage conditions."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
+    "tdsUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
+    "tdsDocumentLabel": "Three Bond International TB3373C TDS Rev 0.3, issued November 8, 2005, document control number 3-TB-20-0969",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -38817,6 +38836,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1530-moisture-curing-elasomeric-adhesive",
+    "tdsDocumentLabel": "Three Bond International TB1530 TDS Rev 0.3, issued April 12, 2004, document control number 3-TB-20-0808",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null
@@ -38966,6 +38987,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish tensile strength, elongation, dielectric breakdown, surface resistivity, thermal conductivity, CTE, shelf life, continuous service-temperature range, chemical resistance or pressure-sensitive open time."
     ],
     "referenceUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive",
+    "tdsUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1630 (30t) Technical Data, March 26, 2010, document AD2005049",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39261,6 +39284,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2202-epoxy-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. TB2202 Series Technical Data, July 7, 1995, document ED030901",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39430,6 +39455,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2204-epoxy-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. TB2202 Series Technical Data, July 7, 1995, document ED030901; official TB2204 download serves the shared TB2202 Series PDF",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39586,6 +39613,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3013Q-uv-curable-arcylic-elastic-adhseive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3013Q Technical Data, July 23, 2010, document AD2010060",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39694,6 +39723,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3331D-electrically-conductive-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3331D-electrically-conductive-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3331D Technical Data, March 30, 2017, document ED2017011",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39837,6 +39868,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2274-underfilling-agent.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2274-underfilling-agent",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2274 Technical Data, March 9, 1999, document ED030705",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -39950,6 +39983,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2285-high-glass-transition-epoxy.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2285-high-glass-transition-epoxy",
+    "tdsDocumentLabel": "Three Bond International TB2285 TDS Rev 0.1, issued March 4, 2002, document control number 3-TB-20-0616",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40059,6 +40094,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3303M-silicone-based-conductive-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3303M-silicone-based-conductive-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3303M Technical Data, November 29, 2005, document ED20090905",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40178,6 +40215,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2206S-expoy-compound-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2206S Technical Data, December 22, 2008, document ED20090403",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40284,6 +40323,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2222p-one-component-epoxy.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2222p-one-component-epoxy",
+    "tdsDocumentLabel": "Three Bond International TB2222P TDS Rev 0.2, issued December 12, 2002, document control number 3-TB-20-0848",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40430,6 +40471,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2235L-epoxy-compound-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2235L Technical Data, April 15, 2016, document ED2016072",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40588,6 +40631,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2237J-heat-curable-expoxy-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2237J Technical Data, October 26, 2016, document ED2016096",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40833,6 +40878,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3017D-uv-curing-resin.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3017D Technical Data, July 22, 2009, document ED20091101",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -40980,6 +41027,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3017E-uv-curing-resin.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3017E Technical Data, October 22, 2009, document ED2009066",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41180,6 +41229,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "cureProfiles"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3020B-uv-curable-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3020B Technical Data, October 26, 2016, document ED2016095",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41303,6 +41354,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2249G-heat-curing-epoxy-compound-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2249G-heat-curing-epoxy-compound-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2249G Technical Data, May 30, 2005, document ED061006",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41433,6 +41486,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2270J-epoxy-resin",
+    "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 2270J Technical Data, September 19, 2014, document ED2014042",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null
@@ -41587,6 +41642,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2272F-epoxy-compound-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2272F Technical Data, September 27, 2012, document ED2012073",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41846,6 +41903,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3030-uv-curing-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3030-uv-curing-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3030 Technical Data, September 17, 2004, document ED2004090",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41948,6 +42007,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3036E-uv-curing-resin.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3036E Technical Data, June 5, 2007, document ED2007036",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42042,6 +42103,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3062U Technical Data, March 3, 2009, document ED2009063",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42163,6 +42226,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3081J-uv-curing-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3081J Technical Data, August 31, 2010, document ED2010065",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null
@@ -42315,6 +42380,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3081P-uv-curable-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3081P Technical Data, October 17, 2016, document ED2016093",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -42466,6 +42533,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3124-uv-curing-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3124-uv-curing-resin",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3124 Technical Data, May 18, 2004, document ED080506",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42598,6 +42667,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3164D-uv-curing-silicone-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3164D-uv-curing-silicone-resin",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3164D Technical Data, April 3, 2007, document ED071101",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42745,6 +42816,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3164H-uv-curing-silicone-rtv.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3164H-uv-curing-silicone-rtv",
+    "tdsDocumentLabel": "ThreeBond International, Inc. ThreeBond 3164H Technical Data Sheet, Revision 0.0, September 21, 2017, document TB-20-1363",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -42893,6 +42966,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3166-uv-curable-silicone-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3166 Technical Data, November 17, 2017, document ED2017045",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -43005,6 +43080,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3168J Technical Data, October 10, 2012, document ED2012079",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -43185,6 +43262,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3170B-visible-light-curing-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3170B-visible-light-curing-resin",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3170B Technical Data, March 6, 2002, document ED050803",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -43299,6 +43378,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3170D-visible-light-curing-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3170D-visible-light-curing-resin",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 3170D Technical Data, June 15, 1999, document ED11043",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -43461,6 +43542,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1110F Technical Data, May 24, 2011, document ED2011018",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -43633,6 +43716,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1141G-aqueous-liquid-gasket.pdf",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1141G Technical Data, January 21, 2008, document ED080401; official PDF OCR fallback used because the source is scanned",
     "lapShear": null,
     "potLife": null,
     "thermalConductivity": null
@@ -43771,6 +43856,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1152C-olefin-sealant",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1152C Technical Data, December 4, 2009, document AD2009078",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -43909,6 +43996,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1153C-olefin-sealant",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1153C Technical Data, December 4, 2009, document AD2009079",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -44027,6 +44116,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1156C-heat-curable-acrylic-sealant",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1156C Technical Data, January 22, 2013, document ED2013001",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -44126,6 +44217,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1158-arcylic-based-liquid-gasket.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1158-arcylic-based-liquid-gasket",
+    "tdsDocumentLabel": "Three Bond Co., Ltd. ThreeBond 1158 Technical Data, June 22, 2005, document ED071006",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44221,6 +44314,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1171E Technical Data, August 21, 2008, document ED2008034",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -44328,6 +44423,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1184-liquid-gasket.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1184 Technical Data, October 26, 2010, document ED2010080",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44435,6 +44532,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1207B-silicone-sealant.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1207B-silicone-sealant",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1207B Silicone Sealant Technical Data Sheet, Rev. 0.3, issued September 30, 2003, document 3-TB-20-0409",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -44903,6 +45002,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1217M Technical Data, June 17, 2011, document ED2010052",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -45006,6 +45107,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1225B-silicone-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1225B Technical Data, September 20, 2002, document ED040701",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null
@@ -45128,6 +45231,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1227D-silicone-based-sealant.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1227D-silicone-based-sealant",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1227D Technical Data, May 16, 2005, document ED20090616",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -45661,6 +45766,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1359K Technical Data, September 14, 2017, document ED2017037",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -45969,6 +46076,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1386H Technical Data, April 20, 2004, document ED051105",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46050,6 +46159,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf",
+    "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 1390R Technical Data, July 31, 2013, document ED2013014",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -46286,6 +46397,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1537-moisture-curing-elasomeric-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1537 Series Technical Data, April 7, 2009, document AD2009027",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null
@@ -46431,6 +46544,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1539A-elastic-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1539 Technical Data, September 6, 2016, document ED2016084; official ThreeBond URL identifies the target as TB1539A",
     "potLife": null,
     "thermalConductivity": null
   },
@@ -46583,6 +46698,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/download/threebond-1655d20t-heat-curing-sheet-adhesive/",
       "https://threebond.com/products/adhesives/heat-resistant-adhesive/"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/ThreeBond-1655D20t-heat-curing-sheet-adhesive.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1655D(20t) Technical Data, October 3, 2016, document ED2016094",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47173,6 +47290,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1771E-instant-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1771E-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1771E Technical Data, July 26, 2002, document ED051005",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47316,6 +47435,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1771M-instant-adhesive.pdf",
       "https://threebond.com/products/adhesives/low-viscosity-adhesive/"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1771M-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1771M Technical Data, April 7, 2017, document ED2017014",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47453,6 +47574,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1773E-instant-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1773E-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 1773E Technical Data, July 26, 2002, document AD2002039",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -47750,6 +47873,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1786-cryanoacrylate-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-1786-cryanoacrylate-adhesive",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB1786 Cyanoacrylate Adhesive Technical Data Sheet, Rev. 0.1, issued April 28, 2003, document 3-TB-20-0539",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -48329,6 +48454,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3027G-uv-curing-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3027G Technical Data, October 11, 2012, document ED2012076",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -48534,6 +48661,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2418A-acrylic-based-sealing-agent.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2418 Technical Data, January 13, 2011, document ED2011003",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -48735,6 +48864,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2448A-high-strength-epoxy-sealant.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2448 Technical Data, March 9, 2012, document ED2012018",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -48932,6 +49063,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2458-low-strength-arcylic-sealing-agent.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2458 Technical Data, October 9, 2009, document ED2009060",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -49129,6 +49262,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2468-water-based-acrylic.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2468 Technical Data, January 15, 2010, document ED2010005",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -49326,6 +49461,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2478-high-strength-acrylic-sealing-agent.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2478 Technical Data, May 27, 2009, document ED20090705",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -49529,6 +49666,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2488A-arcylic-based-locking-agent.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 2488 Technical Data, August 25, 2010, document ED2010061",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -49783,6 +49922,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3350C-cold-drying-electroconductive-paint.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3350C-cold-drying-electroconductive-paint",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3350C Technical Data, July 29, 2003, document ED2003045",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -49894,6 +50035,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3351C-electroconductive-resin.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3351C-electroconductive-resin",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3351C Technical Data, May 24, 2010, document AD2010024",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -50046,6 +50189,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3732-heat-resistant-inorganic-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3732-heat-resistant-inorganic-adhesive",
+    "tdsDocumentLabel": "Three Bond International, Inc. TB3732 Heat Resistant Inorganic Adhesive Technical Data Sheet, Rev. 0.3, issued September 3, 2004, document 3-TB-20-0760",
     "serviceMin": null,
     "potLife": null
   },
@@ -50328,6 +50473,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3955A-elastic-adhesive.pdf"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-3955A-elastic-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 3955 Technical Data, March 24, 2011, document ED2012011",
     "serviceMin": null,
     "gapFill": null,
     "thermalConductivity": null
@@ -50477,6 +50624,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7721A-gold-label-instant-adhseive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7721 Technical Data, June 11, 2013, document ED2012029; official download URL uses 7721A",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -50603,6 +50752,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7737 Technical Data, March 25, 2008, document ED080304",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -50730,6 +50881,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7738 Technical Data, March 25, 2008, document ED080306",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -50880,6 +51033,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7741-gold-label-adhseive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7741 Technical Data, November 18, 2008, document ED081203",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51035,6 +51190,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7781-gold-label-adhseive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7781 Technical Data, June 23, 2006, document ED061002",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51191,6 +51348,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7782-gold-label-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7782 Technical Data, June 23, 2006, document ED061003",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51345,6 +51504,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7784-gold-label-instant-adhseive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7784 Technical Data, June 23, 2006, document ED061004",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51500,6 +51661,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7785-gold-label-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7785 Technical Data, May 10, 2007, document ED070703",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51655,6 +51818,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7786-gold-label-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7786 Technical Data, May 10, 2007, document ED070704",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51810,6 +51975,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-7789A-gold-label-instant-adhesive",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7789 Technical Data, May 18, 2011, document ED2011014; official download URL uses 7789A",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -51907,6 +52074,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7796 Technical Data, March 27, 2012, document ED2012024; official download URL uses 7796A",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -52030,6 +52199,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 7797 Technical Data, May 14, 2008, document ED080601",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -52127,6 +52298,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
     "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6154D Technical Data, August 28, 2012, document ED2012062",
     "serviceMin": null,
     "potLife": null,
     "fixtureTime": null,
@@ -52210,6 +52383,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6155D Technical Data, January 1, 2016, document ED2016001",
     "serviceMax": null,
     "fixtureTime": null,
     "potLife": null,
@@ -52325,6 +52500,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
     "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
+    "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 6602P Technical Data, September 1, 2004, document ED2004088",
     "serviceMin": null,
     "potLife": null,
     "fixtureTime": null,
@@ -52408,6 +52585,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf",
+    "tdsDocumentLabel": "ThreeBond Co., Ltd. ThreeBond 6630 Technical Data, April 6, 2000, document ED070304",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -52554,6 +52733,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf",
+    "tdsUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf",
+    "tdsDocumentLabel": "Three Bond Fine Chemical Co., Ltd. ThreeBond 6658 Technical Data, February 19, 2014, document ED2014002",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -65585,8 +65766,8 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
       "automotive-aftermarket",
       "small-engine"
     ],
-    "tempMinC": 18,
-    "tempMaxC": 30,
+    "tempMinC": -60,
+    "tempMaxC": 200,
     "offerCount": 1,
     "sourceUrl": "https://threebond.com/products/sealants/silicone-rtv/",
     "sourceLabel": "TDS"

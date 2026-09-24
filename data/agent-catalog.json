@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:07:43.743233+00:00",
+  "generatedAt": "2026-09-24T04:12:30.276551+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1711,
+    "products": 1710,
     "manualTdsProducts": 650,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 626,
+    "officialManufacturerLeads": 625,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -1822,7 +1822,6 @@
         "official-lead-threebond-tb6658c",
         "official-lead-threebond-tb7721a",
         "official-lead-threebond-tb7789a",
-        "official-lead-threebond-tb7796a",
         "threebond-1211",
         "threebond-1225c",
         "threebond-1324",
@@ -7815,7 +7814,7 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 626,
+      "official-manufacturer-lead": 625,
       "official-tds-url": 377,
       "product-or-catalog-page": 191
     }
@@ -156027,23 +156026,29 @@
       "specs": {
         "chemistry": "One-component moisture-curing silicone RTV",
         "cureFamily": "One-part moisture-curing silicone liquid gasket",
-        "cureDetail": "Room-temperature-vulcanizing silicone liquid gasket; curing condition is moisture cure. ThreeBond positions TB1211 as a multipurpose low-viscosity silicone-based liquid gasket with excellent oil resistance for use with solid sheet gaskets.",
-        "serviceMin": 18,
-        "serviceMax": 30,
-        "serviceTemperatureNote": "TDS cache is family-level HTML page; \u22125 to 25 \u00b0C appears to be standard test or storage conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
+        "cureDetail": "Moisture-cured, room-temperature-vulcanizing silicone sealant. Manufacturer TDS describes FIPG use and reports a 90 minute tack-free time.",
+        "serviceMin": -60,
+        "serviceMax": 200,
+        "serviceTemperatureNote": "The linked 2003 TB1211 TDS lists service temperature -60 to 200 \u00b0C. Confirm current regional formulation before specification.",
         "fixtureTime": 90,
-        "lapShearSubstrate": "The 1200-series product page does not publish lap shear for TB1211; it publishes blow-out resistance of 10 MPa and higher at room temperature.",
+        "lapShear": 1.0,
+        "lapShearSubstrate": "Aluminum/aluminum, room temperature: 1.0 MPa, per the linked TDS.",
         "viscosityClass": "high",
-        "viscosityValue": 68,
-        "viscosityUnit": "Pa.s",
+        "viscosityValue": 70,
+        "viscosityUnit": "Pa\u00b7s (700 P), TDS typical uncured value",
         "clarity": "opaque",
+        "tensileStrengthMPa": 2.5,
+        "specificGravity": 1.01,
         "tackFreeTime": 90
       },
-      "rankableSpecs": {},
+      "rankableSpecs": {
+        "lapShear": 1.0,
+        "tensileStrengthMPa": 2.5
+      },
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/products/sealants/silicone-rtv/",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-1211-silicone-sealant",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1211.txt",
@@ -156052,12 +156057,13 @@
       "coverage": {
         "decision": 1.0,
         "electronics": 1.0,
-        "decisionValueCoverage": 0.727,
-        "electronicsValueCoverage": 0.15,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.2,
         "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "fixtureTime",
+          "lapShear",
           "viscosityClass",
           "clarity",
           "stress",
@@ -156067,13 +156073,13 @@
         "electronicsFieldsPresent": [
           "viscosityValue",
           "viscosityUnit",
+          "tensileStrengthMPa",
           "tackFreeTime"
         ],
         "decisionFieldsMissing": [],
         "electronicsFieldsMissing": [],
         "decisionFieldsVerifiedAbsent": [
           "potLife",
-          "lapShear",
           "thermalConductivity"
         ],
         "electronicsFieldsVerifiedAbsent": [],
@@ -156088,7 +156094,6 @@
           "dissipationFactor",
           "dielectricBreakdownVPerMil",
           "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
           "elongationPct",
           "hardnessValue",
           "hardnessScale",
@@ -156103,7 +156108,7 @@
         ]
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Verified absent from available TDS fields: potLife, thermalConductivity",
         "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
         "ThreeBond states product-table values are examples of measured values and not guarantee levels.",
         "Best fit is sealing and liquid-gasket use, not structural load transfer.",
@@ -156172,7 +156177,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-1225C-heat-dissipating-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-1225C-heat-dissipating-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1225c.txt",
@@ -156828,7 +156833,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-1533-moisture-curing-elastic-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-1533-moisture-curing-elastic-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1533.txt",
@@ -157083,7 +157088,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-3012d.txt",
@@ -157215,7 +157220,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-3164f.txt",
@@ -157329,7 +157334,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-3303n.txt",
@@ -157453,7 +157458,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-3315e.txt",
@@ -157574,7 +157579,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-3373c.txt",
@@ -163774,7 +163779,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/ThreeBond-1655D20t-heat-curing-sheet-adhesive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/ThreeBond-1655D20t-heat-curing-sheet-adhesive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb1655d20t.txt",
@@ -166971,7 +166976,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-2206S-expoy-compound-resin",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-2206S-expoy-compound-resin",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb2206s.txt",
@@ -175378,7 +175383,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-7721A-gold-label-instant-adhseive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-7721A-gold-label-instant-adhseive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb7721a.txt",
@@ -176863,7 +176868,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/download/threebond-7789A-gold-label-instant-adhesive",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-7789A-gold-label-instant-adhesive",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb7789a.txt",
@@ -176933,106 +176938,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-threebond-tb7796a",
-      "source": "official-manufacturer-lead",
-      "maker": "ThreeBond",
-      "name": "TB7796A",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator",
-        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
-        "tdsUrls": [
-          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
-            "label": "ThreeBond TB7796A Technical Data Sheet",
-            "productCodeInTds": null,
-            "catalogNameAliases": [],
-            "documentType": "TDS",
-            "sourcePageUrl": "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator",
-            "documentRevision": null,
-            "issuedDate": null,
-            "documentControlNumber": null,
-            "pageCount": 5,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Test item Unit Properties Test method Remarks | Appearance - Colorless to light | transparent brown 3TS-2100-001 Visual inspection | Specific gravity - 0.75 3TS-2500-001 25\u00b0C",
-              "lapShear": "3 / 5 ED2012024 | 5.3 Curing time and lap shear strength | Test pieces which had been polished with abrasive paper and cleaned were used. | TB7796 or TB1796 was applied to one of the test pieces with a brush, and it was"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator",
-        "sourceLabel": "ThreeBond technical data sheets",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "threebond-tb7796a",
       "source": "manual-tds",
       "maker": "ThreeBond",
@@ -177072,11 +176977,36 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-tb7796a.txt",
-        "sourceQuality": "cached-official-tds-text"
+        "sourceQuality": "cached-official-tds-text",
+        "tdsDocuments": [
+          {
+            "url": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+            "label": "ThreeBond TB7796A Technical Data Sheet",
+            "productCodeInTds": null,
+            "catalogNameAliases": [],
+            "documentType": "TDS",
+            "sourcePageUrl": "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator",
+            "documentRevision": null,
+            "issuedDate": null,
+            "documentControlNumber": null,
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Test item Unit Properties Test method Remarks | Appearance - Colorless to light | transparent brown 3TS-2100-001 Visual inspection | Specific gravity - 0.75 3TS-2500-001 25\u00b0C",
+              "lapShear": "3 / 5 ED2012024 | 5.3 Curing time and lap shear strength | Test pieces which had been polished with abrasive paper and cleaned were used. | TB7796 or TB1796 was applied to one of the test pieces with a brush, and it was"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
+        ],
+        "officialProductUrls": [
+          "https://threebond.com/download/threebond-7796A-gold-label-curing-accelerator"
+        ]
       },
       "coverage": {
         "decision": 1.0,

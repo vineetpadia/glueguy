@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:00:19.400282+00:00",
+  "generatedAt": "2026-09-24T04:02:55.897732+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -29970,7 +29970,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://atomadhesives.com/content/TDS/14265-TDS-2-PART-GENERAL-PURPOSE-FAST-CURE-EPOXY-ADHESIVE-QUICK-DRYING.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://atomadhesives.com/content/TDS/14265-TDS-2-PART-GENERAL-PURPOSE-FAST-CURE-EPOXY-ADHESIVE-QUICK-DRYING.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/atom-adhesives-14265.txt",
@@ -30107,7 +30107,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/atom-adhesives-aa-duct-902.txt",
@@ -35384,7 +35384,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chemtronics-cw2400.txt",
@@ -42976,7 +42976,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/11/11-3367-01-dowsil-tc-2035-adhesive-tds.pdf?iframe=true",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.dow.com/documents/11/11-3367-01-dowsil-tc-2035-adhesive-tds.pdf?iframe=true",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dow-dowsil-tc2035.txt",
@@ -43112,7 +43112,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_577_tds.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_577_tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dow-sylgard-577.txt",
@@ -55640,7 +55640,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gc-electronics-10-114.txt",
@@ -55992,7 +55992,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gc-electronics-10-347.txt",
@@ -56114,7 +56114,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gc-electronics-19-155.txt",
@@ -66328,7 +66328,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/5-Minute-Epoxy-Gel-TDS-v3-.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/5-Minute-Epoxy-Gel-TDS-v3-.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/itw-devcon-14265-5-minute-epoxy-gel.txt",
@@ -95112,7 +95112,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-1035.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-1035.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-1035.txt",
@@ -95255,7 +95255,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832b-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832b-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832b.txt",
@@ -95399,7 +95399,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832c-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832c-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832c.txt",
@@ -95548,7 +95548,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fx-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fx-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832fx.txt",
@@ -95692,7 +95692,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-832fxc-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-832fxc-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832fxc.txt",
@@ -95834,7 +95834,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fxt-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fxt-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832fxt.txt",
@@ -95977,7 +95977,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832hd-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832hd-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832hd.txt",
@@ -96122,7 +96122,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832wc-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832wc-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-832wc.txt",
@@ -96256,7 +96256,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330D-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330D-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8330d.txt",
@@ -96388,7 +96388,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330S-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330S-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8330s.txt",
@@ -96520,7 +96520,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331D-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331D-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8331d.txt",
@@ -96652,7 +96652,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331S-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331S-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8331s.txt",
@@ -96781,7 +96781,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8332-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8332-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8332.txt",
@@ -96927,7 +96927,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-834b-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834b-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-834b.txt",
@@ -97071,7 +97071,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-834blv-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834blv-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-834blv.txt",
@@ -97216,7 +97216,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-834fx-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834fx-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-834fx.txt",
@@ -97360,7 +97360,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-834htc-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834htc-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-834htc.txt",
@@ -97499,7 +97499,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8810-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8810-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8810.txt",
@@ -97638,7 +97638,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8820-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8820-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-8820.txt",
@@ -97785,7 +97785,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9200-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9200-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-9200.txt",
@@ -97929,7 +97929,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-9201.txt",
@@ -98060,7 +98060,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9310.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9310.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-9310.txt",
@@ -98198,7 +98198,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9410.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9410.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-9410.txt",
@@ -98339,7 +98339,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-9510.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9510.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-9510.txt",
@@ -98494,7 +98494,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-UVLED82.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-UVLED82.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/mg-chemicals-uvled82.txt",
@@ -101669,7 +101669,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/invisisil/invisisil-rtv615-rtv655-rtv656-silicone-rubber-compound-tds.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/invisisil/invisisil-rtv615-rtv655-rtv656-silicone-rubber-compound-tds.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/momentive-invisisil-rtv615.txt",
@@ -101820,7 +101820,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%20RTV630.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%20RTV630.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/momentive-siltrust-rtv630.txt",
@@ -101958,7 +101958,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/momentive-snapsil-rtv162.txt",
@@ -102096,7 +102096,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/momentive-snapsil-rtv167.txt",
@@ -106180,7 +106180,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.panacol.com/panacol/datasheets/elecolit/elecolit-325-english-tds-panacol-adhesive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.panacol.com/panacol/datasheets/elecolit/elecolit-325-english-tds-panacol-adhesive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/panacol-elecolit-325.txt",
@@ -106345,7 +106345,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.panacol.com/panacol/datasheets/structalit/structalit-8801-english-tds-panacol-adhesive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.panacol.com/panacol/datasheets/structalit/structalit-8801-english-tds-panacol-adhesive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/panacol-structalit-8801.txt",
@@ -106493,7 +106493,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.panacol.com/panacol/datasheets/vitralit/vitralit-6127-english-tds-panacol-adhesive.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.panacol.com/panacol/datasheets/vitralit/vitralit-6127-english-tds-panacol-adhesive.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/panacol-vitralit-6127.txt",
@@ -122596,7 +122596,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-f201hv.txt",
@@ -129925,7 +129925,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/ta4205-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/tds/ta4205-en/?pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-ta4205.txt",
@@ -134175,7 +134175,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-uv630.txt",
@@ -135086,7 +135086,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-uv640.txt",
@@ -135470,7 +135470,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-uv645.txt",
@@ -135857,7 +135857,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/permabond-uv649.txt",
@@ -140097,7 +140097,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA205HV-TDS.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA205HV-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma205hv.txt",
@@ -140947,7 +140947,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8110_GB-TDS_EN.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8110_GB-TDS_EN.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/plexus-ma8110-gb.txt",

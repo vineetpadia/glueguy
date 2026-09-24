@@ -2857,7 +2857,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.hoenle.com/wp-content/uploads/Elecolit-325-english-tds-hoenle-adhesive.pdf",
       "https://www.hoenle.com/downloads/adhesives-technical-data-sheets/"
-    ]
+    ],
+    "tdsUrl": "https://www.panacol.com/panacol/datasheets/elecolit/elecolit-325-english-tds-panacol-adhesive.pdf",
+    "tdsDocumentLabel": "Hoenle/Panacol Elecolit 325 Technical Datasheet, updated September 11, 2025, revision 6"
   },
   {
     "id": "threebond-1530c",
@@ -3500,6 +3502,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.panacol.com/panacol/datasheets/vitralit/vitralit-6127-english-tds-panacol-adhesive.pdf",
+    "tdsDocumentLabel": "Hoenle/Panacol Vitralit 6127 Technical Datasheet, updated September 15, 2025, revision 6",
     "potLife": null
   },
   {
@@ -4011,6 +4015,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 6,
       "impact": 7
     },
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA205HV-TDS.pdf",
+    "tdsDocumentLabel": "Plexus (ITW) MA205HV Technical Data Sheet",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -4157,6 +4163,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "viscosityValue": "A: 40000-80000; B: 40000-80000",
     "viscosityUnit": "cP",
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8110_GB-TDS_EN.pdf",
+    "tdsDocumentLabel": "Plexus (ITW) MA8110/GB Technical Data Sheet",
     "serviceMin": null
   },
   {
@@ -5252,7 +5260,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://www.hoenle.com/wp-content/uploads/Structalit-8801-english-tds-hoenle-adhesive.pdf",
       "https://www.panacol.com/adhesive-applications/electronics/encapsulation-of-electronic-components",
       "https://www.hoenle.com/downloads/adhesives-technical-data-sheets/"
-    ]
+    ],
+    "tdsUrl": "https://www.panacol.com/panacol/datasheets/structalit/structalit-8801-english-tds-panacol-adhesive.pdf",
+    "tdsDocumentLabel": "Panacol / Hoenle Structalit 8801 Technical Datasheet, updated October 21, 2025, revision 9"
   },
   {
     "id": "cemedine-ep330",
@@ -6555,6 +6565,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 102 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -6663,6 +6675,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 920 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -6716,6 +6730,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 922 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -6773,6 +6789,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 105 Technical Data Sheet",
     "serviceMin": null,
     "serviceMax": null,
     "pricing": {
@@ -6859,6 +6877,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/2010_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 2010 Technical Data Sheet",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -6920,6 +6940,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/2011_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 2011 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -6980,6 +7002,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/4c10_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 4C10 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7035,6 +7059,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/4c20_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 4C20 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7089,6 +7115,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/4c30_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 4C30 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7140,6 +7168,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/4c40_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 4C40 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7195,6 +7225,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/108_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 108 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7277,6 +7309,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/170_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond 170 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7401,7 +7435,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "tdsUrl": "https://permabond.com/tds/130uv_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 130UV Technical Data Sheet"
   },
   {
     "id": "permabond-135uv",
@@ -7525,7 +7561,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "tdsUrl": "https://permabond.com/tds/135uv_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 135UV Technical Data Sheet"
   },
   {
     "id": "permabond-uv610",
@@ -7604,6 +7642,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 3,
       "impact": 4
     },
+    "tdsUrl": "https://permabond.com/tds/uv610_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV610 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7667,6 +7707,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature exposure above ordinary CA service should be treated as brief-process tolerance unless the exact TDS states continuous service."
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2023/05/200_TDS.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2023/05/200_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 200 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -7721,6 +7763,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/712_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 712 Technical Data Sheet",
     "serviceMin": null,
     "potLife": null,
     "fixtureTime": null
@@ -7777,6 +7821,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/790_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 790 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7833,6 +7879,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/791_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 791 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7889,6 +7937,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/792_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 792 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -7946,6 +7996,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/795_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 795 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8001,6 +8053,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/801_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 801 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8057,6 +8111,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/802_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 802 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8109,6 +8165,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2023/05/825_TDS.pdf",
+    "tdsDocumentLabel": "Permabond 825 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8167,6 +8225,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/799_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 799 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8244,6 +8304,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/735_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 735 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8297,6 +8359,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/751_tds_ptbr/?pdf",
+    "tdsDocumentLabel": "Permabond 751 Technical Data Sheet",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -8368,6 +8432,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/737_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 737 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8445,6 +8511,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/940_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 940 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8523,6 +8591,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/941_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 941 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8601,6 +8671,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/943_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 943 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8679,6 +8751,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 1
     },
+    "tdsUrl": "https://permabond.com/tds/947_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond 947 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -8732,6 +8806,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/240_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond 240 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -8782,6 +8858,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond 910 Technical Data Sheet",
     "serviceMax": null,
     "pricing": {
       "basis": "observed",
@@ -10643,6 +10721,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es550_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es550_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES550 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -10741,6 +10821,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es558_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es558_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES558 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -10826,6 +10908,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es562_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es562_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES562 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -10925,6 +11009,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es569_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es569_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES569 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11010,6 +11096,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Do not count automotive sensor-housing bonding as electronics-performance evidence; the TDS does not publish electrical, dielectric, thermal-interface, potting, conformal-coating, conductive-adhesive, or die-attach properties."
     ],
     "referenceUrl": "https://permabond.com/tds/es5748_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es5748_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES5748 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -11097,6 +11185,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es578_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es578_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES578 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11190,6 +11280,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/es579_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/es579_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ES579 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11281,6 +11373,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not explicitly describe thixotropy or non-sag behavior."
     ],
     "referenceUrl": "https://permabond.com/tds/et500_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et500_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET500 Technical Data Sheet",
     "serviceMax": null,
     "tackFreeTime": null
   },
@@ -11366,7 +11460,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et503_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET503 Technical Data Sheet"
   },
   {
     "id": "permabond-et505",
@@ -11457,6 +11553,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance is only stated for brief excursions when the joint is not unduly stressed, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/et505_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et505_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET505 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11548,6 +11646,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance is only stated for brief excursions when the joint is not unduly stressed, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/et510_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et510_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET510 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11654,6 +11754,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not explicitly call the mixed adhesive thixotropic, although low-rpm/high-rpm viscosity spread is published for both parts."
     ],
     "referenceUrl": "https://permabond.com/tds/et514_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et514_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET514 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11758,6 +11860,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Tg is only 20 C, so continuous hot-load use should be treated conservatively despite brief higher-temperature excursion language in the TDS."
     ],
     "referenceUrl": "https://permabond.com/tds/et515_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et515_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET515 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -11835,7 +11939,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et5162_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5162 Technical Data Sheet"
   },
   {
     "id": "permabond-et5164",
@@ -11908,7 +12014,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et5164_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond ET5164 Technical Data Sheet"
   },
   {
     "id": "permabond-et536",
@@ -12012,6 +12120,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Curing below room temperature slows significantly; the TDS strength-development chart compares 15 C, 23 C, and 31 C."
     ],
     "referenceUrl": "https://permabond.com/tds/et536_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et536_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET536 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -12118,6 +12228,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS identifies non-slump behavior for gap filling and vertical application, but large quantities or elevated temperature reduce usable life."
     ],
     "referenceUrl": "https://permabond.com/tds/et538_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et538_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET538 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -12204,7 +12316,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et5392_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5392 Technical Data Sheet"
   },
   {
     "id": "permabond-et5393",
@@ -12290,7 +12404,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et5393_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5393 Technical Data Sheet"
   },
   {
     "id": "permabond-et540",
@@ -12397,6 +12513,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
     "referenceUrl": "https://permabond.com/tds/et540_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et540_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET540 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -12496,7 +12614,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/et5422_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5422 Technical Data Sheet"
   },
   {
     "id": "permabond-et5424",
@@ -12591,7 +12711,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS is provisional; aerospace use still requires program-specific qualification."
     ],
     "referenceUrl": "https://permabond.com/tds/et5424-en/?pdf",
-    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+    "tdsUrl": "https://permabond.com/tds/et5424-en/?pdf",
+    "tdsDocumentLabel": "Permabond ET5424 Technical Data Sheet"
   },
   {
     "id": "permabond-et5428",
@@ -12714,6 +12836,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish thermal conductivity or a continuous maximum service temperature."
     ],
     "referenceUrl": "https://permabond.com/tds/et5428_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et5428_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5428 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -12849,6 +12973,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cold 50 mL cartridges may be difficult to dispense, per the TDS."
     ],
     "referenceUrl": "https://permabond.com/tds/et5441_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/et5441_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond ET5441 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -12964,6 +13090,8 @@ window.TDS_MANUAL_PRODUCTS = [
         "minutes": 120
       }
     ],
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5429_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond ET5429 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -13015,6 +13143,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond ET5143 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13065,6 +13195,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond ET5145 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13114,6 +13246,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond ET5147 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13166,6 +13300,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond ET5364 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13216,6 +13352,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf",
+    "tdsDocumentLabel": "Permabond ET5365 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13267,6 +13405,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond ET5401 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -13440,6 +13580,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://permabond.com/tds/ta4202_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4202_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond TA4202 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -13557,6 +13699,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product may affect some thermoplastics and is not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4204_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4204_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond TA4204 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -13649,7 +13793,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product may affect some thermoplastics and is not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4205-en/?pdf",
-    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+    "tdsUrl": "https://permabond.com/tds/ta4205-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4205 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4207",
@@ -13757,6 +13903,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://permabond.com/tds/ta4207_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4207_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond TA4207 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -13856,7 +14004,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/ta4208black/?pdf",
+    "tdsDocumentLabel": "Permabond TA4208 BLACK Technical Data Sheet"
   },
   {
     "id": "permabond-ta4210",
@@ -13962,6 +14112,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://permabond.com/tds/ta4210_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4210_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond TA4210 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14013,6 +14165,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 6,
       "impact": 7
     },
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4605_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond TA4605 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14139,6 +14293,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a011_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A011 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14186,7 +14342,9 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "unpublishedFields": [
       "potLife"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/a025_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A025 Technical Data Sheet"
   },
   {
     "id": "permabond-3d-series",
@@ -14226,7 +14384,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://permabond.com/tds/3d_series_tds-pt-br/?pdf",
     "viscosityValue": "4-110",
     "viscosityUnit": "mPa.s",
-    "viscosityNote": "Range covers 3 variants: Medium Low 90-110 mPa.s, Low 10-20 mPa.s, Ultra-low 4 mPa.s"
+    "viscosityNote": "Range covers 3 variants: Medium Low 90-110 mPa.s, Low 10-20 mPa.s, Ultra-low 4 mPa.s",
+    "tdsUrl": "https://permabond.com/tds/3d_series_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond 3D SERIES Technical Data Sheet"
   },
   {
     "id": "permabond-a1042",
@@ -14275,6 +14435,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a1042_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A1042 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14324,6 +14486,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a1044_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A1044 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14372,6 +14536,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a1046_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A1046 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14421,6 +14587,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/a113_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A113 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14470,6 +14638,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a118_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A118 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14521,6 +14691,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a126_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A126 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14570,6 +14742,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a129_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A129 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14619,6 +14793,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/a130_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A130 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14668,6 +14844,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a131_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A131 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14718,6 +14896,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a134_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A134 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14767,6 +14947,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/a136_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond A136 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -14831,6 +15013,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/f201_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond F201 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -14897,6 +15081,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/f202_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond F202 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -14961,6 +15147,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hh120_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HH120 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15024,6 +15212,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hh131_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HH131 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15087,6 +15277,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hh190_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HH190 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15152,6 +15344,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hl126_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HL126 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15214,6 +15408,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hl138_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HL138 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15273,6 +15469,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm118_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM118 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15332,6 +15530,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm128_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM128 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15404,6 +15604,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm129_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM129 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15473,6 +15675,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm135_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM135 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15532,6 +15736,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm161_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM161 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15581,6 +15787,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "impact": 3
     },
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HM162_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond HM162 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -15650,6 +15858,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm163_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM163 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15725,6 +15935,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/hm165_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond HM165 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15774,6 +15986,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax"
     ],
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HH167_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond HH167 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15836,6 +16050,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lh050_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LH050 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15895,6 +16111,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lh051_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LH051 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -15962,6 +16180,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lh056_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LH056 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -16026,6 +16246,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lh150_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LH150 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -16099,6 +16321,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lh197_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LH197 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -16164,6 +16388,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lm012_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LM012 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -16229,6 +16455,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/lm113_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond LM113 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -16320,6 +16548,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://permabond.com/tds/mh052_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond MH052 Technical Data Sheet",
     "potLife": null
   },
   {
@@ -16397,6 +16627,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://permabond.com/tds/mh196_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MH196 Technical Data Sheet",
     "potLife": null
   },
   {
@@ -16474,6 +16706,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife"
     ],
+    "tdsUrl": "https://permabond.com/tds/mh199_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MH199 Technical Data Sheet",
     "potLife": null
   },
   {
@@ -16551,6 +16785,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
+    "tdsUrl": "https://permabond.com/tds/mm115_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MM115 Technical Data Sheet",
     "potLife": null,
     "serviceMax": null
   },
@@ -17732,7 +17968,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "tdsUrl": "https://eclecticproducts.com/downloads/tds-e6000-spray-english.pdf",
+    "tdsDocumentLabel": "E6000 E6000 Spray Adhesive Technical Data Sheet"
   },
   {
     "id": "e6000-premium",
@@ -19792,6 +20030,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond MS359A Grey Technical Data Sheet",
     "serviceMax": null,
     "gapFill": null,
     "potLife": null,
@@ -19873,6 +20113,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond MS359 Clear Technical Data Sheet",
     "serviceMax": null,
     "potLife": null,
     "thermalConductivity": null
@@ -19951,6 +20193,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond MS359 Grey Technical Data Sheet",
     "serviceMax": null,
     "potLife": null,
     "thermalConductivity": null
@@ -20049,6 +20293,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Aluminum peel is published as 60-80 N/25mm; the N/m scalar is the lower-bound conversion."
     ],
     "referenceUrl": "https://permabond.com/tds/mt3809_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/mt3809_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MT3809 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -20156,6 +20402,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://permabond.com/tds/mt382_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MT382 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -20256,6 +20504,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://permabond.com/tds/mt3836_tds-pt-br/?pdf",
+    "tdsUrl": "https://permabond.com/tds/mt3836_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond MT3836 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -20341,6 +20591,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/pt321_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond PT321 Technical Data Sheet",
     "thermalConductivity": null
   },
   {
@@ -20434,6 +20686,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/pt326_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond PT326 Technical Data Sheet",
     "thermalConductivity": null
   },
   {
@@ -20527,6 +20781,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/pt328_tds-pt-br/?pdf",
+    "tdsDocumentLabel": "Permabond PT328 Technical Data Sheet",
     "thermalConductivity": null
   },
   {
@@ -20647,6 +20903,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "stress"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832hd-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832HD Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -20776,6 +21034,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "stress"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832b-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832B Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -20882,6 +21142,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330S-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330S-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8330S Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -20988,6 +21250,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331S-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331S-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8331S Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -21090,6 +21354,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331D-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331D-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8331D Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -21202,7 +21468,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The cached official TDS does not publish viscosity, tensile strength, peel strength or a designed maximum gap-fill value.",
       "Do not thin; substrate compatibility should be checked on a non-critical area before use."
     ],
-    "referenceUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf"
+    "referenceUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf",
+    "tdsUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf",
+    "tdsDocumentLabel": "Chemtronics CircuitWorks CW2400 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4230",
@@ -21300,7 +21568,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4230_tds-en/?pdf",
-    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+    "tdsUrl": "https://permabond.com/tds/ta4230_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4230 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4246",
@@ -21425,6 +21695,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4246_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4246_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4246 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -21534,6 +21806,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta430_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta430_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA430 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -21640,6 +21914,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta435_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta435_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA435 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -21747,6 +22023,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta436_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta436_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA436 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -21856,6 +22134,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta437_tds-en/?pdf=1",
+    "tdsUrl": "https://permabond.com/tds/ta437_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA437 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -21959,6 +22239,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta439_tds-en/?pdf=1",
+    "tdsUrl": "https://permabond.com/tds/ta439_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA439 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -22063,6 +22345,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta440_tds-en/?pdf=1",
+    "tdsUrl": "https://permabond.com/tds/ta440_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA440 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -22169,7 +22453,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/ta4522_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA4522 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4550",
@@ -22276,6 +22562,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4550_tds-en/?pdf=1",
+    "tdsUrl": "https://permabond.com/tds/ta4550_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA4550 Technical Data Sheet",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -22343,7 +22631,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Larger quantities and higher temperatures reduce working time; not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/ta4592_tds-en/?pdf=1",
-    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+    "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+    "tdsUrl": "https://permabond.com/tds/ta4592_tds-en/?pdf=1",
+    "tdsDocumentLabel": "Permabond TA4592 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4611",
@@ -22457,7 +22747,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/ta4611_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4611 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4631",
@@ -22576,7 +22868,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states \"can withstand higher temperatures for brief periods\"; no service temperature range published; 5–25 °C is storage, not service.",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/ta4631_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4631 Technical Data Sheet"
   },
   {
     "id": "permabond-ta4810",
@@ -22681,6 +22975,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://permabond.com/tds/ta4810_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/ta4810_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond TA4810 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -22777,6 +23073,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv605_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv605_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV605 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -22876,6 +23174,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv6160_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv6160_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV6160 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -22973,6 +23273,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv620_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv620_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV620 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23071,6 +23373,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv6231_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv6231_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV6231 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23169,6 +23473,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv625_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv625_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV625 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23270,6 +23576,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV630 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23376,6 +23684,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv632_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv632_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV632 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23476,6 +23786,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/uv6357_tds/?pdf",
+    "tdsDocumentLabel": "Permabond UV6357 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23564,6 +23876,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/uv6361_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV6361 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23663,6 +23977,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/uv639_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV639 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23763,6 +24079,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV640 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -23864,7 +24182,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://permabond.com/tds/uv643_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV643 Technical Data Sheet"
   },
   {
     "id": "permabond-uv645",
@@ -23970,6 +24290,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
     "referenceUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV645 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24075,6 +24397,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Not recommended for strong oxidizing materials."
     ],
     "referenceUrl": "https://permabond.com/tds/uv648_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv648_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV648 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24181,6 +24505,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
     "referenceUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV649 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24278,6 +24604,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
     "referenceUrl": "https://permabond.com/tds/uv670_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv670_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV670 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24389,6 +24717,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 2-7 C and protect liquid adhesive from room lighting."
     ],
     "referenceUrl": "https://permabond.com/tds/uv681_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv681_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV681 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24501,6 +24831,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 2-7 C and protect liquid adhesive from room lighting."
     ],
     "referenceUrl": "https://permabond.com/tds/uv683_tds-en/?pdf",
+    "tdsUrl": "https://permabond.com/tds/uv683_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV683 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24605,6 +24937,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://permabond.com/tds/uv7141_tds-en/?pdf",
+    "tdsDocumentLabel": "Permabond UV7141 Technical Data Sheet",
     "serviceMax": null
   },
   {
@@ -24654,6 +24988,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS-1.pdf",
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond HH040 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null,
     "fixtureTime": null
@@ -24704,6 +25040,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-3.pdf",
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-3.pdf",
+    "tdsDocumentLabel": "Permabond HM160 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -24759,6 +25097,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
+    "tdsDocumentLabel": "Permabond F201HV Technical Data Sheet",
     "serviceMax": null,
     "potLife": null,
     "thermalConductivity": null
@@ -24812,6 +25152,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-5.pdf",
     "dielectricBreakdownKVPerMm": 11,
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-5.pdf",
+    "tdsDocumentLabel": "Permabond A1058 Technical Data Sheet",
     "serviceMax": null,
     "potLife": null
   },
@@ -24869,6 +25211,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond MT3821 Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -24929,6 +25273,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf",
+    "tdsDocumentLabel": "Permabond TA4610 Technical Data Sheet",
     "serviceMax": null,
     "gapFill": null,
     "thermalConductivity": null
@@ -24985,6 +25331,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service; product description notes 'high temperature resistance' and Tg 50-60°C.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf",
+    "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf",
+    "tdsDocumentLabel": "Permabond ET5428 BLACK Technical Data Sheet",
     "serviceMax": null,
     "thermalConductivity": null
   },
@@ -25070,6 +25418,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-1035.pdf",
+    "tdsDocumentLabel": "MG Chemicals 1035 Technical Data Sheet",
     "lapShear": null,
     "pricing": {
       "basis": "observed",
@@ -25168,6 +25518,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9310.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9310.pdf",
+    "tdsDocumentLabel": "MG Chemicals 9310 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25273,6 +25625,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9410.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9410.pdf",
+    "tdsDocumentLabel": "MG Chemicals 9410 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25377,6 +25731,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330D-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330D-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8330D Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25515,6 +25871,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "stress"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834htc-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 834HTC Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25633,6 +25991,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "stress"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fx-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832FX Technical Data Sheet",
     "stress": null,
     "pricing": {
       "basis": "observed",
@@ -25747,6 +26107,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8810-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8810 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25863,6 +26225,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fxt-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fxt-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832FXT Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25981,6 +26345,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832c-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832C Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26085,6 +26451,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-8332-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8332-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8332 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26204,6 +26572,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832wc-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832WC Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26313,6 +26683,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834blv-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 834BLV Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26432,6 +26804,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834fx-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 834FX Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26545,6 +26919,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8820-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 8820 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26665,6 +27041,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.mgchemicals.com/downloads/tds/tds-9200-2parts.pdf",
+    "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9200-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 9200 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26784,6 +27162,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-UVLED82.pdf",
+    "tdsDocumentLabel": "MG Chemicals UVLED82 Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26903,6 +27283,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-832fxc-2parts.pdf",
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-832fxc-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 832FXC Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -27022,6 +27404,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834b-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 834B Technical Data Sheet",
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -27383,7 +27767,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "tdsUrl": "https://www.dow.com/documents/11/11-3367-01-dowsil-tc-2035-adhesive-tds.pdf?iframe=true",
+    "tdsDocumentLabel": "DOW DOWSIL TC-2035 Technical Data Sheet"
   },
   {
     "id": "aremco-ceramabond-503",
@@ -28035,6 +28421,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
+    "tdsDocumentLabel": "Momentive Performance Materials SNAPSIL RTV162 Technical Data Sheet",
     "lapShear": null,
     "pricing": {
       "basis": "observed",
@@ -28139,6 +28527,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
+    "tdsDocumentLabel": "Momentive Performance Materials SNAPSIL RTV167 Technical Data Sheet",
     "lapShear": null,
     "pricing": {
       "basis": "observed",
@@ -28264,6 +28654,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/invisisil/invisisil-rtv615-rtv655-rtv656-silicone-rubber-compound-tds.pdf",
+    "tdsDocumentLabel": "Momentive Performance Materials INVISISIL RTV615 Technical Data Sheet",
     "lapShear": null
   },
   {
@@ -28372,6 +28764,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%20RTV630.pdf",
+    "tdsDocumentLabel": "Momentive Performance Materials SILTRUST RTV630 Technical Data Sheet",
     "lapShear": null
   },
   {
@@ -29995,6 +30389,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_577_tds.pdf",
+    "tdsDocumentLabel": "DOW SYLGARD 577 Primerless Silicone Adhesive Technical Data Sheet",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
@@ -30143,6 +30539,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9510.pdf",
+    "tdsDocumentLabel": "MG Chemicals 9510 Technical Data Sheet",
     "potLife": null,
     "pricing": {
       "basis": "observed",
@@ -30254,7 +30652,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf"
+    "referenceUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf",
+    "tdsUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf",
+    "tdsDocumentLabel": "Atom Adhesives AA-DUCT 902 Technical Data Sheet"
   },
   {
     "id": "atom-adhesives-14265",
@@ -30358,6 +30758,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://atomadhesives.com/content/TDS/14265-TDS-2-PART-GENERAL-PURPOSE-FAST-CURE-EPOXY-ADHESIVE-QUICK-DRYING.pdf",
+    "tdsDocumentLabel": "Atom Adhesives 14265 5 Minute Adhesive Epoxy Gel Technical Data Sheet",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -31498,6 +31900,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
+    "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
+    "tdsDocumentLabel": "MG Chemicals 9201 Epoxy Structural Adhesive Technical Data Sheet",
     "fixtureTime": null,
     "pricing": {
       "basis": "observed",
@@ -31869,6 +32273,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Intended for electronic applications where corrosion to metals such as copper, brass and silver is a problem."
     ],
     "referenceUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
+    "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
+    "tdsDocumentLabel": "GC Electronics 19-155 Technical Data Sheet",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -32179,6 +32585,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Clean uncured resin with suitable organic solvent such as MEK, acetone or a chlorinated solvent."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
+    "tdsDocumentLabel": "GC Electronics 10-114 Quik Stik Technical Data Sheet",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
@@ -32290,6 +32698,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Clean uncured resin with suitable organic solvent such as MEK, acetone or an organic solvent."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
+    "tdsDocumentLabel": "GC Electronics 10-347 Epoxy Glue Technical Data Sheet",
     "fixtureTime": null,
     "lapShear": null,
     "pricing": {
@@ -33695,6 +34105,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/5-Minute-Epoxy-Gel-TDS-v3-.pdf",
+    "tdsDocumentLabel": "ITW Performance Polymers Devcon 14265 5 Minute Epoxy Gel Technical Data Sheet",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",

@@ -2947,7 +2947,9 @@
       "referenceCategory": "Electrically and Thermally Conductive Epoxy Adhesives",
       "referenceSampleType": "Two-part silver-filled modified epoxy",
       "referenceSampleConsistency": "Grey paste-like 1:1 epoxy; 2 h pot life; 71 wt% silver filler; density 2.5-2.7 g/cm3; Shore D 70-85; thermal conductivity 3.8-4.2 W/m*K; volume resistivity 1E-4 to 5E-4 Ohm.cm",
-      "referenceForJoining": "Electrical contacting, ESD protection/discharge and thermally conductive bonding of heat-sensitive electronic components where a room-temperature or heat-curable conductive epoxy is required"
+      "referenceForJoining": "Electrical contacting, ESD protection/discharge and thermally conductive bonding of heat-sensitive electronic components where a room-temperature or heat-curable conductive epoxy is required",
+      "tdsUrl": "https://www.panacol.com/panacol/datasheets/elecolit/elecolit-325-english-tds-panacol-adhesive.pdf",
+      "tdsDocumentLabel": "Hoenle/Panacol Elecolit 325 Technical Datasheet, updated September 11, 2025, revision 6"
     },
     {
       "id": "threebond-1530c",
@@ -3617,7 +3619,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.panacol.com/panacol/datasheets/vitralit/vitralit-6127-english-tds-panacol-adhesive.pdf",
+      "tdsDocumentLabel": "Hoenle/Panacol Vitralit 6127 Technical Datasheet, updated September 15, 2025, revision 6"
     },
     {
       "id": "plexus-ma300",
@@ -4149,7 +4153,9 @@
         "shear": 8,
         "peel": 6,
         "impact": 7
-      }
+      },
+      "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA205HV-TDS.pdf",
+      "tdsDocumentLabel": "Plexus (ITW) MA205HV Technical Data Sheet"
     },
     {
       "id": "plexus-ma8110-gb",
@@ -4299,7 +4305,9 @@
         "impact": 7
       },
       "viscosityValue": "A: 40000-80000; B: 40000-80000",
-      "viscosityUnit": "cP"
+      "viscosityUnit": "cP",
+      "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Plexus-MA8110_GB-TDS_EN.pdf",
+      "tdsDocumentLabel": "Plexus (ITW) MA8110/GB Technical Data Sheet"
     },
     {
       "id": "plexus-ma8105-gb",
@@ -5427,7 +5435,9 @@
       "referenceCategory": "Electronics Potting Compounds",
       "referenceSampleType": "Beige one-part heat-curing modified epoxy",
       "referenceSampleConsistency": "Beige solvent-free epoxy with chalk filler; 30,000-45,000 mPa.s Brookfield viscosity; 1.2-1.5 g/cm3 density; 7 day room-temperature working life",
-      "referenceForJoining": "Potting, encapsulation and bonding in electronic components, PCBs, sensors, automotive assemblies and medical devices requiring low-ion electronic-grade heat-cure epoxy"
+      "referenceForJoining": "Potting, encapsulation and bonding in electronic components, PCBs, sensors, automotive assemblies and medical devices requiring low-ion electronic-grade heat-cure epoxy",
+      "tdsUrl": "https://www.panacol.com/panacol/datasheets/structalit/structalit-8801-english-tds-panacol-adhesive.pdf",
+      "tdsDocumentLabel": "Panacol / Hoenle Structalit 8801 Technical Datasheet, updated October 21, 2025, revision 9"
     },
     {
       "id": "cemedine-ep330",
@@ -6785,7 +6795,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Low-viscosity liquid (70-90 cP); clear/colorless",
       "referenceForJoining": "Metal, plastic, rubber, general assembly",
-      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf"
+      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond 102 Technical Data Sheet"
     },
     {
       "id": "permabond-919",
@@ -6901,7 +6913,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Liquid (80 cP); clear/colorless",
       "referenceForJoining": "Metal, plastic, rubber",
-      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf"
+      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond 920 Technical Data Sheet"
     },
     {
       "id": "permabond-922",
@@ -6958,7 +6972,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Thick liquid (1200-2000 cP); clear/colorless",
       "referenceForJoining": "Metal, plastic, rubber, porous materials, wide-gap assemblies",
-      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf"
+      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond 922 Technical Data Sheet"
     },
     {
       "id": "permabond-105",
@@ -7025,7 +7041,9 @@
       "priceUnit": "fl-oz",
       "priceExample": "1 oz bottle ~$26.84",
       "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-1~~/",
-      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf"
+      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond 105 Technical Data Sheet"
     },
     {
       "id": "permabond-2010",
@@ -7108,7 +7126,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/2010_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 2010 Technical Data Sheet"
     },
     {
       "id": "permabond-2011",
@@ -7172,7 +7192,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/2011_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 2011 Technical Data Sheet"
     },
     {
       "id": "permabond-4c10",
@@ -7236,7 +7258,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/4c10_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 4C10 Technical Data Sheet"
     },
     {
       "id": "permabond-4c20",
@@ -7295,7 +7319,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/4c20_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 4C20 Technical Data Sheet"
     },
     {
       "id": "permabond-4c30",
@@ -7353,7 +7379,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/4c30_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 4C30 Technical Data Sheet"
     },
     {
       "id": "permabond-4c40",
@@ -7408,7 +7436,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/4c40_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 4C40 Technical Data Sheet"
     },
     {
       "id": "permabond-108",
@@ -7467,7 +7497,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/108_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 108 Technical Data Sheet"
     },
     {
       "id": "permabond-170",
@@ -7553,7 +7585,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/170_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond 170 Technical Data Sheet"
     },
     {
       "id": "permabond-130uv",
@@ -7681,7 +7715,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/130uv_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 130UV Technical Data Sheet"
     },
     {
       "id": "permabond-135uv",
@@ -7809,7 +7845,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/135uv_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 135UV Technical Data Sheet"
     },
     {
       "id": "permabond-uv610",
@@ -7892,7 +7930,9 @@
         "shear": 7,
         "peel": 3,
         "impact": 4
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/uv610_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV610 Technical Data Sheet"
     },
     {
       "id": "permabond-200",
@@ -7963,7 +8003,9 @@
       "priceSize": 1,
       "priceUnit": "fl-oz",
       "priceExample": "1 oz bottle ~$25.67",
-      "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-1~~/"
+      "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-1~~/",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2023/05/200_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 200 Technical Data Sheet"
     },
     {
       "id": "permabond-712",
@@ -8017,7 +8059,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/712_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 712 Technical Data Sheet"
     },
     {
       "id": "permabond-790",
@@ -8075,7 +8119,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/790_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 790 Technical Data Sheet"
     },
     {
       "id": "permabond-791",
@@ -8135,7 +8181,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/791_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 791 Technical Data Sheet"
     },
     {
       "id": "permabond-792",
@@ -8195,7 +8243,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/792_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 792 Technical Data Sheet"
     },
     {
       "id": "permabond-795",
@@ -8256,7 +8306,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/795_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 795 Technical Data Sheet"
     },
     {
       "id": "permabond-801",
@@ -8315,7 +8367,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/801_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 801 Technical Data Sheet"
     },
     {
       "id": "permabond-802",
@@ -8375,7 +8429,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://www.permabond.com/wp-content/uploads/2016/04/802_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 802 Technical Data Sheet"
     },
     {
       "id": "permabond-825",
@@ -8431,7 +8487,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2023/05/825_TDS.pdf",
+      "tdsDocumentLabel": "Permabond 825 Technical Data Sheet"
     },
     {
       "id": "permabond-799",
@@ -8493,7 +8551,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/799_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 799 Technical Data Sheet"
     },
     {
       "id": "permabond-735",
@@ -8574,7 +8634,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/735_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 735 Technical Data Sheet"
     },
     {
       "id": "permabond-751",
@@ -8635,7 +8697,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/751_tds_ptbr/?pdf",
+      "tdsDocumentLabel": "Permabond 751 Technical Data Sheet"
     },
     {
       "id": "permabond-737",
@@ -8706,7 +8770,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/737_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 737 Technical Data Sheet"
     },
     {
       "id": "permabond-940",
@@ -8787,7 +8853,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/940_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 940 Technical Data Sheet"
     },
     {
       "id": "permabond-941",
@@ -8869,7 +8937,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/941_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 941 Technical Data Sheet"
     },
     {
       "id": "permabond-943",
@@ -8951,7 +9021,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/943_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 943 Technical Data Sheet"
     },
     {
       "id": "permabond-947",
@@ -9033,7 +9105,9 @@
         "shear": 6,
         "peel": 1,
         "impact": 1
-      }
+      },
+      "tdsUrl": "https://permabond.com/tds/947_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond 947 Technical Data Sheet"
     },
     {
       "id": "permabond-240",
@@ -9094,7 +9168,9 @@
       "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/240_TDS-1.pdf",
       "unpublishedFields": [
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/240_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond 240 Technical Data Sheet"
     },
     {
       "id": "permabond-910",
@@ -9147,7 +9223,9 @@
       "priceUnit": "fl-oz",
       "priceExample": "1 oz bottle ~$26.79",
       "priceSourceUrl": "https://www.mcmaster.com/products/glue/instant-bond-adhesives-1~/instant-bond-adhesives-1~~/",
-      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf"
+      "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+      "tdsDocumentLabel": "Permabond 910 Technical Data Sheet"
     },
     {
       "id": "lord-fusor-2098",
@@ -11089,7 +11167,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Silver-grey no-flow paste; 1,000,000-2,000,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Metals, ferrites, ceramics, composites, steel, aluminum, zinc, and high-gap heat-cured structural assemblies"
+      "referenceForJoining": "Metals, ferrites, ceramics, composites, steel, aluminum, zinc, and high-gap heat-cured structural assemblies",
+      "tdsUrl": "https://permabond.com/tds/es550_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES550 Technical Data Sheet"
     },
     {
       "id": "permabond-es558",
@@ -11191,7 +11271,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Silver-grey paste; 100,000-300,000 mPa.s (cP) @ 25 C; free flow when heated",
-      "referenceForJoining": "Metals, ferrites, ceramics, composites, steel, aluminum, zinc, and heat-cured assemblies where heated flow is useful"
+      "referenceForJoining": "Metals, ferrites, ceramics, composites, steel, aluminum, zinc, and heat-cured assemblies where heated flow is useful",
+      "tdsUrl": "https://permabond.com/tds/es558_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES558 Technical Data Sheet"
     },
     {
       "id": "permabond-es562",
@@ -11280,7 +11362,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "White self-leveling liquid; 15,000-30,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Metal surfaces, composites, mechanical-fastener replacement, solder/braze replacement, and self-leveling heat-cure epoxy bonds"
+      "referenceForJoining": "Metal surfaces, composites, mechanical-fastener replacement, solder/braze replacement, and self-leveling heat-cure epoxy bonds",
+      "tdsUrl": "https://permabond.com/tds/es562_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES562 Technical Data Sheet"
     },
     {
       "id": "permabond-es569",
@@ -11383,7 +11467,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Black non-sag paste; 250,000-500,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Large-gap and vertical bonds on metals, composites, FRP glass/epoxy, carbon fiber, and electronic component assemblies that must withstand solder reflow"
+      "referenceForJoining": "Large-gap and vertical bonds on metals, composites, FRP glass/epoxy, carbon fiber, and electronic component assemblies that must withstand solder reflow",
+      "tdsUrl": "https://permabond.com/tds/es569_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES569 Technical Data Sheet"
     },
     {
       "id": "permabond-es5748",
@@ -11473,7 +11559,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Orange paste; 30,000 mPa.s (cP) @ 20 rpm and 75,000 mPa.s (cP) @ 2 rpm",
-      "referenceForJoining": "High-strength rigid bonds on automotive sensor housings, pump housings, difficult plastics such as PBT, metals, carbon fiber, PEEK, and filled PA6"
+      "referenceForJoining": "High-strength rigid bonds on automotive sensor housings, pump housings, difficult plastics such as PBT, metals, carbon fiber, PEEK, and filled PA6",
+      "tdsUrl": "https://permabond.com/tds/es5748_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES5748 Technical Data Sheet"
     },
     {
       "id": "permabond-es578",
@@ -11563,7 +11651,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Black paste; 600,000-800,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Aluminum heat sinks to ceramic headers and thermally conductive electrically insulating electronic assemblies"
+      "referenceForJoining": "Aluminum heat sinks to ceramic headers and thermally conductive electrically insulating electronic assemblies",
+      "tdsUrl": "https://permabond.com/tds/es578_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES578 Technical Data Sheet"
     },
     {
       "id": "permabond-es579",
@@ -11660,7 +11750,9 @@
       "referenceCategory": "Single-Part Heat-Cure Epoxies",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Ivory paste; 60,000-90,000 mPa.s (cP) @ 25 C; some flow at high temperature",
-      "referenceForJoining": "Thermally conductive electrically non-conductive bonds on metals, ceramics, composites, steel, aluminum, and zinc"
+      "referenceForJoining": "Thermally conductive electrically non-conductive bonds on metals, ceramics, composites, steel, aluminum, and zinc",
+      "tdsUrl": "https://permabond.com/tds/es579_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ES579 Technical Data Sheet"
     },
     {
       "id": "permabond-et500",
@@ -11756,7 +11848,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Clear two-part paste; Part A 12,000-18,000 mPa.s (cP), Part B 15,000-30,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Small component assemblies, wood, metal, ceramics, some plastics, and composites"
+      "referenceForJoining": "Small component assemblies, wood, metal, ceramics, some plastics, and composites",
+      "tdsUrl": "https://permabond.com/tds/et500_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET500 Technical Data Sheet"
     },
     {
       "id": "permabond-et503",
@@ -11845,7 +11939,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et503_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET503 Technical Data Sheet"
     },
     {
       "id": "permabond-et505",
@@ -11940,7 +12036,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Two-part paste; Part A 14,000-28,000 mPa.s (cP), Part B 10,000-25,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Larger structural assemblies in wood, metal, ceramics, some plastics, and composites where longer adjustment time is useful"
+      "referenceForJoining": "Larger structural assemblies in wood, metal, ceramics, some plastics, and composites where longer adjustment time is useful",
+      "tdsUrl": "https://permabond.com/tds/et505_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET505 Technical Data Sheet"
     },
     {
       "id": "permabond-et510",
@@ -12035,7 +12133,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Two-part paste; Part A 14,000-28,000 mPa.s (cP), Part B 30,000-50,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Wood, metal, ceramics, some plastics, composites, and dissimilar-material assemblies needing semi-flexible epoxy behavior"
+      "referenceForJoining": "Wood, metal, ceramics, some plastics, composites, and dissimilar-material assemblies needing semi-flexible epoxy behavior",
+      "tdsUrl": "https://permabond.com/tds/et510_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET510 Technical Data Sheet"
     },
     {
       "id": "permabond-et514",
@@ -12145,7 +12245,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Two-part paste; Part A 65,000 mPa.s @ 20 rpm and 225,000 mPa.s @ 2 rpm; Part B 65,000 mPa.s @ 20 rpm and 150,000 mPa.s @ 2 rpm",
-      "referenceForJoining": "Metal, wood, composites, carbon fiber, FRP glass/epoxy, polycarbonate, PA6, PEEK, and vibration-prone structural assemblies"
+      "referenceForJoining": "Metal, wood, composites, carbon fiber, FRP glass/epoxy, polycarbonate, PA6, PEEK, and vibration-prone structural assemblies",
+      "tdsUrl": "https://permabond.com/tds/et514_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET514 Technical Data Sheet"
     },
     {
       "id": "permabond-et515",
@@ -12253,7 +12355,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Two-part paste; Part A 15,000 mPa.s (cP), Part B 19,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Dissimilar-material bonds across wood, metal, ceramics, plastics, composites, carbon fiber, FRP, polycarbonate, and filled PA6"
+      "referenceForJoining": "Dissimilar-material bonds across wood, metal, ceramics, plastics, composites, carbon fiber, FRP, polycarbonate, and filled PA6",
+      "tdsUrl": "https://permabond.com/tds/et515_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET515 Technical Data Sheet"
     },
     {
       "id": "permabond-et5162",
@@ -12335,7 +12439,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et5162_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5162 Technical Data Sheet"
     },
     {
       "id": "permabond-et5164",
@@ -12413,7 +12519,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et5164_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond ET5164 Technical Data Sheet"
     },
     {
       "id": "permabond-et536",
@@ -12521,7 +12629,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Non-drip white/black two-part paste; Part A 75,000 mPa.s @ 20 rpm and 225,000 mPa.s @ 2 rpm; Part B 150,000 mPa.s @ 20 rpm and 300,000 mPa.s @ 2 rpm",
-      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, polycarbonate, and filled PA6"
+      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, polycarbonate, and filled PA6",
+      "tdsUrl": "https://permabond.com/tds/et536_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET536 Technical Data Sheet"
     },
     {
       "id": "permabond-et538",
@@ -12631,7 +12741,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Thixotropic non-slump white/dark-grey paste; Part A 75,000 mPa.s @ 20 rpm and 225,000 mPa.s @ 2.5 rpm; Part B 30,000 mPa.s @ 20 rpm and 60,000 mPa.s @ 2 rpm",
-      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, zinc, polycarbonate, and filled PA6"
+      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, zinc, polycarbonate, and filled PA6",
+      "tdsUrl": "https://permabond.com/tds/et538_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET538 Technical Data Sheet"
     },
     {
       "id": "permabond-et5392",
@@ -12722,7 +12834,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et5392_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5392 Technical Data Sheet"
     },
     {
       "id": "permabond-et5393",
@@ -12813,7 +12927,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et5393_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5393 Technical Data Sheet"
     },
     {
       "id": "permabond-et540",
@@ -12924,7 +13040,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "No-slump non-drip two-part paste; A-side 75,000 mPa.s @ 20 rpm and 225,000 mPa.s @ 2 rpm; B-side 150,000 mPa.s @ 20 rpm and 500,000 mPa.s @ 2 rpm",
-      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, stainless steel, and larger high-temperature assemblies"
+      "referenceForJoining": "Wood, metal, ceramics, plastics, composites, carbon fiber, FRP glass/epoxy, stainless steel, and larger high-temperature assemblies",
+      "tdsUrl": "https://permabond.com/tds/et540_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET540 Technical Data Sheet"
     },
     {
       "id": "permabond-et5422",
@@ -13029,7 +13147,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/et5422_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5422 Technical Data Sheet"
     },
     {
       "id": "permabond-et5424",
@@ -13130,7 +13250,9 @@
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Grey/black thixotropic aerospace epoxy; A-side 245,000 mPa.s (cP), B-side 1,700 mPa.s (cP) @ 25 C",
       "referenceForJoining": "Aerospace large bond areas, batch production, powder-coat-baked assemblies, aluminum, steel, stainless steel, carbon fiber, and FRP glass/epoxy",
-      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+      "tdsUrl": "https://permabond.com/tds/et5424-en/?pdf",
+      "tdsDocumentLabel": "Permabond ET5424 Technical Data Sheet"
     },
     {
       "id": "permabond-et5428",
@@ -13257,7 +13379,9 @@
       "referenceCategory": "Structural Epoxies",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Thixotropic composite-bonding paste; A-side 115,000 mPa.s @ 20 rpm and 300,000 mPa.s @ 2 rpm; B-side 200,000 mPa.s @ 20 rpm and 1,100,000 mPa.s @ 2 rpm",
-      "referenceForJoining": "Composite bonding, carbon fiber, FRP glass/epoxy, stainless steel, aluminum, mild steel, PEEK, filled PA6, and rapid-cure high-peel structural assemblies"
+      "referenceForJoining": "Composite bonding, carbon fiber, FRP glass/epoxy, stainless steel, aluminum, mild steel, PEEK, filled PA6, and rapid-cure high-peel structural assemblies",
+      "tdsUrl": "https://permabond.com/tds/et5428_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5428 Technical Data Sheet"
     },
     {
       "id": "permabond-et5441",
@@ -13396,7 +13520,9 @@
       "referenceCategory": "Thermally Conductive Adhesives",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Thixotropic thermally conductive paste; A-part 250,000 mPa.s (cP), B-part 200,000 mPa.s (cP) @ 23 C; specific gravity 2.1",
-      "referenceForJoining": "Metal substrates needing thermally conductive structural bonding, motor-oil/glycol/hot-water resistant assemblies, carbon fiber, FRP, ABS, polycarbonate, and glass-filled PBT"
+      "referenceForJoining": "Metal substrates needing thermally conductive structural bonding, motor-oil/glycol/hot-water resistant assemblies, carbon fiber, FRP, ABS, polycarbonate, and glass-filled PBT",
+      "tdsUrl": "https://permabond.com/tds/et5441_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond ET5441 Technical Data Sheet"
     },
     {
       "id": "permabond-et5429",
@@ -13515,7 +13641,9 @@
           "temperatureC": 60,
           "minutes": 120
         }
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5429_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond ET5429 Technical Data Sheet"
     },
     {
       "id": "permabond-et5143",
@@ -13571,7 +13699,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Thixotropic paste; Part A: 80-200k cP, Part B: epoxy/amine system",
-      "referenceForJoining": "Metal, wood, ceramics, composites"
+      "referenceForJoining": "Metal, wood, ceramics, composites",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf",
+      "tdsDocumentLabel": "Permabond ET5143 Technical Data Sheet"
     },
     {
       "id": "permabond-et5145",
@@ -13625,7 +13755,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Paste; Part A: 80-200k cP; 1:1 mixed",
-      "referenceForJoining": "Metal, composites, ceramics"
+      "referenceForJoining": "Metal, composites, ceramics",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond ET5145 Technical Data Sheet"
     },
     {
       "id": "permabond-et5147",
@@ -13678,7 +13810,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Paste; A: 40-150k cP; 2:1 mixed system",
-      "referenceForJoining": "Metal, composites, ceramics"
+      "referenceForJoining": "Metal, composites, ceramics",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond ET5147 Technical Data Sheet"
     },
     {
       "id": "permabond-et5364",
@@ -13734,7 +13868,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Cream/black paste; very high viscosity thixotropic; 1:1 epoxy/polyamine",
-      "referenceForJoining": "Metal, wood, ceramics, composites"
+      "referenceForJoining": "Metal, wood, ceramics, composites",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf",
+      "tdsDocumentLabel": "Permabond ET5364 Technical Data Sheet"
     },
     {
       "id": "permabond-et5365",
@@ -13788,7 +13924,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Very high viscosity paste; A: 600k cP, B: 160k cP; 1:1 volume",
-      "referenceForJoining": "Metal, composites"
+      "referenceForJoining": "Metal, composites",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf",
+      "tdsDocumentLabel": "Permabond ET5365 Technical Data Sheet"
     },
     {
       "id": "permabond-et5401",
@@ -13843,7 +13981,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Non-slump paste; A: 120-450k cP, B: 100-250k cP; 2:1 volume",
-      "referenceForJoining": "FRP, composites, metal structures requiring impact/peel resistance"
+      "referenceForJoining": "FRP, composites, metal structures requiring impact/peel resistance",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond ET5401 Technical Data Sheet"
     },
     {
       "id": "permabond-et5003",
@@ -14023,7 +14163,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Pink/green two-part methyl-methacrylate paste; each side 3,000-5,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Metals, plastics, GRP, ceramics, wood, glass, carbon fiber, FRP, PVC, ABS, polycarbonate, PMMA, and other mixed-material structural bonds"
+      "referenceForJoining": "Metals, plastics, GRP, ceramics, wood, glass, carbon fiber, FRP, PVC, ABS, polycarbonate, PMMA, and other mixed-material structural bonds",
+      "tdsUrl": "https://permabond.com/tds/ta4202_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond TA4202 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4204",
@@ -14145,7 +14287,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Crystal-clear 1:1 acrylic; A-side 100,000 mPa.s thixotropic gel, B-side 10,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Clear metal, plastic, GRP, ceramic, wood, glass-to-glass, glass-to-metal, carbon fiber, FRP, PVC, PMMA, ABS, and polycarbonate assemblies"
+      "referenceForJoining": "Clear metal, plastic, GRP, ceramic, wood, glass-to-glass, glass-to-metal, carbon fiber, FRP, PVC, PMMA, ABS, and polycarbonate assemblies",
+      "tdsUrl": "https://permabond.com/tds/ta4204_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond TA4204 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4205",
@@ -14241,7 +14385,9 @@
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Clear two-part acrylic; A-side 67,000 mPa.s (cP), B-side 3,000 mPa.s (cP) @ 25 C",
       "referenceForJoining": "Clear slower-cure bonds on metals, plastics, GRP, ceramics, wood, PMMA, ABS, polyester GRP, epoxy FRP, and aluminum",
-      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+      "tdsUrl": "https://permabond.com/tds/ta4205-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4205 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4207",
@@ -14354,7 +14500,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Straw/yellow two-part acrylic; A-side 3,000 mPa.s (cP), B-side 1,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Fast environmental-resistant bonds on stainless steel, aluminum, steel, carbon fiber, PMMA, polycarbonate, FRP, PVC, zinc, tin, ceramics, wood, and plastics"
+      "referenceForJoining": "Fast environmental-resistant bonds on stainless steel, aluminum, steel, carbon fiber, PMMA, polycarbonate, FRP, PVC, zinc, tin, ceramics, wood, and plastics",
+      "tdsUrl": "https://permabond.com/tds/ta4207_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond TA4207 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4208-black",
@@ -14457,7 +14605,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/ta4208black/?pdf",
+      "tdsDocumentLabel": "Permabond TA4208 BLACK Technical Data Sheet"
     },
     {
       "id": "permabond-ta4210",
@@ -14567,7 +14717,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge",
       "referenceSampleConsistency": "Cream two-part acrylic; both sides 40,000-50,000 mPa.s (cP) @ 25 C",
-      "referenceForJoining": "Dissimilar materials, differential thermal expansion assemblies, metals, aluminum, steel, carbon fiber, PMMA, polycarbonate, epoxy FRP, polyester GRP, and plastics"
+      "referenceForJoining": "Dissimilar materials, differential thermal expansion assemblies, metals, aluminum, steel, carbon fiber, PMMA, polycarbonate, epoxy FRP, polyester GRP, and plastics",
+      "tdsUrl": "https://permabond.com/tds/ta4210_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond TA4210 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4605",
@@ -14622,7 +14774,9 @@
         "shear": 8,
         "peel": 6,
         "impact": 7
-      }
+      },
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4605_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond TA4605 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4590",
@@ -14756,7 +14910,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a011_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A011 Technical Data Sheet"
     },
     {
       "id": "permabond-a025",
@@ -14807,7 +14963,9 @@
       },
       "unpublishedFields": [
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a025_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A025 Technical Data Sheet"
     },
     {
       "id": "permabond-3d-series",
@@ -14851,7 +15009,9 @@
       "referenceForJoining": "Infiltrating and toughening simple or complex 3D printed parts by drizzle or dip bath",
       "viscosityValue": "4-110",
       "viscosityUnit": "mPa.s",
-      "viscosityNote": "Range covers 3 variants: Medium Low 90-110 mPa.s, Low 10-20 mPa.s, Ultra-low 4 mPa.s"
+      "viscosityNote": "Range covers 3 variants: Medium Low 90-110 mPa.s, Low 10-20 mPa.s, Ultra-low 4 mPa.s",
+      "tdsUrl": "https://permabond.com/tds/3d_series_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond 3D SERIES Technical Data Sheet"
     },
     {
       "id": "permabond-a1042",
@@ -14904,7 +15064,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a1042_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A1042 Technical Data Sheet"
     },
     {
       "id": "permabond-a1044",
@@ -14957,7 +15119,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a1044_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A1044 Technical Data Sheet"
     },
     {
       "id": "permabond-a1046",
@@ -15009,7 +15173,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a1046_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A1046 Technical Data Sheet"
     },
     {
       "id": "permabond-a113",
@@ -15062,7 +15228,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a113_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A113 Technical Data Sheet"
     },
     {
       "id": "permabond-a118",
@@ -15115,7 +15283,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a118_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A118 Technical Data Sheet"
     },
     {
       "id": "permabond-a126",
@@ -15170,7 +15340,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a126_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A126 Technical Data Sheet"
     },
     {
       "id": "permabond-a129",
@@ -15223,7 +15395,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a129_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A129 Technical Data Sheet"
     },
     {
       "id": "permabond-a130",
@@ -15276,7 +15450,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a130_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A130 Technical Data Sheet"
     },
     {
       "id": "permabond-a131",
@@ -15329,7 +15505,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a131_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A131 Technical Data Sheet"
     },
     {
       "id": "permabond-a134",
@@ -15383,7 +15561,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a134_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A134 Technical Data Sheet"
     },
     {
       "id": "permabond-a136",
@@ -15436,7 +15616,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/a136_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond A136 Technical Data Sheet"
     },
     {
       "id": "permabond-f201",
@@ -15506,7 +15688,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/f201_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond F201 Technical Data Sheet"
     },
     {
       "id": "permabond-f202",
@@ -15576,7 +15760,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/f202_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond F202 Technical Data Sheet"
     },
     {
       "id": "permabond-hh120",
@@ -15644,7 +15830,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hh120_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HH120 Technical Data Sheet"
     },
     {
       "id": "permabond-hh131",
@@ -15711,7 +15899,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hh131_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HH131 Technical Data Sheet"
     },
     {
       "id": "permabond-hh190",
@@ -15778,7 +15968,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hh190_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HH190 Technical Data Sheet"
     },
     {
       "id": "permabond-hl126",
@@ -15847,7 +16039,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hl126_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HL126 Technical Data Sheet"
     },
     {
       "id": "permabond-hl138",
@@ -15913,7 +16107,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hl138_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HL138 Technical Data Sheet"
     },
     {
       "id": "permabond-hm118",
@@ -15977,7 +16173,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm118_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM118 Technical Data Sheet"
     },
     {
       "id": "permabond-hm128",
@@ -16040,7 +16238,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm128_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM128 Technical Data Sheet"
     },
     {
       "id": "permabond-hm129",
@@ -16116,7 +16316,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm129_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM129 Technical Data Sheet"
     },
     {
       "id": "permabond-hm135",
@@ -16189,7 +16391,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm135_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM135 Technical Data Sheet"
     },
     {
       "id": "permabond-hm161",
@@ -16252,7 +16456,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm161_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM161 Technical Data Sheet"
     },
     {
       "id": "permabond-hm162",
@@ -16304,7 +16510,9 @@
         "peel": 1,
         "impact": 3
       },
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HM162_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond HM162 Technical Data Sheet"
     },
     {
       "id": "permabond-hm163",
@@ -16378,7 +16586,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm163_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM163 Technical Data Sheet"
     },
     {
       "id": "permabond-hm165",
@@ -16457,7 +16667,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/hm165_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond HM165 Technical Data Sheet"
     },
     {
       "id": "permabond-hh167",
@@ -16510,7 +16722,9 @@
         "potLife",
         "serviceMax"
       ],
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HH167_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond HH167 Technical Data Sheet"
     },
     {
       "id": "permabond-lh050",
@@ -16576,7 +16790,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lh050_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LH050 Technical Data Sheet"
     },
     {
       "id": "permabond-lh051",
@@ -16639,7 +16855,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lh051_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LH051 Technical Data Sheet"
     },
     {
       "id": "permabond-lh056",
@@ -16710,7 +16928,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lh056_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LH056 Technical Data Sheet"
     },
     {
       "id": "permabond-lh150",
@@ -16778,7 +16998,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lh150_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LH150 Technical Data Sheet"
     },
     {
       "id": "permabond-lh197",
@@ -16855,7 +17077,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lh197_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LH197 Technical Data Sheet"
     },
     {
       "id": "permabond-lm012",
@@ -16924,7 +17148,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lm012_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LM012 Technical Data Sheet"
     },
     {
       "id": "permabond-lm113",
@@ -16993,7 +17219,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/lm113_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond LM113 Technical Data Sheet"
     },
     {
       "id": "permabond-mh052",
@@ -17089,7 +17317,9 @@
       },
       "unpublishedFields": [
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/mh052_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond MH052 Technical Data Sheet"
     },
     {
       "id": "permabond-mh196",
@@ -17170,7 +17400,9 @@
       },
       "unpublishedFields": [
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/mh196_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MH196 Technical Data Sheet"
     },
     {
       "id": "permabond-mh199",
@@ -17251,7 +17483,9 @@
       },
       "unpublishedFields": [
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/mh199_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MH199 Technical Data Sheet"
     },
     {
       "id": "permabond-mm115",
@@ -17333,7 +17567,9 @@
       "unpublishedFields": [
         "potLife",
         "serviceMax"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/mm115_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MM115 Technical Data Sheet"
     },
     {
       "id": "titebond-original",
@@ -18565,7 +18801,9 @@
         "thermalConductivity",
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "tdsUrl": "https://eclecticproducts.com/downloads/tds-e6000-spray-english.pdf",
+      "tdsDocumentLabel": "E6000 E6000 Spray Adhesive Technical Data Sheet"
     },
     {
       "id": "e6000-premium",
@@ -20704,7 +20942,9 @@
       "referenceCategory": "MS Polymer Adhesive Sealants",
       "referenceSampleType": "Cartridge / bulk sealant",
       "referenceSampleConsistency": "Grey self-levelling MS-polymer sealant; 10,000-25,000 mPa.s (cP) @ 20 rpm and 25 C",
-      "referenceForJoining": "Potting and sealing electronic components, sealing filters, and bonding large metal panels"
+      "referenceForJoining": "Potting and sealing electronic components, sealing filters, and bonding large metal panels",
+      "tdsUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond MS359A Grey Technical Data Sheet"
     },
     {
       "id": "permabond-ms359-clear",
@@ -20788,7 +21028,9 @@
       "referenceCategory": "MS Polymer Adhesive Sealants",
       "referenceSampleType": "Cartridge / bulk sealant",
       "referenceSampleConsistency": "Crystal-clear thixotropic MS-polymer sealant; 800,000-1,500,000 mPa.s (cP) @ 5 rpm and 3,200,000-4,200,000 mPa.s (cP) @ 1 rpm",
-      "referenceForJoining": "Exterior construction bonding of metals, glass, composites, PVC, wood, polycarbonate, polystyrene, and mixed panels"
+      "referenceForJoining": "Exterior construction bonding of metals, glass, composites, PVC, wood, polycarbonate, polystyrene, and mixed panels",
+      "tdsUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond MS359 Clear Technical Data Sheet"
     },
     {
       "id": "permabond-ms359-grey",
@@ -20871,7 +21113,9 @@
       "referenceCategory": "MS Polymer Adhesive Sealants",
       "referenceSampleType": "Cartridge / bulk sealant",
       "referenceSampleConsistency": "Grey thixotropic MS-polymer sealant; 1,500,000-2,500,000 mPa.s (cP) @ 5 rpm and 4,500,000-9,000,000 mPa.s (cP) @ 1 rpm",
-      "referenceForJoining": "Exterior construction bonding of metals, plastics, composites, frames, fascias, PVC, wood, polycarbonate, and polystyrene"
+      "referenceForJoining": "Exterior construction bonding of metals, plastics, composites, frames, fascias, PVC, wood, polycarbonate, and polystyrene",
+      "tdsUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond MS359 Grey Technical Data Sheet"
     },
     {
       "id": "permabond-mt3809",
@@ -20973,7 +21217,9 @@
       "referenceCategory": "Modified Epoxy Potting Compounds",
       "referenceSampleType": "Dual cartridge / meter-mix",
       "referenceSampleConsistency": "Charcoal-black low-viscosity self-levelling modified epoxy; Part A grey, Part B black",
-      "referenceForJoining": "Potting intricate components and bonding/sealing nylon, ABS, acrylic, polycarbonate, PVC, and mild steel"
+      "referenceForJoining": "Potting intricate components and bonding/sealing nylon, ABS, acrylic, polycarbonate, PVC, and mild steel",
+      "tdsUrl": "https://permabond.com/tds/mt3809_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MT3809 Technical Data Sheet"
     },
     {
       "id": "permabond-mt382",
@@ -21083,7 +21329,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/mt382_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MT382 Technical Data Sheet"
     },
     {
       "id": "permabond-mt3836",
@@ -21187,7 +21435,9 @@
       "referenceCategory": "Thermally Conductive Hybrid Silane Adhesives",
       "referenceSampleType": "Dual cartridge / meter-mix",
       "referenceSampleConsistency": "Cream two-part high-viscosity hybrid silane; Part A white 350,000 cP and Part B yellow 300,000 cP",
-      "referenceForJoining": "Electronics sealing, thermally conductive potting/bonding, plastics, stainless steel, ABS, and nylon"
+      "referenceForJoining": "Electronics sealing, thermally conductive potting/bonding, plastics, stainless steel, ABS, and nylon",
+      "tdsUrl": "https://permabond.com/tds/mt3836_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond MT3836 Technical Data Sheet"
     },
     {
       "id": "permabond-pt321",
@@ -21277,7 +21527,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/pt321_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond PT321 Technical Data Sheet"
     },
     {
       "id": "permabond-pt326",
@@ -21375,7 +21627,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/pt326_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond PT326 Technical Data Sheet"
     },
     {
       "id": "permabond-pt328",
@@ -21473,7 +21727,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/pt328_tds-pt-br/?pdf",
+      "tdsDocumentLabel": "Permabond PT328 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832hd",
@@ -21602,7 +21858,9 @@
         "cureDepthMm",
         "tackFreeTime",
         "stress"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832hd-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832HD Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832b",
@@ -21734,7 +21992,9 @@
         "cureDepthMm",
         "tackFreeTime",
         "stress"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832b-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832B Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8330s",
@@ -21843,7 +22103,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / jar kit",
       "referenceSampleConsistency": "Silver grey smooth non-sag thixotropic silver-filled epoxy; A 3,000 Pa.s and B 8,600 Pa.s at 25 C",
-      "referenceForJoining": "Solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components"
+      "referenceForJoining": "Solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330S-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8330S Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8331s",
@@ -21952,7 +22214,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / jar kit",
       "referenceSampleConsistency": "Silver grey smooth non-sag thixotropic silver-filled epoxy; A 950 Pa.s and B 6,155 Pa.s at 25 C",
-      "referenceForJoining": "Solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components"
+      "referenceForJoining": "Solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331S-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8331S Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8331d",
@@ -22057,7 +22321,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / jar kit",
       "referenceSampleConsistency": "Silver grey smooth non-sag thixotropic silver-filled epoxy; A and B each 130 Pa.s at 25 C",
-      "referenceForJoining": "Cold-soldering repairs, solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components"
+      "referenceForJoining": "Cold-soldering repairs, solder replacement, conductive connections to glass, soft metals, plastics, and heat-sensitive electronic components",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8331D-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8331D Technical Data Sheet"
     },
     {
       "id": "chemtronics-cw2400",
@@ -22168,7 +22434,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Two-part kit",
       "referenceSampleConsistency": "Two-part silver conductive epoxy; 7 g adhesive plus 7 g hardener kit",
-      "referenceForJoining": "Prototype and repair conductive bonding, heat-sensitive components, solderless surface-mount connections, circuit board trace repair, static discharge grounding, and solder repair"
+      "referenceForJoining": "Prototype and repair conductive bonding, heat-sensitive components, solderless surface-mount connections, circuit board trace repair, static discharge grounding, and solder repair",
+      "tdsUrl": "https://www.chemtronics.com/content/msds/TDS_CW2400.pdf",
+      "tdsDocumentLabel": "Chemtronics CircuitWorks CW2400 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4230",
@@ -22271,7 +22539,9 @@
       "referenceSampleType": "Dual cartridge / meter-mix",
       "referenceSampleConsistency": "Straw mixed two-part acrylic; A-side 8,000 mPa.s and B-side 700 mPa.s",
       "referenceForJoining": "Metals, plastics, composites, ceramics, aluminum, steel, stainless steel, galvanized steel, carbon fiber, FRP, PMMA, PC, PVC, and ABS",
-      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+      "tdsUrl": "https://permabond.com/tds/ta4230_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4230 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4246",
@@ -22401,7 +22671,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus initiator",
       "referenceSampleConsistency": "Amber liquid; 15,000-35,000 mPa.s at 20 rpm",
-      "referenceForJoining": "Mild steel, aluminum, ABS, wood, brass, galvanized steel, glass, GRP, nylon, phenolic, PMMA, polycarbonate, PVC, and prepared metals"
+      "referenceForJoining": "Mild steel, aluminum, ABS, wood, brass, galvanized steel, glass, GRP, nylon, phenolic, PMMA, polycarbonate, PVC, and prepared metals",
+      "tdsUrl": "https://permabond.com/tds/ta4246_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4246 Technical Data Sheet"
     },
     {
       "id": "permabond-ta430",
@@ -22513,7 +22785,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus initiator",
       "referenceSampleConsistency": "Transparent amber viscous liquid; 15,000-30,000 mPa.s at 20 rpm and 45,000-80,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Metals, ferrites, ceramics, wood, some thermoplastics, mild steel, and zinc"
+      "referenceForJoining": "Metals, ferrites, ceramics, wood, some thermoplastics, mild steel, and zinc",
+      "tdsUrl": "https://permabond.com/tds/ta430_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA430 Technical Data Sheet"
     },
     {
       "id": "permabond-ta435",
@@ -22623,7 +22897,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus initiator",
       "referenceSampleConsistency": "Transparent amber viscous liquid; 30,000-60,000 mPa.s at 20 rpm and 60,000-120,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Metals, ferrites, ceramics, some thermoplastics, mild steel, and zinc"
+      "referenceForJoining": "Metals, ferrites, ceramics, some thermoplastics, mild steel, and zinc",
+      "tdsUrl": "https://permabond.com/tds/ta435_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA435 Technical Data Sheet"
     },
     {
       "id": "permabond-ta436",
@@ -22734,7 +23010,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus initiator",
       "referenceSampleConsistency": "Transparent amber viscous liquid; 15,000-30,000 mPa.s at 20 rpm and 45,000-70,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Metals, ferrites, ceramics, some thermoplastics, mild steel, and zinc"
+      "referenceForJoining": "Metals, ferrites, ceramics, some thermoplastics, mild steel, and zinc",
+      "tdsUrl": "https://permabond.com/tds/ta436_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA436 Technical Data Sheet"
     },
     {
       "id": "permabond-ta437",
@@ -22847,7 +23125,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus optional initiator",
       "referenceSampleConsistency": "Orange/red viscous liquid; 25,000-50,000 mPa.s at 20 rpm and 90,000-150,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Metals, ferrites, ceramics, steel, zinc, and ferrite-to-steel magnet assemblies"
+      "referenceForJoining": "Metals, ferrites, ceramics, steel, zinc, and ferrite-to-steel magnet assemblies",
+      "tdsUrl": "https://permabond.com/tds/ta437_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA437 Technical Data Sheet"
     },
     {
       "id": "permabond-ta439",
@@ -22954,7 +23234,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Bottle resin plus initiator",
       "referenceSampleConsistency": "Transparent amber liquid; 600-1,200 mPa.s at 20 rpm",
-      "referenceForJoining": "Mild steel, zinc, ferrites, ceramics, selected plastics, and magnet assemblies"
+      "referenceForJoining": "Mild steel, zinc, ferrites, ceramics, selected plastics, and magnet assemblies",
+      "tdsUrl": "https://permabond.com/tds/ta439_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA439 Technical Data Sheet"
     },
     {
       "id": "permabond-ta440",
@@ -23062,7 +23344,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge / meter-mix",
       "referenceSampleConsistency": "Green mixed two-part acrylic; A amber and B green, each 5,000-12,000 mPa.s at 20 rpm",
-      "referenceForJoining": "Metals, glass, wood, ferrites, ceramics, some rigid plastics, mild steel, and zinc"
+      "referenceForJoining": "Metals, glass, wood, ferrites, ceramics, some rigid plastics, mild steel, and zinc",
+      "tdsUrl": "https://permabond.com/tds/ta440_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA440 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4522",
@@ -23173,7 +23457,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/ta4522_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA4522 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4550",
@@ -23285,7 +23571,9 @@
       "referenceCategory": "Structural Acrylic Adhesives",
       "referenceSampleType": "Dual cartridge / meter-mix",
       "referenceSampleConsistency": "Thixotropic 2:1 low-odour acrylic; A clear colourless and B green, both 100,000 mPa.s",
-      "referenceForJoining": "Nylon/polyamide, plastics, composites, metals, PA6, PA6,6, PMMA, PVC, PC, ABS, PET, PET-G, FRP, carbon fiber, stainless steel, aluminum, and mild steel"
+      "referenceForJoining": "Nylon/polyamide, plastics, composites, metals, PA6, PA6,6, PMMA, PVC, PC, ABS, PET, PET-G, FRP, carbon fiber, stainless steel, aluminum, and mild steel",
+      "tdsUrl": "https://permabond.com/tds/ta4550_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA4550 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4592",
@@ -23356,7 +23644,9 @@
       "referenceSampleType": "External mix / meter-mix",
       "referenceSampleConsistency": "Blue/yellow-green two-part acrylic; A 10,000-15,000 mPa.s at 20 rpm, B 5,000-6,000 mPa.s at 20 rpm",
       "referenceForJoining": "Magnets, ferrites, electric motor assemblies, mild steel, zinc, and ferrite-to-steel bonds",
-      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\")."
+      "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
+      "tdsUrl": "https://permabond.com/tds/ta4592_tds-en/?pdf=1",
+      "tdsDocumentLabel": "Permabond TA4592 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4611",
@@ -23475,7 +23765,9 @@
       "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/ta4611_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4611 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4631",
@@ -23600,7 +23892,9 @@
       "serviceTemperatureNote": "TDS states \"can withstand higher temperatures for brief periods\"; no service temperature range published; 5–25 °C is storage, not service.",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/ta4631_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4631 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4810",
@@ -23709,7 +24003,9 @@
       "referenceCategory": "Structural Methacrylate Adhesives",
       "referenceSampleType": "Dual cartridge / static mixer",
       "referenceSampleConsistency": "Cream high-viscosity thixotropic methacrylate; A 150,000-230,000 mPa.s, B 120,000-200,000 mPa.s",
-      "referenceForJoining": "Thermoplastics, thermosets, metals, composites, steel, aluminum, PPO/HIPS, PVC, SMC, and fiberglass"
+      "referenceForJoining": "Thermoplastics, thermosets, metals, composites, steel, aluminum, PPO/HIPS, PVC, SMC, and fiberglass",
+      "tdsUrl": "https://permabond.com/tds/ta4810_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond TA4810 Technical Data Sheet"
     },
     {
       "id": "permabond-uv605",
@@ -23811,7 +24107,9 @@
       "referenceCategory": "UV-Curable Optical Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless very low-viscosity liquid; 75 mPa.s at 25 C",
-      "referenceForJoining": "Glass, crystal, metal-to-glass, capillary-applied optical assemblies"
+      "referenceForJoining": "Glass, crystal, metal-to-glass, capillary-applied optical assemblies",
+      "tdsUrl": "https://permabond.com/tds/uv605_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV605 Technical Data Sheet"
     },
     {
       "id": "permabond-uv6160",
@@ -23913,7 +24211,9 @@
       "referenceCategory": "UV-Curable Optical Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear medium-viscosity liquid; 1,000-2,000 mPa.s at 25 C",
-      "referenceForJoining": "Optically clear thick layers, compression-loaded joints, heavily loaded glass-to-steel and glass/metal assemblies"
+      "referenceForJoining": "Optically clear thick layers, compression-loaded joints, heavily loaded glass-to-steel and glass/metal assemblies",
+      "tdsUrl": "https://permabond.com/tds/uv6160_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV6160 Technical Data Sheet"
     },
     {
       "id": "permabond-uv620",
@@ -24014,7 +24314,9 @@
       "referenceCategory": "UV-Curable Optical Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear liquid; 2,200-2,900 mPa.s at 25 C",
-      "referenceForJoining": "Optically clear glass and crystal bonding with metal-to-glass tensile performance"
+      "referenceForJoining": "Optically clear glass and crystal bonding with metal-to-glass tensile performance",
+      "tdsUrl": "https://permabond.com/tds/uv620_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV620 Technical Data Sheet"
     },
     {
       "id": "permabond-uv6231",
@@ -24116,7 +24418,9 @@
       "referenceCategory": "UV-Curable Optical Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear liquid; 5,000-8,000 mPa.s at 25 C",
-      "referenceForJoining": "Glass, crystal, steel-to-glass and metal-to-glass optical assemblies exposed to environmental/weathering stress"
+      "referenceForJoining": "Glass, crystal, steel-to-glass and metal-to-glass optical assemblies exposed to environmental/weathering stress",
+      "tdsUrl": "https://permabond.com/tds/uv6231_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV6231 Technical Data Sheet"
     },
     {
       "id": "permabond-uv625",
@@ -24218,7 +24522,9 @@
       "referenceCategory": "UV-Curable Optical Gel Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless gel; 30,000-55,000 mPa.s at 20 rpm and 120,000-250,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Glass and metal bonding/sealing where a non-drip flexible impact-resistant UV gel is needed"
+      "referenceForJoining": "Glass and metal bonding/sealing where a non-drip flexible impact-resistant UV gel is needed",
+      "tdsUrl": "https://permabond.com/tds/uv625_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV625 Technical Data Sheet"
     },
     {
       "id": "permabond-uv630",
@@ -24323,7 +24629,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear low-viscosity liquid; 250 mPa.s at 25 C",
-      "referenceForJoining": "Polycarbonate, acrylic, UV-transmitting plastics and medical/biocompatibility-relevant plastic assemblies"
+      "referenceForJoining": "Polycarbonate, acrylic, UV-transmitting plastics and medical/biocompatibility-relevant plastic assemblies",
+      "tdsUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV630 Technical Data Sheet"
     },
     {
       "id": "permabond-uv632",
@@ -24433,7 +24741,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear liquid; 200-400 mPa.s at 25 C",
-      "referenceForJoining": "UV-stabilized plastics, acrylic, polycarbonate, PET, glass, metal, and colourless plastic bonds"
+      "referenceForJoining": "UV-stabilized plastics, acrylic, polycarbonate, PET, glass, metal, and colourless plastic bonds",
+      "tdsUrl": "https://permabond.com/tds/uv632_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV632 Technical Data Sheet"
     },
     {
       "id": "permabond-uv6357",
@@ -24537,7 +24847,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/uv6357_tds/?pdf",
+      "tdsDocumentLabel": "Permabond UV6357 Technical Data Sheet"
     },
     {
       "id": "permabond-uv6361",
@@ -24629,7 +24941,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/uv6361_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV6361 Technical Data Sheet"
     },
     {
       "id": "permabond-uv639",
@@ -24732,7 +25046,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/uv639_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV639 Technical Data Sheet"
     },
     {
       "id": "permabond-uv640",
@@ -24836,7 +25152,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear thixotropic liquid; 3,000-5,000 mPa.s at 20 rpm and 12,000-25,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Polycarbonate, acrylic and transparent plastic assemblies requiring impact-resistant UV cure"
+      "referenceForJoining": "Polycarbonate, acrylic and transparent plastic assemblies requiring impact-resistant UV cure",
+      "tdsUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV640 Technical Data Sheet"
     },
     {
       "id": "permabond-uv643",
@@ -24943,7 +25261,9 @@
       "unpublishedFields": [
         "potLife",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/uv643_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV643 Technical Data Sheet"
     },
     {
       "id": "permabond-uv645",
@@ -25053,7 +25373,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear high-viscosity adhesive; 8,000-10,000 mPa.s at 20 rpm and 30,000-60,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Polycarbonate, PVC, PC/ABS, acrylic, plastics, metals and glass where non-flowing UV cure or sealing is needed"
+      "referenceForJoining": "Polycarbonate, PVC, PC/ABS, acrylic, plastics, metals and glass where non-flowing UV cure or sealing is needed",
+      "tdsUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV645 Technical Data Sheet"
     },
     {
       "id": "permabond-uv648",
@@ -25162,7 +25484,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear non-drip adhesive; 20,000-40,000 mPa.s at 20 rpm and 120,000-180,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "UV-stabilized plastics, polycarbonate, acrylic, PET, glass, metals and other transparent plastic assemblies"
+      "referenceForJoining": "UV-stabilized plastics, polycarbonate, acrylic, PET, glass, metals and other transparent plastic assemblies",
+      "tdsUrl": "https://permabond.com/tds/uv648_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV648 Technical Data Sheet"
     },
     {
       "id": "permabond-uv649",
@@ -25272,7 +25596,9 @@
       "referenceCategory": "UV-Curable Plastic Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear non-drip adhesive; 20,000-30,000 mPa.s at 20 rpm and 80,000-150,000 mPa.s at 2.5 rpm",
-      "referenceForJoining": "Polycarbonate, PVC, PC/ABS, acrylic, plastics, metals and glass where non-flowing UV cure or sealing is needed"
+      "referenceForJoining": "Polycarbonate, PVC, PC/ABS, acrylic, plastics, metals and glass where non-flowing UV cure or sealing is needed",
+      "tdsUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV649 Technical Data Sheet"
     },
     {
       "id": "permabond-uv670",
@@ -25373,7 +25699,9 @@
       "referenceCategory": "UV-Curable Glass and Metal Adhesives",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless clear medium-viscosity liquid; 2,000-3,000 mPa.s",
-      "referenceForJoining": "Glass-to-metal, glass-to-metalized plastic and impact-resistant transparent assemblies"
+      "referenceForJoining": "Glass-to-metal, glass-to-metalized plastic and impact-resistant transparent assemblies",
+      "tdsUrl": "https://permabond.com/tds/uv670_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV670 Technical Data Sheet"
     },
     {
       "id": "permabond-uv681",
@@ -25488,7 +25816,9 @@
       "referenceCategory": "UV-Curable Electronics Coatings",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless optically clear low-viscosity coating; 80-120 mPa.s",
-      "referenceForJoining": "Conformal coating, smart-card microchip coating, electronic component encapsulation and clear bubble-free coatings"
+      "referenceForJoining": "Conformal coating, smart-card microchip coating, electronic component encapsulation and clear bubble-free coatings",
+      "tdsUrl": "https://permabond.com/tds/uv681_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV681 Technical Data Sheet"
     },
     {
       "id": "permabond-uv683",
@@ -25604,7 +25934,9 @@
       "referenceCategory": "UV-Curable Electronics Coatings",
       "referenceSampleType": "Bottle / syringe",
       "referenceSampleConsistency": "Colourless optically clear doming adhesive; 1,000-1,600 mPa.s",
-      "referenceForJoining": "Doming, smart-card microchip coating, electronic component encapsulation and optically clear coatings"
+      "referenceForJoining": "Doming, smart-card microchip coating, electronic component encapsulation and optically clear coatings",
+      "tdsUrl": "https://permabond.com/tds/uv683_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV683 Technical Data Sheet"
     },
     {
       "id": "permabond-uv7141",
@@ -25712,7 +26044,9 @@
         "potLife",
         "serviceMax",
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://permabond.com/tds/uv7141_tds-en/?pdf",
+      "tdsDocumentLabel": "Permabond UV7141 Technical Data Sheet"
     },
     {
       "id": "permabond-hh040",
@@ -25767,7 +26101,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Green thixotropic paste; 5000 cP",
       "referenceForJoining": "Shaft-hub cylindrical assemblies, slip fits replacing press fits",
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond HH040 Technical Data Sheet"
     },
     {
       "id": "permabond-hm160",
@@ -25820,7 +26156,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Green liquid; 600 mPa.s",
       "referenceForJoining": "Bearings, bushings, sleeves on shafts; precision cylindrical assemblies",
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-3.pdf",
+      "tdsDocumentLabel": "Permabond HM160 Technical Data Sheet"
     },
     {
       "id": "permabond-f201hv",
@@ -25880,7 +26218,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Brown thixotropic liquid; 5000 cP @ 20rpm",
       "referenceForJoining": "Threaded pipe connections in hydrogen, potable water, and chemical applications",
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
+      "tdsDocumentLabel": "Permabond F201HV Technical Data Sheet"
     },
     {
       "id": "permabond-a1058",
@@ -25936,7 +26276,9 @@
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "White paste-like liquid; 300,000 mPa.s",
       "referenceForJoining": "Large-bore threaded pipe connections in potable water and industrial fluid handling",
-      "dielectricBreakdownKVPerMm": 11
+      "dielectricBreakdownKVPerMm": 11,
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-5.pdf",
+      "tdsDocumentLabel": "Permabond A1058 Technical Data Sheet"
     },
     {
       "id": "permabond-mt3821",
@@ -25997,7 +26339,9 @@
       "referenceCategory": "Structural Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Black thixo paste (A) / charcoal thixo paste (B); 200k/100k cP",
-      "referenceForJoining": "Plastics, composites, metals requiring vibration/impact resistance or flexibility"
+      "referenceForJoining": "Plastics, composites, metals requiring vibration/impact resistance or flexibility",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond MT3821 Technical Data Sheet"
     },
     {
       "id": "permabond-ta4610",
@@ -26062,7 +26406,9 @@
       "referenceCategory": "Structural Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Off-white paste; A: 200-500k cP, B: 20-30k cP; 1:1",
-      "referenceForJoining": "Polyolefins (PP, PE, HDPE), composites, dissimilar materials"
+      "referenceForJoining": "Polyolefins (PP, PE, HDPE), composites, dissimilar materials",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf",
+      "tdsDocumentLabel": "Permabond TA4610 Technical Data Sheet"
     },
     {
       "id": "permabond-et5428black",
@@ -26121,7 +26467,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "White/black charcoal paste; A: 115-300k cP, B: 200k-1.1M cP",
-      "referenceForJoining": "Carbon fiber, composites, metals requiring high shear/peel/impact"
+      "referenceForJoining": "Carbon fiber, composites, metals requiring high shear/peel/impact",
+      "tdsUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf",
+      "tdsDocumentLabel": "Permabond ET5428 BLACK Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-1035",
@@ -26214,7 +26562,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-1035.pdf",
+      "tdsDocumentLabel": "MG Chemicals 1035 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-9310",
@@ -26313,7 +26663,9 @@
       "referenceCategory": "Surface Mount Epoxy Adhesives",
       "referenceSampleType": "Syringe / cartridge",
       "referenceSampleConsistency": "Translucent pale-yellow smooth thixotropic paste; 87 Pa.s at 25 C",
-      "referenceForJoining": "Die attach, surface-mount electronics assembly, manual, pneumatic and robotic dispensing, and general-purpose heat-cured bonding"
+      "referenceForJoining": "Die attach, surface-mount electronics assembly, manual, pneumatic and robotic dispensing, and general-purpose heat-cured bonding",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9310.pdf",
+      "tdsDocumentLabel": "MG Chemicals 9310 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-9410",
@@ -26420,7 +26772,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Syringe / cartridge",
       "referenceSampleConsistency": "Silver thixotropic one-part conductive epoxy paste; density 2.3 g/mL and thixotropic index 3",
-      "referenceForJoining": "Semiconductor flip-chip packaging, small-chip die attach, LEDs, diodes, EMI/RFI shielding and seams between metal plates"
+      "referenceForJoining": "Semiconductor flip-chip packaging, small-chip die attach, LEDs, diodes, EMI/RFI shielding and seams between metal plates",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9410.pdf",
+      "tdsDocumentLabel": "MG Chemicals 9410 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8330d",
@@ -26527,7 +26881,9 @@
       "referenceCategory": "Electrically Conductive Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / jar kit",
       "referenceSampleConsistency": "Silver smooth non-sag thixotropic silver-filled epoxy; Part A 698 Pa.s at 25 C and Part B thixotropic",
-      "referenceForJoining": "Cold-soldering repairs, high-conductivity solder replacement, conductive connections to glass, soft metals, plastics and heat-sensitive electronic components"
+      "referenceForJoining": "Cold-soldering repairs, high-conductivity solder replacement, conductive connections to glass, soft metals, plastics and heat-sensitive electronic components",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8330D-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8330D Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-834htc",
@@ -26668,7 +27024,9 @@
         "cureDepthMm",
         "tackFreeTime",
         "stress"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834htc-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 834HTC Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832fx",
@@ -26789,7 +27147,9 @@
         "cureDepthMm",
         "tackFreeTime",
         "stress"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fx-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832FX Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8810",
@@ -26904,7 +27264,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8810-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8810 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832fxt",
@@ -27022,7 +27384,9 @@
       "referenceCategory": "Flexible Electronics Potting Epoxies",
       "referenceSampleType": "Dual syringe / cartridge / can / pail kit",
       "referenceSampleConsistency": "Black flexible medium-viscosity epoxy potting compound; mixed viscosity 1,920 cP at 25 C",
-      "referenceForJoining": "Delicate SMD circuits, electronics encapsulation, low-modulus potting, shock/vibration protection and aggressive thermal cycling applications"
+      "referenceForJoining": "Delicate SMD circuits, electronics encapsulation, low-modulus potting, shock/vibration protection and aggressive thermal cycling applications",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832fxt-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832FXT Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832c",
@@ -27142,7 +27506,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832c-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832C Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8332",
@@ -27248,7 +27614,9 @@
       "referenceCategory": "Fast-Set Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / dual cartridge",
       "referenceSampleConsistency": "Translucent two-part epoxy; Part A 12 Pa.s and Part B 14 Pa.s at 25 C",
-      "referenceForJoining": "Glass, fiberglass, concrete, ceramics, woods, most metals and plastics, household, industrial, manufacturing and electrically insulating adhesive applications"
+      "referenceForJoining": "Glass, fiberglass, concrete, ceramics, woods, most metals and plastics, household, industrial, manufacturing and electrically insulating adhesive applications",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8332-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8332 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832wc",
@@ -27369,7 +27737,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-832wc-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832WC Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-834blv",
@@ -27480,7 +27850,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834blv-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 834BLV Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-834fx",
@@ -27601,7 +27973,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-834fx-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 834FX Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-8820",
@@ -27716,7 +28090,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-8820-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 8820 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-9200",
@@ -27838,7 +28214,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "Dual syringe / dual cartridge",
       "referenceSampleConsistency": "Beige smooth non-sagging thixotropic adhesive; Part A 295 Pa.s and Part B 170 Pa.s at 25 C",
-      "referenceForJoining": "Load-bearing joints, dissimilar materials, thermal cycling stress, harsh environments, vertical surfaces, gap filling and electronics enclosure potting where non-flowing adhesive is needed"
+      "referenceForJoining": "Load-bearing joints, dissimilar materials, thermal cycling stress, harsh environments, vertical surfaces, gap filling and electronics enclosure potting where non-flowing adhesive is needed",
+      "tdsUrl": "https://www.mgchemicals.com/downloads/tds/tds-9200-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 9200 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-uvled82",
@@ -27959,7 +28337,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-UVLED82.pdf",
+      "tdsDocumentLabel": "MG Chemicals UVLED82 Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-832fxc",
@@ -28080,7 +28460,9 @@
       "referenceCategory": "Clear Flexible Electronics Potting Epoxies",
       "referenceSampleType": "Two-bottle / can / pail kit",
       "referenceSampleConsistency": "Pale-yellow clear flexible low-viscosity epoxy potting compound; mixed viscosity 410 cP at 25 C",
-      "referenceForJoining": "Delicate SMD circuit potting, clear inspection encapsulation, high humidity/chemical exposure, thermal cycling, metals, plastics, glass, composites, ceramics and wood"
+      "referenceForJoining": "Delicate SMD circuit potting, clear inspection encapsulation, high humidity/chemical exposure, thermal cycling, metals, plastics, glass, composites, ceramics and wood",
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-832fxc-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 832FXC Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-834b",
@@ -28201,7 +28583,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-834b-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 834B Technical Data Sheet"
     },
     {
       "id": "3m-tc2707",
@@ -28568,7 +28952,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.dow.com/documents/11/11-3367-01-dowsil-tc-2035-adhesive-tds.pdf?iframe=true",
+      "tdsDocumentLabel": "DOW DOWSIL TC-2035 Technical Data Sheet"
     },
     {
       "id": "aremco-ceramabond-503",
@@ -29254,7 +29640,9 @@
         "insulationResistanceOhm",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
+      "tdsDocumentLabel": "Momentive Performance Materials SNAPSIL RTV162 Technical Data Sheet"
     },
     {
       "id": "momentive-snapsil-rtv167",
@@ -29360,7 +29748,9 @@
         "insulationResistanceOhm",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv162.pdf",
+      "tdsDocumentLabel": "Momentive Performance Materials SNAPSIL RTV167 Technical Data Sheet"
     },
     {
       "id": "momentive-invisisil-rtv615",
@@ -29482,7 +29872,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/invisisil/invisisil-rtv615-rtv655-rtv656-silicone-rubber-compound-tds.pdf",
+      "tdsDocumentLabel": "Momentive Performance Materials INVISISIL RTV615 Technical Data Sheet"
     },
     {
       "id": "momentive-siltrust-rtv630",
@@ -29594,7 +29986,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%20RTV630.pdf",
+      "tdsDocumentLabel": "Momentive Performance Materials SILTRUST RTV630 Technical Data Sheet"
     },
     {
       "id": "cotronics-resbond-907gf",
@@ -31256,7 +31650,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://ecommapi.krayden.com/Content/pdf/datasheet/dow_577_tds.pdf",
+      "tdsDocumentLabel": "DOW SYLGARD 577 Primerless Silicone Adhesive Technical Data Sheet"
     },
     {
       "id": "mg-chemicals-9510",
@@ -31406,7 +31802,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9510.pdf",
+      "tdsDocumentLabel": "MG Chemicals 9510 Technical Data Sheet"
     },
     {
       "id": "atom-adhesives-aa-duct-902",
@@ -31514,7 +31912,9 @@
       "referenceCategory": "Electrically Conductive Silver Epoxy Adhesives",
       "referenceSampleType": "Two-part kit",
       "referenceSampleConsistency": "Silver 100% solids paste; mixed specific gravity 2.79",
-      "referenceForJoining": "Electronic bonding and sealing, cold soldering heat-sensitive components, EMI/RFI shielding, circuitry, printed circuit board repair, aluminum, copper, magnesium, steel, bronze, nickel, kovar, ceramic, glass, phenolic and G-10 epoxy glass boards"
+      "referenceForJoining": "Electronic bonding and sealing, cold soldering heat-sensitive components, EMI/RFI shielding, circuitry, printed circuit board repair, aluminum, copper, magnesium, steel, bronze, nickel, kovar, ceramic, glass, phenolic and G-10 epoxy glass boards",
+      "tdsUrl": "https://atomadhesives.com/content/TDS/AA-DUCT-902-TDS-2-PART-SILVER-EPOXY-ADHESIVE-ELECTRICALLY-CONDUCTIVE-ROOM-TEMP-CURING-AIR-DRY.pdf",
+      "tdsDocumentLabel": "Atom Adhesives AA-DUCT 902 Technical Data Sheet"
     },
     {
       "id": "atom-adhesives-14265",
@@ -31628,7 +32028,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://atomadhesives.com/content/TDS/14265-TDS-2-PART-GENERAL-PURPOSE-FAST-CURE-EPOXY-ADHESIVE-QUICK-DRYING.pdf",
+      "tdsDocumentLabel": "Atom Adhesives 14265 5 Minute Adhesive Epoxy Gel Technical Data Sheet"
     },
     {
       "id": "digiwave-dga6129",
@@ -32800,7 +33202,9 @@
       "referenceCategory": "Structural Epoxy Adhesives",
       "referenceSampleType": "25 mL dual syringe",
       "referenceSampleConsistency": "Beige non-sag two-component epoxy; A 89,250 cP and B 36,025 cP at 25 C",
-      "referenceForJoining": "Structural bonding of metals, glass, composites, most plastics, sheet molded compounds and glass reinforced plastics, including dissimilar-material assemblies"
+      "referenceForJoining": "Structural bonding of metals, glass, composites, most plastics, sheet molded compounds and glass reinforced plastics, including dissimilar-material assemblies",
+      "tdsUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
+      "tdsDocumentLabel": "MG Chemicals 9201 Epoxy Structural Adhesive Technical Data Sheet"
     },
     {
       "id": "chipquik-sg1",
@@ -33189,7 +33593,9 @@
       "referenceCategory": "Electronic-Grade RTV Silicone Sealants",
       "referenceSampleType": "3 fl oz squeeze tube",
       "referenceSampleConsistency": "Clear non-slump paste one-part RTV silicone",
-      "referenceForJoining": "Electrical and electronic applications where corrosion to metals, particularly copper, brass and silver, is a problem; electronic-grade adhesive/sealant and electrical insulation"
+      "referenceForJoining": "Electrical and electronic applications where corrosion to metals, particularly copper, brass and silver, is a problem; electronic-grade adhesive/sealant and electrical insulation",
+      "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
+      "tdsDocumentLabel": "GC Electronics 19-155 Technical Data Sheet"
     },
     {
       "id": "gc-electronics-10-150",
@@ -33502,7 +33908,9 @@
       "referenceCategory": "Fast Two-Part Epoxy Adhesives",
       "referenceSampleType": "Two 1/2 fl oz tubes",
       "referenceSampleConsistency": "Clear free-flowing unfilled two-part epoxy; mixed viscosity about 13,000 cP",
-      "referenceForJoining": "High-speed bonding of metal, ceramics and most plastics; semi-rigid clear epoxy joints requiring good water, salt-spray, acid/base and organic-solvent resistance"
+      "referenceForJoining": "High-speed bonding of metal, ceramics and most plastics; semi-rigid clear epoxy joints requiring good water, salt-spray, acid/base and organic-solvent resistance",
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
+      "tdsDocumentLabel": "GC Electronics 10-114 Quik Stik Technical Data Sheet"
     },
     {
       "id": "gc-electronics-10-347",
@@ -33617,7 +34025,9 @@
       "referenceCategory": "Filled Two-Part Epoxy Adhesives",
       "referenceSampleType": "2 fl oz two-part tube kit",
       "referenceSampleConsistency": "Gray-white thixotropic filled epoxy; 700,000 cP mixed viscosity",
-      "referenceForJoining": "Bonding metals and plastics, filling gaps, replacing broken sections, and hard semi-rigid repairs needing good vibration, impact, water, salt-spray, acid/base and solvent resistance"
+      "referenceForJoining": "Bonding metals and plastics, filling gaps, replacing broken sections, and hard semi-rigid repairs needing good vibration, impact, water, salt-spray, acid/base and solvent resistance",
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
+      "tdsDocumentLabel": "GC Electronics 10-347 Epoxy Glue Technical Data Sheet"
     },
     {
       "id": "3m-scotch-weld-dp2216-gray",
@@ -35045,7 +35455,9 @@
       "referenceCategory": "Fast Gap-Filling Epoxy Gel Adhesives",
       "referenceSampleType": "50 mL cartridge",
       "referenceSampleConsistency": "Opaque non-sag thixotropic gel, 1:1 mix",
-      "referenceForJoining": "Bonding metal, ceramic, wood and vertical surfaces where non-migrating gap filling up to 0.25 in / 6.35 mm is needed"
+      "referenceForJoining": "Bonding metal, ceramic, wood and vertical surfaces where non-migrating gap filling up to 0.25 in / 6.35 mm is needed",
+      "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/5-Minute-Epoxy-Gel-TDS-v3-.pdf",
+      "tdsDocumentLabel": "ITW Performance Polymers Devcon 14265 5 Minute Epoxy Gel Technical Data Sheet"
     },
     {
       "id": "itw-devcon-14310-2-ton-epoxy",

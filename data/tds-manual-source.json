@@ -64882,6 +64882,442 @@
         "potLife",
         "fixtureTime"
       ]
+    },
+    {
+      "id": "3m-scotch-weld-dp8005-black",
+      "profile": "structuralAcrylic",
+      "maker": "3M",
+      "name": "Scotch-Weld Structural Plastic Adhesive DP8005 Black",
+      "summary": "10:1 by volume. Worklife 2.5–3 min at 23 °C; mate within about 2–2.5 min per instructions, fixture at least 2 h, handling strength (0.3 MPa OLS) in 2–3 h.",
+      "sourceRevisionDate": "last revision February 2025; supersedes September 2024",
+      "chemistry": "Two-part methacrylate acrylic with amine accelerator",
+      "cureFamily": "Two-part methacrylate acrylic with amine accelerator",
+      "cureDetail": "10:1 by volume. Worklife 2.5–3 min at 23 °C; mate within about 2–2.5 min per instructions, fixture at least 2 h, handling strength (0.3 MPa OLS) in 2–3 h.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "mixRatio": "10:1 by volume (B:A)",
+      "workingTimeMinutesRange": [
+        2.5,
+        3
+      ],
+      "tdsHandlingTimeMinutes": [
+        120,
+        180
+      ],
+      "tdsFullCureHours": null,
+      "viscosityClass": "high",
+      "viscosityValue": null,
+      "thermalConductivity": null,
+      "lapShear": null,
+      "lapShearSubstrate": "No standard lap-shear value published. TDS gives HDPE T-peel (9 lb/in width) and separate peak stress/modulus tests, which are not overlap shear.",
+      "clarity": "opaque",
+      "substrates": {
+        "polypropylene": 9,
+        "polyethylene": 9,
+        "tpo": 9,
+        "metal": 7,
+        "plastic": 9,
+        "composite": 7
+      },
+      "applicationTags": [
+        "structural-bonding",
+        "low-surface-energy-plastics",
+        "polypropylene",
+        "polyethylene",
+        "tpo"
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 6,
+        "impact": 6
+      },
+      "cautions": [
+        "Many PP, PE and TPO grades bond without special surface preparation, but surfaces must be clean and dry.",
+        "Use specified 10:1 EPX applicator or meter-mix equipment; hand mixing not recommended.",
+        "Follow the shorter mating window, about 2–2.5 min, rather than the full worklife. Store unopened at 4 °C or below."
+      ],
+      "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceSampleType": "Duo-Pak cartridge",
+      "referenceSampleConsistency": "Two-part adhesive; see TDS for component data.",
+      "referenceForJoining": "Structural bonding of many low-surface-energy polyolefins and dissimilar materials.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
+      "tdsDocumentLabel": "Scotch-Weld Structural Plastic Adhesive DP8005 Black TDS, last revision February 2025; supersedes September 2024",
+      "unpublishedFields": [
+        "potLife",
+        "fixtureTime",
+        "thermalConductivity",
+        "viscosityValue",
+        "lapShear",
+        "serviceMin",
+        "serviceMax"
+      ],
+      "tdsPeelStrengthProfilesPiw": {
+        "HDPE": 9
+      },
+      "tdsTensileProperties": {
+        "peakStressMPa": 11.67,
+        "modulusAt1PctStrainMPa": 405
+      },
+      "hardnessValue": 60,
+      "hardnessScale": "Shore D",
+      "specificGravityRange": {
+        "baseLbPerGal": [
+          8,
+          8.4
+        ],
+        "acceleratorLbPerGal": [
+          8.7,
+          9.15
+        ]
+      },
+      "cureHoldTimeMinutes": 120,
+      "openTimeMinutesRange": [
+        2,
+        2.5
+      ],
+      "gelTimeMinutesRange": [
+        2.5,
+        3
+      ]
+    },
+    {
+      "id": "3m-scotch-weld-dp810-black",
+      "profile": "structuralAcrylic",
+      "maker": "3M",
+      "name": "Scotch-Weld Low Odor Acrylic Adhesive DP810 Black",
+      "summary": "1:1 mix. 10-minute worklife and 10-minute time to handling strength (50 psi); full cure 8–24 h at 23 °C.",
+      "sourceRevisionDate": "Technical Data February 2016",
+      "chemistry": "Two-part toughened acrylic structural adhesive",
+      "cureFamily": "Two-part toughened acrylic structural adhesive",
+      "cureDetail": "1:1 mix. 10-minute worklife and 10-minute time to handling strength (50 psi); full cure 8–24 h at 23 °C.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "mixRatio": "1:1 by volume and weight",
+      "workingTimeMinutesRange": [
+        10,
+        10
+      ],
+      "tdsHandlingTimeMinutes": [
+        10,
+        10
+      ],
+      "tdsFullCureHours": [
+        8,
+        24
+      ],
+      "viscosityClass": "high",
+      "viscosityValue": null,
+      "thermalConductivity": null,
+      "lapShear": 28.96,
+      "lapShearSubstrate": "DP810 Black ASTM D1002-72 OLS at 23 °C: etched aluminum 4200 psi (28.96 MPa), abraded aluminum 3750 psi, CRS 3600 psi, stainless steel 3500 psi; values vary by substrate and preparation.",
+      "clarity": "opaque",
+      "substrates": {
+        "aluminum": 9,
+        "steel": 8,
+        "stainlessSteel": 8,
+        "fiberglass": 8,
+        "acrylic": 6,
+        "pvc": 6,
+        "polycarbonate": 5,
+        "abs": 5,
+        "rubber": 7,
+        "wood": 6
+      },
+      "applicationTags": [
+        "structural-bonding",
+        "low-odor",
+        "metal-bonding",
+        "plastic-bonding"
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 6,
+        "impact": 6
+      },
+      "cautions": [
+        "Substrate/preparation-specific typical shear values are not product specifications.",
+        "Temperature-conditioned strength tests are not a service-temperature rating."
+      ],
+      "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceSampleType": "Duo-Pak cartridge",
+      "referenceSampleConsistency": "Two-part adhesive; see TDS for component data.",
+      "referenceForJoining": "Structural mixed-material bonding with low odor, rapid handling strength, and shear/peel performance.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
+      "tdsDocumentLabel": "Scotch-Weld Low Odor Acrylic Adhesive DP810 Black TDS, Technical Data February 2016",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "potLife",
+        "fixtureTime",
+        "thermalConductivity",
+        "viscosityValue"
+      ],
+      "tdsLapShearProfilesMPa": {
+        "etchedAluminum23C": 28.96,
+        "abradedAluminum23C": 25.86,
+        "bareAluminum23C": 26.54,
+        "coldRolledSteel23C": 24.82,
+        "oilyColdRolledSteel23C": 23.79,
+        "stainlessSteel23C": 24.13,
+        "greenFRP23C": 20.68,
+        "acrylic23C": 3.79,
+        "pvc23C": 6.89,
+        "polycarbonate23C": 3.45,
+        "abs23C": 4.83
+      },
+      "tdsLapShearByTemperatureMPa": {
+        "minus29C": {
+          "dp810": 12.07,
+          "dp810Black": 13.79,
+          "dp810NS": 11.03
+        },
+        "24C": {
+          "dp810": 25.17,
+          "dp810Black": 24.48,
+          "dp810NS": 27.58
+        },
+        "49C": {
+          "dp810": 11.03,
+          "dp810Black": 13.79,
+          "dp810NS": 16.55
+        },
+        "82C": {
+          "dp810": 3.79,
+          "dp810Black": 3.45,
+          "dp810NS": 3.45
+        }
+      },
+      "lapShearTestMethod": "ASTM D1002-72; at least 6 h cure at 24 °C unless specified.",
+      "tdsPeelStrengthProfilesPiw": {
+        "etchedAluminum23C": 20
+      },
+      "viscosityRangesCps": {
+        "base": [
+          18000,
+          22000
+        ],
+        "accelerator": [
+          17000,
+          21000
+        ]
+      },
+      "specificGravityRange": {
+        "baseLbPerGal": [
+          8.7,
+          9.1
+        ],
+        "acceleratorLbPerGal": [
+          8.7,
+          9.1
+        ]
+      }
+    },
+    {
+      "id": "3m-scotch-weld-dp605ns",
+      "profile": "structuralPolyurethane",
+      "maker": "3M",
+      "name": "Scotch-Weld Urethane Adhesive DP605NS Off-White",
+      "summary": "1:1 mix; 5-minute worklife (10 g, 1/4 in thick); handling strength in 15–20 min; 48 h to ≥80% ultimate aluminum OLS strength.",
+      "sourceRevisionDate": "Technical Data Sheet, September 2016",
+      "chemistry": "Two-part urethane adhesive",
+      "cureFamily": "Two-part urethane adhesive",
+      "cureDetail": "1:1 mix; 5-minute worklife (10 g, 1/4 in thick); handling strength in 15–20 min; 48 h to ≥80% ultimate aluminum OLS strength.",
+      "serviceMin": null,
+      "serviceMax": null,
+      "mixRatio": "1:1 by volume and weight",
+      "workingTimeMinutesRange": [
+        5,
+        5
+      ],
+      "tdsHandlingTimeMinutes": [
+        15,
+        20
+      ],
+      "tdsFullCureHours": [
+        48,
+        48
+      ],
+      "viscosityClass": "high",
+      "viscosityValue": null,
+      "thermalConductivity": 0.175,
+      "lapShear": 4.48,
+      "lapShearSubstrate": "ASTM D1002 OLS after 7-day cure: aluminum 650 psi (4.48 MPa), CRS 660 psi; substrate values differ.",
+      "clarity": "opaque",
+      "substrates": {
+        "wood": 9,
+        "plastic": 8,
+        "paintedMetal": 7,
+        "ceramic": 7,
+        "glass": 6,
+        "aluminum": 7,
+        "steel": 7,
+        "polycarbonate": 8,
+        "abs": 7,
+        "pvc": 7
+      },
+      "applicationTags": [
+        "structural-bonding",
+        "polyurethane",
+        "flexible-bonding",
+        "wood",
+        "plastic-bonding"
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 6,
+        "impact": 6
+      },
+      "cautions": [
+        "For best moisture durability on glass, prime the glass.",
+        "Shear values depend on substrate/preparation.",
+        "Store unopened at 4 °C or below."
+      ],
+      "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceSampleType": "Duo-Pak cartridge",
+      "referenceSampleConsistency": "Two-part adhesive; see TDS for component data.",
+      "referenceForJoining": "Tough flexible bonding on wood, prepared plastics, painted metals, ceramics and glass.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
+      "tdsDocumentLabel": "Scotch-Weld Urethane Adhesive DP605NS Off-White TDS, Technical Data Sheet, September 2016",
+      "unpublishedFields": [
+        "serviceMin",
+        "serviceMax",
+        "potLife",
+        "fixtureTime",
+        "viscosityValue"
+      ],
+      "tdsLapShearProfilesMPa": {
+        "aluminum7d": 4.48,
+        "coldRolledSteel7d": 4.55,
+        "nylon7d": 3.24,
+        "polycarbonate7d": 4.96,
+        "acrylic7d": 4.83,
+        "smc7d": 4.41,
+        "rigidPvc7d": 4.28,
+        "abs7d": 4.41,
+        "hips7d": 3.79
+      },
+      "lapShearTestMethod": "ASTM D1002, typical tests after 7-day cure at 23 °C/approximately 50% RH.",
+      "tdsPeelStrengthProfilesPiw": {
+        "aluminum7d": 33
+      },
+      "elongationPct": 100,
+      "hardnessValue": 62.5,
+      "hardnessScale": "Shore D",
+      "electricalProperties": {
+        "dielectricConstant": 3.1,
+        "dissipationFactor": 0.021,
+        "dielectricBreakdownVPerMil": 640,
+        "volumeResistivityOhmCm": 100000000000000.0
+      },
+      "thermalConductivityNote": "Converted from TDS 0.101 Btu-ft/(ft²·h·°F) at 45 °C; ~0.175 W/(m·K).",
+      "viscosityTestNote": "TDS reports extrusion time, not Brookfield viscosity."
+    },
+    {
+      "id": "3m-scotch-weld-dp620ns-black",
+      "profile": "structuralPolyurethane",
+      "maker": "3M",
+      "name": "Scotch-Weld Urethane Adhesive DP620NS Black",
+      "summary": "1:1 mix; 20-minute open time/worklife at 23 °C; handling strength after 4 h (0.3 MPa / 50 psi OLS). Full-cure time not published in linked TDS.",
+      "sourceRevisionDate": "last revision April 2025; supersedes September 2024",
+      "chemistry": "Two-part polyurethane, black non-sag paste",
+      "cureFamily": "Two-part polyurethane, black non-sag paste",
+      "cureDetail": "1:1 mix; 20-minute open time/worklife at 23 °C; handling strength after 4 h (0.3 MPa / 50 psi OLS). Full-cure time not published in linked TDS.",
+      "serviceMin": -51,
+      "serviceMax": 121,
+      "mixRatio": "1:1 by volume and weight",
+      "workingTimeMinutesRange": [
+        20,
+        20
+      ],
+      "tdsHandlingTimeMinutes": [
+        240,
+        240
+      ],
+      "tdsFullCureHours": null,
+      "viscosityClass": "high",
+      "viscosityValue": null,
+      "thermalConductivity": null,
+      "lapShear": 19.9,
+      "lapShearSubstrate": "ASTM D1002 / ISO 4587 OLS after 7-day dwell at 23 °C: aluminum with MEK/abrade/MEK prep, 19.9 MPa; other substrate strengths are separate.",
+      "clarity": "opaque",
+      "substrates": {
+        "aluminum": 9,
+        "steel": 8,
+        "abs": 7,
+        "polycarbonate": 6,
+        "acrylic": 6,
+        "fiberglass": 7,
+        "pvc": 6,
+        "plastic": 7,
+        "wood": 7,
+        "concrete": 6
+      },
+      "applicationTags": [
+        "structural-bonding",
+        "polyurethane",
+        "flexible-bonding",
+        "dissimilar-substrates",
+        "construction"
+      ],
+      "stress": {
+        "shear": 8,
+        "peel": 6,
+        "impact": 6
+      },
+      "cautions": [
+        "Strength results are 7-day tests with stated preparation; do not generalize aluminum result to all substrates.",
+        "Store under normal conditions; use within 18 months."
+      ],
+      "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+      "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceSampleType": "Duo-Pak cartridge",
+      "referenceSampleConsistency": "Two-part adhesive; see TDS for component data.",
+      "referenceForJoining": "Structural bonding/sealing of prototypes, dissimilar substrates, and construction assemblies needing non-sag application.",
+      "tdsUrl": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
+      "tdsDocumentLabel": "Scotch-Weld Urethane Adhesive DP620NS Black TDS, last revision April 2025; supersedes September 2024",
+      "unpublishedFields": [
+        "potLife",
+        "fixtureTime",
+        "thermalConductivity",
+        "viscosityValue"
+      ],
+      "serviceTemperatureNote": "TDS reports long-term continuous resistance -51 to 121 °C.",
+      "tdsLapShearProfilesMPa": {
+        "aluminum7d": 19.9,
+        "coldRolledSteel7d": 11.7,
+        "abs7d": 4.34,
+        "polycarbonate7d": 2.96,
+        "acrylic7d": 2.76,
+        "fiberReinforcedPlastic7d": 4.83,
+        "pvc7d": 3.3
+      },
+      "lapShearTestMethod": "ASTM D1002 / ISO 4587; 7-day dwell at 23 °C; preparation specified per substrate.",
+      "tdsPeelStrengthProfilesPiw": {
+        "aluminum7d": 30
+      },
+      "openTimeMinutes": 20,
+      "worklifeMinutes": 20,
+      "tdsHandlingStrengthThresholdMPa": 0.3,
+      "hardnessValue": 50,
+      "hardnessScale": "Shore D",
+      "elongationPct": 110,
+      "viscosityRangesCps": {
+        "base": [
+          3000,
+          6000
+        ],
+        "accelerator": [
+          1000,
+          5000
+        ]
+      }
     }
   ]
 }

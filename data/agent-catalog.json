@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:05:42.649606+00:00",
+  "generatedAt": "2026-09-24T03:19:19.409056+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,10 +12,10 @@
   ],
   "stats": {
     "products": 1708,
-    "manualTdsProducts": 629,
+    "manualTdsProducts": 633,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 644,
+    "officialManufacturerLeads": 640,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -99,6 +99,10 @@
         "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
+        "3m-scotch-weld-dp605ns",
+        "3m-scotch-weld-dp620ns-black",
+        "3m-scotch-weld-dp8005-black",
+        "3m-scotch-weld-dp810-black",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "3m-scotch-weld-pur-2710p-black",
         "3m-scotch-weld-sf100",
@@ -207,7 +211,6 @@
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-ec-3542-b-a-fr",
         "official-lead-3m-3m-scotch-weld-epoxy-adhesive-ec-9370-b-a-fst",
         "official-lead-3m-3m-scotch-weld-light-activated-epoxy-adhesive-5001-clear-30ml-24-case",
-        "official-lead-3m-3m-scotch-weld-low-odor-acrylic-adhesive-dp810-black",
         "official-lead-3m-3m-scotch-weld-low-odor-acrylic-adhesive-dp8725ns",
         "official-lead-3m-3m-scotch-weld-low-odor-acrylic-adhesive-dp8825ns",
         "official-lead-3m-3m-scotch-weld-low-odor-instant-adhesive-lo1000-clear-20-gram-bottle-10-case",
@@ -217,10 +220,7 @@
         "official-lead-3m-3m-scotch-weld-pur-easy-adhesive-ez250150",
         "official-lead-3m-3m-scotch-weld-structural-adhesive-ec-7236-b-a",
         "official-lead-3m-3m-scotch-weld-structural-adhesive-ew2060hf",
-        "official-lead-3m-3m-scotch-weld-structural-plastic-adhesive-dp8005-black",
         "official-lead-3m-3m-scotch-weld-super-fast-instant-adhesive-sf20-clear-20-gram-10-bottles-case",
-        "official-lead-3m-3m-scotch-weld-urethane-adhesive-dp605ns-off-white-48-5-ml-duo-pak-12-case",
-        "official-lead-3m-3m-scotch-weld-urethane-adhesive-dp620ns",
         "official-lead-3m-3m-scotch-weld-void-filling-compound-ec-3515-b-a-fr",
         "official-lead-3m-3m-super-77-multipurpose-spray-adhesive",
         "official-lead-3m-3m-vhb-tape-4914-020-white-600-mm-x-33-m-1-roll-case",
@@ -2609,6 +2609,7 @@
       ],
       "construction": [
         "3m-hi-strength-90-spray-aerosol",
+        "3m-scotch-weld-dp620ns-black",
         "digiwave-dga6129",
         "liquid-nails-ln150",
         "liquid-nails-ln2000",
@@ -2982,6 +2983,9 @@
       ],
       "dissimilar-plastic-bonding": [
         "caseway-sc-325-polycarbonate"
+      ],
+      "dissimilar-substrates": [
+        "3m-scotch-weld-dp620ns-black"
       ],
       "doming": [
         "permabond-uv683"
@@ -3569,6 +3573,8 @@
         "3m-scotch-weld-dp125-gray-7100320278",
         "3m-scotch-weld-dp125-translucent-7100320463",
         "3m-scotch-weld-dp2216-gray",
+        "3m-scotch-weld-dp605ns",
+        "3m-scotch-weld-dp620ns-black",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "cemedine-ep008",
         "chipquik-sg4",
@@ -4611,6 +4617,7 @@
         "threebond-tb3027g"
       ],
       "low-odor": [
+        "3m-scotch-weld-dp810-black",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "dap-dynaflex-230",
         "dap-weldwood-nonflammable-contact-cement",
@@ -4650,6 +4657,7 @@
         "permabond-ta4631"
       ],
       "low-surface-energy-plastics": [
+        "3m-scotch-weld-dp8005-black",
         "threebond-tb7797",
         "weicon-easy-mix-pe-pp-50"
       ],
@@ -4801,6 +4809,7 @@
         "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
+        "3m-scotch-weld-dp810-black",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "3m-thermal-bonding-film-af42",
         "3m-vhb-4930f",
@@ -5437,6 +5446,8 @@
         "3m-hot-melt-3797tc",
         "3m-scotch-grip-847",
         "3m-scotch-weld-ca8",
+        "3m-scotch-weld-dp605ns",
+        "3m-scotch-weld-dp810-black",
         "3m-scotch-weld-sf100",
         "3m-thermal-bonding-film-583",
         "atom-adhesives-14265",
@@ -5646,6 +5657,7 @@
         "bsi-quik-cure-5-minute-epoxy"
       ],
       "polyethylene": [
+        "3m-scotch-weld-dp8005-black",
         "threebond-tb1797",
         "threebond-tb7797"
       ],
@@ -5656,6 +5668,7 @@
         "threebond-tb3017e"
       ],
       "polypropylene": [
+        "3m-scotch-weld-dp8005-black",
         "threebond-tb1797",
         "threebond-tb7797"
       ],
@@ -5663,6 +5676,8 @@
         "weldon-1802"
       ],
       "polyurethane": [
+        "3m-scotch-weld-dp605ns",
+        "3m-scotch-weld-dp620ns-black",
         "gorilla-glue-original-polyurethane",
         "lepage-pl-premium",
         "lepage-pl-premium-fast-grab",
@@ -6650,6 +6665,10 @@
         "3m-scotch-weld-dp460eg",
         "3m-scotch-weld-dp490",
         "3m-scotch-weld-dp600-dp600ns-urethane",
+        "3m-scotch-weld-dp605ns",
+        "3m-scotch-weld-dp620ns-black",
+        "3m-scotch-weld-dp8005-black",
+        "3m-scotch-weld-dp810-black",
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "3m-thermal-bonding-film-583",
         "3m-thermal-bonding-film-af42",
@@ -7133,6 +7152,9 @@
         "3m-scotch-weld-dp420ns-black-7100320001",
         "mg-chemicals-9200"
       ],
+      "tpo": [
+        "3m-scotch-weld-dp8005-black"
+      ],
       "transition-solvent-cement": [
         "oatey-abs-pvc-transition-green"
       ],
@@ -7568,6 +7590,9 @@
         "gardner-bender-ltg-400",
         "gardner-bender-lts-400"
       ],
+      "wood": [
+        "3m-scotch-weld-dp605ns"
+      ],
       "wood-bonding": [
         "3m-hi-strength-90-spray-aerosol",
         "3m-scotch-weld-sf100",
@@ -7657,8 +7682,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 644,
-      "official-tds-url": 356,
+      "official-manufacturer-lead": 640,
+      "official-tds-url": 360,
       "product-or-catalog-page": 191
     }
   },
@@ -16491,105 +16516,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-3m-3m-scotch-weld-low-odor-acrylic-adhesive-dp810-black",
-      "source": "official-manufacturer-lead",
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Low Odor Acrylic Adhesive DP810 Black",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
-        "tdsUrl": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
-        "tdsUrls": [
-          "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
-            "label": "3M DP810 Technical Data Sheet",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 7,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "chemistry": "DP810 \u2022 DP810 Black \u2022 DP810 NS | Product Description 3M\u2122 Scotch-Weld\u2122 Low-Odour Acrylic Adhesives are two-part, 1:1 mix ratio, | toughened structural adhesives with less odour than most acrylic adhesives. These | adhesives have excellent shear and peel strength along with good impact resistance",
-              "viscosity": "8.7 - 9.1 | Viscosity (cps)(1) Base (B) | Accelerator (A) | 18,000 - 22,000",
-              "workLife": "Features \u2022 Tough, durable bonds \u2022 Low-odour acrylic adhesive | \u2022 Minimal surface prep \u2022 10 minute worklife | \u2022 10 minute time to handling strength \u2022 1:1 mix ratio | \u2022 Bonds stainless steel \u2022 Excellent shear and peel strength",
-              "setTime": "\u2022 Minimal surface prep \u2022 10 minute worklife | \u2022 10 minute time to handling strength \u2022 1:1 mix ratio | \u2022 Bonds stainless steel \u2022 Excellent shear and peel strength | Typical Uncured",
-              "cureTime": "Time to Handling Strength (50 psi) 10 minutes 10 minutes 10 minutes | Full Cure @ 23\u00b0C (73\u00b0F) 8 - 24 hours 8 - 24 hours 8 - 24 hours | Worklife @ 23\u00b0C (73\u00b0F) 10 minutes 10 minutes 10 minutes | Technical Data February, 2016",
-              "lapShear": "or typical only and should not be used for specification purposes. | Overlap Shear Strength(2), tested @ 23\u00b0C (73\u00b0F) | 3M\u2122 Scotch-Weld\u2122 Low-Odour Acrylic Adhesive | DP810 DP810 Black DP810 NS"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
-        "sourceLabel": "3M Scotch-Weld category",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "official-lead-3m-3m-scotch-weld-low-odor-acrylic-adhesive-dp8725ns",
       "source": "official-manufacturer-lead",
       "maker": "3M",
@@ -17422,107 +17348,6 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-3m-3m-scotch-weld-structural-plastic-adhesive-dp8005-black",
-      "source": "official-manufacturer-lead",
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 Black",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
-        "tdsUrl": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
-        "tdsUrls": [
-          "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
-            "label": "3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that",
-            "documentType": "TDS",
-            "documentRevision": "February, 2025",
-            "pageCount": 5,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Attribute Name Temperature Value | Base Color Black | Accelerator Color White | Base Resin Methacrylate",
-              "chemistry": "Regulatory Info/SDS | Product Description | 3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that | can bond many low surface energy plastics, including many grades of polypropylene, polyethylene, and TPO\u2019s without",
-              "viscosity": "Accelerator Net Weight 8.7 \u2014 9.15 lb/gal | Base Viscosity 23 \u00b0C (73 \u00b0F) 15000 \u2014 30000 cP \u00b9 | Accelerator Viscosity 23 \u00b0C (73 \u00b0F) 35000 \u2014 55000 cP \u00b2 | \u00b9 Viscosity obtained by Brookfield, DV-II, #7 Spindle, 20 rpm",
-              "workLife": "Attribute Name Value | Worklife 2.5 \u2014 3 min | Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive",
-              "setTime": "Worklife 2.5 \u2014 3 min | Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature.",
-              "cureTime": "Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
-              "lapShear": "Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
-              "hardness": "Peak Stress 1,692 lb/in\u00b2 \u00b9 | Shore D Hardness ASTM D2240 23 \u00b0C (73 \u00b0F) 60 | \u00b9 Mechanical properties obtained using a Sintech 5GL Mechanical Tester. Approximate dimensions of the test specimen was 38 x 13 x | 7.6 mm (1.5 x 0.5 x 0.3 in). Elongation was determined by crosshead displacement. The crosshead velocity was 13 "
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
-        "sourceLabel": "3M Scotch-Weld category",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
       "id": "official-lead-3m-3m-scotch-weld-super-fast-instant-adhesive-sf20-clear-20-gram-10-bottles-case",
       "source": "official-manufacturer-lead",
       "maker": "3M",
@@ -17566,209 +17391,6 @@
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.3m.com/3M/en_US/p/d/v000216945/",
-        "sourceLabel": "3M Scotch-Weld category",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-3m-3m-scotch-weld-urethane-adhesive-dp605ns-off-white-48-5-ml-duo-pak-12-case",
-      "source": "official-manufacturer-lead",
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS, Off-White, 48.5 mL Duo-Pak, 12/Case",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
-        "tdsUrl": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
-        "tdsUrls": [
-          "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
-            "label": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS can be considered \u201clow",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 7,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Condition DP605NS | Appearance Part B | Part A | White",
-              "chemistry": "Technical Data Sheet September 2016 | Product Description 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS Off-White is a two-part, | non-sag urethane adhesive. It provides tough, flexible bonds with good | adhesion to a wide variety of substrates, especially wood and many properly",
-              "viscosity": "By weight 1:1 | Viscosity1 | (Approx.) time to deliver 20 gms @ 20 psi | through a .104\" orifice @ 75\u00b0F (24\u00b0C) seconds.",
-              "workLife": "moisture conditions, priming of glass is required. | Features \u2022 Tough, flexible bonds \u2022 5 minute work life | \u2022 Non-Sag/Thixotropic \u2022 Bonds wood and many plastics | \u2022 1:1 Mix Ratio \u2022 Low Halogen Content",
-              "setTime": "Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F) | Elongation3 100%",
-              "cureTime": "Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F) | Elongation3 100% | Electrical",
-              "lapShear": "or typical only and should not be used for specification purposes. | Aluminum, Overlap Shear, at Temperature (PSI) (ASTM D1002) | Temperature DP605NS | -40\u00b0F (-40\u00b0C) 1340",
-              "hardness": "Appearance Off-White | Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F)"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
-        "sourceLabel": "3M Scotch-Weld category",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-3m-3m-scotch-weld-urethane-adhesive-dp620ns",
-      "source": "official-manufacturer-lead",
-      "maker": "3M",
-      "name": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
-        "tdsUrl": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
-        "tdsUrls": [
-          "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
-            "label": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged",
-            "documentType": "TDS",
-            "documentRevision": "April, 2025",
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "Attribute Name Value | Color Black \u00b9 | Mix Ratio by Volume (B:A) 1:1 | Mix Ratio by Weight (B:A) 1:1",
-              "chemistry": "Regulatory Info/SDS | Product Description | 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged | as 1:1 ratio liquids in a duo-pak cartridge. With the squeeze of the trigger, the components are automatically mixed and",
-              "viscosity": "Accelerator Density 1.14 \u2014 1.19 | Base Viscosity 23 \u00b0C (73 \u00b0F) 3000 \u2014 6000 cP \u00b9 | Accelerator Viscosity 23 \u00b0C (73 \u00b0F) 1000 \u2014 5000 cP \u00b9 | \u00b9 Brookfield CP #52 @ 50 rpm",
-              "workLife": "Open Time 20 min \u00b9 | Worklife, 10g mixed 23 \u00b0C (73 \u00b0F) 20 min | Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend",
-              "setTime": "Worklife, 10g mixed 23 \u00b0C (73 \u00b0F) 20 min | Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten ",
-              "cureTime": "Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten adhesive on a non-metallic | surface.",
-              "lapShear": "surface. | \u00b2 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS Black | English-US 1/4",
-              "serviceTemperature": "Attribute Name Value | Long Term Temperature Resistance 121 \u00b0C (250 \u00b0F) \u00b9 | Minimum Long Term Temperature Resistance -51 \u00b0C (-60 \u00b0F) \u00b9 | \u00b9 Long Term (day, weeks)",
-              "hardness": "\u00b0F) | Shore D Hardness ASTM D2240 23 \u00b0C (73 \u00b0F) 50 | Typical Performance Characteristics | Overlap Shear Strength"
-            }
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
         "sourceLabel": "3M Scotch-Weld category",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"
@@ -22063,6 +21685,130 @@
       "extractionCandidates": []
     },
     {
+      "id": "3m-scotch-weld-dp810-black",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld Low Odor Acrylic Adhesive DP810 Black",
+      "profile": "structuralAcrylic",
+      "summary": "1:1 mix. 10-minute worklife and 10-minute time to handling strength (50 psi); full cure 8\u201324 h at 23 \u00b0C.",
+      "applicationTags": [
+        "structural-bonding",
+        "low-odor",
+        "metal-bonding",
+        "plastic-bonding"
+      ],
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceForJoining": "Structural mixed-material bonding with low odor, rapid handling strength, and shear/peel performance.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part toughened acrylic structural adhesive",
+        "cureFamily": "Two-part toughened acrylic structural adhesive",
+        "cureDetail": "1:1 mix. 10-minute worklife and 10-minute time to handling strength (50 psi); full cure 8\u201324 h at 23 \u00b0C.",
+        "lapShear": 28.96,
+        "lapShearSubstrate": "DP810 Black ASTM D1002-72 OLS at 23 \u00b0C: etched aluminum 4200 psi (28.96 MPa), abraded aluminum 3750 psi, CRS 3600 psi, stainless steel 3500 psi; values vary by substrate and preparation.",
+        "lapShearTestMethod": "ASTM D1002-72; at least 6 h cure at 24 \u00b0C unless specified.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "tdsPeelStrengthProfilesPiw": {
+          "etchedAluminum23C": 20
+        }
+      },
+      "rankableSpecs": {
+        "lapShear": 28.96
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+        "tdsUrl": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf",
+            "label": "3M DP810 Technical Data Sheet",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 7,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "chemistry": "DP810 \u2022 DP810 Black \u2022 DP810 NS | Product Description 3M\u2122 Scotch-Weld\u2122 Low-Odour Acrylic Adhesives are two-part, 1:1 mix ratio, | toughened structural adhesives with less odour than most acrylic adhesives. These | adhesives have excellent shear and peel strength along with good impact resistance",
+              "viscosity": "8.7 - 9.1 | Viscosity (cps)(1) Base (B) | Accelerator (A) | 18,000 - 22,000",
+              "workLife": "Features \u2022 Tough, durable bonds \u2022 Low-odour acrylic adhesive | \u2022 Minimal surface prep \u2022 10 minute worklife | \u2022 10 minute time to handling strength \u2022 1:1 mix ratio | \u2022 Bonds stainless steel \u2022 Excellent shear and peel strength",
+              "setTime": "\u2022 Minimal surface prep \u2022 10 minute worklife | \u2022 10 minute time to handling strength \u2022 1:1 mix ratio | \u2022 Bonds stainless steel \u2022 Excellent shear and peel strength | Typical Uncured",
+              "cureTime": "Time to Handling Strength (50 psi) 10 minutes 10 minutes 10 minutes | Full Cure @ 23\u00b0C (73\u00b0F) 8 - 24 hours 8 - 24 hours 8 - 24 hours | Worklife @ 23\u00b0C (73\u00b0F) 10 minutes 10 minutes 10 minutes | Technical Data February, 2016",
+              "lapShear": "or typical only and should not be used for specification purposes. | Overlap Shear Strength(2), tested @ 23\u00b0C (73\u00b0F) | 3M\u2122 Scotch-Weld\u2122 Low-Odour Acrylic Adhesive | DP810 DP810 Black DP810 NS"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/1235384O/dp810-technical-data-sheets.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.3m.com/3M/en_US/p/d/b5005321033/"
+        ]
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Substrate/preparation-specific typical shear values are not product specifications.",
+        "Temperature-conditioned strength tests are not a service-temperature rating."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "3m-pr1500",
       "source": "manual-tds",
       "maker": "3M",
@@ -22267,6 +22013,135 @@
         "No separate public 3M technical data sheet was located; this entry is backed by the official 3M product-page typical-property table plus the official 3M SDS physical-property table.",
         "The public official sources do not publish lap shear, peel strength, tensile strength, hardness, dielectric properties, thermal conductivity, Tg or service-temperature range.",
         "Electronics relevance is based on the official product-page industry/category listing and plastic-bonding use; cached official sources do not publish adhesive electrical or thermal performance values for 2710P."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp8005-black",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld Structural Plastic Adhesive DP8005 Black",
+      "profile": "structuralAcrylic",
+      "summary": "10:1 by volume. Worklife 2.5\u20133 min at 23 \u00b0C; mate within about 2\u20132.5 min per instructions, fixture at least 2 h, handling strength (0.3 MPa OLS) in 2\u20133 h.",
+      "applicationTags": [
+        "structural-bonding",
+        "low-surface-energy-plastics",
+        "polypropylene",
+        "polyethylene",
+        "tpo"
+      ],
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceForJoining": "Structural bonding of many low-surface-energy polyolefins and dissimilar materials.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part methacrylate acrylic with amine accelerator",
+        "cureFamily": "Two-part methacrylate acrylic with amine accelerator",
+        "cureDetail": "10:1 by volume. Worklife 2.5\u20133 min at 23 \u00b0C; mate within about 2\u20132.5 min per instructions, fixture at least 2 h, handling strength (0.3 MPa OLS) in 2\u20133 h.",
+        "lapShearSubstrate": "No standard lap-shear value published. TDS gives HDPE T-peel (9 lb/in width) and separate peak stress/modulus tests, which are not overlap shear.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "hardnessValue": 60,
+        "hardnessScale": "Shore D",
+        "tdsPeelStrengthProfilesPiw": {
+          "HDPE": 9
+        }
+      },
+      "rankableSpecs": {
+        "hardnessValue": 60
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf",
+            "label": "3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that",
+            "documentType": "TDS",
+            "documentRevision": "February, 2025",
+            "pageCount": 5,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Attribute Name Temperature Value | Base Color Black | Accelerator Color White | Base Resin Methacrylate",
+              "chemistry": "Regulatory Info/SDS | Product Description | 3M\u2122 Scotch-Weld\u2122 Structural Plastic Adhesive DP8005 is a two-part acrylic- based adhesive (10:1 ratio by volume) that | can bond many low surface energy plastics, including many grades of polypropylene, polyethylene, and TPO\u2019s without",
+              "viscosity": "Accelerator Net Weight 8.7 \u2014 9.15 lb/gal | Base Viscosity 23 \u00b0C (73 \u00b0F) 15000 \u2014 30000 cP \u00b9 | Accelerator Viscosity 23 \u00b0C (73 \u00b0F) 35000 \u2014 55000 cP \u00b2 | \u00b9 Viscosity obtained by Brookfield, DV-II, #7 Spindle, 20 rpm",
+              "workLife": "Attribute Name Value | Worklife 2.5 \u2014 3 min | Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive",
+              "setTime": "Worklife 2.5 \u2014 3 min | Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature.",
+              "cureTime": "Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
+              "lapShear": "Time to Handling Strength 2 \u2014 3 h \u00b9 | \u00b9 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | Typical Physical Properties",
+              "hardness": "Peak Stress 1,692 lb/in\u00b2 \u00b9 | Shore D Hardness ASTM D2240 23 \u00b0C (73 \u00b0F) 60 | \u00b9 Mechanical properties obtained using a Sintech 5GL Mechanical Tester. Approximate dimensions of the test specimen was 38 x 13 x | 7.6 mm (1.5 x 0.5 x 0.3 in). Elongation was determined by crosshead displacement. The crosshead velocity was 13 "
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365892O/3m-scotch-weld-structural-plastic-adhesive-dp8005-black.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.3m.com/3M/en_US/p/d/b5005321032/"
+        ]
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Many PP, PE and TPO grades bond without special surface preparation, but surfaces must be clean and dry.",
+        "Use specified 10:1 EPX applicator or meter-mix equipment; hand mixing not recommended.",
+        "Follow the shorter mating window, about 2\u20132.5 min, rather than the full worklife. Store unopened at 4 \u00b0C or below."
       ],
       "extractionCandidates": []
     },
@@ -22499,6 +22374,279 @@
         "This family is primarily a rapid repair/anchoring urethane, not a long-open-time assembly adhesive; at 23 C the formal worklife is under 75 seconds.",
         "The scalar lapShear uses the shared aluminum 2300 psi value; exact DP600 and DP600NS substrate tables are preserved separately in shearStrengthsPsi and shearStrengthsMPa.",
         "The current September 2024 PDF focuses on DP600 Self-Leveling and references DP600NS in directions; DP600NS-specific viscosity, worklife, tack-free, peel and environmental data come from the official November 2016 combined 3M TDS."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp605ns",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld Urethane Adhesive DP605NS Off-White",
+      "profile": "structuralPolyurethane",
+      "summary": "1:1 mix; 5-minute worklife (10 g, 1/4 in thick); handling strength in 15\u201320 min; 48 h to \u226580% ultimate aluminum OLS strength.",
+      "applicationTags": [
+        "structural-bonding",
+        "polyurethane",
+        "flexible-bonding",
+        "wood",
+        "plastic-bonding"
+      ],
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceForJoining": "Tough flexible bonding on wood, prepared plastics, painted metals, ceramics and glass.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part urethane adhesive",
+        "cureFamily": "Two-part urethane adhesive",
+        "cureDetail": "1:1 mix; 5-minute worklife (10 g, 1/4 in thick); handling strength in 15\u201320 min; 48 h to \u226580% ultimate aluminum OLS strength.",
+        "lapShear": 4.48,
+        "lapShearSubstrate": "ASTM D1002 OLS after 7-day cure: aluminum 650 psi (4.48 MPa), CRS 660 psi; substrate values differ.",
+        "lapShearTestMethod": "ASTM D1002, typical tests after 7-day cure at 23 \u00b0C/approximately 50% RH.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "thermalConductivity": 0.175,
+        "elongationPct": 100,
+        "hardnessValue": 62.5,
+        "hardnessScale": "Shore D",
+        "tdsPeelStrengthProfilesPiw": {
+          "aluminum7d": 33
+        }
+      },
+      "rankableSpecs": {
+        "lapShear": 4.48,
+        "thermalConductivity": 0.175,
+        "elongationPct": 100,
+        "hardnessValue": 62.5
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+        "tdsUrl": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/v100010717/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf",
+            "label": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS can be considered \u201clow",
+            "documentType": "TDS",
+            "documentRevision": null,
+            "pageCount": 7,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Condition DP605NS | Appearance Part B | Part A | White",
+              "chemistry": "Technical Data Sheet September 2016 | Product Description 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP605NS Off-White is a two-part, | non-sag urethane adhesive. It provides tough, flexible bonds with good | adhesion to a wide variety of substrates, especially wood and many properly",
+              "viscosity": "By weight 1:1 | Viscosity1 | (Approx.) time to deliver 20 gms @ 20 psi | through a .104\" orifice @ 75\u00b0F (24\u00b0C) seconds.",
+              "workLife": "moisture conditions, priming of glass is required. | Features \u2022 Tough, flexible bonds \u2022 5 minute work life | \u2022 Non-Sag/Thixotropic \u2022 Bonds wood and many plastics | \u2022 1:1 Mix Ratio \u2022 Low Halogen Content",
+              "setTime": "Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F) | Elongation3 100%",
+              "cureTime": "Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F) | Elongation3 100% | Electrical",
+              "lapShear": "or typical only and should not be used for specification purposes. | Aluminum, Overlap Shear, at Temperature (PSI) (ASTM D1002) | Temperature DP605NS | -40\u00b0F (-40\u00b0C) 1340",
+              "hardness": "Appearance Off-White | Shore D Hardness (ASTM D 2240 ) 60-65 | Time to Handling Strength1 15-20 min. @ 23\u00b0C (73\u00b0F) | Cure Time2 48 hours @ 23\u00b0C (73\u00b0F)"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/982016O/3m-scotch-weld-urethane-adhesive-dp605ns.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.3m.com/3M/en_US/p/d/v100010717/"
+        ]
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "For best moisture durability on glass, prime the glass.",
+        "Shear values depend on substrate/preparation.",
+        "Store unopened at 4 \u00b0C or below."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "3m-scotch-weld-dp620ns-black",
+      "source": "manual-tds",
+      "maker": "3M",
+      "name": "Scotch-Weld Urethane Adhesive DP620NS Black",
+      "profile": "structuralPolyurethane",
+      "summary": "1:1 mix; 20-minute open time/worklife at 23 \u00b0C; handling strength after 4 h (0.3 MPa / 50 psi OLS). Full-cure time not published in linked TDS.",
+      "applicationTags": [
+        "structural-bonding",
+        "polyurethane",
+        "flexible-bonding",
+        "dissimilar-substrates",
+        "construction"
+      ],
+      "referenceCategory": "Structural and industrial adhesives",
+      "referenceForJoining": "Structural bonding/sealing of prototypes, dissimilar substrates, and construction assemblies needing non-sag application.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part polyurethane, black non-sag paste",
+        "cureFamily": "Two-part polyurethane, black non-sag paste",
+        "cureDetail": "1:1 mix; 20-minute open time/worklife at 23 \u00b0C; handling strength after 4 h (0.3 MPa / 50 psi OLS). Full-cure time not published in linked TDS.",
+        "serviceMin": -51,
+        "serviceMax": 121,
+        "serviceTemperatureNote": "TDS reports long-term continuous resistance -51 to 121 \u00b0C.",
+        "lapShear": 19.9,
+        "lapShearSubstrate": "ASTM D1002 / ISO 4587 OLS after 7-day dwell at 23 \u00b0C: aluminum with MEK/abrade/MEK prep, 19.9 MPa; other substrate strengths are separate.",
+        "lapShearTestMethod": "ASTM D1002 / ISO 4587; 7-day dwell at 23 \u00b0C; preparation specified per substrate.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "elongationPct": 110,
+        "hardnessValue": 50,
+        "hardnessScale": "Shore D",
+        "tdsPeelStrengthProfilesPiw": {
+          "aluminum7d": 30
+        }
+      },
+      "rankableSpecs": {
+        "lapShear": 19.9,
+        "elongationPct": 110,
+        "hardnessValue": 50
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+        "tdsUrl": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
+        "productUrl": "https://www.3m.com/3M/en_US/p/d/b40066434/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf",
+            "label": "3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged",
+            "documentType": "TDS",
+            "documentRevision": "April, 2025",
+            "pageCount": 4,
+            "textExtractionStatus": "text-extracted",
+            "propertyEvidence": {
+              "appearance": "Attribute Name Value | Color Black \u00b9 | Mix Ratio by Volume (B:A) 1:1 | Mix Ratio by Weight (B:A) 1:1",
+              "chemistry": "Regulatory Info/SDS | Product Description | 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS is a black, rapid setting, two-component polyurethane. It is packaged | as 1:1 ratio liquids in a duo-pak cartridge. With the squeeze of the trigger, the components are automatically mixed and",
+              "viscosity": "Accelerator Density 1.14 \u2014 1.19 | Base Viscosity 23 \u00b0C (73 \u00b0F) 3000 \u2014 6000 cP \u00b9 | Accelerator Viscosity 23 \u00b0C (73 \u00b0F) 1000 \u2014 5000 cP \u00b9 | \u00b9 Brookfield CP #52 @ 50 rpm",
+              "workLife": "Open Time 20 min \u00b9 | Worklife, 10g mixed 23 \u00b0C (73 \u00b0F) 20 min | Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend",
+              "setTime": "Worklife, 10g mixed 23 \u00b0C (73 \u00b0F) 20 min | Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten ",
+              "cureTime": "Time to Handling Strength 23 \u00b0C (73 \u00b0F) 4 h \u00b2 | \u00b9 Max time allowed after applying adhesive to a substrate before bond must be closed and fixed. Cure times approximate and depend | on adhesive temperature. Hotmelts: The approx. bonding range of a 3.2 mm (1/8 in) bead of molten adhesive on a non-metallic | surface.",
+              "lapShear": "surface. | \u00b2 Minimum time required to achieve 0.3 MPa (50 psi) of overlap shear strength. Cure times are approximate and depend on adhesive | temperature. | 3M\u2122 Scotch-Weld\u2122 Urethane Adhesive DP620NS Black | English-US 1/4",
+              "serviceTemperature": "Attribute Name Value | Long Term Temperature Resistance 121 \u00b0C (250 \u00b0F) \u00b9 | Minimum Long Term Temperature Resistance -51 \u00b0C (-60 \u00b0F) \u00b9 | \u00b9 Long Term (day, weeks)",
+              "hardness": "\u00b0F) | Shore D Hardness ASTM D2240 23 \u00b0C (73 \u00b0F) 50 | Typical Performance Characteristics | Overlap Shear Strength"
+            }
+          }
+        ],
+        "tdsUrls": [
+          "https://multimedia.3m.com/mws/media/2365891O/3m-scotch-weld-urethane-adhesive-dp620ns-black.pdf"
+        ],
+        "officialProductUrls": [
+          "https://www.3m.com/3M/en_US/p/d/b40066434/"
+        ]
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife, fixtureTime, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Strength results are 7-day tests with stated preparation; do not generalize aluminum result to all substrates.",
+        "Store under normal conditions; use within 18 months."
       ],
       "extractionCandidates": []
     },

@@ -56227,8 +56227,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "TDS reports continuous exposure from −23 °C to 49 °C and intermittent exposure up to 150 °C.",
-    "fixtureTime": 7.5,
-    "fixtureTimeNote": "Sets in 5–10 minutes; midpoint shown.",
     "fullStrengthHours": 24,
     "lapShear": 23.7,
     "lapShearSubstrate": "Sandblasted cold-rolled steel, 24 h: 23.7 MPa; aluminum, 24 h: 14.17 MPa. TDS values are typical test results.",
@@ -56258,7 +56256,20 @@ window.TDS_MANUAL_PRODUCTS = [
       "Mix equal volumes thoroughly; bond strength depends on surface preparation and joint design."
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Clear-Multi-Purpose-en_US.pdf",
-    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html"
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-epoxy/SAP_0201OIL029V3.html",
+    "gelTimeMinutesRange": [
+      4,
+      10
+    ],
+    "tdsHandlingTimeMinutes": 20,
+    "tdsUsableStrengthMinutes": 30,
+    "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "gelTimeNote": "TDS reports gel time of 4–10 minutes.",
+    "fixtureTime": null
   },
   {
     "id": "loctite-epoxy-instant-mix-5min",
@@ -56272,8 +56283,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "cureDetail": "Equal-volume mix. Sets in 5–7 minutes, reaches usable strength in about 20 minutes, and fully cures in 24 hours.",
     "serviceMin": -23,
     "serviceMax": 49,
-    "fixtureTime": 6,
-    "fixtureTimeNote": "Sets in 5–7 minutes; midpoint shown.",
     "fullStrengthHours": 24,
     "viscosityValue": "Approximately 11,000",
     "viscosityUnit": "cP",
@@ -56304,7 +56313,20 @@ window.TDS_MANUAL_PRODUCTS = [
       "Mix equal volumes; short working time requires parts to be aligned promptly."
     ],
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Instant-Mix-5-Minute-Epoxy-en_US.pdf",
-    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html"
+    "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-5min/SAP_0201OAL029U6.html",
+    "gelTimeMinutesRange": [
+      5,
+      7
+    ],
+    "tdsHandlingTimeMinutes": 60,
+    "tdsUsableStrengthMinutes": 20,
+    "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "gelTimeNote": "TDS reports gel time of 5–7 minutes.",
+    "fixtureTime": null
   },
   {
     "id": "loctite-super-glue-ultra-gel-control",
@@ -58324,7 +58346,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "profile": "thinCA",
     "maker": "Permatex",
     "name": "Ultra Bond Super Glue (Item 21309)",
-    "summary": "Faster-acting ethyl cyanoacrylate instant adhesive for automotive trim and repairs across porous and nonporous materials, including leather, textiles, wood, and plastics.",
+    "summary": "Faster-acting ethyl cyanoacrylate instant adhesive for automotive trim and porous/nonporous materials including leather, textiles, wood and plastics.",
     "sourceRevisionDate": "Permatex Ultra Bond Super Glue Technical Data Sheet, revised February 2019.",
     "chemistry": "Ethyl cyanoacrylate",
     "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
@@ -58376,11 +58398,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "Technical data gives full cure within 2 hours while directions recommend allowing parts to cure overnight.",
       "No quantitative joint strength result is published in the cited TDS."
     ],
-    "referenceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+    "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
     "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
     "tdsDocumentLabel": "Permatex Ultra Bond Super Glue Technical Data Sheet (revised 2019-02).",
-    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
-    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
     "productSku": "21309"
   },
   {
@@ -61265,19 +61287,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "sourceRevisionDate": "LePage Epoxy Steel Technical Data Sheet, revision November 10, 2014",
     "chemistry": "Two-part epoxy resin with polymercaptan hardener",
     "cureFamily": "2-part epoxy",
-    "cureDetail": "Equal-volume mix; 5–12 minute gel/set time, usable strength in 12 hours, full cure in 24 hours at room temperature.",
+    "cureDetail": "Equal-volume mix; TDS gel/set time 5–12 minutes, usable strength in 12 hours, full cure in 24 hours at room temperature.",
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "TDS reports long-term exposure -23 to 49 °C and short-term exposure -23 to 150 °C; short-term limit is not a continuous service rating.",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
-    "potLife": "5–12 minutes",
-    "potLifeConditions": "Gel time for 2 g resin + 2 g hardener; dependent on temperature, humidity and amount used.",
-    "fixtureTime": "5–12 minutes",
-    "fixtureTimeRangeSeconds": [
-      300,
-      720
-    ],
     "fullCureMinutes": 1440,
     "viscosityClass": "high",
     "lapShear": 22.01,
@@ -61292,6 +61307,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "maple24h": 15.75
     },
     "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
       "thermalConductivity"
     ],
     "clarity": "opaque",
@@ -61327,6 +61344,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
     "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
     "tdsDocumentLabel": "LePage Epoxy Steel Technical Data Sheet, revision November 10, 2014",
+    "gelTimeMinutesRange": [
+      5,
+      12
+    ],
+    "gelTimeNote": "TDS labels 5–12 minutes as gel time for 2 g resin + 2 g hardener; it does not report a standard pot life or fixture-time measurement.",
+    "fixtureTime": null,
+    "potLife": null,
     "thermalConductivity": null
   },
   {
@@ -61656,7 +61680,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "TDS lists short-term/intermittent exposure to 150 °C; continuous service is -23 to 49 °C.",
-    "potLife": "1 minute gel time",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
     "fullCureMinutes": 1440,
@@ -61665,8 +61688,20 @@ window.TDS_MANUAL_PRODUCTS = [
       "sandblastedColdRolledSteel24h": 17.2
     },
     "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "gelTimeMinutesRange": [
+      1,
+      1
+    ],
+    "tdsHandlingTimeMinutes": [
+      5,
+      10
+    ],
+    "fixtureTime": null,
+    "potLife": null
   },
   {
     "id": "loctite-epoxy-marine",
@@ -61719,8 +61754,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "Intermittent exposure up to 150 °C; continuous service is -23 to 49 °C. Product is rated for underwater application and cure.",
-    "potLife": "120–150 minutes",
-    "potLifeConditions": "Gel time for 2 g + 2 g mixed adhesive.",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
     "hardnessValue": 85,
@@ -61737,7 +61770,19 @@ window.TDS_MANUAL_PRODUCTS = [
       "sandedAcryliteFF24h": 8.08,
       "maple24h": 11.85
     },
-    "tdsShearTestMethod": "Tensile/compressive shear as labeled in manufacturer TDS; values separated by substrate, cure and immersion condition."
+    "tdsShearTestMethod": "Tensile/compressive shear as labeled in manufacturer TDS; values separated by substrate, cure and immersion condition.",
+    "gelTimeMinutesRange": [
+      120,
+      150
+    ],
+    "tdsHandlingTimeMinutes": 180,
+    "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "fixtureTime": null,
+    "potLife": null
   },
   {
     "id": "loctite-epoxy-metal-concrete",
@@ -61789,7 +61834,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "Intermittent exposure up to 150 °C only; continuous service is -23 to 49 °C.",
-    "potLife": "5–12 minutes",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
     "electricalBehavior": "electrically insulating; TDS says it does not conduct electricity",
@@ -61805,8 +61849,17 @@ window.TDS_MANUAL_PRODUCTS = [
       "maple24h": 15.75
     },
     "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "gelTimeMinutesRange": [
+      5,
+      12
+    ],
+    "tdsHandlingTimeMinutes": 720,
+    "fixtureTime": null,
+    "potLife": null
   },
   {
     "id": "loctite-epoxy-plastic",
@@ -61851,20 +61904,27 @@ window.TDS_MANUAL_PRODUCTS = [
       24
     ],
     "unpublishedFields": [
-      "lapShear",
+      "fixtureTime",
+      "potLife",
       "thermalConductivity"
     ],
     "lapShearSubstrate": "No tensile lap-shear value reported; TDS reports compressive shear at 24 h: hard PVC 7.45 MPa and Acrylite FF 6.61 MPa.",
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "Intermittent exposure up to 150 °C; continuous service -23 to 49 °C.",
-    "potLife": "4–10 minutes",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
     "tdsCompressiveShearProfilesMPa": {
       "sandedHardPVC24h": 7.45,
       "sandedAcryliteFF24h": 6.61
-    }
+    },
+    "gelTimeMinutesRange": [
+      4,
+      10
+    ],
+    "tdsHandlingTimeMinutes": 60,
+    "fixtureTime": null,
+    "potLife": null
   },
   {
     "id": "loctite-epoxy-putty",
@@ -61913,14 +61973,15 @@ window.TDS_MANUAL_PRODUCTS = [
       24
     ],
     "unpublishedFields": [
+      "fixtureTime",
       "lapShear",
+      "potLife",
       "thermalConductivity"
     ],
     "lapShearSubstrate": "The TDS reports repair-putty shear measurements by material and wet/dry/underwater condition, not a comparable standardized lap-shear rating; see tdsShearProfilesPsi.",
     "serviceMin": -27,
     "serviceMax": 70,
     "serviceTemperatureNote": "TDS lists up to 121 °C for fills, but 70 °C for load-bearing bonds.",
-    "potLife": "3–5 minutes working time",
     "specificGravity": 2.0,
     "hardnessValue": 84,
     "hardnessScale": "Shore D",
@@ -61932,7 +61993,15 @@ window.TDS_MANUAL_PRODUCTS = [
       "steelBondedAndCuredUnderwater24h": 593,
       "steelCuredDryThenBondedUnderwater24h": 451
     },
-    "lapShear": null
+    "workingTimeMinutesRange": [
+      3,
+      5
+    ],
+    "functionalCureMinutes": 60,
+    "tdsHandlingTimeMinutes": 15,
+    "fixtureTime": null,
+    "lapShear": null,
+    "potLife": null
   },
   {
     "id": "loctite-epoxy-quick-set",
@@ -61987,7 +62056,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": -23,
     "serviceMax": 49,
     "serviceTemperatureNote": "Intermittent exposure to 150 °C; continuous service is -23 to 49 °C.",
-    "potLife": "4–10 minutes",
     "applicationTemperatureMinC": 4,
     "applicationTemperatureMaxC": 35,
     "hardnessValue": 80,
@@ -62009,8 +62077,274 @@ window.TDS_MANUAL_PRODUCTS = [
       "maple24h": 14.4
     },
     "unpublishedFields": [
+      "fixtureTime",
+      "potLife",
       "thermalConductivity"
+    ],
+    "gelTimeMinutesRange": [
+      4,
+      10
+    ],
+    "tdsHandlingTimeMinutes": 60,
+    "fixtureTime": null,
+    "potLife": null
+  },
+  {
+    "id": "permatex-super-glue-gel-82191",
+    "profile": "gelCA",
+    "maker": "Permatex",
+    "name": "Super Glue Gel (Item 82191)",
+    "summary": "Ethyl cyanoacrylate gel for close-fitting porous or nonporous repairs, especially vertical and overhead applications.",
+    "sourceRevisionDate": "Permatex Super Glue Gel Technical Data Sheet, revised February 2019.",
+    "chemistry": "Ethyl cyanoacrylate gel",
+    "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture in 15–30 seconds; full cure within 2 hours; product directions advise leaving overnight for best results.",
+    "serviceMin": -54,
+    "serviceMax": 82,
+    "appearance": "Clear gel",
+    "specificGravity": 1.05,
+    "fixtureTimeRangeSeconds": [
+      15,
+      30
+    ],
+    "fullCureHours": 2,
+    "lapShearSubstrate": "No quantitative joint-strength value published in the cited TDS.",
+    "applicationTags": [
+      "instant-bonding",
+      "gel",
+      "automotive-trim",
+      "vertical-bonding"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 2,
+      "impact": 2
+    },
+    "substrates": {
+      "metal": 7,
+      "rubber": 7,
+      "glass": 6,
+      "aluminum": 7,
+      "ceramic": 7,
+      "vinyl": 6,
+      "plastic": 6
+    },
+    "cautions": [
+      "Will not bond polyethylene (PE) or polypropylene (PP).",
+      "TDS says use on close-fitting surfaces and do not reposition after assembly."
+    ],
+    "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/82191.pdf",
+    "tdsDocumentLabel": "Permatex Super Glue Gel Technical Data Sheet, revised February 2019.",
+    "unpublishedFields": [
+      "lapShear",
+      "thermalConductivity",
+      "potLife",
+      "viscosityValue"
+    ],
+    "lapShear": null
+  },
+  {
+    "id": "permatex-super-glue-82190",
+    "profile": "thinCA",
+    "maker": "Permatex",
+    "name": "Super Glue (Item 82190, 2 g)",
+    "summary": "Low-viscosity, one-component cyanoacrylate for close-fitting metal, plastic, rubber and ceramic repairs.",
+    "sourceRevisionDate": "Permatex Super Glue Technical Data Sheet, February 2019.",
+    "chemistry": "Cyanoacrylate resin",
+    "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture 5–10 seconds on degreased steel, G10 and aluminum, and 40–60 seconds on oak; directions advise overnight cure for best results.",
+    "serviceMin": -53,
+    "serviceMax": 82,
+    "appearance": "Clear colorless liquid",
+    "specificGravity": 1.06,
+    "viscosityValue": 40,
+    "viscosityRangeCps": [
+      20,
+      60
+    ],
+    "viscosityUnit": "cP",
+    "fixtureTimeRangeSeconds": [
+      5,
+      60
+    ],
+    "fullCureHours": 12,
+    "lapShear": 14.5,
+    "lapShearRangeMPa": {
+      "steel": [
+        12.41,
+        16.55
+      ],
+      "g10EpoxyGlass": [
+        15.17,
+        19.31
+      ],
+      "aluminum": [
+        8.27,
+        11.03
+      ],
+      "oak": [
+        7.58,
+        11.03
+      ]
+    },
+    "lapShearSubstrate": "TDS reports ASTM D1002: steel 1800–2400 psi, G10 2200–2800 psi, aluminum 1200–1600 psi, oak 1100–1600 psi; strength varies by substrate.",
+    "lapShearTestMethod": "ASTM D1002; steel and aluminum sand-blasted; surfaces cleaned with isopropyl alcohol.",
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair",
+      "metal-bonding",
+      "plastic-bonding"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "metal": 8,
+      "g10EpoxyGlass": 8,
+      "plastic": 7,
+      "vinyl": 6,
+      "rubber": 7,
+      "ceramic": 6,
+      "wood": 5
+    },
+    "cautions": [
+      "Not suitable for untreated PE or PP.",
+      "TDS says not suitable for glass or porous materials; strength and fixture time vary by substrate and preparation."
+    ],
+    "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/82190.pdf",
+    "tdsDocumentLabel": "Permatex Super Glue Technical Data Sheet, February 2019.",
+    "unpublishedFields": [
+      "thermalConductivity",
+      "potLife"
     ]
+  },
+  {
+    "id": "permatex-black-silicone-adhesive-sealant-81158",
+    "profile": "siliconeRubberAdhesive",
+    "maker": "Permatex",
+    "name": "Black Silicone Adhesive Sealant (Item 81158)",
+    "summary": "One-part moisture-curing oxime RTV silicone paste for waterproof flexible sealing and bonding on mechanical assemblies and weatherstripping.",
+    "sourceRevisionDate": "Permatex Black Silicone Adhesive Sealant Technical Data Sheet, revised February 2019.",
+    "chemistry": "One-part oxime RTV silicone rubber",
+    "cureFamily": "Moisture-cure RTV silicone sealant",
+    "cureDetail": "Tack-free in 1 hour; fully cured in 24 hours; performance values measured after 7 days at 25 °C/50% RH.",
+    "serviceMin": -59,
+    "serviceMax": 232,
+    "serviceTemperatureNote": "Continuous -59 to 232 °C; intermittent -59 to 260 °C.",
+    "appearance": "Black non-sag paste",
+    "specificGravity": 1.42,
+    "tackFreeTime": "1 hour",
+    "tackFreeTimeMinutes": 60,
+    "fullCureHours": 24,
+    "tensileStrengthMPa": 1.2,
+    "elongationPct": 350,
+    "hardnessValue": 18,
+    "hardnessScale": "Shore A minimum",
+    "extrusionRateGMin": ">250 at 25 °C",
+    "lapShearSubstrate": "Lap shear is not reported; TDS reports tensile strength >1.2 MPa, elongation >350% and hardness >18 Shore A.",
+    "applicationTags": [
+      "silicone-sealant",
+      "flexible-bonding",
+      "weatherproofing",
+      "automotive"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 7,
+      "impact": 7
+    },
+    "substrates": {
+      "metal": 8,
+      "glass": 8,
+      "wood": 7,
+      "plastic": 7,
+      "siliconeRubber": 8,
+      "ceramic": 7,
+      "fiber": 6
+    },
+    "cautions": [
+      "Not recommended for engine gasketing.",
+      "Not for use with pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
+    ],
+    "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/81158.pdf",
+    "tdsDocumentLabel": "Permatex Black Silicone Adhesive Sealant Technical Data Sheet, revised February 2019.",
+    "unpublishedFields": [
+      "lapShear",
+      "thermalConductivity",
+      "viscosityValue",
+      "potLife",
+      "fixtureTime"
+    ],
+    "lapShear": null
+  },
+  {
+    "id": "permatex-clear-rtv-silicone-adhesive-sealant-80855",
+    "profile": "siliconeRubberAdhesive",
+    "maker": "Permatex",
+    "name": "Clear RTV Silicone Adhesive Sealant (Item 80855)",
+    "summary": "One-part acetoxy RTV silicone paste for flexible waterproof bonding and sealing on assemblies, lens housings, windows and covers.",
+    "sourceRevisionDate": "Permatex Clear RTV Silicone Adhesive Sealant Technical Data Sheet, revised February 2019.",
+    "chemistry": "One-part acetoxy RTV silicone rubber",
+    "cureFamily": "Moisture-cure RTV silicone sealant",
+    "cureDetail": "Tack-free in 1 hour, full cure in 24 hours; performance values measured after 7 days at 25 °C/50% RH.",
+    "serviceMin": -59,
+    "serviceMax": 204,
+    "serviceTemperatureNote": "Continuous -59 to 204 °C; intermittent -59 to 260 °C.",
+    "appearance": "Clear non-sag paste",
+    "specificGravity": 1.01,
+    "tackFreeTime": "1 hour",
+    "tackFreeTimeMinutes": 60,
+    "fullCureHours": 24,
+    "tensileStrengthMPa": 1.5,
+    "elongationPct": 350,
+    "hardnessValue": 20,
+    "hardnessScale": "Shore A minimum",
+    "extrusionRateGMin": ">220 at 25 °C",
+    "lapShearSubstrate": "Lap shear is not reported; TDS reports tensile strength >1.5 MPa, elongation >350% and hardness >20 Shore A.",
+    "applicationTags": [
+      "silicone-sealant",
+      "flexible-bonding",
+      "waterproofing",
+      "electrical-insulation"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 7,
+      "impact": 7
+    },
+    "substrates": {
+      "metal": 8,
+      "glass": 8,
+      "wood": 7,
+      "plastic": 7,
+      "siliconeRubber": 8,
+      "ceramic": 7,
+      "fiber": 6
+    },
+    "cautions": [
+      "Acetoxy cure may corrode some surfaces; for critical applications TDS directs using the Ultra Series.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers."
+    ],
+    "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/80855.pdf",
+    "tdsDocumentLabel": "Permatex Clear RTV Silicone Adhesive Sealant Technical Data Sheet, revised February 2019.",
+    "unpublishedFields": [
+      "lapShear",
+      "thermalConductivity",
+      "viscosityValue",
+      "potLife",
+      "fixtureTime"
+    ],
+    "lapShear": null
   }
 ];
 
@@ -77505,7 +77839,7 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     ],
     "sampleType": "5 g bottle, carded (item 21309)",
     "sampleConsistency": "Clear liquid ethyl cyanoacrylate; 110 cP; 15–30 s fixture; full cure within 2 h.",
-    "sampleForJoining": "Automotive trim, logos, knobs, gear-shift logos, and minor interior repairs on compatible listed substrates.",
+    "sampleForJoining": "Automotive trim, logos, knobs, gear-shift logos and minor interior repairs on compatible listed substrates.",
     "applicationTags": [
       "instant-bonding",
       "automotive-trim",
@@ -77516,7 +77850,7 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "tempMinC": -54,
     "tempMaxC": 82,
     "offerCount": 1,
-    "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-ultra-bond-super-glue-5-g/",
     "sourceLabel": "TDS"
   },
   {
@@ -78662,12 +78996,104 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-super-glue-gel-82191",
+    "manufacturer": "Permatex",
+    "familyName": "Super Glue Gel (Item 82191)",
+    "primaryCategory": "Instant adhesives / cyanoacrylates",
+    "categories": [
+      "Instant adhesives / cyanoacrylates"
+    ],
+    "sampleType": "2 g tube, carded",
+    "sampleConsistency": "Clear ethyl cyanoacrylate gel",
+    "sampleForJoining": "Automotive trim, logos, knobs, interior repairs; metal, rubber, glass, aluminum, ceramics, vinyl and many plastics.",
+    "applicationTags": [
+      "instant-bonding",
+      "gel",
+      "automotive-trim",
+      "vertical-bonding"
+    ],
+    "tempMinC": -54,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-gel-2-g/",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-super-glue-82190",
+    "manufacturer": "Permatex",
+    "familyName": "Super Glue (Item 82190, 2 g)",
+    "primaryCategory": "Instant adhesives / cyanoacrylates",
+    "categories": [
+      "Instant adhesives / cyanoacrylates"
+    ],
+    "sampleType": "2 g tube, 1-pack carded",
+    "sampleConsistency": "Clear colorless liquid; 20–60 cP",
+    "sampleForJoining": "Plastics, metals and rubber; compatible ceramic and alloy close-fitting joints.",
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair",
+      "metal-bonding",
+      "plastic-bonding"
+    ],
+    "tempMinC": -53,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-2-g/",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-black-silicone-adhesive-sealant-81158",
+    "manufacturer": "Permatex",
+    "familyName": "Black Silicone Adhesive Sealant (Item 81158)",
+    "primaryCategory": "Silicone adhesive sealant",
+    "categories": [
+      "Silicone adhesive sealant"
+    ],
+    "sampleType": "3 oz tube (item 81158); also 11 oz cartridge",
+    "sampleConsistency": "Black non-sag paste",
+    "sampleForJoining": "Metal, glass, wood, plastic, silicone resin/rubber, ceramics, fibers, painted surfaces; weatherstripping, windows, frames and housings.",
+    "applicationTags": [
+      "silicone-sealant",
+      "flexible-bonding",
+      "weatherproofing",
+      "automotive"
+    ],
+    "tempMinC": -59,
+    "tempMaxC": 232,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-3-oz/",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-clear-rtv-silicone-adhesive-sealant-80855",
+    "manufacturer": "Permatex",
+    "familyName": "Clear RTV Silicone Adhesive Sealant (Item 80855)",
+    "primaryCategory": "Silicone adhesive sealant",
+    "categories": [
+      "Silicone adhesive sealant"
+    ],
+    "sampleType": "3 oz tube; 11 oz cartridge (item 80855); 7.25 oz PowerBead",
+    "sampleConsistency": "Clear non-sag paste",
+    "sampleForJoining": "Metal, glass, wood, plastic, silicone resin/rubber, ceramics, fibers and painted surfaces; housings, windows and covers.",
+    "applicationTags": [
+      "silicone-sealant",
+      "flexible-bonding",
+      "waterproofing",
+      "electrical-insulation"
+    ],
+    "tempMinC": -59,
+    "tempMaxC": 204,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-clear-rtv-silicone-adhesive-sealant-3-oz/",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 632,
-  "referenceFamilies": 632,
-  "tdsBackedProducts": 625,
+  "selectorProducts": 636,
+  "referenceFamilies": 636,
+  "tdsBackedProducts": 629,
   "otherOfficialTechnicalSources": 7
 };

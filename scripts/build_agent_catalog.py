@@ -424,6 +424,21 @@ def main() -> None:
         *(product_record(entry, cache_index, extraction_index, "mcmaster-derived") for entry in mcmaster),
     ]
     known_products = {product_match_key(row.get("maker"), row.get("name")) for row in products}
+    # Some manufacturer feeds publish the same product under a package-specific
+    # title while the curated TDS record uses the formula/family name. Exact
+    # manufacturer TDS URL identity is strong evidence that these are the same
+    # formula, so attach the official product URL and documents to the curated
+    # record instead of leaving a second browse-only lead beside it.
+    known_tds_products: dict[tuple[str, str], dict] = {}
+    for product in products:
+        maker_key = normalize_space(product.get("maker")).casefold()
+        source = product.get("sources", {})
+        tds_urls = set(source.get("tdsUrls", []))
+        if source.get("tdsUrl"):
+            tds_urls.add(source["tdsUrl"])
+        for url in tds_urls:
+            if url:
+                known_tds_products[(maker_key, url)] = product
     for entry in official_leads:
         key = product_match_key(entry.get("maker"), entry.get("name"))
         if not key[0] or not key[1]:
@@ -443,6 +458,30 @@ def main() -> None:
             if entry.get("officialUrl"):
                 existing["sources"].setdefault("officialProductUrls", []).append(entry["officialUrl"])
                 existing["sources"]["officialProductUrls"] = list(dict.fromkeys(existing["sources"]["officialProductUrls"]))
+            continue
+        lead_maker_key = normalize_space(entry.get("maker")).casefold()
+        lead_tds_urls = {
+            doc.get("url") for doc in entry.get("tdsDocuments", []) if doc.get("url")
+        }
+        tds_match = next(
+            (
+                known_tds_products[(lead_maker_key, url)]
+                for url in lead_tds_urls
+                if (lead_maker_key, url) in known_tds_products
+            ),
+            None,
+        )
+        if tds_match is not None:
+            merged_docs = [*tds_match["sources"].get("tdsDocuments", []), *entry.get("tdsDocuments", [])]
+            tds_match["sources"]["tdsDocuments"] = list(
+                {doc.get("url"): doc for doc in merged_docs if doc.get("url")}.values()
+            )
+            tds_match["sources"]["tdsUrls"] = [doc["url"] for doc in tds_match["sources"]["tdsDocuments"]]
+            if tds_match["sources"]["tdsUrls"]:
+                tds_match["sources"]["tdsUrl"] = tds_match["sources"]["tdsUrls"][0]
+            if entry.get("officialUrl"):
+                urls = [*tds_match["sources"].get("officialProductUrls", []), entry["officialUrl"]]
+                tds_match["sources"]["officialProductUrls"] = list(dict.fromkeys(urls))
             continue
         products.append(official_lead_record(entry))
         known_products.add(key)

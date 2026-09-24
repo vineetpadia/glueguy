@@ -245,6 +245,8 @@ def fields_from_keys(entry: dict, keys: tuple[str, ...]) -> set[str]:
 
 
 def normalized_electrical_behavior(entry: dict) -> str:
+    if entry.get("electricalBehaviorClassOverride") == "unrated":
+        return "not-rated"
     value = normalize_space(entry.get("electricalBehavior")).lower()
     if not value:
         if has_meaningful_value(entry.get("connectionResistanceOhm")) or has_meaningful_value(entry.get("connectionResistanceProfilesOhm")):

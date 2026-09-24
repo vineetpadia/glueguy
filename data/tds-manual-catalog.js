@@ -56843,6 +56843,293 @@ window.TDS_MANUAL_PRODUCTS = [
     "technicalDocumentNote": "Elmer's hardware-adhesives page identifies interior and interior/exterior wood-glue varieties and general uses, but does not link a product-specific technical data sheet.",
     "sourceLabel": "Manufacturer product-family page only; no formal TDS found",
     "referenceSourceLabel": "Manufacturer product-family page only (no formal TDS found)"
+  },
+  {
+    "id": "shoe-goo-original",
+    "profile": "contactCement",
+    "maker": "Eclectic Products",
+    "name": "Shoe Goo Original Shoe Repair Adhesive",
+    "summary": "Flexible, waterproof shoe-repair adhesive and protective coating for leather, rubber, vinyl, canvas, suede, and footwear soles or heels.",
+    "sourceRevisionDate": "Eclectic Products SHOE GOO Technical Data Sheet, Revision 14 (2026).",
+    "chemistry": "Rubber-based solvent adhesive; TDS lists toluene and petroleum distillates as solvents.",
+    "cureFamily": "Solvent-based flexible shoe-repair adhesive",
+    "cureDetail": "Tack time 2–3 min; set 20 min. Thin films cure in about 24 h and thick applications in 48–72 h; maximum strength may require 48–72 h.",
+    "appearance": "Clear or black (available colors)",
+    "serviceMin": -40,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMaxF": 90,
+    "fixtureTime": "20 min set time",
+    "fullCureHours": 72,
+    "viscosityValue": 170000,
+    "viscosityUnit": "cP",
+    "specificGravity": 0.9,
+    "solidsContentPct": 46,
+    "vocContentGPerL": 530.43,
+    "tackTimeRangeMinutes": [
+      2,
+      3
+    ],
+    "tensileStrengthPsi": 2300,
+    "elongationPct": 1100,
+    "hardnessValue": 80,
+    "hardnessScale": "Shore A",
+    "dielectricBreakdownVPerMil": 400,
+    "waterproof": true,
+    "shelfLifeMonths": 24,
+    "applicationTags": [
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "waterproof",
+      "abrasion-resistant"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 9,
+      "impact": 7
+    },
+    "environment": {
+      "humidity": 0.5,
+      "fuel": 0.1,
+      "immersion": 0.75
+    },
+    "substrates": {
+      "leather": 9,
+      "rubber": 9,
+      "vinyl": 8,
+      "canvas": 8,
+      "suede": 8,
+      "fabric": 7
+    },
+    "tdsPeelStrengthProfilesPiw": {
+      "leather": 26,
+      "vinyl": 5,
+      "canvas": 15,
+      "suede": 27,
+      "rubber": 12
+    },
+    "tdsPeelStrengthTestMethod": "ASTM D1876 T-peel; lb/in width (PLI), per TDS Rev. 14.",
+    "cautions": [
+      "Solvent-based and flammable; TDS lists toluene and petroleum distillates. Follow current product label and SDS for ventilation and handling.",
+      "Not recommended for foam, polyethylene, polypropylene, or certain plastics; test material compatibility.",
+      "The TDS reports cured-material service range of -40 to 150°F, while application notes mention intermittent exposure up to 180°F; use the more conservative tabulated service range.",
+      "Peel figures are T-peel values by substrate, not lap-shear strength. Tensile strength (2300 psi) and elongation are ASTM D412 rubber-property results, not adhesive-joint lap shear."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+    "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+    "tdsDocumentLabel": "Eclectic Products SHOE GOO Technical Data Sheet, Revision 14 (2026).",
+    "sourceUrl": "https://eclecticproducts.com/product/shoe-goo/",
+    "productUrl": "https://eclecticproducts.com/product/shoe-goo/",
+    "notApplicableFields": [
+      "dielectricConstant",
+      "dissipationFactor",
+      "volumeResistivityOhmM",
+      "surfaceResistivityOhm",
+      "connectionResistanceOhm",
+      "insulationResistanceOhm"
+    ],
+    "electricalBehaviorClassOverride": "unrated"
+  },
+  {
+    "id": "shoe-goo-ii",
+    "profile": "contactCement",
+    "maker": "Eclectic Products",
+    "name": "Shoe Goo II Shoe Repair Adhesive (Clear)",
+    "summary": "Low-odor, solvent-free flexible shoe-repair adhesive with water and UV resistance for leather, canvas, suede, rubber, and fabric.",
+    "sourceRevisionDate": "Eclectic Products SHOE GOO II Technical Data Sheet, Revision 03, effective December 3, 2020.",
+    "chemistry": "Premium polymer technology; solvent-free (chemistry not further specified by TDS).",
+    "cureFamily": "Solvent-free flexible shoe-repair adhesive",
+    "cureDetail": "Approximately 20 min working time; tack-free in 120 min at 70°F/50% RH. Full cure 24–48 h; maximum bond strength may take up to 3 days.",
+    "appearance": "Clear, cured and uncured",
+    "serviceMin": -40,
+    "serviceMax": 93,
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 200,
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMaxF": 95,
+    "viscosityValue": 55000,
+    "viscosityUnit": "cP at 23°C, shear rate 11 s⁻¹",
+    "specificGravity": 1.07,
+    "tackTimeRangeMinutes": [
+      120,
+      120
+    ],
+    "fullCureHours": 48,
+    "hardnessValue": 83,
+    "hardnessScale": "Shore A, greater than",
+    "elongationPct": 175,
+    "waterResistant": true,
+    "shelfLifeMonths": 18,
+    "applicationTags": [
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "water-resistant",
+      "uv-resistant",
+      "low-odor"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 9,
+      "impact": 7
+    },
+    "environment": {
+      "humidity": 0.55,
+      "fuel": 0.1,
+      "immersion": 0.6
+    },
+    "substrates": {
+      "leather": 9,
+      "rubber": 9,
+      "canvas": 8,
+      "suede": 8,
+      "fabric": 8
+    },
+    "cautions": [
+      "TDS describes this formula as nonflammable and solvent-free, with less than 3% VOC.",
+      "Not recommended for acrylic, vinyl, foam, polyethylene, or polypropylene; the TDS directs vinyl repairs to Original Shoe Goo.",
+      "Intermittent service temperature of -40 to 200°F applies only once fully cured.",
+      "Tack-free time is not a lap-shear fixture-strength measurement; no quantitative adhesive joint strength is published."
+    ],
+    "referenceUrl": "https://eclecticproducts.com/downloads/tds/tds-shoegooll_USA_EU_AUNZ.pdf",
+    "tdsUrl": "https://eclecticproducts.com/downloads/tds/tds-shoegooll_USA_EU_AUNZ.pdf",
+    "tdsDocumentLabel": "Eclectic Products SHOE GOO II Shoe Repair Adhesive Technical Data Sheet, Revision 03 (effective 2020-12-03).",
+    "sourceUrl": "https://eclecticproducts.com/datasheet/shoe-goo-ll/",
+    "productUrl": "https://eclecticproducts.com/datasheet/shoe-goo-ll/"
+  },
+  {
+    "id": "permatex-super-glue-49450",
+    "profile": "thinCA",
+    "maker": "Permatex",
+    "name": "Super Glue Industrial (Item 49450)",
+    "summary": "Low-viscosity instant cyanoacrylate for bonding metals, alloys, plastics, vinyl, rubber, and ceramics; TDS reports tensile-shear values for tested substrates.",
+    "sourceRevisionDate": "Permatex Super Glue Industrial Technical Data Sheet, February 2019.",
+    "chemistry": "Cyanoacrylate resin",
+    "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+    "cureDetail": "Sets in seconds; fixture 5–10 s on degreased steel, G10 epoxy glass, and aluminum, and 40–60 s on oak. Hold for 15 s or until set; allow to harden overnight for best results.",
+    "appearance": "Colorless liquid",
+    "serviceMin": -53,
+    "serviceMax": 82,
+    "serviceTemperatureMinF": -65,
+    "serviceTemperatureMaxF": 180,
+    "viscosityValue": 40,
+    "viscosityUnit": "cP (Brookfield LVF, spindle 1, 30 rpm, 25°C)",
+    "specificGravity": 1.06,
+    "flashPointF": 200,
+    "fixtureTimeRangeSeconds": [
+      5,
+      60
+    ],
+    "lapShearProfilesMPa": {
+      "steel": 14.5,
+      "g10EpoxyGlass": 17.2,
+      "aluminum": 9.7,
+      "oak": 9.3
+    },
+    "lapShearSubstrate": "Typical tensile-shear strength per ASTM D1002 (converted from psi ranges); steel and aluminum specimens sand-blasted. Steel 1800–2400 psi, G10 epoxy glass 2200–2800 psi, aluminum 1200–1600 psi, oak 1100–1600 psi.",
+    "lapShearTestMethod": "ASTM D1002 tensile-shear strength; manufacturer TDS typical values, test substrate surface preparation specified.",
+    "gapFill": 0.1016,
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair",
+      "metal-bonding",
+      "plastic-bonding"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "metal": 8,
+      "g10EpoxyGlass": 8,
+      "plastic": 7,
+      "vinyl": 6,
+      "rubber": 7,
+      "ceramic": 6,
+      "wood": 5
+    },
+    "cautions": [
+      "Not suitable for untreated polyethylene or polypropylene.",
+      "Fixture time varies significantly by substrate; oak is reported at 40–60 seconds versus 5–10 seconds for degreased steel, G10, and aluminum.",
+      "For best results, allow the joint to harden overnight.",
+      "TDS states moisture and temperature resistance depend on the bonded surfaces and application; substrate-specific tensile-shear figures are typical test results."
+    ],
+    "referenceUrl": "https://www.permatex.com/wp-content/uploads/tds/49450.pdf",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/49450.pdf",
+    "tdsDocumentLabel": "Permatex Super Glue Industrial Technical Data Sheet (2019-02).",
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-1-fl-oz/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-1-fl-oz/",
+    "productSku": "49450"
+  },
+  {
+    "id": "permatex-ultra-bond-super-glue-21309",
+    "profile": "thinCA",
+    "maker": "Permatex",
+    "name": "Ultra Bond Super Glue (Item 21309)",
+    "summary": "Faster-acting ethyl cyanoacrylate instant adhesive for automotive trim and repairs across porous and nonporous materials, including leather, textiles, wood, and plastics.",
+    "sourceRevisionDate": "Permatex Ultra Bond Super Glue Technical Data Sheet, revised February 2019.",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture in 15–30 s; full cure within 2 h per technical data sheet. Directions advise allowing parts to cure overnight.",
+    "appearance": "Clear, colorless liquid",
+    "serviceMin": -54,
+    "serviceMax": 82,
+    "serviceTemperatureMinF": -65,
+    "serviceTemperatureMaxF": 180,
+    "viscosityValue": 110,
+    "viscosityUnit": "cP",
+    "specificGravity": 1.1,
+    "flashPointF": 200,
+    "fixtureTimeRangeSeconds": [
+      15,
+      30
+    ],
+    "fullCureHours": 2,
+    "gapFill": 0.1016,
+    "applicationTags": [
+      "instant-bonding",
+      "automotive-trim",
+      "general-repair",
+      "leather",
+      "textile-bonding"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "substrates": {
+      "metal": 7,
+      "plastic": 7,
+      "laminatedPlastic": 7,
+      "vinyl": 6,
+      "rubber": 7,
+      "ceramic": 6,
+      "paper": 6,
+      "wood": 6,
+      "textile": 6,
+      "leather": 7,
+      "cork": 6,
+      "chipboard": 6
+    },
+    "cautions": [
+      "Will not bond polyethylene or polypropylene.",
+      "For one square inch of bond area, TDS directs using one drop and holding joined surfaces for 15–30 seconds without repositioning.",
+      "Technical data gives full cure within 2 hours while directions recommend allowing parts to cure overnight.",
+      "No quantitative joint strength result is published in the cited TDS."
+    ],
+    "referenceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+    "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+    "tdsDocumentLabel": "Permatex Ultra Bond Super Glue Technical Data Sheet (revised 2019-02).",
+    "sourceUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
+    "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
+    "productSku": "21309"
   }
 ];
 
@@ -72245,12 +72532,110 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.elmers.com/hardware-adhesives.html",
     "sourceLabel": "Manufacturer product-family page only (no formal TDS found)"
+  },
+  {
+    "id": "shoe-goo-original",
+    "manufacturer": "Eclectic Products",
+    "familyName": "Shoe Goo Original Shoe Repair Adhesive",
+    "primaryCategory": "Shoe Repair Adhesives",
+    "categories": [
+      "Shoe Repair Adhesives"
+    ],
+    "sampleType": "0.18 oz, 1 oz, or 3.7 oz tube; clear or black",
+    "sampleConsistency": "Solvent-based flexible rubber adhesive; 170,000 cP; 46 wt% solids; 2–3 min tack; 24–72 h cure.",
+    "sampleForJoining": "Footwear and protective coating repairs on leather, rubber, vinyl, canvas, suede, soles, and heels.",
+    "applicationTags": [
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "waterproof",
+      "abrasion-resistant"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "shoe-goo-ii",
+    "manufacturer": "Eclectic Products",
+    "familyName": "Shoe Goo II Shoe Repair Adhesive (Clear)",
+    "primaryCategory": "Shoe Repair Adhesives",
+    "categories": [
+      "Shoe Repair Adhesives"
+    ],
+    "sampleType": "0.9 fl oz or 2 fl oz tube (US/Canada/EU sizes vary by market)",
+    "sampleConsistency": "Clear, solvent-free flexible polymer adhesive; 50,000–60,000 cP; less than 3% VOC; tack-free 120 min; full cure 24–48 h.",
+    "sampleForJoining": "Footwear repair and protection on leather, canvas, suede, rubber, and fabric.",
+    "applicationTags": [
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "water-resistant",
+      "uv-resistant",
+      "low-odor"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 93,
+    "offerCount": 1,
+    "sourceUrl": "https://eclecticproducts.com/downloads/tds/tds-shoegooll_USA_EU_AUNZ.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-super-glue-49450",
+    "manufacturer": "Permatex",
+    "familyName": "Super Glue Industrial (Item 49450)",
+    "primaryCategory": "Instant Adhesives / Cyanoacrylates",
+    "categories": [
+      "Instant Adhesives / Cyanoacrylates"
+    ],
+    "sampleType": "1 oz bottle (item 49450); 2 g tube also listed as item 82190",
+    "sampleConsistency": "One-part colorless liquid cyanoacrylate; 20–60 cP; ASTM D1002 tensile-shear typical values by substrate.",
+    "sampleForJoining": "Bonding plastics, metals, and rubber; also listed substrates include vinyl and ceramics.",
+    "applicationTags": [
+      "instant-bonding",
+      "general-repair",
+      "metal-bonding",
+      "plastic-bonding"
+    ],
+    "tempMinC": -53,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/49450.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "permatex-ultra-bond-super-glue-21309",
+    "manufacturer": "Permatex",
+    "familyName": "Ultra Bond Super Glue (Item 21309)",
+    "primaryCategory": "Instant Adhesives / Cyanoacrylates",
+    "categories": [
+      "Instant Adhesives / Cyanoacrylates"
+    ],
+    "sampleType": "5 g bottle, carded (item 21309)",
+    "sampleConsistency": "Clear liquid ethyl cyanoacrylate; 110 cP; 15–30 s fixture; full cure within 2 h.",
+    "sampleForJoining": "Automotive trim, logos, knobs, gear-shift logos, and minor interior repairs on compatible listed substrates.",
+    "applicationTags": [
+      "instant-bonding",
+      "automotive-trim",
+      "general-repair",
+      "leather",
+      "textile-bonding"
+    ],
+    "tempMinC": -54,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 577,
-  "referenceFamilies": 577,
-  "tdsBackedProducts": 570,
+  "selectorProducts": 581,
+  "referenceFamilies": 581,
+  "tdsBackedProducts": 574,
   "otherOfficialTechnicalSources": 7
 };

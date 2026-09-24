@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T00:41:29.964527+00:00",
+  "generatedAt": "2026-09-24T01:01:03.153608+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1725,
-    "manualTdsProducts": 570,
+    "products": 1729,
+    "manualTdsProducts": 574,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
@@ -573,7 +573,9 @@
         "official-lead-eclectic-products-seal-all-clear",
         "official-lead-eclectic-products-shoe-goo",
         "official-lead-eclectic-products-shoe-goo-boots-gloves-clear",
-        "official-lead-eclectic-products-shoe-goo-ii"
+        "official-lead-eclectic-products-shoe-goo-ii",
+        "shoe-goo-ii",
+        "shoe-goo-original"
       ],
       "Elmer's": [
         "elmers-carpenters-wood-glue-interior",
@@ -1561,7 +1563,9 @@
         "official-lead-permatex-permatex-the-right-stuff-rapid-cure-medium-strength-threadlocker-blue-10-ml-woocommerce-variation-price-display-none-important",
         "official-lead-permatex-permatex-ultra-bond-super-glue-5-g",
         "official-lead-permatex-power-steering-repair",
-        "official-lead-permatex-radiator-repair"
+        "official-lead-permatex-radiator-repair",
+        "permatex-super-glue-49450",
+        "permatex-ultra-bond-super-glue-21309"
       ],
       "Pidilite": [
         "official-lead-pidilite-araldite",
@@ -2082,6 +2086,9 @@
       "3d-printing": [
         "permabond-3d-series"
       ],
+      "abrasion-resistant": [
+        "shoe-goo-original"
+      ],
       "abs-pipe-cement": [
         "oatey-abs-medium-black",
         "weldon-771-abs"
@@ -2268,6 +2275,9 @@
       "automotive-repair": [
         "3m-bondo-fiberglass-resin-0401",
         "gorilla-glue-2-part-epoxy"
+      ],
+      "automotive-trim": [
+        "permatex-ultra-bond-super-glue-21309"
       ],
       "automotive-upholstery": [
         "dap-weldwood-landau-hhr-spray-contact-cement"
@@ -3459,7 +3469,9 @@
         "barge-all-purpose-tf-cement",
         "loctite-480",
         "rh-adhesives-hh-66-toluene-free-vinyl-cement",
-        "rh-adhesives-hh-66-vinyl-cement"
+        "rh-adhesives-hh-66-vinyl-cement",
+        "shoe-goo-ii",
+        "shoe-goo-original"
       ],
       "flexible-bonding": [
         "3m-marine-adhesive-sealant-4200fc-black-06564",
@@ -3643,7 +3655,9 @@
         "permabond-et538",
         "permabond-et540",
         "permabond-et5429",
-        "permabond-hh167"
+        "permabond-hh167",
+        "permatex-super-glue-49450",
+        "permatex-ultra-bond-super-glue-21309"
       ],
       "glass": [
         "threebond-tb3732"
@@ -4189,6 +4203,8 @@
         "permabond-943",
         "permabond-947",
         "permabond-ta4590",
+        "permatex-super-glue-49450",
+        "permatex-ultra-bond-super-glue-21309",
         "threebond-1703",
         "threebond-tb1731"
       ],
@@ -4343,7 +4359,10 @@
       ],
       "leather": [
         "barge-all-purpose-original-cement",
-        "barge-all-purpose-tf-cement"
+        "barge-all-purpose-tf-cement",
+        "permatex-ultra-bond-super-glue-21309",
+        "shoe-goo-ii",
+        "shoe-goo-original"
       ],
       "leather-bonding": [
         "threebond-1521",
@@ -4445,6 +4464,7 @@
         "liquid-nails-ln3000",
         "permabond-ta4522",
         "permabond-ta4550",
+        "shoe-goo-ii",
         "threebond-tb2720c",
         "threebond-tb7721a",
         "threebond-tb7796a"
@@ -4708,6 +4728,7 @@
         "permabond-uv6357",
         "permabond-uv643",
         "permabond-uv670",
+        "permatex-super-glue-49450",
         "plexus-ma8105-gb",
         "plexus-ma8120-gb",
         "threebond-1324",
@@ -5305,6 +5326,7 @@
         "permabond-uv645",
         "permabond-uv648",
         "permabond-uv649",
+        "permatex-super-glue-49450",
         "threebond-1521",
         "threebond-tb1530",
         "threebond-tb1630",
@@ -5852,6 +5874,8 @@
         "permabond-731",
         "permabond-820",
         "permabond-910fs",
+        "shoe-goo-ii",
+        "shoe-goo-original",
         "threebond-1521",
         "threebond-1703",
         "threebond-tb1731",
@@ -6214,7 +6238,9 @@
       ],
       "shoe-repair": [
         "barge-all-purpose-original-cement",
-        "barge-all-purpose-tf-cement"
+        "barge-all-purpose-tf-cement",
+        "shoe-goo-ii",
+        "shoe-goo-original"
       ],
       "sign-assembly": [
         "3m-dp8810ns",
@@ -6730,6 +6756,9 @@
       "test-and-measurement": [
         "micro-measurements-m-bond-200-mmf006570"
       ],
+      "textile-bonding": [
+        "permatex-ultra-bond-super-glue-21309"
+      ],
       "thermal-bonding-film": [
         "3m-thermal-bonding-film-583",
         "3m-thermal-bonding-film-af42"
@@ -7004,7 +7033,8 @@
         "dow-ea-9187l"
       ],
       "uv-resistant": [
-        "e6800-industrial-clear"
+        "e6800-industrial-clear",
+        "shoe-goo-ii"
       ],
       "uv-silicone": [
         "threebond-3164f"
@@ -7141,6 +7171,7 @@
         "loctite-pl-premium-construction-adhesive",
         "loctite-power-grab-ultimate-crystal-clear",
         "permabond-ta4631",
+        "shoe-goo-ii",
         "titebond-ii-premium",
         "weldon-16-dcm-tce-free",
         "weldon-1802"
@@ -7165,6 +7196,7 @@
         "liquid-nails-ln3000",
         "liquid-nails-ln901",
         "liquid-nails-ln905",
+        "shoe-goo-original",
         "titebond-iii-ultimate"
       ],
       "waterproof-sealing": [
@@ -7359,7 +7391,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
-      "official-tds-url": 303,
+      "official-tds-url": 307,
       "product-or-catalog-page": 185
     }
   },
@@ -18960,7 +18992,8 @@
         "lapShearSubstrate": "TDS publishes ASTM D3654 static shear greater than 10,000 minutes at 70 C with 500 g on stainless steel, not a lap-shear MPa value.",
         "viscosityClass": "solid-film",
         "clarity": "transparent",
-        "peelStrengthNPerM": 660
+        "peelStrengthNPerM": 660,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "peelStrengthNPerM": 660
@@ -19160,7 +19193,8 @@
         "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
         "cureFamily": "Solvent-evaporating contact spray adhesive",
         "cureDetail": "Solvent-based synthetic-elastomer aerosol contact adhesive. TDS reports about 1 min dry time and a 1\u201310 min bonding range; actual timing depends on ambient conditions and applied coverage.",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "solidsContentPct": 13
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -19268,7 +19302,9 @@
         "dielectricBreakdownKVPerMm": 38,
         "elongationPct": 700,
         "hardnessValue": 20,
-        "hardnessScale": "Shore A, 3M TM-9040"
+        "hardnessScale": "Shore A, 3M TM-9040",
+        "dielectricBreakdownVPerMil": 38,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "dielectricBreakdownKVPerMm": 38,
@@ -19384,6 +19420,8 @@
         "elongationPct": ">400",
         "hardnessValue": 40,
         "hardnessScale": "Shore A, ASTM C661",
+        "solidsContentPct": 100,
+        "shelfLifeMonths": 12,
         "tackFreeTime": "1-2 hours at 73 F / 50% RH",
         "cureProfiles": 1440
       },
@@ -19496,6 +19534,12 @@
         "viscosityValue": "250-1000",
         "viscosityUnit": "cP for 1300L at 27 C / 80 F, Brookfield RVF #2 spindle at 20 rpm",
         "clarity": "opaque",
+        "solidsContentPct": "1300L 26-33 wt%; 1300 about 37 wt% in the 2024 3M design guide",
+        "vocContentGPerL": {
+          "1300": 667,
+          "1300L": "<=706"
+        },
+        "shelfLifeMonths": 30,
         "tackFreeTime": "30 seconds"
       },
       "rankableSpecs": {
@@ -19609,7 +19653,8 @@
         "elongationPct": 770,
         "hardnessValue": "35-36",
         "hardnessScale": "Shore D",
-        "peelStrengthNPerM": 1300
+        "peelStrengthNPerM": 1300,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 5.9,
@@ -19713,7 +19758,9 @@
         "viscosityClass": "low",
         "viscosityValue": "<=100",
         "viscosityUnit": "cP at 73.4 F / 23 C from SDS Section 9",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.8,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -20067,6 +20114,8 @@
         "viscosityUnit": "cP; Brookfield RVF #3 spindle at 20 rpm and 80 F (27 C)",
         "clarity": "opaque",
         "peelStrengthNPerM": 7005,
+        "solidsContentPct": "33-39",
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 93,
@@ -20210,6 +20259,9 @@
         "dielectricBreakdownKVPerMm": 3.94,
         "hardnessValue": "97-99",
         "hardnessScale": "Shore A after drying 24 h at 77 F / 25 C and 50% RH",
+        "dielectricBreakdownVPerMil": 100,
+        "solidsContentPct": "61-73",
+        "shelfLifeMonths": 12,
         "tackFreeTime": 0.33,
         "cureProfiles": [
           {
@@ -20336,6 +20388,8 @@
         "hardnessValue": "35-50",
         "hardnessScale": "Shore D, ASTM D2240",
         "peelStrengthNPerM": 4378,
+        "dielectricBreakdownVPerMil": 630,
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 24,
@@ -20460,7 +20514,8 @@
         "viscosityClass": "medium",
         "viscosityValue": 2000,
         "viscosityUnit": "cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "shelfLifeMonths": 15
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -20559,7 +20614,8 @@
         "viscosityClass": "high",
         "viscosityValue": "20000-50000",
         "viscosityUnit": "cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "shelfLifeMonths": 15
       },
       "rankableSpecs": {
         "lapShear": 22.8
@@ -20659,6 +20715,7 @@
         "fixtureTime": 20,
         "lapShearSubstrate": "Typical overlap shear after 7 days at 23 \u00b0C (ASTM D1002 / ISO 4587): aluminum 6.6 MPa; cold-rolled steel 6.9 MPa; stainless steel 5.2 MPa; galvanized steel 6.2 MPa. Substrate preparation differs by material; these values are not specification values.",
         "clarity": "transparent",
+        "fullCureHours": 48,
         "cureProfiles": 48
       },
       "rankableSpecs": {},
@@ -20855,6 +20912,7 @@
         "lapShearSubstrate": "3M TDS overlap shear: 22.4 MPa (3250 psi) on etched aluminum, ASTM D1002 / ISO 4587, 24 h at 23 C then 2 h at 71 C; typical test data only.",
         "clarity": "transparent",
         "thermalConductivity": 0.19,
+        "fullCureHours": 48,
         "cureProfiles": 2880
       },
       "rankableSpecs": {
@@ -20971,6 +21029,7 @@
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 13800,
+        "shelfLifeMonths": 24,
         "cureProfiles": 10080
       },
       "rankableSpecs": {
@@ -21089,6 +21148,7 @@
         "hardnessValue": 64,
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 13100,
+        "shelfLifeMonths": 24,
         "cureProfiles": 10080
       },
       "rankableSpecs": {
@@ -21208,6 +21268,8 @@
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D, ASTM D2240",
         "peelStrengthNPerM": 4378,
+        "dielectricBreakdownVPerMil": 408,
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 24,
@@ -21342,7 +21404,8 @@
         "tensileStrengthMPa": 43.2,
         "elongationPct": 2.7,
         "hardnessValue": 84,
-        "hardnessScale": "Shore D, ASTM D2240"
+        "hardnessScale": "Shore D, ASTM D2240",
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {
         "lapShear": 25.1,
@@ -21458,7 +21521,8 @@
         "elongationPct": 3.7,
         "hardnessValue": 81,
         "hardnessScale": "Shore D, ASTM D2240",
-        "peelStrengthNPerM": 12400
+        "peelStrengthNPerM": 12400,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 30.2,
@@ -21574,7 +21638,8 @@
         "elongationPct": 4,
         "hardnessValue": 81,
         "hardnessScale": "Shore D, ASTM D2240",
-        "peelStrengthNPerM": 12600
+        "peelStrengthNPerM": 12600,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 30.5,
@@ -21688,7 +21753,8 @@
         "tensileStrengthMPa": 39.6,
         "elongationPct": 2.9,
         "hardnessValue": 82,
-        "hardnessScale": "Shore D, ASTM D2240"
+        "hardnessScale": "Shore D, ASTM D2240",
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 29.4,
@@ -21797,6 +21863,7 @@
         "viscosityUnit": "cP",
         "clarity": "opaque",
         "thermalConductivity": 0.263,
+        "fullCureHours": 24,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -21903,6 +21970,7 @@
         "lapShearSubstrate": "3M TDS overlap shear 23 MPa on sandblasted aluminum after 7 d at 23 C, ASTM D1002 / ISO 4587; typical data.",
         "clarity": "opaque",
         "thermalConductivity": 0.202,
+        "fullCureHours": 48,
         "cureProfiles": 2880
       },
       "rankableSpecs": {
@@ -22016,6 +22084,9 @@
         "tensileStrengthMPa": 11.4,
         "elongationPct": 6.5,
         "peelStrengthNPerM": 6100,
+        "tensileStrengthPsi": 1650,
+        "fullCureHours": 24,
+        "shelfLifeMonths": 24,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -22131,6 +22202,7 @@
         "elongationPct": 200,
         "hardnessValue": 18,
         "hardnessScale": "Shore D, ASTM D2240",
+        "shelfLifeMonths": 18,
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -22251,7 +22323,8 @@
         "viscosityValue": 5000,
         "viscosityUnit": "cP at 375 F, Brookfield Thermocel #27 spindle at 10 rpm",
         "clarity": "opaque",
-        "peelStrengthNPerM": 3152
+        "peelStrengthNPerM": 3152,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 1.72,
@@ -22552,7 +22625,9 @@
         "viscosityClass": "low",
         "viscosityValue": 3,
         "viscosityUnit": "cP, Brookfield RVT spindle #1 at 30 rpm",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.7,
+        "shelfLifeMonths": 21
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -22654,7 +22729,9 @@
         "viscosityClass": "low",
         "viscosityValue": 2,
         "viscosityUnit": "cP, Brookfield RVT spindle #1 at 30 rpm",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.7,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -22755,6 +22832,7 @@
         "viscosityValue": "1200-1650",
         "viscosityUnit": "cP",
         "clarity": "transparent",
+        "fullCureHours": 24,
         "cureProfiles": 24
       },
       "rankableSpecs": {
@@ -22859,7 +22937,11 @@
         "viscosityClass": "medium",
         "viscosityValue": "4000-9000",
         "viscosityUnit": "cP from 3M product-page typical properties; SDS also reports 9600 cP at 170 F",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.18,
+        "solidsContentPct": 100,
+        "vocContentGPerL": "<=1",
+        "shelfLifeMonths": 9
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -22958,6 +23040,7 @@
         "fixtureTime": 0.17,
         "viscosityUnit": "cP",
         "clarity": "transparent",
+        "fullCureHours": 24,
         "cureProfiles": 1440
       },
       "rankableSpecs": {},
@@ -23067,6 +23150,7 @@
         "clarity": "opaque",
         "hardnessValue": 70,
         "hardnessScale": "Shore D after 1 h at 23-25 C",
+        "shelfLifeMonths": 18,
         "tackFreeTime": [
           2,
           4
@@ -23186,6 +23270,8 @@
         "elongationPct": 57,
         "hardnessValue": 60,
         "hardnessScale": "Shore D, ASTM D2240",
+        "dielectricBreakdownVPerMil": 435,
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 21,
@@ -23322,7 +23408,9 @@
         "tensileStrengthMPa": 7.16,
         "elongationPct": 339,
         "hardnessValue": 82,
-        "hardnessScale": "Shore A, ASTM D2240"
+        "hardnessScale": "Shore A, ASTM D2240",
+        "dielectricBreakdownVPerMil": 343,
+        "shelfLifeMonths": 36
       },
       "rankableSpecs": {
         "dielectricBreakdownKVPerMm": 13.5,
@@ -23452,6 +23540,8 @@
         "elongationPct": 300,
         "hardnessValue": 0,
         "hardnessScale": "Shore A, ASTM D2240",
+        "dielectricBreakdownVPerMil": ">240",
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 21,
@@ -23579,7 +23669,14 @@
         },
         "clarity": "opaque",
         "hardnessValue": 85,
-        "hardnessScale": "Shore D at 22 C, ASTM D2240-97"
+        "hardnessScale": "Shore D at 22 C, ASTM D2240-97",
+        "specificGravity": {
+          "brushGradeMixed": 1.36,
+          "sprayGradeMixed": 1.44
+        },
+        "solidsContentPct": 100,
+        "vocContentGPerL": 0,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "hardnessValue": 85
@@ -23679,7 +23776,8 @@
         "chemistry": "Solvent-based synthetic elastomer aerosol adhesive",
         "cureFamily": "Solvent-evaporating contact spray adhesive",
         "cureDetail": "Solvent-based synthetic-elastomer aerosol. The preliminary TDS reports dry time up to 60 s and a 30 s\u201330 min bonding range; timing varies with ambient temperature, humidity and coverage.",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "solidsContentPct": 23.2
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -23783,6 +23881,7 @@
         "volumeResistivityOhmM": 1600000000,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "specificGravity": "Base 1.75; accelerator 1.77; mixed 1.76",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -23924,6 +24023,8 @@
         "dielectricBreakdownKVPerMm": 44,
         "hardnessValue": "75 after 23 C/24 h cure; 80 after 90 C/30 min or 120 C/10 min cure",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 1119,
+        "specificGravity": "Base 1.25-1.45; accelerator 1.07-1.17; mixed 1.15-1.30",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -24072,6 +24173,8 @@
         },
         "dielectricBreakdownKVPerMm": 99.4,
         "peelStrengthNPerM": 2250,
+        "dielectricBreakdownVPerMil": "4.41 kV uncured; 5.20 kV cured",
+        "shelfLifeMonths": 18,
         "cureProfiles": [
           {
             "temperatureC": 177,
@@ -24218,6 +24321,8 @@
         "tensileStrengthMPa": 33.1,
         "elongationPct": 250,
         "peelStrengthNPerM": 9600,
+        "dielectricBreakdownVPerMil": 900,
+        "shelfLifeMonths": 15,
         "cureProfiles": [
           {
             "temperatureC": 177,
@@ -24352,7 +24457,8 @@
         "lapShearSubstrate": "Overlap shear strength, ASTM D1002, 72 h dwell at 23 C, 6.45 cm2 area, jaw speed 12.7 mm/min.",
         "viscosityClass": "solid pressure-sensitive foam tape",
         "clarity": "opaque",
-        "peelStrengthNPerM": 110
+        "peelStrengthNPerM": 110,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 0.55,
@@ -24461,7 +24567,8 @@
         "lapShearSubstrate": "Overlap shear strength on stainless steel, ASTM D1002 / ISO 4587, 72 h dwell at 23 C, 6.45 cm2 area, jaw speed 12.7 mm/min.",
         "viscosityClass": "solid pressure-sensitive foam tape",
         "clarity": "opaque",
-        "peelStrengthNPerM": 110
+        "peelStrengthNPerM": 110,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 0.55,
@@ -24567,6 +24674,7 @@
         "lapShearSubstrate": "3M TDS overlap shear 690 kPa (0.69 MPa) on stainless steel after 72 h at 23 C, ASTM D1002 / ISO 4587; typical data.",
         "clarity": "opaque",
         "peelStrengthNPerM": 3500,
+        "fullCureHours": 72,
         "cureProfiles": 4320
       },
       "rankableSpecs": {
@@ -25044,7 +25152,8 @@
         "cureDetail": "Solvent-weld cement for PVC electrical conduit and fittings; official ABB e-catalog lists all-weather quickset clear cement with dauber applicator.",
         "lapShearSubstrate": "ABB e-catalog and SDS do not publish a lap-shear value for VC9982; catalog-family shear tables conflict by revision and are not collapsed into a scalar.",
         "viscosityClass": "medium",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.93
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -25136,7 +25245,8 @@
         "cureDetail": "Solvent-weld cement for PVC electrical conduit and fittings; official ABB e-catalog lists all-weather quickset clear cement with dauber applicator.",
         "lapShearSubstrate": "ABB e-catalog and SDS do not publish a lap-shear value for VC9983; catalog-family shear tables conflict by revision and are not collapsed into a scalar.",
         "viscosityClass": "medium",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.93
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -29808,6 +29918,9 @@
         "clarity": "opaque",
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 6.73,
+        "dielectricBreakdownVPerMil": 171,
+        "specificGravity": "2.35-2.55",
+        "shelfLifeMonths": 6,
         "cureProfiles": [
           {
             "temperatureC": 93,
@@ -29928,6 +30041,9 @@
         "clarity": "opaque",
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 3.58,
+        "dielectricBreakdownVPerMil": 91,
+        "specificGravity": "1.90-2.20",
+        "shelfLifeMonths": 6,
         "cureProfiles": [
           {
             "temperatureC": 93,
@@ -30034,6 +30150,7 @@
         "viscosityValue": "paste",
         "viscosityUnit": "qualitative",
         "clarity": "opaque",
+        "specificGravity": 1.9,
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -30251,6 +30368,9 @@
         "tensileStrengthMPa": 19.3,
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 410,
+        "specificGravity": 1.2,
+        "solidsContentPct": 100,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -30380,6 +30500,8 @@
         "tensileStrengthMPa": 65.5,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "specificGravity": 2.79,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -32253,7 +32375,8 @@
         "fixtureTime": 0.17,
         "lapShearSubstrate": "BSI official product page publishes set time, use cases and substrate guidance but not lap-shear strength.",
         "viscosityClass": "paste",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "shelfLifeMonths": 36
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -34566,6 +34689,8 @@
           "temperatureC": 10
         },
         "dielectricBreakdownKVPerMm": 146,
+        "dielectricBreakdownVPerMil": 146,
+        "specificGravity": "1.21-1.25",
         "tackFreeTime": 0.083
       },
       "rankableSpecs": {
@@ -34681,6 +34806,7 @@
         "hardnessValue": 74,
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 1800,
+        "specificGravity": "Base resin 1.17; hardener 0.97",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -35180,6 +35306,7 @@
         "elongationPct": 30,
         "hardnessValue": 84,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 38,
         "tackFreeTime": 3
       },
       "rankableSpecs": {
@@ -35315,6 +35442,7 @@
         "hardnessValue": 78,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 900,
+        "specificGravity": 1.59,
         "tackFreeTime": 9
       },
       "rankableSpecs": {
@@ -35427,6 +35555,8 @@
         "volumeResistivityOhmM": 1e-05,
         "hardnessValue": ">70",
         "hardnessScale": "Shore",
+        "specificGravity": 4,
+        "shelfLifeMonths": 9,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -35561,6 +35691,9 @@
         "dielectricConstant": "3.2 at 25 C and 1 MHz",
         "dissipationFactor": "<0.02 dielectric loss tangent at 25 C and 1 MHz",
         "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 25,
+        "specificGravity": 1.25,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 150,
@@ -35687,6 +35820,8 @@
         "viscosityUnit": "mPa.s",
         "clarity": "opaque",
         "electricalBehavior": "insulating",
+        "specificGravity": 1.4,
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 190,
@@ -35813,6 +35948,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -35946,6 +36083,8 @@
         "elongationPct": 300,
         "hardnessValue": 25,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36082,6 +36221,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36221,6 +36362,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36360,6 +36503,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36494,6 +36639,7 @@
         "elongationPct": 500,
         "hardnessValue": 25,
         "hardnessScale": "Shore A",
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36624,6 +36770,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36757,6 +36905,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -36890,6 +37040,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -37023,6 +37175,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 36,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -37147,7 +37301,8 @@
         "viscosityValue": 5,
         "viscosityUnit": "cP / mPa.s",
         "clarity": "transparent",
-        "thermalConductivity": 0.2
+        "thermalConductivity": 0.2,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "thermalConductivity": 0.2
@@ -37248,7 +37403,8 @@
         "viscosityValue": 100,
         "viscosityUnit": "cP / mPa.s",
         "clarity": "transparent",
-        "thermalConductivity": 0.2
+        "thermalConductivity": 0.2,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "thermalConductivity": 0.2
@@ -37349,7 +37505,8 @@
         "viscosityValue": 700,
         "viscosityUnit": "cP / mPa.s",
         "clarity": "transparent",
-        "thermalConductivity": 0.2
+        "thermalConductivity": 0.2,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "thermalConductivity": 0.2
@@ -37451,7 +37608,8 @@
         "viscosityValue": 700,
         "viscosityUnit": "cP / mPa.s",
         "clarity": "transparent",
-        "thermalConductivity": 0.2
+        "thermalConductivity": 0.2,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "thermalConductivity": 0.2
@@ -37562,6 +37720,9 @@
         "viscosityValue": 800,
         "viscosityUnit": "cP upper bound; spec gives 500-800 cP",
         "clarity": "opaque",
+        "specificGravity": 0.955,
+        "vocContentGPerL": 425,
+        "shelfLifeMonths": 36,
         "compatibleMaterialPairs": [
           [
             "pvc",
@@ -37673,6 +37834,7 @@
         "volumeResistivityOhmM": 1000000,
         "hardnessValue": 75,
         "hardnessScale": "Shore D",
+        "specificGravity": "not stated in selected official sheet",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -37793,7 +37955,9 @@
         "tensileStrengthMPa": 71,
         "elongationPct": 5,
         "hardnessValue": 90,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 500,
+        "specificGravity": "1.1 g/cc mixed"
       },
       "rankableSpecs": {
         "thermalConductivity": 0.216,
@@ -37905,6 +38069,8 @@
         "elongationPct": 2,
         "hardnessValue": 90,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 425,
+        "specificGravity": "1.9 g/cc mixed",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -38049,7 +38215,8 @@
         "electricalBehavior": "insulating",
         "volumeResistivityOhmM": 10000000,
         "dielectricConstant": "3.0 at 10^8 cps",
-        "elongationPct": 5
+        "elongationPct": 5,
+        "dielectricBreakdownVPerMil": 145
       },
       "rankableSpecs": {
         "thermalConductivity": 0.865,
@@ -38159,6 +38326,8 @@
         "lapShearSubstrate": "DAP TDS publishes sealant movement/service properties rather than lap-shear strength.",
         "viscosityClass": "gunnable non-sag paste",
         "clarity": "opaque",
+        "fullCureHours": 24,
+        "shelfLifeMonths": 12,
         "tackFreeTime": 120,
         "cureProfiles": 24
       },
@@ -38560,6 +38729,7 @@
         "lapShearSubstrate": "DAP TDS publishes sealant movement/service properties rather than lap-shear strength.",
         "viscosityClass": "gunnable non-sag paste",
         "clarity": "opaque / clear variant",
+        "shelfLifeMonths": 12,
         "tackFreeTime": 30
       },
       "rankableSpecs": {},
@@ -40996,7 +41166,9 @@
         "serviceMin": -18,
         "serviceMax": 66,
         "viscosityValue": 170,
-        "viscosityUnit": "cP"
+        "viscosityUnit": "cP",
+        "solidsContentPct": 19,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -41090,7 +41262,8 @@
         "cureFamily": "Solvent-evaporating spray adhesive",
         "cureDetail": "For removable bonds, spray one surface and join immediately. For permanent bonds, spray both surfaces and allow about 1 minute to dry until tacky, then press firmly. Keep the assembly in stable conditions until fully dried, approximately 24 hours.",
         "serviceMin": -18,
-        "serviceMax": 66
+        "serviceMax": 66,
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -41182,7 +41355,8 @@
         "cureFamily": "Waterborne contact cement",
         "cureDetail": "Apply to both surfaces and allow 60\u201370 minutes to dry until tacky and glossy. Open/assembly time is 2.5\u20133 hours and varies with temperature and humidity. Bond with firm, even pressure; maximum holding strength in 7 days. TDS requires air, adhesive, and surfaces above 65\u00b0F for at least 24 hours before and after application.",
         "serviceMin": -40,
-        "serviceMax": 82
+        "serviceMax": 82,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -41273,7 +41447,8 @@
         "cureFamily": "Solvent-flash contact cement",
         "cureDetail": "Apply to both surfaces and allow 15\u201320 minutes to dry until tacky and glossy. Assemble within 2\u20133 hours; up to 2 hours open time is stated. Apply firm, even pressure after contact; maximum holding strength in 7 days. Application conditions 65\u2013110\u00b0F; TDS calls for air, adhesive, and surfaces above 65\u00b0F for at least 24 hours before and after application.",
         "serviceMin": -40,
-        "serviceMax": 82
+        "serviceMax": 82,
+        "vocContentGPerL": 702.8
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -41365,7 +41540,8 @@
         "cureFamily": "Solvent-flash spray contact adhesive",
         "cureDetail": "Spray both surfaces and allow to dry until aggressively tacky; TDS says allow up to 5\u201310 minutes before bonding. Keep the assembly out of direct sunlight and in stable conditions until fully dried, approximately 24 hours. Product page describes readiness to bond in 1\u20133 minutes; actual timing depends on conditions.",
         "serviceMin": -18,
-        "serviceMax": 82
+        "serviceMax": 82,
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -41458,7 +41634,9 @@
         "lapShear": 24.8,
         "lapShearSubstrate": "ASTM D905 wood-joint bond strength: hard maple at room temperature 3,600 psi (24.8 MPa), 77% wood failure. This is a wood bond-strength result, not a metal lap-shear result.",
         "viscosityValue": 7500,
-        "viscosityUnit": "cP"
+        "viscosityUnit": "cP",
+        "solidsContentPct": 44.6,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 24.8
@@ -41658,6 +41836,7 @@
         "elongationPct": 11,
         "hardnessValue": 88,
         "hardnessScale": "Shore D, DIN EN ISO 868 after 80 C x 30 min cure",
+        "shelfLifeMonths": 6,
         "chipBondStrengthMPa": {
           "silicon1x1mmOnGold80C30Min": 60,
           "silicon1x1mmOnFr4Annealed80C30Min": 62
@@ -42851,6 +43030,9 @@
         "hardnessValue": 35,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 7000,
+        "dielectricBreakdownVPerMil": 475,
+        "specificGravity": 1.33,
+        "shelfLifeMonths": 24,
         "tackFreeTime": 46,
         "cureProfiles": [
           {
@@ -42995,6 +43177,8 @@
         "elongationPct": 43,
         "hardnessValue": "95 Shore A; 45 Shore D",
         "hardnessScale": "Shore A / Shore D",
+        "dielectricBreakdownVPerMil": 533,
+        "specificGravity": 3,
         "cureProfiles": [
           {
             "temperatureC": 70,
@@ -43135,6 +43319,8 @@
         "elongationPct": 224,
         "hardnessValue": 60,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 500,
+        "specificGravity": 1.29,
         "cureProfiles": [
           {
             "temperatureC": 70,
@@ -43267,6 +43453,9 @@
         "elongationPct": 165,
         "hardnessValue": 17,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 20,
+        "specificGravity": 0.98,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -43392,6 +43581,7 @@
         "elongationPct": "270-280",
         "hardnessValue": "38-40",
         "hardnessScale": "Shore A",
+        "specificGravity": "1.32-1.36",
         "tackFreeTime": 20
       },
       "rankableSpecs": {
@@ -45062,6 +45252,9 @@
         "elongationPct": 165,
         "hardnessValue": 60,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 2000,
+        "dielectricBreakdownVPerMil": 500,
+        "shelfLifeMonths": 6,
         "cureProfiles": [
           {
             "type": "uv",
@@ -45219,6 +45412,9 @@
         "elongationPct": 150,
         "hardnessValue": 45,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 750,
+        "dielectricBreakdownVPerMil": 500,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "type": "uv",
@@ -45400,6 +45596,9 @@
         "elongationPct": 26,
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 2300,
+        "dielectricBreakdownVPerMil": 1100,
+        "shelfLifeMonths": 12,
         "cureDepthMm": 0.254,
         "tackFreeTime": 72,
         "cureProfiles": [
@@ -45549,6 +45748,8 @@
           5954,
           7881
         ],
+        "tensileStrengthPsi": 3500,
+        "dielectricBreakdownVPerMil": 400,
         "tackFreeTime": 4,
         "cureProfiles": [
           {
@@ -46097,6 +46298,8 @@
         "elongationPct": 1527,
         "hardnessValue": 25,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 1200,
+        "dielectricBreakdownVPerMil": 400,
         "tackFreeTime": 20,
         "cureProfiles": [
           {
@@ -46815,6 +47018,8 @@
         "elongationPct": 900,
         "hardnessValue": 80,
         "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 3800,
+        "dielectricBreakdownVPerMil": 400,
         "tackFreeTime": 4,
         "cureProfiles": [
           {
@@ -47041,6 +47246,8 @@
         "elongationPct": 1100,
         "hardnessValue": 80,
         "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 2000,
+        "dielectricBreakdownVPerMil": 400,
         "tackFreeTime": 2,
         "cureProfiles": [
           {
@@ -49726,6 +49933,253 @@
       "extractionCandidates": []
     },
     {
+      "id": "shoe-goo-ii",
+      "source": "manual-tds",
+      "maker": "Eclectic Products",
+      "name": "Shoe Goo II Shoe Repair Adhesive (Clear)",
+      "profile": "contactCement",
+      "summary": "Low-odor, solvent-free flexible shoe-repair adhesive with water and UV resistance for leather, canvas, suede, rubber, and fabric.",
+      "applicationTags": [
+        "shoe-repair",
+        "leather",
+        "rubber-bonding",
+        "flexible-bond",
+        "water-resistant",
+        "uv-resistant",
+        "low-odor"
+      ],
+      "referenceCategory": "Shoe Repair Adhesives",
+      "referenceForJoining": "Footwear repair and protection on leather, canvas, suede, rubber, and fabric.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Premium polymer technology; solvent-free (chemistry not further specified by TDS).",
+        "cureFamily": "Solvent-free flexible shoe-repair adhesive",
+        "cureDetail": "Approximately 20 min working time; tack-free in 120 min at 70\u00b0F/50% RH. Full cure 24\u201348 h; maximum bond strength may take up to 3 days.",
+        "serviceMin": -40,
+        "serviceMax": 93,
+        "viscosityValue": 55000,
+        "viscosityUnit": "cP at 23\u00b0C, shear rate 11 s\u207b\u00b9",
+        "elongationPct": 175,
+        "hardnessValue": 83,
+        "hardnessScale": "Shore A, greater than",
+        "specificGravity": 1.07,
+        "tackTimeRangeMinutes": [
+          120,
+          120
+        ],
+        "fullCureHours": 48,
+        "shelfLifeMonths": 18,
+        "cureProfiles": 48
+      },
+      "rankableSpecs": {
+        "elongationPct": 175,
+        "hardnessValue": 83
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://eclecticproducts.com/downloads/tds/tds-shoegooll_USA_EU_AUNZ.pdf",
+        "tdsUrl": "https://eclecticproducts.com/downloads/tds/tds-shoegooll_USA_EU_AUNZ.pdf",
+        "productUrl": "https://eclecticproducts.com/datasheet/shoe-goo-ll/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.455,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.3,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS describes this formula as nonflammable and solvent-free, with less than 3% VOC.",
+        "Not recommended for acrylic, vinyl, foam, polyethylene, or polypropylene; the TDS directs vinyl repairs to Original Shoe Goo.",
+        "Intermittent service temperature of -40 to 200\u00b0F applies only once fully cured."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "shoe-goo-original",
+      "source": "manual-tds",
+      "maker": "Eclectic Products",
+      "name": "Shoe Goo Original Shoe Repair Adhesive",
+      "profile": "contactCement",
+      "summary": "Flexible, waterproof shoe-repair adhesive and protective coating for leather, rubber, vinyl, canvas, suede, and footwear soles or heels.",
+      "applicationTags": [
+        "shoe-repair",
+        "leather",
+        "rubber-bonding",
+        "flexible-bond",
+        "waterproof",
+        "abrasion-resistant"
+      ],
+      "referenceCategory": "Shoe Repair Adhesives",
+      "referenceForJoining": "Footwear and protective coating repairs on leather, rubber, vinyl, canvas, suede, soles, and heels.",
+      "electricalBehaviorClass": "not-rated",
+      "specs": {
+        "chemistry": "Rubber-based solvent adhesive; TDS lists toluene and petroleum distillates as solvents.",
+        "cureFamily": "Solvent-based flexible shoe-repair adhesive",
+        "cureDetail": "Tack time 2\u20133 min; set 20 min. Thin films cure in about 24 h and thick applications in 48\u201372 h; maximum strength may require 48\u201372 h.",
+        "serviceMin": -40,
+        "serviceMax": 66,
+        "fixtureTime": "20 min set time",
+        "viscosityValue": 170000,
+        "viscosityUnit": "cP",
+        "electricalBehavior": 400,
+        "tensileStrengthMPa": 2300,
+        "elongationPct": 1100,
+        "hardnessValue": 80,
+        "hardnessScale": "Shore A",
+        "tdsPeelStrengthProfilesPiw": {
+          "leather": 26,
+          "vinyl": 5,
+          "canvas": 15,
+          "suede": 27,
+          "rubber": 12
+        },
+        "tdsPeelStrengthTestMethod": "ASTM D1876 T-peel; lb/in width (PLI), per TDS Rev. 14.",
+        "tensileStrengthPsi": 2300,
+        "dielectricBreakdownVPerMil": 400,
+        "specificGravity": 0.9,
+        "solidsContentPct": 46,
+        "vocContentGPerL": 530.43,
+        "tackTimeRangeMinutes": [
+          2,
+          3
+        ],
+        "fullCureHours": 72,
+        "shelfLifeMonths": 24,
+        "cureProfiles": 72
+      },
+      "rankableSpecs": {
+        "tensileStrengthMPa": 2300,
+        "elongationPct": 1100,
+        "hardnessValue": 80
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+        "tdsUrl": "https://eclecticproducts.com/wp-content/uploads/2026/09/SG-TDS-USA-AU-NZ-CAN-_REV-14.pdf",
+        "productUrl": "https://eclecticproducts.com/product/shoe-goo/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.545,
+        "electronics": 0.75,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.45,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "dielectricBreakdownVPerMil",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "electricalBehavior",
+          "tensileStrengthMPa",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [
+          "dielectricBreakdownKVPerMm",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "electricalBehavior",
+          "tensileStrengthMPa",
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Missing electronics fields: dielectricBreakdownKVPerMm, peelStrengthNPerM, chipBondStrengthMPa, cureDepthMm, tackFreeTime",
+        "Not applicable to this product/behavior: volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Solvent-based and flammable; TDS lists toluene and petroleum distillates. Follow current product label and SDS for ventilation and handling.",
+        "Not recommended for foam, polyethylene, polypropylene, or certain plastics; test material compatibility.",
+        "The TDS reports cured-material service range of -40 to 150\u00b0F, while application notes mention intermittent exposure up to 180\u00b0F; use the more conservative tabulated service range."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "elmers-carpenters-wood-glue-interior",
       "source": "manual-tds",
       "maker": "Elmer's",
@@ -51783,6 +52237,7 @@
         },
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 12,
         "chipBondStrengthMPa": 3556,
         "cureProfiles": [
           {
@@ -52028,6 +52483,11 @@
         },
         "hardnessValue": 64,
         "hardnessScale": "Shore D",
+        "specificGravity": {
+          "partA": 1.12,
+          "partB": 0.94
+        },
+        "shelfLifeMonths": 12,
         "chipBondStrengthMPa": 3556
       },
       "rankableSpecs": {
@@ -52137,6 +52597,12 @@
         "volumeResistivityOhmM": 4e-06,
         "hardnessValue": 75,
         "hardnessScale": "Shore D",
+        "specificGravity": {
+          "partA": 2.03,
+          "partB": 3.07,
+          "syringe": 2.67
+        },
+        "shelfLifeMonths": 12,
         "chipBondStrengthMPa": 3556,
         "cureProfiles": [
           {
@@ -52393,6 +52859,12 @@
         "clarity": "transparent",
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "specificGravity": {
+          "partA": 1.2,
+          "partB": 1.02,
+          "syringe": 1.19
+        },
+        "shelfLifeMonths": 12,
         "chipBondStrengthMPa": 3556,
         "cureProfiles": [
           {
@@ -52604,6 +53076,8 @@
         "electricalBehavior": "insulating",
         "hardnessValue": 86,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.12,
+        "shelfLifeMonths": 6,
         "tackFreeTime": ">30 sec UV exposure",
         "cureProfiles": [
           {
@@ -55486,6 +55960,9 @@
         "tensileStrengthMPa": 19.3,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 410,
+        "specificGravity": 1.16,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -55603,7 +56080,8 @@
         "lapShearSubstrate": "GC sheet lists 2,800-4,300 psi strength but does not specify lap-shear test geometry or substrate",
         "viscosityClass": "medium",
         "clarity": "transparent",
-        "tensileStrengthMPa": "2,800-4,300 psi strength; test type not specified on sheet"
+        "tensileStrengthMPa": "2,800-4,300 psi strength; test type not specified on sheet",
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "tensileStrengthMPa": "2,800-4,300 psi strength; test type not specified on sheet"
@@ -55714,6 +56192,7 @@
         "dielectricConstant": "2.8 at 60 Hz, 100 Hz and 100 kHz",
         "dissipationFactor": "0.0015 at 60 Hz, 100 Hz and 100 kHz",
         "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 635,
         "tackFreeTime": 10,
         "cureProfiles": [
           {
@@ -55836,6 +56315,8 @@
         "electricalBehavior": "insulating",
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.25,
+        "shelfLifeMonths": 36,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -55955,6 +56436,8 @@
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 18,
         "tensileStrengthMPa": 1.72,
+        "dielectricBreakdownVPerMil": 460,
+        "shelfLifeMonths": 12,
         "tackFreeTime": 15,
         "cureProfiles": [
           {
@@ -56068,7 +56551,8 @@
         "fixtureTime": 0,
         "lapShearSubstrate": "GDI TDS does not publish lap-shear strength; it describes medium shear strength qualitatively.",
         "viscosityClass": "solid",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -56166,7 +56650,8 @@
         "fixtureTime": 0,
         "lapShearSubstrate": "GDI TDS does not publish lap-shear strength; it describes high shear strength qualitatively.",
         "viscosityClass": "solid",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -59662,6 +60147,10 @@
         "potLife": 5,
         "fixtureTime": 5,
         "lapShearSubstrate": "Older European TDS, ASTM D1002: steel 3,300 psi / 22.8 MPa after 3 days at 122 F / 50 C; maple 1,900 psi / 13.1 MPa. Typical representative values, not specification values.",
+        "lapShearProfilesMPa": {
+          "steel": 22.8,
+          "maple": 13.1
+        },
         "viscosityClass": "gel",
         "viscosityValue": "8,000-12,000",
         "viscosityUnit": "cP (mixed; 2016 TDS)",
@@ -59880,6 +60369,12 @@
         "fixtureTime": 60,
         "lapShear": 20.5,
         "lapShearSubstrate": "ASTM D905 shear strength on maple: 2,500-3,500 psi (17-24 MPa), TDS states typical/representative values only.",
+        "lapShearProfilesMPa": {
+          "maple": [
+            17,
+            24
+          ]
+        },
         "viscosityClass": "liquid",
         "viscosityValue": "4000-7000",
         "viscosityUnit": "cP",
@@ -60293,7 +60788,8 @@
         "viscosityValue": "Brookfield RVT spindle 3 at 20 rpm: 1,300-3,000 mPa.s; cone-and-plate 35/2 at 129 s^-1: 350 mPa.s",
         "viscosityUnit": "mPa.s / cP at 25 C",
         "clarity": "opaque",
-        "thermalConductivity": 0.1
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.08
       },
       "rankableSpecs": {
         "lapShear": 7.6,
@@ -60502,6 +60998,7 @@
         "elongationPct": 5,
         "hardnessValue": 79,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.03,
         "cureDepthMm": 5.08
       },
       "rankableSpecs": {
@@ -60906,10 +61403,22 @@
         "fixtureTime": 5,
         "lapShear": 20,
         "lapShearSubstrate": "At 72 h / 22 \u00b0C, TDS lap shear: grit-blasted steel 20 MPa; etched aluminum 12.4 MPa; zinc dichromate 2.5 MPa; ABS 7.5 MPa; PVC 10 MPa; phenolic 12.6 MPa; polycarbonate 9.6 MPa; nitrile 1.2 MPa; neoprene 1.1 MPa. Values marked with * had substrate failure.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteel": 20,
+          "etchedAluminum": 12.4,
+          "zincDichromate": 2.5,
+          "abs": 7.5,
+          "pvc": 10,
+          "phenolic": 12.6,
+          "polycarbonate": 9.6,
+          "nitrile": 1.2,
+          "neoprene": 1.1
+        },
         "viscosityClass": "low",
         "viscosityValue": "70-110",
         "viscosityUnit": "mPa.s",
         "clarity": "transparent",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -61013,10 +61522,22 @@
         "fixtureTime": 5,
         "lapShear": 15.5,
         "lapShearSubstrate": "After 24 h at 22 \u00b0C, ISO 4587 lap shear: grit-blasted steel 15.5 MPa; etched aluminum 12 MPa; zinc dichromate 14 MPa; ABS 8.8 MPa; PVC 8.7 MPa; polycarbonate 9.1 MPa; phenolic 11.3 MPa; neoprene 1 MPa; nitrile 1.2 MPa. Values marked * had substrate failure.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteel": 15.5,
+          "etchedAluminum": 12,
+          "zincDichromate": 14,
+          "abs": 8.8,
+          "pvc": 8.7,
+          "polycarbonate": 9.1,
+          "phenolic": 11.3,
+          "neoprene": 1,
+          "nitrile": 1.2
+        },
         "viscosityClass": "low",
         "viscosityValue": "12-22",
         "viscosityUnit": "mPa.s",
         "clarity": "transparent",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -61121,10 +61642,22 @@
         "fixtureTime": 45,
         "lapShear": 20.9,
         "lapShearSubstrate": "After 72 h at 22 \u00b0C, ISO 4587: grit-blasted steel 20.9 MPa; etched aluminum 17.1 MPa; zinc dichromate 11.5 MPa; ABS 8.3 MPa; PVC 7.1 MPa; phenolic 12.3 MPa; polycarbonate 7.7 MPa; nitrile 1.3 MPa; neoprene 1.1 MPa. Asterisked entries had substrate failure.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteel": 20.9,
+          "etchedAluminum": 17.1,
+          "zincDichromate": 11.5,
+          "abs": 8.3,
+          "pvc": 7.1,
+          "phenolic": 12.3,
+          "polycarbonate": 7.7,
+          "nitrile": 1.3,
+          "neoprene": 1.1
+        },
         "viscosityClass": "high",
         "viscosityValue": "150-450",
         "viscosityUnit": "mPa.s",
         "clarity": "transparent",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -61230,6 +61763,45 @@
         "fixtureTime": 90,
         "lapShear": 26,
         "lapShearSubstrate": "After 24 h at 22 \u00b0C, ISO 4587: grit-blasted steel 22-30 MPa; etched aluminum 14-22 MPa; zinc dichromate 8-15 MPa; ABS 6-20 MPa; PVC 4-20 MPa; phenolic 5-15 MPa; polycarbonate 5-20 MPa; nitrile 5-15 MPa; neoprene 5-15 MPa. Grit-blasted steel after 24 h + 48 h at 120 \u00b0C: \u226518 MPa.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteel": [
+            22,
+            30
+          ],
+          "etchedAluminum": [
+            14,
+            22
+          ],
+          "zincDichromate": [
+            8,
+            15
+          ],
+          "abs": [
+            6,
+            20
+          ],
+          "pvc": [
+            4,
+            20
+          ],
+          "phenolic": [
+            5,
+            15
+          ],
+          "polycarbonate": [
+            5,
+            20
+          ],
+          "nitrile": [
+            5,
+            15
+          ],
+          "neoprene": [
+            5,
+            15
+          ],
+          "steelPost120CExposureMin": 18
+        },
         "viscosityClass": "low",
         "viscosityValue": "100-200",
         "viscosityUnit": "mPa.s",
@@ -61249,6 +61821,8 @@
           "10kHz": "<0.02"
         },
         "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 25,
+        "specificGravity": 1.05,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -61360,10 +61934,22 @@
         "fixtureTime": 5,
         "lapShear": 14.2,
         "lapShearSubstrate": "After 24 h at 22 \u00b0C, ISO 4587 lap shear: grit-blasted steel 14.2 MPa; grit-blasted aluminum 10.8 MPa; zinc dichromate 5.9 MPa; ABS 7.9 MPa; PVC 8.7 MPa; polycarbonate 8.0 MPa; phenolic 9.9 MPa; neoprene 1.0 MPa; nitrile 1.3 MPa. Values marked * had substrate failure.",
+        "lapShearProfilesMPa": {
+          "gritBlastedSteel": 14.2,
+          "gritBlastedAluminum": 10.8,
+          "zincDichromate": 5.9,
+          "abs": 7.9,
+          "pvc": 8.7,
+          "polycarbonate": 8.0,
+          "phenolic": 9.9,
+          "neoprene": 1.0,
+          "nitrile": 1.3
+        },
         "viscosityClass": "low",
         "viscosityValue": "20-45",
         "viscosityUnit": "mPa.s",
         "clarity": "transparent",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -62337,9 +62923,15 @@
         "serviceMax": 71,
         "lapShear": 4.1,
         "lapShearSubstrate": "Tensile lap-shear strength per LOCTITE TDS: Douglas-fir plywood to stainless steel 590 psi (4.1 MPa), wood failure; Douglas-fir plywood to hot-galvanized steel 512 psi (3.5 MPa), wood failure. Typical published data.",
+        "lapShearProfilesMPa": {
+          "douglasFirPlywoodToStainlessSteel": 4.1,
+          "douglasFirPlywoodToHotGalvanizedSteel": 3.5
+        },
         "viscosityClass": "very-high",
         "viscosityValue": 555000,
         "viscosityUnit": "cP",
+        "specificGravity": 1.3,
+        "vocContentGPerL": 76,
         "cureProfiles": 2880
       },
       "rankableSpecs": {
@@ -62641,6 +63233,9 @@
         "elongationPct": 275,
         "hardnessValue": 14,
         "hardnessScale": "Shore A, ISO 868, minimum LMS",
+        "tensileStrengthPsi": 120,
+        "specificGravity": 1.01,
+        "fullCureHours": 24,
         "tackFreeTime": "\u226445 minutes",
         "cureProfiles": [
           {
@@ -63440,7 +64035,10 @@
         "tensileStrengthMPa": 44,
         "elongationPct": 4,
         "hardnessValue": 64,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 425,
+        "specificGravity": 1.18,
+        "shelfLifeMonths": 36
       },
       "rankableSpecs": {
         "lapShear": 20,
@@ -64240,6 +64838,8 @@
         "hardnessValue": 82,
         "hardnessScale": "Shore D, ASTM D2240",
         "peelStrengthNPerM": "350-530",
+        "dielectricBreakdownVPerMil": 440,
+        "solidsContentPct": 100,
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -64371,6 +64971,8 @@
         "hardnessValue": 83,
         "hardnessScale": "Shore D, ASTM D2240",
         "peelStrengthNPerM": "350-530",
+        "dielectricBreakdownVPerMil": 600,
+        "solidsContentPct": 100,
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -64502,6 +65104,8 @@
         "hardnessValue": 78,
         "hardnessScale": "Shore D, ASTM D2240",
         "peelStrengthNPerM": "5250-7000",
+        "dielectricBreakdownVPerMil": 490,
+        "solidsContentPct": 100,
         "cureProfiles": 10080
       },
       "rankableSpecs": {
@@ -65759,6 +66363,7 @@
         "viscosityClass": "paste",
         "clarity": "opaque",
         "tensileStrengthMPa": 34.61,
+        "tensileStrengthPsi": 5020,
         "cureProfiles": {
           "2020TdsFullCureRangeMinutes": [
             900,
@@ -70358,6 +70963,8 @@
           95
         ],
         "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 800,
+        "shelfLifeMonths": 12,
         "tackFreeTime": [
           20,
           30
@@ -70758,7 +71365,10 @@
         "viscosityClass": "very-high",
         "viscosityValue": 230000,
         "viscosityUnit": "cP",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "flashPointF": 1,
+        "solidsContentPct": 65,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 2.93
@@ -70863,7 +71473,10 @@
         "viscosityClass": "very-high",
         "viscosityValue": 400000,
         "viscosityUnit": "cP",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "flashPointF": ">205",
+        "solidsContentPct": 60,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 3.45
@@ -90729,6 +91342,7 @@
         "electricalBehavior": "insulating",
         "hardnessValue": "50-60",
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 450,
         "cureProfiles": [
           {
             "temperatureF": 75,
@@ -92746,6 +93360,8 @@
         "elongationPct": 435,
         "hardnessValue": 24,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 425,
+        "specificGravity": 1.04,
         "tackFreeTime": 15,
         "cureProfiles": 1440
       },
@@ -92867,6 +93483,8 @@
         "tensileStrengthMPa": 57,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 440,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.1 g/mL; B 1.0 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93009,6 +93627,8 @@
         "tensileStrengthMPa": 45,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 483,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.1 g/mL; B 1.0 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93151,6 +93771,8 @@
         "tensileStrengthMPa": 9.6,
         "hardnessValue": 88,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 330,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.1 g/mL; B 1.0 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93298,6 +93920,8 @@
         "tensileStrengthMPa": 2,
         "hardnessValue": 60,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 472,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.0 g/mL; B 1.0 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93438,6 +94062,8 @@
         "tensileStrengthMPa": 2.3,
         "hardnessValue": 80,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 350,
+        "specificGravity": "Mixed 1.0 g/mL; A 1.1 g/mL; B 1.0 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93579,6 +94205,8 @@
         "tensileStrengthMPa": 32,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 365,
+        "specificGravity": "Mixed 1.0 g/mL; A 1.1 g/mL; B 1.0 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93722,6 +94350,8 @@
         "tensileStrengthMPa": 10,
         "hardnessValue": 82,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 394,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.1 g/mL; B 1.0 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93861,6 +94491,7 @@
         "tensileStrengthMPa": 8.3,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "specificGravity": "Mixed 3.2 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -93992,6 +94623,7 @@
         "tensileStrengthMPa": 9,
         "hardnessValue": 73,
         "hardnessScale": "Shore D",
+        "specificGravity": "Mixed 3.1 g/mL; A 3.4 g/mL; B 2.9 g/mL; cured density 2.8 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 65,
@@ -94123,6 +94755,7 @@
         "tensileStrengthMPa": 13,
         "hardnessValue": 78,
         "hardnessScale": "Shore D",
+        "specificGravity": "Mixed 2.4 g/mL; A 2.5 g/mL; B 2.3 g/mL; cured density 2.5 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -94254,6 +94887,7 @@
         "tensileStrengthMPa": 14,
         "hardnessValue": 60,
         "hardnessScale": "Shore D",
+        "specificGravity": "Mixed 2.4 g/mL; A 1.0 g/mL; B 2.4 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 65,
@@ -94386,6 +95020,8 @@
         "tensileStrengthMPa": 34,
         "hardnessValue": 82,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 250,
+        "specificGravity": "Mixed 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -94519,6 +95155,8 @@
         "tensileStrengthMPa": 17,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 376,
+        "specificGravity": "Mixed 1.6 g/mL; A 1.7 g/mL; B 1.4 g/mL; cured density 1.6 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -94661,6 +95299,8 @@
         "tensileStrengthMPa": 20,
         "hardnessValue": 87,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 395,
+        "specificGravity": "Mixed 1.4 g/mL; A 1.3 g/mL; B 1.3 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -94804,6 +95444,8 @@
         "tensileStrengthMPa": 5.3,
         "hardnessValue": 88,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 330,
+        "specificGravity": "Mixed 1.6 g/mL; A 1.6 g/mL; B 1.6 g/mL; cured density 1.6 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -94946,6 +95588,8 @@
         "tensileStrengthMPa": 22,
         "hardnessValue": 91,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 345,
+        "specificGravity": "Mixed 1.7 g/mL; A 1.9 g/mL; B 0.9 g/mL; cured density 1.7 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -95088,6 +95732,8 @@
         "tensileStrengthMPa": 10,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 410,
+        "specificGravity": "Mixed 1.1 g/mL; A 1.1 g/mL; B 1.2 g/mL; cured density 1.2 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -95225,6 +95871,8 @@
         "tensileStrengthMPa": 38,
         "hardnessValue": 73,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 480,
+        "specificGravity": "Mixed 1.2 g/mL; A 1.2 g/mL; B 1.2 g/mL; cured density 1.2 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -95360,6 +96008,8 @@
         "tensileStrengthMPa": 16,
         "hardnessValue": 76,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 503,
+        "specificGravity": "Mixed 1.3 g/mL; cured density 1.2 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 22,
@@ -95506,6 +96156,9 @@
         "tensileStrengthMPa": 23,
         "hardnessValue": 79,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 394,
+        "specificGravity": 1.3,
+        "shelfLifeMonths": 36,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -95645,6 +96298,8 @@
         "tensileStrengthMPa": 9.4,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 220,
+        "specificGravity": "Uncured 1.2 g/mL; cured density 1.1 g/mL",
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -95774,6 +96429,7 @@
         "volumeResistivityOhmM": 1.8e-05,
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "specificGravity": 2.3,
         "cureProfiles": [
           {
             "temperatureC": 80,
@@ -95915,6 +96571,9 @@
         "tensileStrengthMPa": 20,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 400,
+        "specificGravity": "liquid density 1.1 g/mL; cured density 1.2 g/mL",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 80,
@@ -96050,6 +96709,8 @@
         "tensileStrengthMPa": 30,
         "hardnessValue": 77,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 360,
+        "specificGravity": "Uncured 1.1 g/mL; cured density 1.1 g/mL",
         "cureDepthMm": 5,
         "cureProfiles": [
           {
@@ -96194,7 +96855,8 @@
         "lapShearSubstrate": "The M-Bond 200 strain-gage adhesive datasheet does not publish lap-shear strength; it specifies certified use for strain-gage bonding and elongation capability instead.",
         "viscosityClass": "low",
         "clarity": "transparent",
-        "elongationPct": 5
+        "elongationPct": 5,
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "elongationPct": 5
@@ -99220,6 +99882,8 @@
         "elongationPct": 120,
         "hardnessValue": 44,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 500,
+        "specificGravity": "RTV615A 1.02; catalyzed specific gravity not stated",
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -99379,6 +100043,8 @@
         "elongationPct": 250,
         "hardnessValue": 60,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 450,
+        "specificGravity": 1.28,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -99528,6 +100194,8 @@
         "hardnessValue": 35,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 7000,
+        "dielectricBreakdownVPerMil": 450,
+        "specificGravity": 1.09,
         "tackFreeTime": 240,
         "cureProfiles": [
           {
@@ -99664,6 +100332,8 @@
         "hardnessValue": 37,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 14000,
+        "dielectricBreakdownVPerMil": 500,
+        "specificGravity": 1.12,
         "tackFreeTime": 240,
         "cureProfiles": [
           {
@@ -100481,6 +101151,7 @@
         "lapShearSubstrate": "The Oatey catalog/submittal data does not publish lap-shear or bond-strength values for transition cement; it publishes scope, standards and VOC.",
         "viscosityClass": "medium",
         "clarity": "translucent",
+        "vocContentGPerL": 510,
         "compatibleMaterialPairs": [
           [
             "abs",
@@ -100717,6 +101388,8 @@
         "viscosityValue": 500,
         "viscosityUnit": "cps minimum at 73 F +/- 2 F",
         "clarity": "transparent",
+        "vocContentGPerL": 425,
+        "shelfLifeMonths": 36,
         "compatibleMaterialPairs": [
           [
             "pvc",
@@ -100839,6 +101512,8 @@
         "viscosityValue": 800,
         "viscosityUnit": "cps +/- 100 at 73 F",
         "clarity": "transparent",
+        "specificGravity": 1.202,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "acrylic",
@@ -100967,6 +101642,9 @@
         "viscosityValue": 350,
         "viscosityUnit": "cps +/- 100 at 73 F",
         "clarity": "transparent",
+        "specificGravity": 0.88,
+        "vocContentGPerL": 350,
+        "shelfLifeMonths": 36,
         "compatibleMaterialPairs": [
           [
             "acrylic",
@@ -101123,6 +101801,8 @@
         "viscosityClass": "wicking",
         "viscosityUnit": "Water thin at 73 F",
         "clarity": "transparent",
+        "specificGravity": 0.805,
+        "shelfLifeMonths": 36,
         "compatibleMaterialPairs": [
           [
             "abs",
@@ -101272,6 +101952,8 @@
         "viscosityClass": "wicking",
         "viscosityUnit": "Water thin at 73 F",
         "clarity": "transparent",
+        "specificGravity": 1.218,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "acrylic",
@@ -101392,6 +102074,8 @@
         "viscosityValue": 2900,
         "viscosityUnit": "cps +/- 150 at 73 F",
         "clarity": "transparent",
+        "vocContentGPerL": 250,
+        "shelfLifeMonths": 24,
         "tackFreeTime": [
           7,
           8
@@ -101531,6 +102215,8 @@
         "viscosityValue": 800,
         "viscosityUnit": "cps +/- 200 at 73 F",
         "clarity": "transparent",
+        "specificGravity": 0.934,
+        "shelfLifeMonths": 36,
         "compatibleMaterialPairs": [
           [
             "pvc",
@@ -101654,6 +102340,8 @@
         "viscosityValue": 500,
         "viscosityUnit": "cps +/- 100 at 73 F",
         "clarity": "transparent",
+        "specificGravity": 0.955,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "pvc",
@@ -101810,6 +102498,9 @@
         "viscosityClass": "wicking",
         "viscosityUnit": "Water thin at 73 F",
         "clarity": "transparent",
+        "specificGravity": 1.12,
+        "vocContentGPerL": 250,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "acrylic",
@@ -103701,6 +104392,16 @@
         "fixtureTime": 960,
         "lapShear": 7.5,
         "lapShearSubstrate": "Steel/steel lap shear from Elecolit 325 TDS: 5-10 MPa after room-temperature 24 h cure; 15-20 MPa after 120 C / 15 min cure.",
+        "lapShearProfilesMPa": {
+          "steelSteelRoomTemperature24h": [
+            5,
+            10
+          ],
+          "steelSteel120C15min": [
+            15,
+            20
+          ]
+        },
         "viscosityClass": "paste-like",
         "viscosityValue": "paste-like",
         "viscosityUnit": "mixed adhesive; Panacol TDS lists paste-like rather than numeric mPa.s",
@@ -103710,6 +104411,7 @@
         "volumeResistivityOhmM": "1E-6 to 5E-6",
         "hardnessValue": 77.5,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -103837,6 +104539,24 @@
         "potLife": 10080,
         "lapShear": 15,
         "lapShearSubstrate": "Representative scalar uses the lower bound of the steel/steel 15-20 MPa range; exact substrate-specific ranges are retained in lapShearProfilesMPa.",
+        "lapShearProfilesMPa": {
+          "absAbs120C15Min": [
+            3,
+            5
+          ],
+          "steelSteel100C60Min": [
+            15,
+            20
+          ],
+          "stainlessSteel120C45Min": [
+            18,
+            25
+          ],
+          "alMg1AlMg1120C45Min": [
+            8,
+            15
+          ]
+        },
         "viscosityClass": "high",
         "viscosityValue": 37500,
         "viscosityUnit": "mPa.s",
@@ -103849,6 +104569,7 @@
         "elongationPct": 1.5,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 3,
         "cureProfiles": [
           {
             "temperatureC": 80,
@@ -103999,6 +104720,7 @@
         "elongationPct": 19,
         "hardnessValue": 75,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "17-21 kV/mm",
         "cureProfiles": [
           {
             "method": "UV-A Hoenle discharge lamp",
@@ -104131,7 +104853,14 @@
         "viscosityClass": "paste",
         "viscosityValue": "Paste",
         "viscosityUnit": "qualitative SDS physical state",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": {
+          "partA": 1.68
+        },
+        "vocContentGPerL": {
+          "partA": 7.9,
+          "partACombinedResinHardenerPct": 0.04
+        }
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -107515,6 +108244,11 @@
         "clarity": "transparent",
         "hardnessValue": 75,
         "hardnessScale": "Shore D, ASTM D2240",
+        "specificGravity": {
+          "partA25C": 1.16,
+          "partB25C": 1.15
+        },
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -107645,6 +108379,7 @@
         "elongationPct": 2.6,
         "hardnessValue": 83,
         "hardnessScale": "Shore D, ASTM D2240",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 30,
@@ -107763,6 +108498,8 @@
         "electricalBehavior": "not published",
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.08,
+        "shelfLifeMonths": 6,
         "chipBondStrengthMPa": 7.35,
         "cureDepthMm": "<2.5",
         "cureProfiles": [
@@ -107874,7 +108611,8 @@
         "tensileStrengthMPa": 5.2,
         "elongationPct": 45,
         "hardnessValue": 21,
-        "hardnessScale": "Shore A"
+        "hardnessScale": "Shore A",
+        "shelfLifeMonths": 6
       },
       "rankableSpecs": {
         "tensileStrengthMPa": 5.2,
@@ -107984,7 +108722,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 19,
@@ -108113,7 +108852,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 19,
@@ -108236,7 +108976,8 @@
         "thermalConductivity": 0.1,
         "electricalBehavior": 25,
         "dielectricConstant": 2.5,
-        "dielectricBreakdownKVPerMm": 25
+        "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 22,
@@ -108359,7 +109100,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -108480,6 +109222,7 @@
         "clarity": "transparent",
         "hardnessValue": "70-80",
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "tackFreeTime": 0.02,
         "cureProfiles": [
           {
@@ -108613,6 +109356,7 @@
         "clarity": "transparent",
         "hardnessValue": "70-80",
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "tackFreeTime": 0.02,
         "cureProfiles": [
           {
@@ -108751,6 +109495,7 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -108871,7 +109616,9 @@
         "clarity": "transparent",
         "electricalBehavior": 250,
         "hardnessValue": 85,
-        "hardnessScale": "Shore A"
+        "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 250,
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 22,
@@ -108989,7 +109736,9 @@
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
+        "specificGravity": 1.1
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -109110,7 +109859,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -109241,7 +109991,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 18,
@@ -109368,7 +110119,8 @@
         "thermalConductivity": 0.1,
         "electricalBehavior": 25,
         "dielectricConstant": 2.5,
-        "dielectricBreakdownKVPerMm": 25
+        "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 25,
@@ -109730,7 +110482,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -109853,7 +110606,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -109976,7 +110730,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -110333,7 +111088,8 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
-        "peelStrengthNPerM": 2000
+        "peelStrengthNPerM": 2000,
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 27,
@@ -110465,6 +111221,7 @@
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 1600,
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -110590,7 +111347,8 @@
         "tensileStrengthMPa": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
-        "peelStrengthNPerM": 1600
+        "peelStrengthNPerM": 1600,
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.2,
@@ -110826,7 +111584,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -110948,7 +111707,8 @@
         "electricalBehavior": 25,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111070,7 +111830,8 @@
         "electricalBehavior": 25,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111194,7 +111955,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111316,7 +112078,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111437,7 +112200,8 @@
         "electricalBehavior": 25,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111559,7 +112323,8 @@
         "electricalBehavior": 25,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "thermalConductivity": 0.1,
@@ -111689,7 +112454,8 @@
         "electricalBehavior": 25,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 21,
@@ -111923,7 +112689,8 @@
         "thermalConductivity": 0.1,
         "electricalBehavior": 25,
         "dielectricConstant": 2.5,
-        "dielectricBreakdownKVPerMm": 25
+        "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 29,
@@ -112053,7 +112820,8 @@
         "dielectricConstant": 2.5,
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
-        "hardnessScale": "Shore D"
+        "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25
       },
       "rankableSpecs": {
         "lapShear": 26,
@@ -112545,6 +113313,7 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -112670,6 +113439,7 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -112795,6 +113565,7 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -112920,6 +113691,7 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -113042,7 +113814,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 5,
@@ -113166,7 +113939,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 8,
@@ -113288,7 +114062,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 12,
@@ -113412,7 +114187,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 17,
@@ -113535,7 +114311,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 25,
@@ -113661,7 +114438,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 8,
@@ -113784,7 +114562,8 @@
         "viscosityUnit": "cP",
         "clarity": "opaque",
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 12,
@@ -113907,7 +114686,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 21,
@@ -114033,7 +114813,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 10,
@@ -114157,7 +114938,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 12,
@@ -114280,7 +115062,8 @@
         "viscosityUnit": "cP",
         "clarity": "opaque",
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 12,
@@ -114403,7 +115186,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 6,
@@ -114528,7 +115312,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 21,
@@ -114652,7 +115437,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 12,
@@ -116100,6 +116886,7 @@
         "dielectricBreakdownKVPerMm": "40-45",
         "hardnessValue": "80-85",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "40-45",
         "cureProfiles": [
           {
             "temperatureC": 130,
@@ -116245,6 +117032,7 @@
         "hardnessValue": "80-85",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2800,
+        "dielectricBreakdownVPerMil": 17.7,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -116398,6 +117186,7 @@
         "hardnessValue": "70-80",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 200,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -116786,6 +117575,7 @@
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2400,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -116922,6 +117712,7 @@
         "hardnessValue": "45-60",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2800,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -117058,6 +117849,7 @@
         "hardnessValue": "60-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 4000,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -117546,6 +118338,7 @@
         "hardnessValue": "30-50",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 4000,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -117952,6 +118745,7 @@
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2800,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -118326,6 +119120,7 @@
         "hardnessValue": "70-80",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2400,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -118739,6 +119534,7 @@
         "hardnessValue": "60-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2400,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -119368,6 +120164,7 @@
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 6000,
+        "dielectricBreakdownVPerMil": "15-25",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -119708,6 +120505,7 @@
           6000,
           9200
         ],
+        "dielectricBreakdownVPerMil": "15-25 kV/mm",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -119856,6 +120654,7 @@
         "elongationPct": 2.9,
         "hardnessValue": "85-95",
         "hardnessScale": "Shore D",
+        "specificGravity": 2.1,
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -119997,6 +120796,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -120124,7 +120924,8 @@
         "viscosityUnit": "mPa.s",
         "clarity": "opaque",
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 30,
@@ -120412,6 +121213,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -120536,7 +121339,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.2,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 14,
@@ -120750,6 +121554,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -120877,6 +121683,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121001,7 +121809,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 32,
@@ -121127,6 +121936,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121256,6 +122067,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121383,6 +122196,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121509,6 +122324,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121635,6 +122451,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121762,6 +122579,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -121889,6 +122707,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -122014,7 +122833,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.2,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 14,
@@ -122138,6 +122958,7 @@
         "thermalConductivity": 0.2,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -122262,7 +123083,8 @@
         "clarity": "opaque",
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
-        "dielectricBreakdownKVPerMm": 11
+        "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11
       },
       "rankableSpecs": {
         "lapShear": 30,
@@ -122384,6 +123206,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -122510,6 +123333,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -123305,6 +124129,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -123555,6 +124380,7 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -123683,6 +124509,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -123812,6 +124640,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -123938,6 +124768,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -124063,6 +124895,8 @@
         "thermalConductivity": 0.19,
         "electricalBehavior": 11,
         "dielectricBreakdownKVPerMm": 11,
+        "dielectricBreakdownVPerMil": 11,
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -125007,6 +125841,7 @@
         "hardnessValue": "55-85 Shore A; 20-30 Shore D",
         "hardnessScale": "Shore A / Shore D",
         "peelStrengthNPerM": 5600,
+        "dielectricBreakdownVPerMil": "20-30",
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -125271,6 +126106,7 @@
         "hardnessValue": 60,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 2000,
+        "dielectricBreakdownVPerMil": "18-20",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -126660,6 +127496,7 @@
         "elongationPct": "<10",
         "hardnessValue": "70-80",
         "hardnessScale": "Shore D",
+        "specificGravity": "A 1.25; B 1.45",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -126801,6 +127638,7 @@
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 6000,
+        "specificGravity": "A 1.25; B 1.45",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -126947,6 +127785,7 @@
         "elongationPct": "<20",
         "hardnessValue": "60-75",
         "hardnessScale": "Shore D",
+        "specificGravity": "A 1.25; B 1.45",
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -127360,6 +128199,8 @@
         "hardnessValue": "75-80",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 10000,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": "A 1.1; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -127496,6 +128337,8 @@
         "hardnessValue": "50-60",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 2000,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": "A 1.0; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -127630,6 +128473,7 @@
         "hardnessValue": "50-60",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 6000,
+        "specificGravity": "A 1.0; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -127917,6 +128761,7 @@
         "hardnessValue": "60-65",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 4000,
+        "specificGravity": "A 1.05; B 1.0",
         "cureProfiles": 60
       },
       "rankableSpecs": {
@@ -128042,6 +128887,7 @@
         "hardnessValue": "75-85",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 7000,
+        "specificGravity": "A 1.06; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -128248,6 +129094,8 @@
         "hardnessValue": "75-80",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 8000,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": "A 1.0; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -128599,6 +129447,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 30,
         "peelStrengthNPerM": 6000,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -128730,6 +129580,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 25,
         "peelStrengthNPerM": 1800,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -128860,6 +129712,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 25,
         "peelStrengthNPerM": 3400,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -128991,6 +129845,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 25,
         "peelStrengthNPerM": 1800,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -129121,6 +129977,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 30,
         "peelStrengthNPerM": 1800,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -129253,6 +130111,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": "25-30",
         "peelStrengthNPerM": 3400,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": 1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -129386,6 +130246,8 @@
         "dielectricBreakdownKVPerMm": "30-50",
         "tensileStrengthMPa": 25,
         "peelStrengthNPerM": 1800,
+        "dielectricBreakdownVPerMil": "30-50",
+        "specificGravity": "A 1.1; B 1.1",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -129602,6 +130464,7 @@
         "clarity": "opaque",
         "hardnessValue": "70-75",
         "hardnessScale": "Shore D",
+        "specificGravity": "A 1.1; B 1.1",
         "tackFreeTime": "<12 h",
         "cureProfiles": [
           {
@@ -129742,6 +130605,7 @@
         "hardnessValue": "60-65",
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 10000,
+        "specificGravity": "A 1.0; B 1.0",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -130164,6 +131028,7 @@
         "clarity": "opaque",
         "thermalConductivity": 0.1,
         "tensileStrengthMPa": 25,
+        "specificGravity": "A 1.1; B 1.1",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -130795,6 +131660,7 @@
         "tensileStrengthMPa": 29,
         "elongationPct": "15-20",
         "peelStrengthNPerM": 2800,
+        "dielectricBreakdownVPerMil": "30-50",
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -131017,6 +131883,8 @@
         "elongationPct": 90,
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -131159,6 +132027,7 @@
         "elongationPct": 95,
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
         "cureProfiles": [
           {
             "type": "uv",
@@ -131303,6 +132172,8 @@
         "elongationPct": "100-150",
         "hardnessValue": "65-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -131451,6 +132322,8 @@
         "elongationPct": ">80",
         "hardnessValue": "60-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -131599,6 +132472,8 @@
         "elongationPct": ">120",
         "hardnessValue": "45-50",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -131748,6 +132623,8 @@
         "elongationPct": ">60",
         "hardnessValue": "60-70",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -131896,6 +132773,8 @@
         "elongationPct": 110,
         "hardnessValue": 60,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -132217,6 +133096,8 @@
         "elongationPct": ">70",
         "hardnessValue": "55-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -132369,6 +133250,7 @@
         "elongationPct": 440,
         "hardnessValue": 40,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "glass",
@@ -132503,6 +133385,7 @@
         "elongationPct": "120-150",
         "hardnessValue": 30,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "PET",
@@ -132801,6 +133684,8 @@
         "elongationPct": 110,
         "hardnessValue": "55-75",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -133030,6 +133915,7 @@
         "elongationPct": 50,
         "hardnessValue": 65,
         "hardnessScale": "Shore D",
+        "specificGravity": 1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -133182,6 +134068,8 @@
         "elongationPct": ">70",
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -133414,6 +134302,8 @@
         "elongationPct": ">70",
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -133565,6 +134455,8 @@
         "elongationPct": ">70",
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "25-30",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "substrate": "acrylic",
@@ -133797,6 +134689,8 @@
         "elongationPct": ">80",
         "hardnessValue": "50-60",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 12,
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -133944,6 +134838,7 @@
         "elongationPct": ">50",
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -134099,6 +134994,7 @@
         "elongationPct": ">50",
         "hardnessValue": "50-65",
         "hardnessScale": "Shore D",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -134257,6 +135153,8 @@
         "elongationPct": "20-50",
         "hardnessValue": "60-70",
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "10-12",
+        "specificGravity": 1.1,
         "cureProfiles": [
           {
             "lamp": "low-power battery lamp",
@@ -136828,6 +137726,215 @@
       "extractionCandidates": []
     },
     {
+      "id": "permatex-super-glue-49450",
+      "source": "manual-tds",
+      "maker": "Permatex",
+      "name": "Super Glue Industrial (Item 49450)",
+      "profile": "thinCA",
+      "summary": "Low-viscosity instant cyanoacrylate for bonding metals, alloys, plastics, vinyl, rubber, and ceramics; TDS reports tensile-shear values for tested substrates.",
+      "applicationTags": [
+        "instant-bonding",
+        "general-repair",
+        "metal-bonding",
+        "plastic-bonding"
+      ],
+      "referenceCategory": "Instant Adhesives / Cyanoacrylates",
+      "referenceForJoining": "Bonding plastics, metals, and rubber; also listed substrates include vinyl and ceramics.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Cyanoacrylate resin",
+        "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+        "cureDetail": "Sets in seconds; fixture 5\u201310 s on degreased steel, G10 epoxy glass, and aluminum, and 40\u201360 s on oak. Hold for 15 s or until set; allow to harden overnight for best results.",
+        "serviceMin": -53,
+        "serviceMax": 82,
+        "gapFill": 0.1016,
+        "lapShearSubstrate": "Typical tensile-shear strength per ASTM D1002 (converted from psi ranges); steel and aluminum specimens sand-blasted. Steel 1800\u20132400 psi, G10 epoxy glass 2200\u20132800 psi, aluminum 1200\u20131600 psi, oak 1100\u20131600 psi.",
+        "lapShearTestMethod": "ASTM D1002 tensile-shear strength; manufacturer TDS typical values, test substrate surface preparation specified.",
+        "lapShearProfilesMPa": {
+          "steel": 14.5,
+          "g10EpoxyGlass": 17.2,
+          "aluminum": 9.7,
+          "oak": 9.3
+        },
+        "viscosityValue": 40,
+        "viscosityUnit": "cP (Brookfield LVF, spindle 1, 30 rpm, 25\u00b0C)",
+        "flashPointF": 200,
+        "specificGravity": 1.06
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/wp-content/uploads/tds/49450.pdf",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/49450.pdf",
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/permatex-super-glue-1-fl-oz/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.455,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not suitable for untreated polyethylene or polypropylene.",
+        "Fixture time varies significantly by substrate; oak is reported at 40\u201360 seconds versus 5\u201310 seconds for degreased steel, G10, and aluminum.",
+        "For best results, allow the joint to harden overnight."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "permatex-ultra-bond-super-glue-21309",
+      "source": "manual-tds",
+      "maker": "Permatex",
+      "name": "Ultra Bond Super Glue (Item 21309)",
+      "profile": "thinCA",
+      "summary": "Faster-acting ethyl cyanoacrylate instant adhesive for automotive trim and repairs across porous and nonporous materials, including leather, textiles, wood, and plastics.",
+      "applicationTags": [
+        "instant-bonding",
+        "automotive-trim",
+        "general-repair",
+        "leather",
+        "textile-bonding"
+      ],
+      "referenceCategory": "Instant Adhesives / Cyanoacrylates",
+      "referenceForJoining": "Automotive trim, logos, knobs, gear-shift logos, and minor interior repairs on compatible listed substrates.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Moisture-cure cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture in 15\u201330 s; full cure within 2 h per technical data sheet. Directions advise allowing parts to cure overnight.",
+        "serviceMin": -54,
+        "serviceMax": 82,
+        "gapFill": 0.1016,
+        "viscosityValue": 110,
+        "viscosityUnit": "cP",
+        "flashPointF": 200,
+        "specificGravity": 1.1,
+        "fullCureHours": 2,
+        "cureProfiles": 2
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+        "tdsUrl": "https://www.permatex.com/wp-content/uploads/tds/21309.pdf",
+        "productUrl": "https://www.permatex.com/products/adhesives-and-sealants/super-glues/",
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.455,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.15,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Will not bond polyethylene or polypropylene.",
+        "For one square inch of bond area, TDS directs using one drop and holding joined surfaces for 15\u201330 seconds without repositioning.",
+        "Technical data gives full cure within 2 hours while directions recommend allowing parts to cure overnight."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-pidilite-araldite",
       "source": "official-manufacturer-lead",
       "maker": "Pidilite",
@@ -137502,6 +138609,7 @@
         "elongationPct": 15,
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 10,
         "cureProfiles": [
           {
             "temperatureC": 15.6,
@@ -137903,6 +139011,13 @@
         "fixtureTime": 80,
         "lapShear": 12.7,
         "lapShearSubstrate": "ASTM D1002 aluminum; PC120 Cleaner Conditioner recommended on metal",
+        "lapShearProfilesMPa": {
+          "aluminum": 12.7,
+          "gelCoat": 14.9,
+          "powderCoatedSteel": 14.4,
+          "puCoatedGfrp": 2.7,
+          "stainlessSteel": 11.8
+        },
         "viscosityClass": "very-high",
         "viscosityValue": "A: 100000-125000; B: 35000-70000",
         "viscosityUnit": "cP",
@@ -137911,6 +139026,7 @@
         "elongationPct": 40,
         "hardnessValue": 72,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 2850,
         "cureProfiles": {
           "75pctUltimateAt74FMinutes": [
             80,
@@ -138206,6 +139322,7 @@
         "elongationPct": "5-10%",
         "hardnessValue": 72,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 15.6,
@@ -138342,6 +139459,7 @@
         "elongationPct": "25-45%",
         "hardnessValue": 74,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 15.6,
@@ -138482,6 +139600,7 @@
         "elongationPct": "30-60%",
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 15.6,
@@ -138612,6 +139731,13 @@
         "fixtureTime": 55,
         "lapShear": 17.4,
         "lapShearSubstrate": "ASTM D1002 aluminum; failure mode CF for listed substrates",
+        "lapShearProfilesMPa": {
+          "aluminum": 17.4,
+          "stainlessSteel": 17.3,
+          "cfrp": 12,
+          "satinCoatedSteel": 9.9,
+          "pcAluminum": 12.1
+        },
         "viscosityClass": "very-high",
         "viscosityValue": "A: 80000-130000; B: 35000-80000",
         "viscosityUnit": "cP",
@@ -138620,6 +139746,7 @@
         "elongationPct": 30,
         "hardnessValue": 71,
         "hardnessScale": "Shore D",
+        "tensileStrengthPsi": 3100,
         "cureProfiles": {
           "50psiMinutes": {
             "60F": [
@@ -140206,6 +141333,7 @@
         "viscosityClass": "high",
         "clarity": "opaque",
         "peelStrengthNPerM": 370,
+        "shelfLifeMonths": 18,
         "cureProfiles": [
           {
             "temperatureC": 23,
@@ -140958,7 +142086,13 @@
         "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 3 minutes for patching, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2\u20135 minute tack time.",
         "serviceMin": -34,
         "serviceMax": 66,
-        "viscosityClass": "medium"
+        "viscosityClass": "medium",
+        "flashPointF": 7,
+        "tackTimeRangeMinutes": [
+          2,
+          5
+        ],
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -141055,7 +142189,13 @@
         "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 2 minutes, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2\u20135 minute tack time.",
         "serviceMin": -34,
         "serviceMax": 66,
-        "viscosityClass": "medium"
+        "viscosityClass": "medium",
+        "flashPointF": 7,
+        "tackTimeRangeMinutes": [
+          2,
+          5
+        ],
+        "shelfLifeMonths": 18
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -146881,6 +148021,9 @@
         "serviceMax": 180,
         "lapShear": 0.8,
         "lapShearSubstrate": "SUS/SUS lap shear 0.8 MPa after KE-3411 shear test specimen cure of 23 +/-2 C at 50 +/-5% RH x 14 days; table is under Shin-Etsu heading Test Result after heating 250 C x 168 h.",
+        "lapShearProfilesMPa": {
+          "susSusAfter250C168h": 0.8
+        },
         "viscosityClass": "medium",
         "viscosityValue": 30,
         "viscosityUnit": "Pa.s",
@@ -147021,6 +148164,8 @@
         "elongationPct": 350,
         "hardnessValue": 30,
         "hardnessScale": "Durometer A",
+        "dielectricBreakdownVPerMil": "23 kV/mm measured at 1 mm thickness",
+        "fullCureHours": 168,
         "tackFreeTime": 6,
         "cureProfiles": 168
       },
@@ -147131,6 +148276,11 @@
         "fixtureTime": 60,
         "lapShear": 4.1,
         "lapShearSubstrate": "Tensile lap-shear strength after 120 C x 1 h cure: Al/Al 4.1 MPa, PBT/PBT 4.0 MPa, PPS/PPS 4.0 MPa.",
+        "lapShearProfilesMPa": {
+          "aluminumAluminum": 4.1,
+          "pbtPbt": 4,
+          "ppsPps": 4
+        },
         "viscosityClass": "high",
         "viscosityValue": 120,
         "viscosityUnit": "Pa.s at 23 C",
@@ -147261,6 +148411,7 @@
         "elongationPct": 30,
         "hardnessValue": 78,
         "hardnessScale": "Durometer A",
+        "dielectricBreakdownVPerMil": 23,
         "cureProfiles": [
           {
             "temperatureC": 120,
@@ -147381,6 +148532,7 @@
         "elongationPct": 370,
         "hardnessValue": 37,
         "hardnessScale": "Durometer A",
+        "dielectricBreakdownVPerMil": 20,
         "cureProfiles": [
           {
             "type": "thermal",
@@ -149005,7 +150157,8 @@
         "tensileStrengthMPa": 6,
         "elongationPct": 450,
         "hardnessValue": 60,
-        "hardnessScale": "Shore A, CQP023-1 / ISO 48-4"
+        "hardnessScale": "Shore A, CQP023-1 / ISO 48-4",
+        "shelfLifeMonths": 9
       },
       "rankableSpecs": {
         "lapShear": 4,
@@ -149265,7 +150418,9 @@
         "viscosityClass": "low",
         "viscosityValue": 250,
         "viscosityUnit": "mPa.s",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "solidsContentPct": 100,
+        "shelfLifeMonths": 9
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -152167,6 +153322,8 @@
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 19.7,
         "peelStrengthNPerM": 2451.8,
+        "dielectricBreakdownVPerMil": 500,
+        "shelfLifeMonths": 24,
         "cureProfiles": [
           {
             "temperatureC": 121,
@@ -152283,6 +153440,7 @@
         "electricalBehavior": "insulating",
         "dielectricBreakdownKVPerMm": 19.7,
         "peelStrengthNPerM": 1751.3,
+        "dielectricBreakdownVPerMil": 500,
         "cureProfiles": [
           {
             "temperatureC": 121,
@@ -152398,6 +153556,7 @@
         "viscosityClass": "very-high",
         "clarity": "opaque",
         "peelStrengthNPerM": 80,
+        "shelfLifeMonths": 18,
         "cureProfiles": [
           {
             "temperatureC": 20,
@@ -153838,6 +154997,8 @@
         "elongationPct": 50,
         "hardnessValue": 81,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 17.4,
+        "specificGravity": 2.9,
         "cureDepthMm": 8,
         "cureProfiles": [
           {
@@ -153962,6 +155123,7 @@
         "viscosityValue": 650,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "opaque",
+        "specificGravity": 1.13,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -154067,6 +155229,7 @@
         "viscosityValue": 350,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "transparent",
+        "specificGravity": 0.88,
         "cureProfiles": [
           {
             "condition": "M10 iron bolt/nut, initial fastening force 0, room temperature",
@@ -154195,6 +155358,8 @@
         "viscosityUnit": "Pa.s",
         "clarity": "translucent",
         "peelStrengthNPerM": 5200,
+        "specificGravity": 0.87,
+        "solidsContentPct": 26,
         "tackFreeTime": [
           8,
           10
@@ -154309,6 +155474,7 @@
         "elongationPct": 200,
         "hardnessValue": 55,
         "hardnessScale": "Shore A",
+        "fullCureHours": "72-168",
         "tackFreeTime": 7,
         "cureProfiles": [
           {
@@ -154443,7 +155609,9 @@
         "tensileStrengthMPa": 4.5,
         "elongationPct": 280,
         "hardnessValue": 40,
-        "hardnessScale": "Shore A"
+        "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 21,
+        "specificGravity": 1.39
       },
       "rankableSpecs": {
         "lapShear": 5.7,
@@ -154554,7 +155722,8 @@
         "viscosityClass": "low",
         "viscosityValue": 100,
         "viscosityUnit": "mPa.s / cP at 25 C",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.1
       },
       "rankableSpecs": {
         "lapShear": 24.1
@@ -154651,6 +155820,9 @@
         "cureDetail": "One-part UV-curable adhesive. Standard curing condition is 3000 mJ/cm2 using a Fusion D bulb / doped mercury source; UV-only curing thickness is 1.05 mm and UV plus 10 min at 150 C cures >5 mm.",
         "fixtureTime": 0.17,
         "lapShear": 7,
+        "lapShearProfilesMPa": {
+          "steelGlassGlassFailure": ">7.0"
+        },
         "viscosityClass": "high",
         "viscosityValue": 9600,
         "viscosityUnit": "cP",
@@ -154658,6 +155830,7 @@
         "electricalBehavior": "not published",
         "hardnessValue": 45,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.1,
         "cureDepthMm": 1.05,
         "cureProfiles": [
           {
@@ -154778,6 +155951,7 @@
         "elongationPct": 150,
         "hardnessValue": 10,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.01,
         "cureProfiles": [
           {
             "type": "uv",
@@ -155017,6 +156191,9 @@
         "cureFamily": "Electroconductive adhesive",
         "cureDetail": "One-part solvent-volatilization carbon-based electroconductive adhesive. Dry at 80 C x 30 min to form the conductive film, then heat-bond at 200 C x 10 sec x 0.49 MPa for the published Fe/EPDM peel data.",
         "lapShear": 0.92,
+        "lapShearProfilesMPa": {
+          "feFe80C30Min": 0.92
+        },
         "viscosityClass": "low",
         "viscosityValue": 600,
         "viscosityUnit": "mPa.s / cP at 25 C",
@@ -155024,6 +156201,8 @@
         "electricalBehavior": "isotropic-conductive",
         "volumeResistivityOhmM": 0.043,
         "peelStrengthNPerM": 1180,
+        "specificGravity": 0.87,
+        "shelfLifeMonths": 6,
         "cureProfiles": [
           {
             "type": "drying",
@@ -155142,6 +156321,7 @@
         "clarity": "opaque",
         "electricalBehavior": "anisotropic-z-axis",
         "peelStrengthNPerM": 850,
+        "specificGravity": 1.01,
         "cureProfiles": [
           {
             "type": "drying",
@@ -155258,7 +156438,8 @@
         "viscosityClass": "medium",
         "viscosityValue": 6.9,
         "viscosityUnit": "Pa.s / 69 P",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.33
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -155386,7 +156567,8 @@
         "viscosityClass": "high",
         "viscosityValue": 50,
         "viscosityUnit": "Pa.s by 3TS-210-02, rotor No.6, 10 rpm",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.08
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -155512,7 +156694,8 @@
         "viscosityClass": "very-high",
         "viscosityValue": 300,
         "viscosityUnit": "Pa.s / 3000 P",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.45
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -155640,7 +156823,8 @@
         "viscosityClass": "medium",
         "viscosityValue": 15,
         "viscosityUnit": "Pa.s by 3TS-210-02, BH type No.5, 20 rpm",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.26
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -155781,6 +156965,8 @@
         "elongationPct": 280,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "9 kV/mm",
+        "specificGravity": 0.97,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -155947,6 +157133,8 @@
         "elongationPct": 221,
         "hardnessValue": 41,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "13 kV/mm",
+        "specificGravity": 1.03,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -156112,6 +157300,8 @@
         "elongationPct": 300,
         "hardnessValue": 15,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "19 kV/mm",
+        "specificGravity": 1.24,
         "cureProfiles": [
           {
             "temperatureC": 150,
@@ -156274,6 +157464,7 @@
         "elongationPct": 300,
         "hardnessValue": 20,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.35,
         "cureDepthMm": 2.1,
         "tackFreeTime": 15
       },
@@ -156411,6 +157602,7 @@
         "viscosityValue": 600,
         "viscosityUnit": "mPa.s by 3TS-210-01, BL-type rotational viscometer No.3 rotor, 60 rpm",
         "clarity": "transparent",
+        "specificGravity": 0.79,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -156557,6 +157749,7 @@
         "elongationPct": 1720,
         "hardnessValue": 23,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.26,
         "tackFreeTime": 12
       },
       "rankableSpecs": {
@@ -156705,6 +157898,7 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.01,
         "tackFreeTime": 8
       },
       "rankableSpecs": {
@@ -156961,6 +158155,7 @@
         "elongationPct": 320,
         "hardnessValue": 45,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.55,
         "tackFreeTime": 60
       },
       "rankableSpecs": {
@@ -157106,6 +158301,7 @@
         "elongationPct": 300,
         "hardnessValue": 57,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.41,
         "tackFreeTime": 6
       },
       "rankableSpecs": {
@@ -157252,6 +158448,7 @@
         "elongationPct": 210,
         "hardnessValue": 60,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.39,
         "tackFreeTime": 6
       },
       "rankableSpecs": {
@@ -157397,6 +158594,7 @@
         "elongationPct": 550,
         "hardnessValue": 51,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.36,
         "tackFreeTime": 5
       },
       "rankableSpecs": {
@@ -157541,6 +158739,7 @@
         "elongationPct": 500,
         "hardnessValue": 45,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.37,
         "cureDepthMm": 2,
         "tackFreeTime": 7
       },
@@ -157691,6 +158890,8 @@
         "elongationPct": 48,
         "hardnessValue": 74,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "20 kV/mm",
+        "specificGravity": 2.6,
         "tackFreeTime": 5,
         "cureProfiles": [
           {
@@ -157957,6 +159158,7 @@
         "elongationPct": 410,
         "hardnessValue": 33,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.46,
         "cureDepthMm": 2,
         "tackFreeTime": 90
       },
@@ -158097,6 +159299,7 @@
         "elongationPct": 190,
         "hardnessValue": 60,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.39,
         "tackFreeTime": 10
       },
       "rankableSpecs": {
@@ -158348,6 +159551,7 @@
         "viscosityValue": 150,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "opaque",
+        "specificGravity": 1.11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -158586,6 +159790,7 @@
         "viscosityValue": 150,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "opaque",
+        "specificGravity": 1.11,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -158821,7 +160026,8 @@
         "viscosityClass": "low",
         "viscosityValue": 140,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.06
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -158948,6 +160154,7 @@
         "viscosityValue": 650,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "opaque",
+        "specificGravity": 1.1,
         "cureProfiles": 1440
       },
       "rankableSpecs": {},
@@ -159078,7 +160285,8 @@
         "viscosityValue": 2.5,
         "viscosityUnit": "Pa.s at 25 C and 200 s^-1 shear rate",
         "clarity": "opaque",
-        "peelStrengthNPerM": 3100
+        "peelStrengthNPerM": 3100,
+        "specificGravity": 1.1
       },
       "rankableSpecs": {
         "lapShear": 27.3,
@@ -159212,6 +160420,7 @@
         "viscosityValue": 1100,
         "viscosityUnit": "mPa.s / cP",
         "clarity": "opaque",
+        "specificGravity": 1.07,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -159347,7 +160556,8 @@
         "viscosityClass": "low",
         "viscosityValue": 100,
         "viscosityUnit": "mPa.s / cP by 3TS-210-02",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.07
       },
       "rankableSpecs": {
         "lapShear": 33
@@ -159481,7 +160691,8 @@
         "viscosityUnit": "mPa.s by 3TS-210-02, BH type No.4 at 20 rpm",
         "clarity": "opaque",
         "hardnessValue": 78,
-        "hardnessScale": "Durometer D"
+        "hardnessScale": "Durometer D",
+        "specificGravity": 1.1
       },
       "rankableSpecs": {
         "lapShear": 26.7,
@@ -159611,7 +160822,8 @@
         "lapShear": 23.1,
         "lapShearSubstrate": "Fe lap shear strength 23.1 MPa after 24 h at 25 C using TB1359D.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.79
       },
       "rankableSpecs": {
         "lapShear": 23.1
@@ -160064,6 +161276,7 @@
         "elongationPct": 280,
         "hardnessValue": 44,
         "hardnessScale": "JIS A",
+        "specificGravity": 1.39,
         "tackFreeTime": "7 minutes",
         "cureProfiles": [
           {
@@ -161012,6 +162225,12 @@
         },
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 1200,
+        "dielectricBreakdownVPerMil": {
+          "tb1537": 25,
+          "tb1537b": 24,
+          "tb1537d": 26
+        },
+        "specificGravity": 1.67,
         "tackFreeTime": 4,
         "cureProfiles": [
           {
@@ -161208,6 +162427,8 @@
         "hardnessValue": 70,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 2500,
+        "dielectricBreakdownVPerMil": 19,
+        "specificGravity": 1.34,
         "cureProfiles": [
           {
             "temperatureC": 60,
@@ -161369,6 +162590,7 @@
         "hardnessValue": 35,
         "hardnessScale": "Shore A",
         "peelStrengthNPerM": 560,
+        "specificGravity": 1.18,
         "cureProfiles": 30
       },
       "rankableSpecs": {
@@ -161860,7 +163082,8 @@
         "viscosityClass": "very-low",
         "viscosityValue": 2,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 15.8
@@ -162089,7 +163312,8 @@
         "viscosityClass": "low",
         "viscosityValue": 45,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 16.1
@@ -162220,7 +163444,8 @@
         "viscosityClass": "low",
         "viscosityValue": 20,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 14.7
@@ -162350,7 +163575,8 @@
         "viscosityClass": "medium",
         "viscosityValue": 500,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 14.7
@@ -162481,7 +163707,8 @@
         "viscosityClass": "high",
         "viscosityValue": 1300,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 18.6
@@ -162828,6 +164055,7 @@
           "1kHz": 0.0522
         },
         "dielectricBreakdownKVPerMm": 27,
+        "dielectricBreakdownVPerMil": 27,
         "cureProfiles": {
           "uvHighPressureMercury": 10,
           "visibleHalogen": 0.4
@@ -162983,6 +164211,8 @@
         "dielectricBreakdownKVPerMm": 29,
         "hardnessValue": 80,
         "hardnessScale": "Durometer D",
+        "dielectricBreakdownVPerMil": 29,
+        "specificGravity": 1.05,
         "cureProfiles": 10
       },
       "rankableSpecs": {
@@ -163138,6 +164368,7 @@
           "1kHz": 0.0534
         },
         "dielectricBreakdownKVPerMm": 26,
+        "dielectricBreakdownVPerMil": 26,
         "cureProfiles": {
           "uvHighPressureMercury": 10,
           "visibleHalogen": 0.2
@@ -163277,7 +164508,8 @@
         "viscosityClass": "high",
         "viscosityValue": 800,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 25
@@ -163408,7 +164640,8 @@
         "viscosityClass": "very-low",
         "viscosityValue": 2,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 15.6
@@ -163554,7 +164787,9 @@
           "1kHz": 0.0105,
           "50Hz": 0.1211
         },
-        "dielectricBreakdownKVPerMm": 30
+        "dielectricBreakdownKVPerMm": 30,
+        "dielectricBreakdownVPerMil": "30 MV/m / 30 kV/mm",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 18,
@@ -163682,7 +164917,19 @@
         "fixtureTime": 0.25,
         "lapShearSubstrate": "Glue accelerator; the official TDS publishes cure-time acceleration with TB1747 rather than adhesive strength.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": {
+          "accelerator31": 0.84,
+          "accelerator32": 0.85,
+          "acceleratorB9": 0.73,
+          "accelerator377": 0.84
+        },
+        "solidsContentPct": {
+          "accelerator31": 0.05,
+          "accelerator32": 0.05,
+          "acceleratorB9": 0.03,
+          "accelerator377": 0.05
+        }
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -163807,7 +165054,9 @@
         "fixtureTime": 0.167,
         "lapShearSubstrate": "Primer; the official TDS publishes TB1741 setting times on difficult substrates rather than lap-shear strength.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.8,
+        "solidsContentPct": "0.01-1.0"
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -163932,7 +165181,8 @@
         "viscosityClass": "low",
         "viscosityValue": 40,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 19.4
@@ -164164,7 +165414,8 @@
         "viscosityClass": "high",
         "viscosityValue": 1.7,
         "viscosityUnit": "Pa.s / 17 P",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 23
@@ -164295,7 +165546,8 @@
         "viscosityClass": "low",
         "viscosityValue": 45,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.05
       },
       "rankableSpecs": {
         "lapShear": 16.1
@@ -164436,6 +165688,8 @@
         "hardnessValue": 88,
         "hardnessScale": "JIS-D, JIS K 7215",
         "peelStrengthNPerM": 157,
+        "dielectricBreakdownVPerMil": "22 kV/mm by JIS K 6911",
+        "specificGravity": 1.14,
         "cureProfiles": [
           {
             "temperatureC": 60,
@@ -164601,6 +165855,8 @@
         "hardnessValue": 89,
         "hardnessScale": "JIS-D, JIS K 7215",
         "peelStrengthNPerM": 392,
+        "dielectricBreakdownVPerMil": "23 kV/mm by JIS K 6911",
+        "specificGravity": 1.23,
         "cureProfiles": [
           {
             "temperatureC": 60,
@@ -164770,6 +166026,8 @@
         "dielectricBreakdownKVPerMm": 31,
         "hardnessValue": 87,
         "hardnessScale": "Durometer D by 3TS-215-01",
+        "dielectricBreakdownVPerMil": "31 kV/mm",
+        "specificGravity": 1.37,
         "cureProfiles": [
           {
             "temperatureC": 80,
@@ -165126,6 +166384,7 @@
         "hardnessValue": 89,
         "hardnessScale": "Shore D",
         "peelStrengthNPerM": 4100,
+        "specificGravity": 1.6,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -165283,6 +166542,8 @@
         "dielectricBreakdownKVPerMm": 23,
         "hardnessValue": 92,
         "hardnessScale": "Durometer D",
+        "dielectricBreakdownVPerMil": "23 kV/mm",
+        "specificGravity": 1.69,
         "cureProfiles": [
           {
             "temperatureC": 140,
@@ -165444,6 +166705,8 @@
         "dielectricBreakdownKVPerMm": 24,
         "hardnessValue": 89,
         "hardnessScale": "Durometer D",
+        "dielectricBreakdownVPerMil": "24 kV/mm",
+        "specificGravity": 1.64,
         "cureProfiles": [
           {
             "temperatureC": 120,
@@ -165596,6 +166859,8 @@
         "dielectricBreakdownKVPerMm": 33,
         "hardnessValue": 90,
         "hardnessScale": "JIS D",
+        "dielectricBreakdownVPerMil": "33.0 kV/mm",
+        "specificGravity": 1.59,
         "cureProfiles": [
           {
             "temperatureC": 160,
@@ -165750,6 +167015,8 @@
         "dielectricBreakdownKVPerMm": 19,
         "hardnessValue": 96,
         "hardnessScale": "Durometer D",
+        "dielectricBreakdownVPerMil": "19 kV/mm",
+        "specificGravity": 2.86,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -165910,6 +167177,8 @@
         "dielectricBreakdownKVPerMm": 24,
         "hardnessValue": 92,
         "hardnessScale": "Durometer D",
+        "dielectricBreakdownVPerMil": "24 kV/mm",
+        "specificGravity": 1.64,
         "cureProfiles": [
           {
             "temperatureC": 100,
@@ -166063,6 +167332,8 @@
         "dielectricBreakdownKVPerMm": 31,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": "31 kV/mm",
+        "shelfLifeMonths": 7,
         "cureProfiles": [
           {
             "temperatureC": 150,
@@ -166210,6 +167481,7 @@
         "clarity": "opaque",
         "hardnessValue": 86,
         "hardnessScale": "JIS-D by 3TS-215-01",
+        "specificGravity": 1.14,
         "cureProfiles": [
           {
             "temperatureC": 70,
@@ -166457,6 +167729,8 @@
         "volumeResistivityOhmM": 12300000000000,
         "dielectricConstant": "4.64 at 1 MHz",
         "dielectricBreakdownKVPerMm": 26.4,
+        "dielectricBreakdownVPerMil": "26.4 MV/m / 26.4 kV/mm",
+        "specificGravity": 1.55,
         "cureProfiles": [
           {
             "temperatureC": 120,
@@ -167572,7 +168846,8 @@
         "cureDetail": "Aerosol cleaner for degreasing machine parts before assembly; no adhesive cure mechanism.",
         "lapShearSubstrate": "Cleaner only; the official TDS does not publish adhesive strength.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.67
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -167696,7 +168971,8 @@
         "viscosityClass": "medium",
         "viscosityValue": 500,
         "viscosityUnit": "mPa.s / cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.03
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -167944,6 +169220,8 @@
         "elongationPct": 195,
         "hardnessValue": 32,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "21 kV/mm",
+        "specificGravity": 1.11,
         "cureDepthMm": 3.5,
         "cureProfiles": 45
       },
@@ -168093,6 +169371,7 @@
         "elongationPct": 67.1,
         "hardnessValue": "33 +/- 3",
         "hardnessScale": "Shore A",
+        "specificGravity": 1.04,
         "cureDepthMm": 20
       },
       "rankableSpecs": {
@@ -168232,6 +169511,7 @@
         "clarity": "opaque",
         "hardnessValue": 41,
         "hardnessScale": "Shore A",
+        "specificGravity": 0.93,
         "cureDepthMm": 2.5,
         "cureProfiles": 30
       },
@@ -168373,6 +169653,7 @@
         "clarity": "opaque",
         "hardnessValue": 35,
         "hardnessScale": "Shore A",
+        "specificGravity": 0.93,
         "cureDepthMm": 3,
         "cureProfiles": 30
       },
@@ -168550,6 +169831,11 @@
           "highPressureMercury": 53
         },
         "hardnessScale": "Type D",
+        "dielectricBreakdownVPerMil": {
+          "uvLed": 13.6,
+          "highPressureMercury": 14
+        },
+        "specificGravity": 1.05,
         "cureDepthMm": {
           "uvLed": 1.5,
           "highPressureMercury": 1.3
@@ -168735,6 +170021,8 @@
         },
         "hardnessValue": 80,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 25,
+        "specificGravity": 1.02,
         "cureDepthMm": 3,
         "cureProfiles": 30
       },
@@ -168898,6 +170186,7 @@
           "shoreD": 63
         },
         "hardnessScale": "Shore A and Shore D",
+        "specificGravity": 1.16,
         "cureDepthMm": 12,
         "cureProfiles": 30
       },
@@ -169046,6 +170335,7 @@
         "clarity": "translucent",
         "hardnessValue": 58,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.54,
         "cureDepthMm": 2.9,
         "cureProfiles": 30
       },
@@ -169188,6 +170478,7 @@
         "elongationPct": 250,
         "hardnessValue": 70,
         "hardnessScale": "3TS-215-01, scale not specified in extracted table",
+        "specificGravity": 1.07,
         "cureDepthMm": ">=1",
         "cureProfiles": 30
       },
@@ -169348,6 +170639,8 @@
         "elongationPct": 180,
         "hardnessValue": 27,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "19 kV/mm",
+        "specificGravity": 1.11,
         "cureDepthMm": 3.6,
         "cureProfiles": 45
       },
@@ -169510,6 +170803,8 @@
         "elongationPct": 235,
         "hardnessValue": 19,
         "hardnessScale": "E",
+        "dielectricBreakdownVPerMil": "24.9 kV/mm",
+        "specificGravity": 1.09,
         "cureDepthMm": 3.5,
         "cureProfiles": 45
       },
@@ -169668,6 +170963,7 @@
         },
         "hardnessValue": 78,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.41,
         "cureProfiles": 60
       },
       "rankableSpecs": {
@@ -169918,6 +171214,8 @@
         "elongationPct": 140,
         "hardnessValue": 32,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": "30 kV/m as printed in TDS Table 3",
+        "specificGravity": 1,
         "tackFreeTime": "20 h at 25 C / 55% RH",
         "cureProfiles": [
           {
@@ -170183,6 +171481,7 @@
         "elongationPct": 220,
         "hardnessValue": 24,
         "hardnessScale": "Shore A",
+        "specificGravity": 0.99,
         "tackFreeTime": "8-24 h at 25 C / 55% RH",
         "cureProfiles": [
           {
@@ -170352,6 +171651,8 @@
         "elongationPct": 500,
         "hardnessValue": 15,
         "hardnessScale": "E",
+        "dielectricBreakdownVPerMil": "15.1 kV/mm",
+        "specificGravity": 1.01,
         "cureDepthMm": 6,
         "cureProfiles": 45
       },
@@ -170495,6 +171796,7 @@
         "viscosityValue": 17,
         "viscosityUnit": "Pa.s by 3TS-2F00-007, shear rate 20.0 s^-1",
         "clarity": "opaque",
+        "specificGravity": 1.02,
         "cureDepthMm": 3,
         "cureProfiles": 60
       },
@@ -170631,6 +171933,7 @@
         "clarity": "transparent",
         "hardnessValue": 70,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.04,
         "cureDepthMm": 18,
         "cureProfiles": [
           {
@@ -170781,6 +172084,7 @@
         "clarity": "translucent",
         "hardnessValue": 54,
         "hardnessScale": "Shore D",
+        "specificGravity": 1.06,
         "cureProfiles": [
           {
             "cureDoseMjCm2": 3000,
@@ -171406,6 +172710,8 @@
         "viscosityUnit": "Pa.s by 3TS-201, BL type No.2, 12 rpm for 30 s",
         "clarity": "opaque",
         "electricalBehavior": "conductive",
+        "specificGravity": 2.2,
+        "shelfLifeMonths": 12,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -171548,6 +172854,7 @@
         "clarity": "opaque",
         "electricalBehavior": "conductive",
         "volumeResistivityOhmM": 8e-05,
+        "specificGravity": 1.5,
         "cureProfiles": [
           {
             "temperatureC": 90,
@@ -171799,6 +173106,7 @@
         "dissipationFactor": {
           "1kHz": 0.0041
         },
+        "specificGravity": 2.6,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -171970,7 +173278,11 @@
         "viscosityValue": 3000,
         "viscosityUnit": "mPa.s / cP for each component",
         "clarity": "opaque",
-        "tensileStrengthMPa": 26.5
+        "tensileStrengthMPa": 26.5,
+        "specificGravity": {
+          "tb3923": 1,
+          "tb3928": 1
+        }
       },
       "rankableSpecs": {
         "lapShear": 26.5,
@@ -172188,6 +173500,10 @@
         "elongationPct": 130,
         "hardnessValue": 65,
         "hardnessScale": "Shore A",
+        "specificGravity": {
+          "agentA": 1.04,
+          "agentB": 1.04
+        },
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -172329,7 +173645,8 @@
         "viscosityClass": "high",
         "viscosityValue": 2300,
         "viscosityUnit": "mPa.s, BL type No.4, 60 rpm",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 0.85
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -172461,7 +173778,8 @@
         "viscosityClass": "high",
         "viscosityValue": 3000,
         "viscosityUnit": "mPa.s, BL type No.4, 60 rpm",
-        "clarity": "opaque"
+        "clarity": "opaque",
+        "specificGravity": 1.15
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -172716,7 +174034,8 @@
         "viscosityClass": "low",
         "viscosityValue": 10,
         "viscosityUnit": "mPa.s at 25 C",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.038
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -173189,6 +174508,8 @@
         "dielectricBreakdownKVPerMm": 27,
         "hardnessValue": 73,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 27,
+        "specificGravity": 1.07,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -173308,7 +174629,8 @@
         "viscosityClass": "high",
         "viscosityValue": 2000,
         "viscosityUnit": "mPa.s at 25 C",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.07
       },
       "rankableSpecs": {
         "lapShear": 25.7
@@ -173443,7 +174765,8 @@
         "viscosityClass": "very-high",
         "viscosityValue": 5000,
         "viscosityUnit": "mPa.s at 25 C",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 1.08
       },
       "rankableSpecs": {
         "lapShear": 27.7
@@ -173590,6 +174913,8 @@
         "dielectricBreakdownKVPerMm": 30,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 30,
+        "specificGravity": 1.05,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -173751,6 +175076,8 @@
         "dielectricBreakdownKVPerMm": 30,
         "hardnessValue": 80,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 30,
+        "specificGravity": 1.05,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -173912,6 +175239,8 @@
         "dielectricBreakdownKVPerMm": 27,
         "hardnessValue": 82,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 27,
+        "specificGravity": 1.05,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -174072,6 +175401,8 @@
         "dielectricBreakdownKVPerMm": 26,
         "hardnessValue": 82,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 26,
+        "specificGravity": 1.05,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -174232,6 +175563,8 @@
         "dielectricBreakdownKVPerMm": 30,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 30,
+        "specificGravity": 1.07,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -174392,6 +175725,8 @@
         "dielectricBreakdownKVPerMm": 29,
         "hardnessValue": 84,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 29,
+        "specificGravity": 1.08,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -174657,6 +175992,8 @@
         "dielectricBreakdownKVPerMm": 25,
         "hardnessValue": 85,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": 25,
+        "specificGravity": 1.09,
         "cureProfiles": [
           {
             "temperatureC": 25,
@@ -174875,7 +176212,8 @@
         "lapShear": 3.9,
         "lapShearSubstrate": "Curing-time/lap-shear table on SPCC-SD steel: TB1739/TB7796 is 1.3 MPa at 10 s, 2.7 at 1 min, 3.2 at 3 min and 3.9 at 24 h; TB1747/TB7796 is 0.9 MPa at 10 s, 1.8 at 1 min, 2.6 at 3 min and 3.0 at 24 h. Unaccelerated 24 h values are TB1739 15.0 MPa and TB1747 22.9 MPa.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.75
       },
       "rankableSpecs": {
         "lapShear": 3.9
@@ -174978,7 +176316,8 @@
         "lapShear": 9,
         "lapShearSubstrate": "With TB7784 and TB7797, tensile shear strength after 24 h at 25 C / 50% RH is PE 5.0 MPa material failure, PP 6.6 material failure, POM 9.0 material failure, PTFE 2.5 MPa deformation and silicone rubber 0.3 MPa material failure.",
         "viscosityClass": "low",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "specificGravity": 0.67
       },
       "rankableSpecs": {
         "lapShear": 9
@@ -177831,7 +179170,10 @@
         "viscosityClass": "medium",
         "viscosityValue": 4000,
         "viscosityUnit": "cP",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "flashPointF": ">200",
+        "solidsContentPct": 48,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 25.9
@@ -177945,7 +179287,10 @@
         "viscosityClass": "medium",
         "viscosityValue": 4200,
         "viscosityUnit": "cP",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "flashPointF": ">200",
+        "solidsContentPct": 52,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 27.6
@@ -178146,7 +179491,10 @@
         "viscosityClass": "medium",
         "viscosityValue": 3200,
         "viscosityUnit": "cP",
-        "clarity": "translucent"
+        "clarity": "translucent",
+        "flashPointF": ">200",
+        "solidsContentPct": 46,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {
         "lapShear": 24.8
@@ -178437,7 +179785,10 @@
         "viscosityClass": "very-high",
         "viscosityValue": 36500,
         "viscosityUnit": "cP",
-        "clarity": "transparent"
+        "clarity": "transparent",
+        "flashPointF": ">200",
+        "solidsContentPct": 60,
+        "shelfLifeMonths": 24
       },
       "rankableSpecs": {},
       "pricing": null,
@@ -181030,6 +182381,8 @@
         "elongationPct": 850,
         "hardnessValue": 18,
         "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 200,
+        "specificGravity": 1.4,
         "tackFreeTime": 45
       },
       "rankableSpecs": {
@@ -181136,6 +182489,8 @@
         "elongationPct": 400,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "tensileStrengthPsi": 650,
+        "specificGravity": 1.08,
         "tackFreeTime": 60,
         "cureProfiles": [
           {
@@ -181256,6 +182611,8 @@
         "elongationPct": 50,
         "hardnessValue": 46,
         "hardnessScale": "Shore A",
+        "specificGravity": 1.8,
+        "shelfLifeMonths": 9,
         "cureProfiles": [
           {
             "temperatureC": 130,
@@ -181365,6 +182722,16 @@
         "fixtureTime": 5,
         "lapShear": 1,
         "lapShearSubstrate": "1-2 N/mm2 on PBT and 1-2 N/mm2 on AlMgCu, 0.4 mm bondline, SEMICOSIL 811 / ELASTOSIL CAT UV 10:1, UVA 120 mW/cm2 / 10 sec, 24 h at 25 C",
+        "lapShearProfilesMPa": {
+          "pbtCatUv": [
+            1,
+            2
+          ],
+          "alMgCuCatUv": [
+            1,
+            2
+          ]
+        },
         "viscosityClass": "high",
         "viscosityValue": 300000,
         "viscosityUnit": "mPa.s",
@@ -181375,6 +182742,7 @@
         "elongationPct": 300,
         "hardnessValue": 30,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 23,
         "cureDepthMm": 8,
         "cureProfiles": [
           {
@@ -181495,6 +182863,7 @@
         "dielectricBreakdownKVPerMm": 10,
         "hardnessValue": 85,
         "hardnessScale": "Shore A",
+        "dielectricBreakdownVPerMil": 10,
         "cureProfiles": [
           {
             "temperatureC": 125,
@@ -181612,6 +182981,13 @@
         "fixtureTime": 480,
         "lapShear": 20,
         "lapShearSubstrate": "DIN EN 1465, 1.5 mm material thickness: steel 1.0338 sandblasted 20 MPa, aluminium sandblasted 15 MPa, ABS 6 MPa, PC 4 MPa, GFRP 10 MPa.",
+        "lapShearProfilesMPa": {
+          "steel10338Sandblasted": 20,
+          "aluminiumSandblasted": 15,
+          "abs": 6,
+          "polycarbonate": 4,
+          "gfrp": 10
+        },
         "viscosityClass": "high",
         "viscosityValue": 38000,
         "viscosityUnit": "mPa.s",
@@ -181622,6 +182998,8 @@
         "elongationPct": 2.9,
         "hardnessValue": 90,
         "hardnessScale": "Shore D",
+        "dielectricBreakdownVPerMil": ">24 kV/mm",
+        "shelfLifeMonths": 18,
         "cureProfiles": [
           {
             "temperatureC": 20,
@@ -181753,6 +183131,8 @@
         "viscosityValue": 20000,
         "viscosityUnit": "mPa.s mixture",
         "clarity": "transparent",
+        "specificGravity": 1,
+        "fullCureHours": 24,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -181865,7 +183245,8 @@
         "tensileStrengthMPa": 3.4,
         "elongationPct": 160,
         "hardnessValue": 57,
-        "hardnessScale": "Shore A"
+        "hardnessScale": "Shore A",
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 1.6,
@@ -181978,7 +183359,8 @@
         "tensileStrengthMPa": 1.3,
         "elongationPct": 500,
         "hardnessValue": 32,
-        "hardnessScale": "Shore A"
+        "hardnessScale": "Shore A",
+        "shelfLifeMonths": 12
       },
       "rankableSpecs": {
         "lapShear": 1.4,
@@ -182094,6 +183476,9 @@
         "electricalBehavior": "insulating",
         "volumeResistivityOhmM": 10000000000000,
         "dielectricBreakdownKVPerMm": 25,
+        "dielectricBreakdownVPerMil": "approx. 25 kV/mm",
+        "specificGravity": 1.1,
+        "fullCureHours": 24,
         "cureProfiles": 1440
       },
       "rankableSpecs": {
@@ -182210,6 +183595,8 @@
         "viscosityValue": 1600,
         "viscosityUnit": "minimum cps Brookfield",
         "clarity": "opaque",
+        "specificGravity": 0.995,
+        "shelfLifeMonths": 42,
         "compatibleMaterialPairs": [
           [
             "cpvc",
@@ -182324,6 +183711,8 @@
         "viscosityValue": 1600,
         "viscosityUnit": "minimum cps Brookfield at 73 F",
         "clarity": "opaque",
+        "specificGravity": 0.984,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "cpvc",
@@ -182435,6 +183824,9 @@
         "lapShearSubstrate": "The Weld-On 771 product bulletin does not publish lap-shear or bond-strength values; it publishes ABS pipe/fitting scope, standards and physical properties.",
         "viscosityClass": "medium",
         "clarity": "opaque",
+        "specificGravity": 0.87,
+        "vocContentGPerL": 325,
+        "shelfLifeMonths": 24,
         "compatibleMaterialPairs": [
           [
             "abs",

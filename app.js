@@ -6197,6 +6197,7 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Test methods / standards", "standards"],
   ["Lap-shear substrate and conditions", "lapShearSubstrate"],
   ["Lap-shear results by substrate (MPa)", "lapShearProfilesMPa"],
+  ["Lap-shear test method", "lapShearTestMethod"],
   ["Historical TDS lap-shear results by substrate (MPa)", "tdsLapShearProfilesMPa"],
   ["Historical TDS lap-shear test method", "tdsLapShearTestMethod"],
   ["Historical TDS fixture-time range (seconds)", "tdsFixtureTimeRangeSeconds"],
@@ -6229,6 +6230,8 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["TDS shear strength (psi)", "tdsShearStrengthPsi"],
   ["TDS shear test substrate", "tdsShearStrengthSubstrate"],
   ["TDS peel strength (lb/in width)", "tdsPeelStrengthPiw"],
+  ["TDS peel strength by substrate (lb/in width)", "tdsPeelStrengthProfilesPiw"],
+  ["TDS peel-strength test method", "tdsPeelStrengthTestMethod"],
   ["TDS heat resistance (°F)", "tdsHeatResistanceF"],
   ["TDS ball-and-ring melt point (°F)", "tdsBallAndRingMeltPointF"],
   ["TDS storage life (years)", "tdsStorageLifeYears"],
@@ -7089,7 +7092,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-catalog-source-labels-barge-hh66-elmers-20260923");
+    const response = await fetch("./data/selector-catalog.json?v=tds-batch-20260924-shoe-goo-permatex");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

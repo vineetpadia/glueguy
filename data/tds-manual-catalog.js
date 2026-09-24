@@ -60776,6 +60776,485 @@ window.TDS_MANUAL_PRODUCTS = [
     "notStructural": true,
     "serviceMin": null,
     "serviceMax": null
+  },
+  {
+    "id": "lepage-super-glue-all-plastics",
+    "profile": "thinCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue All Plastics",
+    "summary": "Two-part CA system supplied with a primer/activator for difficult plastics including PE, PP and PTFE.",
+    "sourceRevisionDate": "LePage Super Glue All Plastics Technical Data Sheet, revision August 26, 2016",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Prime difficult plastic surfaces with activator and wait 60 seconds. TDS fixture time is 30 seconds; leave undisturbed at least 10 minutes and allow 12–24 hours for cure.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "plastic": 8,
+      "rubber": 6,
+      "metal": 6,
+      "wood": 5,
+      "ceramic": 4,
+      "leather": 4,
+      "paper": 3,
+      "fabric": 4
+    },
+    "cautions": [
+      "Activator is recommended for PE, PP, PTFE and thermoplastic rubber; it is not needed for other listed substrates. Not for polystyrene foam, foam rubber, bone china, glass, silicone rubber, glazed surfaces, exterior use, high-flex joints or gap filling. Do not use for hot-liquid assemblies or heat food in bonded items."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue All Plastics Technical Data Sheet, revision August 26, 2016",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Clear liquid adhesive with separate activator",
+    "specificGravity": 1.05,
+    "solidsContentPct": 98,
+    "applicationTemperatureMinC": 10,
+    "fixtureTime": 0.5,
+    "tdsHandlingTimeMinutes": 10,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "shelfLifeMonths": 18,
+    "storageCondition": "Unopened shelf life: 30 months at 2–8°C or 18 months at 20°C. After opening, keep tightly sealed and dry at room temperature.",
+    "waterResistant": true,
+    "tdsLapShearProfilesMPa": {
+      "aluminum": 15.5
+    },
+    "lapShearRangeMPa": [
+      2,
+      20
+    ],
+    "tdsLapShearTestMethod": "ISO 4587; tensile-shear value on aluminum 15.5 MPa; TDS says results vary from 2–20 MPa by substrate after 12–24 h cure.",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-super-glue-gel-control",
+    "profile": "gelCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue Gel Control",
+    "summary": "No-drip cyanoacrylate gel for vertical and close-fitting repairs; TDS reports substrate-specific tensile-shear behavior.",
+    "sourceRevisionDate": "LePage Super Glue Gel Control Technical Data Sheet, revision March 30, 2015",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture time 15–30 seconds; leave undisturbed at least 10 minutes and allow 12–24 hours for cure.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 6,
+      "rubber": 6,
+      "plastic": 5,
+      "ceramic": 5,
+      "leather": 4,
+      "paper": 3,
+      "fabric": 4
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, polystyrene foam, foam rubber, bone china, glass, silicone rubber, glazed surfaces or exterior use. Not for hot-liquid assemblies, high-flex joints or gap filling; avoid dishwasher, oven and microwave."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue Gel Control Technical Data Sheet, revision March 30, 2015",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Clear gel",
+    "specificGravity": 1.05,
+    "applicationTemperatureMinC": 10,
+    "fixtureTimeRangeMinutes": [
+      0.25,
+      0.5
+    ],
+    "tdsHandlingTimeMinutes": 10,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "shelfLifeMonths": 24,
+    "storageCondition": "Unopened shelf life: 30 months refrigerated at 2–8°C or 24 months at 20°C; after opening, keep tightly sealed in a dry place at room temperature.",
+    "waterResistant": true,
+    "waterResistanceNote": "Moisture resistant; TDS cautions against continuous water exposure and cites EN 204 D3.",
+    "tdsLapShearProfilesMPa": {
+      "aluminum": 21.12
+    },
+    "lapShearRangeMPa": [
+      10,
+      20
+    ],
+    "tdsLapShearTestMethod": "ISO 4587; TDS range 10–20 MPa depending on substrate, 12–24 h cure; reported aluminum result 21.12 MPa.",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-super-glue-liquid-pro",
+    "profile": "thinCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue Liquid Pro",
+    "summary": "Liquid CA for close-fitting household repairs, with fixture and lap-shear tables for multiple substrates.",
+    "sourceRevisionDate": "LePage Super Glue Liquid Pro Technical Data Sheet, 2015",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture time ranges from under 1 to 45 seconds depending on substrate; leave undisturbed at least 5 minutes and allow 12–24 hours for cure. TDS full-bond instructions specify 24 hours.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "wood": 7,
+      "metal": 7,
+      "rubber": 6,
+      "plastic": 6,
+      "ceramic": 5,
+      "leather": 5,
+      "paper": 5,
+      "fabric": 5
+    },
+    "cautions": [
+      "Not for polystyrene foam, foam rubber, bone china, glass, silicone rubber, PE, PP, PTFE, glazed surfaces, hot-liquid assemblies, high-flex joints or gap filling. Do not place bonded items in oven or microwave."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue Liquid Pro Technical Data Sheet, 2015",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Clear liquid",
+    "specificGravity": 1.08,
+    "applicationTemperatureMinC": 10,
+    "fixtureTimeRangeMinutes": [
+      0.016666666666666666,
+      0.75
+    ],
+    "fixtureTimeNote": "Fixture time to 0.1 MPa varies by substrate: under 1 second to 45 seconds per TDS table.",
+    "tdsFixtureTimeRangeSeconds": [
+      1,
+      45
+    ],
+    "tdsHandlingTimeMinutes": 5,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "shelfLifeMonths": 21,
+    "storageCondition": "Unopened shelf life is 21 months at 2–8°C and also 21 months at 20°C; keep sealed and dry after opening.",
+    "waterResistant": true,
+    "lapShearRangeMPa": [
+      0.5,
+      24
+    ],
+    "tdsLapShearProfilesMPa": {
+      "aluminumEtched": [
+        2,
+        11
+      ],
+      "steelGritBlasted": [
+        17,
+        24
+      ],
+      "zincDichromate": [
+        0.5,
+        2
+      ],
+      "abs": [
+        7,
+        9
+      ],
+      "pvc": [
+        7,
+        16
+      ],
+      "polycarbonate": [
+        7,
+        11
+      ],
+      "phenolic": [
+        1,
+        5
+      ],
+      "neoprene": [
+        1,
+        2
+      ],
+      "nitrileRubber": [
+        1,
+        2
+      ]
+    },
+    "tdsLapShearTestMethod": "ISO 4587; substrate-specific shear values after 72 h at 22°C. Examples: steel grit-blasted 17–24 MPa; aluminum etched 2–11 MPa.",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-super-glue-longneck-bottle",
+    "profile": "thinCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue Longneck Bottle",
+    "summary": "Ethyl cyanoacrylate with an extended precision nozzle for controlled drops and hard-to-reach repairs.",
+    "sourceRevisionDate": "LePage Super Glue Longneck Bottle Technical Data Sheet, revision May 1, 2024",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture time 15–30 seconds; leave undisturbed for at least 10 minutes. Full cure strength is reached in 24 hours.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 6,
+      "rubber": 5,
+      "plastic": 5,
+      "ceramic": 4,
+      "leather": 4,
+      "paper": 3,
+      "fabric": 4
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, silicone, foam rubber, polystyrene foams, glass, very soft leather or bone china. Not for oven/microwave/dishwasher, hot-liquid assemblies, exterior exposure, high-flex joints or gap filling."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue Longneck Bottle Technical Data Sheet, revision May 1, 2024",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity",
+      "specificGravity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Colorless-to-straw liquid",
+    "viscosityRangeCps": [
+      60,
+      80
+    ],
+    "tdsViscosityRangeCps": [
+      60,
+      80
+    ],
+    "viscosityUnit": "cP",
+    "applicationTemperatureMinC": 10,
+    "fixtureTimeRangeMinutes": [
+      0.25,
+      0.5
+    ],
+    "tdsHandlingTimeMinutes": 10,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "shelfLifeMonths": 18,
+    "waterResistant": true,
+    "lapShearRangeMPa": [
+      10,
+      20
+    ],
+    "tdsLapShearTestMethod": "ISO 4587; TDS tensile-shear strength varies by substrate from 10–20 MPa after 12–24 h cure.",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-super-glue-ultra-gel-control",
+    "profile": "gelCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue Ultra Gel Control",
+    "summary": "Rubber-toughened CA gel for shock, vibration and higher-flexibility repairs; TDS reports peel, tensile-shear and drop-test results.",
+    "sourceRevisionDate": "LePage Super Glue Ultra Gel Control Technical Data Sheet, revision April 30, 2015",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture time 15–30 seconds by TDS typical property; hold the parts for 60 seconds in the application instructions. Leave at least 10 minutes before handling; full cure in 24 hours.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 7,
+      "rubber": 8,
+      "plastic": 6,
+      "ceramic": 5,
+      "leather": 5,
+      "paper": 4,
+      "fabric": 5
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, silicone rubber, polystyrene foams or glass. TDS says moisture resistant but not suitable for continuous water exposure. Avoid dishwasher, oven and microwave; not for hot-liquid assemblies."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue Ultra Gel Control Technical Data Sheet, revision April 30, 2015",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Clear rubber-toughened gel",
+    "specificGravity": 1.05,
+    "viscosityValue": 50000,
+    "viscosityUnit": "cP",
+    "applicationTemperatureMinC": 10,
+    "fixtureTimeRangeMinutes": [
+      0.25,
+      0.5
+    ],
+    "tdsHandlingTimeMinutes": 10,
+    "tdsFullCureHours": 24,
+    "shelfLifeMonths": 18,
+    "storageCondition": "Unopened shelf life: 24 months at 2–8°C or 18 months at 20°C; store dry and sealed after opening.",
+    "waterResistant": true,
+    "waterResistanceNote": "Moisture resistant but not intended for continuous water exposure; TDS reports EN 204 D3.",
+    "tdsLapShearProfilesMPa": {
+      "aluminum": 21.12
+    },
+    "lapShearRangeMPa": [
+      15,
+      25
+    ],
+    "tdsLapShearTestMethod": "ISO 4587; TDS reports 15–25 MPa by substrate and 21.12 MPa on aluminum after 12–24 h cure.",
+    "tdsPeelStrengthProfilesPiw": {
+      "aluminum": 14.3
+    },
+    "tdsImpactStrength": "More than 60 drops to break the bonded item (TDS drop test).",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-super-glue-ultra-liquid-control",
+    "profile": "thinCA",
+    "maker": "LePage",
+    "name": "LePage Super Glue Ultra Liquid Control",
+    "summary": "Moisture-resistant liquid CA in a side-squeeze precision bottle; manufacturer TDS describes a dishwasher-safe formula for indoor repairs.",
+    "sourceRevisionDate": "LePage Super Glue Ultra Liquid Control Technical Data Sheet, revision July 3, 2014",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate instant adhesive",
+    "cureDetail": "Fixture time 10–30 seconds; leave undisturbed at least 10 minutes. Full cure is 24 hours.",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 1,
+      "impact": 1
+    },
+    "substrates": {
+      "wood": 7,
+      "metal": 6,
+      "rubber": 5,
+      "plastic": 5,
+      "ceramic": 5,
+      "leather": 5,
+      "paper": 5,
+      "fabric": 5
+    },
+    "cautions": [
+      "Not for PE, PP, PTFE, foam or silicone rubber, polystyrene foam, glass, bone china or very soft leather. Not for oven/microwave, hot-liquid assemblies, glazed surfaces, exterior exposure, high-flex joints or gap filling."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Super Glue Ultra Liquid Control Technical Data Sheet, revision July 3, 2014",
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "serviceMin",
+      "potLife",
+      "thermalConductivity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+    "appearance": "Clear liquid",
+    "specificGravity": 1.05,
+    "applicationTemperatureMinC": 10,
+    "fixtureTimeRangeMinutes": [
+      0.16666666666666666,
+      0.5
+    ],
+    "tdsHandlingTimeMinutes": 10,
+    "tdsFullCureHours": [
+      12,
+      24
+    ],
+    "shelfLifeMonths": 18,
+    "storageCondition": "Unopened shelf life: 30 months refrigerated at 2–8°C or 18 months at 20°C; after opening, store tightly sealed in a dry place.",
+    "waterResistant": true,
+    "lapShearRangeMPa": [
+      10,
+      20
+    ],
+    "tdsLapShearProfilesMPa": {
+      "aluminum": 15.5
+    },
+    "tdsLapShearTestMethod": "ISO 4587; TDS strength varies 10–20 MPa by substrate, with aluminum at 15.5 MPa after 12–24 h cure.",
+    "lapShear": null,
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -77044,12 +77523,138 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pro-carpenters-wood-glue/SAP_0201FTL019Y3.html",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-all-plastics",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue All Plastics",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "plastic, rubber, metal, wood, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-gel-control",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue Gel Control",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-liquid-pro",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue Liquid Pro",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-longneck-bottle",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue Longneck Bottle",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-ultra-gel-control",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue Ultra Gel Control",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-super-glue-ultra-liquid-control",
+    "manufacturer": "LePage",
+    "familyName": "LePage Super Glue Ultra Liquid Control",
+    "primaryCategory": "Household instant adhesives",
+    "categories": [
+      "Household instant adhesives"
+    ],
+    "sampleType": "Consumer bottle or tube",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
+    "applicationTags": [
+      "instant-bonding",
+      "household-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 615,
-  "referenceFamilies": 615,
-  "tdsBackedProducts": 608,
+  "selectorProducts": 621,
+  "referenceFamilies": 621,
+  "tdsBackedProducts": 614,
   "otherOfficialTechnicalSources": 7
 };

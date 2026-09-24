@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T02:31:24.088434+00:00",
+  "generatedAt": "2026-09-24T02:36:23.457923+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,10 +12,10 @@
   ],
   "stats": {
     "products": 1730,
-    "manualTdsProducts": 608,
+    "manualTdsProducts": 614,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 687,
+    "officialManufacturerLeads": 681,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -850,17 +850,17 @@
         "lepage-pl-premium-max",
         "lepage-pro-carpenters-glue",
         "lepage-speed-set-epoxy",
+        "lepage-super-glue-all-plastics",
+        "lepage-super-glue-gel-control",
+        "lepage-super-glue-liquid-pro",
+        "lepage-super-glue-longneck-bottle",
+        "lepage-super-glue-ultra-gel-control",
+        "lepage-super-glue-ultra-liquid-control",
         "official-lead-lepage-lepage-epoxy-gel",
         "official-lead-lepage-lepage-epoxy-steel",
         "official-lead-lepage-lepage-outdoor-weatherproof-wood-glue",
         "official-lead-lepage-lepage-pl200-drywall",
-        "official-lead-lepage-lepage-pl400-subfloor-deck",
-        "official-lead-lepage-lepage-super-glue-all-plastics",
-        "official-lead-lepage-lepage-super-glue-gel-control",
-        "official-lead-lepage-lepage-super-glue-liquid-pro",
-        "official-lead-lepage-lepage-super-glue-longneck-bottle",
-        "official-lead-lepage-lepage-super-glue-ultra-gel-control",
-        "official-lead-lepage-lepage-super-glue-ultra-liquid-control"
+        "official-lead-lepage-lepage-pl400-subfloor-deck"
       ],
       "Limitless Shielding Limited": [
         "limitless-shielding-ca-sa-170",
@@ -4008,6 +4008,12 @@
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "lepage-super-glue-all-plastics",
+        "lepage-super-glue-gel-control",
+        "lepage-super-glue-liquid-pro",
+        "lepage-super-glue-longneck-bottle",
+        "lepage-super-glue-ultra-gel-control",
+        "lepage-super-glue-ultra-liquid-control",
         "liquid-nails-ln700",
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min"
@@ -4145,6 +4151,12 @@
         "chipquik-sg3",
         "chipquik-sg4",
         "gc-electronics-10-120",
+        "lepage-super-glue-all-plastics",
+        "lepage-super-glue-gel-control",
+        "lepage-super-glue-liquid-pro",
+        "lepage-super-glue-longneck-bottle",
+        "lepage-super-glue-ultra-gel-control",
+        "lepage-super-glue-ultra-liquid-control",
         "loctite-401",
         "loctite-403",
         "loctite-406",
@@ -7573,8 +7585,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 687,
-      "official-tds-url": 335,
+      "official-manufacturer-lead": 681,
+      "official-tds-url": 341,
       "product-or-catalog-page": 191
     }
   },
@@ -69812,25 +69824,39 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-all-plastics",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-all-plastics",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue All Plastics",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "thinCA",
+      "summary": "Two-part CA system supplied with a primer/activator for difficult plastics including PE, PP and PTFE.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "plastic, rubber, metal, wood, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Prime difficult plastic surfaces with activator and wait 60 seconds. TDS fixture time is 30 seconds; leave undisturbed at least 10 minutes and allow 12\u201324 hours for cure.",
+        "serviceMax": 82,
+        "fixtureTime": 0.5,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "specificGravity": 1.05,
+        "solidsContentPct": 98,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf",
@@ -69838,35 +69864,43 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-All-Plastics-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-all-plastics/SAP_0201DFL01BK5.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
           "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
@@ -69887,38 +69921,49 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Activator is recommended for PE, PP, PTFE and thermoplastic rubber; it is not needed for other listed substrates. Not for polystyrene foam, foam rubber, bone china, glass, silicone rubber, glazed surfaces, exterior use, high-flex joints or gap filling. Do not use for hot-liquid assemblies or heat food in bonded items."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-gel-control",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-gel-control",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue Gel Control",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "gelCA",
+      "summary": "No-drip cyanoacrylate gel for vertical and close-fitting repairs; TDS reports substrate-specific tensile-shear behavior.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture time 15\u201330 seconds; leave undisturbed at least 10 minutes and allow 12\u201324 hours for cure.",
+        "serviceMax": 82,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "specificGravity": 1.05,
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf",
@@ -69926,35 +69971,43 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Gel-Control-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-gel-control/SAP_0201DGL019X7.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
@@ -69975,38 +70028,49 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for PE, PP, PTFE, polystyrene foam, foam rubber, bone china, glass, silicone rubber, glazed surfaces or exterior use. Not for hot-liquid assemblies, high-flex joints or gap filling; avoid dishwasher, oven and microwave."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-liquid-pro",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-liquid-pro",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue Liquid Pro",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "thinCA",
+      "summary": "Liquid CA for close-fitting household repairs, with fixture and lap-shear tables for multiple substrates.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture time ranges from under 1 to 45 seconds depending on substrate; leave undisturbed at least 5 minutes and allow 12\u201324 hours for cure. TDS full-bond instructions specify 24 hours.",
+        "serviceMax": 82,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "specificGravity": 1.08,
+        "shelfLifeMonths": 21
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf",
@@ -70014,35 +70078,43 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Liquid-Pro-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-liquid-pro/SAP_0201DCL019X4.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
@@ -70063,38 +70135,49 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for polystyrene foam, foam rubber, bone china, glass, silicone rubber, PE, PP, PTFE, glazed surfaces, hot-liquid assemblies, high-flex joints or gap filling. Do not place bonded items in oven or microwave."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-longneck-bottle",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-longneck-bottle",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue Longneck Bottle",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "thinCA",
+      "summary": "Ethyl cyanoacrylate with an extended precision nozzle for controlled drops and hard-to-reach repairs.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture time 15\u201330 seconds; leave undisturbed for at least 10 minutes. Full cure strength is reached in 24 hours.",
+        "serviceMax": 82,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "viscosityUnit": "cP",
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf",
@@ -70102,36 +70185,45 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Longneck-Bottle-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-longneck-bottle/SAP_0201DCL019X1.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
+        "electronicsFieldsPresent": [
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -70151,38 +70243,54 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for PE, PP, PTFE, silicone, foam rubber, polystyrene foams, glass, very soft leather or bone china. Not for oven/microwave/dishwasher, hot-liquid assemblies, exterior exposure, high-flex joints or gap filling."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-ultra-gel-control",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-ultra-gel-control",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue Ultra Gel Control",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "gelCA",
+      "summary": "Rubber-toughened CA gel for shock, vibration and higher-flexibility repairs; TDS reports peel, tensile-shear and drop-test results.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture time 15\u201330 seconds by TDS typical property; hold the parts for 60 seconds in the application instructions. Leave at least 10 minutes before handling; full cure in 24 hours.",
+        "serviceMax": 82,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "viscosityValue": 50000,
+        "viscosityUnit": "cP",
+        "tdsPeelStrengthProfilesPiw": {
+          "aluminum": 14.3
+        },
+        "specificGravity": 1.05,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf",
@@ -70190,36 +70298,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Gel-Control-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-gel-control/SAP_0201DGL019X9.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -70239,38 +70355,49 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for PE, PP, PTFE, silicone rubber, polystyrene foams or glass. TDS says moisture resistant but not suitable for continuous water exposure. Avoid dishwasher, oven and microwave; not for hot-liquid assemblies."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-super-glue-ultra-liquid-control",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-super-glue-ultra-liquid-control",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Super Glue Ultra Liquid Control",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "thinCA",
+      "summary": "Moisture-resistant liquid CA in a side-squeeze precision bottle; manufacturer TDS describes a dishwasher-safe formula for indoor repairs.",
+      "applicationTags": [
+        "instant-bonding",
+        "household-repair"
+      ],
+      "referenceCategory": "Household instant adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, leather, paper, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate instant adhesive",
+        "cureDetail": "Fixture time 10\u201330 seconds; leave undisturbed at least 10 minutes. Full cure is 24 hours.",
+        "serviceMax": 82,
+        "lapShearSubstrate": "The linked TDS reports substrate-specific results/ranges; see its exact test conditions below.",
+        "specificGravity": 1.05,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf",
@@ -70278,35 +70405,43 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Super-Glue-Ultra-Liquid-Control-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.364,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "clarity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
@@ -70327,15 +70462,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, clarity",
+        "Verified absent from available TDS fields: serviceMin, potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for PE, PP, PTFE, foam or silicone rubber, polystyrene foam, glass, bone china or very soft leather. Not for oven/microwave, hot-liquid assemblies, glazed surfaces, exterior exposure, high-flex joints or gap filling."
       ],
       "extractionCandidates": []
     },

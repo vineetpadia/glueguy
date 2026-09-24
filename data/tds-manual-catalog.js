@@ -57,6 +57,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "cP",
     "tdsUrl": "https://multimedia.3m.com/mws/media/2365898O/3m-scotch-weld-instant-adhesive-ca5.pdf",
     "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA5 Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024",
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -125,6 +127,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityUnit": "cP",
     "tdsUrl": "https://multimedia.3m.com/mws/media/2365874O/3m-scotch-weld-instant-adhesive-ca50-gel.pdf",
     "tdsDocumentLabel": "3M Scotch-Weld Instant Adhesive CA50 Gel Technical Data Sheet, last revision December 2024, supersedes June 2024; PDF creation date December 11, 2024",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -212,6 +215,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "viscosityNote": "Cone-Plate viscosity CP50 at 100/s shear rate",
     "tdsUrl": "https://multimedia.3m.com/mws/media/1235401O/plastic-and-rubber-instant-adhesives-technical-data-sheet.pdf",
     "tdsDocumentLabel": "3M Scotch-Weld Plastic and Rubber Instant Adhesives Technical Data, February 2016; PDF creation date June 21, 2016",
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -417,7 +423,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/2365885O/3m-scotch-weld-low-odor-acrylic-adhesive-dp8810ns-green.pdf",
-    "tdsDocumentLabel": "3M Scotch-Weld Low Odor Acrylic Adhesive DP8810NS Green Technical Data Sheet, last revision February 2025, supersedes September 2024"
+    "tdsDocumentLabel": "3M Scotch-Weld Low Odor Acrylic Adhesive DP8810NS Green Technical Data Sheet, last revision February 2025, supersedes September 2024",
+    "thermalConductivity": null
   },
   {
     "id": "3m-vhb-4950",
@@ -558,7 +565,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/2366469O/3m-vhb-tape-specialty-tape-4950.pdf",
-    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4950 Technical Data Sheet, last revision September 2024"
+    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4950 Technical Data Sheet, last revision September 2024",
+    "thermalConductivity": null
   },
   {
     "id": "3m-vhb-4945",
@@ -716,7 +724,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://multimedia.3m.com/mws/media/1231314O/3m-vhb-y-4950y-4930y-4920y-4945y-4922-data-sheet.pdf"
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/2369650O/3m-vhb-tape-specialty-tape-4945-technical-data-sheet.pdf?fn=3m-iatd-anz-vhb-tape-specialty-tape-4945-tds.pdf",
-    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4945 Technical Data Sheet, last revision May 2022"
+    "tdsDocumentLabel": "3M VHB Tape - Specialty Tape 4945 Technical Data Sheet, last revision May 2022",
+    "thermalConductivity": null
   },
   {
     "id": "loctite-243",
@@ -859,7 +868,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "unpublishedFields": [
       "potLife"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "loctite-403",
@@ -910,7 +920,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "viscosityValue": "900-1500",
     "viscosityUnit": "mPa.s",
-    "viscosityNote": "Cone & Plate at 100 s⁻¹ shear rate, 25°C; Brookfield LVF Spindle 2 at 12 rpm: 1100-1650 mPa.s"
+    "viscosityNote": "Cone & Plate at 100 s⁻¹ shear rate, 25°C; Brookfield LVF Spindle 2 at 12 rpm: 1100-1650 mPa.s",
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "loctite-hy4070",
@@ -1109,7 +1121,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-595-en_GL.pdf",
     "supportingReferenceUrls": [
       "https://www.henkel-adhesives.com/us/en/product/flexible-sealants/loctite_si_595.html"
-    ]
+    ],
+    "serviceMin": null,
+    "thermalConductivity": null
   },
   {
     "id": "loctite-aa3492",
@@ -1348,7 +1362,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
-    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf"
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3492-en_GL.pdf",
+    "thermalConductivity": null
   },
   {
     "id": "cemedine-sx1008",
@@ -1464,7 +1479,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "cureProfiles"
     ],
-    "serviceTemperatureNote": "No explicit service temp range; heat aging data at 120–130 °C (up to 18 weeks); thermal shock −40 to +125 °C (3000 cycles); standard test conditions 16–27 °C."
+    "serviceTemperatureNote": "No explicit service temp range; heat aging data at 120–130 °C (up to 18 weeks); thermal shock −40 to +125 °C (3000 cycles); standard test conditions 16–27 °C.",
+    "potLife": null
   },
   {
     "id": "cemedine-sx720",
@@ -1568,7 +1584,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "cureProfiles"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "shinetsu-ke8100",
@@ -1743,7 +1760,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The official TDS does not publish pot life or lap-shear strength for SEMICOSIL 9720 TC.",
       "Appearance is white/opaque, not optically clear."
     ],
-    "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf"
+    "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-9720-TC-en-2025.01.07.pdf",
+    "potLife": null,
+    "lapShear": null
   },
   {
     "id": "weicon-easy-mix-pe-pp-50",
@@ -1853,7 +1872,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "cemedine-3000rx",
@@ -2396,7 +2416,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://media.weicon.de/fmds/466804/dld%3Ainline",
     "supportingReferenceUrls": [
       "https://www.weicon.de/en/flex-310-m-hybrid-universally-applicable-strong-and-flexible-adhesive-and-sealant/10067875"
-    ]
+    ],
+    "thermalConductivity": null,
+    "stress": null
   },
   {
     "id": "weicon-flex310m-ht220plus",
@@ -2512,7 +2534,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "delo-monopox-tc2270",
@@ -2912,7 +2935,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "dow-q3-3526",
@@ -3007,7 +3032,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Service-temperature ranges are estimated from formulation and laboratory testing; actual service range depends on the application environment.",
       "Primerless adhesion entries marked with an asterisk in the Dow table are encoded as consult Dow rather than treated as positive ratings."
     ],
-    "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true"
+    "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+    "thermalConductivity": null
   },
   {
     "id": "dow-ea-9187l",
@@ -3181,7 +3207,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-1324",
@@ -3275,7 +3304,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1324-anaerobic-sealant.pdf",
     "supportingReferenceUrls": [
       "https://threebond.com/products/adhesives/gasket-adhesives/"
-    ]
+    ],
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "panacol-vitralit-6127",
@@ -3456,7 +3487,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "plexus-ma300",
@@ -3576,7 +3608,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS explicitly recommends application at 65–85°F (18–30°C) for proper cure; temperatures outside that range slow or accelerate cure significantly.",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "plexus-ma310",
@@ -3696,7 +3729,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "The official TDS recommends application at 65–85°F (18–30°C) for reliable cure and lists 13–25°C storage range for shelf-life stability.",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "plexus-ma1025",
@@ -3802,7 +3836,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "plexus-ma205hv",
@@ -3957,7 +3992,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 8,
       "peel": 6,
       "impact": 7
-    }
+    },
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "plexus-ma8110-gb",
@@ -4101,7 +4138,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "impact": 7
     },
     "viscosityValue": "A: 40000-80000; B: 40000-80000",
-    "viscosityUnit": "cP"
+    "viscosityUnit": "cP",
+    "serviceMin": null
   },
   {
     "id": "plexus-ma8105-gb",
@@ -4258,6 +4296,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "viscosityValue": "A: 70000-140000; B: 50000-120000",
     "viscosityUnit": "cP",
+    "serviceMin": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -4828,7 +4867,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "No service temperature range stated in TDS; storage temp 13–25 °C (max 38 °C avoids shelf-life reduction); cure profile shown at 15–32 °C application temperatures.",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "sikaforce-7010",
@@ -4890,7 +4930,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
-    "serviceTemperatureNote": "Shelf life stored at 10–30 °C; service temperature not stated in available TDS text; product is two-part PU structural adhesive."
+    "serviceTemperatureNote": "Shelf life stored at 10–30 °C; service temperature not stated in available TDS text; product is two-part PU structural adhesive.",
+    "serviceMax": null,
+    "serviceMin": null
   },
   {
     "id": "sikapower-498-3",
@@ -4965,7 +5007,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://industry.sika.com/content/dam/dms/us01/e/sikapower-498-3.pdf"
     ],
-    "serviceTemperatureNote": "Shelf life stored below 25 °C; service temp not stated; Tg=110 °C (heat-cured 180 °C/30 min); applied at 50–60 °C."
+    "serviceTemperatureNote": "Shelf life stored below 25 °C; service temp not stated; Tg=110 °C (heat-cured 180 °C/30 min); applied at 50–60 °C.",
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "panacol-structalit-8801",
@@ -5427,7 +5471,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product page does not publish continuous service-temperature limits, dielectric breakdown, thermal conductivity, detailed chemical-resistance tables for EP008, shelf life or storage conditions.",
       "Use EP008 where a flexible/antisagging epoxy is desired; the CEMEDINE table separates EP008 from EP007 and from rigid standard/fast-cure grades."
     ],
-    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"
+    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-1521",
@@ -5516,7 +5563,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
-    "referenceUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf"
+    "referenceUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "shinetsu-x32-3894-ab",
@@ -5706,7 +5756,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-A-95-GREY-en-2024.10.03.pdf",
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-us/silicone-rubber/moisture-curing-silicone-rubber-rtv-1/elastosil-a-95-grey/p/000005087"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "wacker-elastosil-e951",
@@ -5778,7 +5829,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.wacker.com/h/en-gb/medias/ELASTOSIL-E-951-en-2025.05.21.pdf",
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-gb/c/elastosil-e-951/p/000005158"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "stress": null
   },
   {
     "id": "wacker-semicosil-267-black",
@@ -5907,7 +5964,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.wacker.com/h/en-us/medias/SEMICOSIL-267-BLACK-en-2024.10.28.pdf",
     "supportingReferenceUrls": [
       "https://www.wacker.com/h/en-us/silicone-rubber/room-temperature-curing-silicone-rubber-rtv-2/semicosil-267-black/p/000010257"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "wacker-semicosil-811",
@@ -6017,7 +6078,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264"
+    "referenceUrl": "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
+    "thermalConductivity": null
   },
   {
     "id": "shinetsu-x32-2020",
@@ -6399,7 +6461,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
     "sourceRevisionDate": "Permabond 101 Global TDS Revision 7, 05 August 2020",
-    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf"
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/101_TDS-1.pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-102",
@@ -6455,7 +6518,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
-    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf"
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/102_TDS-1.pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-919",
@@ -6560,7 +6624,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
-    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf"
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/920_TDS-1.pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-922",
@@ -6612,7 +6677,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
-    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf"
+    "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/922_TDS-1.pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-105",
@@ -6669,6 +6735,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/105_TDS-1.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -6752,7 +6820,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-2011",
@@ -6811,7 +6881,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-4c10",
@@ -6870,7 +6941,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-4c20",
@@ -6924,7 +6996,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-4c30",
@@ -6977,7 +7050,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-4c40",
@@ -7027,7 +7101,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-108",
@@ -7081,7 +7156,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-170",
@@ -7162,7 +7238,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-130uv",
@@ -7488,7 +7565,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 7,
       "peel": 3,
       "impact": 4
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-200",
@@ -7604,7 +7682,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMin": null,
+    "potLife": null,
+    "fixtureTime": null
   },
   {
     "id": "permabond-790",
@@ -7657,7 +7738,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-791",
@@ -7712,7 +7794,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-792",
@@ -7767,7 +7850,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-795",
@@ -7823,7 +7907,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-801",
@@ -7877,7 +7962,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-802",
@@ -7932,7 +8018,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-825",
@@ -7983,7 +8070,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-799",
@@ -8040,7 +8128,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-735",
@@ -8116,7 +8205,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-751",
@@ -8168,7 +8258,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null
   },
   {
     "id": "permabond-737",
@@ -8234,7 +8329,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-940",
@@ -8310,7 +8406,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-941",
@@ -8387,7 +8484,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-943",
@@ -8464,7 +8562,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-947",
@@ -8541,7 +8640,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 6,
       "peel": 1,
       "impact": 1
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-240",
@@ -8644,6 +8744,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
     "sourceUrl": "https://permabond.com/wp-content/uploads/2025/11/910_TDS-2.pdf",
+    "serviceMax": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -8695,6 +8796,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "viscosityClass": "high",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -8746,6 +8850,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -8797,6 +8904,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Do not use adhesive-only bonding on structural components unless the vehicle manufacturer explicitly approves it."
     ],
     "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -8847,7 +8957,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 7,
       "peel": 7,
       "impact": 8
-    }
+    },
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "epotek-301",
@@ -9008,7 +9120,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/bjmbyotbrbkyg8dpbwqlggzjq4v5i0tw/301.pdf",
     "viscosityValue": "100-200",
-    "viscosityNote": "At 23°C, 100 rpm per fallback TDS text"
+    "viscosityNote": "At 23°C, 100 rpm per fallback TDS text",
+    "serviceMin": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "epotek-h20e",
@@ -9130,7 +9245,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "Filled system; stir each component thoroughly before mixing.",
       "Performance can shift if repackaged out of the original containers."
     ],
-    "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf"
+    "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/lvu2ecbrqevl5qapbigbxr4mujkho6bz/h20e.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "fixtureTime": null,
+    "gapFill": null
   },
   {
     "id": "epotek-og198-54",
@@ -9244,7 +9363,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "TDS lists <300 C only as intermittent operating limit; no continuous service rating is specified.",
       "The official TDS describes OG198-54 as electrically and thermally insulating but does not publish numeric dielectric or thermal-conductivity values."
     ],
-    "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf"
+    "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/x3anijdazmhjg90vn12hwexeinblfznj/og198-54.pdf",
+    "serviceMin": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "gapFill": null
   },
   {
     "id": "masterbond-ep30lte-lo",
@@ -9331,7 +9454,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "Two-part low-exotherm system; heat post-cure still recommended for optimum properties.",
       "No lap-shear or thermal-conductivity value published on the product page; contact Master Bond for the full TDS."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/ep30lte-lo"
+    "referenceUrl": "https://www.masterbond.com/tds/ep30lte-lo",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "gapFill": null
   },
   {
     "id": "masterbond-uv15",
@@ -9409,7 +9537,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cationic UV cure: shadow areas do not progress the way a radical-cure acrylate does; design for direct light access.",
       "TDS lists service range as -80 F to +350 F; post-cure at 125 C for 30 minutes is recommended to reach the higher Tg."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/uv15"
+    "referenceUrl": "https://www.masterbond.com/tds/uv15",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "masterbond-supreme-10aoht",
@@ -9481,7 +9612,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Alumina-filled system is thermally conductive but electrically insulative; volume resistivity >1e14 ohm-cm.",
       "Heat cure is required; room-temperature cure is not the rated cure path on the product page."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/supreme-10aoht"
+    "referenceUrl": "https://www.masterbond.com/tds/supreme-10aoht",
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "lord-fusor-152",
@@ -9528,6 +9661,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -9637,7 +9776,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://products.meridianadhesives.com/storage/downloads/ce58ekmfmxrh7jur5ixxn0glqwwyyo6e/med-353nd.pdf",
     "supportingReferenceUrls": [
       "https://www.epotek.com/docs/en/Datasheet/353ND.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "fixtureTime": null
   },
   {
     "id": "epotek-h77",
@@ -9712,7 +9853,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Service < 350 C is intermittent per TDS; Tg is only >= 80 C, so continuous-load service should stay well below that.",
       "Passes ASTM E595 outgassing only with proper cure; abbreviated cures will not hit vacuum-grade performance."
     ],
-    "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/H77.pdf"
+    "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/H77.pdf",
+    "serviceMin": null
   },
   {
     "id": "masterbond-ep42ht-2",
@@ -9795,7 +9937,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Castable up to 2-3 inches because exotherm is low for an epoxy, but large masses should still be monitored for peak temperature.",
       "Hardness is rated > 75 Shore D; very rigid, not intended for flexible or impact-loaded joints."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/ep42ht-2"
+    "referenceUrl": "https://www.masterbond.com/tds/ep42ht-2",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null
   },
   {
     "id": "masterbond-mastersil-151",
@@ -9872,7 +10017,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shore A 50-60 elastomer; not a structural adhesive, and peel-from-substrate is expected on smooth non-primed surfaces.",
       "Optical transmission depends on bubble-free dispense; vacuum degas the mixed compound before potting optics."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/mastersil-151"
+    "referenceUrl": "https://www.masterbond.com/tds/mastersil-151",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null
   },
   {
     "id": "masterbond-supreme-11aoht",
@@ -9945,7 +10093,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Part A 200,000-300,000 cP and Part B paste: meter-mix equipment needs the right ratio-drive for this viscosity combination.",
       "Thermally conductive / electrically insulative balance holds only if the thick-section cure schedule is followed."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/supreme-11aoht"
+    "referenceUrl": "https://www.masterbond.com/tds/supreme-11aoht",
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "masterbond-ep21tdcht-lo",
@@ -10023,7 +10173,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Low-outgassing designation is for vacuum/aerospace - general-purpose structural users do not need to pay for this grade.",
       "Shore D 65-75 after cure: toughened but still rigid compared to flexible epoxies like E-120HP."
     ],
-    "referenceUrl": "https://www.masterbond.com/tds/ep21tdcht-lo"
+    "referenceUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
+    "potLife": null,
+    "fixtureTime": null
   },
   {
     "id": "epotek-730",
@@ -10142,7 +10294,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/730.pdf",
     "supportingReferenceUrls": [
       "https://products.meridianadhesives.com/storage/downloads/fnspdfvouzarg2dqo8ytarv6p6dmwtw0/730.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "fixtureTime": null
   },
   {
     "id": "epotek-377",
@@ -10258,7 +10412,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "Service temperature not explicitly stated; UV/heat cure epoxy with Tg ≥100°C; serviceMax <300°C intermittent; minimum not published in available cache.",
     "viscosityValue": "250-600",
     "viscosityUnit": "cP",
-    "viscosityNote": "Pourable liquid consistency, 250-600 cPs per TDS"
+    "viscosityNote": "Pourable liquid consistency, 250-600 cPs per TDS",
+    "potLife": null,
+    "thermalConductivity": null,
+    "fixtureTime": null
   },
   {
     "id": "epotek-t7109",
@@ -10339,7 +10496,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Filled thermal system must be stirred thoroughly before mixing; settled filler will skew thermal and mechanical values.",
       "Service < 300 C is intermittent per TDS; Tg >= 45 C bounds continuous-load service well below the intermittent ceiling."
     ],
-    "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/T7109.pdf"
+    "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/T7109.pdf",
+    "serviceMin": null
   },
   {
     "id": "permabond-es550",
@@ -10436,7 +10594,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cure times depend on the time required for the adhesive itself to reach cure temperature; large assemblies or crowded ovens need longer.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es550_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es550_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-es558",
@@ -10533,7 +10692,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "ES558 free-flows at high temperature; designs that require vertical non-sag behavior should use a no-flow grade such as ES550 or ES569.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es558_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es558_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-es562",
@@ -10617,7 +10777,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "ES562 is self-leveling and low-viscosity for a heat-cure epoxy; it is not intended for thick vertical non-sag fillets.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es562_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es562_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-es569",
@@ -10715,7 +10876,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "ES569 is non-sagging and non-stringing for drop profiles and electronic components, but it still requires heat cure before final strength.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es569_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es569_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-es5748",
@@ -10799,7 +10961,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded.",
       "Do not count automotive sensor-housing bonding as electronics-performance evidence; the TDS does not publish electrical, dielectric, thermal-interface, potting, conformal-coating, conductive-adhesive, or die-attach properties."
     ],
-    "referenceUrl": "https://permabond.com/tds/es5748_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es5748_tds-pt-br/?pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-es578",
@@ -10884,7 +11048,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Thermal conductivity is 1.0 W/(m.K) while dielectric strength is published as a 40-45 kV/mm range.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es578_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es578_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-es579",
@@ -10976,7 +11141,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The extracted TDS text prints dielectric constant as 5.4 at 1mHz; frequency notation is preserved as source context and not normalized.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/es579_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/es579_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et500",
@@ -11066,7 +11232,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "High-temperature resistance is only stated for brief excursions such as paint baking and wave soldering when the joint is not unduly stressed, so no continuous maximum service temperature is encoded.",
       "The TDS does not explicitly describe thixotropy or non-sag behavior."
     ],
-    "referenceUrl": "https://permabond.com/tds/et500_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et500_tds-pt-br/?pdf",
+    "serviceMax": null,
+    "tackFreeTime": null
   },
   {
     "id": "permabond-et503",
@@ -11240,7 +11408,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not explicitly call out thixotropic or non-sag behavior.",
       "High-temperature resistance is only stated for brief excursions when the joint is not unduly stressed, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/et505_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et505_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et510",
@@ -11330,7 +11499,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not explicitly describe thixotropy or non-sag behavior.",
       "High-temperature resistance is only stated for brief excursions when the joint is not unduly stressed, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/et510_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et510_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et514",
@@ -11435,7 +11605,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Aluminum peel is published as 100-150 N/25mm; the N/m scalar is the lower-bound conversion.",
       "The TDS does not explicitly call the mixed adhesive thixotropic, although low-rpm/high-rpm viscosity spread is published for both parts."
     ],
-    "referenceUrl": "https://permabond.com/tds/et514_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et514_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et515",
@@ -11538,7 +11709,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Aluminum peel is published as 100-150 N/25mm; the N/m scalar is the lower-bound conversion.",
       "Tg is only 20 C, so continuous hot-load use should be treated conservatively despite brief higher-temperature excursion language in the TDS."
     ],
-    "referenceUrl": "https://permabond.com/tds/et515_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et515_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et5162",
@@ -11791,7 +11963,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Hot strength is plotted on mild steel; continuous high-temperature service is not stated, so no continuous maximum service temperature is encoded.",
       "Curing below room temperature slows significantly; the TDS strength-development chart compares 15 C, 23 C, and 31 C."
     ],
-    "referenceUrl": "https://permabond.com/tds/et536_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et536_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et538",
@@ -11896,7 +12069,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Hot strength is plotted on mild steel; continuous high-temperature service is not stated, so no continuous maximum service temperature is encoded.",
       "The TDS identifies non-slump behavior for gap filling and vertical application, but large quantities or elevated temperature reduce usable life."
     ],
-    "referenceUrl": "https://permabond.com/tds/et538_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et538_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et5392",
@@ -12174,7 +12348,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Aluminum peel is published as 60-80 N/25mm; the N/m scalar is the lower-bound conversion.",
       "High-temperature resistance above the hot-strength chart is only stated for brief excursions, so no continuous maximum service temperature is encoded."
     ],
-    "referenceUrl": "https://permabond.com/tds/et540_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et540_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et5422",
@@ -12490,7 +12665,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Aluminum peel is published as 150-250 N/25mm; the N/m scalar is the lower-bound conversion.",
       "The TDS does not publish thermal conductivity or a continuous maximum service temperature."
     ],
-    "referenceUrl": "https://permabond.com/tds/et5428_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et5428_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et5441",
@@ -12624,7 +12800,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish a peel value or dielectric strength.",
       "Cold 50 mL cartridges may be difficult to dispense, per the TDS."
     ],
-    "referenceUrl": "https://permabond.com/tds/et5441_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/et5441_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-et5429",
@@ -12738,7 +12915,8 @@ window.TDS_MANUAL_PRODUCTS = [
         "temperatureC": 60,
         "minutes": 120
       }
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-et5143",
@@ -12788,7 +12966,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service ('can withstand higher temperatures for brief periods').",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5143_TDS-2.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5145",
@@ -12836,7 +13016,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5145_TDS-1.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5147",
@@ -12883,7 +13065,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5147_TDS-1.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5364",
@@ -12933,7 +13117,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5364_TDS-2.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5365",
@@ -12981,7 +13167,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5365_TDS-4.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5401",
@@ -13030,7 +13218,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5401_TDS-1.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5003",
@@ -13081,7 +13271,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not rated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5003_TDS-3.pdf",
-    "sourceRevisionDate": "Permabond ET5003 Global TDS Revision 3, 05 September 2022 (Provisional)"
+    "sourceRevisionDate": "Permabond ET5003 Global TDS Revision 3, 05 September 2022 (Provisional)",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-ta4202",
@@ -13197,7 +13389,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4202_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4202_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta4204",
@@ -13313,7 +13506,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Dielectric constant is published with ambiguous frequency notation in the extracted TDS; the numeric constant is preserved without normalizing frequency.",
       "The product may affect some thermoplastics and is not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4204_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4204_tds-pt-br/?pdf",
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-ta4205",
@@ -13511,7 +13706,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4207_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4207_tds-pt-br/?pdf",
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-ta4208-black",
@@ -13714,7 +13911,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4210_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4210_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta4605",
@@ -13764,7 +13962,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "shear": 8,
       "peel": 6,
       "impact": 7
-    }
+    },
+    "serviceMax": null
   },
   {
     "id": "permabond-ta4590",
@@ -13839,7 +14038,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Max gap fill is 0.5 mm; designs with larger gaps should switch to a 1:1 structural acrylic.",
       "The cached official Permabond text is a TDS landing page and does not expose additional property-table values beyond the existing curated fields."
     ],
-    "referenceUrl": "https://permabond.com/tds/TA4590_tds-en/"
+    "referenceUrl": "https://permabond.com/tds/TA4590_tds-en/",
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-a011",
@@ -13887,7 +14088,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a025",
@@ -14022,7 +14224,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a1044",
@@ -14070,7 +14273,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a1046",
@@ -14117,7 +14321,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a113",
@@ -14165,7 +14370,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a118",
@@ -14213,7 +14419,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a126",
@@ -14263,7 +14470,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a129",
@@ -14311,7 +14519,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a130",
@@ -14359,7 +14568,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a131",
@@ -14407,7 +14617,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a134",
@@ -14456,7 +14667,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-a136",
@@ -14504,7 +14716,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-f201",
@@ -14567,7 +14780,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-f202",
@@ -14631,7 +14846,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hh120",
@@ -14693,7 +14910,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hh131",
@@ -14754,7 +14973,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hh190",
@@ -14815,7 +15036,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hl126",
@@ -14878,7 +15101,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hl138",
@@ -14938,7 +15163,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm118",
@@ -14995,7 +15222,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm128",
@@ -15052,7 +15281,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm129",
@@ -15122,7 +15353,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm135",
@@ -15189,7 +15422,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm161",
@@ -15246,7 +15481,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm162",
@@ -15293,7 +15530,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 1,
       "impact": 3
     },
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm163",
@@ -15361,7 +15599,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hm165",
@@ -15434,7 +15674,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-hh167",
@@ -15481,7 +15723,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax"
     ],
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lh050",
@@ -15541,7 +15785,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lh051",
@@ -15598,7 +15844,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lh056",
@@ -15663,7 +15911,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lh150",
@@ -15725,7 +15975,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lh197",
@@ -15796,7 +16048,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lm012",
@@ -15859,7 +16113,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-lm113",
@@ -15922,7 +16178,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-mh052",
@@ -16011,7 +16269,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "unpublishedFields": [
       "potLife"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "permabond-mh196",
@@ -16087,7 +16346,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "unpublishedFields": [
       "potLife"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "permabond-mh199",
@@ -16163,7 +16423,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "unpublishedFields": [
       "potLife"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "permabond-mm115",
@@ -16239,7 +16500,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "serviceMax"
-    ]
+    ],
+    "potLife": null,
+    "serviceMax": null
   },
   {
     "id": "titebond-original",
@@ -16348,7 +16611,11 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207",
     "tdsUrl": "https://www.titebond.com/print/product/d4d28015-603f-4dfc-a7d9-f684acc71207",
-    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "titebond-ii-premium",
@@ -16462,7 +16729,11 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
     "tdsUrl": "https://www.titebond.com/print/product/2ef3e95d-48d2-43bc-8e1b-217a38930fa2",
-    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "titebond-iii-ultimate",
@@ -16576,7 +16847,11 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
     "tdsUrl": "https://www.titebond.com/print/product/e8d40b45-0ab3-49f7-8a9c-b53970f736af",
-    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "titebond-quick-thick",
@@ -16678,7 +16953,13 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://www.titebond.com/product/glues/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
     "tdsUrl": "https://www.titebond.com/print/product/d1b48beb-7d60-4ce7-b57b-6bf19351778b",
-    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)"
+    "tdsDocumentLabel": "Manufacturer Technical Data Sheet (print view)",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "stress": null,
+    "thermalConductivity": null
   },
   {
     "id": "liquid-nails-ln901",
@@ -17550,7 +17831,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "threebond-1533",
@@ -17637,7 +17920,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime",
       "cureProfiles"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "threebond-1703",
@@ -17689,7 +17974,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-1401",
@@ -17802,7 +18089,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1401-threadlock.pdf",
     "supportingReferenceUrls": [
       "https://www.threebond.co.jp/en/product/threebond_1401cv/"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "stress": null,
+    "fixtureTime": null
   },
   {
     "id": "threebond-3012d",
@@ -17902,7 +18196,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Do not freeze samples; store sealed in the original container at room-temperature conditions.",
       "Published values are typical results and should be confirmed by lab and actual trial runs."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive"
+    "referenceUrl": "https://threebond.com/download/threebond-3012D-uv-curable-adhseive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-3164f",
@@ -18095,7 +18392,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "Use shielding and worker safety equipment to protect skin and eyes from stray UV exposure.",
       "The TDS does not publish service-temperature limits, pot life, lap shear, dielectric strength, dielectric constant, dissipation factor, volume resistivity, surface resistivity, thermal conductivity, shelf life or exact numeric UV fixture time."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive"
+    "referenceUrl": "https://threebond.com/download/threebond-3164F-uv-curing-silicone-adhesive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-3303n",
@@ -18207,7 +18509,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS gives actual measurements, not guaranteed values.",
       "The TDS does not publish density or specific gravity, lap shear, peel, tensile strength, elongation, surface resistivity, dielectric properties, thermal conductivity, Tg, CTE, shelf life or service-temperature range."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive"
+    "referenceUrl": "https://threebond.com/download/threebond-3303N-silicone-based-conductive-adhesive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-3315e",
@@ -18322,7 +18629,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store capped in a dark dry place away from direct sunlight and use within six months.",
       "Industrial use only; not for household products or medical implants."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive"
+    "referenceUrl": "https://threebond.com/download/threebond-3315E-electroconductive-adhesive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-3373c",
@@ -18492,7 +18803,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS values are typical data; validate actual pad geometry, substrate stack and pitch before production use.",
       "The TDS does not publish service-temperature limits, pot life, lap shear, tensile strength, elongation, hardness, thermal conductivity, dielectric constant, dielectric breakdown, shelf life or storage conditions."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive"
+    "referenceUrl": "https://threebond.com/download/threebond-3373C-anisotropic-conductive-adhesive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "dymax-9-20351-ur",
@@ -18642,7 +18958,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "dymax-9001-e-v3-5",
@@ -18819,7 +19140,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "dymax-9482",
@@ -18983,7 +19307,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "insulationResistanceOhm",
       "peelStrengthNPerM",
       "chipBondStrengthMPa"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "araldite-2012",
@@ -19394,7 +19723,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is a flexible sealant/potting material, not a high-modulus structural adhesive.",
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ms359agrey_tds-en/?pdf",
+    "serviceMax": null,
+    "gapFill": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-ms359-clear",
@@ -19470,7 +19804,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is a flexible clear sealant adhesive, not a structural acrylic or epoxy substitute.",
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ms359clear_tds-en/?pdf",
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-ms359-grey",
@@ -19545,7 +19882,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is a flexible sealant adhesive for moving/weathered joints, not a high-stiffness structural adhesive.",
       "The TDS says the product is not recommended for contact with strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ms359grey_tds-en/?pdf",
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-mt3809",
@@ -19640,7 +19980,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Full cure is encoded as the 72 hour lower bound because the TDS states full cure is at least 72 hours.",
       "Aluminum peel is published as 60-80 N/25mm; the N/m scalar is the lower-bound conversion."
     ],
-    "referenceUrl": "https://permabond.com/tds/mt3809_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/mt3809_tds-pt-br/?pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-mt382",
@@ -19745,7 +20087,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-mt3836",
@@ -19844,7 +20187,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://permabond.com/tds/mt3836_tds-pt-br/?pdf"
+    "referenceUrl": "https://permabond.com/tds/mt3836_tds-pt-br/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-pt321",
@@ -19928,7 +20272,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "permabond-pt326",
@@ -20020,7 +20365,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "permabond-pt328",
@@ -20112,7 +20458,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "TDS states minimum temperature per product; max not explicitly rated for continuous service (\"can withstand higher temperatures for brief periods\").",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "mg-chemicals-832hd",
@@ -21009,7 +21356,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides a hot-strength chart and allows brief higher-temperature exposure if the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4246_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4246_tds-en/?pdf",
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-ta430",
@@ -21116,7 +21465,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only states brief higher-temperature tolerance when the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta430_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta430_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta435",
@@ -21221,7 +21571,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only states brief higher-temperature tolerance when the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta435_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta435_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta436",
@@ -21327,7 +21678,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides a hot-strength chart and allows brief higher-temperature exposure if the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta436_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta436_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta437",
@@ -21435,7 +21787,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides a hot-strength graph and allows brief higher-temperature exposure if the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta437_tds-en/?pdf=1"
+    "referenceUrl": "https://permabond.com/tds/ta437_tds-en/?pdf=1",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta439",
@@ -21537,7 +21890,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Use Initiator 43 when bonding plastics as recommended by the TDS.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta439_tds-en/?pdf=1"
+    "referenceUrl": "https://permabond.com/tds/ta439_tds-en/?pdf=1",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta440",
@@ -21640,7 +21994,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides a hot-strength graph and allows brief higher-temperature exposure if the joint is not unduly stressed.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta440_tds-en/?pdf=1"
+    "referenceUrl": "https://permabond.com/tds/ta440_tds-en/?pdf=1",
+    "serviceMax": null
   },
   {
     "id": "permabond-ta4522",
@@ -21852,7 +22207,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Excess adhesive outside a closed joint cures more slowly and may feel soft.",
       "Not recommended for strong oxidizing materials and may affect some thermoplastics."
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4550_tds-en/?pdf=1"
+    "referenceUrl": "https://permabond.com/tds/ta4550_tds-en/?pdf=1",
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "permabond-ta4592",
@@ -22255,7 +22612,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://permabond.com/tds/ta4810_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/ta4810_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv605",
@@ -22350,7 +22708,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Avoid silicone cleaner residue on glass, check thermoplastic compatibility, and minimize ambient-light exposure.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv605_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv605_tds-en/?pdf",
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-uv6160",
@@ -22447,7 +22807,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Avoid silicone cleaner residue on glass, check thermoplastic compatibility, and minimize ambient-light exposure.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv6160_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv6160_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv620",
@@ -22543,7 +22904,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Avoid silicone cleaner residue on glass, check thermoplastic compatibility, and minimize ambient-light exposure.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv620_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv620_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv6231",
@@ -22640,7 +23002,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and store at 5-25 C.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv6231_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv6231_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv625",
@@ -22737,7 +23100,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and store at 5-25 C.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv625_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv625_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv630",
@@ -22837,7 +23201,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and store at 5-25 C.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv630_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv630_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv632",
@@ -22942,7 +23307,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and store at 5-25 C.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv632_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv632_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv6357",
@@ -23041,7 +23407,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-uv6361",
@@ -23128,7 +23495,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-uv639",
@@ -23226,7 +23594,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-uv640",
@@ -23325,7 +23694,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid air entrapment.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv640_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv640_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv643",
@@ -23531,7 +23901,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The lap-shear scalar uses the polycarbonate substrate-failure value; lower acrylic and PVC values are preserved in shearStrengthsMPa.",
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv645_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv645_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv648",
@@ -23635,7 +24006,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Protect liquid adhesive from room lighting and avoid air entrapment.",
       "Not recommended for strong oxidizing materials."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv648_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv648_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv649",
@@ -23740,7 +24112,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The lap-shear scalar uses the polycarbonate substrate-failure value; lower acrylic and PVC values are preserved in shearStrengthsMPa.",
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv649_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv649_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv670",
@@ -23836,7 +24209,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only states brief higher-temperature tolerance when the joint is not unduly stressed.",
       "Protect liquid adhesive from room lighting and avoid air entrapment."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv670_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv670_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv681",
@@ -23946,7 +24320,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides hot-strength graph data.",
       "Store at 2-7 C and protect liquid adhesive from room lighting."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv681_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv681_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv683",
@@ -24057,7 +24432,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "No continuous maximum service temperature is encoded because the TDS only provides hot-strength graph data.",
       "Store at 2-7 C and protect liquid adhesive from room lighting."
     ],
-    "referenceUrl": "https://permabond.com/tds/uv683_tds-en/?pdf"
+    "referenceUrl": "https://permabond.com/tds/uv683_tds-en/?pdf",
+    "serviceMax": null
   },
   {
     "id": "permabond-uv7141",
@@ -24160,7 +24536,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMax": null
   },
   {
     "id": "permabond-hh040",
@@ -24208,7 +24585,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HH040_TDS-1.pdf",
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null
   },
   {
     "id": "permabond-hm160",
@@ -24255,7 +24635,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/HM160_TDS-3.pdf",
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-f201hv",
@@ -24308,7 +24690,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/F201HV_TDS.pdf",
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-a1058",
@@ -24358,7 +24743,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/A1058_TDS-5.pdf",
-    "dielectricBreakdownKVPerMm": 11
+    "dielectricBreakdownKVPerMm": 11,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "permabond-mt3821",
@@ -24413,7 +24800,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/MT3821_TDS-1.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-ta4610",
@@ -24471,7 +24860,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -55°C per TDS; max not explicitly stated for continuous service.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/TA4610_TDS-1.pdf",
+    "serviceMax": null,
+    "gapFill": null,
+    "thermalConductivity": null
   },
   {
     "id": "permabond-et5428black",
@@ -24524,7 +24916,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "serviceTemperatureNote": "Min -40°C per TDS; max not explicitly stated for continuous service; product description notes 'high temperature resistance' and Tg 50-60°C.",
-    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf"
+    "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/ET5428BLACK_TDS-2.pdf",
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "mg-chemicals-1035",
@@ -24608,6 +25002,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -25170,6 +25565,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime",
       "stress"
     ],
+    "stress": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -26682,7 +27078,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/142914O/3m-thermally-conductive-epoxy-adhesive-tc-2707.pdf?fn=TC-2707-TDS.pdf",
-    "tdsDocumentLabel": "3M product Technical Data Sheet"
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "3m-tc2810",
@@ -26808,7 +27206,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/266197O/3mtm-thermally-conductive-epoxy-adhesive-tc2810.pdf?fn=TC-2810+TDS.pdf",
-    "tdsDocumentLabel": "3M product Technical Data Sheet"
+    "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null
   },
   {
     "id": "dow-dowsil-tc2035",
@@ -27019,7 +27419,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Viscosity may be adjusted by thinning up to 20% by weight with the listed water thinner.",
       "Design for CTE mismatch and compression loading; target glue line is 2-8 mil."
     ],
-    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf"
+    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "aremco-ceramabond-571",
@@ -27116,7 +27518,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Viscosity may be adjusted by thinning up to 20% by weight with the listed water thinner.",
       "Design for CTE mismatch and compression loading; target glue line is 2-8 mil."
     ],
-    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf"
+    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "aremco-pyro-putty-653",
@@ -27185,7 +27589,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Use multiple applications for cross sections over 1/8-1/4 inch to reduce blistering.",
       "Surfaces must be oil-free and abrasive-blasted where appropriate; bake porous castings to remove embedded oils."
     ],
-    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf"
+    "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "cotronics-duralco-132",
@@ -27274,7 +27680,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Thermal conductivity is published as 30 BTU-in/hr-ft2-F and converted to 4.33 W/(m.K) for selector comparison.",
       "Older official standalone Cotronics 132.pdf conflicts with the newer product-page sheet; this entry uses the newer combined sheet."
     ],
-    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf"
+    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "cotronics-duralco-4460",
@@ -27348,7 +27756,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Thermal conductivity is published as 1.5 BTU-in/hr-ft2-F and converted to 0.216 W/(m.K) for selector comparison.",
       "Older official 4460.pdf conflicts with the newer catalog sheet on mixed density and thermal conductivity; this entry uses the newer catalog sheet."
     ],
-    "referenceUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf"
+    "referenceUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "cotronics-duralco-4525ip",
@@ -27458,7 +27868,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
-    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf"
+    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf",
+    "serviceMin": null,
+    "lapShear": null
   },
   {
     "id": "momentive-snapsil-rtv162",
@@ -27555,6 +27967,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -27658,6 +28071,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -27781,7 +28195,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "lapShear": null
   },
   {
     "id": "momentive-siltrust-rtv630",
@@ -27888,7 +28303,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "lapShear": null
   },
   {
     "id": "cotronics-resbond-907gf",
@@ -27974,7 +28390,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Official Resbond selector tables contain a Resbond 907 column with additional values, but those are not assigned to 907GF because the exact suffix is not shown and some values conflict.",
       "Shelf life is 6 months according to the exact TDS."
     ],
-    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/38%20%20907gf.pdf"
+    "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/38%20%20907gf.pdf",
+    "lapShear": null
   },
   {
     "id": "chipquik-egs10c-20g",
@@ -28074,6 +28491,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28180,6 +28600,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28286,6 +28709,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28395,6 +28821,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28504,6 +28933,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28613,6 +29045,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28722,6 +29157,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -28825,6 +29263,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C and do not freeze; allow 4 hours for material to reach operating temperature before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -28932,6 +29373,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Tool within the first 10 minutes after dispensing."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -29032,6 +29476,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Tool within the first 10 minutes after dispensing."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -29142,6 +29589,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C, do not freeze, and allow 4 hours to reach 20-25 C before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -29249,6 +29697,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C, do not freeze, and allow 4 hours to reach 20-25 C before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
+    "lapShear": null,
+    "thermalConductivity": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -29370,6 +29821,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -29473,6 +29927,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -29620,6 +30075,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -29834,6 +30290,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -29894,6 +30352,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "The official page's additional-information section appears to contain unrelated color/material template data, so only the product description/specification bullets are encoded."
     ],
     "referenceUrl": "https://digiwavetechnology.com/products/dga6129",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -29991,6 +30453,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30088,6 +30552,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30185,6 +30651,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30282,6 +30750,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30382,6 +30852,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "tdsShelfStorageMaxF": 120,
     "tdsFoodContact": "Indirect food contact under 21 CFR 175.105, subject to that regulation’s limitations",
     "tdsOverlapShearMethodNote": "TDS describes overlap shear on Douglas fir; no specific test method is provided on the retrieved table.",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "stick",
@@ -30498,6 +30971,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/241243O/3m-tm-scotch-seal-tm-tamper-proof-sealant-1252.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "potLife": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30581,6 +31057,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/1245163O/3m-hot-melt-adhesive-3764-3748-technical-data-sheet.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "stick",
@@ -30699,6 +31177,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/66984O/nitrile-hp-rubber-gasket-adh-847-847h.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null,
+    "fixtureTime": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30816,6 +31298,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The Omega datasheet is a general guide and states actual suitability must be determined by the material user."
     ],
     "referenceUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
+    "serviceMin": null,
+    "fixtureTime": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -30945,6 +31430,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://mgchemicals.com/downloads/tds/tds-9201-2parts.pdf",
+    "fixtureTime": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31011,6 +31497,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "lapShear": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31077,6 +31565,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "lapShear": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31143,6 +31633,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "lapShear": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31210,6 +31702,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "lapShear": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31307,6 +31801,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "Intended for electronic applications where corrosion to metals such as copper, brass and silver is a problem."
     ],
     "referenceUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/579/4425_669574ea7ae40-19-155%20TDS%20photo%20Florida%202019.pdf",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "hardnessValue": null,
+    "hardnessScale": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31408,6 +31907,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm"
     ],
     "referenceUrl": "https://www.gcelectronics.com/product/10-150",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31486,6 +31989,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cyanoacrylates bond skin and eyes rapidly; consult SDS before use."
     ],
     "referenceUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31604,6 +32111,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "Clean uncured resin with suitable organic solvent such as MEK, acetone or a chlorinated solvent."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-114%20TDS.pdf",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31714,6 +32222,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Clean uncured resin with suitable organic solvent such as MEK, acetone or an organic solvent."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8592/10-347%20tds.pdf",
+    "fixtureTime": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -31909,6 +32419,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -32039,6 +32551,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/706439O/3m-scotchcast-connector-sealing-pack-3570g-n-data-sheet.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -32181,6 +32696,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/312362O/3m-scotchcast-re-enterable-electrical-insulating-resin-2123.pdf",
     "tdsDocumentLabel": "3M Scotchcast 2123 data sheet January 2015, Rev D",
+    "serviceMin": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -32297,6 +32815,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
     "tdsDocumentLabel": "3M Technical Data October 2014; current 3M product page lists 06564 / 7000120497 black 295 mL cartridge",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -32387,6 +32906,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "productUrl": "https://www.panduit.com/en/products/wire-routing-management-protection/cable-tie-mounts-tools-accessories/premium-cable-tie-mounts/p100146.html#pn=EMA-X",
     "sdsUrl": "https://www.panduit.com/content/dam/panduit/en/website/support/design-and-installation-resources/safety-data-sheets/documents/msds-ema-epoxy-adhesive-part-a-aug-2017.pdf",
     "referenceUrl": "https://www.panduit.com/content/dam/panduit/en/products/media/5/25/925/5925/98225925.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -32599,6 +33122,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/169553O/3m-thermal-bonding-film-583.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -32834,6 +33362,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/122551O/3m-thermal-bonding-film-af42-3-mil.pdf",
     "tdsDocumentLabel": "3M Technical Data, August 2015",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -32957,6 +33488,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/2366618O/3m-neoprene-high-performance-rubber-gasket-adhesive-1300l.pdf?pif=000661",
     "tdsDocumentLabel": "3M 1300L TDS last revision September 2024, supersedes June 2024; 3M 1300 product page crawled 2026",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33095,6 +33627,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33244,6 +33777,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://itwperformancepolymers.com/products/devcon/adhesives-sealants/devcon-2-ton-epoxy",
     "referenceUrl": "https://www.itwppfasia.com/en/webroot/upload/20200928/Devcon-Devcon-2-Ton-Epoxy-EN-TDS.pdf",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33334,6 +33868,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is an insulating wire-splice coating and sealant, not a structural adhesive."
     ],
     "referenceUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33421,6 +33958,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is an insulating wire-splice coating and sealant, not a structural adhesive."
     ],
     "referenceUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33512,6 +34052,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "catalogUrl": "https://tnbcarlon.com/wp-content/uploads/2025/04/9AKK108471A0371_Carlon_Electrical_Non_Metallic_Tubing_28ENT29_US_Size_DGT.pdf",
     "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
     "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33603,6 +34148,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "catalogUrl": "https://tnbcarlon.com/wp-content/uploads/2025/04/9AKK108471A0371_Carlon_Electrical_Non_Metallic_Tubing_28ENT29_US_Size_DGT.pdf",
     "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
     "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -33832,6 +34382,11 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "sdsUrl": "https://cdmsweb.3m.com/ingredientcommunication/file/Media/w_qWjGDw2J8",
     "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -33952,6 +34507,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish dielectric strength, volume resistivity, surface resistivity, tensile strength, elongation, service-temperature range or thermal conductivity."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34100,6 +34660,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "dielectricConstant"
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34192,6 +34758,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -34284,6 +34854,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -34379,6 +34953,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -34501,6 +35076,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/530755O/3mtm-optically-clear-adhesives-8211-8212-8213-8214-8215.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "m2",
@@ -34896,6 +35474,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/1407789O/3m-scotchkote-323-technical-data-sheet.pdf?&fn=Scotchkote-Liquid-Epoxy-Coating-323-Technical-Data-Sheet-78-9237-0330-6-B.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -34965,6 +35547,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/3M-Scotch-Weld-Instant-Adhesive-Primer-AC77.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35061,6 +35646,9 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/485954O/scotch-weld-cyan-activators-ac12-09-ac68-ac77-ac113-ac452.pdf",
     "tdsDocumentLabel": "3M Technical Data, January 2015",
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35187,6 +35775,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/761113O/3mtm-plastic-bonding-adhesive-2665b-tds.pdf",
     "tdsDocumentLabel": "3M product Technical Data Sheet",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -35296,6 +35885,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b10277299/",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35459,6 +36052,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/2522973O/3m-scotch-weld-flexible-acrylic-adhesive-dp8610ns.pdf?&fn=3M-Scotch-Weld-Flexible-Acrylic-Adhesive-DP8610NS.pdf",
     "tdsDocumentLabel": "3M France-FR TDS V-8, last revision December 2025, supersedes September 2024",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35649,6 +36245,7 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/2365860O/3m-scotch-weld-urethane-adhesive-dp600-self-leveling.pdf?&fn=3M-Scotch-Weld-Urethane-Adhesive-DP600-Self-Leveling_R1.pdf",
     "tdsDocumentLabel": "Primary 3M DP600 Self-Leveling TDS last revision September 2024, supersedes June 2024; legacy combined DP600/DP600NS TDS November 2016",
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -35741,6 +36338,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "viscosityValue": null,
+    "viscosityUnit": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -35859,6 +36461,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00xm8mSo8tBlv70k17zHvu9lxtD7SSSSSS--",
       "https://www.digikey.com/en/products/detail/3m/6065/19241514"
     ],
+    "serviceMin": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -35966,6 +36573,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/2394079O/bondo-liquid-resin-for-fiberglass.pdf",
     "tdsDocumentLabel": "3M Bondo Liquid Resin for Fiberglass TDS, December 2023; Digi-Key comparison chart also covers Bondo Fiberglass Resin 0401",
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "lapShear": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -36073,6 +36684,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
     "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2433/3M%20High-Temp%20Masking%20Liquid%202538UV%20TDS_FINAL.pdf",
     "tdsDocumentLabel": "3M Technical Data, January 2020",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "g",
@@ -36236,6 +36851,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
     "tdsUrl": "https://multimedia.3m.com/mws/media/719642O/microsoft-word-78-8129-9502-1-rev-d-docx.pdf?&fn=Scotchcast-Flame-Retardant-Compound-2131-Data-Sheet-78-8129-9502-1-D.pdf",
     "tdsDocumentLabel": "3M Scotchcast 2131 Data Sheet January 2015, 78-8129-9502-1 Rev D; 3M product page observed 2026",
+    "serviceMin": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -36919,6 +37537,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "tdsUrl": "https://multimedia.3m.com/mws/media/153955O/3mtm-scotch-weldtm-epoxy-adhesive-2216-b-a.pdf",
     "tdsDocumentLabel": "Official 3M 2216 B/A TDS, October 2018",
+    "serviceMin": null,
+    "serviceMax": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -37021,6 +37641,7 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -37144,6 +37765,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "mL",
@@ -37238,6 +37860,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -37370,6 +37994,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://www.te.com/en/product-890015-000.html",
     "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -37513,6 +38141,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://www.te.com/en/product-890036-000.html",
     "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
+    "serviceMin": null,
+    "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
       "unit": "pack",
@@ -37682,7 +38312,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "dielectricBreakdownKVPerMm",
       "chipBondStrengthMPa",
       "cureDepthMm"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb1630",
@@ -37828,7 +38461,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product must be stored in a cool dark place at -5 to 10 C and returned to room temperature before opening to prevent condensation.",
       "The TDS does not publish tensile strength, elongation, dielectric breakdown, surface resistivity, thermal conductivity, CTE, shelf life, continuous service-temperature range, chemical resistance or pressure-sensitive open time."
     ],
-    "referenceUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive"
+    "referenceUrl": "https://threebond.com/download/threebond-1630-uv-curing-sheet-adhesive",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1731",
@@ -37947,7 +38585,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf",
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1731-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2202",
@@ -38112,7 +38754,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2204",
@@ -38277,7 +38923,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3013q",
@@ -38429,7 +39079,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3331d",
@@ -38533,7 +39187,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3331D-electrically-conductive-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3331D-electrically-conductive-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2274",
@@ -38671,7 +39330,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-2274-underfilling-agent",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2274-underfilling-agent.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2285",
@@ -38780,7 +39443,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-2285-high-glass-transition-epoxy",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2285-high-glass-transition-epoxy.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3303m",
@@ -38885,7 +39552,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3303M-silicone-based-conductive-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3303M-silicone-based-conductive-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2206s",
@@ -38999,7 +39671,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2222p",
@@ -39101,7 +39777,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-2222p-one-component-epoxy",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2222p-one-component-epoxy.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2235l",
@@ -39243,7 +39923,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2237j",
@@ -39397,7 +40081,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3015b",
@@ -39488,7 +40176,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3015b-uv-curable-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3015b-uv-curable-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3015b-uv-curable-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3017d",
@@ -39631,7 +40324,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3017D-uv-curing-resin.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017D-uv-curing-resin.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3017e",
@@ -39774,7 +40471,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3017E-uv-curing-resin.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3017E-uv-curing-resin.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3020b",
@@ -39970,7 +40671,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "tackFreeTime",
       "cureProfiles"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2249g",
@@ -40089,7 +40794,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-2249G-heat-curing-epoxy-compound-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-2249G-heat-curing-epoxy-compound-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2270j",
@@ -40215,7 +40924,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb2272f",
@@ -40366,7 +41078,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2273e",
@@ -40503,7 +41219,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3030",
@@ -40617,7 +41337,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3030-uv-curing-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3030-uv-curing-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3036e",
@@ -40715,7 +41439,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3036E-uv-curing-resin.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3036E-uv-curing-resin.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "stress": null
   },
   {
     "id": "threebond-tb3062u",
@@ -40804,7 +41533,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3062U-uv-curing-resin.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "stress": null
   },
   {
     "id": "threebond-tb3081j",
@@ -40920,7 +41654,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3081p",
@@ -41069,7 +41806,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3124",
@@ -41216,7 +41957,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3124-uv-curing-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3124-uv-curing-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3164d",
@@ -41343,7 +42089,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3164D-uv-curing-silicone-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3164D-uv-curing-silicone-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3164h",
@@ -41484,7 +42236,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3164H-uv-curing-silicone-rtv",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3164H-uv-curing-silicone-rtv.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3166",
@@ -41627,7 +42384,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3168j",
@@ -41735,7 +42496,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3168J-uv-curable-silicone-gel.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3170b",
@@ -41909,7 +42676,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3170B-visible-light-curing-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3170B-visible-light-curing-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3170d",
@@ -42018,7 +42790,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3170D-visible-light-curing-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3170D-visible-light-curing-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1102",
@@ -42088,7 +42865,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1102-solvent-based-liquid-gasket.pdf",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1110f",
@@ -42169,7 +42950,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1110F-anaerobic-liquid-gasket.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1121",
@@ -42239,7 +43026,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1121-liquid-gasket.pdf",
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1141g",
@@ -42329,7 +43120,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1152c",
@@ -42464,7 +43258,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1153c",
@@ -42597,7 +43396,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1156c",
@@ -42710,7 +43514,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1158",
@@ -42805,7 +43613,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1158-arcylic-based-liquid-gasket",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1158-arcylic-based-liquid-gasket.pdf"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1171e",
@@ -42898,7 +43708,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1171E-battery-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1184",
@@ -42999,7 +43815,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1207b",
@@ -43104,7 +43922,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1207B-silicone-sealant",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1207B-silicone-sealant.pdf"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1215",
@@ -43191,7 +44011,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1216e",
@@ -43270,7 +44092,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1217f",
@@ -43354,7 +44178,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1217h",
@@ -43448,7 +44274,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217H-silicone-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1217m",
@@ -43552,7 +44382,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1217M-silicone-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1225b",
@@ -43651,7 +44485,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "cureDepthMm"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb1227d",
@@ -43770,7 +44607,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1227D-silicone-based-sealant",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1227D-silicone-based-sealant.pdf"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1281",
@@ -43856,7 +44695,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1303",
@@ -43944,7 +44785,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1322",
@@ -44033,7 +44876,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1342",
@@ -44101,7 +44946,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1344",
@@ -44172,7 +45020,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1344-anaerobic-threadlocker.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb1359k",
@@ -44277,7 +45130,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1359K-anaerobic-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1360",
@@ -44365,7 +45222,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "potLife",
       "thermalConductivity"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1372d",
@@ -44450,7 +45309,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1372d-anaerobic-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1386h",
@@ -44571,7 +45434,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1386H-anaerobic-sealant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1390r",
@@ -44648,7 +45515,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1390R-sealant-curing-accelerator.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "stress": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb1537",
@@ -44878,7 +45751,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "insulationResistanceOhm",
       "chipBondStrengthMPa",
       "cureDepthMm"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb1539a",
@@ -45020,7 +45896,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1655d20t",
@@ -45170,7 +46048,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/download/threebond-1655d20t-heat-curing-sheet-adhesive/",
       "https://threebond.com/products/adhesives/heat-resistant-adhesive/"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1741",
@@ -45255,7 +46137,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1741-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1742b",
@@ -45339,7 +46225,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1742B-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1742z",
@@ -45424,7 +46314,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1742Z-very-fast-curing-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1745z",
@@ -45508,7 +46402,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1745Z-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1747",
@@ -45596,7 +46494,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1747-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1771e",
@@ -45726,7 +46628,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1771E-instant-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1771E-instant-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1771m",
@@ -45865,7 +46771,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1771M-instant-adhesive.pdf",
       "https://threebond.com/products/adhesives/low-viscosity-adhesive/"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1773e",
@@ -45998,7 +46908,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1773E-instant-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1773E-instant-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1783",
@@ -46096,7 +47010,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1783-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1785c",
@@ -46169,7 +47087,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1785C-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1786",
@@ -46279,7 +47201,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-1786-cryanoacrylate-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1786-cryanoacrylate-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb1796",
@@ -46360,7 +47286,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-1796-glue-accelerator.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "stress": null,
+    "lapShear": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb1797",
@@ -46437,7 +47370,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-1797-pp-pe-primer.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb17n019",
@@ -46520,7 +47459,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N-019-cryanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb17n040",
@@ -46595,7 +47538,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N040-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb17n065",
@@ -46677,7 +47624,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-17N065-cyanoacrylate-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3027g",
@@ -46819,7 +47770,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2418",
@@ -47019,7 +47975,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2448",
@@ -47216,7 +48176,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2458",
@@ -47409,7 +48373,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2468",
@@ -47602,7 +48570,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2478",
@@ -47795,7 +48767,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2488",
@@ -47994,7 +48970,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "notApplicableFields": [
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb2706",
@@ -48059,7 +49039,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2706-machine-parts-degreasing-cleaner.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb2720c",
@@ -48125,7 +49112,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-2720c-water-based-lubricant.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3350c",
@@ -48227,7 +49220,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3350C-cold-drying-electroconductive-paint",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3350C-cold-drying-electroconductive-paint.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3351c",
@@ -48333,7 +49331,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3351C-electroconductive-resin",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3351C-electroconductive-resin.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3732",
@@ -48480,7 +49483,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3732-heat-resistant-inorganic-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-3732-heat-resistant-inorganic-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "potLife": null
   },
   {
     "id": "threebond-tb3923-3928",
@@ -48616,7 +49621,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "potLifeConditions": "Gel time 3-5 min at 25°C per TDS (midpoint 4 min)",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb3955",
@@ -48757,7 +49763,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://threebond.com/download/threebond-3955A-elastic-adhesive",
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-3955A-elastic-adhesive.pdf"
-    ]
+    ],
+    "serviceMin": null,
+    "gapFill": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7721a",
@@ -48903,7 +49912,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7737",
@@ -49025,7 +50038,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7737-gold-label-instant-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7738",
@@ -49148,7 +50165,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7738-gold-label-instant-adhesive.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7741",
@@ -49294,7 +50315,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7781",
@@ -49445,7 +50470,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7782",
@@ -49597,7 +50626,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7784",
@@ -49747,7 +50780,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7785",
@@ -49898,7 +50935,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7786",
@@ -50049,7 +51090,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7789a",
@@ -50200,7 +51245,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm",
       "tackFreeTime"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb7796a",
@@ -50293,7 +51342,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7796A-gold-label-curing-accelerator.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb7797",
@@ -50411,7 +51465,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2018/12/ThreeBond-7797-gold-label-adhesive-primer.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb6154d",
@@ -50503,7 +51562,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6154D-three-ruster.pdf",
-    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+    "serviceMin": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb6155d",
@@ -50581,7 +51645,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6155D-three-luster.pdf",
+    "serviceMax": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "stress": null
   },
   {
     "id": "threebond-tb6602p",
@@ -50690,7 +51760,13 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf"
     ],
     "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6602P-brake-parts-cleaner.pdf",
-    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS."
+    "serviceTemperatureNote": "serviceMax of 40 °C was a storage temperature, not service temperature; actual service temperature not stated in TDS.",
+    "serviceMin": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "threebond-tb6630",
@@ -50767,7 +51843,13 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6630-iron-powder-removal-cleaner.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "threebond-tb6658",
@@ -50907,7 +51989,14 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf"
     ],
-    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf"
+    "sourceUrl": "https://threebond.com/wp-content/uploads/2019/01/ThreeBond-6658-strong-alkaline-electrolitic-water.pdf",
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "jbweld-original-professional-size-10oz",
@@ -51009,7 +52098,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://dynamix-cdn.s3.amazonaws.com/jbweldcom/jbweldcom_201860687.pdf"
     ],
-    "sourceUrl": "https://www.jbweld.com/product/j-b-weld-professional-size"
+    "sourceUrl": "https://www.jbweld.com/product/j-b-weld-professional-size",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "jbweld-original-twin-tube-2oz",
@@ -51138,7 +52232,12 @@ window.TDS_MANUAL_PRODUCTS = [
       "legacy2013IntermittentF": 600
     },
     "legacyDataRevision": "October 2013 technical data sheet; substrate-specific ASTM D1002 values are historical and not treated as current product specifications.",
-    "volatileOrganicContentStatus": "Compliant for sale in all 50 states (October 2020 TDS)."
+    "volatileOrganicContentStatus": "Compliant for sale in all 50 states (October 2020 TDS).",
+    "serviceMin": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "gorilla-glue-2-part-epoxy",
@@ -51232,7 +52331,8 @@ window.TDS_MANUAL_PRODUCTS = [
       -10,
       200
     ],
-    "tdsGapFillNote": "Excellent; 0.050 in (1.27 mm) gap retains >50% strength per 2016 European TDS."
+    "tdsGapFillNote": "Excellent; 0.050 in (1.27 mm) gap retains >50% strength per 2016 European TDS.",
+    "thermalConductivity": null
   },
   {
     "id": "gorilla-glue-construction-adhesive",
@@ -51331,7 +52431,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "gorilla-glue-original-polyurethane",
@@ -51446,7 +52548,9 @@ window.TDS_MANUAL_PRODUCTS = [
         "maxC": 93,
         "note": "0 to 200 °F; dependent on material and bond conditions"
       }
-    }
+    },
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "gorilla-glue-super-glue",
@@ -51554,7 +52658,10 @@ window.TDS_MANUAL_PRODUCTS = [
       60
     ],
     "tdsImpactStrength": "20 ft·lbf/in² (42 kg·cm/cm²), ASTM D950",
-    "tdsShelfLife": "2 years unopened; 1+ years if opened, dependent on storage conditions (2013 European TDS)"
+    "tdsShelfLife": "2 years unopened; 1+ years if opened, dependent on storage conditions (2013 European TDS)",
+    "lapShear": null,
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "bsi-ic-gel",
@@ -51647,7 +52754,12 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://bsi-inc.com/sds_pdf/sds_ic_gel.pdf",
       "https://bsi-inc.com/techspecs.js"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "bsi-super-gold",
@@ -51749,7 +52861,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://bsi-inc.com/sds_pdf/sds_super_gold.pdf",
       "https://bsi-inc.com/techspecs.js"
-    ]
+    ],
+    "potLife": null,
+    "fixtureTime": null,
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "bsi-quik-cure-5-minute-epoxy",
@@ -51833,7 +52949,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://bsi-inc.com/sds_pdf/sds_quik_cure.pdf",
       "https://bsi-inc.com/techspecs.js"
-    ]
+    ],
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "dap-3-0-advanced-window-door-siding-trim-sealant",
@@ -51952,7 +53070,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "dap-dynaflex-230",
@@ -52118,7 +53238,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "oatey-clear-pvc-medium-bodied",
@@ -52241,7 +53363,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife",
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Application temperature 4–43°C (40–110°F); cured joint service temperature not explicitly stated in TDS; serviceMax 60°C is the ASTM D2564 test temperature; minimum for cured joint not stated."
+    "serviceTemperatureNote": "Application temperature 4–43°C (40–110°F); cured joint service temperature not explicitly stated in TDS; serviceMax 60°C is the ASTM D2564 test temperature; minimum for cured joint not stated.",
+    "potLife": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-4007",
@@ -52361,7 +53485,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://plastic-craft.com/content/TDS/Weld-On/ips_weld-on_4007_TDS_0120.pdf",
     "supportingReferenceUrls": [
       "https://weldon.com/product-literature/product-data-sheets/"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-4052",
@@ -52492,7 +53619,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMin",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-55-polycarbonate-petg",
@@ -52606,7 +53736,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMin",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-714-cpvc",
@@ -52680,7 +53813,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMin",
       "lapShear",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-724-cpvc-industrial",
@@ -52760,7 +53895,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMin",
       "lapShear",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "thermalConductivity": null
   },
   {
     "id": "oatey-all-purpose-abs-pvc-cpvc",
@@ -52837,7 +53974,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "lapShear",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "oatey-abs-pvc-transition-green",
@@ -52918,7 +54058,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "oatey-abs-medium-black",
@@ -52989,7 +54132,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-771-abs",
@@ -53066,7 +54212,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "christys-red-hot-blue-glue-low-voc",
@@ -53152,7 +54301,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "lapShear",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-3-dcm-tce-free",
@@ -53242,7 +54394,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue",
       "viscosityUnit"
-    ]
+    ],
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "weldon-4sc",
@@ -53359,7 +54513,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "weldon-1802",
@@ -53487,7 +54645,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMin",
       "serviceMax",
       "thermalConductivity"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "weldon-2354",
@@ -53609,7 +54770,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "serviceMax",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "caseway-sc-325-polycarbonate",
@@ -53696,7 +54861,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity",
       "viscosityValue"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "viscosityValue": null
   },
   {
     "id": "weldon-16-dcm-tce-free",
@@ -53799,7 +54968,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceTemperatureNote": "No service temperature range stated in TDS.",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "thermalConductivity": null
   },
   {
     "id": "weldon-40",
@@ -53933,7 +55103,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://assemblyadhesives.com/wp-content/uploads/2025/11/ips_weld-on_40_TDS_1022_R.pdf",
     "supportingReferenceUrls": [
       "https://weldon.com/product-literature/product-data-sheets/"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "itw-devcon-hp250",
@@ -54768,7 +55941,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife"
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/2050_TDS-1.pdf",
-    "productUrl": "https://permabond.com/tds/2050_tds-en/"
+    "productUrl": "https://permabond.com/tds/2050_tds-en/",
+    "serviceMax": null
   },
   {
     "id": "permabond-268",
@@ -54833,7 +56007,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife"
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/268_TDS-2.pdf",
-    "productUrl": "https://permabond.com/tds/268_tds-en/"
+    "productUrl": "https://permabond.com/tds/268_tds-en/",
+    "serviceMax": null
   },
   {
     "id": "permabond-731",
@@ -54904,7 +56079,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife"
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/731_TDS-1.pdf",
-    "productUrl": "https://permabond.com/tds/731_tds-en/"
+    "productUrl": "https://permabond.com/tds/731_tds-en/",
+    "serviceMax": null
   },
   {
     "id": "permabond-820",
@@ -54963,7 +56139,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife"
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/820_TDS-1.pdf",
-    "productUrl": "https://permabond.com/tds/820_tds-en/"
+    "productUrl": "https://permabond.com/tds/820_tds-en/",
+    "serviceMax": null
   },
   {
     "id": "permabond-910fs",
@@ -55034,7 +56211,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "potLife"
     ],
     "referenceUrl": "https://permabond.com/wp-content/uploads/2025/11/910FS_TDS-2.pdf",
-    "productUrl": "https://permabond.com/tds/910fs_tds-en/"
+    "productUrl": "https://permabond.com/tds/910fs_tds-en/",
+    "serviceMax": null
   },
   {
     "id": "loctite-clear-epoxy",
@@ -55311,7 +56489,10 @@ window.TDS_MANUAL_PRODUCTS = [
       2
     ],
     "storageLifeYears": 2,
-    "freezeThawCycles": 5
+    "freezeThawCycles": 5,
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null
   },
   {
     "id": "gorilla-super-glue-gel",
@@ -55415,7 +56596,9 @@ window.TDS_MANUAL_PRODUCTS = [
       45
     ],
     "specificGravity": 1.1,
-    "tdsShelfLife": "1 year, depending on storage conditions (TDS)"
+    "tdsShelfLife": "1 year, depending on storage conditions (TDS)",
+    "lapShear": null,
+    "thermalConductivity": null
   },
   {
     "id": "loctite-401",
@@ -55508,7 +56691,11 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "standards": [
       "NSF P1 (regional; no food contact)"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "potLife": null
   },
   {
     "id": "loctite-495",
@@ -55601,7 +56788,11 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "standards": [
       "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "potLife": null
   },
   {
     "id": "loctite-406",
@@ -55690,7 +56881,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "fixtureShearThresholdMPa": 0.1,
     "standards": [
       "Commercial Item Description A-A-3097 (regional qualification; verify local applicability)"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "potLife": null
   },
   {
     "id": "loctite-454",
@@ -55789,7 +56984,11 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "standards": [
       "NSF P1 (regional; no food contact)"
-    ]
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "thermalConductivity": null,
+    "potLife": null
   },
   {
     "id": "loctite-480",
@@ -55929,7 +57128,8 @@ window.TDS_MANUAL_PRODUCTS = [
     },
     "standards": [
       "NSF 61 (48-hour cure at 23 °C required for NSF 61 applications; confirm local suitability)"
-    ]
+    ],
+    "potLife": null
   },
   {
     "id": "loctite-pl-premium-construction-adhesive",
@@ -57427,6 +58627,567 @@ window.TDS_MANUAL_PRODUCTS = [
     "productSku": "10500",
     "fixtureTime": 9,
     "potLife": 5
+  },
+  {
+    "id": "titebond-genuine-hide-glue",
+    "profile": "pvaWood",
+    "maker": "Titebond",
+    "name": "Titebond Genuine Hide Glue",
+    "summary": "Ready-to-use liquid hide glue for furniture and instrument repair, antique restoration and reversible wood joints; offers a long assembly window and a documented hard-maple bond-strength test.",
+    "sourceRevisionDate": "Titebond manufacturer technical data page, accessed September 23, 2026; the current print view does not state a revision date.",
+    "chemistry": "Natural protein solution (hide glue)",
+    "cureFamily": "Animal-protein hide adhesive",
+    "cureDetail": "Ready to use without mixing, heating or stirring. Apply above 50 °F; open assembly time is about 10 minutes and total assembly time 20–30 minutes at 70 °F / 50% RH. Use sufficient clamping pressure to close the joint.",
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMinC": 10,
+    "openTimeMinutes": 10,
+    "openTimeRangeMinutes": [
+      10,
+      10
+    ],
+    "totalAssemblyTimeRangeMinutes": [
+      20,
+      30
+    ],
+    "viscosityClass": "medium",
+    "viscosityValue": 4000,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 52,
+    "ph": 6.5,
+    "weightPerGallonLb": 9.6,
+    "flashPointF": 200,
+    "lapShearSubstrate": "No lap-shear value reported. Manufacturer reports ASTM D-905 bond strength on hard maple: 3,591 psi / 24.76 MPa at room temperature with 72% wood failure; 3,207 psi / 22.11 MPa after overnight at 150 °F with 59% wood failure. These are wood block-shear results, not metal lap-shear ratings.",
+    "tdsCompressionShearStrengthPsi": 3591,
+    "tdsCompressionShearTestMethod": "ASTM D-905 on hard maple, room temperature: 3,591 psi with 72% wood failure. After overnight at 150 °F: 3,207 psi with 59% wood failure.",
+    "clarity": "translucent",
+    "dryColor": "Amber / translucent",
+    "outdoorUse": false,
+    "waterResistant": false,
+    "paintable": false,
+    "shelfLifeMonths": 24,
+    "storageTemperatureMaxF": 75,
+    "notStructural": true,
+    "applicationTags": [
+      "wood-bonding",
+      "hide-glue",
+      "reversible-bond",
+      "furniture-repair",
+      "instrument-repair",
+      "antique-restoration",
+      "interior"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.15,
+      "temperature": 0.35,
+      "immersion": 0
+    },
+    "substrates": {
+      "wood": 9,
+      "hardwood": 9,
+      "veneer": 8,
+      "woodComposites": 6
+    },
+    "cautions": [
+      "Not intended for exterior use, likely moisture exposure, structural or load-bearing applications.",
+      "Manufacturer notes moisture sensitivity allows disassembly; this glue is not waterproof.",
+      "Keep above 50 °F during application and keep from freezing; freezing can thicken the product.",
+      "The ASTM D-905 values are hard-maple compression block-shear data and must not be compared as lap-shear results on metal or plastic."
+    ],
+    "tdsUrl": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+    "tdsDocumentLabel": "Titebond Genuine Hide Glue manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+    "sourceUrl": "https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "potLife",
+      "lapShear",
+      "thermalConductivity",
+      "waterproofRating"
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "titebond-fast-set-polyurethane-construction-adhesive",
+    "profile": "constructionAdhesive",
+    "maker": "Titebond",
+    "name": "Titebond Fast Set Polyurethane Construction Adhesive",
+    "summary": "One-part moisture-cured polyurethane construction adhesive for interior and exterior installation and repair, including subfloors and wet, frozen or treated lumber; works from 32 °F application temperature and has a -20 to 250 °F service range.",
+    "sourceRevisionDate": "Titebond manufacturer technical data page, accessed September 23, 2026; the current print view does not state a revision date.",
+    "chemistry": "One-component polyurethane construction adhesive",
+    "cureFamily": "Moisture-curing polyurethane",
+    "cureDetail": "Apply a continuous or spot bead to one surface; bring surfaces together within about 10–20 minutes and press firmly with a slight twisting motion. Brace large assemblies as needed. On nonporous substrates, mist with water to speed cure. It begins developing strength as quickly as 20 minutes; full cure time is not stated.",
+    "serviceMin": -29,
+    "serviceMax": 121,
+    "serviceTemperatureMinF": -20,
+    "serviceTemperatureMaxF": 250,
+    "applicationTemperatureMinF": 32,
+    "applicationTemperatureMaxF": 120,
+    "applicationTemperatureMinC": 0,
+    "applicationTemperatureMaxC": 49,
+    "openTimeRangeMinutes": [
+      10,
+      20
+    ],
+    "viscosityClass": "high",
+    "viscosityValue": 150000,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 98,
+    "vocContentGPerL": "<50",
+    "flashPointF": ">200",
+    "shelfLifeMonths": 18,
+    "serviceTemperatureNote": "Manufacturer technical page publishes service range -20 to 250 °F. Not intended for continuous submersion.",
+    "tdsStrengthDevelopmentPsi": "Manufacturer-published strength development (test method not stated), psi at 6 / 9 / 24 hours: plywood → Douglas fir 271 / 292 / 680; plywood → treated lumber 262 / 326 / 644; wet OSB → wet OSB 81 / 103 / 235; frozen Douglas fir → frozen Douglas fir 273 / 295 / 585; plywood → FRP 221 / 272 / 234; concrete → concrete 254 / 400 / 1,084.",
+    "lapShearSubstrate": "No lap-shear test method or standardized lap-shear result is stated in the manufacturer technical data page; substrate-pair strength-development results are provided separately as published.",
+    "clarity": "opaque",
+    "dryColor": "Brown",
+    "outdoorUse": true,
+    "waterResistant": true,
+    "waterproof": true,
+    "paintable": false,
+    "freezeThawStability": "Will not freeze",
+    "standards": [
+      "ASTM D3498-19 Class 1/8 in., Type P/O",
+      "APA AFG-01",
+      "ASTM C557",
+      "CAN/CGSB-71.25M",
+      "CAN/CGSB-71.26M",
+      "FHA/HUD UMB #60"
+    ],
+    "applicationTags": [
+      "polyurethane",
+      "moisture-cure",
+      "construction-adhesive",
+      "subfloor",
+      "all-weather",
+      "waterproof",
+      "building-materials",
+      "interior-exterior"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 4
+    },
+    "environment": {
+      "humidity": 0.75,
+      "fuel": 0.2,
+      "immersion": 0.35
+    },
+    "substrates": {
+      "wood": 9,
+      "treatedLumber": 9,
+      "stone": 8,
+      "concrete": 8,
+      "metal": 7,
+      "masonry": 8,
+      "drywall": 8,
+      "plastic": 5,
+      "foam": 7,
+      "mirror": 7,
+      "frozenWood": 8
+    },
+    "cautions": [
+      "Not intended for continuous submersion.",
+      "Not intended for polyethylene, polypropylene, silicone, PTFE or other nonstick plastics.",
+      "Wear gloves; wet adhesive can be difficult to remove from skin and clothing.",
+      "Working time may shorten in high heat or humidity. Mist nonporous substrates with water to speed cure.",
+      "The published substrate strength-development table does not state its test method; do not treat those psi values as standardized lap-shear allowables.",
+      "Full cure time is not reported in the technical data; do not infer it from the 20-minute initial cure/development statement."
+    ],
+    "tdsUrl": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
+    "tdsDocumentLabel": "Titebond Fast Set Polyurethane Construction Adhesive manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
+    "sourceUrl": "https://www.titebond.com/product/adhesives/358ff037-60c2-4392-80cb-1b47b0b0e677",
+    "unpublishedFields": [
+      "potLife",
+      "lapShear",
+      "fullCureMinutes",
+      "thermalConductivity",
+      "gapFill"
+    ],
+    "potLife": null,
+    "lapShear": null,
+    "thermalConductivity": null,
+    "gapFill": null
+  },
+  {
+    "maker": "Titebond",
+    "profile": "pvaWood",
+    "openTimeRangeMinutes": [
+      5,
+      5
+    ],
+    "totalAssemblyTimeRangeMinutes": [
+      10,
+      15
+    ],
+    "outdoorUse": false,
+    "waterResistant": false,
+    "paintable": true,
+    "notStructural": true,
+    "stress": {
+      "shear": 5,
+      "peel": 2,
+      "impact": 1
+    },
+    "environment": {
+      "humidity": 0.35,
+      "temperature": 0.3,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 8,
+      "paper": 9,
+      "fabric": 8,
+      "pottery": 7,
+      "cardboard": 9,
+      "porousMaterials": 8
+    },
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity",
+      "continuousImmersionRating"
+    ],
+    "id": "titebond-all-purpose-white",
+    "name": "Titebond All Purpose White Glue",
+    "sourceRevisionDate": "Titebond manufacturer technical data page accessed September 23, 2026; the current product print view does not state a revision date.",
+    "tdsUrl": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+    "tdsDocumentLabel": "Titebond All Purpose White Glue manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+    "sourceUrl": "https://www.titebond.com/product/glues/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+    "summary": "Fast-setting interior white glue for crafts, school, home repairs and general woodworking on wood, paper, fabric, pottery and similar porous materials; dries clear and cleans up with water while wet.",
+    "chemistry": "Polyvinyl acetate (PVA) emulsion",
+    "cureFamily": "Water-based PVA",
+    "cureDetail": "Apply above 50 °F. Open assembly time about 5 minutes and total assembly time 10–15 minutes at 70 °F / 50% RH. Clamp to close the joint; wipe wet squeeze-out with a damp cloth.",
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMinC": 10,
+    "openTimeMinutes": 5,
+    "viscosityClass": "medium",
+    "viscosityValue": 8500,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 46,
+    "ph": 4.7,
+    "vocContentGPerL": "<4",
+    "weightPerGallonLb": 9.1,
+    "flashPointF": ">200",
+    "shelfLifeMonths": 24,
+    "storageTemperatureMaxF": 75,
+    "tdsCompressionShearStrengthPsi": 3550,
+    "tdsCompressionShearTestMethod": "ASTM D-905 on hard maple: room temperature 3,550 psi with 50% wood failure; after overnight at 150 °F, 1,600 psi with 15% wood failure.",
+    "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+    "clarity": "translucent",
+    "dryColor": "Clear",
+    "freezeThawStability": "Stable",
+    "applicationTags": [
+      "pva",
+      "craft-glue",
+      "white-glue",
+      "school-projects",
+      "paper-bonding",
+      "fabric-bonding",
+      "wood-bonding",
+      "interior",
+      "clear-drying"
+    ],
+    "cautions": [
+      "Not intended for exterior use or where moisture is likely; manufacturer recommends a Type I or Type II wood adhesive for those conditions.",
+      "Not intended for structural or load-bearing applications.",
+      "Do not apply when glue, air or materials are below 50 °F; wet glue thickens if frozen.",
+      "ASTM D-905 results are hard-maple wood block-shear values, not lap-shear strengths for nonwood substrates."
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "maker": "Titebond",
+    "profile": "pvaWood",
+    "openTimeRangeMinutes": [
+      5,
+      5
+    ],
+    "totalAssemblyTimeRangeMinutes": [
+      10,
+      15
+    ],
+    "outdoorUse": true,
+    "waterResistant": true,
+    "paintable": false,
+    "notStructural": true,
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.35,
+      "temperature": 0.3,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 9,
+      "hardwood": 9,
+      "woodComposites": 8,
+      "leather": 6,
+      "fabric": 6
+    },
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity",
+      "continuousImmersionRating"
+    ],
+    "id": "titebond-ii-dark",
+    "name": "Titebond II Dark Wood Glue",
+    "sourceRevisionDate": "Titebond manufacturer technical data page accessed September 23, 2026; the current product print view does not state a revision date.",
+    "tdsUrl": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+    "tdsDocumentLabel": "Titebond II Dark Wood Glue manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+    "sourceUrl": "https://www.titebond.com/product/glues/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+    "summary": "Cross-linking PVA wood glue with a brown cured line for darker woods, ANSI Type II water resistance, short assembly time and good sandability.",
+    "chemistry": "Cross-linking polyvinyl acetate (PVA)",
+    "cureFamily": "Cross-linking PVA",
+    "cureDetail": "Apply above 55 °F. Open assembly time is about 5 minutes and total assembly time 10–15 minutes at 70 °F / 50% RH. Clamp to close the joint; clean wet adhesive with a damp cloth.",
+    "applicationTemperatureMinF": 55,
+    "applicationTemperatureMinC": 13,
+    "openTimeMinutes": 5,
+    "viscosityClass": "medium",
+    "viscosityValue": 4000,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 48,
+    "ph": 3.0,
+    "vocContentGPerL": "<4",
+    "weightPerGallonLb": 9.1,
+    "flashPointF": ">200",
+    "shelfLifeMonths": 24,
+    "storageTemperatureMaxF": 75,
+    "tdsCompressionShearStrengthPsi": 3600,
+    "tdsCompressionShearTestMethod": "ASTM D-905 on hard maple: room temperature 3,600 psi with 77% wood failure; after overnight at 150 °F, 1,600 psi with 10% wood failure.",
+    "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+    "clarity": "opaque",
+    "dryColor": "Brown",
+    "ansiWaterResistance": "ANSI Type II",
+    "freezeThawStability": "Stable",
+    "applicationTags": [
+      "pva",
+      "cross-linking",
+      "wood-bonding",
+      "dark-wood",
+      "type-ii-water-resistant",
+      "interior-exterior",
+      "radio-frequency-gluing"
+    ],
+    "cautions": [
+      "Not for continuous submersion or below-waterline use.",
+      "Not for structural or load-bearing applications.",
+      "Do not use below 55 °F; freezing can thicken the adhesive.",
+      "Low pH may corrode some metal surfaces; test where corrosion is a concern.",
+      "Not approved for indirect food contact. ASTM D-905 values are hard-maple wood bond-strength measurements, not lap-shear values."
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "maker": "Titebond",
+    "profile": "pvaWood",
+    "openTimeRangeMinutes": [
+      15,
+      15
+    ],
+    "totalAssemblyTimeRangeMinutes": [
+      20,
+      25
+    ],
+    "outdoorUse": false,
+    "waterResistant": false,
+    "paintable": false,
+    "notStructural": true,
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.35,
+      "temperature": 0.3,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 9,
+      "hardwood": 9,
+      "woodComposites": 8
+    },
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity",
+      "continuousImmersionRating"
+    ],
+    "id": "titebond-extend",
+    "name": "Titebond Extend Wood Glue",
+    "sourceRevisionDate": "Titebond manufacturer technical data page accessed September 23, 2026; the current product print view does not state a revision date.",
+    "tdsUrl": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+    "tdsDocumentLabel": "Titebond Extend Wood Glue manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+    "sourceUrl": "https://www.titebond.com/product/glues/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+    "summary": "Slower-setting modified PVA wood glue for complex alignments, edge and face gluing, curved railings and bent laminations; offers about 15 minutes open time.",
+    "chemistry": "Modified polyvinyl acetate (PVA) emulsion",
+    "cureFamily": "Modified PVA",
+    "cureDetail": "Apply above 40 °F. Open assembly time about 15 minutes and total assembly time 20–25 minutes at 70 °F / 50% RH. Clamp to close the joint; stir if settled; wipe wet excess with a damp cloth.",
+    "applicationTemperatureMinF": 40,
+    "applicationTemperatureMinC": 4,
+    "openTimeMinutes": 15,
+    "viscosityClass": "medium",
+    "viscosityValue": 3500,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 42.3,
+    "ph": 4.8,
+    "vocContentGPerL": 3.12,
+    "weightPerGallonLb": 9.7,
+    "flashPointF": ">200",
+    "shelfLifeMonths": 12,
+    "storageTemperatureMinF": 40,
+    "tdsCompressionShearStrengthPsi": 3510,
+    "tdsCompressionShearTestMethod": "ASTM D-905 on hard maple: room temperature 3,510 psi with 81% wood failure; after overnight at 150 °F, 3,120 psi with 61% wood failure.",
+    "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+    "clarity": "opaque",
+    "dryColor": "Yellow",
+    "freezeThawStability": "Stable",
+    "applicationTags": [
+      "pva",
+      "wood-bonding",
+      "long-open-time",
+      "complex-assembly",
+      "bent-lamination",
+      "edge-gluing",
+      "face-gluing",
+      "interior"
+    ],
+    "cautions": [
+      "Not intended for exterior use or where moisture is likely; Titebond II Extend is the exterior Type II option in this product family.",
+      "Not for structural or load-bearing applications.",
+      "Do not use below 40 °F. Keep from extended storage below 40 °F and keep from freezing.",
+      "ASTM D-905 values are hard-maple wood bond-strength measurements, not lap-shear results."
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null
+  },
+  {
+    "maker": "Titebond",
+    "profile": "pvaWood",
+    "openTimeRangeMinutes": [
+      15,
+      15
+    ],
+    "totalAssemblyTimeRangeMinutes": [
+      20,
+      25
+    ],
+    "outdoorUse": true,
+    "waterResistant": true,
+    "paintable": false,
+    "notStructural": true,
+    "stress": {
+      "shear": 6,
+      "peel": 2,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.35,
+      "temperature": 0.3,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 9,
+      "hardwood": 9,
+      "woodComposites": 8,
+      "particleboard": 8,
+      "mdf": 8,
+      "plywood": 8
+    },
+    "unpublishedFields": [
+      "serviceMin",
+      "serviceMax",
+      "lapShear",
+      "potLife",
+      "thermalConductivity",
+      "continuousImmersionRating"
+    ],
+    "id": "titebond-ii-extend",
+    "name": "Titebond II Extend Wood Glue",
+    "sourceRevisionDate": "Titebond manufacturer technical data page accessed September 23, 2026; the current product print view does not state a revision date.",
+    "tdsUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+    "tdsDocumentLabel": "Titebond II Extend Wood Glue manufacturer technical data (official product print view)",
+    "referenceUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+    "sourceUrl": "https://www.titebond.com/product/glues/21051713-5cce-4925-a653-3bff0a0f71ab",
+    "summary": "Modified cross-linking PVA wood glue with ANSI Type II weatherproof performance and longer assembly time for complex exterior woodworking.",
+    "chemistry": "Modified cross-linking polyvinyl acetate (PVA) emulsion",
+    "cureFamily": "Cross-linking PVA",
+    "cureDetail": "Stir before use. Apply above 60 °F. Open assembly time about 15 minutes and total assembly time 20–25 minutes at 70 °F / 50% RH. Clamp joints tightly; wipe wet adhesive with a damp cloth.",
+    "applicationTemperatureMinF": 60,
+    "applicationTemperatureMinC": 16,
+    "openTimeMinutes": 15,
+    "viscosityClass": "medium",
+    "viscosityValue": 3500,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 49,
+    "ph": 3.0,
+    "vocContentGPerL": 3.8,
+    "weightPerGallonLb": 9.3,
+    "flashPointF": ">200",
+    "shelfLifeMonths": 12,
+    "storageTemperatureMaxF": 70,
+    "tdsCompressionShearStrengthPsi": 3844,
+    "tdsCompressionShearTestMethod": "ASTM D-905 on hard maple: room temperature 3,844 psi with 48% wood failure; after overnight at 150 °F, 1,820 psi with 6% wood failure.",
+    "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+    "clarity": "translucent",
+    "dryColor": "Cream",
+    "ansiWaterResistance": "ANSI Type II",
+    "freezeThawStability": "Stable",
+    "applicationTags": [
+      "pva",
+      "cross-linking",
+      "wood-bonding",
+      "type-ii-water-resistant",
+      "exterior-woodworking",
+      "long-open-time",
+      "complex-assembly",
+      "hot-press-compatible",
+      "radio-frequency-gluing"
+    ],
+    "cautions": [
+      "Not for continuous submersion or below-waterline use.",
+      "Not for structural or load-bearing applications.",
+      "Do not use below 60 °F; stir before use and keep from freezing.",
+      "Low pH may corrode some metal surfaces; test where corrosion is a concern.",
+      "ASTM D-905 values are hard-maple wood bond-strength measurements, not lap-shear results."
+    ],
+    "serviceMin": null,
+    "serviceMax": null,
+    "lapShear": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -73009,12 +74770,174 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.permatex.com/wp-content/uploads/2024/07/10500.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-genuine-hide-glue",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond Genuine Hide Glue",
+    "primaryCategory": "Woodworking Adhesives",
+    "categories": [
+      "Woodworking Adhesives"
+    ],
+    "sampleType": "Ready-to-use liquid hide glue",
+    "sampleConsistency": "Amber liquid; natural protein solution; 4,000 cP; 52% solids; 24-month storage life in tightly closed containers at 75 °F.",
+    "sampleForJoining": "Reversible interior wood joints for furniture repair, antique restoration, instrument repair and decorative crackle finishing.",
+    "applicationTags": [
+      "wood-bonding",
+      "hide-glue",
+      "reversible-bond",
+      "furniture-repair",
+      "instrument-repair",
+      "antique-restoration",
+      "interior"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-fast-set-polyurethane-construction-adhesive",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond Fast Set Polyurethane Construction Adhesive",
+    "primaryCategory": "Polyurethane Construction Adhesives",
+    "categories": [
+      "Polyurethane Construction Adhesives"
+    ],
+    "sampleType": "10 oz or 28 oz cartridge, one-part moisture-cured polyurethane",
+    "sampleConsistency": "Brown medium-viscosity mastic; 150,000 cP; 98% solids; working time approximately 1 hour; open time 10–20 minutes; storage life 18 months.",
+    "sampleForJoining": "Subfloors, treated/frozen/wet lumber, concrete, stone, brick, masonry, drywall, landscaping blocks, foam and compatible plastics in interior/exterior construction and repair.",
+    "applicationTags": [
+      "polyurethane",
+      "moisture-cure",
+      "construction-adhesive",
+      "subfloor",
+      "all-weather",
+      "waterproof",
+      "building-materials",
+      "interior-exterior"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 121,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-all-purpose-white",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond All Purpose White Glue",
+    "primaryCategory": "Wood Adhesives",
+    "categories": [
+      "Wood Adhesives"
+    ],
+    "sampleType": "One-part water-based wood adhesive",
+    "sampleConsistency": "White liquid PVA emulsion; 8,500 cP, 46% solids, dries clear; 24-month storage life below 75 °F.",
+    "sampleForJoining": "Crafts, school projects, paper, fabric, pottery, home repairs and general indoor woodworking on porous materials.",
+    "applicationTags": [
+      "pva",
+      "craft-glue",
+      "white-glue",
+      "school-projects",
+      "paper-bonding",
+      "fabric-bonding",
+      "wood-bonding",
+      "interior",
+      "clear-drying"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-ii-dark",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond II Dark Wood Glue",
+    "primaryCategory": "Wood Adhesives",
+    "categories": [
+      "Wood Adhesives"
+    ],
+    "sampleType": "One-part water-based wood adhesive",
+    "sampleConsistency": "Light-brown liquid cross-linking PVA; dries brown; 4,000 cP, 48% solids, 24-month storage life at 75 °F.",
+    "sampleForJoining": "Wood, hardboard, particleboard, leather, cloth and porous materials, especially darker wood joints where a brown glue line is desired.",
+    "applicationTags": [
+      "pva",
+      "cross-linking",
+      "wood-bonding",
+      "dark-wood",
+      "type-ii-water-resistant",
+      "interior-exterior",
+      "radio-frequency-gluing"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-extend",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond Extend Wood Glue",
+    "primaryCategory": "Wood Adhesives",
+    "categories": [
+      "Wood Adhesives"
+    ],
+    "sampleType": "One-part water-based wood adhesive",
+    "sampleConsistency": "Yellow liquid modified-PVA emulsion; 3,500 cP, 42.3% solids, 12-month storage life at 70 °F.",
+    "sampleForJoining": "Common wood species, particleboard, MDF and plywood, especially assemblies needing longer alignment time, edge/face gluing or bent lamination.",
+    "applicationTags": [
+      "pva",
+      "wood-bonding",
+      "long-open-time",
+      "complex-assembly",
+      "bent-lamination",
+      "edge-gluing",
+      "face-gluing",
+      "interior"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "titebond-ii-extend",
+    "manufacturer": "Titebond",
+    "familyName": "Titebond II Extend Wood Glue",
+    "primaryCategory": "Wood Adhesives",
+    "categories": [
+      "Wood Adhesives"
+    ],
+    "sampleType": "One-part water-based wood adhesive",
+    "sampleConsistency": "Off-white modified cross-linking PVA liquid; dries cream; 3,500 cP, 49% solids, 12-month storage life at 70 °F.",
+    "sampleForJoining": "Common wood species, particleboard, MDF and plywood for more complex exterior projects, with ANSI Type II water resistance; compatible with hot press and radio-frequency systems.",
+    "applicationTags": [
+      "pva",
+      "cross-linking",
+      "wood-bonding",
+      "type-ii-water-resistant",
+      "exterior-woodworking",
+      "long-open-time",
+      "complex-assembly",
+      "hot-press-compatible",
+      "radio-frequency-gluing"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 584,
-  "referenceFamilies": 584,
-  "tdsBackedProducts": 577,
+  "selectorProducts": 590,
+  "referenceFamilies": 590,
+  "tdsBackedProducts": 583,
   "otherOfficialTechnicalSources": 7
 };

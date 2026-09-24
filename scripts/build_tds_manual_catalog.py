@@ -129,6 +129,11 @@ def build_selector_product(entry: dict) -> dict:
     for key in selector_fields:
         if key in entry and entry[key] is not None:
             product[key] = entry[key]
+    # An explicit null on a documented omission must survive profile
+    # defaults, especially for comparable strength and service limits.
+    for key in entry.get("unpublishedFields", []):
+        if key in entry and entry[key] is None:
+            product[key] = None
     if pricing is not None:
         product["pricing"] = pricing
     return product

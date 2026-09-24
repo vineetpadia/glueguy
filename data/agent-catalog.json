@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T01:30:31.130528+00:00",
+  "generatedAt": "2026-09-24T01:54:30.084554+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1732,
-    "manualTdsProducts": 577,
+    "products": 1737,
+    "manualTdsProducts": 583,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 720,
+    "officialManufacturerLeads": 719,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -1996,7 +1996,6 @@
         "official-lead-titebond-titebond-drywall-plus-construction-adhesive",
         "official-lead-titebond-titebond-extend",
         "official-lead-titebond-titebond-fast-grab-frp-adhesive",
-        "official-lead-titebond-titebond-fast-set-polyurethane-construction-adhesive",
         "official-lead-titebond-titebond-genuine-hide",
         "official-lead-titebond-titebond-heavy-duty-construction-adhesive",
         "official-lead-titebond-titebond-ii-dark",
@@ -2012,6 +2011,12 @@
         "official-lead-titebond-titebond-translucent",
         "official-lead-titebond-titebond-ultimate-advanced-polymer-panel-adhesive",
         "official-lead-titebond-titebond-white",
+        "titebond-all-purpose-white",
+        "titebond-extend",
+        "titebond-fast-set-polyurethane-construction-adhesive",
+        "titebond-genuine-hide-glue",
+        "titebond-ii-dark",
+        "titebond-ii-extend",
         "titebond-ii-premium",
         "titebond-iii-ultimate",
         "titebond-original",
@@ -2167,7 +2172,8 @@
         "oatey-all-purpose-abs-pvc-cpvc"
       ],
       "all-weather": [
-        "gorilla-glue-construction-adhesive"
+        "gorilla-glue-construction-adhesive",
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "alumina": [
         "threebond-tb3732"
@@ -2223,6 +2229,9 @@
       ],
       "antimony-free": [
         "cemedine-sx720"
+      ],
+      "antique-restoration": [
+        "titebond-genuine-hide-glue"
       ],
       "appliance-assembly": [
         "dow-q3-3526"
@@ -2299,6 +2308,9 @@
       "battery-thermal-management": [
         "3m-tc2707"
       ],
+      "bent-lamination": [
+        "titebond-extend"
+      ],
       "bga": [
         "threebond-tb2274"
       ],
@@ -2334,6 +2346,9 @@
       ],
       "brush-coating": [
         "gardner-bender-ltg-400"
+      ],
+      "building-materials": [
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "bushing": [
         "threebond-tb2720c"
@@ -2468,6 +2483,9 @@
       "clear-bonding": [
         "loctite-clear-epoxy"
       ],
+      "clear-drying": [
+        "titebond-all-purpose-white"
+      ],
       "clear-plastic": [
         "bsi-super-gold"
       ],
@@ -2496,6 +2514,10 @@
       "cold-weld": [
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz"
+      ],
+      "complex-assembly": [
+        "titebond-extend",
+        "titebond-ii-extend"
       ],
       "composite-bonding": [
         "3m-dp8810ns",
@@ -2709,7 +2731,8 @@
       "construction-adhesive": [
         "gorilla-glue-construction-adhesive",
         "loctite-pl-premium-construction-adhesive",
-        "loctite-power-grab-ultimate-crystal-clear"
+        "loctite-power-grab-ultimate-crystal-clear",
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "construction-repair": [
         "3m-scotch-weld-dp600-dp600ns-urethane"
@@ -2780,6 +2803,9 @@
         "elmers-glue-all-multipurpose",
         "elmers-liquid-school-glue-white"
       ],
+      "craft-glue": [
+        "titebond-all-purpose-white"
+      ],
       "craft-layout": [
         "3m-scotch-spray-mount-6065"
       ],
@@ -2787,7 +2813,9 @@
         "titebond-quick-thick"
       ],
       "cross-linking": [
-        "gorilla-wood-glue"
+        "gorilla-wood-glue",
+        "titebond-ii-dark",
+        "titebond-ii-extend"
       ],
       "cryogenic-bonding": [
         "3m-scotch-weld-2216-ba-translucent-7000046479",
@@ -2863,6 +2891,9 @@
       ],
       "damping": [
         "threebond-tb3168j"
+      ],
+      "dark-wood": [
+        "titebond-ii-dark"
       ],
       "dcm-free": [
         "weldon-16-dcm-tce-free",
@@ -2970,6 +3001,9 @@
         "oatey-clear-pvc-medium-bodied",
         "weldon-714-cpvc",
         "weldon-771-abs"
+      ],
+      "edge-gluing": [
+        "titebond-extend"
       ],
       "elastic-adhesive": [
         "threebond-1530c",
@@ -3314,6 +3348,7 @@
         "loctite-pl-premium-construction-adhesive"
       ],
       "exterior-woodworking": [
+        "titebond-ii-extend",
         "titebond-ii-premium",
         "titebond-iii-ultimate"
       ],
@@ -3321,7 +3356,11 @@
         "e6000-fabri-fuse"
       ],
       "fabric-bonding": [
-        "3m-super-77-low-voc-aerosol"
+        "3m-super-77-low-voc-aerosol",
+        "titebond-all-purpose-white"
+      ],
+      "face-gluing": [
+        "titebond-extend"
       ],
       "fast-cure": [
         "3m-scotch-weld-sf100",
@@ -3570,7 +3609,8 @@
         "threebond-tb1102"
       ],
       "furniture-repair": [
-        "elmers-carpenters-wood-glue-interior"
+        "elmers-carpenters-wood-glue-interior",
+        "titebond-genuine-hide-glue"
       ],
       "gap-filling": [
         "3m-tc2707",
@@ -3796,6 +3836,9 @@
         "weldon-714-cpvc",
         "weldon-724-cpvc-industrial"
       ],
+      "hide-glue": [
+        "titebond-genuine-hide-glue"
+      ],
       "high-elongation": [
         "threebond-tb1217h",
         "wacker-elastosil-a95-grey"
@@ -3926,6 +3969,9 @@
         "mc-other_hot_glue_7518a61",
         "mc-other_hot_glue_7518a62",
         "mc-other_hot_glue_7518a63"
+      ],
+      "hot-press-compatible": [
+        "titebond-ii-extend"
       ],
       "hot-water": [
         "weldon-714-cpvc"
@@ -4229,6 +4275,9 @@
         "threebond-1703",
         "threebond-tb1731"
       ],
+      "instrument-repair": [
+        "titebond-genuine-hide-glue"
+      ],
       "insulating": [
         "3m-high-temperature-masking-liquid-2538uv",
         "3m-scotch-seal-1252",
@@ -4320,6 +4369,11 @@
       "insulation-bonding": [
         "3m-super-77-low-voc-aerosol"
       ],
+      "interior": [
+        "titebond-all-purpose-white",
+        "titebond-extend",
+        "titebond-genuine-hide-glue"
+      ],
       "interior-exterior": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
         "dap-dynaflex-230",
@@ -4329,7 +4383,9 @@
         "dap-weldwood-original-contact-cement-spray",
         "liquid-nails-ln2000",
         "liquid-nails-ln903",
-        "loctite-power-grab-ultimate-crystal-clear"
+        "loctite-power-grab-ultimate-crystal-clear",
+        "titebond-fast-set-polyurethane-construction-adhesive",
+        "titebond-ii-dark"
       ],
       "interior-projects": [
         "titebond-quick-thick"
@@ -4432,6 +4488,8 @@
         "threebond-tb1227d"
       ],
       "long-open-time": [
+        "titebond-extend",
+        "titebond-ii-extend",
         "titebond-iii-ultimate"
       ],
       "low-bloom": [
@@ -4865,7 +4923,8 @@
         "threebond-1530c",
         "threebond-1533",
         "threebond-tb3164d",
-        "threebond-tb3164h"
+        "threebond-tb3164h",
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "moisture-cure-silicone": [
         "threebond-1225c"
@@ -5187,7 +5246,8 @@
       "paper-bonding": [
         "3m-super-77-low-voc-aerosol",
         "threebond-tb7721a",
-        "threebond-tb7789a"
+        "threebond-tb7789a",
+        "titebond-all-purpose-white"
       ],
       "paper-fabric-bonding": [
         "3m-scotch-spray-mount-6065"
@@ -5504,7 +5564,8 @@
       "polyurethane": [
         "gorilla-glue-original-polyurethane",
         "loctite-pl-premium-construction-adhesive",
-        "threebond-tb1797"
+        "threebond-tb1797",
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "polyurethane-sealant": [
         "3m-marine-adhesive-sealant-4200fc-black-06564"
@@ -5730,7 +5791,11 @@
         "cemedine-sx1008"
       ],
       "pva": [
-        "gorilla-wood-glue"
+        "gorilla-wood-glue",
+        "titebond-all-purpose-white",
+        "titebond-extend",
+        "titebond-ii-dark",
+        "titebond-ii-extend"
       ],
       "pvc-solvent-cement": [
         "christys-red-hot-blue-glue-low-voc",
@@ -5749,6 +5814,10 @@
       ],
       "quick-setting": [
         "threebond-tb1303"
+      ],
+      "radio-frequency-gluing": [
+        "titebond-ii-dark",
+        "titebond-ii-extend"
       ],
       "rain-ready": [
         "dap-3-0-advanced-window-door-siding-trim-sealant"
@@ -5819,6 +5888,9 @@
         "threebond-tb1303",
         "threebond-tb1359k",
         "threebond-tb1372d"
+      ],
+      "reversible-bond": [
+        "titebond-genuine-hide-glue"
       ],
       "reworkable": [
         "dymax-9482",
@@ -5948,7 +6020,8 @@
       ],
       "school-projects": [
         "elmers-glue-all-multipurpose",
-        "elmers-liquid-school-glue-white"
+        "elmers-liquid-school-glue-white",
+        "titebond-all-purpose-white"
       ],
       "screen-printable": [
         "threebond-3373c"
@@ -6711,7 +6784,8 @@
       ],
       "subfloor": [
         "liquid-nails-ln902",
-        "loctite-pl-premium-construction-adhesive"
+        "loctite-pl-premium-construction-adhesive",
+        "titebond-fast-set-polyurethane-construction-adhesive"
       ],
       "sunlight-yellowing-resistant": [
         "permabond-uv6160",
@@ -6968,6 +7042,10 @@
       ],
       "two-part-silicone": [
         "dow-q3-3526"
+      ],
+      "type-ii-water-resistant": [
+        "titebond-ii-dark",
+        "titebond-ii-extend"
       ],
       "ul94-v0": [
         "cemedine-sx720",
@@ -7229,6 +7307,7 @@
         "liquid-nails-ln901",
         "liquid-nails-ln905",
         "shoe-goo-original",
+        "titebond-fast-set-polyurethane-construction-adhesive",
         "titebond-iii-ultimate"
       ],
       "waterproof-sealing": [
@@ -7312,6 +7391,9 @@
       "white-foam": [
         "bsi-super-gold"
       ],
+      "white-glue": [
+        "titebond-all-purpose-white"
+      ],
       "wicking": [
         "gc-electronics-10-120",
         "permabond-a126",
@@ -7359,7 +7441,12 @@
         "threebond-tb7784",
         "threebond-tb7785",
         "threebond-tb7786",
-        "threebond-tb7789a"
+        "threebond-tb7789a",
+        "titebond-all-purpose-white",
+        "titebond-extend",
+        "titebond-genuine-hide-glue",
+        "titebond-ii-dark",
+        "titebond-ii-extend"
       ],
       "wood-paper-fabric": [
         "dap-weldwood-original-contact-cement",
@@ -7422,9 +7509,9 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 720,
+      "official-manufacturer-lead": 719,
       "official-tds-url": 310,
-      "product-or-catalog-page": 185
+      "product-or-catalog-page": 191
     }
   },
   "products": [
@@ -177884,6 +177971,113 @@
       "extractionCandidates": []
     },
     {
+      "id": "titebond-all-purpose-white",
+      "source": "manual-tds",
+      "maker": "Titebond",
+      "name": "Titebond All Purpose White Glue",
+      "profile": "pvaWood",
+      "summary": "Fast-setting interior white glue for crafts, school, home repairs and general woodworking on wood, paper, fabric, pottery and similar porous materials; dries clear and cleans up with water while wet.",
+      "applicationTags": [
+        "pva",
+        "craft-glue",
+        "white-glue",
+        "school-projects",
+        "paper-bonding",
+        "fabric-bonding",
+        "wood-bonding",
+        "interior",
+        "clear-drying"
+      ],
+      "referenceCategory": "Wood Adhesives",
+      "referenceForJoining": "Crafts, school projects, paper, fabric, pottery, home repairs and general indoor woodworking on porous materials.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Polyvinyl acetate (PVA) emulsion",
+        "cureFamily": "Water-based PVA",
+        "cureDetail": "Apply above 50 \u00b0F. Open assembly time about 5 minutes and total assembly time 10\u201315 minutes at 70 \u00b0F / 50% RH. Clamp to close the joint; wipe wet squeeze-out with a damp cloth.",
+        "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+        "viscosityClass": "medium",
+        "viscosityValue": 8500,
+        "viscosityUnit": "cP",
+        "clarity": "translucent",
+        "flashPointF": ">200",
+        "solidsContentPct": 46,
+        "vocContentGPerL": "<4",
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+        "tdsUrl": "https://www.titebond.com/print/product/33fc33ac-b2f8-4cbc-bd08-60b62ad2aaf6",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not intended for exterior use or where moisture is likely; manufacturer recommends a Type I or Type II wood adhesive for those conditions.",
+        "Not intended for structural or load-bearing applications.",
+        "Do not apply when glue, air or materials are below 50 \u00b0F; wet glue thickens if frozen."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-titebond-titebond-cold-press-hpl",
       "source": "official-manufacturer-lead",
       "maker": "Titebond",
@@ -178940,6 +179134,112 @@
       "extractionCandidates": []
     },
     {
+      "id": "titebond-extend",
+      "source": "manual-tds",
+      "maker": "Titebond",
+      "name": "Titebond Extend Wood Glue",
+      "profile": "pvaWood",
+      "summary": "Slower-setting modified PVA wood glue for complex alignments, edge and face gluing, curved railings and bent laminations; offers about 15 minutes open time.",
+      "applicationTags": [
+        "pva",
+        "wood-bonding",
+        "long-open-time",
+        "complex-assembly",
+        "bent-lamination",
+        "edge-gluing",
+        "face-gluing",
+        "interior"
+      ],
+      "referenceCategory": "Wood Adhesives",
+      "referenceForJoining": "Common wood species, particleboard, MDF and plywood, especially assemblies needing longer alignment time, edge/face gluing or bent lamination.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Modified polyvinyl acetate (PVA) emulsion",
+        "cureFamily": "Modified PVA",
+        "cureDetail": "Apply above 40 \u00b0F. Open assembly time about 15 minutes and total assembly time 20\u201325 minutes at 70 \u00b0F / 50% RH. Clamp to close the joint; stir if settled; wipe wet excess with a damp cloth.",
+        "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+        "viscosityClass": "medium",
+        "viscosityValue": 3500,
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "flashPointF": ">200",
+        "solidsContentPct": 42.3,
+        "vocContentGPerL": 3.12,
+        "shelfLifeMonths": 12
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+        "tdsUrl": "https://www.titebond.com/print/product/d7c6f86b-93cc-4400-99ed-79f8a75a2e95",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not intended for exterior use or where moisture is likely; Titebond II Extend is the exterior Type II option in this product family.",
+        "Not for structural or load-bearing applications.",
+        "Do not use below 40 \u00b0F. Keep from extended storage below 40 \u00b0F and keep from freezing."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-titebond-titebond-fast-grab-frp-adhesive",
       "source": "official-manufacturer-lead",
       "maker": "Titebond",
@@ -179028,25 +179328,51 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-titebond-titebond-fast-set-polyurethane-construction-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "titebond-fast-set-polyurethane-construction-adhesive",
+      "source": "manual-tds",
       "maker": "Titebond",
       "name": "Titebond Fast Set Polyurethane Construction Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "constructionAdhesive",
+      "summary": "One-part moisture-cured polyurethane construction adhesive for interior and exterior installation and repair, including subfloors and wet, frozen or treated lumber; works from 32 \u00b0F application temperature and has a -20 to 250 \u00b0F service range.",
+      "applicationTags": [
+        "polyurethane",
+        "moisture-cure",
+        "construction-adhesive",
+        "subfloor",
+        "all-weather",
+        "waterproof",
+        "building-materials",
+        "interior-exterior"
+      ],
+      "referenceCategory": "Polyurethane Construction Adhesives",
+      "referenceForJoining": "Subfloors, treated/frozen/wet lumber, concrete, stone, brick, masonry, drywall, landscaping blocks, foam and compatible plastics in interior/exterior construction and repair.",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "One-component polyurethane construction adhesive",
+        "cureFamily": "Moisture-curing polyurethane",
+        "cureDetail": "Apply a continuous or spot bead to one surface; bring surfaces together within about 10\u201320 minutes and press firmly with a slight twisting motion. Brace large assemblies as needed. On nonporous substrates, mist with water to speed cure. It begins developing strength as quickly as 20 minutes; full cure time is not stated.",
+        "serviceMin": -29,
+        "serviceMax": 121,
+        "serviceTemperatureNote": "Manufacturer technical page publishes service range -20 to 250 \u00b0F. Not intended for continuous submersion.",
+        "lapShearSubstrate": "No lap-shear test method or standardized lap-shear result is stated in the manufacturer technical data page; substrate-pair strength-development results are provided separately as published.",
+        "viscosityClass": "high",
+        "viscosityValue": 150000,
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "flashPointF": ">200",
+        "solidsContentPct": 98,
+        "vocContentGPerL": "<50",
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
-        "referenceUrl": "https://www.titebond.com/product/adhesives/358ff037-60c2-4392-80cb-1b47b0b0e677",
+        "referenceUrl": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
         "tdsUrl": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
-        "tdsUrls": [
-          "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page",
         "tdsDocuments": [
           {
             "url": "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677",
@@ -179054,36 +179380,44 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://www.titebond.com/print/product/358ff037-60c2-4392-80cb-1b47b0b0e677"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.titebond.com/product/adhesives/358ff037-60c2-4392-80cb-1b47b0b0e677",
-        "sourceLabel": "Titebond construction adhesives catalog",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.titebond.com/product/adhesives/358ff037-60c2-4392-80cb-1b47b0b0e677"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -179103,15 +179437,16 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not intended for continuous submersion.",
+        "Not intended for polyethylene, polypropylene, silicone, PTFE or other nonstick plastics.",
+        "Wear gloves; wet adhesive can be difficult to remove from skin and clothing."
       ],
       "extractionCandidates": []
     },
@@ -179200,6 +179535,110 @@
       },
       "agentNotes": [
         "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "titebond-genuine-hide-glue",
+      "source": "manual-tds",
+      "maker": "Titebond",
+      "name": "Titebond Genuine Hide Glue",
+      "profile": "pvaWood",
+      "summary": "Ready-to-use liquid hide glue for furniture and instrument repair, antique restoration and reversible wood joints; offers a long assembly window and a documented hard-maple bond-strength test.",
+      "applicationTags": [
+        "wood-bonding",
+        "hide-glue",
+        "reversible-bond",
+        "furniture-repair",
+        "instrument-repair",
+        "antique-restoration",
+        "interior"
+      ],
+      "referenceCategory": "Woodworking Adhesives",
+      "referenceForJoining": "Reversible interior wood joints for furniture repair, antique restoration, instrument repair and decorative crackle finishing.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Natural protein solution (hide glue)",
+        "cureFamily": "Animal-protein hide adhesive",
+        "cureDetail": "Ready to use without mixing, heating or stirring. Apply above 50 \u00b0F; open assembly time is about 10 minutes and total assembly time 20\u201330 minutes at 70 \u00b0F / 50% RH. Use sufficient clamping pressure to close the joint.",
+        "lapShearSubstrate": "No lap-shear value reported. Manufacturer reports ASTM D-905 bond strength on hard maple: 3,591 psi / 24.76 MPa at room temperature with 72% wood failure; 3,207 psi / 22.11 MPa after overnight at 150 \u00b0F with 59% wood failure. These are wood block-shear results, not metal lap-shear ratings.",
+        "viscosityClass": "medium",
+        "viscosityValue": 4000,
+        "viscosityUnit": "cP",
+        "clarity": "translucent",
+        "flashPointF": 200,
+        "solidsContentPct": 52,
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+        "tdsUrl": "https://www.titebond.com/print/product/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not intended for exterior use, likely moisture exposure, structural or load-bearing applications.",
+        "Manufacturer notes moisture sensitivity allows disassembly; this glue is not waterproof.",
+        "Keep above 50 \u00b0F during application and keep from freezing; freezing can thicken the product."
       ],
       "extractionCandidates": []
     },
@@ -179380,6 +179819,111 @@
       "extractionCandidates": []
     },
     {
+      "id": "titebond-ii-dark",
+      "source": "manual-tds",
+      "maker": "Titebond",
+      "name": "Titebond II Dark Wood Glue",
+      "profile": "pvaWood",
+      "summary": "Cross-linking PVA wood glue with a brown cured line for darker woods, ANSI Type II water resistance, short assembly time and good sandability.",
+      "applicationTags": [
+        "pva",
+        "cross-linking",
+        "wood-bonding",
+        "dark-wood",
+        "type-ii-water-resistant",
+        "interior-exterior",
+        "radio-frequency-gluing"
+      ],
+      "referenceCategory": "Wood Adhesives",
+      "referenceForJoining": "Wood, hardboard, particleboard, leather, cloth and porous materials, especially darker wood joints where a brown glue line is desired.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Cross-linking polyvinyl acetate (PVA)",
+        "cureFamily": "Cross-linking PVA",
+        "cureDetail": "Apply above 55 \u00b0F. Open assembly time is about 5 minutes and total assembly time 10\u201315 minutes at 70 \u00b0F / 50% RH. Clamp to close the joint; clean wet adhesive with a damp cloth.",
+        "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+        "viscosityClass": "medium",
+        "viscosityValue": 4000,
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "flashPointF": ">200",
+        "solidsContentPct": 48,
+        "vocContentGPerL": "<4",
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+        "tdsUrl": "https://www.titebond.com/print/product/0d8d5e20-0660-45f6-a61e-69ada5b855b0",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for continuous submersion or below-waterline use.",
+        "Not for structural or load-bearing applications.",
+        "Do not use below 55 \u00b0F; freezing can thicken the adhesive."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-titebond-titebond-ii-extend",
       "source": "official-manufacturer-lead",
       "maker": "Titebond",
@@ -179464,6 +180008,113 @@
       },
       "agentNotes": [
         "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "titebond-ii-extend",
+      "source": "manual-tds",
+      "maker": "Titebond",
+      "name": "Titebond II Extend Wood Glue",
+      "profile": "pvaWood",
+      "summary": "Modified cross-linking PVA wood glue with ANSI Type II weatherproof performance and longer assembly time for complex exterior woodworking.",
+      "applicationTags": [
+        "pva",
+        "cross-linking",
+        "wood-bonding",
+        "type-ii-water-resistant",
+        "exterior-woodworking",
+        "long-open-time",
+        "complex-assembly",
+        "hot-press-compatible",
+        "radio-frequency-gluing"
+      ],
+      "referenceCategory": "Wood Adhesives",
+      "referenceForJoining": "Common wood species, particleboard, MDF and plywood for more complex exterior projects, with ANSI Type II water resistance; compatible with hot press and radio-frequency systems.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Modified cross-linking polyvinyl acetate (PVA) emulsion",
+        "cureFamily": "Cross-linking PVA",
+        "cureDetail": "Stir before use. Apply above 60 \u00b0F. Open assembly time about 15 minutes and total assembly time 20\u201325 minutes at 70 \u00b0F / 50% RH. Clamp joints tightly; wipe wet adhesive with a damp cloth.",
+        "lapShearSubstrate": "No lap-shear rating reported; manufacturer reports ASTM D-905 wood bond strength on hard maple (details retained separately).",
+        "viscosityClass": "medium",
+        "viscosityValue": 3500,
+        "viscosityUnit": "cP",
+        "clarity": "translucent",
+        "flashPointF": ">200",
+        "solidsContentPct": 49,
+        "vocContentGPerL": 3.8,
+        "shelfLifeMonths": 12
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+        "tdsUrl": "https://www.titebond.com/print/product/21051713-5cce-4925-a653-3bff0a0f71ab",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.455,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for continuous submersion or below-waterline use.",
+        "Not for structural or load-bearing applications.",
+        "Do not use below 60 \u00b0F; stir before use and keep from freezing."
       ],
       "extractionCandidates": []
     },

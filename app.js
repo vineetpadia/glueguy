@@ -234,6 +234,10 @@ const OBSERVED_TDS_FIELDS = [
   "dielectricBreakdownVPerMil",
   "dielectricBreakdownKVPerMm",
   "dielectricBreakdownRangeKVPerMm",
+  "tdsCompressionShearStrengthPsi",
+  "tdsCompressionShearTestMethod",
+  "tdsStrengthDevelopmentPsi",
+  "unpublishedFields",
   "lapShearSubstrate",
   "lapShearProfilesMPa",
   "lapShearTestMethod",
@@ -4637,6 +4641,11 @@ const mergeObservedCatalogData = (existing, generated) => {
       existing.profileDerivedFields = (existing.profileDerivedFields ?? []).filter(
         (derivedField) => derivedField !== field,
       );
+    } else if (generated[field] === null && generated.unpublishedFields?.includes(field)) {
+      existing[field] = null;
+      existing.profileDerivedFields = (existing.profileDerivedFields ?? []).filter(
+        (derivedField) => derivedField !== field,
+      );
     }
   });
   if (
@@ -6284,6 +6293,7 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["TDS shear-method note", "tdsOverlapShearMethodNote"],
   ["TDS compression-shear strength (psi)", "tdsCompressionShearStrengthPsi"],
   ["TDS compression-shear method and test context", "tdsCompressionShearTestMethod"],
+  ["TDS manufacturer-reported strength development (psi)", "tdsStrengthDevelopmentPsi"],
   ["TDS overlap-tensile strength development (psi)", "tdsOverlapTensileStrengthPsiProfiles"],
   ["TDS bond-strength test conditions", "tdsBondStrengthTestConditions"],
   ["Open time (minutes)", "openTimeMinutes"],
@@ -6300,6 +6310,15 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["TDS specific-gravity range", "specificGravityRange"],
   ["TDS VOC content (g/L)", "vocContentGPerL"],
   ["Service-temperature note", "serviceTemperatureNote"],
+  ["Outdoor use", "outdoorUse"],
+  ["Water-resistance classification", "ansiWaterResistance"],
+  ["Not structural / load bearing", "notStructural"],
+  ["pH", "ph"],
+  ["Dry / cured color", "dryColor"],
+  ["Freeze-thaw stability", "freezeThawStability"],
+  ["Total assembly time range (minutes)", "totalAssemblyTimeRangeMinutes"],
+  ["Minimum storage temperature (°F)", "storageTemperatureMinF"],
+  ["Maximum storage temperature (°F)", "storageTemperatureMaxF"],
   ["Service-temperature qualification", "serviceTemperatureQualifier"],
   ["Long-term service minimum (°C)", "longTermServiceTemperatureMinC"],
   ["Long-term service maximum (°C)", "longTermServiceTemperatureMaxC"],
@@ -7138,7 +7157,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-gorilla-gel");
+    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-titebond-wood-line");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

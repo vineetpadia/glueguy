@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:32:21.623459+00:00",
+  "generatedAt": "2026-09-24T04:42:23.129199+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -29517,7 +29517,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/aremco-ceramabond-503.txt",
@@ -29630,7 +29630,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/aremco-ceramabond-571.txt",
@@ -29745,7 +29745,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/aremco-pyro-putty-653.txt",
@@ -41626,7 +41626,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.delo-adhesives.com/service-center/downloads/downloads/datasheet/DELO%20MONOPOX_TC2270_TIDB-en.pdf?cHash=466a3e7a101e66f2e24dbbb1c2c49513&show=1&type=5001",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.delo-adhesives.com/service-center/downloads/downloads/datasheet/DELO%20MONOPOX_TC2270_TIDB-en.pdf?cHash=466a3e7a101e66f2e24dbbb1c2c49513&show=1&type=5001",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/delo-monopox-tc2270.txt",
@@ -65511,7 +65511,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.huntsman.com/products/araldite-2012-a-b",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.huntsman.com/documents/6ae9b503-7ad1-4f0e-a99a-050c2050eeba",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/araldite-2012.txt",
@@ -65614,7 +65614,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.huntsman.com/products/araldite-2021-1-a-b",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.huntsman.com/documents/175f190c-f290-41ca-916a-23e37cd57191",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/araldite-2021-1.txt",
@@ -65715,7 +65715,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.huntsman.com/products/araldite-2022-1-a-b",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.huntsman.com/documents/ce39c27a-7d1a-4113-9abb-5d4266850163",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/araldite-2022-1.txt",
@@ -65818,7 +65818,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://products.huntsman.com/products/araldite-2031-1-a-b",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.huntsman.com/documents/5662209a-d0e9-4de8-bdcf-cfb246e69c14",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/araldite-2031.txt",
@@ -109952,7 +109952,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/penchem-uv772-5r2.txt",
@@ -110056,7 +110056,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/penchem-uv784-14.txt",

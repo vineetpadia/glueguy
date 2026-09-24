@@ -2782,7 +2782,9 @@
       "referenceCategory": "Thermally Conductive Electronics Adhesives",
       "referenceSampleType": "One-component heat-cure die-attach epoxy",
       "referenceSampleConsistency": "Gray opaque aluminum-nitride-filled modified epoxy paste; 145,000 mPa.s at 10 1/s; density 2.15 g/cm3; thixotropy index 4.5; 88 Shore D after 80 C x 30 min cure",
-      "referenceForJoining": "Power-semiconductor die attach, silicon die to gold or FR4, thermally conductive electrically insulating PCB and LCP/ABS electronics assemblies"
+      "referenceForJoining": "Power-semiconductor die attach, silicon die to gold or FR4, thermally conductive electrically insulating PCB and LCP/ABS electronics assemblies",
+      "tdsUrl": "https://www.delo-adhesives.com/service-center/downloads/downloads/datasheet/DELO%20MONOPOX_TC2270_TIDB-en.pdf?cHash=466a3e7a101e66f2e24dbbb1c2c49513&show=1&type=5001",
+      "tdsDocumentLabel": "DELO MONOPOX TC2270 Technical Information Data Bulletin (TIDB), English"
     },
     {
       "id": "panacol-elecolit-325",
@@ -20766,7 +20768,10 @@
         "cureDepthMm",
         "tackFreeTime",
         "cureProfiles"
-      ]
+      ],
+      "tdsUrl": "https://products.huntsman.com/documents/6ae9b503-7ad1-4f0e-a99a-050c2050eeba",
+      "tdsDocumentLabel": "ARALDITE 2012 A/B Technical Data Sheet (Huntsman document page; may require account access)",
+      "sourceRevisionDate": "Huntsman ARALDITE 2012 A/B Technical Data Sheet; current document listing checked September 2026"
     },
     {
       "id": "araldite-2021-1",
@@ -20816,7 +20821,10 @@
       "referenceForJoining": "Plastics, composites and metals in automotive, aerospace, marine and general industrial assembly",
       "unpublishedFields": [
         "thermalConductivity"
-      ]
+      ],
+      "tdsUrl": "https://products.huntsman.com/documents/175f190c-f290-41ca-916a-23e37cd57191",
+      "tdsDocumentLabel": "ARALDITE 2021-1 A/B (US-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+      "sourceRevisionDate": "Huntsman ARALDITE 2021-1 A/B US-EN Technical Data Sheet; current document listing checked September 2026"
     },
     {
       "id": "araldite-2022-1",
@@ -20867,7 +20875,10 @@
       "unpublishedFields": [
         "thermalConductivity"
       ],
-      "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100°C from product datasheet."
+      "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100°C from product datasheet.",
+      "tdsUrl": "https://products.huntsman.com/documents/ce39c27a-7d1a-4113-9abb-5d4266850163",
+      "tdsDocumentLabel": "ARALDITE 2022-1 A/B (EU-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+      "sourceRevisionDate": "Huntsman ARALDITE 2022-1 A/B EU-EN Technical Data Sheet; current document listing checked September 2026"
     },
     {
       "id": "araldite-2031",
@@ -20922,7 +20933,10 @@
         "viscosityValue",
         "viscosityUnit"
       ],
-      "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100°C from product datasheet."
+      "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100°C from product datasheet.",
+      "tdsUrl": "https://products.huntsman.com/documents/5662209a-d0e9-4de8-bdcf-cfb246e69c14",
+      "tdsDocumentLabel": "ARALDITE 2031-1 A/B (US-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+      "sourceRevisionDate": "Huntsman ARALDITE 2031-1 A/B US-EN Technical Data Sheet; current document listing checked September 2026"
     },
     {
       "id": "permabond-ms359a-grey",
@@ -29137,7 +29151,10 @@
       "referenceCategory": "High-Temperature Ceramic Adhesives",
       "referenceSampleType": "Paste",
       "referenceSampleConsistency": "White one-part water-based ceramic paste; 50,000-90,000 cP",
-      "referenceForJoining": "Alumina-to-alumina dense ceramic bonding, ceramic assemblies and high-temperature electrical insulation"
+      "referenceForJoining": "Alumina-to-alumina dense ceramic bonding, ceramic assemblies and high-temperature electrical insulation",
+      "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+      "tdsDocumentLabel": "Aremco Ceramabond 503 Technical Bulletin A2-S1, Rev. 8/25",
+      "sourceRevisionDate": "Aremco Technical Bulletin A2-S1 Rev. 8/25"
     },
     {
       "id": "aremco-ceramabond-571",
@@ -29240,7 +29257,10 @@
       "referenceCategory": "High-Temperature Ceramic Adhesives",
       "referenceSampleType": "Powder/liquid kit",
       "referenceSampleConsistency": "Off-white two-part water-based ceramic paste; 20,000-90,000 cP depending powder/liquid ratio",
-      "referenceForJoining": "Ceramic-to-metal and metal-to-metal heater, induction coil, sensor and high-temperature electrical assemblies"
+      "referenceForJoining": "Ceramic-to-metal and metal-to-metal heater, induction coil, sensor and high-temperature electrical assemblies",
+      "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+      "tdsDocumentLabel": "Aremco Ceramabond 571 Technical Bulletin A2-S1, Rev. 8/25",
+      "sourceRevisionDate": "Aremco Technical Bulletin A2-S1 Rev. 8/25"
     },
     {
       "id": "aremco-pyro-putty-653",
@@ -29316,7 +29336,10 @@
       "referenceCategory": "High-Temperature Ceramic-Metal Repair Putties",
       "referenceSampleType": "Paste / caulkable putty",
       "referenceSampleConsistency": "Metallic gray one-part stainless-filled water-based paste",
-      "referenceForJoining": "Cast iron, steel and stainless repair/seal applications such as afterburners, boilers, exhaust stacks, manifolds, molds, dies and heat exchangers"
+      "referenceForJoining": "Cast iron, steel and stainless repair/seal applications such as afterburners, boilers, exhaust stacks, manifolds, molds, dies and heat exchangers",
+      "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
+      "tdsDocumentLabel": "Aremco Pyro-Putty 653 Technical Bulletin A3, Rev. 8/25",
+      "sourceRevisionDate": "Aremco Technical Bulletin A3 Rev. 8/25"
     },
     {
       "id": "cotronics-duralco-132",
@@ -36479,7 +36502,10 @@
       "referenceCategory": "UV Curable Electronics Adhesives",
       "referenceSampleType": "30 mL syringe; TDS also lists 5 mL, 10 mL, 500 mL bottle and 1 L bottle",
       "referenceSampleConsistency": "Clear transparent low-viscosity fluorescent liquid, 500 cP at 25 C",
-      "referenceForJoining": "Instant bonding or coating of electronic components, metals, glass, ceramics and plastics"
+      "referenceForJoining": "Instant bonding or coating of electronic components, metals, glass, ceramics and plastics",
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
+      "tdsDocumentLabel": "Penchem UV 772-5R2 Technical Data Sheet, Rev. 5, April 22, 2022",
+      "sourceRevisionDate": "Penchem UV 772-5R2 TDS Revision 5, April 22, 2022"
     },
     {
       "id": "penchem-uv784-14",
@@ -36636,7 +36662,10 @@
       "referenceCategory": "Flexible UV Epoxy Acrylate Adhesives",
       "referenceSampleType": "30 mL syringe marketplace package; TDS packaging list includes 3 mL and 10 mL amber syringes",
       "referenceSampleConsistency": "Clear flowable adhesive, 3600 cP at 25 C and refractive index 1.493",
-      "referenceForJoining": "Low-stress bonding of glass and metal substrates, including nickel, Kovar, aluminium, bare FR4, gold and alumina to glass"
+      "referenceForJoining": "Low-stress bonding of glass and metal substrates, including nickel, Kovar, aluminium, bare FR4, gold and alumina to glass",
+      "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
+      "tdsDocumentLabel": "Penchem UV784-14 Technical Data Sheet, Rev. 13, February 29, 2024",
+      "sourceRevisionDate": "Penchem UV784-14 TDS Revision 13, February 29, 2024"
     },
     {
       "id": "glue-dots-dsp31-401-high-tack",
@@ -43286,7 +43315,7 @@
       "maker": "ThreeBond",
       "name": "TB2273E",
       "summary": "White solventless one-component induction-bonding epoxy resin for fast HF-coil cure of ferrite, steel, magnets and automated online assemblies, with very high metal shear and strong electrical insulation.",
-      "sourceRevisionDate": "Three Bond 2273E Technical Bulletin, August 2007",
+      "sourceRevisionDate": "ThreeBond 2273E Technical Data Sheet, August 2007",
       "chemistry": "Solventless one-component epoxy resin for induction bonding",
       "cureFamily": "Induction-curing one-component epoxy",
       "cureDetail": "Specially developed for instant induction curing with HF coils. Table 1 also lists oven curing time at 150 C of 30 minutes. Cure degree depends on coating thickness, ambient temperature and process duration.",
@@ -43424,7 +43453,9 @@
         "chipBondStrengthMPa",
         "cureDepthMm",
         "tackFreeTime"
-      ]
+      ],
+      "tdsUrl": "https://threebond.com/download/threebond-2273E-one-component-epoxy-resin",
+      "tdsDocumentLabel": "ThreeBond TB2273E Technical Data Sheet, issued August 2007"
     },
     {
       "id": "threebond-tb3030",

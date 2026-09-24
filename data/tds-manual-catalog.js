@@ -2697,7 +2697,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.delo-adhesives.com/service-center/downloads/downloads/datasheet/DELO%20MONOPOX_TC2270_TIDB-en.pdf?cHash=466a3e7a101e66f2e24dbbb1c2c49513&show=1&type=5001",
     "supportingReferenceUrls": [
       "https://www.delo-adhesives.com/news-and-dates/delo-news/detail/triple-strength-adhesives-semiconductors"
-    ]
+    ],
+    "tdsUrl": "https://www.delo-adhesives.com/service-center/downloads/downloads/datasheet/DELO%20MONOPOX_TC2270_TIDB-en.pdf?cHash=466a3e7a101e66f2e24dbbb1c2c49513&show=1&type=5001",
+    "tdsDocumentLabel": "DELO MONOPOX TC2270 Technical Information Data Bulletin (TIDB), English"
   },
   {
     "id": "panacol-elecolit-325",
@@ -19874,7 +19876,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime",
       "cureProfiles"
-    ]
+    ],
+    "tdsUrl": "https://products.huntsman.com/documents/6ae9b503-7ad1-4f0e-a99a-050c2050eeba",
+    "tdsDocumentLabel": "ARALDITE 2012 A/B Technical Data Sheet (Huntsman document page; may require account access)",
+    "sourceRevisionDate": "Huntsman ARALDITE 2012 A/B Technical Data Sheet; current document listing checked September 2026"
   },
   {
     "id": "araldite-2021-1",
@@ -19920,7 +19925,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://products.huntsman.com/products/araldite-2021-1-a-b",
     "unpublishedFields": [
       "thermalConductivity"
-    ]
+    ],
+    "tdsUrl": "https://products.huntsman.com/documents/175f190c-f290-41ca-916a-23e37cd57191",
+    "tdsDocumentLabel": "ARALDITE 2021-1 A/B (US-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+    "sourceRevisionDate": "Huntsman ARALDITE 2021-1 A/B US-EN Technical Data Sheet; current document listing checked September 2026"
   },
   {
     "id": "araldite-2022-1",
@@ -19967,7 +19975,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100°C from product datasheet."
+    "serviceTemperatureNote": "No service temperature range in available TDS cache; structural methacrylate; serviceMax 100°C from product datasheet.",
+    "tdsUrl": "https://products.huntsman.com/documents/ce39c27a-7d1a-4113-9abb-5d4266850163",
+    "tdsDocumentLabel": "ARALDITE 2022-1 A/B (EU-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+    "sourceRevisionDate": "Huntsman ARALDITE 2022-1 A/B EU-EN Technical Data Sheet; current document listing checked September 2026"
   },
   {
     "id": "araldite-2031",
@@ -20018,7 +20029,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
-    "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100°C from product datasheet."
+    "serviceTemperatureNote": "No service temperature range in available TDS cache; two-part epoxy with excellent thermal shock resistance; serviceMax 100°C from product datasheet.",
+    "tdsUrl": "https://products.huntsman.com/documents/5662209a-d0e9-4de8-bdcf-cfb246e69c14",
+    "tdsDocumentLabel": "ARALDITE 2031-1 A/B (US-EN) Technical Data Sheet (Huntsman document page; may require account access)",
+    "sourceRevisionDate": "Huntsman ARALDITE 2031-1 A/B US-EN Technical Data Sheet; current document listing checked September 2026"
   },
   {
     "id": "permabond-ms359a-grey",
@@ -27947,6 +27961,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Design for CTE mismatch and compression loading; target glue line is 2-8 mil."
     ],
     "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "tdsDocumentLabel": "Aremco Ceramabond 503 Technical Bulletin A2-S1, Rev. 8/25",
+    "sourceRevisionDate": "Aremco Technical Bulletin A2-S1 Rev. 8/25",
     "serviceMin": null,
     "lapShear": null
   },
@@ -28046,6 +28063,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Design for CTE mismatch and compression loading; target glue line is 2-8 mil."
     ],
     "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A02_S1_25.pdf",
+    "tdsDocumentLabel": "Aremco Ceramabond 571 Technical Bulletin A2-S1, Rev. 8/25",
+    "sourceRevisionDate": "Aremco Technical Bulletin A2-S1 Rev. 8/25",
     "serviceMin": null,
     "lapShear": null
   },
@@ -28117,6 +28137,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Surfaces must be oil-free and abrasive-blasted where appropriate; bake porous castings to remove embedded oils."
     ],
     "referenceUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
+    "tdsUrl": "https://www.aremco.com/wp-content/uploads/2025/02/A03-25.pdf",
+    "tdsDocumentLabel": "Aremco Pyro-Putty 653 Technical Bulletin A3, Rev. 8/25",
+    "sourceRevisionDate": "Aremco Technical Bulletin A3 Rev. 8/25",
     "serviceMin": null,
     "lapShear": null
   },
@@ -35102,6 +35125,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "The TDS does not publish dielectric strength, volume resistivity, surface resistivity, tensile strength, elongation, service-temperature range or thermal conductivity."
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV%20772-5R2-Datasheet.pdf",
+    "tdsDocumentLabel": "Penchem UV 772-5R2 Technical Data Sheet, Rev. 5, April 22, 2022",
+    "sourceRevisionDate": "Penchem UV 772-5R2 TDS Revision 5, April 22, 2022",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -35255,6 +35281,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "dielectricConstant"
     ],
     "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
+    "tdsUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7156/UV784-14-Datasheet.pdf",
+    "tdsDocumentLabel": "Penchem UV784-14 Technical Data Sheet, Rev. 13, February 29, 2024",
+    "sourceRevisionDate": "Penchem UV784-14 TDS Revision 13, February 29, 2024",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -41733,7 +41762,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "ThreeBond",
     "name": "TB2273E",
     "summary": "White solventless one-component induction-bonding epoxy resin for fast HF-coil cure of ferrite, steel, magnets and automated online assemblies, with very high metal shear and strong electrical insulation.",
-    "sourceRevisionDate": "Three Bond 2273E Technical Bulletin, August 2007",
+    "sourceRevisionDate": "ThreeBond 2273E Technical Data Sheet, August 2007",
     "chemistry": "Solventless one-component epoxy resin for induction bonding",
     "cureFamily": "Induction-curing one-component epoxy",
     "cureDetail": "Specially developed for instant induction curing with HF coils. Table 1 also lists oven curing time at 150 C of 30 minutes. Cure degree depends on coating thickness, ambient temperature and process duration.",
@@ -41863,6 +41892,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm",
       "tackFreeTime"
     ],
+    "tdsUrl": "https://threebond.com/download/threebond-2273E-one-component-epoxy-resin",
+    "tdsDocumentLabel": "ThreeBond TB2273E Technical Data Sheet, issued August 2007",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,

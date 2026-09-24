@@ -28990,6 +28990,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/EGS10C-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik EGS10C-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29099,6 +29101,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/EGS10W-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik EGS10W-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29208,6 +29212,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/EGS10B-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik EGS10B-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29320,6 +29326,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik NCS10C-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29432,6 +29440,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik NCS10W-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29544,6 +29554,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik NCS10B-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29656,6 +29668,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Standard operating range is -46 C to 204 C; intermittent exposure up to 232 C is stated as not continuous."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
+    "tdsDocumentLabel": "Chip Quik NCS10G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29762,6 +29776,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C and do not freeze; allow 4 hours for material to reach operating temperature before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik HPS10C-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29872,6 +29888,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Tool within the first 10 minutes after dispensing."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik CQ511-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -29975,6 +29993,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Tool within the first 10 minutes after dispensing."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
+    "tdsDocumentLabel": "Chip Quik CQ512-20G Datasheet (manufacturer PDF)",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -30088,6 +30108,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C, do not freeze, and allow 4 hours to reach 20-25 C before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
+    "tdsDocumentLabel": "Chip Quik AD1-10S Datasheet (manufacturer PDF)",
     "potLife": null,
     "pricing": {
       "basis": "observed",
@@ -30196,6 +30218,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Store at 3-25 C, do not freeze, and allow 4 hours to reach 20-25 C before use."
     ],
     "referenceUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
+    "tdsUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
+    "tdsDocumentLabel": "Chip Quik AD7 Datasheet (manufacturer PDF)",
     "lapShear": null,
     "thermalConductivity": null,
     "potLife": null,
@@ -32006,6 +32030,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/SG1-1.0.pdf",
+    "tdsDocumentLabel": "Chip Quik SG1 Super Glue Thin Viscosity Penetrating Datasheet (manufacturer PDF)",
     "lapShear": null,
     "potLife": null,
     "pricing": {
@@ -32074,6 +32100,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/SG2-0.5.pdf",
+    "tdsDocumentLabel": "Chip Quik SG2 Super Glue Medium Viscosity Gap Filling Datasheet (manufacturer PDF)",
     "lapShear": null,
     "potLife": null,
     "pricing": {
@@ -32142,6 +32170,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/SG3-1.0.pdf",
+    "tdsDocumentLabel": "Chip Quik SG3 Super Glue Thick Viscosity Big Gap Filling Datasheet (manufacturer PDF)",
     "lapShear": null,
     "potLife": null,
     "pricing": {
@@ -32211,6 +32241,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "potLife"
     ],
+    "tdsUrl": "https://www.chipquik.com/datasheets/SG4-1.0.pdf",
+    "tdsDocumentLabel": "Chip Quik SG4 Rubber Reinforced Super Glue Big Gap Filling Datasheet (manufacturer PDF)",
     "lapShear": null,
     "potLife": null,
     "pricing": {

@@ -30227,7 +30227,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/EGS10C-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik EGS10C-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-egs10w-20g",
@@ -30338,7 +30340,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/EGS10W-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik EGS10W-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-egs10b-20g",
@@ -30449,7 +30453,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/EGS10B-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik EGS10B-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ncs10c-20g",
@@ -30563,7 +30569,9 @@
       "referenceCategory": "Neutral-Cure Silicone Adhesive Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "Clear neutral-cure high-viscosity silicone paste; 750,000-2,000,000 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel"
+      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel",
+      "tdsUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik NCS10C-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ncs10w-20g",
@@ -30677,7 +30685,9 @@
       "referenceCategory": "Neutral-Cure Silicone Adhesive Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "White neutral-cure high-viscosity silicone paste; 750,000-2,000,000 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel"
+      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel",
+      "tdsUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik NCS10W-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ncs10b-20g",
@@ -30791,7 +30801,9 @@
       "referenceCategory": "Neutral-Cure Silicone Adhesive Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "Black neutral-cure high-viscosity silicone paste; 750,000-2,000,000 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel"
+      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel",
+      "tdsUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik NCS10B-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ncs10g",
@@ -30905,7 +30917,9 @@
       "referenceCategory": "Neutral-Cure Silicone Adhesive Sealants",
       "referenceSampleType": "10.2 oz cartridge",
       "referenceSampleConsistency": "Grey neutral-cure high-viscosity silicone paste; 750,000-2,000,000 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel"
+      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel",
+      "tdsUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
+      "tdsDocumentLabel": "Chip Quik NCS10G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-hps10c-20g",
@@ -31013,7 +31027,9 @@
       "referenceCategory": "High-Performance RTV Silicone Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "Clear 100% RTV silicone paste; 582,000 mPa.s",
-      "referenceForJoining": "Sealing and bonding in industrial manufacturing applications; bonds glass, metal, ceramic, most paints and most plastics"
+      "referenceForJoining": "Sealing and bonding in industrial manufacturing applications; bonds glass, metal, ceramic, most paints and most plastics",
+      "tdsUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik HPS10C-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-cq511-20g",
@@ -31125,7 +31141,9 @@
       "referenceCategory": "Industrial Self-Leveling Silicone Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "Clear low-viscosity self-leveling neutral-cure silicone; 10,900 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel"
+      "referenceForJoining": "Protecting, sealing and insulating; bonding aluminum, vinyl, fiberglass, ceramics, brick, mortar, concrete, glass, granite, marble, metals, wood, plastic, porcelain, PVC and steel",
+      "tdsUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik CQ511-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-cq512-20g",
@@ -31230,7 +31248,9 @@
       "referenceCategory": "Electronics-Grade Self-Leveling Silicone Sealants",
       "referenceSampleType": "20 g squeeze tube",
       "referenceSampleConsistency": "Clear low-viscosity electronics-grade self-leveling silicone; 35,000 mPa.s",
-      "referenceForJoining": "Protecting, sealing and insulating corrosion-sensitive electronic components and electrical materials; OEM commercial and industrial flexible permanent bonding and sealing"
+      "referenceForJoining": "Protecting, sealing and insulating corrosion-sensitive electronic components and electrical materials; OEM commercial and industrial flexible permanent bonding and sealing",
+      "tdsUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
+      "tdsDocumentLabel": "Chip Quik CQ512-20G Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ad1-10s",
@@ -31343,7 +31363,9 @@
       "referenceCategory": "Surface-Mount Chip Bonding Epoxies",
       "referenceSampleType": "10 cc / 10 g syringe",
       "referenceSampleConsistency": "Red high-viscosity thermoset chip glue; 450,000 mPa.s and density 1.25 g/cc",
-      "referenceForJoining": "Stencil printing or dispensing surface-mount chips and ICs to PCBs so heavier components remain bonded during two-sided reflow"
+      "referenceForJoining": "Stencil printing or dispensing surface-mount chips and ICs to PCBs so heavier components remain bonded during two-sided reflow",
+      "tdsUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
+      "tdsDocumentLabel": "Chip Quik AD1-10S Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-ad7",
@@ -31455,7 +31477,9 @@
       "referenceCategory": "Surface-Mount Chip Bonding Epoxies",
       "referenceSampleType": "5 g / 5 cc syringe family; also sold as 10 g, 30 g and 200 g packages",
       "referenceSampleConsistency": "Red low-viscosity thermoset chip-bonding epoxy; 44,000 mPa.s and density 1.4 g/cc",
-      "referenceForJoining": "Dot or line dispensing surface-mount chips and ICs to PCBs so large or heavy components remain bonded during two-sided reflow"
+      "referenceForJoining": "Dot or line dispensing surface-mount chips and ICs to PCBs so large or heavy components remain bonded during two-sided reflow",
+      "tdsUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
+      "tdsDocumentLabel": "Chip Quik AD7 Datasheet (manufacturer PDF)"
     },
     {
       "id": "dow-dowsil-748",
@@ -33312,7 +33336,9 @@
       "unpublishedFields": [
         "lapShear",
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/SG1-1.0.pdf",
+      "tdsDocumentLabel": "Chip Quik SG1 Super Glue Thin Viscosity Penetrating Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-sg2",
@@ -33383,7 +33409,9 @@
       "unpublishedFields": [
         "lapShear",
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/SG2-0.5.pdf",
+      "tdsDocumentLabel": "Chip Quik SG2 Super Glue Medium Viscosity Gap Filling Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-sg3",
@@ -33454,7 +33482,9 @@
       "unpublishedFields": [
         "lapShear",
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/SG3-1.0.pdf",
+      "tdsDocumentLabel": "Chip Quik SG3 Super Glue Thick Viscosity Big Gap Filling Datasheet (manufacturer PDF)"
     },
     {
       "id": "chipquik-sg4",
@@ -33526,7 +33556,9 @@
       "unpublishedFields": [
         "lapShear",
         "potLife"
-      ]
+      ],
+      "tdsUrl": "https://www.chipquik.com/datasheets/SG4-1.0.pdf",
+      "tdsDocumentLabel": "Chip Quik SG4 Rubber Reinforced Super Glue Big Gap Filling Datasheet (manufacturer PDF)"
     },
     {
       "id": "gc-electronics-19-155",

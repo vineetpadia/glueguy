@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:12:30.276551+00:00",
+  "generatedAt": "2026-09-24T04:14:42.293188+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -35510,7 +35510,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/AD1-10S.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ad1-10s.txt",
@@ -35634,7 +35634,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/AD7-5S.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ad7.txt",
@@ -35768,7 +35768,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/CQ511-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-cq511-20g.txt",
@@ -35903,7 +35903,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/CQ512-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-cq512-20g.txt",
@@ -36042,7 +36042,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/EGS10B-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/EGS10B-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-egs10b-20g.txt",
@@ -36183,7 +36183,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/EGS10C-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/EGS10C-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-egs10c-20g.txt",
@@ -36324,7 +36324,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/EGS10W-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/EGS10W-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-egs10w-20g.txt",
@@ -36457,7 +36457,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/HPS10C-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-hps10c-20g.txt",
@@ -36590,7 +36590,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/NCS10B-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ncs10b-20g.txt",
@@ -36725,7 +36725,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/NCS10C-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ncs10c-20g.txt",
@@ -36860,7 +36860,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/NCS10G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ncs10g.txt",
@@ -36995,7 +36995,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/NCS10W-20G.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-ncs10w-20g.txt",
@@ -37100,7 +37100,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/SG1-1.0.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/SG1-1.0.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-sg1.txt",
@@ -37202,7 +37202,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/SG2-0.5.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/SG2-0.5.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-sg2.txt",
@@ -37304,7 +37304,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/SG3-1.0.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/SG3-1.0.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-sg3.txt",
@@ -37407,7 +37407,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.chipquik.com/datasheets/SG4-1.0.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.chipquik.com/datasheets/SG4-1.0.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/chipquik-sg4.txt",

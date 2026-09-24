@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:55:56.392577+00:00",
+  "generatedAt": "2026-09-24T04:58:16.579696+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -156713,7 +156713,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://threebond.com/products/adhesives/elastic-bonding-adhesives/",
-        "tdsUrl": null,
+        "tdsUrl": "https://threebond.com/download/threebond-1530c-moisture-curing-elasomeric-adhesive/",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1530c.txt",

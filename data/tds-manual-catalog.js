@@ -2970,6 +2970,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "The product page does not publish service-temperature minimum, pot life, thermal conductivity, dielectric properties, chemical resistance or shelf life."
     ],
     "referenceUrl": "https://threebond.com/products/adhesives/elastic-bonding-adhesives/",
+    "tdsUrl": "https://threebond.com/download/threebond-1530c-moisture-curing-elasomeric-adhesive/",
+    "tdsDocumentLabel": "ThreeBond TB1530C Technical Data Sheet, Rev. 0.3, issued January 21, 2003",
     "serviceTemperatureNote": "TDS cache is family-level HTML page; 16–27 °C appears to be standard test conditions, not service temperature. Use manufacturer TDS PDF for confirmed service range.",
     "unpublishedFields": [
       "potLife",

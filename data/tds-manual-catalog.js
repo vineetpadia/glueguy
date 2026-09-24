@@ -1893,6 +1893,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
+    "tdsUrl": "https://media.weicon.de/fmds/307156/dld%3Ainline",
+    "tdsDocumentLabel": "WEICON Easy-Mix PE-PP 50 Structural Acrylic Adhesive TDS, issued April 29, 2025",
     "thermalConductivity": null
   },
   {
@@ -2179,7 +2181,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://media.weicon.de/fmds/376908/dld:inline",
     "supportingReferenceUrls": [
       "https://www.weicon.us/va-2407-cyanoacrylate-adhesive-two-component-cyanoacrylate-high-gap-bridging/10063086"
-    ]
+    ],
+    "tdsUrl": "https://media.weicon.de/fmds/376908/dld:inline",
+    "tdsDocumentLabel": "WEICON VA 2407 Cyanoacrylate Adhesive TDS, issued February 18, 2026"
   },
   {
     "id": "weicon-easy-mix-ht250",
@@ -2187,7 +2191,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "WEICON",
     "name": "Easy-Mix HT 250",
     "summary": "High-temperature light-gray two-part epoxy with exact WEICON TDS data: 2:1 mix, 38,000 mPa.s viscosity, 4 mm gap bridging, 150 min pot life, 20 MPa steel lap shear, 1.4 W/m.K thermal conductivity, >24 kV/mm dielectric strength and -50 to 200 C continuous service with brief 250 C exposure.",
-    "sourceRevisionDate": "WEICON Easy-Mix HT 250 Epoxy Adhesive Technical Data Sheet, issued February 18, 2026",
+    "sourceRevisionDate": "WEICON Easy-Mix HT 250 Epoxy Adhesive Technical Data Sheet, issued June 18, 2026",
     "chemistry": "Two-component epoxy resin adhesive",
     "cureFamily": "Epoxy",
     "cureDetail": "Two-component epoxy resin system. Apply from the 50 ml 2:1 double cartridge through a static mixer after discarding the first 5 cm of bead. Pot life is 150 min for a 10 ml batch at 20 C; 50% working strength is reached after 8 h and full strength after 24 h or after 30 min at 80 C. For permanent high-temperature resistance, WEICON recommends annealing at 80 C for 30 min after 24 h.",
@@ -2329,7 +2333,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://www.weicon.de/en/weicon-easy-mix-ht-250-epoxy-adhesive-epoxy-adhesive-resistant-to-high-temperatures-up-to-250-0c/10056568",
       "https://media.weicon.de/fmds/504091/dld%3Ainline",
       "https://media.weicon.de/fmds/504174/dld%3Ainline"
-    ]
+    ],
+    "tdsUrl": "https://media.weicon.de/fmds/307151/dld%3Ainline",
+    "tdsDocumentLabel": "WEICON Easy-Mix HT 250 Epoxy Adhesive Technical Data Sheet, issued June 18, 2026"
   },
   {
     "id": "weicon-flex310m-hybrid",
@@ -2437,6 +2443,8 @@ window.TDS_MANUAL_PRODUCTS = [
     "supportingReferenceUrls": [
       "https://www.weicon.de/en/flex-310-m-hybrid-universally-applicable-strong-and-flexible-adhesive-and-sealant/10067875"
     ],
+    "tdsUrl": "https://media.weicon.de/fmds/466804/dld%3Ainline",
+    "tdsDocumentLabel": "WEICON Flex 310 M Hybrid Technical Data Sheet, issue date April 23, 2026",
     "thermalConductivity": null,
     "stress": null
   },
@@ -2555,6 +2563,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://media.weicon.de/fmds/466827/dld%3Ainline",
+    "tdsDocumentLabel": "WEICON Flex 310 M HT 220+ Technical Data Sheet, issue date April 23, 2026",
     "thermalConductivity": null
   },
   {
@@ -8931,6 +8941,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "viscosityClass": "high",
+    "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor2098_DS6206.pdf",
+    "tdsDocumentLabel": "Parker LORD Fusor 2098 Technical Data Sheet DS6206 OD 10/24 Rev.3",
+    "sourceRevisionDate": "Parker LORD Fusor 2098 Technical Data Sheet DS6206 OD 10/24 Rev.3",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -8949,7 +8962,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "Fusor 108B/109B",
     "summary": "Medium-cure acrylic metal bonder for panel bonding, weld bonding, and rivet bonding with faster room-temperature cure than typical panel bonders.",
     "cureFamily": "Structural acrylic",
-    "cureDetail": "Two-component acrylic-based metal bonding adhesive with room-temperature snap cure",
+    "cureDetail": "Two-component acrylic metal bonding adhesive; work time 40 min, clamp time 2 h and full cure 4 h at 21 C.",
     "potLife": 40,
     "fixtureTime": 120,
     "lapShear": 14.3,
@@ -8985,6 +8998,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor108B--109B_DS6204.pdf",
+    "tdsDocumentLabel": "Parker LORD Fusor 108B/109B Technical Data Sheet DS6204 OD 05/24 Rev.3",
+    "sourceRevisionDate": "Parker LORD Fusor 108B/109B Technical Data Sheet DS6204 OD 05/24 Rev.3",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -9003,7 +9019,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "Fusor 112B",
     "summary": "Slow-set acrylic metal bonder for larger panel replacements and hot-shop conditions where you need much longer open time before clamping.",
     "cureFamily": "Structural acrylic",
-    "cureDetail": "Two-component acrylic-based metal bonding adhesive with extended room-temperature work time",
+    "cureDetail": "Two-component acrylic metal bonding adhesive; work time 70 min, clamp time 3 h and full cure 8 h at 21 C.",
     "potLife": 70,
     "fixtureTime": 180,
     "lapShear": 18.6,
@@ -9039,6 +9055,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Do not use adhesive-only bonding on structural components unless the vehicle manufacturer explicitly approves it."
     ],
     "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf",
+    "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf",
+    "tdsDocumentLabel": "Parker LORD Fusor 112B Technical Data Sheet DS6215",
+    "sourceRevisionDate": "Parker LORD Fusor 112B Technical Data Sheet DS6215",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null,
@@ -9093,6 +9112,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "peel": 7,
       "impact": 8
     },
+    "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor142--143_DS6217.pdf",
+    "tdsDocumentLabel": "Parker LORD Fusor 142/143 Technical Data Sheet DS6217 OD 10/24 Rev.2",
+    "sourceRevisionDate": "Parker LORD Fusor 142/143 Technical Data Sheet DS6217 OD 10/24 Rev.2",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -9764,7 +9786,9 @@ window.TDS_MANUAL_PRODUCTS = [
     "name": "Fusor 152",
     "summary": "Medium-speed urethane plastic repair adhesive for bumper tabs, cosmetic fills, and larger plastic repairs that need a sandable feather edge.",
     "cureFamily": "Structural polyurethane",
-    "cureDetail": "Two-component urethane-based plastic repair adhesive; room-temperature cure with optional 60 C heat acceleration",
+    "cureDetail": "Two-component urethane plastic repair adhesive; work time 3 min, clamp time 30 min, sand time 90 min and full cure 24 h at 21 C. Heat accelerates these stages.",
+    "potLife": 3,
+    "fixtureTime": 30,
     "clarity": "opaque",
     "applicationTags": [
       "plastic-repair",
@@ -9792,8 +9816,6 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "serviceMin",
       "serviceMax",
-      "potLife",
-      "fixtureTime",
       "lapShear",
       "viscosityClass",
       "thermalConductivity",
@@ -9802,10 +9824,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf",
+    "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf",
+    "tdsDocumentLabel": "Parker LORD Fusor 152 Technical Data Sheet DS6218 OD 01/23 Rev.2",
+    "sourceRevisionDate": "Parker LORD Fusor 152 Technical Data Sheet DS6218 OD 01/23 Rev.2",
     "serviceMin": null,
     "serviceMax": null,
-    "potLife": null,
-    "fixtureTime": null,
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -9997,6 +10020,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Passes ASTM E595 outgassing only with proper cure; abbreviated cures will not hit vacuum-grade performance."
     ],
     "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/H77.pdf",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/mkwvndyokoski1k1bx4uigygl0kenhqy/h77.pdf",
+    "tdsDocumentLabel": "EPO-TEK H77 Technical Data Sheet, August 2026 Rev IX",
+    "sourceRevisionDate": "EPO-TEK H77 Technical Data Sheet, August 2026 Rev IX",
     "serviceMin": null
   },
   {
@@ -10493,7 +10519,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "unpublishedFields": [
       "thermalConductivity"
     ],
-    "serviceTemperatureNote": "Service temperature not explicitly stated in TDS (HTML page only); high Tg epoxy with serviceMax <300°C; minimum not published in available cache."
+    "serviceTemperatureNote": "Service temperature not explicitly stated in TDS (HTML page only); high Tg epoxy with serviceMax <300°C; minimum not published in available cache.",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/lrvhagq69xiva6ncftc4axj9dhqabfor/377.pdf",
+    "tdsDocumentLabel": "EPO-TEK 377 Technical Data Sheet, July 2025 Rev XIV",
+    "sourceRevisionDate": "EPO-TEK 377 Technical Data Sheet, July 2025 Rev XIV"
   },
   {
     "id": "epotek-og142-87",
@@ -10642,6 +10671,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "Service < 300 C is intermittent per TDS; Tg >= 45 C bounds continuous-load service well below the intermittent ceiling."
     ],
     "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/T7109.pdf",
+    "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/0ece72ay9ra9eyphdqa7wsaeh9bt1gkd/t7109.pdf",
+    "tdsDocumentLabel": "EPO-TEK T7109 Technical Data Sheet, February 2021 Rev VIII",
+    "sourceRevisionDate": "EPO-TEK T7109 Technical Data Sheet, February 2021 Rev VIII",
     "serviceMin": null
   },
   {
@@ -28176,6 +28208,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Older official standalone Cotronics 132.pdf conflicts with the newer product-page sheet; this entry uses the newer combined sheet."
     ],
     "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf",
+    "tdsUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf",
+    "tdsDocumentLabel": "Cotronics Duralco 132 product technical data sheet (official combined sheet)",
     "serviceMin": null,
     "lapShear": null
   },
@@ -28252,6 +28286,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Older official 4460.pdf conflicts with the newer catalog sheet on mixed density and thermal conductivity; this entry uses the newer catalog sheet."
     ],
     "referenceUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf",
+    "tdsUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf",
+    "tdsDocumentLabel": "Cotronics Duralco 4460 product technical data sheet",
     "serviceMin": null,
     "lapShear": null
   },
@@ -28364,6 +28400,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "tackFreeTime"
     ],
     "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf",
+    "tdsUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf",
+    "tdsDocumentLabel": "Cotronics Duralco 4525/4525IP product technical data sheet",
     "serviceMin": null,
     "lapShear": null
   },
@@ -28894,6 +28932,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shelf life is 6 months according to the exact TDS."
     ],
     "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/38%20%20907gf.pdf",
+    "tdsUrl": "https://www.cotronics.com/catalog/38%20%20907GF.pdf",
+    "tdsDocumentLabel": "Cotronics Resbond 907GF product technical data sheet",
     "lapShear": null
   },
   {

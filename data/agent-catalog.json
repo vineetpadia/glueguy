@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:18:08.525411+00:00",
+  "generatedAt": "2026-09-24T04:32:21.623459+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -37646,7 +37646,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.cotronics.com/vo/cotr/pdf/12%20-%2013%20%20128%20132%20132IP%20133%20134%20135.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cotronics-duralco-132.txt",
@@ -37759,7 +37759,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.cotronics.com/catalog/06%20%204460.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cotronics-duralco-4460.txt",
@@ -37904,7 +37904,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.cotronics.com/vo/cotr/pdf/05%20-%204525%204525IP%20F.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cotronics-duralco-4525ip.txt",
@@ -38016,7 +38016,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.cotronics.com/vo/cotr/pdf/38%20%20907gf.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.cotronics.com/catalog/38%20%20907GF.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cotronics-resbond-907gf.txt",
@@ -52025,7 +52025,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/377.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/lrvhagq69xiva6ncftc4axj9dhqabfor/377.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-377.txt",
@@ -52413,7 +52413,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/H77.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/mkwvndyokoski1k1bx4uigygl0kenhqy/h77.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-h77.txt",
@@ -52892,7 +52892,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.epotek.com/docs/en/Datasheet/T7109.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://products.meridianadhesives.com/storage/downloads/0ece72ay9ra9eyphdqa7wsaeh9bt1gkd/t7109.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/epotek-t7109.txt",
@@ -90230,7 +90230,7 @@
       "electricalBehaviorClass": "",
       "specs": {
         "cureFamily": "Structural acrylic",
-        "cureDetail": "Two-component acrylic-based metal bonding adhesive with room-temperature snap cure",
+        "cureDetail": "Two-component acrylic metal bonding adhesive; work time 40 min, clamp time 2 h and full cure 4 h at 21 C.",
         "potLife": 40,
         "fixtureTime": 120,
         "lapShear": 14.3,
@@ -90242,7 +90242,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor108B--109B_DS6204.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor108B--109B_DS6204.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/lord-fusor-108b-109b.txt",
@@ -90322,7 +90322,7 @@
       "electricalBehaviorClass": "",
       "specs": {
         "cureFamily": "Structural acrylic",
-        "cureDetail": "Two-component acrylic-based metal bonding adhesive with extended room-temperature work time",
+        "cureDetail": "Two-component acrylic metal bonding adhesive; work time 70 min, clamp time 3 h and full cure 8 h at 21 C.",
         "potLife": 70,
         "fixtureTime": 180,
         "lapShear": 18.6,
@@ -90334,7 +90334,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor112B_DS6215.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/lord-fusor-112b.txt",
@@ -90425,7 +90425,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor142--143_DS6217.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor142--143_DS6217.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/lord-fusor-142.txt",
@@ -90507,14 +90507,16 @@
       "electricalBehaviorClass": "",
       "specs": {
         "cureFamily": "Structural polyurethane",
-        "cureDetail": "Two-component urethane-based plastic repair adhesive; room-temperature cure with optional 60 C heat acceleration",
+        "cureDetail": "Two-component urethane plastic repair adhesive; work time 3 min, clamp time 30 min, sand time 90 min and full cure 24 h at 21 C. Heat accelerates these stages.",
+        "potLife": 3,
+        "fixtureTime": 30,
         "clarity": "opaque"
       },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor152_DS6218.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/lord-fusor-152.txt",
@@ -90523,9 +90525,11 @@
       "coverage": {
         "decision": 1.0,
         "electronics": 1.0,
-        "decisionValueCoverage": 0.364,
+        "decisionValueCoverage": 0.545,
         "electronicsValueCoverage": 0.0,
         "decisionFieldsPresent": [
+          "potLife",
+          "fixtureTime",
           "clarity",
           "stress",
           "substrates",
@@ -90537,8 +90541,6 @@
         "decisionFieldsVerifiedAbsent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
           "lapShear",
           "viscosityClass",
           "thermalConductivity"
@@ -90572,7 +90574,7 @@
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Verified absent from available TDS fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, thermalConductivity, viscosityValue",
+        "Verified absent from available TDS fields: serviceMin, serviceMax, lapShear, viscosityClass, thermalConductivity, viscosityValue, viscosityUnit",
         "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
         "Structural plastic repairs require a backer patch for strength.",
         "Use only for trained collision-repair workflows and verify substrate compatibility before full repair."
@@ -90607,7 +90609,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor2098_DS6206.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.parker.com/content/dam/Parker-com/Literature/Assembly---Protection-Solutions-Division/Technical-Datasheets-%28TDS%29/Datasheet---Fusor2098_DS6206.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/lord-fusor-2098.txt",
@@ -183999,7 +184001,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://media.weicon.de/fmds/307151/dld%3Ainline",
-        "tdsUrl": null,
+        "tdsUrl": "https://media.weicon.de/fmds/307151/dld%3Ainline",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weicon-easy-mix-ht250.txt",
@@ -184111,7 +184113,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://media.weicon.de/fmds/307156/dld%3Ainline",
-        "tdsUrl": null,
+        "tdsUrl": "https://media.weicon.de/fmds/307156/dld%3Ainline",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weicon-easy-mix-pe-pp-50.txt",
@@ -184227,7 +184229,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://media.weicon.de/fmds/466827/dld%3Ainline",
-        "tdsUrl": null,
+        "tdsUrl": "https://media.weicon.de/fmds/466827/dld%3Ainline",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weicon-flex310m-ht220plus.txt",
@@ -184341,7 +184343,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://media.weicon.de/fmds/466804/dld%3Ainline",
-        "tdsUrl": null,
+        "tdsUrl": "https://media.weicon.de/fmds/466804/dld%3Ainline",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weicon-flex310m-hybrid.txt",
@@ -184460,7 +184462,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://media.weicon.de/fmds/376908/dld:inline",
-        "tdsUrl": null,
+        "tdsUrl": "https://media.weicon.de/fmds/376908/dld:inline",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/weicon-va2407.txt",

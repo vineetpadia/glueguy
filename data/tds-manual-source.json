@@ -58697,6 +58697,116 @@
       "freezeThawCycles": 5
     },
     {
+      "id": "gorilla-super-glue-gel",
+      "profile": "gelCA",
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Super Glue Gel",
+      "summary": "No-run cyanoacrylate gel for controlled, fast indoor repairs; current product directions call for a 10–45 s press, while the archived regional TDS records substrate-specific minimum lap-shear values.",
+      "sourceRevisionDate": "Gorilla Super Glue Gel Technical Data Sheet, European-market copy hosted by Sticky Aides; product-sheet revision/date not stated in the accessible copy. Current US product guidance checked September 23, 2026.",
+      "chemistry": "Cyanoacrylate instant adhesive, gel",
+      "cureFamily": "Instant cyanoacrylate",
+      "cureDetail": "Apply a small amount to a clean, dry surface and press the parts together. The current US product page says 10–45 seconds to achieve bond; avoid excess adhesive and gaps.",
+      "serviceMin": -54,
+      "serviceMax": 104,
+      "serviceTemperatureMinF": -65,
+      "serviceTemperatureMaxF": 220,
+      "gapFilling": false,
+      "fixtureTime": 0.46,
+      "setTimeRangeSeconds": [
+        10,
+        45
+      ],
+      "viscosityClass": "gel",
+      "viscosityValue": "1000-1500",
+      "viscosityUnit": "cP (liquid at 25 °C; gel: N/A)",
+      "viscosityNote": "The TDS lists 1,000–1,500 cP for the liquid at 25 °C and marks gel viscosity N/A.",
+      "thermalConductivity": null,
+      "lapShear": null,
+      "lapShearSubstrate": "No exact scalar lap-shear value assigned: TDS gives substrate-specific lower bounds (>), not exact values.",
+      "clarity": "transparent",
+      "dryColor": "Clear",
+      "outdoorUse": false,
+      "waterResistant": false,
+      "paintable": false,
+      "sandable": true,
+      "applicationTags": [
+        "cyanoacrylate",
+        "gel",
+        "super-glue",
+        "instant",
+        "fast-setting",
+        "no-run",
+        "clear",
+        "small-repair"
+      ],
+      "stress": {
+        "shear": 5,
+        "peel": 2,
+        "impact": 5
+      },
+      "environment": {
+        "humidity": 0.35,
+        "fuel": 0.25,
+        "immersion": 0.2
+      },
+      "substrates": {
+        "wood": 7,
+        "metal": 8,
+        "ceramic": 8,
+        "rubber": 7,
+        "leather": 7,
+        "paper": 8,
+        "stone": 7,
+        "plastic": 6
+      },
+      "cautions": [
+        "Archived European TDS copy is hosted by Sticky Aides; the accessible copy does not show a revision date. Treat its values as representative, not specifications.",
+        "ASTM D1002 lap-shear thresholds are >1,500 psi steel, >1,500 psi aluminum, >800 psi polycarbonate and >500 psi substrate printed as “EDPM” (likely EPDM). Converted lower bounds are preserved with qualifiers; they are not exact strengths.",
+        "Current US manufacturer page says service temperature -65 to 220 °F, 10–45 s press time, indoor use, no gap filling, and no bonding recommendation for polyethylene or polypropylene.",
+        "Impact strength is reported as 15–20 ft·lbf/in² under ASTM D950; the TDS labels its data typical and notes bond strength and cure depend on substrate, moisture and temperature."
+      ],
+      "sourceUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
+      "referenceUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
+      "referenceCategory": "Cyanoacrylate Instant Adhesives",
+      "referenceSampleType": "Clear no-run cyanoacrylate gel",
+      "referenceSampleConsistency": "Gel CA; liquid component viscosity 1,000–1,500 cP at 25 °C; gel viscosity N/A; typical fixture 10–45 s per current product page.",
+      "referenceForJoining": "Controlled indoor bonding and small repairs on wood, metal, ceramic, rubber, leather, paper, stone and compatible plastics where a clear, non-gap-filling bond is suitable.",
+      "unpublishedFields": [
+        "lapShear",
+        "potLife",
+        "thermalConductivity",
+        "gelViscosity"
+      ],
+      "tdsUrl": "https://media.stickyaides.com/storage/2023/11/21131231/Gorilla-Super-Glue-Gel-Datasheet.pdf",
+      "tdsDocumentLabel": "Gorilla Super Glue Gel Technical Data Sheet (regional copy; accessible sheet does not state revision/date)",
+      "tdsLapShearProfilesMPa": {
+        "steel": {
+          "minimum": 10.34,
+          "qualifier": "greater than"
+        },
+        "aluminum": {
+          "minimum": 10.34,
+          "qualifier": "greater than"
+        },
+        "polycarbonate": {
+          "minimum": 5.52,
+          "qualifier": "greater than"
+        },
+        "EPDM (TDS prints “EDPM”)": {
+          "minimum": 3.45,
+          "qualifier": "greater than"
+        }
+      },
+      "tdsLapShearTestMethod": "ASTM D1002; representative threshold values from undated regional TDS copy",
+      "tdsImpactStrength": "15–20 ft·lbf/in², ASTM D950 (representative TDS value)",
+      "tdsFixtureTimeRangeSeconds": [
+        10,
+        45
+      ],
+      "specificGravity": 1.1,
+      "tdsShelfLife": "1 year, depending on storage conditions (TDS)"
+    },
+    {
       "id": "loctite-401",
       "profile": "thinCA",
       "maker": "Henkel Loctite",

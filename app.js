@@ -7138,7 +7138,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-batch-20260924-shoe-goo-permatex");
+    const response = await fetch("./data/selector-catalog.json?v=tds-20260923-gorilla-gel");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T01:14:07.564317+00:00",
+  "generatedAt": "2026-09-24T01:30:31.130528+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1731,
-    "manualTdsProducts": 576,
+    "products": 1732,
+    "manualTdsProducts": 577,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
@@ -725,6 +725,7 @@
         "gorilla-glue-construction-adhesive",
         "gorilla-glue-original-polyurethane",
         "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel",
         "gorilla-wood-glue",
         "official-lead-gorilla-glue-gorilla-clear-grip",
         "official-lead-gorilla-glue-gorilla-construction-adhesive-ultimate"
@@ -2448,6 +2449,7 @@
         "3m-scotch-weld-dp100-plus-clear",
         "gorilla-glue-2-part-epoxy",
         "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel",
         "loctite-power-grab-ultimate-crystal-clear",
         "oatey-all-purpose-abs-pvc-cpvc",
         "oatey-clear-pvc-medium-bodied",
@@ -2813,6 +2815,7 @@
         "bsi-ic-gel",
         "bsi-super-gold",
         "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel",
         "loctite-401",
         "loctite-406",
         "loctite-454",
@@ -3366,6 +3369,7 @@
         "3m-scotch-weld-dp100-plus-clear",
         "caseway-sc-325-polycarbonate",
         "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel",
         "loctite-epoxy-instant-mix-5min",
         "permatex-5-minute-epoxy-10500",
         "threebond-tb1359k",
@@ -3621,6 +3625,7 @@
         "threebond-tb1281"
       ],
       "gel": [
+        "gorilla-super-glue-gel",
         "loctite-454",
         "loctite-super-glue-ultra-gel-control",
         "permabond-uv625",
@@ -4017,7 +4022,8 @@
         "aremco-pyro-putty-653"
       ],
       "instant": [
-        "gorilla-glue-super-glue"
+        "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel"
       ],
       "instant-adhesive": [
         "3m-scotch-weld-ca8",
@@ -4941,6 +4947,9 @@
       ],
       "no-primer-required": [
         "weicon-easy-mix-pe-pp-50"
+      ],
+      "no-run": [
+        "gorilla-super-glue-gel"
       ],
       "non-brittle": [
         "bsi-quik-cure-5-minute-epoxy"
@@ -6340,7 +6349,8 @@
         "threebond-1211"
       ],
       "small-repair": [
-        "gorilla-glue-super-glue"
+        "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel"
       ],
       "soak-method": [
         "caseway-sc-325-polycarbonate",
@@ -6708,7 +6718,8 @@
         "permabond-uv620"
       ],
       "super-glue": [
-        "gorilla-glue-super-glue"
+        "gorilla-glue-super-glue",
+        "gorilla-super-glue-gel"
       ],
       "surface-bonding": [
         "threebond-tb1359k"
@@ -7412,7 +7423,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
-      "official-tds-url": 309,
+      "official-tds-url": 310,
       "product-or-catalog-page": 185
     }
   },
@@ -60740,6 +60751,110 @@
         "Not recommended for polyethylene, polypropylene or similar plastics.",
         "Official technical specs list outdoor use: no.",
         "High temperature and humidity can cause premature aging; the page says not to refrigerate."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "gorilla-super-glue-gel",
+      "source": "manual-tds",
+      "maker": "Gorilla Glue",
+      "name": "Gorilla Super Glue Gel",
+      "profile": "gelCA",
+      "summary": "No-run cyanoacrylate gel for controlled, fast indoor repairs; current product directions call for a 10\u201345 s press, while the archived regional TDS records substrate-specific minimum lap-shear values.",
+      "applicationTags": [
+        "cyanoacrylate",
+        "gel",
+        "super-glue",
+        "instant",
+        "fast-setting",
+        "no-run",
+        "clear",
+        "small-repair"
+      ],
+      "referenceCategory": "Cyanoacrylate Instant Adhesives",
+      "referenceForJoining": "Controlled indoor bonding and small repairs on wood, metal, ceramic, rubber, leather, paper, stone and compatible plastics where a clear, non-gap-filling bond is suitable.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Cyanoacrylate instant adhesive, gel",
+        "cureFamily": "Instant cyanoacrylate",
+        "cureDetail": "Apply a small amount to a clean, dry surface and press the parts together. The current US product page says 10\u201345 seconds to achieve bond; avoid excess adhesive and gaps.",
+        "serviceMin": -54,
+        "serviceMax": 104,
+        "fixtureTime": 0.46,
+        "lapShearSubstrate": "No exact scalar lap-shear value assigned: TDS gives substrate-specific lower bounds (>), not exact values.",
+        "viscosityClass": "gel",
+        "viscosityValue": "1000-1500",
+        "viscosityUnit": "cP (liquid at 25 \u00b0C; gel: N/A)",
+        "clarity": "transparent",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://gorillatough.com/product/gorilla-super-glue-gel",
+        "tdsUrl": "https://media.stickyaides.com/storage/2023/11/21131231/Gorilla-Super-Glue-Gel-Datasheet.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Archived European TDS copy is hosted by Sticky Aides; the accessible copy does not show a revision date. Treat its values as representative, not specifications.",
+        "ASTM D1002 lap-shear thresholds are >1,500 psi steel, >1,500 psi aluminum, >800 psi polycarbonate and >500 psi substrate printed as \u201cEDPM\u201d (likely EPDM). Converted lower bounds are preserved with qualifiers; they are not exact strengths.",
+        "Current US manufacturer page says service temperature -65 to 220 \u00b0F, 10\u201345 s press time, indoor use, no gap filling, and no bonding recommendation for polyethylene or polypropylene."
       ],
       "extractionCandidates": []
     },

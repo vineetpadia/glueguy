@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T05:12:28.884155+00:00",
+  "generatedAt": "2026-09-24T05:30:01.016706+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,8 +12,8 @@
   ],
   "stats": {
     "products": 1710,
-    "manualTdsProducts": 650,
-    "otherOfficialTechnicalSources": 7,
+    "manualTdsProducts": 603,
+    "otherOfficialTechnicalSources": 54,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 625,
     "productsWithExtractionCandidates": 0,
@@ -18910,6 +18910,9 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
         "tdsUrl": null,
+        "specUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/3m-scotch-ad124-super-glue-liquid.txt",
@@ -24732,6 +24735,9 @@
       "sources": {
         "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
         "tdsUrl": null,
+        "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/abb-carlon-vc9982-quick-set-cement.txt",
@@ -24825,6 +24831,9 @@
       "sources": {
         "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
         "tdsUrl": null,
+        "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/abb-carlon-vc9983-quick-set-cement.txt",
@@ -34492,6 +34501,9 @@
       "sources": {
         "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
         "tdsUrl": null,
+        "specUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cemedine-3000rx.txt",
@@ -34620,6 +34632,9 @@
       "sources": {
         "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
         "tdsUrl": null,
+        "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cemedine-ep008.txt",
@@ -34741,6 +34756,9 @@
       "sources": {
         "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
         "tdsUrl": null,
+        "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/cemedine-ep330.txt",
@@ -42594,6 +42612,9 @@
       "sources": {
         "referenceUrl": "https://digiwavetechnology.com/products/dga6129",
         "tdsUrl": null,
+        "specUrl": "https://digiwavetechnology.com/products/dga6129",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/digiwave-dga6129.txt",
@@ -43354,7 +43375,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.conro.com/downloads/Manuals/DOWSIL-Q3-3526-Base-25KG-Pail-TDS.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/dow-q3-3526.txt",
@@ -55391,6 +55412,9 @@
       "sources": {
         "referenceUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
         "tdsUrl": null,
+        "specUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gardner-bender-ltg-400.txt",
@@ -55505,6 +55529,9 @@
       "sources": {
         "referenceUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
         "tdsUrl": null,
+        "specUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gardner-bender-lts-400.txt",
@@ -55740,6 +55767,9 @@
       "sources": {
         "referenceUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
         "tdsUrl": null,
+        "specUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gc-electronics-10-120.txt",
@@ -55864,7 +55894,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.gcelectronics.com/product/10-150",
-        "tdsUrl": null,
+        "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/7/4425_66953f76a0355-10-150%20TDS%20GC%20photo%20Data%20Sheet%20Florida%202023.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gc-electronics-10-150.txt",
@@ -56209,6 +56239,9 @@
       "sources": {
         "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
         "tdsUrl": null,
+        "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
+        "technicalDocumentType": "Distributor technical document",
+        "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/glue-dots-dsp31-401-high-tack.txt",
@@ -56308,6 +56341,9 @@
       "sources": {
         "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
         "tdsUrl": null,
+        "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
+        "technicalDocumentType": "Distributor technical document",
+        "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/glue-dots-xd41-404-super-high-tack.txt",
@@ -59919,6 +59955,9 @@
       "sources": {
         "referenceUrl": "https://www.gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
         "tdsUrl": null,
+        "specUrl": "https://www.gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/gorilla-glue-construction-adhesive.txt",
@@ -71418,6 +71457,9 @@
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
         "tdsUrl": null,
+        "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/limitless-shielding-ca-sa-170.txt",
@@ -71545,6 +71587,9 @@
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
         "tdsUrl": null,
+        "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/limitless-shielding-ca-sc-10.txt",
@@ -71672,6 +71717,9 @@
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
         "tdsUrl": null,
+        "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/limitless-shielding-ca-sc-310.txt",
@@ -71799,6 +71847,9 @@
       "sources": {
         "referenceUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
         "tdsUrl": null,
+        "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/limitless-shielding-ca-sc-55.txt",
@@ -91488,6 +91539,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-ep21tdcht-lo.txt",
@@ -91609,6 +91663,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/ep30lte-lo",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/ep30lte-lo",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-ep30lte-lo.txt",
@@ -91725,6 +91782,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/ep42ht-2",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/ep42ht-2",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-ep42ht-2.txt",
@@ -92797,6 +92857,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/mastersil-151",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/mastersil-151",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-mastersil-151.txt",
@@ -93630,6 +93693,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/supreme-10aoht",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/supreme-10aoht",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-supreme-10aoht.txt",
@@ -93744,6 +93810,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/supreme-11aoht",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/supreme-11aoht",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-supreme-11aoht.txt",
@@ -94417,6 +94486,9 @@
       "sources": {
         "referenceUrl": "https://www.masterbond.com/tds/uv15",
         "tdsUrl": null,
+        "specUrl": "https://www.masterbond.com/tds/uv15",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/masterbond-uv15.txt",
@@ -102486,6 +102558,9 @@
       "sources": {
         "referenceUrl": "https://www.oatey.com/sites/default/files/2020-04/Oatey2020Catalog_LCS911I_LR_040620_WEB.pdf",
         "tdsUrl": null,
+        "specUrl": "https://www.oatey.com/sites/default/files/2020-04/Oatey2020Catalog_LCS911I_LR_040620_WEB.pdf",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -102720,6 +102795,9 @@
       "sources": {
         "referenceUrl": "https://www.oatey.com/products/P_038753315782/oatey-all-purpose-cement?upc=038753308180",
         "tdsUrl": null,
+        "specUrl": "https://www.oatey.com/products/P_038753315782/oatey-all-purpose-cement?upc=038753308180",
+        "technicalDocumentType": "Manufacturer product information",
+        "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -104226,6 +104304,9 @@
       "sources": {
         "referenceUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
         "tdsUrl": null,
+        "specUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/omega-ob-102.txt",
@@ -149334,6 +149415,8 @@
       "sources": {
         "referenceUrl": "https://www.shinetsusilicone-global.com/support/sdstds",
         "tdsUrl": null,
+        "technicalDocumentType": "Manufacturer TDS request portal",
+        "technicalDocumentNote": "Official Shin-Etsu TDS portal; select the product and request/download the TDS through the manufacturer portal.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/shinetsu-ke45.txt",
@@ -149706,6 +149789,9 @@
       "sources": {
         "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml",
         "tdsUrl": null,
+        "specUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml",
+        "technicalDocumentType": "Official product data page",
+        "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/shinetsu-x32-3894-ab.txt",
@@ -154497,6 +154583,9 @@
       "sources": {
         "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
         "tdsUrl": null,
+        "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": "https://www.te.com/en/product-890015-000.html",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/te-raychem-s1006-flexible-epoxy.txt",
@@ -154615,6 +154704,9 @@
       "sources": {
         "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
         "tdsUrl": null,
+        "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": "https://www.te.com/en/product-890036-000.html",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/te-raychem-s1009-kit-a-flexible-epoxy.txt",
@@ -156582,6 +156674,9 @@
       "sources": {
         "referenceUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
         "tdsUrl": null,
+        "specUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
+        "technicalDocumentType": "Manufacturer technical product guide",
+        "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/threebond-1521.txt",

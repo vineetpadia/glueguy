@@ -186,12 +186,14 @@ def main() -> None:
                 "selectorProducts": len(selector_products),
                 "referenceFamilies": len(reference_families),
                 "tdsBackedProducts": sum(
-                    1 for entry in entries
-                    if entry.get("tdsUrl") or entry.get("referenceSourceLabel", "TDS") == "TDS"
+                    1 for entry in entries if entry.get("tdsUrl")
                 ),
                 "otherOfficialTechnicalSources": sum(
                     1 for entry in entries
-                    if entry.get("referenceSourceLabel", "TDS") != "TDS"
+                    if not entry.get("tdsUrl") and (
+                        entry.get("specUrl") or entry.get("productUrl")
+                        or entry.get("supportingReferenceUrls") or entry.get("tdsDownload")
+                    )
                 ),
             },
             indent=2,

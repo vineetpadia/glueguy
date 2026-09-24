@@ -2057,7 +2057,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "The page does not publish continuous service temperature, thermal conductivity, chemical resistance or long-term environmental aging data for 3000RX.",
       "Cyanoacrylate cure depends on surface moisture, bondline gap and substrate chemistry; confirm set time on actual production parts."
     ],
-    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html"
+    "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
+    "specUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
   },
   {
     "id": "weicon-va2407",
@@ -2994,7 +2998,7 @@ window.TDS_MANUAL_PRODUCTS = [
     "maker": "Dow / Dupont Silicones",
     "name": "Dowsil Q3-3526",
     "summary": "Fast-curing non-slump two-part silicone adhesive/sealant with exact Dow selection-guide data: -50 to 190 C continuous temperature range, 8 min skin-over, 20 min tack-free, <2 mm flow, Shore A 38-40, 2 MPa tensile strength, 270-280% elongation, 1.32-1.36 specific gravity range and excellent primerless adhesion to nylon, polycarbonate, glass, aluminum, copper and common steels.",
-    "sourceRevisionDate": "DOWSIL Silicone Sealants and Foams for Industrial, Appliance and Maintenance selection guide, Form No. 80-8283-01",
+    "sourceRevisionDate": "DOWSIL Q3-3526 Base and Catalyst TDS, Form 62-2254-01-0622 (2022)",
     "chemistry": "Two-component neutral silicone adhesive/sealant, VMQ sealant type",
     "cureFamily": "Two-part silicone adhesive sealant",
     "cureDetail": "Two-component neutral silicone adhesive/sealant; fast cure at room temperature with through-cure rather than outside-inward moisture cure. Dow table lists 8 min skin-over and 20 min tack-free time.",
@@ -3082,6 +3086,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "Primerless adhesion entries marked with an asterisk in the Dow table are encoded as consult Dow rather than treated as positive ratings."
     ],
     "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+    "tdsUrl": "https://www.conro.com/downloads/Manuals/DOWSIL-Q3-3526-Base-25KG-Pail-TDS.pdf",
+    "tdsDocumentLabel": "DOWSIL Q3-3526 Base and Catalyst Technical Data Sheet, Form 62-2254-01-0622",
     "thermalConductivity": null
   },
   {
@@ -5437,7 +5443,11 @@ window.TDS_MANUAL_PRODUCTS = [
     "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
     "supportingReferenceUrls": [
       "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"
-    ]
+    ],
+    "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
   },
   {
     "id": "cemedine-ep008",
@@ -5561,6 +5571,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Use EP008 where a flexible/antisagging epoxy is desired; the CEMEDINE table separates EP008 from EP007 and from rigid standard/fast-cure grades."
     ],
     "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+    "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -5653,6 +5667,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity"
     ],
     "referenceUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
+    "specUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null
@@ -5751,7 +5769,11 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shin-Etsu states the table values are not specified values.",
       "The official product notice does not publish service-temperature range, lap shear, peel strength, volume resistivity, thermal conductivity, shelf life or storage temperature."
     ],
-    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml"
+    "referenceUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml",
+    "specUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
   },
   {
     "id": "wacker-elastosil-a95-grey",
@@ -6403,7 +6425,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "peelStrengthNPerM",
       "chipBondStrengthMPa",
       "cureDepthMm"
-    ]
+    ],
+    "technicalDocumentType": "Manufacturer TDS request portal",
+    "technicalDocumentNote": "Official Shin-Etsu TDS portal; select the product and request/download the TDS through the manufacturer portal."
   },
   {
     "id": "shinetsu-ke3411",
@@ -9653,6 +9677,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "No lap-shear or thermal-conductivity value published on the product page; contact Master Bond for the full TDS."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/ep30lte-lo",
+    "specUrl": "https://www.masterbond.com/tds/ep30lte-lo",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -9736,6 +9764,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "TDS lists service range as -80 F to +350 F; post-cure at 125 C for 30 minutes is recommended to reach the higher Tg."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/uv15",
+    "specUrl": "https://www.masterbond.com/tds/uv15",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null
@@ -9811,6 +9843,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Heat cure is required; room-temperature cure is not the rated cure path on the product page."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/supreme-10aoht",
+    "specUrl": "https://www.masterbond.com/tds/supreme-10aoht",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "fixtureTime": null,
     "thermalConductivity": null
   },
@@ -10142,6 +10178,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Hardness is rated > 75 Shore D; very rigid, not intended for flexible or impact-loaded joints."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/ep42ht-2",
+    "specUrl": "https://www.masterbond.com/tds/ep42ht-2",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null
@@ -10222,6 +10262,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Optical transmission depends on bubble-free dispense; vacuum degas the mixed compound before potting optics."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/mastersil-151",
+    "specUrl": "https://www.masterbond.com/tds/mastersil-151",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null
@@ -10298,6 +10342,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Thermally conductive / electrically insulative balance holds only if the thick-section cure schedule is followed."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/supreme-11aoht",
+    "specUrl": "https://www.masterbond.com/tds/supreme-11aoht",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "fixtureTime": null,
     "thermalConductivity": null
   },
@@ -10378,6 +10426,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Shore D 65-75 after cure: toughened but still rigid compared to flexible epoxies like E-120HP."
     ],
     "referenceUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
+    "specUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
+    "specLabel": "Official manufacturer product data",
+    "technicalDocumentType": "Official product data page",
+    "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed.",
     "potLife": null,
     "fixtureTime": null
   },
@@ -30991,6 +31043,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "The official page's additional-information section appears to contain unrelated color/material template data, so only the product description/specification bullets are encoded."
     ],
     "referenceUrl": "https://digiwavetechnology.com/products/dga6129",
+    "specUrl": "https://digiwavetechnology.com/products/dga6129",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -31092,6 +31148,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -31191,6 +31251,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -31290,6 +31354,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -31389,6 +31457,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "chipBondStrengthMPa",
       "cureDepthMm"
     ],
+    "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "lapShear": null,
     "thermalConductivity": null,
     "pricing": {
@@ -31937,6 +32009,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "The Omega datasheet is a general guide and states actual suitability must be determined by the material user."
     ],
     "referenceUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
+    "specUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "serviceMin": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -32558,6 +32634,9 @@ window.TDS_MANUAL_PRODUCTS = [
       "cureDepthMm"
     ],
     "referenceUrl": "https://www.gcelectronics.com/product/10-150",
+    "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/7/4425_66953f76a0355-10-150%20TDS%20GC%20photo%20Data%20Sheet%20Florida%202023.pdf",
+    "tdsDocumentLabel": "GC Electronics 10-150 TDS (2023)",
+    "sourceRevisionDate": "GC Electronics 10-150 Technical Data Sheet, Florida 2023",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -32640,6 +32719,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "Cyanoacrylates bond skin and eyes rapidly; consult SDS before use."
     ],
     "referenceUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
+    "specUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "potLife": null,
     "fixtureTime": null,
     "lapShear": null,
@@ -34527,6 +34610,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is an insulating wire-splice coating and sealant, not a structural adhesive."
     ],
     "referenceUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
+    "specUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -34617,6 +34704,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "This is an insulating wire-splice coating and sealant, not a structural adhesive."
     ],
     "referenceUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
+    "specUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "potLife": null,
     "lapShear": null,
     "thermalConductivity": null,
@@ -34711,6 +34802,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "catalogUrl": "https://tnbcarlon.com/wp-content/uploads/2025/04/9AKK108471A0371_Carlon_Electrical_Non_Metallic_Tubing_28ENT29_US_Size_DGT.pdf",
     "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
     "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+    "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -34807,6 +34902,10 @@ window.TDS_MANUAL_PRODUCTS = [
     "catalogUrl": "https://tnbcarlon.com/wp-content/uploads/2025/04/9AKK108471A0371_Carlon_Electrical_Non_Metallic_Tubing_28ENT29_US_Size_DGT.pdf",
     "referenceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
     "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+    "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -35041,6 +35140,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "sdsUrl": "https://cdmsweb.3m.com/ingredientcommunication/file/Media/w_qWjGDw2J8",
     "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
+    "specUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "serviceMin": null,
     "serviceMax": null,
     "potLife": null,
@@ -35423,6 +35526,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
+    "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
+    "specLabel": "Ellsworth product-specific technical document",
+    "technicalDocumentType": "Distributor technical document",
+    "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications.",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -35519,6 +35626,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityUnit"
     ],
     "referenceUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
+    "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
+    "specLabel": "Ellsworth product-specific technical document",
+    "technicalDocumentType": "Distributor technical document",
+    "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications.",
     "serviceMin": null,
     "potLife": null,
     "lapShear": null,
@@ -38665,6 +38776,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://www.te.com/en/product-890015-000.html",
     "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
+    "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "serviceMin": null,
     "serviceMax": null,
     "lapShear": null,
@@ -38812,6 +38927,10 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "productUrl": "https://www.te.com/en/product-890036-000.html",
     "referenceUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
+    "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
+    "specLabel": "Official product guide / specification",
+    "technicalDocumentType": "Manufacturer technical product guide",
+    "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS.",
     "serviceMin": null,
     "thermalConductivity": null,
     "pricing": {
@@ -53329,6 +53448,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "specUrl": "https://www.gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "lapShear": null,
     "thermalConductivity": null
   },
@@ -54888,6 +55011,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
+    "specUrl": "https://www.oatey.com/products/P_038753315782/oatey-all-purpose-cement?upc=038753308180",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -55046,6 +55173,10 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue"
     ],
+    "specUrl": "https://www.oatey.com/sites/default/files/2020-04/Oatey2020Catalog_LCS911I_LR_040620_WEB.pdf",
+    "specLabel": "Official product information",
+    "technicalDocumentType": "Manufacturer product information",
+    "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF.",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null
@@ -82484,6 +82615,6 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
 window.TDS_MANUAL_STATS = {
   "selectorProducts": 657,
   "referenceFamilies": 657,
-  "tdsBackedProducts": 650,
-  "otherOfficialTechnicalSources": 7
+  "tdsBackedProducts": 603,
+  "otherOfficialTechnicalSources": 54
 };

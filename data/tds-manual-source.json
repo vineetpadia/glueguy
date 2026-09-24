@@ -1528,7 +1528,10 @@
         "CEMEDINE reports low-molecular-silicone-free behavior to reduce electrical contact-failure risk, but users must validate contamination sensitivity in the actual device."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html",
-      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html", "https://exhibition.cemedine.co.jp/form/tca.html"],
+      "supportingReferenceUrls": [
+        "https://www.cemedine.co.jp/global/en/technology/elastic/sxtca/index.html",
+        "https://exhibition.cemedine.co.jp/form/tca.html"
+      ],
       "referenceCategory": "Thermal Conductive Elastic Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "White paste (120 Pa.s at 23 C)",
@@ -1639,7 +1642,10 @@
         "For non-porous materials and heavy or vertical parts, CEMEDINE describes double-sided application/contact-bond style use rather than relying only on wet assembly."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/elastic/superx/",
-      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/elastic/superx/", "https://exhibition.cemedine.co.jp/form/sx720.html"],
+      "supportingReferenceUrls": [
+        "https://www.cemedine.co.jp/global/en/technology/elastic/superx/",
+        "https://exhibition.cemedine.co.jp/form/sx720.html"
+      ],
       "referenceCategory": "Flame-Retardant Elastic Adhesives",
       "referenceSampleType": "Cartridge",
       "referenceSampleConsistency": "Elastic adhesive paste",
@@ -1752,7 +1758,9 @@
       "referenceForJoining": "Electronics sealing, automotive parts, PBT/PPS housings, aluminum assemblies",
       "tdsUrl": "https://www.shinetsusilicone-global.com/products/notice/157/index.shtml",
       "tdsDocumentLabel": "Shin-Etsu KE-8100 official technical product data page",
-      "supportingReferenceUrls": ["https://www.shinetsusilicone-global.com/catalog/pdf/HighlyFunctionalSilicone_E.pdf"]
+      "supportingReferenceUrls": [
+        "https://www.shinetsusilicone-global.com/catalog/pdf/HighlyFunctionalSilicone_E.pdf"
+      ]
     },
     {
       "id": "wacker-semicosil-9720tc",
@@ -2114,7 +2122,11 @@
       "referenceCategory": "Instant Adhesives",
       "referenceSampleType": "Bottle",
       "referenceSampleConsistency": "Colorless transparent liquid; 3 mPa.s at 23 C, specific gravity 1.21-1.25, 100% non-volatiles",
-      "referenceForJoining": "Electric/electronic and precision parts, rubber parts, steel, aluminum, copper, plated steel, ABS, acrylic, polystyrene, rigid PVC, Bakelite, nylon, polycarbonate and TPE"
+      "referenceForJoining": "Electric/electronic and precision parts, rubber parts, steel, aluminum, copper, plated steel, ABS, acrylic, polystyrene, rigid PVC, Bakelite, nylon, polycarbonate and TPE",
+      "specUrl": "https://www.cemedine.co.jp/global/en/technology/cyanoacrylates/3000/index.html",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "weicon-va2407",
@@ -3081,7 +3093,7 @@
       "maker": "Dow / Dupont Silicones",
       "name": "Dowsil Q3-3526",
       "summary": "Fast-curing non-slump two-part silicone adhesive/sealant with exact Dow selection-guide data: -50 to 190 C continuous temperature range, 8 min skin-over, 20 min tack-free, <2 mm flow, Shore A 38-40, 2 MPa tensile strength, 270-280% elongation, 1.32-1.36 specific gravity range and excellent primerless adhesion to nylon, polycarbonate, glass, aluminum, copper and common steels.",
-      "sourceRevisionDate": "DOWSIL Silicone Sealants and Foams for Industrial, Appliance and Maintenance selection guide, Form No. 80-8283-01",
+      "sourceRevisionDate": "DOWSIL Q3-3526 Base and Catalyst TDS, Form 62-2254-01-0622 (2022)",
       "chemistry": "Two-component neutral silicone adhesive/sealant, VMQ sealant type",
       "cureFamily": "Two-part silicone adhesive sealant",
       "cureDetail": "Two-component neutral silicone adhesive/sealant; fast cure at room temperature with through-cure rather than outside-inward moisture cure. Dow table lists 8 min skin-over and 20 min tack-free time.",
@@ -3174,7 +3186,9 @@
       "referenceCategory": "Industrial Silicone Adhesive Sealants",
       "referenceSampleType": "Two-part adhesive sealant",
       "referenceSampleConsistency": "Fast-curing non-slump two-part silicone adhesive/sealant; <2 mm flow; Shore A 38-40; gray or black",
-      "referenceForJoining": "Automotive headlights and auxiliary lights, body panels and body components, oven door windows and other appliance components, especially glass, polycarbonate, aluminum, copper and steel assemblies"
+      "referenceForJoining": "Automotive headlights and auxiliary lights, body panels and body components, oven door windows and other appliance components, especially glass, polycarbonate, aluminum, copper and steel assemblies",
+      "tdsUrl": "https://www.conro.com/downloads/Manuals/DOWSIL-Q3-3526-Base-25KG-Pail-TDS.pdf",
+      "tdsDocumentLabel": "DOWSIL Q3-3526 Base and Catalyst Technical Data Sheet, Form 62-2254-01-0622"
     },
     {
       "id": "dow-ea-9187l",
@@ -5602,11 +5616,17 @@
         "Two-component epoxy properties depend on 1:1 mix accuracy, surface preparation, bondline thickness and cure temperature."
       ],
       "referenceUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
-      "supportingReferenceUrls": ["https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"],
+      "supportingReferenceUrls": [
+        "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html"
+      ],
       "referenceCategory": "Two-Component Epoxy Adhesives",
       "referenceSampleType": "Two-part pack",
       "referenceSampleConsistency": "Base resin pink translucent, 70 Pa.s and 1.17 g/cm3; hardener light yellow translucent, 160 Pa.s and 1.14 g/cm3",
-      "referenceForJoining": "Steel plate, aluminum, stainless steel, copper, polystyrene, acryl, FRP, melamine decorative board, lauan plywood, vehicles, electric equipment, electronic parts, construction composites and precision assemblies"
+      "referenceForJoining": "Steel plate, aluminum, stainless steel, copper, polystyrene, acryl, FRP, melamine decorative board, lauan plywood, vehicles, electric equipment, electronic parts, construction composites and precision assemblies",
+      "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "cemedine-ep008",
@@ -5737,7 +5757,11 @@
       "referenceCategory": "Elastic Epoxy Adhesives",
       "referenceSampleType": "320 mL set",
       "referenceSampleConsistency": "Flexible antisagging two-part epoxy; base resin white translucent 275 Pa.s, hardener light-brown transparent 100 Pa.s at 23 C; 1:1 mix",
-      "referenceForJoining": "Metals, plastics, glass, electrical/electronic parts, precision equipment, automotive/vehicle/vessel/aircraft assemblies, sporting goods and dissimilar-material joints requiring flexible high-peel/high-shear bonding"
+      "referenceForJoining": "Metals, plastics, glass, electrical/electronic parts, precision equipment, automotive/vehicle/vessel/aircraft assemblies, sporting goods and dissimilar-material joints requiring flexible high-peel/high-shear bonding",
+      "specUrl": "https://www.cemedine.co.jp/global/en/technology/epoxy/epoxy2/index.html",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "threebond-1521",
@@ -5834,7 +5858,11 @@
       "referenceCategory": "Volatile Solvent Type Adhesives",
       "referenceSampleType": "One-part adhesive",
       "referenceSampleConsistency": "Light brown transparent liquid (3.2 Pa.s)",
-      "referenceForJoining": "Rubber, leather, plastics, metals, soft PVC, NBR"
+      "referenceForJoining": "Rubber, leather, plastics, metals, soft PVC, NBR",
+      "specUrl": "https://threebond.com/wp-content/uploads/General-Products-Guide_ver12.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "shinetsu-x32-3894-ab",
@@ -5934,7 +5962,11 @@
       "referenceCategory": "CIPG Electronics Gasket Materials",
       "referenceSampleType": "Two-part kit",
       "referenceSampleConsistency": "Creamy white two-part paste; A 70 Pa.s, B 130 Pa.s, mixed 110 Pa.s at 23 C; 1.06 g/cm3; 37 Durometer A",
-      "referenceForJoining": "Electrical component packages, repairable lids, electronic housings"
+      "referenceForJoining": "Electrical component packages, repairable lids, electronic housings",
+      "specUrl": "https://www.shinetsusilicone-global.com/products/notice/rtv/index4.shtml",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "wacker-elastosil-a95-grey",
@@ -6373,7 +6405,10 @@
       "referenceUrl": "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
       "tdsUrl": "https://www.wacker.com/h/zh-dk/medias/SEMICOSIL-811-en-2024.06.16.pdf",
       "tdsDocumentLabel": "WACKER SEMICOSIL 811 Technical Data Sheet, most recent change June 16, 2024",
-      "supportingReferenceUrls": ["https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264", "https://www.wacker.com/h/medias/7401-EN.pdf"],
+      "supportingReferenceUrls": [
+        "https://www.wacker.com/h/en-gb/c/semicosil-811/p/000010264",
+        "https://www.wacker.com/h/medias/7401-EN.pdf"
+      ],
       "referenceCategory": "Electronics Silicone Adhesives",
       "referenceSampleType": "Two-part adhesive",
       "referenceSampleConsistency": "Non-slump UV-fluorescent silicone adhesive",
@@ -6471,7 +6506,9 @@
       "referenceSampleType": "One-part adhesive",
       "referenceSampleConsistency": "Gray high-viscosity addition-cure thermal interface adhesive; 100 Pa.s viscosity; 2.83 g/cm3 density; Shore A 78 after 120 C x 1 h cure",
       "referenceForJoining": "Automotive electronic components, ECU thermal paths, transistors and ICs on circuit boards, heat-managed housings and electrically insulating thermal-interface bonds",
-      "supportingReferenceUrls": ["https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf"],
+      "supportingReferenceUrls": [
+        "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf"
+      ],
       "tdsUrl": "https://www.shinetsusilicone-global.com/catalog/pdf/Automobiles_e.pdf",
       "tdsDocumentLabel": "Shin-Etsu Silicone Materials for Automobiles catalog, Table 4 thermal interface adhesives (includes X-32-2020)"
     },
@@ -6606,7 +6643,9 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "technicalDocumentType": "Manufacturer TDS request portal",
+      "technicalDocumentNote": "Official Shin-Etsu TDS portal; select the product and request/download the TDS through the manufacturer portal."
     },
     {
       "id": "shinetsu-ke3411",
@@ -10030,7 +10069,11 @@
       "referenceCategory": "Cryogenic Low-CTE Epoxies",
       "referenceSampleType": "Can / pail / pre-mixed frozen syringe",
       "referenceSampleConsistency": "Two-part liquid; Part A 35,000-70,000 cP, Part B 290-500 cP",
-      "referenceForJoining": "Composites, ceramics, metals, and dissimilar substrates for aerospace, optics, and spaceflight hardware"
+      "referenceForJoining": "Composites, ceramics, metals, and dissimilar substrates for aerospace, optics, and spaceflight hardware",
+      "specUrl": "https://www.masterbond.com/tds/ep30lte-lo",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "masterbond-uv15",
@@ -10115,7 +10158,11 @@
       "referenceCategory": "UV Cure Epoxies",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Low-viscosity one-part liquid, 115-350 cP",
-      "referenceForJoining": "Glass, ceramics, optical components, thin-section potting, polymer optical waveguides"
+      "referenceForJoining": "Glass, ceramics, optical components, thin-section potting, polymer optical waveguides",
+      "specUrl": "https://www.masterbond.com/tds/uv15",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "masterbond-supreme-10aoht",
@@ -10194,7 +10241,11 @@
       "referenceCategory": "High-Temperature Thermally Conductive Epoxies",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Two-part paste (heat cure)",
-      "referenceForJoining": "Heat sinks, power semiconductor packaging, thermally stressed electronics, and high-temperature sensor bonding"
+      "referenceForJoining": "Heat sinks, power semiconductor packaging, thermally stressed electronics, and high-temperature sensor bonding",
+      "specUrl": "https://www.masterbond.com/tds/supreme-10aoht",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "lord-fusor-152",
@@ -10541,7 +10592,11 @@
       "referenceCategory": "High-Temperature Epoxies",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Part A 55,000-110,000 cP, Part B 30-70 cP; low-to-medium viscosity mixed",
-      "referenceForJoining": "Electronic, electrical, fiber-optic, optical and OEM applications with wide thermal excursions"
+      "referenceForJoining": "Electronic, electrical, fiber-optic, optical and OEM applications with wide thermal excursions",
+      "specUrl": "https://www.masterbond.com/tds/ep42ht-2",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "masterbond-mastersil-151",
@@ -10625,7 +10680,11 @@
       "referenceCategory": "Optically Clear Silicones",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Part A 2,000-4,000 cP, Part B 50-150 cP; thin mixed consistency",
-      "referenceForJoining": "Encapsulating LEDs, optical fiber cladding, potting connectors, opto-electronic assemblies"
+      "referenceForJoining": "Encapsulating LEDs, optical fiber cladding, potting connectors, opto-electronic assemblies",
+      "specUrl": "https://www.masterbond.com/tds/mastersil-151",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "masterbond-supreme-11aoht",
@@ -10704,7 +10763,11 @@
       "referenceCategory": "High-Temperature Thermally Conductive Epoxies",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Part A 200,000-300,000 cP, Part B paste; toothpaste-like mixed",
-      "referenceForJoining": "Electronic, electro-optic, aerospace, and specialty OEM assemblies under thermal cycling"
+      "referenceForJoining": "Electronic, electro-optic, aerospace, and specialty OEM assemblies under thermal cycling",
+      "specUrl": "https://www.masterbond.com/tds/supreme-11aoht",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "masterbond-ep21tdcht-lo",
@@ -10788,7 +10851,11 @@
       "referenceCategory": "Toughened Epoxies",
       "referenceSampleType": "Can / syringe",
       "referenceSampleConsistency": "Part A 60,000-110,000 cP, Part B 70,000-140,000 cP; moderate viscosity paste",
-      "referenceForJoining": "Aerospace, electronic, vacuum, semiconductor, and specialty OEM assemblies needing low outgassing and thermal-cycling tolerance"
+      "referenceForJoining": "Aerospace, electronic, vacuum, semiconductor, and specialty OEM assemblies needing low outgassing and thermal-cycling tolerance",
+      "specUrl": "https://www.masterbond.com/tds/ep21tdcht-lo",
+      "specLabel": "Official manufacturer product data",
+      "technicalDocumentType": "Official product data page",
+      "technicalDocumentNote": "Public manufacturer technical information; request the formal TDS from the manufacturer when needed."
     },
     {
       "id": "epotek-730",
@@ -20414,10 +20481,6 @@
         "Cured material is impervious to many solvents and can require mechanical removal."
       ],
       "referenceUrl": "https://prostech.vn/wp-content/uploads/2018/07/9001-e-v35.pdf",
-      "supportingReferenceUrls": [
-        "https://es.dymax.com/get-resource-file/7694/file/sg020eudt_adhesives_coatings_and_encapsulants_for_electronic_assembly_sg.pdf",
-        "https://kr.dymax.com/get-resource-file/7683/file/sg020eufr_assemblage_electronique_sg.pdf"
-      ],
       "supportingReferenceUrls": [
         "https://dymax.com/get-resource-file/7802/file/Dymax%20Asia%20Product%20SG%20%28EN%20Asia%29.pdf"
       ],
@@ -32255,7 +32318,11 @@
       "referenceCategory": "Silicone Sealants",
       "referenceSampleType": "3 oz tube",
       "referenceSampleConsistency": "Acidic 100% silicone rubber sealant; clear per Digi-Key distributor row",
-      "referenceForJoining": "Interior and exterior weatherproof/watertight sealing on wood, metal, glass and masonry"
+      "referenceForJoining": "Interior and exterior weatherproof/watertight sealing on wood, metal, glass and masonry",
+      "specUrl": "https://digiwavetechnology.com/products/dga6129",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "limitless-shielding-ca-sa-170",
@@ -32357,7 +32424,11 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "limitless-shielding-ca-sc-10",
@@ -32459,7 +32530,11 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "limitless-shielding-ca-sc-55",
@@ -32561,7 +32636,11 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "limitless-shielding-ca-sc-310",
@@ -32663,7 +32742,11 @@
         "peelStrengthNPerM",
         "chipBondStrengthMPa",
         "cureDepthMm"
-      ]
+      ],
+      "specUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/Conductive%20Silicone%20Adhesives.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "3m-hot-melt-3797tc",
@@ -33228,7 +33311,11 @@
       "referenceCategory": "Thermally Conductive Epoxy Adhesives",
       "referenceSampleType": "1/2 oz resin plus 1/2 oz catalyst kit",
       "referenceSampleConsistency": "Black high-thermal-conductivity two-part epoxy adhesive",
-      "referenceForJoining": "Permanent bonding of cement-on and beaded-wire thermocouples and other temperature sensors to metals, ceramics and selected plastics for temperature measurement"
+      "referenceForJoining": "Permanent bonding of cement-on and beaded-wire thermocouples and other temperature sensors to metals, ceramics and selected plastics for temperature measurement",
+      "specUrl": "https://assets.omega.com/pdf/consumables/adhesives-and-paste/OB-100_OB-200_OT-200.pdf",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "mg-chemicals-9201",
@@ -33868,7 +33955,10 @@
       "referenceCategory": "RTV Silicone Rubber Adhesive Sealants",
       "referenceSampleType": "3 oz tube with dispensing nozzle",
       "referenceSampleConsistency": "Clear one-component RTV silicone rubber paste",
-      "referenceForJoining": "General electrical insulation, potting exposed electronic components, bonding gaskets for heating/refrigeration units, formed-in-place gaskets for gear boxes/compressors/pumps/outdoor motor covers, pressure sealing aircraft cabins and cockpits, caulking sheet metal stacks, ductwork and equipment housings, and anti-abrasion coatings"
+      "referenceForJoining": "General electrical insulation, potting exposed electronic components, bonding gaskets for heating/refrigeration units, formed-in-place gaskets for gear boxes/compressors/pumps/outdoor motor covers, pressure sealing aircraft cabins and cockpits, caulking sheet metal stacks, ductwork and equipment housings, and anti-abrasion coatings",
+      "tdsUrl": "https://www.gcelectronics.com/images/com_sellacious/products/datasheet/7/4425_66953f76a0355-10-150%20TDS%20GC%20photo%20Data%20Sheet%20Florida%202023.pdf",
+      "tdsDocumentLabel": "GC Electronics 10-150 TDS (2023)",
+      "sourceRevisionDate": "GC Electronics 10-150 Technical Data Sheet, Florida 2023"
     },
     {
       "id": "gc-electronics-10-120",
@@ -33952,7 +34042,11 @@
       "referenceCategory": "Cyanoacrylate Super Glues",
       "referenceSampleType": "0.075 fl oz tube",
       "referenceSampleConsistency": "Clear medium-viscosity ethyl cyanoacrylate",
-      "referenceForJoining": "Rubber/plastic bonding and similar or dissimilar plastics, metals, rubber, ceramic and glass; small or fine work on non-porous smooth surfaces"
+      "referenceForJoining": "Rubber/plastic bonding and similar or dissimilar plastics, metals, rubber, ceramic and glass; small or fine work on non-porous smooth surfaces",
+      "specUrl": "https://drive.google.com/file/d/1XvKIj_qswmYYKPsnv70qEyvfABEsuhv5/view?usp=drive_link",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "gc-electronics-10-114",
@@ -35873,7 +35967,11 @@
       "referenceCategory": "Liquid Electrical Tape",
       "referenceSampleType": "6 oz spray can",
       "referenceSampleConsistency": "Black rubber-based spray-on liquid tape",
-      "referenceForJoining": "Sealing and protecting spliced electrical wire against corrosion, shortages, electrical shock and vibration in indoor/outdoor, automotive, marine, farm/ag and RV environments"
+      "referenceForJoining": "Sealing and protecting spliced electrical wire against corrosion, shortages, electrical shock and vibration in indoor/outdoor, automotive, marine, farm/ag and RV environments",
+      "specUrl": "https://www.gardnerbender.com/en/p/LTS-400/Spray-Liquid-Tape-Black",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "gardner-bender-ltg-400",
@@ -35966,7 +36064,11 @@
       "referenceCategory": "Liquid Electrical Tape",
       "referenceSampleType": "4 oz jar with brush cap",
       "referenceSampleConsistency": "Green rubber-based brush-on liquid tape",
-      "referenceForJoining": "Sealing and protecting spliced electrical wire against corrosion, shortages, electrical shock and vibration in indoor/outdoor, automotive, marine, farm/ag and RV environments"
+      "referenceForJoining": "Sealing and protecting spliced electrical wire against corrosion, shortages, electrical shock and vibration in indoor/outdoor, automotive, marine, farm/ag and RV environments",
+      "specUrl": "https://www.gardnerbender.com/en/p/LTG-400/Liquid-Electrical-Tape-Werpro-Seal",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "abb-carlon-vc9983-quick-set-cement",
@@ -36065,7 +36167,11 @@
       "referenceSampleType": "16 oz / 473 mL pint can with dauber brush",
       "referenceSampleConsistency": "Clear liquid PVC solvent cement; SDS relative density 0.93 and -20 C closed-cup flash point",
       "referenceForJoining": "Carlon PVC conduit, duct, wireway and fittings except Flex-Plus Blue ENT",
-      "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983"
+      "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+      "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9983",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "abb-carlon-vc9982-quick-set-cement",
@@ -36164,7 +36270,11 @@
       "referenceSampleType": "32 oz / 946 mL quart can with dauber brush",
       "referenceSampleConsistency": "Clear liquid PVC solvent cement; SDS relative density 0.93 and -20 C closed-cup flash point",
       "referenceForJoining": "Carlon PVC conduit, duct, wireway and fittings except Flex-Plus Blue ENT",
-      "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982"
+      "sourceUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+      "specUrl": "https://empower.abb.com/ecatalog/ec/EN_NA/p/VC9982",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "te-raychem-s1125-kit-5",
@@ -36404,7 +36514,11 @@
       "referenceCategory": "Consumer Cyanoacrylate Super Glues",
       "referenceSampleType": "0.14 oz / 4 g precision applicator bottle",
       "referenceSampleConsistency": "Straw to transparent-white low-viscosity liquid; SDS density 1.05 g/mL and 61.9 mm2/s kinematic viscosity",
-      "referenceForJoining": "Quick household and light-duty bonding of wood, metal, ceramic, leather, rubber, vinyl and some plastics with controlled droplet placement"
+      "referenceForJoining": "Quick household and light-duty bonding of wood, metal, ceramic, leather, rubber, vinyl and some plastics with controlled droplet placement",
+      "specUrl": "https://www.3m.com/3M/en_US/p/d/b00012218/",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "penchem-uv772-5r2",
@@ -36794,7 +36908,11 @@
       "referenceCategory": "Pressure-Sensitive Adhesive Dots",
       "referenceSampleType": "Tape & Reel adhesive dots, Digi-Key DSP31-401TR",
       "referenceSampleConsistency": "Clear solid pressure-sensitive hot-melt dots; TDS classifies the adhesive as High Tack",
-      "referenceForJoining": "Lightweight paper, plastic and multi-purpose objects where release properties and removable/permanent substrate-dependent behavior are required"
+      "referenceForJoining": "Lightweight paper, plastic and multi-purpose objects where release properties and removable/permanent substrate-dependent behavior are required",
+      "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9134&language=en",
+      "specLabel": "Ellsworth product-specific technical document",
+      "technicalDocumentType": "Distributor technical document",
+      "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications."
     },
     {
       "id": "glue-dots-xd41-404-super-high-tack",
@@ -36893,7 +37011,11 @@
       "referenceCategory": "Pressure-Sensitive Adhesive Dots",
       "referenceSampleType": "Tape & Reel adhesive dots, Digi-Key XD41-404TR",
       "referenceSampleConsistency": "Slight amber solid pressure-sensitive hot-melt dots; TDS classifies the adhesive as Super High Tack",
-      "referenceForJoining": "Paper, plastic, metal and wood lightweight objects requiring a permanent high-tack pressure-sensitive dot"
+      "referenceForJoining": "Paper, plastic, metal and wood lightweight objects requiring a permanent high-tack pressure-sensitive dot",
+      "specUrl": "https://webaps.ellsworth.com/edl/Actions/?document=9133&language=en",
+      "specLabel": "Ellsworth product-specific technical document",
+      "technicalDocumentType": "Distributor technical document",
+      "technicalDocumentNote": "Product-specific technical document hosted by authorized distributor Ellsworth; confirm manufacturer issue/revision when using for final specifications."
     },
     {
       "id": "resintech-traktronix-rt125-flexible-epoxy",
@@ -40115,7 +40237,11 @@
       "referenceCategory": "Raychem Heat-Shrink Epoxy Adhesives",
       "referenceSampleType": "Mixer-package kit; Digi-Key S1006-KIT-1 / 890015-000 and S1006-KIT-A / 890001-000 distributor rows",
       "referenceSampleConsistency": "Two-part flexible modified epoxy resin packaged in measured mixer packages",
-      "referenceForJoining": "Heat-shrinkable tubing and molded parts, including Thermofit NT-FR neoprene tubing and RNF-100 heat-shrinkable polyolefin tubing assemblies"
+      "referenceForJoining": "Heat-shrinkable tubing and molded parts, including Thermofit NT-FR neoprene tubing and RNF-100 heat-shrinkable polyolefin tubing assemblies",
+      "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1006&DocType=SS&DocLang=EN",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "te-raychem-s1009-kit-a-flexible-epoxy",
@@ -40263,7 +40389,11 @@
       "referenceCategory": "Raychem Heat-Shrink Epoxy Adhesives",
       "referenceSampleType": "S1009-KIT-A dual-pack kit, TE internal number 890036-000",
       "referenceSampleConsistency": "Light amber component plus purple component; properly mixed when the purple color disappears",
-      "referenceForJoining": "Heat-shrinkable, plastic and rubber tubing, molded components, aluminum-to-polyethylene peel assemblies and aluminum lap-shear joints"
+      "referenceForJoining": "Heat-shrinkable, plastic and rubber tubing, molded components, aluminum-to-polyethylene peel assemblies and aluminum lap-shear joints",
+      "specUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT-1009&DocType=SS&DocLang=EN",
+      "specLabel": "Official product guide / specification",
+      "technicalDocumentType": "Manufacturer technical product guide",
+      "technicalDocumentNote": "Official manufacturer technical guide with product properties; not a standalone product TDS."
     },
     {
       "id": "threebond-tb1530",
@@ -55334,7 +55464,11 @@
         "thermalConductivity",
         "viscosityValue",
         "viscosityUnit"
-      ]
+      ],
+      "specUrl": "https://www.gorillatough.com/product/gorilla-heavy-duty-construction-adhesive",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "gorilla-glue-original-polyurethane",
@@ -56955,7 +57089,11 @@
         "serviceMax",
         "lapShear",
         "thermalConductivity"
-      ]
+      ],
+      "specUrl": "https://www.oatey.com/products/P_038753315782/oatey-all-purpose-cement?upc=038753308180",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "oatey-abs-pvc-transition-green",
@@ -57121,7 +57259,11 @@
         "lapShear",
         "thermalConductivity",
         "viscosityValue"
-      ]
+      ],
+      "specUrl": "https://www.oatey.com/sites/default/files/2020-04/Oatey2020Catalog_LCS911I_LR_040620_WEB.pdf",
+      "specLabel": "Official product information",
+      "technicalDocumentType": "Manufacturer product information",
+      "technicalDocumentNote": "Manufacturer product or technical information page; not a standalone TDS PDF."
     },
     {
       "id": "weldon-771-abs",

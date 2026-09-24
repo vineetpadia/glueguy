@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T04:14:42.293188+00:00",
+  "generatedAt": "2026-09-24T04:18:08.525411+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -151319,7 +151319,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/2/sikaflex-255-fc.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://usa.sika.com/dam/dms/us01/2/sikaflex-255-fc.pdf",
         "productUrl": "https://usa.sika.com/en/industry/transportation/construction/construction-adhesives-sealants/body-bonding/sikaflex-255-fc.html",
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/sika-sikaflex-255-fc-tube.txt",
@@ -151576,7 +151576,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/sikaforce-7010.txt",
@@ -151694,7 +151694,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://industry.sika.com/en/products/sikapower-498-3.html",
-        "tdsUrl": null,
+        "tdsUrl": "https://industry.sika.com/content/dam/dms/us01/e/sikapower-498-3.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": "data/tds-cache/sikapower-498-3.txt",
@@ -184578,7 +184578,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://weldon.com/wp-content/uploads/2018/09/714-PDS-08-2018.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://weldon.com/wp-content/uploads/2018/09/714-PDS-08-2018.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -184698,7 +184698,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://weldon.com/wp-content/uploads/2015/03/724-PDS-10-2016-1.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://weldon.com/wp-content/uploads/2015/03/724-PDS-10-2016-1.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -184810,7 +184810,7 @@
       "pricing": null,
       "sources": {
         "referenceUrl": "https://weldon.com/wp-content/uploads/2015/03/WeldOn_Low_771_pb_Apr09.pdf",
-        "tdsUrl": null,
+        "tdsUrl": "https://weldon.com/wp-content/uploads/2015/03/WeldOn_Low_771_pb_Apr09.pdf",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,

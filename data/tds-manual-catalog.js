@@ -4982,6 +4982,8 @@ window.TDS_MANUAL_PRODUCTS = [
     ],
     "referenceUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
     "serviceTemperatureNote": "Shelf life stored at 10–30 °C; service temperature not stated in available TDS text; product is two-part PU structural adhesive.",
+    "tdsUrl": "https://usa.sika.com/dam/dms/us01/d/ipd-pds-sikaforce7010-us.pdf",
+    "tdsDocumentLabel": "SikaForce-7010 Product Data Sheet, version August 25, 2008",
     "serviceMax": null,
     "serviceMin": null
   },
@@ -5059,6 +5061,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "https://industry.sika.com/content/dam/dms/us01/e/sikapower-498-3.pdf"
     ],
     "serviceTemperatureNote": "Shelf life stored below 25 °C; service temp not stated; Tg=110 °C (heat-cured 180 °C/30 min); applied at 50–60 °C.",
+    "tdsUrl": "https://industry.sika.com/content/dam/dms/us01/e/sikapower-498-3.pdf",
+    "tdsDocumentLabel": "SikaPower-498/3 Product Data Sheet, version 04.01, March 2023 (US)",
     "serviceMin": null,
     "serviceMax": null
   },
@@ -38192,6 +38196,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "viscosityValue",
       "viscosityUnit"
     ],
+    "tdsUrl": "https://usa.sika.com/dam/dms/us01/2/sikaflex-255-fc.pdf",
+    "tdsDocumentLabel": "Sikaflex-255 FC Product Data Sheet, version 03.01, April 2023 (US)",
     "thermalConductivity": null,
     "pricing": {
       "basis": "observed",
@@ -54605,6 +54611,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://weldon.com/wp-content/uploads/2018/09/714-PDS-08-2018.pdf",
+    "tdsDocumentLabel": "Weld-On 714 CPVC Cement Product Data Sheet, August 2018",
     "serviceMin": null,
     "thermalConductivity": null
   },
@@ -54687,6 +54695,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "lapShear",
       "thermalConductivity"
     ],
+    "tdsUrl": "https://weldon.com/wp-content/uploads/2015/03/724-PDS-10-2016-1.pdf",
+    "tdsDocumentLabel": "Weld-On 724 CPVC Industrial Cement Product Data Sheet, October 2016",
     "serviceMin": null,
     "thermalConductivity": null
   },
@@ -55004,6 +55014,8 @@ window.TDS_MANUAL_PRODUCTS = [
       "thermalConductivity",
       "viscosityValue"
     ],
+    "tdsUrl": "https://weldon.com/wp-content/uploads/2015/03/WeldOn_Low_771_pb_Apr09.pdf",
+    "tdsDocumentLabel": "Weld-On 771 ABS Low-VOC Cement Product Bulletin, April 2009",
     "serviceMin": null,
     "serviceMax": null,
     "thermalConductivity": null

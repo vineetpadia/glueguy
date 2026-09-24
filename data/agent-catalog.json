@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T02:36:23.457923+00:00",
+  "generatedAt": "2026-09-24T02:42:18.782021+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1730,
-    "manualTdsProducts": 614,
+    "products": 1731,
+    "manualTdsProducts": 617,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 681,
+    "officialManufacturerLeads": 679,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -840,6 +840,7 @@
         "mc-latex_latex"
       ],
       "LePage": [
+        "lepage-epoxy-steel",
         "lepage-express-wood-glue",
         "lepage-extreme-glue",
         "lepage-marine-epoxy",
@@ -848,6 +849,8 @@
         "lepage-pl-premium",
         "lepage-pl-premium-fast-grab",
         "lepage-pl-premium-max",
+        "lepage-pl200-drywall",
+        "lepage-pl400-subfloor-deck",
         "lepage-pro-carpenters-glue",
         "lepage-speed-set-epoxy",
         "lepage-super-glue-all-plastics",
@@ -857,10 +860,8 @@
         "lepage-super-glue-ultra-gel-control",
         "lepage-super-glue-ultra-liquid-control",
         "official-lead-lepage-lepage-epoxy-gel",
-        "official-lead-lepage-lepage-epoxy-steel",
         "official-lead-lepage-lepage-outdoor-weatherproof-wood-glue",
-        "official-lead-lepage-lepage-pl200-drywall",
-        "official-lead-lepage-lepage-pl400-subfloor-deck"
+        "official-lead-lepage-lepage-pl200-drywall"
       ],
       "Limitless Shielding Limited": [
         "limitless-shielding-ca-sa-170",
@@ -2508,6 +2509,7 @@
       ],
       "cold-weather": [
         "christys-red-hot-blue-glue-low-voc",
+        "lepage-pl400-subfloor-deck",
         "liquid-nails-ln902"
       ],
       "cold-weld": [
@@ -2565,7 +2567,8 @@
         "dap-dynaflex-230"
       ],
       "concrete-repair": [
-        "3m-scotch-weld-dp600-dp600ns-urethane"
+        "3m-scotch-weld-dp600-dp600ns-urethane",
+        "lepage-epoxy-steel"
       ],
       "concrete-sealing": [
         "3m-bondo-fiberglass-resin-0401"
@@ -2733,6 +2736,8 @@
         "lepage-pl-premium",
         "lepage-pl-premium-fast-grab",
         "lepage-pl-premium-max",
+        "lepage-pl200-drywall",
+        "lepage-pl400-subfloor-deck",
         "loctite-pl-premium-construction-adhesive",
         "loctite-power-grab-ultimate-crystal-clear",
         "titebond-fast-set-polyurethane-construction-adhesive"
@@ -2918,6 +2923,9 @@
       "de-oxime": [
         "threebond-tb1281"
       ],
+      "deck": [
+        "lepage-pl400-subfloor-deck"
+      ],
       "decking": [
         "liquid-nails-ln902"
       ],
@@ -3003,6 +3011,9 @@
       "dry-film": [
         "threebond-3315e"
       ],
+      "drywall": [
+        "lepage-pl200-drywall"
+      ],
       "dual-cure": [
         "permabond-uv7141"
       ],
@@ -3057,6 +3068,9 @@
         "aremco-ceramabond-503",
         "aremco-ceramabond-571",
         "loctite-si595"
+      ],
+      "electrical-sealing": [
+        "lepage-epoxy-steel"
       ],
       "electrically-conductive": [
         "panacol-elecolit-325"
@@ -3336,6 +3350,7 @@
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "lepage-epoxy-steel",
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min",
         "permatex-5-minute-epoxy-10500",
@@ -3356,6 +3371,9 @@
       ],
       "expanding": [
         "gorilla-glue-original-polyurethane"
+      ],
+      "exterior": [
+        "lepage-pl200-drywall"
       ],
       "exterior-use": [
         "loctite-pl-premium-construction-adhesive"
@@ -4412,6 +4430,7 @@
       ],
       "interior": [
         "lepage-no-more-nails-all-purpose",
+        "lepage-pl200-drywall",
         "titebond-all-purpose-white",
         "titebond-extend",
         "titebond-genuine-hide-glue"
@@ -4917,6 +4936,7 @@
         "aremco-pyro-putty-653",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "lepage-epoxy-steel",
         "permabond-et5003"
       ],
       "methyl-cyanoacrylate": [
@@ -5289,6 +5309,9 @@
       "painted-surface-bonding": [
         "3m-vhb-4945",
         "3m-vhb-4950"
+      ],
+      "paneling": [
+        "lepage-pl200-drywall"
       ],
       "paper-bonding": [
         "3m-super-77-low-voc-aerosol",
@@ -6845,6 +6868,7 @@
       ],
       "subfloor": [
         "lepage-pl-premium",
+        "lepage-pl400-subfloor-deck",
         "liquid-nails-ln902",
         "loctite-pl-premium-construction-adhesive",
         "titebond-fast-set-polyurethane-construction-adhesive"
@@ -7574,6 +7598,7 @@
       ],
       "woodworking": [
         "bostik-pva-glue",
+        "lepage-pl400-subfloor-deck",
         "lepage-pro-carpenters-glue"
       ],
       "z-axis-interconnect": [
@@ -7585,8 +7610,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 681,
-      "official-tds-url": 341,
+      "official-manufacturer-lead": 679,
+      "official-tds-url": 344,
       "product-or-catalog-page": 191
     }
   },
@@ -68596,25 +68621,49 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-lepage-lepage-epoxy-steel",
-      "source": "official-manufacturer-lead",
+      "id": "lepage-epoxy-steel",
+      "source": "manual-tds",
       "maker": "LePage",
       "name": "LePage Epoxy Steel",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "profile": "toughenedEpoxy",
+      "summary": "Two-part machinable epoxy for repairs and rebuilding on metal, concrete, glass, ceramic, wood and selected plastics; electrically insulating and water-resistant when cured, but not for immersion.",
+      "applicationTags": [
+        "epoxy",
+        "metal-repair",
+        "concrete-repair",
+        "electrical-sealing"
+      ],
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceForJoining": "Metal, concrete, glass, ceramic, wood",
+      "electricalBehaviorClass": "insulating",
+      "specs": {
+        "chemistry": "Two-part epoxy resin with polymercaptan hardener",
+        "cureFamily": "2-part epoxy",
+        "cureDetail": "Equal-volume mix; 5\u201312 minute gel/set time, usable strength in 12 hours, full cure in 24 hours at room temperature.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "TDS reports long-term exposure -23 to 49 \u00b0C and short-term exposure -23 to 150 \u00b0C; short-term limit is not a continuous service rating.",
+        "potLife": "5\u201312 minutes",
+        "fixtureTime": "5\u201312 minutes",
+        "lapShear": 22.01,
+        "lapShearSubstrate": "Tensile shear on sandblasted cold-rolled steel after 24-hour cure: 22.01 \u00b1 0.65 MPa. Other TDS results vary by substrate and cure: steel 7.00 MPa at 1 hour, 16.82 MPa at 4 hours; sandblasted aluminum 16.51 MPa after 24 hours.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "electricalBehavior": "electrically insulating; TDS says it does not conduct electricity",
+        "shelfLifeMonths": 18,
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 22.01
+      },
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
@@ -68622,21 +68671,20 @@
             "documentType": "TDS"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 1.0,
+        "electronics": 0.15,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
@@ -68644,18 +68692,20 @@
           "lapShear",
           "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
+        "electronicsFieldsPresent": [
+          "electricalBehavior",
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [],
         "electronicsFieldsMissing": [
           "viscosityValue",
           "viscosityUnit",
-          "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
-          "connectionResistanceOhm",
           "insulationResistanceOhm",
           "dielectricConstant",
           "dissipationFactor",
@@ -68668,18 +68718,28 @@
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
+          "tackFreeTime"
         ],
-        "decisionFieldsVerifiedAbsent": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
         "electronicsFieldsVerifiedAbsent": [],
         "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "connectionResistanceOhm"
+        ],
         "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing electronics fields: viscosityValue, viscosityUnit, volumeResistivityOhmM, surfaceResistivityOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Verified absent from available TDS fields: thermalConductivity",
+        "Not applicable to this product/behavior: connectionResistanceOhm",
+        "Not for polyethylene (PE), polypropylene (PP), PTFE/Teflon or flexible materials.",
+        "Not for continuously wet areas or water immersion.",
+        "Not suitable for short-term heat exposure above 150 \u00b0C; long-term service limit is 49 \u00b0C."
       ],
       "extractionCandidates": []
     },
@@ -69200,6 +69260,217 @@
       "extractionCandidates": []
     },
     {
+      "id": "lepage-pl200-drywall",
+      "source": "manual-tds",
+      "maker": "LePage",
+      "name": "LePage PL 200 Drywall & Paneling",
+      "profile": "constructionAdhesive",
+      "summary": "Water-resistant synthetic-rubber construction adhesive for drywall and paneling to wood or metal framing, with a 30-minute reposition window and ASTM C557 compliance.",
+      "applicationTags": [
+        "construction-adhesive",
+        "drywall",
+        "paneling",
+        "interior",
+        "exterior"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "Drywall, paneling, wood trim, plywood and metal studs",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Synthetic rubber and resins, solvent-based",
+        "cureFamily": "Construction adhesive",
+        "cureDetail": "30-minute open/reposition time; 2\u20135-minute venting time before panel placement; 3\u20137 days full cure at 25 \u00b0C and 50% RH.",
+        "serviceMin": -29,
+        "serviceMax": 60,
+        "lapShearSubstrate": "No lap-shear value reported in this TDS; do not infer one from the ASTM C557 compliance statement.",
+        "viscosityClass": "high",
+        "clarity": "opaque",
+        "shelfLifeMonths": 18
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Do not use to bond two nonporous substrates; at least one substrate should be porous for best results.",
+        "Not for cementitious board, PE, PP, PTFE, nylon, tub surrounds, polystyrene or ABS plastic panels, or polystyrene foam board.",
+        "Do not use overhead without permanent mechanical fasteners; not for permanent water immersion."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "lepage-pl400-subfloor-deck",
+      "source": "manual-tds",
+      "maker": "LePage",
+      "name": "LePage PL 400 Subfloor & Deck",
+      "profile": "constructionAdhesive",
+      "summary": "All-weather synthetic-rubber construction adhesive formulated for subfloors, plywood decking and wood framing, with published shear values for wet, frozen and dry lumber.",
+      "applicationTags": [
+        "construction-adhesive",
+        "subfloor",
+        "deck",
+        "woodworking",
+        "cold-weather"
+      ],
+      "referenceCategory": "Construction and woodworking adhesives",
+      "referenceForJoining": "Subfloor and plywood decking to wood joists; most wood-to-wood assemblies",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Synthetic rubber and resins, solvent-based",
+        "cureFamily": "Construction adhesive",
+        "cureDetail": "Approximately 15-minute working time at 25 \u00b0C and 50% RH; cure takes 2\u20137 days depending on temperature, humidity, porosity and adhesive amount.",
+        "serviceMin": -29,
+        "serviceMax": 49,
+        "lapShearSubstrate": "TDS reports ASTM D3498 shear strengths in psi for construction lumber rather than a standard lap-shear result: wet lumber 295 psi (2.03 MPa), frozen lumber 165 psi (1.14 MPa), dry lumber 246 psi (1.70 MPa), gap filling 248 psi (1.71 MPa), moisture resistance 152 psi (1.05 MPa).",
+        "viscosityClass": "high",
+        "viscosityValue": 375000,
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "shelfLifeMonths": 18
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
+        "tdsDocuments": [
+          {
+            "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+            "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
+            "documentType": "TDS"
+          }
+        ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf"
+        ],
+        "technicalDocuments": [],
+        "officialProductUrls": [
+          "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html"
+        ]
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for PE, PP, PTFE, acrylic plastics, flexible sheet goods, composite decking, Ipe, mirrors or tub/shower surrounds.",
+        "Not for permanent water immersion or constant moisture exposure, or service above 49 \u00b0C or below -29 \u00b0C.",
+        "Not recommended for bonding two nonporous surfaces; test treated lumber because treatments can impair adhesion."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "lepage-pl-premium",
       "source": "manual-tds",
       "maker": "LePage",
@@ -69565,94 +69836,6 @@
         "technicalDocuments": [],
         "sdsUrls": [],
         "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
-        "sourceLabel": "LePage verified official glue and adhesive products",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
-      },
-      "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
-          "serviceMin",
-          "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
-          "clarity",
-          "thermalConductivity",
-          "stress",
-          "substrates",
-          "cautions"
-        ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
-          "electricalBehavior",
-          "volumeResistivityOhmM",
-          "surfaceResistivityOhm",
-          "connectionResistanceOhm",
-          "insulationResistanceOhm",
-          "dielectricConstant",
-          "dissipationFactor",
-          "dielectricBreakdownVPerMil",
-          "dielectricBreakdownKVPerMm",
-          "tensileStrengthMPa",
-          "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
-          "peelStrengthNPerM",
-          "chipBondStrengthMPa",
-          "cureDepthMm",
-          "tackFreeTime",
-          "cureProfiles"
-        ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
-        "decisionFieldsAliasCovered": [],
-        "electronicsFieldsAliasCovered": []
-      },
-      "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
-      ],
-      "extractionCandidates": []
-    },
-    {
-      "id": "official-lead-lepage-lepage-pl400-subfloor-deck",
-      "source": "official-manufacturer-lead",
-      "maker": "LePage",
-      "name": "LePage PL400 Subfloor & Deck",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
-      "pricing": null,
-      "sources": {
-        "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
-        "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf"
-        ],
-        "tdsDocuments": [
-          {
-            "url": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
-            "label": "LePage PL400 Subfloor & Deck Technical Data Sheet",
-            "documentType": "TDS"
-          }
-        ],
-        "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
         "sourceLabel": "LePage verified official glue and adhesive products",
         "tdsCacheTextPath": null,
         "sourceQuality": "official-manufacturer-lead"

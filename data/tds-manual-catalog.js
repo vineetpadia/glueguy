@@ -61255,6 +61255,224 @@ window.TDS_MANUAL_PRODUCTS = [
     "serviceMin": null,
     "potLife": null,
     "thermalConductivity": null
+  },
+  {
+    "id": "lepage-epoxy-steel",
+    "profile": "toughenedEpoxy",
+    "maker": "LePage",
+    "name": "LePage Epoxy Steel",
+    "summary": "Two-part machinable epoxy for repairs and rebuilding on metal, concrete, glass, ceramic, wood and selected plastics; electrically insulating and water-resistant when cured, but not for immersion.",
+    "sourceRevisionDate": "LePage Epoxy Steel Technical Data Sheet, revision November 10, 2014",
+    "chemistry": "Two-part epoxy resin with polymercaptan hardener",
+    "cureFamily": "2-part epoxy",
+    "cureDetail": "Equal-volume mix; 5–12 minute gel/set time, usable strength in 12 hours, full cure in 24 hours at room temperature.",
+    "serviceMin": -23,
+    "serviceMax": 49,
+    "serviceTemperatureNote": "TDS reports long-term exposure -23 to 49 °C and short-term exposure -23 to 150 °C; short-term limit is not a continuous service rating.",
+    "applicationTemperatureMinC": 4,
+    "applicationTemperatureMaxC": 35,
+    "potLife": "5–12 minutes",
+    "potLifeConditions": "Gel time for 2 g resin + 2 g hardener; dependent on temperature, humidity and amount used.",
+    "fixtureTime": "5–12 minutes",
+    "fixtureTimeRangeSeconds": [
+      300,
+      720
+    ],
+    "fullCureMinutes": 1440,
+    "viscosityClass": "high",
+    "lapShear": 22.01,
+    "lapShearSubstrate": "Tensile shear on sandblasted cold-rolled steel after 24-hour cure: 22.01 ± 0.65 MPa. Other TDS results vary by substrate and cure: steel 7.00 MPa at 1 hour, 16.82 MPa at 4 hours; sandblasted aluminum 16.51 MPa after 24 hours.",
+    "tdsShearProfilesMPa": {
+      "coldRolledSteel1h": 7.0,
+      "coldRolledSteel4h": 16.82,
+      "coldRolledSteel24h": 22.01,
+      "sandblastedAluminum24h": 16.51,
+      "sandedHardPVC24h": 6.28,
+      "sandedAcryliteFF24h": 11.42,
+      "maple24h": 15.75
+    },
+    "unpublishedFields": [
+      "thermalConductivity"
+    ],
+    "clarity": "opaque",
+    "dryColor": "Medium gray",
+    "waterResistant": true,
+    "electricalBehavior": "electrically insulating; TDS says it does not conduct electricity",
+    "applicationTags": [
+      "epoxy",
+      "metal-repair",
+      "concrete-repair",
+      "electrical-sealing"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 2,
+      "impact": 4
+    },
+    "substrates": {
+      "metal": 9,
+      "concrete": 8,
+      "glass": 7,
+      "ceramic": 7,
+      "wood": 7,
+      "hardPlastic": 6
+    },
+    "shelfLifeMonths": 18,
+    "cautions": [
+      "Not for polyethylene (PE), polypropylene (PP), PTFE/Teflon or flexible materials.",
+      "Not for continuously wet areas or water immersion.",
+      "Not suitable for short-term heat exposure above 150 °C; long-term service limit is 49 °C.",
+      "Surface preparation and cure duration change reported shear strength; see substrate-specific TDS test values."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-Epoxy-steel-en_CA.pdf",
+    "tdsDocumentLabel": "LePage Epoxy Steel Technical Data Sheet, revision November 10, 2014",
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-pl200-drywall",
+    "profile": "constructionAdhesive",
+    "maker": "LePage",
+    "name": "LePage PL 200 Drywall & Paneling",
+    "summary": "Water-resistant synthetic-rubber construction adhesive for drywall and paneling to wood or metal framing, with a 30-minute reposition window and ASTM C557 compliance.",
+    "sourceRevisionDate": "LePage PL 200 Drywall & Paneling Technical Data Sheet, revision March 1, 2024; supersedes March 17, 2015",
+    "chemistry": "Synthetic rubber and resins, solvent-based",
+    "cureFamily": "Construction adhesive",
+    "cureDetail": "30-minute open/reposition time; 2–5-minute venting time before panel placement; 3–7 days full cure at 25 °C and 50% RH.",
+    "serviceMin": -29,
+    "serviceMax": 60,
+    "applicationTemperatureMinC": -7,
+    "applicationTemperatureMaxC": 38,
+    "openTimeMinutes": 30,
+    "openTimeRangeMinutes": [
+      30,
+      30
+    ],
+    "tdsFullCureHours": [
+      72,
+      168
+    ],
+    "viscosityClass": "high",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "No lap-shear value reported in this TDS; do not infer one from the ASTM C557 compliance statement.",
+    "clarity": "opaque",
+    "dryColor": "Tan",
+    "waterResistant": true,
+    "applicationTags": [
+      "construction-adhesive",
+      "drywall",
+      "paneling",
+      "interior",
+      "exterior"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 4,
+      "impact": 3
+    },
+    "substrates": {
+      "drywall": 9,
+      "wood": 8,
+      "metal": 7,
+      "concrete": 6
+    },
+    "shelfLifeMonths": 18,
+    "cautions": [
+      "Do not use to bond two nonporous substrates; at least one substrate should be porous for best results.",
+      "Not for cementitious board, PE, PP, PTFE, nylon, tub surrounds, polystyrene or ABS plastic panels, or polystyrene foam board.",
+      "Do not use overhead without permanent mechanical fasteners; not for permanent water immersion.",
+      "Not recommended above 60 °C service temperature. Maintain jobsite conditions at or above 13 °C during installation and finishing."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-200-825-ml-en_CA.pdf",
+    "tdsDocumentLabel": "LePage PL 200 Drywall & Paneling Technical Data Sheet, revision March 1, 2024",
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "lepage-pl400-subfloor-deck",
+    "profile": "constructionAdhesive",
+    "maker": "LePage",
+    "name": "LePage PL 400 Subfloor & Deck",
+    "summary": "All-weather synthetic-rubber construction adhesive formulated for subfloors, plywood decking and wood framing, with published shear values for wet, frozen and dry lumber.",
+    "sourceRevisionDate": "LePage PL 400 Subfloor & Deck Construction Adhesive Technical Data Sheet, revision March 15, 2026; supersedes January 11, 2022",
+    "chemistry": "Synthetic rubber and resins, solvent-based",
+    "cureFamily": "Construction adhesive",
+    "cureDetail": "Approximately 15-minute working time at 25 °C and 50% RH; cure takes 2–7 days depending on temperature, humidity, porosity and adhesive amount.",
+    "serviceMin": -29,
+    "serviceMax": 49,
+    "applicationTemperatureMinC": -18,
+    "applicationTemperatureMaxC": 38,
+    "openTimeMinutes": 15,
+    "openTimeRangeMinutes": [
+      15,
+      15
+    ],
+    "tdsFullCureHours": [
+      48,
+      168
+    ],
+    "viscosityClass": "high",
+    "viscosityValue": 375000,
+    "viscosityUnit": "cP",
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "TDS reports ASTM D3498 shear strengths in psi for construction lumber rather than a standard lap-shear result: wet lumber 295 psi (2.03 MPa), frozen lumber 165 psi (1.14 MPa), dry lumber 246 psi (1.70 MPa), gap filling 248 psi (1.71 MPa), moisture resistance 152 psi (1.05 MPa).",
+    "tdsShearProfilesMPa": {
+      "wetLumber": 2.03,
+      "frozenLumber": 1.14,
+      "dryLumber": 1.7,
+      "gapFilling": 1.71,
+      "moistureResistance": 1.05
+    },
+    "clarity": "opaque",
+    "dryColor": "Light tan",
+    "waterResistant": true,
+    "applicationTags": [
+      "construction-adhesive",
+      "subfloor",
+      "deck",
+      "woodworking",
+      "cold-weather"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 9,
+      "plywood": 9,
+      "metal": 6,
+      "concrete": 6,
+      "masonry": 6,
+      "ceramic": 5
+    },
+    "shelfLifeMonths": 18,
+    "cautions": [
+      "Not for PE, PP, PTFE, acrylic plastics, flexible sheet goods, composite decking, Ipe, mirrors or tub/shower surrounds.",
+      "Not for permanent water immersion or constant moisture exposure, or service above 49 °C or below -29 °C.",
+      "Not recommended for bonding two nonporous surfaces; test treated lumber because treatments can impair adhesion.",
+      "TDS working time is approximately 15 minutes; repositioning after this window is not specified."
+    ],
+    "referenceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+    "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
+    "tdsDocumentLabel": "LePage PL 400 Subfloor & Deck Construction Adhesive Technical Data Sheet, revision March 15, 2026",
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -77649,12 +77867,83 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-super-glue-ultra-liquid-control/SAP_0201DCL019X2.html",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-epoxy-steel",
+    "manufacturer": "LePage",
+    "familyName": "LePage Epoxy Steel",
+    "primaryCategory": "Epoxy repair adhesives",
+    "categories": [
+      "Epoxy repair adhesives"
+    ],
+    "sampleType": "Twin syringe",
+    "sampleConsistency": "Two-part paste",
+    "sampleForJoining": "Metal, concrete, glass, ceramic, wood",
+    "applicationTags": [
+      "epoxy",
+      "metal-repair",
+      "concrete-repair",
+      "electrical-sealing"
+    ],
+    "tempMinC": -23,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-epoxy-steel/SAP_0201OIL01J64.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pl200-drywall",
+    "manufacturer": "LePage",
+    "familyName": "LePage PL 200 Drywall & Paneling",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Cartridge",
+    "sampleConsistency": "Thixotropic liquid",
+    "sampleForJoining": "Drywall, paneling, wood trim, plywood and metal studs",
+    "applicationTags": [
+      "construction-adhesive",
+      "drywall",
+      "paneling",
+      "interior",
+      "exterior"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 60,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl200-drywall/SAP_0201CSL01GY2/variation/1113121.html",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "lepage-pl400-subfloor-deck",
+    "manufacturer": "LePage",
+    "familyName": "LePage PL 400 Subfloor & Deck",
+    "primaryCategory": "Construction and woodworking adhesives",
+    "categories": [
+      "Construction and woodworking adhesives"
+    ],
+    "sampleType": "Cartridge",
+    "sampleConsistency": "Thick paste",
+    "sampleForJoining": "Subfloor and plywood decking to wood joists; most wood-to-wood assemblies",
+    "applicationTags": [
+      "construction-adhesive",
+      "subfloor",
+      "deck",
+      "woodworking",
+      "cold-weather"
+    ],
+    "tempMinC": -29,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://www.lepage.ca/en/products/central-pdp.html/lepage-pl400-subfloor-deck/SAP_0201CSL019P3.html",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 621,
-  "referenceFamilies": 621,
-  "tdsBackedProducts": 614,
+  "selectorProducts": 624,
+  "referenceFamilies": 624,
+  "tdsBackedProducts": 617,
   "otherOfficialTechnicalSources": 7
 };

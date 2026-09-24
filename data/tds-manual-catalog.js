@@ -56462,6 +56462,387 @@ window.TDS_MANUAL_PRODUCTS = [
     "tdsUrl": "https://images.dap.com/WW%20Landau%20Top%20%26%20Trim%20HHR_TDS_5.8.19.pdf",
     "tdsDocumentLabel": "DAP WELDWOOD Landau Top & Trim High Heat Spray Grade Contact Cement Technical Data Sheet, revision 2018-08",
     "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-0306-0307-high-heat-resistant-contact-cement"
+  },
+  {
+    "id": "barge-all-purpose-original-cement",
+    "profile": "contactCement",
+    "maker": "Barge",
+    "name": "All Purpose Original Cement",
+    "summary": "Neoprene-based flexible contact cement widely used for shoe repair and bonding leather, rubber, and other soling materials.",
+    "chemistry": "Neoprene-based contact cement (manufacturer product page)",
+    "cureFamily": "Solvent-flash contact cement",
+    "cureDetail": "Barge lists 10–15 minutes dry time and up to 4 hours open time. Coat both clean surfaces, let the adhesive become tacky, then press together with weight for 1–2 minutes; follow the container for product-specific directions.",
+    "openTimeRangeMinutes": [
+      240,
+      240
+    ],
+    "waterproof": true,
+    "applicationTags": [
+      "contact-lamination",
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 8,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.5,
+      "fuel": 0.1,
+      "immersion": 0.45
+    },
+    "substrates": {
+      "leather": 10,
+      "rubber": 9,
+      "pvc": 6,
+      "metal": 5,
+      "wood": 4,
+      "fabric": 5
+    },
+    "cautions": [
+      "Barge's public product-document page provides an SDS, application chart, and product brochure; no standalone TDS was located. Dry/open times and listed properties are from Barge's product page and brochure.",
+      "Use the current product label and SDS for ventilation, fire, and handling requirements; Barge describes this as a solvent contact cement.",
+      "Only published properties are populated; Barge's cited sources do not publish lap-shear or service-temperature values."
+    ],
+    "referenceUrl": "https://www.bargeadhesive.com/products.html",
+    "productUrl": "https://www.bargeadhesive.com/products.html",
+    "specUrl": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_brochure_1.pdf",
+    "technicalDocumentType": "Manufacturer product page and product brochure; no formal TDS located",
+    "technicalDocumentNote": "Dry/open times and product claims are transcribed from Barge's product page and official brochure. The brochure is linked under Spec.",
+    "sourceLabel": "Manufacturer product page and brochure; no formal TDS located",
+    "referenceSourceLabel": "Manufacturer product page and official brochure (no formal TDS located)",
+    "dryTimeRangeMinutes": [
+      10,
+      15
+    ]
+  },
+  {
+    "id": "barge-all-purpose-tf-cement",
+    "profile": "contactCement",
+    "maker": "Barge",
+    "name": "All Purpose TF Cement",
+    "summary": "Toluene-free flexible contact cement for shoe repair and bonding rubber, leather, vinyl, PVC, urethane, and related materials.",
+    "chemistry": "Toluene-free contact cement; base chemistry not specified in cited manufacturer material",
+    "cureFamily": "Solvent-flash contact cement",
+    "cureDetail": "Barge lists 10–15 minutes dry time and up to 4 hours open time. Coat both clean surfaces, let them become tacky, then press together with weight for 1–2 minutes; follow the container for product-specific directions.",
+    "openTimeRangeMinutes": [
+      240,
+      240
+    ],
+    "waterproof": true,
+    "applicationTags": [
+      "contact-lamination",
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "toluene-free"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 8,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.5,
+      "fuel": 0.1,
+      "immersion": 0.45
+    },
+    "substrates": {
+      "leather": 10,
+      "rubber": 9,
+      "pvc": 7,
+      "metal": 5,
+      "wood": 4,
+      "fabric": 5
+    },
+    "cautions": [
+      "Barge's public product-document page provides an SDS, application chart, and product brochure; no standalone TDS was located. Dry/open times and listed properties are from Barge's product page and brochure.",
+      "Toluene-free does not mean solvent-free or nonflammable; consult the current label and SDS.",
+      "Only published properties are populated; Barge's cited sources do not publish lap-shear or service-temperature values."
+    ],
+    "referenceUrl": "https://www.bargeadhesive.com/products.html",
+    "productUrl": "https://www.bargeadhesive.com/products.html",
+    "specUrl": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_brochure_1.pdf",
+    "technicalDocumentType": "Manufacturer product page and product brochure; no formal TDS located",
+    "technicalDocumentNote": "Dry/open times and product claims are transcribed from Barge's product page and official brochure. The brochure is linked under Spec.",
+    "sourceLabel": "Manufacturer product page and brochure; no formal TDS located",
+    "referenceSourceLabel": "Manufacturer product page and official brochure (no formal TDS located)",
+    "dryTimeRangeMinutes": [
+      10,
+      15
+    ]
+  },
+  {
+    "id": "rh-adhesives-hh-66-vinyl-cement",
+    "profile": "contactCement",
+    "maker": "RH Adhesives",
+    "name": "HH-66 Vinyl Cement",
+    "summary": "Flexible vinyl cement for repairing PVC-coated fabrics, tarps, inflatable products, pool liners, and compatible vinyl assemblies.",
+    "chemistry": "Thermoplastic elastomer; solvent-based",
+    "cureFamily": "Solvent-based vinyl contact cement",
+    "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 2 minutes, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2–5 minute tack time.",
+    "serviceMin": -34,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": -30,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 35,
+    "applicationTemperatureMaxF": 95,
+    "viscosityClass": "medium",
+    "solidsContentRangePct": [
+      14,
+      16
+    ],
+    "shelfLifeMonths": 18,
+    "flashPointF": 7,
+    "appearance": "Clear",
+    "waterproof": true,
+    "applicationTags": [
+      "vinyl-repair",
+      "contact-lamination",
+      "flexible-bond",
+      "watercraft",
+      "tarp-repair"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 9,
+      "impact": 7
+    },
+    "environment": {
+      "humidity": 0.6,
+      "fuel": 0.1,
+      "immersion": 0.85
+    },
+    "substrates": {
+      "wood": 5,
+      "fabric": 9,
+      "leather": 7,
+      "rubber": 7,
+      "pvc": 10,
+      "abs": 5,
+      "glass": 5,
+      "foamboard": 6,
+      "hdpe": 0
+    },
+    "cautions": [
+      "Not compatible with polyethylene tarps or extremely thin vinyl used for lettering/wraps; RH recommends trying another product on very soft, stretchy marine vinyl.",
+      "Excess adhesive may yellow with prolonged direct sunlight; RH advises against using it as a sun-exposed seam sealer.",
+      "Contains toluene and has a 7°F flash point; follow the current label and SDS for ventilation and ignition precautions.",
+      "RH provides a manufacturer Spec Sheet and technical-data webpage, not a document titled TDS; no TDS link is claimed."
+    ],
+    "referenceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-product/",
+    "productUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-product/",
+    "specUrl": "https://rhadhesives.com/wp-content/uploads/2026/04/HH-66-Vinyl-Cement-Spec-Sheet.pdf",
+    "technicalDocumentType": "RH Adhesives manufacturer Spec Sheet (not titled TDS)",
+    "technicalDocumentNote": "The linked Spec Sheet and RH product page supply these properties; no standalone TDS was found on the manufacturer's product page.",
+    "sourceLabel": "Manufacturer product page and Spec Sheet; no formal TDS found",
+    "referenceSourceLabel": "Manufacturer product page and Spec Sheet (not titled TDS)",
+    "tackTimeRangeMinutes": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+    "profile": "contactCement",
+    "maker": "RH Adhesives",
+    "name": "HH-66 Toluene Free Vinyl Cement",
+    "summary": "Toluene-free flexible vinyl cement for compatible PVC-coated fabrics and vinyl repair projects.",
+    "chemistry": "Thermoplastic elastomer; solvent-based, toluene-free",
+    "cureFamily": "Solvent-based vinyl contact cement",
+    "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 3 minutes for patching, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2–5 minute tack time.",
+    "serviceMin": -34,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": -30,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 35,
+    "applicationTemperatureMaxF": 95,
+    "viscosityClass": "medium",
+    "solidsContentRangePct": [
+      14,
+      16
+    ],
+    "shelfLifeMonths": 18,
+    "flashPointF": 7,
+    "appearance": "Clear",
+    "waterproof": true,
+    "applicationTags": [
+      "vinyl-repair",
+      "contact-lamination",
+      "flexible-bond",
+      "toluene-free"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 9,
+      "impact": 7
+    },
+    "environment": {
+      "humidity": 0.6,
+      "fuel": 0.1,
+      "immersion": 0.85
+    },
+    "substrates": {
+      "wood": 5,
+      "fabric": 9,
+      "leather": 7,
+      "rubber": 7,
+      "pvc": 10,
+      "abs": 5,
+      "glass": 5,
+      "foamboard": 6,
+      "hdpe": 0
+    },
+    "cautions": [
+      "Not compatible with polyethylene tarps or extremely thin vinyl used for lettering/wraps; RH recommends trying another product on very soft, stretchy marine vinyl.",
+      "Excess adhesive may yellow with prolonged direct sunlight; RH advises against using it as a sun-exposed seam sealer.",
+      "Toluene-free does not mean solvent-free or nonflammable; the manufacturer Spec Sheet lists a 7°F flash point. Follow the current label and SDS.",
+      "RH provides a manufacturer Spec Sheet and technical-data webpage, not a document titled TDS; no TDS link is claimed."
+    ],
+    "referenceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-toluene-free-2/",
+    "productUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-toluene-free-2/",
+    "specUrl": "https://rhadhesives.com/wp-content/uploads/2026/04/HH-66-Toluene-Free-Vinyl-Cement-Spec-Sheet.pdf",
+    "technicalDocumentType": "RH Adhesives Toluene Free Spec Sheet (not titled TDS)",
+    "technicalDocumentNote": "The linked Spec Sheet and RH product page supply these properties; no standalone TDS was found on the manufacturer's product page.",
+    "sourceLabel": "Manufacturer product page and Spec Sheet; no formal TDS found",
+    "referenceSourceLabel": "Manufacturer product page and Spec Sheet (not titled TDS)",
+    "tackTimeRangeMinutes": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "elmers-glue-all-multipurpose",
+    "profile": "craftPva",
+    "maker": "Elmer's",
+    "name": "Glue-All Multi-Purpose Liquid Glue",
+    "summary": "Nontoxic, quick-drying household and craft glue for permanent bonds on paper, fabric, wood, ceramics, leather, and similar materials.",
+    "chemistry": "Water-based liquid glue; formulation not disclosed on current manufacturer product page",
+    "cureFamily": "General-purpose craft and household glue",
+    "cureDetail": "Elmer's describes the product as quick-drying but does not publish a technical cure time, bond strength, or service limit on its current product page.",
+    "appearance": "White",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "craft",
+      "household-repair",
+      "school-projects"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 3,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.2,
+      "fuel": 0,
+      "immersion": 0
+    },
+    "substrates": {
+      "wood": 6,
+      "paper": 9,
+      "fabric": 7,
+      "leather": 6,
+      "ceramic": 5
+    },
+    "cautions": [
+      "Elmer's current product page provides consumer-use details but no product-specific TDS or technical specification sheet; no TDS link is claimed.",
+      "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+    ],
+    "referenceUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+    "productUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+    "technicalDocumentType": "Manufacturer product page only; no formal TDS found",
+    "technicalDocumentNote": "Substrate and use information comes from Elmer's current product page. No technical data sheet is linked; performance values are left blank.",
+    "sourceLabel": "Manufacturer product page only; no formal TDS found",
+    "referenceSourceLabel": "Manufacturer product page only (no formal TDS found)"
+  },
+  {
+    "id": "elmers-liquid-school-glue-white",
+    "profile": "craftPva",
+    "maker": "Elmer's",
+    "name": "Liquid School Glue (White)",
+    "summary": "Washable, adjustable, nontoxic white school and craft glue for paper, wood, fabric, ceramics, and similar classroom materials.",
+    "chemistry": "Water-based school glue; formulation not disclosed on current manufacturer product page",
+    "cureFamily": "Washable school and craft glue",
+    "cureDetail": "Elmer's says the glue remains adjustable before setting and is washable. The current product page does not publish technical set, cure, strength, or service-temperature data.",
+    "appearance": "White; dries clear (per current Elmer's product page)",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "school-projects",
+      "craft",
+      "washable"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 3,
+      "impact": 2
+    },
+    "environment": {
+      "humidity": 0.15,
+      "fuel": 0,
+      "immersion": 0
+    },
+    "substrates": {
+      "wood": 5,
+      "paper": 9,
+      "fabric": 7,
+      "ceramic": 5
+    },
+    "cautions": [
+      "Elmer's current product page provides consumer-use details but no product-specific TDS or technical specification sheet; no TDS link is claimed.",
+      "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+    ],
+    "referenceUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-liquid-school-glue-washable-4-ounces-1-count---great-for-making-slime/SAP_E304.html",
+    "productUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-liquid-school-glue-washable-4-ounces-1-count---great-for-making-slime/SAP_E304.html",
+    "technicalDocumentType": "Manufacturer product page only; no formal TDS found",
+    "technicalDocumentNote": "Substrate and use information comes from Elmer's current product page. No technical data sheet is linked; performance values are left blank.",
+    "sourceLabel": "Manufacturer product page only; no formal TDS found",
+    "referenceSourceLabel": "Manufacturer product page only (no formal TDS found)"
+  },
+  {
+    "id": "elmers-carpenters-wood-glue-interior",
+    "profile": "pvaWood",
+    "maker": "Elmer's",
+    "name": "Carpenter's Wood Glue (Interior)",
+    "summary": "Interior woodworking glue from the Elmer's Carpenter's Wood Glue family, positioned for furniture repair and general household wood projects.",
+    "chemistry": "Wood glue formulation not disclosed on the current manufacturer category page",
+    "cureFamily": "Woodworking glue",
+    "cureDetail": "Elmer's describes the wood-glue family as fast-setting and strong but does not publish a technical set time, clamp time, strength result, or service limit on the current product page.",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "interior-woodworking",
+      "furniture-repair"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 2,
+      "impact": 3
+    },
+    "environment": {
+      "humidity": 0.15,
+      "fuel": 0,
+      "immersion": 0
+    },
+    "substrates": {
+      "wood": 8,
+      "mdf": 6,
+      "paper": 2,
+      "fabric": 1
+    },
+    "cautions": [
+      "Elmer's current category page lists interior-only and interior/exterior wood-glue varieties but does not provide a product-specific TDS or direct technical sheet; no TDS link is claimed.",
+      "This record is limited to the interior Carpenter's Wood Glue variety; do not treat it as the exterior-rated formula.",
+      "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+    ],
+    "referenceUrl": "https://www.elmers.com/hardware-adhesives.html",
+    "productUrl": "https://www.elmers.com/hardware-adhesives.html",
+    "technicalDocumentType": "Manufacturer product-family page only; no formal TDS found",
+    "technicalDocumentNote": "Elmer's hardware-adhesives page identifies interior and interior/exterior wood-glue varieties and general uses, but does not link a product-specific technical data sheet.",
+    "sourceLabel": "Manufacturer product-family page only; no formal TDS found",
+    "referenceSourceLabel": "Manufacturer product-family page only (no formal TDS found)"
   }
 ];
 
@@ -71700,10 +72081,176 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://images.dap.com/WW%20Landau%20Top%20%26%20Trim%20HHR_TDS_5.8.19.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "barge-all-purpose-original-cement",
+    "manufacturer": "Barge",
+    "familyName": "All Purpose Original Cement",
+    "primaryCategory": "Contact Adhesives / Shoe Repair",
+    "categories": [
+      "Contact Adhesives / Shoe Repair"
+    ],
+    "sampleType": "Pint, quart, gallon, 5 gal, or 55 gal container",
+    "sampleConsistency": "Neoprene-based contact cement; Barge lists 10–15 min dry time and up to 4 h open time; waterproof flexible bond.",
+    "sampleForJoining": "Shoe soling materials, rubber compounds, and leather, according to Barge.",
+    "applicationTags": [
+      "contact-lamination",
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.bargeadhesive.com/products.html",
+    "sourceLabel": "Manufacturer product page and official brochure (no formal TDS located)"
+  },
+  {
+    "id": "barge-all-purpose-tf-cement",
+    "manufacturer": "Barge",
+    "familyName": "All Purpose TF Cement",
+    "primaryCategory": "Contact Adhesives / Shoe Repair",
+    "categories": [
+      "Contact Adhesives / Shoe Repair"
+    ],
+    "sampleType": "0.75 oz or 2 oz tube; pint, quart, or gallon container",
+    "sampleConsistency": "Toluene-free contact cement; Barge lists 10–15 min dry time and up to 4 h open time; waterproof flexible bond.",
+    "sampleForJoining": "Shoe soling materials, rubber compounds, leather, and other compatible materials listed by Barge.",
+    "applicationTags": [
+      "contact-lamination",
+      "shoe-repair",
+      "leather",
+      "rubber-bonding",
+      "flexible-bond",
+      "toluene-free"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.bargeadhesive.com/products.html",
+    "sourceLabel": "Manufacturer product page and official brochure (no formal TDS located)"
+  },
+  {
+    "id": "rh-adhesives-hh-66-vinyl-cement",
+    "manufacturer": "RH Adhesives",
+    "familyName": "HH-66 Vinyl Cement",
+    "primaryCategory": "Vinyl / Flexible Adhesives",
+    "categories": [
+      "Vinyl / Flexible Adhesives"
+    ],
+    "sampleType": "1 oz tube, or 4–32 oz can with brush-cap",
+    "sampleConsistency": "Clear thermoplastic-elastomer cement; 15% ± 1% solids; 2–5 min tack time; service −30 to 150°F.",
+    "sampleForJoining": "PVC vinyl-coated fabrics, canvas, vinyl films, tarps, inflatable watercraft, pool liners, compatible foam, leather, neoprene, fiberglass, cork, and wood as listed by RH.",
+    "applicationTags": [
+      "vinyl-repair",
+      "contact-lamination",
+      "flexible-bond",
+      "watercraft",
+      "tarp-repair"
+    ],
+    "tempMinC": -34,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-product/",
+    "sourceLabel": "Manufacturer product page and Spec Sheet (not titled TDS)"
+  },
+  {
+    "id": "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+    "manufacturer": "RH Adhesives",
+    "familyName": "HH-66 Toluene Free Vinyl Cement",
+    "primaryCategory": "Vinyl / Flexible Adhesives",
+    "categories": [
+      "Vinyl / Flexible Adhesives"
+    ],
+    "sampleType": "1 oz tube, or 4–32 oz can with brush-cap",
+    "sampleConsistency": "Clear thermoplastic-elastomer cement; 15% ± 1% solids; 2–5 min tack time; service −30 to 150°F; toluene-free solvent formula.",
+    "sampleForJoining": "PVC vinyl-coated fabrics, canvas, vinyl films, tarps, inflatable watercraft, pool liners, compatible foam, leather, neoprene, fiberglass, cork, and wood as listed by RH.",
+    "applicationTags": [
+      "vinyl-repair",
+      "contact-lamination",
+      "flexible-bond",
+      "toluene-free"
+    ],
+    "tempMinC": -34,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-toluene-free-2/",
+    "sourceLabel": "Manufacturer product page and Spec Sheet (not titled TDS)"
+  },
+  {
+    "id": "elmers-glue-all-multipurpose",
+    "manufacturer": "Elmer's",
+    "familyName": "Glue-All Multi-Purpose Liquid Glue",
+    "primaryCategory": "General-Purpose / Craft Adhesives",
+    "categories": [
+      "General-Purpose / Craft Adhesives"
+    ],
+    "sampleType": "1.25, 4, 7.625, or 16 fl oz bottle; 1 gal size listed across the product family",
+    "sampleConsistency": "White liquid; nontoxic; manufacturer describes it as quick-drying. Quantitative technical values are not published.",
+    "sampleForJoining": "Paper, fabric, wood, ceramics, leather, and other materials listed by Elmer's.",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "craft",
+      "household-repair",
+      "school-projects"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+    "sourceLabel": "Manufacturer product page only (no formal TDS found)"
+  },
+  {
+    "id": "elmers-liquid-school-glue-white",
+    "manufacturer": "Elmer's",
+    "familyName": "Liquid School Glue (White)",
+    "primaryCategory": "School / Craft Adhesives",
+    "categories": [
+      "School / Craft Adhesives"
+    ],
+    "sampleType": "1.25, 4, or 7.625 fl oz bottle; quart and gallon sizes listed across the product family",
+    "sampleConsistency": "Washable, adjustable white liquid; Elmer's says it dries clear. Quantitative technical values are not published.",
+    "sampleForJoining": "Paper, wood, fabric, pottery/ceramics, and similar school or craft materials listed by Elmer's.",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "school-projects",
+      "craft",
+      "washable"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-liquid-school-glue-washable-4-ounces-1-count---great-for-making-slime/SAP_E304.html",
+    "sourceLabel": "Manufacturer product page only (no formal TDS found)"
+  },
+  {
+    "id": "elmers-carpenters-wood-glue-interior",
+    "manufacturer": "Elmer's",
+    "familyName": "Carpenter's Wood Glue (Interior)",
+    "primaryCategory": "Woodworking Glues",
+    "categories": [
+      "Woodworking Glues"
+    ],
+    "sampleType": "Bottle sizes vary by product/SKU; see current manufacturer and retailer listings",
+    "sampleConsistency": "Elmer's describes its wood-glue family as fast-setting; the page does not publish technical consistency or measured properties.",
+    "sampleForJoining": "Furniture repair and general interior household woodworking projects, according to Elmer's current product-family page.",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "interior-woodworking",
+      "furniture-repair"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://www.elmers.com/hardware-adhesives.html",
+    "sourceLabel": "Manufacturer product-family page only (no formal TDS found)"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 570,
-  "referenceFamilies": 570
+  "selectorProducts": 577,
+  "referenceFamilies": 577,
+  "tdsBackedProducts": 570,
+  "otherOfficialTechnicalSources": 7
 };

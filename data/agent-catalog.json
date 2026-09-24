@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T00:14:28.730600+00:00",
+  "generatedAt": "2026-09-24T00:41:29.964527+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,9 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1718,
+    "products": 1725,
     "manualTdsProducts": 570,
+    "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 720,
     "productsWithExtractionCandidates": 0,
@@ -330,6 +331,8 @@
         "atom-adhesives-aa-duct-902"
       ],
       "Barge": [
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement",
         "official-lead-barge-barge-all-purpose-original-cement",
         "official-lead-barge-barge-all-purpose-tf-cement",
         "official-lead-barge-barge-all-purpose-tf-clear-cement",
@@ -573,6 +576,9 @@
         "official-lead-eclectic-products-shoe-goo-ii"
       ],
       "Elmer's": [
+        "elmers-carpenters-wood-glue-interior",
+        "elmers-glue-all-multipurpose",
+        "elmers-liquid-school-glue-white",
         "official-lead-elmer-s-elmer-s-all-purpose-glue-stick-large",
         "official-lead-elmer-s-elmer-s-clear-school-glue",
         "official-lead-elmer-s-elmer-s-disappearing-purple-school-glue-stick",
@@ -1608,6 +1614,10 @@
         "official-lead-pritt-pritt-glue-pads",
         "official-lead-pritt-pritt-glue-stick",
         "official-lead-pritt-pritt-multipurpose-glue"
+      ],
+      "RH Adhesives": [
+        "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+        "rh-adhesives-hh-66-vinyl-cement"
       ],
       "ResinTech / Traktronix": [
         "resintech-traktronix-rt125-flexible-epoxy"
@@ -2693,6 +2703,8 @@
       ],
       "contact-lamination": [
         "3m-scotch-grip-847",
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement",
         "dap-weldwood-nonflammable-contact-cement",
         "dap-weldwood-original-contact-cement",
         "dap-weldwood-original-contact-cement-spray",
@@ -2713,6 +2725,8 @@
         "mc-pliobond_25",
         "mc-pliobond_35",
         "mc-weldwood",
+        "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+        "rh-adhesives-hh-66-vinyl-cement",
         "threebond-1521"
       ],
       "controlled-dispense": [
@@ -2744,7 +2758,9 @@
       ],
       "craft": [
         "3m-super-77-low-voc-aerosol",
-        "dap-weldwood-multi-purpose-spray-adhesive"
+        "dap-weldwood-multi-purpose-spray-adhesive",
+        "elmers-glue-all-multipurpose",
+        "elmers-liquid-school-glue-white"
       ],
       "craft-layout": [
         "3m-scotch-spray-mount-6065"
@@ -3439,7 +3455,11 @@
         "threebond-3012d"
       ],
       "flexible-bond": [
-        "loctite-480"
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement",
+        "loctite-480",
+        "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+        "rh-adhesives-hh-66-vinyl-cement"
       ],
       "flexible-bonding": [
         "3m-marine-adhesive-sealant-4200fc-black-06564",
@@ -3519,6 +3539,9 @@
       ],
       "fuel-resistant": [
         "threebond-tb1102"
+      ],
+      "furniture-repair": [
+        "elmers-carpenters-wood-glue-interior"
       ],
       "gap-filling": [
         "3m-tc2707",
@@ -3874,6 +3897,7 @@
         "weldon-714-cpvc"
       ],
       "household-repair": [
+        "elmers-glue-all-multipurpose",
         "gorilla-glue-2-part-epoxy",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
@@ -4275,6 +4299,7 @@
       ],
       "interior-woodworking": [
         "dap-weldwood-original-wood-glue",
+        "elmers-carpenters-wood-glue-interior",
         "titebond-original"
       ],
       "iron-powder-removal": [
@@ -4315,6 +4340,10 @@
       "lead-wire-securing": [
         "threebond-tb3030",
         "threebond-tb7796a"
+      ],
+      "leather": [
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement"
       ],
       "leather-bonding": [
         "threebond-1521",
@@ -5811,6 +5840,8 @@
         "3m-neoprene-rubber-gasket-adhesive-1300-1300l",
         "3m-scotch-weld-ca8",
         "3m-scotch-weld-sf100",
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement",
         "cemedine-3000rx",
         "gc-electronics-10-120",
         "loctite-401",
@@ -5865,6 +5896,10 @@
       ],
       "schedule-80": [
         "weldon-714-cpvc"
+      ],
+      "school-projects": [
+        "elmers-glue-all-multipurpose",
+        "elmers-liquid-school-glue-white"
       ],
       "screen-printable": [
         "threebond-3373c"
@@ -6176,6 +6211,10 @@
       ],
       "shock-resistant": [
         "3m-scotch-weld-ca8"
+      ],
+      "shoe-repair": [
+        "barge-all-purpose-original-cement",
+        "barge-all-purpose-tf-cement"
       ],
       "sign-assembly": [
         "3m-dp8810ns",
@@ -6672,6 +6711,9 @@
         "weicon-flex310m-ht220plus",
         "weicon-flex310m-hybrid"
       ],
+      "tarp-repair": [
+        "rh-adhesives-hh-66-vinyl-cement"
+      ],
       "tce-free": [
         "weldon-16-dcm-tce-free",
         "weldon-3-dcm-tce-free"
@@ -6815,6 +6857,10 @@
       ],
       "threebond-1700-series": [
         "threebond-tb1796"
+      ],
+      "toluene-free": [
+        "barge-all-purpose-tf-cement",
+        "rh-adhesives-hh-66-toluene-free-vinyl-cement"
       ],
       "toughened": [
         "3m-scotch-weld-dp490",
@@ -7038,6 +7084,10 @@
         "threebond-tb1184",
         "threebond-tb1539a"
       ],
+      "vinyl-repair": [
+        "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+        "rh-adhesives-hh-66-vinyl-cement"
+      ],
       "visible-light-curing": [
         "threebond-tb1771e",
         "threebond-tb1771m",
@@ -7056,6 +7106,9 @@
       ],
       "volatile-solvent": [
         "threebond-1521"
+      ],
+      "washable": [
+        "elmers-liquid-school-glue-white"
       ],
       "water-activated": [
         "gorilla-glue-original-polyurethane"
@@ -7100,6 +7153,9 @@
       ],
       "waterborne": [
         "dap-weldwood-nonflammable-contact-cement"
+      ],
+      "watercraft": [
+        "rh-adhesives-hh-66-vinyl-cement"
       ],
       "waterproof": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
@@ -7245,6 +7301,9 @@
         "dap-weldwood-original-contact-cement",
         "dap-weldwood-original-wood-glue",
         "e6000-fabri-fuse",
+        "elmers-carpenters-wood-glue-interior",
+        "elmers-glue-all-multipurpose",
+        "elmers-liquid-school-glue-white",
         "mc-3m_1099",
         "mc-3m_4475",
         "mc-3m_74",
@@ -7301,7 +7360,7 @@
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 720,
       "official-tds-url": 303,
-      "product-or-catalog-page": 178
+      "product-or-catalog-page": 185
     }
   },
   "products": [
@@ -7338,6 +7397,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366567O/3m-nitrile-high-performance-plastic-adhesive-1099.pdf?fn=3M-Nitrile-High-Performance-Plastic-Adhesive-1099_R2.pdf",
+        "specUrl": "https://www.mcmaster.com/75285A68/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7432,6 +7492,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366629O/3m-neoprene-high-performance-contact-adhesive-1357.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366629O/3m-neoprene-high-performance-contact-adhesive-1357.pdf",
+        "specUrl": "https://www.mcmaster.com/75285A33/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7524,6 +7585,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/66736O/3mtm-scotch-sealtm-metal-sealant-2084.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/66736O/3mtm-scotch-sealtm-metal-sealant-2084.pdf",
+        "specUrl": "https://www.mcmaster.com/7432A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7617,6 +7679,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366658O/3m-plastic-adhesive-2262.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366658O/3m-plastic-adhesive-2262.pdf",
+        "specUrl": "https://www.mcmaster.com/75285A66/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7707,6 +7770,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366045O/3m-marine-adhesive-sealant-fast-cure-4000-uv.pdf",
+        "specUrl": "https://www.mcmaster.com/67015A63",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7797,6 +7861,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/891179O/3m-marine-fast-cure-general-purpose-adhesive-sealant-4200fc.pdf",
+        "specUrl": "https://www.mcmaster.com/67015A71/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7891,6 +7956,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366638O/3m-industrial-adhesive-4475.pdf",
+        "specUrl": "https://www.mcmaster.com/75285A65/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -7984,6 +8050,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366560O/3m-high-performance-industrial-plastic-adhesive-4693.pdf",
+        "specUrl": "https://www.mcmaster.com/75285A69/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8076,6 +8143,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365972O/3m-marine-adhesive-sealant-5200-tan.pdf?&fn=3M-Marine-Adhesive-Sealant-5200-Tan.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365972O/3m-marine-adhesive-sealant-5200-tan.pdf?&fn=3M-Marine-Adhesive-Sealant-5200-Tan.pdf",
+        "specUrl": "https://www.mcmaster.com/67015A76/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8168,6 +8236,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/576967O/3mtm-marine-adhesive-sealant-fast-cure-5200.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/576967O/3mtm-marine-adhesive-sealant-fast-cure-5200.pdf",
+        "specUrl": "https://www.mcmaster.com/67015A42/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8259,6 +8328,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/569029O/500-series-polyurethane-products-525-540-550-551-560.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/569029O/500-series-polyurethane-products-525-540-550-551-560.pdf",
+        "specUrl": "https://www.mcmaster.com/1671N11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8349,6 +8419,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/441440O/membrane-switch-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/441440O/membrane-switch-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T635/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8439,6 +8510,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/811831O/3mtm-adhesive-sealant-brochure.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/811831O/3mtm-adhesive-sealant-brochure.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T948/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8529,6 +8601,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000560606/#ssnMenu",
         "tdsUrl": "https://www.3m.com/3M/en_US/p/d/v000560606/#ssnMenu",
+        "specUrl": "https://www.mcmaster.com/6937T769/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8619,6 +8692,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366670O/3m-impact-resistant-adhesive-transfer-tape-95005.pdf?&fn=3M-Impact-Resistant-Adhesive-Transfer-Tape-95005.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366670O/3m-impact-resistant-adhesive-transfer-tape-95005.pdf?&fn=3M-Impact-Resistant-Adhesive-Transfer-Tape-95005.pdf",
+        "specUrl": "https://www.mcmaster.com/1767N11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8712,6 +8786,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/569027O/700-series-hybird-products-730-740-and-760-sealants.pdf?&fn=78923671934.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/569027O/700-series-hybird-products-730-740-and-760-sealants.pdf?&fn=78923671934.pdf",
+        "specUrl": "https://www.mcmaster.com/7606A62/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8807,6 +8882,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/796068O/foam-fast-74-spray-adhesive.pdf",
+        "specUrl": "https://www.mcmaster.com/7610A36/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8903,6 +8979,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2535570O/3m-foam-fast-74-ca-spray-adhesive-low-voc-25-orange-aerosol.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2535570O/3m-foam-fast-74-ca-spray-adhesive-low-voc-25-orange-aerosol.pdf",
+        "specUrl": "https://www.mcmaster.com/7610A35/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -8994,6 +9071,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/569027O/700-series-hybird-products-730-740-and-760-sealants.pdf?&fn=78923671934.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/569027O/700-series-hybird-products-730-740-and-760-sealants.pdf?&fn=78923671934.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T352/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9089,6 +9167,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366006O/3m-super-77-multipurpose-cylinder-spray-adhesive.pdf",
+        "specUrl": "https://www.mcmaster.com/7610A37/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9185,6 +9264,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000186729/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7610A31/",
         "productUrl": null,
         "sourceLabel": "McMaster 7610A31",
         "tdsCacheTextPath": null,
@@ -9276,6 +9356,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/796078O/rubber-and-vinyl-80-spray-adhesive.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/796078O/rubber-and-vinyl-80-spray-adhesive.pdf",
+        "specUrl": "https://www.mcmaster.com/7610A16/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9367,6 +9448,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+        "specUrl": "https://www.mcmaster.com/74885A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9457,6 +9539,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+        "specUrl": "https://www.mcmaster.com/74885A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9547,6 +9630,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+        "specUrl": "https://www.mcmaster.com/74885A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9637,6 +9721,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/158821O/grade-silicone-seal-tech-data.pdf?fn=GradeSilicone.pdf",
+        "specUrl": "https://www.mcmaster.com/74885A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9727,6 +9812,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/796080O/hi-strength-90-spray-adhesive.pdf",
+        "specUrl": "https://www.mcmaster.com/7610a39/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9818,6 +9904,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2535571O/3m-hi-strength-90-spray-adhesive-low-voc-25-aerosol.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2535571O/3m-hi-strength-90-spray-adhesive-low-voc-25-aerosol.pdf",
+        "specUrl": "https://www.mcmaster.com/7610A33/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -9913,6 +10000,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/v000147644/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7610A42/",
         "productUrl": null,
         "sourceLabel": "McMaster 7610A42",
         "tdsCacheTextPath": null,
@@ -10006,6 +10094,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365856O/3m-scotch-weld-epoxy-potting-compound-adhesive-dp270-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Potting-Compound-Adhesive-DP270-Black.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365856O/3m-scotch-weld-epoxy-potting-compound-adhesive-dp270-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Potting-Compound-Adhesive-DP270-Black.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A274-7467A18/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10099,6 +10188,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?&fn=98328.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?&fn=98328.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A217/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10283,6 +10373,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75065A71/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10380,6 +10471,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75065A74/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10477,6 +10569,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75045A65/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10568,6 +10661,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/1245165O/3m-hot-melt-adhesive-3792lm-3776lm-3738-3792-technical-data.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/1245165O/3m-hot-melt-adhesive-3792lm-3776lm-3738-3792-technical-data.pdf",
+        "specUrl": "https://www.mcmaster.com/74785A93/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10660,6 +10754,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365626O/3m-scotchpad-tape-pad-3750p.pdf?&fn=3M-ScotchPad-Tape-Pad-3750P.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365626O/3m-scotchpad-tape-pad-3750p.pdf?&fn=3M-ScotchPad-Tape-Pad-3750P.pdf",
+        "specUrl": "https://www.mcmaster.com/7333A18/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10752,6 +10847,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/1245167O/3m-hot-melt-adhesive-3750lm-3750-technical-data-sheet.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/1245167O/3m-hot-melt-adhesive-3750lm-3750-technical-data-sheet.pdf",
+        "specUrl": "https://www.mcmaster.com/7333A33/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10845,6 +10941,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/611102O/3m-dual-lock-fastening-system.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/611102O/3m-dual-lock-fastening-system.pdf",
+        "specUrl": "https://www.mcmaster.com/74785A95/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -10938,6 +11035,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321016/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7464A74/",
         "productUrl": null,
         "sourceLabel": "McMaster 7464A74",
         "tdsCacheTextPath": null,
@@ -11031,6 +11129,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321017/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7464A79/",
         "productUrl": null,
         "sourceLabel": "McMaster 7464A79",
         "tdsCacheTextPath": null,
@@ -11126,6 +11225,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A72/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11220,6 +11320,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A67/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11314,6 +11415,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A68/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11408,6 +11510,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/66285O/scotch-weld-instant-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A69/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11504,6 +11607,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11601,6 +11705,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365959O/3m-scotch-weld-epoxy-adhesive-dp100-plus-clear.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP100-Plus-Clear.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A55",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11695,6 +11800,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066500/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A28/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A28",
         "tdsCacheTextPath": null,
@@ -11791,6 +11897,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066464/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A16/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A16",
         "tdsCacheTextPath": null,
@@ -11888,6 +11995,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/1254619O/structural-adhesive-applicator-and-nozzle-brochure.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/1254619O/structural-adhesive-applicator-and-nozzle-brochure.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A58/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -11984,6 +12092,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12080,6 +12189,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365862O/3m-scotch-weld-epoxy-adhesive-dp125-gray.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP125-Gray.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A65/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12177,6 +12287,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365861O/3m-scotch-weld-epoxy-adhesive-dp190-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP190-Translucent.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365861O/3m-scotch-weld-epoxy-adhesive-dp190-translucent.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP190-Translucent.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A72/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12273,6 +12384,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2366017O/3m-scotch-weld-epoxy-adhesive-dp405-black.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP405-Black.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A211/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12369,6 +12481,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365939O/3m-scotch-weld-epoxy-adhesive-dp420-off-white.pdf?&fn=3M-Scotch-Weld-Epoxy-Adhesive-DP420-Off-White.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A51/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12465,6 +12578,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/66998O/microsoft-word-97106-doc.pdf?&fn=DP420-Black-DP420NS-Black-DP420-Off-White-DP420LH.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/66998O/microsoft-word-97106-doc.pdf?&fn=DP420-Black-DP420NS-Black-DP420-Off-White-DP420LH.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A216/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12561,6 +12675,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?&fn=98328.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/66332O/3m-scotch-weld-epoxy-adhesive-dp460eg.pdf?&fn=98328.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12657,6 +12772,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A66/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12753,6 +12869,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/220400O/scotch-weldtm-urethane-adhesive-dp-604ns-black.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/220400O/scotch-weldtm-urethane-adhesive-dp-604ns-black.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A19",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12849,6 +12966,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/79082O/joint-design-for-structural-adhesives-technical-bulletin.pdf?&fn=Joint-Design-for-Structural-Adhesive-Technical-Bulletin.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/79082O/joint-design-for-structural-adhesives-technical-bulletin.pdf?&fn=Joint-Design-for-Structural-Adhesive-Technical-Bulletin.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -12945,6 +13063,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/189880O/scotch-weld-urethane-adhesive-dp-620ns-black.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/189880O/scotch-weld-urethane-adhesive-dp-620ns-black.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A218/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13042,6 +13161,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/982015O/3m-scotch-weld-urethane-adhesive-dp640ns.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/982015O/3m-scotch-weld-urethane-adhesive-dp640ns.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A78/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13139,6 +13259,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321032/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A331/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A331",
         "tdsCacheTextPath": null,
@@ -13236,6 +13357,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2365938O/3m-scotch-weld-structural-plastic-adhesive-dp8010-blue.pdf?&fn=3M-Scotch-Weld-Structural-Plastic-Adhesive-DP8010-Blue.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2365938O/3m-scotch-weld-structural-plastic-adhesive-dp8010-blue.pdf?&fn=3M-Scotch-Weld-Structural-Plastic-Adhesive-DP8010-Blue.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A36",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13332,6 +13454,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066433/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A75/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A75",
         "tdsCacheTextPath": null,
@@ -13428,6 +13551,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
         "tdsUrl": "https://www.3m.com/3M/en_US/p/d/b5005321033/",
+        "specUrl": "https://www.mcmaster.com/7467A127/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13524,6 +13648,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066492/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A135/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A135",
         "tdsCacheTextPath": null,
@@ -13620,6 +13745,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066503/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A82/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A82",
         "tdsCacheTextPath": null,
@@ -13714,6 +13840,7 @@
       "sources": {
         "referenceUrl": "https://www.3m.com/3M/en_US/p/d/b40066496/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7467A86/",
         "productUrl": null,
         "sourceLabel": "McMaster 7467A86",
         "tdsCacheTextPath": null,
@@ -13808,6 +13935,7 @@
       "sources": {
         "referenceUrl": "https://multimedia.3m.com/mws/media/2607923O/3m-scotch-weld-acrylic-adhesive-8507ns.pdf",
         "tdsUrl": "https://multimedia.3m.com/mws/media/2607923O/3m-scotch-weld-acrylic-adhesive-8507ns.pdf",
+        "specUrl": "https://www.mcmaster.com/7467A871/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13903,6 +14031,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/464087O/scotch-weld-low-odor-cyanoacrylates-lo5-lo100-lo1000.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/464087O/scotch-weld-low-odor-cyanoacrylates-lo5-lo100-lo1000.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A51/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -13998,6 +14127,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A48/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14092,6 +14222,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14187,6 +14318,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/462937O/3m-scotch-weld-super-fast-instant-adh-sf20-sf100.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/462937O/3m-scotch-weld-super-fast-instant-adh-sf20-sf100.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14282,6 +14414,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/462937O/3m-scotch-weld-super-fast-instant-adh-sf20-sf100.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/462937O/3m-scotch-weld-super-fast-instant-adh-sf20-sf100.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14378,6 +14511,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/490864O/3mtm-scotch-weldtm-structure-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/75445A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14471,6 +14605,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/451985O/3m-scotch-weld-threadlocker-anaerobic-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/451985O/3m-scotch-weld-threadlocker-anaerobic-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/92934A810/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -14564,6 +14699,7 @@
       "sources": {
         "referenceUrl": "http://multimedia.3m.com/mws/media/451985O/3m-scotch-weld-threadlocker-anaerobic-adhesives.pdf",
         "tdsUrl": "http://multimedia.3m.com/mws/media/451985O/3m-scotch-weld-threadlocker-anaerobic-adhesives.pdf",
+        "specUrl": "https://www.mcmaster.com/92934A110/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -24540,6 +24676,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/2337N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/2337N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 2337N11",
         "tdsCacheTextPath": null,
@@ -24634,6 +24771,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/2337N12/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/2337N12/",
         "productUrl": null,
         "sourceLabel": "McMaster 2337N12",
         "tdsCacheTextPath": null,
@@ -24728,6 +24866,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7498A55/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7498A55/",
         "productUrl": null,
         "sourceLabel": "McMaster 7498A55",
         "tdsCacheTextPath": null,
@@ -24822,6 +24961,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7498A56/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7498A56/",
         "productUrl": null,
         "sourceLabel": "McMaster 7498A56",
         "tdsCacheTextPath": null,
@@ -25100,6 +25240,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4846N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4846N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 4846N11",
         "tdsCacheTextPath": null,
@@ -25196,6 +25337,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7539A19/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7539A19/",
         "productUrl": null,
         "sourceLabel": "McMaster 7539A19",
         "tdsCacheTextPath": null,
@@ -25292,6 +25434,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7493A21/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7493A21/",
         "productUrl": null,
         "sourceLabel": "McMaster 7493A21",
         "tdsCacheTextPath": null,
@@ -25389,6 +25532,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7493A34/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7493A34/",
         "productUrl": null,
         "sourceLabel": "McMaster 7493A34",
         "tdsCacheTextPath": null,
@@ -25486,6 +25630,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7493A41/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7493A41/",
         "productUrl": null,
         "sourceLabel": "McMaster 7493A41",
         "tdsCacheTextPath": null,
@@ -25584,6 +25729,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A11/",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A11",
         "tdsCacheTextPath": null,
@@ -25682,6 +25828,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A12",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A12",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A12",
         "tdsCacheTextPath": null,
@@ -25779,6 +25926,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A14/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A14/",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A14",
         "tdsCacheTextPath": null,
@@ -25877,6 +26025,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A15",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A15",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A15",
         "tdsCacheTextPath": null,
@@ -25975,6 +26124,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A31/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A31/",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A31",
         "tdsCacheTextPath": null,
@@ -26071,6 +26221,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A33/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A33/",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A33",
         "tdsCacheTextPath": null,
@@ -26167,6 +26318,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7538A13/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7538A13/",
         "productUrl": null,
         "sourceLabel": "McMaster 7538A13",
         "tdsCacheTextPath": null,
@@ -26261,6 +26413,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7238N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7238N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 7238N11",
         "tdsCacheTextPath": null,
@@ -29474,6 +29627,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/92378A256/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/92378A256/",
         "productUrl": null,
         "sourceLabel": "McMaster 92378A256",
         "tdsCacheTextPath": null,
@@ -29563,6 +29717,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7136N17/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7136N17/",
         "productUrl": null,
         "sourceLabel": "McMaster 7136N17",
         "tdsCacheTextPath": null,
@@ -29997,6 +30152,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1604N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1604N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 1604N11",
         "tdsCacheTextPath": null,
@@ -30317,6 +30473,195 @@
         "The TDS does not state the lap-shear test substrate or test method.",
         "Linear shrinkage is published as 0.0003 in/in; shrinkagePct is a selector convenience conversion.",
         "Some separation during shipping and storage is common; thoroughly mix contents before use."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "barge-all-purpose-original-cement",
+      "source": "manual-tds",
+      "maker": "Barge",
+      "name": "All Purpose Original Cement",
+      "profile": "contactCement",
+      "summary": "Neoprene-based flexible contact cement widely used for shoe repair and bonding leather, rubber, and other soling materials.",
+      "applicationTags": [
+        "contact-lamination",
+        "shoe-repair",
+        "leather",
+        "rubber-bonding",
+        "flexible-bond"
+      ],
+      "referenceCategory": "Contact Adhesives / Shoe Repair",
+      "referenceForJoining": "Shoe soling materials, rubber compounds, and leather, according to Barge.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Neoprene-based contact cement (manufacturer product page)",
+        "cureFamily": "Solvent-flash contact cement",
+        "cureDetail": "Barge lists 10\u201315 minutes dry time and up to 4 hours open time. Coat both clean surfaces, let the adhesive become tacky, then press together with weight for 1\u20132 minutes; follow the container for product-specific directions."
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.bargeadhesive.com/products.html",
+        "tdsUrl": null,
+        "specUrl": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_brochure_1.pdf",
+        "technicalDocumentType": "Manufacturer product page and product brochure; no formal TDS located",
+        "technicalDocumentNote": "Dry/open times and product claims are transcribed from Barge's product page and official brochure. The brochure is linked under Spec.",
+        "productUrl": "https://www.bargeadhesive.com/products.html",
+        "sourceLabel": "Manufacturer product page and brochure; no formal TDS located",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.273,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Barge's public product-document page provides an SDS, application chart, and product brochure; no standalone TDS was located. Dry/open times and listed properties are from Barge's product page and brochure.",
+        "Use the current product label and SDS for ventilation, fire, and handling requirements; Barge describes this as a solvent contact cement.",
+        "Only published properties are populated; Barge's cited sources do not publish lap-shear or service-temperature values."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "barge-all-purpose-tf-cement",
+      "source": "manual-tds",
+      "maker": "Barge",
+      "name": "All Purpose TF Cement",
+      "profile": "contactCement",
+      "summary": "Toluene-free flexible contact cement for shoe repair and bonding rubber, leather, vinyl, PVC, urethane, and related materials.",
+      "applicationTags": [
+        "contact-lamination",
+        "shoe-repair",
+        "leather",
+        "rubber-bonding",
+        "flexible-bond",
+        "toluene-free"
+      ],
+      "referenceCategory": "Contact Adhesives / Shoe Repair",
+      "referenceForJoining": "Shoe soling materials, rubber compounds, leather, and other compatible materials listed by Barge.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Toluene-free contact cement; base chemistry not specified in cited manufacturer material",
+        "cureFamily": "Solvent-flash contact cement",
+        "cureDetail": "Barge lists 10\u201315 minutes dry time and up to 4 hours open time. Coat both clean surfaces, let them become tacky, then press together with weight for 1\u20132 minutes; follow the container for product-specific directions."
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.bargeadhesive.com/products.html",
+        "tdsUrl": null,
+        "specUrl": "https://www.bargeadhesive.com/uploads/6/4/8/2/6482595/barge_brochure_1.pdf",
+        "technicalDocumentType": "Manufacturer product page and product brochure; no formal TDS located",
+        "technicalDocumentNote": "Dry/open times and product claims are transcribed from Barge's product page and official brochure. The brochure is linked under Spec.",
+        "productUrl": "https://www.bargeadhesive.com/products.html",
+        "sourceLabel": "Manufacturer product page and brochure; no formal TDS located",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.273,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Barge's public product-document page provides an SDS, application chart, and product brochure; no standalone TDS was located. Dry/open times and listed properties are from Barge's product page and brochure.",
+        "Toluene-free does not mean solvent-free or nonflammable; consult the current label and SDS.",
+        "Only published properties are populated; Barge's cited sources do not publish lap-shear or service-temperature values."
       ],
       "extractionCandidates": []
     },
@@ -31815,6 +32160,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4852N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4852N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 4852N11",
         "tdsCacheTextPath": null,
@@ -33346,6 +33692,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7474A41/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7474A41/",
         "productUrl": null,
         "sourceLabel": "McMaster 7474A41",
         "tdsCacheTextPath": null,
@@ -33436,6 +33783,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1532N41/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1532N41/",
         "productUrl": null,
         "sourceLabel": "McMaster 1532N41",
         "tdsCacheTextPath": null,
@@ -33528,6 +33876,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1029A22/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1029A22/",
         "productUrl": null,
         "sourceLabel": "McMaster 1029A22",
         "tdsCacheTextPath": null,
@@ -33621,6 +33970,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7497A42/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7497A42/",
         "productUrl": null,
         "sourceLabel": "McMaster 7497A42",
         "tdsCacheTextPath": null,
@@ -33715,6 +34065,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7505A4/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7505A4/",
         "productUrl": null,
         "sourceLabel": "McMaster 7505A4",
         "tdsCacheTextPath": null,
@@ -33809,6 +34160,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7505A53/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7505A53/",
         "productUrl": null,
         "sourceLabel": "McMaster 7505A53",
         "tdsCacheTextPath": null,
@@ -33903,6 +34255,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/92378A276/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/92378A276/",
         "productUrl": null,
         "sourceLabel": "McMaster 92378A276",
         "tdsCacheTextPath": null,
@@ -41206,6 +41559,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/54845T213/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/54845T213/",
         "productUrl": null,
         "sourceLabel": "McMaster 54845T213",
         "tdsCacheTextPath": null,
@@ -41429,6 +41783,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/3986N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/3986N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 3986N11",
         "tdsCacheTextPath": null,
@@ -41526,6 +41881,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-1-minute-epoxy-gel",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-1-minute-epoxy-gel",
+        "specUrl": "https://www.mcmaster.com/66215A32/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -41623,6 +41979,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-10-minute-epoxy",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-10-minute-epoxy",
+        "specUrl": "https://www.mcmaster.com/66215A54/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -41719,6 +42076,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/umb/17178/mro-products-and-oem-adhesives-catalog-2021.pdf",
         "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/umb/17178/mro-products-and-oem-adhesives-catalog-2021.pdf",
+        "specUrl": "https://www.mcmaster.com/7605A211/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -41816,6 +42174,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-2-ton-epoxy",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-2-ton-epoxy",
+        "specUrl": "https://www.mcmaster.com/7541A77/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -41913,6 +42272,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-5-minute-epoxy-gel",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-5-minute-epoxy-gel",
+        "specUrl": "https://www.mcmaster.com/7541A76/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -42008,6 +42368,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-epoxy-plus-25",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-epoxy-plus-25",
+        "specUrl": "https://www.mcmaster.com/66215A25/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -42103,6 +42464,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-hp-250",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=devcon-hp-250",
+        "specUrl": "https://www.mcmaster.com/66215A35/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -42199,6 +42561,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plastic-welder-white",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plastic-welder-white",
+        "specUrl": "https://www.mcmaster.com/75395A65",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -42386,6 +42749,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-738-electrical-sealant.01907522z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1832A51/",
         "productUrl": null,
         "sourceLabel": "McMaster 1832A51",
         "tdsCacheTextPath": null,
@@ -43135,6 +43499,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-3145-rtv-mil-a-46146-adhesive-sealant.01059548z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7587A57/",
         "productUrl": null,
         "sourceLabel": "McMaster 7587A57",
         "tdsCacheTextPath": null,
@@ -43224,6 +43589,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-700-industrial-grade-silicone-sealant.02026350h.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7425A5/",
         "productUrl": null,
         "sourceLabel": "McMaster 7425A5",
         "tdsCacheTextPath": null,
@@ -43317,6 +43683,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/en-us/catalog-selguide/80/80-81/80-8104-01-silicone-industrial-assembly-maintenance.pdf?iframe=true",
         "tdsUrl": "https://www.dow.com/documents/en-us/catalog-selguide/80/80-81/80-8104-01-silicone-industrial-assembly-maintenance.pdf?iframe=true",
+        "specUrl": "https://www.mcmaster.com/1531N13/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -43406,6 +43773,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-732-multi-purpose-sealant.01890581z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7587A2/",
         "productUrl": null,
         "sourceLabel": "McMaster 7587A2",
         "tdsCacheTextPath": null,
@@ -43495,6 +43863,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-733-glass-metal-sealant.02693925h.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7681A2/",
         "productUrl": null,
         "sourceLabel": "McMaster 7681A2",
         "tdsCacheTextPath": null,
@@ -43584,6 +43953,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
         "tdsUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+        "specUrl": "https://www.mcmaster.com/75825A5/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -43674,6 +44044,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-736-heat-resistant-sealant.01890590z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74515A32/",
         "productUrl": null,
         "sourceLabel": "McMaster 74515A32",
         "tdsCacheTextPath": null,
@@ -43764,6 +44135,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-737-neutral-cure-sealant.04098499h",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7587A25/",
         "productUrl": null,
         "sourceLabel": "McMaster 7587A25",
         "tdsCacheTextPath": null,
@@ -43854,6 +44226,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/11/11-1177-01-dowsil-739-plastic-adhesive.pdf?bypass=true",
         "tdsUrl": "https://www.dow.com/documents/11/11-1177-01-dowsil-739-plastic-adhesive.pdf?bypass=true",
+        "specUrl": "https://www.mcmaster.com/76045A1/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -43944,6 +44317,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
         "tdsUrl": "https://www.dow.com/documents/80/80-8283-01-silicone-sealants-foams-industrial-assembly.pdf?iframe=true",
+        "specUrl": "https://www.mcmaster.com/74885A13/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -44034,6 +44408,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/documents/62/62-1/62-1636-01-dowsil-791-silicone-weatherproofing-sealant.pdf?iframe=true",
         "tdsUrl": "https://www.dow.com/documents/62/62-1/62-1636-01-dowsil-791-silicone-weatherproofing-sealant.pdf?iframe=true",
+        "specUrl": "https://www.mcmaster.com/7311A16/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -44124,6 +44499,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/content/dam/dcc/documents/61/61-885-dowsil-795-silicone-building-sealant2.pdf?iframe=true",
         "tdsUrl": "https://www.dow.com/content/dam/dcc/documents/61/61-885-dowsil-795-silicone-building-sealant2.pdf?iframe=true",
+        "specUrl": "https://www.mcmaster.com/7452A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -44215,6 +44591,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-832-multi-surface-adhesive-sealant.02468492z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66235A1/",
         "productUrl": null,
         "sourceLabel": "McMaster 66235A1",
         "tdsCacheTextPath": null,
@@ -44305,6 +44682,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-9-1363-industrial-assembly-adhesive-sealant.04009182z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7770A1/",
         "productUrl": null,
         "sourceLabel": "McMaster 7770A1",
         "tdsCacheTextPath": null,
@@ -44397,6 +44775,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-995-silicone-structural-sealant.02122197z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7436A41/",
         "productUrl": null,
         "sourceLabel": "McMaster 7436A41",
         "tdsCacheTextPath": null,
@@ -44487,6 +44866,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-999a-silicone-glazing-sealant.02323419h.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7311A15/",
         "productUrl": null,
         "sourceLabel": "McMaster 7311A15",
         "tdsCacheTextPath": null,
@@ -44576,6 +44956,7 @@
       "sources": {
         "referenceUrl": "https://www.dow.com/en-us/pdp.dowsil-732-multi-purpose-sealant.01890581z.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1919N3/",
         "productUrl": null,
         "sourceLabel": "McMaster 1919N3",
         "tdsCacheTextPath": null,
@@ -46877,6 +47258,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7647T3/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7647T3/",
         "productUrl": null,
         "sourceLabel": "McMaster 7647T3",
         "tdsCacheTextPath": null,
@@ -49344,6 +49726,97 @@
       "extractionCandidates": []
     },
     {
+      "id": "elmers-carpenters-wood-glue-interior",
+      "source": "manual-tds",
+      "maker": "Elmer's",
+      "name": "Carpenter's Wood Glue (Interior)",
+      "profile": "pvaWood",
+      "summary": "Interior woodworking glue from the Elmer's Carpenter's Wood Glue family, positioned for furniture repair and general household wood projects.",
+      "applicationTags": [
+        "wood-paper-fabric",
+        "interior-woodworking",
+        "furniture-repair"
+      ],
+      "referenceCategory": "Woodworking Glues",
+      "referenceForJoining": "Furniture repair and general interior household woodworking projects, according to Elmer's current product-family page.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Wood glue formulation not disclosed on the current manufacturer category page",
+        "cureFamily": "Woodworking glue",
+        "cureDetail": "Elmer's describes the wood-glue family as fast-setting and strong but does not publish a technical set time, clamp time, strength result, or service limit on the current product page."
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.elmers.com/hardware-adhesives.html",
+        "tdsUrl": null,
+        "technicalDocumentType": "Manufacturer product-family page only; no formal TDS found",
+        "technicalDocumentNote": "Elmer's hardware-adhesives page identifies interior and interior/exterior wood-glue varieties and general uses, but does not link a product-specific technical data sheet.",
+        "productUrl": "https://www.elmers.com/hardware-adhesives.html",
+        "sourceLabel": "Manufacturer product-family page only; no formal TDS found",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.273,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Elmer's current category page lists interior-only and interior/exterior wood-glue varieties but does not provide a product-specific TDS or direct technical sheet; no TDS link is claimed.",
+        "This record is limited to the interior Carpenter's Wood Glue variety; do not treat it as the exterior-rated formula.",
+        "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-elmer-s-elmer-s-all-purpose-glue-stick-large",
       "source": "official-manufacturer-lead",
       "maker": "Elmer's",
@@ -50224,6 +50697,188 @@
       "extractionCandidates": []
     },
     {
+      "id": "elmers-glue-all-multipurpose",
+      "source": "manual-tds",
+      "maker": "Elmer's",
+      "name": "Glue-All Multi-Purpose Liquid Glue",
+      "profile": "craftPva",
+      "summary": "Nontoxic, quick-drying household and craft glue for permanent bonds on paper, fabric, wood, ceramics, leather, and similar materials.",
+      "applicationTags": [
+        "wood-paper-fabric",
+        "craft",
+        "household-repair",
+        "school-projects"
+      ],
+      "referenceCategory": "General-Purpose / Craft Adhesives",
+      "referenceForJoining": "Paper, fabric, wood, ceramics, leather, and other materials listed by Elmer's.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Water-based liquid glue; formulation not disclosed on current manufacturer product page",
+        "cureFamily": "General-purpose craft and household glue",
+        "cureDetail": "Elmer's describes the product as quick-drying but does not publish a technical cure time, bond strength, or service limit on its current product page."
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+        "tdsUrl": null,
+        "technicalDocumentType": "Manufacturer product page only; no formal TDS found",
+        "technicalDocumentNote": "Substrate and use information comes from Elmer's current product page. No technical data sheet is linked; performance values are left blank.",
+        "productUrl": "https://www.elmers.com/glue/multi-purpose-glue/elmers-glue-all-liquid-glue/SP_2752214.html",
+        "sourceLabel": "Manufacturer product page only; no formal TDS found",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.273,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Elmer's current product page provides consumer-use details but no product-specific TDS or technical specification sheet; no TDS link is claimed.",
+        "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "elmers-liquid-school-glue-white",
+      "source": "manual-tds",
+      "maker": "Elmer's",
+      "name": "Liquid School Glue (White)",
+      "profile": "craftPva",
+      "summary": "Washable, adjustable, nontoxic white school and craft glue for paper, wood, fabric, ceramics, and similar classroom materials.",
+      "applicationTags": [
+        "wood-paper-fabric",
+        "school-projects",
+        "craft",
+        "washable"
+      ],
+      "referenceCategory": "School / Craft Adhesives",
+      "referenceForJoining": "Paper, wood, fabric, pottery/ceramics, and similar school or craft materials listed by Elmer's.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Water-based school glue; formulation not disclosed on current manufacturer product page",
+        "cureFamily": "Washable school and craft glue",
+        "cureDetail": "Elmer's says the glue remains adjustable before setting and is washable. The current product page does not publish technical set, cure, strength, or service-temperature data."
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-liquid-school-glue-washable-4-ounces-1-count---great-for-making-slime/SAP_E304.html",
+        "tdsUrl": null,
+        "technicalDocumentType": "Manufacturer product page only; no formal TDS found",
+        "technicalDocumentNote": "Substrate and use information comes from Elmer's current product page. No technical data sheet is linked; performance values are left blank.",
+        "productUrl": "https://www.elmers.com/glue/liquid-school-glue/elmers-liquid-school-glue-washable-4-ounces-1-count---great-for-making-slime/SAP_E304.html",
+        "sourceLabel": "Manufacturer product page only; no formal TDS found",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.273,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.273,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: serviceMin, serviceMax, potLife, fixtureTime, lapShear, viscosityClass, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Elmer's current product page provides consumer-use details but no product-specific TDS or technical specification sheet; no TDS link is claimed.",
+        "No quantitative strength, cure, water-resistance, or service-temperature values are published in the manufacturer material used here."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "mc-epdm_rubber_epdm_rubber",
       "source": "mcmaster-derived",
       "maker": "EPDM Rubber",
@@ -50255,6 +50910,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1604N13/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1604N13/",
         "productUrl": null,
         "sourceLabel": "McMaster 1604N13",
         "tdsCacheTextPath": null,
@@ -50348,6 +51004,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/75735T4/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/75735T4/",
         "productUrl": null,
         "sourceLabel": "McMaster 75735T4",
         "tdsCacheTextPath": null,
@@ -50439,6 +51096,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4852N14/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4852N14/",
         "productUrl": null,
         "sourceLabel": "McMaster 4852N14",
         "tdsCacheTextPath": null,
@@ -50536,6 +51194,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7513A1/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7513A1/",
         "productUrl": null,
         "sourceLabel": "McMaster 7513A1",
         "tdsCacheTextPath": null,
@@ -50633,6 +51292,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7513A2/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7513A2/",
         "productUrl": null,
         "sourceLabel": "McMaster 7513A2",
         "tdsCacheTextPath": null,
@@ -50727,6 +51387,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7513A6/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7513A6/",
         "productUrl": null,
         "sourceLabel": "McMaster 7513A6",
         "tdsCacheTextPath": null,
@@ -50824,6 +51485,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7607A15/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7607A15/",
         "productUrl": null,
         "sourceLabel": "McMaster 7607A15",
         "tdsCacheTextPath": null,
@@ -50921,6 +51583,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7807A11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7807A11/",
         "productUrl": null,
         "sourceLabel": "McMaster 7807A11",
         "tdsCacheTextPath": null,
@@ -51015,6 +51678,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7513A3/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7513A3/",
         "productUrl": null,
         "sourceLabel": "McMaster 7513A3",
         "tdsCacheTextPath": null,
@@ -52197,6 +52861,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/54845T36/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/54845T36/",
         "productUrl": null,
         "sourceLabel": "McMaster 54845T36",
         "tdsCacheTextPath": null,
@@ -52280,6 +52945,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7136N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7136N11/",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -52372,6 +53038,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7136N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7136N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 7136N11",
         "tdsCacheTextPath": null,
@@ -54303,6 +54970,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4485N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4485N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 4485N11",
         "tdsCacheTextPath": null,
@@ -54396,6 +55064,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A51/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A51/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A51",
         "tdsCacheTextPath": null,
@@ -54490,6 +55159,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/77495A23/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/77495A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 77495A23",
         "tdsCacheTextPath": null,
@@ -55600,6 +56270,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A53/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A53/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A53",
         "tdsCacheTextPath": null,
@@ -55693,6 +56364,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A57/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A57/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A57",
         "tdsCacheTextPath": null,
@@ -55786,6 +56458,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A58/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A58/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A58",
         "tdsCacheTextPath": null,
@@ -55879,6 +56552,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A59/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A59/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A59",
         "tdsCacheTextPath": null,
@@ -56214,6 +56888,7 @@
       "sources": {
         "referenceUrl": "https://gorillatough.com/product/gorilla-super-glue",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/5551T71/",
         "productUrl": null,
         "sourceLabel": "McMaster 5551T71",
         "tdsCacheTextPath": null,
@@ -56310,6 +56985,7 @@
       "sources": {
         "referenceUrl": "https://gorillatough.com/product/gorilla-epoxy",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7541A51/",
         "productUrl": null,
         "sourceLabel": "McMaster 7541A51",
         "tdsCacheTextPath": null,
@@ -59523,6 +60199,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/74695A71/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74695A71/",
         "productUrl": null,
         "sourceLabel": "McMaster 74695A71",
         "tdsCacheTextPath": null,
@@ -62193,6 +62870,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7604A56/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7604A56/",
         "productUrl": null,
         "sourceLabel": "McMaster 7604A56",
         "tdsCacheTextPath": null,
@@ -62287,6 +62965,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7733A21/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7733A21/",
         "productUrl": null,
         "sourceLabel": "McMaster 7733A21",
         "tdsCacheTextPath": null,
@@ -62381,6 +63060,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7733A22/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7733A22/",
         "productUrl": null,
         "sourceLabel": "McMaster 7733A22",
         "tdsCacheTextPath": null,
@@ -62475,6 +63155,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7733A23/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7733A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 7733A23",
         "tdsCacheTextPath": null,
@@ -62569,6 +63250,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7733A24/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7733A24/",
         "productUrl": null,
         "sourceLabel": "McMaster 7733A24",
         "tdsCacheTextPath": null,
@@ -62663,6 +63345,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7733A25/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7733A25/",
         "productUrl": null,
         "sourceLabel": "McMaster 7733A25",
         "tdsCacheTextPath": null,
@@ -63176,6 +63859,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7322A31/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7322A31/",
         "productUrl": null,
         "sourceLabel": "McMaster 7322A31",
         "tdsCacheTextPath": null,
@@ -63268,6 +63952,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7354A23/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7354A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 7354A23",
         "tdsCacheTextPath": null,
@@ -63360,6 +64045,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7354A21/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7354A21/",
         "productUrl": null,
         "sourceLabel": "McMaster 7354A21",
         "tdsCacheTextPath": null,
@@ -63452,6 +64138,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7354A22/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7354A22/",
         "productUrl": null,
         "sourceLabel": "McMaster 7354A22",
         "tdsCacheTextPath": null,
@@ -64087,6 +64774,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/clearweld-syringe-14ml#section-1365510",
         "tdsUrl": "https://www.jbweld.com/product/clearweld-syringe-14ml#section-1365510",
+        "specUrl": "https://www.mcmaster.com/7605A25/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64182,6 +64870,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/terms",
         "tdsUrl": "https://www.jbweld.com/terms",
+        "specUrl": "https://www.mcmaster.com/7605A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64279,6 +64968,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/highheat-epoxy-putty#section-1348534",
         "tdsUrl": "https://www.jbweld.com/product/highheat-epoxy-putty#section-1348534",
+        "specUrl": "https://www.mcmaster.com/7605A3/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64374,6 +65064,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/kwikweld-twin-tube#section-1345668",
         "tdsUrl": "https://www.jbweld.com/product/kwikweld-twin-tube#section-1345668",
+        "specUrl": "https://www.mcmaster.com/7605A13/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64469,6 +65160,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/marineweld-twin-tube#section-1347493",
         "tdsUrl": "https://www.jbweld.com/product/marineweld-twin-tube#section-1347493",
+        "specUrl": "https://www.mcmaster.com/7605A7/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64563,6 +65255,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/projects/metal-patio-furniture",
         "tdsUrl": "https://www.jbweld.com/projects/metal-patio-furniture",
+        "specUrl": "https://www.mcmaster.com/7605A2/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64659,6 +65352,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/j-b-weld-twin-tube",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7605A4/",
         "productUrl": null,
         "sourceLabel": "McMaster 7605A4",
         "tdsCacheTextPath": null,
@@ -64754,6 +65448,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/plastic-bonder-syringe#section-1347676",
         "tdsUrl": "https://www.jbweld.com/product/plastic-bonder-syringe#section-1347676",
+        "specUrl": "https://www.mcmaster.com/7605A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -64851,6 +65546,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/plasticweld-syringe#section-1347629",
         "tdsUrl": "https://www.jbweld.com/product/plasticweld-syringe#section-1347629",
+        "specUrl": "https://www.mcmaster.com/7605A5/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -65180,6 +65876,7 @@
       "sources": {
         "referenceUrl": "https://www.jbweld.com/product/waterweld-syringe#section-1348085",
         "tdsUrl": "https://www.jbweld.com/product/waterweld-syringe#section-1348085",
+        "specUrl": "https://www.mcmaster.com/7605A16/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -66432,6 +67129,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66515A23/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66515A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 66515A23",
         "tdsCacheTextPath": null,
@@ -70799,6 +71497,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/extreme-heavy-duty-ln-907",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534A63/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A63",
         "tdsCacheTextPath": null,
@@ -70895,6 +71594,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/extreme-heavy-duty-ln-907",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534A18/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A18",
         "tdsCacheTextPath": null,
@@ -70991,6 +71691,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/subfloor-ln-902",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534A53/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A53",
         "tdsCacheTextPath": null,
@@ -71087,6 +71788,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/extreme-heavy-duty-ln-907",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534A64/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A64",
         "tdsCacheTextPath": null,
@@ -71183,6 +71885,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/subfloor-ln-902",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534a52/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A52",
         "tdsCacheTextPath": null,
@@ -71279,6 +71982,7 @@
       "sources": {
         "referenceUrl": "https://www.ppgpaints.com/products/adhesives-sealants/heavy-duty-ln-903",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7534A62/",
         "productUrl": null,
         "sourceLabel": "McMaster 7534A62",
         "tdsCacheTextPath": null,
@@ -72492,6 +73196,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-0151-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-0151-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A253/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -72585,6 +73290,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1810A6/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -72679,6 +73385,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-11C-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-11C-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A222/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -72773,6 +73480,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-1C-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-1C-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A221/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -72867,6 +73575,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-1c-lv/BP000000164786.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/6430A35/",
         "productUrl": null,
         "sourceLabel": "McMaster 6430A35",
         "tdsCacheTextPath": null,
@@ -72960,6 +73669,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2047-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2047-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A410/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73053,6 +73763,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-220-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-220-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1810A315/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73146,6 +73857,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1810A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73239,6 +73951,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222MS-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-222MS-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A130/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73332,6 +74045,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-242-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-242-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A111/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73425,6 +74139,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2422-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2422-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A280/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73518,6 +74233,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A114/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73611,6 +74327,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2432-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2432-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A760/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73704,6 +74421,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-246-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-246-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A480/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73797,6 +74515,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-248-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-248-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1004A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73891,6 +74610,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2620-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2620-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A270/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -73984,6 +74704,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-266-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-266-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A570/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74077,6 +74798,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-268-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-268-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1004A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74171,6 +74893,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-272-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-272-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A650/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74264,6 +74987,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2760-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2760-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A300/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74357,6 +75081,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A118/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74448,6 +75173,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-ABLESTIK-2902-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-ABLESTIK-2902-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7595A113/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74542,6 +75268,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-294-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-294-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A950/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74639,6 +75366,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3035-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3035-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A61",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74734,6 +75462,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7530A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74829,6 +75558,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -74923,6 +75653,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75017,6 +75748,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3105-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3105-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75112,6 +75844,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3106-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3106-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75206,6 +75939,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3201-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3201-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75300,6 +76034,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3211-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3211-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700a26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75394,6 +76129,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-324-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-324-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7614A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75488,6 +76224,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-325-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-325-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7614A111/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75582,6 +76319,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-326-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-326-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7614A14/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75676,6 +76414,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-330-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-330-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7560A58/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75770,6 +76509,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3301-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3301-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A255/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75864,6 +76604,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-331-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-331-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7614A36/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -75958,6 +76699,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3311-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3311-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700a253/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76052,6 +76794,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-332-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-332-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A29/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76147,6 +76890,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3321-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3321-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A251/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76241,6 +76985,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-334-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-334-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A211/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76335,6 +77080,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3341-en_US.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3341-en_US.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A272/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76429,6 +77175,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-349-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-349-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A77/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76523,6 +77270,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3494-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3494-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76617,6 +77365,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-352-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-352-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A66/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76711,6 +77460,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3525-en_US.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3525-en_US.pdf",
+        "specUrl": "https://www.mcmaster.com/74545A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76805,6 +77555,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3526-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3526-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A218/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76899,6 +77650,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A51/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -76993,6 +77745,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-380-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-380-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74555A44/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77087,6 +77840,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-392-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-392-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A102/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77181,6 +77935,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3922-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-3922-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A259/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77275,6 +78030,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A257/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77370,6 +78126,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-401-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A63/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77465,6 +78222,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4011-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4011-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A4/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77559,6 +78317,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4013-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4013-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A42/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77653,6 +78412,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4014-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4014-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818a43/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77748,6 +78508,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-403-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A53/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77843,6 +78604,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4031-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4031-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A44/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -77937,6 +78699,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-404-O-Ring-Kit-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-404-O-Ring-Kit-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7569A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78032,6 +78795,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-406-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A32/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78126,6 +78890,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4061-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4061-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A45/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78221,6 +78986,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-408-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-408-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A51/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78315,6 +79081,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818a46/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78409,6 +79176,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-409-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-409-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7608A56/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78503,6 +79271,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-410-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-410-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A72/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78597,6 +79366,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-411-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-411-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A73/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78691,6 +79461,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-414-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-414-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7625A16/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78785,6 +79556,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-415-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-415-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985A65/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78879,6 +79651,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-416-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-416-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7567A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -78973,6 +79746,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4161-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4161-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A47/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79067,6 +79841,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-420-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-420-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/66745A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79161,6 +79936,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4203-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4203-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A57/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79255,6 +80031,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4204-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4204-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A59/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79349,6 +80126,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4205-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4205-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A62/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79443,6 +80221,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A25/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79538,6 +80317,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-422-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-422-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985A67/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79631,6 +80411,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-425-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-425-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A370/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79725,6 +80506,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-426-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-426-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A92/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79819,6 +80601,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-430-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-430-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/66635A31/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -79913,6 +80696,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-431-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-431-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80008,6 +80792,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4311-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4311-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1700A5/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80103,6 +80888,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-435-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-435-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80198,6 +80984,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-438-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-438-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80293,6 +81080,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4471-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4471-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A34/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80388,6 +81176,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A72/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80484,6 +81273,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-454/BP000000153575.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74765A65/",
         "productUrl": null,
         "sourceLabel": "McMaster 74765A65",
         "tdsCacheTextPath": null,
@@ -80580,6 +81370,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4541-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4541-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A49/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80674,6 +81465,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-455-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-455-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A89/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80769,6 +81561,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-460-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-460-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A52/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80864,6 +81657,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4601-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4601-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A5/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -80958,6 +81752,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-480-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74765A59/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81053,6 +81848,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4851-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4851-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A73/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81148,6 +81944,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4861-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4861-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A74/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81242,6 +82039,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4902-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4902-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74795A397/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81336,6 +82134,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-493-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-493-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985A69/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81430,6 +82229,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-495-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7520A13/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81524,6 +82324,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-496-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-496-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985A7/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81618,6 +82419,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-498-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-498-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985A71/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81712,6 +82514,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4981-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4981-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1818A52/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81806,6 +82609,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-499-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-499-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74985a57/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81896,6 +82700,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-NS-5109-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-NS-5109-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7568A37/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -81987,6 +82792,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/TEROSON-MS-5510-BLACK-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/TEROSON-MS-5510-BLACK-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T513/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82084,6 +82890,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/TEROSON-MS-5570-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/TEROSON-MS-5570-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A798/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82175,6 +82982,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5910-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5910-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1832A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82266,6 +83074,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5920-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5920-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7490A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82357,6 +83166,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5970-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5970-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7600A44/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82454,6 +83264,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-608-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-608-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A44/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82548,6 +83359,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A230/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82642,6 +83454,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-615-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-615-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A246/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82736,6 +83549,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A750/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82830,6 +83644,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-635-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-635-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A640/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -82924,6 +83739,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-640-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-640-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A690/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83018,6 +83834,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-641-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-641-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A520/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83112,6 +83929,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-660-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-660-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7570A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83206,6 +84024,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-668-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-668-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/8075A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83300,6 +84119,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-LB-8060-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-LB-8060-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1810A3/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83396,6 +84216,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A243/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83490,6 +84311,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-9460-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-9460-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A234/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83586,6 +84408,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-9462-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-9462-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A33/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83680,6 +84503,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-414-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-414-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83777,6 +84601,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1813A247/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83873,6 +84698,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-00NS-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-00NS-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A17/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -83970,6 +84796,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-05CL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-05CL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A25/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84067,6 +84894,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-05MR-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-05MR-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A38/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84163,6 +84991,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-20HP-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-20HP-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A19/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84257,6 +85086,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-20NS-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-20NS-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A29/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84354,6 +85184,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-e-30cl/BP000000164727.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/6430A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 6430A23",
         "tdsCacheTextPath": null,
@@ -84451,6 +85282,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-40FL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-40FL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84547,6 +85379,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-40HT-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-40HT-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7555A41/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84643,6 +85476,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-60HP-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-60HP-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A28/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84740,6 +85574,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-90FL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-E-90FL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A18/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84834,6 +85669,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H3000-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H3000-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A57/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -84930,6 +85766,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H4500-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H4500-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A67/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85026,6 +85863,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H8000-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-AA-H8000-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A46/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85123,6 +85961,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4090-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4090-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A574/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85205,6 +86044,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7530A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85301,6 +86141,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-M-121HP-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-M-121HP-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7370A37",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85398,6 +86239,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-M-31CL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-EA-M-31CL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7370A38/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85489,6 +86331,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PC-6231-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-PC-6231-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/1660N14/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85580,6 +86423,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5011CL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5011CL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7770A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85671,6 +86515,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5049-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5049-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74885A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85762,6 +86607,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-NS-5109-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-NS-5109-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7770A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85852,6 +86698,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5015-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-5015-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7474A14/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -85942,6 +86789,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-542-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7474A24/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -86032,6 +86880,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-593/BP000000193763.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74945A65/",
         "productUrl": null,
         "sourceLabel": "McMaster 74945A65",
         "tdsCacheTextPath": null,
@@ -86122,6 +86971,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-594-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-594-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/74945A67/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -86212,6 +87062,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-595/162662AG.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74945A69/",
         "productUrl": null,
         "sourceLabel": "McMaster 74945A69",
         "tdsCacheTextPath": null,
@@ -86302,6 +87153,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-596-RED-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-SI-596-RED-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7644A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -86398,6 +87250,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-UK-M-06FL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-UK-M-06FL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/7370A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -86494,6 +87347,7 @@
       "sources": {
         "referenceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-uk-u-05fl/BP000000164743.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/6430A21/",
         "productUrl": null,
         "sourceLabel": "McMaster 6430A21",
         "tdsCacheTextPath": null,
@@ -86590,6 +87444,7 @@
       "sources": {
         "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-UK-U-09FL-en_GL.pdf",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-UK-U-09FL-en_GL.pdf",
+        "specUrl": "https://www.mcmaster.com/6430A32/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -86686,6 +87541,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A23/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A23/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A23",
         "tdsCacheTextPath": null,
@@ -86777,6 +87633,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A26/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A26/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A26",
         "tdsCacheTextPath": null,
@@ -86868,6 +87725,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A27/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A27/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A27",
         "tdsCacheTextPath": null,
@@ -86959,6 +87817,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A14/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A14/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A14",
         "tdsCacheTextPath": null,
@@ -87055,6 +87914,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A17/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A17/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A17",
         "tdsCacheTextPath": null,
@@ -87151,6 +88011,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A24/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A24/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A24",
         "tdsCacheTextPath": null,
@@ -87247,6 +88108,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66195A25/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66195A25/",
         "productUrl": null,
         "sourceLabel": "McMaster 66195A25",
         "tdsCacheTextPath": null,
@@ -87800,6 +88662,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7541A84/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7541A84/",
         "productUrl": null,
         "sourceLabel": "McMaster 7541A84",
         "tdsCacheTextPath": null,
@@ -87890,6 +88753,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4842N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4842N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 4842N11",
         "tdsCacheTextPath": null,
@@ -87981,6 +88845,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/4842N12/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/4842N12/",
         "productUrl": null,
         "sourceLabel": "McMaster 4842N12",
         "tdsCacheTextPath": null,
@@ -91597,6 +92462,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7604A55/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7604A55/",
         "productUrl": null,
         "sourceLabel": "McMaster 7604A55",
         "tdsCacheTextPath": null,
@@ -91689,6 +92555,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/74965A22/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74965A22/",
         "productUrl": null,
         "sourceLabel": "McMaster 74965A22",
         "tdsCacheTextPath": null,
@@ -91780,6 +92647,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7242N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7242N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 7242N12",
         "tdsCacheTextPath": null,
@@ -96870,6 +97738,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/SNAPSIL%20FRV1106%20Adhesive%20Sealant.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/SNAPSIL%20FRV1106%20Adhesive%20Sealant.pdf",
+        "specUrl": "https://www.mcmaster.com/7474A101/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -96960,6 +97829,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-frv1106fc-adhesive-sealant-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-frv1106fc-adhesive-sealant-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7474A102/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97051,6 +97921,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A451/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97142,6 +98013,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A461/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97233,6 +98105,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/74975A53/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97324,6 +98197,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A471/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97415,6 +98289,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A482/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97507,6 +98382,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%E2%84%A2%20RTV11.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST%E2%84%A2%20RTV11.pdf",
+        "specUrl": "https://www.mcmaster.com/74965A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97598,6 +98474,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/6604A11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97689,6 +98566,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/global/docs/default-source/tds/snapsil/snapsil-rtv100-series-tds.pdf",
+        "specUrl": "https://www.mcmaster.com/6604A36/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97779,6 +98657,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv157-rtv159.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv157-rtv159.pdf",
+        "specUrl": "https://www.mcmaster.com/7589A21/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97869,6 +98748,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv157-rtv159.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv157-rtv159.pdf",
+        "specUrl": "https://www.mcmaster.com/7589A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -97960,6 +98840,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/SNAPSIL%E2%84%A2%20RTV230.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/SNAPSIL%E2%84%A2%20RTV230.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A301/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -98051,6 +98932,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv5818.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/snapsil/snapsil-rtv5818.pdf",
+        "specUrl": "https://www.mcmaster.com/7545A611/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -98143,6 +99025,7 @@
       "sources": {
         "referenceUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST\u2122 RTV31.pdf",
         "tdsUrl": "https://www.momentive.com/content/dam/momentive/en-us/products/tds/siltrust/SILTRUST\u2122 RTV31.pdf",
+        "specUrl": "https://www.mcmaster.com/74965A23/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -98234,6 +99117,7 @@
       "sources": {
         "referenceUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/MomentiveRTV6708_Data_Sheet.pdf",
         "tdsUrl": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/MomentiveRTV6708_Data_Sheet.pdf",
+        "specUrl": "https://www.mcmaster.com/7547A583/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -99390,6 +100274,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7475A4-7475A42/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7475A4-7475A42/",
         "productUrl": null,
         "sourceLabel": "McMaster 7475A4",
         "tdsCacheTextPath": null,
@@ -101314,6 +102199,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/2454N2/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/2454N2/",
         "productUrl": null,
         "sourceLabel": "McMaster 2454N2",
         "tdsCacheTextPath": null,
@@ -101409,6 +102295,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/2454N3/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/2454N3/",
         "productUrl": null,
         "sourceLabel": "McMaster 2454N3",
         "tdsCacheTextPath": null,
@@ -101504,6 +102391,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/2454n4/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/2454n4/",
         "productUrl": null,
         "sourceLabel": "McMaster 2454N4",
         "tdsCacheTextPath": null,
@@ -101595,6 +102483,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7595A33/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7595A33/",
         "productUrl": null,
         "sourceLabel": "McMaster 7595A33",
         "tdsCacheTextPath": null,
@@ -101686,6 +102575,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A52/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A52/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A52",
         "tdsCacheTextPath": null,
@@ -101778,6 +102668,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A54/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A54/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A54",
         "tdsCacheTextPath": null,
@@ -101870,6 +102761,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A55/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A55/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A55",
         "tdsCacheTextPath": null,
@@ -101962,6 +102854,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A56/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A56/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A56",
         "tdsCacheTextPath": null,
@@ -102054,6 +102947,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A61/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A61/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A61",
         "tdsCacheTextPath": null,
@@ -102146,6 +103040,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518a62/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518a62/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A62",
         "tdsCacheTextPath": null,
@@ -102238,6 +103133,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7518A63/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7518A63/",
         "productUrl": null,
         "sourceLabel": "McMaster 7518A63",
         "tdsCacheTextPath": null,
@@ -102333,6 +103229,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1700A223/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1700A223/",
         "productUrl": null,
         "sourceLabel": "McMaster 1700A223",
         "tdsCacheTextPath": null,
@@ -102427,6 +103324,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/74835A73/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74835A73/",
         "productUrl": null,
         "sourceLabel": "McMaster 74835A73",
         "tdsCacheTextPath": null,
@@ -102519,6 +103417,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/74835A91/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/74835A91/",
         "productUrl": null,
         "sourceLabel": "McMaster 74835A91",
         "tdsCacheTextPath": null,
@@ -102612,6 +103511,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7625T53/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7625T53/",
         "productUrl": null,
         "sourceLabel": "McMaster 7625T53",
         "tdsCacheTextPath": null,
@@ -102706,6 +103606,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7625T55/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7625T55/",
         "productUrl": null,
         "sourceLabel": "McMaster 7625T55",
         "tdsCacheTextPath": null,
@@ -124507,6 +125408,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/101_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/101_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7580A81/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -124601,6 +125503,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/102_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/102_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7580A82/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -124775,6 +125678,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/268_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/268_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7580A53/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -124869,6 +125773,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/820_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/820_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7585A41/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -124963,6 +125868,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/910fs_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/910fs_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7580A65/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -125057,6 +125963,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/919_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/919_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7585A43/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -125151,6 +126058,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/920_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/920_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7585A42/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -125245,6 +126153,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/922_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/922_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7585A44/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -125407,6 +126316,7 @@
       "sources": {
         "referenceUrl": "https://permabond.com/tds/919_tds-en/?pdf=1",
         "tdsUrl": "https://permabond.com/tds/919_tds-en/?pdf=1",
+        "specUrl": "https://www.mcmaster.com/7585A43/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -133575,6 +134485,7 @@
       "sources": {
         "referenceUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-medium-strength-threadlocker-blue-gel-10-g/",
         "tdsUrl": "https://www.permatex.com/products/thread-compounds/blue-threadlockers/permatex-medium-strength-threadlocker-blue-gel-10-g/",
+        "specUrl": "https://www.mcmaster.com/7445A12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -133667,6 +134578,7 @@
       "sources": {
         "referenceUrl": "https://www.permatex.com/products/gasketing/gasket-makers/black-gasket-makers/permatex-the-right-stuff-90-minute-black-gasket-maker-3-oz/",
         "tdsUrl": "https://www.permatex.com/products/gasketing/gasket-makers/black-gasket-makers/permatex-the-right-stuff-90-minute-black-gasket-maker-3-oz/",
+        "specUrl": "https://www.mcmaster.com/4474n11/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -133760,6 +134672,7 @@
       "sources": {
         "referenceUrl": "https://www.permatex.com/products/thread-compounds/red-threadlockers/permatex-high-strength-threadlocker-red-gel-35-g/",
         "tdsUrl": "https://www.permatex.com/products/thread-compounds/red-threadlockers/permatex-high-strength-threadlocker-red-gel-35-g/",
+        "specUrl": "https://www.mcmaster.com/7445A14/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -133852,6 +134765,7 @@
       "sources": {
         "referenceUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-12-9-oz/",
         "tdsUrl": "https://www.permatex.com/products/adhesives-and-sealants/adhesives-sealant/permatex-black-silicone-adhesive-sealant-12-9-oz/",
+        "specUrl": "https://www.mcmaster.com/7479A34/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -133941,6 +134855,7 @@
       "sources": {
         "referenceUrl": "https://www.permatex.com/wp-content/uploads/2023/04/81724.pdf",
         "tdsUrl": "https://www.permatex.com/wp-content/uploads/2023/04/81724.pdf",
+        "specUrl": "https://www.mcmaster.com/7600A42/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -136188,6 +137103,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/wp-content/uploads/Devcon-Plexus-SprayCore-Permatex-Catalog-2025.pdf",
         "tdsUrl": "https://itwperformancepolymers.com/wp-content/uploads/Devcon-Plexus-SprayCore-Permatex-Catalog-2025.pdf",
+        "specUrl": "https://www.mcmaster.com/66215A74/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -136283,6 +137199,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plexus-ma300",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plexus-ma300",
+        "specUrl": "https://www.mcmaster.com/66215A26/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -136378,6 +137295,7 @@
       "sources": {
         "referenceUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plexus-ma310",
         "tdsUrl": "https://itwperformancepolymers.com/data-sheets/technical-data-sheets?i=plexus-ma310",
+        "specUrl": "https://www.mcmaster.com/66215A27/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -137847,6 +138765,7 @@
       "sources": {
         "referenceUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
         "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7468A22/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -137940,6 +138859,7 @@
       "sources": {
         "referenceUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
         "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7468A62/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -138034,6 +138954,7 @@
       "sources": {
         "referenceUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
         "tdsUrl": "https://www.aircraftspruce.com/catalog/pdf/pliobond20tds.pdf",
+        "specUrl": "https://www.mcmaster.com/7468A53/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -138125,6 +139046,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1534N1/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1534N1/",
         "productUrl": null,
         "sourceLabel": "McMaster 1534N1",
         "tdsCacheTextPath": null,
@@ -138221,6 +139143,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7475A64/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7475A64/",
         "productUrl": null,
         "sourceLabel": "McMaster 7475A64",
         "tdsCacheTextPath": null,
@@ -138312,6 +139235,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/75705T1/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/75705T1/",
         "productUrl": null,
         "sourceLabel": "McMaster 75705T1",
         "tdsCacheTextPath": null,
@@ -138405,6 +139329,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/1743N11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/1743N11/",
         "productUrl": null,
         "sourceLabel": "McMaster 1743N11",
         "tdsCacheTextPath": null,
@@ -138934,6 +139859,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7136N12/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7136N12/",
         "productUrl": null,
         "sourceLabel": "McMaster 7136N12",
         "tdsCacheTextPath": null,
@@ -140011,6 +140937,199 @@
       "extractionCandidates": []
     },
     {
+      "id": "rh-adhesives-hh-66-toluene-free-vinyl-cement",
+      "source": "manual-tds",
+      "maker": "RH Adhesives",
+      "name": "HH-66 Toluene Free Vinyl Cement",
+      "profile": "contactCement",
+      "summary": "Toluene-free flexible vinyl cement for compatible PVC-coated fabrics and vinyl repair projects.",
+      "applicationTags": [
+        "vinyl-repair",
+        "contact-lamination",
+        "flexible-bond",
+        "toluene-free"
+      ],
+      "referenceCategory": "Vinyl / Flexible Adhesives",
+      "referenceForJoining": "PVC vinyl-coated fabrics, canvas, vinyl films, tarps, inflatable watercraft, pool liners, compatible foam, leather, neoprene, fiberglass, cork, and wood as listed by RH.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Thermoplastic elastomer; solvent-based, toluene-free",
+        "cureFamily": "Solvent-based vinyl contact cement",
+        "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 3 minutes for patching, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2\u20135 minute tack time.",
+        "serviceMin": -34,
+        "serviceMax": 66,
+        "viscosityClass": "medium"
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-toluene-free-2/",
+        "tdsUrl": null,
+        "specUrl": "https://rhadhesives.com/wp-content/uploads/2026/04/HH-66-Toluene-Free-Vinyl-Cement-Spec-Sheet.pdf",
+        "technicalDocumentType": "RH Adhesives Toluene Free Spec Sheet (not titled TDS)",
+        "technicalDocumentNote": "The linked Spec Sheet and RH product page supply these properties; no standalone TDS was found on the manufacturer's product page.",
+        "productUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-toluene-free-2/",
+        "sourceLabel": "Manufacturer product page and Spec Sheet; no formal TDS found",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.545,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not compatible with polyethylene tarps or extremely thin vinyl used for lettering/wraps; RH recommends trying another product on very soft, stretchy marine vinyl.",
+        "Excess adhesive may yellow with prolonged direct sunlight; RH advises against using it as a sun-exposed seam sealer.",
+        "Toluene-free does not mean solvent-free or nonflammable; the manufacturer Spec Sheet lists a 7\u00b0F flash point. Follow the current label and SDS."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "rh-adhesives-hh-66-vinyl-cement",
+      "source": "manual-tds",
+      "maker": "RH Adhesives",
+      "name": "HH-66 Vinyl Cement",
+      "profile": "contactCement",
+      "summary": "Flexible vinyl cement for repairing PVC-coated fabrics, tarps, inflatable products, pool liners, and compatible vinyl assemblies.",
+      "applicationTags": [
+        "vinyl-repair",
+        "contact-lamination",
+        "flexible-bond",
+        "watercraft",
+        "tarp-repair"
+      ],
+      "referenceCategory": "Vinyl / Flexible Adhesives",
+      "referenceForJoining": "PVC vinyl-coated fabrics, canvas, vinyl films, tarps, inflatable watercraft, pool liners, compatible foam, leather, neoprene, fiberglass, cork, and wood as listed by RH.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Thermoplastic elastomer; solvent-based",
+        "cureFamily": "Solvent-based vinyl contact cement",
+        "cureDetail": "Brush an even coat on both surfaces. Allow the cement to become tacky, typically about 2 minutes, then join while tacky. Allow at least 1 hour before use; strongest hold is achieved after 1 day. RH lists a 2\u20135 minute tack time.",
+        "serviceMin": -34,
+        "serviceMax": 66,
+        "viscosityClass": "medium"
+      },
+      "rankableSpecs": {},
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-product/",
+        "tdsUrl": null,
+        "specUrl": "https://rhadhesives.com/wp-content/uploads/2026/04/HH-66-Vinyl-Cement-Spec-Sheet.pdf",
+        "technicalDocumentType": "RH Adhesives manufacturer Spec Sheet (not titled TDS)",
+        "technicalDocumentNote": "The linked Spec Sheet and RH product page supply these properties; no standalone TDS was found on the manufacturer's product page.",
+        "productUrl": "https://rhadhesives.com/product/hh-66-vinyl-cement-product/",
+        "sourceLabel": "Manufacturer product page and Spec Sheet; no formal TDS found",
+        "tdsCacheTextPath": null,
+        "sourceQuality": "product-or-catalog-page"
+      },
+      "coverage": {
+        "decision": 0.545,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "viscosityClass",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "clarity",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: potLife, fixtureTime, lapShear, clarity, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not compatible with polyethylene tarps or extremely thin vinyl used for lettering/wraps; RH recommends trying another product on very soft, stretchy marine vinyl.",
+        "Excess adhesive may yellow with prolonged direct sunlight; RH advises against using it as a sun-exposed seam sealer.",
+        "Contains toluene and has a 7\u00b0F flash point; follow the current label and SDS for ventilation and ignition precautions."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "mc-rutland_500_f_rtv_high_heat_silicone_76",
       "source": "mcmaster-derived",
       "maker": "Rutland",
@@ -140040,6 +141159,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7425A305/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7425A305/",
         "productUrl": null,
         "sourceLabel": "McMaster 7425A305",
         "tdsCacheTextPath": null,
@@ -146703,6 +147823,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/en/industry/marine-repair-solutions/bonding-applications/deck-to-hull/sikaflex-292i.html",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/6937T9/",
         "productUrl": null,
         "sourceLabel": "McMaster 6937T9",
         "tdsCacheTextPath": null,
@@ -146794,6 +147915,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/q/sikaflex_-1a.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/q/sikaflex_-1a.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T93/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -146885,6 +148007,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/1/pres-cpd-Sikaflex15lm-us.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/1/pres-cpd-Sikaflex15lm-us.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T561/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -146976,6 +148099,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/p/sikaflex_-1c_sl.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/p/sikaflex_-1c_sl.pdf",
+        "specUrl": "https://www.mcmaster.com/1660N12/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147066,6 +148190,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/content/dam/dms/us01/p/sikaflex-201-us.pdf",
         "tdsUrl": "https://usa.sika.com/content/dam/dms/us01/p/sikaflex-201-us.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T1/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147157,6 +148282,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/w/sikaflex-221.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/w/sikaflex-221.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T2/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147247,6 +148373,7 @@
       "sources": {
         "referenceUrl": "https://industry.sika.com/content/dam/dms/tz01/x/sikaflex-227.pdf",
         "tdsUrl": "https://industry.sika.com/content/dam/dms/tz01/x/sikaflex-227.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T5/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147337,6 +148464,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/o/sikaflex-252.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/o/sikaflex-252.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T6/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147427,6 +148555,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/t/sikaflex-291.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/t/sikaflex-291.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T7/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147517,6 +148646,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/z/sikaflex_-295_uv.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/z/sikaflex_-295_uv.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T8/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147608,6 +148738,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/8/sikaflex-505-uv.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/8/sikaflex-505-uv.pdf",
+        "specUrl": "https://www.mcmaster.com/6937T35/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -147699,6 +148830,7 @@
       "sources": {
         "referenceUrl": "https://usa.sika.com/dam/dms/us01/x/sikasil_-728_ns.pdf",
         "tdsUrl": "https://usa.sika.com/dam/dms/us01/x/sikasil_-728_ns.pdf",
+        "specUrl": "https://www.mcmaster.com/1671N13/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -148355,6 +149487,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7648T12/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7648T12/",
         "productUrl": null,
         "sourceLabel": "McMaster 7648T12",
         "tdsCacheTextPath": null,
@@ -148444,6 +149577,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/76435T21/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/76435T21/",
         "productUrl": null,
         "sourceLabel": "McMaster 76435T21",
         "tdsCacheTextPath": null,
@@ -148539,6 +149673,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66185a11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66185a11/",
         "productUrl": null,
         "sourceLabel": "McMaster 66185A11",
         "tdsCacheTextPath": null,
@@ -148621,6 +149756,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/66185A11/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/66185A11/",
         "productUrl": null,
         "sourceLabel": null,
         "tdsCacheTextPath": null,
@@ -178030,6 +179166,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/5175A7/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/5175A7/",
         "productUrl": null,
         "sourceLabel": "McMaster 5175A7",
         "tdsCacheTextPath": null,
@@ -179516,6 +180653,7 @@
       "sources": {
         "referenceUrl": "https://www.vibra-tite.com/wp-content/uploads/123_tds.pdf",
         "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/123_tds.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A235/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -179610,6 +180748,7 @@
       "sources": {
         "referenceUrl": "https://www.vibra-tite.com/wp-content/uploads/530_tds.pdf",
         "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/530_tds.pdf",
+        "specUrl": "https://www.mcmaster.com/91458A102/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -179703,6 +180842,7 @@
       "sources": {
         "referenceUrl": "https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf",
         "tdsUrl": "https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf",
+        "specUrl": "https://www.mcmaster.com/75145A68/",
         "productUrl": null,
         "sourceLabel": "TDS",
         "tdsCacheTextPath": null,
@@ -179796,6 +180936,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/77495A15/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/77495A15/",
         "productUrl": null,
         "sourceLabel": "McMaster 77495A15",
         "tdsCacheTextPath": null,
@@ -181485,6 +182626,7 @@
       "sources": {
         "referenceUrl": "https://www.mcmaster.com/7488A64/",
         "tdsUrl": null,
+        "specUrl": "https://www.mcmaster.com/7488A64/",
         "productUrl": null,
         "sourceLabel": "McMaster 7488A64",
         "tdsCacheTextPath": null,

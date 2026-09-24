@@ -6208,15 +6208,18 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Historical TDS full cure (hours)", "tdsFullCureHours"],
   ["Historical TDS shelf life", "tdsShelfLife"],
   ["TDS document", "tdsDocumentLabel"],
-  ["TDS solids content (%)", "solidsContentPct"],
-  ["TDS solids content range (%)", "solidsContentRangePct"],
-  ["TDS viscosity (cP)", "viscosityValue"],
-  ["TDS shelf life (months)", "shelfLifeMonths"],
-  ["TDS coverage (sq ft / gallon)", "coverageSqFtPerGallon"],
-  ["TDS coverage (sq ft / can)", "coverageSqFtPerCan"],
-  ["TDS weight per gallon (lb)", "weightPerGallonLb"],
-  ["TDS application and cure notes", "cureDetail"],
-  ["TDS appearance", "appearance"],
+  ["Technical document type", "technicalDocumentType"],
+  ["Technical source note", "technicalDocumentNote"],
+  ["Solids content (%)", "solidsContentPct"],
+  ["Solids content range (%)", "solidsContentRangePct"],
+  ["Viscosity (cP)", "viscosityValue"],
+  ["Shelf life (months)", "shelfLifeMonths"],
+  ["Coverage (sq ft / gallon)", "coverageSqFtPerGallon"],
+  ["Coverage (sq ft / can)", "coverageSqFtPerCan"],
+  ["Weight per gallon (lb)", "weightPerGallonLb"],
+  ["Flash point (°F)", "flashPointF"],
+  ["Application and cure notes", "cureDetail"],
+  ["Appearance", "appearance"],
   ["Service temperature minimum (°F)", "serviceTemperatureMinF"],
   ["Service temperature maximum (°F)", "serviceTemperatureMaxF"],
   ["TDS viscosity at 375°F (cP)", "tdsViscosityCpsAt375F"],
@@ -6236,12 +6239,14 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["TDS compression-shear method and test context", "tdsCompressionShearTestMethod"],
   ["TDS overlap-tensile strength development (psi)", "tdsOverlapTensileStrengthPsiProfiles"],
   ["TDS bond-strength test conditions", "tdsBondStrengthTestConditions"],
-  ["TDS open time (minutes)", "openTimeMinutes"],
-  ["TDS open-time range (minutes)", "openTimeRangeMinutes"],
+  ["Open time (minutes)", "openTimeMinutes"],
+  ["Open-time range (minutes)", "openTimeRangeMinutes"],
+  ["Dry-time range (minutes)", "dryTimeRangeMinutes"],
+  ["Tack-time range (minutes)", "tackTimeRangeMinutes"],
   ["TDS repositioning time (minutes)", "repositionTimeRangeMinutes"],
-  ["TDS clamp/support time (minutes)", "clampTimeRangeMinutes"],
-  ["TDS application minimum (°F)", "applicationTemperatureMinF"],
-  ["TDS application maximum (°F)", "applicationTemperatureMaxF"],
+  ["Clamp/support time (minutes)", "clampTimeRangeMinutes"],
+  ["Application temperature minimum (°F)", "applicationTemperatureMinF"],
+  ["Application temperature maximum (°F)", "applicationTemperatureMaxF"],
   ["TDS specific gravity", "specificGravity"],
   ["TDS specific-gravity range", "specificGravityRange"],
   ["TDS VOC content (g/L)", "vocContentGPerL"],
@@ -6457,16 +6462,18 @@ function openProductDetail(product, match) {
     .filter(([, , value]) => value);
   if (otherValues.length) {
     const evidence = createDetailSection(
-      "TDS evidence and test context",
+      "Technical evidence and test context",
       "Recorded source revision, methods, substrates, and conditions help interpret typical values. They are shown only when present in the product record."
     );
     otherValues.forEach(([label, field, value]) => {
-      const tdsLinked = Boolean(safeSourceUrl(product.tdsUrl) || safeSourceUrl(product.referenceUrl));
+      const referenceUrlText = String(product.referenceUrl ?? "").toLowerCase();
+      const tdsLinked = Boolean(safeSourceUrl(product.tdsUrl) || /(?:tds|datasheet|data-sheet|technical-data|tech-data)/.test(referenceUrlText));
+      const sourceKind = product.technicalDocumentType || (product.productUrl ? "Manufacturer product page" : "Catalog source");
       const provenanceLabel = field === "sourceRevisionDate"
-        ? (tdsLinked ? "TDS source" : "Source note")
+        ? (tdsLinked ? "TDS source" : sourceKind)
         : /Master Bond product page/i.test(value)
           ? "Related source note"
-          : tdsLinked ? "TDS-linked note" : "Catalog note";
+          : tdsLinked ? "TDS-linked note" : sourceKind;
       appendDetailFact(evidence, label, value, false, provenanceLabel);
     });
     productDetailContent.append(evidence);
@@ -7082,7 +7089,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-dap-weldwood-contactvariants-20260923");
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-catalog-source-labels-barge-hh66-elmers-20260923");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);

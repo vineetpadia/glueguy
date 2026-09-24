@@ -274,6 +274,9 @@ def product_record(entry: dict, cache_index: dict[str, dict], extraction_index: 
         "sources": {
             "referenceUrl": entry.get("referenceUrl"),
             "tdsUrl": entry.get("tdsUrl"),
+            **({"specUrl": entry["specUrl"]} if entry.get("specUrl") else {}),
+            **({"technicalDocumentType": entry["technicalDocumentType"]} if entry.get("technicalDocumentType") else {}),
+            **({"technicalDocumentNote": entry["technicalDocumentNote"]} if entry.get("technicalDocumentNote") else {}),
             "productUrl": entry.get("productUrl"),
             "sourceLabel": entry.get("sourceLabel"),
             "tdsCacheTextPath": cache.get("textPath"),
@@ -431,7 +434,14 @@ def main() -> None:
         ],
         "stats": {
             "products": len(products),
-            "manualTdsProducts": len(manual),
+            "manualTdsProducts": sum(
+                1 for entry in manual
+                if entry.get("tdsUrl") or entry.get("referenceSourceLabel", "TDS") == "TDS"
+            ),
+            "otherOfficialTechnicalSources": sum(
+                1 for entry in manual
+                if entry.get("referenceSourceLabel", "TDS") != "TDS"
+            ),
             "mcmasterDerivedProducts": len(mcmaster),
             "officialManufacturerLeads": sum(1 for product in products if product["source"] == "official-manufacturer-lead"),
             "productsWithExtractionCandidates": sum(1 for product in products if product["extractionCandidates"]),

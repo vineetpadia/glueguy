@@ -137,7 +137,7 @@ def build_reference_family(entry: dict) -> dict:
         "tempMaxC": entry.get("serviceMax"),
         "offerCount": 1,
         "sourceUrl": entry["referenceUrl"],
-        "sourceLabel": "TDS",
+        "sourceLabel": entry.get("referenceSourceLabel", "TDS"),
     }
     if pricing is not None and pricing.get("unit") == "mL":
         family["bestPricePerMl"] = unit_price
@@ -167,6 +167,14 @@ def main() -> None:
             {
                 "selectorProducts": len(selector_products),
                 "referenceFamilies": len(reference_families),
+                "tdsBackedProducts": sum(
+                    1 for entry in entries
+                    if entry.get("tdsUrl") or entry.get("referenceSourceLabel", "TDS") == "TDS"
+                ),
+                "otherOfficialTechnicalSources": sum(
+                    1 for entry in entries
+                    if entry.get("referenceSourceLabel", "TDS") != "TDS"
+                ),
             },
             indent=2,
         )

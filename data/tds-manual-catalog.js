@@ -63135,6 +63135,361 @@ window.TDS_MANUAL_PRODUCTS = [
     "gapFill": null,
     "potLife": null,
     "fixtureTime": null
+  },
+  {
+    "id": "loctite-609",
+    "profile": "anaerobicRetainer",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 609 Retaining Compound",
+    "summary": "Low-viscosity, high-strength anaerobic retainer for close-fitting cylindrical metal parts; ≥15.8 MPa compressive shear on steel pins/collars after 24 h at 22 °C.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 609, September 2014; supporting Henkel product page accessed September 2026",
+    "chemistry": "One-part methacrylate ester acrylic",
+    "cureFamily": "High-strength anaerobic retaining compound",
+    "cureDetail": "Cures when confined between close-fitting metal surfaces. Cure speed depends on substrate, gap, temperature and activator. The cited TDS reports compressive shear after 1 h and 24 h at 22 °C.",
+    "serviceMin": -55,
+    "serviceMax": 150,
+    "serviceTemperatureSource": "Henkel product technical specification; -55 to 150 °C.",
+    "gapFill": 0.15,
+    "fixtureTime": 15,
+    "viscosityClass": "low",
+    "viscosityRangeMpaS": [
+      110,
+      140
+    ],
+    "viscosityValue": "Cannon-Fenske, ISO 3104: 110–140 mPa·s; Henkel product page lists 120 mPa·s.",
+    "viscosityUnit": "mPa·s (cP)",
+    "specificGravity": 1.1,
+    "appearance": "Green liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "thixotropic": false,
+    "thermalConductivity": 0.1,
+    "lapShear": 15.8,
+    "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars ≥15.8 MPa after 24 h at 22 °C; ≥10.3 MPa after 1 h. Not a conventional lap-shear coupon result.",
+    "compressiveStrengthMPa": 15.8,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123MinimumAfter24h": 15.8,
+      "steelPinsAndCollarsIso10123MinimumAfter1h": 10.3
+    },
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "press-fit-augmentation",
+      "metal-bonding",
+      "high-strength",
+      "anaerobic-cure"
+    ],
+    "stress": {
+      "shear": 9,
+      "peel": 1,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "zincDichromate": 7,
+      "metal": 9,
+      "cylindricalFits": 10,
+      "shafts": 9,
+      "bushings": 9,
+      "sleeves": 9
+    },
+    "cautions": [
+      "TDS is a September 2014 revision; verify the current regional data sheet before specification.",
+      "TDS compressive shear results on pins and collars are not conventional lap-shear coupon values.",
+      "Operating range, fixture time and gap fill are taken from the linked Henkel product technical page; application fit depends on actual tolerances and substrates.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "TDS typical data are not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-609/BP000000153471.html"
+    ],
+    "standards": [
+      "ISO 10123",
+      "ISO 3104",
+      "ISO 8302",
+      "ASTM D5363 (regional lot testing)",
+      "MIL-R-46082B (regional qualification)"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "potLife": null
+  },
+  {
+    "id": "loctite-620",
+    "profile": "anaerobicRetainer",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 620 High-Temperature Retaining Compound",
+    "summary": "High-viscosity anaerobic retainer for cylindrical metal fits and higher-temperature assemblies; 17 MPa compressive shear on steel pins/collars after 24 h at 23 °C.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 620, April 2022; supporting Henkel product page accessed September 2026",
+    "chemistry": "One-part methacrylate ester acrylic",
+    "cureFamily": "Medium-to-high-strength anaerobic retaining compound",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces. TDS gives 17 MPa compressive shear on steel pins/collars after 24 h at 23 °C and 24 MPa after a further 24 h at 177 °C, tested at 23 °C.",
+    "serviceMin": -55,
+    "serviceMax": 230,
+    "serviceTemperatureSource": "Henkel product technical specification; -55 to 230 °C.",
+    "gapFill": 0.25,
+    "gapFillNote": "Henkel page lists 0.15–0.25 mm; TDS cure-speed graphs include 0.05, 0.15 and 0.2 mm test gaps.",
+    "fixtureTime": 60,
+    "viscosityClass": "high",
+    "viscosityValue": 8500,
+    "viscosityUnit": "mPa·s Brookfield RVT, spindle 5 at 20 rpm, 25 °C",
+    "specificGravity": 1.16,
+    "appearance": "Green liquid",
+    "clarity": "opaque",
+    "thermalConductivity": 0.1,
+    "lapShear": 17,
+    "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 17 MPa after 24 h at 23 °C; 24 MPa after another 24 h at 177 °C, tested at 23 °C. Not a conventional lap-shear coupon result.",
+    "compressiveStrengthMPa": 17,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After24h23C": 17,
+      "steelPinsAndCollarsIso10123After24h23CThen24h177C": 24
+    },
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure"
+    ],
+    "stress": {
+      "shear": 8,
+      "peel": 1,
+      "impact": 4
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.7
+    },
+    "substrates": {
+      "steel": 9,
+      "aluminum": 8,
+      "zincDichromate": 7,
+      "metal": 9,
+      "cylindricalFits": 10,
+      "shafts": 9,
+      "bushings": 9,
+      "sleeves": 9,
+      "bearings": 9
+    },
+    "cautions": [
+      "Service temperature, fixture time and range of gap fill are from the linked Henkel product technical specification; actual cure varies by fit, substrate and temperature.",
+      "The TDS compressive shear value after the heat-post-cure should not be confused with the standard 24 h room-temperature value.",
+      "Compressive shear on pins and collars is not a conventional lap-shear coupon result.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "TDS typical data are not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-620/BP000000153472.html"
+    ],
+    "standards": [
+      "ISO 10123",
+      "ISO 8302"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "potLife": null
+  },
+  {
+    "id": "loctite-638",
+    "profile": "anaerobicRetainer",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 638 High-Strength Retaining Compound",
+    "summary": "High-viscosity, oil-tolerant anaerobic retainer for cylindrical metal fits up to 0.25 mm gap; steel pin/collar compressive shear 29 MPa after 72 h at 23 °C.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 638, May 2024; supporting Henkel product page accessed September 2026",
+    "chemistry": "One-part urethane methacrylate",
+    "cureFamily": "High-strength anaerobic retaining compound",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces; formulated for active and passive metals, with tolerance to minor oil contamination. TDS compressive shear: 13.5 MPa after 15 min and 29 MPa after 72 h on steel pins and collars at 23 °C.",
+    "serviceMin": -55,
+    "serviceMax": 180,
+    "serviceTemperatureSource": "Henkel product technical specification; -55 to 180 °C.",
+    "gapFill": 0.25,
+    "gapFillNote": "Henkel product page lists 0.15–0.25 mm maximum gap; TDS has controlled-gap cure graphs.",
+    "fixtureTime": 4,
+    "viscosityClass": "high",
+    "viscosityValue": 2500,
+    "viscosityUnit": "mPa·s Brookfield RVT, spindle 3 at 20 rpm, 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Green liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "lapShear": 29,
+    "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 13.5 MPa after 15 min and 29 MPa after 72 h at 23 °C; stainless steel 28 MPa and aluminum 17 MPa after 72 h. Not conventional lap-shear coupon results.",
+    "compressiveStrengthMPa": 29,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After15min23C": 13.5,
+      "steelPinsAndCollarsIso10123After72h23C": 29,
+      "stainlessSteelPinsAndCollarsIso10123After72h23C": 28,
+      "aluminumPinsAndCollarsIso10123After72h23C": 17
+    },
+    "torqueBreakNm": 57,
+    "torquePrevailNm": 22,
+    "fixingTorqueBySizeNm": {
+      "m10BlackOxideBreakawayAfter72h23C": 57,
+      "m10BlackOxidePrevailAfter72h23C": 22,
+      "threeEighths16SteelBreakawayAfter72h23C": 25,
+      "threeEighths16SteelPrevailAfter72h23C": 9.4
+    },
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "oil-tolerant",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure",
+      "high-strength"
+    ],
+    "stress": {
+      "shear": 9,
+      "peel": 1,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.75,
+      "fuel": 0.9,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 10,
+      "stainlessSteel": 9,
+      "aluminum": 8,
+      "platedMetal": 8,
+      "metal": 10,
+      "cylindricalFits": 10,
+      "shafts": 9,
+      "bushings": 9,
+      "sleeves": 9
+    },
+    "cautions": [
+      "Service temperature, fixture time and maximum gap fill are from the linked Henkel product technical page; cure depends on substrate, clearance, temperature and contamination.",
+      "Minor industrial oil contamination is tolerated, but this does not remove the need to validate surface condition and application.",
+      "Compressive shear on pins and collars is not conventional lap-shear coupon performance.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "TDS typical data are not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-638/BP000000450822.html"
+    ],
+    "standards": [
+      "ISO 10123",
+      "ISO 10964",
+      "ISO 11359-2",
+      "GASTEC QA Approval 214 (regional qualification)"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "potLife": null
+  },
+  {
+    "id": "loctite-648",
+    "profile": "anaerobicRetainer",
+    "maker": "Henkel Loctite",
+    "name": "LOCTITE 648 High-Strength Retaining Compound",
+    "summary": "Low-viscosity, high-strength, oil-tolerant anaerobic retainer for cylindrical metal fits; 31 MPa compressive shear on steel pins/collars and 58 N·m M10 breakaway torque after 72 h at 23 °C.",
+    "sourceRevisionDate": "Henkel TDS LOCTITE 648, May 2021; supporting Henkel product page accessed September 2026",
+    "chemistry": "One-part urethane methacrylate",
+    "cureFamily": "High-strength anaerobic retaining compound",
+    "cureDetail": "Cures anaerobically between close-fitting metal surfaces. Works on active and passive substrates and tolerates minor oil contamination. TDS compressive shear: 13.5 MPa after 15 min and 31 MPa after 72 h on steel pins and collars at 23 °C.",
+    "serviceMin": -55,
+    "serviceMax": 180,
+    "serviceTemperatureSource": "Henkel product technical specification; -55 to 180 °C.",
+    "gapFill": 0.15,
+    "gapFillNote": "Henkel product page lists 0.15 mm; TDS controlled-gap cure tests cover additional gaps.",
+    "fixtureTime": 3,
+    "viscosityClass": "low",
+    "viscosityValue": 500,
+    "viscosityUnit": "mPa·s Brookfield RVT, spindle 2 at 20 rpm, 25 °C",
+    "specificGravity": 1.1,
+    "appearance": "Green liquid",
+    "clarity": "opaque",
+    "uvFluorescence": true,
+    "lapShear": 31,
+    "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 13.5 MPa after 15 min and 31 MPa after 72 h at 23 °C; stainless steel 30 MPa and aluminum 18 MPa after 72 h. Not conventional lap-shear coupon results.",
+    "compressiveStrengthMPa": 31,
+    "shearStrengthsMPa": {
+      "steelPinsAndCollarsIso10123After15min23C": 13.5,
+      "steelPinsAndCollarsIso10123After72h23C": 31,
+      "stainlessSteelPinsAndCollarsIso10123After72h23C": 30,
+      "aluminumPinsAndCollarsIso10123After72h23C": 18
+    },
+    "torqueBreakNm": 58,
+    "torquePrevailNm": 40,
+    "fixingTorqueBySizeNm": {
+      "m10BlackOxideBreakawayAfter72h23C": 58,
+      "m10BlackOxidePrevailAfter72h23C": 40,
+      "threeEighths16SteelBreakawayAfter72h23C": 32,
+      "threeEighths16SteelPrevailAfter72h23C": 16
+    },
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "oil-tolerant",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure",
+      "high-strength",
+      "low-viscosity"
+    ],
+    "stress": {
+      "shear": 9,
+      "peel": 1,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.75,
+      "fuel": 0.9,
+      "immersion": 0.7
+    },
+    "substrates": {
+      "steel": 10,
+      "stainlessSteel": 9,
+      "aluminum": 8,
+      "platedMetal": 8,
+      "metal": 10,
+      "cylindricalFits": 10,
+      "shafts": 9,
+      "bushings": 9,
+      "sleeves": 9
+    },
+    "cautions": [
+      "Service temperature, fixture time and product page gap fill are from the linked Henkel product technical page; cure depends on substrate, clearance, temperature and contamination.",
+      "Minor oil contamination is tolerated; validate the actual surface condition.",
+      "Compressive shear on pins and collars is not conventional lap-shear coupon performance.",
+      "Cold strength was tested to -75 °C; that test temperature is not a continuous service-temperature rating.",
+      "Not normally recommended for plastics; confirm compatibility.",
+      "Not recommended for pure oxygen/oxygen-rich systems or chlorine/strong oxidizers.",
+      "TDS typical data are not product specifications."
+    ],
+    "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
+    "supportingReferenceUrls": [
+      "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-648/BP000000450730.html"
+    ],
+    "standards": [
+      "ISO 10123",
+      "ISO 10964",
+      "ISO 11359-2"
+    ],
+    "unpublishedFields": [
+      "potLife"
+    ],
+    "potLife": null
   }
 ];
 
@@ -80075,12 +80430,118 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-609",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 609 Retaining Compound",
+    "primaryCategory": "Retaining compounds",
+    "categories": [
+      "Retaining compounds"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Green, low-viscosity, one-part anaerobic liquid; 110–140 mPa·s by Cannon-Fenske (ISO 3104).",
+    "sampleForJoining": "Close-fitting cylindrical metal assemblies such as shafts, bushings, sleeves, rotors, and press-fit parts.",
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "press-fit-augmentation",
+      "metal-bonding",
+      "high-strength",
+      "anaerobic-cure"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 150,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-620",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 620 High-Temperature Retaining Compound",
+    "primaryCategory": "Retaining compounds",
+    "categories": [
+      "Retaining compounds"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Green, high-viscosity, one-part anaerobic liquid; 8,500 mPa·s Brookfield RVT at 25 °C.",
+    "sampleForJoining": "Higher-temperature cylindrical metal fits such as locating pins, bearing seats, sleeves, bushings and shafts.",
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 230,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-638",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 638 High-Strength Retaining Compound",
+    "primaryCategory": "Retaining compounds",
+    "categories": [
+      "Retaining compounds"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Green, high-viscosity, one-part urethane-methacrylate anaerobic liquid; 2,500 mPa·s Brookfield RVT at 25 °C.",
+    "sampleForJoining": "High-strength, oil-tolerant retention of shafts, gears, pulleys, bushings, sleeves and cylindrical fittings, including passive metals.",
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "oil-tolerant",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure",
+      "high-strength"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 180,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "loctite-648",
+    "manufacturer": "Henkel Loctite",
+    "familyName": "LOCTITE 648 High-Strength Retaining Compound",
+    "primaryCategory": "Retaining compounds",
+    "categories": [
+      "Retaining compounds"
+    ],
+    "sampleType": "Bottle",
+    "sampleConsistency": "Green, low-viscosity, one-part urethane-methacrylate anaerobic liquid; 500 mPa·s Brookfield RVT at 25 °C.",
+    "sampleForJoining": "High-strength cylindrical fits such as gears, sprockets, rotors, shafts and sleeves where oil tolerance and high-temperature resistance are useful.",
+    "applicationTags": [
+      "retaining",
+      "cylindrical-bonding",
+      "shaft-assembly",
+      "oil-tolerant",
+      "high-temperature",
+      "metal-bonding",
+      "anaerobic-cure",
+      "high-strength",
+      "low-viscosity"
+    ],
+    "tempMinC": -55,
+    "tempMaxC": 180,
+    "offerCount": 1,
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 644,
-  "referenceFamilies": 644,
-  "tdsBackedProducts": 637,
+  "selectorProducts": 648,
+  "referenceFamilies": 648,
+  "tdsBackedProducts": 641,
   "otherOfficialTechnicalSources": 7
 };

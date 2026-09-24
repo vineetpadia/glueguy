@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:26:06.037037+00:00",
+  "generatedAt": "2026-09-24T03:31:08.178068+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,8 +11,8 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1712,
-    "manualTdsProducts": 637,
+    "products": 1716,
+    "manualTdsProducts": 641,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
     "officialManufacturerLeads": 640,
@@ -730,6 +730,10 @@
         "loctite-454",
         "loctite-480",
         "loctite-495",
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648",
         "loctite-aa3492",
         "loctite-ceramic-repair",
         "loctite-clear-epoxy",
@@ -2171,6 +2175,10 @@
         "threebond-tb3062u"
       ],
       "anaerobic-cure": [
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648",
         "permabond-uv7141"
       ],
       "anchoring": [
@@ -2894,6 +2902,12 @@
         "threebond-tb7796a",
         "threebond-tb7797",
         "weicon-va2407"
+      ],
+      "cylindrical-bonding": [
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648"
       ],
       "damp-surface-bonding": [
         "loctite-power-grab-ultimate-crystal-clear"
@@ -3921,6 +3935,9 @@
       "high-strength": [
         "loctite-262",
         "loctite-271",
+        "loctite-609",
+        "loctite-638",
+        "loctite-648",
         "threebond-tb1216e",
         "threebond-tb1217f",
         "threebond-tb1322",
@@ -3948,6 +3965,9 @@
         "itw-devcon-hp250",
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648",
         "mg-chemicals-834b",
         "mg-chemicals-8820",
         "permabond-801",
@@ -4683,6 +4703,7 @@
       ],
       "low-viscosity": [
         "loctite-271",
+        "loctite-648",
         "threebond-tb1741",
         "threebond-tb1742b",
         "threebond-tb1742z",
@@ -4836,6 +4857,10 @@
         "loctite-290",
         "loctite-401",
         "loctite-495",
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648",
         "loctite-clear-epoxy",
         "loctite-epoxy-instant-mix-5min",
         "permabond-170",
@@ -5192,6 +5217,8 @@
       ],
       "oil-tolerant": [
         "loctite-243",
+        "loctite-638",
+        "loctite-648",
         "permabond-hm129"
       ],
       "oily-surface-adhesion": [
@@ -5883,6 +5910,9 @@
       "precision-dispensing": [
         "3m-scotch-ad124-super-glue-liquid"
       ],
+      "press-fit-augmentation": [
+        "loctite-609"
+      ],
       "pressure-pipe": [
         "christys-red-hot-blue-glue-low-voc",
         "oatey-all-purpose-abs-pvc-cpvc",
@@ -5993,6 +6023,10 @@
         "threebond-tb6602p"
       ],
       "retaining": [
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648",
         "mc-loctite_retaining_compounds_609",
         "mc-loctite_retaining_compounds_620",
         "mc-loctite_retaining_compounds_635",
@@ -6470,6 +6504,12 @@
         "threebond-3012d",
         "threebond-3164f",
         "threebond-tb3062u"
+      ],
+      "shaft-assembly": [
+        "loctite-609",
+        "loctite-620",
+        "loctite-638",
+        "loctite-648"
       ],
       "sheet-adhesive": [
         "threebond-tb1630",
@@ -7717,7 +7757,7 @@
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
       "official-manufacturer-lead": 640,
-      "official-tds-url": 364,
+      "official-tds-url": 368,
       "product-or-catalog-page": 191
     }
   },
@@ -62223,6 +62263,444 @@
         "Short fixture time leaves little opportunity to reposition; accurately locate parts before assembly.",
         "Increasing bond gap slows cure; humidity outside the recommended 40-60% range at 22 \u00b0C changes cure behavior.",
         "Activator can accelerate cure but may reduce ultimate strength; validate on the actual joint."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-609",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 609 Retaining Compound",
+      "profile": "anaerobicRetainer",
+      "summary": "Low-viscosity, high-strength anaerobic retainer for close-fitting cylindrical metal parts; \u226515.8 MPa compressive shear on steel pins/collars after 24 h at 22 \u00b0C.",
+      "applicationTags": [
+        "retaining",
+        "cylindrical-bonding",
+        "shaft-assembly",
+        "press-fit-augmentation",
+        "metal-bonding",
+        "high-strength",
+        "anaerobic-cure"
+      ],
+      "referenceCategory": "Retaining compounds",
+      "referenceForJoining": "Close-fitting cylindrical metal assemblies such as shafts, bushings, sleeves, rotors, and press-fit parts.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester acrylic",
+        "cureFamily": "High-strength anaerobic retaining compound",
+        "cureDetail": "Cures when confined between close-fitting metal surfaces. Cure speed depends on substrate, gap, temperature and activator. The cited TDS reports compressive shear after 1 h and 24 h at 22 \u00b0C.",
+        "serviceMin": -55,
+        "serviceMax": 150,
+        "gapFill": 0.15,
+        "fixtureTime": 15,
+        "lapShear": 15.8,
+        "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars \u226515.8 MPa after 24 h at 22 \u00b0C; \u226510.3 MPa after 1 h. Not a conventional lap-shear coupon result.",
+        "viscosityClass": "low",
+        "viscosityValue": "Cannon-Fenske, ISO 3104: 110\u2013140 mPa\u00b7s; Henkel product page lists 120 mPa\u00b7s.",
+        "viscosityUnit": "mPa\u00b7s (cP)",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 15.8,
+        "thermalConductivity": 0.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-609-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "TDS is a September 2014 revision; verify the current regional data sheet before specification.",
+        "TDS compressive shear results on pins and collars are not conventional lap-shear coupon values.",
+        "Operating range, fixture time and gap fill are taken from the linked Henkel product technical page; application fit depends on actual tolerances and substrates."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-620",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 620 High-Temperature Retaining Compound",
+      "profile": "anaerobicRetainer",
+      "summary": "High-viscosity anaerobic retainer for cylindrical metal fits and higher-temperature assemblies; 17 MPa compressive shear on steel pins/collars after 24 h at 23 \u00b0C.",
+      "applicationTags": [
+        "retaining",
+        "cylindrical-bonding",
+        "shaft-assembly",
+        "high-temperature",
+        "metal-bonding",
+        "anaerobic-cure"
+      ],
+      "referenceCategory": "Retaining compounds",
+      "referenceForJoining": "Higher-temperature cylindrical metal fits such as locating pins, bearing seats, sleeves, bushings and shafts.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part methacrylate ester acrylic",
+        "cureFamily": "Medium-to-high-strength anaerobic retaining compound",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces. TDS gives 17 MPa compressive shear on steel pins/collars after 24 h at 23 \u00b0C and 24 MPa after a further 24 h at 177 \u00b0C, tested at 23 \u00b0C.",
+        "serviceMin": -55,
+        "serviceMax": 230,
+        "gapFill": 0.25,
+        "fixtureTime": 60,
+        "lapShear": 17,
+        "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 17 MPa after 24 h at 23 \u00b0C; 24 MPa after another 24 h at 177 \u00b0C, tested at 23 \u00b0C. Not a conventional lap-shear coupon result.",
+        "viscosityClass": "high",
+        "viscosityValue": 8500,
+        "viscosityUnit": "mPa\u00b7s Brookfield RVT, spindle 5 at 20 rpm, 25 \u00b0C",
+        "clarity": "opaque",
+        "thermalConductivity": 0.1,
+        "specificGravity": 1.16
+      },
+      "rankableSpecs": {
+        "lapShear": 17,
+        "thermalConductivity": 0.1
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-620-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 1.0,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.909,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "thermalConductivity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Service temperature, fixture time and range of gap fill are from the linked Henkel product technical specification; actual cure varies by fit, substrate and temperature.",
+        "The TDS compressive shear value after the heat-post-cure should not be confused with the standard 24 h room-temperature value.",
+        "Compressive shear on pins and collars is not a conventional lap-shear coupon result."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-638",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 638 High-Strength Retaining Compound",
+      "profile": "anaerobicRetainer",
+      "summary": "High-viscosity, oil-tolerant anaerobic retainer for cylindrical metal fits up to 0.25 mm gap; steel pin/collar compressive shear 29 MPa after 72 h at 23 \u00b0C.",
+      "applicationTags": [
+        "retaining",
+        "cylindrical-bonding",
+        "shaft-assembly",
+        "oil-tolerant",
+        "high-temperature",
+        "metal-bonding",
+        "anaerobic-cure",
+        "high-strength"
+      ],
+      "referenceCategory": "Retaining compounds",
+      "referenceForJoining": "High-strength, oil-tolerant retention of shafts, gears, pulleys, bushings, sleeves and cylindrical fittings, including passive metals.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part urethane methacrylate",
+        "cureFamily": "High-strength anaerobic retaining compound",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces; formulated for active and passive metals, with tolerance to minor oil contamination. TDS compressive shear: 13.5 MPa after 15 min and 29 MPa after 72 h on steel pins and collars at 23 \u00b0C.",
+        "serviceMin": -55,
+        "serviceMax": 180,
+        "gapFill": 0.25,
+        "fixtureTime": 4,
+        "lapShear": 29,
+        "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 13.5 MPa after 15 min and 29 MPa after 72 h at 23 \u00b0C; stainless steel 28 MPa and aluminum 17 MPa after 72 h. Not conventional lap-shear coupon results.",
+        "viscosityClass": "high",
+        "viscosityValue": 2500,
+        "viscosityUnit": "mPa\u00b7s Brookfield RVT, spindle 3 at 20 rpm, 25 \u00b0C",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 29
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-638-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: thermalConductivity",
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Service temperature, fixture time and maximum gap fill are from the linked Henkel product technical page; cure depends on substrate, clearance, temperature and contamination.",
+        "Minor industrial oil contamination is tolerated, but this does not remove the need to validate surface condition and application.",
+        "Compressive shear on pins and collars is not conventional lap-shear coupon performance."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-648",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "LOCTITE 648 High-Strength Retaining Compound",
+      "profile": "anaerobicRetainer",
+      "summary": "Low-viscosity, high-strength, oil-tolerant anaerobic retainer for cylindrical metal fits; 31 MPa compressive shear on steel pins/collars and 58 N\u00b7m M10 breakaway torque after 72 h at 23 \u00b0C.",
+      "applicationTags": [
+        "retaining",
+        "cylindrical-bonding",
+        "shaft-assembly",
+        "oil-tolerant",
+        "high-temperature",
+        "metal-bonding",
+        "anaerobic-cure",
+        "high-strength",
+        "low-viscosity"
+      ],
+      "referenceCategory": "Retaining compounds",
+      "referenceForJoining": "High-strength cylindrical fits such as gears, sprockets, rotors, shafts and sleeves where oil tolerance and high-temperature resistance are useful.",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part urethane methacrylate",
+        "cureFamily": "High-strength anaerobic retaining compound",
+        "cureDetail": "Cures anaerobically between close-fitting metal surfaces. Works on active and passive substrates and tolerates minor oil contamination. TDS compressive shear: 13.5 MPa after 15 min and 31 MPa after 72 h on steel pins and collars at 23 \u00b0C.",
+        "serviceMin": -55,
+        "serviceMax": 180,
+        "gapFill": 0.15,
+        "fixtureTime": 3,
+        "lapShear": 31,
+        "lapShearSubstrate": "Compressive shear, ISO 10123, steel pins and collars: 13.5 MPa after 15 min and 31 MPa after 72 h at 23 \u00b0C; stainless steel 30 MPa and aluminum 18 MPa after 72 h. Not conventional lap-shear coupon results.",
+        "viscosityClass": "low",
+        "viscosityValue": 500,
+        "viscosityUnit": "mPa\u00b7s Brookfield RVT, spindle 2 at 20 rpm, 25 \u00b0C",
+        "clarity": "opaque",
+        "specificGravity": 1.1
+      },
+      "rankableSpecs": {
+        "lapShear": 31
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-648-en_GL.pdf",
+        "tdsUrl": null,
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.818,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "fixtureTime",
+          "lapShear",
+          "viscosityClass",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "viscosityValue",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: thermalConductivity",
+        "Verified absent from available TDS fields: potLife",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Service temperature, fixture time and product page gap fill are from the linked Henkel product technical page; cure depends on substrate, clearance, temperature and contamination.",
+        "Minor oil contamination is tolerated; validate the actual surface condition.",
+        "Compressive shear on pins and collars is not conventional lap-shear coupon performance."
       ],
       "extractionCandidates": []
     },

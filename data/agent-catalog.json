@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T02:12:01.440041+00:00",
+  "generatedAt": "2026-09-24T02:22:37.681450+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -12,10 +12,10 @@
   ],
   "stats": {
     "products": 1730,
-    "manualTdsProducts": 595,
+    "manualTdsProducts": 598,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 700,
+    "officialManufacturerLeads": 697,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -436,13 +436,13 @@
       "DAP": [
         "dap-3-0-advanced-window-door-siding-trim-sealant",
         "dap-dynaflex-230",
+        "dap-rapidfuse-gel",
+        "dap-rapidfuse-super-glue",
+        "dap-rapidfuse-ultra-clear",
         "official-lead-dap-4000-subfloor-construction-adhesive",
         "official-lead-dap-all-purpose-construction-adhesive",
         "official-lead-dap-heavy-duty-construction-adhesive",
         "official-lead-dap-rapidfuse-all-purpose-adhesive",
-        "official-lead-dap-rapidfuse-gel-adhesive",
-        "official-lead-dap-rapidfuse-super-glue",
-        "official-lead-dap-ultra-clear-all-purpose-adhesive",
         "official-lead-dap-weldwood-2-in-1-wood-glue-filler",
         "official-lead-dap-weldwood-floor-tile-adhesive",
         "official-lead-dap-weldwood-frp-adhesive",
@@ -3693,6 +3693,9 @@
         "chipquik-sg2",
         "chipquik-sg3",
         "chipquik-sg4",
+        "dap-rapidfuse-gel",
+        "dap-rapidfuse-super-glue",
+        "dap-rapidfuse-ultra-clear",
         "digiwave-dga6129",
         "e6000-industrial",
         "e6000-premium",
@@ -7543,8 +7546,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 700,
-      "official-tds-url": 322,
+      "official-manufacturer-lead": 697,
+      "official-tds-url": 325,
       "product-or-catalog-page": 191
     }
   },
@@ -39413,28 +39416,40 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-dap-rapidfuse-gel-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "dap-rapidfuse-gel",
+      "source": "manual-tds",
       "maker": "DAP",
       "name": "RapidFuse Gel Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "gelCA",
+      "summary": "No-drip cyanoacrylate gel for controlled application and vertical repairs; 30-second set with repositioning time.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household repair adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate",
+        "cureFamily": "Cyanoacrylate gel adhesive",
+        "cureDetail": "TDS: sets in 30 seconds; handling time 5 minutes; full cure 4 hours. The current product page describes a 30-minute cure and repositioning up to 3 minutes; follow current package directions.",
+        "serviceMin": -18,
+        "serviceMax": 49,
+        "lapShearSubstrate": "Not published in the linked DAP TDS.",
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "flashPointF": 190.4,
+        "solidsContentPct": 98,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
         "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
-        "tdsUrls": [
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
@@ -39462,34 +39477,11 @@
             "propertyEvidence": {
               "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Tubo de 0.7 oz (20 g) Transparente 7079800178 | Aplicador con control de"
             }
-          },
-          {
-            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
-            "label": "EN",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178 | 0.13 oz (4 g) Control",
-              "chemistry": "SUGGESTED USES | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.7 oz (20 g) Tube Clear 7079800178",
-              "viscosity": "Non-Volatiles: 98% | Viscosity: 90,000 \u2013 120,000 cps | Flash Point: 190.4 F (88 C) | Weight/Gallon: 8.85 lbs/gal",
-              "cureTime": "Handling Time: 5 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
-              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 40\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 120\u00b0F",
-              "shelfLife": "Appearance: Clear Gel | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with | a pin."
-            }
-          },
-          {
-            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf",
-            "label": "ES",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | Tubo de 0.7 oz (20 g) Transparente 7079800178 | Aplicador con control de"
-            }
           }
+        ],
+        "tdsUrls": [
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final%207079800178%207079800179_Spanish.pdf"
         ],
         "technicalDocuments": [
           {
@@ -39503,38 +39495,41 @@
             "documentType": "SDS"
           }
         ],
-        "sdsUrls": [
-          "https://images.dap.com/3040804English.pdf",
-          "https://images.dap.com/3040804Spanish.pdf"
-        ],
-        "productUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
-        "sourceLabel": "DAP adhesives catalog",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
-          "viscosityUnit",
+        "electronicsFieldsPresent": [
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -39554,41 +39549,53 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for PE, PP or PTFE. TDS says pretest glass and avoid oven, microwave and dishwasher exposure. TDS and product page differ on cure time; check current package directions."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-dap-rapidfuse-super-glue",
-      "source": "official-manufacturer-lead",
+      "id": "dap-rapidfuse-super-glue",
+      "source": "manual-tds",
       "maker": "DAP",
       "name": "RapidFuse Super Glue",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "thinCA",
+      "summary": "Fast-setting hybrid cyanoacrylate household adhesive; the linked 2018 TDS reports a 30-second set and four-hour full cure.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household repair adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric, paper",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Ethyl cyanoacrylate hybrid",
+        "cureFamily": "Hybrid cyanoacrylate instant adhesive",
+        "cureDetail": "TDS: sets in 30 seconds; press parts together 10\u201330 seconds; handling time 3 minutes; full cure 4 hours. The current product page claims a 30-minute cure, so check current package directions.",
+        "serviceMin": -18,
+        "serviceMax": 82,
+        "lapShearSubstrate": "Not published in the linked DAP TDS.",
+        "viscosityValue": 2500,
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "flashPointF": 190,
+        "solidsContentPct": 98,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
         "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
-        "tdsUrls": [
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
-          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
@@ -39616,34 +39623,11 @@
             "propertyEvidence": {
               "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 0.85 oz (24.1 g) Transpar | ente"
             }
-          },
-          {
-            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
-            "label": "EN",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155 | 0.2 oz (6g) tube Clear 7079800158",
-              "chemistry": "\u2022 Composites | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 0.85 oz (24.1 g) Clear 7079800155",
-              "viscosity": "Non-Volatiles: 98.0% | Viscosity: 2500 cps | Flash Point: 190\u00b0F | Weight/Gallon: 9.18 lbs/gal",
-              "cureTime": "Handling Time: 3 Minutes | Full Cure: 4 Hours | Freeze/Thaw Stability: Stable | Coverage: 5-15 mL/sq. ft. (Optimal coverage is based on",
-              "serviceTemperature": "Odor: Sharp | Application Temperature Range: 50\u00b0F to 105\u00b0F | Optimum Bottle Temperature: 55\u00b0F to 85\u00b0F | Service Temperature Range: 0\u00b0F to 180\u00b0F",
-              "shelfLife": "Appearance: Clear | Shelf Life: 18 Months Minimum @ 70\u00b0F | Do not transfer to any other container. Keep container tightly closed. If nozzle clogs, clear with a | pin."
-            }
-          },
-          {
-            "url": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf",
-            "label": "ES",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "DESCRIPCI\u00d3N DEL PRODUCTO | EMPAQUE COLOR UPC | 0.85 oz (24.1 g) Transpar | ente"
-            }
           }
+        ],
+        "tdsUrls": [
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+          "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final%207079800155%207079800158%207079800173_Spanish.pdf"
         ],
         "technicalDocuments": [
           {
@@ -39657,38 +39641,40 @@
             "documentType": "SDS"
           }
         ],
-        "sdsUrls": [
-          "https://images.dap.com/3040804English.pdf",
-          "https://images.dap.com/3040804Spanish.pdf"
-        ],
-        "productUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
-        "sourceLabel": "DAP adhesives catalog",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.dap.com/products/adhesives/rapidfuse-super-glue"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
           "viscosityValue",
-          "viscosityUnit",
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -39708,41 +39694,52 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for PE, PP or PTFE. TDS says pretest glass and avoid oven, microwave and dishwasher exposure. TDS (2018) reports a 4-hour full cure; the current product page states 30 minutes."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-dap-ultra-clear-all-purpose-adhesive",
-      "source": "official-manufacturer-lead",
+      "id": "dap-rapidfuse-ultra-clear",
+      "source": "manual-tds",
       "maker": "DAP",
       "name": "Ultra Clear All Purpose Adhesive",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "hybridRepair",
+      "summary": "Flexible, water-resistant silane-terminated hybrid adhesive for clear repairs; dries transparent without yellowing.",
+      "applicationTags": [
+        "general-repair"
+      ],
+      "referenceCategory": "Household repair adhesives",
+      "referenceForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric, paper, concrete",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Silane-terminated prepolymer (hybrid polyurethane formula)",
+        "cureFamily": "Flexible hybrid repair adhesive",
+        "cureDetail": "Clamp at least 25 minutes; allow 1\u20133 hours before return to service and 24 hours for full cure. Slightly dampening nonporous surfaces can speed cure.",
+        "serviceMin": -51,
+        "serviceMax": 149,
+        "lapShearSubstrate": "Not published in the linked DAP TDS.",
+        "viscosityUnit": "cP",
+        "clarity": "transparent",
+        "flashPointF": 212,
+        "solidsContentPct": 97.5,
+        "shelfLifeMonths": 18
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
         "tdsUrl": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
-        "tdsUrls": [
-          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
-          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf",
-          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
-          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
@@ -39770,34 +39767,11 @@
             "propertyEvidence": {
               "appearance": "\u2022 Ideal para uso en interiores y exteriores | EMPAQUE COLOR UPC | Envase de 1.67 fl oz (49 mL) Transparente 7079800180 | 08/2018 | www.dap.com"
             }
-          },
-          {
-            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
-            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180 | KEY FEATURES & BENEFITS",
-              "chemistry": "08/2018 | www.dap.com | PRODUCT DESCRIPTION | PACKAGING COLOR UPC | 1.67 fl oz (49 ml) Bottle Clear 7079800180",
-              "viscosity": "Adhesive Base: Silane Terminated Prepolymer | Consistency: Low Viscosity Liquid | Volatile: <1.5% | Non-Volatiles: 97.5% By Weight",
-              "cureTime": "substrates, apply adhesive to one surface and wait 15 minutes before joining surfaces together. | 3. Wait at least 25 minutes for set. Allow 1 to 3 hours before return to service and 24 hours for full cure. Non- | porous substrates (plastic, metal, glass) may take longer to set and cure. Slightly dampen non-porous surfaces | before application for faster set",
-              "serviceTemperature": "Odor: Low | Application Temperature Range: 40\u00b0F to 120\u00b0F | Optimum Bottle Temperature: 65\u00b0F \u2013 75\u00b0F (Cool dry place; preferably dark) | Service Temperature Range: -60\u00b0F to +300\u00b0F",
-              "shelfLife": "Appearance: Clear, Water White Liquid | Shelf Life: 18 Months Minimum @ 70\u00b0F | Prior to cure: Clean excess adhesive with paper towel and replace cap. | After cure: Cured adhesive may be cut, scraped, or sanded away or removed with acetone or alcohol."
-            }
-          },
-          {
-            "url": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf",
-            "label": "TDS RAPIDFUSE ULTRA CLEAR Technical Data Sheet Technical Data Sheet EN / ES",
-            "documentType": "TDS",
-            "documentRevision": null,
-            "pageCount": 4,
-            "textExtractionStatus": "text-extracted",
-            "propertyEvidence": {
-              "appearance": "\u2022 Ideal para uso en interiores y exteriores | EMPAQUE COLOR UPC | Envase de 1.67 fl oz (49 mL) Transparente 7079800180 | 08/2018 | www.dap.com"
-            }
           }
+        ],
+        "tdsUrls": [
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+          "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180_Spanish.pdf"
         ],
         "technicalDocuments": [
           {
@@ -39811,38 +39785,40 @@
             "documentType": "SDS"
           }
         ],
-        "sdsUrls": [
-          "https://images.dap.com/3041501English.pdf",
-          "https://images.dap.com/3041501Spanish.pdf"
-        ],
-        "productUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
-        "sourceLabel": "DAP adhesives catalog",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
+          "viscosityUnit"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
-          "viscosityUnit",
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -39862,15 +39838,14 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not for PE, PP or PTFE. Pretest glass. Do not put bonded items in an oven, microwave or dishwasher. Nonporous substrates can require longer set and cure times."
       ],
       "extractionCandidates": []
     },

@@ -59853,6 +59853,216 @@ window.TDS_MANUAL_PRODUCTS = [
     "fixtureTime": null,
     "potLife": null,
     "thermalConductivity": null
+  },
+  {
+    "id": "dap-rapidfuse-super-glue",
+    "profile": "thinCA",
+    "maker": "DAP",
+    "name": "RapidFuse Super Glue",
+    "summary": "Fast-setting hybrid cyanoacrylate household adhesive; the linked 2018 TDS reports a 30-second set and four-hour full cure.",
+    "sourceRevisionDate": "DAP RapidFuse Super Glue Technical Data Sheet, August 2018",
+    "chemistry": "Ethyl cyanoacrylate hybrid",
+    "cureFamily": "Hybrid cyanoacrylate instant adhesive",
+    "cureDetail": "TDS: sets in 30 seconds; press parts together 10–30 seconds; handling time 3 minutes; full cure 4 hours. The current product page claims a 30-minute cure, so check current package directions.",
+    "serviceMin": -18,
+    "serviceMax": 82,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked DAP TDS.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 6,
+      "rubber": 6,
+      "plastic": 5,
+      "ceramic": 5,
+      "glass": 4,
+      "fabric": 3,
+      "paper": 2
+    },
+    "cautions": [
+      "Not for PE, PP or PTFE. TDS says pretest glass and avoid oven, microwave and dishwasher exposure. TDS (2018) reports a 4-hour full cure; the current product page states 30 minutes."
+    ],
+    "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
+    "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20TDS%20Final.pdf",
+    "tdsDocumentLabel": "DAP RapidFuse Super Glue Technical Data Sheet, August 2018",
+    "appearance": "Clear liquid",
+    "clarity": "transparent",
+    "viscosityValue": 2500,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 98,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 180,
+    "applicationTemperatureMinF": 50,
+    "applicationTemperatureMaxF": 105,
+    "tdsSetTimeSeconds": 30,
+    "tdsHandPressureTimeRangeSeconds": [
+      10,
+      30
+    ],
+    "tdsHandlingTimeMinutes": 3,
+    "tdsFullCureHours": 4,
+    "shelfLifeMonths": 18,
+    "flashPointF": 190,
+    "waterResistant": true,
+    "outdoorUse": "Interior/exterior per TDS",
+    "storageCondition": "Keep tightly closed in a cool, dry place; do not transfer to another container.",
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "dap-rapidfuse-gel",
+    "profile": "gelCA",
+    "maker": "DAP",
+    "name": "RapidFuse Gel Adhesive",
+    "summary": "No-drip cyanoacrylate gel for controlled application and vertical repairs; 30-second set with repositioning time.",
+    "sourceRevisionDate": "DAP RapidFuse Super Glue Gel Technical Data Sheet, August 2018",
+    "chemistry": "Ethyl cyanoacrylate",
+    "cureFamily": "Cyanoacrylate gel adhesive",
+    "cureDetail": "TDS: sets in 30 seconds; handling time 5 minutes; full cure 4 hours. The current product page describes a 30-minute cure and repositioning up to 3 minutes; follow current package directions.",
+    "serviceMin": -18,
+    "serviceMax": 49,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity",
+      "viscosityValue"
+    ],
+    "lapShearSubstrate": "Not published in the linked DAP TDS.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 6,
+      "rubber": 6,
+      "plastic": 5,
+      "ceramic": 5,
+      "glass": 4,
+      "fabric": 3
+    },
+    "cautions": [
+      "Not for PE, PP or PTFE. TDS says pretest glass and avoid oven, microwave and dishwasher exposure. TDS and product page differ on cure time; check current package directions."
+    ],
+    "referenceUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
+    "tdsUrl": "https://images.dap.com/RapidFuse%20Super%20Glue%20Gel%20TDS%20Final.pdf",
+    "tdsDocumentLabel": "DAP RapidFuse Super Glue Gel Technical Data Sheet, August 2018",
+    "appearance": "Clear gel",
+    "clarity": "transparent",
+    "viscosityUnit": "cP",
+    "solidsContentPct": 98,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 120,
+    "applicationTemperatureMinF": 40,
+    "applicationTemperatureMaxF": 105,
+    "tdsSetTimeSeconds": 30,
+    "tdsHandlingTimeMinutes": 5,
+    "tdsFullCureHours": 4,
+    "repositionTimeRangeMinutes": [
+      0,
+      3
+    ],
+    "shelfLifeMonths": 18,
+    "flashPointF": 190.4,
+    "waterResistant": true,
+    "outdoorUse": "Interior/exterior per product page",
+    "storageCondition": "Keep tightly closed in a cool, dry place; do not transfer to another container.",
+    "tdsViscosityRangeCps": [
+      90000,
+      120000
+    ],
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
+  },
+  {
+    "id": "dap-rapidfuse-ultra-clear",
+    "profile": "hybridRepair",
+    "maker": "DAP",
+    "name": "Ultra Clear All Purpose Adhesive",
+    "summary": "Flexible, water-resistant silane-terminated hybrid adhesive for clear repairs; dries transparent without yellowing.",
+    "sourceRevisionDate": "DAP RapidFuse Ultra Clear All Purpose Adhesive Technical Data Sheet, August 2018",
+    "chemistry": "Silane-terminated prepolymer (hybrid polyurethane formula)",
+    "cureFamily": "Flexible hybrid repair adhesive",
+    "cureDetail": "Clamp at least 25 minutes; allow 1–3 hours before return to service and 24 hours for full cure. Slightly dampening nonporous surfaces can speed cure.",
+    "serviceMin": -51,
+    "serviceMax": 149,
+    "unpublishedFields": [
+      "lapShear",
+      "fixtureTime",
+      "potLife",
+      "thermalConductivity"
+    ],
+    "lapShearSubstrate": "Not published in the linked DAP TDS.",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "stress": {
+      "shear": 3,
+      "peel": 3,
+      "impact": 3
+    },
+    "substrates": {
+      "wood": 6,
+      "metal": 6,
+      "rubber": 5,
+      "plastic": 5,
+      "ceramic": 5,
+      "glass": 7,
+      "fabric": 4,
+      "paper": 4,
+      "concrete": 4
+    },
+    "cautions": [
+      "Not for PE, PP or PTFE. Pretest glass. Do not put bonded items in an oven, microwave or dishwasher. Nonporous substrates can require longer set and cure times."
+    ],
+    "referenceUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
+    "tdsUrl": "https://images.dap.com/rapidfuse-ultra-clear-tdb_51921%207079800180.pdf",
+    "tdsDocumentLabel": "DAP RapidFuse Ultra Clear All Purpose Adhesive Technical Data Sheet, August 2018",
+    "appearance": "Clear, water-white liquid; flexible cured bond",
+    "clarity": "transparent",
+    "solidsContentPct": 97.5,
+    "viscosityUnit": "cP",
+    "serviceTemperatureMinF": -60,
+    "serviceTemperatureMaxF": 300,
+    "applicationTemperatureMinF": 40,
+    "applicationTemperatureMaxF": 120,
+    "tdsHandlingTimeMinutes": 60,
+    "tdsFullCureHours": 24,
+    "shelfLifeMonths": 18,
+    "waterResistant": true,
+    "outdoorUse": "Interior/exterior per TDS",
+    "freezeThawStability": "Does not freeze",
+    "flashPointF": 212,
+    "storageCondition": "Keep the cap tightly closed; store cool and dry. TDS recommends a cool, dark location for optimum bottle temperature.",
+    "tdsViscosityRangeCps": [
+      1300,
+      1500
+    ],
+    "lapShear": null,
+    "fixtureTime": null,
+    "potLife": null,
+    "thermalConductivity": null
   }
 ];
 
@@ -75850,12 +76060,72 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://diy.bostik.com/en-UK/our-ranges/create/removable-glu-dots",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-rapidfuse-super-glue",
+    "manufacturer": "DAP",
+    "familyName": "RapidFuse Super Glue",
+    "primaryCategory": "Household repair adhesives",
+    "categories": [
+      "Household repair adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric, paper",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://www.dap.com/products/adhesives/rapidfuse-super-glue",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-rapidfuse-gel",
+    "manufacturer": "DAP",
+    "familyName": "RapidFuse Gel Adhesive",
+    "primaryCategory": "Household repair adhesives",
+    "categories": [
+      "Household repair adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 49,
+    "offerCount": 1,
+    "sourceUrl": "https://www.dap.com/products/adhesives/rapidfuse-gel-adhesive",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-rapidfuse-ultra-clear",
+    "manufacturer": "DAP",
+    "familyName": "Ultra Clear All Purpose Adhesive",
+    "primaryCategory": "Household repair adhesives",
+    "categories": [
+      "Household repair adhesives"
+    ],
+    "sampleType": "Consumer package",
+    "sampleConsistency": "See TDS description",
+    "sampleForJoining": "wood, metal, rubber, plastic, ceramic, glass, fabric, paper, concrete",
+    "applicationTags": [
+      "general-repair"
+    ],
+    "tempMinC": -51,
+    "tempMaxC": 149,
+    "offerCount": 1,
+    "sourceUrl": "https://www.dap.com/products/adhesives/ultra-clear-all-purpose-adhesive",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 602,
-  "referenceFamilies": 602,
-  "tdsBackedProducts": 595,
+  "selectorProducts": 605,
+  "referenceFamilies": 605,
+  "tdsBackedProducts": 598,
   "otherOfficialTechnicalSources": 7
 };

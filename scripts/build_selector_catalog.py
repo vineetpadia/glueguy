@@ -77,6 +77,8 @@ SELECTOR_PRODUCT_FIELDS = {
     "tdsApplicationTemperatureFRange",
     "tdsOpenTimeSeconds",
     "tdsDeliveryTimeSeconds",
+    "tdsSetTimeSeconds",
+    "tdsHandPressureTimeRangeSeconds",
     "tdsShearStrengthPsi",
     "tdsShearStrengthSubstrate",
     "tdsPeelStrengthPiw",

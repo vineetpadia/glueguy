@@ -63960,6 +63960,577 @@
       "referenceForJoining": "Subfloor and plywood decking to wood joists; most wood-to-wood assemblies",
       "tdsUrl": "https://datasheets.tdx.henkel.com/LEPAGE-PL-400-en_CA.pdf",
       "tdsDocumentLabel": "LePage PL 400 Subfloor & Deck Construction Adhesive Technical Data Sheet, revision March 15, 2026"
+    },
+    {
+      "id": "loctite-ceramic-repair",
+      "profile": "hybridRepair",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Ceramic Repair",
+      "summary": "Water-based acrylic-emulsion repair coating for filling shallow chips and scratches in white ceramic and porcelain; intended as a surface restoration product rather than a structural bond.",
+      "sourceRevisionDate": "revision November 22, 2025",
+      "chemistry": "Acrylic emulsion",
+      "cureFamily": "Acrylic emulsion",
+      "cureDetail": "Apply in a thin layer up to 1/8 in (3.2 mm); 24-hour cure per coat and 4-hour wait before a second coat.",
+      "applicationTags": [
+        "ceramic-repair",
+        "surface-repair",
+        "bathroom-repair"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "ceramic": 9,
+        "porcelain": 9,
+        "tile": 7
+      },
+      "cautions": [
+        "Not for vertical surfaces, large gaps, rusted surfaces, colored surfaces or paintable finishes.",
+        "Not for ovens, stoves, microwaves or other high-heat surfaces. Apply above 10 °C; service range 5–70 °C."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html",
+      "referenceCategory": "Ceramic and household surface repair",
+      "referenceSampleType": "Metal tube",
+      "referenceSampleConsistency": "White acrylic-emulsion liquid",
+      "referenceForJoining": "Shallow chips and scratches in ceramic and porcelain",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Ceramic-Repair-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Ceramic Repair Technical Data Sheet, revision November 22, 2025",
+      "clarity": "opaque",
+      "waterResistant": true,
+      "shelfLifeMonths": 12,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "viscosityValue": null,
+      "viscosityUnit": "cP",
+      "unpublishedFields": [
+        "lapShear",
+        "potLife",
+        "thermalConductivity",
+        "viscosityValue"
+      ],
+      "lapShearSubstrate": "No lap-shear value published; TDS describes surface repair of ceramic/porcelain chips and scratches, not structural joining.",
+      "serviceMin": 5,
+      "serviceMax": 70,
+      "applicationTemperatureMinC": 10,
+      "applicationTemperatureMaxC": 40,
+      "viscosityRangeCps": [
+        1500,
+        3000
+      ],
+      "tackFreeTime": "24 hours; TDS states leave undisturbed for 24 hours",
+      "dryColor": "Glossy white",
+      "potLife": null,
+      "fixtureTime": null,
+      "lapShear": null
+    },
+    {
+      "id": "loctite-clear-silicone-waterproof-sealant",
+      "profile": "siliconeRubberAdhesive",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Clear Silicone Waterproof Sealant",
+      "summary": "Flexible acetoxy RTV silicone adhesive-sealant for waterproof sealing and bonding around glass, metal, tile, porcelain and selected rubbers and plastics.",
+      "sourceRevisionDate": "revision September 23, 2016",
+      "chemistry": "One-part acetoxy RTV silicone",
+      "cureFamily": "One-part acetoxy RTV silicone adhesive sealant",
+      "cureDetail": "Moisture-cure; 5–10 minute working time, 2-hour tack-free time and 24-hour cure (times vary with joint conditions).",
+      "applicationTags": [
+        "silicone-sealant",
+        "waterproofing",
+        "flexible-bonding",
+        "weatherproofing"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "glass": 9,
+        "ceramic": 8,
+        "porcelain": 8,
+        "aluminum": 7,
+        "stainlessSteel": 7,
+        "rubber": 7,
+        "abs": 6,
+        "wood": 5
+      },
+      "cautions": [
+        "Not recommended on PE, PP, PTFE, PMMA, polycarbonate, PVC, marble, limestone, cement, concrete, brass, copper, magnesium, iron, zinc or galvanized metals.",
+        "Not paintable. Aquarium use limited to tanks ≤30 gallons (114 L) and water depth ≤18 in (46 cm); not for below-grade, chimney or stovepipe use. Acetic-acid odor during cure: ventilate."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-silicone/SAP_0201XCL02WYJ.html",
+      "referenceCategory": "Silicone adhesive sealant",
+      "referenceSampleType": "Tube",
+      "referenceSampleConsistency": "Clear non-slumping RTV paste",
+      "referenceForJoining": "Glass, metal, tile, porcelain, selected rubber/plastic; sealing joints",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Clear-Silicone-Waterproof-Sealant-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Clear Silicone Waterproof Sealant Technical Data Sheet, revision September 23, 2016",
+      "clarity": "transparent",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "unpublishedFields": [
+        "fixtureTime",
+        "lapShear",
+        "potLife",
+        "thermalConductivity",
+        "viscosityValue"
+      ],
+      "lapShearSubstrate": "Not published in the TDS; tensile strength is reported separately under ASTM D412.",
+      "serviceMin": -60,
+      "serviceMax": 177,
+      "serviceTemperatureNote": "TDS also lists short-term/intermittent exposure to 200 °C; continuous service is -60 to 177 °C.",
+      "openTimeRangeMinutes": [
+        5,
+        10
+      ],
+      "tackFreeTime": "2 hours",
+      "tackFreeTimeMinutes": 120,
+      "tensileStrengthMPa": 1.5,
+      "elongationPct": 350,
+      "hardnessValue": 20,
+      "hardnessScale": "Shore A, minimum",
+      "specificGravity": 1.03,
+      "lapShear": null
+    },
+    {
+      "id": "loctite-epoxy-instant-mix-1min",
+      "profile": "clearEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Instant Mix 1 Minute",
+      "summary": "Fast-setting self-mixing epoxy for small gap-bonding, filling, surface repairs and laminating across many rigid household materials.",
+      "sourceRevisionDate": "TDS revision date unavailable in accessible text; official Henkel-hosted document digitally signed November 28, 2025",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix; 1-minute gel time, 5–10-minute handling strength and 24-hour full cure. Instructions say place parts together within 40 seconds.",
+      "applicationTags": [
+        "epoxy",
+        "fast-setting",
+        "gap-filling",
+        "household-repair"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "metal": 7,
+        "glass": 6,
+        "ceramic": 7,
+        "wood": 7,
+        "fiberglass": 7,
+        "concrete": 6,
+        "stone": 6,
+        "rigidPlastic": 5
+      },
+      "cautions": [
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Do not expose to prolonged water immersion or continuously wet areas; not for potable-water systems.",
+        "Short-term heat limit is 150 °C; continuous service range is -23 to 49 °C."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-1min/SAP_0201OAL029U5.html",
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceSampleType": "Static-mix syringe",
+      "referenceSampleConsistency": "Two-part liquid resin/hardener",
+      "referenceForJoining": "Metal, glass, ceramic, wood, rigid plastics, fiberglass, concrete and stone",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-1-Minute-Instant-Mix-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Epoxy Instant Mix 1 Minute Technical Data Sheet, TDS revision date unavailable in accessible text; official Henkel-hosted document digitally signed November 28, 2025",
+      "clarity": "translucent",
+      "waterResistant": true,
+      "shelfLifeMonths": 18,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "lapShear": 17.2,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 17.2 MPa tensile shear.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "TDS lists short-term/intermittent exposure to 150 °C; continuous service is -23 to 49 °C.",
+      "potLife": "1 minute gel time",
+      "applicationTemperatureMinC": 4,
+      "applicationTemperatureMaxC": 35,
+      "fullCureMinutes": 1440,
+      "tensileShearStrengthMPa": 17.2,
+      "tdsShearProfilesMPa": {
+        "sandblastedColdRolledSteel24h": 17.2
+      },
+      "unpublishedFields": [
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "loctite-epoxy-marine",
+      "profile": "toughenedEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Marine",
+      "summary": "Long-working waterproof epoxy for repairs on boats, pipes and parts that may be immersed or bonded underwater.",
+      "sourceRevisionDate": "revision April 24, 2018",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix; 120–150-minute gel/set time, usable strength in 3 hours and full cure in 24 hours.",
+      "applicationTags": [
+        "epoxy",
+        "marine-repair",
+        "underwater-curing",
+        "pipe-repair",
+        "waterproofing"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "metal": 8,
+        "concrete": 7,
+        "glass": 7,
+        "fiberglass": 9,
+        "ceramic": 7,
+        "wood": 7,
+        "rigidPlastic": 6,
+        "pvc": 8
+      },
+      "cautions": [
+        "Not recommended for PE, PP, non-stick coatings, nylon or flexible materials.",
+        "Not for aquariums or potable-water systems. Short-term heat limit is 150 °C; continuous service range is -23 to 49 °C."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html",
+      "referenceCategory": "Marine and epoxy repair adhesives",
+      "referenceSampleType": "Dual syringe",
+      "referenceSampleConsistency": "Two-part epoxy paste",
+      "referenceForJoining": "Metal, concrete, glass, fiberglass, ceramic, wood, rigid plastics and PVC pipes",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Marine-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Epoxy Marine Technical Data Sheet, revision April 24, 2018",
+      "clarity": "opaque",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "lapShear": 20.68,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 20.68 MPa tensile shear; TDS reports distinct wet/underwater results.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "Intermittent exposure up to 150 °C; continuous service is -23 to 49 °C. Product is rated for underwater application and cure.",
+      "potLife": "120–150 minutes",
+      "potLifeConditions": "Gel time for 2 g + 2 g mixed adhesive.",
+      "applicationTemperatureMinC": 4,
+      "applicationTemperatureMaxC": 35,
+      "hardnessValue": 85,
+      "hardnessScale": "Shore D",
+      "tdsShearProfilesMPa": {
+        "coldRolledSteel6h": 5.95,
+        "coldRolledSteel24h": 20.68,
+        "coldRolledSteel7d": 24.72,
+        "aluminum6061T24h": 18.97,
+        "aluminum6061T7dAfterWaterImmersion": 18.24,
+        "aluminum6061T8dImmersion": 17.93,
+        "bondedAndCuredUnderwater7d": 3.8,
+        "sandedHardPVC24h": 9.79,
+        "sandedAcryliteFF24h": 8.08,
+        "maple24h": 11.85
+      },
+      "tdsShearTestMethod": "Tensile/compressive shear as labeled in manufacturer TDS; values separated by substrate, cure and immersion condition."
+    },
+    {
+      "id": "loctite-epoxy-metal-concrete",
+      "profile": "toughenedEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Metal/Concrete",
+      "summary": "Machinable gray insulating epoxy for rebuilding metal and concrete repairs, including sealing electrical components against moisture and vibration.",
+      "sourceRevisionDate": "revision April 20, 2018",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix; 5–12-minute gel/set, usable strength in 12 hours and full cure in 24 hours.",
+      "applicationTags": [
+        "epoxy",
+        "metal-repair",
+        "concrete-repair",
+        "electrical-sealing"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "metal": 9,
+        "concrete": 9,
+        "glass": 7,
+        "ceramic": 7,
+        "wood": 7,
+        "stone": 6
+      },
+      "cautions": [
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for continuous immersion, continuously wet areas or potable-water systems.",
+        "Short-term heat limit 150 °C; continuous service -23 to 49 °C. TDS says adhesive does not conduct electricity."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html",
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceSampleType": "Dual syringe",
+      "referenceSampleConsistency": "Two-part metallic-gray paste",
+      "referenceForJoining": "Metal, concrete, glass, ceramic, wood and stone",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-MetalConcrete-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Epoxy Metal/Concrete Technical Data Sheet, revision April 20, 2018",
+      "clarity": "opaque",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "lapShear": 22.01,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 22.01 MPa tensile shear.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "Intermittent exposure up to 150 °C only; continuous service is -23 to 49 °C.",
+      "potLife": "5–12 minutes",
+      "applicationTemperatureMinC": 4,
+      "applicationTemperatureMaxC": 35,
+      "electricalBehavior": "electrically insulating; TDS says it does not conduct electricity",
+      "tdsShearProfilesMPa": {
+        "coldRolledSteel6h": 7.0,
+        "coldRolledSteel24h": 16.82,
+        "coldRolledSteel7d": 22.01,
+        "sandblastedAluminum24h": 16.51,
+        "sandblastedAluminum7dAfterWaterImmersion": 15.61,
+        "sandblastedAluminum8dImmersion": 16.09,
+        "sandedHardPVC24h": 6.28,
+        "sandedAcryliteFF24h": 11.42,
+        "maple24h": 15.75
+      },
+      "unpublishedFields": [
+        "thermalConductivity"
+      ]
+    },
+    {
+      "id": "loctite-epoxy-plastic",
+      "profile": "clearEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Plastic",
+      "summary": "Machinable water-resistant epoxy formulated for rigid plastics including ABS, fiberglass and PVC, plus gap filling, surface repair and laminating.",
+      "sourceRevisionDate": "revision April 26, 2018",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix; 4–10-minute gel time, usable strength in 1 hour and full cure in 24 hours.",
+      "applicationTags": [
+        "epoxy",
+        "plastic-repair",
+        "gap-filling",
+        "machinable"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "abs": 8,
+        "fiberglass": 8,
+        "pvc": 9,
+        "rigidPlastic": 9
+      },
+      "cautions": [
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for continuous immersion, continuously wet areas or potable water. Short-term heat limit 150 °C; continuous service -23 to 49 °C."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html",
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceSampleType": "Dual syringe",
+      "referenceSampleConsistency": "Two-part epoxy liquid/paste",
+      "referenceForJoining": "ABS, fiberglass, hard plastics and PVC",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE--Epoxy-Plastic-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Epoxy Plastic Technical Data Sheet, revision April 26, 2018",
+      "clarity": "translucent",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "unpublishedFields": [
+        "lapShear",
+        "thermalConductivity"
+      ],
+      "lapShearSubstrate": "No tensile lap-shear value reported; TDS reports compressive shear at 24 h: hard PVC 7.45 MPa and Acrylite FF 6.61 MPa.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "Intermittent exposure up to 150 °C; continuous service -23 to 49 °C.",
+      "potLife": "4–10 minutes",
+      "applicationTemperatureMinC": 4,
+      "applicationTemperatureMaxC": 35,
+      "tdsCompressiveShearProfilesMPa": {
+        "sandedHardPVC24h": 7.45,
+        "sandedAcryliteFF24h": 6.61
+      }
+    },
+    {
+      "id": "loctite-epoxy-putty",
+      "profile": "toughenedEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Repair Putty All Purpose",
+      "summary": "Hand-kneadable epoxy putty for waterproof gap filling and emergency repairs; bonds damp surfaces and cures underwater, but is not for structural or moving joints.",
+      "sourceRevisionDate": "revision May 20, 2019; supersedes March 6, 2018",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener putty",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Hand knead approximately 1 minute; 3–5-minute working time, functional cure in 60 minutes, can be sanded/drilled/painted from 15 minutes and full cure in 24 hours.",
+      "applicationTags": [
+        "epoxy-putty",
+        "waterproof-repair",
+        "gap-filling",
+        "plumbing-repair",
+        "underwater-curing"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "metal": 8,
+        "wood": 7,
+        "ceramic": 8,
+        "brick": 7,
+        "concrete": 8,
+        "fiberglass": 8,
+        "pvc": 7,
+        "rigidPlastic": 6
+      },
+      "cautions": [
+        "Not for structural applications, moving repairs or large/deep holes.",
+        "Load-bearing bonds limited to 70 °C; fills limited to 121 °C. Not recommended for PE, PP, non-stick coatings, nylon or flexible materials. Potable-water suitability must be verified for the jurisdiction and application."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-putty/SAP_0201OGL029V2.html",
+      "referenceCategory": "Epoxy repair putty",
+      "referenceSampleType": "Hand-kneadable cylinder",
+      "referenceSampleConsistency": "Modeling-clay epoxy putty",
+      "referenceForJoining": "Metal, wood, ceramic, brick, concrete, fiberglass, PVC and most rigid plastics",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Repair-Putty-All-Purpose-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Repair Putty All Purpose Technical Data Sheet, revision May 20, 2019; supersedes March 6, 2018",
+      "clarity": "opaque",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "unpublishedFields": [
+        "lapShear",
+        "thermalConductivity"
+      ],
+      "lapShearSubstrate": "The TDS reports repair-putty shear measurements by material and wet/dry/underwater condition, not a comparable standardized lap-shear rating; see tdsShearProfilesPsi.",
+      "serviceMin": -27,
+      "serviceMax": 70,
+      "serviceTemperatureNote": "TDS lists up to 121 °C for fills, but 70 °C for load-bearing bonds.",
+      "potLife": "3–5 minutes working time",
+      "specificGravity": 2.0,
+      "hardnessValue": 84,
+      "hardnessScale": "Shore D",
+      "tdsShearProfilesPsi": {
+        "steel24hDry": 1703,
+        "steel24hWetSubstrate": 747,
+        "beech24hDry": 969,
+        "beech24hWetSubstrate": 207,
+        "steelBondedAndCuredUnderwater24h": 593,
+        "steelCuredDryThenBondedUnderwater24h": 451
+      },
+      "lapShear": null
+    },
+    {
+      "id": "loctite-epoxy-quick-set",
+      "profile": "clearEpoxy",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Quick Set",
+      "summary": "General-purpose 5-minute dual-syringe epoxy for bonding, filling, surface repairs and laminating rigid materials.",
+      "sourceRevisionDate": "TDS revision date unavailable in accessible text; Henkel-hosted PDF digitally signed November 28, 2025",
+      "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+      "cureFamily": "Two-part room-temperature epoxy",
+      "cureDetail": "Equal-volume mix; 4–10-minute gel time, usable strength in 1 hour and full cure in 24 hours.",
+      "applicationTags": [
+        "epoxy",
+        "fast-setting",
+        "gap-filling",
+        "household-repair",
+        "machinable"
+      ],
+      "stress": {
+        "shear": 6,
+        "peel": 3,
+        "impact": 4
+      },
+      "substrates": {
+        "metal": 8,
+        "glass": 7,
+        "ceramic": 8,
+        "wood": 7,
+        "fiberglass": 7,
+        "concrete": 7,
+        "stone": 7,
+        "rigidPlastic": 6
+      },
+      "cautions": [
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for prolonged water immersion, continuously wet areas or potable-water systems.",
+        "Short-term exposure limit 150 °C; continuous service -23 to 49 °C."
+      ],
+      "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceSampleType": "Dual syringe",
+      "referenceSampleConsistency": "Two-part clear/amber epoxy",
+      "referenceForJoining": "Metal, glass, ceramic, wood, rigid plastics, china, tile, fiberglass, concrete and stone",
+      "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Quick-Set-en_US.pdf",
+      "tdsDocumentLabel": "Loctite Epoxy Quick Set Technical Data Sheet, TDS revision date unavailable in accessible text; Henkel-hosted PDF digitally signed November 28, 2025",
+      "clarity": "translucent",
+      "waterResistant": true,
+      "shelfLifeMonths": 24,
+      "tdsFullCureHours": [
+        24,
+        24
+      ],
+      "lapShear": 23.7,
+      "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 23.70 MPa tensile shear; TDS reports multiple substrate- and cure-specific strengths.",
+      "serviceMin": -23,
+      "serviceMax": 49,
+      "serviceTemperatureNote": "Intermittent exposure to 150 °C; continuous service is -23 to 49 °C.",
+      "potLife": "4–10 minutes",
+      "applicationTemperatureMinC": 4,
+      "applicationTemperatureMaxC": 35,
+      "hardnessValue": 80,
+      "hardnessScale": "Shore D",
+      "tdsShearProfilesMPa": {
+        "coldRolledSteel1h": 9.11,
+        "coldRolledSteel4h": 17.2,
+        "coldRolledSteel24h": 23.7,
+        "coldRolledSteel7d": 23.62,
+        "sandblastedAluminum24h": 14.17,
+        "sandblastedAluminum7dAfterWaterImmersion": 14.12,
+        "sandedHardPVC24h": 7.45,
+        "sandedAcryliteFF24h": 6.61,
+        "maple24h": 14.4
+      },
+      "tdsCompressiveShearProfilesMPa": {
+        "sandedHardPVC24h": 7.45,
+        "sandedAcryliteFF24h": 6.61,
+        "maple24h": 14.4
+      },
+      "unpublishedFields": [
+        "thermalConductivity"
+      ]
     }
   ]
 }

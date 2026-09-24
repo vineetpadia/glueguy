@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T02:42:18.782021+00:00",
+  "generatedAt": "2026-09-24T02:52:29.071193+00:00",
   "intendedUse": "Machine-readable adhesive catalog for LLM/tool agents. Prefer exact specs and source URLs; do not infer missing values.",
   "queryGuidance": [
     "Filter by applicationTags, substrates, serviceMin/serviceMax, chemistry/cureFamily, and sourceQuality before ranking.",
@@ -11,11 +11,11 @@
     "official-manufacturer-lead records are browse-only, carry no curated specifications, and must not be ranked or recommended until reviewed."
   ],
   "stats": {
-    "products": 1731,
-    "manualTdsProducts": 617,
+    "products": 1734,
+    "manualTdsProducts": 625,
     "otherOfficialTechnicalSources": 7,
     "mcmasterDerivedProducts": 428,
-    "officialManufacturerLeads": 679,
+    "officialManufacturerLeads": 674,
     "productsWithExtractionCandidates": 0,
     "auditStats": {
       "appBaseRecords": 215,
@@ -742,23 +742,26 @@
         "loctite-480",
         "loctite-495",
         "loctite-aa3492",
+        "loctite-ceramic-repair",
         "loctite-clear-epoxy",
+        "loctite-clear-silicone-waterproof-sealant",
+        "loctite-epoxy-instant-mix-1min",
         "loctite-epoxy-instant-mix-5min",
+        "loctite-epoxy-marine",
+        "loctite-epoxy-metal-concrete",
+        "loctite-epoxy-plastic",
+        "loctite-epoxy-putty",
+        "loctite-epoxy-quick-set",
         "loctite-hy4070",
         "loctite-pl-premium-construction-adhesive",
         "loctite-power-grab-ultimate-crystal-clear",
         "loctite-si595",
         "loctite-super-glue-ultra-gel-control",
-        "official-lead-henkel-loctite-loctite-ceramic-repair",
         "official-lead-henkel-loctite-loctite-clear-epoxy",
         "official-lead-henkel-loctite-loctite-clear-silicone",
         "official-lead-henkel-loctite-loctite-epoxy-instant-mix-1min",
         "official-lead-henkel-loctite-loctite-epoxy-instant-mix-5min",
-        "official-lead-henkel-loctite-loctite-epoxy-marine",
-        "official-lead-henkel-loctite-loctite-epoxy-metal-concrete",
-        "official-lead-henkel-loctite-loctite-epoxy-plastic",
         "official-lead-henkel-loctite-loctite-epoxy-putty",
-        "official-lead-henkel-loctite-loctite-epoxy-quick-set",
         "official-lead-henkel-loctite-loctite-super-glue-ultra-gel-control"
       ],
       "High Locking Strength": [
@@ -2296,6 +2299,9 @@
       "bare-die": [
         "dymax-9001-e-v3-5"
       ],
+      "bathroom-repair": [
+        "loctite-ceramic-repair"
+      ],
       "battery": [
         "threebond-tb1171e"
       ],
@@ -2403,6 +2409,9 @@
         "permabond-ta439",
         "permabond-ta440",
         "permatex-5-minute-epoxy-10500"
+      ],
+      "ceramic-repair": [
+        "loctite-ceramic-repair"
       ],
       "channel-letters": [
         "weldon-55-polycarbonate-petg"
@@ -2568,7 +2577,8 @@
       ],
       "concrete-repair": [
         "3m-scotch-weld-dp600-dp600ns-urethane",
-        "lepage-epoxy-steel"
+        "lepage-epoxy-steel",
+        "loctite-epoxy-metal-concrete"
       ],
       "concrete-sealing": [
         "3m-bondo-fiberglass-resin-0401"
@@ -3070,7 +3080,8 @@
         "loctite-si595"
       ],
       "electrical-sealing": [
-        "lepage-epoxy-steel"
+        "lepage-epoxy-steel",
+        "loctite-epoxy-metal-concrete"
       ],
       "electrically-conductive": [
         "panacol-elecolit-325"
@@ -3352,11 +3363,19 @@
         "jbweld-original-twin-tube-2oz",
         "lepage-epoxy-steel",
         "loctite-clear-epoxy",
+        "loctite-epoxy-instant-mix-1min",
         "loctite-epoxy-instant-mix-5min",
+        "loctite-epoxy-marine",
+        "loctite-epoxy-metal-concrete",
+        "loctite-epoxy-plastic",
+        "loctite-epoxy-quick-set",
         "permatex-5-minute-epoxy-10500",
         "threebond-tb1655d20t",
         "threebond-tb2448",
         "threebond-tb3124"
+      ],
+      "epoxy-putty": [
+        "loctite-epoxy-putty"
       ],
       "esd": [
         "panacol-elecolit-325"
@@ -3444,7 +3463,9 @@
         "caseway-sc-325-polycarbonate",
         "gorilla-glue-super-glue",
         "gorilla-super-glue-gel",
+        "loctite-epoxy-instant-mix-1min",
         "loctite-epoxy-instant-mix-5min",
+        "loctite-epoxy-quick-set",
         "permatex-5-minute-epoxy-10500",
         "threebond-tb1359k",
         "threebond-tb1390r",
@@ -3578,6 +3599,7 @@
         "limitless-shielding-ca-sc-10",
         "limitless-shielding-ca-sc-310",
         "limitless-shielding-ca-sc-55",
+        "loctite-clear-silicone-waterproof-sealant",
         "loctite-si595",
         "mg-chemicals-832fx",
         "mg-chemicals-832fxc",
@@ -3662,6 +3684,10 @@
         "liquid-nails-ln902",
         "liquid-nails-ln905",
         "loctite-454",
+        "loctite-epoxy-instant-mix-1min",
+        "loctite-epoxy-plastic",
+        "loctite-epoxy-putty",
+        "loctite-epoxy-quick-set",
         "loctite-pl-premium-construction-adhesive",
         "mg-chemicals-9200",
         "permabond-268",
@@ -4034,7 +4060,9 @@
         "lepage-super-glue-ultra-liquid-control",
         "liquid-nails-ln700",
         "loctite-clear-epoxy",
-        "loctite-epoxy-instant-mix-5min"
+        "loctite-epoxy-instant-mix-1min",
+        "loctite-epoxy-instant-mix-5min",
+        "loctite-epoxy-quick-set"
       ],
       "hq-free": [
         "threebond-tb17n040"
@@ -4679,6 +4707,10 @@
       "lse-bonding": [
         "permabond-ta4610"
       ],
+      "machinable": [
+        "loctite-epoxy-plastic",
+        "loctite-epoxy-quick-set"
+      ],
       "machine-joints": [
         "threebond-tb1121"
       ],
@@ -4711,7 +4743,8 @@
         "penchem-gl311-1-structural-epoxy"
       ],
       "marine-repair": [
-        "3m-bondo-fiberglass-resin-0401"
+        "3m-bondo-fiberglass-resin-0401",
+        "loctite-epoxy-marine"
       ],
       "masking": [
         "threebond-tb3020b"
@@ -4937,6 +4970,7 @@
         "jbweld-original-professional-size-10oz",
         "jbweld-original-twin-tube-2oz",
         "lepage-epoxy-steel",
+        "loctite-epoxy-metal-concrete",
         "permabond-et5003"
       ],
       "methyl-cyanoacrylate": [
@@ -5401,7 +5435,8 @@
         "weldon-771-abs"
       ],
       "pipe-repair": [
-        "3m-scotchkote-323-liquid-epoxy-coating"
+        "3m-scotchkote-323-liquid-epoxy-coating",
+        "loctite-epoxy-marine"
       ],
       "pipe-sealing": [
         "permabond-lh050",
@@ -5552,6 +5587,7 @@
         "3m-scotch-weld-dp8610ns-flexible-acrylic-7100244477",
         "3m-scotch-weld-pur-2710p-black",
         "e6000-premium",
+        "loctite-epoxy-plastic",
         "loctite-hy4070",
         "lord-fusor-142",
         "lord-fusor-152",
@@ -5594,6 +5630,9 @@
       ],
       "plumbing": [
         "oatey-clear-pvc-medium-bodied"
+      ],
+      "plumbing-repair": [
+        "loctite-epoxy-putty"
       ],
       "pmma": [
         "weldon-4sc"
@@ -6477,6 +6516,9 @@
         "momentive-invisisil-rtv615",
         "threebond-tb7797"
       ],
+      "silicone-sealant": [
+        "loctite-clear-silicone-waterproof-sealant"
+      ],
       "siloxane-free": [
         "cemedine-sx1008",
         "cemedine-sx720",
@@ -6912,6 +6954,9 @@
       "surface-protection": [
         "threebond-tb6154d"
       ],
+      "surface-repair": [
+        "loctite-ceramic-repair"
+      ],
       "synthetic-rubber": [
         "threebond-tb1184"
       ],
@@ -7172,6 +7217,10 @@
       "underwater-bonding": [
         "permabond-ta4631"
       ],
+      "underwater-curing": [
+        "loctite-epoxy-marine",
+        "loctite-epoxy-putty"
+      ],
       "upholstery": [
         "dap-weldwood-original-contact-cement-spray"
       ],
@@ -7406,6 +7455,9 @@
         "titebond-fast-set-polyurethane-construction-adhesive",
         "titebond-iii-ultimate"
       ],
+      "waterproof-repair": [
+        "loctite-epoxy-putty"
+      ],
       "waterproof-sealing": [
         "threebond-tb3081p",
         "threebond-tb3166"
@@ -7414,7 +7466,9 @@
         "3m-bondo-fiberglass-resin-0401",
         "3m-marine-adhesive-sealant-4200fc-black-06564",
         "3m-scotchcast-3570g-n",
-        "cemedine-sx720"
+        "cemedine-sx720",
+        "loctite-clear-silicone-waterproof-sealant",
+        "loctite-epoxy-marine"
       ],
       "wax": [
         "threebond-tb6154d"
@@ -7440,6 +7494,9 @@
         "liquid-nails-ln3000",
         "liquid-nails-ln901",
         "liquid-nails-ln905"
+      ],
+      "weatherproofing": [
+        "loctite-clear-silicone-waterproof-sealant"
       ],
       "welch-plug-sealing": [
         "threebond-tb1386h"
@@ -7610,8 +7667,8 @@
     },
     "sourceQualityCounts": {
       "cached-official-tds-text": 517,
-      "official-manufacturer-lead": 679,
-      "official-tds-url": 344,
+      "official-manufacturer-lead": 674,
+      "official-tds-url": 352,
       "product-or-catalog-page": 191
     }
   },
@@ -62707,61 +62764,87 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-ceramic-repair",
-      "source": "official-manufacturer-lead",
+      "id": "loctite-ceramic-repair",
+      "source": "manual-tds",
       "maker": "Henkel Loctite",
       "name": "Loctite Ceramic Repair",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "hybridRepair",
+      "summary": "Water-based acrylic-emulsion repair coating for filling shallow chips and scratches in white ceramic and porcelain; intended as a surface restoration product rather than a structural bond.",
+      "applicationTags": [
+        "ceramic-repair",
+        "surface-repair",
+        "bathroom-repair"
+      ],
+      "referenceCategory": "Ceramic and household surface repair",
+      "referenceForJoining": "Shallow chips and scratches in ceramic and porcelain",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Acrylic emulsion",
+        "cureFamily": "Acrylic emulsion",
+        "cureDetail": "Apply in a thin layer up to 1/8 in (3.2 mm); 24-hour cure per coat and 4-hour wait before a second coat.",
+        "serviceMin": 5,
+        "serviceMax": 70,
+        "lapShearSubstrate": "No lap-shear value published; TDS describes surface repair of ceramic/porcelain chips and scratches, not structural joining.",
+        "viscosityUnit": "cP",
+        "clarity": "opaque",
+        "shelfLifeMonths": 12,
+        "tackFreeTime": "24 hours; TDS states leave undisturbed for 24 hours"
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Ceramic-Repair-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Ceramic-Repair-en_US.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LOCTITE-Ceramic-Repair-en_US.pdf",
             "label": "LOCTITE\u00ae Ceramic Repair en_US | application/pdf"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Ceramic-Repair-en_US.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-ceramic-repair/SAP_0201ONL02M60.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
-          "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
-          "viscosityValue",
+        "electronicsFieldsPresent": [
           "viscosityUnit",
+          "tackFreeTime"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
@@ -62778,18 +62861,17 @@
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
-          "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Verified absent from available TDS fields: potLife, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Not for vertical surfaces, large gaps, rusted surfaces, colored surfaces or paintable finishes.",
+        "Not for ovens, stoves, microwaves or other high-heat surfaces. Apply above 10 \u00b0C; service range 5\u201370 \u00b0C."
       ],
       "extractionCandidates": []
     },
@@ -62968,6 +63050,221 @@
       "extractionCandidates": []
     },
     {
+      "id": "loctite-clear-silicone-waterproof-sealant",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Clear Silicone Waterproof Sealant",
+      "profile": "siliconeRubberAdhesive",
+      "summary": "Flexible acetoxy RTV silicone adhesive-sealant for waterproof sealing and bonding around glass, metal, tile, porcelain and selected rubbers and plastics.",
+      "applicationTags": [
+        "silicone-sealant",
+        "waterproofing",
+        "flexible-bonding",
+        "weatherproofing"
+      ],
+      "referenceCategory": "Silicone adhesive sealant",
+      "referenceForJoining": "Glass, metal, tile, porcelain, selected rubber/plastic; sealing joints",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "One-part acetoxy RTV silicone",
+        "cureFamily": "One-part acetoxy RTV silicone adhesive sealant",
+        "cureDetail": "Moisture-cure; 5\u201310 minute working time, 2-hour tack-free time and 24-hour cure (times vary with joint conditions).",
+        "serviceMin": -60,
+        "serviceMax": 177,
+        "serviceTemperatureNote": "TDS also lists short-term/intermittent exposure to 200 \u00b0C; continuous service is -60 to 177 \u00b0C.",
+        "lapShearSubstrate": "Not published in the TDS; tensile strength is reported separately under ASTM D412.",
+        "clarity": "transparent",
+        "tensileStrengthMPa": 1.5,
+        "elongationPct": 350,
+        "hardnessValue": 20,
+        "hardnessScale": "Shore A, minimum",
+        "specificGravity": 1.03,
+        "shelfLifeMonths": 24,
+        "tackFreeTime": "2 hours"
+      },
+      "rankableSpecs": {
+        "tensileStrengthMPa": 1.5,
+        "elongationPct": 350,
+        "hardnessValue": 20
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-clear-silicone/SAP_0201XCL02WYJ.html",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Clear-Silicone-Waterproof-Sealant-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.909,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.545,
+        "electronicsValueCoverage": 0.25,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "tackFreeTime"
+        ],
+        "decisionFieldsMissing": [
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "potLife",
+          "fixtureTime",
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [
+          "viscosityValue"
+        ],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: viscosityClass",
+        "Verified absent from available TDS fields: potLife, fixtureTime, lapShear, thermalConductivity, viscosityValue",
+        "Not applicable to this product/behavior: viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor",
+        "Not recommended on PE, PP, PTFE, PMMA, polycarbonate, PVC, marble, limestone, cement, concrete, brass, copper, magnesium, iron, zinc or galvanized metals.",
+        "Not paintable. Aquarium use limited to tanks \u226430 gallons (114 L) and water depth \u226418 in (46 cm); not for below-grade, chimney or stovepipe use. Acetic-acid odor during cure: ventilate."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-epoxy-instant-mix-1min",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Epoxy Instant Mix 1 Minute",
+      "profile": "clearEpoxy",
+      "summary": "Fast-setting self-mixing epoxy for small gap-bonding, filling, surface repairs and laminating across many rigid household materials.",
+      "applicationTags": [
+        "epoxy",
+        "fast-setting",
+        "gap-filling",
+        "household-repair"
+      ],
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceForJoining": "Metal, glass, ceramic, wood, rigid plastics, fiberglass, concrete and stone",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Equal-volume mix; 1-minute gel time, 5\u201310-minute handling strength and 24-hour full cure. Instructions say place parts together within 40 seconds.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "TDS lists short-term/intermittent exposure to 150 \u00b0C; continuous service is -23 to 49 \u00b0C.",
+        "potLife": "1 minute gel time",
+        "lapShear": 17.2,
+        "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 17.2 MPa tensile shear.",
+        "clarity": "translucent",
+        "shelfLifeMonths": 18,
+        "cureProfiles": 1440
+      },
+      "rankableSpecs": {
+        "lapShear": 17.2
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-instant-mix-1min/SAP_0201OAL029U5.html",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-1-Minute-Instant-Mix-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "lapShear",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "cureProfiles"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "hardnessValue",
+          "hardnessScale",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": [
+          "cureProfiles"
+        ]
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Verified absent from available TDS fields: thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Do not expose to prolonged water immersion or continuously wet areas; not for potable-water systems."
+      ],
+      "extractionCandidates": []
+    },
+    {
       "id": "official-lead-henkel-loctite-loctite-epoxy-instant-mix-1min",
       "source": "official-manufacturer-lead",
       "maker": "Henkel Loctite",
@@ -63142,59 +63439,92 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-epoxy-marine",
-      "source": "official-manufacturer-lead",
+      "id": "loctite-epoxy-marine",
+      "source": "manual-tds",
       "maker": "Henkel Loctite",
       "name": "Loctite Epoxy Marine",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "toughenedEpoxy",
+      "summary": "Long-working waterproof epoxy for repairs on boats, pipes and parts that may be immersed or bonded underwater.",
+      "applicationTags": [
+        "epoxy",
+        "marine-repair",
+        "underwater-curing",
+        "pipe-repair",
+        "waterproofing"
+      ],
+      "referenceCategory": "Marine and epoxy repair adhesives",
+      "referenceForJoining": "Metal, concrete, glass, fiberglass, ceramic, wood, rigid plastics and PVC pipes",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Equal-volume mix; 120\u2013150-minute gel/set time, usable strength in 3 hours and full cure in 24 hours.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "Intermittent exposure up to 150 \u00b0C; continuous service is -23 to 49 \u00b0C. Product is rated for underwater application and cure.",
+        "potLife": "120\u2013150 minutes",
+        "lapShear": 20.68,
+        "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 20.68 MPa tensile shear; TDS reports distinct wet/underwater results.",
+        "clarity": "opaque",
+        "hardnessValue": 85,
+        "hardnessScale": "Shore D",
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {
+        "lapShear": 20.68,
+        "hardnessValue": 85
+      },
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Marine-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Marine-en_US.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Marine-en_US.pdf",
             "label": "LOCTITE\u00ae Epoxy Marine en_US | application/pdf"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Marine-en_US.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-marine/SAP_0201OIL029V5.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.727,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
-          "fixtureTime",
           "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -63208,86 +63538,105 @@
           "dielectricBreakdownKVPerMm",
           "tensileStrengthMPa",
           "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not recommended for PE, PP, non-stick coatings, nylon or flexible materials.",
+        "Not for aquariums or potable-water systems. Short-term heat limit is 150 \u00b0C; continuous service range is -23 to 49 \u00b0C."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-epoxy-metal-concrete",
-      "source": "official-manufacturer-lead",
+      "id": "loctite-epoxy-metal-concrete",
+      "source": "manual-tds",
       "maker": "Henkel Loctite",
-      "name": "Loctite Epoxy Metal Concrete",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
-      "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "name": "Loctite Epoxy Metal/Concrete",
+      "profile": "toughenedEpoxy",
+      "summary": "Machinable gray insulating epoxy for rebuilding metal and concrete repairs, including sealing electrical components against moisture and vibration.",
+      "applicationTags": [
+        "epoxy",
+        "metal-repair",
+        "concrete-repair",
+        "electrical-sealing"
+      ],
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceForJoining": "Metal, concrete, glass, ceramic, wood and stone",
+      "electricalBehaviorClass": "insulating",
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Equal-volume mix; 5\u201312-minute gel/set, usable strength in 12 hours and full cure in 24 hours.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "Intermittent exposure up to 150 \u00b0C only; continuous service is -23 to 49 \u00b0C.",
+        "potLife": "5\u201312 minutes",
+        "lapShear": 22.01,
+        "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 22.01 MPa tensile shear.",
+        "clarity": "opaque",
+        "electricalBehavior": "electrically insulating; TDS says it does not conduct electricity",
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {
+        "lapShear": 22.01
+      },
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-MetalConcrete-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-MetalConcrete-en_US.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-MetalConcrete-en_US.pdf",
             "label": "LOCTITE\u00ae Epoxy Metal/Concrete en_US | application/pdf"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-MetalConcrete-en_US.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-metal-concrete/SAP_0201OIL029V6.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 0.1,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.05,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
-          "fixtureTime",
           "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
+        "electronicsFieldsPresent": [
+          "electricalBehavior"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
         "electronicsFieldsMissing": [
           "viscosityValue",
           "viscosityUnit",
-          "electricalBehavior",
           "volumeResistivityOhmM",
           "surfaceResistivityOhm",
-          "connectionResistanceOhm",
           "insulationResistanceOhm",
           "dielectricConstant",
           "dissipationFactor",
@@ -63303,72 +63652,106 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
         "electronicsFieldsVerifiedAbsent": [],
         "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "connectionResistanceOhm"
+        ],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Missing electronics fields: viscosityValue, viscosityUnit, volumeResistivityOhmM, surfaceResistivityOhm, insulationResistanceOhm, dielectricConstant, dissipationFactor, dielectricBreakdownVPerMil",
+        "Verified absent from available TDS fields: thermalConductivity",
+        "Not applicable to this product/behavior: connectionResistanceOhm",
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for continuous immersion, continuously wet areas or potable-water systems."
       ],
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-epoxy-plastic",
-      "source": "official-manufacturer-lead",
+      "id": "loctite-epoxy-plastic",
+      "source": "manual-tds",
       "maker": "Henkel Loctite",
       "name": "Loctite Epoxy Plastic",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "clearEpoxy",
+      "summary": "Machinable water-resistant epoxy formulated for rigid plastics including ABS, fiberglass and PVC, plus gap filling, surface repair and laminating.",
+      "applicationTags": [
+        "epoxy",
+        "plastic-repair",
+        "gap-filling",
+        "machinable"
+      ],
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceForJoining": "ABS, fiberglass, hard plastics and PVC",
       "electricalBehaviorClass": "",
-      "specs": {},
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Equal-volume mix; 4\u201310-minute gel time, usable strength in 1 hour and full cure in 24 hours.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "Intermittent exposure up to 150 \u00b0C; continuous service -23 to 49 \u00b0C.",
+        "potLife": "4\u201310 minutes",
+        "lapShearSubstrate": "No tensile lap-shear value reported; TDS reports compressive shear at 24 h: hard PVC 7.45 MPa and Acrylite FF 6.61 MPa.",
+        "clarity": "translucent",
+        "shelfLifeMonths": 24
+      },
       "rankableSpecs": {},
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE--Epoxy-Plastic-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE--Epoxy-Plastic-en_US.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LOCTITE--Epoxy-Plastic-en_US.pdf",
             "label": "LOCTITE\u00ae Epoxy Plastic en_US | application/pdf"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE--Epoxy-Plastic-en_US.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-plastic/SAP_0201OIL029V7.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.0,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
-          "fixtureTime",
-          "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -63390,15 +63773,16 @@
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Verified absent from available TDS fields: lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for continuous immersion, continuously wet areas or potable water. Short-term heat limit 150 \u00b0C; continuous service -23 to 49 \u00b0C."
       ],
       "extractionCandidates": []
     },
@@ -63490,59 +63874,93 @@
       "extractionCandidates": []
     },
     {
-      "id": "official-lead-henkel-loctite-loctite-epoxy-quick-set",
-      "source": "official-manufacturer-lead",
+      "id": "loctite-epoxy-quick-set",
+      "source": "manual-tds",
       "maker": "Henkel Loctite",
       "name": "Loctite Epoxy Quick Set",
-      "profile": null,
-      "summary": "Official manufacturer-listed product lead; technical specifications have not been curated for selector recommendations.",
-      "applicationTags": [],
-      "referenceCategory": null,
-      "referenceForJoining": null,
+      "profile": "clearEpoxy",
+      "summary": "General-purpose 5-minute dual-syringe epoxy for bonding, filling, surface repairs and laminating rigid materials.",
+      "applicationTags": [
+        "epoxy",
+        "fast-setting",
+        "gap-filling",
+        "household-repair",
+        "machinable"
+      ],
+      "referenceCategory": "Epoxy repair adhesives",
+      "referenceForJoining": "Metal, glass, ceramic, wood, rigid plastics, china, tile, fiberglass, concrete and stone",
       "electricalBehaviorClass": "",
-      "specs": {},
-      "rankableSpecs": {},
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Equal-volume mix; 4\u201310-minute gel time, usable strength in 1 hour and full cure in 24 hours.",
+        "serviceMin": -23,
+        "serviceMax": 49,
+        "serviceTemperatureNote": "Intermittent exposure to 150 \u00b0C; continuous service is -23 to 49 \u00b0C.",
+        "potLife": "4\u201310 minutes",
+        "lapShear": 23.7,
+        "lapShearSubstrate": "Sandblasted cold-rolled steel, 24-hour cure: 23.70 MPa tensile shear; TDS reports multiple substrate- and cure-specific strengths.",
+        "clarity": "translucent",
+        "hardnessValue": 80,
+        "hardnessScale": "Shore D",
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {
+        "lapShear": 23.7,
+        "hardnessValue": 80
+      },
       "pricing": null,
       "sources": {
         "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
         "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Quick-Set-en_US.pdf",
-        "tdsUrls": [
-          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Quick-Set-en_US.pdf"
-        ],
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url",
         "tdsDocuments": [
           {
             "url": "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Quick-Set-en_US.pdf",
             "label": "LOCTITE\u00ae Epoxy Quick Set en_US | application/pdf"
           }
         ],
+        "tdsUrls": [
+          "https://datasheets.tdx.henkel.com/LOCTITE-Epoxy-Quick-Set-en_US.pdf"
+        ],
         "technicalDocuments": [],
-        "sdsUrls": [],
-        "productUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html",
-        "sourceLabel": "Loctite consumer products index",
-        "tdsCacheTextPath": null,
-        "sourceQuality": "official-manufacturer-lead"
+        "officialProductUrls": [
+          "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-quick-set/SAP_0201OIL02KC5.html"
+        ]
       },
       "coverage": {
-        "decision": 0,
-        "electronics": 0,
-        "decisionValueCoverage": 0,
-        "electronicsValueCoverage": 0,
-        "decisionFieldsPresent": [],
-        "electronicsFieldsPresent": [],
-        "decisionFieldsMissing": [
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.727,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
           "serviceMin",
           "serviceMax",
           "potLife",
-          "fixtureTime",
           "lapShear",
-          "viscosityClass",
           "clarity",
-          "thermalConductivity",
           "stress",
           "substrates",
           "cautions"
         ],
-        "electronicsFieldsMissing": [
+        "electronicsFieldsPresent": [
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
           "viscosityValue",
           "viscosityUnit",
           "electricalBehavior",
@@ -63556,23 +63974,22 @@
           "dielectricBreakdownKVPerMm",
           "tensileStrengthMPa",
           "elongationPct",
-          "hardnessValue",
-          "hardnessScale",
           "peelStrengthNPerM",
           "chipBondStrengthMPa",
           "cureDepthMm",
           "tackFreeTime",
           "cureProfiles"
         ],
-        "decisionFieldsVerifiedAbsent": [],
-        "electronicsFieldsVerifiedAbsent": [],
-        "decisionFieldsNotApplicable": [],
-        "electronicsFieldsNotApplicable": [],
         "decisionFieldsAliasCovered": [],
         "electronicsFieldsAliasCovered": []
       },
       "agentNotes": [
-        "Browse-only manufacturer lead. Do not recommend or rank until a reviewer reads the linked TDS and curates product-specific specs."
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Verified absent from available TDS fields: thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not recommended for polyethylene (PE), polypropylene (PP), non-stick coatings, nylon or flexible materials.",
+        "Follow the TDS surface-preparation and ventilation instructions; performance depends on substrate, joint design and cure conditions.",
+        "Not for prolonged water immersion, continuously wet areas or potable-water systems."
       ],
       "extractionCandidates": []
     },
@@ -63788,6 +64205,111 @@
         "Not recommended for PE, PP, PTFE, flexible or plasticized PVC, acrylic glass, copper, brass, PE films over foam insulation, bitumen-coated surfaces, flexible sheet goods, or mirror applications.",
         "Direct sunlight may degrade the adhesive; do not use on warped materials.",
         "Wet-surface use is acceptable only if the surfaces can dry; nonporous-to-nonporous bonds may require a light water mist and can cure much more slowly."
+      ],
+      "extractionCandidates": []
+    },
+    {
+      "id": "loctite-epoxy-putty",
+      "source": "manual-tds",
+      "maker": "Henkel Loctite",
+      "name": "Loctite Repair Putty All Purpose",
+      "profile": "toughenedEpoxy",
+      "summary": "Hand-kneadable epoxy putty for waterproof gap filling and emergency repairs; bonds damp surfaces and cures underwater, but is not for structural or moving joints.",
+      "applicationTags": [
+        "epoxy-putty",
+        "waterproof-repair",
+        "gap-filling",
+        "plumbing-repair",
+        "underwater-curing"
+      ],
+      "referenceCategory": "Epoxy repair putty",
+      "referenceForJoining": "Metal, wood, ceramic, brick, concrete, fiberglass, PVC and most rigid plastics",
+      "electricalBehaviorClass": "",
+      "specs": {
+        "chemistry": "Two-part epoxy resin and polymercaptan hardener putty",
+        "cureFamily": "Two-part room-temperature epoxy",
+        "cureDetail": "Hand knead approximately 1 minute; 3\u20135-minute working time, functional cure in 60 minutes, can be sanded/drilled/painted from 15 minutes and full cure in 24 hours.",
+        "serviceMin": -27,
+        "serviceMax": 70,
+        "serviceTemperatureNote": "TDS lists up to 121 \u00b0C for fills, but 70 \u00b0C for load-bearing bonds.",
+        "potLife": "3\u20135 minutes working time",
+        "lapShearSubstrate": "The TDS reports repair-putty shear measurements by material and wet/dry/underwater condition, not a comparable standardized lap-shear rating; see tdsShearProfilesPsi.",
+        "clarity": "opaque",
+        "hardnessValue": 84,
+        "hardnessScale": "Shore D",
+        "specificGravity": 2.0,
+        "shelfLifeMonths": 24
+      },
+      "rankableSpecs": {
+        "hardnessValue": 84
+      },
+      "pricing": null,
+      "sources": {
+        "referenceUrl": "https://www.loctiteproducts.com/products/central-pdp.html/loctite-epoxy-putty/SAP_0201OGL029V2.html",
+        "tdsUrl": "https://datasheets.tdx.henkel.com/LOCTITE-Repair-Putty-All-Purpose-en_US.pdf",
+        "productUrl": null,
+        "sourceLabel": null,
+        "tdsCacheTextPath": null,
+        "sourceQuality": "official-tds-url"
+      },
+      "coverage": {
+        "decision": 0.818,
+        "electronics": 1.0,
+        "decisionValueCoverage": 0.636,
+        "electronicsValueCoverage": 0.1,
+        "decisionFieldsPresent": [
+          "serviceMin",
+          "serviceMax",
+          "potLife",
+          "clarity",
+          "stress",
+          "substrates",
+          "cautions"
+        ],
+        "electronicsFieldsPresent": [
+          "hardnessValue",
+          "hardnessScale"
+        ],
+        "decisionFieldsMissing": [
+          "fixtureTime",
+          "viscosityClass"
+        ],
+        "electronicsFieldsMissing": [],
+        "decisionFieldsVerifiedAbsent": [
+          "lapShear",
+          "thermalConductivity"
+        ],
+        "electronicsFieldsVerifiedAbsent": [],
+        "decisionFieldsNotApplicable": [],
+        "electronicsFieldsNotApplicable": [
+          "viscosityValue",
+          "viscosityUnit",
+          "electricalBehavior",
+          "volumeResistivityOhmM",
+          "surfaceResistivityOhm",
+          "connectionResistanceOhm",
+          "insulationResistanceOhm",
+          "dielectricConstant",
+          "dissipationFactor",
+          "dielectricBreakdownVPerMil",
+          "dielectricBreakdownKVPerMm",
+          "tensileStrengthMPa",
+          "elongationPct",
+          "peelStrengthNPerM",
+          "chipBondStrengthMPa",
+          "cureDepthMm",
+          "tackFreeTime",
+          "cureProfiles"
+        ],
+        "decisionFieldsAliasCovered": [],
+        "electronicsFieldsAliasCovered": []
+      },
+      "agentNotes": [
+        "Missing decision fields: fixtureTime, viscosityClass",
+        "Verified absent from available TDS fields: lapShear, thermalConductivity",
+        "Not applicable to this product/behavior: viscosityValue, viscosityUnit, electricalBehavior, volumeResistivityOhmM, surfaceResistivityOhm, connectionResistanceOhm, insulationResistanceOhm, dielectricConstant",
+        "Not for structural applications, moving repairs or large/deep holes.",
+        "Load-bearing bonds limited to 70 \u00b0C; fills limited to 121 \u00b0C. Not recommended for PE, PP, non-stick coatings, nylon or flexible materials. Potable-water suitability must be verified for the jurisdiction and application."
       ],
       "extractionCandidates": []
     },

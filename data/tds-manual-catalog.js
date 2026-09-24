@@ -56141,6 +56141,327 @@ window.TDS_MANUAL_PRODUCTS = [
     "tdsUrl": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
     "tdsDocumentLabel": "DAP WELDWOOD Original Contact Cement Technical Data Sheet, revision 2018-08",
     "sourceUrl": "https://www.dap.com/products/adhesives/original-contact-neoprene-adhesive"
+  },
+  {
+    "id": "dap-weldwood-original-wood-glue",
+    "profile": "pvaWood",
+    "maker": "DAP WELDWOOD",
+    "name": "WELDWOOD Original Wood Glue",
+    "summary": "Fast-setting PVA woodworking glue for furniture joints, cabinets, edge bonding, and other porous or semi-porous materials.",
+    "sourceRevisionDate": "DAP WELDWOOD Original Wood Glue Technical Data Sheet, revision August 2018.",
+    "chemistry": "Polyvinyl acetate (PVA)",
+    "cureFamily": "One-part PVA wood glue",
+    "cureDetail": "For furniture joints, assemble within 5–7 minutes and clamp or weight for at least 30 minutes; allow to dry overnight before sanding and handling. For other assembly, pressure should be applied within 10 minutes. TDS says maximum joint strength is reached in 72 hours under normal conditions. Apply above 55°F; optimum conditions are 70–80°F.",
+    "applicationTemperatureMinF": 55,
+    "openTimeRangeMinutes": [
+      5,
+      7
+    ],
+    "clampTimeRangeMinutes": [
+      30,
+      120
+    ],
+    "viscosityValue": 7500,
+    "viscosityUnit": "cP",
+    "appearance": "Yellow",
+    "waterResistant": true,
+    "sandable": true,
+    "applicationTags": [
+      "wood-paper-fabric",
+      "interior-woodworking",
+      "porous-materials"
+    ],
+    "stress": {
+      "shear": 7,
+      "peel": 3,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.2,
+      "fuel": 0.1,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 10,
+      "mdf": 9,
+      "paper": 8,
+      "fabric": 7,
+      "leather": 6,
+      "metal": 0,
+      "glass": 0,
+      "concrete": 0
+    },
+    "lapShear": 24.8,
+    "lapShearSubstrate": "ASTM D905 wood-joint bond strength: hard maple at room temperature 3,600 psi (24.8 MPa), 77% wood failure. This is a wood bond-strength result, not a metal lap-shear result.",
+    "cautions": [
+      "Current DAP product information describes this glue as intended for indoor applications; the TDS does not publish an exterior-use rating.",
+      "Water-resistant does not mean waterproof; the TDS does not publish a continuous immersion rating.",
+      "Joint fit, wood species and moisture, temperature, humidity, and clamping pressure affect results; use TDS directions for the actual assembly."
+    ],
+    "referenceUrl": "https://images.dap.com/ww-wood-glue-tds-final.pdf",
+    "tdsUrl": "https://images.dap.com/ww-wood-glue-tds-final.pdf",
+    "tdsDocumentLabel": "DAP WELDWOOD Original Wood Glue Technical Data Sheet, revision 2018-08",
+    "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-original-wood-glue",
+    "solidsContentPct": 44.6,
+    "shelfLifeMonths": 12,
+    "coverageSqFtPerGallon": 225,
+    "weightPerGallonLb": 8.76
+  },
+  {
+    "id": "dap-weldwood-original-contact-cement-spray",
+    "profile": "sprayAdhesive",
+    "maker": "DAP WELDWOOD",
+    "name": "WELDWOOD Original Contact Cement Spray Adhesive",
+    "summary": "Web-spray synthetic-rubber contact adhesive for trim, door panels, laminates, upholstery, and other demanding flexible bonds.",
+    "sourceRevisionDate": "DAP WELDWOOD Original Contact Cement Spray Adhesive Technical Data Sheet, revision February 2024.",
+    "chemistry": "Synthetic rubber, solvent-based aerosol contact adhesive",
+    "cureFamily": "Solvent-flash spray contact adhesive",
+    "cureDetail": "Spray both surfaces and allow to dry until aggressively tacky; TDS says allow up to 5–10 minutes before bonding. Keep the assembly out of direct sunlight and in stable conditions until fully dried, approximately 24 hours. Product page describes readiness to bond in 1–3 minutes; actual timing depends on conditions.",
+    "serviceMin": -18,
+    "serviceMax": 82,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 180,
+    "applicationTemperatureMinF": 55,
+    "applicationTemperatureMaxF": 95,
+    "openTimeRangeMinutes": [
+      30,
+      30
+    ],
+    "appearance": "Clear web-spray aerosol",
+    "waterResistant": true,
+    "applicationTags": [
+      "spray-adhesive",
+      "contact-lamination",
+      "upholstery",
+      "interior-exterior"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 8,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.6,
+      "fuel": 0.2,
+      "immersion": 0.2
+    },
+    "substrates": {
+      "wood": 8,
+      "mdf": 8,
+      "paper": 8,
+      "fabric": 9,
+      "leather": 8,
+      "rubber": 8,
+      "metal": 7,
+      "abs": 6,
+      "pvc": 6,
+      "foamboard": 7
+    },
+    "cautions": [
+      "The aerosol is extremely flammable while dispensing; eliminate ignition sources and follow the product label and SDS.",
+      "TDS recommends test applications, especially on porous substrates where multiple coats may be needed.",
+      "TDS does not publish a quantified strength result; no lap-shear value is entered."
+    ],
+    "referenceUrl": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+    "tdsUrl": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+    "tdsDocumentLabel": "DAP WELDWOOD Original Contact Cement Spray Adhesive Technical Data Sheet, revision 2024-02",
+    "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-original-contact-cement-spray-adhesive",
+    "shelfLifeMonths": 18,
+    "coverageSqFtPerCan": 79
+  },
+  {
+    "id": "dap-weldwood-multi-purpose-spray-adhesive",
+    "profile": "sprayAdhesive",
+    "maker": "DAP WELDWOOD",
+    "name": "WELDWOOD Multi-Purpose Spray Adhesive",
+    "summary": "Mist-spray adhesive for removable or permanent bonding of lightweight materials in craft, hobby, and general assembly work.",
+    "sourceRevisionDate": "DAP WELDWOOD Multi-Purpose Spray Adhesive Technical Data Sheet, revision March 2024.",
+    "chemistry": "Synthetic rubber, solvent-based aerosol adhesive",
+    "cureFamily": "Solvent-evaporating spray adhesive",
+    "cureDetail": "For removable bonds, spray one surface and join immediately. For permanent bonds, spray both surfaces and allow about 1 minute to dry until tacky, then press firmly. Keep the assembly in stable conditions until fully dried, approximately 24 hours.",
+    "serviceMin": -18,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 55,
+    "applicationTemperatureMaxF": 95,
+    "appearance": "Clear mist-spray aerosol",
+    "applicationTags": [
+      "spray-adhesive",
+      "craft",
+      "lightweight-materials",
+      "removable-bonding",
+      "interior-exterior"
+    ],
+    "stress": {
+      "shear": 4,
+      "peel": 5,
+      "impact": 3
+    },
+    "environment": {
+      "humidity": 0.35,
+      "fuel": 0.15,
+      "immersion": 0.05
+    },
+    "substrates": {
+      "wood": 6,
+      "paper": 8,
+      "fabric": 7,
+      "metal": 5,
+      "abs": 6,
+      "pvc": 5,
+      "foamboard": 7,
+      "rubber": 4,
+      "glass": 4,
+      "leather": 4
+    },
+    "cautions": [
+      "The aerosol is extremely flammable while dispensing; eliminate ignition sources and follow the product label and SDS.",
+      "The TDS describes temporary and permanent bonding of lightweight materials; it does not publish quantitative strength values.",
+      "Coverage varies with substrate porosity and is stated at 1 g/ft² on a single surface."
+    ],
+    "referenceUrl": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+    "tdsUrl": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+    "tdsDocumentLabel": "DAP WELDWOOD Multi-Purpose Spray Adhesive Technical Data Sheet, revision 2024-03",
+    "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-multi-purpose-spray-adhesive",
+    "shelfLifeMonths": 18,
+    "coverageSqFtPerCan": 68
+  },
+  {
+    "id": "dap-weldwood-nonflammable-contact-cement",
+    "profile": "contactCement",
+    "maker": "DAP WELDWOOD",
+    "name": "WELDWOOD Nonflammable Contact Cement",
+    "summary": "Waterborne, high-solids polychloroprene contact adhesive for laminates, veneers, paneling, leather, fabrics, rubber, paper, and similar bonds.",
+    "sourceRevisionDate": "DAP WELDWOOD Nonflammable Contact Cement Technical Data Sheet, revision August 2018.",
+    "chemistry": "Waterborne, high-solids polychloroprene contact adhesive",
+    "cureFamily": "Waterborne contact cement",
+    "cureDetail": "Apply to both surfaces and allow 60–70 minutes to dry until tacky and glossy. Open/assembly time is 2.5–3 hours and varies with temperature and humidity. Bond with firm, even pressure; maximum holding strength in 7 days. TDS requires air, adhesive, and surfaces above 65°F for at least 24 hours before and after application.",
+    "serviceMin": -40,
+    "serviceMax": 82,
+    "serviceTemperatureMinF": -40,
+    "serviceTemperatureMaxF": 180,
+    "applicationTemperatureMinF": 65,
+    "applicationTemperatureMaxF": 120,
+    "openTimeRangeMinutes": [
+      150,
+      180
+    ],
+    "appearance": "Natural pourable liquid",
+    "solidsContentRangePct": [
+      53,
+      55
+    ],
+    "shelfLifeMonths": 12,
+    "coverageSqFtPerGallon": 760,
+    "waterResistant": true,
+    "applicationTags": [
+      "contact-lamination",
+      "waterborne",
+      "low-odor",
+      "interior-exterior"
+    ],
+    "stress": {
+      "shear": 5,
+      "peel": 8,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.65,
+      "fuel": 0.2,
+      "immersion": 0.25
+    },
+    "substrates": {
+      "wood": 9,
+      "mdf": 8,
+      "paper": 8,
+      "fabric": 9,
+      "leather": 9,
+      "rubber": 8,
+      "metal": 6,
+      "concrete": 6
+    },
+    "cautions": [
+      "Not for structural applications, copper or copper alloys, polystyrene foam, or heavy-gauge metal.",
+      "At least one bonded surface must be porous; painted or nonporous surfaces should be roughened.",
+      "Solvents in the formula may stain or damage painted surfaces, vinyl, or some plastics; test first.",
+      "Despite the TDS service rating up to 180°F, it calls for at least 72 hours of cure before direct sunlight or temperatures above 150°F.",
+      "Application-temperature discrepancy: the 2018 TDS specifies 65–120°F, while DAP’s current product page lists 40–100°F; check the current label or manufacturer guidance for the applicable batch."
+    ],
+    "standards": [
+      "Meets current VOC requirements (per manufacturer TDS)"
+    ],
+    "referenceUrl": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+    "tdsUrl": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+    "tdsDocumentLabel": "DAP WELDWOOD Nonflammable Contact Cement Technical Data Sheet, revision 2018-08",
+    "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-nonflammable-contact-cement"
+  },
+  {
+    "id": "dap-weldwood-landau-hhr-spray-contact-cement",
+    "profile": "sprayAdhesive",
+    "maker": "DAP WELDWOOD",
+    "name": "WELDWOOD Landau Top & Trim High Heat Spray-Grade Contact Cement",
+    "summary": "Professional spray-grade polychloroprene contact cement for automotive headliners, upholstery, carpeting, laminates, and similar trim work requiring heat resistance.",
+    "sourceRevisionDate": "DAP WELDWOOD Landau Top & Trim High Heat Resistant Spray Grade Contact Cement Technical Data Sheet, revision August 2018.",
+    "chemistry": "Polychloroprene synthetic rubber contact adhesive",
+    "cureFamily": "Solvent-flash high-heat spray contact cement",
+    "cureDetail": "For conventional spray, allow both coated surfaces to dry 5–10 minutes; hot spray dry time is about 2–5 minutes. The surfaces bond instantly on contact and cannot be shifted after joining. Open time is up to 2 hours. Cure assemblies for at least 72 hours before exposing them to direct sunlight or temperatures above 150°F. Adhesive, surfaces, and work area must be at least 65°F.",
+    "serviceMin": -18,
+    "serviceMax": 66,
+    "serviceTemperatureMinF": 0,
+    "serviceTemperatureMaxF": 150,
+    "applicationTemperatureMinF": 65,
+    "openTimeRangeMinutes": [
+      120,
+      120
+    ],
+    "viscosityValue": 170,
+    "viscosityUnit": "cP",
+    "solidsContentPct": 19,
+    "shelfLifeMonths": 12,
+    "coverageSqFtPerGallon": 237,
+    "appearance": "Natural or red liquid (color varies by grade)",
+    "waterResistant": true,
+    "applicationTags": [
+      "spray-adhesive",
+      "automotive-upholstery",
+      "high-heat",
+      "professional-use"
+    ],
+    "stress": {
+      "shear": 6,
+      "peel": 8,
+      "impact": 5
+    },
+    "environment": {
+      "humidity": 0.6,
+      "fuel": 0.2,
+      "immersion": 0.2
+    },
+    "substrates": {
+      "wood": 8,
+      "mdf": 7,
+      "fabric": 9,
+      "leather": 8,
+      "rubber": 7,
+      "metal": 7,
+      "foamboard": 8,
+      "pvc": 0,
+      "polystyrene": 0
+    },
+    "cautions": [
+      "Manufacturer TDS specifies industrial or professional use only.",
+      "Not for structural applications, copper, copper alloys, reactive metals, soft plastics, vinyl, or polystyrene foam; test other plastics first.",
+      "Solvent adhesive has a flash point below 20°F; observe the current label and SDS handling precautions.",
+      "TDS says bond should cure at least 72 hours before direct sunlight or exposure above 150°F."
+    ],
+    "standards": [
+      "Federal Specification A-A-1936 performance requirements (per TDS)"
+    ],
+    "referenceUrl": "https://images.dap.com/WW%20Landau%20Top%20%26%20Trim%20HHR_TDS_5.8.19.pdf",
+    "tdsUrl": "https://images.dap.com/WW%20Landau%20Top%20%26%20Trim%20HHR_TDS_5.8.19.pdf",
+    "tdsDocumentLabel": "DAP WELDWOOD Landau Top & Trim High Heat Spray Grade Contact Cement Technical Data Sheet, revision 2018-08",
+    "sourceUrl": "https://www.dap.com/products/adhesives/weldwood-0306-0307-high-heat-resistant-contact-cement"
   }
 ];
 
@@ -71264,10 +71585,125 @@ window.TDS_MANUAL_REFERENCE_FAMILIES = [
     "offerCount": 1,
     "sourceUrl": "https://images.dap.com/WW%20Original%20Contact%20Cement_TDS.pdf",
     "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-weldwood-original-wood-glue",
+    "manufacturer": "DAP WELDWOOD",
+    "familyName": "WELDWOOD Original Wood Glue",
+    "primaryCategory": "Woodworking Glues",
+    "categories": [
+      "Woodworking Glues"
+    ],
+    "sampleType": "4, 8, 16, or 32 fl oz bottle; 1 gal bottle",
+    "sampleConsistency": "Yellow PVA adhesive; 7,500 cP; furniture-joint assembly within 5–7 min; clamp or weight at least 30 min.",
+    "sampleForJoining": "Woodworking, furniture and cabinet joints, edge-bonding, wood and composition board, hardboard laminations, and other porous or semi-porous materials listed in the TDS.",
+    "applicationTags": [
+      "wood-paper-fabric",
+      "interior-woodworking",
+      "porous-materials"
+    ],
+    "tempMinC": null,
+    "tempMaxC": null,
+    "offerCount": 1,
+    "sourceUrl": "https://images.dap.com/ww-wood-glue-tds-final.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-weldwood-original-contact-cement-spray",
+    "manufacturer": "DAP WELDWOOD",
+    "familyName": "WELDWOOD Original Contact Cement Spray Adhesive",
+    "primaryCategory": "Spray Contact Adhesives",
+    "categories": [
+      "Spray Contact Adhesives"
+    ],
+    "sampleType": "14 oz net-weight aerosol can",
+    "sampleConsistency": "Clear web-spray synthetic-rubber contact adhesive; open time up to 30 min; service 0–180°F; approx. 24 h to fully dry.",
+    "sampleForJoining": "Foils, wood, veneer, laminate, upholstery, plastics, paper, carpeting, foam, felt, metal, and cardboard as listed in the TDS.",
+    "applicationTags": [
+      "spray-adhesive",
+      "contact-lamination",
+      "upholstery",
+      "interior-exterior"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://images.dap.com/Weldwood%20Original%20Spray%20Adhesive%20TDS%203.25.2024_7079800120.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-weldwood-multi-purpose-spray-adhesive",
+    "manufacturer": "DAP WELDWOOD",
+    "familyName": "WELDWOOD Multi-Purpose Spray Adhesive",
+    "primaryCategory": "Spray Adhesives",
+    "categories": [
+      "Spray Adhesives"
+    ],
+    "sampleType": "11 oz net-weight aerosol can",
+    "sampleConsistency": "Clear mist-spray synthetic-rubber adhesive; approx. 1 min to tack for permanent bonding; service 0–150°F; 18-month shelf life.",
+    "sampleForJoining": "Lightweight foils, plastics, paper, carpeting, foam, felt, metal, and cardboard for removable or permanent bonds.",
+    "applicationTags": [
+      "spray-adhesive",
+      "craft",
+      "lightweight-materials",
+      "removable-bonding",
+      "interior-exterior"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://images.dap.com/Weldwood%20Multi-Purpose%20Spray%20Adhesive%20TDS%203.25.2024_7079800124.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-weldwood-nonflammable-contact-cement",
+    "manufacturer": "DAP WELDWOOD",
+    "familyName": "WELDWOOD Nonflammable Contact Cement",
+    "primaryCategory": "Contact Adhesives",
+    "categories": [
+      "Contact Adhesives"
+    ],
+    "sampleType": "32 fl oz or 1 gal can (TDS also lists a pint size)",
+    "sampleConsistency": "Natural waterborne polychloroprene liquid; 53–55% solids; 60–70 min dry; 2.5–3 h open time; service −40 to 180°F.",
+    "sampleForJoining": "High-pressure laminates, wood and plastic veneers, paneling, leather, fabrics, rubber, paper, cardboard, and similar materials bonded to wood, particleboard, plywood, metal, or concrete.",
+    "applicationTags": [
+      "contact-lamination",
+      "waterborne",
+      "low-odor",
+      "interior-exterior"
+    ],
+    "tempMinC": -40,
+    "tempMaxC": 82,
+    "offerCount": 1,
+    "sourceUrl": "https://images.dap.com/WW%20Nonflam%20Contact%20Cement_TDS_5.8.19.pdf",
+    "sourceLabel": "TDS"
+  },
+  {
+    "id": "dap-weldwood-landau-hhr-spray-contact-cement",
+    "manufacturer": "DAP WELDWOOD",
+    "familyName": "WELDWOOD Landau Top & Trim High Heat Spray-Grade Contact Cement",
+    "primaryCategory": "High-Heat Spray Contact Adhesives",
+    "categories": [
+      "High-Heat Spray Contact Adhesives"
+    ],
+    "sampleType": "Gallon, 5 gal, or 55 gal pail/drum; natural or red",
+    "sampleConsistency": "Polychloroprene spray-grade contact cement; 170 cP; 19% solids; open time up to 2 h; service 0–150°F.",
+    "sampleForJoining": "Automotive headliners, cloth, leather, laminates, wood veneers, upholstery, carpeting, and similar materials bonded to metal, rigid polyurethane foam, or fiberboard.",
+    "applicationTags": [
+      "spray-adhesive",
+      "automotive-upholstery",
+      "high-heat",
+      "professional-use"
+    ],
+    "tempMinC": -18,
+    "tempMaxC": 66,
+    "offerCount": 1,
+    "sourceUrl": "https://images.dap.com/WW%20Landau%20Top%20%26%20Trim%20HHR_TDS_5.8.19.pdf",
+    "sourceLabel": "TDS"
   }
 ];
 
 window.TDS_MANUAL_STATS = {
-  "selectorProducts": 565,
-  "referenceFamilies": 565
+  "selectorProducts": 570,
+  "referenceFamilies": 570
 };

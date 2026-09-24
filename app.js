@@ -6208,6 +6208,13 @@ const DETAIL_EVIDENCE_FIELDS = [
   ["Historical TDS full cure (hours)", "tdsFullCureHours"],
   ["Historical TDS shelf life", "tdsShelfLife"],
   ["TDS document", "tdsDocumentLabel"],
+  ["TDS solids content (%)", "solidsContentPct"],
+  ["TDS solids content range (%)", "solidsContentRangePct"],
+  ["TDS viscosity (cP)", "viscosityValue"],
+  ["TDS shelf life (months)", "shelfLifeMonths"],
+  ["TDS coverage (sq ft / gallon)", "coverageSqFtPerGallon"],
+  ["TDS coverage (sq ft / can)", "coverageSqFtPerCan"],
+  ["TDS weight per gallon (lb)", "weightPerGallonLb"],
   ["TDS application and cure notes", "cureDetail"],
   ["TDS appearance", "appearance"],
   ["Service temperature minimum (°F)", "serviceTemperatureMinF"],
@@ -7075,7 +7082,7 @@ async function loadSelectorCatalog() {
   renderHeroStats();
   scheduleRenderResults();
   try {
-    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-dap-weldwood-20260923");
+    const response = await fetch("./data/selector-catalog.json?v=tds-evidence-20260923-3m-dap-permatex-ca-glues-rtv-3m-pr40-ec9370-selleys-dp100-clear-e6100-e6800-e6000-intermittent-dap-weldwood-contactvariants-20260923");
     if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
     const catalog = await response.json();
     ingestSelectorProducts(catalog.tdsProducts ?? []);
